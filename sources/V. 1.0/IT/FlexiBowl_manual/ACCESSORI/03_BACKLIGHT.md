@@ -7,7 +7,7 @@ Il Backlight è disponibile con luce:
 - Infrarossa
 
 :::{important}
-Il backlight infrarosso emette luce non visibile e perciò può apparire non funzionante. Controllare con una telecamera con un filtro ad infrarossi installato per verificarne il funzionamento. La maggior parte degli smartphone visualizzano gli infrarossi.
+Il Backlight infrarosso emette luce non visibile e perciò può apparire non funzionante. Controllare con una telecamera con un filtro ad infrarossi installato per verificarne il funzionamento. La maggior parte degli smartphone visualizzano gli infrarossi.
 :::
 
 Esistono inoltre due tipi di Backlight:
