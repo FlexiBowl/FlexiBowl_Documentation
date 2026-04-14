@@ -1,7 +1,7 @@
-# **Manuale FlexiVision One**
+# **Manuale FlexiBowl**
 
-## **Benvenuto nel manuale di FlexiVision One!**  
-Siamo entusiasti di darvi il benvenuto alla vostra nuova guida di FlexiVision One!
+## **Benvenuto nel manuale FlexiBowl®!**  
+Siamo entusiasti di darvi il benvenuto alla vostra nuova guida di FlexiBowl®!
 Questo manuale è stato creato appositamente per essere il vostro punto di riferimento chiaro e affidabile. Ci auguriamo che, consultandolo, possiate godere appieno di tutti i benefici del nostro sistema.
 Il vostro parere è fondamentale per noi: non esitate a fornirci il vostro feedback [contattandoci](https://www.flexibowl.it/contatti)! 
 
@@ -11,10 +11,8 @@ Il vostro parere è fondamentale per noi: non esitate a fornirci il vostro feedb
   <img src="../../_shared/static/logo_fv_black.png" alt="Ars logo" class="only-dark img-logo">
 </a>
   
-## **Cosa è FlexiVision One?**  
-FlexiVision One è la nostra soluzione di visione basata su VisionController, pensata per guidare il robot e disponibile come componente aggiuntivo per i sistemi FlexiBowl®.
-Mantenendo tutte le potenti funzionalità della versione precedente, permettendo quindi lo scarico, la separazione, il riconoscimento e il prelievo dei pezzi sfusi sulla superficie dell’alimentatore, FlexiVision One rivoluziona l'esperienza utente.
-Grazie a una guida passo passo completa e a strumenti intuitivi, abbiamo estremamente semplificato il processo, rendendo la programmazione e l'utilizzo accessibili e utilizzabili da chiunque, indipendentemente dal livello di esperienza.
+## **Cosa è FlexiBowl?**  
+Il FlexiBowl® è un sistema di alminentazione flessibile a disco rotante vibrante per il posizionamento e orientamento casuale dei componenti ai fini del prelievo robotico.
 
 ## **Panoramica del sistema** 
 Schema esemplificativo del sistema con collegamenti fino a tre FlexiBowl, tre camere e tre tramogge.
@@ -66,16 +64,8 @@ La corretta implementazione di FlexiVision One richiede la collaborazione di div
   - Riferimento tecnico e specifiche, Opzioni
 
 * - **Tecnico installatore**
-  - Montaggio meccanico, cablaggio elettrico, configurazione rete
+  - Montaggio meccanico, allacciamento elettrico e pneumatico, configurazione rete
   - Installazione del sistema, Cablaggio e connessioni
-
-* - **Programmatore robot**
-  - Calibrazione camera-robot, integrazione plugin, programmazione logiche di prelievo
-  - Quickstart, Protocol Setup, Calibrazione
-
-* - **Operatore di linea**
-  - Creazione nuovi modelli pezzo, configurazione parametri FlexiBowl, monitoraggio prestazioni
-  - Verifica risultati Run Time
 
 * - **Manutentore**
   - Diagnosi problemi, sostituzione componenti, aggiornamenti software
@@ -125,134 +115,86 @@ In tutto il manuale vengono utilizzati banner informativi per evidenziare conten
 
 
 
-```{toctree}
+:::{toctree}
 :hidden:
 :caption: PRIMA DI INIZIARE 
-
-FlexiVisionEasy_manual/01_informazioni_preliminari.md
-```  
-
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/02_informazioni_sicurezza.md
-```  
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/03_Unboxing_Contenuto.md
-```    
-```{toctree} 
-:hidden:
-FlexiVisionEasy_manual/27_Support.md
-
-```
-```{toctree} 
-:hidden:
-FlexiVisionEasy_manual/27b_Glossario.md
-
-```
-
-```{toctree}
-:hidden:
-:caption: RIFERIMENTO TECNICO E SPECIFICHE 
-
-FlexiVisionEasy_manual/rif_tecnico_specifiche/04_Specifiche_FlexiVision.md
-```    
-
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/rif_tecnico_specifiche/04b_Protocolli_Comunicazione.md
-```   
-
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/rif_tecnico_specifiche/05_Calcolo_distanza_ottimale.md
-```    
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/rif_tecnico_specifiche/integrazione_software/06_PlugIn.md
-```    
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/rif_tecnico_specifiche/integrazione_software/07_Backup_management.md
-```     
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/rif_tecnico_specifiche/08_Opzioni.md
-```   
-```{toctree}
-:hidden:
-:caption: INSTALLAZIONE DEL SISTEMA
-
-FlexiVisionEasy_manual/INSTALLAZIONE_SISTEMA/09_Installazione_Meccanica.md
-```     
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/INSTALLAZIONE_SISTEMA/10_Cablaggio_Connessioni.md
-```     
+FlexiBowl_manual/PRIMA DI INIZIARE/01_informazioni_preliminari.md
+FlexiBowl_manual/PRIMA DI INIZIARE/02_informazioni_sicurezza.md
+FlexiBowl_manual/PRIMA DI INIZIARE/03_unboxing.md
+FlexiBowl_manual/PRIMA DI INIZIARE/04_support.md
+FlexiBowl_manual/PRIMA DI INIZIARE/05_glossario.md
+:::
   
-```{toctree}
+:::{toctree}
 :hidden:
 :caption: QUICKSTART
+FlexiBowl_manual/QUICKSTART/01_panoramica.md
+FlexiBowl_manual/QUICKSTART/02_componenti-opzionali.md
+FlexiBowl_manual/QUICKSTART/03_dati-tecnici-meccanici.md
+FlexiBowl_manual/QUICKSTART/04_dati-tecnici-elettrici.md
+FlexiBowl_manual/QUICKSTART/05_dati-tecnici-pneumatici.md
+FlexiBowl_manual/QUICKSTART/06_dati-tecnici-applicativi.md
+:::
 
-FlexiVisionEasy_manual/QUICKSTART/12_Panoramica_Interfaccia.md
-```     
-```{toctree}
+:::{toctree}
 :hidden:
-FlexiVisionEasy_manual/QUICKSTART/SETUP/13_setup.md
-``` 
+:caption: INSTALLAZIONE
+FlexiBowl_manual/INSTALLAZIONE/01_interfaccia-meccanica.md
+FlexiBowl_manual/INSTALLAZIONE/02_interfaccia-elettrica.md
+FlexiBowl_manual/INSTALLAZIONE/03_interfaccia-pneumatica.md
+FlexiBowl_manual/INSTALLAZIONE/04_interfaccia-software.md
+:::
 
-
-```{toctree}
+:::{toctree}  
 :hidden:
-FlexiVisionEasy_manual/QUICKSTART/Nuovo_Modello/16_Nuovo_modello.md
-```
+:caption: PLUG-IN 
+FlexiBowl_manual/PLUG-IN/01_PlugIn.md
+:::
 
-```{toctree}
+:::{toctree}
 :hidden:
-FlexiVisionEasy_manual/QUICKSTART/24_Verifica_Risultati.md
-```
+:caption: LAYOUT BEST PRACTICE
+FlexiBowl_manual/LAYOUT BEST PRACTICE/01_layoutbd.md
+:::
 
-```{toctree}
+:::{toctree}
 :hidden:
-:caption: APPLICAZIONI MIX
+:caption: ACCESSORI
+FlexiBowl_manual/ACCESSORI/00_ACCESSORI.md
+FlexiBowl_manual/ACCESSORI/01_SUPERFICI.md
+FlexiBowl_manual/ACCESSORI/02_DISCHI_RIGIDI.md
+FlexiBowl_manual/ACCESSORI/03_BACKLIGHT.md
+FlexiBowl_manual/ACCESSORI/04_TOPLIGHT.md
+FlexiBowl_manual/ACCESSORI/05_DEVIATORE.md
+FlexiBowl_manual/ACCESSORI/06_SOFFI.md
+FlexiBowl_manual/ACCESSORI/07_BRUSH_DIVERTER.md
+FlexiBowl_manual/ACCESSORI/08_WEDGE.md
+FlexiBowl_manual/ACCESSORI/09_SVUOTAMENTO.md
+FlexiBowl_manual/ACCESSORI/10_TRACKING.md
+FlexiBowl_manual/ACCESSORI/11_RINGLIGHT.md
+:::
 
-FlexiVisionEasy_manual/APPLICAZIONI_MIX/28_Panoramica_Mix.md
-```  
-
-```{toctree}
+:::{toctree}  
 :hidden:
-FlexiVisionEasy_manual/APPLICAZIONI_MIX/29_Comandi_Mix.md
-```  
+:caption: MANUTENZIONE 
+FlexiBowl_manual/MANUTENZIONE/01_ordinaria.md
+FlexiBowl_manual/MANUTENZIONE/02_straordinaria.md
+:::
 
-```{toctree}
+:::{toctree}  
 :hidden:
-:caption: CONFIGURAZIONI MULTI-DISPOSITIVO
+:caption: CERTIFICAZIONI 
+FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
+:::
 
-FlexiVisionEasy_manual/CONFIGURAZIONI_MULTI-DISPOSITIVO/30_2FB2CAM.md
-```
-
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/CONFIGURAZIONI_MULTI-DISPOSITIVO/31_3FB3CAM.md
-```  
-
-
-```{toctree}  
+:::{toctree}  
 :hidden:
 :caption: GARANZIA 
+FlexiBowl_manual/Garanzia.md
+:::
 
-FlexiVisionEasy_manual/25_Garanzia.md
-```
-
-```{toctree}  
+:::{toctree}  
 :hidden:
 :caption: TROUBLESHOOTING
-
-FlexiVisionEasy_manual/TROUBLESHOOTING/26_trb_shooting_guide.md
-```
-
-
-
-
-
-
+FlexiBowl_manual/TROUBLESHOOTING/01_risoluzione-problemi.md
+:::
