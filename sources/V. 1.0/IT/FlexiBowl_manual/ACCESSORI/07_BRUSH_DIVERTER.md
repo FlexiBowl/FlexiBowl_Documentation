@@ -17,18 +17,16 @@ Il gruppo **brush diverter** è composto da **4 spazzole**:
 
 Preferire il gruppo **brush diverter**:
 
-- Quando i componenti sono **troppo pesanti** per essere spostati dal getto d'aria (rispetto ai vari tipi di soffio)
-- Quando si utilizzano **superfici spike** (rispetto al deviatore standard)
+- Rispetto ai soffi quando i componenti sono **troppo pesanti** per essere spostati dal getto d'aria;
+- Rispetto ai deviatori standard quando si utilizzano **superfici spike**.
 
 ---
 
 ## 2. Procedura di montaggio
 
-```{warning} Attenzione
-
-
+:::{warning} Attenzione
 Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il montaggio.
-```
+:::
 
 | Step | Operazione |
 |:----:|-----------|
@@ -39,6 +37,10 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il 
 ---
 
 ## 3. Procedura di regolazione
+
+:::{warning} Attenzione
+Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la regolazione.
+:::
 
 ### 3.1 Spazzole centrale e deviatori
 
@@ -60,19 +62,18 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il 
 
 ## 4. Valutazione del corretto funzionamento
 
-```{admonition} Verifica finale
+:::{admonition} Verifica finale
 :class: important
-
 Effettuare una **prova di movimentazione del FlexiBowl®** per valutare l'efficacia dei deviatori.
 
 Criteri di valutazione:
 
 | Criterio | Esito atteso |
 |----------|-------------|
-| Movimentazione componenti pesanti | I componenti vengono deviati correttamente senza l'ausilio di aria |
+| Movimentazione componenti pesanti | I componenti vengono deviati correttamente |
 | Compatibilità superficie spike | Nessun intralcio o attrito anomalo tra spazzole e superficie |
 | Stabilità delle spazzole dopo regolazione | Le spazzole rimangono in posizione durante la movimentazione |
-```
+:::
 
 ---
 
