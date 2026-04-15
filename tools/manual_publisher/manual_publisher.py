@@ -352,6 +352,15 @@ def remove_target_scope(output_root: Path, target_version: str | None, target_la
             remove_directory(version_path / target_language.upper())
 
 
+def sync_shared_video_assets(source_root: Path, build_root: Path) -> None:
+    shared_video_root = source_root / "_shared" / "media" / "videos"
+    if not shared_video_root.exists():
+        return
+
+    destination_root = build_root / SHARED_BUILD_MEDIA_ROOT / "videos"
+    mirror_directory(shared_video_root, destination_root)
+
+
 def configure_footer_features(
     temp_root: Path,
     *,
@@ -1539,6 +1548,8 @@ def build_site(
             ensure_nojekyll(build_root)
         with timed_step("create build landing page", timings):
             create_root_landing_page(build_root, source_root)
+        with timed_step("sync shared source videos into build", timings):
+            sync_shared_video_assets(source_root, build_root)
 
         if mode == "full":
             build_release_assets(
