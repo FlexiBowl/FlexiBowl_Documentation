@@ -31,12 +31,14 @@ Il Backlight a luce infrarossa emette luce non visibile e perciò piuò apparire
 
 ## Procedimento
 
-- {ref}`Rimuovere la superficie o disco rigido <sost-disco>`;
-- Rimuovere il vetro di protezione dell'illuminatore (utilizzare le apposite tasche laterali);
-- Rimuovere le viti che fissano la scheda dell'illuminatore alla sua sede;
-- Estrarre la scheda dell'illuminatore e disconnettere il suo connettore;
-- Connettere la nuova scheda e montarlo nella corretta posizione;
-A sostituzione terminata, rimontare tutti i componenti.
+| Step | Operazione |
+|:----:|-----------|
+| 1 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
+| 2 | Rimuovere il vetro di protezione dell'illuminatore (utilizzare le apposite tasche laterali) |
+| 3 | Rimuovere le viti che fissano la scheda dell'illuminatore alla sua sede |
+| 4 | Estrarre la scheda dell'illuminatore e disconnettere il suo connettore |
+| 5 | Connettere la nuova scheda e montarlo nella corretta posizione |
+| 6 | A sostituzione terminata, rimontare tutti i componenti |
 
 ::::{raw} html
 <figure style="text-align: center;">

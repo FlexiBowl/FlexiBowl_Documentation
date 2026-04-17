@@ -9,7 +9,7 @@ Le superfici sono tappeti circolari in materiale telato e flessibile, e sono le 
 Seguono le caratteristiche principali delle superfici disponibili a listino:
 
 :::{list-table}
-:widths: 15 10 15 15 30 15 15 4 4
+:widths: 15 10 30 15 30 15 15 4 4
 :header-rows: 1
 
 * - Superficie
