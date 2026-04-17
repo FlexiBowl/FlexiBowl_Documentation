@@ -10,7 +10,7 @@ La loro rigidezza cambia il funzionamento del flip che, invce di agire in manier
 Seguono le caratteristiche principali dei dischi disponibili a listino:
 
 :::{list-table}
-:widths: 15 10 15 15 30 15 15 4 4
+:widths: 15 10 30 15 30 15 15 4 4
 :header-rows: 1
 
 * - Disco

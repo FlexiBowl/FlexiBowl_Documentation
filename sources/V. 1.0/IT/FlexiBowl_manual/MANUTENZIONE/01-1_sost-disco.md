@@ -29,11 +29,15 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la 
 
 :::
 
-- Sollevare/rimuovere deviatori/spazzole (se presenti) 
-- Allentare viti di fissaggio della calotta centrale 
-- Ruotare e rimuovere calotta centrale 
-- Rimuovere la superficie e posizionare quella nuova
-- Rimettere calotta centrale e serrare viti 
+### Procedimento
+
+| Step | Operazione |
+|:----:|-----------|
+| 1 | Sollevare/rimuovere deviatori/spazzole (se presenti) |
+| 2 | Allentare viti di fissaggio della calotta centrale |
+| 3 | Ruotare e rimuovere calotta centrale |
+| 4 | Rimuovere la superficie e posizionare quella nuova |
+| 5 | Rimettere calotta centrale e serrare viti |
 
 ::::{raw} html
 <figure style="text-align: center;">
@@ -74,11 +78,15 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la 
 
 :::
 
-- Rimuovere deviatori e gruppo barriera flip
-- Allentare viti di fissaggio della calotta centrale 
-- Ruotare e rimuovere calotta centrale 
-- Rimuovere disco e posizionare quello nuovo 
-- Rimettere calotta centrale e serrare viti
+### Procedimento
+
+| Step | Operazione |
+|:----:|-----------|
+| 1 | Rimuovere deviatori e gruppo barriera flip |
+| 2 | Allentare viti di fissaggio della calotta centrale |
+| 3 | Ruotare e rimuovere calotta centrale |
+| 4 | Rimuovere disco e posizionare quello nuovo  |
+| 5 | Rimettere calotta centrale e serrare viti |
 
 ::::{raw} html
 <figure style="text-align: center;">
@@ -117,9 +125,13 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la 
 
 :::
 
-- Rimuovere calotta centrale
-- Sostiutuire disco
-- Rimettere la calotta centrale
+### Procedimento
+
+| Step | Operazione |
+|:----:|-----------|
+| 1 | Rimuovere calotta centrale |
+| 2 | Sostiutuire disco |
+| 3 | Rimettere la calotta centrale |
 
 ::::{raw} html
 <figure style="text-align: center;">

@@ -13,31 +13,39 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il 
 :::
 
 ### FB500: 
-- Rimuovere le viti di fissaggio di entrambi i deviatori 
-- Svitare le viti di regolazione per rimuovere entrambi i deviatori 
-- Montare la cartuccia tappo al posto del deviatore post-flip 
-- Montare il gruppo wedge diverter al posto del deviatore pre-flip 
+
+| Step | Operazione |
+|:----:|-----------|
+| 1 | Rimuovere le viti di fissaggio di entrambi i deviatori |
+| 2 | Svitare le viti di regolazione per rimuovere entrambi i deviatori |
+| 3 | Montare la cartuccia tappo al posto del deviatore post-flip |
+| 4 | Montare il gruppo wedge diverter al posto del deviatore pre-flip |
 
 ### FB650-800: 
-- Rimuovere le viti di fissaggio di entrambi i deviatori 
-- Svitare le viti di regolazione per rimuovere entrambi i deviatori 
-- Montare la cartuccia tappo al posto del deviatore post-flip 
-- Assicurandosi che siano presenti i dadi quadri, montare la cartuccia wedge diverter al posto del deviatore pre-flip 
-- Sostituire il settore di anello a monte del deviatore pre-flip con quello fornito nel kit 
-- Fissare la parete tramite quattro viti di fissaggio: due viti TCEI M6x120 si fissano in corrispondenza della cartuccia wedge diverter, mentre le due viti TCEI M6x160 si - fissano in corrispondenza del settore di anello appena montato 
+
+| Step | Operazione |
+|:----:|-----------|
+| 1 | Rimuovere le viti di fissaggio di entrambi i deviatori |
+| 2 | Svitare le viti di regolazione per rimuovere entrambi i deviatori |
+| 3 | Assicurandosi che siano presenti i dadi quadri, montare la cartuccia wedge diverter al posto del deviatore pre-flip |
+| 4 | Sostituire il settore di anello a monte del deviatore pre-flip con quello fornito nel kit |
+| 5 | Fissare la parete tramite quattro viti di fissaggio: due viti TCEI M6x120 si fissano in corrispondenza della cartuccia wedge diverter, mentre le due viti TCEI M6x160 si - fissano in corrispondenza del settore di anello appena montato |
 
 ### FB1200: 
-- Rimuovere le viti di fissaggio di entrambi i deviatori 
-- Svitare le viti di regolazione per rimuovere entrambi i deviatori 
-- Rimuovere il settore di anello su cui era montato il deviatore pre-flip e sostituirlo con il settore di anello incluso nel kit 
-- Montare la cartuccia tappo al posto del deviatore post-flip 
-- Assicurandosi che siano presenti i dadi quadri, montare la cartuccia wedge diverter al posto del deviatore pre-flip 
-- Fissare la parete tramite quattro viti di fissaggio: due viti TCEI M6x140 si fissano in corrispondenza della cartuccia wedge diverter, mentre le due viti TCEI M6x160 si fissano in corrispondenza del settore di anello appena montato 
+
+| Step | Operazione |
+|:----:|-----------|
+| 1 | Rimuovere le viti di fissaggio di entrambi i deviatori |
+| 2 | Svitare le viti di regolazione per rimuovere entrambi i deviatori |
+| 3 | Rimuovere il settore di anello su cui era montato il deviatore pre-flip e sostituirlo con il settore di anello incluso nel kit |
+| 4 | Montare la cartuccia tappo al posto del deviatore post-flip |
+| 5 | Assicurandosi che siano presenti i dadi quadri, montare la cartuccia wedge diverter al posto del deviatore pre-flip |
+| 6 | Fissare la parete tramite quattro viti di fissaggio: due viti TCEI M6x140 si fissano in corrispondenza della cartuccia wedge diverter, mentre le due viti TCEI M6x160 si fissano in corrispondenza del settore di anello appena montato |
 
 ## Procedura di regolazione 
 
-- Il wedge diverter non necessita di regolazione 
+Il wedge diverter non necessita di regolazione 
 
 ## Valutazione del corretto funzionamento 
 
-- Verificare il corretto scorrimento del disco sul wedge diverter. 
+Verificare il corretto scorrimento del disco sul wedge diverter.

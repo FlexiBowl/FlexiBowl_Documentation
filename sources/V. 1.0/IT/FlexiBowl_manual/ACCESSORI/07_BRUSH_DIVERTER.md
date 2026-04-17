@@ -13,8 +13,6 @@ Il gruppo **brush diverter** è composto da **4 spazzole**:
 
 ## Applicazioni consigliate
 
-### Quando usare il Brush Diverter
-
 Preferire il gruppo **brush diverter**:
 
 - Rispetto ai soffi quando i componenti sono **troppo pesanti** per essere spostati dal getto d'aria;
@@ -22,7 +20,7 @@ Preferire il gruppo **brush diverter**:
 
 ---
 
-## 2. Procedura di montaggio
+## Procedura di montaggio
 
 :::{warning} Attenzione
 Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il montaggio.
@@ -36,13 +34,13 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il 
 
 ---
 
-## 3. Procedura di regolazione
+## Procedura di regolazione
 
 :::{warning} Attenzione
 Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la regolazione.
 :::
 
-### 3.1 Spazzole centrale e deviatori
+### Spazzole centrale e deviatori
 
 | Step | Operazione |
 |:----:|-----------|
@@ -50,7 +48,7 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la 
 | 2 | Sfruttare l'**asola** per portare la spazzola nella posizione desiderata |
 | 3 | Stringere di nuovo le **viti di fissaggio** |
 
-### 3.2 Spazzola regolabile
+### Spazzola regolabile
 
 | Step | Operazione |
 |:----:|-----------|
@@ -60,20 +58,9 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la 
 
 ---
 
-## 4. Valutazione del corretto funzionamento
+## Valutazione del corretto funzionamento
 
-:::{admonition} Verifica finale
-:class: important
-Effettuare una **prova di movimentazione del FlexiBowl®** per valutare l'efficacia dei deviatori.
-
-Criteri di valutazione:
-
-| Criterio | Esito atteso |
-|----------|-------------|
-| Movimentazione componenti pesanti | I componenti vengono deviati correttamente |
-| Compatibilità superficie spike | Nessun intralcio o attrito anomalo tra spazzole e superficie |
-| Stabilità delle spazzole dopo regolazione | Le spazzole rimangono in posizione durante la movimentazione |
-:::
+Effetuare una prova di movimentazione del FlexiBowl® per valutare l'efficacia dei deviatori.
 
 ---
 
