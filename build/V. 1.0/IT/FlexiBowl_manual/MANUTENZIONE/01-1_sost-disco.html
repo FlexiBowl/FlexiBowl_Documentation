@@ -399,8 +399,13 @@
                 <article class="bd-article">
                   
   <section id="sostituzione-della-superficie-o-del-disco-rigido">
-<h1><strong>Sostituzione della Superficie o del Disco Rigido</strong><a class="headerlink" href="#sostituzione-della-superficie-o-del-disco-rigido" title="Link to this heading">#</a></h1>
-<p>Il cambio della superficie o del disco rigido è richiesto qualora si faccia un cambio di produzione o siano presenti danni alla superficie o disco rigido precedenti.</p>
+<span id="sost-disco"></span><h1><strong>Sostituzione della Superficie o del Disco Rigido</strong><a class="headerlink" href="#sostituzione-della-superficie-o-del-disco-rigido" title="Link to this heading">#</a></h1>
+<p>Il cambio della superficie o del disco rigido è richiesto qualora si faccia un cambio di produzione o siano presenti danni alla superficie o disco rigido precedenti.
+In ogni caso si consiglia di cambiare la superficie o disco rigido:</p>
+<ul class="simple">
+<li><p><strong>Ogni 3 mesi</strong> in caso di utilizzo con componentistica particolarmente tagliente;</p></li>
+<li><p><strong>Annuale</strong> in tutti gli altri casi.</p></li>
+</ul>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Assicurarsi che il FlexiBowl® sia <strong>spento e fermo</strong> prima di procedere con la sostituzione della superficie o del disco.</p>
@@ -423,7 +428,7 @@
 <tr class="row-even"><td><p>Chiave esagonale H5</p></td>
 <td><p>1</p></td>
 </tr>
-<tr class="row-odd"><td><p>Superficie rigido sostitutiva</p></td>
+<tr class="row-odd"><td><p>Superficie sostitutiva</p></td>
 <td><p>1</p></td>
 </tr>
 </tbody>
@@ -437,10 +442,18 @@
 <li><p>Rimettere calotta centrale e serrare viti</p></li>
 </ul>
 <figure style="text-align: center;">
-  <video width="100%" height="auto" controls loop >
+  <video id="disco800" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000006_Cambio_disco.mp4" type="video/mp4">
     Il tuo browser non supporta il video.
   </video>
+  <br>
+  <label for="VelDisco800">Velocità:</label>
+  <select id="VelDisco800" onchange="document.getElementById('disco800').playbackRate = this.value">
+    <option value="0.5">0.5x</option>
+    <option value="1" selected>1x</option>
+    <option value="1.5">1.5x</option>
+    <option value="2">2x</option>
+  </select> 
   <figcaption><i>Procedura di sostituzione di una superficie illustrata su FlexiBowl® 800</i></figcaption>
 </figure></section>
 </section>
@@ -478,10 +491,18 @@
 <li><p>Rimettere calotta centrale e serrare viti</p></li>
 </ul>
 <figure style="text-align: center;">
-  <video width="100%" height="auto" controls loop >
+  <video id="disco500" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000005_cambio-disco.mp4" type="video/mp4">
     Il tuo browser non supporta il video.
   </video>
+  <br>
+  <label for="VelDisco500">Velocità:</label>
+  <select id="VelDisco500" onchange="document.getElementById('disco500').playbackRate = this.value">
+    <option value="0.5">0.5x</option>
+    <option value="1" selected>1x</option>
+    <option value="1.5">1.5x</option>
+    <option value="2">2x</option>
+  </select>
   <figcaption><i>Procedura di sostituzione di un disco rigido illustrata su FlexiBowl® 500</i></figcaption>
 </figure></section>
 </section>
@@ -515,10 +536,18 @@
 <li><p>Rimettere la calotta centrale</p></li>
 </ul>
 <figure style="text-align: center;">
-  <video width="100%" height="auto" controls loop >
+  <video id="disco200" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000001_cambio_disco.mp4" type="video/mp4">
     Il tuo browser non supporta il video.
   </video>
+  <br>
+  <label for="VelDisco200">Velocità:</label>
+  <select id="VelDisco200" onchange="document.getElementById('disco200').playbackRate = this.value">
+    <option value="0.5">0.5x</option>
+    <option value="1" selected>1x</option>
+    <option value="1.5">1.5x</option>
+    <option value="2">2x</option>
+  </select>
   <figcaption><i>Procedura di sostituzione di un disco rigido illustrata su FlexiBowl® 200</i></figcaption>
 </figure><br>
 <!-- Versions and languages set-up -->
@@ -697,7 +726,7 @@
     const versions = Array.isArray(manifest && manifest.versions) && manifest.versions.length
       ? manifest.versions
       : inlineVersions;
-    const offlineZipEnabled = false;
+    const offlineZipEnabled = true;
     const offlineZipFileName = 'Offline manual.zip';
     const americanRegions = new Set([
       'AG', 'AR', 'AW', 'BB', 'BL', 'BM', 'BO', 'BQ', 'BR', 'BS', 'BZ', 'CA', 'CL', 'CO', 'CR',

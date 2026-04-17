@@ -17,7 +17,7 @@ Il rispetto di tutte le norme di sicurezza riportate in questa sezione è obblig
 #### **Requisiti di sicurezza della cella**
 
 ```{warning}
-FlexiVision One opera in stretta connessione con sistemi robotizzati di terze parti. L'utente deve garantire che l'area di lavoro sia dotata di tutte le misure di sicurezza necessarie imposte dalle normative pertinenti
+Il FlexiBowl® opera in stretta connessione con sistemi robotizzati di terze parti. L'utente deve garantire che l'area di lavoro sia dotata di tutte le misure di sicurezza necessarie imposte dalle normative pertinenti
 ```
 #### **Attenzione durante l'operatività**
 
