@@ -17,7 +17,7 @@ Per il controllo del flip procedere come segue:
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="CFlip800" width="100%" height="auto" controls>
-    <source src="../../../../_shared/media/videos/AS000006_controllo-flip.mp4" type="video/mp4">
+    <source src="../../../../_shared/media/videos/AS000006_controlloflip.mp4" type="video/mp4">
     Il tuo browser non supporta il video.
   </video>
   <br>
@@ -28,6 +28,6 @@ Per il controllo del flip procedere come segue:
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura controllo visivo del flip illustrato su un FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Procedura controllo visivo del gruppo flip illustrato su un FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
