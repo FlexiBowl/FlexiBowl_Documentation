@@ -1,7 +1,7 @@
-
+(info)=
 # **Informazioni Preliminari**
 
-Questa sezione contiene informazioni legali e avvertenze importanti relative all'uso di FlexiVision One e della presente documentazione.   Si prega di leggere attentamente prima di procedere con l'installazione e l'utilizzo del sistema.
+Questa sezione contiene informazioni legali e avvertenze importanti relative all'uso del FlexiBowl® e della presente documentazione.   Si prega di leggere attentamente prima di procedere con l'installazione e l'utilizzo del sistema.
 
 ---
 
@@ -25,17 +25,17 @@ Si presuppone che il lettore possieda le conoscenze tecniche di base necessarie 
 ### **Leggere prima dell'uso**
 ```{warning}
 
-Prima di utilizzare FlexiVision One, è obbligatorio:
+Prima di utilizzare il FlexiBowl®, è obbligatorio:
 - Leggere integralmente questo manuale per garantire un uso corretto del sistema
 - Rispettare le istruzioni operative e le raccomandazioni
 - Formare adeguatamente il personale incaricato dell'utilizzo
-- Consultare i manuali di istruzioni di tutti i componenti hardware collegati (FlexiBowl, Tramoggia, VisionController, Camera, Robot ecc.)
+- Consultare i manuali di istruzioni di tutti i componenti hardware collegati (FlexiVision One, Tramoggia, VisionController, Camera, Robot ecc.)
 
 Il mancato rispetto di queste indicazioni può causare malfunzionamenti, danni alle apparecchiature o situazioni pericolose.
 ```
 ### **Contesto operativo e limitazioni di responsabilità**
 
-FlexiVision One è un sistema di visione sviluppato per la guida di robot industriali e fornito come componente aggiuntivo opzionale per i sistemi FlexiBowl (modelli 200, 350, 500, 650, 800, 1200).
+Il FlexiBowl® è un sistema di alminentazione flessibile a disco rotante vibrante per il posizionamento e orientamento casuale dei componenti ai fini del prelievo robotico.
 
 ```{warning}
 Durante l'utilizzo, l'operatore deve:
@@ -49,6 +49,75 @@ Durante l'utilizzo, l'operatore deve:
 
 L'integrazione del sistema nell'ambiente di lavoro e la valutazione dei rischi sono responsabilità dell'integratore di sistema e dell'utilizzatore finale.
 ```
+
+(operatori)=
+## Operatori
+
+Allo scopo di stabilire con certezza quali sono le competenze e le qualifiche degli operatori addetti alle varie mansioni (messa in marcia, pulizia, manutenzione ordinaria), consultare la seguente tabella:
+
+:::{list-table}
+:header-rows: 1
+:widths: 30 70
+
+* - Qualifica
+  - Definizione
+* - **Operatore**
+  - Personale dell'utilizzatore addestrato e abilitato all'utilizzo e conduzione
+    della macchina ai fini produttivi per le attività per cui è stata costruita
+    e fornita. Dovrà essere in grado di eseguire tutte le operazioni necessarie
+    per il buon funzionamento della macchina e per l'incolumità di sé stesso o
+    di eventuali collaboratori. Deve avere una comprovata esperienza nel corretto
+    utilizzo di tali tipologie di macchine ed essere formato, informato ed
+    istruito a riguardo. In caso di dubbi deve segnalare ogni anomalia al suo
+    superiore.
+
+    **Nota:** Non è abilitato ad effettuare alcuna attività di manutenzione.
+    
+* - **Manutentore meccanico**
+  - Tecnico qualificato in grado di:
+
+    * svolgere attività di manutenzione preventiva/correttiva su tutte le parti
+      meccaniche della macchina soggette a manutenzione o riparazione;
+    * avere accesso a tutte le parti di macchina per analisi visiva, controllo
+      dello stato delle apparecchiature, regolazioni e tarature;
+    * intervenire sugli organi meccanici per regolazioni, manutenzioni e
+      riparazioni;
+    * leggere schemi pneumatici, oleodinamici, disegni tecnici e listati dei
+      pezzi di ricambio.
+
+    In casi straordinari, è autorizzato a far funzionare la macchina con
+    sicurezze ridotte. Ove necessario, può dare all'operatore istruzioni per
+    un buon utilizzo della macchina ai fini produttivi.
+
+    **Nota:** Non è abilitato ad intervenire su impianti elettrici sotto
+    tensione (se presenti).
+
+* - **Manutentore elettrico**
+  - Tecnico qualificato in grado di:
+    * svolgere attività di manutenzione preventiva/correttiva su tutte le parti meccaniche della macchina soggette a manutenzione o riparazione;
+    * avere accesso a tutte le parti di macchina per analisi visiva, controllo dello stato delle apparecchiature, regolazioni e tarature;
+    * condurre la macchina come l’operatore;
+    * intervenire sulle regolazioni e sugli impianti elettrici per manutenzione, riparazione e sostituzione pezzi usurati;
+    * leggere schemi elettrici e verificare il corretto ciclo funzionale.
+  Ove necessario, può dare all’operatore istruzioni per un buon utilizzo della macchina ai fini produttivi. Può operare in presenza di tensione all’interno dei quadri elettrici, scatole di derivazione, apparecchiature di controllo etc. solo se trattasi di persona idonea (PEI). (Fare riferimento normativa **EN50110-1**). Non effettua programmazione software di sistemi quali: PLC (logica o sicurezza), non può modificare le password di sistema.
+
+* - **Tecnico esperto software**
+  - Tecnico qualificato in grado di:
+    * svolgere attività preventiva/correttiva su tutte le parti software della macchina;
+    * avere accesso a tutte le parti di macchina per analisi visiva, controllo dello stato delle apparecchiature, regolazioni e tarature.
+  Tecnico qualificato del Costruttore con comprovata esperienza e formazione dei sistemi basati su: PLC/PC azionamenti, ecc. (conoscenza programmazione, funzioni macchina etc.) per operazioni complesse quali ad esempio:
+    * modifica dati macchina; 
+    * creazione programmi di lavoro; 
+    * regolazione parametri drive etc. in quanto a conoscenza del ciclo produttivo, tecnologico e di costruzione della macchina fornita. 
+  Può operare all’interno dei quadri elettrici, scatole di derivazione, apparecchiature di controllo etc. in presenza di tensione solo se trattasi di persona idonea (PEI) (Fare riferimento normativa **EN50110-1**). Le competenze sono di tipo elettronico e/o software.
+
+* - **Tecnico del Costruttore**
+  - Tecnico qualificato dal Costruttore e/o dal suo distributore per operazioni complesse, in quanto a conoscenza del ciclo produttivo di costruzione della macchina. Questa persona interviene in accordo con le richieste dell’utilizzatore. Le competenze sono di tipo meccanico.
+
+* - **Persona Addestrata**
+  - Raggruppa tutte le qualifiche riportate in questa tabella: trattasi di colui che è stato informato, istruito ed addestrato sul lavoro e sugli eventuali pericoli derivanti da un uso improprio. Conosce inoltre l’importanza dei dispositivi di sicurezza, le norme antinfortunistiche e le condizioni di lavoro in sicurezza.
+
+:::
 
 ---
 
