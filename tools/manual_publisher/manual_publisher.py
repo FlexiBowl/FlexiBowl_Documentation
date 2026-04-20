@@ -41,6 +41,12 @@ STATIC_REFERENCE_PATTERN = re.compile(
     r'(?P<suffix>(?:[?#][^"\']*)?)'
     r'(?P<quote>["\'])'
 )
+SHARED_VIDEO_REFERENCE_PATTERN = re.compile(
+    r'(?P<prefix>\b(?:src|href|poster)=["\'])'
+    r'(?P<url>(?:\.\./)*_shared/media/videos/(?P<filename>[^"\'?#]+))'
+    r'(?P<suffix>(?:[?#][^"\']*)?)'
+    r'(?P<quote>["\'])'
+)
 RELEASE_ARTIFACT_NAMES = {
     FULL_MANUAL_PDF_NAME,
     PRINT_FULL_MANUAL_HTML_NAME,
@@ -359,6 +365,68 @@ def sync_shared_video_assets(source_root: Path, build_root: Path) -> None:
 
     destination_root = build_root / SHARED_BUILD_MEDIA_ROOT / "videos"
     mirror_directory(shared_video_root, destination_root)
+
+
+def ensure_referenced_shared_videos(source_root: Path, build_root: Path) -> None:
+    shared_video_source_root = source_root / "_shared" / "media" / "videos"
+    shared_video_build_root = build_root / SHARED_BUILD_MEDIA_ROOT / "videos"
+    referenced_video_names: set[str] = set()
+
+    for version_path in list_version_paths(build_root):
+        for language_path in list_language_paths(version_path):
+            for html_file in language_path.rglob("*.html"):
+                content = html_file.read_text(encoding="utf-8")
+                for match in SHARED_VIDEO_REFERENCE_PATTERN.finditer(content):
+                    referenced_video_names.add(Path(unquote(match.group("filename"))).name)
+
+    if not referenced_video_names:
+        return
+
+    shared_video_build_root.mkdir(parents=True, exist_ok=True)
+    fallback_candidates: dict[str, list[Path]] = defaultdict(list)
+
+    for candidate in build_root.rglob("*"):
+        if not candidate.is_file() or candidate.suffix.lower() not in VIDEO_FILE_EXTENSIONS:
+            continue
+        try:
+            candidate.relative_to(shared_video_build_root)
+            continue
+        except ValueError:
+            pass
+        fallback_candidates[candidate.name].append(candidate)
+
+    restored_files: list[str] = []
+    unresolved_files: list[str] = []
+
+    for video_name in sorted(referenced_video_names):
+        target_path = shared_video_build_root / video_name
+        if target_path.exists():
+            continue
+
+        source_path = shared_video_source_root / video_name
+        if source_path.exists():
+            shutil.copy2(source_path, target_path)
+            restored_files.append(video_name)
+            continue
+
+        fallback_path = next(iter(fallback_candidates.get(video_name, [])), None)
+        if fallback_path is not None:
+            shutil.copy2(fallback_path, target_path)
+            restored_files.append(video_name)
+            continue
+
+        unresolved_files.append(video_name)
+
+    if restored_files:
+        print(
+            "Repaired shared video assets: restored "
+            f"{len(restored_files)} referenced file(s) in '{SHARED_BUILD_MEDIA_ROOT.as_posix()}/videos'."
+        )
+    if unresolved_files:
+        print(
+            "Warning: shared video references are still missing after repair: "
+            + ", ".join(unresolved_files)
+        )
 
 
 def configure_footer_features(
@@ -1550,6 +1618,8 @@ def build_site(
             create_root_landing_page(build_root, source_root)
         with timed_step("sync shared source videos into build", timings):
             sync_shared_video_assets(source_root, build_root)
+        with timed_step("repair shared video references in build", timings):
+            ensure_referenced_shared_videos(source_root, build_root)
 
         if mode == "full":
             build_release_assets(
@@ -1606,6 +1676,8 @@ def build_site(
 
         with timed_step("sync final shared source videos into final build", timings):
             sync_shared_video_assets(source_root, output_root)
+        with timed_step("repair shared video references in final build", timings):
+            ensure_referenced_shared_videos(source_root, output_root)
     finally:
         remove_directory(work_root)
         print_timing_summary(timings, time.perf_counter() - build_started_at)
