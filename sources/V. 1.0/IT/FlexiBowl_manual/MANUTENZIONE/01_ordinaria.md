@@ -26,6 +26,7 @@ Nel fissaggio delle viti utilizzare sempre LOCTITE 243, in modo da eseguire un p
 :::{list-table}
 :header-rows: 1
 :widths: 30 20 20 20 20 20
+:class: v-align-middle
 
 * - Operazione
   - Tutti i giorni
@@ -34,7 +35,35 @@ Nel fissaggio delle viti utilizzare sempre LOCTITE 243, in modo da eseguire un p
   - Ogni sei mesi
   - Annualmente
 
-* - 
+* - Sostituzione della superficie o disco rigido
+  - 
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+
+* - Pulizia della superficie o disco rigido
+  - 
+  - 
+  - 
+  - 
+  - 
+
+* - Pulizia generale del FlexiBowl® 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+* - Controllo visivo del flip
+  - 
+  - 
+  - 
+  - 
+  - 
+
+* - Controllo Backlight e Toplight
   - 
   - 
   - 
