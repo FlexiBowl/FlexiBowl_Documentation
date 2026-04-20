@@ -1603,6 +1603,9 @@ def build_site(
                 configure_release_download_flags(output_root)
         else:
             log_timing("Skipping redundant final metadata pass because the synced build already contains the latest files.")
+
+        with timed_step("sync final shared source videos into final build", timings):
+            sync_shared_video_assets(source_root, output_root)
     finally:
         remove_directory(work_root)
         print_timing_summary(timings, time.perf_counter() - build_started_at)
