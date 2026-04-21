@@ -12,6 +12,79 @@ Il rispetto di tutte le norme di sicurezza riportate in questa sezione è obblig
 
 ## Sicurezza operativa
 
+### Dispositivi di protezione individuale (D.P.I.)
+
+Quando si opera vicino al FlexiBowl®, sia per le operazioni di montaggio, che per quelle di manutenzione e/o regolazione, bisogna 
+strettamente attenersi alle norme generali antinfortunistiche, per questo sarà importante utilizzare i dispositivi di protezione 
+individuale (D.P.I.) richiesti per ogni singola operazione. 
+Riportiamo l’elenco completo dei dispositivi di protezione individuale (D.P.I.) che potranno essere richiesti per le diverse 
+procedure: 
+
+:::: {list-table}
+:header-rows: 1
+:widths: 20 60
+
+* - Simbolo
+  - Descrizione
+
+* - ::: {figure} ../../../../_shared/media/images/guanti.png
+    :align: center
+    :width: 50%
+    :::
+
+  - **Obbligo ad utilizzare guanti protettivi o isolanti.**
+
+    Indica una prescrizione per il personale di utilizzare guanti protettivi o isolanti. 
+
+* - ::: {figure} ../../../../_shared/media/images/occhiali.png
+    :align: center
+    :width: 50%
+    :::
+
+  - **Obbligo ad utilizzare occhiali di protezione.**
+
+    Indica una prescrizione per il personale di utilizzare occhiali protettivi per gli occhi. 
+
+* - ::: {figure} ../../../../_shared/media/images/scarpe.png
+    :align: center
+    :width: 50%
+    :::
+
+  - **Obbligo ad utilizzare scarpe antinfortunistiche.**
+
+    Indica una prescrizione per il personale di utilizzare scarpe antinfortunistiche a protezione dei piedi. 
+
+* - ::: {figure} ../../../../_shared/media/images/rumore.png
+    :align: center
+    :width: 50%
+    :::
+
+  - **Obbligo ad utilizzare dispositivi di protezione dal rumore.**
+
+    Indica una prescrizione per il personale di utilizzare cuffie o tappi isolanti a protezione dell'udito. 
+
+* - ::: {figure} ../../../../_shared/media/images/tuta.png
+    :align: center
+    :width: 50%
+    :::
+
+  - **Obbligo ad utilizzare indumenti protettivi.**
+
+    Indica una prescrizione per il personale di utilizzare specifici indumenti protettivi. 
+
+* - ::: {figure} ../../../../_shared/media/images/manuale.png
+    :align: center
+    :width: 50%
+    :::
+
+  - **Obbligo consultare il manuale/libretto delle istruzioni.**
+
+    Indica una prescrizione per il personale di consultare (e comprendere) le istruzioni d’uso e di avvertenza della macchina prima di operare con essa. 
+
+::::
+
+L’abbigliamento di chi opera o effettua manutenzione sulla linea deve essere conforme ai requisiti essenziali di sicurezza definiti dal **Reg. UE 2016/425** e alle leggi vigenti nel paese in cui la stessa viene installata. 
+
 ### Integrazione con sistemi robotizzati
 
 #### **Requisiti di sicurezza della cella**
@@ -78,7 +151,7 @@ Modifiche non autorizzate possono:
 
 ```{warning}
 
-Non utilizzare il prodotto in ambienti dove il VisionController, la camera o altri componenti elettronici possano entrare in contatto con:
+Non utilizzare il prodotto in ambienti dove il FlexiBowl®, la camera o altri componenti elettronici possano entrare in contatto con:
 
 - Gocce d'acqua o spruzzi
 - Oli, lubrificanti o altri liquidi industriali
@@ -142,6 +215,7 @@ Per preservare l'integrità dei componenti:
 
 ---
 
+(trasporto=)
 ## Trasporto e movimentazione
 
 ### Ricezione e ispezione

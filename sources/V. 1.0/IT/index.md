@@ -129,11 +129,11 @@ FlexiBowl_manual/PRIMA DI INIZIARE/05_glossario.md
 :hidden:
 :caption: QUICKSTART
 FlexiBowl_manual/QUICKSTART/01_panoramica.md
-FlexiBowl_manual/QUICKSTART/02_componenti-opzionali.md
-FlexiBowl_manual/QUICKSTART/03_dati-tecnici-meccanici.md
-FlexiBowl_manual/QUICKSTART/04_dati-tecnici-elettrici.md
-FlexiBowl_manual/QUICKSTART/05_dati-tecnici-pneumatici.md
-FlexiBowl_manual/QUICKSTART/06_dati-tecnici-applicativi.md
+FlexiBowl_manual/QUICKSTART/02_dati-tecnici-meccanici.md
+FlexiBowl_manual/QUICKSTART/03_dati-tecnici-elettrici.md
+FlexiBowl_manual/QUICKSTART/04_dati-tecnici-pneumatici.md
+FlexiBowl_manual/QUICKSTART/05_dati-tecnici-applicativi.md
+FlexiBowl_manual/QUICKSTART/06_componenti-opzionali.md
 :::
 
 :::{toctree}
