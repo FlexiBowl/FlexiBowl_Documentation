@@ -367,6 +367,15 @@ def sync_shared_video_assets(source_root: Path, build_root: Path) -> None:
     mirror_directory(shared_video_root, destination_root)
 
 
+def sync_shared_image_assets(source_root: Path, build_root: Path) -> None:
+    shared_image_root = source_root / "_shared" / "media" / "images"
+    if not shared_image_root.exists():
+        return
+
+    destination_root = build_root / SHARED_BUILD_MEDIA_ROOT / "images"
+    mirror_directory(shared_image_root, destination_root)
+
+
 def ensure_referenced_shared_videos(source_root: Path, build_root: Path) -> None:
     shared_video_source_root = source_root / "_shared" / "media" / "videos"
     shared_video_build_root = build_root / SHARED_BUILD_MEDIA_ROOT / "videos"
@@ -1616,6 +1625,10 @@ def build_site(
             ensure_nojekyll(build_root)
         with timed_step("create build landing page", timings):
             create_root_landing_page(build_root, source_root)
+        with timed_step("sync shared source images into build", timings):
+            # Sync source-managed shared images before dedupe optimization adds
+            # generated entries into the same destination folder.
+            sync_shared_image_assets(source_root, build_root)
         with timed_step("sync shared source videos into build", timings):
             sync_shared_video_assets(source_root, build_root)
         with timed_step("repair shared video references in build", timings):
@@ -1640,6 +1653,8 @@ def build_site(
                 remove_target_scope(output_root, target_version, target_language)
             with timed_step("merge staged build into final build", timings):
                 merge_directory(build_root, output_root)
+            with timed_step("sync final shared source images into final build", timings):
+                sync_shared_image_assets(source_root, output_root)
             with timed_step("re-optimize shared media in final build", timings):
                 optimize_shared_media(output_root)
             with timed_step("re-optimize shared static assets in final build", timings):
