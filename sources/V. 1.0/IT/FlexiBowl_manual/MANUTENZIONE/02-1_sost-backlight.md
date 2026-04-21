@@ -1,10 +1,33 @@
 # **Sostituzione Backlight**
 
+:::::{important}
+
+:::{raw} html
+   <style>
+     .ars-img-row { display: flex; gap: 12px; align-items: center; justify-content: center; }
+     .ars-img-row img { width: 25%; }
+   </style>
+:::
+
+::::{list-table}
+:widths: 30 60
+:header-rows: 1
+* - Qualifica operatore
+  - {ref}`D.P.I. Necessari <dpi>`
+* - {ref}`Manutentore meccanico <operatori>`
+  - :::{raw} html
+       <div class="ars-img-row">
+         <img src="../../../../_shared/media/images/guanti.png" alt="guanti">
+         <img src="../../../../_shared/media/images/scarpe.png" alt="scarpe">
+         <img src="../../../../_shared/media/images/tuta.png" alt="tuta">
+       </div>
+    :::
+::::
+:::::
+
 :::{warning}
 Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione del Backlight.
 :::
-
-In caso di malfunzionamento del Backlight, è possibile eseguirne la sostituzione da parte di un {ref}`manutentore meccanico <operatori>`.
 
 :::{important}
 Il Backlight a luce infrarossa emette luce non visibile e perciò piuò apparire non funzionante. Controllare con una telecamera ad infrarossi per verificarne il funzionamento.

@@ -1,1 +1,2 @@
+(compatibility)=
 # **Panoramica e compatibilità**

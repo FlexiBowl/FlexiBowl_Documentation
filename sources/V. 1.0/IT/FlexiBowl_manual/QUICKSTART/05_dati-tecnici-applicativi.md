@@ -2,7 +2,7 @@
 
 :::{raw} html
    <style>
-     .ars-components td, .ars-components th { text-align: center; }
+     .ars-components td, .ars-components th { text-align: center; vertical-align: middle; }
      .ars-components td:first-child, .ars-components th:first-child { text-align: left; }
    </style>
 :::
