@@ -1,3 +1,4 @@
+(wedge)=
 # **Wedge Diverter**
 
 Il Wedge Diverter consiste in un dosso posizionato a monte dell'area di flip, sotto alla superficie per creare un rialzo che riporta i componenti in una zona in cui il flip possa essere più efficace.

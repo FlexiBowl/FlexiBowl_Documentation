@@ -100,7 +100,7 @@ In particolare, il personale **non deve**:
 - modificare gli allacciamenti elettrici per escludere le sicurezze interne; 
 - utilizzare la macchina se non è stata installata secondo le normative vigenti; 
 - sfruttare la macchina come punto di appoggio anche se non funzionanti (pena il rischio di caduta e/o il rischio di danneggiamento delle macchine stesse); 
-- utilizzare la macchina al di fuori delle condizionali ambientali permesse (consultare paragrafo ["Trasporto e movimentazione"](trasporto)). 
+- utilizzare la macchina al di fuori delle condizionali ambientali permesse (consultare paragrafo {ref}`Rimuovere la superficie o disco rigido <trasporto>`). 
 
 :::{warning}
 ARS S.r.l. non risponde per danni causati a cose o persone nel caso: 

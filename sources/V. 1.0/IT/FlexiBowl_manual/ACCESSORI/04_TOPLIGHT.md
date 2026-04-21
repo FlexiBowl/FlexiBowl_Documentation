@@ -1,3 +1,4 @@
+(toplight)=
 # **Toplight**
 
 Il Toplight è un illuminatore separato che viene montato all'altezza della telecamera e illumina l'area di visione del FlexiBowl® dall'alto, così che le features del componente che sono rivolte verso la telecamera siano messe in evidenza.

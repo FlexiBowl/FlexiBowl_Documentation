@@ -12,6 +12,7 @@ Il rispetto di tutte le norme di sicurezza riportate in questa sezione è obblig
 
 ## Sicurezza operativa
 
+(dpi)=
 ### Dispositivi di protezione individuale (D.P.I.)
 
 Quando si opera vicino al FlexiBowl®, sia per le operazioni di montaggio, che per quelle di manutenzione e/o regolazione, bisogna 
