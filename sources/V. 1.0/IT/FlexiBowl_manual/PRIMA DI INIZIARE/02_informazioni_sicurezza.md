@@ -73,6 +73,15 @@ procedure:
 
     Indica una prescrizione per il personale di utilizzare specifici indumenti protettivi. 
 
+* - ::: {figure} ../../../../_shared/media/images/casco.png
+    :align: center
+    :width: 50%
+    :::
+
+  - **Obbligo ad utilizzare un elmetto protettivo.**
+
+    Indica una prescrizione per il personale di utilizzare un elmetto a protezione della testa. 
+
 * - ::: {figure} ../../../../_shared/media/images/manuale.png
     :align: center
     :width: 50%
@@ -216,10 +225,17 @@ Per preservare l'integrità dei componenti:
 
 ---
 
-(trasporto=)
+(trasporto)=
 ## Trasporto e movimentazione
 
-### Ricezione e ispezione
+### Imballo
+
+La macchina è spedita a cura di ARS s.r.l. dallo stabilimento di produzione a quello del Cliente utilizzatore. In funzione della distanza del trasporto, dalle richieste specifiche del Cliente, e dal tempo di permanenza del carico nell’imballo, la spedizione della macchina avviene nei seguenti modi:  
+
+- imballo protettivo normale per corte e medie distanze; 
+- imballo protettivo speciale per lunghe distanze. 
+
+La spedizione deve essere effettuata con mezzi di trasporto coperti o telonati in dipendenza del tipo di carico.  
 
 #### **Ispezione all'arrivo**
 
@@ -243,6 +259,66 @@ Se si riscontrano problemi:
     [service@arsautomation.com](mailto:service@arsautomation.com) 
     [us.service@arsautomation.com](mailto:us.service@arsautomation.com) se si contatta dall'America
 ```
+
+### Dimensioni e pesi dell'imballo
+
+:::{list-table}
+:widths: 20 20 20 20 20 20 20
+:header-rows: 1
+
+* - Specifica
+  - FlexiBowl® 200
+  - FlexiBowl® 350
+  - FlexiBowl® 500/500E
+  - FlexiBowl® 650
+  - FlexiBowl® 800
+  - FlexiBowl® 1200
+
+* - Peso lordo (con imballo)
+  - xxx kg
+  - xxx kg
+  - xxx kg
+  - xxx kg
+  - xxx kg
+  - xxx kg
+
+* - Dimensioni cassa (mm)
+  - xxxx
+  - xxxx
+  - xxxx
+  - xxxx
+  - xxxx
+  - xxxx
+
+:::
+
+### Trasporto e movimentazione dell'imballo
+
+:::{raw} html
+   <style>
+     .ars-img-row { display: flex; gap: 5px; align-items: center; justify-content: center; }
+     .ars-img-row img { width: 25%; }
+   </style>
+:::
+
+::::{list-table}
+:widths: 30 60 60
+:header-rows: 1
+* - {ref}`Qualifica operatore <operatori>`
+  - {ref}`D.P.I. Necessari <dpi>`
+  - Mezzo di sollevamento
+
+* - **Conduttore di mezzi di sollevamento**
+  - :::{raw} html
+       <div class="ars-img-row">
+         <img src="../../../../_shared/media/images/guanti.png" alt="guanti">
+         <img src="../../../../_shared/media/images/scarpe.png" alt="scarpe">
+         <img src="../../../../_shared/media/images/tuta.png" alt="tuta">
+         <img src="../../../../_shared/media/images/casco.png" alt="casco">
+       </div>
+    :::
+  - Carrello elevatore di portata non inferiore a 50 kg
+::::
 
 ### Movimentazione e stoccaggio
 Per prevenire danni durante trasporto e stoccaggio:
