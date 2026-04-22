@@ -8,9 +8,19 @@ set "PYTHON_CMD="
 set "PYTHON_LABEL="
 set "BUNDLED_PYTHON_EXE="
 set "AUTO_SETUP_RAN=0"
+set "SHOULD_WAIT_FOR_ENTER=0"
+
+if /I "%~1"=="--no-wait" (
+  set "SHOULD_WAIT_FOR_ENTER=0"
+) else (
+  set "SHOULD_WAIT_FOR_ENTER=1"
+)
 
 call :resolve_python
-if errorlevel 1 exit /b 1
+if errorlevel 1 (
+  set "BUILD_STATUS=1"
+  goto :finish
+)
 
 pushd "%REPO_ROOT%"
 
@@ -18,7 +28,7 @@ call :ensure_dependencies
 if errorlevel 1 (
   set "BUILD_STATUS=1"
   popd
-  exit /b !BUILD_STATUS!
+  goto :finish
 )
 
 if "%~1"=="" (
@@ -40,7 +50,7 @@ if "%~1"=="" (
     echo Build annullato.
     set "BUILD_STATUS=0"
     popd
-    exit /b !BUILD_STATUS!
+    goto :finish
   )
 
   if /I "!BUILD_SCOPE!"=="single" (
@@ -54,7 +64,7 @@ if "%~1"=="" (
 
 set "BUILD_STATUS=%errorlevel%"
 popd
-exit /b %BUILD_STATUS%
+goto :finish
 
 :resolve_python
 set "PYTHON_CMD="
@@ -134,3 +144,10 @@ if not errorlevel 1 exit /b 0
 echo Le dipendenze Python richieste dal publisher non risultano installate per !PYTHON_LABEL! anche dopo il setup automatico.
 echo Controlla l'output di installer\install_dependencies.bat e riprova.
 exit /b 1
+
+:finish
+if "%SHOULD_WAIT_FOR_ENTER%"=="1" (
+  echo.
+  set /p "=Premi Invio per chiudere..."
+)
+exit /b %BUILD_STATUS%

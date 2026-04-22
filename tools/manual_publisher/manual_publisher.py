@@ -47,6 +47,12 @@ SHARED_VIDEO_REFERENCE_PATTERN = re.compile(
     r'(?P<suffix>(?:[?#][^"\']*)?)'
     r'(?P<quote>["\'])'
 )
+SHARED_IMAGE_REFERENCE_PATTERN = re.compile(
+    r'(?P<prefix>\b(?:src|href|poster)=["\'])'
+    r'(?P<url>(?:\.\./)*_shared/media/images/(?P<filename>[^"\'?#]+))'
+    r'(?P<suffix>(?:[?#][^"\']*)?)'
+    r'(?P<quote>["\'])'
+)
 RELEASE_ARTIFACT_NAMES = {
     FULL_MANUAL_PDF_NAME,
     PRINT_FULL_MANUAL_HTML_NAME,
@@ -434,6 +440,68 @@ def ensure_referenced_shared_videos(source_root: Path, build_root: Path) -> None
     if unresolved_files:
         print(
             "Warning: shared video references are still missing after repair: "
+            + ", ".join(unresolved_files)
+        )
+
+
+def ensure_referenced_shared_images(source_root: Path, build_root: Path) -> None:
+    shared_image_source_root = source_root / "_shared" / "media" / "images"
+    shared_image_build_root = build_root / SHARED_BUILD_MEDIA_ROOT / "images"
+    referenced_image_names: set[str] = set()
+
+    for version_path in list_version_paths(build_root):
+        for language_path in list_language_paths(version_path):
+            for html_file in language_path.rglob("*.html"):
+                content = html_file.read_text(encoding="utf-8")
+                for match in SHARED_IMAGE_REFERENCE_PATTERN.finditer(content):
+                    referenced_image_names.add(Path(unquote(match.group("filename"))).name)
+
+    if not referenced_image_names:
+        return
+
+    shared_image_build_root.mkdir(parents=True, exist_ok=True)
+    fallback_candidates: dict[str, list[Path]] = defaultdict(list)
+
+    for candidate in build_root.rglob("*"):
+        if not candidate.is_file():
+            continue
+        try:
+            candidate.relative_to(shared_image_build_root)
+            continue
+        except ValueError:
+            pass
+        fallback_candidates[candidate.name].append(candidate)
+
+    restored_files: list[str] = []
+    unresolved_files: list[str] = []
+
+    for image_name in sorted(referenced_image_names):
+        target_path = shared_image_build_root / image_name
+        if target_path.exists():
+            continue
+
+        source_path = shared_image_source_root / image_name
+        if source_path.exists():
+            shutil.copy2(source_path, target_path)
+            restored_files.append(image_name)
+            continue
+
+        fallback_path = next(iter(fallback_candidates.get(image_name, [])), None)
+        if fallback_path is not None:
+            shutil.copy2(fallback_path, target_path)
+            restored_files.append(image_name)
+            continue
+
+        unresolved_files.append(image_name)
+
+    if restored_files:
+        print(
+            "Repaired shared image assets: restored "
+            f"{len(restored_files)} referenced file(s) in '{SHARED_BUILD_MEDIA_ROOT.as_posix()}/images'."
+        )
+    if unresolved_files:
+        print(
+            "Warning: shared image references are still missing after repair: "
             + ", ".join(unresolved_files)
         )
 
@@ -1629,6 +1697,8 @@ def build_site(
             # Sync source-managed shared images before dedupe optimization adds
             # generated entries into the same destination folder.
             sync_shared_image_assets(source_root, build_root)
+        with timed_step("repair shared image references in build", timings):
+            ensure_referenced_shared_images(source_root, build_root)
         with timed_step("sync shared source videos into build", timings):
             sync_shared_video_assets(source_root, build_root)
         with timed_step("repair shared video references in build", timings):
@@ -1653,8 +1723,6 @@ def build_site(
                 remove_target_scope(output_root, target_version, target_language)
             with timed_step("merge staged build into final build", timings):
                 merge_directory(build_root, output_root)
-            with timed_step("sync final shared source images into final build", timings):
-                sync_shared_image_assets(source_root, output_root)
             with timed_step("re-optimize shared media in final build", timings):
                 optimize_shared_media(output_root)
             with timed_step("re-optimize shared static assets in final build", timings):
@@ -1689,6 +1757,10 @@ def build_site(
         else:
             log_timing("Skipping redundant final metadata pass because the synced build already contains the latest files.")
 
+        with timed_step("sync final shared source images into final build", timings):
+            sync_shared_image_assets(source_root, output_root)
+        with timed_step("repair final shared image references", timings):
+            ensure_referenced_shared_images(source_root, output_root)
         with timed_step("sync final shared source videos into final build", timings):
             sync_shared_video_assets(source_root, output_root)
         with timed_step("repair shared video references in final build", timings):
