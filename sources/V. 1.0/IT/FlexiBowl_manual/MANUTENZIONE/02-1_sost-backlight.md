@@ -12,9 +12,10 @@
 ::::{list-table}
 :widths: 30 60
 :header-rows: 1
-* - Qualifica operatore
+* - {ref}`Qualifica operatore <operatori>`
   - {ref}`D.P.I. Necessari <dpi>`
-* - {ref}`Manutentore meccanico <operatori>`
+
+* - **Manutentore meccanico**
   - :::{raw} html
        <div class="ars-img-row">
          <img src="../../../../_shared/media/images/guanti.png" alt="guanti">
