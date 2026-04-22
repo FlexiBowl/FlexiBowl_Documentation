@@ -3,6 +3,11 @@ $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $venvRoot = Join-Path $repoRoot '.venv'
 $venvPython = Join-Path $venvRoot 'Scripts\python.exe'
+$shouldWaitForEnter = $true
+
+if ($args -contains '--no-wait') {
+    $shouldWaitForEnter = $false
+}
 
 function Test-PythonCandidate {
     param(
@@ -86,16 +91,48 @@ function Get-BootstrapPython {
     return Find-PythonCandidate -Candidates $candidates.ToArray()
 }
 
-$installPython = $null
+function Install-PythonWithWinget {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$PackageId
+    )
 
-if (Test-Path $venvPython) {
-    $installPython = Test-PythonCandidate -Command $venvPython -Label $venvPython
+    $winget = Get-Command winget -ErrorAction SilentlyContinue
+    if ($null -eq $winget) {
+        return $false
+    }
+
+    Write-Host "Python non trovato. Provo a installare automaticamente $PackageId tramite winget..."
+
+    & $winget.Source install --id $PackageId --exact --scope user --accept-package-agreements --accept-source-agreements --disable-interactivity
+    if ($LASTEXITCODE -ne 0) {
+        Write-Warning "Installazione automatica di Python tramite winget fallita con codice $LASTEXITCODE."
+        return $false
+    }
+
+    return $true
 }
 
-if ($null -eq $installPython) {
-    $bootstrapPython = Get-BootstrapPython
-    if ($null -eq $bootstrapPython) {
-        throw @"
+$exitCode = 0
+
+try {
+    $installPython = $null
+
+    if (Test-Path $venvPython) {
+        $installPython = Test-PythonCandidate -Command $venvPython -Label $venvPython
+    }
+
+    if ($null -eq $installPython) {
+        $bootstrapPython = Get-BootstrapPython
+        if ($null -eq $bootstrapPython) {
+            $pythonInstalled = Install-PythonWithWinget -PackageId 'Python.Python.3.12'
+            if ($pythonInstalled) {
+                $bootstrapPython = Get-BootstrapPython
+            }
+        }
+
+        if ($null -eq $bootstrapPython) {
+            throw @"
 Nessun interprete Python utilizzabile trovato.
 
 Percorsi e comandi controllati:
@@ -105,31 +142,46 @@ Percorsi e comandi controllati:
   - python
   - py -3
 
-Installa Python 3 e rilancia questo setup.
+Tentativo automatico eseguito:
+  - winget install --id Python.Python.3.12 --scope user
+
+Installa Python 3.12 e rilancia questo setup.
 "@
+        }
+
+        Write-Host "Creo l'ambiente virtuale locale in $venvRoot usando $($bootstrapPython.Label)"
+        & $bootstrapPython.Command @($bootstrapPython.CommandArgs + @('-m', 'venv', $venvRoot))
+        if ($LASTEXITCODE -ne 0 -or -not (Test-Path $venvPython)) {
+            throw "Impossibile creare l'ambiente virtuale locale in $venvRoot."
+        }
+
+        $installPython = Test-PythonCandidate -Command $venvPython -Label $venvPython
     }
 
-    Write-Host "Creo l'ambiente virtuale locale in $venvRoot usando $($bootstrapPython.Label)"
-    & $bootstrapPython.Command @($bootstrapPython.CommandArgs + @('-m', 'venv', $venvRoot))
-    if ($LASTEXITCODE -ne 0 -or -not (Test-Path $venvPython)) {
-        throw "Impossibile creare l'ambiente virtuale locale in $venvRoot."
+    if ($null -eq $installPython) {
+        throw "Impossibile usare il Python dell'ambiente virtuale locale: $venvPython"
     }
 
-    $installPython = Test-PythonCandidate -Command $venvPython -Label $venvPython
+    & $installPython.Command @($installPython.CommandArgs + @('-m', 'pip', 'install', '--upgrade', 'pip'))
+    if ($LASTEXITCODE -ne 0) {
+        throw "Aggiornamento di pip fallito."
+    }
+
+    & $installPython.Command @($installPython.CommandArgs + @('-m', 'pip', 'install', '-r', (Join-Path $repoRoot 'requirements.txt')))
+    if ($LASTEXITCODE -ne 0) {
+        throw "Installazione delle dipendenze fallita."
+    }
+
+    Write-Host "Dipendenze installate nell'ambiente locale: $($installPython.Label)"
+} catch {
+    $exitCode = 1
+    Write-Host ""
+    Write-Error $_
+} finally {
+    if ($shouldWaitForEnter) {
+        Write-Host ""
+        Read-Host 'Premi Invio per chiudere'
+    }
 }
 
-if ($null -eq $installPython) {
-    throw "Impossibile usare il Python dell'ambiente virtuale locale: $venvPython"
-}
-
-& $installPython.Command @($installPython.CommandArgs + @('-m', 'pip', 'install', '--upgrade', 'pip'))
-if ($LASTEXITCODE -ne 0) {
-    throw "Aggiornamento di pip fallito."
-}
-
-& $installPython.Command @($installPython.CommandArgs + @('-m', 'pip', 'install', '-r', (Join-Path $repoRoot 'requirements.txt')))
-if ($LASTEXITCODE -ne 0) {
-    throw "Installazione delle dipendenze fallita."
-}
-
-Write-Host "Dipendenze installate nell'ambiente locale: $($installPython.Label)"
+exit $exitCode
