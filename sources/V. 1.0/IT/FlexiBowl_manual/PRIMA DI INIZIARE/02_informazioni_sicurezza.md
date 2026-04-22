@@ -10,10 +10,32 @@ Il rispetto di tutte le norme di sicurezza riportate in questa sezione è obblig
 
 ---
 
-## Sicurezza operativa
+## Area di sicurezza dell'operatore
+
+Le zone intorno alla macchina vengono suddivise nel seguente modo: 
+
+:::{list-table}
+:widths: 20 60
+:header-rows: 1
+
+* - Termine
+  - Descrizione
+
+* - Zone di comando 
+  - Sono le zone in cui l’utilizzatore e gli altri operatori possono eseguire le operazioni di comando e controllo delle funzioni cicliche della macchina (“postazione di guida”), sia in automatico che in semiautomatico, agendo sugli appositi pannelli di comando o per l’esecuzione delle operazioni manuali. 
+
+* - Zone di manutenzione/regolazione 
+  - Sono le zone in cui i manutentori meccanici possono eseguire le operazioni di manutenzione o regolazione. Queste zone sono considerate a rischio e non accessibili durante il normale funzionamento della macchina. Gli operatori devono essere perfettamente a conoscenza delle avvertenze riguardante la sicurezza e dei dispositivi individuali da indossare. 
+
+* - Zone pericolose
+  - Sono considerate tali tutte le zone all’interno (o circostanti) alla macchina con la presenza di rischi residui che possono provocare danni alle persone. In queste zone è vietato l’accesso a chiunque, durante il funzionamento della macchina. 
+
+:::
+
+I pericoli ed i rischi esistenti in queste zone sono protetti, per quanto possibile, con ripari (carter, portelli) e con dispositivi di sicurezza (sensori, microinterruttori, barriere fotoelettriche) che, in caso di attivazione, provvedono ad un totale arresto della macchina stessa. Tuttavia, quando la macchina è in funzione, è assolutamente vietato operare nelle zone pericolose in quanto alcuni rischi potrebbero non essere stati totalmente annullati.
 
 (dpi)=
-### Dispositivi di protezione individuale (D.P.I.)
+## Dispositivi di protezione individuale (D.P.I.)
 
 Quando si opera vicino al FlexiBowl®, sia per le operazioni di montaggio, che per quelle di manutenzione e/o regolazione, bisogna 
 strettamente attenersi alle norme generali antinfortunistiche, per questo sarà importante utilizzare i dispositivi di protezione 
@@ -95,16 +117,114 @@ procedure:
 
 L’abbigliamento di chi opera o effettua manutenzione sulla linea deve essere conforme ai requisiti essenziali di sicurezza definiti dal **Reg. UE 2016/425** e alle leggi vigenti nel paese in cui la stessa viene installata. 
 
-### Integrazione con sistemi robotizzati
+## Dispositivi di sicurezza
 
-#### **Requisiti di sicurezza della cella**
+Allo scopo di garantire una totale sicurezza dell’operatore e impedire l’accesso all’interno della macchina quando questa è in movimento, la macchina è stata dotata di una serie di dispositivi di sicurezza che, in caso di attivazione, provvedono al suo totale arresto. La macchina è stata progettata e dotata di sistemi di sicurezza per ridurre al minimo i rischi dell’operatore.  La macchina è provvista dei dispositivi di sicurezza descritti nella seguente tabella. Per la posizione di tali dispositivi, fare riferimento al disegno nelle pagine seguenti. 
 
-```{warning}
+:::{figure} ../../../../_shared/media/images/AS000006_DispSicurezza.PNG
+:align: center
+:width: 80%
+:::
+
+:::{warning}
+A causa della presenza di sporgenze appuntite sulle superfici o dischi rigidi con Spike, l’operatore potrebbe essere esposto 
+al pericolo di abrasione e/o taglio in caso di contatto con esse. Indossare gli opportuni D.P.I. in caso di operazioni 
+nelle vicinanze di tali superfici o dischi rigidi.
+:::
+
+:::{warning}
+In caso di emergenza, togliere l’alimentazione connessa al pannello comandi per disabilitare in sicurezza i 
+comandi del FlexiBowl®.
+:::
+
+## Pericoli e rischi
+
+### Rumore
+Le misurazioni di rumore sono state effettuate in accordo con quanto stabilito dalle norme UNI EN ISO 11200:2020 – “Rumore emesso dalle macchine e dalle apparecchiature - Linee guida per l'uso delle norme di base per la determinazione dei livelli di pressione sonora al posto di lavoro e in altre specifiche posizioni” e la UNI EN ISO 3746:2011 “Determinazione dei livelli di potenza sonora e dei livelli di energia sonora delle sorgenti di rumore mediante misurazione della pressione sonora - Metodo di controllo con una superficie avvolgente su un piano riflettente”. Abbiamo effettuato anche la valutazione seguendo le procedure riportate nella DIRETTIVA 2006/42/CE punto 1.5.8 – punto 1.7.4.2 lettera u.
+
+La relazione completa è contenuta nella documentazione perntinente la quasi macchina custodita da ARS. Il report di misura è disponibile su richiesta per utilizzatori e integratori.
+
+Le misure sono state effettuate in 3 differenti condizioni operative:
+
+- FlexiBowl in funzione (MOVE, SHAKE, FLIP) senza la presenza di componenti (“funzionamento a vuoto”);
+- FlexiBowl in funzione (MOVE, SHAKE, FLIP) con la presenza di componenti sul disco rotante, componenti in plastica rigida; 
+- FlexiBowl in funzione (MOVE, SHAKE, FLIP) con la presenza di componenti sul disco rotante, componenti in metallo;
+
+Durante i cicli di funzionamento a vuoto, il livello di pressione acustica continuo equivalente ponderato A nel posto di lavoro è pari a 73.3 dB(A). Per i cicli di funzionamento con componenti, dato che il livello di pressione acustica dell'emissione ponderato A nei posti di lavoro supera 80 dB(A), si riporta nella tabella seguente anche il livello di potenza acustica ponderato A emesso dalla macchina.
+
+:::{list-table} Valori emissioni sonore valutate ai sensi della norma UNI EN ISO 3746:2011 - UNI EN ISO 11202:2021
+:widths: 30 30 30 30 30
+:header-rows: 1
+
+* - FlexiBowl® 800
+  - Livello di potenza sonora ponderata A Lw(A)
+  - Incertezza di misura K
+  - Livello di potenza sonora lineare Lw(z)
+  - Incertezza di misura K
+
+* - Funzionamento a vuoto
+  - 82.6 dB(A)
+  - 8.9
+  - 87.7 dB
+  - 8.9
+
+* - Funzionamento con pezzi in plastica rigida
+  - 89.7 dB(A)
+  - 6.0
+  - 90.7 dB
+  - 6.0
+
+* - Funzionamento con pezzi staffe metalliche
+  - 85.0
+  - 6.0
+  - 88.5
+  - 6.0
+
+:::
+
+Il livello di rumore effettivo della macchina installata durante il funzionamento presso il sito in un processo produttivo potrebbe 
+essere diverso da quello sopra riportato poiché il rumore è influenzato da vari fattori quali:
+
+- componenti movimentati dal FlexiBowl e parametri operativi;  
+- tipo e caratteristiche del sito; 
+- caratteristiche della macchina su cu il FlexiBowl® è integrato; 
+- altre macchine adiacenti in funzione.
+
+::::{warning}
+<table style="width: 100%; border: none; background: transparent;">
+  <tr style="background: transparent !important; border: none !important;">
+    <td style="width: 20%; border: none; vertical-align: middle; text-align: center; background: transparent !important;">
+      <img src="../../../../_shared/media/images/rumore.png" style="width: 100px; height: auto;">
+    </td>
+    <td style="width: 80%; border: none; vertical-align: middle; background: transparent !important; padding-left: 15px;">
+      Per livelli di esposizione quotidiana superiori a 80 dB(A), è obbligatorio utilizzare gli appositi dispositivi di protezione individuale.
+    </td>
+  </tr>
+</table>
+::::
+
+### Temperature operative
+
+#### **Superfici calde - Temperature massime**
+
+:::{warning}
+In condizioni di utilizzo intenso o ambienti caldi, alcuni componenti del sistema possono raggiungere temperature elevate:
+
+- Calotta stringi-disco: fino a...
+- Motore: fino a...
+:::
+
+## Integrazione con sistemi robotizzati
+
+### **Requisiti di sicurezza della cella**
+
+:::{warning}
 Il FlexiBowl® opera in stretta connessione con sistemi robotizzati di terze parti. L'utente deve garantire che l'area di lavoro sia dotata di tutte le misure di sicurezza necessarie imposte dalle normative pertinenti
-```
-#### **Attenzione durante l'operatività**
+:::
 
-```{warning}
+### **Attenzione durante l'operatività**
+
+:::{warning}
 
 Durante il funzionamento del sistema, tenere sempre conto di:
 
@@ -112,11 +232,11 @@ Durante il funzionamento del sistema, tenere sempre conto di:
 - Traiettorie e velocità dei movimenti robotici
 - Possibili situazioni impreviste (caduta pezzi, errori di prelievo)
 - Zone di pericolo durante le fasi di vibrazione del FlexiBowl
-```
+:::
 
-### Precauzioni generali prima degli interventi
+## Precauzioni generali prima degli interventi
 
-#### **Disconnessione alimentazioni**
+### **Disconnessione alimentazioni**
 
 ```{warning}
 Prima di eseguire qualsiasi intervento di manutenzione, modifica o ispezione sul sistema, assicurarsi sempre che:
@@ -126,21 +246,21 @@ Prima di eseguire qualsiasi intervento di manutenzione, modifica o ispezione sul
 - I cavi di collegamento siano fisicamente scollegati
 - Il robot sia in modalità di sicurezza o completamente spento
 ```
-#### **Procedure di sicurezza**
+### **Procedure di sicurezza**
 
 ```{warning}
 
 Non affidarsi esclusivamente agli interruttori: utilizzare procedure di lockout/tagout (LOTO) quando disponibili.
 ```
 
-### Modifiche e manomissioni
+## Modifiche e manomissioni
 
-#### **Divieto di modifiche non autorizzate**
+### **Divieto di modifiche non autorizzate**
 
 ```{warning}
 Non modificare mai il prodotto o i suoi componenti senza espressa autorizzazione scritta di ARS S.r.l.
 ```
-#### **Conseguenze delle modifiche**
+### **Conseguenze delle modifiche**
 
 ```{warning}
 Modifiche non autorizzate possono:
@@ -295,10 +415,12 @@ Per la movimentazione del corpo macchina con imballo, procedere come descritto:
 
 ::::{important}
 Posizionare le forche del carello elevatore come indicato in figura
+
 ::: {figure} ../../../../_shared/media/images/muletto.png
-:align: center
-:width: 50%
-:::
+  :align: center
+  :width: 50%
+  :::
+
 ::::
 
 #### Stoccaggio
@@ -485,16 +607,6 @@ Se non vengono rispettate queste prescrizioni il Costruttore declina ogni respon
 Se il sistema deve operare in ambienti con presenza di liquidi, prevedere adeguate protezioni (custodie IP65 o superiori) e consultare il servizio tecnico ARS per soluzioni personalizzate.
 ```
 
-### Temperature operative
-
-#### **Superfici calde - Temperature massime**
-
-```{warning}
-In condizioni di utilizzo intenso o ambienti caldi, alcuni componenti del sistema possono raggiungere temperature elevate:
-
-- Calotta stringi-disco: fino a...
-- Motore: fino a...
-```
 #### **Responsabilità del cliente**
 
 ```{warning}
@@ -521,21 +633,88 @@ Per preservare l'integrità dei componenti:
 
 ## Smaltimento e fine vita
 
+:::{warning}
+Le operazioni di messa fuori servizio e smantellamento devono essere affidate a personale specializzato in tali attività. In 
+particolare, solo la persona preposta alla fase di smantellamento e allo smaltimento a fine vita può effettuare: 
+- attività di scollegamento meccanico ed elettrico delle parti secondo le istruzioni di smontaggio e schemi di 
+progetto. 
+- attività di trasporto delle parti dalla posizione di impianto al centro di smaltimento per la separazione delle 
+parti.
+:::
+
+I materiali di cui è costituita la macchina sono essenzialmente:  
+- acciaio ferritico verniciato, plastificato o galvanizzato;  
+- acciaio inox serie 300/400;  
+- materiale plastico in polietilene; 
+- elastomeri, PTFE, grafite;  
+- olio per ingranaggi; 
+- grasso per la lubrificazione;  
+- motori elettrici;  
+- cavi elettrici con relative guaine;  
+- dispositivi elettronici di controllo e attuazione.  
+- ecc. 
+
+:::{important}
+La macchina non contiene componenti o sostanze pericolose che necessitano di procedure particolari di 
+rimozione.
+:::
+
+### Messa fuori servizio
+
+Se il FlexiBowl® non deve essere utilizzato per un lungo periodo si rende necessario porlo in sicurezza ed immagazzinarlo. 
+Procedere come descritto:
+
+:::{list-table}
+:widths: 15 60
+:header-rows: 1
+
+* - Step
+  - Operazione
+
+* - 1
+  - Scollegare l’alimentazione di energia elettrica.
+
+* - 2
+  - Scollegare l’alimentazione di energia pneumatica.
+
+* - 3
+  - Proteggere le apparecchiature elettriche particolarmente soggette all’usura del tempo e della polvere.
+
+:::
+
+:::{important}
+Per quanto riguarda la messa fuori servizio delle macchine provenienti da fornitori esterni, si rimanda ai manuali 
+sub-fornitori delle macchine stesse, allegati al presente manuale.
+:::
+
 ### **Smaltimento responsabile**
 
-```{warning}
+:::{warning}
+Disconnettere l’alimentazione elettrica e l’alimentazione pneumatica della macchina. 
+:::
 
-Quando il prodotto raggiunge la fine del suo ciclo di vita, deve essere smaltito in conformità con le normative vigenti relative ai rifiuti di apparecchiature elettriche ed elettroniche (RAEE/WEEE).
-```
-### **Componenti soggetti a smaltimento speciale**
+:::{warning}
+Per il disassemblaggio di parti da commercio o di materiale di sub-fornitura che fanno parte della macchina fornita da ARS S.r.l. si prega di fare riferimento al relativo manuale del fornitore. 
+:::
 
-```{note}
+La demolizione della macchina deve essere affidata a personale qualificato, ciascuno per quanto di competenza.  Quando si intende smaltire la macchina si deve provvedere alla sua messa in sicurezza.
+Ai sensi della Direttiva “RAEE” 2012/19/UE se il componente/apparecchiatura acquistata e contrassegnata con il seguente simbolo 
+del contenitore di spazzatura su ruote barrato, significa che il prodotto alla fine della propria vita utile deve essere raccolto 
+separatamente dagli altri rifiuti. 
+
+:::{warning}
+Quando il prodotto raggiunge la fine del suo ciclo di vita, deve essere smaltito in conformità con le normative vigenti relative ai rifiuti di apparecchiature elettriche ed elettroniche (RAEE/WEEE). Si rammenta l’osservanza delle leggi vigenti in materia di smaltimento nel paese di installazione della macchina. 
+:::
+
+#### **Componenti soggetti a smaltimento speciale**
+
+:::{note}
 **Componenti soggetti a smaltimento speciale:**
 - Schede elettroniche (VisionController): RAEE categoria 6
 - Camera industriale: RAEE categoria 6
 - Illuminatori a LED: RAEE categoria 5
 - Cavi e connettori: smaltimento con materiali elettrici
-```
+:::
 ---
 
 
