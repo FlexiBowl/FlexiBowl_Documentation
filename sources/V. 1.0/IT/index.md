@@ -47,30 +47,6 @@ Per questo motivo, è diviso in delle macro-sezioni con destinatari e finalità 
 * - Risolvere problemi o richiedere assistenza
   - [**TROUBLESHOOTING**](troubleshooting) e [**SUPPORT**](support)
 ```
-## **Gruppi di intervento e responsabilità**
-
-La corretta implementazione di FlexiVision One richiede la collaborazione di diverse figure professionali. Questa tabella chiarisce ruoli e responsabilità:
-
-```{list-table}
-:widths: 25 35 40
-:header-rows: 1
-
-* - Figura professionale
-  - Responsabilità principali
-  - Sezioni del manuale di riferimento
-
-* - **Integratore di sistema**
-  - Progettazione layout, dimensionamento componenti, verifica requisiti tecnici
-  - Riferimento tecnico e specifiche, Opzioni
-
-* - **Tecnico installatore**
-  - Montaggio meccanico, allacciamento elettrico e pneumatico, configurazione rete
-  - Installazione del sistema, Cablaggio e connessioni
-
-* - **Manutentore**
-  - Diagnosi problemi, sostituzione componenti, aggiornamenti software
-  - Nuovo modello, Configurazione FlexiBowl, Troubleshooting, Support
-```
 
 ## **Convenzioni e simboli utilizzati**
 
@@ -120,20 +96,21 @@ In tutto il manuale vengono utilizzati banner informativi per evidenziare conten
 :caption: PRIMA DI INIZIARE 
 FlexiBowl_manual/PRIMA DI INIZIARE/01_informazioni_preliminari.md
 FlexiBowl_manual/PRIMA DI INIZIARE/02_informazioni_sicurezza.md
-FlexiBowl_manual/PRIMA DI INIZIARE/03_unboxing.md
-FlexiBowl_manual/PRIMA DI INIZIARE/04_support.md
+FlexiBowl_manual/PRIMA DI INIZIARE/03_trasporto.md
+FlexiBowl_manual/PRIMA DI INIZIARE/04_cond-util.md
 FlexiBowl_manual/PRIMA DI INIZIARE/05_glossario.md
+FlexiBowl_manual/PRIMA DI INIZIARE/06_support.md
+FlexiBowl_manual/PRIMA DI INIZIARE/07_garanzia.md
 :::
   
 :::{toctree}
 :hidden:
-:caption: QUICKSTART
-FlexiBowl_manual/QUICKSTART/01_panoramica.md
-FlexiBowl_manual/QUICKSTART/02_dati-tecnici-meccanici.md
-FlexiBowl_manual/QUICKSTART/03_dati-tecnici-elettrici.md
-FlexiBowl_manual/QUICKSTART/04_dati-tecnici-pneumatici.md
-FlexiBowl_manual/QUICKSTART/05_dati-tecnici-applicativi.md
-FlexiBowl_manual/QUICKSTART/06_componenti-opzionali.md
+:caption: DATI TECNICI
+FlexiBowl_manual/DATI TECNICI/01_panoramica.md
+FlexiBowl_manual/DATI TECNICI/02_dati-tecnici-meccanici.md
+FlexiBowl_manual/DATI TECNICI/03_dati-tecnici-elettrici.md
+FlexiBowl_manual/DATI TECNICI/04_dati-tecnici-pneumatici.md
+FlexiBowl_manual/DATI TECNICI/05_dati-tecnici-applicativi.md
 :::
 
 :::{toctree}
@@ -143,6 +120,12 @@ FlexiBowl_manual/INSTALLAZIONE/01_interfaccia-meccanica.md
 FlexiBowl_manual/INSTALLAZIONE/02_interfaccia-elettrica.md
 FlexiBowl_manual/INSTALLAZIONE/03_interfaccia-pneumatica.md
 FlexiBowl_manual/INSTALLAZIONE/04_interfaccia-software.md
+:::
+
+:::{toctree}  
+:hidden:
+:caption: QUICKSTART
+FlexiBowl_manual/QUICKSTART/quickstart.md
 :::
 
 :::{toctree}  
@@ -183,12 +166,6 @@ FlexiBowl_manual/MANUTENZIONE/02_straordinaria.md
 
 :::{toctree}  
 :hidden:
-:caption: CERTIFICAZIONI 
-FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
-:::
-
-:::{toctree}  
-:hidden:
 :caption: GARANZIA 
 FlexiBowl_manual/Garanzia.md
 :::
@@ -197,4 +174,16 @@ FlexiBowl_manual/Garanzia.md
 :hidden:
 :caption: TROUBLESHOOTING
 FlexiBowl_manual/TROUBLESHOOTING/01_risoluzione-problemi.md
+:::
+
+:::{toctree}  
+:hidden:
+:caption: SMALTIMENTO
+FlexiBowl_manual/SMALTIMENTO/smaltimento.md
+:::
+
+:::{toctree}  
+:hidden:
+:caption: CERTIFICAZIONI 
+FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 :::
