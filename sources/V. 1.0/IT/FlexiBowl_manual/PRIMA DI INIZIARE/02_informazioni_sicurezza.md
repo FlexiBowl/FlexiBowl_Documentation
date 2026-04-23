@@ -135,7 +135,13 @@ Allo scopo di garantire una totale sicurezza dell’operatore e impedire l’acc
 
 * - 2
   - Interruttore elettrico
-  -
+  - È posizionato sul pannello comandi e permette di interrompere l’alimentazione elettrica in caso di:
+
+    * pericolo per l’incolumità dell’operatore;
+    * pericolo elettrico sulla macchina;
+    * interventi di natura meccanica o elettrica sulla macchina.
+
+:::
 
 :::{figure} ../../../../_shared/media/images/AS000006_DispSicurezza.PNG
 :align: center
@@ -219,9 +225,60 @@ essere diverso da quello sopra riportato poiché il rumore è influenzato da var
 </table>
 ::::
 
-### Temperature operative
+### Backlight e Toplight
 
-#### **Superfici calde - Temperature massime**
+Fare riferimento alla seguente tabella per la classificazione del livello di rischio dovuto all'utilizzo degli illuminatori Toplight e Backlight, in base alla norma EN-62471:
+
+:::{list-table} Toplihgt
+:widths: 30 15 15
+:header-rows: 1
+
+* - Colore
+  - Classe
+  - Rischio
+
+* - Bianco
+  - 0
+  - Nessuno
+
+* - Rosso
+  - 0
+  - Nessuno
+
+* - IR
+  - 1
+  - Basso
+
+:::
+
+:::{list-table} Backlight
+:widths: 30 15 15
+:header-rows: 1
+
+* - Colore
+  - Classe
+  - Rischio
+
+* - Bianco
+  - 0
+  - Nessuno
+
+* - Rosso
+  - 0
+  - Nessuno
+
+* - IR
+  - 1
+  - Basso
+
+:::
+
+:::{note}
+Gli illuminatori infrarossi emettono luce non visibile e perciò possono apparire non funzionanti. Controllare con una telecamera con un filtro ad infrarossi installato per verificarne il funzionamento. La maggior parte degli smartphone visualizzano gli infrarossi.
+:::
+
+### Temperatura
+
 
 :::{warning}
 In condizioni di utilizzo intenso o ambienti caldi, alcuni componenti del sistema possono raggiungere temperature elevate:
@@ -229,6 +286,244 @@ In condizioni di utilizzo intenso o ambienti caldi, alcuni componenti del sistem
 - Calotta stringi-disco: fino a...
 - Motore: fino a...
 :::
+
+### Vibrazioni
+
+Le vibrazioni prodotte dalla macchina, in funzione delle modalità di conduzione della stessa, non sono pericolose alla salute degli 
+operatori.
+
+:::{warning}
+Un’ eccessiva vibrazione può solo essere causata da un guasto meccanico che deve essere immediatamente segnalato ed eliminato, per non pregiudicare la sicurezza della linea e degli operatori.
+:::
+
+### Compatibilità elettromagnetica
+
+La macchina fornita contiene componenti elettronici soggetti alle normative sulla Compatibilità Elettromagnetica, condizionati da emissioni condotte e irradiate.
+
+I valori delle emissioni rientrano nelle esigenze normative grazie all’impiego di componenti conformi alla direttiva Compatibilità Elettromagnetica, collegamenti idonei e installazione di filtri dove necessario. La macchina risulta quindi conforme alla direttiva sulla Compatibilità Elettromagnetica (EMC).
+
+:::{warning}
+Eventuali attività manutentive sull’apparecchiatura elettrica realizzate in modo non conforme o sostituzioni errate di componenti possono compromettere l’efficienza delle soluzioni adottate.
+:::
+
+### Rischi residui
+
+La progettazione della macchina è stata eseguita in modo da garantire i requisiti essenziali di sicurezza per l’operatore. La sicurezza, per quanto possibile, è stata integrata nel progetto e nella costruzione della macchina; tuttavia permangono rischi dai quali gli operatori devono essere protetti soprattutto in fase di:
+
+- trasporto e installazione; 
+- funzionamento normale; 
+- regolazione e messa a punto, 
+- manutenzione e pulizia; 
+- smontaggio e smantellamento.
+
+Di seguito per ogni rischio residuo viene fornita una descrizione, la zona o parte di macchina oggetto del rischio (a meno che non 
+ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo evitare:
+
+:::{raw} html
+<style>
+  .custom-safety-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 0.95em;
+    color: #333;
+    border: 1px solid #e0e6ed;
+  }
+
+  /* Riga intestazione */
+  .custom-safety-table thead tr {
+    background-color: #f8f9fa;
+    border-bottom: 3px solid #176de8; /* Il tuo blu specifico */
+  }
+
+  .custom-safety-table th {
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #1a202c;
+    border-right: 1px solid #e0e6ed; /* Linea verticale nell'header */
+  }
+
+  .custom-safety-table th:last-child {
+    border-right: none;
+  }
+
+  /* Righe alternate (Zebra) */
+  .custom-safety-table tbody tr:nth-child(even) {
+    background-color: #f1f5f9;
+  }
+
+  .custom-safety-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+
+  /* Effetto Hover */
+  .custom-safety-table tbody tr:hover {
+    background-color: #dbeafe !important;
+    transition: background-color 0.2s ease;
+  }
+
+  .custom-safety-table td {
+    padding: 15px;
+    vertical-align: top;
+    border-bottom: 1px solid #e0e6ed;
+    border-right: 1px solid #e0e6ed; /* Linea verticale tra le colonne */
+  }
+
+  .custom-safety-table td:last-child {
+    border-right: none; /* Rimuove l'ultima linea a destra */
+  }
+
+  .pittogrammi-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+</style>
+
+<table class="custom-safety-table">
+  <thead>
+    <tr>
+      <th style="width: 25%;">Rischio</th>
+      <th>Descrizione ed informazioni procedurali</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">
+        <strong>PERICOLI DOVUTI ALLA MOVIMENTAZIONE</strong><br><br>
+        <small style="color: #666;">PITTOGRAMMI:</small>
+        <div class="pittogrammi-container">
+          <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
+          <img src="../../../../_shared/media/images/muletto1.png" alt="muletto1" width="60">
+          <img src="../../../../_shared/media/images/omino.png" alt="omino" width="60">
+        </div>
+      </td>
+      <td>
+        Le procedure di movimentazione sono descritte al capitolo <strong>"Trasporto e installazione"</strong> del presente manuale d'istruzioni.<br>
+        <strong>Rischio residuo:</strong><br>
+        Le operazioni di:
+        <ul>
+            <li>scarico degli imballi,</li>
+            <li>apertura degli imballi,</li>
+            <li>movimentazione della macchina</li>
+        </ul>
+        espongono gli operatori al rischio di carichi sospesi e schiacciamento. Tali operazioni devono essere svolte esclusivamente da personale specializzato nella conduzione di mezzi di sollevamento e che sia stato opportunamente addestrato allo scopo.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        <strong>PERICOLO DI ABRASIONE, TAGLIO, URTO</strong><br><br>
+        <small style="color: #666;">PITTOGRAMMI:</small>
+        <div class="pittogrammi-container">
+          <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
+          <img src="../../../../_shared/media/images/mano.png" alt="mano" width="60">
+        </div>
+      </td>
+      <td>
+        A causa della presenza di sporgenze appuntite sui <strong>"Rotary Disc"</strong> con Spike, l'operatore potrebbe essere esposto al pericolo di abrasione e/o taglio in caso di contatto con esse.<br>
+        Indossare gli opportuni D.P.I. in caso di operazioni nelle vicinanze di tali <strong>"Rotary Disc"</strong>.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        <strong>PERICOLO ELETTRICO</strong><br><br>
+        <small style="color: #666;">PITTOGRAMMI:</small>
+        <div class="pittogrammi-container">
+          <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
+          <img src="../../../../_shared/media/images/corrente.png" alt="corrente" width="60">
+        </div>
+      </td>
+      <td>
+        Le operazioni di accesso e manutenzione della macchina espongono gli operatori al rischio elettrico. Gli interventi sulle apparecchiature sotto tensione devono essere effettuati esclusivamente da personale esperto e qualificato.<br>
+        Si raccomandano le seguenti misure di sicurezza:
+        <ul>
+            <li>prestare la massima attenzione ai pittogrammi di sicurezza relativi al rischio elettrico;</li>
+            <li>non effettuare interventi di manutenzione senza aver preventivamente sezionato l'energia elettrica;</li>
+            <li>consultare i manuali delle attrezzature commerciali per eventuali raccomandazioni specifiche;</li>
+            <li>ispezionare periodicamente il circuito di protezione equipotenziale.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        <strong>PERICOLO DERIVANTE DA DISTURBI DI ILLUMINAZIONE</strong><br><br>
+        <small style="color: #666;">PITTOGRAMMI:</small>
+        <div class="pittogrammi-container">
+          <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
+        </div>
+      </td>
+      <td>
+        Il <strong>"Backlight"</strong> è posto nella parte interna del corpo macchina, fuori dalla vista dell'operatore ed è schermata quasi totalmente dai ripari del corpo macchina.<br>
+        <strong>Rischio residuo:</strong><br>
+        L'operatore può subire danni alla vista se osserva per un lasso di tempo prolungato l'intensa luce del <strong>"Backlight"</strong>.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        <strong>PERICOLO DERIVANTE DA POLVERI, SCHEGGE, ECC.</strong><br><br>
+        <small style="color: #666;">PITTOGRAMMI:</small>
+        <div class="pittogrammi-container">
+          <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
+        </div>
+      </td>
+      <td>
+        Al termine del ciclo di lavoro potrebbero restare sul <strong>"Rotary Disc"</strong> della macchina una serie di residui delle parti alimentate o accumuli di polveri.<br>
+        Procedere ad un'accurata pulizia del <strong>"Rotary Disc"</strong> dopo ogni utilizzo, come descritto all'interno del cap.7 del presente manuale.
+      </td>
+    </tr>
+  </tbody>
+</table>
+:::
+
+:::{warning}
+Non effettuare attività di manutenzione e pulizia se prima non si è provveduto a de-energizzare le energie 
+presenti.
+:::
+
+:::{warning}
+È assolutamente vietato rimuovere le protezioni di sicurezza installate sulla macchina o aprire i ripari fissi senza 
+prima aver sezionato l’alimentazione elettrica e pneumatica della macchina.
+:::
+
+Sarà cura dell’utilizzatore provvedere a: 
+- analizzare i rischi che potrebbero verificarsi durante una fase di movimentazione e di installazione all’interno della 
+propria sede (le analisi fatte sulla movimentazione della macchina sono state fatte solo in considerazioni delle 
+caratteristiche della stessa); 
+- sensibilizzare ed istruire il personale addetto alle operazioni sulle postazioni di lavoro e il personale addetto alla 
+conduzione della macchina; 
+- applicare le segnaletiche visive di sicurezza nell’ambiente di lavoro dopo aver valutato i rischi all’interno delle aree di 
+transito o di comando.
+
+## Pittogrammi di sicurezza apllicati alla macchina
+
+Nella tabella di seguito sono elencati i pittogrammi presenti sulla macchina, solitamente presenti accanto al pannello comandi.
+
+::::{list-table}
+:widths: 30 60
+:header-rows: 1
+
+* - Pittogramma
+  - Descrizione
+
+* - :::{figure} ../../../../_shared/media/images/manutenzione.png
+    :width: 80%
+    :align: center
+    :::
+  - **PERICOLO! SOLO IL PERSONALE AUTORIZZATO PUÒ ESEGUIRE LAVORI DI MANUTENZIONE O RIPARAZIONE.**
+
+    Indica un divieto ad eseguire lavori di manutenzione o riparazione a personale non autorizzato. 
+
+* - :::{figure} ../../../../media/images/disconnettere.png
+    :width: 80%
+    :align: center
+    :::
+  - **ATTENZIONE! DISCONNETTERE L’ALIMENTAZIONE ELETTRICA PRIMA DI ESEGUIRE OPERAZIONI DI PULIZIA O MANUTENZIONE. **
+
+    Indica un divieto ad eseguire lavori di manutenzione o pulizia non prima di aver staccato l’alimentazione elettrica.
+
+::::
 
 ## Integrazione con sistemi robotizzati
 
