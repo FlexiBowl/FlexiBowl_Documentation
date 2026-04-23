@@ -515,11 +515,11 @@ Nella tabella di seguito sono elencati i pittogrammi presenti sulla macchina, so
 
     Indica un divieto ad eseguire lavori di manutenzione o riparazione a personale non autorizzato. 
 
-* - :::{figure} ../../../../media/images/disconnettere.png
+* - :::{figure} ../../../../_shared/media/images/disconnettere.png
     :width: 80%
     :align: center
     :::
-  - **ATTENZIONE! DISCONNETTERE L’ALIMENTAZIONE ELETTRICA PRIMA DI ESEGUIRE OPERAZIONI DI PULIZIA O MANUTENZIONE. **
+  - **ATTENZIONE! DISCONNETTERE L’ALIMENTAZIONE ELETTRICA PRIMA DI ESEGUIRE OPERAZIONI DI PULIZIA O MANUTENZIONE.**
 
     Indica un divieto ad eseguire lavori di manutenzione o pulizia non prima di aver staccato l’alimentazione elettrica.
 
