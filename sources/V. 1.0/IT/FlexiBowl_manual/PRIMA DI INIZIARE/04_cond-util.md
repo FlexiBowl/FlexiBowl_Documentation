@@ -1,4 +1,5 @@
-# **Panoramica**
+(condamb)=
+# **Condizioni di utilizzo ed ambientali**
 
 ## Uso previsto (corretto)
 
@@ -56,6 +57,97 @@ garanzia sulla macchina.
 Un uso improprio del FlexiBowl® esclude qualsiasi responsabilità del Costruttore.
 :::
 
+## Predisposiziopni a carico del cliente
+
+Fatti salvi eventuali accordi contrattuali diversi è normalmente a carico del Cliente la predisposizione di: 
+- locali (comprese opere murarie, come fondazioni o canalizzazioni eventualmente richieste, illuminazione); 
+- impianti elettrici fino ai punti di alimentazione della macchina, in conformità alle norme vigenti nel paese di installazione e/o richiesti dal Costruttore della macchina Tutte le specifiche tecniche richieste dal Costruttore sono contenute nel contratto di vendita. Il Costruttore declina ogni responsabilità se il cliente non riuscisse a garantire le caratteristiche tecniche dell’impianto elettrico richieste nel contratto di vendita. 
+- l’alimentazione elettrica per la macchina, compreso il conduttore di messa a terra, secondo le caratteristiche e tolleranze richieste e specificate nel presente manuale. 
+- servizi ausiliari adeguati alle esigenze della macchina; 
+- utensili e materiali di consumo occorrenti per il montaggio e installazione; 
+- lubrificanti necessari per la messa in moto della macchina; 
+- l’alimentazione pneumatica per la macchina adeguata come da specifica presente al paragrafo “Dati tecnici”; 
+- mezzi di sollevamento e movimentazione adeguati.
+
+## Condizioni ambientali ammesse
+
+L’ambiente in cui il FlexiBowl® viene installato e utilizzato è interno, al riparo da agenti atmosferici quali: pioggia, grandine, neve, 
+nebbia, polveri in sospensione, polveri combustibili, al riparo da agenti aggressivi quali vapori corrosivi o sorgenti di calore 
+eccessiva e non deve essere classificato ATEX. 
+L’impiego del FlexiBowl®, dei sistemi di controllo associati e delle apparecchiature di azionamento in condizioni diverse da quelle 
+elencate non è consentito. 
+In particolare l’ambiente di installazione e utilizzo non deve presentare: 
+- Esposizione a fumi corrosivi; 
+- Esposizione ad umidità eccessiva (superiori all’85 %) e rapidi cambiamenti di umidità relativa (superiori a 0,005 p.u./h);  
+- Esposizione a polvere eccessiva; 
+- Esposizione a polvere abrasiva; 
+- Esposizione a vapori oleosi; 
+- Esposizione a miscele esplosive di polveri o di gas; 
+- Esposizione all’aria salmastra; 
+- Esposizione a vibrazioni, urti o scosse anomali; 
+- Esposizioni ad intemperie fuori dai limiti permessi o sgocciolamento; 
+- Esposizione a condizioni non usuali di trasporto o immagazzinamento; 
+- Esposizione a variazioni termiche elevate o rapide (superiori a 5K/h); 
+- Presenza di radiazioni nucleari.
+
+Il FlexiBowl® è progettato e costruito per funzionare, in sicurezza, nelle seguenti condizioni ambientali:
+
+:::{list-table}
+:widths: 50 25
+:header-rows: 1
+
+* - Condizioni ambientali ammesse
+  - 
+
+* - Temperatura ambiente
+  - +5 ÷ +40 °C
+
+* - Range di umidità relativa
+  - 10 ÷ 80 % (senza condensa)
+
+* - Grado di protezione del FlexiBowl®
+  - IP40
+
+:::{warning}
+Condizioni ambientali diverse da quelle specificate possono causare gravi danni alla macchina. 
+Il posizionamento della macchina in ambienti non corrispondenti a quanto indicato fa decadere la garanzia per 
+gli organi da sostituire.
+:::
+
+:::{important}
+La superficie di lavoro deve essere sufficientemente illuminata. Nel caso in cui sul posto di lavoro si riscontrino 
+zone d’ombra o dislivelli, sarà cura dell’utente predisporre dispositivi di illuminazione adeguati.
+:::
+
+Se non vengono rispettate queste prescrizioni il Costruttore declina ogni responsabilità.
+
+### **Soluzioni per ambienti critici**
+
+```{note}
+Se il sistema deve operare in ambienti con presenza di liquidi, prevedere adeguate protezioni (custodie IP65 o superiori) e consultare il servizio tecnico ARS per soluzioni personalizzate.
+```
+
+### **Responsabilità del cliente**
+
+```{warning}
+È responsabilità del cliente:
+
+- Documentare i rischi termici nella propria valutazione dei rischi
+- Istruire il personale sulle procedure per evitare contatti accidentali
+- Prevedere segnaletica di avvertimento dove necessario
+- Garantire adeguata ventilazione dei componenti
+```
+
+### **Precauzioni aggiuntive per l'ambiente**
+
+```{note}
+Per preservare l'integrità dei componenti:
+
+- Evitare l'esposizione diretta alla luce solare
+- Proteggere da vibrazioni eccessive durante lo stoccaggio
+- Mantenere in ambiente asciutto e privo di polveri aggressive
+- La camera è sensibile agli shock meccanici: maneggiare con cura
+```
 ## Obblighi e divieti
 
 ### Obblighi degli utilizzatori
