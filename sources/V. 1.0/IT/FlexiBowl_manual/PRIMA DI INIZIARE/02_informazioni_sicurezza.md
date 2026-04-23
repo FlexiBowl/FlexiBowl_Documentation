@@ -119,7 +119,23 @@ L’abbigliamento di chi opera o effettua manutenzione sulla linea deve essere c
 
 ## Dispositivi di sicurezza
 
-Allo scopo di garantire una totale sicurezza dell’operatore e impedire l’accesso all’interno della macchina quando questa è in movimento, la macchina è stata dotata di una serie di dispositivi di sicurezza che, in caso di attivazione, provvedono al suo totale arresto. La macchina è stata progettata e dotata di sistemi di sicurezza per ridurre al minimo i rischi dell’operatore.  La macchina è provvista dei dispositivi di sicurezza descritti nella seguente tabella. Per la posizione di tali dispositivi, fare riferimento al disegno nelle pagine seguenti. 
+Allo scopo di garantire una totale sicurezza dell’operatore e impedire l’accesso all’interno della macchina quando questa è in movimento, la macchina è stata dotata di una serie di dispositivi di sicurezza che, in caso di attivazione, provvedono al suo totale arresto. La macchina è stata progettata e dotata di sistemi di sicurezza per ridurre al minimo i rischi dell’operatore.  La macchina è provvista dei dispositivi di sicurezza descritti nella seguente tabella. Per la posizione di tali dispositivi, fare riferimento allo schema seguente.
+
+:::{list-table}
+:widths: 10 20 60
+:header-rows: 1
+
+* - N.
+  - Elemento
+  - Descrizione
+
+* - 1
+  - Carter
+  - È costituito da protezioni perimetrali fisse (carterature), le quali hanno funzione di impedire l’accesso ai movimenti delle varie parti della macchina durante il ciclo di funzionamento e richiedono utensili specifici per la loro rimozione.
+
+* - 2
+  - Interruttore elettrico
+  -
 
 :::{figure} ../../../../_shared/media/images/AS000006_DispSicurezza.PNG
 :align: center
