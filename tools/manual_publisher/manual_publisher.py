@@ -183,6 +183,28 @@ def remove_directory(path: Path) -> None:
         shutil.rmtree(path, onexc=handle_remove_readonly)
 
 
+def copy_file(source_file: Path, destination_file: Path, *, skip_locked: bool = False, action_label: str = "sync") -> bool:
+    destination_file.parent.mkdir(parents=True, exist_ok=True)
+
+    try:
+        shutil.copy2(source_file, destination_file)
+        return True
+    except PermissionError:
+        if destination_file.exists():
+            try:
+                os.chmod(destination_file, stat.S_IWRITE)
+                shutil.copy2(source_file, destination_file)
+                return True
+            except PermissionError:
+                pass
+
+        if skip_locked:
+            print(f"Skipping locked file during {action_label}: {destination_file}")
+            return False
+
+        raise
+
+
 def sync_directory(source: Path, destination: Path) -> None:
     destination.mkdir(parents=True, exist_ok=True)
     for root, _, files in os.walk(source):
@@ -193,10 +215,7 @@ def sync_directory(source: Path, destination: Path) -> None:
         for file_name in files:
             source_file = source_dir / file_name
             destination_file = destination_dir / file_name
-            try:
-                shutil.copy2(source_file, destination_file)
-            except PermissionError:
-                print(f"Skipping locked file during sync: {destination_file}")
+            copy_file(source_file, destination_file, skip_locked=True, action_label="sync")
 
 
 def merge_directory(source: Path, destination: Path) -> None:
@@ -211,14 +230,15 @@ def merge_directory(source: Path, destination: Path) -> None:
         for file_name in files:
             source_file = source_dir / file_name
             destination_file = destination_dir / file_name
-            shutil.copy2(source_file, destination_file)
+            copy_file(source_file, destination_file, action_label="merge")
 
 
-def mirror_directory(source: Path, destination: Path) -> None:
+def mirror_directory(source: Path, destination: Path, *, skip_locked: bool = False) -> int:
     destination.mkdir(parents=True, exist_ok=True)
 
     source_dirs = {Path(".")}
     source_files: set[Path] = set()
+    locked_item_count = 0
 
     for root, dirs, files in os.walk(source):
         source_dir = Path(root)
@@ -236,11 +256,16 @@ def mirror_directory(source: Path, destination: Path) -> None:
             relative_file = relative_dir / file_name if relative_dir != Path(".") else Path(file_name)
             source_files.add(relative_file)
             destination_file = destination / relative_file
-            destination_file.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(source_dir / file_name, destination_file)
+            if not copy_file(
+                source_dir / file_name,
+                destination_file,
+                skip_locked=skip_locked,
+                action_label="mirror",
+            ):
+                locked_item_count += 1
 
     if not destination.exists():
-        return
+        return locked_item_count
 
     existing_items = sorted(
         destination.rglob("*"),
@@ -252,11 +277,25 @@ def mirror_directory(source: Path, destination: Path) -> None:
         relative_item = item.relative_to(destination)
         if item.is_file():
             if relative_item not in source_files:
-                item.unlink()
+                try:
+                    item.unlink()
+                except PermissionError:
+                    if not skip_locked:
+                        raise
+                    locked_item_count += 1
+                    print(f"Skipping locked file during mirror cleanup: {item}")
             continue
 
         if relative_item not in source_dirs:
-            remove_directory(item)
+            try:
+                remove_directory(item)
+            except PermissionError:
+                if not skip_locked:
+                    raise
+                locked_item_count += 1
+                print(f"Skipping locked directory during mirror cleanup: {item}")
+
+    return locked_item_count
 
 
 def remove_named_files(root: Path, names: set[str]) -> None:
@@ -1653,7 +1692,9 @@ def build_release_assets(
 
 
 def sync_site_output(build_root: Path, output_root: Path, locked_message: str) -> None:
-    mirror_directory(build_root, output_root)
+    locked_item_count = mirror_directory(build_root, output_root, skip_locked=True)
+    if locked_item_count:
+        print(f"Warning: {locked_message} Skipped {locked_item_count} locked item(s).")
 
 
 def build_site(
