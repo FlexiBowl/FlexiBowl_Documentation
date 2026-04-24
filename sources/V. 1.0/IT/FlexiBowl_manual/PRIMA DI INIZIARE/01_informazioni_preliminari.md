@@ -61,6 +61,13 @@ Allo scopo di stabilire con certezza quali sono le competenze e le qualifiche de
 
 * - Qualifica
   - Definizione
+
+* - **Integratore di sistema**
+  - Personale addetto alla progettazione dei layout, del dimensionamento componenti e della verifica requisiti tecnici per l'installazione del FlexiBowl®.
+
+* - **Tecnico installatore**
+  - Personale addetto al montaggio meccanico, allacciamento elettrico e pneumatico e alla configurazione della rete.
+
 * - **Operatore**
   - Personale dell'utilizzatore addestrato e abilitato all'utilizzo e conduzione
     della macchina ai fini produttivi per le attività per cui è stata costruita
