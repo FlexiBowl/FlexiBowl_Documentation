@@ -1,1 +1,0 @@
-# **Unboxing e Contenuto della Scatola**
