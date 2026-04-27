@@ -32,6 +32,7 @@ La regolazione dell'intensità del soffio avviene via software. È possibile sce
 
 Test standardizzato?
 
+(sofind)=
 ## Soffio indiretto (solo per FlexiBowl® 500E)
 
 ### Applicazioni consigliate
