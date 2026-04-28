@@ -1,4 +1,4 @@
-# **Sostituzione Valvola Proporzionale**
+# **Sostituzione Gruppo Flip**
 
 :::::{important}
 
@@ -27,7 +27,7 @@
 :::::
 
 :::{warning}
-Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione della valvola proporzionale.
+Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione del gruppo flip.
 :::
 
 ## Cosa serve?
@@ -51,31 +51,31 @@ Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione d
 
 | Step | Operazione |
 |:----:|-----------|
-| 1 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 2 | Rimuovere il gruppo schermo flip |
+| 1 | Rimuovere il gruppo schermo flip |
+| 2 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
 | 3 | Rimuovere la piastra di copertura del gruppo flip (usare due delle viti di fissaggio per la rimzozione tramite gli appositi fori filettati) |
-| 4 | Scollegare, rimuovere gli allacciamenti pneumatici e smontare la staffa della valvola proporzionale |
-| 5 | Sostituire la valvola proporzionale danneggiata con quella nuova |
+| 4 | Rimuovere gli allacciamenti pneumatici e smontare il gruppo flip |
+| 5 | Sostituire il gruppo flip danneggiato con quello nuovo |
 | 6 | A sostituzione terminata, rimontare tutti i componenti |
 
 ::::{raw} html
 <figure style="text-align: center;">
-  <video id="sostprop" width="100%" height="auto" controls>
-    <source src="../../../../_shared/media/videos/AS000006_cambioprop.mp4" type="video/mp4">
+  <video id="sostflip" width="100%" height="auto" controls>
+    <source src="../../../../_shared/media/videos/AS000006_cambioflip.mp4" type="video/mp4">
     Il tuo browser non supporta il video.
   </video>
   <br>
-  <label for="velcamprop">Velocità:</label>
-  <select id="velcamprop" onchange="document.getElementById('sostprop').playbackRate = this.value">
+  <label for="velcamflip">Velocità:</label>
+  <select id="velcamflip" onchange="document.getElementById('sostflip').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione della valvola proporzionale illustrata su FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Procedura di sostituzione del gruppo flip illustrata su FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-In base alla presenza o meno dei soffi, possono essere presenti una o due valvole proporzionali: la seconda si trova sotto alla piastra opposta a quella che copre il gruppo flip.
+Il gruppo flip del FlexiBowl® 1200 è composto da due parti da smontare individualmente.
 :::

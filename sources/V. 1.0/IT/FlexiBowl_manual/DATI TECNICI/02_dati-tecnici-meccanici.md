@@ -43,7 +43,7 @@
 * - I
   - 10 mm
 
-* - L
+* - J
   - —
 
 * - Backlight Area
@@ -97,10 +97,10 @@
 * - I
   - 33 mm
 
-* - L
+* - J
   - 10 mm
 
-* - M
+* - K
   - —
 
 * - Backlight Area
@@ -194,7 +194,7 @@
   - 29 mm
   - 60 mm
 
-* - L
+* - J
   - 10 mm
   - 10 mm
   - 10 mm
