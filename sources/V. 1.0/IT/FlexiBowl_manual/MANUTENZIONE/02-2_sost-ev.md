@@ -39,11 +39,17 @@ Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione d
 * - Oggetto/attrezzatura
   - Quantità
 
+* - Chiave esagonale H5
+  - 1
+
+* - Chiave esagonale H4
+  - 1
+
 * - Chiave esagonale H2.5
   - 1
 
-* - Backlight sostitutivo
-  - 1
+* - Elettrovalvola sostitutiva
+  - Q.B.
 
 :::
 

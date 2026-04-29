@@ -43,10 +43,13 @@ Nel FlexiBowl® 200 il motore è in presa diretta, e il ricambio fornito consist
 * - Oggetto/attrezzatura
   - Quantità
 
-* - Chiave esagonale H2.5
+* - Chiave esagonale H5
   - 1
 
-* - Backlight sostitutivo
+* - Chiave esagonale H4
+  - 1
+
+* - Gruppo motore sostitutivo
   - 1
 
 :::
