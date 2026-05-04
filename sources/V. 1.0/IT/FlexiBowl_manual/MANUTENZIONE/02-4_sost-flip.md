@@ -27,7 +27,7 @@
 :::::
 
 :::{warning}
-Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione del gruppo flip.
+Disconnettere l'alimentazione elettrica e pneumatica prima di procedere con la sostituzione del gruppo flip.
 :::
 
 ## Cosa serve?
