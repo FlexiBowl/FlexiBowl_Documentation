@@ -14,7 +14,20 @@ Il Toplight infrarosso emette luce non visibile e perciò può apparire non funz
 ## Dimensioni dei Toplight per ogni taglia di FlexiBowl®:
 
 :::{raw} html
-<table style="border-collapse: collapse; width: 100%;">
+<style>
+    .toplight-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .toplight-table tbody tr:hover td,
+  .toplight-table tbody tr:hover th {
+    background-color: #dbeafe !important;
+    transition: background-color 0.2s ease;
+  }
+</style>
+
+<table class="toplight-table">
   <tbody>
     <tr>
       <th style="border: 1px solid #ccc; border-right: 3px solid #2980b9; padding: 8px; background-color: #f8f8f8; text-align: left;">Taglia FlexiBowl®</th>
@@ -59,7 +72,20 @@ Il Toplight infrarosso emette luce non visibile e perciò può apparire non funz
 ## Caratteristiche dei Toplight:
 
 :::{raw} html
-<table style="border-collapse: collapse; width: 100%;">
+<style>
+    .toplight-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .toplight-table tbody tr:hover td,
+  .toplight-table tbody tr:hover th {
+    background-color: #dbeafe !important;
+    transition: background-color 0.2s ease;
+  }
+</style>
+
+<table class="toplight-table">
   <tbody>
     <tr>
       <th style="border: 1px solid #ccc; border-right: 3px solid #2980b9; padding: 8px; background-color: #f8f8f8; text-align: left; width: 30%;">Tipo Toplight</th>
@@ -82,3 +108,5 @@ Il Toplight infrarosso emette luce non visibile e perciò può apparire non funz
   </tbody>
 </table>
 :::
+
+## Schema dei fori di fissaggio

@@ -27,9 +27,21 @@ Le spine di centraggio sono opzionali e non incluse con il FlexiBowl®.
 :align: center
 :::
 
+### Svuotamento (solo per FlexiBowl® 500)
+
+:::{figure} ../../../../_shared/media/images/AS000004_Interfaccia1.PNG
+:align: center
+:::
+
 ## FlexiBowl® 650
 
 :::{figure} ../../../../_shared/media/images/AS000008_Interfaccia.PNG
+:align: center
+:::
+
+### Svuotamento
+
+:::{figure} ../../../../_shared/media/images/AS000008_Interfaccia1.PNG
 :align: center
 :::
 
@@ -39,9 +51,21 @@ Le spine di centraggio sono opzionali e non incluse con il FlexiBowl®.
 :align: center
 :::
 
+### Svuotamento
+
+:::{figure} ../../../../_shared/media/images/AS000006_Interfaccia1.PNG
+:align: center
+:::
+
 ## FlexiBowl® 1200
 
 :::{figure} ../../../../_shared/media/images/AS000012_Interfaccia.PNG
+:align: center
+:::
+
+### Svuotamento
+
+:::{figure} ../../../../_shared/media/images/AS000012_Interfaccia1.PNG
 :align: center
 :::
 
@@ -73,6 +97,12 @@ Le spine di centraggio sono opzionali e non incluse con il FlexiBowl®.
 Lasciare circa 100mm di spazio per i connettori di alimentazione del FlexiBowl®.
 :::
 
-:::{important}
+::::{important}
 Assicurarsi che la superficie di appoggio della macchina sia piana ed orizzontale, e sia idonea a sostenerne il peso.
+
+Il FlexiBowl® **non deve** essere montato su una porzione a sbalzo del piano macchina.
+
+:::{figure} ../../../../_shared/media/images/FB650-nosbalzo.PNG
+:align: center
 :::
+::::

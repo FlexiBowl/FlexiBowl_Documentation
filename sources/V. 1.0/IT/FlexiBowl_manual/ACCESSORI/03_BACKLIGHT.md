@@ -18,7 +18,20 @@ Esistono inoltre due tipi di Backlight:
 ## Dimensioni dei Backlight per ogni taglia di FlexiBowl®:
 
 :::{raw} html
-<table style="border-collapse: collapse; width: 100%;">
+<style>
+    .toplight-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .toplight-table tbody tr:hover td,
+  .toplight-table tbody tr:hover th {
+    background-color: #dbeafe !important;
+    transition: background-color 0.2s ease;
+  }
+</style>
+
+<table class="toplight-table">
   <tbody>
     <tr>
       <th style="border: 1px solid #ccc; border-right: 3px solid #2980b9; padding: 8px; background-color: #f8f8f8; text-align: left;">Taglia FlexiBowl®</th>
@@ -45,7 +58,20 @@ Esistono inoltre due tipi di Backlight:
 ## Caratteristiche dei Backlight:
 
 :::{raw} html
-<table style="border-collapse: collapse; width: 100%;">
+<style>
+    .toplight-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .toplight-table tbody tr:hover td,
+  .toplight-table tbody tr:hover th {
+    background-color: #dbeafe !important;
+    transition: background-color 0.2s ease;
+  }
+</style>
+
+<table class="toplight-table">
   <tbody>
     <tr>
       <th style="border: 1px solid #ccc; border-right: 3px solid #2980b9; padding: 8px; background-color: #f8f8f8; text-align: left; width: 30%;">Tipo Backlight</th>
