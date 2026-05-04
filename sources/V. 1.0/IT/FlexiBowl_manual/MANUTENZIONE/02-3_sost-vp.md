@@ -27,7 +27,7 @@
 :::::
 
 :::{warning}
-Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione della valvola proporzionale.
+Disconnettere l'alimentazione elettrica e pneumatica prima di procedere con la sostituzione della valvola proporzionale.
 :::
 
 ## Cosa serve?

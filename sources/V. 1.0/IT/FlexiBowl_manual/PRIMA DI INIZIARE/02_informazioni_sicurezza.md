@@ -581,6 +581,3 @@ Modifiche non autorizzate possono:
 - Creare rischi di lesioni, scosse elettriche o incendi
 - Compromettere le certificazioni di sicurezza del prodotto
 ```
-
-
-
