@@ -42,7 +42,7 @@ source_suffix = {
 # -- Options for HTML output -------------------------------------------------
 
 html_theme = "sphinx_book_theme"
-html_static_path = ["../../_shared/static"]
+html_static_path = ["../../_shared/static", "../../_shared/media"]
 html_title = "FlexiVision One Manual"
 
 html_css_files = [
