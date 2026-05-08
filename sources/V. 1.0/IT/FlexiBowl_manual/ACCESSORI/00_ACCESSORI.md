@@ -105,7 +105,6 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
 ::::{list-table}
 :widths: 20 20 20 20 20 20 20 20 20
 :header-rows: 1
-:stub-columns: 1
 :class: tabacc
 
 * - 
@@ -118,7 +117,7 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - Flexitracking
   - Ringlight
 
-* - Deviatore Standard
+* - **Deviatore Standard**
   - :::{raw} html
     <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 5em;"></div>
     :::
@@ -130,7 +129,7 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - ✓
   - ✓
 
-* - Soffio radiale
+* - **Soffio radiale**
   - 
   - :::{raw} html
     <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 5em;"></div>
@@ -142,7 +141,7 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - ✓
   - ✓
 
-* - Soffio centrale
+* - **Soffio centrale**
   - ✓
   - ✓
   - :::{raw} html
@@ -154,7 +153,7 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - ✓
   - ✓
 
-* - Brush Diverter
+* - **Brush Diverter**
   - ✓
   - ✓
   - 
@@ -167,7 +166,7 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - ✓
 
 
-* - Wedge Diverter
+* - **Wedge Diverter**
   - 
   - 
   - ✓
@@ -179,19 +178,19 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - ✓
   - ✓
 
-* - Svuotamento
+* - **Svuotamento**
   - ✓
   - ✓
   - ✓
   - ✓
   - ✓
   - :::{raw} html
-    <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 3em;"></div>
+    <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 5em;"></div>
     :::
   - ✓
   - ✓
 
-* - Flexitracking
+* - **Flexitracking**
   - ✓
   - ✓
   - ✓
@@ -199,11 +198,11 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - ✓
   - ✓
   - :::{raw} html
-    <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 3em;"></div>
+    <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 5em;"></div>
     :::
   - ✓
 
-* - Ringlight
+* - **Ringlight**
   - ✓
   - ✓
   - ✓
@@ -212,7 +211,7 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - ✓
   - ✓
   - :::{raw} html
-    <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 3em;"></div>
+    <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 5em;"></div>
     :::
 
 ::::

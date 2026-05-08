@@ -118,11 +118,11 @@
 :width: 90%
 :::
 
+(dim800)=
 ::: {list-table}
 :header-rows: 1
 :align: center
 :widths: 20 40 40 40 40 40
-
 
 * - Riferimento
   - FlexiBowl® 500
@@ -200,6 +200,13 @@
   - 10 mm
   - 10 mm
   - 10 mm
+
+* - K
+  - 100 mm
+  - 100 mm
+  - 100 mm
+  - 100 mm
+  - 100 mm
 
 * - Backlight Area
   - 44611 mm²
