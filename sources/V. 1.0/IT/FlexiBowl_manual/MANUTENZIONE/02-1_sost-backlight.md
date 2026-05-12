@@ -48,6 +48,9 @@ Il Backlight a luce infrarossa emette luce non visibile e perciò piuò apparire
 * - Chiave esagonale H2.5
   - 1
 
+* - Chiave esagonale H5
+  - 1
+
 * - Backlight sostitutivo
   - 1
 

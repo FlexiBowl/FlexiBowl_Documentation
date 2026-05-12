@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/styles/sphinx-book-theme.css?v=3c74b3bc" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/custom.css?v=9739da55" />
+    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/custom.css?v=6d30af43" />
   
   <!-- So that users can add custom icons -->
   <script src="../../../../_shared/static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
@@ -214,7 +214,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-1_sost-backlight.html"><strong>Sostituzione Backlight</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-2_sost-ev.html"><strong>Sostituzione Elettrovalvole</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-3_sost-vp.html"><strong>Sostituzione Valvola Proporzionale</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-4-sost-flip.html"><strong>Sostituzione Gruppo Flip</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-4_sost-flip.html"><strong>Sostituzione Gruppo Flip</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-5_sost-alim.html"><strong>Sostituzione Alimentatori</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-6_sost-plc.html"><strong>Sostituzione PLC e Moduli</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-7_sost-scheda.html"><strong>Sostituzione Scheda</strong></a></li>
@@ -358,7 +358,9 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -374,6 +376,32 @@
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-il-posizionamento-del-robot">Linee guida per il posizionamento del robot</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#funzionamento-tradizionale">Funzionamento tradizionale</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#funzionamento-in-tracking">Funzionamento in tracking</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-il-posizionamento-delle-tramogge">Linee guida per il posizionamento delle tramogge</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#precauzioni-generali">Precauzioni generali</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#posizione-consigliata">Posizione consigliata</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-il-posizionamento-dei-depositi">Linee guida per il posizionamento dei depositi</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#indicazioni-generali">Indicazioni generali</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Posizione consigliata</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-la-ocnfigurazione-ottimale-per-il-movimento">Linee guida per la ocnfigurazione ottimale per il movimento</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-la-scelta-del-tool-di-presa">Linee guida per la scelta del tool di presa</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-il-posizionamento-del-toplight">Linee guida per il posizionamento del Toplight</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-il-posizionamento-della-telecamera">Linee guida per il posizionamento della telecamera</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -384,7 +412,50 @@
                 <article class="bd-article">
                   
   <section id="layout-best-practice">
-<h1><strong>Layout Best Practice</strong><a class="headerlink" href="#layout-best-practice" title="Link to this heading">#</a></h1>
+<span id="layoutbp"></span><h1><strong>Layout Best Practice</strong><a class="headerlink" href="#layout-best-practice" title="Link to this heading">#</a></h1>
+<section id="linee-guida-per-il-posizionamento-del-robot">
+<h2>Linee guida per il posizionamento del robot<a class="headerlink" href="#linee-guida-per-il-posizionamento-del-robot" title="Link to this heading">#</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Il modo migliore per piazzare il robot rispetto al FleiBowl® è quello che minimizza i percorsi di <em>pick and place</em>.</p>
+</div>
+<section id="funzionamento-tradizionale">
+<h3>Funzionamento tradizionale<a class="headerlink" href="#funzionamento-tradizionale" title="Link to this heading">#</a></h3>
+<p>Quando il FlexiBowl lavora in modalità standard l’area di lavoro del robot dovrebbe ricoprire quella di visione, in modo da garantire la possibilità da parte del robot di arrivare a prendere tutti i componenti individuati come prendibili.</p>
+</section>
+<section id="funzionamento-in-tracking">
+<h3>Funzionamento in tracking<a class="headerlink" href="#funzionamento-in-tracking" title="Link to this heading">#</a></h3>
+</section>
+</section>
+<section id="linee-guida-per-il-posizionamento-delle-tramogge">
+<h2>Linee guida per il posizionamento delle tramogge<a class="headerlink" href="#linee-guida-per-il-posizionamento-delle-tramogge" title="Link to this heading">#</a></h2>
+<section id="precauzioni-generali">
+<h3>Precauzioni generali<a class="headerlink" href="#precauzioni-generali" title="Link to this heading">#</a></h3>
+</section>
+<section id="posizione-consigliata">
+<h3>Posizione consigliata<a class="headerlink" href="#posizione-consigliata" title="Link to this heading">#</a></h3>
+</section>
+</section>
+<section id="linee-guida-per-il-posizionamento-dei-depositi">
+<h2>Linee guida per il posizionamento dei depositi<a class="headerlink" href="#linee-guida-per-il-posizionamento-dei-depositi" title="Link to this heading">#</a></h2>
+<section id="indicazioni-generali">
+<h3>Indicazioni generali<a class="headerlink" href="#indicazioni-generali" title="Link to this heading">#</a></h3>
+</section>
+<section id="id1">
+<h3>Posizione consigliata<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+</section>
+</section>
+<section id="linee-guida-per-la-ocnfigurazione-ottimale-per-il-movimento">
+<h2>Linee guida per la ocnfigurazione ottimale per il movimento<a class="headerlink" href="#linee-guida-per-la-ocnfigurazione-ottimale-per-il-movimento" title="Link to this heading">#</a></h2>
+</section>
+<section id="linee-guida-per-la-scelta-del-tool-di-presa">
+<h2>Linee guida per la scelta del tool di presa<a class="headerlink" href="#linee-guida-per-la-scelta-del-tool-di-presa" title="Link to this heading">#</a></h2>
+</section>
+<section id="linee-guida-per-il-posizionamento-del-toplight">
+<h2>Linee guida per il posizionamento del Toplight<a class="headerlink" href="#linee-guida-per-il-posizionamento-del-toplight" title="Link to this heading">#</a></h2>
+</section>
+<section id="linee-guida-per-il-posizionamento-della-telecamera">
+<h2>Linee guida per il posizionamento della telecamera<a class="headerlink" href="#linee-guida-per-il-posizionamento-della-telecamera" title="Link to this heading">#</a></h2>
 <br>
 <!-- Versions and languages set-up -->
 <style>
@@ -1028,6 +1099,7 @@
   })();
 </script>
 </section>
+</section>
 
 
                 </article>
@@ -1064,6 +1136,41 @@
             </div>
             
             
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-il-posizionamento-del-robot">Linee guida per il posizionamento del robot</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#funzionamento-tradizionale">Funzionamento tradizionale</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#funzionamento-in-tracking">Funzionamento in tracking</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-il-posizionamento-delle-tramogge">Linee guida per il posizionamento delle tramogge</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#precauzioni-generali">Precauzioni generali</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#posizione-consigliata">Posizione consigliata</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-il-posizionamento-dei-depositi">Linee guida per il posizionamento dei depositi</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#indicazioni-generali">Indicazioni generali</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Posizione consigliata</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-la-ocnfigurazione-ottimale-per-il-movimento">Linee guida per la ocnfigurazione ottimale per il movimento</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-la-scelta-del-tool-di-presa">Linee guida per la scelta del tool di presa</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-il-posizionamento-del-toplight">Linee guida per il posizionamento del Toplight</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linee-guida-per-il-posizionamento-della-telecamera">Linee guida per il posizionamento della telecamera</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

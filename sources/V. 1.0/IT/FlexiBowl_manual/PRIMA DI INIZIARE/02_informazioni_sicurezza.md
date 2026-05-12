@@ -360,7 +360,7 @@ ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo 
   /* Effetto Hover */
   .custom-safety-table tbody tr:hover {
     background-color: #dbeafe !important;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease !important;
   }
 
   .custom-safety-table td {
@@ -581,6 +581,3 @@ Modifiche non autorizzate possono:
 - Creare rischi di lesioni, scosse elettriche o incendi
 - Compromettere le certificazioni di sicurezza del prodotto
 ```
-
-
-
