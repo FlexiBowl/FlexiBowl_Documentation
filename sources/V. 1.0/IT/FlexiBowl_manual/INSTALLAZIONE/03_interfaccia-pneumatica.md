@@ -50,5 +50,5 @@ Per l'allacciamento alla rete pneumatica, collegare un tubo dell’aria {ref}`de
 :::
 
 :::{note}
-Assicurarsi che sia presente una valvola di chiusura fra l’alimentazione d’aria locale e il FlexiBowl®.
+Per interventi di manutenzione è necessario prevedere un sistema di sezionamento dell'aria.
 :::
