@@ -1,3 +1,4 @@
+(sostbl)=
 # **Sostituzione Backlight**
 
 :::::{important}
@@ -25,6 +26,8 @@
     :::
 ::::
 :::::
+
+Il backlight va sostituito qualora presentasse dei malfunzionamenti o ci fosse necessità di cambiare il tipo di luce in seguito a un cambiamento di produzione.
 
 :::{warning}
 Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione del Backlight.
