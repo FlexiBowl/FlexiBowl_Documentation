@@ -28,6 +28,10 @@ Disconnettere l'alimentazione elettrica prima di procedere con il montaggio dei 
 
 La regolazione dell'intensità del soffio avviene via software. È possibile scegliere l'altezza del soffio invertendo i gommini presenti sotto alla cartuccia.
 
+:::{tip}
+Nei FlexiBowl® con disco rigido si può differenziare l'intensità di ogni soffio in maniera indipendente tramite gli spilli di regolazione posti sotto al supporto dello schermo flip.
+:::
+
 ### Valutazione del corretto funzionamento
 
 Test standardizzato?
@@ -53,7 +57,7 @@ Disconnettere l'alimentazione elettrica prima di procedere con il montaggio dei 
 
 ### Procedura di regolazione
 
-La regolazione dell'intensità del soffio avviene via software.
+La regolazione dell'intensità del soffio avviene via software tramite l'aggiustamento del valore "blow pressure". Si può poi differenziare l'intensità di ogni soffio in maniera indipendente tramite gli spilli di regolazione posti sotto al supporto dello schermo flip.
 
 ### Valutazione del corretto funzionamento
 

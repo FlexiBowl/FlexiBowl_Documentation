@@ -88,6 +88,10 @@ Disconnettere l'alimentazione elettrica e pneumatica prima di procedere con la s
 </figure>
 ::::
 
+:::{note}
+Per facilitare il lavoro è possibile rimuovere i carter, stando attenti a non tirare eccessivamente i cavi dei LED di stato.
+:::
+
 ## FlexiBowl® 350-500-650-800-1200
 
 ### Cosa serve?
@@ -114,12 +118,10 @@ Disconnettere l'alimentazione elettrica e pneumatica prima di procedere con la s
 
 | Step | Operazione |
 |:----:|-----------|
-| 1 | Rimuovere il gruppo schermo flip |
-| 2 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 3 | Rimuovere la piastra di copertura del gruppo flip (usare due delle viti di fissaggio per la rimzozione tramite gli appositi fori filettati) |
-| 4 | Rimuovere gli allacciamenti pneumatici e smontare il gruppo flip |
-| 5 | Sostituire il gruppo flip danneggiato con quello nuovo |
-| 6 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | {ref}`accedere al gruppo flip <contflip>` |
+| 2 | Rimuovere gli allacciamenti pneumatici e smontare il gruppo flip |
+| 3 | Sostituire il gruppo flip danneggiato con quello nuovo |
+| 4 | A sostituzione terminata, rimontare tutti i componenti |
 
 ::::{raw} html
 <figure style="text-align: center;">
@@ -141,4 +143,8 @@ Disconnettere l'alimentazione elettrica e pneumatica prima di procedere con la s
 
 :::{note}
 Il gruppo flip del FlexiBowl® 1200 è composto da due parti da smontare individualmente.
+:::
+
+:::{tip}
+Sul **FlexiBowl® 350** potrebbe risultare più comodo rimuovere il carter.
 :::

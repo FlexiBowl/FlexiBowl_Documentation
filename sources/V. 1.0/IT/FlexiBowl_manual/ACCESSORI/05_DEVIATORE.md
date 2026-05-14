@@ -2,13 +2,19 @@
 # **Deviatori Standard**
 
 ## Applicazioni consigliate 
-- Opzione montata di default, è adatto per la movimentazione di componenti privi di sporgenze abbastanza piccole da incastrarsi tra deviatore e disco. 
+- Opzione montata di default, è adatto per la movimentazione di componenti privi di sporgenze abbastanza piccole da incastrarsi tra deviatore e disco.
 
 ## Procedura di montaggio
 
 :::{warning} Attenzione
 Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il montaggio.
 :::
+
+### Deviatori per disco rigido (FlexiBowl® 350-500E)
+
+I deviatori sono fissati sugli appositi fori ai lati dello schermo flip tramite due viti M6x22 ciascuno.
+
+### Deviatori per superficie (FlexiBowl® 500-650-800-1200)
 
 | Step | Operazione |
 |:----:|-----------|
@@ -22,6 +28,16 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il 
 Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la regolazione.
 :::
 
+### Deviatori per disco rigido (FlexiBowl® 350-500E)
+
+| Step | Operazione |
+|:----:|-----------|
+| 1 | Allentare le viti per la regolazione radiale e verticale |
+| 2 | Porre un foglio di carta tra disco e deviatore per tenerlo alla giusta distanza e serrare le viti per la regolazione verticale |
+| 3 | Porre un foglio di carta tra la superficie esterna del deviatore e quella interna del bordo del disco per tenerlo alla giusta distanza e serrare le viti per la regolazione radiale |
+
+### Deviatori per superficie (FlexiBowl® 500-650-800-1200)
+
 | Step | Operazione |
 |:----:|-----------|
 | 1 | Rimuovere i tappi sulla cartuccia deviatore |
@@ -31,4 +47,4 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la 
 
 ## Valutazione del corretto funzionamento 
 
-Test standardizzato? 
+I deviatori sono correttamente regolati quando la superficie o disco rigido scorrono senza incontrare resistenza e i componenti da movimentare non si incastrano tra i due.
