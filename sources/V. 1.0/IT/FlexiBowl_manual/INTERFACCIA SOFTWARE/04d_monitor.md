@@ -22,7 +22,7 @@ Il pannello **STATE MOTOR** mostra lo stato operativo corrente del driver motore
 | **Switch On Disabled** | L'abilitazione del motore è bloccata (es. mancanza di alimentazione o fault attivo) |
 | **Ready To Switch On** | Il driver è pronto per ricevere il comando di abilitazione |
 | **Switched On** | Il motore è alimentato ma non ancora in controllo attivo |
-| **Target Reached** | 🟢 Il bowl ha raggiunto la posizione o il setpoint di destinazione |
+| **Target Reached** | 🟢 Il FlexiBowl® ha raggiunto la posizione o il setpoint di destinazione |
 | **Operation Enabled** | 🟢 Il motore è abilitato e in controllo attivo — condizione operativa normale |
 | **Quick Stop Active** | È stato richiesto un arresto rapido del motore |
 | **Fault Reaction Active** | Il driver sta eseguendo la procedura di reazione a un fault |

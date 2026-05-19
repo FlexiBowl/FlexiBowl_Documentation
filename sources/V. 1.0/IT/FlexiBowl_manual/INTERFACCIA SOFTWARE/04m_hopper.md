@@ -1,7 +1,7 @@
 # **Hopper**
 ## Panoramica
 
-La pagina **Hopper** consente di configurare e gestire fino a **4 hopper** (tramogge vibrazionali) collegati al FlexiBowl®. Ogni hopper è un'unità di alimentazione autonoma che rifornisce il bowl di componenti, controllabile indipendentemente con parametri propri di vibrazione e temporizzazione.
+La pagina **Hopper** consente di configurare e gestire fino a **4 hopper** (tramogge vibrazionali) collegati al FlexiBowl®. Ogni hopper è un'unità di alimentazione autonoma che rifornisce il FlexiBowl® di componenti, controllabile indipendentemente con parametri propri di vibrazione e temporizzazione.
 
 Ciascun hopper è rappresentato da una colonna verticale con gli stessi controlli, identificata come **HOPPER 1**, **HOPPER 2**, **HOPPER 3** e **HOPPER 4**.
 
@@ -52,7 +52,7 @@ L'indicatore **STATUS** mostra lo stato operativo corrente dell'hopper.
 | Parametro |  Descrizione |
 |---|---|
 | **Amplitude** |  Ampiezza della vibrazione dell'hopper, espressa in unità adimensionali. Valori più alti producono una vibrazione più intensa e un flusso di componenti maggiore |
-| **Frequency** | Frequenza di vibrazione dell'hopper. Influenza la cadenza con cui i componenti vengono convogliati verso il bowl |
+| **Frequency** | Frequenza di vibrazione dell'hopper. Influenza la cadenza con cui i componenti vengono convogliati verso il FlexiBowl® |
 
 
 ---
@@ -65,7 +65,7 @@ L'indicatore **STATUS** mostra lo stato operativo corrente dell'hopper.
 | **LED** (grigio/verde) |  Indicatore luminoso che si illumina durante l'attivazione dell'hopper |
 
 :::{note}
-**HOPPER 1** ha un **Activation Time** di 2000 ms, mentre gli altri hopper sono impostati a 800 ms. Tempi di attivazione più lunghi determinano un maggiore apporto di componenti al bowl per ogni ciclo di attivazione.
+**HOPPER 1** ha un **Activation Time** di 2000 ms, mentre gli altri hopper sono impostati a 800 ms. Tempi di attivazione più lunghi determinano un maggiore apporto di componenti al FlexiBowl® per ogni ciclo di attivazione.
 :::
 
 ---

@@ -29,10 +29,10 @@ Il menu a tendina **"Select the sequence"** in alto a sinistra consente di scegl
 
 ## Emptying Sequence
 
-Il toggle **Emptying Sequence** (in alto al centro, con bordo rosso) attiva una modalità speciale in cui la sequenza viene eseguita con l'obiettivo di svuotare il bowl dai componenti presenti.
+Il toggle **Emptying Sequence** (in alto al centro, con bordo rosso) attiva una modalità speciale in cui la sequenza viene eseguita con l'obiettivo di svuotare il FlexiBowl® dai componenti presenti.
 
 :::{warning}
-Attivare **Emptying Sequence** solo quando si desidera rimuovere tutti i componenti dal bowl. Questa modalità altera il comportamento della sequenza rispetto all'utilizzo normale.
+Attivare **Emptying Sequence** solo quando si desidera rimuovere tutti i componenti dal FlexiBowl®. Questa modalità altera il comportamento della sequenza rispetto all'utilizzo normale.
 :::
 
 ---
@@ -56,7 +56,7 @@ Selezionare il comando desiderato dal menu a tendina prima di premere **ADD**. I
 |---|---|---|
 | **Acceleration Move** | 50 % | Rampa di accelerazione per il movimento di rotazione |
 | **Deceleration Move** | 50 % | Rampa di decelerazione per il movimento di rotazione |
-| **Speed Move** | 35 % | Velocità di rotazione del bowl |
+| **Speed Move** | 35 % | Velocità di rotazione del FlexiBowl® |
 | **Angle Move** | 360 Degree | Angolo di rotazione percorso durante il comando MOVE |
 
 ### Parametri SHAKE
