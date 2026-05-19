@@ -1,4 +1,4 @@
-# **Pagina Home**
+# **Home**
 
 ## Panoramica
 
