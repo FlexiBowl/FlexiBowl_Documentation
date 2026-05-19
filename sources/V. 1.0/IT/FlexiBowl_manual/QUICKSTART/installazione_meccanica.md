@@ -34,7 +34,7 @@ Assicurarsi che la superficie di appoggio della macchina sia piana ed orizzontal
 :::
 ::::
 
-Per garanire il corretto funzionamento del FlexiBowl® è necessario che il piano di appoggio presenti degli errori di planarità non superiori a 1mm, assemblato orizzontalmente e che sia abbastanza massiccio da non risentire delle vibrazioni dovute al normale funzionamento di FlexiBowl®, robot ed eventuali altre parti mobili presenti nel layout. Delle indicazioni su dimensioni e peso minimi richiesti per il montaggio del FlexiBowl® sono presenti nella tabella sottostante; da questi dati, tenendo conto del materiale utilizzato per il pianale, si può risalire allo spessore minimo richiesto.
+Per garantire il corretto funzionamento del FlexiBowl® è necessario che il piano di appoggio presenti degli errori di planarità non superiori a 1mm, assemblato orizzontalmente e che sia abbastanza massiccio da non risentire delle vibrazioni dovute al normale funzionamento di FlexiBowl®, robot ed eventuali altre parti mobili presenti nel layout. Delle indicazioni su dimensioni e peso minimi richiesti per il montaggio del FlexiBowl® sono presenti nella tabella sottostante; da questi dati, tenendo conto del materiale utilizzato per il pianale, si può risalire allo spessore minimo richiesto.
 
 :::{figure} ../../../../_shared/media/images/pianali.PNG
 :align: center
