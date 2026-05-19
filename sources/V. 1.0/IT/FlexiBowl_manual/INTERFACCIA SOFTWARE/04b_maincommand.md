@@ -9,22 +9,22 @@ La pagina è suddivisa in **tre sottopagine**, selezionabili tramite il menu a t
 | Sottopagina | Descrizione sintetica |
 |---|---|
 | **OPTION** | Parametri per flip, blow e retroilluminazione |
-| **MOVE** | Parametri per il movimento rotatorio del bowl |
-| **SHAKE** | Parametri per il movimento oscillatorio del bowl |
+| **MOVE** | Parametri per il movimento rotatorio del FlexiBowl® |
+| **SHAKE** | Parametri per il movimento oscillatorio del FlexiBowl® |
 
 ---
 
 ## Sottopagina: OPTION
 
 La sottopagina **OPTION** raccoglie i parametri relativi alle funzioni accessorie del FlexiBowl®: il sistema di ribaltamento dei componenti (flip), il sistema di soffiaggio (blow) e la retroilluminazione (backlight).
-![pagina option](/sources/_shared/media/images/main_command_option.png)
+![pagina option](../../../../_shared/media/images/main_command_option.png)
 
 | Parametro | Unità | Descrizione |
-|---|---|---|---|
+|---|---|---|
 | **Flip Pressure** | Bar  | Pressione dell'aria utilizzata per l'attuazione del flip. Regolabile tramite slider |
 | **Flip Count** | N°  | Numero di flip eseguiti in sequenza durante un ciclo |
 | **Flip Delay** | ms  | Intervallo di tempo tra un flip e il successivo |
-| **Blow Pressure** | Bar  | Pressione dell'aria utilizzata per il soffiaggio dei componenti sul bowl |
+| **Blow Pressure** | Bar  | Pressione dell'aria utilizzata per il soffiaggio dei componenti sul FlexiBowl® |
 | **Blow Time** | ms  | Durata dell'impulso di soffiaggio |
 
 Ogni parametro è regolabile tramite uno **slider orizzontale**; il valore corrente è visualizzato nel riquadro numerico a destra dello slider.
@@ -56,15 +56,15 @@ In fondo alla pagina sono presenti tre pulsanti per testare le funzioni in tempo
 
 ## Sottopagina: MOVE
 
-La sottopagina **MOVE** consente di configurare i parametri del movimento rotatorio del bowl e di testarlo direttamente dall'interfaccia.
-![pagina move](/sources/_shared/media/images/main_command_move.png)
+La sottopagina **MOVE** consente di configurare i parametri del movimento rotatorio del FlexiBowl® e di testarlo direttamente dall'interfaccia.
+![pagina move](../../../../_shared/media/images/main_command_move.png)
 
 | Parametro | Unità | Valore predefinito | Descrizione |
 |---|---|---|---|
 | **Acceleration** | % | 50 | Rampa di accelerazione del motore all'avvio del movimento. Valori più alti producono una partenza più brusca |
 | **Deceleration** | % | 50 | Rampa di decelerazione del motore in fase di arresto. Valori più alti producono un arresto più brusco |
-| **Speed** | % | 50 | Velocità di rotazione del bowl durante il movimento |
-| **Angle** | Degree | 45 | Angolo di rotazione percorso dal bowl durante ogni singolo movimento |
+| **Speed** | % | 50 | Velocità di rotazione del FlexiBowl® durante il movimento |
+| **Angle** | Degree | 45 | Angolo di rotazione percorso dal FlexiBowl® durante ogni singolo movimento |
 
 Ogni parametro è regolabile tramite uno **slider orizzontale**; il valore corrente è visualizzato nel riquadro numerico a destra dello slider.
 
@@ -86,7 +86,7 @@ Prima di eseguire il test, assicurarsi che il motore sia abilitato (pulsante **E
 
 ## Sottopagina: SHAKE
 
-La sottopagina **SHAKE** consente di configurare i parametri del movimento oscillatorio del bowl (shake), utilizzato per ridistribuire i componenti sul piatto, e di testarlo direttamente dall'interfaccia.
+La sottopagina **SHAKE** consente di configurare i parametri del movimento oscillatorio del FlexiBowl® (shake), utilizzato per ridistribuire i componenti sul piatto, e di testarlo direttamente dall'interfaccia.
 ![pagina shake](../../../../_shared/media/images/main_command_shake.png)
 
 | Parametro | Unità | Valore predefinito | Descrizione |

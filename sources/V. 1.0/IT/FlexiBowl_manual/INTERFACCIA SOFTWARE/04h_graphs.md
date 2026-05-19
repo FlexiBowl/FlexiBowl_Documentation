@@ -24,7 +24,7 @@ La parte superiore della pagina raccoglie i principali parametri di stato del si
 |---|---|---|
 | **Timer Run** | 0 d: 0 h: 3 min: 25 s | Tempo totale di funzionamento del motore (tempo effettivo di movimento) dall'ultimo reset |
 | **Dsp Temperature** | 46.8 °C | Temperatura del processore DSP interno al driver |
-| **Total Revolutions** | 111 | Numero totale di giri effettuati dal bowl dall'ultimo reset del contatore |
+| **Total Revolutions** | 111 | Numero totale di giri effettuati dal FlexiBowl® dall'ultimo reset del contatore |
 
 ### Colonna destra
 

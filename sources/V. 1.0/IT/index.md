@@ -146,12 +146,13 @@ FlexiBowl_manual/DATI TECNICI/05_dati-tecnici-applicativi.md
 FlexiBowl_manual/INSTALLAZIONE/01_interfaccia-meccanica.md
 FlexiBowl_manual/INSTALLAZIONE/02_interfaccia-elettrica.md
 FlexiBowl_manual/INSTALLAZIONE/03_interfaccia-pneumatica.md
+FlexiBowl_manual/INSTALLAZIONE/04_interfaccia-software.md
 :::
 
 :::{toctree}
 :hidden:
-:caption: INTERFACCIA SOFTWARE
-FlexiBowl_manual/INTERFACCIA SOFTWARE/04_interfaccia-software.md
+:caption: PANORAMICA SOFTWARE
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04_home.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04b_maincommand.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04c_sequence.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04d_monitor.md

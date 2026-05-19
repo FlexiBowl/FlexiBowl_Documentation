@@ -2,7 +2,7 @@
 
 ## Panoramica
 
-La pagina **Jog Motor** consente di azionare il FlexiBowl® in modalità manuale continua (jog), senza l'utilizzo di sequenze programmate. È utilizzata principalmente durante le fasi di setup, messa in servizio e test del sistema, permettendo all'operatore di controllare direttamente la rotazione del bowl e le funzioni accessorie.
+La pagina **Jog Motor** consente di azionare il FlexiBowl® in modalità manuale continua (jog), senza l'utilizzo di sequenze programmate. È utilizzata principalmente durante le fasi di setup, messa in servizio e test del sistema, permettendo all'operatore di controllare direttamente la rotazione del FlexiBowl® e le funzioni accessorie.
 ![pagina jog monitor](../../../../_shared/media/images/jog_motor.png)
 
 ---
@@ -18,7 +18,7 @@ I tre slider in alto definiscono il comportamento del motore durante il jog.
 | **Speed** | % | -30 | Velocità di rotazione del FlexiBowl®. Un valore **negativo** indica rotazione in senso **antiorario**; un valore **positivo** indica rotazione in senso **orario** |
 
 :::{tip}
-Per invertire il senso di rotazione del bowl durante il jog, è sufficiente portare lo slider **Speed** su un valore negativo. Non è necessario fermare il jog per modificare il parametro.
+Per invertire il senso di rotazione del FlexiBowl® durante il jog, è sufficiente portare lo slider **Speed** su un valore negativo. Non è necessario fermare il jog per modificare il parametro.
 :::
 
 ---
@@ -79,8 +79,8 @@ I toggle mostrano rosso quando la retroilluminazione è **attiva**.
 
 | Pulsante | Funzione |
 |---|---|
-| **START JOG** | Avvia la rotazione continua del bowl con i parametri impostati, attivando contestualmente flip e blow se i rispettivi toggle sono abilitati |
-| **STOP JOG** | Interrompe il jog e arresta il bowl |
+| **START JOG** | Avvia la rotazione continua del FlexiBowl® con i parametri impostati, attivando contestualmente flip e blow se i rispettivi toggle sono abilitati |
+| **STOP JOG** | Interrompe il jog e arresta il FlexiBowl® |
 
 :::{important}
 Prima di premere **START JOG**, verificare che:
@@ -90,5 +90,5 @@ Prima di premere **START JOG**, verificare che:
 :::
 
 :::{warning}
-Durante il jog il bowl ruota in modo continuo. Assicurarsi che l'area attorno al FlexiBowl® sia libera da ostacoli e che il personale non sia a contatto con le parti in movimento prima di avviare il jog.
+Durante il jog il FlexiBowl® ruota in modo continuo. Assicurarsi che l'area attorno al FlexiBowl® sia libera da ostacoli e che il personale non sia a contatto con le parti in movimento prima di avviare il jog.
 :::
