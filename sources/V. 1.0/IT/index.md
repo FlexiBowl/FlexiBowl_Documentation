@@ -149,10 +149,31 @@ FlexiBowl_manual/INSTALLAZIONE/03_interfaccia-pneumatica.md
 FlexiBowl_manual/INSTALLAZIONE/04_interfaccia-software.md
 :::
 
+:::{toctree}
+:hidden:
+:caption: PANORAMICA SOFTWARE
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04_home.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04b_maincommand.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04c_sequence.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04d_monitor.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04e_jogmotor.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04f_wizard.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04g_manual.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04h_graphs.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04i_filetransfer.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04l_setup.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04m_hopper.md
+:::
+
 :::{toctree}  
 :hidden:
 :caption: QUICKSTART
-FlexiBowl_manual/QUICKSTART/quickstart.md
+FlexiBowl_manual/QUICKSTART/panoramica.md
+FlexiBowl_manual/QUICKSTART/installazione_meccanica.md
+FlexiBowl_manual/QUICKSTART/cablaggio_FB.md
+FlexiBowl_manual/QUICKSTART/conf_interfaccia.md
+FlexiBowl_manual/QUICKSTART/FB_wizard.md
+FlexiBowl_manual/QUICKSTART/monitoraggio.md
 :::
 
 :::{toctree}  
