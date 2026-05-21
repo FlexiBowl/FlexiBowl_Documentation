@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/styles/sphinx-book-theme.css?v=3c74b3bc" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/custom.css?v=9739da55" />
+    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/custom.css?v=6d30af43" />
   
   <!-- So that users can add custom icons -->
   <script src="../../../../_shared/static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
@@ -193,7 +193,13 @@
 <li class="toctree-l1 current active"><a class="current reference internal" href="#"><strong>Backlight</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="04_TOPLIGHT.html"><strong>Toplight</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="05_DEVIATORE.html"><strong>Deviatori Standard</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="06_SOFFI.html"><strong>Soffi</strong></a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="06_SOFFI.html"><strong>Soffi</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="06-1_RADIALE.html"><strong>Soffi radiali</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="06-2_CENTRALE.html"><strong>Soffio centrale</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="06-3_INDIRETTO.html"><strong>Soffi indiretti (solo per FlexiBowl® 500E)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="06-4_INTEGRATI.html"><strong>Soffi integrati nello schermo flip (FlexiBowl® 200-350)</strong></a></li>
+</ul>
+</details></li>
 <li class="toctree-l1"><a class="reference internal" href="07_BRUSH_DIVERTER.html"><strong>Brush Diverter</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="08_WEDGE.html"><strong>Wedge Diverter</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="09_SVUOTAMENTO.html"><strong>Svuotamento</strong></a></li>
@@ -214,7 +220,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-1_sost-backlight.html"><strong>Sostituzione Backlight</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-2_sost-ev.html"><strong>Sostituzione Elettrovalvole</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-3_sost-vp.html"><strong>Sostituzione Valvola Proporzionale</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-4-sost-flip.html"><strong>Sostituzione Gruppo Flip</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-4_sost-flip.html"><strong>Sostituzione Gruppo Flip</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-5_sost-alim.html"><strong>Sostituzione Alimentatori</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-6_sost-plc.html"><strong>Sostituzione PLC e Moduli</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-7_sost-scheda.html"><strong>Sostituzione Scheda</strong></a></li>
@@ -381,8 +387,8 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dimensioni-dei-backlight-per-ogni-taglia-di-flexibowl">Dimensioni dei Backlight per ogni taglia di FlexiBowl®:</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caratteristiche-dei-backlight">Caratteristiche dei Backlight:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caratteristiche-dei-backlight">Caratteristiche dei Backlight</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#colori-dei-backlight">Colori dei Backlight</a></li>
 </ul>
             </nav>
         </div>
@@ -396,7 +402,7 @@
                   
   <section id="backlight">
 <span id="id1"></span><h1><strong>Backlight</strong><a class="headerlink" href="#backlight" title="Link to this heading">#</a></h1>
-<p>Il Backlight è una luce localizzata sotto la finestra di lexan del piano di scorrimento, così che la sua luce possa colpire la superficie o il disco rigido e che il profilo dei componenti al di sopra diventi visibile al sistema di visione.
+<p>Il Backlight è una luce localizzata sotto la finestra di lexan del piano di scorrimento, così che la sua luce possa colpire la superficie o il disco rigido e che la silhouette dei componenti al di sopra diventi visibile al sistema di visione.
 Il Backlight è disponibile con luce:</p>
 <ul class="simple">
 <li><p>Bianca</p></li>
@@ -412,54 +418,442 @@ Il Backlight è disponibile con luce:</p>
 <li><p>Standard: viene alimentato in modo continuo internamente ed è possibile ocmandarne l’accensione e lo spegnimento tramite software o I/O digitali;</p></li>
 <li><p>Strobe: viene controllato esternamente tramite l’ingresso “strobe” del connettore input. Sarà cura del cliente portare la corretta alimentazione 24Vdc per accenderlo.</p></li>
 </ul>
-<section id="dimensioni-dei-backlight-per-ogni-taglia-di-flexibowl">
-<h2>Dimensioni dei Backlight per ogni taglia di FlexiBowl®:<a class="headerlink" href="#dimensioni-dei-backlight-per-ogni-taglia-di-flexibowl" title="Link to this heading">#</a></h2>
-<table style="border-collapse: collapse; width: 100%;">
-  <tbody>
-    <tr>
-      <th style="border: 1px solid #ccc; border-right: 3px solid #2980b9; padding: 8px; background-color: #f8f8f8; text-align: left;">Taglia FlexiBowl®</th>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #ffffff; text-align: center;">200</td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #f8f8f8; text-align: center;">350</td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #ffffff; text-align: center;">500</td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #f8f8f8; text-align: center;">650</td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #ffffff; text-align: center;">800</td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #f8f8f8; text-align: center;">1200</td>
-    </tr>
-    <tr>
-      <th style="border: 1px solid #ccc; border-right: 3px solid #2980b9; padding: 8px; background-color: #f8f8f8; text-align: left;">Superficie in mm²</th>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #ffffff; text-align: center;">9438</td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #f8f8f8; text-align: center;">18547</td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #ffffff; text-align: center;">44611</td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #f8f8f8; text-align: center;">93663</td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #ffffff; text-align: center;">155804</td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #f8f8f8; text-align: center;">412944</td>
-    </tr>
-  </tbody>
-</table></section>
 <section id="caratteristiche-dei-backlight">
-<h2>Caratteristiche dei Backlight:<a class="headerlink" href="#caratteristiche-dei-backlight" title="Link to this heading">#</a></h2>
-<table style="border-collapse: collapse; width: 100%;">
-  <tbody>
-    <tr>
-      <th style="border: 1px solid #ccc; border-right: 3px solid #2980b9; padding: 8px; background-color: #f8f8f8; text-align: left; width: 30%;">Tipo Backlight</th>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #ffffff; width: 15%; text-align: center;">Red</td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #f8f8f8; width: 15%; text-align: center;">IR</td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #ffffff; width: 15%; text-align: center;">White</td>
-    </tr>
-    <tr>
-      <th style="border: 1px solid #ccc; border-right: 3px solid #2980b9; padding: 8px; background-color: #f8f8f8; text-align: left;">Lunghezza d'onda</th>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #ffffff; text-align: center;"></td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #f8f8f8; text-align: center;"></td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #ffffff; text-align: center;"></td>
-    </tr>
-    <tr>
-      <th style="border: 1px solid #ccc; border-right: 3px solid #2980b9; padding: 8px; background-color: #f8f8f8; text-align: left;">Particolari Consigliati</th>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #ffffff; text-align: center;"></td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #f8f8f8; text-align: center;"></td>
-      <td style="border: 1px solid #ccc; padding: 8px; background-color: #ffffff; text-align: center;"></td>
-    </tr>
-  </tbody>
-</table><br>
+<h2>Caratteristiche dei Backlight<a class="headerlink" href="#caratteristiche-dei-backlight" title="Link to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Backlight per FB200</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text"><img alt="Backlight 200" src="../../../../_shared/media/images/backlight200.PNG" /></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p class="sd-card-text">Articoli</p></th>
+<th class="head"><p class="sd-card-text">CE001136</p></th>
+<th class="head"><p class="sd-card-text">CE001132</p></th>
+<th class="head"><p class="sd-card-text">CE001134</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text">Colore LED</p></td>
+<td><p class="sd-card-text">rosso</p></td>
+<td><p class="sd-card-text">infrarosso</p></td>
+<td><p class="sd-card-text">bianco</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Lunghezza d’onda</p></td>
+<td><p class="sd-card-text">630 nm</p></td>
+<td><p class="sd-card-text">850 nm</p></td>
+<td><p class="sd-card-text">N/D</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Tensione</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Corrente</p></td>
+<td><p class="sd-card-text">0.17A</p></td>
+<td><p class="sd-card-text">0.12A</p></td>
+<td><p class="sd-card-text">0.17A</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Area di illuminazione</p></td>
+<td><p class="sd-card-text">155x75 mm^2</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Materiale struttura</p></td>
+<td><p class="sd-card-text">Lega di alluminio</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Temperatura di esercizio</p></td>
+<td><p class="sd-card-text">-40 / +85 °C</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Lunghezza cavo</p></td>
+<td><p class="sd-card-text">0.2 m</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Metodo di raffreddamento</p></td>
+<td><p class="sd-card-text">Aria naturale</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Materiale opalino</p></td>
+<td><p class="sd-card-text">Vetro 3+3 con plastico bianco latte</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Backlight per FB350</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p class="sd-card-text">Articoli</p></th>
+<th class="head"><p class="sd-card-text">CE001142</p></th>
+<th class="head"><p class="sd-card-text">CE001139</p></th>
+<th class="head"><p class="sd-card-text">CE001140</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text">Colore LED</p></td>
+<td><p class="sd-card-text">rosso</p></td>
+<td><p class="sd-card-text">infrarosso</p></td>
+<td><p class="sd-card-text">bianco</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Lunghezza d’onda</p></td>
+<td><p class="sd-card-text">630 nm</p></td>
+<td><p class="sd-card-text">850 nm</p></td>
+<td><p class="sd-card-text">N/D</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Tensione</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Corrente</p></td>
+<td><p class="sd-card-text">0.18A</p></td>
+<td><p class="sd-card-text">0.13A</p></td>
+<td><p class="sd-card-text">0.18A</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Area di illuminazione</p></td>
+<td><p class="sd-card-text">220x100 mm^2</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Materiale struttura</p></td>
+<td><p class="sd-card-text">Lega di alluminio</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Temperatura di esercizio</p></td>
+<td><p class="sd-card-text">-40 / +85 °C</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Lunghezza cavo</p></td>
+<td><p class="sd-card-text">0.2 m</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Metodo di raffreddamento</p></td>
+<td><p class="sd-card-text">Aria naturale</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Materiale opalino</p></td>
+<td><p class="sd-card-text">Vetro 3+3 con plastico bianco latte</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Backlight per FB500</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p class="sd-card-text">Articoli</p></th>
+<th class="head"><p class="sd-card-text">CE001148</p></th>
+<th class="head"><p class="sd-card-text">CE001144</p></th>
+<th class="head"><p class="sd-card-text">CE001146</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text">Colore LED</p></td>
+<td><p class="sd-card-text">rosso</p></td>
+<td><p class="sd-card-text">infrarosso</p></td>
+<td><p class="sd-card-text">bianco</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Lunghezza d’onda</p></td>
+<td><p class="sd-card-text">630 nm</p></td>
+<td><p class="sd-card-text">850 nm</p></td>
+<td><p class="sd-card-text">N/D</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Tensione</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Corrente</p></td>
+<td><p class="sd-card-text">0.46A</p></td>
+<td><p class="sd-card-text">0.31A</p></td>
+<td><p class="sd-card-text">0.46A</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Area di illuminazione</p></td>
+<td><p class="sd-card-text">330x170 mm^2</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Materiale struttura</p></td>
+<td><p class="sd-card-text">Lega di alluminio</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Temperatura di esercizio</p></td>
+<td><p class="sd-card-text">-40 / +85 °C</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Lunghezza cavo</p></td>
+<td><p class="sd-card-text">0.2 m</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Metodo di raffreddamento</p></td>
+<td><p class="sd-card-text">Aria naturale</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Materiale opalino</p></td>
+<td><p class="sd-card-text">Vetro 3+3 con plastico bianco latte</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Backlight per FB650</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p class="sd-card-text">Articoli</p></th>
+<th class="head"><p class="sd-card-text">CE000306</p></th>
+<th class="head"><p class="sd-card-text">CE000273</p></th>
+<th class="head"><p class="sd-card-text">CE000305</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text">Articoli alternativi</p></td>
+<td><p class="sd-card-text">GM000591</p></td>
+<td><p class="sd-card-text">GM000592</p></td>
+<td><p class="sd-card-text">GM000590</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Colore LED</p></td>
+<td><p class="sd-card-text">rosso</p></td>
+<td><p class="sd-card-text">infrarosso</p></td>
+<td><p class="sd-card-text">bianco</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Lunghezza d’onda</p></td>
+<td><p class="sd-card-text">630 nm</p></td>
+<td><p class="sd-card-text">850 nm</p></td>
+<td><p class="sd-card-text">N/D</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Tensione</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Corrente</p></td>
+<td><p class="sd-card-text">0.86A</p></td>
+<td><p class="sd-card-text">0.56A</p></td>
+<td><p class="sd-card-text">0.94A</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Area di illuminazione</p></td>
+<td><p class="sd-card-text">400x240 mm^2</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Materiale struttura</p></td>
+<td><p class="sd-card-text">Lega di alluminio</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Temperatura di esercizio</p></td>
+<td><p class="sd-card-text">-40 / +85 °C</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Lunghezza cavo</p></td>
+<td><p class="sd-card-text">0.2 m</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Metodo di raffreddamento</p></td>
+<td><p class="sd-card-text">Aria naturale</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Materiale opalino</p></td>
+<td><p class="sd-card-text">Vetro 3+3 con plastico bianco latte</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Backlight per FB800</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p class="sd-card-text">Articoli</p></th>
+<th class="head"><p class="sd-card-text">CE001154</p></th>
+<th class="head"><p class="sd-card-text">CE001150</p></th>
+<th class="head"><p class="sd-card-text">CE001152</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text">Colore LED</p></td>
+<td><p class="sd-card-text">rosso</p></td>
+<td><p class="sd-card-text">infrarosso</p></td>
+<td><p class="sd-card-text">bianco</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Lunghezza d’onda</p></td>
+<td><p class="sd-card-text">630 nm</p></td>
+<td><p class="sd-card-text">850 nm</p></td>
+<td><p class="sd-card-text">N/D</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Tensione</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Corrente</p></td>
+<td><p class="sd-card-text">1.15A</p></td>
+<td><p class="sd-card-text">0.76A</p></td>
+<td><p class="sd-card-text">1.2A</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Area di illuminazione</p></td>
+<td><p class="sd-card-text">400x315 mm^2</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Materiale struttura</p></td>
+<td><p class="sd-card-text">Lega di alluminio</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Temperatura di esercizio</p></td>
+<td><p class="sd-card-text">-40 / +85 °C</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Lunghezza cavo</p></td>
+<td><p class="sd-card-text">0.2 m</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Metodo di raffreddamento</p></td>
+<td><p class="sd-card-text">Aria naturale</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Materiale opalino</p></td>
+<td><p class="sd-card-text">Vetro 3+3 con plastico bianco latte</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Backlight per FB1200</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p class="sd-card-text">Articoli</p></th>
+<th class="head"><p class="sd-card-text">GE000051</p></th>
+<th class="head"><p class="sd-card-text">GE000052</p></th>
+<th class="head"><p class="sd-card-text">GE000050</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text">Colore LED</p></td>
+<td><p class="sd-card-text">rosso</p></td>
+<td><p class="sd-card-text">infrarosso</p></td>
+<td><p class="sd-card-text">bianco</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Lunghezza d’onda</p></td>
+<td><p class="sd-card-text">630 nm</p></td>
+<td><p class="sd-card-text">850 nm</p></td>
+<td><p class="sd-card-text">N/D</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Tensione</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+<td><p class="sd-card-text">24VDC</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Corrente</p></td>
+<td><p class="sd-card-text">4A</p></td>
+<td><p class="sd-card-text">2.6A</p></td>
+<td><p class="sd-card-text">4.2A</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Area di illuminazione</p></td>
+<td><p class="sd-card-text">917x525 mm^2</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Materiale struttura</p></td>
+<td><p class="sd-card-text">Lega di alluminio</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Temperatura di esercizio</p></td>
+<td><p class="sd-card-text">-40 / +85 °C</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Lunghezza cavo</p></td>
+<td><p class="sd-card-text">0.2 m</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Metodo di raffreddamento</p></td>
+<td><p class="sd-card-text">Aria naturale</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Materiale opalino</p></td>
+<td><p class="sd-card-text">Vetro 3+3 con plastico bianco latte</p></td>
+<td><p class="sd-card-text"></p></td>
+<td><p class="sd-card-text"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</details></section>
+<section id="colori-dei-backlight">
+<h2>Colori dei Backlight<a class="headerlink" href="#colori-dei-backlight" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<colgroup>
+<col style="width: 15.0%" />
+<col style="width: 15.0%" />
+<col style="width: 70.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Colore</p></th>
+<th class="head"><p>Lunghezza d’onda</p></th>
+<th class="head"><p>Utilizzo consigliato</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Red</p></td>
+<td><p>630 nm</p></td>
+<td><p>Utilizzato per componenti metallici speciali. Lunghezza d’onda: 630 nm. È necessario schermare la cella da qualsiasi fonte di luce esterna e dalla luce solare.</p></td>
+</tr>
+<tr class="row-odd"><td><p>IR</p></td>
+<td><p>850 nm</p></td>
+<td><p>Preferito per la maggior parte dei tipi di applicazioni. Non è visibile all’occhio umano. Lunghezza d’onda: 850 nm. Si consiglia di schermare la cella per evitare interferenze con la luce solare.</p></td>
+</tr>
+<tr class="row-even"><td><p>White</p></td>
+<td><p>N/D</p></td>
+<td><p>Utilizzato con componenti trasparenti. È necessario schermare la cella da qualsiasi fonte di luce esterna e dalla luce solare.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
 <!-- Versions and languages set-up -->
 <style>
   .fixed-bar {
@@ -1151,8 +1545,8 @@ Il Backlight è disponibile con luce:</p>
   </div>
   <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dimensioni-dei-backlight-per-ogni-taglia-di-flexibowl">Dimensioni dei Backlight per ogni taglia di FlexiBowl®:</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caratteristiche-dei-backlight">Caratteristiche dei Backlight:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caratteristiche-dei-backlight">Caratteristiche dei Backlight</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#colori-dei-backlight">Colori dei Backlight</a></li>
 </ul>
   </nav></div>
 

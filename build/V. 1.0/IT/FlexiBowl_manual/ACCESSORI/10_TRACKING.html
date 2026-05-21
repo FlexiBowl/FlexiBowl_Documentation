@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/styles/sphinx-book-theme.css?v=3c74b3bc" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/custom.css?v=9739da55" />
+    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/custom.css?v=6d30af43" />
   
   <!-- So that users can add custom icons -->
   <script src="../../../../_shared/static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
@@ -193,7 +193,13 @@
 <li class="toctree-l1"><a class="reference internal" href="03_BACKLIGHT.html"><strong>Backlight</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="04_TOPLIGHT.html"><strong>Toplight</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="05_DEVIATORE.html"><strong>Deviatori Standard</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="06_SOFFI.html"><strong>Soffi</strong></a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="06_SOFFI.html"><strong>Soffi</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="06-1_RADIALE.html"><strong>Soffi radiali</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="06-2_CENTRALE.html"><strong>Soffio centrale</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="06-3_INDIRETTO.html"><strong>Soffi indiretti (solo per FlexiBowl® 500E)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="06-4_INTEGRATI.html"><strong>Soffi integrati nello schermo flip (FlexiBowl® 200-350)</strong></a></li>
+</ul>
+</details></li>
 <li class="toctree-l1"><a class="reference internal" href="07_BRUSH_DIVERTER.html"><strong>Brush Diverter</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="08_WEDGE.html"><strong>Wedge Diverter</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="09_SVUOTAMENTO.html"><strong>Svuotamento</strong></a></li>
@@ -214,7 +220,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-1_sost-backlight.html"><strong>Sostituzione Backlight</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-2_sost-ev.html"><strong>Sostituzione Elettrovalvole</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-3_sost-vp.html"><strong>Sostituzione Valvola Proporzionale</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-4-sost-flip.html"><strong>Sostituzione Gruppo Flip</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-4_sost-flip.html"><strong>Sostituzione Gruppo Flip</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-5_sost-alim.html"><strong>Sostituzione Alimentatori</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-6_sost-plc.html"><strong>Sostituzione PLC e Moduli</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/02-7_sost-scheda.html"><strong>Sostituzione Scheda</strong></a></li>
@@ -358,7 +364,9 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -374,6 +382,14 @@
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#funzionamento-in-tracking">Funzionamento in tracking</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -385,6 +401,22 @@
                   
   <section id="flexitracking">
 <span id="tracking"></span><h1><strong>Flexitracking</strong><a class="headerlink" href="#flexitracking" title="Link to this heading">#</a></h1>
+<section id="funzionamento-in-tracking">
+<h2>Funzionamento in tracking<a class="headerlink" href="#funzionamento-in-tracking" title="Link to this heading">#</a></h2>
+<p>L’opzione Flexitracking consente di massimizzare la produttività del FlexiBowl® facendolo girare in maniera continua e senza interruzioni. Invece di fermarsi a ogni ciclo per scattare la foto e dare al robot il tempo di raccogliere i pezzi presenti sull’area di visione, un encoder tiene traccia dell’angolo di rotazione che ha effettuato la superficie o dico rigido dal momento dello scatto della foto e quello della presa del pezzo da parte del robot.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Il funzionamento in tracking sposta l’area di presa che, se normalmente coincide con quella di visione, in questo caso sarà spostata a valle. Fare riferimento al capitolo di <a class="reference internal" href="../LAYOUT%20BEST%20PRACTICE/01_layoutbp.html#layoutbp"><span class="std std-ref">Layout Best Practice</span></a> per maggiori informazioni sul piazzamento consigliato del robot e degli altri accessori in caso di funzionamento standard e Flexitracking.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/TrackingLayout.PNG"><img alt="../../_images/TrackingLayout.PNG" src="../../_images/TrackingLayout.PNG" style="width: 80%;" />
+</a>
+</figure>
+</div>
+<p>Il Flexitracking consiste in un gruppo motore modificato con un supporto per una trasmissoine a cinghia che alimenta l’encoder:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/GM001788.PNG"><img alt="../../_images/GM001788.PNG" src="../../_images/GM001788.PNG" style="width: 80%;" />
+</a>
+</figure>
 <br>
 <!-- Versions and languages set-up -->
 <style>
@@ -1028,6 +1060,7 @@
   })();
 </script>
 </section>
+</section>
 
 
                 </article>
@@ -1064,6 +1097,23 @@
             </div>
             
             
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#funzionamento-in-tracking">Funzionamento in tracking</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

@@ -15,14 +15,41 @@ Il vostro parere è fondamentale per noi: non esitate a fornirci il vostro feedb
 Il FlexiBowl® è un sistema di alminentazione flessibile a disco rotante vibrante per il posizionamento e orientamento casuale dei componenti ai fini del prelievo robotico.
 
 ## **Panoramica del sistema** 
-Schema esemplificativo del sistema con collegamenti fino a tre FlexiBowl, tre camere e tre tramogge.
+L'area di lavoro del FlexiBowl® è virtualmente divisa in quattro parti, ognuna dedicata a una fase del ciclo di lavoro:
 
-```{figure} ../../_shared/media/images/Icon_FlexiVision.png
+:::{list-table}
+:widths: 20 50
+:header-rows: 1
+
+* - Fase
+  - Descrizione
+
+* - **Rilascio**
+  - Una tramoggia scarica i componenti sull'area di lavoro del FlexiBowl®.
+
+* - **Separazione**
+  - Un'azione combinata del {ref}`gruppo flip <panoramica>` e del movimento della superficie o disco rigido separa i componenti e li ribalta per averne sempre almeno uno nella giusta posizione per la presa.
+
+* - **Presa**
+  - Il sistema di visione riconosce i pezi prendibile e ne invia le coordinate al robot, che procede con le operazioni di pick and place.
+
+* - **Ricircolo**
+  - I componenti non presi ricominciano il loro percorso nel FlexiBowl® finché non vengono presi dal robot.
+
+:::
+
+:::{figure} ../../_shared/media/images/Funz-standard.PNG
 :align: center
 :width: 50%
 
-Schema esemplificativo del sistema FlexiVision One
-```
+Schema esemplificativo del sistema FlexiBowl® in funzionamento standard.
+:::
+
+:::{note}
+Il ciclo {ref}`Flexitracking <tracking>` è sostanzialmente uguale a quello tradizionale, con la differenza che tutte le fasi avvengono contemporaneamente e in continuazione.
+:::
+
+
 ## **Come leggere il manuale**  
 Questo manuale è stato concepito per supportare sia la fase di progettazione e integrazione di sistema, sia la fase di installazione e messa in servizio in campo. 
 Per questo motivo, è diviso in delle macro-sezioni con destinatari e finalità distinte.
@@ -137,7 +164,7 @@ FlexiBowl_manual/PLUG-IN/01_PlugIn.md
 :::{toctree}
 :hidden:
 :caption: LAYOUT BEST PRACTICE
-FlexiBowl_manual/LAYOUT BEST PRACTICE/01_layoutbd.md
+FlexiBowl_manual/LAYOUT BEST PRACTICE/01_layoutbp.md
 :::
 
 :::{toctree}
