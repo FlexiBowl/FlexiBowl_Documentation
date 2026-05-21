@@ -503,7 +503,7 @@ document.write(`
 <hr class="docutils" />
 <section id="variant-a-1-robot-3-flexibowl">
 <h2>Variant A - 1 Robot, 3 FlexiBowl®<a class="headerlink" href="#variant-a-1-robot-3-flexibowl" title="Link to this heading">#</a></h2>
-<p><img alt="3FB3CAM1Robot system overview" src="../../_shared/media/images/3FB3CAM1R.png" /></p>
+<p><img alt="3FB3CAM1Robot system overview" src="../../../../_shared/media/images/3FB3CAM1R.png" /></p>
 <p>A <strong>single robot</strong> operates on all three stations. The robot must be positioned so that it can reach the picking area of each FlexiBowl®. The VisionController manages the three stations independently, each with its own recipe and TCP/IP communication channel.</p>
 <p>Each station supports both <strong>Standard</strong> and <strong>Mix</strong> applications.</p>
 <div class="pst-scrollable-table-container"><table class="table">
@@ -544,7 +544,7 @@ document.write(`
 <hr class="docutils" />
 <section id="variant-b-2-robots-3-flexibowl">
 <h2>Variant B - 2 Robots, 3 FlexiBowl®<a class="headerlink" href="#variant-b-2-robots-3-flexibowl" title="Link to this heading">#</a></h2>
-<p><img alt="3FB3CAM2Robot system overview" src="../../_shared/media/images/3FB3CAM2R.png" /></p>
+<p><img alt="3FB3CAM2Robot system overview" src="../../../../_shared/media/images/3FB3CAM2R.png" /></p>
 <p>In this variant, <strong>two robots</strong> share the three stations. The first robot performs picking on one FlexiBowl, while the second robot works on the other two FlexiBowl units. The workload distribution between the robots is defined by the robot program logic and the physical plant layout.</p>
 <p>Each station supports both <strong>Standard</strong> and <strong>Mix</strong> applications.</p>
 <div class="pst-scrollable-table-container"><table class="table">
@@ -585,7 +585,7 @@ document.write(`
 <hr class="docutils" />
 <section id="variant-c-3-robots-3-flexibowl">
 <h2>Variant C - 3 Robots, 3 FlexiBowl®<a class="headerlink" href="#variant-c-3-robots-3-flexibowl" title="Link to this heading">#</a></h2>
-<p><img alt="3FB3CAM3Robot system overview" src="../../_shared/media/images/3FB3CAM3R.png" /></p>
+<p><img alt="3FB3CAM3Robot system overview" src="../../../../_shared/media/images/3FB3CAM3R.png" /></p>
 <p>Each robot is dedicated to one single station, providing maximum productivity, with the three cells operating in parallel and completely independently.</p>
 <p>Each station supports both <strong>Standard</strong> and <strong>Mix</strong> applications.</p>
 <div class="pst-scrollable-table-container"><table class="table">
@@ -1044,7 +1044,9 @@ In a 3FB + 3CAM configuration, the same operations simply need to be performed <
       <span class="caret-icon" aria-hidden="true">&#9662;</span>
     </div>
     <div class="dropdown-menu" role="listbox">
-      	<a href="#" role="option">V. 1.0</a>
+      	<a href="#" role="option">V. 0.0</a>
+				<a href="#" role="option">V. 1.0</a>
+				<a href="#" role="option">V. 3.0</a>
     </div>
   </div>
   <div class="dropdown" data-selector="language">
@@ -1053,7 +1055,10 @@ In a 3FB + 3CAM configuration, the same operations simply need to be performed <
       <span class="caret-icon" aria-hidden="true">&#9662;</span>
     </div>
     <div class="dropdown-menu" role="listbox">
-      	<a href="#" role="option">EN</a>
+      	<a href="#" role="option">DE</a>
+				<a href="#" role="option">EN</a>
+				<a href="#" role="option">ES</a>
+				<a href="#" role="option">FR</a>
 				<a href="#" role="option">IT</a>
     </div>
   </div>
@@ -1065,13 +1070,13 @@ In a 3FB + 3CAM configuration, the same operations simply need to be performed <
       return;
     }
 
-    const inlineVersions = ["V. 1.0"];
-    const inlineLanguages = ["EN", "IT"];
+    const inlineVersions = ["V. 0.0", "V. 1.0", "V. 3.0"];
+    const inlineLanguages = ["DE", "EN", "ES", "FR", "IT"];
     const manifest = window.FV_VERSIONING || null;
     const versions = Array.isArray(manifest && manifest.versions) && manifest.versions.length
       ? manifest.versions
       : inlineVersions;
-    const offlineZipEnabled = true;
+    const offlineZipEnabled = false;
     const offlineZipFileName = 'Offline manual.zip';
     const americanRegions = new Set([
       'AG', 'AR', 'AW', 'BB', 'BL', 'BM', 'BO', 'BQ', 'BR', 'BS', 'BZ', 'CA', 'CL', 'CO', 'CR',

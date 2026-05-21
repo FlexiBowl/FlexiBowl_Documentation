@@ -200,6 +200,7 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">QUICKSTART</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/panoramica.html"><strong>Panoramica Operazioni</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/installazione_meccanica.html"><strong>Installazione del FlexiBowl®</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/cablaggio_FB.html"><strong>Cablaggio del FlexiBowl®</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/conf_interfaccia.html"><strong>Configurazione Interfaccia</strong></a></li>
@@ -413,41 +414,46 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione">Introduzione</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#variabili-di-input-e-output">Variabili di Input e Output</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione">Introduzione</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#naviga-la-pagina">Naviga la pagina</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#come-funziona-un-comando">Come funziona un comando</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#variabili-di-input-e-output-i-o">Variabili di Input e Output <span class="isw-section-badge isw-badge-io"><i class="ph ph-arrows-left-right"></i> I/O</span></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#input-segnali-inviati-al-flexibowl">INPUT — Segnali inviati al FlexiBowl®</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#output-segnali-inviati-dal-flexibowl">OUTPUT — Segnali inviati dal FlexiBowl®</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#valori-di-returndata-1">Valori di ReturnData_1</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#protocollo-comandi">Protocollo Comandi</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#come-funziona-un-comando">Come funziona un comando</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-exe">Comandi EXE</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-write">Comandi WRITE</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#logica-di-indirizzamento-delle-sequenze">Logica di indirizzamento delle sequenze</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-scrivibili-per-ogni-sequenza">Parametri scrivibili per ogni sequenza</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempi-di-controlword-write">Esempi di ControlWord WRITE</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-write-jog">Parametri WRITE JOG</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-write-hopper">Parametri WRITE HOPPER</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Come funziona un comando</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-read">Comandi READ</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#logica-di-indirizzamento-read-sequenze">Logica di indirizzamento READ sequenze</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempi-di-controlword-read">Esempi di ControlWord READ</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-read-jog">Parametri READ JOG</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-read-hopper">Parametri READ HOPPER</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-exe-exe">Comandi EXE <span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-write-write">Comandi WRITE <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#logica-di-indirizzamento-delle-sequenze">Logica di indirizzamento delle sequenze</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-scrivibili-per-ogni-sequenza">Parametri scrivibili per ogni sequenza</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#esempi-di-controlword-write">Esempi di ControlWord WRITE</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-write-jog">Parametri WRITE JOG</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-write-hopper">Parametri WRITE HOPPER</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-read-read">Comandi READ <span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#logica-di-indirizzamento-read-sequenze">Logica di indirizzamento READ sequenze</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#esempi-di-controlword-read">Esempi di ControlWord READ</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-read-jog">Parametri READ JOG</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-read-hopper">Parametri READ HOPPER</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sintassi-messaggi-tcp-server">Sintassi Messaggi TCP Server</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sintassi-messaggi-tcp-server-tcp">Sintassi Messaggi TCP Server <span class="isw-section-badge isw-badge-tcp"><i class="ph ph-network"></i> TCP</span></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#struttura-del-messaggio">Struttura del messaggio</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tabella-di-sintassi-tcp">Tabella di sintassi TCP</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#significato-di-returndata-1-o-risposta-tcp">Significato di ReturnData_1 (o risposta TCP)</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-di-errore">Codici di Errore</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-di-errore-generali">Codici di Errore Generali</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-di-errore-del-driver">Codici di Errore del Driver</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-di-errore-errori">Codici di Errore <span class="isw-section-badge isw-badge-err"><i class="ph ph-warning-circle"></i> ERRORI</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-generali">Codici Generali</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-errore-driver">Codici Errore Driver</a></li>
 </ul>
 </li>
 </ul>
@@ -463,22 +469,316 @@ document.write(`
                   
   <section id="interfaccia-software">
 <h1><strong>Interfaccia Software</strong><a class="headerlink" href="#interfaccia-software" title="Link to this heading">#</a></h1>
+<script src="https://unpkg.com/@phosphor-icons/web"></script>
+<div class="isw-page">
+<style>
+  /* ── Reset & base ── */
+  .isw-page { font-family: inherit; max-width: 860px; margin: 0 auto; padding: 0 0 3rem; }
+<p>/* ── NAV CARDS ── */
+.isw-nav {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+gap: 0.75rem;
+margin: 1.5rem 0 2.5rem;
+}
+.isw-nav-card {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.45rem;
+padding: 0.9rem 1rem;
+border: 1.5px solid #d0e4f0;
+border-radius: 10px;
+background: #fff;
+text-decoration: none;
+color: inherit;
+transition: border-color 0.18s, background 0.18s, transform 0.18s;
+}
+.isw-nav-card:hover {
+border-color: #2980b9;
+background: #f0f7ff;
+transform: translateY(-2px);
+text-decoration: none;
+}
+.isw-nav-card i {
+font-size: 1.4rem;
+color: #2980b9;
+}
+.isw-nav-card-title {
+font-weight: 700;
+font-size: 0.82rem;
+color: #1a3a52;
+line-height: 1.3;
+}
+.isw-nav-card-sub {
+font-size: 0.72rem;
+color: #7a9ab0;
+}</p>
+<p>/* ── FLOW DIAGRAM ── */
+.isw-flow {
+display: flex;
+align-items: center;
+gap: 0;
+margin: 1.5rem 0 2rem;
+overflow-x: auto;
+padding-bottom: 0.5rem;
+}
+.isw-flow-step {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 0.35rem;
+min-width: 120px;
+flex: 1;
+}
+.isw-flow-bubble {
+width: 48px;
+height: 48px;
+border-radius: 50%;
+background: #e3f1fb;
+border: 2px solid #2980b9;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #2980b9;
+font-size: 1.2rem;
+}
+.isw-flow-label {
+font-size: 0.72rem;
+font-weight: 600;
+color: #1a3a52;
+text-align: center;
+line-height: 1.3;
+}
+.isw-flow-sub {
+font-size: 0.65rem;
+color: #7a9ab0;
+text-align: center;
+}
+.isw-flow-arrow {
+color: #bcd6ec;
+font-size: 1.4rem;
+flex-shrink: 0;
+margin: 0 -4px;
+padding-bottom: 1.4rem;
+}</p>
+<p>/* ── FORMULA BOX ── */
+.isw-formula {
+background: #f0f7ff;
+border-left: 4px solid #2980b9;
+border-radius: 0 8px 8px 0;
+padding: 1rem 1.25rem;
+margin: 1rem 0 1.5rem;
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+align-items: center;
+}
+.isw-formula-main {
+font-family: monospace;
+font-size: 1.05rem;
+font-weight: 700;
+color: #1a3a52;
+white-space: nowrap;
+}
+.isw-formula-example {
+font-size: 0.8rem;
+color: #556b7d;
+border-left: 1px solid #bcd6ec;
+padding-left: 1rem;
+}
+.isw-formula-example strong { color: #2980b9; }</p>
+<p>/* ── SECTION BADGES ── */
+.isw-section-badge {
+display: inline-flex;
+align-items: center;
+gap: 0.35rem;
+font-size: 0.72rem;
+font-weight: 700;
+letter-spacing: 0.04em;
+border-radius: 5px;
+padding: 3px 10px;
+margin-bottom: 0.6rem;
+}
+.isw-badge-exe  { background: #dbeafe; color: #1d4ed8; }
+.isw-badge-write{ background: #fef3c7; color: #92400e; }
+.isw-badge-read { background: #d1fae5; color: #065f46; }
+.isw-badge-io   { background: #ede9fe; color: #5b21b6; }
+.isw-badge-tcp  { background: #fce7f3; color: #9d174d; }
+.isw-badge-err  { background: #fee2e2; color: #991b1b; }</p>
+<p>/* ── TABLES ── <em>/
+.isw-table-wrap {
+overflow-x: auto;
+border-radius: 8px;
+border: 1px solid #e2eef6;
+margin: 0.75rem 0 1.5rem;
+}
+.isw-table {
+width: 100%;
+border-collapse: collapse;
+font-size: 0.82rem;
+}
+.isw-table thead tr {
+background: #1a3a52;
+color: #fff;
+position: sticky;
+top: 0;
+z-index: 1;
+}
+.isw-table thead th {
+padding: 0.6rem 0.9rem;
+text-align: left;
+font-weight: 600;
+white-space: nowrap;
+}
+.isw-table tbody tr:nth-child(even) { background: #f7fbfe; }
+.isw-table tbody tr:hover { background: #e8f4fc; }
+.isw-table tbody td {
+padding: 0.5rem 0.9rem;
+border-bottom: 1px solid #e9f2f9;
+color: #334e5e;
+vertical-align: top;
+}
+.isw-table tbody td:first-child {
+font-weight: 600;
+color: #1a3a52;
+white-space: nowrap;
+}
+.isw-table code {
+background: #e3f1fb;
+color: #1d4ed8;
+border-radius: 3px;
+padding: 1px 5px;
+font-size: 0.8rem;
+}
+/</em> hidden rows for filter */
+.isw-table tbody tr.isw-hidden { display: none; }</p>
+<p>/* ── SEARCH BOX ── */
+.isw-search-wrap {
+display: flex;
+align-items: center;
+gap: 0.5rem;
+margin-bottom: 0.75rem;
+}
+.isw-search {
+flex: 1;
+max-width: 340px;
+padding: 0.45rem 0.75rem 0.45rem 2.2rem;
+border: 1.5px solid #d0e4f0;
+border-radius: 7px;
+font-size: 0.85rem;
+color: #1a3a52;
+outline: none;
+background: #fff url(“data:image/svg+xml,%3Csvg xmlns=‘http://www.w3.org/2000/svg’ width=‘14’ height=‘14’ viewBox=‘0 0 256 256’%3E%3Cpath fill=‘%237a9ab0’ d=‘M229.66 218.34l-50.07-50.07a88.11 88.11 0 1 0-11.31 11.31l50.06 50.07a8 8 0 0 0 11.32-11.31ZM40 112a72 72 0 1 1 72 72 72.08 72.08 0 0 1-72-72Z’/%3E%3C/svg%3E”) no-repeat 0.6rem center;
+transition: border-color 0.18s;
+}
+.isw-search:focus { border-color: #2980b9; }
+.isw-search-count {
+font-size: 0.75rem;
+color: #7a9ab0;
+}</p>
+<p>/* ── RETURN DATA BOX ── */
+.isw-return-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+gap: 0.6rem;
+margin: 0.75rem 0 1.5rem;
+}
+.isw-return-cell {
+background: #f7fbfe;
+border: 1px solid #d0e4f0;
+border-radius: 7px;
+padding: 0.65rem 0.8rem;
+}
+.isw-return-val {
+font-family: monospace;
+font-size: 1rem;
+font-weight: 700;
+color: #2980b9;
+}
+.isw-return-desc {
+font-size: 0.72rem;
+color: #556b7d;
+margin-top: 0.2rem;
+line-height: 1.35;
+}
+</style></p>
 <section id="introduzione">
 <h2>Introduzione<a class="headerlink" href="#introduzione" title="Link to this heading">#</a></h2>
-<p>Questa sezione descrive come il FlexiBowl® comunica con i sistemi esterni. La comprensione di questa interfaccia è necessaria per integrare il FlexiBowl® in una cella automatizzata.</p>
-<p>Il sistema di comunicazione è basato su un modello a <strong>variabili di Input/Output</strong> e <strong>Control Word numeriche</strong>: il sistema esterno invia un numero (la ControlWord) che identifica l’azione da eseguire e il FlexiBowl® risponde con segnali di stato e dati di ritorno.</p>
-<p>I protocolli di comunicazione supportati sono:</p>
-<ul class="simple">
-<li><p><strong>TCP Server</strong> (Ethernet, via browser o socket)</p></li>
-<li><p><strong>EtherNet/IP</strong></p></li>
-<li><p><strong>Profinet</strong></p></li>
-<li><p><strong>Modbus</strong></p></li>
-</ul>
+<p>Il sistema di comunicazione è basato su <strong>variabili di Input/Output</strong> e <strong>Control Word numeriche</strong>: il sistema esterno invia un numero (la ControlWord) che identifica l’azione da eseguire e il FlexiBowl® risponde con segnali di stato e dati di ritorno.</p>
+<p>Protocolli supportati: <strong>TCP Server</strong> · <strong>EtherNet/IP</strong> · <strong>Profinet</strong> · <strong>Modbus</strong></p>
+<hr class="docutils" />
+<section id="naviga-la-pagina">
+<h3>Naviga la pagina<a class="headerlink" href="#naviga-la-pagina" title="Link to this heading">#</a></h3>
+<div class="isw-nav">
+  <a class="isw-nav-card" href="#io">
+    <i class="ph ph-arrows-left-right"></i>
+    <span class="isw-nav-card-title">Variabili I/O</span>
+    <span class="isw-nav-card-sub">Input & Output</span>
+  </a>
+  <a class="isw-nav-card" href="#exe">
+    <i class="ph ph-play-circle"></i>
+    <span class="isw-nav-card-title">Comandi EXE</span>
+    <span class="isw-nav-card-sub">Avvio sequenze & jog</span>
+  </a>
+  <a class="isw-nav-card" href="#write">
+    <i class="ph ph-pencil-simple"></i>
+    <span class="isw-nav-card-title">Comandi WRITE</span>
+    <span class="isw-nav-card-sub">Scrittura parametri</span>
+  </a>
+  <a class="isw-nav-card" href="#read">
+    <i class="ph ph-eye"></i>
+    <span class="isw-nav-card-title">Comandi READ</span>
+    <span class="isw-nav-card-sub">Lettura parametri</span>
+  </a>
+  <a class="isw-nav-card" href="#tcp">
+    <i class="ph ph-network"></i>
+    <span class="isw-nav-card-title">Sintassi TCP</span>
+    <span class="isw-nav-card-sub">Messaggi socket</span>
+  </a>
+  <a class="isw-nav-card" href="#errors">
+    <i class="ph ph-warning-circle"></i>
+    <span class="isw-nav-card-title">Codici di Errore</span>
+    <span class="isw-nav-card-sub">Diagnostica</span>
+  </a>
+</div>
 </section>
 <hr class="docutils" />
-<section id="variabili-di-input-e-output">
-<h2>Variabili di Input e Output<a class="headerlink" href="#variabili-di-input-e-output" title="Link to this heading">#</a></h2>
-<p>Le variabili I/O sono i segnali che viaggiano tra il sistema esterno e il FlexiBowl®. Si dividono in <strong>INPUT</strong> (dal sistema esterno verso il FlexiBowl®) e <strong>OUTPUT</strong> (dal FlexiBowl® verso il sistema esterno).</p>
+<section id="come-funziona-un-comando">
+<h3>Come funziona un comando<a class="headerlink" href="#come-funziona-un-comando" title="Link to this heading">#</a></h3>
+<div class="isw-flow">
+  <div class="isw-flow-step">
+    <div class="isw-flow-bubble"><i class="ph ph-number-square-one"></i></div>
+    <div class="isw-flow-label">Imposta<br>ControlWord</div>
+    <div class="isw-flow-sub">numero del comando</div>
+  </div>
+  <div class="isw-flow-arrow"><i class="ph ph-caret-right"></i></div>
+  <div class="isw-flow-step">
+    <div class="isw-flow-bubble"><i class="ph ph-number-square-two"></i></div>
+    <div class="isw-flow-label">Imposta<br>Data_1</div>
+    <div class="isw-flow-sub">se richiesto</div>
+  </div>
+  <div class="isw-flow-arrow"><i class="ph ph-caret-right"></i></div>
+  <div class="isw-flow-step">
+    <div class="isw-flow-bubble"><i class="ph ph-number-square-three"></i></div>
+    <div class="isw-flow-label">Fronte salita<br>ExecuteCW</div>
+    <div class="isw-flow-sub">trigger 0 → 1</div>
+  </div>
+  <div class="isw-flow-arrow"><i class="ph ph-caret-right"></i></div>
+  <div class="isw-flow-step">
+    <div class="isw-flow-bubble"><i class="ph ph-number-square-four"></i></div>
+    <div class="isw-flow-label">Attendi<br>Busy = 0</div>
+    <div class="isw-flow-sub">e ReturnData_1 = CW</div>
+  </div>
+</div>
+<blockquote>
+<div><p>⚠️ Non inviare un nuovo comando mentre <strong>Busy</strong> è <code class="docutils literal notranslate"><span class="pre">1</span></code>. Il sistema lo ignorerà e <strong>ReturnData_1</strong> restituirà <code class="docutils literal notranslate"><span class="pre">3</span></code>.</p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="variabili-di-input-e-output-i-o">
+<h2>Variabili di Input e Output <span class="isw-section-badge isw-badge-io"><i class="ph ph-arrows-left-right"></i> I/O</span><a class="headerlink" href="#variabili-di-input-e-output-i-o" title="Link to this heading">#</a></h2>
 <section id="input-segnali-inviati-al-flexibowl">
 <h3>INPUT — Segnali inviati al FlexiBowl®<a class="headerlink" href="#input-segnali-inviati-al-flexibowl" title="Link to this heading">#</a></h3>
 <div class="pst-scrollable-table-container"><table class="table">
@@ -567,6 +867,16 @@ document.write(`
 </table>
 </div>
 </section>
+<section id="valori-di-returndata-1">
+<h3>Valori di ReturnData_1<a class="headerlink" href="#valori-di-returndata-1" title="Link to this heading">#</a></h3>
+<div class="isw-return-grid">
+  <div class="isw-return-cell"><div class="isw-return-val">0</div><div class="isw-return-desc">NULL — nessun comando in corso (stato iniziale)</div></div>
+  <div class="isw-return-cell"><div class="isw-return-val">1</div><div class="isw-return-desc">Comando non interpretabile (ControlWord sconosciuta)</div></div>
+  <div class="isw-return-cell"><div class="isw-return-val">2</div><div class="isw-return-desc">Data_1 fuori range, comando riconosciuto</div></div>
+  <div class="isw-return-cell"><div class="isw-return-val">3</div><div class="isw-return-desc">Sistema occupato (Busy) — riprovare</div></div>
+  <div class="isw-return-cell"><div class="isw-return-val">= CW</div><div class="isw-return-desc">Comando eseguito correttamente</div></div>
+</div>
+</section>
 </section>
 <hr class="docutils" />
 <section id="protocollo-comandi">
@@ -577,8 +887,8 @@ document.write(`
 <li><p><strong>WRITE</strong>: scrittura di parametri (velocità, angoli, tempi, ecc.)</p></li>
 <li><p><strong>READ</strong>: lettura dei parametri attualmente configurati</p></li>
 </ul>
-<section id="come-funziona-un-comando">
-<h3>Come funziona un comando<a class="headerlink" href="#come-funziona-un-comando" title="Link to this heading">#</a></h3>
+<section id="id1">
+<h3>Come funziona un comando<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p>Il sistema esterno imposta la <strong>ControlWord</strong> con il numero del comando desiderato.</p></li>
 <li><p>Se il comando richiede un argomento, imposta anche <strong>Data_1</strong>.</p></li>
@@ -590,10 +900,10 @@ document.write(`
 <p>Non inviare un nuovo comando mentre <strong>Busy</strong> è a <code class="docutils literal notranslate"><span class="pre">1</span></code>. Il sistema ignorerà il comando e <strong>ReturnData_1</strong> restituirà il valore <code class="docutils literal notranslate"><span class="pre">3</span></code> (sistema occupato).</p>
 </div>
 </section>
-<hr class="docutils" />
-<section id="comandi-exe">
-<h3>Comandi EXE<a class="headerlink" href="#comandi-exe" title="Link to this heading">#</a></h3>
-<p>I comandi EXE avviano un’azione immediata sul FlexiBowl®. Durante l’esecuzione, <strong>Busy</strong> rimane a <code class="docutils literal notranslate"><span class="pre">1</span></code>.</p>
+</section>
+<section id="comandi-exe-exe">
+<h2>Comandi EXE <span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span><a class="headerlink" href="#comandi-exe-exe" title="Link to this heading">#</a></h2>
+<p>I comandi EXE avviano un’azione immediata sul FlexiBowl®. Durante l’esecuzione <strong>Busy</strong> rimane a <code class="docutils literal notranslate"><span class="pre">1</span></code>.</p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Comando</p></th>
@@ -750,12 +1060,11 @@ document.write(`
 <p>Il comando <strong>Reset Return Data</strong> (ControlWord 50) azzera il valore di ReturnData_1 e ReturnData_2, riportandoli allo stato iniziale <code class="docutils literal notranslate"><span class="pre">0</span></code>. È utile per verificare che un nuovo comando venga effettivamente ricevuto ed elaborato.</p>
 </div>
 </section>
-<hr class="docutils" />
-<section id="comandi-write">
-<h3>Comandi WRITE<a class="headerlink" href="#comandi-write" title="Link to this heading">#</a></h3>
+<section id="comandi-write-write">
+<h2>Comandi WRITE <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span><a class="headerlink" href="#comandi-write-write" title="Link to this heading">#</a></h2>
 <p>I comandi WRITE permettono di modificare i parametri operativi del FlexiBowl® (velocità, angoli, tempi, ecc.) direttamente dal sistema esterno, senza dover accedere all’interfaccia grafica.</p>
 <section id="logica-di-indirizzamento-delle-sequenze">
-<h4>Logica di indirizzamento delle sequenze<a class="headerlink" href="#logica-di-indirizzamento-delle-sequenze" title="Link to this heading">#</a></h4>
+<h3>Logica di indirizzamento delle sequenze<a class="headerlink" href="#logica-di-indirizzamento-delle-sequenze" title="Link to this heading">#</a></h3>
 <p>Ogni sequenza (da 1 a 20) ha un proprio blocco di parametri. La ControlWord si calcola con la formula:</p>
 <blockquote>
 <div><p><strong>ControlWord = N × 100 + offset_parametro</strong></p>
@@ -763,7 +1072,7 @@ document.write(`
 <p>dove <code class="docutils literal notranslate"><span class="pre">N</span></code> è il numero della sequenza (1–20) e <code class="docutils literal notranslate"><span class="pre">offset_parametro</span></code> identifica il parametro specifico.</p>
 </section>
 <section id="parametri-scrivibili-per-ogni-sequenza">
-<h4>Parametri scrivibili per ogni sequenza<a class="headerlink" href="#parametri-scrivibili-per-ogni-sequenza" title="Link to this heading">#</a></h4>
+<h3>Parametri scrivibili per ogni sequenza<a class="headerlink" href="#parametri-scrivibili-per-ogni-sequenza" title="Link to this heading">#</a></h3>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Parametro</p></th>
@@ -868,7 +1177,7 @@ document.write(`
 </div>
 </section>
 <section id="esempi-di-controlword-write">
-<h4>Esempi di ControlWord WRITE<a class="headerlink" href="#esempi-di-controlword-write" title="Link to this heading">#</a></h4>
+<h3>Esempi di ControlWord WRITE<a class="headerlink" href="#esempi-di-controlword-write" title="Link to this heading">#</a></h3>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Sequenza</p></th>
@@ -952,7 +1261,7 @@ document.write(`
 </div>
 </section>
 <section id="parametri-write-jog">
-<h4>Parametri WRITE JOG<a class="headerlink" href="#parametri-write-jog" title="Link to this heading">#</a></h4>
+<h3>Parametri WRITE JOG<a class="headerlink" href="#parametri-write-jog" title="Link to this heading">#</a></h3>
 <p>I parametri del Jog (funzionamento manuale continuo) sono configurabili separatamente tramite ControlWord nel blocco 20000.</p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -1038,7 +1347,7 @@ document.write(`
 </div>
 </section>
 <section id="parametri-write-hopper">
-<h4>Parametri WRITE HOPPER<a class="headerlink" href="#parametri-write-hopper" title="Link to this heading">#</a></h4>
+<h3>Parametri WRITE HOPPER<a class="headerlink" href="#parametri-write-hopper" title="Link to this heading">#</a></h3>
 <p>I parametri degli hopper (tramogge vibrazionali) sono configurabili nel blocco 30000.</p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -1175,11 +1484,11 @@ document.write(`
 </section>
 </section>
 <hr class="docutils" />
-<section id="comandi-read">
-<h3>Comandi READ<a class="headerlink" href="#comandi-read" title="Link to this heading">#</a></h3>
+<section id="comandi-read-read">
+<h2>Comandi READ <span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span><a class="headerlink" href="#comandi-read-read" title="Link to this heading">#</a></h2>
 <p>I comandi READ permettono di leggere i parametri attualmente configurati nel FlexiBowl®. Il valore letto viene restituito in <strong>ReturnData_2</strong>.</p>
 <section id="logica-di-indirizzamento-read-sequenze">
-<h4>Logica di indirizzamento READ sequenze<a class="headerlink" href="#logica-di-indirizzamento-read-sequenze" title="Link to this heading">#</a></h4>
+<h3>Logica di indirizzamento READ sequenze<a class="headerlink" href="#logica-di-indirizzamento-read-sequenze" title="Link to this heading">#</a></h3>
 <p>La ControlWord per la lettura si calcola con la formula:</p>
 <blockquote>
 <div><p><strong>ControlWord = 10000 + N × 100 + offset_parametro</strong></p>
@@ -1215,7 +1524,7 @@ document.write(`
 </div>
 </section>
 <section id="esempi-di-controlword-read">
-<h4>Esempi di ControlWord READ<a class="headerlink" href="#esempi-di-controlword-read" title="Link to this heading">#</a></h4>
+<h3>Esempi di ControlWord READ<a class="headerlink" href="#esempi-di-controlword-read" title="Link to this heading">#</a></h3>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Sequenza</p></th>
@@ -1270,7 +1579,7 @@ Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è <code 
 </div>
 </section>
 <section id="parametri-read-jog">
-<h4>Parametri READ JOG<a class="headerlink" href="#parametri-read-jog" title="Link to this heading">#</a></h4>
+<h3>Parametri READ JOG<a class="headerlink" href="#parametri-read-jog" title="Link to this heading">#</a></h3>
 <p>Gli stessi parametri scrivibili del JOG (blocco 20000) sono leggibili nel blocco 20100:</p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -1341,7 +1650,7 @@ Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è <code 
 </div>
 </section>
 <section id="parametri-read-hopper">
-<h4>Parametri READ HOPPER<a class="headerlink" href="#parametri-read-hopper" title="Link to this heading">#</a></h4>
+<h3>Parametri READ HOPPER<a class="headerlink" href="#parametri-read-hopper" title="Link to this heading">#</a></h3>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Parametro</p></th>
@@ -1496,10 +1805,9 @@ Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è <code 
 </div>
 </section>
 </section>
-</section>
 <hr class="docutils" />
-<section id="sintassi-messaggi-tcp-server">
-<h2>Sintassi Messaggi TCP Server<a class="headerlink" href="#sintassi-messaggi-tcp-server" title="Link to this heading">#</a></h2>
+<section id="sintassi-messaggi-tcp-server-tcp">
+<h2>Sintassi Messaggi TCP Server <span class="isw-section-badge isw-badge-tcp"><i class="ph ph-network"></i> TCP</span><a class="headerlink" href="#sintassi-messaggi-tcp-server-tcp" title="Link to this heading">#</a></h2>
 <p>Quando si utilizza la comunicazione <strong>TCP Server</strong>, i comandi non vengono inviati come variabili binarie ma come <strong>stringhe di testo</strong> attraverso una connessione socket sulla porta configurata (default: 8123).</p>
 <section id="struttura-del-messaggio">
 <h3>Struttura del messaggio<a class="headerlink" href="#struttura-del-messaggio" title="Link to this heading">#</a></h3>
@@ -1627,11 +1935,14 @@ Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è <code 
 </section>
 </section>
 <hr class="docutils" />
-<section id="codici-di-errore">
-<h2>Codici di Errore<a class="headerlink" href="#codici-di-errore" title="Link to this heading">#</a></h2>
-<p>Nel caso in cui si verifica un errore, è possibile visualizzarlo tramite il comando <code class="docutils literal notranslate"><span class="pre">ErrorCode%</span></code>. Il valore di ritonro sarà della forma <code class="docutils literal notranslate"><span class="pre">ErrorCode[X]%</span></code>, dove X rappresenta uno dei codici sottostanti:</p>
-<section id="codici-di-errore-generali">
-<h3>Codici di Errore Generali<a class="headerlink" href="#codici-di-errore-generali" title="Link to this heading">#</a></h3>
+<section id="codici-di-errore-errori">
+<h2>Codici di Errore <span class="isw-section-badge isw-badge-err"><i class="ph ph-warning-circle"></i> ERRORI</span><a class="headerlink" href="#codici-di-errore-errori" title="Link to this heading">#</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In presenza di un errore, il LED <strong>In_Error</strong> si attiva e il sistema non eseguirà nuovi comandi di movimento fino al reset. Prima di eseguire il reset, identificare e risolvere la causa dell’errore.</p>
+</div>
+<section id="codici-generali">
+<h3>Codici Generali<a class="headerlink" href="#codici-generali" title="Link to this heading">#</a></h3>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>ErrorCode</p></th>
@@ -1667,188 +1978,74 @@ Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è <code 
 </table>
 </div>
 </section>
-<section id="codici-di-errore-del-driver">
-<h3>Codici di Errore del Driver<a class="headerlink" href="#codici-di-errore-del-driver" title="Link to this heading">#</a></h3>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>In presenza di un errore, il LED <strong>In_Error</strong> si attiva e il sistema non eseguirà nuovi comandi di movimento fino al reset. Prima di eseguire il reset, identificare e risolvere la causa dell’errore.</p>
+<section id="codici-errore-driver">
+<h3>Codici Errore Driver<a class="headerlink" href="#codici-errore-driver" title="Link to this heading">#</a></h3>
+<div class="isw-search-wrap">
+  <input class="isw-search" id="errSearch" type="text" placeholder="Filtra per codice o descrizione…" oninput="filterErrors()">
+  <span class="isw-search-count" id="errCount"></span>
 </div>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>ErrorCode</p></th>
-<th class="head"><p>ErrorCode (Hex)</p></th>
-<th class="head"><p>Errore</p></th>
-<th class="head"><p>Descrizione</p></th>
-</tr>
-</thead>
+<div class="isw-table-wrap">
+<table class="isw-table" id="errTable">
+<thead><tr><th>Codice</th><th>Hex</th><th>Errore</th><th>Descrizione</th></tr></thead>
 <tbody>
-<tr class="row-even"><td><p>50</p></td>
-<td><p>0x7500</p></td>
-<td><p>EtherCAT communication error</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>51</p></td>
-<td><p>0xFF01</p></td>
-<td><p>Drive Over Current</p></td>
-<td><p>corrente motore eccessiva</p></td>
-</tr>
-<tr class="row-even"><td><p>52</p></td>
-<td><p>0xFF02</p></td>
-<td><p>Drive Over Voltage</p></td>
-<td><p>tensione bus DC eccessiva</p></td>
-</tr>
-<tr class="row-odd"><td><p>53</p></td>
-<td><p>0xFF03</p></td>
-<td><p>Drive Over Temperature</p></td>
-<td><p>temperatura driver troppo elevata</p></td>
-</tr>
-<tr class="row-even"><td><p>54</p></td>
-<td><p>0xFF04</p></td>
-<td><p>Reserved</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>55</p></td>
-<td><p>0xFF05</p></td>
-<td><p>Drive Internal Voltage Error</p></td>
-<td><p>errore tensione interna</p></td>
-</tr>
-<tr class="row-even"><td><p>56</p></td>
-<td><p>0xFF06</p></td>
-<td><p>Position Error</p></td>
-<td><p>errore di posizionamento</p></td>
-</tr>
-<tr class="row-odd"><td><p>57</p></td>
-<td><p>0xFF07</p></td>
-<td><p>Motor Encoder Disconnected</p></td>
-<td><p>encoder non collegato o guasto</p></td>
-</tr>
-<tr class="row-even"><td><p>58</p></td>
-<td><p>0xFF0A</p></td>
-<td><p>Regen Failed</p></td>
-<td><p>errore nel circuito di rigenerazione</p></td>
-</tr>
-<tr class="row-odd"><td><p>59</p></td>
-<td><p>0xFF0B</p></td>
-<td><p>Safe Torque Off (STO)</p></td>
-<td><p>funzione di sicurezza attiva</p></td>
-</tr>
-<tr class="row-even"><td><p>60</p></td>
-<td><p>0xFF0C</p></td>
-<td><p>Reserved</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p>61</p></td>
-<td><p>0xFF0D</p></td>
-<td><p>Bad FPGA</p></td>
-<td><p>errore interno all’FPGA del driver</p></td>
-</tr>
-<tr class="row-even"><td><p>62</p></td>
-<td><p>0xFF0E</p></td>
-<td><p>Parameter Read Failed</p></td>
-<td><p>lettura parametri fallita</p></td>
-</tr>
-<tr class="row-odd"><td><p>63</p></td>
-<td><p>0xFF0F</p></td>
-<td><p>Motor Encoder Multi-turn Error</p></td>
-<td><p>errore encoder multi-giro</p></td>
-</tr>
-<tr class="row-even"><td><p>64</p></td>
-<td><p>0xFF10</p></td>
-<td><p>Motor Stall Protection</p></td>
-<td><p>protezione stallo motore attiva</p></td>
-</tr>
-<tr class="row-odd"><td><p>65</p></td>
-<td><p>0xFF11</p></td>
-<td><p>Drive Power Module Over Temperature</p></td>
-<td><p>modulo di potenza surriscaldato</p></td>
-</tr>
-<tr class="row-even"><td><p>66</p></td>
-<td><p>0xFF31</p></td>
-<td><p>N Limit</p></td>
-<td><p>limite di posizione negativo raggiunto</p></td>
-</tr>
-<tr class="row-odd"><td><p>67</p></td>
-<td><p>0xFF32</p></td>
-<td><p>P Limit</p></td>
-<td><p>limite di posizione positivo raggiunto</p></td>
-</tr>
-<tr class="row-even"><td><p>68</p></td>
-<td><p>0xFF33</p></td>
-<td><p>N&amp;P Limit</p></td>
-<td><p>entrambi i limiti di posizione raggiunti</p></td>
-</tr>
-<tr class="row-odd"><td><p>69</p></td>
-<td><p>0xFF34</p></td>
-<td><p>Current Foldback</p></td>
-<td><p>riduzione corrente per protezione termica</p></td>
-</tr>
-<tr class="row-even"><td><p>70</p></td>
-<td><p>0xFF35</p></td>
-<td><p>Move &#64; Disabled</p></td>
-<td><p>tentativo di movimento con driver disabilitato</p></td>
-</tr>
-<tr class="row-odd"><td><p>71</p></td>
-<td><p>0xFF36</p></td>
-<td><p>Drive Low Voltage</p></td>
-<td><p>tensione bus DC insufficiente</p></td>
-</tr>
-<tr class="row-even"><td><p>72</p></td>
-<td><p>0xFF37</p></td>
-<td><p>Blank Q Segment</p></td>
-<td><p>segmento di traiettoria non definito</p></td>
-</tr>
-<tr class="row-odd"><td><p>73</p></td>
-<td><p>0xFF38</p></td>
-<td><p>Velocity Limit</p></td>
-<td><p>limite di velocità superato</p></td>
-</tr>
-<tr class="row-even"><td><p>74</p></td>
-<td><p>0xFF39</p></td>
-<td><p>Drive Power Phase Lost</p></td>
-<td><p>perdita di una fase di alimentazione</p></td>
-</tr>
-<tr class="row-odd"><td><p>75</p></td>
-<td><p>0xFF3A</p></td>
-<td><p>Emergency Stop</p></td>
-<td><p>arresto di emergenza attivo</p></td>
-</tr>
-<tr class="row-even"><td><p>76</p></td>
-<td><p>0xFF3B</p></td>
-<td><p>Abs. Encoder Battery</p></td>
-<td><p>batteria encoder assoluto scarica o assente</p></td>
-</tr>
-<tr class="row-odd"><td><p>77</p></td>
-<td><p>0xFF3C</p></td>
-<td><p>Abs. Position Lost Warning</p></td>
-<td><p>avviso perdita posizione assoluta</p></td>
-</tr>
-<tr class="row-even"><td><p>78</p></td>
-<td><p>0xFF3D</p></td>
-<td><p>Abs. Position Overflow</p></td>
-<td><p>overflow posizione assoluta</p></td>
-</tr>
-<tr class="row-odd"><td><p>79</p></td>
-<td><p>0xFF3E</p></td>
-<td><p>Motor Over Temperature</p></td>
-<td><p>temperatura motore eccessiva</p></td>
-</tr>
-<tr class="row-even"><td><p>80</p></td>
-<td><p>0xFF3F</p></td>
-<td><p>Drive Voltage Warning</p></td>
-<td><p>avviso tensione driver fuori range</p></td>
-</tr>
-<tr class="row-odd"><td><p>81</p></td>
-<td><p>0xFF41</p></td>
-<td><p>Save Failed</p></td>
-<td><p>salvataggio parametri fallito</p></td>
-</tr>
-<tr class="row-even"><td><p>82</p></td>
-<td><p>0xFFFF</p></td>
-<td><p>Other Error</p></td>
-<td><p>errore generico non classificato</p></td>
-</tr>
+<tr><td><code>50</code></td><td><code>0x7500</code></td><td>EtherCAT communication error</td><td></td></tr>
+<tr><td><code>51</code></td><td><code>0xFF01</code></td><td>Drive Over Current</td><td>Corrente motore eccessiva</td></tr>
+<tr><td><code>52</code></td><td><code>0xFF02</code></td><td>Drive Over Voltage</td><td>Tensione bus DC eccessiva</td></tr>
+<tr><td><code>53</code></td><td><code>0xFF03</code></td><td>Drive Over Temperature</td><td>Temperatura driver troppo elevata</td></tr>
+<tr><td><code>54</code></td><td><code>0xFF04</code></td><td>Reserved</td><td></td></tr>
+<tr><td><code>55</code></td><td><code>0xFF05</code></td><td>Drive Internal Voltage Error</td><td>Errore tensione interna</td></tr>
+<tr><td><code>56</code></td><td><code>0xFF06</code></td><td>Position Error</td><td>Errore di posizionamento</td></tr>
+<tr><td><code>57</code></td><td><code>0xFF07</code></td><td>Motor Encoder Disconnected</td><td>Encoder non collegato o guasto</td></tr>
+<tr><td><code>58</code></td><td><code>0xFF0A</code></td><td>Regen Failed</td><td>Errore nel circuito di rigenerazione</td></tr>
+<tr><td><code>59</code></td><td><code>0xFF0B</code></td><td>Safe Torque Off (STO)</td><td>Funzione di sicurezza attiva</td></tr>
+<tr><td><code>60</code></td><td><code>0xFF0C</code></td><td>Reserved</td><td></td></tr>
+<tr><td><code>61</code></td><td><code>0xFF0D</code></td><td>Bad FPGA</td><td>Errore interno all'FPGA del driver</td></tr>
+<tr><td><code>62</code></td><td><code>0xFF0E</code></td><td>Parameter Read Failed</td><td>Lettura parametri fallita</td></tr>
+<tr><td><code>63</code></td><td><code>0xFF0F</code></td><td>Motor Encoder Multi-turn Error</td><td>Errore encoder multi-giro</td></tr>
+<tr><td><code>64</code></td><td><code>0xFF10</code></td><td>Motor Stall Protection</td><td>Protezione stallo motore attiva</td></tr>
+<tr><td><code>65</code></td><td><code>0xFF11</code></td><td>Drive Power Module Over Temperature</td><td>Modulo di potenza surriscaldato</td></tr>
+<tr><td><code>66</code></td><td><code>0xFF31</code></td><td>N Limit</td><td>Limite di posizione negativo raggiunto</td></tr>
+<tr><td><code>67</code></td><td><code>0xFF32</code></td><td>P Limit</td><td>Limite di posizione positivo raggiunto</td></tr>
+<tr><td><code>68</code></td><td><code>0xFF33</code></td><td>N&P Limit</td><td>Entrambi i limiti di posizione raggiunti</td></tr>
+<tr><td><code>69</code></td><td><code>0xFF34</code></td><td>Current Foldback</td><td>Riduzione corrente per protezione termica</td></tr>
+<tr><td><code>70</code></td><td><code>0xFF35</code></td><td>Move @ Disabled</td><td>Tentativo di movimento con driver disabilitato</td></tr>
+<tr><td><code>71</code></td><td><code>0xFF36</code></td><td>Drive Low Voltage</td><td>Tensione bus DC insufficiente</td></tr>
+<tr><td><code>72</code></td><td><code>0xFF37</code></td><td>Blank Q Segment</td><td>Segmento di traiettoria non definito</td></tr>
+<tr><td><code>73</code></td><td><code>0xFF38</code></td><td>Velocity Limit</td><td>Limite di velocità superato</td></tr>
+<tr><td><code>74</code></td><td><code>0xFF39</code></td><td>Drive Power Phase Lost</td><td>Perdita di una fase di alimentazione</td></tr>
+<tr><td><code>75</code></td><td><code>0xFF3A</code></td><td>Emergency Stop</td><td>Arresto di emergenza attivo</td></tr>
+<tr><td><code>76</code></td><td><code>0xFF3B</code></td><td>Abs. Encoder Battery</td><td>Batteria encoder assoluto scarica o assente</td></tr>
+<tr><td><code>77</code></td><td><code>0xFF3C</code></td><td>Abs. Position Lost Warning</td><td>Avviso perdita posizione assoluta</td></tr>
+<tr><td><code>78</code></td><td><code>0xFF3D</code></td><td>Abs. Position Overflow</td><td>Overflow posizione assoluta</td></tr>
+<tr><td><code>79</code></td><td><code>0xFF3E</code></td><td>Motor Over Temperature</td><td>Temperatura motore eccessiva</td></tr>
+<tr><td><code>80</code></td><td><code>0xFF3F</code></td><td>Drive Voltage Warning</td><td>Avviso tensione driver fuori range</td></tr>
+<tr><td><code>81</code></td><td><code>0xFF41</code></td><td>Save Failed</td><td>Salvataggio parametri fallito</td></tr>
+<tr><td><code>82</code></td><td><code>0xFFFF</code></td><td>Other Error</td><td>Errore generico non classificato</td></tr>
 </tbody>
 </table>
+</div>
+<script>
+function filterErrors() {
+  var input = document.getElementById('errSearch').value.toLowerCase();
+  var rows = document.querySelectorAll('#errTable tbody tr');
+  var count = 0;
+  rows.forEach(function(row) {
+    var text = row.textContent.toLowerCase();
+    if (text.includes(input)) {
+      row.classList.remove('isw-hidden');
+      count++;
+    } else {
+      row.classList.add('isw-hidden');
+    }
+  });
+  var countEl = document.getElementById('errCount');
+  if (input) {
+    countEl.textContent = count + ' risultat' + (count === 1 ? 'o' : 'i');
+  } else {
+    countEl.textContent = '';
+  }
+}
+</script>
 </div>
 <br>
 <!-- Versions and languages set-up -->
@@ -2000,7 +2197,9 @@ Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è <code 
       <span class="caret-icon" aria-hidden="true">&#9662;</span>
     </div>
     <div class="dropdown-menu" role="listbox">
-      	<a href="#" role="option">V. 1.0</a>
+      	<a href="#" role="option">V. 0.0</a>
+				<a href="#" role="option">V. 1.0</a>
+				<a href="#" role="option">V. 3.0</a>
     </div>
   </div>
   <div class="dropdown" data-selector="language">
@@ -2009,7 +2208,10 @@ Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è <code 
       <span class="caret-icon" aria-hidden="true">&#9662;</span>
     </div>
     <div class="dropdown-menu" role="listbox">
-      	<a href="#" role="option">EN</a>
+      	<a href="#" role="option">DE</a>
+				<a href="#" role="option">EN</a>
+				<a href="#" role="option">ES</a>
+				<a href="#" role="option">FR</a>
 				<a href="#" role="option">IT</a>
     </div>
   </div>
@@ -2021,13 +2223,13 @@ Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è <code 
       return;
     }
 
-    const inlineVersions = ["V. 1.0"];
-    const inlineLanguages = ["EN", "IT"];
+    const inlineVersions = ["V. 0.0", "V. 1.0", "V. 3.0"];
+    const inlineLanguages = ["DE", "EN", "ES", "FR", "IT"];
     const manifest = window.FV_VERSIONING || null;
     const versions = Array.isArray(manifest && manifest.versions) && manifest.versions.length
       ? manifest.versions
       : inlineVersions;
-    const offlineZipEnabled = true;
+    const offlineZipEnabled = false;
     const offlineZipFileName = 'Offline manual.zip';
     const americanRegions = new Set([
       'AG', 'AR', 'AW', 'BB', 'BL', 'BM', 'BO', 'BQ', 'BR', 'BS', 'BZ', 'CA', 'CL', 'CO', 'CR',
@@ -2541,41 +2743,46 @@ Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è <code 
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione">Introduzione</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#variabili-di-input-e-output">Variabili di Input e Output</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione">Introduzione</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#naviga-la-pagina">Naviga la pagina</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#come-funziona-un-comando">Come funziona un comando</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#variabili-di-input-e-output-i-o">Variabili di Input e Output <span class="isw-section-badge isw-badge-io"><i class="ph ph-arrows-left-right"></i> I/O</span></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#input-segnali-inviati-al-flexibowl">INPUT — Segnali inviati al FlexiBowl®</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#output-segnali-inviati-dal-flexibowl">OUTPUT — Segnali inviati dal FlexiBowl®</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#valori-di-returndata-1">Valori di ReturnData_1</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#protocollo-comandi">Protocollo Comandi</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#come-funziona-un-comando">Come funziona un comando</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-exe">Comandi EXE</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-write">Comandi WRITE</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#logica-di-indirizzamento-delle-sequenze">Logica di indirizzamento delle sequenze</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-scrivibili-per-ogni-sequenza">Parametri scrivibili per ogni sequenza</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempi-di-controlword-write">Esempi di ControlWord WRITE</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-write-jog">Parametri WRITE JOG</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-write-hopper">Parametri WRITE HOPPER</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Come funziona un comando</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-read">Comandi READ</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#logica-di-indirizzamento-read-sequenze">Logica di indirizzamento READ sequenze</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempi-di-controlword-read">Esempi di ControlWord READ</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-read-jog">Parametri READ JOG</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-read-hopper">Parametri READ HOPPER</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-exe-exe">Comandi EXE <span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-write-write">Comandi WRITE <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#logica-di-indirizzamento-delle-sequenze">Logica di indirizzamento delle sequenze</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-scrivibili-per-ogni-sequenza">Parametri scrivibili per ogni sequenza</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#esempi-di-controlword-write">Esempi di ControlWord WRITE</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-write-jog">Parametri WRITE JOG</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-write-hopper">Parametri WRITE HOPPER</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-read-read">Comandi READ <span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#logica-di-indirizzamento-read-sequenze">Logica di indirizzamento READ sequenze</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#esempi-di-controlword-read">Esempi di ControlWord READ</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-read-jog">Parametri READ JOG</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-read-hopper">Parametri READ HOPPER</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sintassi-messaggi-tcp-server">Sintassi Messaggi TCP Server</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sintassi-messaggi-tcp-server-tcp">Sintassi Messaggi TCP Server <span class="isw-section-badge isw-badge-tcp"><i class="ph ph-network"></i> TCP</span></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#struttura-del-messaggio">Struttura del messaggio</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tabella-di-sintassi-tcp">Tabella di sintassi TCP</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#significato-di-returndata-1-o-risposta-tcp">Significato di ReturnData_1 (o risposta TCP)</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-di-errore">Codici di Errore</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-di-errore-generali">Codici di Errore Generali</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-di-errore-del-driver">Codici di Errore del Driver</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-di-errore-errori">Codici di Errore <span class="isw-section-badge isw-badge-err"><i class="ph ph-warning-circle"></i> ERRORI</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-generali">Codici Generali</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-errore-driver">Codici Errore Driver</a></li>
 </ul>
 </li>
 </ul>

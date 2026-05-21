@@ -1,22 +1,326 @@
 # **Interfaccia Software**
 
+<script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+<div class="isw-page">
+<style>
+  /* ── Reset & base ── */
+  .isw-page { font-family: inherit; max-width: 860px; margin: 0 auto; padding: 0 0 3rem; }
+
+  /* ── NAV CARDS ── */
+  .isw-nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 0.75rem;
+    margin: 1.5rem 0 2.5rem;
+  }
+  .isw-nav-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.45rem;
+    padding: 0.9rem 1rem;
+    border: 1.5px solid #d0e4f0;
+    border-radius: 10px;
+    background: #fff;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.18s, background 0.18s, transform 0.18s;
+  }
+  .isw-nav-card:hover {
+    border-color: #2980b9;
+    background: #f0f7ff;
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+  .isw-nav-card i {
+    font-size: 1.4rem;
+    color: #2980b9;
+  }
+  .isw-nav-card-title {
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #1a3a52;
+    line-height: 1.3;
+  }
+  .isw-nav-card-sub {
+    font-size: 0.72rem;
+    color: #7a9ab0;
+  }
+
+  /* ── FLOW DIAGRAM ── */
+  .isw-flow {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin: 1.5rem 0 2rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+  }
+  .isw-flow-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    min-width: 120px;
+    flex: 1;
+  }
+  .isw-flow-bubble {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #e3f1fb;
+    border: 2px solid #2980b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2980b9;
+    font-size: 1.2rem;
+  }
+  .isw-flow-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #1a3a52;
+    text-align: center;
+    line-height: 1.3;
+  }
+  .isw-flow-sub {
+    font-size: 0.65rem;
+    color: #7a9ab0;
+    text-align: center;
+  }
+  .isw-flow-arrow {
+    color: #bcd6ec;
+    font-size: 1.4rem;
+    flex-shrink: 0;
+    margin: 0 -4px;
+    padding-bottom: 1.4rem;
+  }
+
+  /* ── FORMULA BOX ── */
+  .isw-formula {
+    background: #f0f7ff;
+    border-left: 4px solid #2980b9;
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+  }
+  .isw-formula-main {
+    font-family: monospace;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #1a3a52;
+    white-space: nowrap;
+  }
+  .isw-formula-example {
+    font-size: 0.8rem;
+    color: #556b7d;
+    border-left: 1px solid #bcd6ec;
+    padding-left: 1rem;
+  }
+  .isw-formula-example strong { color: #2980b9; }
+
+  /* ── SECTION BADGES ── */
+  .isw-section-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-bottom: 0.6rem;
+  }
+  .isw-badge-exe  { background: #dbeafe; color: #1d4ed8; }
+  .isw-badge-write{ background: #fef3c7; color: #92400e; }
+  .isw-badge-read { background: #d1fae5; color: #065f46; }
+  .isw-badge-io   { background: #ede9fe; color: #5b21b6; }
+  .isw-badge-tcp  { background: #fce7f3; color: #9d174d; }
+  .isw-badge-err  { background: #fee2e2; color: #991b1b; }
+
+  /* ── TABLES ── */
+  .isw-table-wrap {
+    overflow-x: auto;
+    border-radius: 8px;
+    border: 1px solid #e2eef6;
+    margin: 0.75rem 0 1.5rem;
+  }
+  .isw-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+  }
+  .isw-table thead tr {
+    background: #1a3a52;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .isw-table thead th {
+    padding: 0.6rem 0.9rem;
+    text-align: left;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .isw-table tbody tr:nth-child(even) { background: #f7fbfe; }
+  .isw-table tbody tr:hover { background: #e8f4fc; }
+  .isw-table tbody td {
+    padding: 0.5rem 0.9rem;
+    border-bottom: 1px solid #e9f2f9;
+    color: #334e5e;
+    vertical-align: top;
+  }
+  .isw-table tbody td:first-child {
+    font-weight: 600;
+    color: #1a3a52;
+    white-space: nowrap;
+  }
+  .isw-table code {
+    background: #e3f1fb;
+    color: #1d4ed8;
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.8rem;
+  }
+  /* hidden rows for filter */
+  .isw-table tbody tr.isw-hidden { display: none; }
+
+  /* ── SEARCH BOX ── */
+  .isw-search-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .isw-search {
+    flex: 1;
+    max-width: 340px;
+    padding: 0.45rem 0.75rem 0.45rem 2.2rem;
+    border: 1.5px solid #d0e4f0;
+    border-radius: 7px;
+    font-size: 0.85rem;
+    color: #1a3a52;
+    outline: none;
+    background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 256 256'%3E%3Cpath fill='%237a9ab0' d='M229.66 218.34l-50.07-50.07a88.11 88.11 0 1 0-11.31 11.31l50.06 50.07a8 8 0 0 0 11.32-11.31ZM40 112a72 72 0 1 1 72 72 72.08 72.08 0 0 1-72-72Z'/%3E%3C/svg%3E") no-repeat 0.6rem center;
+    transition: border-color 0.18s;
+  }
+  .isw-search:focus { border-color: #2980b9; }
+  .isw-search-count {
+    font-size: 0.75rem;
+    color: #7a9ab0;
+  }
+
+  /* ── RETURN DATA BOX ── */
+  .isw-return-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.6rem;
+    margin: 0.75rem 0 1.5rem;
+  }
+  .isw-return-cell {
+    background: #f7fbfe;
+    border: 1px solid #d0e4f0;
+    border-radius: 7px;
+    padding: 0.65rem 0.8rem;
+  }
+  .isw-return-val {
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2980b9;
+  }
+  .isw-return-desc {
+    font-size: 0.72rem;
+    color: #556b7d;
+    margin-top: 0.2rem;
+    line-height: 1.35;
+  }
+</style>
+
 ## Introduzione
 
-Questa sezione descrive come il FlexiBowl® comunica con i sistemi esterni. La comprensione di questa interfaccia è necessaria per integrare il FlexiBowl® in una cella automatizzata.
+Il sistema di comunicazione è basato su **variabili di Input/Output** e **Control Word numeriche**: il sistema esterno invia un numero (la ControlWord) che identifica l'azione da eseguire e il FlexiBowl® risponde con segnali di stato e dati di ritorno.
 
-Il sistema di comunicazione è basato su un modello a **variabili di Input/Output** e **Control Word numeriche**: il sistema esterno invia un numero (la ControlWord) che identifica l'azione da eseguire e il FlexiBowl® risponde con segnali di stato e dati di ritorno.
-
-I protocolli di comunicazione supportati sono:
-- **TCP Server** (Ethernet, via browser o socket)
-- **EtherNet/IP**
-- **Profinet**
-- **Modbus**
+Protocolli supportati: **TCP Server** · **EtherNet/IP** · **Profinet** · **Modbus**
 
 ---
 
-## Variabili di Input e Output
+### Naviga la pagina
 
-Le variabili I/O sono i segnali che viaggiano tra il sistema esterno e il FlexiBowl®. Si dividono in **INPUT** (dal sistema esterno verso il FlexiBowl®) e **OUTPUT** (dal FlexiBowl® verso il sistema esterno).
+<div class="isw-nav">
+  <a class="isw-nav-card" href="#io">
+    <i class="ph ph-arrows-left-right"></i>
+    <span class="isw-nav-card-title">Variabili I/O</span>
+    <span class="isw-nav-card-sub">Input & Output</span>
+  </a>
+  <a class="isw-nav-card" href="#exe">
+    <i class="ph ph-play-circle"></i>
+    <span class="isw-nav-card-title">Comandi EXE</span>
+    <span class="isw-nav-card-sub">Avvio sequenze & jog</span>
+  </a>
+  <a class="isw-nav-card" href="#write">
+    <i class="ph ph-pencil-simple"></i>
+    <span class="isw-nav-card-title">Comandi WRITE</span>
+    <span class="isw-nav-card-sub">Scrittura parametri</span>
+  </a>
+  <a class="isw-nav-card" href="#read">
+    <i class="ph ph-eye"></i>
+    <span class="isw-nav-card-title">Comandi READ</span>
+    <span class="isw-nav-card-sub">Lettura parametri</span>
+  </a>
+  <a class="isw-nav-card" href="#tcp">
+    <i class="ph ph-network"></i>
+    <span class="isw-nav-card-title">Sintassi TCP</span>
+    <span class="isw-nav-card-sub">Messaggi socket</span>
+  </a>
+  <a class="isw-nav-card" href="#errors">
+    <i class="ph ph-warning-circle"></i>
+    <span class="isw-nav-card-title">Codici di Errore</span>
+    <span class="isw-nav-card-sub">Diagnostica</span>
+  </a>
+</div>
+
+---
+
+### Come funziona un comando
+
+<div class="isw-flow">
+  <div class="isw-flow-step">
+    <div class="isw-flow-bubble"><i class="ph ph-number-square-one"></i></div>
+    <div class="isw-flow-label">Imposta<br>ControlWord</div>
+    <div class="isw-flow-sub">numero del comando</div>
+  </div>
+  <div class="isw-flow-arrow"><i class="ph ph-caret-right"></i></div>
+  <div class="isw-flow-step">
+    <div class="isw-flow-bubble"><i class="ph ph-number-square-two"></i></div>
+    <div class="isw-flow-label">Imposta<br>Data_1</div>
+    <div class="isw-flow-sub">se richiesto</div>
+  </div>
+  <div class="isw-flow-arrow"><i class="ph ph-caret-right"></i></div>
+  <div class="isw-flow-step">
+    <div class="isw-flow-bubble"><i class="ph ph-number-square-three"></i></div>
+    <div class="isw-flow-label">Fronte salita<br>ExecuteCW</div>
+    <div class="isw-flow-sub">trigger 0 → 1</div>
+  </div>
+  <div class="isw-flow-arrow"><i class="ph ph-caret-right"></i></div>
+  <div class="isw-flow-step">
+    <div class="isw-flow-bubble"><i class="ph ph-number-square-four"></i></div>
+    <div class="isw-flow-label">Attendi<br>Busy = 0</div>
+    <div class="isw-flow-sub">e ReturnData_1 = CW</div>
+  </div>
+</div>
+
+> ⚠️ Non inviare un nuovo comando mentre **Busy** è `1`. Il sistema lo ignorerà e **ReturnData_1** restituirà `3`.
+
+---
+
+## Variabili di Input e Output <span class="isw-section-badge isw-badge-io"><i class="ph ph-arrows-left-right"></i> I/O</span>
 
 ### INPUT — Segnali inviati al FlexiBowl®
 
@@ -43,8 +347,18 @@ Le variabili I/O sono i segnali che viaggiano tra il sistema esterno e il FlexiB
 | **ErrorCode** | UDINT | Codice numerico dell'errore attivo. Vale `0` se non ci sono errori. Vedere la sezione [Codici di Errore](#codici-di-errore) per il significato di ogni codice. |
 | **InPowerOn** | BOOL | Vale `1` se il dispositivo è alimentato e operativo. |
 
----
 
+### Valori di ReturnData_1
+
+<div class="isw-return-grid">
+  <div class="isw-return-cell"><div class="isw-return-val">0</div><div class="isw-return-desc">NULL — nessun comando in corso (stato iniziale)</div></div>
+  <div class="isw-return-cell"><div class="isw-return-val">1</div><div class="isw-return-desc">Comando non interpretabile (ControlWord sconosciuta)</div></div>
+  <div class="isw-return-cell"><div class="isw-return-val">2</div><div class="isw-return-desc">Data_1 fuori range, comando riconosciuto</div></div>
+  <div class="isw-return-cell"><div class="isw-return-val">3</div><div class="isw-return-desc">Sistema occupato (Busy) — riprovare</div></div>
+  <div class="isw-return-cell"><div class="isw-return-val">= CW</div><div class="isw-return-desc">Comando eseguito correttamente</div></div>
+</div>
+
+---
 ## Protocollo Comandi
 
 Il protocollo comandi definisce tutte le azioni disponibili attraverso la ControlWord. I comandi sono raggruppati in tre categorie:
@@ -64,11 +378,9 @@ Il protocollo comandi definisce tutte le azioni disponibili attraverso la Contro
 Non inviare un nuovo comando mentre **Busy** è a `1`. Il sistema ignorerà il comando e **ReturnData_1** restituirà il valore `3` (sistema occupato).
 :::
 
----
+## Comandi EXE <span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span>
 
-### Comandi EXE 
-
-I comandi EXE avviano un'azione immediata sul FlexiBowl®. Durante l'esecuzione, **Busy** rimane a `1`.
+I comandi EXE avviano un'azione immediata sul FlexiBowl®. Durante l'esecuzione **Busy** rimane a `1`.
 
 | Comando | ControlWord | Busy durante esecuzione | ReturnData_1 | Spiegazione | 
 |---|---|---|---|---|
@@ -100,9 +412,8 @@ I comandi EXE avviano un'azione immediata sul FlexiBowl®. Durante l'esecuzione,
 Il comando **Reset Return Data** (ControlWord 50) azzera il valore di ReturnData_1 e ReturnData_2, riportandoli allo stato iniziale `0`. È utile per verificare che un nuovo comando venga effettivamente ricevuto ed elaborato.
 :::
 
----
 
-### Comandi WRITE 
+## Comandi WRITE <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span>
 
 I comandi WRITE permettono di modificare i parametri operativi del FlexiBowl® (velocità, angoli, tempi, ecc.) direttamente dal sistema esterno, senza dover accedere all'interfaccia grafica.
 
@@ -212,7 +523,8 @@ I parametri degli hopper (tramogge vibrazionali) sono configurabili nel blocco 3
 
 ---
 
-### Comandi READ 
+
+## Comandi READ <span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span>
 
 I comandi READ permettono di leggere i parametri attualmente configurati nel FlexiBowl®. Il valore letto viene restituito in **ReturnData_2**.
 
@@ -308,7 +620,7 @@ Gli stessi parametri scrivibili del JOG (blocco 20000) sono leggibili nel blocco
 
 ---
 
-## Sintassi Messaggi TCP Server
+## Sintassi Messaggi TCP Server <span class="isw-section-badge isw-badge-tcp"><i class="ph ph-network"></i> TCP</span>
 
 Quando si utilizza la comunicazione **TCP Server**, i comandi non vengono inviati come variabili binarie ma come **stringhe di testo** attraverso una connessione socket sulla porta configurata (default: 8123).
 
@@ -361,11 +673,14 @@ I comandi Hopper via TCP (`Hopper1Start%`, ecc.) funzionano **solo quando la com
 
 ---
 
-## Codici di Errore 
- 
-Nel caso in cui si verifica un errore, è possibile visualizzarlo tramite il comando `ErrorCode%`. Il valore di ritonro sarà della forma `ErrorCode[X]%`, dove X rappresenta uno dei codici sottostanti: 
+## Codici di Errore <span class="isw-section-badge isw-badge-err"><i class="ph ph-warning-circle"></i> ERRORI</span>
 
-### Codici di Errore Generali
+:::{warning}
+In presenza di un errore, il LED **In_Error** si attiva e il sistema non eseguirà nuovi comandi di movimento fino al reset. Prima di eseguire il reset, identificare e risolvere la causa dell'errore.
+:::
+
+
+### Codici Generali
 
 | ErrorCode | Descrizione |
 |---|---|
@@ -378,47 +693,75 @@ Nel caso in cui si verifica un errore, è possibile visualizzarlo tramite il com
 | 7 | Errore modulo I/O digitale: errore di configurazione |
 | 8 | Errore modulo I/O digitale: errore generale |
 
-### Codici di Errore del Driver
+### Codici Errore Driver
 
+<div class="isw-search-wrap">
+  <input class="isw-search" id="errSearch" type="text" placeholder="Filtra per codice o descrizione…" oninput="filterErrors()">
+  <span class="isw-search-count" id="errCount"></span>
+</div>
 
+<div class="isw-table-wrap">
+<table class="isw-table" id="errTable">
+<thead><tr><th>Codice</th><th>Hex</th><th>Errore</th><th>Descrizione</th></tr></thead>
+<tbody>
+<tr><td><code>50</code></td><td><code>0x7500</code></td><td>EtherCAT communication error</td><td></td></tr>
+<tr><td><code>51</code></td><td><code>0xFF01</code></td><td>Drive Over Current</td><td>Corrente motore eccessiva</td></tr>
+<tr><td><code>52</code></td><td><code>0xFF02</code></td><td>Drive Over Voltage</td><td>Tensione bus DC eccessiva</td></tr>
+<tr><td><code>53</code></td><td><code>0xFF03</code></td><td>Drive Over Temperature</td><td>Temperatura driver troppo elevata</td></tr>
+<tr><td><code>54</code></td><td><code>0xFF04</code></td><td>Reserved</td><td></td></tr>
+<tr><td><code>55</code></td><td><code>0xFF05</code></td><td>Drive Internal Voltage Error</td><td>Errore tensione interna</td></tr>
+<tr><td><code>56</code></td><td><code>0xFF06</code></td><td>Position Error</td><td>Errore di posizionamento</td></tr>
+<tr><td><code>57</code></td><td><code>0xFF07</code></td><td>Motor Encoder Disconnected</td><td>Encoder non collegato o guasto</td></tr>
+<tr><td><code>58</code></td><td><code>0xFF0A</code></td><td>Regen Failed</td><td>Errore nel circuito di rigenerazione</td></tr>
+<tr><td><code>59</code></td><td><code>0xFF0B</code></td><td>Safe Torque Off (STO)</td><td>Funzione di sicurezza attiva</td></tr>
+<tr><td><code>60</code></td><td><code>0xFF0C</code></td><td>Reserved</td><td></td></tr>
+<tr><td><code>61</code></td><td><code>0xFF0D</code></td><td>Bad FPGA</td><td>Errore interno all'FPGA del driver</td></tr>
+<tr><td><code>62</code></td><td><code>0xFF0E</code></td><td>Parameter Read Failed</td><td>Lettura parametri fallita</td></tr>
+<tr><td><code>63</code></td><td><code>0xFF0F</code></td><td>Motor Encoder Multi-turn Error</td><td>Errore encoder multi-giro</td></tr>
+<tr><td><code>64</code></td><td><code>0xFF10</code></td><td>Motor Stall Protection</td><td>Protezione stallo motore attiva</td></tr>
+<tr><td><code>65</code></td><td><code>0xFF11</code></td><td>Drive Power Module Over Temperature</td><td>Modulo di potenza surriscaldato</td></tr>
+<tr><td><code>66</code></td><td><code>0xFF31</code></td><td>N Limit</td><td>Limite di posizione negativo raggiunto</td></tr>
+<tr><td><code>67</code></td><td><code>0xFF32</code></td><td>P Limit</td><td>Limite di posizione positivo raggiunto</td></tr>
+<tr><td><code>68</code></td><td><code>0xFF33</code></td><td>N&P Limit</td><td>Entrambi i limiti di posizione raggiunti</td></tr>
+<tr><td><code>69</code></td><td><code>0xFF34</code></td><td>Current Foldback</td><td>Riduzione corrente per protezione termica</td></tr>
+<tr><td><code>70</code></td><td><code>0xFF35</code></td><td>Move @ Disabled</td><td>Tentativo di movimento con driver disabilitato</td></tr>
+<tr><td><code>71</code></td><td><code>0xFF36</code></td><td>Drive Low Voltage</td><td>Tensione bus DC insufficiente</td></tr>
+<tr><td><code>72</code></td><td><code>0xFF37</code></td><td>Blank Q Segment</td><td>Segmento di traiettoria non definito</td></tr>
+<tr><td><code>73</code></td><td><code>0xFF38</code></td><td>Velocity Limit</td><td>Limite di velocità superato</td></tr>
+<tr><td><code>74</code></td><td><code>0xFF39</code></td><td>Drive Power Phase Lost</td><td>Perdita di una fase di alimentazione</td></tr>
+<tr><td><code>75</code></td><td><code>0xFF3A</code></td><td>Emergency Stop</td><td>Arresto di emergenza attivo</td></tr>
+<tr><td><code>76</code></td><td><code>0xFF3B</code></td><td>Abs. Encoder Battery</td><td>Batteria encoder assoluto scarica o assente</td></tr>
+<tr><td><code>77</code></td><td><code>0xFF3C</code></td><td>Abs. Position Lost Warning</td><td>Avviso perdita posizione assoluta</td></tr>
+<tr><td><code>78</code></td><td><code>0xFF3D</code></td><td>Abs. Position Overflow</td><td>Overflow posizione assoluta</td></tr>
+<tr><td><code>79</code></td><td><code>0xFF3E</code></td><td>Motor Over Temperature</td><td>Temperatura motore eccessiva</td></tr>
+<tr><td><code>80</code></td><td><code>0xFF3F</code></td><td>Drive Voltage Warning</td><td>Avviso tensione driver fuori range</td></tr>
+<tr><td><code>81</code></td><td><code>0xFF41</code></td><td>Save Failed</td><td>Salvataggio parametri fallito</td></tr>
+<tr><td><code>82</code></td><td><code>0xFFFF</code></td><td>Other Error</td><td>Errore generico non classificato</td></tr>
+</tbody>
+</table>
+</div>
 
-:::{warning}
-In presenza di un errore, il LED **In_Error** si attiva e il sistema non eseguirà nuovi comandi di movimento fino al reset. Prima di eseguire il reset, identificare e risolvere la causa dell'errore.
-:::
+<script>
+function filterErrors() {
+  var input = document.getElementById('errSearch').value.toLowerCase();
+  var rows = document.querySelectorAll('#errTable tbody tr');
+  var count = 0;
+  rows.forEach(function(row) {
+    var text = row.textContent.toLowerCase();
+    if (text.includes(input)) {
+      row.classList.remove('isw-hidden');
+      count++;
+    } else {
+      row.classList.add('isw-hidden');
+    }
+  });
+  var countEl = document.getElementById('errCount');
+  if (input) {
+    countEl.textContent = count + ' risultat' + (count === 1 ? 'o' : 'i');
+  } else {
+    countEl.textContent = '';
+  }
+}
+</script>
 
-| ErrorCode | ErrorCode (Hex) | Errore | Descrizione |
-|---|---|---|---|
-| 50 | 0x7500 | EtherCAT communication error | |
-| 51 | 0xFF01 | Drive Over Current | corrente motore eccessiva |
-| 52 | 0xFF02 | Drive Over Voltage | tensione bus DC eccessiva |
-| 53 | 0xFF03 | Drive Over Temperature | temperatura driver troppo elevata |
-| 54 | 0xFF04 | Reserved | |
-| 55 | 0xFF05 | Drive Internal Voltage Error | errore tensione interna |
-| 56 | 0xFF06 | Position Error | errore di posizionamento |
-| 57 | 0xFF07 | Motor Encoder Disconnected | encoder non collegato o guasto |
-| 58 | 0xFF0A | Regen Failed | errore nel circuito di rigenerazione |
-| 59 | 0xFF0B | Safe Torque Off (STO) | funzione di sicurezza attiva |
-| 60 | 0xFF0C | Reserved | |
-| 61 | 0xFF0D | Bad FPGA | errore interno all'FPGA del driver |
-| 62 | 0xFF0E | Parameter Read Failed | lettura parametri fallita |
-| 63 | 0xFF0F | Motor Encoder Multi-turn Error | errore encoder multi-giro |
-| 64 | 0xFF10 | Motor Stall Protection | protezione stallo motore attiva |
-| 65 | 0xFF11 | Drive Power Module Over Temperature | modulo di potenza surriscaldato |
-| 66 | 0xFF31 | N Limit | limite di posizione negativo raggiunto |
-| 67 | 0xFF32 | P Limit | limite di posizione positivo raggiunto |
-| 68 | 0xFF33 | N&P Limit | entrambi i limiti di posizione raggiunti |
-| 69 | 0xFF34 | Current Foldback | riduzione corrente per protezione termica |
-| 70 | 0xFF35 | Move @ Disabled | tentativo di movimento con driver disabilitato |
-| 71 | 0xFF36 | Drive Low Voltage | tensione bus DC insufficiente |
-| 72 | 0xFF37 | Blank Q Segment | segmento di traiettoria non definito |
-| 73 | 0xFF38 | Velocity Limit | limite di velocità superato |
-| 74 | 0xFF39 | Drive Power Phase Lost | perdita di una fase di alimentazione |
-| 75 | 0xFF3A | Emergency Stop | arresto di emergenza attivo |
-| 76 | 0xFF3B | Abs. Encoder Battery | batteria encoder assoluto scarica o assente |
-| 77 | 0xFF3C | Abs. Position Lost Warning | avviso perdita posizione assoluta |
-| 78 | 0xFF3D | Abs. Position Overflow | overflow posizione assoluta |
-| 79 | 0xFF3E | Motor Over Temperature | temperatura motore eccessiva |
-| 80 | 0xFF3F | Drive Voltage Warning | avviso tensione driver fuori range |
-| 81 | 0xFF41 | Save Failed | salvataggio parametri fallito |
-| 82 | 0xFFFF | Other Error | errore generico non classificato |
-
+</div>
