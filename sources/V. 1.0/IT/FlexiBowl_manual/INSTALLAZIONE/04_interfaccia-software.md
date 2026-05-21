@@ -7,7 +7,7 @@
   /* ── Reset & base ── */
   .isw-page { font-family: inherit; max-width: 860px; margin: 0 auto; padding: 0 0 3rem; }
 
-  /* ── NAV CARDS ── */
+ /* ── NAV CARDS ── */
   .isw-nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -48,21 +48,23 @@
     color: #7a9ab0;
   }
 
-  /* ── FLOW DIAGRAM ── */
+  /* ── FLOW DIAGRAM — orizzontale ── */
   .isw-flow {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 0;
     margin: 1.5rem 0 2rem;
     overflow-x: auto;
     padding-bottom: 0.5rem;
+    flex-wrap: nowrap;
   }
   .isw-flow-step {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.35rem;
-    min-width: 120px;
+    min-width: 110px;
     flex: 1;
   }
   .isw-flow-bubble {
@@ -76,6 +78,7 @@
     justify-content: center;
     color: #2980b9;
     font-size: 1.2rem;
+    flex-shrink: 0;
   }
   .isw-flow-label {
     font-size: 0.72rem;
@@ -91,10 +94,13 @@
   }
   .isw-flow-arrow {
     color: #bcd6ec;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     flex-shrink: 0;
-    margin: 0 -4px;
-    padding-bottom: 1.4rem;
+    margin: 0 2px;
+    padding-bottom: 1.8rem;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 0.2rem;
   }
 
   /* ── FORMULA BOX ── */
@@ -188,8 +194,49 @@
     padding: 1px 5px;
     font-size: 0.8rem;
   }
-  /* hidden rows for filter */
   .isw-table tbody tr.isw-hidden { display: none; }
+
+  /* ── TABELLA ERRORI DRIVER — stile Sphinx standard ── */
+  .isw-err-wrap {
+    overflow-x: auto;
+    margin: 0.75rem 0 1.5rem;
+  }
+  .isw-err-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+  .isw-err-table thead tr {
+    background: #f0f4f8;
+  }
+  .isw-err-table thead th {
+    padding: 0.55rem 0.8rem;
+    text-align: left;
+    font-weight: 700;
+    color: #1a3a52;
+    border: 1px solid #c8d8e4;
+  }
+  .isw-err-table tbody tr:nth-child(even) { background: #f7fbfe; }
+  .isw-err-table tbody tr:hover { background: #cfe2ff; }
+  .isw-err-table tbody td {
+    padding: 0.45rem 0.8rem;
+    border: 1px solid #c8d8e4;
+    color: #334e5e;
+    vertical-align: top;
+  }
+  .isw-err-table tbody td:first-child {
+    font-weight: 600;
+    color: #1a3a52;
+    white-space: nowrap;
+  }
+  .isw-err-table code {
+    font-family: monospace;
+    font-size: 0.82rem;
+    color: #1a3a52;
+    background: none;
+    padding: 0;
+  }
+  .isw-err-table tbody tr.isw-hidden { display: none; }
 
   /* ── SEARCH BOX ── */
   .isw-search-wrap {
@@ -216,111 +263,157 @@
     color: #7a9ab0;
   }
 
-  /* ── RETURN DATA BOX ── */
-  .isw-return-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 0.6rem;
+  /* ── RETURN DATA — tabella leggibile ── */
+  .isw-return-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
     margin: 0.75rem 0 1.5rem;
   }
-  .isw-return-cell {
-    background: #f7fbfe;
-    border: 1px solid #d0e4f0;
-    border-radius: 7px;
-    padding: 0.65rem 0.8rem;
+  .isw-return-table thead tr {
+    background: #e3f1fb;
   }
-  .isw-return-val {
+  .isw-return-table thead th {
+    padding: 0.55rem 1rem;
+    text-align: left;
+    font-weight: 700;
+    color: #1a3a52;
+    border-bottom: 2px solid #2980b9;
+  }
+  .isw-return-table tbody tr:nth-child(even) { background: #f7fbfe; }
+  .isw-return-table tbody tr:hover { background: #cfe2ff; }
+  .isw-return-table tbody td {
+    padding: 0.55rem 1rem;
+    border-bottom: 1px solid #d0e4f0;
+    color: #334e5e;
+    vertical-align: middle;
+  }
+  .isw-return-table tbody td:first-child {
     font-family: monospace;
     font-size: 1rem;
     font-weight: 700;
     color: #2980b9;
+    white-space: nowrap;
+    width: 90px;
   }
-  .isw-return-desc {
-    font-size: 0.72rem;
-    color: #556b7d;
-    margin-top: 0.2rem;
-    line-height: 1.35;
-  }
+
 </style>
 
 ## Introduzione
 
 Il sistema di comunicazione è basato su **variabili di Input/Output** e **Control Word numeriche**: il sistema esterno invia un numero (la ControlWord) che identifica l'azione da eseguire e il FlexiBowl® risponde con segnali di stato e dati di ritorno.
 
-Protocolli supportati: **TCP Server** · **EtherNet/IP** · **Profinet** · **Modbus**
+Protocolli supportati:  
+- **TCP Server**  
+- **EtherNet/IP**  
+- **Profinet**  
+- **Modbus**
 
 ---
 
 ### Naviga la pagina
 
-<div class="isw-nav">
-  <a class="isw-nav-card" href="#io">
-    <i class="ph ph-arrows-left-right"></i>
-    <span class="isw-nav-card-title">Variabili I/O</span>
-    <span class="isw-nav-card-sub">Input & Output</span>
+<div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; margin:1.5rem 0 2.5rem;">
+
+  <a href="#sec-io" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit; transition:border-color 0.18s, background 0.18s;">
+    <i class="ph ph-arrows-left-right" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Variabili I/O</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Input & Output</span>
   </a>
-  <a class="isw-nav-card" href="#exe">
-    <i class="ph ph-play-circle"></i>
-    <span class="isw-nav-card-title">Comandi EXE</span>
-    <span class="isw-nav-card-sub">Avvio sequenze & jog</span>
+
+  <a href="#sec-exe" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-play-circle" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi EXE</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Avvio sequenze & jog</span>
   </a>
-  <a class="isw-nav-card" href="#write">
-    <i class="ph ph-pencil-simple"></i>
-    <span class="isw-nav-card-title">Comandi WRITE</span>
-    <span class="isw-nav-card-sub">Scrittura parametri</span>
+
+  <a href="#sec-write" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-pencil-simple" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi WRITE</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Scrittura parametri</span>
   </a>
-  <a class="isw-nav-card" href="#read">
-    <i class="ph ph-eye"></i>
-    <span class="isw-nav-card-title">Comandi READ</span>
-    <span class="isw-nav-card-sub">Lettura parametri</span>
+
+  <a href="#sec-read" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-eye" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi READ</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Lettura parametri</span>
   </a>
-  <a class="isw-nav-card" href="#tcp">
-    <i class="ph ph-network"></i>
-    <span class="isw-nav-card-title">Sintassi TCP</span>
-    <span class="isw-nav-card-sub">Messaggi socket</span>
+
+  <a href="#sec-tcp" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-network" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Sintassi TCP</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Messaggi socket</span>
   </a>
-  <a class="isw-nav-card" href="#errors">
-    <i class="ph ph-warning-circle"></i>
-    <span class="isw-nav-card-title">Codici di Errore</span>
-    <span class="isw-nav-card-sub">Diagnostica</span>
+
+  <a href="#sec-err" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-warning-circle" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Codici di Errore</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Diagnostica</span>
   </a>
+
 </div>
 
 ---
 
 ### Come funziona un comando
 
-<div class="isw-flow">
-  <div class="isw-flow-step">
-    <div class="isw-flow-bubble"><i class="ph ph-number-square-one"></i></div>
-    <div class="isw-flow-label">Imposta<br>ControlWord</div>
-    <div class="isw-flow-sub">numero del comando</div>
-  </div>
-  <div class="isw-flow-arrow"><i class="ph ph-caret-right"></i></div>
-  <div class="isw-flow-step">
-    <div class="isw-flow-bubble"><i class="ph ph-number-square-two"></i></div>
-    <div class="isw-flow-label">Imposta<br>Data_1</div>
-    <div class="isw-flow-sub">se richiesto</div>
-  </div>
-  <div class="isw-flow-arrow"><i class="ph ph-caret-right"></i></div>
-  <div class="isw-flow-step">
-    <div class="isw-flow-bubble"><i class="ph ph-number-square-three"></i></div>
-    <div class="isw-flow-label">Fronte salita<br>ExecuteCW</div>
-    <div class="isw-flow-sub">trigger 0 → 1</div>
-  </div>
-  <div class="isw-flow-arrow"><i class="ph ph-caret-right"></i></div>
-  <div class="isw-flow-step">
-    <div class="isw-flow-bubble"><i class="ph ph-number-square-four"></i></div>
-    <div class="isw-flow-label">Attendi<br>Busy = 0</div>
-    <div class="isw-flow-sub">e ReturnData_1 = CW</div>
-  </div>
-</div>
+Due modifiche: numeri in grassetto semplice dentro il cerchio, testi più grandi e leggibili.
+html<table style="width:100%; border-collapse:collapse; margin: 1.5rem 0 2rem;">
+  <tr>
+    <td style="text-align:center; padding:0 8px; width:22%;">
+      <div style="width:52px; height:52px; border-radius:50%; background:#e3f1fb; border:2px solid #2980b9; display:inline-flex; align-items:center; justify-content:center; color:#2980b9; font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
+        1
+      </div><br>
+      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Imposta<br>ControlWord</span><br>
+      <span style="font-size:0.8rem; color:#7a9ab0;">numero del comando</span>
+    </td>
+    <td style="text-align:center; color:#bcd6ec; font-size:1.6rem; width:4%; vertical-align:middle; padding-bottom:1.8rem;">
+      <i class="ph ph-caret-right"></i>
+    </td>
+    <td style="text-align:center; padding:0 8px; width:22%;">
+      <div style="width:52px; height:52px; border-radius:50%; background:#e3f1fb; border:2px solid #2980b9; display:inline-flex; align-items:center; justify-content:center; color:#2980b9; font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
+        2
+      </div><br>
+      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Imposta<br>Data_1</span><br>
+      <span style="font-size:0.8rem; color:#7a9ab0;">se richiesto</span>
+    </td>
+    <td style="text-align:center; color:#bcd6ec; font-size:1.6rem; width:4%; vertical-align:middle; padding-bottom:1.8rem;">
+      <i class="ph ph-caret-right"></i>
+    </td>
+    <td style="text-align:center; padding:0 8px; width:22%;">
+      <div style="width:52px; height:52px; border-radius:50%; background:#e3f1fb; border:2px solid #2980b9; display:inline-flex; align-items:center; justify-content:center; color:#2980b9; font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
+        3
+      </div><br>
+      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Fronte salita<br>ExecuteCW</span><br>
+      <span style="font-size:0.8rem; color:#7a9ab0;">trigger 0 → 1</span>
+    </td>
+    <td style="text-align:center; color:#bcd6ec; font-size:1.6rem; width:4%; vertical-align:middle; padding-bottom:1.8rem;">
+      <i class="ph ph-caret-right"></i>
+    </td>
+    <td style="text-align:center; padding:0 8px; width:22%;">
+      <div style="width:52px; height:52px; border-radius:50%; background:#e3f1fb; border:2px solid #2980b9; display:inline-flex; align-items:center; justify-content:center; color:#2980b9; font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
+        4
+      </div><br>
+      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Attendi<br>Busy = 0</span><br>
+      <span style="font-size:0.8rem; color:#7a9ab0;">e ReturnData_1 = CW</span>
+    </td>
+  </tr>
+</table>
 
-> ⚠️ Non inviare un nuovo comando mentre **Busy** è `1`. Il sistema lo ignorerà e **ReturnData_1** restituirà `3`.
+
+1. Il sistema esterno imposta la **ControlWord** con il numero del comando desiderato.
+2. Se il comando richiede un argomento, imposta anche **Data_1**.
+3. Invia un fronte di salita su **ExecuteControlWord**.
+4. Attende che **Busy** torni a `0` e che **ReturnData_1** restituisca il valore della ControlWord (conferma di esecuzione corretta).
+
+:::{warning}
+Non inviare un nuovo comando mentre **Busy** è a `1`. Il sistema ignorerà il comando e **ReturnData_1** restituirà il valore `3` (sistema occupato).
+:::
 
 ---
 
-## Variabili di Input e Output <span class="isw-section-badge isw-badge-io"><i class="ph ph-arrows-left-right"></i> I/O</span>
+(sec-io)=
+## Variabili di Input e Output 
 
 ### INPUT — Segnali inviati al FlexiBowl®
 
@@ -350,12 +443,45 @@ Protocolli supportati: **TCP Server** · **EtherNet/IP** · **Profinet** · **Mo
 
 ### Valori di ReturnData_1
 
-<div class="isw-return-grid">
-  <div class="isw-return-cell"><div class="isw-return-val">0</div><div class="isw-return-desc">NULL — nessun comando in corso (stato iniziale)</div></div>
-  <div class="isw-return-cell"><div class="isw-return-val">1</div><div class="isw-return-desc">Comando non interpretabile (ControlWord sconosciuta)</div></div>
-  <div class="isw-return-cell"><div class="isw-return-val">2</div><div class="isw-return-desc">Data_1 fuori range, comando riconosciuto</div></div>
-  <div class="isw-return-cell"><div class="isw-return-val">3</div><div class="isw-return-desc">Sistema occupato (Busy) — riprovare</div></div>
-  <div class="isw-return-cell"><div class="isw-return-val">= CW</div><div class="isw-return-desc">Comando eseguito correttamente</div></div>
+<div class="isw-ret">
+<style>
+.isw-ret table thead tr,
+.isw-ret table thead tr th {
+  background: #f0f4f8 !important;
+  color: #1a3a52 !important;
+  border-bottom: 2px solid #2980b9 !important;
+}
+</style>
+<table style="width:100%; border-collapse:collapse; font-size:0.95rem; margin:0.75rem 0 1.5rem;">
+  <thead>
+    <tr>
+      <th style="padding:0.6rem 0.9rem; text-align:left; font-weight:700; white-space:nowrap; width:100px;">Valore</th>
+      <th style="padding:0.6rem 0.9rem; text-align:left; font-weight:700;">Significato</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">0</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">NULL — nessun comando in corso (stato iniziale)</td>
+    </tr>
+    <tr style="background:#f7fbfe;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#f7fbfe'">
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">1</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Comando non interpretabile (ControlWord sconosciuta)</td>
+    </tr>
+    <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">2</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Data_1 fuori range, comando riconosciuto</td>
+    </tr>
+    <tr style="background:#f7fbfe;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#f7fbfe'">
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">3</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Sistema occupato (Busy) — riprovare</td>
+    </tr>
+    <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">= CW</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Comando eseguito correttamente</td>
+    </tr>
+  </tbody>
+</table>
 </div>
 
 ---
@@ -363,22 +489,30 @@ Protocolli supportati: **TCP Server** · **EtherNet/IP** · **Profinet** · **Mo
 
 Il protocollo comandi definisce tutte le azioni disponibili attraverso la ControlWord. I comandi sono raggruppati in tre categorie:
 
-- **EXE**: comandi di esecuzione (avvio sequenze, jog, reset)
-- **WRITE**: scrittura di parametri (velocità, angoli, tempi, ecc.)
-- **READ**: lettura dei parametri attualmente configurati
+<div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; margin:1.5rem 0 2.5rem;">
 
-### Come funziona un comando
+  <a href="#sec-exe" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-play-circle" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi EXE</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Comandi di esecuzione (avvio sequenze, jog, reset)</span>
+  </a>
 
-1. Il sistema esterno imposta la **ControlWord** con il numero del comando desiderato.
-2. Se il comando richiede un argomento, imposta anche **Data_1**.
-3. Invia un fronte di salita su **ExecuteControlWord**.
-4. Attende che **Busy** torni a `0` e che **ReturnData_1** restituisca il valore della ControlWord (conferma di esecuzione corretta).
+  <a href="#sec-write" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-pencil-simple" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi WRITE</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Scrittura di parametri (velocità, angoli, tempi, ecc.)</span>
+  </a>
 
-:::{warning}
-Non inviare un nuovo comando mentre **Busy** è a `1`. Il sistema ignorerà il comando e **ReturnData_1** restituirà il valore `3` (sistema occupato).
-:::
+  <a href="#sec-read" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-eye" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi READ</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Lettura dei parametri attualmente configurati</span>
+  </a>
 
-## Comandi EXE <span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span>
+</div>
+
+(sec-exe)=
+### Comandi <span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span>
 
 I comandi EXE avviano un'azione immediata sul FlexiBowl®. Durante l'esecuzione **Busy** rimane a `1`.
 
@@ -412,8 +546,8 @@ I comandi EXE avviano un'azione immediata sul FlexiBowl®. Durante l'esecuzione 
 Il comando **Reset Return Data** (ControlWord 50) azzera il valore di ReturnData_1 e ReturnData_2, riportandoli allo stato iniziale `0`. È utile per verificare che un nuovo comando venga effettivamente ricevuto ed elaborato.
 :::
 
-
-## Comandi WRITE <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span>
+(sec-write)=
+### Comandi <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span>
 
 I comandi WRITE permettono di modificare i parametri operativi del FlexiBowl® (velocità, angoli, tempi, ecc.) direttamente dal sistema esterno, senza dover accedere all'interfaccia grafica.
 
@@ -523,8 +657,8 @@ I parametri degli hopper (tramogge vibrazionali) sono configurabili nel blocco 3
 
 ---
 
-
-## Comandi READ <span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span>
+(sec-read)=
+### Comandi <span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span>
 
 I comandi READ permettono di leggere i parametri attualmente configurati nel FlexiBowl®. Il valore letto viene restituito in **ReturnData_2**.
 
@@ -620,7 +754,8 @@ Gli stessi parametri scrivibili del JOG (blocco 20000) sono leggibili nel blocco
 
 ---
 
-## Sintassi Messaggi TCP Server <span class="isw-section-badge isw-badge-tcp"><i class="ph ph-network"></i> TCP</span>
+(sec-tcp)=
+## Sintassi Messaggi TCP Server
 
 Quando si utilizza la comunicazione **TCP Server**, i comandi non vengono inviati come variabili binarie ma come **stringhe di testo** attraverso una connessione socket sulla porta configurata (default: 8123).
 
@@ -673,7 +808,8 @@ I comandi Hopper via TCP (`Hopper1Start%`, ecc.) funzionano **solo quando la com
 
 ---
 
-## Codici di Errore <span class="isw-section-badge isw-badge-err"><i class="ph ph-warning-circle"></i> ERRORI</span>
+(sec-err)=
+## Codici di Errore
 
 :::{warning}
 In presenza di un errore, il LED **In_Error** si attiva e il sistema non eseguirà nuovi comandi di movimento fino al reset. Prima di eseguire il reset, identificare e risolvere la causa dell'errore.
@@ -700,8 +836,10 @@ In presenza di un errore, il LED **In_Error** si attiva e il sistema non eseguir
   <span class="isw-search-count" id="errCount"></span>
 </div>
 
-<div class="isw-table-wrap">
-<table class="isw-table" id="errTable">
+<div style="margin-top: 2rem;"></div>
+
+<div class="isw-err-wrap">
+<table class="isw-err-table" id="errTable">
 <thead><tr><th>Codice</th><th>Hex</th><th>Errore</th><th>Descrizione</th></tr></thead>
 <tbody>
 <tr><td><code>50</code></td><td><code>0x7500</code></td><td>EtherCAT communication error</td><td></td></tr>
