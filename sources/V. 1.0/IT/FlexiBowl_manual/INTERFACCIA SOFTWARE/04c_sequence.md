@@ -4,7 +4,6 @@
 
 La pagina **Sequence** consente di creare, modificare e gestire sequenze operative personalizzate per il FlexiBowl®. Una sequenza è una lista ordinata di comandi che il sistema esegue in successione automatica, combinando movimenti di rotazione (MOVE), oscillazione (SHAKE), flip e soffio.
 
-
 ---
 
 ## Struttura dell'interfaccia
@@ -12,22 +11,30 @@ La pagina **Sequence** consente di creare, modificare e gestire sequenze operati
 
 La pagina è organizzata in quattro aree principali:
 
-| Area | Posizione | Descrizione |
-|---|---|---|
-| **Selezione sequenza** | In alto a sinistra | Menu a tendina per selezionare la sequenza attiva |
-| **Emptying Sequence** | In alto al centro | Toggle per attivare la modalità di svuotamento |
-| **Pannello comandi** | Sinistra | Parametri di MOVE, SHAKE e OPTION; aggiunta comandi alla sequenza |
-| **Lista comandi** | Destra | Elenco ordinato dei comandi nella sequenza attiva e strumenti di gestione |
+| N° | Area | Posizione | Descrizione |
+|---|---|---|---|
+| 1 | [**Selezione sequenza**](seq) | In alto a sinistra | Menu a tendina per selezionare la sequenza attiva |
+| 2 | [**Emptying Sequence**](empty) | In alto al centro | Toggle per attivare la modalità di svuotamento |
+| 3 | [**Pannello Parametri**](param) | Sinistra | Parametri di MOVE, SHAKE e OPTION; aggiunta comandi alla sequenza |
+| 4 | [**Pannello comandi**](comm) | Destra | Elenco ordinato dei comandi nella sequenza attiva e strumenti di gestione |
 
 ---
+(seq)=
+## 1. Selezione della sequenza
 
-## Selezione della sequenza
+:::{important}
+**Prima di qualsiasi operazione**, selezionare la sequenza da modificare tramite il menu a tendina **"Select the sequence"** in alto a sinistra.
+:::
 
-Il menu a tendina **"Select the sequence"** in alto a sinistra consente di scegliere quale sequenza visualizzare e modificare. Il sistema supporta sequenze multiple (es. SEQUENCE 1, SEQUENCE 2, ecc.), ognuna con la propria lista di comandi e parametri indipendenti.
+![select the sequence](../../../../_shared/media/images/sequence_combo_box.png)
+
+Il sistema supporta fino a **20 sequenze indipendenti** (SEQUENCE 1 – SEQUENCE 20), ognuna con la propria lista di comandi e parametri indipendenti. La sequenza selezionata diventa quella attiva su cui operano tutte le modifiche successive.
 
 ---
+(empty)=
+## 2. Emptying Sequence
 
-## Emptying Sequence
+![pannello comandi](../../../../_shared/media/images/empty_sequence.png)
 
 Il toggle **Emptying Sequence** (in alto al centro, con bordo rosso) attiva una modalità speciale in cui la sequenza viene eseguita con l'obiettivo di svuotare il FlexiBowl® dai componenti presenti.
 
@@ -36,19 +43,8 @@ Attivare **Emptying Sequence** solo quando si desidera rimuovere tutti i compone
 :::
 
 ---
-
-## Pannello sinistro — Parametri e aggiunta comandi
-
-### Selezione e aggiunta di un comando
-
-Il pannello centrale superiore contiene:
-
-- Il menu a tendina **"Command Availble"**: consente di selezionare il tipo di comando da aggiungere alla sequenza. I comandi disponibili includono (tra gli altri) `FLB_NULL`, `FLB_MOVE`, `FLB_SHAKE`, `FLB_FLIP`, `FLB_BLOW`, ecc.
-- Il pulsante **ADD** (freccia →): aggiunge il comando selezionato in coda alla lista dei comandi attivi.
-
-:::{tip}
-Selezionare il comando desiderato dal menu a tendina prima di premere **ADD**. Il comando verrà inserito nella prima riga libera della lista **Command Active**.
-:::
+(param)=
+## 3. Pannello dei Parametri
 
 ### Parametri MOVE
 
@@ -85,8 +81,31 @@ I parametri mostrati nel pannello sinistro si applicano ai comandi della sequenz
 :::
 
 ---
+(comm)=
+## 4. Pannello dei comandi
+### Selezione e aggiunta di un comando
 
-## Pannello destro — Lista comandi (Command Active)
+![pannello comandi](../../../../_shared/media/images/pannello_comandi_sequence.png)
+
+Il pannello centrale superiore contiene:
+
+- Il menu a tendina **"Command Available"**: consente di selezionare il tipo di comando da aggiungere alla sequenza.
+- Il pulsante **ADD** (freccia →): aggiunge il comando selezionato in coda alla lista dei comandi attivi.
+
+I comandi disponibili sono:
+
+| Comando | Descrizione |
+|---|---|
+| `FLB_NULL` | Comando nullo, nessuna azione eseguita |
+| `FLB_MOVE` | Rotazione del FlexiBowl® secondo i parametri MOVE |
+| `FLB_MOVE_FLIP` | Rotazione combinata con flip |
+| `FLB_MOVE_BLOWe` | Rotazione combinata con soffiaggio esterno |
+| `FLB_MOVE_BLOWc` | Rotazione combinata con soffiaggio centrale |
+| *(altri comandi)* | *(da completare)* |
+
+:::{tip}
+Selezionare il comando desiderato dal menu a tendina prima di premere **ADD**. Il comando verrà inserito nella prima riga libera della lista **Command Active**.
+:::
 
 La tabella **Command Active** mostra la sequenza di comandi nell'ordine di esecuzione, numerati da 1 a 10.
 
@@ -112,7 +131,7 @@ Il pulsante **CLEAR** rimuove **tutti** i comandi dalla sequenza senza possibili
 
 ---
 
-## Esecuzione della sequenza
+## 5. Esecuzione della sequenza
 
 In basso a destra sono presenti due pulsanti di esecuzione:
 

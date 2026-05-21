@@ -868,7 +868,9 @@ document.write(`
       <span class="caret-icon" aria-hidden="true">&#9662;</span>
     </div>
     <div class="dropdown-menu" role="listbox">
-      	<a href="#" role="option">V. 1.0</a>
+      	<a href="#" role="option">V. 0.0</a>
+				<a href="#" role="option">V. 1.0</a>
+				<a href="#" role="option">V. 3.0</a>
     </div>
   </div>
   <div class="dropdown" data-selector="language">
@@ -877,7 +879,10 @@ document.write(`
       <span class="caret-icon" aria-hidden="true">&#9662;</span>
     </div>
     <div class="dropdown-menu" role="listbox">
-      	<a href="#" role="option">EN</a>
+      	<a href="#" role="option">DE</a>
+				<a href="#" role="option">EN</a>
+				<a href="#" role="option">ES</a>
+				<a href="#" role="option">FR</a>
 				<a href="#" role="option">IT</a>
     </div>
   </div>
@@ -889,13 +894,13 @@ document.write(`
       return;
     }
 
-    const inlineVersions = ["V. 1.0"];
-    const inlineLanguages = ["EN", "IT"];
+    const inlineVersions = ["V. 0.0", "V. 1.0", "V. 3.0"];
+    const inlineLanguages = ["DE", "EN", "ES", "FR", "IT"];
     const manifest = window.FV_VERSIONING || null;
     const versions = Array.isArray(manifest && manifest.versions) && manifest.versions.length
       ? manifest.versions
       : inlineVersions;
-    const offlineZipEnabled = true;
+    const offlineZipEnabled = false;
     const offlineZipFileName = 'Offline manual.zip';
     const americanRegions = new Set([
       'AG', 'AR', 'AW', 'BB', 'BL', 'BM', 'BO', 'BQ', 'BR', 'BS', 'BZ', 'CA', 'CL', 'CO', 'CR',

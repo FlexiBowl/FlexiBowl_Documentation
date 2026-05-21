@@ -80,17 +80,3 @@ Il pulsante **Start Hopper** è attivo solo se la checkbox **ENABLE** del relati
 
 ---
 
-## Riepilogo configurazione esempio
-
-| | HOPPER 1 | HOPPER 2 | HOPPER 3 | HOPPER 4 |
-|---|---|---|---|---|
-| **Enable** | ✅ Sì | ❌ No | ❌ No | ❌ No |
-| **ID** | 19 | 25 | 21 | 22 |
-| **Amplitude** | 80 | 80 | 80 | 80 |
-| **Frequency** | 50 | 50 | 50 | 60 |
-| **Activation Time** | 2000 ms | 800 ms | 800 ms | 800 ms |
-| **Status** | DISABLED | DISABLED | DISABLED | DISABLED |
-
-:::{note}
-Nell'esempio mostrato tutti gli hopper risultano in stato **DISABLED** nonostante HOPPER 1 sia abilitato via checkbox. Questo indica che gli hopper non sono ancora stati raggiunti dal sistema di comunicazione (es. driver non alimentato o ID non ancora acquisito). Verificare il collegamento fisico e il cablaggio prima dell'avvio.
-:::

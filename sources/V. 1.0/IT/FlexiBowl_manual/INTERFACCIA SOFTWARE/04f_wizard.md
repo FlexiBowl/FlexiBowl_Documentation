@@ -47,7 +47,7 @@ Il sistema richiede informazioni sulla morfologia dei pezzi per ottimizzare la s
       * **CYLINDRICAL**: Componenti cilindrici.
       * **COMPLEX**: Geometrie articolate o irregolari
 
-      ![Flat Cylindrical or Complex](../../../../../_shared/media/images/flatorcomplex.png)
+      ![Flat Cylindrical or Complex](../../../../_shared/media/images/flatorcomplex.png)
 
       *Esempi di geometrie: Flat, Cylindrical e Complex.*
 
@@ -58,18 +58,18 @@ Il sistema richiede informazioni sulla morfologia dei pezzi per ottimizzare la s
       * **Tangling / Stacking**: I pezzi tendono ad agganciarsi o impilarsi.
       * **Not Tangling / Not Stacking**: I pezzi rimangono separati e non si incastrano.
 
-      ![Overlapping](../../../../../_shared/media/videos/overlapping.gif)
+      ![Overlapping](../../../../_shared/media/videos/overlapping.gif)
 
       *Not Overlapping: i pezzi non si sovrappongono sulla superficie.*
 
       ::::{grid} 2
       :::{grid-item}
-      ![Stacking](../../../../../_shared/media/videos/stacking.gif)
+      ![Stacking](../../../../_shared/media/videos/stacking.gif)
 
       *Stacking: i pezzi si impilano.*
       :::
       :::{grid-item}
-      ![Tangling](../../../../../_shared/media/videos/tangling.gif)
+      ![Tangling](../../../../_shared/media/videos/tangling.gif)
 
       *Tangling: i pezzi si agganciano tra loro.*
       :::

@@ -23,7 +23,7 @@ Il pulsante **REBOOT** interrompe temporaneamente tutte le operazioni in corso. 
 
 ---
 
-## Pannello GET IP — Lettura indirizzo di rete corrente
+## Pannello GET IP
 
 Il pannello sinistro visualizza i parametri di rete attualmente assegnati al FlexiBowl®.
 
@@ -38,7 +38,7 @@ Il pulsante **GET IP** aggiorna i campi leggendo i parametri di rete attualmente
 
 ---
 
-## Pannello SET IP — Impostazione indirizzo di rete
+## Pannello SET IP
 
 Il pannello centrale consente di modificare l'indirizzo IP e la maschera di sottorete del FlexiBowl®.
 
@@ -81,6 +81,7 @@ Verificare che la porta configurata (es. 8123) non sia bloccata da firewall sul 
 
 ---
 
+
 ## Pannello di stato della comunicazione
 
 Il pannello inferiore mostra in tempo reale lo stato della connessione tra il FlexiBowl® e il client esterno.
@@ -88,7 +89,7 @@ Il pannello inferiore mostra in tempo reale lo stato della connessione tra il Fl
 ### Indicatori di stato
 
 | Indicatore | Colore attivo |  Descrizione |
-|---|---|---|---|
+|---|---|---|
 | **SERVER ONLINE** | 🟢 Verde |  Il server TCP del FlexiBowl® è attivo e in ascolto |
 | **CLIENT CONNECTED** | 🟢 Verde |  Un client esterno è attualmente connesso al server |
 | **CLIENT IP** | — | Indirizzo IP del client attualmente connesso |

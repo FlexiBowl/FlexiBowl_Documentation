@@ -168,6 +168,7 @@ FlexiBowl_manual/INTERFACCIA SOFTWARE/04m_hopper.md
 :::{toctree}  
 :hidden:
 :caption: QUICKSTART
+FlexiBowl_manual/QUICKSTART/panoramica.md
 FlexiBowl_manual/QUICKSTART/installazione_meccanica.md
 FlexiBowl_manual/QUICKSTART/cablaggio_FB.md
 FlexiBowl_manual/QUICKSTART/conf_interfaccia.md

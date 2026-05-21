@@ -200,6 +200,7 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">QUICKSTART</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/panoramica.html"><strong>Panoramica Operazioni</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/installazione_meccanica.html"><strong>Installazione del FlexiBowl®</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/cablaggio_FB.html"><strong>Cablaggio del FlexiBowl®</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/conf_interfaccia.html"><strong>Configurazione Interfaccia</strong></a></li>
@@ -415,8 +416,8 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#panoramica">Panoramica</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#barra-superiore">Barra superiore</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-get-ip-lettura-indirizzo-di-rete-corrente">Pannello GET IP — Lettura indirizzo di rete corrente</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-set-ip-impostazione-indirizzo-di-rete">Pannello SET IP — Impostazione indirizzo di rete</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-get-ip">Pannello GET IP</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-set-ip">Pannello SET IP</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-select-the-communication-type">Pannello SELECT THE COMMUNICATION TYPE</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-di-stato-della-comunicazione">Pannello di stato della comunicazione</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#indicatori-di-stato">Indicatori di stato</a></li>
@@ -471,8 +472,8 @@ document.write(`
 </div>
 </section>
 <hr class="docutils" />
-<section id="pannello-get-ip-lettura-indirizzo-di-rete-corrente">
-<h2>Pannello GET IP — Lettura indirizzo di rete corrente<a class="headerlink" href="#pannello-get-ip-lettura-indirizzo-di-rete-corrente" title="Link to this heading">#</a></h2>
+<section id="pannello-get-ip">
+<h2>Pannello GET IP<a class="headerlink" href="#pannello-get-ip" title="Link to this heading">#</a></h2>
 <p>Il pannello sinistro visualizza i parametri di rete attualmente assegnati al FlexiBowl®.</p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -504,8 +505,8 @@ document.write(`
 <p>Il pulsante <strong>GET IP</strong> aggiorna i campi leggendo i parametri di rete attualmente configurati sul dispositivo.</p>
 </section>
 <hr class="docutils" />
-<section id="pannello-set-ip-impostazione-indirizzo-di-rete">
-<h2>Pannello SET IP — Impostazione indirizzo di rete<a class="headerlink" href="#pannello-set-ip-impostazione-indirizzo-di-rete" title="Link to this heading">#</a></h2>
+<section id="pannello-set-ip">
+<h2>Pannello SET IP<a class="headerlink" href="#pannello-set-ip" title="Link to this heading">#</a></h2>
 <p>Il pannello centrale consente di modificare l’indirizzo IP e la maschera di sottorete del FlexiBowl®.</p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -576,11 +577,29 @@ document.write(`
 <p>Il pannello inferiore mostra in tempo reale lo stato della connessione tra il FlexiBowl® e il client esterno.</p>
 <section id="indicatori-di-stato">
 <h3>Indicatori di stato<a class="headerlink" href="#indicatori-di-stato" title="Link to this heading">#</a></h3>
-<p>| Indicatore | Colore attivo |  Descrizione |
-|—|—|—|—|
-| <strong>SERVER ONLINE</strong> | 🟢 Verde |  Il server TCP del FlexiBowl® è attivo e in ascolto |
-| <strong>CLIENT CONNECTED</strong> | 🟢 Verde |  Un client esterno è attualmente connesso al server |
-| <strong>CLIENT IP</strong> | — | Indirizzo IP del client attualmente connesso |</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Indicatore</p></th>
+<th class="head"><p>Colore attivo</p></th>
+<th class="head"><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>SERVER ONLINE</strong></p></td>
+<td><p>🟢 Verde</p></td>
+<td><p>Il server TCP del FlexiBowl® è attivo e in ascolto</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>CLIENT CONNECTED</strong></p></td>
+<td><p>🟢 Verde</p></td>
+<td><p>Un client esterno è attualmente connesso al server</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>CLIENT IP</strong></p></td>
+<td><p>—</p></td>
+<td><p>Indirizzo IP del client attualmente connesso</p></td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
 <section id="monitor-messaggi">
 <h3>Monitor messaggi<a class="headerlink" href="#monitor-messaggi" title="Link to this heading">#</a></h3>
@@ -762,7 +781,9 @@ document.write(`
       <span class="caret-icon" aria-hidden="true">&#9662;</span>
     </div>
     <div class="dropdown-menu" role="listbox">
-      	<a href="#" role="option">V. 1.0</a>
+      	<a href="#" role="option">V. 0.0</a>
+				<a href="#" role="option">V. 1.0</a>
+				<a href="#" role="option">V. 3.0</a>
     </div>
   </div>
   <div class="dropdown" data-selector="language">
@@ -771,7 +792,10 @@ document.write(`
       <span class="caret-icon" aria-hidden="true">&#9662;</span>
     </div>
     <div class="dropdown-menu" role="listbox">
-      	<a href="#" role="option">EN</a>
+      	<a href="#" role="option">DE</a>
+				<a href="#" role="option">EN</a>
+				<a href="#" role="option">ES</a>
+				<a href="#" role="option">FR</a>
 				<a href="#" role="option">IT</a>
     </div>
   </div>
@@ -783,13 +807,13 @@ document.write(`
       return;
     }
 
-    const inlineVersions = ["V. 1.0"];
-    const inlineLanguages = ["EN", "IT"];
+    const inlineVersions = ["V. 0.0", "V. 1.0", "V. 3.0"];
+    const inlineLanguages = ["DE", "EN", "ES", "FR", "IT"];
     const manifest = window.FV_VERSIONING || null;
     const versions = Array.isArray(manifest && manifest.versions) && manifest.versions.length
       ? manifest.versions
       : inlineVersions;
-    const offlineZipEnabled = true;
+    const offlineZipEnabled = false;
     const offlineZipFileName = 'Offline manual.zip';
     const americanRegions = new Set([
       'AG', 'AR', 'AW', 'BB', 'BL', 'BM', 'BO', 'BQ', 'BR', 'BS', 'BZ', 'CA', 'CL', 'CO', 'CR',
@@ -1305,8 +1329,8 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#panoramica">Panoramica</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#barra-superiore">Barra superiore</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-get-ip-lettura-indirizzo-di-rete-corrente">Pannello GET IP — Lettura indirizzo di rete corrente</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-set-ip-impostazione-indirizzo-di-rete">Pannello SET IP — Impostazione indirizzo di rete</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-get-ip">Pannello GET IP</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-set-ip">Pannello SET IP</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-select-the-communication-type">Pannello SELECT THE COMMUNICATION TYPE</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-di-stato-della-comunicazione">Pannello di stato della comunicazione</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#indicatori-di-stato">Indicatori di stato</a></li>
