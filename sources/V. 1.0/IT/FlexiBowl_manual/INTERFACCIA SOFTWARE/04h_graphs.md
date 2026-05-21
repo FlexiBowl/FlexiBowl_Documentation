@@ -4,6 +4,8 @@
 
 La pagina **Graphs** fornisce una dashboard di monitoraggio in tempo reale delle grandezze elettriche e termiche del driver motore del FlexiBowl®. In questa pagina, l'operatore può verificare le prestazioni del sistema e rilevare eventuali anomalie durante il funzionamento.
 
+![pagina home](../../../../_shared/media/images/graphs.png)
+
 ---
 
 ## Barra dei contatori e indicatori
