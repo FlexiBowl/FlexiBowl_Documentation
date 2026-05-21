@@ -25,7 +25,7 @@ Non superare mai i 6 bar di pressione nell’impianto pneumatico della macchina.
    </style>
 :::
 
-::::{list-table} Allacciamento pneumatico
+::::{list-table}
 :widths: 30 60
 :header-rows: 1
 * - {ref}`Qualifica operatore <operatori>`
@@ -42,8 +42,13 @@ Non superare mai i 6 bar di pressione nell’impianto pneumatico della macchina.
 ::::
 :::::
 
-Per l'allacciamento alla rete pneumatica, collegare un tubo dell’aria da Ø6 mm all'ingresso “Air Supply” presente nel pannello comandi (come riportato nell'immagine a lato). 
+Per l'allacciamento alla rete pneumatica, collegare un tubo dell’aria {ref}`della giusta misura <datipneum>` all'ingresso “Air Supply” presente nel pannello comandi (riportato come numero **7** nell'immagine sottostante).
+
+:::{figure} ../../../../_shared/media/images/GM001747pal.PNG
+:align: center
+:width: 80%
+:::
 
 :::{note}
-Assicurarsi che sia presente una valvola di chiusura fra l’alimentazione d’aria locale e il FlexiBowl®.
+Per interventi di manutenzione è necessario prevedere un sistema di sezionamento dell'aria.
 :::

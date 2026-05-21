@@ -1,3 +1,4 @@
+(sostbl)=
 # **Sostituzione Backlight**
 
 :::::{important}
@@ -26,6 +27,8 @@
 ::::
 :::::
 
+Il backlight va sostituito qualora presentasse dei malfunzionamenti o ci fosse necessità di cambiare il tipo di luce in seguito a un cambiamento di produzione.
+
 :::{warning}
 Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione del Backlight.
 :::
@@ -46,6 +49,9 @@ Il Backlight a luce infrarossa emette luce non visibile e perciò piuò apparire
   - Quantità
 
 * - Chiave esagonale H2.5
+  - 1
+
+* - Chiave esagonale H5
   - 1
 
 * - Backlight sostitutivo

@@ -27,9 +27,21 @@ Le spine di centraggio sono opzionali e non incluse con il FlexiBowl®.
 :align: center
 :::
 
+### Svuotamento (solo per FlexiBowl® 500)
+
+:::{figure} ../../../../_shared/media/images/AS000004_Interfaccia1.PNG
+:align: center
+:::
+
 ## FlexiBowl® 650
 
 :::{figure} ../../../../_shared/media/images/AS000008_Interfaccia.PNG
+:align: center
+:::
+
+### Svuotamento
+
+:::{figure} ../../../../_shared/media/images/AS000008_Interfaccia1.PNG
 :align: center
 :::
 
@@ -39,13 +51,25 @@ Le spine di centraggio sono opzionali e non incluse con il FlexiBowl®.
 :align: center
 :::
 
+### Svuotamento
+
+:::{figure} ../../../../_shared/media/images/AS000006_Interfaccia1.PNG
+:align: center
+:::
+
 ## FlexiBowl® 1200
 
 :::{figure} ../../../../_shared/media/images/AS000012_Interfaccia.PNG
 :align: center
 :::
 
-## Posizionamento del FlexiBowl®
+### Svuotamento
+
+:::{figure} ../../../../_shared/media/images/AS000012_Interfaccia1.PNG
+:align: center
+:::
+
+## Installazione del FlexiBowl®
 
 ::::{list-table}
 :widths: 10 50
@@ -55,14 +79,10 @@ Le spine di centraggio sono opzionali e non incluse con il FlexiBowl®.
   - Operazione
 
 * - 1
-  - Posizionare il FlexiBowl® su di un piano stabile.
-    :::{note}
-    Se il FlexiBowl® viene installato sulla piattaforma di una macchina (sensibile a vibrazioni), posizionare del 
-    materiale isolante e anti-vibrazioni fra la piattaforma e il FlexiBowl®.
-    :::
+  - Posizionare il FlexiBowl® su di un {ref}`piano stabile <pianale>`.
 
 * - 2
-  - Fissare il FlexiBowl® attraverso gli appositi fori, utilizzando le viti specificate di sopra per la taglia di riferimento.
+  - Fissare correttamente il FlexiBowl® al supporto. La quantità e tipologia di viti necessarie sono riportate nella {ref}`sezione dedicata <intmec>`.
 
 * - 3
   - Procedere con gli {ref}`allacciamenti necessari <intele>`.
@@ -70,9 +90,59 @@ Le spine di centraggio sono opzionali e non incluse con il FlexiBowl®.
 ::::
 
 :::{important}
-Lasciare circa 100mm di spazio per i connettori di alimentazione del FlexiBowl®.
+Lasciare circa {ref}`100mm di spazio <dim800>` per i connettori di alimentazione del FlexiBowl®.
 :::
 
-:::{important}
+(pianale)=
+## Caratteristiche del piano di appoggio
+
+::::{important}
 Assicurarsi che la superficie di appoggio della macchina sia piana ed orizzontale, e sia idonea a sostenerne il peso.
+
+È **fortemente sconsigliato** montare il FlexiBowl® su una porzione a sbalzo del piano macchina. Laddove fosse inevitabile, assicurarsi di irrigidire a sufficienza il piano di appoggio.
+
+:::{figure} ../../../../_shared/media/images/FB650-nosbalzo.PNG
+:align: center
+:::
+::::
+
+Per garanire il corretto funzionamento del FlexiBowl® è necessario che il piano di appoggio presenti degli errori di planarità non superiori a 1mm, assemblato orizzontalmente e che sia abbastanza massiccio da non risentire delle vibrazioni dovute al normale funzionamento di FlexiBowl®, robot ed eventuali altre parti mobili presenti nel layout. Delle indicazioni su dimensioni e peso minimi richiesti per il montaggio del FlexiBowl® sono presenti nella tabella sottostante; da questi dati, tenendo conto del materiale utilizzato per il pianale, si può risalire allo spessore minimo richiesto.
+
+:::{figure} ../../../../_shared/media/images/pianali.PNG
+:align: center
+:::
+
+:::{list-table}
+:widths: 20 40 40
+:header-rows: 1
+:stub-columns: 1
+
+* - Modello
+  - Dimensioni pianale AxA [mm]
+  - Peso M [kg]
+
+* - FlexiBowl® 200
+  - ≥ 276x276
+  - ≥ 2
+
+* - FlexiBowl® 350
+  - ≥ 442x442
+  - ≥ 6
+
+* - FlexiBowl® 500
+  - ≥ 770x770
+  - ≥ 16
+
+* - FlexiBowl® 650
+  - ≥ 945x945
+  - ≥ 48
+
+* - FlexiBowl® 800
+  - ≥ 1120x1120
+  - ≥ 68
+
+* - FlexiBowl® 1200
+  - ≥ 1594x1594
+  - ≥ 137
+
 :::
