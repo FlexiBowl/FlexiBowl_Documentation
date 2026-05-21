@@ -3,84 +3,55 @@
 
 I soffi agiscono sui componenti tramite un getto d'aria in pressione tale da smistarli e allontanarli dai limiti dell'area di visione. Possono essere di più tipi, in base alle necessità dell'Operatore.
 
-## Soffi radiali
+:::::{grid} 1
+:gutter: 2
 
-### Applicazioni consigliate
+::::{grid-item-card} Sofffi radiali
+:link: 06-1_RADIALE
+:link-type: doc
 
-Sono da preferire rispetto al deviatore standard qualora:
-- ci sia il bisogno di movimentare componenti che presentano feature o sporgenze di dimensioni ridotte, che potrebbero incastrarsi nel gap tra il deviatore e la superficie o disco rigido;
-- si utilizzi una superficie spike o un disco rigido anti-roll.
-
-### Procedura di montaggio
-
-:::{warning}
-Disconnettere l'alimentazione elettrica prima di procedere con il montaggio dei soffi.
+:::{figure} ../../../../_shared/media/images/sofrad500.PNG
+:width: 100%
 :::
 
-| Step | Operazione |
-|:----:|-----------|
-| 1 | Rimuovere le viti di fissaggio del deviatore |
-| 2 | Svitare le viti di regolazione per rimuovere il deviatore |
-| 3 | Posizionare il gommino pieno e quello forato nelle relative sedi in base all’altezza del soffio desiderata |
-| 4 | Posizionare la cartuccia soffio radiale e fissarla con le apposite viti |
+::::
 
-### Procedura di regolazione
+::::{grid-item-card} Soffio centrale
+:link: 06-2_CENTRALE
+:link-type: doc
 
-La regolazione dell'intensità del soffio avviene via software. È possibile scegliere l'altezza del soffio invertendo i gommini presenti sotto alla cartuccia.
-
-:::{tip}
-Nei FlexiBowl® con disco rigido si può differenziare l'intensità di ogni soffio in maniera indipendente tramite gli spilli di regolazione posti sotto al supporto dello schermo flip.
+:::{figure} ../../../../_shared/media/images/sofcen650.PNG
+:width: 100%
 :::
 
-### Valutazione del corretto funzionamento
+::::
 
-Test standardizzato?
+::::{grid-item-card} Soffio indiretto (FlexiBowl® 500E)
+:link: 06-3_INDIRETTO
+:link-type: doc
 
-(sofind)=
-## Soffio indiretto (solo per FlexiBowl® 500E)
-
-### Applicazioni consigliate
-
-Hanno essenzialmente la stessa funzione dei soffi radiali, quindi sono consigliati per le stesse situazioni.
-
-### Procedura di montaggio
-
-:::{warning}
-Disconnettere l'alimentazione elettrica prima di procedere con il montaggio dei soffi.
+:::{figure} ../../../../_shared/media/images/sofind500.PNG
+:width: 100%
 :::
 
-| Step | Operazione |
-|:----:|-----------|
-| 1 | Rimuovere tutto il gruppo schermo-barriera flip svitando le quattro viti di fissaggio |
-| 2 | Sostituire lo schermo con il gruppo soffio indiretto |
-| 3 | Fissare il nuovo gruppo soffio indiretto-barriera flip |
+::::
 
-### Procedura di regolazione
+::::{grid-item-card} Soffi integrati nello schermo (FlexiBowl® 200-350)
+:link: 06-4_INTEGRATI
+:link-type: doc
 
-La regolazione dell'intensità del soffio avviene via software tramite l'aggiustamento del valore "blow pressure". Si può poi differenziare l'intensità di ogni soffio in maniera indipendente tramite gli spilli di regolazione posti sotto al supporto dello schermo flip.
+:::{figure} ../../../../_shared/media/images/sofint200.PNG
+:width: 100%
+:::
 
-### Valutazione del corretto funzionamento
+::::
 
-Test standardizzato?
+:::::
 
-## Soffio centrale
-
-### Applicazioni consigliate 
-
-Soluzione da adottare in caso di componenti molto mobili (cilindrici) che tendono ad aggrupparsi intorno alla calotta centrale. 
-
-### Procedura di montaggio
-
-| Step | Operazione |
-|:----:|-----------|
-| 1 | Rimuovere tutto il gruppo schermo-barriera flip svitando le quattro viti di fissaggio |
-| 2 | Sostituire lo schermo con il gruppo soffio centrale |
-| 3 | Fissare il nuovo gruppo soffio centrale-barriera flip |
-
-### Procedura di regolazione 
-
-La regolazione dell'intensità del soffio avviene via software.
-
-### Valutazione del corretto funzionamento 
-
-Test standardizzato? 
+:::{toctree}
+:hidden:
+06-1_RADIALE.md
+06-2_CENTRALE.md
+06-3_INDIRETTO.md
+06-4_INTEGRATI.md
+:::

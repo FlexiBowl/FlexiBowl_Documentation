@@ -85,6 +85,7 @@ L'utilizzo di aria non conforme può causare malfunzionamenti, riduzione delle p
 Su richiesta è disponibile opzionalmente un **kit di filtrazione aria esterno**. 
 Il kit è consigliato nei casi in cui la qualità dell’aria compressa dell’impianto cliente non sia nota o non garantita e consente di raggiungere la classe di qualità richiesta.
 
+(sc-pneum)=
 ## Schemi pneumatici
 
 Seguono gli schemi pneumatici di tutti i modelli a listino, comprensivi di eventuali accessori svuotamento e soffi:
