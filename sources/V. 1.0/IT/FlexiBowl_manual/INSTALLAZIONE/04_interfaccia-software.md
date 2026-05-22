@@ -358,7 +358,7 @@ Protocolli supportati:
 ### Come funziona un comando
 
 Due modifiche: numeri in grassetto semplice dentro il cerchio, testi più grandi e leggibili.
-html<table style="width:100%; border-collapse:collapse; margin: 1.5rem 0 2rem;">
+<table style="width:100%; border-collapse:collapse; margin: 1.5rem 0 2rem;">
   <tr>
     <td style="text-align:center; padding:0 8px; width:22%;">
       <div style="width:52px; height:52px; border-radius:50%; background:#e3f1fb; border:2px solid #2980b9; display:inline-flex; align-items:center; justify-content:center; color:#2980b9; font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
