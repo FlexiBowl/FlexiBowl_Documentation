@@ -198,23 +198,6 @@ Questa pagina fornisce una visione d'insieme del processo di configurazione e me
     </div>
   </div>
 
-  <!-- Step 5 -->
-  <div class="qs-step">
-    <div class="qs-left">
-      <div class="qs-number">5</div>
-      <div class="qs-connector"></div>
-    </div>
-    <div class="qs-card">
-      <div class="qs-card-title">
-        <i class="ph ph-chart-line"></i>
-        <a class="qs-title-link" href="monitoraggio.html">Monitoraggio Applicazione</a>
-      </div>
-      <p class="qs-card-desc">
-        Avviare la sequenza configurata e monitorare il sistema in tempo reale tramite le pagine Monitor e Graphs: verificare temperatura, tensione, stato del driver e log degli eventi.
-      </p>
-    </div>
-  </div>
-
 </div>
 
 :::{note}

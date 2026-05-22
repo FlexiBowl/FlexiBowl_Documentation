@@ -84,8 +84,8 @@ Il mancato rispetto delle istruzioni riportate può causare:
       Tel. +390575398611 - Fax +39 0575 398620<br>
       info@arsautomation.com - www.arsautomation.com
     </div>
-    <div style="margin-top: 2rem;"></div>
   </div>
+  <div style="margin-top: 2rem;"></div>
   <div class="isw-meta-card">
     <div class="isw-meta-title"><i class="ph ph-cpu"></i> Identificazione Macchina</div>
     <div class="isw-meta-content">
@@ -104,19 +104,62 @@ La macchina è dotata di una targa di identificazione posizionata sulla base vib
 
 ![Etichetta Tramoggia](../../../../../_shared/media/images/etichetta_tramoggia.jpg)
 
-| Pos. | Elemento sulla Targa |
-|------|----------------------|
-| 1 | Logo costruttore |
-| 2 | N° parte |
-| 3 | Modello macchina |
-| 4 | Potenza |
-| 5 | Tensione di alimentazione |
-| 6 | Anno di costruzione |
-| 7 | Grado di protezione (IP) |
-| 8 | N° matricola |
+<div class="isw-ret">
+<style>
+.isw-ret table thead tr,
+.isw-ret table thead tr th {
+  background: #f0f4f8 !important;
+  color: #1a3a52 !important;
+  border-bottom: 2px solid #2980b9 !important;
+}
+</style>
+<table style="width:100%; border-collapse:collapse; font-size:0.95rem; margin:0.75rem 0 1.5rem;">
+  <thead>
+    <tr>
+      <th style="padding:0.6rem 0.9rem; text-align:left; font-weight:700; white-space:nowrap; width:100px;">Pos</th>
+      <th style="padding:0.6rem 0.9rem; text-align:left; font-weight:700;">Elemento sulla targa</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">1</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Logo Costruttore</td>
+    </tr>
+    <tr style="background:#f7fbfe;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#f7fbfe'">
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">2</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">N° parte</td>
+    </tr>
+    <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">3</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Modello Macchina</td>
+    </tr>
+    <tr style="background:#f7fbfe;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#f7fbfe'">
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">4</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Potenza</td>
+    </tr>
+    <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">5</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Tensione di Alimentazione</td>
+    </tr>
+    <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">6</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Anno di Costruzione</td>
+    </tr>
+    <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">7</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Grado di protezione IP</td>
+    </tr>
+    <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">8</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">N° matricola</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 
 ```{warning}
-ATTENZIONE!
+**ATTENZIONE!**
 
 È assolutamente vietato:
 - asportare la targa identificativa CE;
@@ -214,19 +257,42 @@ Il manuale originale è stato redatto in **lingua italiana**. Eventuali traduzio
 
 Le qualifiche sopra riportate rientrano obbligatoriamente all'interno della categoria di **"Persona Addestrata"**:
 
-| Tipo Persona | Definizione |
-|---------------|-------------|
-| **Persona Addestrata** | Soggetto informato, istruito ed addestrato sul lavoro e sui pericoli derivanti da un uso improprio. Conosce l’importanza dei dispositivi di sicurezza, le norme antinfortunistiche e le condizioni operative per il lavoro in sicurezza. |
+<div class="isw-meta-card">
+ <div class="isw-meta-title"> Persona Addestrata </div>
+  <div class="isw-meta-content">
+      Soggetto informato, istruito ed addestrato sul lavoro e sui pericoli derivanti da un uso improprio. Conosce l’importanza dei dispositivi di sicurezza, le norme antinfortunistiche e le condizioni operative per il lavoro in sicurezza.
+    </div>
+</div>
 
 ---
 
 ## Simbologia di Sicurezza Utilizzata
 
-| Simbolo | Significato e Descrizione |
-|----------|---------------------------|
-| ⚠️ | Identifica avvertenze cruciali per la sicurezza dell'operatore e/o per l'integrità della macchina. |
-| ⚡ | Segnala pericoli e rischi di natura elettrica (presenza di tensione). |
-| ℹ️ | Identifica informazioni di particolare importanza all'interno del manuale relative alla gestione operativa del sistema. |
+::::{list-table}
+:widths: 15 85
+:header-rows: 1 
+
+* - Simbolo 
+  - Significato e Descrizione 
+
+* - :::{image} ../../../../../_shared/media/images/simbolo_avvertenza.png
+    :width: 60px
+    :align: center
+    ::: 
+  - Identifica avvertenze cruciali per la sicurezza dell'operatore e/o per l'integrità della macchina. 
+
+* - :::{image} ../../../../../_shared/media/images/simbolo_elettrico.png
+    :width: 60px
+    :align: center
+    ::: 
+  - Segnala pericoli e rischi di natura elettrica (presenza di tensione).
+
+* - :::{image} ../../../../../_shared/media/images/obbligo_info.png
+    :width: 60px
+    :align: center
+    ::: 
+  - Identifica informazioni di particolare importanza all'interno del manuale relative alla gestione operativa del sistema.
+::::
 
 ---
 
@@ -255,14 +321,55 @@ Le qualifiche sopra riportate rientrano obbligatoriamente all'interno della cate
 
 Nelle fasi di prossimità alla macchina (montaggio, manutenzione, regolazione), attenersi alle norme generali antinfortunistiche e impiegare i DPI indicati:
 
-| Simbolo | Prescrizione d'uso obbligatoria |
-|----------|--------------------------------|
-| 🧤 | **Guanti protettivi:** Obbligo di utilizzare guanti protettivi o isolanti a protezione delle mani. |
-| 🥽 | **Occhiali di protezione:** Obbligo di utilizzare occhiali protettivi per la salvaguardia degli occhi. |
-| 👞 | **Scarpe infortunistiche:** Obbligo di calzare scarpe antinfortunistiche per la protezione dei piedi. |
-| 🎧 | **Protezione dal rumore:** Obbligo di utilizzare cuffie o tappi auricolari per la protezione dell'udito. |
-| 🧥 | **Indumenti protettivi:** Obbligo di indossare gli specifici indumenti di lavoro protettivi. |
-| 📘 | **Consultazione Manuale:** Obbligo di consultare e comprendere le istruzioni d'uso prima di eseguire qualsiasi attività. |
+::::{list-table}
+:widths: 15 85
+:header-rows: 1 
+
+* - Simbolo 
+  - Prescrizione d'uso obbligatoria 
+
+* - :::{image} ../../../../../_shared/media/images/obbligo_guanti.png
+    :width: 60px
+    :align: center
+    ::: 
+  - **Guanti protettivi:** Obbligo di utilizzare guanti protettivi o isolanti a protezione delle mani. Indica una prescrizione per il personale di utilizzare guanti protettivi o isolanti.
+
+* - :::{image} ../../../../../_shared/media/images/obbligo_occhiali.png
+    :width: 60px
+    :align: center
+    :::
+  - **Occhiali di protezione:** Obbligo di utilizzare occhiali protettivi per la salvaguardia degli occhi. Indica una prescrizione per il personale di utilizzare occhiali protettivi per occhi.
+
+* - :::{image} ../../../../../_shared/media/images/obbligo_antiinf.png
+    :width: 60px
+    :align: center
+    :::
+  - **Scarpe infortunistiche:** Obbligo di calzare scarpe antinfortunistiche per la protezione dei piedi. Indica una prescrizione per il personale di utilizzare scarpe antinfortunistiche a protezione dei piedi.
+
+* - :::{image} ../../../../../_shared/media/images/obbligo_rumore.png
+    :width: 60px
+    :align: center
+    :::
+  - **Protezione dal rumore:** Obbligo di utilizzare cuffie o tappi auricolari per la protezione dell'udito. Indica una prescrizione per il personale di utilizzare cuffie o tappi a protezione dell’udito.
+
+* - :::{image} ../../../../../_shared/media/images/obbligo_indumenti.png
+    :width: 60px
+    :align: center
+    :::
+  - **Indumenti protettivi:** Obbligo di indossare gli specifici indumenti di lavoro protettivi. Indica una prescrizione per il personale di indossare gli specifici indumenti protettivi.
+
+* - :::{image} ../../../../../_shared/media/images/obbligo_manuale.png
+    :width: 60px
+    :align: center
+    :::
+  - **Consultazione Manuale:** Obbligo di consultare e comprendere le istruzioni d'uso prima di eseguire qualsiasi attività. Indica una prescrizione per il personale di consultare (e comprendere) le istruzioni d’uso e di avvertenza della macchina prima di operare con essa.
+
+* - :::{image} ../../../../../_shared/media/images/obbligo_casco.png
+    :width: 60px
+    :align: center
+    :::
+  - **Casco di Protezione:** Obbligo ad utilizzare il casco di protezione. Indica una prescrizione per il personale di indossare il casco protettivo a protezione del capo.
+::::
 
 ```{warning}
 **ABBIGLIAMENTO DI SICUREZZA**
@@ -324,11 +431,11 @@ Le clausole complete sono stabilite nel contratto di vendita, le cui condizioni 
 ## Sicurezze 
 
 ### Rumore 
-Le misurazioni di rumorosità sono state effettuate in accordo con quanto stabilito dalle norme UNI EN 11200 e UNI EN ISO 3746. Durante i cicli di funzionamento l’esposizione al rumore del personale è pari a 90 dB.
-Il livello di rumore effettivo della macchina installata durante il funzionamento presso il sito in un processo produttivo è diverso da quello rilevato poiché il rumore è influenzato da alcuni fattori quali:
-•	tipo e caratteristiche del sito;
-•	tipologia della macchina su cu la tramoggia lineare è installata;
-•	altre macchine adiacenti in funzione.
+Le misurazioni di rumorosità sono state effettuate in accordo con quanto stabilito dalle norme UNI EN 11200 e UNI EN ISO 3746. Durante i cicli di funzionamento l’esposizione al rumore del personale è pari a 90 dB.  
+Il livello di rumore effettivo della macchina installata durante il funzionamento presso il sito in un processo produttivo è diverso da quello rilevato poiché il rumore è influenzato da alcuni fattori quali:  
+•	tipo e caratteristiche del sito;  
+•	tipologia della macchina su cu la tramoggia lineare è installata;  
+•	altre macchine adiacenti in funzione.  
 
 :::{attention}
 **OBBLIGO!**
@@ -343,9 +450,9 @@ Un’ eccessiva vibrazione può solo essere causata da un guasto meccanico che d
 :::
 
 ### Compatibilità Elettromagnetica 
-La macchina fornita contiene componenti elettronici soggetti alle normative sulla Compatibilità Elettromagnetica, condizionati da emissioni condotte e irradiate.
-I valori delle emissioni rientrano nelle esigenze normative grazie all’impiego di componenti conformi alla direttiva Compatibilità Elettromagnetica, collegamenti idonei e installazione di filtri dove necessario.
-La macchina risulta quindi conforme alla direttiva sulla Compatibilità Elettromagnetica (EMC).
+La macchina fornita contiene componenti elettronici soggetti alle normative sulla Compatibilità Elettromagnetica, condizionati da emissioni condotte e irradiate.  
+I valori delle emissioni rientrano nelle esigenze normative grazie all’impiego di componenti conformi alla direttiva Compatibilità Elettromagnetica, collegamenti idonei e installazione di filtri dove necessario.  
+La macchina risulta quindi conforme alla direttiva sulla Compatibilità Elettromagnetica (EMC).  
 
 :::{attention}
 Eventuali attività manutentive sull’apparecchiatura elettrica realizzate in modo non conforme o sostituzioni errate di componenti possono compromettere l’efficienza delle soluzioni adottate.
@@ -353,33 +460,76 @@ Eventuali attività manutentive sull’apparecchiatura elettrica realizzate in m
 
 ### Rischi Residui 
 
-La progettazione della macchina è stata eseguita in modo da garantire i requisiti essenziali di sicurezza per l’operatore.
-La sicurezza, per quanto possibile, è stata integrata nel progetto e nella costruzione della macchina; tuttavia, permangono rischi dai quali gli operatori devono essere protetti soprattutto in fase di:
-•	trasporto e installazione;
-•	funzionamento normale;
-•	regolazione e messa a punto,
-•	manutenzione e pulizia;
-•	smontaggio e smantellamento.
-Di seguito per ogni rischio residuo viene fornita una descrizione, la zona o parte di macchina oggetto del rischio (a meno che non ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo evitare:
+La progettazione della macchina è stata eseguita in modo da garantire i requisiti essenziali di sicurezza per l’operatore.  
+La sicurezza, per quanto possibile, è stata integrata nel progetto e nella costruzione della macchina; tuttavia, permangono rischi dai quali gli operatori devono essere protetti soprattutto in fase di:  
+•	trasporto e installazione;  
+•	funzionamento normale;  
+•	regolazione e messa a punto,  
+•	manutenzione e pulizia;  
+•	smontaggio e smantellamento.  
+Di seguito per ogni rischio residuo viene fornita una descrizione, la zona o parte di macchina oggetto del rischio (a meno che non ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo evitare:  
 
-| Rischio | Descrizione ed informazioni procedurali | 
-|---|---|
-| PERICOLI DOVUTI ALLA MOVIMENTAZIONE | Le procedure di movimentazione sono descritte al capitolo “Trasporto e installazione” del presente manuale d’istruzioni.
-Rischio residuo: 
-Le operazioni di:  
-•	scarico degli imballi,  
-•	apertura degli imballi,  
-•	movimentazione della macchina  
-espongono gli operatori al rischio di carichi sospesi e schiacciamento.
-Tali operazioni devono essere svolte esclusivamente da personale specializzato nella conduzione di mezzi di sollevamento e che sia stato opportunamente addestrato allo scopo. |
-| PERICOLO ELETTRICO | Le operazioni di accesso e manutenzione della macchina espongono gli operatori al rischio elettrico. Gli interventi sulle apparecchiature sotto tensione devono essere effettuati esclusivamente da personale esperto e qualificato.
-Si raccomandano le seguenti misure di sicurezza:  
-•	prestare la massima attenzione ai pittogrammi di sicurezza relativi al rischio elettrico;  
-•	non effettuare interventi di manutenzione senza aver preventivamente sezionato l’energia elettrica;  
-•	consultare i manuali delle attrezzature commerciali per eventuali raccomandazioni specifiche;  
-•	ispezionare periodicamente il circuito di protezione equipotenziale, verificando che non ci siano discontinuità e serrando le viti di giunzione dei collegamenti. |
-| PERICOLO DERIVANTE DA POLVERI, SCHEGGE, EC | Al termine del ciclo di lavoro potrebbero restare sulla superficie della macchina una serie di residui delle parti alimentate o accumuli di polveri.
-Procedere ad un’accurata pulizia della superficie vibrante dopo ogni utilizzo, come descritto all’interno del cap.7 del presente manuale. |
+::::{list-table}
+:widths: 15 25 60
+:header-rows: 1 
+
+* - Simbolo
+  - Rischio 
+  - Descrizione ed informazioni procedurali 
+
+* - :::{image} ../../../../../_shared/media/images/simbolo_avvertenza.png
+    :width: 60px
+    :align: center
+    :::
+    :::{image} ../../../../../_shared/media/images/pericolo_movimento.png
+    :width: 60px
+    :align: center
+    :::
+    :::{image} ../../../../../_shared/media/images/pericolo_spazi.png
+    :width: 60px
+    :align: center
+    :::
+  - **PERICOLI DOVUTI ALLA MOVIMENTAZIONE**
+  - Le procedure di movimentazione sono descritte al capitolo “Trasporto e installazione” del presente manuale d’istruzioni.
+    
+    **Rischio residuo:** 
+    
+    Le operazioni di:
+    
+    * scarico degli imballi
+    * apertura degli imballi
+    * movimentazione della macchina
+    
+    espongono gli operatori al rischio di carichi sospesi e schiacciamento.
+    Tali operazioni devono essere svolte esclusivamente da personale specializzato nella conduzione di mezzi di sollevamento e che sia stato opportunamente addestrato allo scopo.
+
+* - :::{image} ../../../../../_shared/media/images/simbolo_avvertenza.png
+    :width: 60px
+    :align: center
+    :::
+    :::{image} ../../../../../_shared/media/images/simbolo_elettrico.png
+    :width: 60px
+    :align: center
+    :::
+  - **PERICOLO ELETTRICO**
+  - Le operazioni di accesso e manutenzione della macchina espongono gli operatori al rischio elettrico. Gli interventi sulle apparecchiature sotto tensione devono essere effettuati esclusivamente da personale esperto e qualificato.
+    
+    Si raccomandano le seguenti misure di sicurezza:
+    
+    * prestare la massima attenzione ai pittogrammi di sicurezza relativi al rischio elettrico;
+    * non effettuare interventi di manutenzione senza aver preventivamente sezionato l’energia elettrica;
+    * consultare i manuali delle attrezzature commerciali per eventuali raccomandazioni specifiche;
+    * ispezionare periodicamente il circuito di protezione equipotenziale, verificando che non ci siano discontinuità e serrando le viti di giunzione dei collegamenti.
+
+* - :::{image} ../../../../../_shared/media/images/simbolo_avvertenza.png
+    :width: 60px
+    :align: center
+    :::
+  - **PERICOLO DERIVANTE DA POLVERI, SCHEGGE, ECC.**
+  - Al termine del ciclo di lavoro potrebbero restare sulla superficie della macchina una serie di residui delle parti alimentate o accumuli di polveri.
+    
+    Procedere ad un’accurata pulizia della superficie vibrante dopo ogni utilizzo, come descritto all’interno del cap.7 del presente manuale.
+::::
 
 :::{attention}
 Non effettuare attività di manutenzione e pulizia se prima non si è provveduto a de-energizzare le energie presenti.
