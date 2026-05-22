@@ -235,3 +235,11 @@ FlexiBowl_manual/SMALTIMENTO/smaltimento.md
 :caption: CERTIFICAZIONI 
 FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 :::
+
+:::{toctree}  
+:hidden:
+:caption: TRAMOGGE
+FlexiBowl_manual/TRAMOGGE/TRAMOGGE VIBRANTI/tramogge_vibranti.md
+FlexiBowl_manual/TRAMOGGE/TRAMOGGE A NASTRO/tramogge_nastro.md
+
+:::
