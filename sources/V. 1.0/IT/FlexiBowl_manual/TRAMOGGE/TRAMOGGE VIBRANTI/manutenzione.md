@@ -1,20 +1,126 @@
 # **Manutenzione e Risoluzione Problemi**
 
-:::{attention}
+:::{warning}
 Eseguire le operazioni di manutenzione quando la macchina è spenta.
 :::
 
-:::{attention}
+:::{warning}
 Le operazioni di manutenzione devono essere eseguite da personale qualificato ed autorizzato.
 ::: 
 
 La manutenzione della macchina comprende gli interventi (ispezione, verifica, controllo, regolazione e sostituzione) che si rendono necessari in seguito al normale uso.
 
 **Linee guida per una corretta manutenzione:**
-* **Componenti:** Servirsi soltanto di ricambi originali, di attrezzi adatti allo scopo ed in buono stato.
-* **Frequenze d'intervento:** Rispettare le scadenze indicate nel manuale per la manutenzione programmata (preventiva e periodica). La distanza temporale o i cicli di lavoro tra un intervento e l'altro sono da intendersi come valore massimo accettabile e non devono essere superati.
-* **Monitoraggio preventivo:** Verificare prontamente la causa di eventuali anomalie quali rumorosità eccessiva, surriscaldamenti, trafilamenti di fluidi, ecc.
-* **Tempestività:** Una rimozione immediata delle cause di anomalia o malfunzionamento evita ulteriori danni alle apparecchiature e garantisce la sicurezza degli operatori.
+
+<style>
+  .isw-timeline-custom {
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+    padding-left: 45px !important;
+    margin: 2.5rem 0 !important;
+    list-style: none !important;
+  }
+
+  .isw-timeline-custom .isw-timeline-item-fixed {
+    display: block !important;
+    position: relative !important;
+    padding-bottom: 2.5rem !important;
+  }
+
+  .isw-timeline-custom .isw-timeline-item-fixed:last-child {
+    padding-bottom: 0 !important;
+  }
+
+  /* Forza la card con il tuo bordo azzurro e sfondo alternativo */
+  .isw-timeline-custom .isw-card-fixed {
+    display: block !important;
+    padding: 1.4rem !important;
+    border: 2px solid var(--c-accent, #2980b9) !important;
+    border-radius: var(--radius, 10px) !important;
+    background: var(--c-bg-alt, #f7fbfe) !important;
+    box-shadow: var(--shadow-sm, 0 1px 4px rgba(41,128,185,.08)) !important;
+  }
+
+  /* Forza lo stile del titolo */
+  .isw-timeline-custom .isw-card-fixed .isw-symbol-label {
+    color: var(--c-accent, #2980b9) !important;
+    font-size: 19px !important;
+    font-weight: 700 !important;
+    margin-bottom: 0.5rem !important;
+    display: block !important;
+    text-transform: none !important;
+  }
+
+  /* Linea verticale tratteggiata */
+  .isw-timeline-custom .isw-timeline-item-fixed::before {
+    content: '' !important;
+    position: absolute !important;
+    left: -24px !important;
+    top: 25px !important;
+    bottom: -15px !important;
+    width: 2px !important;
+    border-left: 2px dashed var(--c-accent, #2980b9) !important;
+    z-index: 1 !important;
+  }
+
+  .isw-timeline-custom .isw-timeline-item-fixed:last-child::before {
+    display: none !important;
+  }
+
+  /* Punta della freccia a V minimale */
+  .isw-timeline-custom .isw-timeline-arrow-fixed {
+    display: block !important;
+    content: '' !important;
+    position: absolute !important;
+    left: -28px !important;
+    bottom: 8px !important;
+    width: 8px !important;
+    height: 8px !important;
+    border-right: 2px solid var(--c-accent, #2980b9) !important;
+    border-bottom: 2px solid var(--c-accent, #2980b9) !important;
+    transform: rotate(45deg) !important;
+    z-index: 2 !important;
+    background: var(--c-bg, #ffffff) !important;
+  }
+</style>
+
+<div class="isw-timeline-custom">
+  
+  <div class="isw-timeline-item-fixed">
+    <div class="isw-timeline-arrow-fixed"></div>
+    <div class="isw-card-fixed">
+      <span class="isw-symbol-label">Componenti</span>
+      <div class="isw-symbol-desc">Servirsi soltanto di ricambi originali, di attrezzi adatti allo scopo ed in buono stato.</div>
+    </div>
+  </div>
+
+  <div class="isw-timeline-item-fixed">
+    <div class="isw-timeline-arrow-fixed"></div>
+    <div class="isw-card-fixed">
+      <span class="isw-symbol-label">Frequenze d'intervento</span>
+      <div class="isw-symbol-desc">Rispettare le scadenze indicate nel manuale per la manutenzione programmata (preventiva e periodica). La distanza temporale o i cicli di lavoro tra un intervento e l'altro sono da intendersi come valore massimo accettabile e non devono essere superati.</div>
+    </div>
+  </div>
+
+  <div class="isw-timeline-item-fixed">
+    <div class="isw-timeline-arrow-fixed"></div>
+    <div class="isw-card-fixed">
+      <span class="isw-symbol-label">Monitoraggio preventivo</span>
+      <div class="isw-symbol-desc">Verificare prontamente la causa di eventuali anomalie quali rumorosità eccessiva, surriscaldamenti, trafilamenti di fluidi, ecc.</div>
+    </div>
+  </div>
+
+  <div class="isw-timeline-item-fixed">
+    <div class="isw-card-fixed">
+      <span class="isw-symbol-label">Tempestività</span>
+      <div class="isw-symbol-desc">
+        Una rimozione immediata delle cause di anomalia o malfunzionamento evita ulteriori danni alle apparecchiature e garantisce la sicurezza degli operatori.
+      </div>
+    </div>
+  </div>
+
+</div>
 
 Il personale addetto deve essere ben addestrato e avere un'approfondita conoscenza delle norme antinfortunistiche. Il personale non autorizzato deve rimanere all'esterno dell'area di lavoro durante le operazioni. 
 
@@ -48,10 +154,37 @@ Prima di iniziare qualsiasi intervento di manutenzione sulla macchina, sezionare
 Quando la macchina è in manutenzione, per evitare che questa possa essere messa in funzione accidentalmente, apporre cartelli con la dicitura: “ATTENZIONE! Macchina In Manutenzione”.
 :::
 
-* **DPI:** I manutentori devono obbligatoriamente indossare tutti i dispositivi di protezione individuale necessari (guanti, occhiali, tute) all'attività da effettuare.
-* **Segnalazione:** Se l'operazione prevede la rimozione di protezioni, transennare la zona di intervento e segnalare il divieto di accesso alle persone estranee.
-* **Verifica disconnessione:** Prima di procedere a qualunque attività, verificare l'effettiva disconnessione delle fonti energetiche (corrente elettrica, aria compressa, energia idraulica, ecc.).
-* **Competenza:** Il manutentore deve eseguire solo le operazioni di propria competenza (Meccanica, Elettrica, Fluidica) per le quali è esplicitamente autorizzato, utilizzando la strumentazione idonea alla ricerca guasti.
+<div class="isw-page">
+  <div class="isw-timeline-container">
+    <div class="isw-timeline-item">
+      <div class="isw-timeline-arrow"></div>
+      <div class="isw-timeline-card">
+        <span class="isw-symbol-label">DPI</span>
+        <div class="isw-symbol-desc">I manutentori devono obbligatoriamente indossare tutti i dispositivi di protezione individuale necessari (guanti, occhiali, tute) all'attività da effettuare.</div>
+      </div>
+    </div>
+    <div class="isw-timeline-item">
+      <div class="isw-timeline-arrow"></div>
+      <div class="isw-timeline-card">
+        <span class="isw-symbol-label">Segnalazione</span>
+        <div class="isw-symbol-desc">Se l'operazione prevede la rimozione di protezioni, transennare la zona di intervento e segnalare il divieto di accesso alle persone estranee.</div>
+      </div>
+    </div>
+    <div class="isw-timeline-item">
+      <div class="isw-timeline-arrow"></div>
+      <div class="isw-timeline-card">
+        <span class="isw-symbol-label">Verifica disconnessione</span>
+        <div class="isw-symbol-desc">Prima di procedere a qualunque attività, verificare l'effettiva disconnessione delle fonti energetiche (corrente elettrica, aria compressa, energia idraulica, ecc.).</div>
+      </div>
+    </div>
+    <div class="isw-timeline-item">
+      <div class="isw-timeline-card">
+        <span class="isw-symbol-label">Competenza</span>
+        <div class="isw-symbol-desc">Il manutentore deve eseguire solo le operazioni di propria competenza (Meccanica, Elettrica, Fluidica) per le quali è esplicitamente autorizzato, utilizzando la strumentazione idonea alla ricerca guasti.</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -240,7 +373,7 @@ Il traferro viene opportunamente tarato in fabbrica; interventi di regolazione s
 </div>
 
 :::{note} 
-**Nota:** La regolazione del traferro è un'operazione di precisione che può richiedere verifiche ripetute per ottenere il settaggio ideale.
+ La regolazione del traferro è un'operazione di precisione che può richiedere verifiche ripetute per ottenere il settaggio ideale.
 :::
 ![Regolazione Traferro](../../../../../_shared/media/images/disegno_tecnico.png)
 

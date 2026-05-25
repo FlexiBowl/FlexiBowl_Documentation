@@ -4,6 +4,22 @@
   Le tramogge sono particolarmente adatte per alimentare e pre-dosare particolari di piccole, medie e grandi dimensioni. Sono azionate da una base lineare vibrante, il cui modello varia a seconda della dimensione della tramoggia stessa.
 </p>
 
+La macchina standard è composta dalle seguenti parti fondamentali:
+
+![Parti Tramoggia](../../../../../_shared/media/images/parti_tramoggia.jpg)
+
+| Pos. | Elemento | Descrizione |
+|------|-----------|--------------|
+| 1 | SUPPORTO | È il componente che viene staffato sulla macchina e su cui viene posizionata la tramoggia. |
+| 2 | BASE VIBRANTE | È il componente principale della tramoggia; tramite un elettromagnete effettua la vibrazione che permette l’avanzamento dei pezzi sulla vasca. |
+| 3 | VASCA | Può essere da 1,5lt, 5lt, 10lt, 20lt, 40lt a seconda del componente da lavorare. Su richiesta, sono realizzabili anche di dimensioni personalizzate. La vasca da 1,5lt è costruita in materiale plastico mentre le altre sono in acciaio INOX. |
+| 4 | CONTROLLER | Viene utilizzato per regolare la vibrazione della tramoggia. |
+| 5 | CARTER | Componenti di protezione della base vibrante da urti, sporco e polvere. |
+
+:::{attention}
+Nel caso di modelli personalizzati i componenti potrebbero differire, parzialmente o totalmente, da quelli indicati. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto. 
+:::
+
 ## Componenti e Funzionamento
 
 * **Struttura della base:** La base lineare vibrante è composta da due corpi uniti tra loro da molle a balestra.
@@ -226,21 +242,6 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
 Nel caso di modelli personalizzati i valori indicati potrebbero differire da quelli in tabella. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto. 
 :::
 
-La macchina standard è composta dalle seguenti parti fondamentali:
-
-![Parti Tramoggia](../../../../../_shared/media/images/parti_tramoggia.jpg)
-
-| Pos. | Elemento | Descrizione |
-|------|-----------|--------------|
-| 1 | SUPPORTO | È il componente che viene staffato sulla macchina e su cui viene posizionata la tramoggia. |
-| 2 | BASE VIBRANTE | È il componente principale della tramoggia; tramite un elettromagnete effettua la vibrazione che permette l’avanzamento dei pezzi sulla vasca. |
-| 3 | VASCA | Può essere da 1,5lt, 5lt, 10lt, 20lt, 40lt a seconda del componente da lavorare. Su richiesta, sono realizzabili anche di dimensioni personalizzate. La vasca da 1,5lt è costruita in materiale plastico mentre le altre sono in acciaio INOX. |
-| 4 | CONTROLLER | Viene utilizzato per regolare la vibrazione della tramoggia. |
-| 5 | CARTER | Componenti di protezione della base vibrante da urti, sporco e polvere. |
-
-:::{attention}
-Nel caso di modelli personalizzati i componenti potrebbero differire, parzialmente o totalmente, da quelli indicati. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto. 
-:::
 
 ## Componenti Standard e Opzionali 
 
