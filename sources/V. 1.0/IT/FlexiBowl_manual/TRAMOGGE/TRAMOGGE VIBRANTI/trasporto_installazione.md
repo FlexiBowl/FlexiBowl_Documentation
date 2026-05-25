@@ -217,18 +217,45 @@ Nel caso di modelli personalizzati i gruppi potrebbero differire, parzialmente o
 
 ### Predisposizioni a carico del cliente 
 
-Fatti salvi eventuali accordi contrattuali diversi è normalmente a carico del Cliente la predisposizione di:  
+Fatti salvi eventuali accordi contrattuali diversi è normalmente a carico del Cliente la predisposizione di:
 
-* **Locali e opere murarie:** predisposizione degli spazi inclusi eventuali basamenti, fondazioni, canalizzazioni richieste e sistemi di illuminazione.
-* **Impianti elettrici di alimentazione:** predisposizione delle linee fino ai punti di allacciamento della macchina, in totale conformità alle norme vigenti nel paese di installazione. 
+<div class="isw-warranty-grid">
   
-  :::{note}
-  **Nota di responsabilità:** Tutte le specifiche tecniche richieste sono contenute nel contratto di vendita. Il Costruttore declina ogni responsabilità se il cliente non garantisce le caratteristiche tecniche dell’impianto elettrico concordate.
-  :::
-* **Messa a terra:** conduttore di protezione di messa a terra, secondo le caratteristiche e tolleranze specificate nel presente manuale.
-* **Servizi e consumabili:** servizi ausiliari adeguati, utensili e materiali di consumo occorrenti per il montaggio, l'installazione e lubrificanti per la prima messa in moto.
-* **Alimentazione pneumatica:** linea di aria compressa adeguata come da specifica presente al paragrafo “Dati tecnici”.
-* **Logistica:** mezzi di sollevamento e movimentazione idonei.
+  <div class="isw-meta-card">
+    <div class="isw-meta-title"><i class="ph ph-blueprint"></i> Locali e opere murarie</div>
+    <div class="isw-meta-content">Predisposizione degli spazi inclusi eventuali basamenti, fondazioni, canalizzazioni richieste e sistemi di illuminazione.</div>
+  </div>
+
+  <div class="isw-meta-card">
+    <div class="isw-meta-title"><i class="ph ph-lightning"></i> Impianti elettrici di alimentazione</div>
+    <div class="isw-meta-content">Predisposizione delle linee fino ai punti di allacciamento della macchina, in totale conformità alle norme vigenti nel paese di installazione.</div>
+  </div>
+
+  <div class="isw-meta-card">
+    <div class="isw-meta-title"><i class="ph ph-globe"></i> Messa a terra</div>
+    <div class="isw-meta-content">Conduttore di protezione di messa a terra, secondo le caratteristiche e tolleranze specificate nel presente manuale.</div>
+  </div>
+
+  <div class="isw-meta-card">
+    <div class="isw-meta-title"><i class="ph ph-wrench"></i> Servizi e consumabili</div>
+    <div class="isw-meta-content">Servizi ausiliari adeguati, utensili e materiali di consumo occorrenti per il montaggio, l'installazione e lubrificanti per la prima messa in moto.</div>
+  </div>
+
+  <div class="isw-meta-card">
+    <div class="isw-meta-title"><i class="ph ph-wind"></i> Alimentazione pneumatica</div>
+    <div class="isw-meta-content">Linea di aria compressa adeguata come da specifica presente al paragrafo “Dati tecnici”.</div>
+  </div>
+
+  <div class="isw-meta-card">
+    <div class="isw-meta-title"><i class="ph ph-forklift"></i> Logistica</div>
+    <div class="isw-meta-content">Mezzi di sollevamento e movimentazione idonei per lo scarico e il posizionamento.</div>
+  </div>
+
+</div>
+
+:::{note}
+**Nota di responsabilità:** Tutte le specifiche tecniche richieste sono contenute nel contratto di vendita. Il Costruttore declina ogni responsabilità se il cliente non garantisce le caratteristiche tecniche dell’impianto elettrico concordate.
+:::
 
 ### Condizioni ambientali ammesse 
 

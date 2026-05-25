@@ -38,12 +38,45 @@ Il **Controller digitale** è dotato di un microprocessore con visualizzazione d
 ### Verifiche preliminari
 
 Prima di procedere con la messa in funzione della macchina, occorre eseguire le seguenti verifiche:
-* **Stabilità:** Controllare che la macchina sia posizionata su un piano in grado di sostenere il peso.
-* **Sicurezza:** Controllare il funzionamento dei dispositivi di sicurezza e assicurarsi che tutti i ripari apribili siano ben chiusi.
-* **Spazio operativo:** Controllare che lo spazio attorno alla macchina sia libero da ingombri e/o trabocchetti.
-* **Alimentazione:** Controllare che la macchina sia stata collegata alla rete elettrica e che le fasi di alimentazione siano corrette.
-* **Meccanica:** Controllare che la vasca sia completamente libera di vibrare.
-* **Stato macchina:** Controllare che la macchina non si trovi in stato di “Manutenzione”.
+
+<div class="isw-symbol-grid">
+  <div class="isw-symbol-item">
+    <div>
+      <div class="isw-symbol-label">Stabilità</div>
+      <div class="isw-symbol-desc">Controllare che la macchina sia posizionata su un piano in grado di sostenere il peso.</div>
+    </div>
+  </div>
+  <div class="isw-symbol-item">
+    <div>
+       <div class="isw-symbol-label">Sicurezza</div>
+      <div class="isw-symbol-desc">Controllare il funzionamento dei dispositivi di sicurezza e assicurarsi che tutti i ripari apribili siano ben chiusi.</div>
+    </div>
+  </div>
+  <div class="isw-symbol-item">
+    <div>
+      <div class="isw-symbol-label">Spazio Operativo</div>
+      <div class="isw-symbol-desc"> Controllare che lo spazio attorno alla macchina sia libero da ingombri e/o trabocchetti.</div>
+    </div>
+  </div>
+  <div class="isw-symbol-item">
+    <div>
+     <div class="isw-symbol-label">Alimentazione</div>
+      <div class="isw-symbol-desc">Controllare che la macchina sia stata collegata alla rete elettrica e che le fasi di alimentazione siano corrette.</div>
+    </div>
+  </div>
+  <div class="isw-symbol-item">
+    <div>
+       <div class="isw-symbol-label">Meccanica</div>
+      <div class="isw-symbol-desc">Controllare che la vasca sia completamente libera di vibrare.</div>
+    </div>
+  </div>
+  <div class="isw-symbol-item">
+    <div>
+      <div class="isw-symbol-label">Stato Macchina</div>
+      <div class="isw-symbol-desc">Controllare che la macchina non si trovi in stato di “Manutenzione”.</div>
+    </div>
+  </div>
+</div>
 
 ### Controller standard
 
@@ -208,7 +241,7 @@ Il Relè ON/OFF (**CONN4**) commuta ogni qualvolta viene a mancare la tensione i
 * **CONN3:** start a tramoggia con contatto pulito.
 
 
-![Schema Controller](../../../../../_shared/media/images/controller_schema.jpg)
+![Schema Controller](../../../../../_shared/media/images/controller_schema.png)
 
 
 
