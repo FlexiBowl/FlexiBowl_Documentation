@@ -229,7 +229,7 @@ essere diverso da quello sopra riportato poiché il rumore è influenzato da var
 
 Fare riferimento alla seguente tabella per la classificazione del livello di rischio dovuto all'utilizzo degli illuminatori Toplight e Backlight, in base alla norma EN-62471:
 
-:::{list-table} Toplihgt
+:::{list-table} Toplight
 :widths: 30 15 15
 :header-rows: 1
 
