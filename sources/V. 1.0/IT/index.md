@@ -173,7 +173,6 @@ FlexiBowl_manual/QUICKSTART/installazione_meccanica.md
 FlexiBowl_manual/QUICKSTART/cablaggio_FB.md
 FlexiBowl_manual/QUICKSTART/conf_interfaccia.md
 FlexiBowl_manual/QUICKSTART/FB_wizard.md
-FlexiBowl_manual/QUICKSTART/monitoraggio.md
 :::
 
 :::{toctree}  

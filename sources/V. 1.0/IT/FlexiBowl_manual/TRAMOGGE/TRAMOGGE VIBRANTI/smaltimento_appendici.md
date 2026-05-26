@@ -1,54 +1,77 @@
-# Messa Fuori Servizio e Smaltimento 
+# **Messa Fuori Servizio e Smaltimento**
 
 :::{attention}
-Le operazioni di messa fuori servizio e smantellamento devono essere affidate a personale specializzato in tali attività. In particolare, solo la persona preposta alla fase di smantellamento e allo smaltimento a fine vita può effettuare:  
-•	attività di scollegamento meccanico ed elettrico delle parti secondo le istruzioni di smontaggio e schemi di progetto.  
-•	attività di trasporto delle parti dalla posizione di impianto al centro di smaltimento per la separazione delle parti.  
+Le operazioni di messa fuori servizio e smantellamento devono essere affidate esclusivamente a personale specializzato e autorizzato. 
 :::
 
-I materiali di cui è costituita la macchina sono essenzialmente:   
-•	acciaio ferritico verniciato, plastificato o galvanizzato;   
-•	acciaio inox serie 300/400;   
-•	materiale plastico in polietilene;  
-•	elastomeri, PTFE, grafite;   
-•	olio per ingranaggi;  
-•	grasso per la lubrificazione;   
-•	motori elettrici;   
-•	cavi elettrici con relative guaine;   
-•	dispositivi elettronici di controllo e attuazione.   
-•	ecc.     
+In particolare, solo il personale preposto alla fase di smantellamento e allo smaltimento a fine vita può effettuare:
+* **Scollegamento:** Attività di scollegamento meccanico, elettrico e pneumatico dei componenti secondo le istruzioni di smontaggio e gli schemi di progetto.
+* **Logistica e movimentazione:** Attività di trasporto delle parti dalla posizione di installazione al centro di raccolta/smaltimento per la successiva separazione dei materiali.
 
-:::{attention} 
-La macchina non contiene componenti o sostanze pericolose che necessitano di procedure particolari di rimozione.
+### Censimento dei materiali della macchina
+
+Al fine di agevolare le operazioni di riciclo e separazione differenziata, si riportano i principali materiali che compongono la macchina:
+
+| Macro-categoria | Tipologia di materiale specifico |
+| :--- | :--- |
+| **Componenti metallici** | Acciaio ferritico verniciato, plastificato o galvanizzato.<br>Acciaio inox serie 300 / 400. |
+| **Polimeri ed elastomeri** | Materiale plastico in polietilene.<br>Elastomeri, PTFE, grafite. |
+| **Fluidi e lubrificanti** | Olio per ingranaggi.<br>Grasso per la lubrificazione industriale. |
+| **Componenti elettrici / elettronici** | Motori elettrici.<br>Cavi elettrici con relative guaine isolanti.<br>Dispositivi elettronici di controllo, schede e attuatori. |
+
+:::{attention}
+La macchina non contiene componenti o sostanze tossico-nocive intrinseche che necessitino di procedure straordinarie o particolari di neutralizzazione prima dello smantellamento.
 :::
 
-## Messa Fuori Servizio 
+---
 
-Se la macchina non deve essere utilizzata per un lungo periodo si rende necessario porla in sicurezza ed immagazzinarla. Procedere come descritto:  
+## Messa Fuori Servizio
 
-| Passo | Azione |
-|---|---|
-| 1 | Scollegare l'alimentazione di eenergia elettrica |
-| 2 | Proteggere le apparecchiature elettriche partiucolarmente soggette all'usura del tempo e della polvere | 
+Qualora la macchina non debba essere utilizzata per un lungo periodo di tempo, è necessario procedere alla sua messa in sicurezza e alla predisposizione per l'immagazzinamento.
+
+#### Procedura di messa fuori servizio
+
+<div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Scollegare in modo permanente le linee di alimentazione dell'energia elettrica e pneumatica.
+    </div>
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Proteggere le apparecchiature elettriche ed elettroniche particolarmente soggette all'usura del tempo, all'umidità e all'accumulo di polvere mediante coperture idonee.
+    </div>
+  </div>
+</div>
 
 :::{important}
-Per quanto riguarda la messa fuori servizio delle macchine provenienti da fornitori esterni, si rimanda ai manuali sub-fornitori delle macchine stesse, allegati al presente manuale.
+Per quanto riguarda la messa fuori servizio di moduli, azionamenti o macchine provenienti da fornitori esterni inseriti nell'impianto, si rimanda tassativamente ai manuali dei sub-fornitori allegati alla documentazione tecnica generale.
 :::
 
-## Smaltimento 
-La demolizione della macchina deve essere affidata a personale qualificato, ciascuno per quanto di competenza. 
-Quando si intende smaltire la macchina si deve provvedere alla sua messa in sicurezza. 
+---
+
+## Smaltimento e Demolizione
+
+La demolizione finale della macchina deve essere affidata a personale qualificato, ciascuno per la propria area di competenza tecnica (meccanica, elettrica, gestione rifiuti). Quando si intende avviare la macchina allo smaltimento, è obbligatorio procedere preventivamente alla sua totale messa in sicurezza.
 
 :::{attention}
-Disconnettere l’alimentazione elettrica e l’alimentazione pneumatica della macchina.
+Prima di iniziare qualsiasi operazione di smontaggio strutturale, verificare visivamente e strumentalmente la completa disconnessione dall’alimentazione elettrica e dall’alimentazione pneumatica della macchina.
 :::
 
 :::{attention}
-Per il disassemblaggio di parti da commercio o di materiale di sub-fornitura che fanno parte della macchina fornita da ARS S.r.l. si prega di fare riferimento al relativo manuale del fornitore.
+Per il disassemblaggio di parti commerciali o di materiale di sub-fornitura integrato nella macchina fornita da ARS S.r.l., fare riferimento alle specifiche tecniche contenute nel relativo manuale del costruttore originario.
 :::
 
-Ai sensi della Direttiva “RAEE” 2012/19/UE se il componente/apparecchiatura acquistata e contrassegnata con il seguente simbolo del contenitore di spazzatura su ruote barrato, significa che il prodotto alla fine della propria vita utile deve essere raccolto separatamente dagli altri rifiuti. 
+### Gestione dei rifiuti elettrici ed elettronici (RAEE)
+
+:::{info} 
+**Direttiva RAEE 2012/19/UE:** Se il componente o l'apparecchiatura acquistata è contrassegnata con il simbolo del cassonetto barrato, significa che il prodotto, alla fine della propria vita utile, non deve essere assimilato ai rifiuti urbani ma deve essere conferito a un centro di raccolta differenziata specializzato.
+:::
+
+#### Obblighi normativi locali
 
 :::{attention}
-Si rammenta l’osservanza delle leggi vigenti in materia di smaltimento nel paese di installazione della macchina.
+È fatto obbligo al Cliente/Utilizzatore la rigorosa osservanza e il rispetto delle leggi e dei decreti vigenti in materia di smaltimento e tutela ambientale nel Paese specifico in cui è installata la macchina.
 :::
