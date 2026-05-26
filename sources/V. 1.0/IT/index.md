@@ -178,6 +178,14 @@ FlexiBowl_manual/QUICKSTART/conf_tramoggia.md
 
 :::{toctree}  
 :hidden:
+:caption: MODALITA DI FUNZIONAMENTO 
+FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_standard.md
+FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_mix.md
+FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_tracking.md
+:::
+
+:::{toctree}  
+:hidden:
 :caption: PLUG-IN 
 FlexiBowl_manual/PLUG-IN/01_PlugIn.md
 :::
@@ -194,15 +202,12 @@ FlexiBowl_manual/LAYOUT BEST PRACTICE/01_layoutbp.md
 FlexiBowl_manual/ACCESSORI/00_ACCESSORI.md
 FlexiBowl_manual/ACCESSORI/01_SUPERFICI.md
 FlexiBowl_manual/ACCESSORI/02_DISCHI_RIGIDI.md
-FlexiBowl_manual/ACCESSORI/03_BACKLIGHT.md
-FlexiBowl_manual/ACCESSORI/04_TOPLIGHT.md
+FlexiBowl_manual/ACCESSORI/03_04_illuminazione.md
 FlexiBowl_manual/ACCESSORI/05_DEVIATORE.md
 FlexiBowl_manual/ACCESSORI/06_SOFFI.md
 FlexiBowl_manual/ACCESSORI/07_BRUSH_DIVERTER.md
 FlexiBowl_manual/ACCESSORI/08_WEDGE.md
 FlexiBowl_manual/ACCESSORI/09_SVUOTAMENTO.md
-FlexiBowl_manual/ACCESSORI/10_TRACKING.md
-FlexiBowl_manual/ACCESSORI/11_RINGLIGHT.md
 :::
 
 :::{toctree}  
