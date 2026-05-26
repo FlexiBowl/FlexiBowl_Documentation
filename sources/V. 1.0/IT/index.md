@@ -173,6 +173,7 @@ FlexiBowl_manual/QUICKSTART/installazione_meccanica.md
 FlexiBowl_manual/QUICKSTART/cablaggio_FB.md
 FlexiBowl_manual/QUICKSTART/conf_interfaccia.md
 FlexiBowl_manual/QUICKSTART/FB_wizard.md
+FlexiBowl_manual/QUICKSTART/conf_tramoggia.md
 :::
 
 :::{toctree}  
@@ -241,4 +242,14 @@ FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 FlexiBowl_manual/TRAMOGGE/TRAMOGGE VIBRANTI/tramogge_vibranti.md
 FlexiBowl_manual/TRAMOGGE/TRAMOGGE A NASTRO/tramogge_nastro.md
 
+:::
+
+:::{toctree}
+:hidden:
+:caption: FLEXIBOWL 2.0 VS FLEXIBOWL 3.0
+FlexiBowl_manual/COMPARATIVA/panoramica.md
+FlexiBowl_manual/COMPARATIVA/comparativa_meccanica.md
+FlexiBowl_manual/COMPARATIVA/comparativa_elettrica.md
+FlexiBowl_manual/COMPARATIVA/comparativa_pneumatica.md
+FlexiBowl_manual/COMPARATIVA/comparativa_software.md
 :::
