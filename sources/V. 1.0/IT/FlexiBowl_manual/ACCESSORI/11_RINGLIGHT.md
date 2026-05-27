@@ -1,2 +1,0 @@
-(ringlight)=
-# **Ring Light**
