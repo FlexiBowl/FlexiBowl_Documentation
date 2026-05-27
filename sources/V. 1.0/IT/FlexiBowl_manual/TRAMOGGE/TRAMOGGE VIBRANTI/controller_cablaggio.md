@@ -117,43 +117,57 @@ Per eseguire l’avviamento, procedere come descritto:
 
 ![Controller con Puntatori](../../../../../_shared/media/images/controller_puntatori.png)
 
-Per rispetto della normativa EMC il circuito è dotato di filtro con correnti di perdita verso terra inferiore a 1mA. Il circuito fornisce al vibratore un segnale di comando modulato in larghezza di impulsi (PWM) regolabile sia in Ampiezza che in Frequenza. Tale segnale è compensato nei confronti delle variazioni della tensione di linea.
+Per rispetto della normativa EMC il circuito è dotato di filtro con correnti di perdita verso terra inferiore a 1 mA.  
+ Il circuito fornisce al vibratore un segnale PWM (modulazione in larghezza di impulso) regolabile in ampiezza e in frequenza, compensato rispetto alle variazioni della tensione di linea.  
+  La sezione di controllo è isolata galvanicamente dalla sezione di potenza.  
+   All'accensione il circuito attende qualche secondo prima di abilitare il vibratore.
 
-Il circuito è controllato da microprocessore ed è dotato di limitazione della corrente in uscita tramite fusibile 4A (F4). 
+Il circuito è controllato da microprocessore ed è dotato di limitazione della corrente in uscita tramite fusibile F4 (4 A).
 
-**Protezioni tramite fusibili:**
-* **F1 (6,3A):** sull’ingresso di linea.
-* **F3 (250mA):** sull’ingresso di ON/OFF (limita la corrente disponibile per il sensore NPN/PNP e un'eventuale elettrovalvola).
-* **F4 (4A):** sull’uscita del vibratore. 
+**Protezioni tramite fusibili**
 
-**Indicatori LED interni alla scheda:**
-* **LED verde (LD2):** acceso indica la presenza di tensione nel circuito di controllo. È spento se sono rotti F1 e/o F2 e/o F3.
-* **LED rosso (LD1):** acceso indica la presenza di alta tensione sui condensatori di filtraggio (sino a oltre 300V con 230V di linea).
+| Fusibile | Valore | Posizione |
+| :--- | :--- | :--- |
+| **F1** | 6,3 A | Ingresso di linea |
+| **F3** | 250 mA | Ingresso ON/OFF — limita la corrente disponibile per il sensore NPN/PNP e l'eventuale elettrovalvola |
+| **F4** | 4 A | Uscita vibratore |
+
+**Indicatori LED interni alla scheda**
+
+| LED | Colore | Stato: acceso |
+| :--- | :--- | :--- |
+| **LD1** | Rosso | Alta tensione presente sui condensatori di filtraggio (fino a oltre 300 V con 230 V di linea) |
+| **LD2** | Verde | Tensione presente nel circuito di controllo. Spento se F1, F2 o F3 sono interrotti |
+| **LD3** | Verde | Relè ON/OFF commutato — vibratore in marcia o in arresto |
+| **LD4** | Giallo | Relè commutato per superamento del tempo di mancanza pezzi |
 
 :::{attention}
-Evitare assolutamente di toccare il circuito con il led rosso acceso.
+Evitare assolutamente di toccare il circuito con il LED rosso (LD1) acceso.
 :::
 
-* **LED verde (LD3):** acceso indica l’avvenuta commutazione del relè di ON/OFF in concomitanza con la marcia/arresto del vibratore.
-* **LED giallo (LD4):** acceso indica la commutazione del relè per avvenuto superamento del tempo di mancanza pezzi. Tali relè hanno in corrispondenza dei connettori (**CONN4 - CONN5**) la possibilità di prelevare il loro contatto in scambio e quindi attivare un eventuale modulo in cascata (**CONN4**) o un allarme di flusso pezzi (**CONN5**). 
+I relè associati a LD3 e LD4 espongono un contatto in scambio sui connettori **CONN4** e **CONN5**: **CONN4** consente il pilotaggio in cascata di un modulo aggiuntivo, **CONN5** l'attivazione di un allarme di flusso pezzi.
 
-Tutta la sezione di controllo è isolata galvanicamente dalla sezione di potenza. All’accensione il circuito attende qualche secondo prima di abilitare il vibratore. Il circuito è in grado di compensare le variazioni della tensione di linea mantenendo costante la tensione sul vibratore. 
+**Regolazioni disponibili**
 
-È possibile eseguire le seguenti operazioni: 
-* Regolare il tempo di ritardo alla partenza del vibratore con il trimmer **TR3** (0/10 sec) o di ritardo al fermo del vibratore con il trimmer **TR2** (0/10 sec). 
-* Regolare con **TR4** l’ampiezza massima. 
-* Regolare con **TR5** il ritardo in avvio. 
-* Regolare con **TR6** l’ampiezza minima.
-* Bloccare e fare ripartire il vibratore con un comando esterno proveniente sia da contatto pulito che da sensore NPN o PNP oppure da una uscita 0/24V, inserendo o meno i ritardi sopra menzionati (vedi particolare **CONN3**). Con **DP1** si può selezionare la logica diritta o negata del segnale di ON/OFF proveniente dal sensore o dal contatto collegati a **CONN3**.
+I trimmer sulla scheda permettono di adattare il comportamento del vibratore all'applicazione:
 
-Il Relè ON/OFF (**CONN4**) commuta ogni qualvolta viene a mancare la tensione in uscita sul vibratore. Tale contatto serve anche per il pilotaggio in cascata delle varie unità vibranti nei sistemi di caricamento multipli.
+- **TR2** — ritardo al fermo del vibratore (0 ÷ 10 sec)
+- **TR3** — ritardo alla partenza del vibratore (0 ÷ 10 sec)
+- **TR4** — ampiezza massima
+- **TR5** — ritardo aggiuntivo in avvio
+- **TR6** — ampiezza minima
 
-**Configurazione standard consigliata da ARS:**
-* **DP1:** entrambi gli switch in posizione **ON**.
-* **DP2:** switch 2 in posizione **ON** e switch 1 in posizione **OFF**.
-* **TR2 e TR3:** ruotare la vite di regolazione in senso antiorario fino a fine corsa.
-* **CONN3:** start a tramoggia con contatto pulito.
+Il vibratore può essere bloccato e riavviato tramite comando esterno su **CONN3**, compatibile con contatto pulito, sensore NPN/PNP o uscita 0–24 V, con o senza i ritardi configurati.  
+ Tramite **DP1** è possibile selezionare la logica diritta o negata del segnale ON/OFF.
 
+**Configurazione standard consigliata da ARS**
+
+| Componente | Impostazione |
+| :--- | :--- |
+| **DP1** | Entrambi gli switch in posizione ON |
+| **DP2** | Switch 2 ON — Switch 1 OFF |
+| **TR2 e TR3** | Vite di regolazione in senso antiorario fino a fine corsa |
+| **CONN3** | Start a tramoggia con contatto pulito |
 
 ![Disegno Controller](../../../../../_shared/media/images/disegno_controller.jpg)
 
@@ -161,7 +175,7 @@ Il Relè ON/OFF (**CONN4**) commuta ogni qualvolta viene a mancare la tensione i
 
 ### Controller analogico
 
-![Controller Analogico](../../../../../_shared/media/images/controller_analogico.jpg)
+![Controller Analogico](../../../../../_shared/media/images/controller_analogico.png)
 
 #### Connessioni elettriche e setup controller
 
@@ -200,50 +214,69 @@ Per eseguire l’avviamento, procedere come descritto e fare riferimento all’i
   </div>
 </div>
 
-Per rispetto della normativa EMC il circuito è dotato di filtro con correnti di perdita verso terra inferiore a 1mA. Il circuito fornisce al vibratore un segnale di comando modulato in larghezza di impulsi (PWM) regolabile sia in Ampiezza (tramite segnale analogico) che in Frequenza tramite trimmer **TR1**. Tale segnale è compensato nei confronti delle variazioni della tensione di linea.
+Per rispetto della normativa EMC il circuito è dotato di filtro con correnti di perdita verso terra inferiore a 1 mA.  
+ Il circuito fornisce al vibratore un segnale PWM regolabile in ampiezza tramite segnale analogico e in frequenza tramite il trimmer **TR1**.  
+  Il segnale è compensato rispetto alle variazioni della tensione di linea. La sezione di controllo è isolata galvanicamente dalla sezione di potenza.  
+   All'accensione il circuito attende qualche secondo prima di abilitare il vibratore.
 
-Il circuito è controllato da microprocessore ed è dotato di limitazione della corrente in uscita tramite fusibile 4A (F4).
+Il circuito è controllato da microprocessore ed è dotato di limitazione della corrente in uscita tramite fusibile F4 (4 A).
 
-**Protezioni tramite fusibili:**
-* **F1-F2 (6,3A):** sull’ingresso di linea.
-* **F3 (250mA):** sull’ingresso di ON/OFF (limita la corrente disponibile per il sensore NPN/PNP e un'eventuale elettrovalvola).
-* **F4 (4A):** sull’uscita del vibratore.
+**Protezioni tramite fusibili**
 
-**Indicatori LED interni alla scheda:**
-* **LED verde (LD2):** acceso indica la presenza di tensione nel circuito di controllo. È spento se sono rotti F1 e/o F2 e/o F3.
-* **LED rosso (LD1):** acceso indica la presenza di alta tensione sui condensatori di filtraggio (sino a oltre 300V con 230V di linea).
+| Fusibile | Valore | Posizione |
+| :--- | :--- | :--- |
+| **F1–F2** | 6,3 A | Ingresso di linea |
+| **F3** | 250 mA | Ingresso ON/OFF — limita la corrente disponibile per il sensore NPN/PNP e l'eventuale elettrovalvola |
+| **F4** | 4 A | Uscita vibratore |
+
+**Indicatori LED interni alla scheda**
+
+| LED | Colore | Stato: acceso |
+| :--- | :--- | :--- |
+| **LD1** | Rosso | Alta tensione presente sui condensatori di filtraggio (fino a oltre 300 V con 230 V di linea) |
+| **LD2** | Verde | Tensione presente nel circuito di controllo. Spento se F1, F2 o F3 sono interrotti |
+| **LD3** | Verde | Relè ON/OFF commutato — vibratore in marcia o in arresto |
+| **LD4** | Giallo | Relè commutato per superamento del tempo di mancanza pezzi |
 
 :::{attention}
-Evitare assolutamente di toccare il circuito con il led rosso acceso.
+Evitare assolutamente di toccare il circuito con il LED rosso (LD1) acceso.
 :::
 
-* **LED verde (LD3):** acceso indica l’avvenuta commutazione del relè di ON/OFF in concomitanza con la marcia/arresto del vibratore.
-* **LED giallo (LD4):** acceso indica la commutazione del relè per avvenuto superamento del tempo di mancanza pezzi. Tali relè hanno in corrispondenza dei connettori (**CONN4 - CONN5**) la possibilità di prelevare il loro contatto in scambio e quindi attivare un eventuale modulo in cascata (**CONN4**) o un allarme di flusso pezzi (**CONN5**).
+I relè associati a LD3 e LD4 espongono un contatto in scambio sui connettori **CONN4** e **CONN5**: **CONN4** consente il pilotaggio in cascata di un modulo aggiuntivo, **CONN5** l'attivazione di un allarme di flusso pezzi.
 
-Tutta la sezione di controllo è isolata galvanicamente dalla sezione di potenza. All’accensione il circuito attende qualche secondo prima di abilitare il vibratore. Il circuito è in grado di compensare le variazioni della tensione di linea mantenendo costante la tensione sul vibratore. 
+**Regolazioni disponibili**
 
-È possibile eseguire le seguenti operazioni tramite regolazioni dedicate:
-* Regolare il tempo di ritardo alla partenza del vibratore con il trimmer **TR3** (0/10 sec) o di ritardo al fermo del vibratore con il trimmer **TR2** (0/10 sec).
-* Regolare con **TR4** il tempo di ritardo oltre il quale scatta l’allarme mancanza pezzi (0/10 sec).
-* Regolare con **TR5** il tempo aggiuntivo di attivazione dell'elettrovalvola di soffio aria una volta arrestato il vibratore (0/3 sec).
-* Regolare con **TR6** la rampa all’accensione del vibratore (0/3 sec).
-* Regolare con **TR7** la massima ampiezza sul vibratore.
-* Bloccare e fare ripartire il vibratore con un comando esterno proveniente sia da contatto pulito che da sensore NPN o PNP oppure da una uscita 0/24V, inserendo o meno i ritardi sopra menzionati (vedi particolare **CONN3**).
-* Tramite il **DP1** si può selezionare la logica NC o NO del segnale di ON/OFF proveniente dal sensore o dal contatto collegati a **CONN3**.
-* Impostare la tensione analogica in base alla vibrazione necessaria.
+I trimmer sulla scheda permettono di adattare il comportamento del vibratore all'applicazione:
 
-Il Relè ON/OFF (**CONN4**) commuta ogni qualvolta viene a mancare la tensione in uscita sul vibratore. Tale contatto serve anche per il pilotaggio in cascata delle varie unità vibranti nei sistemi di caricamento multipli.
+- **TR2** — ritardo al fermo del vibratore (0 ÷ 10 sec)
+- **TR3** — ritardo alla partenza del vibratore (0 ÷ 10 sec)
+- **TR4** — ritardo oltre il quale scatta l'allarme mancanza pezzi (0 ÷ 10 sec)
+- **TR5** — tempo aggiuntivo di attivazione dell'elettrovalvola di soffio aria dopo l'arresto del vibratore (0 ÷ 3 sec)
+- **TR6** — rampa all'accensione del vibratore (0 ÷ 3 sec)
+- **TR7** — ampiezza massima sul vibratore
 
-**Configurazione standard consigliata da ARS:**
-* **DP1:** entrambi gli switch in posizione **ON**.
-* **DP2:** switch 1 in posizione **ON** e switch 2 in posizione **OFF**.
-* **TR2 e TR3:** ruotare la vite di regolazione in senso antiorario fino a fine corsa.
-* **CONN3:** start a tramoggia con contatto pulito.
+Il vibratore può essere bloccato e riavviato tramite comando esterno su **CONN3**, compatibile con contatto pulito, sensore NPN/PNP o uscita 0–24 V, con o senza i ritardi configurati.  
+ Tramite **DP1** è possibile selezionare la logica NC o NO del segnale ON/OFF.    
+ L'ampiezza di vibrazione si regola impostando la tensione analogica appropriata su **CONN7**.
+
+**Configurazione standard consigliata da ARS**
+
+| Componente | Impostazione |
+| :--- | :--- |
+| **DP1** | Entrambi gli switch in posizione ON |
+| **DP2** | Switch 1 ON — Switch 2 OFF |
+| **TR2 e TR3** | Vite di regolazione in senso antiorario fino a fine corsa |
+| **CONN3** | Start a tramoggia con contatto pulito |
 
 
 ![Schema Controller](../../../../../_shared/media/images/controller_schema.png)
 
+## **Messa in servizio della tramoggia**
 
+:::{important}
+- Se il sistema include **FlexiVision One**, la configurazione dei parametri della tramoggia è guidata nella sezione [Configurazione Tramoggia]().
+- Altrimenti, fare riferimento alla sezione [Hopper](hopper) di questo manuale.
+:::
 
 
 

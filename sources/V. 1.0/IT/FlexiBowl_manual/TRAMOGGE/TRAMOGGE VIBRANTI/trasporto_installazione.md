@@ -41,7 +41,7 @@ Seguire la seguente tabella per pesi e dimensioni comprensivi di imballo.
 
 | Specifica | Tramoggia 1,5lt | Tramoggia 3lt | Tramoggia 5lt | Tramoggia 10lt | Tramoggia 20lt | Tramoggia 40lt |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Peso lordo** <br>*(con imballo)* | 28 kg | 28 kg | 39 kg | 41 kg | 59 kg | 700 x 700 x 500 <br>*(Verificare valore)* |
+| **Peso lordo** <br>*(con imballo)* | 28 kg | 28 kg | 39 kg | 41 kg | 59 kg | *(Verificare valore)* |
 | **Dimensioni cassa di legno** <br>*(L x P x H in mm)* | 700 x 700 x 500 | 700 x 700 x 500 | 700 x 700 x 500 | 700 x 700 x 500 | 1000 x 1000 x 500 | 1000 x 1000 x 500 |
 
 :::{attention}
