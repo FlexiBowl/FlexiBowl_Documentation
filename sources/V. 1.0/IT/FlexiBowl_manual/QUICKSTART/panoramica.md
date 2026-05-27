@@ -198,6 +198,22 @@ Questa pagina fornisce una visione d'insieme del processo di configurazione e me
     </div>
   </div>
 
+ <!-- Step 5 -->
+  <div class="qs-step">
+    <div class="qs-left">
+      <div class="qs-number">5</div>
+      <div class="qs-connector"></div>
+    </div>
+    <div class="qs-card">
+      <div class="qs-card-title">
+        <i class="ph ph-sliders"></i>
+        <a class="qs-title-link" href="conf_tramoggia.html">Configurazione Tramoggia</a>
+      </div>
+      <p class="qs-card-desc">
+        Utilizzare la configurazione guidata per caratterizzare il comportamento della tramoggia.
+      </p>
+    </div>
+  </div>
 </div>
 
 :::{note}

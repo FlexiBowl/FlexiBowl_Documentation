@@ -173,6 +173,15 @@ FlexiBowl_manual/QUICKSTART/installazione_meccanica.md
 FlexiBowl_manual/QUICKSTART/cablaggio_FB.md
 FlexiBowl_manual/QUICKSTART/conf_interfaccia.md
 FlexiBowl_manual/QUICKSTART/FB_wizard.md
+FlexiBowl_manual/QUICKSTART/conf_tramoggia.md
+:::
+
+:::{toctree}  
+:hidden:
+:caption: MODALITA DI FUNZIONAMENTO 
+FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_standard.md
+FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_mix.md
+FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_tracking.md
 :::
 
 :::{toctree}  
@@ -193,15 +202,12 @@ FlexiBowl_manual/LAYOUT BEST PRACTICE/01_layoutbp.md
 FlexiBowl_manual/ACCESSORI/00_ACCESSORI.md
 FlexiBowl_manual/ACCESSORI/01_SUPERFICI.md
 FlexiBowl_manual/ACCESSORI/02_DISCHI_RIGIDI.md
-FlexiBowl_manual/ACCESSORI/03_BACKLIGHT.md
-FlexiBowl_manual/ACCESSORI/04_TOPLIGHT.md
+FlexiBowl_manual/ACCESSORI/03_04_illuminazione.md
 FlexiBowl_manual/ACCESSORI/05_DEVIATORE.md
 FlexiBowl_manual/ACCESSORI/06_SOFFI.md
 FlexiBowl_manual/ACCESSORI/07_BRUSH_DIVERTER.md
 FlexiBowl_manual/ACCESSORI/08_WEDGE.md
 FlexiBowl_manual/ACCESSORI/09_SVUOTAMENTO.md
-FlexiBowl_manual/ACCESSORI/10_TRACKING.md
-FlexiBowl_manual/ACCESSORI/11_RINGLIGHT.md
 :::
 
 :::{toctree}  
@@ -241,4 +247,14 @@ FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 FlexiBowl_manual/TRAMOGGE/TRAMOGGE VIBRANTI/tramogge_vibranti.md
 FlexiBowl_manual/TRAMOGGE/TRAMOGGE A NASTRO/tramogge_nastro.md
 
+:::
+
+:::{toctree}
+:hidden:
+:caption: FLEXIBOWL 2.0 VS FLEXIBOWL 3.0
+FlexiBowl_manual/COMPARATIVA/panoramica.md
+FlexiBowl_manual/COMPARATIVA/comparativa_meccanica.md
+FlexiBowl_manual/COMPARATIVA/comparativa_elettrica.md
+FlexiBowl_manual/COMPARATIVA/comparativa_pneumatica.md
+FlexiBowl_manual/COMPARATIVA/comparativa_software.md
 :::
