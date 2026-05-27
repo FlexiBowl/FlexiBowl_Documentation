@@ -12,7 +12,7 @@ Il vostro parere è fondamentale per noi: non esitate a fornirci il vostro feedb
 </a>
   
 ## **Cosa è FlexiBowl?**  
-Il FlexiBowl® è un sistema di alminentazione flessibile a disco rotante vibrante per il posizionamento e orientamento casuale dei componenti ai fini del prelievo robotico.
+Il FlexiBowl® è un sistema di alminentazione flessibile a disco rotante o vibrante per il posizionamento e orientamento casuale dei componenti ai fini del prelievo robotico.
 
 ## **Panoramica del sistema** 
 L'area di lavoro del FlexiBowl® è virtualmente divisa in quattro parti, ognuna dedicata a una fase del ciclo di lavoro:

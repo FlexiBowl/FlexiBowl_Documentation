@@ -63,19 +63,27 @@
        </tr>
        <tr>
          <td><strong>Minima pressione di alimentazione aria</strong></td>
-         <td colspan="6">7 Bar</td>
+         <td colspan="5">2 Bar</td><td>2 Bar*</td>
        </tr>
+       <tr>
+         <td><strong>Massima pressione di alimentazione aria</strong></td>
+         <td colspan="6">7 Bar</td>
+       </tr>       
        <tr>
          <td><strong>Consumo aria</strong></td>
          <td></td><td></td><td></td><td></td><td></td><td></td>
        </tr>
        <tr>
          <td><strong>Ø tubo di alimentazione pneumatica</strong></td>
-         <td>Ø6 mm</td>
-         <td colspan="5">Ø8 mm</td>
+         <td colspan="2">Ø6 mm</td>
+         <td colspan="4">Ø8 mm</td>
        </tr>
      </tbody>
    </table>
+:::
+
+:::{note}
+*La pressione minima di alimentazione per il FlexiBowl® 1200 diventa di 3 bar in caso sia provvisto di svuotamento.
 :::
 
 :::{warning}
