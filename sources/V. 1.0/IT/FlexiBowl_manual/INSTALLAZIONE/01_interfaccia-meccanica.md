@@ -27,21 +27,9 @@ Le spine di centraggio sono opzionali e non incluse con il FlexiBowl®.
 :align: center
 :::
 
-### Svuotamento (solo per FlexiBowl® 500)
-
-:::{figure} ../../../../_shared/media/images/AS000004_Interfaccia1.PNG
-:align: center
-:::
-
 ## FlexiBowl® 650
 
 :::{figure} ../../../../_shared/media/images/AS000008_Interfaccia.PNG
-:align: center
-:::
-
-### Svuotamento
-
-:::{figure} ../../../../_shared/media/images/AS000008_Interfaccia1.PNG
 :align: center
 :::
 
@@ -51,21 +39,37 @@ Le spine di centraggio sono opzionali e non incluse con il FlexiBowl®.
 :align: center
 :::
 
-### Svuotamento
-
-:::{figure} ../../../../_shared/media/images/AS000006_Interfaccia1.PNG
-:align: center
-:::
-
 ## FlexiBowl® 1200
 
 :::{figure} ../../../../_shared/media/images/AS000012_Interfaccia.PNG
 :align: center
 :::
 
-### Svuotamento
+## Interfaccia dello {ref}`svuotamento <emptying>`
 
-:::{figure} ../../../../_shared/media/images/AS000012_Interfaccia1.PNG
+Seguono le interfacce di foratura e le posizioni e ampiezze dello sportello di fuoriuscita per le varie taglie di FlexiBowl®
+
+### FlexiBowl® 500
+
+:::{figure} ../../../../_shared/media/images/FB500-SV.PNG
+:align: center
+:::
+
+### FlexiBowl® 650
+
+:::{figure} ../../../../_shared/media/images/FB650-SV.PNG
+:align: center
+:::
+
+### FlexiBowl® 800
+
+:::{figure} ../../../../_shared/media/images/FB800-SV.PNG
+:align: center
+:::
+
+### FlexiBowl® 1200
+
+:::{figure} ../../../../_shared/media/images/FB1200-SV.PNG
 :align: center
 :::
 
