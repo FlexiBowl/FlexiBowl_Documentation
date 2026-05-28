@@ -277,15 +277,34 @@ Fare riferimento alla seguente tabella per la classificazione del livello di ris
 Gli illuminatori infrarossi emettono luce non visibile e perciò possono apparire non funzionanti. Controllare con una telecamera con un filtro ad infrarossi installato per verificarne il funzionamento. La maggior parte degli smartphone visualizzano gli infrarossi.
 :::
 
+(temp)=
 ### Temperatura
 
-
-:::{warning}
+::::{warning}
 In condizioni di utilizzo intenso o ambienti caldi, alcuni componenti del sistema possono raggiungere temperature elevate:
 
-- Calotta stringi-disco: fino a...
-- Motore: fino a...
+- Calotta stringi-disco: fino a 65°C
+- Motore: fino a 80°C
+
+Il pianale superiore del telaio può presentare una zona calda ampia circa quanto il foro centrale ampliato del 25%:
+
+:::{figure} ../../../../_shared/media/images/FB800_zone-calde.PNG
+    :width: 80%
+    :align: center
 :::
+
+{strong}`NOTA:` Questi valori sono stati ottenuti facendo funzionare il FlexiBowl® in maniera continuativa per due settimane in un ambiente ristretto e privo di ventilazione utilizzando i seguenti parametri:
+
+:::{raw} html
+<p class="centered-params">
+  Move 90° <br>
+  Pause 1000 ms <br>
+  Shake +45° -45° <br>
+  Pause 1000 ms
+</p>
+:::
+
+::::
 
 ### Vibrazioni
 

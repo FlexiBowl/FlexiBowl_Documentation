@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/styles/sphinx-book-theme.css?v=3c74b3bc" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/custom.css?v=6d30af43" />
+    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/custom.css?v=cca84279" />
   
   <!-- So that users can add custom icons -->
   <script src="../../../../_shared/static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
@@ -739,15 +739,26 @@ essere diverso da quello sopra riportato poiché il rumore è influenzato da var
 </div>
 </section>
 <section id="temperatura">
-<h3>Temperatura<a class="headerlink" href="#temperatura" title="Link to this heading">#</a></h3>
+<span id="temp"></span><h3>Temperatura<a class="headerlink" href="#temperatura" title="Link to this heading">#</a></h3>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>In condizioni di utilizzo intenso o ambienti caldi, alcuni componenti del sistema possono raggiungere temperature elevate:</p>
 <ul class="simple">
-<li><p>Calotta stringi-disco: fino a…</p></li>
-<li><p>Motore: fino a…</p></li>
+<li><p>Calotta stringi-disco: fino a 65°C</p></li>
+<li><p>Motore: fino a 80°C</p></li>
 </ul>
-</div>
+<p>Il pianale superiore del telaio può presentare una zona calda ampia circa quanto il foro centrale ampliato del 25%:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/FB800_zone-calde.PNG"><img alt="../../_images/FB800_zone-calde.PNG" src="../../_images/FB800_zone-calde.PNG" style="width: 80%;" />
+</a>
+</figure>
+<p><strong>NOTA:</strong> Questi valori sono stati ottenuti facendo funzionare il FlexiBowl® in maniera continuativa per due settimane in un ambiente ristretto e privo di ventilazione utilizzando i seguenti parametri:</p>
+<p class="centered-params">
+  Move 90° <br>
+  Pause 1000 ms <br>
+  Shake +45° -45° <br>
+  Pause 1000 ms
+</p></div>
 </section>
 <section id="vibrazioni">
 <h3>Vibrazioni<a class="headerlink" href="#vibrazioni" title="Link to this heading">#</a></h3>
@@ -1235,7 +1246,7 @@ transito o di comando.</p></li>
     const versions = Array.isArray(manifest && manifest.versions) && manifest.versions.length
       ? manifest.versions
       : inlineVersions;
-    const offlineZipEnabled = true;
+    const offlineZipEnabled = false;
     const offlineZipFileName = 'Offline manual.zip';
     const americanRegions = new Set([
       'AG', 'AR', 'AW', 'BB', 'BL', 'BM', 'BO', 'BQ', 'BR', 'BS', 'BZ', 'CA', 'CL', 'CO', 'CR',

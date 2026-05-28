@@ -10,6 +10,10 @@ In ogni caso si consiglia di cambiare la superficie o disco rigido:
 Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la sostituzione della superficie o del disco.
 :::
 
+:::{warning}
+Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+:::
+
 ## Superfici (FlexiBowl® 500-650-800-1200)
 
 ### Cosa serve?
