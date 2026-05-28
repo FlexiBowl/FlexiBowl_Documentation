@@ -1200,4 +1200,96 @@ Questa dimensione di Toplight è indicata per il modelli FlexiBowl® 1200
 | CE001338 | Cavo Alimentazione Toplight power 5M | M12 4 Pin Female |
 | CE001339 | Cavo Alimentazione Toplight power 10M | M12 4 Pin Female |
 
-## Schema dei fori di fissaggio
+## Fissaggio del toplight
+
+### Fissaggio sugli angoli
+
+Si può fissare il toplight sfruttando le asole aperte sui quattro angoli; si consiglia di utilizzare quattro viti M4x20 e di posizionarle in base alla taglia secondo la seguente tabella:
+
+:::{figure} ../../../../_shared/media/images/fixtoplight-angoli.PNG
+    :width: 80%
+    :align: center
+:::
+
+:::{list-table}
+:widths: 33 33 33
+:header-rows: 1
+
+* - Taglia Toplight
+  - 500x300
+  - 700x300
+  - 700x500
+  - 900x600
+
+* - Lunghezza A
+  - 498 mm
+  - 698 mm
+  - 698 mm
+  - 898 mm
+
+* - Lunghezza B
+  - 298 mm
+  - 298 mm
+  - 498 mm
+  - 598mm
+
+:::
+
+### Fissaggio sui fianchi
+
+Se necessario è anche possibile sfruttare le cave presenti sui fianchi del Toplight per il fissaggio, inserendo al loro interno un apposito dado e sfruttando delle viti M4:
+
+:::{figure} ../../../../_shared/media/images/fixtoplight-staffa.PNG
+    :width: 80%
+    :align: center
+:::
+
+:::{warning}
+Al fine di garantire la resistenza del fissaggio, dimensionare lo spessore **s** delle staffe di fissaggio in base al peso del toplight indicato nelle tabelle precedenti. La lunghezza della vite dipenderà dallo spessore appena menzionato in modo da non sprofondare più di 5mm all'interno della cava e garantire un corretto serraggio.
+:::
+
+::::::{error}
+
+:::::{grid} 2
+
+::::{grid-item}
+:::{figure} ../../../../_shared/media/images/toplight-staffealte.PNG
+:width: 80%
+:align: center
+
+Non appendere l'illuminatore dall'alto.
+:::
+::::
+
+::::{grid-item}
+:::{figure} ../../../../_shared/media/images/toplight-staffedef.PNG
+:width: 80%
+:align: center
+
+Non deformare la struttura di fissaggio del Toplight.
+:::
+::::
+:::::
+::::::
+
+::::::{tip}
+
+Seguono alcuni esempi di corretto montaggio del Toplight:
+
+:::::{grid} 2
+
+::::{grid-item}
+:::{figure} ../../../../_shared/media/images/toplight-staffebasse.PNG
+:width: 80%
+:align: center
+:::
+::::
+
+::::{grid-item}
+:::{figure} ../../../../_shared/media/images/toplight-steso.PNG
+:width: 80%
+:align: center
+:::
+::::
+:::::
+::::::

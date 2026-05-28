@@ -19,7 +19,7 @@ Esistono inoltre due tipi di Backlight:
 
 ```{dropdown} Backlight per FB200
 
-![Backlight 200](../../../../_shared/media/images/backlight200.png)
+![Backlight 200](../../../../_shared/media/images/backlight200.PNG)
 
 | Articoli | CE001136 | CE001132 | CE001134 |
 |--|--|--|--|
@@ -37,7 +37,7 @@ Esistono inoltre due tipi di Backlight:
 
 ```{dropdown} Backlight per FB350
 
-% ![Backlight 350](../../../../_shared/media/images/backlight350.png)
+![Backlight 350](../../../../_shared/media/images/backlight350.PNG)
 
 | Articoli | CE001142 | CE001139 | CE001140 |
 |--|--|--|--|
@@ -55,7 +55,7 @@ Esistono inoltre due tipi di Backlight:
 
 ```{dropdown} Backlight per FB500
 
-% ![Backlight 500](../../../../_shared/media/images/backlight500.png)
+![Backlight 500](../../../../_shared/media/images/backlight500.PNG)
 
 | Articoli | CE001148 | CE001144 | CE001146 |
 |--|--|--|--|
@@ -73,7 +73,7 @@ Esistono inoltre due tipi di Backlight:
 
 ```{dropdown} Backlight per FB650
 
-% ![Backlight 650](../../../../_shared/media/images/backlight650.png)
+![Backlight 650](../../../../_shared/media/images/backlight650.PNG)
 
 | Articoli | CE000306 | CE000273 | CE000305 |
 |--|--|--|--|
@@ -92,7 +92,7 @@ Esistono inoltre due tipi di Backlight:
 
 ```{dropdown} Backlight per FB800
 
-% ![Backlight 800](../../../../_shared/media/images/backlight800.png)
+![Backlight 800](../../../../_shared/media/images/backlight800.PNG)
 
 | Articoli | CE001154 | CE001150 | CE001152 |
 |--|--|--|--|
@@ -110,7 +110,7 @@ Esistono inoltre due tipi di Backlight:
 
 ```{dropdown} Backlight per FB1200
 
-% ![Backlight 1200](../../../../_shared/media/images/backlight1200.png)
+![Backlight 1200](../../../../_shared/media/images/backlight1200.PNG)
 
 | Articoli | GE000051 | GE000052 | GE000050 |
 |--|--|--|--|
