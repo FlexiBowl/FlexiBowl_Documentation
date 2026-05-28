@@ -1,3 +1,4 @@
+(dischi)=
 # **Dischi rigidi**
 
 I dischi rigidi sono l'alternativa alle superfici adatta ai FlexiBowl® in verrsione edge:

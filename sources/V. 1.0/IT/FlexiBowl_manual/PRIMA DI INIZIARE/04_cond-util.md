@@ -93,20 +93,20 @@ In particolare l’ambiente di installazione e utilizzo non deve presentare:
 Il FlexiBowl® è progettato e costruito per funzionare, in sicurezza, nelle seguenti condizioni ambientali:
 
 :::{list-table}
-:widths: 50 25
+:widths: 25 25 25 25
 :header-rows: 1
 
-* - Condizioni ambientali ammesse
-  - 
-
-* - Temperatura ambiente
-  - +5 ÷ +40 °C
-
-* - Range di umidità relativa
-  - 10 ÷ 80 % (senza condensa)
-
 * - Grado di protezione del FlexiBowl®
-  - IP40
+  - Temperatura ambiente durante il funzionamento
+  - Temperatura ambiente durante lo stoccaggio
+  - Umidità relativa massima
+
+* - IP40
+  - +5 ÷ +40 °C
+  - -10 ÷ 65 °C
+  - 85%
+
+:::
 
 :::{warning}
 Condizioni ambientali diverse da quelle specificate possono causare gravi danni alla macchina. 
