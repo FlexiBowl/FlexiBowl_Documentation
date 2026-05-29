@@ -39,7 +39,7 @@ Esistono inoltre due tipi di Backlight:
 
 ```{dropdown} Backlight per FB350
 
-% ![Backlight 350](../../../../_shared/media/images/backlight350.png)
+![Backlight 350](../../../../_shared/media/images/backlight350.png)
 
 | Articoli | CE001142 | CE001139 | CE001140 |
 |--|--|--|--|
@@ -57,7 +57,7 @@ Esistono inoltre due tipi di Backlight:
 
 ```{dropdown} Backlight per FB500
 
-% ![Backlight 500](../../../../_shared/media/images/backlight500.png)
+![Backlight 500](../../../../_shared/media/images/backlight500.png)
 
 | Articoli | CE001148 | CE001144 | CE001146 |
 |--|--|--|--|
@@ -75,7 +75,7 @@ Esistono inoltre due tipi di Backlight:
 
 ```{dropdown} Backlight per FB650
 
-% ![Backlight 650](../../../../_shared/media/images/backlight650.png)
+![Backlight 650](../../../../_shared/media/images/backlight650.png)
 
 | Articoli | CE000306 | CE000273 | CE000305 |
 |--|--|--|--|
@@ -94,7 +94,7 @@ Esistono inoltre due tipi di Backlight:
 
 ```{dropdown} Backlight per FB800
 
-% ![Backlight 800](../../../../_shared/media/images/backlight800.png)
+![Backlight 800](../../../../_shared/media/images/backlight800.png)
 
 | Articoli | CE001154 | CE001150 | CE001152 |
 |--|--|--|--|
@@ -112,7 +112,7 @@ Esistono inoltre due tipi di Backlight:
 
 ```{dropdown} Backlight per FB1200
 
-% ![Backlight 1200](../../../../_shared/media/images/backlight1200.png)
+![Backlight 1200](../../../../_shared/media/images/backlight1200.png)
 
 | Articoli | GE000051 | GE000052 | GE000050 |
 |--|--|--|--|
@@ -1453,6 +1453,35 @@ Il fissaggio sull'angolo utilizza viti CHC M4x20 (non fornite) applicate nei for
 
 Fissaggio sull'angolo tramite vite CHC M4x20 (non fornita).
 ```
+
+:::{figure} ../../../../_shared/media/images/tlfix-angoli.PNG 
+:align: center
+:width: 100%
+:::
+
+:::{list-table}
+:widths: 33 33 33
+:header-rows: 1
+
+* - Taglia
+  - 500x300
+  - 700x300
+  - 700x500
+  - 900x600
+
+* - Distanza A
+  - 498 mm
+  - 698 mm
+  - 698 mm
+  - 898 mm
+
+* - Distanza B
+  - 298 mm
+  - 298 mm
+  - 498 mm
+  - 598 mm
+
+:::
 
 (lato)=
 #### *2. Fissaggio sul lato (scanalatura)*
