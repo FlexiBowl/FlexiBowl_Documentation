@@ -16,49 +16,43 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "light";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
   </script>
-  <!--
-    this give us a css class that will be invisible only if js is disabled
-  -->
-  <noscript>
-    <style>
-      .pst-js-only { display: none !important; }
-
-    </style>
-  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../../../_shared/static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
-<link href="../../../../_shared/static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+  <link href="../../../../_shared/static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../_shared/static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../_shared/static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../../../_shared/static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_shared/static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_shared/static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_shared/static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/pygments.css?v=8f2a1f02" />
-    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/custom.css?v=cca84279" />
+    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/custom.css?v=8b077f27" />
   
-  <!-- So that users can add custom icons -->
-  <script src="../../../../_shared/static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../../../_shared/static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
-<link rel="preload" as="script" href="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+  <link rel="preload" as="script" href="../../../../_shared/static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../../_shared/static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script src="../../../../_shared/static/documentation_options.js?v=a681ed88"></script>
-    <script src="../../../../_shared/static/doctools.js?v=fd6eb6e6"></script>
-    <script src="../../../../_shared/static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../_shared/static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../_shared/static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../../../_shared/static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../../../../_shared/static/copybutton.js?v=f281be69"></script>
-    <script src="../../../../_shared/static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script src="../../../../_shared/static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script src="../../../../_shared/static/design-tabs.js?v=f930bc37"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'FlexiBowl_manual/QUICKSTART/quickstart';</script>
     <script src="../../../../_shared/static/versioning-data.js?v=37039824"></script>
     <script src="../../../../_shared/static/fix_print.js?v=d332f839"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Plug-In" href="../PLUG-IN/01_PlugIn.html" />
-    <link rel="prev" title="Interfaccia Software" href="../INSTALLAZIONE/04_interfaccia-software.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -74,8 +68,19 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <dialog id="pst-search-dialog">
-    
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
       action="../../search.html"
       method="get">
@@ -83,6 +88,7 @@
   <input type="search"
          class="form-control"
          name="q"
+         id="search-input"
          placeholder="Search..."
          aria-label="Search..."
          autocomplete="off"
@@ -90,8 +96,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-  </dialog>
+</form></div>
+  </div>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -107,16 +113,9 @@
       
       
       
-<<<<<<< Updated upstream
-=======
         
       
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-      <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+      <div class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -144,17 +143,21 @@
     
     
     <img src="../../../../_shared/static/logo.png" class="logo__image only-light" alt="FlexiVision One Manual - Home"/>
-    <img src="../../../../_shared/static/logo_dark.png" class="logo__image only-dark pst-js-only" alt="FlexiVision One Manual - Home"/>
+    <script>document.write(`<img src="../../../../_shared/static/logo_dark.png" class="logo__image only-dark" alt="FlexiVision One Manual - Home"/>`);</script>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button></div>
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">PRIMA DI INIZIARE</span></p>
@@ -181,9 +184,34 @@
 <li class="toctree-l1"><a class="reference internal" href="../INSTALLAZIONE/03_interfaccia-pneumatica.html"><strong>Interfaccia Pneumatica</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../INSTALLAZIONE/04_interfaccia-software.html"><strong>Interfaccia Software</strong></a></li>
 </ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">PANORAMICA SOFTWARE</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04_home.html"><strong>Home</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04b_maincommand.html"><strong>Main Command</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04c_sequence.html"><strong>Sequence</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04d_monitor.html"><strong>Monitor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04e_jogmotor.html"><strong>Jog Motor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04f_wizard.html"><strong>Wizard</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04g_manual.html">Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04h_graphs.html"><strong>Graphs</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04i_filetransfer.html"><strong>File Transfer</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04l_setup.html"><strong>Setup</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04m_hopper.html"><strong>Hopper</strong></a></li>
+</ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">QUICKSTART</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#"><strong>Quickstart</strong></a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="panoramica.html"><strong>Panoramica Operazioni</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="installazione_meccanica.html"><strong>Installazione del FlexiBowl®</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="cablaggio_FB.html"><strong>Cablaggio del FlexiBowl®</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="conf_interfaccia.html"><strong>Configurazione Interfaccia</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FB_wizard.html"><strong>FlexiBowl® Wizard</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="conf_tramoggia.html"><strong>Configurazione Tramoggia</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">MODALITA DI FUNZIONAMENTO</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../MODALITA%20FUNZIONAMENTO/modalita_standard.html"><strong>Modalità Standard</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../MODALITA%20FUNZIONAMENTO/modalita_mix.html"><strong>Modalità Mix</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../MODALITA%20FUNZIONAMENTO/modalita_tracking.html"><strong>Modalità Tracking</strong></a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">PLUG-IN</span></p>
 <ul class="nav bd-sidenav">
@@ -198,8 +226,10 @@
 <li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/00_ACCESSORI.html"><strong>Panoramica e compatibilità</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/01_SUPERFICI.html"><strong>Superfici</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/02_DISCHI_RIGIDI.html"><strong>Dischi rigidi</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/03_BACKLIGHT.html"><strong>Backlight</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/04_TOPLIGHT.html"><strong>Toplight</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/03_04_illuminazione.html"><strong>Illuminazione</strong></a></li>
+
+
+
 <li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/05_DEVIATORE.html"><strong>Deviatori Standard</strong></a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../ACCESSORI/06_SOFFI.html"><strong>Soffi</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../ACCESSORI/06-1_RADIALE.html"><strong>Soffi radiali</strong></a></li>
@@ -211,8 +241,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/07_BRUSH_DIVERTER.html"><strong>Brush Diverter</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/08_WEDGE.html"><strong>Wedge Diverter</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/09_SVUOTAMENTO.html"><strong>Svuotamento</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/10_TRACKING.html"><strong>Flexitracking</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/11_RINGLIGHT.html"><strong>Ring Light</strong></a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">MANUTENZIONE</span></p>
 <ul class="nav bd-sidenav">
@@ -251,6 +279,26 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../CERTIFICAZIONI/01_certificazioni.html"><strong>Certificazioni</strong></a></li>
 </ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">TRAMOGGE</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/tramogge_vibranti.html"><strong>Tramogge Vibranti</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/info_preliminari.html"><strong>Informazioni Preliminari Generali</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/descrizione_macchina.html"><strong>Descrizione Macchina</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/trasporto_installazione.html"><strong>Trasporto e Installazione</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/controller_cablaggio.html"><strong>Controller e Cablaggio</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/manutenzione.html"><strong>Manutenzione e Risoluzione Problemi</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/smaltimento_appendici.html"><strong>Messa Fuori Servizio e Smaltimento</strong></a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">FLEXIBOWL 2.0 VS FLEXIBOWL 3.0</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../COMPARATIVA/panoramica.html"><strong>Panoramica Comparativa</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../COMPARATIVA/comparativa_meccanica.html"><strong>Comparativa Meccanica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../COMPARATIVA/comparativa_elettrica.html"><strong>Comparativa Elettrica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../COMPARATIVA/comparativa_pneumatica.html"><strong>Comparativa Pneumatica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../COMPARATIVA/comparativa_software.html"><strong>Comparativa Software</strong></a></li>
+</ul>
 
     </div>
 </nav></div>
@@ -258,14 +306,9 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
-      <div class="sidebar-primary-item">
-<div id="ethical-ad-placement"
-      class="flat"
-      data-ea-publisher="readthedocs"
-      data-ea-type="readthedocs-sidebar"
-      data-ea-manual="true">
-</div></div>
   </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -348,7 +391,7 @@
 
 
 <button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  class="btn btn-sm btn-fullscreen-button"
   title="Fullscreen mode"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
@@ -362,39 +405,27 @@
 
 
 
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
-</button>
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
 
 
-<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-</button>
-<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
->>>>>>> Stashed changes
 </button>
-
-
-<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-</button>
-<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
->>>>>>> Stashed changes
-</button>
-
-
-<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-</button>
-
 </div></div>
       
     </div>
@@ -410,6 +441,26 @@
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ingressi-digitali-e-analogici-digital-i-o">Ingressi Digitali e Analogici (Digital I/O)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ingressi-disponibili-sul-connettore-principale">Ingressi disponibili sul connettore principale</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#connettore-sto-safety-torque-off">Connettore STO (Safety Torque Off)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#codifica-comandi-tramite-bit-digitali-bit-15">Codifica comandi tramite bit digitali (Bit 1–5)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#schema-configio-configurazione-plc-wago">Schema ConfigIO — Configurazione PLC (Wago)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ingressi-digitali-di-modulo-1">Ingressi digitali (DI) — Modulo 1</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uscite-digitali-do-modulo-1">Uscite digitali (DO) — Modulo 1</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ingressi-analogici-ai">Ingressi analogici (AI)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uscite-analogiche-ao">Uscite analogiche (AO)</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -421,6 +472,359 @@
                   
   <section id="quickstart">
 <span id="id1"></span><h1><strong>Quickstart</strong><a class="headerlink" href="#quickstart" title="Link to this heading">#</a></h1>
+<section id="ingressi-digitali-e-analogici-digital-i-o">
+<h2>Ingressi Digitali e Analogici (Digital I/O)<a class="headerlink" href="#ingressi-digitali-e-analogici-digital-i-o" title="Link to this heading">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La modalità <strong>Digital I/O</strong> è un’opzione acquistabile separatamente e non è inclusa nella configurazione standard del FlexiBowl®.</p>
+</div>
+<p>Il connettore di ingresso del FlexiBowl® EVO supporta segnali digitali e analogici per l’integrazione diretta con un PLC senza necessità di comunicazione Ethernet.</p>
+<section id="ingressi-disponibili-sul-connettore-principale">
+<h3>Ingressi disponibili sul connettore principale<a class="headerlink" href="#ingressi-disponibili-sul-connettore-principale" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Tipo</p></th>
+<th class="head"><p>Segnale</p></th>
+<th class="head"><p>Tipo elettrico</p></th>
+<th class="head"><p>Livello attivo</p></th>
+<th class="head"><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Standard</p></td>
+<td><p>Bit 1</p></td>
+<td><p>Digitale</p></td>
+<td><p>0–24Vdc, Attivo Alto</p></td>
+<td><p>Bit di codifica comando (vedi tabella codifica)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Standard</p></td>
+<td><p>Bit 2</p></td>
+<td><p>Digitale</p></td>
+<td><p>0–24Vdc, Attivo Alto</p></td>
+<td><p>Bit di codifica comando</p></td>
+</tr>
+<tr class="row-even"><td><p>Standard</p></td>
+<td><p>Bit 3</p></td>
+<td><p>Digitale</p></td>
+<td><p>0–24Vdc, Attivo Alto</p></td>
+<td><p>Bit di codifica comando</p></td>
+</tr>
+<tr class="row-odd"><td><p>Standard</p></td>
+<td><p>Bit 4</p></td>
+<td><p>Digitale</p></td>
+<td><p>0–24Vdc, Attivo Alto</p></td>
+<td><p>Bit di codifica comando</p></td>
+</tr>
+<tr class="row-even"><td><p>Standard</p></td>
+<td><p>Bit 5</p></td>
+<td><p>Digitale</p></td>
+<td><p>0–24Vdc, Attivo Alto</p></td>
+<td><p>Bit di codifica comando</p></td>
+</tr>
+<tr class="row-odd"><td><p>Standard</p></td>
+<td><p>Latch</p></td>
+<td><p>Digitale</p></td>
+<td><p>0–24Vdc, Attivo Alto</p></td>
+<td><p>Esecuzione comando (fronte di salita)</p></td>
+</tr>
+<tr class="row-even"><td><p>Standard</p></td>
+<td><p>Empty Sensor</p></td>
+<td><p>Digitale</p></td>
+<td><p>0–24Vdc, Attivo Alto</p></td>
+<td><p>Sensore rilevamento FlexiBowl®  vuoto</p></td>
+</tr>
+<tr class="row-odd"><td><p>Standard</p></td>
+<td><p>Zeroing</p></td>
+<td><p>Digitale</p></td>
+<td><p>0–24Vdc, Attivo Alto</p></td>
+<td><p>Previsione per sensore fissatura disco multi-settori</p></td>
+</tr>
+<tr class="row-even"><td><p>Opzione</p></td>
+<td><p>Ritorno valvola proporzionale flip</p></td>
+<td><p>Analogico</p></td>
+<td><p>0–10Vdc</p></td>
+<td><p>Segnale di feedback valvola proporzionale flip</p></td>
+</tr>
+<tr class="row-odd"><td><p>Opzione</p></td>
+<td><p>Ritorno valvola proporzionale blow</p></td>
+<td><p>Analogico</p></td>
+<td><p>0–10Vdc</p></td>
+<td><p>Segnale di feedback valvola proporzionale blow</p></td>
+</tr>
+<tr class="row-even"><td><p>Opzione</p></td>
+<td><p>Strobe Backlight + / −</p></td>
+<td><p>—</p></td>
+<td><p>—</p></td>
+<td><p>Comando strobe backlight esterno (protezione con diodo e fusibile richiesta)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Opzione</p></td>
+<td><p>Strobe Backlight 2+ / 2−</p></td>
+<td><p>—</p></td>
+<td><p>—</p></td>
+<td><p>Comando strobe backlight esterno secondario</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="connettore-sto-safety-torque-off">
+<h3>Connettore STO (Safety Torque Off)<a class="headerlink" href="#connettore-sto-safety-torque-off" title="Link to this heading">#</a></h3>
+<p>Il connettore STO è dedicato alla funzione di sicurezza per l’arresto del motore:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Pin</p></th>
+<th class="head"><p>Segnale</p></th>
+<th class="head"><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>STO1+</p></td>
+<td><p>Safety Torque Off 1</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>STO1-</p></td>
+<td><p>Ritorno STO1</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>STO2+</p></td>
+<td><p>Safety Torque Off 2</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>STO2-</p></td>
+<td><p>Ritorno STO2</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>24V</p></td>
+<td><p>Alimentazione</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>0V</p></td>
+<td><p>Massa</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="codifica-comandi-tramite-bit-digitali-bit-15">
+<h3>Codifica comandi tramite bit digitali (Bit 1–5)<a class="headerlink" href="#codifica-comandi-tramite-bit-digitali-bit-15" title="Link to this heading">#</a></h3>
+<p>I 5 bit di ingresso digitale formano una parola binaria a 5 cifre che identifica il comando da eseguire. Il comando viene acquisito sul fronte di salita del segnale <strong>Latch</strong>.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Codice Binario (Bit5–Bit1)</p></th>
+<th class="head"><p>Comando</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">00000</span></code></p></td>
+<td><p>Reset allarmi</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">00001</span></code></p></td>
+<td><p>Exe Seq 1</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">00010</span></code></p></td>
+<td><p>Exe Seq 2</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">00011</span></code></p></td>
+<td><p>Exe Seq 3</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">00100</span></code></p></td>
+<td><p>Exe Seq 4</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">00101</span></code></p></td>
+<td><p>Exe Seq 5</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">00110</span></code></p></td>
+<td><p>Exe Seq 6</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">00111</span></code></p></td>
+<td><p>Exe Seq 7</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">01000</span></code></p></td>
+<td><p>Exe Seq 8</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">01001</span></code></p></td>
+<td><p>Exe Seq 9</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">01010</span></code></p></td>
+<td><p>Exe Seq 10</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">01011</span></code></p></td>
+<td><p>Exe Seq 11</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">01100</span></code></p></td>
+<td><p>Exe Seq 12</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">01101</span></code></p></td>
+<td><p>Exe Seq 13</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">01110</span></code></p></td>
+<td><p>Exe Seq 14</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">01111</span></code></p></td>
+<td><p>Exe Seq 15</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">10000</span></code></p></td>
+<td><p>Exe Seq 16</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">10001</span></code></p></td>
+<td><p>Exe Seq 17</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">10010</span></code></p></td>
+<td><p>Exe Seq 18</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">10011</span></code></p></td>
+<td><p>Exe Seq 19</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">10100</span></code></p></td>
+<td><p>Exe Seq 20</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">10101</span></code></p></td>
+<td><p>Hopper Activation 1</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">10110</span></code></p></td>
+<td><p>Hopper Activation 2</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">10111</span></code></p></td>
+<td><p>Hopper Activation 3</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">11000</span></code></p></td>
+<td><p>Hopper Activation 4</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">11001</span></code>–<code class="docutils literal notranslate"><span class="pre">11111</span></code></p></td>
+<td><p>Spare</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Esempio: per eseguire la Sequenza 5, impostare Bit1=1, Bit2=0, Bit3=1, Bit4=0, Bit5=0 (codice binario <code class="docutils literal notranslate"><span class="pre">00101</span></code>) e poi inviare un fronte di salita su <strong>Latch</strong>.</p>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="schema-configio-configurazione-plc-wago">
+<h2>Schema ConfigIO — Configurazione PLC (Wago)<a class="headerlink" href="#schema-configio-configurazione-plc-wago" title="Link to this heading">#</a></h2>
+<p>Il seguente schema descrive la configurazione tipica di un PLC Wago utilizzato per il controllo del FlexiBowl® tramite Digital I/O.</p>
+<p><strong>Hardware utilizzato:</strong></p>
+<ul class="simple">
+<li><p>CPU: PFC300, 2× Ethernet, RS-485</p></li>
+<li><p>Moduli I/O digitali: 8DI/8DO (750-1502) — 2 moduli</p></li>
+<li><p>Modulo ingressi analogici: 0–10V (750-467)</p></li>
+<li><p>Modulo uscite analogiche: 0–10V (750-550)</p></li>
+</ul>
+<section id="ingressi-digitali-di-modulo-1">
+<h3>Ingressi digitali (DI) — Modulo 1<a class="headerlink" href="#ingressi-digitali-di-modulo-1" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>DI</p></th>
+<th class="head"><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Bit 1 — Seg. Cmd</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Bit 2 — Seg. Cmd</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Bit 3 — Seg. Cmd</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Bit 4 — Seg. Cmd</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Latch</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>Empty Sensor</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>Zeroing</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>Spare</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="uscite-digitali-do-modulo-1">
+<h3>Uscite digitali (DO) — Modulo 1<a class="headerlink" href="#uscite-digitali-do-modulo-1" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>DO</p></th>
+<th class="head"><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Backlight 1 &amp; 2</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Ready Led + Sgn</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Fault Led + Sgn</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Busy Sgn</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Flip 1 Comando</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>Blow 1 Comando</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>Blow 2 Comando</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>Cmd Slitta Empty</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="ingressi-analogici-ai">
+<h3>Ingressi analogici (AI)<a class="headerlink" href="#ingressi-analogici-ai" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>AI</p></th>
+<th class="head"><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Feedback Elv. Flip</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Feedback Elv. Blow</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="uscite-analogiche-ao">
+<h3>Uscite analogiche (AO)<a class="headerlink" href="#uscite-analogiche-ao" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>AO</p></th>
+<th class="head"><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Regol. Elv. Flip</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Regol. Elv. Blow</p></td>
+</tr>
+</tbody>
+</table>
+</div>
 <br>
 <!-- Versions and languages set-up -->
 <style>
@@ -580,7 +984,10 @@
       <span class="caret-icon" aria-hidden="true">&#9662;</span>
     </div>
     <div class="dropdown-menu" role="listbox">
-      	<a href="#" role="option">EN</a>
+      	<a href="#" role="option">DE</a>
+				<a href="#" role="option">EN</a>
+				<a href="#" role="option">ES</a>
+				<a href="#" role="option">FR</a>
 				<a href="#" role="option">IT</a>
     </div>
   </div>
@@ -593,14 +1000,7 @@
     }
 
     const inlineVersions = ["V. 1.0"];
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    const inlineLanguages = ["EN", "IT"];
-=======
-=======
->>>>>>> dfe7f519566c8dfae15f4b3484503a4a6f4f0ab9
     const inlineLanguages = ["DE", "EN", "ES", "FR", "IT"];
->>>>>>> Stashed changes
     const manifest = window.FV_VERSIONING || null;
     const versions = Array.isArray(manifest && manifest.versions) && manifest.versions.length
       ? manifest.versions
@@ -1071,6 +1471,8 @@
   })();
 </script>
 </section>
+</section>
+</section>
 
 
                 </article>
@@ -1083,24 +1485,6 @@
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="../INSTALLAZIONE/04_interfaccia-software.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><strong>Interfaccia Software</strong></p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="../PLUG-IN/01_PlugIn.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><strong>Plug-In</strong></p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               
@@ -1108,21 +1492,14 @@
             
             
               
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-                <dialog id="pst-secondary-sidebar-modal"></dialog>
-                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
-  <div class="sidebar-secondary-item"><div
-    id="pst-page-navigation-heading-2"
-    class="page-toc tocsection onthispage">
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
     <i class="fa-solid fa-list"></i> Contents
   </div>
-  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+  <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ingressi-digitali-e-analogici-digital-i-o">Ingressi Digitali e Analogici (Digital I/O)</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ingressi-disponibili-sul-connettore-principale">Ingressi disponibili sul connettore principale</a></li>
@@ -1142,7 +1519,6 @@
 
 </div></div>
               
->>>>>>> Stashed changes
             
           </div>
           <footer class="bd-footer-content">
@@ -1186,8 +1562,8 @@ By ARS Automation
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../../../../_shared/static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
-<script defer src="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+  <script src="../../../../_shared/static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>
