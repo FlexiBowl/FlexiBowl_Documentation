@@ -432,11 +432,6 @@
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#protocolli-di-comunicazione-disponibili">1. Protocolli di comunicazione disponibili</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interfaccia-utente-come-fatta-e-come-si-accede">2. Interfaccia utente: com’è fatta e come si accede</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-2-0-software-flexibowl-parameters">FlexiBowl® 2.0 — Software <em>FlexiBowl® Parameters</em></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-3-0-interfaccia-web-browser-based">FlexiBowl® 3.0 — Interfaccia web <em>browser-based</em></a></li>
-</ul>
-</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#come-cambiare-lindirizzo-ip">3. Come cambiare l’indirizzo IP</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-2-0">FlexiBowl® 2.0</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-3-0">FlexiBowl® 3.0</a></li>
@@ -450,7 +445,7 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#come-cambiare-i-parametri">5. Come cambiare i parametri</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">FlexiBowl® 2.0</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">FlexiBowl® 3.0</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-move-shake-su-flexibowl-800">5.1 Esempio pratico: Move + Shake su FlexiBowl® 800</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-move-shake-su-flexibowl-800">Esempio pratico: Move + Shake su FlexiBowl® 800</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#con-flexibowl-2-0">Con FlexiBowl® 2.0</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#con-flexibowl-3-0">Con FlexiBowl® 3.0</a></li>
 </ul>
@@ -463,8 +458,8 @@
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modalita-tracking-flexitrack">7. Modalità tracking (FlexiTrack)</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-2-0-flexitrack-opzione">FlexiBowl® 2.0 — FlexiTrack (opzione)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-3-0-jog-motor">FlexiBowl® 3.0 — Jog Motor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">FlexiBowl® 2.0</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">FlexiBowl® 3.0</a></li>
 </ul>
 </li>
 </ul>
@@ -478,9 +473,191 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="comparativa-software">
+  <style>
+
+/* ── Corpo generale ──────────────────────────────────────── */
+body, .md-content {
+  color: var(--text);
+  background: #f4f8fd;
+  line-height: 1.65;
+}
+
+/* ── Header principale ───────────────────────────────────── */
+.page-header {
+  background: linear-gradient(135deg, var(--blue-deep) 0%, var(--blue-mid) 60%, var(--blue-bright) 100%);
+  color: var(--white);
+  border-radius: 10px;
+  padding: 2rem 2.5rem 1.6rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 18px rgba(13,43,78,0.18);
+  position: relative;
+  overflow: hidden;
+}
+.page-header::before {
+  content: '';
+  position: absolute;
+  top: -40px; right: -40px;
+  width: 160px; height: 160px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.06);
+}
+.page-header h1 {
+  margin: 0 0 0.3rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.page-header p {
+  margin: 0;
+  opacity: 0.82;
+  font-size: 0.95rem;
+}
+
+
+/* ── Sezioni numerate ────────────────────────────────────── */
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 2.2rem 0 1rem;
+  color: var(--blue-deep);
+}
+.section-num {
+  background: var(--blue-bright);
+  color: var(--white);
+  border-radius: 50%;
+  width: 2rem; height: 2rem;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.section-title h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--blue-border);
+  padding-bottom: 0.25rem;
+  flex: 1;
+}
+
+/* ── Confronto 2.0 vs 3.0 side-by-side ──────────────────── */
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.1rem;
+  margin: 1rem 0 1.5rem;
+}
+@media (max-width: 700px) {
+  .compare-grid { grid-template-columns: 1fr; }
+}
+.compare-card {
+  border: 1px solid var(--blue-border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.compare-card-header {
+  padding: 0.55rem 1rem;
+  font-weight: 700;
+  font-size: 0.88rem;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+.v20 .compare-card-header { background: var(--blue-mid); }
+.v30 .compare-card-header { background: var(--blue-bright); }
+.compare-card-body {
+  padding: 0.9rem 1rem;
+  background: var(--white);
+  font-size: 0.91rem;
+}
+.compare-card-body ol, .compare-card-body ul {
+  margin: 0; padding-left: 1.2rem;
+}
+.compare-card-body li { margin-bottom: 0.3rem; }
+
+/* ── Tabelle ─────────────────────────────────────────────── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 1rem 0 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 6px rgba(13,43,78,0.07);
+}
+thead tr {
+  background: var(--blue-deep);
+  color: var(--white);
+}
+thead th {
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+}
+tbody tr:nth-child(even) { background: var(--blue-light); }
+tbody tr:nth-child(odd)  { background: var(--white); }
+tbody td {
+  padding: 0.55rem 0.9rem;
+  border-bottom: 1px solid var(--blue-border);
+}
+tbody tr:last-child td { border-bottom: none; }
+
+/* ── Codice ──────────────────────────────────────────────── */
+pre {
+  background: var(--blue-deep);
+  color: #c9dff5;
+  border-radius: 7px;
+  padding: 1rem 1.2rem;
+  overflow-x: auto;
+  font-size: 0.83rem;
+  line-height: 1.6;
+  margin: 0.8rem 0 1.2rem;
+  box-shadow: 0 2px 10px rgba(13,43,78,0.15);
+}
+code {
+  background: var(--blue-light);
+  color: var(--blue-deep);
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+  font-size: 0.88em;
+}
+pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+
+/* ── H3 interni ──────────────────────────────────────────── */
+h3 {
+  color: var(--blue-mid);
+  font-size: 1rem;
+  margin: 1.4rem 0 0.6rem;
+  padding-left: 0.7rem;
+  border-left: 3px solid var(--blue-accent);
+}
+
+/* ── Badge versione inline ───────────────────────────────── */
+.badge {
+  display: inline-block;
+  padding: 0.1em 0.55em;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+}
+.badge-v20 { background: var(--blue-mid);    color: var(--white); }
+.badge-v30 { background: var(--blue-bright); color: var(--white); }
+</style>
+<section id="comparativa-software">
 <h1><strong>Comparativa Software</strong><a class="headerlink" href="#comparativa-software" title="Link to this heading">#</a></h1>
 <p>Questa pagina confronta le principali differenze software tra <strong>FlexiBowl® 2.0</strong> e <strong>FlexiBowl® 3.0</strong>, con l’obiettivo di guidare l’utente nella comprensione delle nuove funzionalità e dei cambiamenti operativi introdotti dalla nuova generazione.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Prima di leggere i contenuti della pagina corrente, è buona pratica avere chiare le informazioni riportate nella pagina <a class="reference internal" href="../INSTALLAZIONE/04_interfaccia-software.html#int-software"><span class="std std-ref">Interfaccia Software</span></a></p>
+</div>
 <hr class="docutils" />
 <section id="protocolli-di-comunicazione-disponibili">
 <h2>1. Protocolli di comunicazione disponibili<a class="headerlink" href="#protocolli-di-comunicazione-disponibili" title="Link to this heading">#</a></h2>
@@ -515,23 +692,23 @@
 </tbody>
 </table>
 </div>
-<p><strong>FlexiBowl® 2.0</strong> supporta TCP/IP (UDP, porta 7776 TCP / 7775 UDP), EtherNet/IP e Digital I/O. I comandi vengono inviati come stringhe ASCII con header <code class="docutils literal notranslate"><span class="pre">Chr(0)Chr(7)</span></code> e footer <code class="docutils literal notranslate"><span class="pre">Chr(13)</span></code>.</p>
-<p><strong>FlexiBowl® 3.0</strong> introduce due nuovi protocolli — <strong>Profinet</strong> e <strong>Modbus</strong> — e adotta un modello di comunicazione basato su <strong>ControlWord numeriche</strong> e variabili di Input/Output (EXE / WRITE / READ). Il TCP Server utilizza stringhe in formato <code class="docutils literal notranslate"><span class="pre">NomeVariabile[Valore]%</span></code>. La modalità Digital I/O rimane disponibile come opzione acquistabile separatamente.</p>
-</section>
 <hr class="docutils" />
-<section id="interfaccia-utente-come-fatta-e-come-si-accede">
-<h2>2. Interfaccia utente: com’è fatta e come si accede<a class="headerlink" href="#interfaccia-utente-come-fatta-e-come-si-accede" title="Link to this heading">#</a></h2>
-<section id="flexibowl-2-0-software-flexibowl-parameters">
-<h3>FlexiBowl® 2.0 — Software <em>FlexiBowl® Parameters</em><a class="headerlink" href="#flexibowl-2-0-software-flexibowl-parameters" title="Link to this heading">#</a></h3>
-<p>L’interfaccia del FlexiBowl® 2.0 è un’applicazione <strong>desktop</strong> chiamata <strong>FlexiBowl® Parameters</strong>, da installare sul PC di controllo.</p>
+<div class="section-title">
+  <span class="section-num">2</span>
+  <h2>Interfaccia utente: com'è fatta e come si accede</h2>
+</div>
+<div class="compare-grid">
+<div class="compare-card v20">
+  <div class="compare-card-header">FlexiBowl® 2.0 — Software Parameters</div>
+  <div class="compare-card-body">
+<p>Applicazione <strong>desktop</strong> chiamata <strong>FlexiBowl® Parameters</strong>, da installare sul PC di controllo.</p>
 <p><strong>Installazione e accesso:</strong></p>
 <ol class="arabic simple">
-<li><p>Installare il programma <strong>FlexiBowl® Parameters</strong> sul PC (fornito da ARS o scaricabile dal portale).</p></li>
-<li><p>Collegare il PC al FlexiBowl® tramite <strong>cavo Ethernet</strong> (LAN diretta o via switch).</p></li>
-<li><p>Avviare il programma e inserire l’<strong>indirizzo IP</strong> del FlexiBowl® per connettersi.</p></li>
+<li><p>Installare il programma <strong>FlexiBowl® Parameters</strong> sul PC.</p></li>
+<li><p>Collegare il PC tramite <strong>cavo Ethernet</strong>.</p></li>
+<li><p>Avviare il programma e inserire l’<strong>indirizzo IP</strong> del FlexiBowl®.</p></li>
 </ol>
-<p><strong>Struttura dell’interfaccia:</strong></p>
-<p>Il menu laterale presenta cinque voci principali:</p>
+<p><strong>Menu laterale:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Voce</p></th>
@@ -540,42 +717,43 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><strong>1 – Main Commands</strong></p></td>
-<td><p>Finestra principale per la configurazione e il test di Move e Shake</p></td>
+<td><p>Configurazione e test di Move e Shake</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>2 – Try Commands</strong></p></td>
-<td><p>Crea e testa sequenze combinate di comandi</p></td>
+<td><p>Sequenze combinate di comandi</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>3 – Monitor</strong></p></td>
-<td><p>Monitora lo stato I/O, il driver e gli allarmi</p></td>
+<td><p>Stato I/O, driver e allarmi</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>4 – Console</strong></p></td>
-<td><p>Invia comandi stringa direttamente al driver</p></td>
+<td><p>Comandi stringa diretti al driver</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>5 – Reset Option</strong></p></td>
-<td><p>Ripristina i parametri ai valori di fabbrica e gestisce lo svuotamento manuale</p></td>
+<td><p>Ripristino parametri e svuotamento manuale</p></td>
 </tr>
 </tbody>
 </table>
 </div>
-<p>Dalla schermata <strong>Main Commands</strong> sono direttamente accessibili i pannelli <strong>Move</strong>, <strong>Shake</strong> e <strong>Option</strong> tramite tab nella parte superiore.</p>
-</section>
-<hr class="docutils" />
-<section id="flexibowl-3-0-interfaccia-web-browser-based">
-<h3>FlexiBowl® 3.0 — Interfaccia web <em>browser-based</em><a class="headerlink" href="#flexibowl-3-0-interfaccia-web-browser-based" title="Link to this heading">#</a></h3>
-<p>L’interfaccia del FlexiBowl® 3.0 è <strong>completamente web-based</strong>: non richiede alcuna installazione. È sufficiente un browser moderno.</p>
+  </div>
+</div>
+<div class="compare-card v30">
+  <div class="compare-card-header">FlexiBowl® 3.0 — Interfaccia Web</div>
+  <div class="compare-card-body">
+<p>Interfaccia <strong>completamente web-based</strong>: nessuna installazione richiesta. È sufficiente un browser moderno.</p>
 <p><strong>Accesso:</strong></p>
 <ol class="arabic simple">
-<li><p>Collegare il PC al FlexiBowl® tramite Ethernet.</p></li>
-<li><p>Aprire il browser e digitare nella barra degli indirizzi l’<strong>indirizzo IP</strong> del FlexiBowl®.</p></li>
+<li><p>Collegare il PC tramite Ethernet.</p></li>
+<li><p>Aprire il browser e digitare l’<strong>indirizzo IP</strong> del FlexiBowl®.</p></li>
 <li><p>Si apre la <strong>Home page</strong> dell’interfaccia.</p></li>
 </ol>
+<p><strong>Menu laterale:</strong> pagine dedicate a ogni funzione — Main Command, Jog Motor, Setup, Monitor, ecc. — accessibili direttamente dal browser.</p>
+  </div>
+</div>
+</div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Se il sistema in uso è <strong>FlexiVision One</strong>, la configurazione viene gestita dalla sua interfaccia dedicata. Non è necessario utilizzare l’interfaccia software FlexiBowl® descritta in questa sezione.</p>
+<p>Se il sistema in uso è FlexiVision One, la configurazione viene gestita dalla sua interfaccia dedicata. Non è necessario utilizzare l’interfaccia software FlexiBowl® descritta in questa sezione.</p>
 </div>
-<p><strong>Struttura dell’interfaccia:</strong></p>
-<p>Il menu laterale del FlexiBowl® 3.0 include pagine dedicate a ogni funzione operativa (Main Command, Jog Motor, Setup, Monitor, ecc.), accessibili direttamente dal browser.</p>
-</section>
 </section>
 <hr class="docutils" />
 <section id="come-cambiare-lindirizzo-ip">
@@ -583,10 +761,24 @@
 <section id="flexibowl-2-0">
 <h3>FlexiBowl® 2.0<a class="headerlink" href="#flexibowl-2-0" title="Link to this heading">#</a></h3>
 <ol class="arabic simple">
-<li><p>Aprire il programma <strong>FlexiBowl® Parameters</strong>.</p></li>
-<li><p>Nella schermata di connessione, selezionare <strong>Change IP Address</strong>.</p></li>
-<li><p>Inserire il nuovo indirizzo IP desiderato e confermare.</p></li>
-<li><p>In caso di IP sconosciuto o irraggiungibile, è possibile recuperarlo tramite la procedura di <strong>IP Address Recovery</strong> descritta nel manuale (sezione 6.2.3), che prevede l’uso del pulsante fisico sul pannello di controllo.</p></li>
+<li><p>Utilizzare il programma fornito sulla USB.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Se è installata una versione precedente del programma, è necessario disinstallarla prima.</p>
+</div>
+<ol class="arabic" start="2">
+<li><p>Collegare il FlexiBowl® tramite cavo Ethernet.</p></li>
+<li><p>Accendere il dispositivo.</p></li>
+<li><p>Avviare il programma.</p></li>
+<li><p>Nella casella <strong>IP Address</strong>, inserire l’indirizzo di rete: <code class="docutils literal notranslate"><span class="pre">192.168.1.10</span></code>.</p>
+<blockquote>
+<div><p>L’indirizzo IP del PC collegato deve essere necessariamente nella stessa subnet mask di Classe B (Subnet Mask 255.255.0.0).</p>
+</div></blockquote>
+</li>
+<li><p>Premere <strong>Ping</strong>: verrà visualizzato un pop-up con la scritta <strong>“FlexiBowl® found”</strong>.</p></li>
+<li><p>Premere <strong>Ok</strong> per abilitare il pulsante <strong>CONNECT</strong> e avviare la connessione.</p></li>
+<li><p>Dopo la connessione, verrà visualizzata la schermata principale (home screen).</p></li>
 </ol>
 </section>
 <section id="flexibowl-3-0">
@@ -613,7 +805,7 @@
 <ul class="simple">
 <li><p><strong>Move</strong>: imposta Acceleration, Deceleration, Speed e Angle tramite slider o campo numerico. Il pulsante <strong>Test Move</strong> esegue il movimento con i valori impostati.</p></li>
 <li><p><strong>Shake</strong>: espone i parametri CCW Angle, CW Angle, Count, Acceleration, Deceleration e Speed. Il pulsante <strong>Test Shake</strong> esegue lo shake.</p></li>
-<li><p><strong>Try Commands</strong> (sezione 6.2.5): permette di combinare più comandi in una sequenza con un numero configurabile di loop, selezionando i comandi dalla lista <strong>All Commands</strong> e aggiungendoli alla lista <strong>Selected Commands</strong>.</p></li>
+<li><p><strong>Try Commands</strong>: permette di combinare più comandi in una sequenza con un numero configurabile di loop, selezionando i comandi dalla lista <strong>All Commands</strong> e aggiungendoli alla lista <strong>Selected Commands</strong>.</p></li>
 </ul>
 <p>Per eseguire movimenti in produzione tramite protocollo, si inviano comandi ASCII (es. <code class="docutils literal notranslate"><span class="pre">QX2</span></code> per Move, <code class="docutils literal notranslate"><span class="pre">QX6</span></code> per Shake) attraverso il canale TCP/UDP configurato.</p>
 </section>
@@ -651,15 +843,14 @@
 <li><p><strong>Via protocollo WRITE</strong>: usando le ControlWord del blocco WRITE (formula: <code class="docutils literal notranslate"><span class="pre">N</span> <span class="pre">×</span> <span class="pre">100</span> <span class="pre">+</span> <span class="pre">offset_parametro</span></code>) per scrivere singoli parametri di una sequenza dall’esterno.</p></li>
 <li><p><strong>Via protocollo READ</strong>: usando le ControlWord del blocco READ (formula: <code class="docutils literal notranslate"><span class="pre">10000</span> <span class="pre">+</span> <span class="pre">N</span> <span class="pre">×</span> <span class="pre">100</span> <span class="pre">+</span> <span class="pre">offset_parametro</span></code>) per leggere i valori correnti.</p></li>
 </ul>
-<p>I valori sono espressi in <strong>unità fisiche dirette</strong> (%, gradi, ms, bar) senza fattori di conversione.</p>
 </section>
 <hr class="docutils" />
 <section id="esempio-pratico-move-shake-su-flexibowl-800">
-<h3>5.1 Esempio pratico: Move + Shake su FlexiBowl® 800<a class="headerlink" href="#esempio-pratico-move-shake-su-flexibowl-800" title="Link to this heading">#</a></h3>
-<p>Lo scenario è il seguente: eseguire un <strong>Move</strong> a 360°, poi uno <strong>Shake</strong>, poi un wait di 200 ms; accendere il backlight; impostare i parametri di movimento con acceleration/deceleration al 50%, speed al 35%, shake con angoli CW -30° e CCW -45°, count 2.</p>
+<h3>Esempio pratico: Move + Shake su FlexiBowl® 800<a class="headerlink" href="#esempio-pratico-move-shake-su-flexibowl-800" title="Link to this heading">#</a></h3>
+<p>Lo scenario è il seguente: eseguire un <strong>Move</strong> a 360°, poi uno <strong>Shake</strong>, poi un wait di 200 ms;</p>
 <section id="con-flexibowl-2-0">
 <h4>Con FlexiBowl® 2.0<a class="headerlink" href="#con-flexibowl-2-0" title="Link to this heading">#</a></h4>
-<p>I parametri devono essere scalati tramite il <strong>fattore di riduzione</strong> della macchina. La sequenza di comandi da inviare via TCP/UDP è:</p>
+<p>I parametri devono essere scalati tramite il <strong>fattore di riduzione</strong> della macchina. La sequenza di comandi da inviare via TCP è:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>QX7                          → Accendi backlight
 RR114                        → Leggi fattore di riduzione → variabile_riduzione
 
@@ -708,7 +899,7 @@ QX6                          → Esegui Shake
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>10[0]%    → Esegui Sequenza 1
 </pre></div>
 </div>
-<p>Il sistema risponde con <code class="docutils literal notranslate"><span class="pre">10[0]%</span></code> a conferma dell’avvenuta esecuzione. Non è necessario calcolare fattori di riduzione: tutti i valori sono in unità fisiche.</p>
+<p>Il sistema risponde con <code class="docutils literal notranslate"><span class="pre">10[0]</span></code> a conferma dell’avvenuta esecuzione.</p>
 </section>
 </section>
 </section>
@@ -728,7 +919,7 @@ QX6                          → Esegui Shake
 <p>Gli allarmi si consultano dalla pagina <strong>Monitor</strong> dell’interfaccia web, con tre tab: <strong>I/O Status</strong>, <strong>Driver Status</strong> e <strong>Alarm Status</strong>.</p>
 <p>Via protocollo, il segnale di allarme è esposto dalla variabile di output <strong>In_Error</strong> (BOOL) e il codice dell’errore attivo è disponibile in <strong>ErrorCode</strong> (UDINT). Per leggere lo stato via TCP:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>InError%         → risposta: InError[1]% se c&#39;è errore, InError[0]% se OK
-ErrorCode%       → risposta: ErrorCode[N]% con il codice dell&#39;errore attivo
+ErrorCode%       → risposta: ErrorCode[N]% con il codice dell&#39;errore attivo##
 </pre></div>
 </div>
 <p>Per il reset dell’allarme:</p>
@@ -740,13 +931,17 @@ ErrorCode%       → risposta: ErrorCode[N]% con il codice dell&#39;errore attiv
 <p class="admonition-title">Warning</p>
 <p>Prima di eseguire il reset, identificare e risolvere la causa dell’errore. Il sistema non eseguirà nuovi comandi di movimento finché è presente un errore attivo.</p>
 </div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Per la lista completa dei codici errore fare riferimento alla sezione <a class="reference internal" href="../INSTALLAZIONE/04_interfaccia-software.html#sec-err"><span class="std std-ref">Codici Di Errore</span></a></p>
+</div>
 </section>
 </section>
 <hr class="docutils" />
 <section id="modalita-tracking-flexitrack">
 <h2>7. Modalità tracking (FlexiTrack)<a class="headerlink" href="#modalita-tracking-flexitrack" title="Link to this heading">#</a></h2>
-<section id="flexibowl-2-0-flexitrack-opzione">
-<h3>FlexiBowl® 2.0 — FlexiTrack (opzione)<a class="headerlink" href="#flexibowl-2-0-flexitrack-opzione" title="Link to this heading">#</a></h3>
+<section id="id7">
+<h3>FlexiBowl® 2.0<a class="headerlink" href="#id7" title="Link to this heading">#</a></h3>
 <p>La modalità <strong>FlexiTrack</strong> è un’opzione acquistabile separatamente che consente di mantenere il FlexiBowl® in <strong>rotazione continua</strong> (jog) sincronizzando il segnale encoder con il robot di pick, per aumentare la produttività in applicazioni ad alta cadenza.</p>
 <p><strong>Hardware richiesto:</strong></p>
 <ul class="simple">
@@ -809,8 +1004,8 @@ DI1      → rotazione oraria
 <p>Flip e Blow, non gestibili con i comandi <code class="docutils literal notranslate"><span class="pre">QX</span></code> standard durante il jog, vanno implementati tramite un <strong>programma in background</strong> con ciclo iterativo che commuta lo stato delle valvole con i tempi e le iterazioni desiderati.</p>
 </section>
 <hr class="docutils" />
-<section id="flexibowl-3-0-jog-motor">
-<h3>FlexiBowl® 3.0 — Jog Motor<a class="headerlink" href="#flexibowl-3-0-jog-motor" title="Link to this heading">#</a></h3>
+<section id="id8">
+<h3>FlexiBowl® 3.0<a class="headerlink" href="#id8" title="Link to this heading">#</a></h3>
 <p>Nel FlexiBowl® 3.0, la modalità di rotazione continua è integrata nativamente nella pagina <strong>Jog Motor</strong> dell’interfaccia web, senza necessità di opzioni hardware aggiuntive.</p>
 <p><strong>Parametri di movimento Jog:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
@@ -1546,11 +1741,6 @@ DI1      → rotazione oraria
   <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#protocolli-di-comunicazione-disponibili">1. Protocolli di comunicazione disponibili</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interfaccia-utente-come-fatta-e-come-si-accede">2. Interfaccia utente: com’è fatta e come si accede</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-2-0-software-flexibowl-parameters">FlexiBowl® 2.0 — Software <em>FlexiBowl® Parameters</em></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-3-0-interfaccia-web-browser-based">FlexiBowl® 3.0 — Interfaccia web <em>browser-based</em></a></li>
-</ul>
-</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#come-cambiare-lindirizzo-ip">3. Come cambiare l’indirizzo IP</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-2-0">FlexiBowl® 2.0</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-3-0">FlexiBowl® 3.0</a></li>
@@ -1564,7 +1754,7 @@ DI1      → rotazione oraria
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#come-cambiare-i-parametri">5. Come cambiare i parametri</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">FlexiBowl® 2.0</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">FlexiBowl® 3.0</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-move-shake-su-flexibowl-800">5.1 Esempio pratico: Move + Shake su FlexiBowl® 800</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-move-shake-su-flexibowl-800">Esempio pratico: Move + Shake su FlexiBowl® 800</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#con-flexibowl-2-0">Con FlexiBowl® 2.0</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#con-flexibowl-3-0">Con FlexiBowl® 3.0</a></li>
 </ul>
@@ -1577,8 +1767,8 @@ DI1      → rotazione oraria
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modalita-tracking-flexitrack">7. Modalità tracking (FlexiTrack)</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-2-0-flexitrack-opzione">FlexiBowl® 2.0 — FlexiTrack (opzione)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-3-0-jog-motor">FlexiBowl® 3.0 — Jog Motor</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">FlexiBowl® 2.0</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">FlexiBowl® 3.0</a></li>
 </ul>
 </li>
 </ul>
