@@ -5,14 +5,7 @@ window.FV_VERSIONING = {
   "languagesByVersion": {
     "V. 1.0": [
       "EN",
-<<<<<<< Updated upstream
       "IT"
-=======
-      "IT",
-      "FR",
-      "DE",
-      "ES"
->>>>>>> Stashed changes
     ]
   },
   "defaultLanguageByVersion": {
