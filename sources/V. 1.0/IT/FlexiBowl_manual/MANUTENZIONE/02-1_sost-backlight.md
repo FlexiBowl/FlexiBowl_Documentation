@@ -33,6 +33,10 @@ Il backlight va sostituito qualora presentasse dei malfunzionamenti o ci fosse n
 Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione del Backlight.
 :::
 
+:::{warning}
+Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+:::
+
 :::{important}
 Il Backlight a luce infrarossa emette luce non visibile e perciò piuò apparire non funzionante. Controllare con una telecamera ad infrarossi per verificarne il funzionamento.
 

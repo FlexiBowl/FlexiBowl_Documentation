@@ -1461,7 +1461,7 @@ Il fissaggio sul lato utilizza 4 dadi M4 (forniti) da inserire nella scanalatura
    La profondità massima di inserimento del dado nella scanalatura è di **5 mm**.  
      Le Viti consigliate sono M4x8.
 
-```{figure} ../../../../_shared/media/images/fissaggio_lato.JPG
+```{figure} ../../../../_shared/media/images/tlfix-sezione.PNG
 :alt: Fissaggio del Toplight sul lato 
 :align: center
 :width: 100%
@@ -1472,13 +1472,48 @@ Fissaggio sul lato
 ##### Fissaggio laterale con staffe 
 Nel caso in cui il Toplight venisse fissato con delle staffe: 
 
-:::{error}
-![montaggio Laterale](../../../../_shared/media/images/errorimontaggiolaterale.png)
-:::
+::::::{error}
+:::::{grid} 2
 
-:::{tip}
-![montaggio Laterale](../../../../_shared/media/images/montaggiolaterale.png)
+::::{grid-item}
+:::{figure} ../../../../_shared/media/images/tlfix-alto.PNG 
+:align: center
+:width: 100%
+
+Non appendere l'illuminatore da un solo fianco
 :::
+::::
+
+::::{grid-item}
+:::{figure} ../../../../_shared/media/images/tlfix-staffedef.PNG 
+:align: center
+:width: 100%
+
+Non deformare la struttura di fissaggio del Toplight
+:::
+::::
+::::::
+
+::::::{tip}
+
+Seguono alcuni esempi di corretto fissaggio del TopLight:
+
+:::::{grid} 2
+
+::::{grid-item}
+:::{figure} ../../../../_shared/media/images/tlfix-basso.PNG 
+:align: center
+:width: 100%
+:::
+::::
+
+::::{grid-item}
+:::{figure} ../../../../_shared/media/images/tlfix-steso.PNG 
+:align: center
+:width: 100%
+:::
+::::
+::::::
 
 :::{card}
   Per il Montaggio laterale è possibile acquistare **a parte** l'apposita [staffa](staffa).
