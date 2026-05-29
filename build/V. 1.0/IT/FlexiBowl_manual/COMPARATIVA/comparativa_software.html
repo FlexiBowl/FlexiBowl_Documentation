@@ -698,8 +698,8 @@ document.write(`
 <p>I parametri vengono modificati in tre modalità:</p>
 <ul class="simple">
 <li><p><strong>Interfaccia web</strong>: direttamente nei campi numerici della pagina <strong>Main Command</strong> per ogni sequenza.</p></li>
-<li><p><strong>Via protocollo WRITE</strong>: ControlWord blocco WRITE → formula: <code class="docutils literal notranslate"><span class="pre">N</span> <span class="pre">×</span> <span class="pre">100</span> <span class="pre">+</span> <span class="pre">offset_parametro</span></code></p></li>
-<li><p><strong>Via protocollo READ</strong>: ControlWord blocco READ → formula: <code class="docutils literal notranslate"><span class="pre">10000</span> <span class="pre">+</span> <span class="pre">N</span> <span class="pre">×</span> <span class="pre">100</span> <span class="pre">+</span> <span class="pre">offset_parametro</span></code></p></li>
+<li><p><strong>Via protocollo WRITE</strong>: ControlWord blocco WRITE con formula <code class="docutils literal notranslate"><span class="pre">N</span> <span class="pre">×</span> <span class="pre">100</span> <span class="pre">+</span> <span class="pre">offset_parametro</span></code></p></li>
+<li><p><strong>Via protocollo READ</strong>: ControlWord blocco READ con formula <code class="docutils literal notranslate"><span class="pre">10000</span> <span class="pre">+</span> <span class="pre">N</span> <span class="pre">×</span> <span class="pre">100</span> <span class="pre">+</span> <span class="pre">offset_parametro</span></code></p></li>
 </ul>
 </div>
 </div>
@@ -714,22 +714,22 @@ document.write(`
 <div class="compare-card-body">
 <p>I parametri devono essere scalati tramite il <strong>fattore di riduzione</strong> della macchina:</p>
 <pre>QX7                     → Accendi backlight
-RR114                        → Leggi fattore di riduzione 
-variabile_riduzione = RX 1 
-
+RR114                   → Leggi fattore di riduzione
+variabile_riduzione = RX 1
+ 
 RL1 (50 × variabile_riduzione), RW11   → Acceleration Move = 50%
 RL1 (50 × variabile_riduzione), RW12   → Deceleration Move = 50%
 RL1 (35 × variabile_riduzione), RW13   → Speed Move = 35%
 RL1 (360 × variabile_riduzione), RW14  → Angle Move = 360°
-QX2                          → Esegui Move
-
+QX2                     → Esegui Move
+ 
 RL1 (50 × variabile_riduzione), RW15  → Acceleration Shake = 50%
 RL1 (50 × variabile_riduzione), RW16  → Deceleration Shake = 50%
 RL1 (50 × variabile_riduzione), RW110 → Speed Shake = 50%
 RL1 (30 × variabile_riduzione), RW18  → Angle CW Shake = -30°
 RL1 (30 × variabile_riduzione), RW19  → Angle CCW Shake = -45°
 RL1 2, RW17                           → Count Shake = 2
-QX6                          → Esegui Shake</pre>
+QX6                     → Esegui Shake</pre>
 <p>Il wait di 200 ms è gestito dal sistema chiamante (robot o PLC).</p>
 </div>
 </div>
