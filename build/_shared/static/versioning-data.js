@@ -12,7 +12,10 @@ window.FV_VERSIONING = {
       "FR",
       "DE",
       "ES"
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> dfe7f519566c8dfae15f4b3484503a4a6f4f0ab9
     ]
   },
   "defaultLanguageByVersion": {
