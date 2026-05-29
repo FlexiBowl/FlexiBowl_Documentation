@@ -30,6 +30,10 @@
 Disconnettere l'alimentazione elettrica e pneumatica prima di procedere con la sostituzione delle elettrovalvole.
 :::
 
+:::{warning}
+Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+:::
+
 ## Cosa serve?
 
 :::{list-table}
