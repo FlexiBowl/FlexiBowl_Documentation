@@ -1,11 +1,152 @@
-# **Superfici**
+# **Superfici e Dischi Rigidi**
 
+
+:::{list-table}
+:header-rows: 1 
+
+* - **Superficie/Disco Rigido**
+  - **FB200**
+  - **FB350**
+  - **FB500**
+  - **FB650**
+  - **FB800**
+  - **FB1200**
+
+* - [**Flexi Disc Anti-Cut Grey FDA**](Anti-cut-grey)
+  - 
+  - 
+  - ✓
+  - ✓
+  - ✓
+  - ✓
+
+
+* - [**Flexi Disc Anti-Roll "interasse" Beige Spike FDA**](Anti-roll-beige)
+  - 
+  - 
+  - ✓
+  - ✓
+  - ✓
+  - ✓
+
+
+* - [**Flexi Disc Anti-Roll "interasse" Grey Spike FDA**](Anti-roll-grey)
+  - 
+  - 
+  - ✓
+  - ✓
+  - ✓
+  - ✓
+
+
+* - [**Flexi Disc Anti-Roll "interasse" White FDA**](Anti-roll-white)
+  - 
+  - 
+  - ✓
+  - ✓
+  - ✓
+  - ✓
+
+
+* - [**Flexi Disc Anti-Roll "interasse" White FDA**](Anti-roll-white)
+  - 
+  - 
+  - ✓
+  - 
+  - 
+  - 
+
+
+* - [**Flexi Disc Anti-Roll White Silicon  FDA**](Anti-roll-white-silicon)
+  - 
+  - 
+  - ✓
+  - ✓
+  - ✓
+  - ✓
+
+* - [**Flexi Disc Anti-Stick Blue FDA**](Anti-stick-blue)
+  - 
+  - 
+  - ✓
+  - ✓
+  - ✓
+  - ✓
+  
+* - [**Flexi Disc Smooth Beige FDA**](smooth-beige)
+  - 
+  - 
+  - ✓
+  - ✓
+  - ✓
+  - ✓
+  
+* - [**Flexi Disc Smooth Blue FDA**](smooth-blue)
+  - 
+  - 
+  - ✓
+  - ✓
+  - ✓
+  - ✓
+  
+
+* - [**Flexi Disc Smooth White FDA**](smooth-white)
+  - 
+  - 
+  - ✓
+  - ✓
+  - ✓
+  - ✓
+
+* - [**Rigid Disc Anti-roll White**](RD-anti-roll-white)
+  - ✓
+  - ✓
+  - ✓
+  - 
+  - 
+  - 
+ 
+* - [**Rigid Disc Anti-stick White**](RD-anti-stick-white)
+  - ✓
+  - ✓
+  - ✓
+  - 
+  - 
+  - 
+
+* - [**Rigid Disc Smooth Black**](RD-smooth-black)
+  - ✓
+  - ✓
+  - ✓
+  - 
+  - 
+  - 
+
+* - [**Rigid Disc Smooth White**](RD-smooth-white)
+  - ✓
+  - ✓
+  - ✓
+  - 
+  - 
+  - 
+
+* - Rigid Disc Application Specific Design - Custom
+  - ✓
+  - ✓
+  - ✓
+  - 
+  - 
+  - 
+
+:::
+
+## **Superfici**
 Le superfici sono tappeti circolari in materiale telato e flessibile, e sono le soluzioni standard per le seguenti taglie di FlexiBowl®:
 
-- **FlexiBowl® 500**
-- **FlexiBowl® 650**
-- **FlexiBowl® 800**
-- **FlexiBowl® 1200**
+-  **FB500**
+-  **FB650**
+-  **FB800**
+-  **FB1200**
 
 Seguono le caratteristiche principali delle superfici disponibili a listino:
 
@@ -84,669 +225,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     }
 </style>
 
-## Standard White
-
-<div class="main-char-banner">
-    <strong>Caratteristiche Principali:</strong> Consigliata per parti piatte e pulite. Efficiente sia con illuminazione dal basso (backlight) che dall'alto (toplight).
-</div>
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Proprietà</th>
-                <th style="width: 70%;">Specifiche / Livello</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Materiale</strong></td>
-                <td>Polyurethane - FDA</td>
-            </tr>
-            <tr>
-                <td><strong>Filamenti Antistatici</strong></td>
-                <td>Sì</td>
-            </tr>
-            <tr>
-                <td><strong>Backlight</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Toplight</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Cleaning</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Grip</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-### Compatibilità Componenti (Standard White)
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Tipo di Componente</th>
-                <th style="width: 70%;">Compatibilità</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Dirty/Oily</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Cylindrical</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Sticky</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Transparent</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Sharp</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-## Smooth Blue
-
-<div class="main-char-banner">
-        <strong>Caratteristiche Principali:</strong> Consigliata per componenti di colore chiaro e per illuminazione dall'alto (toplight). Molto poco soggetta all'accumulo di sporco.
-    </div>
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Proprietà</th>
-                <th style="width: 70%;">Specifiche / Livello</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Materiale</strong></td>
-                <td>Silicone - FDA</td>
-            </tr>
-            <tr>
-                <td><strong>Filamenti Antistatici</strong></td>
-                <td>Sì</td>
-            </tr>
-            <tr>
-                <td><strong>Backlight</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green "></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Toplight</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Cleaning</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow "></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Grip</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green "></div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-### Compatibilità Componenti (Smooth Blue)
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Tipo di Componente</th>
-                <th style="width: 70%;">Compatibilità</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Dirty/Oily</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Cylindrical</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow "></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Sticky</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Transparent</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Sharp</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-## Diamond Blue
-
-<div class="main-char-banner">
-    <strong>Caratteristiche Principali:</strong> Superficie ampiamente utilizzata, raccomandata per numerose e diverse applicazioni. Ottima anche per parti sporche o oleose.
-</div>
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Proprietà</th>
-                <th style="width: 70%;">Specifiche / Livello</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Materiale</strong></td>
-                <td>Silicone - FDA</td>
-            </tr>
-            <tr>
-                <td><strong>Filamenti Antistatici</strong></td>
-                <td>Sì</td>
-            </tr>
-            <tr>
-                <td><strong>Backlight</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Toplight</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Cleaning</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Grip</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-### Compatibilità Componenti (Diamond Blue)
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Tipo di Componente</th>
-                <th style="width: 70%;">Compatibilità</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Dirty/Oily</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Cylindrical</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Sticky</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Transparent</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Sharp</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-## Spike Beige
-
-<div class="main-char-banner">
-  <strong>Caratteristiche Principali:</strong> Raccomandata per componenti cilindrici con diametro superiore a 15 mm.
-</div>
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Proprietà</th>
-                <th style="width: 70%;">Specifiche / Livello</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Materiale</strong></td>
-                <td>Silicone - FDA</td>
-            </tr>
-            <tr>
-                <td><strong>Filamenti Antistatici</strong></td>
-                <td>Sì</td>
-            </tr>
-            <tr>
-                <td><strong>Backlight</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Toplight</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red  active"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Cleaning</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Grip</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-### Compatibilità Componenti (Spike Beige)
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Tipo di Componente</th>
-                <th style="width: 70%;">Compatibilità</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Dirty/Oily</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Cylindrical</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow "></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Sticky</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Transparent</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Sharp</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-## Diamond Black
-
-<div class="main-char-banner">
-    <strong>Caratteristiche Principali:</strong> Consigliata per parti stabili di colore chiaro, che si distinguono in modo ottimale con illuminazione dall'alto (toplight), anche se sporche.
-</div>
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Proprietà</th>
-                <th style="width: 70%;">Specifiche / Livello</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Materiale</strong></td>
-                <td>Silicone - FDA</td>
-            </tr>
-            <tr>
-                <td><strong>Filamenti Antistatici</strong></td>
-                <td>Sì</td>
-            </tr>
-            <tr>
-                <td><strong>Backlight</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green "></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Toplight</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Cleaning</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Grip</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-### Compatibilità Componenti (Diamond Black)
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Tipo di Componente</th>
-                <th style="width: 70%;">Compatibilità</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Dirty/Oily</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green  active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Cylindrical</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Sticky</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Transparent</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Sharp</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-
-
-## Fabric Transparent
+(Anti-cut-grey)=
+### Flexi Disc Anti-Cut Grey FDA - Fabric Transparent
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> Raccomandata per componenti taglienti o con spigoli vivi (sharp components).
@@ -813,7 +293,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-### Compatibilità Componenti (Fabric Transparent)
+#### Compatibilità Componenti (Flexi Disc Anti-Cut Grey FDA)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -878,10 +358,11 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-## GSTR White
+(Anti-roll-beige)=
+### Flexi Disc Anti-Roll "interasse" Beige Spike FDA - Spike Beige
 
 <div class="main-char-banner">
-    <strong>Caratteristiche Principali:</strong> Raccomandata per parti pulite e stabili (anche se appiccicose/sticky), e per componenti cilindrici di dimensioni molto ridotte.
+  <strong>Caratteristiche Principali:</strong> Raccomandata per componenti cilindrici con diametro superiore a 15 mm.
 </div>
 
 <div class="disc-container">
@@ -913,16 +394,6 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
             </tr>
             <tr>
                 <td><strong>Toplight</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Cleaning</strong></td>
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red  active"></div>
@@ -932,133 +403,11 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
                 </td>
             </tr>
             <tr>
-                <td><strong>Grip</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-### Compatibilità Componenti (GSTR White)
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Tipo di Componente</th>
-                <th style="width: 70%;">Compatibilità</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Dirty/Oily</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Cylindrical</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Sticky</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Transparent</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Sharp</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-## Diamond White
-
-<div class="main-char-banner">
-        <strong>Caratteristiche Principali:</strong> Raccomandata per parti pulite e stabili, anche se collose o appiccicose (sticky).
-</div>
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Proprietà</th>
-                <th style="width: 70%;">Specifiche / Livello</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Materiale</strong></td>
-                <td>Silicone - FDA</td>
-            </tr>
-            <tr>
-                <td><strong>Filamenti Antistatici</strong></td>
-                <td>Sì</td>
-            </tr>
-            <tr>
-                <td><strong>Backlight</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Toplight</strong></td>
-                <td>
-                    <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
                 <td><strong>Cleaning</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow "></div>
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1077,7 +426,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-### Compatibilità Componenti (Diamond White)
+#### Compatibilità Componenti (Flexi Disc Anti-Roll "interasse" Beige Spike FDA)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1092,8 +441,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
                 <td><strong>Dirty/Oily</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot red "></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1103,8 +452,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot yellow "></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1122,8 +471,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red active"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot red "></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1142,7 +491,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-## Spike Transparent
+(Anti-roll-grey)=
+### Flexi Disc Anti-Roll "interasse" Grey Spike FDA - Spike Transparent
 
 <div class="main-char-banner">
         <strong>Caratteristiche Principali:</strong> Raccomandata per componenti cilindrici con diametro inferiore a 15 mm.
@@ -1209,7 +559,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-### Compatibilità Componenti (Spike Transparent)
+#### Compatibilità Componenti (Flexi Disc Anti-Roll "interasse" Grey Spike FDA)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1274,7 +624,274 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-## Silicone Transparent
+
+(Anti-roll-white)=
+### Flexi Disc Anti-Roll "interasse" White FDA - GSTR white
+
+<div class="main-char-banner">
+    <strong>Caratteristiche Principali:</strong> Raccomandata per parti pulite e stabili (anche se appiccicose/sticky), e per componenti cilindrici di dimensioni molto ridotte.
+</div>
+
+<div class="disc-container">
+    <table class="sphinx-styled-table">
+        <thead>
+            <tr>
+                <th style="width: 30%;">Proprietà</th>
+                <th style="width: 70%;">Specifiche / Livello</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Materiale</strong></td>
+                <td>Silicone - FDA</td>
+            </tr>
+            <tr>
+                <td><strong>Filamenti Antistatici</strong></td>
+                <td>Sì</td>
+            </tr>
+            <tr>
+                <td><strong>Backlight</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Toplight</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Cleaning</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red  active"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Grip</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+#### Compatibilità Componenti (Flexi Disc Anti-Roll "interasse" White FDA)
+
+<div class="disc-container">
+    <table class="sphinx-styled-table">
+        <thead>
+            <tr>
+                <th style="width: 30%;">Tipo di Componente</th>
+                <th style="width: 70%;">Compatibilità</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Dirty/Oily</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red active"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Cylindrical</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow active"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Sticky</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red "></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Transparent</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red active"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Sharp</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red "></div>
+                        <div class="sem-dot yellow active"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+(Anti-roll-white)=
+### Flexi Disc Anti-Roll "interasse" White FDA - Polibech White
+
+<div class="main-char-banner">
+        <strong>Caratteristiche Principali:</strong> Consigliata per componenti dotati di collare circolare o per piccoli cilindri.
+</div>
+<div class="disc-container">
+    <table class="sphinx-styled-table">
+        <thead>
+            <tr>
+                <th style="width: 30%;">Proprietà</th>
+                <th style="width: 70%;">Specifiche / Livello</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Materiale</strong></td>
+                <td>Silicone - FDA</td>
+            </tr>
+            <tr>
+                <td><strong>Filamenti Antistatici</strong></td>
+                <td>Sì</td>
+            </tr>
+            <tr>
+                <td><strong>Backlight</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Toplight</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow active"></div>
+                        <div class="sem-dot green "></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Cleaning</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow active"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Grip</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+#### Compatibilità Componenti (Flexi Disc Anti-Roll "interasse" White FDA )
+
+<div class="disc-container">
+    <table class="sphinx-styled-table">
+        <thead>
+            <tr>
+                <th style="width: 30%;">Tipo di Componente</th>
+                <th style="width: 70%;">Compatibilità</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Dirty/Oily</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow  active"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Cylindrical</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow "></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Sticky</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red "></div>
+                        <div class="sem-dot yellow active"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Transparent</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red "></div>
+                        <div class="sem-dot yellow active"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Sharp</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red "></div>
+                        <div class="sem-dot yellow active"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+(Anti-roll-white-silicon)=
+### Flexi Disc Anti-Roll White Silicon  FDA - Silicon Transparent
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> Raccomandata per parti con un'ampia base d'appoggio (anche se non perfettamente stabili) e per componenti che tendono a scivolare l'uno sull'altro.
@@ -1341,7 +958,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-### Compatibilità Componenti (Silicone Transparent)
+#### Compatibilità Componenti (Flexi Disc Anti-Roll White Silicon  FDA)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1407,7 +1024,142 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 </div>
 
 
-## Flat Beige
+(Anti-stick-blue)=
+### Flexi Disc Anti-Stick Blue FDA - Diamond Blue
+
+<div class="main-char-banner">
+    <strong>Caratteristiche Principali:</strong> Superficie ampiamente utilizzata, raccomandata per numerose e diverse applicazioni. Ottima anche per parti sporche o oleose.
+</div>
+
+<div class="disc-container">
+    <table class="sphinx-styled-table">
+        <thead>
+            <tr>
+                <th style="width: 30%;">Proprietà</th>
+                <th style="width: 70%;">Specifiche / Livello</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Materiale</strong></td>
+                <td>Silicone - FDA</td>
+            </tr>
+            <tr>
+                <td><strong>Filamenti Antistatici</strong></td>
+                <td>Sì</td>
+            </tr>
+            <tr>
+                <td><strong>Backlight</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Toplight</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Cleaning</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow active"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Grip</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+#### Compatibilità Componenti (Flexi Disc Anti-Stick Blue FDA)
+
+<div class="disc-container">
+    <table class="sphinx-styled-table">
+        <thead>
+            <tr>
+                <th style="width: 30%;">Tipo di Componente</th>
+                <th style="width: 70%;">Compatibilità</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Dirty/Oily</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red "></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Cylindrical</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow active"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Sticky</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red "></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Transparent</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red active"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Sharp</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red "></div>
+                        <div class="sem-dot yellow active"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+(smooth-beige)=
+### Flexi Disc Smooth Beige FDA - Flat Beige
 
 <div class="main-char-banner">
         <strong>Caratteristiche Principali:</strong> Raccomandata per componenti trasparenti, ottimale con illuminazione dal basso (backlight).
@@ -1474,7 +1226,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-### Compatibilità Componenti (Flat Beige)
+#### Compatibilità Componenti (Flexi Disc Smooth Beige FDA)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1539,11 +1291,13 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-## Polibech White
+(smooth-blue)=
+### Flexi Disc Smooth Blue FDA - Smooth blue
 
 <div class="main-char-banner">
-        <strong>Caratteristiche Principali:</strong> Consigliata per componenti dotati di collare circolare o per piccoli cilindri.
-</div>
+        <strong>Caratteristiche Principali:</strong> Consigliata per componenti di colore chiaro e per illuminazione dall'alto (toplight). Molto poco soggetta all'accumulo di sporco.
+    </div>
+
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
@@ -1565,9 +1319,9 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
+                        <div class="sem-dot green "></div>
                     </div>
                 </td>
             </tr>
@@ -1576,8 +1330,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green "></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1586,8 +1340,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot yellow "></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1595,9 +1349,9 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
                 <td><strong>Grip</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
+                        <div class="sem-dot green "></div>
                     </div>
                 </td>
             </tr>
@@ -1605,7 +1359,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-### Compatibilità Componenti (Polibech White)
+#### Compatibilità Componenti (Flexi Disc Smooth Blue FDA)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1620,9 +1374,9 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
                 <td><strong>Dirty/Oily</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow  active"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot red "></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1630,9 +1384,9 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
                 <td><strong>Cylindrical</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow "></div>
-                        <div class="sem-dot green active"></div>
+                        <div class="sem-dot green"></div>
                     </div>
                 </td>
             </tr>
@@ -1641,8 +1395,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red "></div>
-                        <div class="sem-dot yellow active"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1669,6 +1423,904 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+(smooth-white)=
+### Flexi Disc Smooth White FDA - Standard White
+
+<div class="main-char-banner">
+    <strong>Caratteristiche Principali:</strong> Consigliata per parti piatte e pulite. Efficiente sia con illuminazione dal basso (backlight) che dall'alto (toplight).
+</div>
+
+<div class="disc-container">
+    <table class="sphinx-styled-table">
+        <thead>
+            <tr>
+                <th style="width: 30%;">Proprietà</th>
+                <th style="width: 70%;">Specifiche / Livello</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Materiale</strong></td>
+                <td>Polyurethane - FDA</td>
+            </tr>
+            <tr>
+                <td><strong>Filamenti Antistatici</strong></td>
+                <td>Sì</td>
+            </tr>
+            <tr>
+                <td><strong>Backlight</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Toplight</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Cleaning</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Grip</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red active"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+#### Compatibilità Componenti (Flexi Disc Smooth White FDA)
+
+<div class="disc-container">
+    <table class="sphinx-styled-table">
+        <thead>
+            <tr>
+                <th style="width: 30%;">Tipo di Componente</th>
+                <th style="width: 70%;">Compatibilità</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Dirty/Oily</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow active"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Cylindrical</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red active"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Sticky</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Transparent</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red active"></div>
+                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Sharp</strong></td>
+                <td>
+                    <div class="semaforo">
+                        <div class="sem-dot red"></div>
+                        <div class="sem-dot yellow active"></div>
+                        <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+### Tabella Riassuntiva per le Superfici dai modelli FB500 ai modelli FB1200
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" style="background-color: #d1d5db; color: #1f2937; text-align: center; vertical-align: middle; font-weight: bold;">Rotary Disk</th>
+      <th colspan="4" style="background-color: #fca5a5; color: #7f1d1d; text-align: center; font-weight: bold;">Disc features</th>
+      <th colspan="10" style="background-color: #60a5fa; color: #1e3a8a; text-align: center; font-weight: bold;">Component Features</th>
+    </tr>
+    <tr>
+      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center;">FDA</th>
+      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center;">Antistatic</th>
+      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center;">Backlight</th>
+      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center;">Toplight</th>
+      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center;">Cleaning</th>
+      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center;">Grip</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Dirty</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Cylindrical 1-5 mm</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Cylindrical 5-10 mm</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Cylindrical 10-20 mm</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Cylindrical > 20 mm</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Sticky</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Transparent</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Sharp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="font-weight: bold;">Flexi Disc Anti-Cut Grey FDA</td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+     <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Flexi Disc Anti-Roll "interasse" Beige Spike FDA</td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Flexi Disc Anti-Roll “interasse” Grey Spike FDA</td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+     <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style=" font-weight: bold;">Flexi Disc Anti-Roll “interasse” White FDA</td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Flexi Disc Anti-Roll “interasse” White FDA</td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td></td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Flexi Disc Anti-Roll White Silicon FDA</td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style=" font-weight: bold;">Flexi Disc Anti-Stick Blue FDA</td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style=" font-weight: bold;">Flexi Disc Smooth Beige FDA</td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Flexi Disc Smooth Blue FDA</td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td></td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Flexi Disc Smooth White FDA</td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+     <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot green active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot red active"></div>
+        </div>
+      </td>
+      <td>
+        <div class="semaforo">
+            <div class="sem-dot yellow active"></div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>     
+
+
 
 :::{list-table}
 :widths: 15 10 30 15 30 15 15 4 4
@@ -1704,3 +2356,29 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
   - 
   - 
 :::
+
+## **Dischi Rigidi**
+
+
+I dischi rigidi sono l'alternativa alle superfici adatta ai FlexiBowl® in verrsione edge:
+- **FlexiBowl® 200**
+- **FlexiBowl® 350**
+- **FlexiBowl® 500E**
+
+La loro rigidezza cambia il funzionamento del flip che, invce di agire in maniera praticamente direta sui componenti tramite lo spostamento della superficie, provoca una vibrazione sul disco ideale per lo smistamento di componenti di dimensioni più ridotte. Presentano inoltre un bordo integrato, che li rende ancora più adatti all'elaborazione di componenti piccoli in quanto elimina il gap che si può formare tra una superficie e il normale anello di contenimento. 
+
+Seguono le caratteristiche principali dei dischi disponibili a listino:
+
+(RD-anti-roll-white)=
+### Rigid Disc Anti-roll White
+
+(RD-anti-stick-white)=
+### Rigid Disc Anti-stick White
+
+(RD-smooth-black)=
+### Rigid Disc Smooth Black
+
+(RD-smooth-white)=
+### Rigid Disc Smooth White
+
+### Rigid Disc Application Specific Design - Custom
