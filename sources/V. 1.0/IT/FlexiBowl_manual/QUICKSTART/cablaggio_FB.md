@@ -1,4 +1,4 @@
-# **Cablaggio del FlexiBowl®**
+# **[ELE]** Cablaggio del FlexiBowl®
 
 Il cablaggio del FlexiBowl® varia in base al modello. Prima di procedere, identificare il modello in uso e seguire le istruzioni della sezione corrispondente.
 

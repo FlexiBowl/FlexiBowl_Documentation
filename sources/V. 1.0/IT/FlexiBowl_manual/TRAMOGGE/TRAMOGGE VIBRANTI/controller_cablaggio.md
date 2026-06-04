@@ -1,4 +1,4 @@
-# **Controller e Cablaggio**
+# **[ELE]** Controller e Cablaggio
 
 La macchina, durante il funzionamento, non necessita della presenza continua di un operatore.
 

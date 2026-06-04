@@ -1,5 +1,6 @@
-# **Comparativa Elettrica**
+# **[ELE]** Comparativa Elettrica
 
+Le seguenti informazioni sono tutte da verificare:
 ## Componenti del sistema elettrico
 
 | Componente              | FlexiBowl® 2.0 | FlexiBowl® 3.0 |
