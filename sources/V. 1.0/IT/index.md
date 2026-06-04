@@ -158,7 +158,6 @@ FlexiBowl_manual/INTERFACCIA SOFTWARE/04c_sequence.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04d_monitor.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04e_jogmotor.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04f_wizard.md
-FlexiBowl_manual/INTERFACCIA SOFTWARE/04g_manual.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04h_graphs.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04i_filetransfer.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04l_setup.md
@@ -201,7 +200,6 @@ FlexiBowl_manual/LAYOUT BEST PRACTICE/01_layoutbp.md
 :caption: ACCESSORI
 FlexiBowl_manual/ACCESSORI/00_ACCESSORI.md
 FlexiBowl_manual/ACCESSORI/01_SUPERFICI.md
-FlexiBowl_manual/ACCESSORI/02_DISCHI_RIGIDI.md
 FlexiBowl_manual/ACCESSORI/03_04_illuminazione.md
 FlexiBowl_manual/ACCESSORI/05_DEVIATORE.md
 FlexiBowl_manual/ACCESSORI/06_SOFFI.md
@@ -227,6 +225,10 @@ FlexiBowl_manual/Garanzia.md
 :hidden:
 :caption: TROUBLESHOOTING
 FlexiBowl_manual/TROUBLESHOOTING/01_risoluzione-problemi.md
+FlexiBowl_manual/TROUBLESHOOTING/02_problemi_meccanici.md
+FlexiBowl_manual/TROUBLESHOOTING/03_problemi_elettrici.md
+FlexiBowl_manual/TROUBLESHOOTING/04_problemi_pneumatici.md
+FlexiBowl_manual/TROUBLESHOOTING/05_problemi_software.md
 :::
 
 :::{toctree}  

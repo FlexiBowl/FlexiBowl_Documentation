@@ -361,6 +361,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 (Anti-roll-beige)=
 ### Flexi Disc Anti-Roll "interasse" Beige Spike FDA - Spike Beige
 
+![Spike Beige](../../../../_shared/media/images/SPIKEBEIGE.jpg) 
+
 <div class="main-char-banner">
   <strong>Caratteristiche Principali:</strong> Raccomandata per componenti cilindrici con diametro superiore a 15 mm.
 </div>
@@ -425,6 +427,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![Spike Beige](../../../../_shared/media/images/spikebeige_exp.png) 
 
 #### Compatibilità Componenti (Flexi Disc Anti-Roll "interasse" Beige Spike FDA)
 
@@ -493,6 +497,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 
 (Anti-roll-grey)=
 ### Flexi Disc Anti-Roll "interasse" Grey Spike FDA - Spike Transparent
+
 
 <div class="main-char-banner">
         <strong>Caratteristiche Principali:</strong> Raccomandata per componenti cilindrici con diametro inferiore a 15 mm.
@@ -628,6 +633,9 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 (Anti-roll-white)=
 ### Flexi Disc Anti-Roll "interasse" White FDA - GSTR white
 
+![GSTR white](../../../../_shared/media/images/GSTRWHITE.jpg)
+
+
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> Raccomandata per parti pulite e stabili (anche se appiccicose/sticky), e per componenti cilindrici di dimensioni molto ridotte.
 </div>
@@ -692,6 +700,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![GSTR white](../../../../_shared/media/images/gstrwhite_exp.png)
 
 #### Compatibilità Componenti (Flexi Disc Anti-Roll "interasse" White FDA)
 
@@ -1027,6 +1037,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 (Anti-stick-blue)=
 ### Flexi Disc Anti-Stick Blue FDA - Diamond Blue
 
+![DIAMOND BLUE](../../../../_shared/media/images/DIAMONDBLUE.jpg)
+
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> Superficie ampiamente utilizzata, raccomandata per numerose e diverse applicazioni. Ottima anche per parti sporche o oleose.
 </div>
@@ -1091,6 +1103,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![DIAMOND BLUE](../../../../_shared/media/images/diamondblue_exp.png)
 
 #### Compatibilità Componenti (Flexi Disc Anti-Stick Blue FDA)
 
@@ -1161,6 +1175,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 (smooth-beige)=
 ### Flexi Disc Smooth Beige FDA - Flat Beige
 
+![flat beige](../../../../_shared/media/images/FLATBEIGE.jpg)
+
 <div class="main-char-banner">
         <strong>Caratteristiche Principali:</strong> Raccomandata per componenti trasparenti, ottimale con illuminazione dal basso (backlight).
 </div>
@@ -1225,6 +1241,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![flat beige](../../../../_shared/media/images/flatbeige_exp.png)
 
 #### Compatibilità Componenti (Flexi Disc Smooth Beige FDA)
 
@@ -1294,6 +1312,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 (smooth-blue)=
 ### Flexi Disc Smooth Blue FDA - Smooth blue
 
+![SMOOTH BLUE](../../../../_shared/media/images/SMOOTHBLUE.jpg)
+
 <div class="main-char-banner">
         <strong>Caratteristiche Principali:</strong> Consigliata per componenti di colore chiaro e per illuminazione dall'alto (toplight). Molto poco soggetta all'accumulo di sporco.
     </div>
@@ -1358,6 +1378,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![SMOOTH BLUE](../../../../_shared/media/images/smoothblue_exp.png)
 
 #### Compatibilità Componenti (Flexi Disc Smooth Blue FDA)
 
@@ -1558,767 +1580,253 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 </div>
 
 
-### Tabella Riassuntiva per le Superfici dai modelli FB500 ai modelli FB1200
+### Tabelle Riassuntive per le Superfici dai modelli FB500 ai modelli FB1200
 
-<table>
+<div class="disc-container">
+<table style="border-collapse: collapse; width: 100%; font-size: 0.85em;">
   <thead>
     <tr>
-      <th rowspan="2" style="background-color: #d1d5db; color: #1f2937; text-align: center; vertical-align: middle; font-weight: bold;">Rotary Disk</th>
-      <th colspan="4" style="background-color: #fca5a5; color: #7f1d1d; text-align: center; font-weight: bold;">Disc features</th>
-      <th colspan="10" style="background-color: #60a5fa; color: #1e3a8a; text-align: center; font-weight: bold;">Component Features</th>
+      <th rowspan="2" style="background-color: #d1d5db; color: #1f2937; text-align: center; vertical-align: middle; font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Rotary Disk</th>
+      <th colspan="6" style="background-color: #fca5a5; color: #7f1d1d; text-align: center; font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Disc features</th>
     </tr>
     <tr>
-      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center;">FDA</th>
-      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center;">Antistatic</th>
-      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center;">Backlight</th>
-      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center;">Toplight</th>
-      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center;">Cleaning</th>
-      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center;">Grip</th>
-      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Dirty</th>
-      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Cylindrical 1-5 mm</th>
-      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Cylindrical 5-10 mm</th>
-      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Cylindrical 10-20 mm</th>
-      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Cylindrical > 20 mm</th>
-      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Sticky</th>
-      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Transparent</th>
-      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center;">Sharp</th>
+      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center; border: 1px solid #9ca3af; padding: 6px;">FDA</th>
+      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center; border: 1px solid #9ca3af; padding: 6px;">Antistatic</th>
+      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center; border: 1px solid #9ca3af; padding: 6px;">Backlight</th>
+      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center; border: 1px solid #9ca3af; padding: 6px;">Toplight</th>
+      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center; border: 1px solid #9ca3af; padding: 6px;">Cleaning</th>
+      <th style="background-color: #fca5a5; color: #7f1d1d; text-align: center; border: 1px solid #9ca3af; padding: 6px;">Grip</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="font-weight: bold;">Flexi Disc Anti-Cut Grey FDA</td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-     <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Cut Grey FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
     </tr>
     <tr>
-      <td style="font-weight: bold;">Flexi Disc Anti-Roll "interasse" Beige Spike FDA</td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Roll "interasse" Beige Spike FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
     </tr>
     <tr>
-      <td style="font-weight: bold;">Flexi Disc Anti-Roll “interasse” Grey Spike FDA</td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-     <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Roll "interasse" Grey Spike FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
     </tr>
     <tr>
-      <td style=" font-weight: bold;">Flexi Disc Anti-Roll “interasse” White FDA</td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Roll "interasse" White FDA - GSTR white</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
     </tr>
     <tr>
-      <td style="font-weight: bold;">Flexi Disc Anti-Roll “interasse” White FDA</td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td></td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Roll "interasse" White FDA - Polibech White</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
     </tr>
     <tr>
-      <td style="font-weight: bold;">Flexi Disc Anti-Roll White Silicon FDA</td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Roll White Silicon FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
     </tr>
     <tr>
-      <td style=" font-weight: bold;">Flexi Disc Anti-Stick Blue FDA</td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Stick Blue FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
     </tr>
     <tr>
-      <td style=" font-weight: bold;">Flexi Disc Smooth Beige FDA</td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Smooth Beige FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
     </tr>
     <tr>
-      <td style="font-weight: bold;">Flexi Disc Smooth Blue FDA</td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td></td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Smooth Blue FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
     </tr>
     <tr>
-      <td style="font-weight: bold;">Flexi Disc Smooth White FDA</td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-     <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot green active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot red active"></div>
-        </div>
-      </td>
-      <td>
-        <div class="semaforo">
-            <div class="sem-dot yellow active"></div>
-        </div>
-      </td>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Smooth White FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
     </tr>
   </tbody>
-</table>     
+</table>
+</div>
+
+<br>
+
+<div class="disc-container">
+<table style="border-collapse: collapse; width: 100%; font-size: 0.85em;">
+  <thead>
+    <tr>
+      <th rowspan="2" style="background-color: #d1d5db; color: #1f2937; text-align: center; vertical-align: middle; font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Rotary Disk</th>
+      <th colspan="9" style="background-color: #60a5fa; color: #1e3a8a; text-align: center; font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Component Features</th>
+    </tr>
+    <tr>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center; border: 1px solid #9ca3af; padding: 6px;">Dirty</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center; border: 1px solid #9ca3af; padding: 6px;">Cyl. 1-5mm</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center; border: 1px solid #9ca3af; padding: 6px;">Cyl. 5-10mm</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center; border: 1px solid #9ca3af; padding: 6px;">Cyl. 10-20mm</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center; border: 1px solid #9ca3af; padding: 6px;">Cyl. >20mm</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center; border: 1px solid #9ca3af; padding: 6px;">Sticky</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center; border: 1px solid #9ca3af; padding: 6px;">Transparent</th>
+      <th style="background-color: #60a5fa; color: #1e3a8a; text-align: center; border: 1px solid #9ca3af; padding: 6px;">Sharp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Cut Grey FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Roll "interasse" Beige Spike FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Roll "interasse" Grey Spike FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Roll "interasse" White FDA - GSTR white</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Roll "interasse" White FDA - Polibech White</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Roll White Silicon FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Anti-Stick Blue FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Smooth Beige FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Smooth Blue FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; border: 1px solid #9ca3af; padding: 6px;">Flexi Disc Smooth White FDA</td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot green active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot red active"></div></div></td>
+      <td style="text-align:center; border: 1px solid #9ca3af; padding: 6px;"><div class="semaforo"><div class="sem-dot yellow active"></div></div></td>
+    </tr>
+  </tbody>
+</table>
+</div>    
 
 
 
