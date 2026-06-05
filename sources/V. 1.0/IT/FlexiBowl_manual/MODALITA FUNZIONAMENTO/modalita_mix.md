@@ -8,8 +8,14 @@ Questa modalità è particolarmente indicata per applicazioni di **smistamento**
 
 ```{figure}  ../../../../_shared/media/images/flexibowl_standard_cycle.jpg
 :align: center
-:width: 80%
-:alt: *Ciclo operativo in Modalità Standard: Detect → Pick-Drop → Move-Flip*
+:width: 50%
+:alt: *Ciclo operativo in Modalità Mix: Detect → Pick-Drop → Move-Flip*
+```
+
+```{video}  ../../../../_shared/media/videos/MIX_MODE.mp4
+:align: center
+:width: 100%
+:alt: *Ciclo operativo in Modalità Mix: Detect → Pick-Drop → Move-Flip*
 ```
 ---
 

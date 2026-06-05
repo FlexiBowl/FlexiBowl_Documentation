@@ -228,6 +228,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 (Anti-cut-grey)=
 ### Flexi Disc Anti-Cut Grey FDA - Fabric Transparent
 
+![FABRIC TRANSPARENT](../../../../_shared/media/images/FABRICTRANS.jpg)
+
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> Raccomandata per componenti taglienti o con spigoli vivi (sharp components).
 </div>
@@ -292,6 +294,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![FABRIC TRANSPARENT](../../../../_shared/media/images/FABRICTRANS_EXP.png)
 
 #### Compatibilità Componenti (Flexi Disc Anti-Cut Grey FDA)
 
@@ -498,6 +502,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 (Anti-roll-grey)=
 ### Flexi Disc Anti-Roll "interasse" Grey Spike FDA - Spike Transparent
 
+![Spike TRANSPARENT](../../../../_shared/media/images/SPIKETRANS.jpg)
 
 <div class="main-char-banner">
         <strong>Caratteristiche Principali:</strong> Raccomandata per componenti cilindrici con diametro inferiore a 15 mm.
@@ -563,6 +568,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![FABRIC TRANSPARENT](../../../../_shared/media/images/SPIKETRANS_EXP.png)
 
 #### Compatibilità Componenti (Flexi Disc Anti-Roll "interasse" Grey Spike FDA)
 
@@ -771,6 +778,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 (Anti-roll-white)=
 ### Flexi Disc Anti-Roll "interasse" White FDA - Polibech White
 
+![Polibech White](../../../../_shared/media/images/POLIBECHWHITE.jpg)
+
 <div class="main-char-banner">
         <strong>Caratteristiche Principali:</strong> Consigliata per componenti dotati di collare circolare o per piccoli cilindri.
 </div>
@@ -834,6 +843,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![Polibech White](../../../../_shared/media/images/POLIWHITE_EXP.PNG)
 
 #### Compatibilità Componenti (Flexi Disc Anti-Roll "interasse" White FDA )
 
@@ -967,6 +978,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![Polibech White](../../../../_shared/media/images/SILITRANS_EXP.png)
 
 #### Compatibilità Componenti (Flexi Disc Anti-Roll White Silicon  FDA)
 

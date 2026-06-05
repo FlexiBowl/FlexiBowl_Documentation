@@ -7,7 +7,12 @@ L'opzione **Flexitracking** consente di massimizzare la produttività del FlexiB
  Invece di fermarsi a ogni ciclo per scattare la foto e dare al robot il tempo di raccogliere i pezzi presenti sull'area di visione, un encoder tiene traccia dell'angolo di rotazione effettuato dalla superficie del disco rigido dal momento dello scatto della foto a quello della presa del pezzo da parte del robot.  
 
 :::{figure} ../../../../_shared/media/images/Tracking.png
-:width: 80%
+:width: 50%
+:align: center
+:::
+
+:::{video} ../../../../_shared/media/videos/TRACKING_MODE.mp4
+:width: 100%
 :align: center
 :::
 
