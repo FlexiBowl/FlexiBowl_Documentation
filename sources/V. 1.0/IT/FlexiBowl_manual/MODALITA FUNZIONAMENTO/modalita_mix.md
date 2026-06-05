@@ -12,7 +12,7 @@ Questa modalità è particolarmente indicata per applicazioni di **smistamento**
 :alt: *Ciclo operativo in Modalità Mix: Detect → Pick-Drop → Move-Flip*
 ```
 
-```{video}  ../../../../_shared/media/videos/MIX_MODE.mp4
+```{image}  ../../../../_shared/media/videos/MIX_MODE.gif
 :align: center
 :width: 100%
 :alt: *Ciclo operativo in Modalità Mix: Detect → Pick-Drop → Move-Flip*

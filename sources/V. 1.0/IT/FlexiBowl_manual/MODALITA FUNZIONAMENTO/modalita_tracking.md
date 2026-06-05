@@ -11,7 +11,7 @@ L'opzione **Flexitracking** consente di massimizzare la produttività del FlexiB
 :align: center
 :::
 
-:::{video} ../../../../_shared/media/videos/TRACKING_MODE.mp4
+:::{image} ../../../../_shared/media/videos/TRACKING_MODE.GIF
 :width: 100%
 :align: center
 :::
