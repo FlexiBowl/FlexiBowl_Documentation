@@ -10,7 +10,12 @@ Il FlexiBowl® in Modalità Standard esegue un ciclo continuo composto da tre fa
 
 ```{figure} ../../../../_shared/media/images/flexibowl_standard_cycle.jpg
 :align: center
-:width: 80%
+:width: 50%
+:alt: *Ciclo operativo in Modalità Standard: Detect → Pick-Drop → Move-Flip*
+```
+```{video} ../../../../_shared/media/videos/STANDARD_MODE.mp4
+:align: center
+:width: 100%
 :alt: *Ciclo operativo in Modalità Standard: Detect → Pick-Drop → Move-Flip*
 ```
 
