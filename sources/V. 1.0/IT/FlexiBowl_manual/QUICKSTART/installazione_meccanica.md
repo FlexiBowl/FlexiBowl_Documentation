@@ -8,12 +8,35 @@
   - Operazione
 
 * - 1
-  - Posizionare il FlexiBowl® su di un {ref}`piano stabile <pianale>`.
+  - Posizionare il FlexiBowl® su di un {ref}`piano stabile <pianale>`. Prestare attenzione al {ref}`trasporto e il sollevamento <transflex>`.
 
 * - 2
-  - Fissare correttamente il FlexiBowl® al supporto. La quantità e tipologia di viti necessarie sono riportate nella {ref}`sezione dedicata <intmec>`.
+  - Rimuovere le maniglie e fissare correttamente il FlexiBowl® al supporto. La quantità e tipologia di viti necessarie sono riportate nella {ref}`sezione dedicata <intmec>`.
 
 * - 3
+  - Rimuovere i golfari:
+    * **FlexiBowl® 500-650-800:**
+
+      1. Bloccare il supporto girevole dei golfari con una vite M5x12.
+
+      2. Rimuovere il golfare.
+
+      3. Coprire il foro M8 del golfare con l'apposito tappo.
+
+      :::{figure} ../../../../_shared/media/images/golf650.PNG
+         :align: center
+      :::
+
+    * **FlexiBowl® 1200:**
+
+      1. Rimuovere il golfare.
+
+      2. Coprire il foro M12 del golfare con l'apposito tappo.
+
+* - 4
+  - {ref}`Montare la superficie o disco rigido <sost-disco>`.
+
+* - 5
   - Procedere con gli {ref}`allacciamenti necessari <intele>`.
 
 ::::

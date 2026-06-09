@@ -258,3 +258,51 @@ Dopo il disimballo, il FlexiBowl® si presenta già interamente montato. Seguire
   - xxxx
 
 :::
+
+:::{warning}
+La normativa **EN ISO 11228-1-2022** proibisce di sollevare manualmente carichi superiori ai 25kg (il limite può essere anche inferiore in base al sesso e all'età dell'operatore) quindi, per ragioni di sicurezza, è obbligatorio l'uso di macchine di sollevamento per i FlexiBowl® che superano questo limite. È anche necessario considerare che la tabella dei pesi, riportata di sopra e anche in altri capitoli del presente manuale, si riferisce ai FlexiBowl® **senza** accessori montati, il peso può aumentare in base alla configurazione acquistata: in tal caso il peso sarà adeguatamente riportato. I FlexiBowl® che superano il limite dei 25kg sono quelli di taglia 500 e oltre.
+:::
+
+I FlexiBowl® di taglia 500 e oltre sono provvisti di golfari per il sollevamento, da utilizzare per il trasporto della macchina dalla scatola di imballo alla sua posizione finale.
+
+::::{important}
+I golfari sono fissati su basi orientabili: durante l'imbracatura del FlexiBowl® è importante assicurarsi che il carico sia giacente sul piano dell'occhiello del golfare e che non superi i 45° rispetto all'asse verticale, situazione che potrebbe provocare carichi di taglio che solleciterebbero i golfari in modo anomalo.
+
+:::{figure} ../../../../_shared/media/images/din580.png
+  :align: center
+  :width: 50%
+:::
+::::
+
+:::{warning}
+Le maniglie presenti sui FlexiBowl® di taglia 500 e oltre **NON** sono da utilizzare per il sollevamento, ma servono solamente a guidare il piazzamento sul piano macchina.
+:::
+
+### Dimensionamento delle funi per il sollevamento
+
+Il diametro delle funi deve essere sufficiente per supportare il peso del FlexiBowl®, mentre la lunghezza deve essere tale da garantire il corretto orientamento del carico sul golfare in base ai principi descritti sopra, basati sulla normativa DIN 580:
+
+:::{figure} ../../../../_shared/media/images/FB650sol.png
+  :align: center
+  :width: 100%
+:::
+
+:::{list-table}
+:widths: 50 50
+:header-rows: 1
+
+* - Modello FlexiBowl®
+  - Lunghezza minima dei cavi A
+
+* - 500
+  - 300 mm
+
+* - 650
+  - 396 mm
+
+* - 800
+  - 495 mm
+
+* - 1200
+  - 687 mm
+:::
