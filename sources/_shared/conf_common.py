@@ -5,7 +5,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "FlexiVision One"
+project = "FlexiBowl®"
 author = "ARS Automation"
 copyright = "2026, Ars Automation"
 release = "1.0"
@@ -43,7 +43,7 @@ source_suffix = {
 
 html_theme = "sphinx_book_theme"
 html_static_path = ["../../_shared/static", "../../_shared/media"]
-html_title = "FlexiVision One Manual"
+html_title = "FlexiBowl® Manual"
 
 html_css_files = [
     "custom.css",
