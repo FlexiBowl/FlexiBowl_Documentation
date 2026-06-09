@@ -432,7 +432,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-![Spike Beige](../../../../_shared/media/images/spikebeige_exp.png) 
+
 
 #### Compatibilità Componenti (Flexi Disc Anti-Roll "interasse" Beige Spike FDA)
 
@@ -498,6 +498,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![Spike Beige](../../../../_shared/media/images/spikebeige_exp.png) 
 
 (Anti-roll-grey)=
 ### Flexi Disc Anti-Roll "interasse" Grey Spike FDA - Spike Transparent
@@ -569,7 +571,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-![FABRIC TRANSPARENT](../../../../_shared/media/images/SPIKETRANS_EXP.png)
+
 
 #### Compatibilità Componenti (Flexi Disc Anti-Roll "interasse" Grey Spike FDA)
 
@@ -636,6 +638,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
+![FABRIC TRANSPARENT](../../../../_shared/media/images/SPIKETRANS_EXP.png)
 
 (Anti-roll-white)=
 ### Flexi Disc Anti-Roll "interasse" White FDA - GSTR white
@@ -708,7 +711,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-![GSTR white](../../../../_shared/media/images/gstrwhite_exp.png)
+
 
 #### Compatibilità Componenti (Flexi Disc Anti-Roll "interasse" White FDA)
 
@@ -774,6 +777,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![GSTR white](../../../../_shared/media/images/gstrwhite_exp.png)
 
 (Anti-roll-white)=
 ### Flexi Disc Anti-Roll "interasse" White FDA - Polibech White
@@ -844,7 +849,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-![Polibech White](../../../../_shared/media/images/POLIWHITE_EXP.PNG)
+
 
 #### Compatibilità Componenti (Flexi Disc Anti-Roll "interasse" White FDA )
 
@@ -910,6 +915,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![Polibech White](../../../../_shared/media/images/polibech_exp.png)
 
 (Anti-roll-white-silicon)=
 ### Flexi Disc Anti-Roll White Silicon  FDA - Silicon Transparent
@@ -1117,7 +1124,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-![DIAMOND BLUE](../../../../_shared/media/images/diamondblue_exp.png)
+
 
 #### Compatibilità Componenti (Flexi Disc Anti-Stick Blue FDA)
 
@@ -1184,6 +1191,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
+![DIAMOND BLUE](../../../../_shared/media/images/diamondblue_exp.png)
 
 (smooth-beige)=
 ### Flexi Disc Smooth Beige FDA - Flat Beige
@@ -1392,7 +1400,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-![SMOOTH BLUE](../../../../_shared/media/images/smoothblue_exp.png)
+
 
 #### Compatibilità Componenti (Flexi Disc Smooth Blue FDA)
 
@@ -1459,8 +1467,12 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
+![SMOOTH BLUE](../../../../_shared/media/images/smoothblue_exp.png)
+
 (smooth-white)=
 ### Flexi Disc Smooth White FDA - Standard White
+
+![STANDARD WHITE](../../../../_shared/media/images/STANDARDWHITE.jpg)
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> Consigliata per parti piatte e pulite. Efficiente sia con illuminazione dal basso (backlight) che dall'alto (toplight).
@@ -1592,6 +1604,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
+![STANDARD WHITE](../../../../_shared/media/images/standardwhite_exp.png)
 
 ### Tabelle Riassuntive per le Superfici dai modelli FB500 ai modelli FB1200
 
