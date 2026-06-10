@@ -1,9 +1,6 @@
 (intele)=
 # **[ELE]** Interfaccia Elettrica
 
-(interfaccia_elettrica)=
-# **Interfaccia elettrica**
-
 Il pannello connettori del FlexiBowl® varia in base alla versione della macchina:
 
 :::{raw} html
@@ -109,7 +106,7 @@ Il pannello connettori del FlexiBowl® varia in base alla versione della macchin
         {n:3, name:'Connettore cavo motore'},
         {n:4, name:'Connettore C-A signal'},
         {n:5, name:'Connettore C-B Signal'},
-        {n:6, name:'Connettore Ethernet'},
+        {n:6, name:'Ingresso Ethernet'},
         {n:7, name:'Connettore tramoggia'},
         {n:8, name:'Collegamento Ethernet al FlexiBowl\u00ae'}
       ]
@@ -123,7 +120,7 @@ Il pannello connettori del FlexiBowl® varia in base alla versione della macchin
         {n:3, name:'LED di stato backlight'},
         {n:4, name:'LED di stato Ready/Fault'},
         {n:5, name:'Connettore tramoggia'},
-        {n:6, name:'Connettore Ethernet'},
+        {n:6, name:'Ingresso Ethernet'},
         {n:7, name:'Connettore STO'}
       ]
     },
@@ -135,7 +132,7 @@ Il pannello connettori del FlexiBowl® varia in base alla versione della macchin
         {n:2, name:'LED di stato backlight'},
         {n:3, name:'LED di stato Ready/Fault'},
         {n:4, name:'Connettore tramoggia'},
-        {n:5, name:'Connettore Ethernet'},
+        {n:5, name:'Ingresso Ethernet'},
         {n:6, name:'Passaggio cavo encoder'},
         {n:7, name:'Ingresso aria'},
         {n:8, name:'Connettore I/O'},
