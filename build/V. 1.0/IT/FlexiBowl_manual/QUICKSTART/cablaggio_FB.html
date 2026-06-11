@@ -169,8 +169,7 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">INSTALLAZIONE</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../INSTALLAZIONE/01_interfaccia-meccanica.html"><strong>Interfaccia Meccanica</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../INSTALLAZIONE/02_interfaccia-elettrica.html"><strong>[ELE]</strong> Interfaccia Elettrica</a></li>
-
+<li class="toctree-l1"><a class="reference internal" href="../INSTALLAZIONE/02_interfaccia-elettrica.html">Interfaccia Elettrica</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../INSTALLAZIONE/03_interfaccia-pneumatica.html"><strong>[MEC]</strong> Interfaccia Pneumatica</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../INSTALLAZIONE/04_interfaccia-software.html"><strong>Interfaccia Software</strong></a></li>
 </ul>
@@ -412,9 +411,7 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
+
 </div></div>
       
     </div>
@@ -430,15 +427,6 @@
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelli-flexibowl-200-e-350">Modelli FlexiBowl® 200 e 350</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelli-flexibowl-500-650-800-e-1200">Modelli FlexiBowl® 500, 650, 800 e 1200</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -450,21 +438,253 @@
                   
   <section id="ele-cablaggio-del-flexibowl">
 <h1><strong>[ELE]</strong> Cablaggio del FlexiBowl®<a class="headerlink" href="#ele-cablaggio-del-flexibowl" title="Link to this heading">#</a></h1>
-<p>Il cablaggio del FlexiBowl® varia in base al modello. Prima di procedere, identificare il modello in uso e seguire le istruzioni della sezione corrispondente.</p>
-<section id="modelli-flexibowl-200-e-350">
-<h2>Modelli FlexiBowl® 200 e 350<a class="headerlink" href="#modelli-flexibowl-200-e-350" title="Link to this heading">#</a></h2>
-<p>Per i modelli <strong>200</strong> e <strong>350</strong>, tutti i connettori sono esterni e le connessioni vengono effettuate su un <strong>box di connessione dedicato</strong>, separato dall’unità principale.</p>
-</section>
-<section id="modelli-flexibowl-500-650-800-e-1200">
-<h2>Modelli FlexiBowl® 500, 650, 800 e 1200<a class="headerlink" href="#modelli-flexibowl-500-650-800-e-1200" title="Link to this heading">#</a></h2>
-<p>Per tutti gli altri modelli, le connessioni vengono effettuate <strong>direttamente sul pannello</strong> del FlexiBowl®.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+   <style>
+     .ars-img-row { display: flex; gap: 12px; align-items: center; justify-content: center; }
+     .ars-img-row img { width: 25%; }
+   </style><div class="pst-scrollable-table-container"><table class="table">
+<colgroup>
+<col style="width: 33.3%" />
+<col style="width: 66.7%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><a class="reference internal" href="../PRIMA%20DI%20INIZIARE/01_informazioni_preliminari.html#operatori"><span class="std std-ref">Qualifica operatore</span></a></p></th>
+<th class="head"><p><a class="reference internal" href="../PRIMA%20DI%20INIZIARE/02_informazioni_sicurezza.html#dpi"><span class="std std-ref">D.P.I. Necessari</span></a></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Manutentore elettrico</strong></p></td>
+<td>   <div class="ars-img-row">
+     <img src="../../../../_shared/media/images/guanti.png" alt="guanti">
+     <img src="../../../../_shared/media/images/scarpe.png" alt="scarpe">
+     <img src="../../../../_shared/media/images/tuta.png" alt="tuta">
+   </div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Prima di effettuare qualsiasi connessione elettrica, assicurarsi che l’alimentazione sia disinserita e che il sistema sia in stato di sicurezza.</p>
 </div>
-<div class="admonition important">
+<p>Il cablaggio del FlexiBowl® varia in base alla versione e alla configurazione della macchina:</p>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --acc:#1a6fc4;--acc-dk:#0d4a8a;--acc-bg:#e8f1fb;
+  --bd:#e0e0e0;--bg-p:#ffffff;--bg-s:#f7f8f9;--bg-h:#f0f4fa;
+  --tx1:#1a1a1a;--tx2:#555;--tx3:#888;
+  --r:10px;--tr:0.35s cubic-bezier(.4,0,.2,1);
+}
+.ie-tabs{display:flex;gap:6px;margin-bottom:12px}
+.ie-tab{padding:5px 14px;border-radius:6px;border:1.5px solid var(--bd);background:#fff;font-size:13px;font-weight:600;color:var(--tx2);cursor:pointer;transition:background var(--tr),color var(--tr),border-color var(--tr)}
+.ie-tab:hover{background:var(--bg-h)}
+.ie-tab.on{background:var(--acc-bg);color:var(--acc-dk);border-color:var(--acc)}
+.ie-panel{display:none}
+.ie-panel.on{display:block}
+.ie-wrap{border:1px solid var(--bd);border-radius:var(--r);overflow:hidden;background:var(--bg-p);box-shadow:0 2px 12px rgba(0,0,0,0.07)}
+.ie-img-outer{position:relative;width:100%;padding-top:70.71%}
+.ie-img-outer img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:0;transition:opacity var(--tr)}
+.ie-img-base{opacity:1;z-index:1}
+.ie-img-hl{opacity:0;z-index:2}
+.ie-badge{position:absolute;top:12px;left:14px;z-index:3;background:var(--acc);color:#fff;font-size:12px;font-weight:600;padding:4px 10px;border-radius:20px;opacity:0;transform:translateY(-4px);transition:opacity var(--tr),transform var(--tr);pointer-events:none;white-space:nowrap}
+.ie-badge.on{opacity:1;transform:translateY(0)}
+.ie-hint{position:absolute;bottom:14px;left:50%;z-index:3;transform:translateX(-50%);font-size:13px;color:#fff;background:rgba(0,0,0,0.38);padding:6px 16px;border-radius:20px;pointer-events:none;transition:opacity var(--tr);white-space:nowrap}
+.ie-list-panel{border-top:1px solid var(--bd);background:var(--bg-p)}
+.ie-list-head{display:grid;grid-template-columns:40px 1fr;gap:8px;padding:8px 14px;background:var(--bg-s);border-bottom:1px solid var(--bd);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--tx3)}
+.ie-row{display:grid;grid-template-columns:40px 1fr;gap:8px;align-items:center;padding:9px 14px;border-bottom:1px solid var(--bd);cursor:pointer;transition:background var(--tr);user-select:none}
+.ie-row:last-child{border-bottom:none}
+.ie-row:hover{background:var(--bg-h)}
+.ie-row.on{background:var(--acc-bg)}
+.ie-bubble{width:26px;height:26px;border-radius:50%;border:1.5px solid var(--bd);background:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;color:var(--tx2);flex-shrink:0;transition:background var(--tr),color var(--tr),border-color var(--tr)}
+.ie-row.on .ie-bubble{background:var(--acc);color:#fff;border-color:var(--acc)}
+.ie-name{font-size:13px;font-weight:500;color:var(--tx1);transition:color var(--tr)}
+.ie-row.on .ie-name{color:var(--acc-dk)}
+</style>
+
+<!-- Tab bar -->
+<div class="ie-tabs">
+  <button class="ie-tab on" onclick="ieSwitchTab('rack',this)">Rack</button>
+  <button class="ie-tab"    onclick="ieSwitchTab('stpanel',this)">Pannello Standard</button>
+  <button class="ie-tab"    onclick="ieSwitchTab('encpanel',this)">Pannello Flexitracking</button>
+</div>
+
+<!-- ══════════ RACK ══════════ -->
+<div class="ie-panel on" id="ie-panel-rack">
+  <div class="ie-wrap">
+    <div class="ie-img-outer">
+      <img class="ie-img-base" id="rack-img-base" src="../../../../_shared/media/images/rack0.PNG" alt="Rack FlexiBowl®" />
+      <img class="ie-img-hl"   id="rack-img-hl"   src="" alt="" aria-hidden="true" />
+      <div class="ie-badge" id="rack-badge"></div>
+      <div class="ie-hint"  id="rack-hint">Seleziona un connettore dalla lista</div>
+    </div>
+    <div class="ie-list-panel">
+      <div class="ie-list-head"><span>N.</span><span>Connettore</span></div>
+      <div id="rack-list"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ PANNELLO STANDARD ══════════ -->
+<div class="ie-panel" id="ie-panel-stpanel">
+  <div class="ie-wrap">
+    <div class="ie-img-outer">
+      <img class="ie-img-base" id="stpanel-img-base" src="../../../../_shared/media/images/stpanel0.PNG" alt="Pannello Standard FlexiBowl®" />
+      <img class="ie-img-hl"   id="stpanel-img-hl"   src="" alt="" aria-hidden="true" />
+      <div class="ie-badge" id="stpanel-badge"></div>
+      <div class="ie-hint"  id="stpanel-hint">Seleziona un connettore dalla lista</div>
+    </div>
+    <div class="ie-list-panel">
+      <div class="ie-list-head"><span>N.</span><span>Connettore</span></div>
+      <div id="stpanel-list"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ PANNELLO FLEXITRACKING ══════════ -->
+<div class="ie-panel" id="ie-panel-encpanel">
+  <div class="ie-wrap">
+    <div class="ie-img-outer">
+      <img class="ie-img-base" id="encpanel-img-base" src="../../../../_shared/media/images/encpanel0.PNG" alt="Pannello Flexitracking FlexiBowl®" />
+      <img class="ie-img-hl"   id="encpanel-img-hl"   src="" alt="" aria-hidden="true" />
+      <div class="ie-badge" id="encpanel-badge"></div>
+      <div class="ie-hint"  id="encpanel-hint">Seleziona un connettore dalla lista</div>
+    </div>
+    <div class="ie-list-panel">
+      <div class="ie-list-head"><span>N.</span><span>Connettore</span></div>
+      <div id="encpanel-list"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+
+  var models = {
+    rack: {
+      imgPath: '../../../../_shared/media/images/rack',
+      imgExt: '.PNG',
+      comps: [
+        {n:1, name:'Presa di corrente e interruttore'},
+        {n:2, name:'Connettore STO'},
+        {n:3, name:'Connettore cavo motore'},
+        {n:4, name:'Connettore C-A signal'},
+        {n:5, name:'Connettore C-B Signal'},
+        {n:6, name:'Ingresso Ethernet'},
+        {n:7, name:'Connettore tramoggia'},
+        {n:8, name:'Collegamento Ethernet al FlexiBowl\u00ae'}
+      ]
+    },
+    stpanel: {
+      imgPath: '../../../../_shared/media/images/stpanel',
+      imgExt: '.PNG',
+      comps: [
+        {n:1, name:'Presa di corrente e interruttore'},
+        {n:2, name:'Ingresso aria'},
+        {n:3, name:'LED di stato backlight'},
+        {n:4, name:'LED di stato Ready/Fault'},
+        {n:5, name:'Connettore tramoggia'},
+        {n:6, name:'Ingresso Ethernet'},
+        {n:7, name:'Connettore STO'}
+      ]
+    },
+    encpanel: {
+      imgPath: '../../../../_shared/media/images/encpanel',
+      imgExt: '.PNG',
+      comps: [
+        {n:1, name:'Presa di corrente e interruttore'},
+        {n:2, name:'LED di stato backlight'},
+        {n:3, name:'LED di stato Ready/Fault'},
+        {n:4, name:'Connettore tramoggia'},
+        {n:5, name:'Ingresso Ethernet'},
+        {n:6, name:'Passaggio cavo encoder'},
+        {n:7, name:'Ingresso aria'},
+        {n:8, name:'Connettore I/O'},
+        {n:9, name:'Connettore STO'}
+      ]
+    }
+  };
+
+  var state = {};
+  Object.keys(models).forEach(function(id){ state[id]={activeN:null,activeRow:null}; });
+
+  Object.keys(models).forEach(function(id){
+    var m  = models[id];
+    var el = document.getElementById(id+'-list');
+    m.comps.forEach(function(c){
+      var row = document.createElement('div');
+      row.className = 'ie-row';
+      row.innerHTML = '<div class="ie-bubble">'+c.n+'</div>'
+                    + '<div class="ie-name">'+c.name+'</div>';
+      row.addEventListener('click', function(){ toggle(id, c, row); });
+      el.appendChild(row);
+    });
+  });
+
+  function toggle(id, c, row){
+    var s       = state[id];
+    var m       = models[id];
+    var imgBase = document.getElementById(id+'-img-base');
+    var imgHl   = document.getElementById(id+'-img-hl');
+    var badge   = document.getElementById(id+'-badge');
+    var hint    = document.getElementById(id+'-hint');
+
+    if(s.activeN === c.n){ reset(id); return; }
+    if(s.activeRow) s.activeRow.classList.remove('on');
+    row.classList.add('on');
+    s.activeRow = row; s.activeN = c.n;
+
+    badge.textContent = c.n + ' \u2014 ' + c.name;
+    badge.classList.add('on');
+    hint.style.opacity = '0';
+
+    var newImg = new Image();
+    newImg.onload = function(){
+      imgHl.src = newImg.src;
+      imgHl.style.opacity = '1';
+      imgBase.style.opacity = '0';
+    };
+    newImg.onerror = function(){
+      imgBase.style.opacity = '1';
+      imgHl.style.opacity = '0';
+    };
+    newImg.src = m.imgPath + c.n + m.imgExt;
+  }
+
+  function reset(id){
+    var s       = state[id];
+    var imgBase = document.getElementById(id+'-img-base');
+    var imgHl   = document.getElementById(id+'-img-hl');
+    var badge   = document.getElementById(id+'-badge');
+    var hint    = document.getElementById(id+'-hint');
+
+    if(s.activeRow) s.activeRow.classList.remove('on');
+    s.activeRow = null; s.activeN = null;
+    imgBase.style.opacity = '1';
+    imgHl.style.opacity = '0';
+    setTimeout(function(){ imgHl.src = ''; }, 350);
+    badge.classList.remove('on');
+    hint.style.opacity = '1';
+  }
+
+  window.ieSwitchTab = function(id, btn){
+    document.querySelectorAll('.ie-panel.on').forEach(function(p){
+      var oldId = p.id.replace('ie-panel-','');
+      reset(oldId);
+    });
+    document.querySelectorAll('.ie-tab').forEach(function(b){ b.classList.remove('on'); });
+    document.querySelectorAll('.ie-panel').forEach(function(p){ p.classList.remove('on'); });
+    btn.classList.add('on');
+    document.getElementById('ie-panel-'+id).classList.add('on');
+  };
+
+})();
+</script><div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>Lasciare circa <a class="reference internal" href="../DATI%20TECNICI/02_dati-tecnici-meccanici.html#dim800"><span class="std std-ref">100mm di spazio libero</span></a> attorno ai connettori di alimentazione per agevolare le operazioni di cablaggio e manutenzione.</p>
+</div>
 <br>
 <!-- Versions and languages set-up -->
 <style>
@@ -645,7 +865,7 @@
     const versions = Array.isArray(manifest && manifest.versions) && manifest.versions.length
       ? manifest.versions
       : inlineVersions;
-    const offlineZipEnabled = true;
+    const offlineZipEnabled = false;
     const offlineZipFileName = 'Offline manual.zip';
     const americanRegions = new Set([
       'AG', 'AR', 'AW', 'BB', 'BL', 'BM', 'BO', 'BQ', 'BR', 'BS', 'BZ', 'CA', 'CL', 'CO', 'CR',
@@ -1110,8 +1330,6 @@
     enhancePrintMenu();
   })();
 </script>
-</div>
-</section>
 </section>
 
 
@@ -1149,24 +1367,6 @@
             </div>
             
             
-              
-                <dialog id="pst-secondary-sidebar-modal"></dialog>
-                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item"><div
-    id="pst-page-navigation-heading-2"
-    class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelli-flexibowl-200-e-350">Modelli FlexiBowl® 200 e 350</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelli-flexibowl-500-650-800-e-1200">Modelli FlexiBowl® 500, 650, 800 e 1200</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>

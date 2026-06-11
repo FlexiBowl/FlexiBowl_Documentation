@@ -1,7 +1,7 @@
 (intele)=
-# **[ELE]** Interfaccia Elettrica
+# Interfaccia Elettrica
 
-Il pannello connettori del FlexiBowl® varia in base alla versione della macchina:
+Il cablaggio del FlexiBowl® varia in base alla versione e alla configurazione della macchina:
 
 :::{raw} html
 <style>
@@ -216,4 +216,12 @@ Il pannello connettori del FlexiBowl® varia in base alla versione della macchin
 
 })();
 </script>
+:::
+
+:::{warning}
+Prima di effettuare qualsiasi connessione elettrica, assicurarsi che l'alimentazione sia disinserita e che il sistema sia in stato di sicurezza. 
+:::
+
+:::{important}
+Lasciare circa {ref}`100mm di spazio libero <dim800>` attorno ai connettori di alimentazione per agevolare le operazioni di cablaggio e manutenzione.
 :::

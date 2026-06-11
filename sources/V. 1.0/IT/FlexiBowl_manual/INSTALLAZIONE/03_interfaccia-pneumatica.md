@@ -42,12 +42,7 @@ Non superare mai i 6 bar di pressione nell’impianto pneumatico della macchina.
 ::::
 :::::
 
-Per l'allacciamento alla rete pneumatica, collegare un tubo dell’aria {ref}`della giusta misura <datipneum>` all'ingresso “Air Supply” presente nel pannello comandi (riportato come numero **7** nell'immagine sottostante).
-
-:::{figure} ../../../../_shared/media/images/GM001747pal.PNG
-:align: center
-:width: 80%
-:::
+Per l'allacciamento alla rete pneumatica, collegare un tubo dell’aria {ref}`della giusta misura <datipneum>` all'ingresso “Air Supply” presente nel {ref}`pannello comandi <intele>`.
 
 :::{note}
 Per interventi di manutenzione è necessario prevedere un sistema di sezionamento dell'aria.
