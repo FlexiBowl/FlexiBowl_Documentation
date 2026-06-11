@@ -228,7 +228,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 (Anti-cut-grey)=
 ### Flexi Disc Anti-Cut Grey FDA - Fabric Transparent
 
-![FABRIC TRANSPARENT](../../../../_shared/media/images/FABRICTRANS.jpg)
+![FABRIC TRANSPARENT](../../../../_shared/media/images/FABRICTRANS.jpeg)
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> Raccomandata per componenti taglienti o con spigoli vivi (sharp components).
@@ -295,7 +295,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-![FABRIC TRANSPARENT](../../../../_shared/media/images/FABRICTRANS_EXP.png)
+
 
 #### Compatibilità Componenti (Flexi Disc Anti-Cut Grey FDA)
 
@@ -361,6 +361,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![FABRIC TRANSPARENT](../../../../_shared/media/images/fabrictrans_exp.png)
 
 (Anti-roll-beige)=
 ### Flexi Disc Anti-Roll "interasse" Beige Spike FDA - Spike Beige
@@ -921,6 +923,9 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 (Anti-roll-white-silicon)=
 ### Flexi Disc Anti-Roll White Silicon  FDA - Silicon Transparent
 
+![Silicon Transparent](../../../../_shared/media/images/SILICONTRANS.jpeg)
+
+
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> Raccomandata per parti con un'ampia base d'appoggio (anche se non perfettamente stabili) e per componenti che tendono a scivolare l'uno sull'altro.
 </div>
@@ -956,9 +961,9 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
                 <td><strong>Toplight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green active"></div>
+                        <div class="sem-dot green "></div>
                     </div>
                 </td>
             </tr>
@@ -986,7 +991,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-![Polibech White](../../../../_shared/media/images/SILITRANS_EXP.png)
+
 
 #### Compatibilità Componenti (Flexi Disc Anti-Roll White Silicon  FDA)
 
@@ -1053,6 +1058,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
+![Silicon Transparent](../../../../_shared/media/images/silicontrans_exp.png)
 
 (Anti-stick-blue)=
 ### Flexi Disc Anti-Stick Blue FDA - Diamond Blue
@@ -1196,7 +1202,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
 (smooth-beige)=
 ### Flexi Disc Smooth Beige FDA - Flat Beige
 
-![flat beige](../../../../_shared/media/images/FLATBEIGE.jpg)
+![flat beige](../../../../_shared/media/images/FLATBEIGE.jpeg)
 
 <div class="main-char-banner">
         <strong>Caratteristiche Principali:</strong> Raccomandata per componenti trasparenti, ottimale con illuminazione dal basso (backlight).
@@ -1263,7 +1269,7 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
     </table>
 </div>
 
-![flat beige](../../../../_shared/media/images/flatbeige_exp.png)
+
 
 #### Compatibilità Componenti (Flexi Disc Smooth Beige FDA)
 
@@ -1329,6 +1335,8 @@ Seguono le caratteristiche principali delle superfici disponibili a listino:
         </tbody>
     </table>
 </div>
+
+![flat beige](../../../../_shared/media/images/flatbeige_exp.png)
 
 (smooth-blue)=
 ### Flexi Disc Smooth Blue FDA - Smooth blue
