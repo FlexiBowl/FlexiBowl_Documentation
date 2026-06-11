@@ -1,0 +1,473 @@
+/* ============================================
+   FONT CONFIGURATION
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
+html, body, .bd-main, .bd-content, .bd-article, .bd-sidebar, div.body, p, li, td, th, span, a {
+    font-family: 'Familjen Grotesk', sans-serif !important;
+}
+
+.bd-content h1, .bd-content h2, .bd-content h3, .bd-content h4, .bd-content h5, .bd-content h6, 
+.bd-sidebar h1, .bd-sidebar h2, .bd-sidebar h3, .bd-sidebar h4, .bd-sidebar h5, .bd-sidebar h6, 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Familjen Grotesk', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.bd-sidebar-primary, .bd-sidebar-secondary, .toctree-l1, .toctree-l2, .toctree-l3, .navbar, .navbar-nav {
+    font-family: 'Familjen Grotesk', sans-serif !important;
+}
+
+p code, li code {
+    font-family: 'Familjen Grotesk', monospace !important;
+}
+
+input, button, select, textarea {
+    font-family: 'Familjen Grotesk', sans-serif !important;
+}
+
+table, table th, table td {
+    font-family: 'Familjen Grotesk', sans-serif !important;
+}
+
+/* ============================================
+   TABLE HOVER EFFECTS
+   ============================================ */
+
+table tbody tr, table.docutils tbody tr, .docutils tbody tr, .bd-content table tbody tr {
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+table tbody tr:hover, table.docutils tbody tr:hover, .docutils tbody tr:hover, 
+.bd-content table tbody tr:hover, table.list-table tbody tr:hover {
+    background-color: #cfe2ff !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+tbody tr:hover {
+    background-color: #cfe2ff !important;
+}
+
+tbody tr:hover td, tbody tr:hover th {
+    color: #212529 !important;
+}
+
+table thead tr:hover, thead tr:hover {
+    background-color: inherit !important;
+    cursor: default !important;
+    box-shadow: none !important;
+}
+
+/* ============================================
+   INLINE ICON & TABLE ALIGNMENT FIX
+   ============================================ */
+
+.bd-content table img.inline-icon {
+    height: 39px;
+    width: auto;
+    max-height: none;
+}
+
+.bd-content table td {
+    line-height: 1.6;
+}
+
+/* MODIFICA QUI: 
+   Ho cambiato vertical-align da 'middle' a 'top'.
+   In questo modo il testo nella prima colonna è centrato orizzontalmente ma in alto.
+*/
+.bd-content table td:first-child {
+    text-align: center;
+    vertical-align: top !important; 
+    padding-top: 15px; /* Opzionale: aggiunge un po' di respiro dal bordo superiore */
+}
+
+/* Dimensioni variabili icone */
+.bd-content table img.inline-icon.icon-small { height: 30px; }
+.bd-content table img.inline-icon.icon-medium { height: 50px; }
+.bd-content table img.inline-icon.icon-large { height: 60px; }
+.bd-content table img.inline-icon.icon-xl { height: 80px; }
+
+/* Classe specifica per forzare l'allineamento in alto su TUTTE le celle di una tabella */
+.align-top table td, 
+.align-top table th,
+.bd-content table.align-top td {
+    vertical-align: top !important;
+}
+
+/* ============================================
+   CUSTOM TABLES
+   ============================================ */
+
+table.tabacc td,
+table.tabacc th {
+  text-align: center;
+  vertical-align: middle;
+  height: 80px;
+}
+
+table.tabacc td p,
+table.tabacc th p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+table.pneum td {
+    padding-top: 20 !important;
+    padding-bottom: 20 !important;
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+/* ============================================
+   CUSTOM TEXT
+   ============================================ */
+
+   .centered {
+  text-align: center;
+}
+
+.centered-params {
+  text-align: center;
+  font-family: var(--pst-font-family-base);
+  font-size: var(--pst-font-size-base);
+  color: var(--pst-color-text-base);
+}
+
+/* ============================================
+   OPTIONAL: DARK MODE SUPPORT
+   ============================================ */
+
+@media (prefers-color-scheme: dark) {
+    table.docutils tbody tr:hover { background-color: #1e3a5f !important; }
+    table.docutils tbody tr:nth-child(even):hover { background-color: #1e3a5f !important; }
+    table.docutils tbody tr:nth-child(odd):hover { background-color: #1a2f4a !important; }
+}
+
+/* ============================================
+   GESTIONE LOGO ARS
+   Solo per immagini con classe img-logo (piccole, per il logo)
+   ============================================ */
+
+.only-light.img-logo, .only-dark.img-logo {
+    width: 200px !important;
+    height: auto !important;
+    display: inline-block !important;
+    margin-bottom: 10px;
+}
+
+/* Immagini grandi con only-light/only-dark (es. screenshot pagine) */
+.only-light:not(.img-logo), .only-dark:not(.img-logo) {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+html[data-theme="light"] .only-dark { display: none !important; }
+html[data-theme="dark"] .only-light { display: none !important; }
+
+.bd-content .only-light.img-logo, .bd-content .only-dark.img-logo {
+    width: 250px !important;
+}
+
+/* ============================================
+   VERSION / LANGUAGE SWITCHER
+   ============================================ */
+
+.fixed-bar {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 9999;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 6px 12px;
+    border: 1px solid rgba(100, 100, 100, 0.28);
+    border-radius: 8px;
+    background: rgba(245, 245, 245, 0.92);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(10px) saturate(180%);
+    font-size: 0.9rem;
+}
+
+.fixed-bar .dropdown {
+    position: relative;
+    user-select: none;
+}
+
+.fixed-bar .dropdown-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border: 1px solid rgba(100, 100, 100, 0.28);
+    border-radius: 5px;
+    background: rgba(200, 200, 200, 0.35);
+    color: #222;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.fixed-bar .dropdown-toggle:hover {
+    border-color: rgba(26, 62, 114, 0.45);
+    background: rgba(100, 150, 220, 0.18);
+    color: #1a3e72;
+}
+
+.fixed-bar .dropdown-toggle::after {
+    display: none !important;
+    content: none !important;
+}
+
+.fixed-bar .dropdown-menu {
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    display: none;
+    min-width: 160px;
+    max-height: 220px;
+    overflow-y: auto;
+    flex-direction: column;
+    border: 1px solid rgba(150, 150, 150, 0.3);
+    border-radius: 6px;
+    background: rgba(250, 250, 250, 0.98);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.fixed-bar .dropdown-menu.show {
+    display: flex;
+}
+
+.fixed-bar .dropdown-menu a {
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.45);
+    color: #1a3e72;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.fixed-bar .dropdown-menu a:last-child {
+    border-bottom: none;
+}
+
+.fixed-bar .dropdown-menu a:hover {
+    background: rgba(100, 150, 220, 0.15);
+}
+
+@media print {
+    .fixed-bar {
+        display: none !important;
+    }
+}
+
+/* ── REGOLA GENERALE DI BASE ── */
+.isw-page {
+  --c-primary:    #1a3a52;
+  --c-accent:     #2980b9;
+  --c-accent-lt:  #d0e4f0;
+  --c-bg:         #ffffff;
+  --c-bg-alt:     #f7fbfe;
+  --c-bg-hover:   #e8f4fc;
+  --c-border:     #d0e4f0;
+  --c-text:       #334e5e;
+  --c-muted:      #7a9ab0;
+  --radius:       10px;
+  --shadow-sm:    0 1px 4px rgba(41,128,185,.08);
+  --shadow-md:    0 3px 10px rgba(41,128,185,.12);
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 0 3rem;
+  
+  /* Ingrandiamo il testo base di tutta la pagina */
+  font-size: 16px; 
+  line-height: 1.6;
+}
+
+/* ── Headings ── */
+.isw-page h2 {
+  color: var(--c-primary);
+  font-weight: 700;
+  border-bottom: 2px solid var(--c-accent-lt);
+  padding-bottom: .4rem;
+  margin-top: 2.5rem;
+  font-size: 1.8rem; /* Titoli principali più visibili */
+}
+.isw-page h3 {
+  color: var(--c-primary);
+  font-weight: 600;
+  margin-top: 1.6rem;
+  font-size: 1.4rem;
+}
+
+/* ── Ingrandimento di tutte le scritte normali e paragrafi ── */
+.isw-page p, 
+.isw-meta-content, 
+.isw-profile-body, 
+.isw-symbol-desc, 
+.isw-risk-desc, 
+.isw-zone-desc, 
+.isw-safety-card p,
+.isw-ce-box p,
+.isw-table td {
+  font-size: 17px !important;
+  line-height: 1.6 !important;
+  color: var(--c-text);
+}
+
+/* ── Ingrandimento dei TITOLI di tutte le card/tabelle ── */
+.isw-meta-title,
+.isw-profile-role,
+.isw-trained-person-title,
+.isw-symbol-label,
+.isw-risk-title,
+.isw-zone-label,
+.isw-warranty-col-header,
+.isw-safety-card-title,
+.isw-table thead th {
+  font-size: 19px !important;
+  font-weight: 700 !important;
+  letter-spacing: normal !important;
+  text-transform: none !important; /* Rimuove il tutto maiuscolo forzato che rimpiccioliva il testo */
+}
+
+/* Specifico per i micro-titoli in alto (es. Identificazione) se li vuoi comunque maiuscoli ma leggibili */
+.isw-meta-title, .isw-trained-person-title, .isw-warranty-col-header {
+  text-transform: uppercase !important;
+  font-size: 15px !important;
+  letter-spacing: .05em !important;
+}
+
+/* ── Liste e Note interne ── */
+.isw-page li {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  margin-bottom: .4rem;
+}
+.isw-profile-note {
+  font-size: 15px !important;
+  margin-top: .8rem;
+  padding: .6rem .9rem;
+}
+.isw-meta-content small {
+  font-size: 14px !important;
+  margin-top: .6rem;
+}
+
+/* ── Icone e Badge ── */
+.isw-page i.ph, .isw-safety-card-title i {
+  font-size: 1.35rem !important; /* Icone proporzionate al testo */
+}
+.isw-badge {
+  font-size: 14px !important;
+  padding: .2rem .6rem;
+}
+
+/* ── Tabelle ── */
+.isw-table thead th {
+  font-size: 15px !important;
+  text-transform: uppercase !important;
+}
+.isw-table td:first-child {
+  font-size: 16px !important;
+  width: 90px;
+}
+
+/* ── Strutture di Layout (Incolonnate e spaziate) ── */
+.isw-meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; margin: 1rem 0 2rem; }
+.isw-meta-card { padding: 1.4rem; border: 1.5px solid var(--c-border); border-radius: var(--radius); background: var(--c-bg); box-shadow: var(--shadow-sm); }
+
+.isw-profiles { margin: 1.5rem 0; display: flex; flex-direction: column; gap: 1.2rem; }
+.isw-profile-header { display: flex; align-items: center; gap: .8rem; background: var(--c-bg-alt); padding: .8rem 1.2rem; border-bottom: 1px solid var(--c-border); }
+.isw-profile-body { padding: 1.2rem; }
+
+.isw-symbol-grid { display: flex; flex-direction: column; gap: 1.2rem; margin: 1.5rem 0; }
+.isw-symbol-item { display: flex; align-items: center; gap: 1.2rem; padding: 1.2rem; border: 1px solid var(--c-border); border-radius: var(--radius); background: var(--c-bg); }
+.isw-symbol-item img { width: 55px; height: 55px; object-fit: contain; flex-shrink: 0; }
+
+.isw-safety-cards { display: flex; flex-direction: column; gap: 1.2rem; margin: 1.5rem 0; }
+.isw-safety-card { border: 1.5px solid var(--c-border); border-radius: var(--radius); padding: 1.2rem; background: var(--c-bg); }
+
+.isw-zones { display: flex; flex-direction: column; gap: 1.2rem; margin: 1.5rem 0; }
+.isw-zone { display: grid; grid-template-columns: 200px 1fr; border: 1.5px solid var(--c-border); border-radius: var(--radius); overflow: hidden; }
+.isw-zone-desc { padding: 1rem 1.2rem; }
+
+/* ── Responsive per schermi piccoli ── */
+@media (max-width: 640px) {
+  .isw-warranty-grid { grid-template-columns: 1fr; }
+  .isw-risk { grid-template-columns: 1fr; }
+  .isw-risk-icons { flex-direction: row; border-right: none; border-bottom: 1px solid var(--c-border); }
+  .isw-zone { grid-template-columns: 1fr; }
+}
+
+/* ── PER LA PAGINA MANUTENZIONE  ── */
+
+/* Contenitore principale */
+.isw-page .isw-timeline-container {
+  display: flex !important;
+  flex-direction: column !important;
+  position: relative !important;
+  padding-left: 45px !important; /* Aumentato per dare più spazio alla linea e alle frecce */
+  margin: 2rem 0 !important;
+}
+
+/* Singolo blocco della timeline */
+.isw-page .isw-timeline-item {
+  position: relative !important;
+  padding-bottom: 2.5rem !important;
+}
+
+.isw-page .isw-timeline-item:last-child {
+  padding-bottom: 0 !important;
+}
+
+/* La card con sfondo e bordo azzurro */
+.isw-page .isw-timeline-card {
+  padding: 1.4rem !important;
+  border: 2px solid var(--c-accent) !important; /* Usa il tuo azzurro */
+  border-radius: var(--radius) !important;       /* Angoli da 10px */
+  background: var(--c-bg-alt) !important;        /* Sfondo alternativo chiaro */
+  box-shadow: var(--shadow-sm) !important;
+}
+
+/* Forza il colore azzurro sul titolo della card */
+.isw-page .isw-timeline-card .isw-symbol-label {
+  color: var(--c-accent) !important;
+  margin-bottom: 0.5rem !important;
+  display: block !important;
+}
+
+/* ── LINEA VERTICALE E FRECCE ── */
+
+/* Genera la linea tratteggiata verticale */
+.isw-page .isw-timeline-item::before {
+  content: '' !important;
+  position: absolute !important;
+  left: -24px !important;
+  top: 25px !important;
+  bottom: -20px !important;
+  width: 2px !important;
+  border-left: 2px dashed var(--c-accent) !important;
+  z-index: 1 !important;
+}
+
+.isw-page .isw-timeline-item:last-child::before {
+  display: none !important;
+}
+
+/* Genera la freccia minimale a punta di V */
+.isw-page .isw-timeline-arrow {
+  position: absolute !important;
+  left: -28px !important;
+  bottom: 10px !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-right: 2px solid var(--c-accent) !important;
+  border-bottom: 2px solid var(--c-accent) !important;
+  transform: rotate(45deg) !important;
+  z-index: 2 !important;
+  background: var(--c-bg) !important;
+}
