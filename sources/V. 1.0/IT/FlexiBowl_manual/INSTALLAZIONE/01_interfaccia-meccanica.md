@@ -73,6 +73,13 @@ Seguono le interfacce di foratura e le posizioni e ampiezze dello sportello di f
 :align: center
 :::
 
+(rackinstall)=
+## Scatola rack (per FlexiBowl® 200 e 350)
+
+:::{figure} ../../../../_shared/media/images/rackfix.PNG
+:align: center
+:::
+
 ## Installazione del FlexiBowl®
 
 ::::{list-table}
@@ -172,4 +179,42 @@ Per garanire il corretto funzionamento del FlexiBowl® è necessario che il pian
   - ≥ 1594x1594
   - ≥ 137
 
+:::
+
+## Installazione della scatola rack (per FlexiBowl® 200 e 350)
+
+Per evitare il surriscaldamento del rack è importante lasciare delle zone di *clearance* intorno ad esso:
+
+:::{figure} ../../../../_shared/media/images/rackclear.PNG
+:align: center
+:::
+
+:::{list-table}
+:widths: 50 50
+:header-rows: 1
+
+* - Quota
+  - Valore
+
+* - Distanza laterale A
+  - 10mm
+
+* - Distanza superiore B
+  - 50mm
+
+* - Distanza frontale C
+  - 100mm
+
+:::
+
+:::{note}
+È possibile installare due rack uno sopra l'altro a patto che venga rispettata una delle seguenti condizioni:
+
+1. la distanza tra i due sia non inferiore ai 100mm;
+
+2. venga installata una barriera fisica in lamiera o materiale plastico isolante ed autoestinguente, in tal caso la distanza tra il rack inferiore e la parete può essere ridotto a 50mm; per facilitare l'estrazione dell'aria calda si può valutare l'uso di una barriera inclinata verso il lato posteriore del rack.
+:::
+
+:::{tip}
+È utile prevedere un sistema di ventilazione posto al di sopra del rack che forzi l'estrazione dell'aria calda che esce dalla superficie superiore, specialmente quando se ne montano più di uno impilati verticalmente.
 :::
