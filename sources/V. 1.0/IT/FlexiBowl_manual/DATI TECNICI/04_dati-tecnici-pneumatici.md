@@ -125,34 +125,34 @@ Seguono gli schemi pneumatici di tutti i modelli a listino, comprensivi di event
 
 :::
 
-(pneucr)=
-## Clean Room
+% (pneucr)=
+% ## Clean Room
 
-Il Clean Room comporta una modifica sostanziale dei collegamenti pneumatici e dei componenti utilizzati; qua sotto sono disponibili gli schemi pneumatici riadattati (sempre comprensivi di eventuali svuotamenti e soffi) :
+% Il Clean Room comporta una modifica sostanziale dei collegamenti pneumatici e dei componenti utilizzati; qua sotto sono disponibili gli schemi pneumatici riadattati (sempre comprensivi di eventuali svuotamenti e soffi) :
 
-:::{list-table}
-:widths: 30 30
-:class: pneum
+% :::{list-table}
+% :widths: 30 30
+% :class: pneum
 
-* - {download}`FlexiBowl® 200 C <../../../../_shared/media/documents/AS000001-pneum.pdf>`
-  - {download}`FlexiBowl® 200 CC <../../../../_shared/media/documents/AS000019-pneum.pdf>`
+% * - {download}`FlexiBowl® 200 C <../../../../_shared/media/documents/AS000001-pneum.pdf>`
+%   - {download}`FlexiBowl® 200 CC <../../../../_shared/media/documents/AS000019-pneum.pdf>`
 
-* - {download}`FlexiBowl® 350 C <../../../../_shared/media/documents/AS000010-pneum.pdf>`
-  - {download}`FlexiBowl® 350 CC <../../../../_shared/media/documents/AS000020-pneum.pdf>`
+% * - {download}`FlexiBowl® 350 C <../../../../_shared/media/documents/AS000010-pneum.pdf>`
+%   - {download}`FlexiBowl® 350 CC <../../../../_shared/media/documents/AS000020-pneum.pdf>`
 
-* - {download}`FlexiBowl® 500 C <../../../../_shared/media/documents/AS000004-pneum.pdf>`
-  - {download}`FlexiBowl® 500 CC <../../../../_shared/media/documents/AS000021-pneum.pdf>`
+% * - {download}`FlexiBowl® 500 C <../../../../_shared/media/documents/AS000004-pneum.pdf>`
+%   - {download}`FlexiBowl® 500 CC <../../../../_shared/media/documents/AS000021-pneum.pdf>`
 
-* - {download}`FlexiBowl® 500 C/E <../../../../_shared/media/documents/AS000005-pneum.pdf>`
-  - {download}`FlexiBowl® 500 CC/E <../../../../_shared/media/documents/AS000022-pneum.pdf>`
+% * - {download}`FlexiBowl® 500 C/E <../../../../_shared/media/documents/AS000005-pneum.pdf>`
+%   - {download}`FlexiBowl® 500 CC/E <../../../../_shared/media/documents/AS000022-pneum.pdf>`
 
-* - {download}`FlexiBowl® 650 C <../../../../_shared/media/documents/AS000008-pneum.pdf>`
-  - {download}`FlexiBowl® 650 CC <../../../../_shared/media/documents/AS000024-pneum.pdf>`
+% * - {download}`FlexiBowl® 650 C <../../../../_shared/media/documents/AS000008-pneum.pdf>`
+%   - {download}`FlexiBowl® 650 CC <../../../../_shared/media/documents/AS000024-pneum.pdf>`
 
-* - {download}`FlexiBowl® 800 C <../../../../_shared/media/documents/AS000006-pneum.pdf>`
-  - {download}`FlexiBowl® 800 CC <../../../../_shared/media/documents/AS000023-pneum.pdf>`
+% * - {download}`FlexiBowl® 800 C <../../../../_shared/media/documents/AS000006-pneum.pdf>`
+%   - {download}`FlexiBowl® 800 CC <../../../../_shared/media/documents/AS000023-pneum.pdf>`
 
-* - {download}`FlexiBowl® 1200 C <../../../../_shared/media/documents/AS000012-pneum.pdf>`
-  - {download}`FlexiBowl® 1200 CC <../../../../_shared/media/documents/AS000025-pneum.pdf>`
+% * - {download}`FlexiBowl® 1200 C <../../../../_shared/media/documents/AS000012-pneum.pdf>`
+%   - {download}`FlexiBowl® 1200 CC <../../../../_shared/media/documents/AS000025-pneum.pdf>`
 
-:::
+% :::
