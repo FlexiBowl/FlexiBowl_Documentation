@@ -9,7 +9,7 @@ L’allacciamento pneumatico deve essere effettuato collegando la linea principa
 Il cliente deve inoltre garantire un’alimentazione di aria con le caratteristiche elencate nel paragrafo {ref}`“Dati Tecnici Pneumatici” <datipneum>` di questo manuale.
 
 :::{warning}
-Non superare mai i 6 bar di pressione nell’impianto pneumatico della macchina.
+Non superare mai i 7 bar di pressione nell’impianto pneumatico della macchina.
 :::
 
 :::{warning}
