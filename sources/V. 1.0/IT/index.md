@@ -3,7 +3,7 @@
 ## **Benvenuto nel manuale FlexiBowl®!**  
 Siamo entusiasti di darvi il benvenuto alla vostra nuova guida di FlexiBowl®!
 Questo manuale è stato creato appositamente per essere il vostro punto di riferimento chiaro e affidabile. Ci auguriamo che, consultandolo, possiate godere appieno di tutti i benefici del nostro sistema.
-Il vostro parere è fondamentale per noi: non esitate a fornirci il vostro feedback [contattandoci](https://www.flexibowl.it/contatti)! 
+Il vostro parere è fondamentale per noi: non esitate a fornirci il vostro feedback [contattandoci](https://www.arsautomation.com/contact)! 
 
 *- Il Team di Ars Automation*    
 <a href="https://www.arsautomation.com" target="_blank">

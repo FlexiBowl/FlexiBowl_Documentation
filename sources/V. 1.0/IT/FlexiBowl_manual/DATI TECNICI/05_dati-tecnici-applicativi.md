@@ -30,12 +30,12 @@
   - 300 mm
 
 * - Altezza massima del singolo componente
-  - 
-  -  
-  - 
-  - 
-  - 
-  - 
+  - 10 mm % Altezza barriera 22mm
+  - 20 mm % Altezza barriera 48mm
+  - 40 mm % Altezza barriera 82mm
+  - 45 mm % Altezza barriera 92mm
+  - 60 mm % Altezza barriera 120mm
+  - 70 mm % Altezza barriera 140mm
 
 * - Peso massimo del singolo componente
   - 20 g
@@ -61,4 +61,8 @@
   - N.A.
   - N.A.
 
+:::
+
+:::{note}
+L'altezza massima del componente viene calcolata tenendo conto dello spazio necessario per ribaltarlo tramite l'uso del flip, ed è da considerarsi puramente indicativo in quanto la possibilità di ribaltamento dipende anche dal rapporto tra le sue dimensioni. Per una valutazione più precisa della taglia di FlexiBowl® più adatta al pezzo da movimentare è possibile [contattare il nostro team](https://www.arsautomation.com/contact) o richiedere un [*free test*](https://www.flexibowl.it/free-test).
 :::
