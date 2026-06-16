@@ -22,20 +22,20 @@
   - FlexiBowl® 1200
 
 * - Dimensione massima del singolo componente
-  - 10 mm
-  - 20 mm
+  - 15 mm
   - 50 mm
-  - 110 mm
-  - 250 mm
-  - 300 mm
+  - 105 mm
+  - 160 mm
+  - 240 mm
+  - 460 mm
 
 * - Altezza massima del singolo componente
-  - 10 mm % Altezza barriera 22mm
-  - 20 mm % Altezza barriera 48mm
-  - 40 mm % Altezza barriera 82mm
-  - 45 mm % Altezza barriera 92mm
-  - 60 mm % Altezza barriera 120mm
-  - 70 mm % Altezza barriera 140mm
+  - 10 mm
+  - 20 mm
+  - 40 mm
+  - 45 mm
+  - 60 mm
+  - 70 mm
 
 * - Peso massimo del singolo componente
   - 20 g
@@ -64,5 +64,9 @@
 :::
 
 :::{note}
-L'altezza massima del componente viene calcolata tenendo conto dello spazio necessario per ribaltarlo tramite l'uso del flip, ed è da considerarsi puramente indicativo in quanto la possibilità di ribaltamento dipende anche dal rapporto tra le sue dimensioni. Per una valutazione più precisa della taglia di FlexiBowl® più adatta al pezzo da movimentare è possibile [contattare il nostro team](https://www.arsautomation.com/contact) o richiedere un [*free test*](https://www.flexibowl.it/free-test).
+Il valore della dimensione massima del componente è ricavato da test eseguiti internamente ed è da considerarsi puramente indicativo in quanto ci possono essere altri fattori che lo influenzano (dimensioni della tramoggia, tool del robot utilizzato per il *picking*, ecc...); per delle indicazioni puù precise non esitare a [contattare il nostro team](https://www.arsautomation.com/contact) o richiedere un [*free test*](https://www.flexibowl.it/free-test).
+:::
+
+:::{note}
+L'altezza massima del componente viene calcolata tenendo conto dello spazio necessario per ribaltarlo tramite l'uso del flip, ed è da considerarsi puramente indicativo in quanto la possibilità di ribaltamento dipende anche dal rapporto tra le sue dimensioni. Per una valutazione più precisa della taglia di FlexiBowl® più adatta al pezzo da movimentare o della compatibilità del componente con il FLexiBowl® desiderato è possibile [contattare il nostro team](https://www.arsautomation.com/contact) o richiedere un [*free test*](https://www.flexibowl.it/free-test).
 :::
