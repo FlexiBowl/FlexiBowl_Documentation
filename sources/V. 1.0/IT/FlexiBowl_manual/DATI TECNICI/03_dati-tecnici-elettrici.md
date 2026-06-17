@@ -1,4 +1,4 @@
-# **[ELE]** Dati Tecnici Elettrici
+# **Dati Tecnici Elettrici**
 
 ## Dati di Alimentazione
 

@@ -44,34 +44,49 @@ Non superare mai i 7 bar di pressione nell’impianto pneumatico della macchina.
 
 Per l'allacciamento alla rete pneumatica, collegare un tubo dell’aria {ref}`della giusta misura <datipneum>` all'ingresso “Air Supply” presente nel {ref}`pannello comandi <intele>`.
 
-:::::{grid} 3
-:gutter: 2
+:::{raw} html
+<style>
+.img-zoom-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 1rem 0;
+}
+.img-zoom-wrap {
+  flex: 1 1 0;
+  min-width: 0;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-zoom-wrap img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.35s ease;
+  cursor: zoom-in;
+  position: relative;
+}
+.img-zoom-wrap img:hover {
+  transform: scale(2.50);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.22);
+  z-index: 10;
+}
+</style>
 
-::::{grid-item}
-
-:::{figure} ../../../../_shared/media/images/smallpanel5.PNG
-:width: 100%
+<div class="img-zoom-grid">
+  <div class="img-zoom-wrap">
+    <img src="../../../../_shared/media/images/smallpanel5.PNG" alt="Pannello small" />
+  </div>
+  <div class="img-zoom-wrap">
+    <img src="../../../../_shared/media/images/stpanel2.PNG" alt="Pannello ST" />
+  </div>
+  <div class="img-zoom-wrap">
+    <img src="../../../../_shared/media/images/encpanel7.PNG" alt="Pannello ENC" />
+  </div>
+</div>
 :::
-
-::::
-
-::::{grid-item}
-
-:::{figure} ../../../../_shared/media/images/stpanel2.PNG
-:width: 100%
-:::
-
-::::
-
-::::{grid-item}
-
-:::{figure} ../../../../_shared/media/images/encpanel7.PNG
-:width: 100%
-:::
-
-::::
-
-:::::
 
 :::{note}
 Per interventi di manutenzione è necessario prevedere un sistema di sezionamento dell'aria.
