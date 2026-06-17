@@ -42,6 +42,24 @@
      table.ars-table td:last-child {
        border-right: none;
      }
+     [data-theme="dark"] table.ars-table {
+       border-color: #444;
+     }
+     [data-theme="dark"] table.ars-table thead tr {
+       background-color: #252a3a;
+       border-bottom: 2px solid #3366CC;
+     }
+     [data-theme="dark"] table.ars-table thead th {
+       color: #e0e0e0;
+       border-right-color: #444;
+     }
+     [data-theme="dark"] table.ars-table tbody tr:nth-child(odd)  { background-color: #252a3a; }
+     [data-theme="dark"] table.ars-table tbody tr:nth-child(even) { background-color: #1e2130; }
+     [data-theme="dark"] table.ars-table tbody tr:hover           { background-color: #1e3a5f; }
+     [data-theme="dark"] table.ars-table td {
+       color: #e0e0e0;
+       border-right-color: #444;
+     }    
    </style>
 
    <table class="ars-table">
