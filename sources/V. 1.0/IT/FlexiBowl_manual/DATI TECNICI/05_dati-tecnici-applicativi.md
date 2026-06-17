@@ -153,6 +153,24 @@ In base al valore dell'indice di snellezza si parte da un valore di **pressione 
      table.ars-table td:last-child {
        border-right: none;
      }
+     [data-theme="dark"] table.ars-table {
+       border-color: #444;
+     }
+     [data-theme="dark"] table.ars-table thead tr {
+       background-color: #252a3a;
+       border-bottom: 2px solid #3366CC;
+     }
+     [data-theme="dark"] table.ars-table thead th {
+       color: #e0e0e0;
+       border-right-color: #444;
+     }
+     [data-theme="dark"] table.ars-table tbody tr:nth-child(odd)  { background-color: #252a3a; }
+     [data-theme="dark"] table.ars-table tbody tr:nth-child(even) { background-color: #1e2130; }
+     [data-theme="dark"] table.ars-table tbody tr:hover           { background-color: #1e3a5f; }
+     [data-theme="dark"] table.ars-table td {
+       color: #e0e0e0;
+       border-right-color: #444;
+     }    
    </style>
 <table class="ars-table">
   <thead>
@@ -261,6 +279,23 @@ La massa del componente determina la sua inerzia al decollo. Componenti molto le
   }
   table.ars-table td:first-child { text-align: left; }
   table.ars-table td:last-child  { border-right: none; }
+  [data-theme="dark"] table.ars-table {
+    border-color: #444;
+  }
+ [data-theme="dark"] table.ars-table thead tr {
+    background-color: #252a3a;
+   border-bottom: 2px solid #3366CC;
+  }
+ [data-theme="dark"] table.ars-table thead th {
+   color: #e0e0e0;
+   border-right-color: #444;
+  }
+  [data-theme="dark"] table.ars-table tbody tr:nth-child(odd)  { background-color: #252a3a; }   [data-theme="dark"] table.ars-table tbody tr:nth-child(even) { background-color: #1e2130; }
+  [data-theme="dark"] table.ars-table tbody tr:hover           { background-color: #1e3a5f; }
+  [data-theme="dark"] table.ars-table td {
+    color: #e0e0e0;
+    border-right-color: #444;
+  }    
 </style>
 
 <table class="ars-table">
@@ -304,7 +339,7 @@ La massa del componente determina la sua inerzia al decollo. Componenti molto le
 La pressione da impostare per il flip si ottiene applicando la formula:
 
 $$
-P_{fin} = P_{base} × K_m × K_w
+P_{flip} = P_{base} × K_m × K_w
 $$
 
 :::{attention}

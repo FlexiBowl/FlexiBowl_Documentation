@@ -67,9 +67,10 @@ Per l'allacciamento alla rete pneumatica, collegare un tubo dell’aria {ref}`de
   transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.35s ease;
   cursor: zoom-in;
   position: relative;
+  transform: scale(1);
 }
 .img-zoom-wrap img:hover {
-  transform: scale(2.50);
+  transform: scale(1.85);
   box-shadow: 0 12px 40px rgba(0,0,0,0.22);
   z-index: 10;
 }
