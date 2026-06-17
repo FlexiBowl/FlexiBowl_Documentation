@@ -153,24 +153,72 @@ In base al valore dell'indice di snellezza si parte da un valore di **pressione 
      table.ars-table td:last-child {
        border-right: none;
      }
-     [data-theme="dark"] table.ars-table {
-       border-color: #444;
-     }
-     [data-theme="dark"] table.ars-table thead tr {
-       background-color: #252a3a;
-       border-bottom: 2px solid #3366CC;
-     }
-     [data-theme="dark"] table.ars-table thead th {
-       color: #e0e0e0;
-       border-right-color: #444;
-     }
-     [data-theme="dark"] table.ars-table tbody tr:nth-child(odd)  { background-color: #252a3a; }
-     [data-theme="dark"] table.ars-table tbody tr:nth-child(even) { background-color: #1e2130; }
-     [data-theme="dark"] table.ars-table tbody tr:hover           { background-color: #1e3a5f; }
-     [data-theme="dark"] table.ars-table td {
-       color: #e0e0e0;
-       border-right-color: #444;
-     }    
+/* Struttura principale della tabella */
+[data-theme="dark"] table.ars-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  
+  /* Rimuove i bordi verticali esterni (sinistro e destro) */
+  border-left: none;
+  border-right: none;
+  
+  /* Mantiene solo i sottili bordi orizzontali esterni (sopra e sotto) */
+  border-top: 1px solid #383f4f;
+  border-bottom: 1px solid #383f4f;
+}
+
+/* Gestione dei bordi interni delle celle (th e td) */
+[data-theme="dark"] table.ars-table th,
+[data-theme="dark"] table.ars-table td {
+  padding: 10px 12px;
+  
+  /* Linea orizzontale inferiore uguale per tutte le righe */
+  border-bottom: 1px solid #383f4f;
+  
+  /* Linea verticale interna (a destra di ogni cella) */
+  border-right: 1px solid #383f4f;
+  
+  /* Azzera gli altri lati per evitare conflitti */
+  border-left: none;
+  border-top: none;
+}
+
+/* Elimina l'ultima linea verticale a destra per non creare il bordo esterno destro */
+[data-theme="dark"] table.ars-table th:last-child,
+[data-theme="dark"] table.ars-table td:last-child {
+  border-right: none;
+}
+
+/* Elimina l'ultima linea orizzontale per non raddoppiarla con il fondo della tabella */
+[data-theme="dark"] table.ars-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ══════════ SEZIONE COLORI COINCIDENTI ══════════ */
+
+/* Sfondo dell'header */
+[data-theme="dark"] table.ars-table thead tr {
+  background-color: #29313d;
+}
+
+[data-theme="dark"] table.ars-table thead th {
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+/* Zebra striping identico alla prima tabella */
+[data-theme="dark"] table.ars-table tbody tr:nth-child(odd) {
+  background-color: #222832; /* Riga scura */
+}
+
+[data-theme="dark"] table.ars-table tbody tr:nth-child(even) {
+  background-color: #29313d; /* Riga chiara */
+}
+
+/* Effetto Hover al passaggio del mouse */
+[data-theme="dark"] table.ars-table tbody tr:hover {
+  background-color: #282d3a;
+}
    </style>
 <table class="ars-table">
   <thead>
@@ -279,23 +327,73 @@ La massa del componente determina la sua inerzia al decollo. Componenti molto le
   }
   table.ars-table td:first-child { text-align: left; }
   table.ars-table td:last-child  { border-right: none; }
-  [data-theme="dark"] table.ars-table {
-    border-color: #444;
-  }
- [data-theme="dark"] table.ars-table thead tr {
-    background-color: #252a3a;
-   border-bottom: 2px solid #3366CC;
-  }
- [data-theme="dark"] table.ars-table thead th {
-   color: #e0e0e0;
-   border-right-color: #444;
-  }
-  [data-theme="dark"] table.ars-table tbody tr:nth-child(odd)  { background-color: #252a3a; }   [data-theme="dark"] table.ars-table tbody tr:nth-child(even) { background-color: #1e2130; }
-  [data-theme="dark"] table.ars-table tbody tr:hover           { background-color: #1e3a5f; }
-  [data-theme="dark"] table.ars-table td {
-    color: #e0e0e0;
-    border-right-color: #444;
-  }    
+
+/* Struttura principale della tabella */
+[data-theme="dark"] table.ars-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  
+  /* Rimuove i bordi verticali esterni (sinistro e destro) */
+  border-left: none;
+  border-right: none;
+  
+  /* Mantiene solo i sottili bordi orizzontali esterni (sopra e sotto) */
+  border-top: 1px solid #383f4f;
+  border-bottom: 1px solid #383f4f;
+}
+
+/* Gestione dei bordi interni delle celle (th e td) */
+[data-theme="dark"] table.ars-table th,
+[data-theme="dark"] table.ars-table td {
+  padding: 10px 12px;
+  
+  /* Linea orizzontale inferiore uguale per tutte le righe */
+  border-bottom: 1px solid #383f4f;
+  
+  /* Linea verticale interna (a destra di ogni cella) */
+  border-right: 1px solid #383f4f;
+  
+  /* Azzera gli altri lati per evitare conflitti */
+  border-left: none;
+  border-top: none;
+}
+
+/* Elimina l'ultima linea verticale a destra per non creare il bordo esterno destro */
+[data-theme="dark"] table.ars-table th:last-child,
+[data-theme="dark"] table.ars-table td:last-child {
+  border-right: none;
+}
+
+/* Elimina l'ultima linea orizzontale per non raddoppiarla con il fondo della tabella */
+[data-theme="dark"] table.ars-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ══════════ SEZIONE COLORI COINCIDENTI ══════════ */
+
+/* Sfondo dell'header */
+[data-theme="dark"] table.ars-table thead tr {
+  background-color: #29313d;
+}
+
+[data-theme="dark"] table.ars-table thead th {
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+/* Zebra striping identico alla prima tabella */
+[data-theme="dark"] table.ars-table tbody tr:nth-child(odd) {
+  background-color: #222832; /* Riga scura */
+}
+
+[data-theme="dark"] table.ars-table tbody tr:nth-child(even) {
+  background-color: #29313d; /* Riga chiara */
+}
+
+/* Effetto Hover al passaggio del mouse */
+[data-theme="dark"] table.ars-table tbody tr:hover {
+  background-color: #282d3a;
+}
 </style>
 
 <table class="ars-table">
