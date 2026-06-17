@@ -241,6 +241,30 @@ Prima di effettuare qualsiasi connessione elettrica, assicurarsi che l'alimentaz
 Lasciare circa {ref}`100mm di spazio libero <dim800>` attorno ai connettori di alimentazione per agevolare le operazioni di cablaggio e manutenzione.
 :::
 
+## Interfaccia Utente
+
+### Collegamento Elettrico
+
+Per collegare elettricamente il FlexiBowl procedere come segue:
+
+- **Connessione di alimentazione**: collegare il FlexiBowl ad un'alimentazione 230 Vac utilizzando il connettore fornito in dotazione, identificato con la sigla **POWER SUPPLY**.
+
+- **Accensione/Spegnimento**: utilizzare il pulsante di alimentazione per accendere o spegnere il dispositivo.
+
+:::{figure} ../../../../_shared/media/images/stpanel1.PNG
+:width: 80%
+:center:
+:::
+
+:::{attention}
+Assicurarsi che il dispositivo sia collegato a terra prima di procedere all'accensione.
+:::
+
+### Fusibili – Alloggiamento
+
+Il connettore elettrico è provvisto di un supporto per l'alloggiamento di n. 2 fusibili, aventi la funzione di proteggere il dispositivo da eventuali anomalie elettriche.
+
+
 ## Connettori e Interfacce
 
 ### Connettore STO – Safety Torque Off

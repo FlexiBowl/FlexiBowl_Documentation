@@ -91,29 +91,6 @@ Il dispositivo deve essere obbligatoriamente collegato al circuito di terra dell
 Prima di accendere il FlexiBowl, verificare che il dispositivo sia correttamente collegato a terra con l'impianto generale.
 :::
 
-## Interfaccia Utente
-
-### Collegamento Elettrico
-
-Per collegare elettricamente il FlexiBowl procedere come segue:
-
-- **Connessione di alimentazione**: collegare il FlexiBowl ad un'alimentazione 230 Vac utilizzando il connettore fornito in dotazione, identificato con la sigla **POWER SUPPLY**.
-
-- **Accensione/Spegnimento**: utilizzare il pulsante di alimentazione per accendere o spegnere il dispositivo.
-
-:::{figure} ../../../../_shared/media/images/stpanel1.PNG
-:width: 80%
-:center:
-:::
-
-:::{attention}
-Assicurarsi che il dispositivo sia collegato a terra prima di procedere all'accensione.
-:::
-
-### Fusibili – Alloggiamento
-
-Il connettore elettrico è provvisto di un supporto per l'alloggiamento di n. 2 fusibili, aventi la funzione di proteggere il dispositivo da eventuali anomalie elettriche.
-
 ## Note e Avvertenze Generali
 
 :::{attention}
