@@ -1,6 +1,6 @@
-# FlexiVision One Manual
+# FlexiBowl® Manual
 
-Repository della documentazione tecnica di **FlexiVision One** basata su **Sphinx** e **MyST Markdown**.
+Repository della documentazione tecnica di **FlexiBowl®** basata su **Sphinx** e **MyST Markdown**.
 
 ## Struttura del progetto
 
