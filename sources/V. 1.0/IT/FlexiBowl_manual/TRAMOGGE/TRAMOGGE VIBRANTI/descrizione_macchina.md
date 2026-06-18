@@ -6,15 +6,168 @@
 
 La macchina standard è composta dalle seguenti parti fondamentali:
 
-![Parti Tramoggia](../../../../../_shared/media/images/parti_tramoggia.jpg)
+:::{raw} html
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --acc:#1a6fc4;--acc-dk:#0d4a8a;--acc-bg:#e8f1fb;
+  --bd:#e0e0e0;--bg-p:#ffffff;--bg-s:#f7f8f9;--bg-h:#f0f4fa;
+  --tx1:#1a1a1a;--tx2:#555;--tx3:#888;
+  --r:10px;--tr:0.35s cubic-bezier(.4,0,.2,1);
+}
 
-| Pos. | Elemento | Descrizione |
-|------|-----------|--------------|
-| 1 | SUPPORTO | È il componente che viene staffato sulla macchina e su cui viene posizionata la tramoggia. |
-| 2 | BASE VIBRANTE | È il componente principale della tramoggia; tramite un elettromagnete effettua la vibrazione che permette l’avanzamento dei pezzi sulla vasca. |
-| 3 | VASCA | Può essere da 1,5lt, 5lt, 10lt, 20lt, 40lt a seconda del componente da lavorare. Su richiesta, sono realizzabili anche di dimensioni personalizzate. La vasca da 1,5lt è costruita in materiale plastico mentre le altre sono in acciaio INOX. |
-| 4 | CONTROLLER | Viene utilizzato per regolare la vibrazione della tramoggia. |
-| 5 | CARTER | Componenti di protezione della base vibrante da urti, sporco e polvere. |
+/* ── Tab bar ── */
+.tr-tabs{display:flex;gap:6px;margin-bottom:12px}
+.tr-tab{padding:5px 14px;border-radius:6px;border:1.5px solid var(--bd);background:#fff;font-size:13px;font-weight:600;color:var(--tx2);cursor:pointer;transition:background var(--tr),color var(--tr),border-color var(--tr)}
+.tr-tab:hover{background:var(--bg-h)}
+.tr-tab.on{background:var(--acc-bg);color:var(--acc-dk);border-color:var(--acc)}
+
+/* ── Panel ── */
+.tr-panel{display:none}
+.tr-panel.on{display:block}
+.tr-wrap{border:1px solid var(--bd);border-radius:var(--r);overflow:hidden;background:var(--bg-p);box-shadow:0 2px 12px rgba(0,0,0,0.07)}
+.tr-img-outer{position:relative;width:100%;padding-top:70.71%}
+.tr-img-outer img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:0;transition:opacity var(--tr)}
+.tr-img-base{opacity:1;z-index:1}
+.tr-img-hl{opacity:0;z-index:2}
+.tr-badge{position:absolute;top:12px;left:14px;z-index:3;background:var(--acc);color:#fff;font-size:12px;font-weight:600;padding:4px 10px;border-radius:20px;opacity:0;transform:translateY(-4px);transition:opacity var(--tr),transform var(--tr);pointer-events:none;white-space:nowrap}
+.tr-badge.on{opacity:1;transform:translateY(0)}
+.tr-hint{position:absolute;bottom:14px;left:50%;z-index:3;transform:translateX(-50%);font-size:13px;color:#fff;background:rgba(0,0,0,0.38);padding:6px 16px;border-radius:20px;pointer-events:none;transition:opacity var(--tr);white-space:nowrap}
+.tr-list-panel{border-top:1px solid var(--bd);background:var(--bg-p)}
+.tr-list-head{display:grid;grid-template-columns:40px 160px 1fr;gap:8px;padding:8px 14px;background:var(--bg-s);border-bottom:1px solid var(--bd);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--tx3)}
+.tr-row{display:grid;grid-template-columns:40px 160px 1fr;gap:8px;align-items:center;padding:9px 14px;border-bottom:1px solid var(--bd);cursor:pointer;transition:background var(--tr);user-select:none}
+.tr-row:last-child{border-bottom:none}
+.tr-row:hover{background:var(--bg-h)}
+.tr-row.on{background:var(--acc-bg)}
+.tr-bubble{width:26px;height:26px;border-radius:50%;border:1.5px solid var(--bd);background:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;color:var(--tx2);flex-shrink:0;transition:background var(--tr),color var(--tr),border-color var(--tr)}
+.tr-row.on .tr-bubble{background:var(--acc);color:#fff;border-color:var(--acc)}
+.tr-name{font-size:13px;font-weight:500;color:var(--tx1);transition:color var(--tr)}
+.tr-row.on .tr-name{color:var(--acc-dk)}
+.tr-desc{font-size:12px;color:var(--tx2);line-height:1.55}
+.tr-desc a{color:var(--acc);text-decoration:underline}
+</style>
+
+<!-- Tab bar -->
+<div class="tr-tabs">
+  <button class="tr-tab on"    onclick="trSwitchTab('tramoggia',this)">Tramoggia vibrante</button>
+</div>
+
+<!-- ══════════ TRAMOGGIA ══════════ -->
+<div class="tr-panel on" id="tr-panel-tramoggia">
+  <div class="tr-wrap">
+    <div class="tr-img-outer">
+      <img class="tr-img-base" id="tramoggia-img-base" src="../../../../../_shared/media/images/tramoggia0.PNG" alt="Vista Tramoggia" />
+      <img class="tr-img-hl"   id="tramoggia-img-hl"   src="" alt="" aria-hidden="true" />
+      <div class="tr-badge" id="tramoggia-badge"></div>
+      <div class="tr-hint"  id="tramoggia-hint">Seleziona un componente dalla lista</div>
+    </div>
+    <div class="tr-list-panel">
+      <div class="tr-list-head"><span>N.</span><span>Componente</span><span>Descrizione</span></div>
+      <div id="tramoggia-list"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+
+  /* ── dati componenti ── */
+  var models = {
+    tramoggia: {
+      imgPath: '../../../../../_shared/media/images/tramoggia',
+      imgExt: '.PNG',
+      comps: [
+        {n:1,  name:'Supporto',        desc:'È il componente che viene staffato sulla macchina e su cui viene posizionata la tramoggia.'},
+        {n:2,  name:'Base vibrante',    desc:'È il componente principale della tramoggia; tramite un elettromagnete effettua la vibrazione che permette l’avanzamento dei pezzi sulla vasca.'},
+        {n:3,  name:'Vasca',            desc:'Può essere da 1,5lt, 5lt, 10lt, 20lt, 40lt a seconda del componente da lavorare. Su richiesta, sono realizzabili anche di dimensioni personalizzate. La vasca da 1,5lt è costruita in materiale plastico mentre le altre sono in acciaio INOX.'},
+        {n:4,  name:'Controller',       desc:'Viene utilizzato per regolare la vibrazione della tramoggia.'},
+        {n:5,  name:'Carter',           desc:'Componenti di protezione della base vibrante da urti, sporco e polvere.'},
+      ]
+    },
+  };
+
+  /* ── stato per modello ── */
+  var state = {};
+  Object.keys(models).forEach(function(id){ state[id]={activeN:null,activeRow:null}; });
+
+  /* ── costruisce le liste ── */
+  Object.keys(models).forEach(function(id){
+    var m   = models[id];
+    var el  = document.getElementById(id+'-list');
+    m.comps.forEach(function(c){
+      var row = document.createElement('div');
+      row.className = 'tr-row';
+      row.innerHTML = '<div class="tr-bubble">'+c.n+'</div>'
+                    + '<div class="tr-name">'+c.name+'</div>'
+                    + '<div class="tr-desc">'+c.desc+'</div>';
+      row.addEventListener('click', function(){ toggle(id, c, row); });
+      el.appendChild(row);
+    });
+  });
+
+  /* ── toggle componente ── */
+  function toggle(id, c, row){
+    var s       = state[id];
+    var m       = models[id];
+    var imgBase = document.getElementById(id+'-img-base');
+    var imgHl   = document.getElementById(id+'-img-hl');
+    var badge   = document.getElementById(id+'-badge');
+    var hint    = document.getElementById(id+'-hint');
+
+    if(s.activeN === c.n){ reset(id); return; }
+    if(s.activeRow) s.activeRow.classList.remove('on');
+    row.classList.add('on');
+    s.activeRow = row; s.activeN = c.n;
+
+    badge.textContent = c.n + ' \u2014 ' + c.name;
+    badge.classList.add('on');
+    hint.style.opacity = '0';
+
+    var newImg = new Image();
+    newImg.onload = function(){
+      imgHl.src = newImg.src;
+      imgHl.style.opacity = '1';
+      imgBase.style.opacity = '0';
+    };
+    newImg.onerror = function(){
+      imgBase.style.opacity = '1';
+      imgHl.style.opacity = '0';
+    };
+    newImg.src = m.imgPath + c.n + m.imgExt;
+  }
+
+  /* ── reset ── */
+  function reset(id){
+    var s       = state[id];
+    var imgBase = document.getElementById(id+'-img-base');
+    var imgHl   = document.getElementById(id+'-img-hl');
+    var badge   = document.getElementById(id+'-badge');
+    var hint    = document.getElementById(id+'-hint');
+
+    if(s.activeRow) s.activeRow.classList.remove('on');
+    s.activeRow = null; s.activeN = null;
+    imgBase.style.opacity = '1';
+    imgHl.style.opacity = '0';
+    setTimeout(function(){ imgHl.src = ''; }, 350);
+    badge.classList.remove('on');
+    hint.style.opacity = '1';
+  }
+
+  /* ── switch tab ── */
+  window.trSwitchTab = function(id, btn){
+    document.querySelectorAll('.tr-panel.on').forEach(function(p){
+      var oldId = p.id.replace('tr-panel-','');
+      reset(oldId);
+    });
+    document.querySelectorAll('.tr-tab').forEach(function(b){ b.classList.remove('on'); });
+    document.querySelectorAll('.tr-panel').forEach(function(p){ p.classList.remove('on'); });
+    btn.classList.add('on');
+    document.getElementById('tr-panel-'+id).classList.add('on');
+  };
+
+})();
+</script>
+:::
 
 :::{attention}
 Nel caso di modelli personalizzati i componenti potrebbero differire, parzialmente o totalmente, da quelli indicati. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto. 
