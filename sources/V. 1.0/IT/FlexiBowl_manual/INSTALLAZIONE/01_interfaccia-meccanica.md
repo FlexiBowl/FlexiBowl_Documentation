@@ -51,25 +51,25 @@ Seguono le interfacce di foratura e le posizioni e ampiezze dello sportello di f
 
 ### FlexiBowl® 500
 
-:::{figure} ../../../../_shared/media/images/FB500-SV.PNG
+:::{figure} ../../../../_shared/media/images/AS000004_Interfaccia1.PNG
 :align: center
 :::
 
 ### FlexiBowl® 650
 
-:::{figure} ../../../../_shared/media/images/FB650-SV.PNG
+:::{figure} ../../../../_shared/media/images/AS000008_Interfaccia1.PNG
 :align: center
 :::
 
 ### FlexiBowl® 800
 
-:::{figure} ../../../../_shared/media/images/FB800-SV.PNG
+:::{figure} ../../../../_shared/media/images/AS000006_Interfaccia1.PNG
 :align: center
 :::
 
 ### FlexiBowl® 1200
 
-:::{figure} ../../../../_shared/media/images/FB1200-SV.PNG
+:::{figure} ../../../../_shared/media/images/AS000012_Interfaccia1.PNG
 :align: center
 :::
 

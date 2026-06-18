@@ -112,7 +112,7 @@ Questo valore ci dice quanto è facile ribaltare il pezzo:
   - **Ottima.** Si ribalta molto facilmente con impostazioni di energia standard.
 :::
 
-In base al valore dell'indice di snellezza si parte da un valore di **pressione base** per il flip:
+In base al valore dell'indice di snellezza si sceglie un valore di **pressione base** per il flip:
 
 :::{raw} html
 
@@ -287,7 +287,7 @@ La rigidezza del componente influisce direttamente sull’efficienza di trasmiss
   
   *Note:* Presenza di micro-smorzamento strutturale. Aumentare la pressione base del 20% per garantire la stessa altezza di salto del pezzo rigido.
 
-- **Materiali rigidi** ($K_m$ = 1.0):
+- **Materiali non rigidi** ($K_m$ = 1.0):
 
   *Materiali:* gomma naturale, gomma nitrilica (NBR), silicone, poliuretano, TPU morbido.
   
