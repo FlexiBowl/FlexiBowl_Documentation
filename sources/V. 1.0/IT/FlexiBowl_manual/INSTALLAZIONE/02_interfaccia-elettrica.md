@@ -1,5 +1,5 @@
 (intele)=
-# **Interfaccia elettrica**
+# [ELE] **Interfaccia elettrica**
 
 Il pannello connettori del FlexiBowl® varia in base alla versione della macchina:
 

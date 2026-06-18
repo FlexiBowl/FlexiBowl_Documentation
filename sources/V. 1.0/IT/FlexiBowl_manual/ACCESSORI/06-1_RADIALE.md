@@ -1,4 +1,4 @@
-# **Soffi radiali**
+# [MEC] **Soffi radiali**
 
 Il soffio raadiale consiste in una cartuccia che può essere montata al posto del deviatore standard che presenta due fori radiali ad altezze diverse: da uno dei due, a scelta dell'Operatore in base alle dimensioni dei pezzi da movimentare, esce un getto d'aria che allontana i componenti dall'anello di contenimento.
 

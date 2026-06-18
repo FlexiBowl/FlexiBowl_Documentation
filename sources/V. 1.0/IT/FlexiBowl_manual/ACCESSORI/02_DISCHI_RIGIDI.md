@@ -1,5 +1,5 @@
 (dischi)=
-# **Dischi rigidi**
+# [MEC] **Dischi rigidi**
 
 I dischi rigidi sono l'alternativa alle superfici adatta ai FlexiBowl® in verrsione edge:
 - **FlexiBowl® 200**

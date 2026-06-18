@@ -1,4 +1,4 @@
-# **Modalità Mix**
+# [SOF] **Modalità Mix**
 
 ## Funzionamento in MIX Mode
 

@@ -1,4 +1,4 @@
-# **Manutenzione Ordinaria**
+# [MEC] **Manutenzione Ordinaria**
 
 Il FlexiBowl®, quando viene consegnato all’utilizzatore, è già regolato per lavorare in modo corretto; tuttavia, per garantirne il buon 
 funzionamento nel tempo, occorre eseguire controlli e manutenzioni periodiche e preventive. 
