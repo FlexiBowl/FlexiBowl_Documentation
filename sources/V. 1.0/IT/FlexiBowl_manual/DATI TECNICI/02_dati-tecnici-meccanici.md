@@ -50,7 +50,7 @@
   - 9438 mm²
 
 * - Peso netto
-  - —
+  - 7 kg
 
 :::
 
@@ -107,7 +107,7 @@
   - 18547 mm²
 
 * - Peso netto
-  - —
+  - 14 kg
 
 :::
 
@@ -216,10 +216,46 @@
   - 412944 mm²
 
 * - Peso netto
-  - —
-  - —
-  - —
-  - —
-  - —
+  - 35 kg
+  - 35 kg
+  - 51 kg
+  - 67 kg
+  - 144 kg
+
+:::
+
+## Scatola rack per FlexiBowl®200-350
+
+::: {figure} ../../../../_shared/media/images/dimrack.png
+:align: center
+:width: 90%
+:::
+
+::: {list-table}
+:header-rows: 1
+:align: center
+:widths: 20 40
+
+
+* - Riferimento
+  - Scatola rack
+
+* - A
+  - 483 mm
+
+* - B
+  - 132.5 mm
+
+* - C
+  - 141 mm
+
+* - D
+  - 349 mm
+
+* - E
+  - 307 mm
+
+* - Peso netto
+  - 10 kg
 
 :::
