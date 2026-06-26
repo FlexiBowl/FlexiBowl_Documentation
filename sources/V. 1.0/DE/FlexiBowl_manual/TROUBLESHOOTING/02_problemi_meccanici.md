@@ -1,0 +1,1 @@
+# **[MEC]** Risoluzione Probelmi Meccanici 

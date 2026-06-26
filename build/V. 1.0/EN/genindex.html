@@ -15,38 +15,35 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "light";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
   </script>
-  <!--
-    this give us a css class that will be invisible only if js is disabled
-  -->
-  <noscript>
-    <style>
-      .pst-js-only { display: none !important; }
-
-    </style>
-  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../_shared/static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
-<link href="../../_shared/static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+  <link href="../../_shared/static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_shared/static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_shared/static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../_shared/static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_shared/static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_shared/static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_shared/static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../_shared/static/pygments.css?v=8f2a1f02" />
-    <link rel="stylesheet" type="text/css" href="../../_shared/static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="../../_shared/static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../../_shared/static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../../_shared/static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../../_shared/static/custom.css?v=0278f637" />
   
-  <!-- So that users can add custom icons -->
-  <script src="../../_shared/static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../_shared/static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
-<link rel="preload" as="script" href="../../_shared/static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+  <link rel="preload" as="script" href="../../_shared/static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_shared/static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_shared/static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script src="../../_shared/static/documentation_options.js?v=a681ed88"></script>
-    <script src="../../_shared/static/doctools.js?v=fd6eb6e6"></script>
-    <script src="../../_shared/static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../_shared/static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_shared/static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../_shared/static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../../_shared/static/copybutton.js?v=f281be69"></script>
-    <script src="../../_shared/static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script src="../../_shared/static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script src="../../_shared/static/design-tabs.js?v=f930bc37"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'genindex';</script>
     <script src="../../_shared/static/versioning-data.js?v=37039824"></script>
@@ -55,7 +52,6 @@
     <link rel="search" title="Search" href="search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -71,8 +67,19 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <dialog id="pst-search-dialog">
-    
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
       action="search.html"
       method="get">
@@ -80,6 +87,7 @@
   <input type="search"
          class="form-control"
          name="q"
+         id="search-input"
          placeholder="Search..."
          aria-label="Search..."
          autocomplete="off"
@@ -87,8 +95,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-  </dialog>
+</form></div>
+  </div>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -106,8 +114,7 @@
       
         
       
-      <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+      <div class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -135,128 +142,163 @@
     
     
     <img src="../../_shared/static/logo.png" class="logo__image only-light" alt="FlexiBowl® Manual - Home"/>
-    <img src="../../_shared/static/logo_dark.png" class="logo__image only-dark pst-js-only" alt="FlexiBowl® Manual - Home"/>
+    <script>document.write(`<img src="../../_shared/static/logo_dark.png" class="logo__image only-dark" alt="FlexiBowl® Manual - Home"/>`);</script>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button></div>
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">BEFORE YOU START</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">BEFORE YOU BEGIN</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/01_informazioni_preliminari.html"><strong>Preliminary Information</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/PRIMA%20DI%20INIZIARE/01_informazioni_preliminari.html"><strong>Preliminary Information</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/PRIMA%20DI%20INIZIARE/02_informazioni_sicurezza.html"><strong>Safety Information</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/PRIMA%20DI%20INIZIARE/03_trasporto.html"><strong>Transport and Handling</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/PRIMA%20DI%20INIZIARE/04_cond-util.html"><strong>Operating and Environmental Conditions</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/PRIMA%20DI%20INIZIARE/05_glossario.html"><strong>Glossary</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/PRIMA%20DI%20INIZIARE/06_support.html"><strong>Contatti</strong></a></li>
 </ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">TECHNICAL DATA</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/02_informazioni_sicurezza.html"><strong>Safety Information</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/DATI%20TECNICI/01_panoramica.html"><strong>Overview and Unboxing</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/DATI%20TECNICI/02_dati-tecnici-meccanici.html"><strong>Mechanical Technical Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/DATI%20TECNICI/03_dati-tecnici-elettrici.html"><strong>Electrical Technical Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/DATI%20TECNICI/04_dati-tecnici-pneumatici.html"><strong>Tire Technical Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/DATI%20TECNICI/05_dati-tecnici-applicativi.html"><strong>Technical Application Data</strong></a></li>
 </ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">INSTALLATION</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/03_Unboxing_Contenuto.html"><strong>Unboxing and Box Contents</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INSTALLAZIONE/01_interfaccia-meccanica.html"><strong>Mechanical Interface</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INSTALLAZIONE/02_interfaccia-elettrica.html"><strong>Electrical Interface</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INSTALLAZIONE/03_interfaccia-pneumatica.html"><strong>Pneumatic Interface</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INSTALLAZIONE/04_interfaccia-software.html"><strong>Software Interface</strong></a></li>
 </ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">SOFTWARE OVERVIEW</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/27_Support.html"><strong>Contacts</strong></a></li>
-</ul>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/27b_Glossario.html"><strong>Glossary</strong></a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">TECHNICAL REFERENCE AND SPECIFICATIONS</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/rif_tecnico_specifiche/04_Specifiche_FlexiVision.html"><strong>Detailed FlexiVision One Specifications</strong></a></li>
-</ul>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/rif_tecnico_specifiche/04b_Protocolli_Comunicazione.html"><strong>Robot-Vision Communication Protocol</strong></a></li>
-</ul>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/rif_tecnico_specifiche/05_Calcolo_distanza_ottimale.html"><strong>Optimal Working Distance Calculation</strong></a></li>
-</ul>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/rif_tecnico_specifiche/integrazione_software/06_PlugIn.html"><strong>Plug-ins</strong></a></li>
-</ul>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/rif_tecnico_specifiche/integrazione_software/07_Backup_management.html"><strong>Backup Management</strong></a></li>
-</ul>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/rif_tecnico_specifiche/08_Opzioni.html"><strong>Options</strong></a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">SYSTEM INSTALLATION</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/INSTALLAZIONE_SISTEMA/09_Installazione_Meccanica.html"><strong>Mechanical Installation of the System</strong></a></li>
-</ul>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/INSTALLAZIONE_SISTEMA/10_Cablaggio_Connessioni.html"><strong>Wiring and Connections</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INTERFACCIA%20SOFTWARE/04_home.html"><strong>Home</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INTERFACCIA%20SOFTWARE/04b_maincommand.html"><strong>Main Command</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INTERFACCIA%20SOFTWARE/04c_sequence.html"><strong>Sequence</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INTERFACCIA%20SOFTWARE/04d_monitor.html"><strong>Monitor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INTERFACCIA%20SOFTWARE/04e_jogmotor.html"><strong>Jog Motor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INTERFACCIA%20SOFTWARE/04f_wizard.html"><strong>Wizard</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INTERFACCIA%20SOFTWARE/04h_graphs.html"><strong>Graphs</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INTERFACCIA%20SOFTWARE/04i_filetransfer.html"><strong>File Transfer</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INTERFACCIA%20SOFTWARE/04l_setup.html"><strong>Setup</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/INTERFACCIA%20SOFTWARE/04m_hopper.html"><strong>Hopper</strong></a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">QUICKSTART</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/12_Panoramica_Interfaccia.html"><strong>Interface Overview</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/QUICKSTART/panoramica.html"><strong>Operations Overview</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/QUICKSTART/installazione_meccanica.html"><strong>FlexiBowl® Installation</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/QUICKSTART/cablaggio_FB.html"><strong>FlexiBowl® Wiring</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/QUICKSTART/conf_interfaccia.html"><strong>Interface Configuration</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/QUICKSTART/FB_wizard.html">[SOF] <strong>FlexiBowl® Wizard</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/QUICKSTART/conf_tramoggia.html"><strong>Hopper Configuration</strong></a></li>
 </ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">OPERATING MODES</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/SETUP/13_setup.html"><strong>Initial System Configuration</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/SETUP/13d_Camera_Setup.html"><strong>Step 3: Camera Setup</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/MODALITA%20FUNZIONAMENTO/modalita_standard.html"><strong>Standard Mode</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/MODALITA%20FUNZIONAMENTO/modalita_mix.html"><strong>Mix Mode</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/MODALITA%20FUNZIONAMENTO/modalita_tracking.html"><strong>Tracking Mode</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">PLUG-INS</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/PLUG-IN/01_PlugIn.html"><strong>Plug-In</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">LAYOUT BEST PRACTICE</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/LAYOUT%20BEST%20PRACTICE/01_layoutbp.html"><strong>Layout Best Practice</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">ACCESSORIES</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/ACCESSORI/00_ACCESSORI.html"><strong>Overview and Compatibility</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/ACCESSORI/01_SUPERFICI.html"><strong>Rotary Disks and Rigid Disks</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/ACCESSORI/03_04_illuminazione.html"><strong>Lighting</strong></a></li>
 
 
 
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/SETUP/14_calibrazione_camera.html"><strong>Camera Calibration</strong></a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/SETUP/13a_FB_Setup.html"><strong>Step 4: FlexiBowl Setup</strong></a></li>
-
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/SETUP/13b_Hopper_Setup.html"><strong>Step 5: Hopper Setup</strong></a></li>
-
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/SETUP/13c_Robot_Setup.html"><strong>Step 6: Robot Setup</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/SETUP/15_Protocol_Setup.html"><strong>Step 7: Protocol Setup</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/ACCESSORI/05_DEVIATORE.html"><strong>Standard Deviators</strong></a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="FlexiBowl_manual/ACCESSORI/06_SOFFI.html"><strong>Air-Blows</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/ACCESSORI/06-1_RADIALE.html">[MEC] <strong>Radial Air-Blows</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/ACCESSORI/06-2_CENTRALE.html">[MEC] <strong>Central Air-Blow</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/ACCESSORI/06-3_INDIRETTO.html">[MEC] <strong>Indirect Air-Blow (only for FlexiBowl® 500E)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/ACCESSORI/06-4_INTEGRATI.html">[MEC] <strong>Soffi integrati nello schermo flip (FlexiBowl® 200-350)</strong></a></li>
 </ul>
 </details></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/ACCESSORI/07_BRUSH_DIVERTER.html"><strong>Brush Diverter</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/ACCESSORI/08_WEDGE.html"><strong>Wedge Diverter</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/ACCESSORI/09_SVUOTAMENTO.html"><strong>Svuotamento</strong></a></li>
 </ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">MAINTENANCE</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/Nuovo_Modello/16_Nuovo_modello.html"><strong>Recipe and Model Creation - Overview</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/Nuovo_Modello/17_NuovaRicetta.html"><strong>Create a New Recipe</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/Nuovo_Modello/18_NuovoModello.html"><strong>Create a New Model</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/Nuovo_Modello/19_ROI_TEST.html"><strong>ROI Definition and Tolerances</strong></a></li>
-
-
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/Nuovo_Modello/20_Istogrammi.html"><strong>Clearances</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/Nuovo_Modello/21_RobotPick.html"><strong>Robot Pick Calibration</strong></a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/01_ordinaria.html"><strong>Routine Maintenance</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/01-1_sost-disco.html"><strong>Rotary Disks and Rigid Disks Replacement</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/01-2_pul-disco.html"><strong>Cleaning the Disk</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/01-3_pul-fb.html"><strong>General FlexiBowl® Cleaning</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/01-4_contr-flip.html"><strong>Flip Visual Inspection</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/01-5_contr-light.html"><strong>Checking the Proper Operation of the Backlight and Toplight</strong></a></li>
 </ul>
 </details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/02_straordinaria.html"><strong>Extraordinary Maintenance</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/02-1_sost-backlight.html"><strong>Backlight Replacement</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/02-2_sost-ev.html"><strong>Replacement of Solenoid Valves</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/02-3_sost-vp.html"><strong>Replacing the Proportional Valve</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/02-4_sost-flip.html"><strong>Flip Unit Replacement</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/02-5_sost-alim.html"><strong>Power Supply Replacement</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/02-6_sost-plc.html"><strong>PLC and Module Replacement</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/02-7_sost-scheda.html">[ELE] <strong>Sostituzione Scheda</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/02-8_sost-fus-sch.html"><strong>Replacing the Circuit Board Fuse</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/02-9_sost-fus-220.html"><strong>Replacing a 220V Fuse</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/02-10_sost-resf.html"><strong>Replacing the Brake Heating Element</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/MANUTENZIONE/02-11_sost-mot.html"><strong>Engine Assembly Replacement</strong></a></li>
 </ul>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/QUICKSTART/24_Verifica_Risultati.html"><strong>Application Monitoring: Dashboard</strong></a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">MIX APPLICATIONS</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/APPLICAZIONI_MIX/28_Panoramica_Mix.html"><strong>Mix Application Overview</strong></a></li>
-</ul>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/APPLICAZIONI_MIX/29_Comandi_Mix.html"><strong>Mix Application Commands</strong></a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">MULTI-DEVICE CONFIGURATIONS</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/CONFIGURAZIONI_MULTI-DISPOSITIVO/30_2FB2CAM.html"><strong>2 FlexiBowl® and 2 Cameras</strong></a></li>
-</ul>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/CONFIGURAZIONI_MULTI-DISPOSITIVO/31_3FB3CAM.html"><strong>3 FlexiBowl® and 3 Cameras</strong></a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">WARRANTY</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FlexiVisionEasy_manual/25_Garanzia.html"><strong>Warranty</strong></a></li>
+</details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">TROUBLESHOOTING</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="FlexiVisionEasy_manual/TROUBLESHOOTING/26_trb_shooting_guide.html"><strong>Troubleshooting</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/TROUBLESHOOTING/26b_Installazione_Mecc.html"><strong>Mechanical Installation</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/TROUBLESHOOTING/26c_Cablaggio_Connessioni.html"><strong>Wiring and Connections</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/TROUBLESHOOTING/26d_Conf_Iniziale.html"><strong>Initial Setup</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/TROUBLESHOOTING/26e_Calib_Cam.html"><strong>Camera Calibration</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/TROUBLESHOOTING/26g_Creazione_Ricette_Modelli.html"><strong>Recipe and Model Creation</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/TROUBLESHOOTING/26h_FlexiBowl_Wizard.html"><strong>FlexiBowl Wizard</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="FlexiVisionEasy_manual/TROUBLESHOOTING/26i_Conf_Tramoggia.html"><strong>Hopper Configuration</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/TROUBLESHOOTING/01_risoluzione-problemi.html"><strong>Troubleshooting</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/TROUBLESHOOTING/02_problemi_meccanici.html"><strong>Mechanical Problems Resolutions</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/TROUBLESHOOTING/03_problemi_elettrici.html"><strong>Electrical Problems Resolutions</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/TROUBLESHOOTING/04_problemi_pneumatici.html"><strong>Pneumatic Problems Resolutions</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/TROUBLESHOOTING/05_problemi_software.html"><strong>Software Problems Resolutions</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">DISPOSAL</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/SMALTIMENTO/smaltimento.html"><strong>Disposal and End of Life</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">CERTIFICATIONS</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.html"><strong>Certifications</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">HOPPERS</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="FlexiBowl_manual/TRAMOGGE/TRAMOGGE%20VIBRANTI/tramogge_vibranti.html"><strong>Vibrant Hoppers</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/TRAMOGGE/TRAMOGGE%20VIBRANTI/info_preliminari.html"><strong>General Preliminary Informations</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/TRAMOGGE/TRAMOGGE%20VIBRANTI/descrizione_macchina.html"><strong>Machine Description</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/TRAMOGGE/TRAMOGGE%20VIBRANTI/trasporto_installazione.html"><strong>Installation and Transportation</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/TRAMOGGE/TRAMOGGE%20VIBRANTI/controller_cablaggio.html"><strong>Controller and Wiring</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/TRAMOGGE/TRAMOGGE%20VIBRANTI/manutenzione.html"><strong>Maintenance and Troubleshooting</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="FlexiBowl_manual/TRAMOGGE/TRAMOGGE%20VIBRANTI/smaltimento_appendici.html"><strong>Decommissioning and Disposal</strong></a></li>
 </ul>
 </details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">FLEXIBOWL 2.0 VS FLEXIBOWL 3.0</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/COMPARATIVA/panoramica.html"><strong>Comparison Overview</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/COMPARATIVA/comparativa_meccanica.html"><strong>Mechanical Comparison</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/COMPARATIVA/comparativa_elettrica.html"><strong>Electrical Comparison</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/COMPARATIVA/comparativa_pneumatica.html"><strong>Pneumatic Comparison</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="FlexiBowl_manual/COMPARATIVA/comparativa_software.html"><strong>Software Comparison</strong></a></li>
 </ul>
 
     </div>
@@ -265,14 +307,9 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
-      <div class="sidebar-primary-item">
-<div id="ethical-ad-placement"
-      class="flat"
-      data-ea-publisher="readthedocs"
-      data-ea-type="readthedocs-sidebar"
-      data-ea-manual="true">
-</div></div>
   </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -307,7 +344,7 @@
 
 
 <button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  class="btn btn-sm btn-fullscreen-button"
   title="Fullscreen mode"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
@@ -321,16 +358,24 @@
 
 
 
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button>
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
 
 
-<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-</button>
+  </button>
+`);
+</script>
 
 </div></div>
       
@@ -424,8 +469,8 @@ By ARS Automation
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../../_shared/static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
-<script defer src="../../_shared/static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+  <script src="../../_shared/static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_shared/static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>
