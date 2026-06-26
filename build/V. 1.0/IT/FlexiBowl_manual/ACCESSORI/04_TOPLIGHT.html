@@ -16,38 +16,35 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "light";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
   </script>
-  <!--
-    this give us a css class that will be invisible only if js is disabled
-  -->
-  <noscript>
-    <style>
-      .pst-js-only { display: none !important; }
-
-    </style>
-  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../../../_shared/static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
-<link href="../../../../_shared/static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+  <link href="../../../../_shared/static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../_shared/static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../_shared/static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../../../_shared/static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_shared/static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_shared/static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_shared/static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/pygments.css?v=8f2a1f02" />
-    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/custom.css?v=0278f637" />
   
-  <!-- So that users can add custom icons -->
-  <script src="../../../../_shared/static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../../../_shared/static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
-<link rel="preload" as="script" href="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+  <link rel="preload" as="script" href="../../../../_shared/static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../../_shared/static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script src="../../../../_shared/static/documentation_options.js?v=a681ed88"></script>
-    <script src="../../../../_shared/static/doctools.js?v=fd6eb6e6"></script>
-    <script src="../../../../_shared/static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../_shared/static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../_shared/static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../../../_shared/static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../../../../_shared/static/copybutton.js?v=f281be69"></script>
-    <script src="../../../../_shared/static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script src="../../../../_shared/static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script src="../../../../_shared/static/design-tabs.js?v=f930bc37"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'FlexiBowl_manual/ACCESSORI/04_TOPLIGHT';</script>
     <script src="../../../../_shared/static/versioning-data.js?v=37039824"></script>
@@ -56,7 +53,6 @@
     <link rel="search" title="Search" href="../../search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -72,8 +68,19 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <dialog id="pst-search-dialog">
-    
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
       action="../../search.html"
       method="get">
@@ -81,6 +88,7 @@
   <input type="search"
          class="form-control"
          name="q"
+         id="search-input"
          placeholder="Search..."
          aria-label="Search..."
          autocomplete="off"
@@ -88,8 +96,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-  </dialog>
+</form></div>
+  </div>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -107,8 +115,7 @@
       
         
       
-      <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+      <div class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -136,17 +143,21 @@
     
     
     <img src="../../../../_shared/static/logo.png" class="logo__image only-light" alt="FlexiBowl® Manual - Home"/>
-    <img src="../../../../_shared/static/logo_dark.png" class="logo__image only-dark pst-js-only" alt="FlexiBowl® Manual - Home"/>
+    <script>document.write(`<img src="../../../../_shared/static/logo_dark.png" class="logo__image only-dark" alt="FlexiBowl® Manual - Home"/>`);</script>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button></div>
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">PRIMA DI INIZIARE</span></p>
@@ -297,14 +308,9 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
-      <div class="sidebar-primary-item">
-<div id="ethical-ad-placement"
-      class="flat"
-      data-ea-publisher="readthedocs"
-      data-ea-type="readthedocs-sidebar"
-      data-ea-manual="true">
-</div></div>
   </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -387,7 +393,7 @@
 
 
 <button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  class="btn btn-sm btn-fullscreen-button"
   title="Fullscreen mode"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
@@ -401,17 +407,25 @@
 
 
 
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button>
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
 
 
-<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-</button>
-<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
 </button>
 </div></div>
@@ -472,7 +486,7 @@ Il Toplight è disponibile con luce:</p>
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">TopLight 500x300 - White</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text">Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
-<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002316.JPG" /></p>
+<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002316.png" /></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p class="sd-card-text">Lunghezza</p></th>
@@ -599,7 +613,7 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">TopLight 500x300 - Red</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text">Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
-<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002316.JPG" /></p>
+<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002316.png" /></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p class="sd-card-text">Lunghezza</p></th>
@@ -726,7 +740,7 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">TopLight 500x300 - Infrared</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text">Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
-<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002316.JPG" /></p>
+<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002316.png" /></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p class="sd-card-text">Lunghezza</p></th>
@@ -853,7 +867,7 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">TopLight 700x300 - White</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text">Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiBowl® 800
-<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002317.JPG" /></p>
+<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002317.png" /></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p class="sd-card-text">Lunghezza</p></th>
@@ -980,7 +994,7 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">TopLight 700x300 - Red</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text">Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiBowl® 800
-<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002317.JPG" /></p>
+<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002317.png" /></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p class="sd-card-text">Lunghezza</p></th>
@@ -1107,7 +1121,7 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">TopLight 700x300 - Infrared</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text">Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiBowl® 800
-<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002317.JPG" /></p>
+<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002317.png" /></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p class="sd-card-text">Lunghezza</p></th>
@@ -1234,7 +1248,7 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">TopLight 700x500 - White</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text">Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiBowl® 800
-<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002318.JPG" /></p>
+<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002318.png" /></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p class="sd-card-text">Lunghezza</p></th>
@@ -1361,7 +1375,7 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">TopLight 700x500 - Red</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text">Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiBowl® 800
-<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002318.JPG" /></p>
+<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002318.png" /></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p class="sd-card-text">Lunghezza</p></th>
@@ -1488,7 +1502,7 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">TopLight 700x500 - Infrared</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text">Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiBowl® 800
-<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002318.JPG" /></p>
+<img alt="Toplight" src="../../../../_shared/media/images/toplight_CM002318.png" /></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p class="sd-card-text">Lunghezza</p></th>
@@ -2056,7 +2070,7 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
 <h3>Fissaggio sugli angoli<a class="headerlink" href="#fissaggio-sugli-angoli" title="Link to this heading">#</a></h3>
 <p>Si può fissare il toplight sfruttando le asole aperte sui quattro angoli; si consiglia di utilizzare quattro viti M4x20 e di posizionarle in base alla taglia secondo la seguente tabella:</p>
 <figure class="align-center">
-<a class="reference internal image-reference" href="../../_images/fixtoplight-angoli.PNG"><img alt="../../_images/fixtoplight-angoli.PNG" src="../../_images/fixtoplight-angoli.PNG" style="width: 80%;" />
+<a class="reference internal image-reference" href="../../../../_shared/media/images/fixtoplight-angoli.PNG"><img alt="../../_images/fixtoplight-angoli.PNG" src="../../../../_shared/media/images/fixtoplight-angoli.PNG" style="width: 80%;" />
 </a>
 </figure>
 </section>
@@ -2064,7 +2078,7 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
 <h3>Fissaggio sui fianchi<a class="headerlink" href="#fissaggio-sui-fianchi" title="Link to this heading">#</a></h3>
 <p>Se necessario è anche possibile sfruttare le cave presenti sui fianchi del Toplight per il fissaggio, inserendo al loro interno un apposito dado e sfruttando delle viti M4:</p>
 <figure class="align-center">
-<a class="reference internal image-reference" href="../../_images/fixtoplight-staffa.PNG"><img alt="../../_images/fixtoplight-staffa.PNG" src="../../_images/fixtoplight-staffa.PNG" style="width: 80%;" />
+<a class="reference internal image-reference" href="../../../../_shared/media/images/fixtoplight-staffa.PNG"><img alt="../../_images/fixtoplight-staffa.PNG" src="../../../../_shared/media/images/fixtoplight-staffa.PNG" style="width: 80%;" />
 </a>
 </figure>
 <div class="admonition warning">
@@ -2077,7 +2091,7 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-column docutils">
 <figure class="align-center" id="id2">
-<a class="reference internal image-reference" href="../../_images/toplight-staffealte.PNG"><img alt="../../_images/toplight-staffealte.PNG" src="../../_images/toplight-staffealte.PNG" style="width: 80%;" />
+<a class="reference internal image-reference" href="../../../../_shared/media/images/toplight-staffealte.PNG"><img alt="../../_images/toplight-staffealte.PNG" src="../../../../_shared/media/images/toplight-staffealte.PNG" style="width: 80%;" />
 </a>
 <figcaption>
 <p><span class="caption-text">Non appendere l’illuminatore dall’alto.</span><a class="headerlink" href="#id2" title="Link to this image">#</a></p>
@@ -2086,7 +2100,7 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
 </div>
 <div class="sd-col sd-d-flex-column docutils">
 <figure class="align-center" id="id3">
-<a class="reference internal image-reference" href="../../_images/toplight-staffedef.PNG"><img alt="../../_images/toplight-staffedef.PNG" src="../../_images/toplight-staffedef.PNG" style="width: 80%;" />
+<a class="reference internal image-reference" href="../../../../_shared/media/images/toplight-staffedef.PNG"><img alt="../../_images/toplight-staffedef.PNG" src="../../../../_shared/media/images/toplight-staffedef.PNG" style="width: 80%;" />
 </a>
 <figcaption>
 <p><span class="caption-text">Non deformare la struttura di fissaggio del Toplight.</span><a class="headerlink" href="#id3" title="Link to this image">#</a></p>
@@ -2103,13 +2117,13 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-column docutils">
 <figure class="align-center">
-<a class="reference internal image-reference" href="../../_images/toplight-staffebasse.PNG"><img alt="../../_images/toplight-staffebasse.PNG" src="../../_images/toplight-staffebasse.PNG" style="width: 80%;" />
+<a class="reference internal image-reference" href="../../../../_shared/media/images/toplight-staffebasse.PNG"><img alt="../../_images/toplight-staffebasse.PNG" src="../../../../_shared/media/images/toplight-staffebasse.PNG" style="width: 80%;" />
 </a>
 </figure>
 </div>
 <div class="sd-col sd-d-flex-column docutils">
 <figure class="align-center">
-<a class="reference internal image-reference" href="../../_images/toplight-steso.PNG"><img alt="../../_images/toplight-steso.PNG" src="../../_images/toplight-steso.PNG" style="width: 80%;" />
+<a class="reference internal image-reference" href="../../../../_shared/media/images/toplight-steso.PNG"><img alt="../../_images/toplight-steso.PNG" src="../../../../_shared/media/images/toplight-steso.PNG" style="width: 80%;" />
 </a>
 </figure>
 </div>
@@ -2783,16 +2797,14 @@ Nessuno shock termico (variazione massima: 10°C in 24h)</p></td>
             
             
               
-                <dialog id="pst-secondary-sidebar-modal"></dialog>
-                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
-  <div class="sidebar-secondary-item"><div
-    id="pst-page-navigation-heading-2"
-    class="page-toc tocsection onthispage">
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
     <i class="fa-solid fa-list"></i> Contents
   </div>
-  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+  <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caratteristiche-dei-toplight">Caratteristiche dei Toplight</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#colori-dei-toplight">Colori dei Toplight</a></li>
@@ -2850,8 +2862,8 @@ By ARS Automation
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../../../../_shared/static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
-<script defer src="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+  <script src="../../../../_shared/static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>

@@ -1,0 +1,11 @@
+# **[MEC]** Comparativa Pneumatica
+
+## Componenti del sistema pneumatico
+
+
+## Specifiche dell'aria compressa
+
+
+## Schema funzionale 
+
+## Note al confronto
