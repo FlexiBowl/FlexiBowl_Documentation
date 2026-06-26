@@ -1,1 +1,1 @@
-# [ELE] **Sostituzione Resistenza di Frenatura**
+# **Remplacement de la résistance de freinage**

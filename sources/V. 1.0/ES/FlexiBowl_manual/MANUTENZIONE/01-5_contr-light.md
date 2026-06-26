@@ -1,1 +1,1 @@
-# [MEC] **Controllo del Corretto Funzionamento del Backlight e del Toplight**
+# **Comprobación del correcto funcionamiento de la retroiluminación y la iluminación superior**

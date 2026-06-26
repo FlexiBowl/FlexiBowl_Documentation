@@ -1,4 +1,4 @@
-# **Informazioni di Sicurezza**
+# **Informations de sécurité**
 
 Le seguenti istruzioni di sicurezza, precauzioni generali e norme relative alla movimentazione e all'ambiente operativo devono essere scrupolosamente rispettate per garantire la sicurezza del personale, l'integrità del prodotto e il corretto funzionamento dell'impianto.
 

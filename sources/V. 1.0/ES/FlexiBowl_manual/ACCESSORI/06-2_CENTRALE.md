@@ -1,4 +1,4 @@
-# [MEC] **Soffio centrale**
+# **Soplos de aire centrales**
 
 Il soffio centrale consiste in un beccuccio montato sulla punta dello schermo flip il cui getto d'aria è direzionato in modo da allontanare i componenti dalla calotta stringi-disco. Il suo scopo è duplice:
 

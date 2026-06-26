@@ -1,4 +1,4 @@
-# [MEC] **Sostituzione Gruppo Motore**
+# **Remplacement du groupe moteur**
 
 :::::{important}
 

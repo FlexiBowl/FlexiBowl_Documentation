@@ -1,5 +1,5 @@
 (condamb)=
-# **Condizioni di utilizzo ed ambientali**
+# **Conditions d'utilisation et conditions environnementales**
 
 ## Uso previsto (corretto)
 

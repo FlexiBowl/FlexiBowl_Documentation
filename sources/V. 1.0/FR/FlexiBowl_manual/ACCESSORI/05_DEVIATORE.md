@@ -1,5 +1,5 @@
 (diverter)=
-# [MEC] **Deviatori Standard**
+# **Dérivateurs Standard**
 
 I deviatori standard sono dei blocchi di polietilene con delle superfici sagomate in modo tale da creare un effetto scivolo per i componenti mentre essi si muovono insieme alla superficie o disco rigido. L'idea alla base dei deviatori (standard o di altri tipi) è quella di modificare la posizione dei pezzi lungo il raggio del FlexiBowl®, in modo da massimizzare l'efficacia del flip e di tenerli a una distanza rispetto all'anello di contenimento e dalla calotta stringi-disco tale da consentire la presa al robot, senza che l'*end effector* entri in collisione con uno dei due.
 

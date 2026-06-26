@@ -1,4 +1,4 @@
-# **Panoramica Operazioni**
+# **Aperçu des opérations**
 Questa pagina fornisce una visione d'insieme del processo di configurazione e messa in funzione del FlexiBowl®. Il workflow seguente illustra i passaggi principali in sequenza: clicca su ciascuno step per accedere alla pagina dedicata.
 
 <script src="https://unpkg.com/@phosphor-icons/web"></script>

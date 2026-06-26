@@ -1,4 +1,4 @@
-# **[MEC]** Comparativa Pneumatica
+# **Comparaison Pneumatique**
 
 ## Componenti del sistema pneumatico
 

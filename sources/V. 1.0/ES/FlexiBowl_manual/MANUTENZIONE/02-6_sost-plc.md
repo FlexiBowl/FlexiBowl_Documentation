@@ -1,1 +1,1 @@
-# [ELE] **Sostituzione PLC e Moduli**
+# **Sustitución de PLC y módulos**

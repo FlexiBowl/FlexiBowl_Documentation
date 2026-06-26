@@ -1,5 +1,5 @@
 (layoutbp)=
-# **Layout Best Practice**
+# **Buenas prácticas de diseño**
 
 ## Linee guida per il posizionamento del robot
 

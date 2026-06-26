@@ -1,5 +1,5 @@
 (info)=
-# **Informazioni Preliminari**
+# **Informations préliminaires**
 
 Questa sezione contiene informazioni legali e avvertenze importanti relative all'uso del FlexiBowl® e della presente documentazione.   Si prega di leggere attentamente prima di procedere con l'installazione e l'utilizzo del sistema.
 

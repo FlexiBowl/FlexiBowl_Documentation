@@ -1,4 +1,4 @@
-# [SOF] **Setup**
+# **Setup**
 ## Panoramica
 
 La pagina **Setup** raggruppa le impostazioni di rete e di comunicazione del FlexiBowl®. Consente di configurare l'indirizzo IP del dispositivo, il tipo di protocollo di comunicazione con il sistema esterno (es. PLC o PC supervisore) e di monitorare lo stato della connessione in tempo reale.

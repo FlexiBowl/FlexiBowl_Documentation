@@ -1,4 +1,4 @@
-# [MEC] **Superfici e Dischi Rigidi**
+# **Discos giratorios y discos rígidos**
 
 
 :::{list-table}

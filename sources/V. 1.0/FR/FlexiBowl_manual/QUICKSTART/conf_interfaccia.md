@@ -1,4 +1,4 @@
-# [SOF] **Configurazione Interfaccia**
+# **Configuration de l'interface**
 
 
 :::{note}

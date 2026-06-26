@@ -57,7 +57,7 @@
 }
 </style>
  
-# [SOF] **Comparativa Software**
+# **Comparación de Software**
  
 Questa pagina confronta le principali differenze software tra **FlexiBowl® 2.0** e **FlexiBowl® 3.0**, con l'obiettivo di guidare l'utente nella comprensione delle nuove funzionalità e dei cambiamenti operativi introdotti dalla nuova generazione.
  

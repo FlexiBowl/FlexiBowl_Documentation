@@ -1,4 +1,4 @@
-# [SOF] **Home**
+# **Home**
 
 ## Panoramica
 

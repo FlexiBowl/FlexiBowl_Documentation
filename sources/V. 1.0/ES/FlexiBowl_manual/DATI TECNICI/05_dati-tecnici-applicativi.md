@@ -1,4 +1,4 @@
-# **Dati Tecnici Applicativi**
+# **Datos técnicos de aplicación**
 
 ## Caratteristiche dei componenti ammessi sul FlexiBowl®
 

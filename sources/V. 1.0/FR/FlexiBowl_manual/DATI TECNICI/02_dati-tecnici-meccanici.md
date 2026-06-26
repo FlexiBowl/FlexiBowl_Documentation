@@ -1,4 +1,4 @@
-# [MEC] **Dati Tecnici Meccanici**
+# **Caractéristiques Techniques Mécaniques**
 
 ## FlexiBowl® 200
 

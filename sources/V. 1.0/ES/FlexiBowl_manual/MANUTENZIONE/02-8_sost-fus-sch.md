@@ -1,1 +1,1 @@
-# [ELE] **Sostituzione Fusibile Scheda**
+# **Sustitución del fusible de la placa**

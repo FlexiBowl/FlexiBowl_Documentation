@@ -1,4 +1,4 @@
-# **[ELE]** Controller e Cablaggio
+# **Controladores y cableado**
 
 La macchina, durante il funzionamento, non necessita della presenza continua di un operatore.
 

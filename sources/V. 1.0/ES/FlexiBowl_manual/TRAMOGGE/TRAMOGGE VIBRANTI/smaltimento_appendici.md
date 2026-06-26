@@ -1,4 +1,4 @@
-# [MEC] **Messa Fuori Servizio e Smaltimento**
+# **Puesta fuera de servicio y eliminación**
 
 :::{attention}
 Le operazioni di messa fuori servizio e smantellamento devono essere affidate esclusivamente a personale specializzato e autorizzato. 

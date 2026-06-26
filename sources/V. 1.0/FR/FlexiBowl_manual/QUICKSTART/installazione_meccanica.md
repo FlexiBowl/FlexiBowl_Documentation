@@ -1,4 +1,4 @@
-# [MEC] **Installazione del FlexiBowl®**
+# **Installation du FlexiBowl®**
 
 ::::{list-table}
 :widths: 10 50

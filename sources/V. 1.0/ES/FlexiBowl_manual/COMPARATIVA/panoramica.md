@@ -1,4 +1,4 @@
-# [SOF] **Panoramica Comparativa**
+# **Resumen comparativo**
 
 ## Cos'è il FlexiBowl®
 

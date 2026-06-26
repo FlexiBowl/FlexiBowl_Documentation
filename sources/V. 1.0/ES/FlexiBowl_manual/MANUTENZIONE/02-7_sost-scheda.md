@@ -1,1 +1,1 @@
-# [ELE] **Sostituzione Scheda**
+# **Sustitución de la placa eléctrica**

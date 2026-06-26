@@ -1,1 +1,1 @@
-# **[MEC]** Risoluzione Probelmi Meccanici 
+# **Resolución de problemas mecánicos**
