@@ -1,1 +1,1 @@
-# **[SOF]** Risoluzione Problemi Software
+# **Resolución de problemas de software**

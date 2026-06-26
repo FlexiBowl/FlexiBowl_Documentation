@@ -1,4 +1,4 @@
-# **[ELE]** Comparativa Elettrica
+# **Comparación eléctrica**
 
 
 ## Componenti del sistema elettrico

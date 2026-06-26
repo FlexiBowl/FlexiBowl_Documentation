@@ -1,4 +1,4 @@
-# [ELE] **Dati Tecnici Elettrici**
+# **Caractéristiques Techniques électriques**
 
 ## Dati di Alimentazione
 

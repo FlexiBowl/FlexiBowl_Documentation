@@ -1,4 +1,4 @@
-# [MEC] **Sostituzione Gruppo Motore**
+# **Sustitución del grupo motor**
 
 :::::{important}
 

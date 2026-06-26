@@ -1,4 +1,4 @@
-# [MEC] **Sostituzione Valvola Proporzionale**
+# **Remplacement de la vanne proportionnelle**
 
 :::::{important}
 

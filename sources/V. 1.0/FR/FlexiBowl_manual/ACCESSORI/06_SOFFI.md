@@ -1,5 +1,5 @@
 (blow)=
-# [MEC] **Soffi**
+# **Souffles d'air**
 
 I soffi agiscono sui componenti tramite un getto d'aria in pressione tale da smistarli e allontanarli dai limiti dell'area di visione. Possono essere di più tipi, in base alle necessità dell'Operatore.
 

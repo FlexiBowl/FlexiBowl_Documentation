@@ -1,1 +1,1 @@
-# **Configurazione Tramoggia**
+# **Configuration de la trémie**

@@ -1,1 +1,1 @@
-# [ELE] **Sostituzione Fusibile 220V**
+# **Sustitución del fusible de 220 V**

@@ -1,1 +1,1 @@
-# **[MEC]** Risoluzione Problemi Pneumatici
+# **Solución de problemas relacionados con los neumáticos**

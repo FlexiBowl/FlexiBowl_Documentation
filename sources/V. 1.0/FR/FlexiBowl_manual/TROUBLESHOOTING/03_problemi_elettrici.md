@@ -1,1 +1,1 @@
-# **[ELE]** Risoluzione Problemi Elettrici
+# **Résolution des problèmes électriques**

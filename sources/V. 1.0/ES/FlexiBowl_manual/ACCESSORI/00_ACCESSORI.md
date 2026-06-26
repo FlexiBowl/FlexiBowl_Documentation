@@ -1,5 +1,5 @@
 (compatibility)=
-# [MEC] **Panoramica e compatibilità**
+# **Descripción general y compatibilidad**
 
 Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimentazione di qualsiasi tipologia di componente, sono a disposizione del cliente degli accessori che ne modificano le funzionalità ed i sistemi di deviazione. Questi accessori possono essere combinati per garantire la massima applicabilità del FlexiBowl®, a prescindere della linea di produzione: per comprendere meglio la compatibilità tra i vari accessori e le varie taglie di FlexiBowl®, si può fare riferimento alle seguenti tabelle:
 

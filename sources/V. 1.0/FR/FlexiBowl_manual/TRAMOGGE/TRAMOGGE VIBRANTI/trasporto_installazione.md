@@ -1,4 +1,4 @@
-# [MEC] **Trasporto e Installazione**
+# **Transport et installation**
 
 :::{important}
 Le operazioni di sollevamento e movimentazione devono essere eseguite esclusivamente da personale specializzato ed istruito avente le idoneità a svolgere tali attività.

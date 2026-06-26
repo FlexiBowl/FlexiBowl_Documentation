@@ -1,5 +1,5 @@
 
-# **Informazioni Preliminari Generali**
+# **Información general preliminar**
 
 ```{important}
 Prima di installare, utilizzare o effettuare manutenzione sulla macchina, leggere attentamente l'intero manuale e tutta la documentazione allegata.

@@ -1,5 +1,5 @@
 (tracking)=
-# [SOF] **Modalità Tracking**
+# **Mode Tracking**
 
 ## Funzionamento in Tracking
 

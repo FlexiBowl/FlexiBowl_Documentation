@@ -1,5 +1,5 @@
 (int_software)=
-# [SOF] **Interfaccia Software**
+# **Interfaz de software**
 
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 

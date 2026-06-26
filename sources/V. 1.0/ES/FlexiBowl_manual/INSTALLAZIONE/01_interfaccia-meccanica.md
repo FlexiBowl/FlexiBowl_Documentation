@@ -1,5 +1,5 @@
 (intmec)=
-# [MEC] **Interfaccia Meccanica**
+# **Interfaz mecánica**
 
 :::{important}
 Per l’installazione occorre predisporre un’area adeguata alle dimensioni della macchina e dei mezzi di sollevamento utilizzati, facendo attenzione ad eventuali ostacoli (altre macchine, pareti o simili) presenti lungo il percorso che devono compiere i mezzi di movimentazione.

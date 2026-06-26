@@ -1,5 +1,5 @@
 (intpneum)=
-# [ELE] **Interfaccia Pneumatica**
+# **Interfaccia Pneumatique**
 
 La macchina è dotata di azionamento pneumatico. 
 Prima di effettuare l’**allacciamento pneumatico** verificare che: 

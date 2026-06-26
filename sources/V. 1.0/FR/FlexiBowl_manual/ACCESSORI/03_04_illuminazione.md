@@ -1,4 +1,4 @@
-# [MEC] **Illuminazione**
+# **Éclairage**
 
 (backlight)=
 # **Backlight**

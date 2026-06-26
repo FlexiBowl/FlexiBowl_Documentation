@@ -1,1 +1,1 @@
-# **Configurazione Tramoggia**
+# **Configuración de la tolva**

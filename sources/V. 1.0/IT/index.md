@@ -113,11 +113,6 @@ In tutto il manuale vengono utilizzati banner informativi per evidenziare conten
 ```
 
 
-
-
-
-
-
 :::{toctree}
 :hidden:
 :caption: PRIMA DI INIZIARE 

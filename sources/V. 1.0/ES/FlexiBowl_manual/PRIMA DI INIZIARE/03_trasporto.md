@@ -1,5 +1,5 @@
 (trasporto)=
-# **Trasporto e movimentazione**
+# **Transporte y manipulación**
 
 ## Imballo
 

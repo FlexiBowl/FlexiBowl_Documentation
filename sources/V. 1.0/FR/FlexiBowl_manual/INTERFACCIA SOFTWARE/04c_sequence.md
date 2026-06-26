@@ -1,4 +1,4 @@
-# [SOF] **Sequence**
+# **Sequence**
 
 ## Panoramica
 

@@ -1,4 +1,4 @@
-# **Tramogge Vibranti**
+# **Tolvas vibratorias**
 
 ## Cosa è una tramoggia vibrante?
 La tramoggia vibrante è un dispositivo industriale di stoccaggio e alimentazione progettato per contenere componenti e dosarli in modo continuo e uniforme verso il FlexiBowl.

@@ -1,170 +1,168 @@
 (info)=
-# **Informazioni Preliminari**
+# **Información Preliminar**
 
-Questa sezione contiene informazioni legali e avvertenze importanti relative all'uso del FlexiBowl® e della presente documentazione.   Si prega di leggere attentamente prima di procedere con l'installazione e l'utilizzo del sistema.
+Esta sección contiene información legal y advertencias importantes relativas al uso del FlexiBowl® y de la presente documentación. Se ruega leerla atentamente antes de proceder con la instalación y el uso del sistema.
 
 ---
 
-## Destinatari e pubblico target
+## Destinatarios y público objetivo
 
 ```{note}
-**A chi è rivolto questo manuale**
+**A quién va dirigido este manual**
 
-Questa documentazione è indirizzata a tecnici qualificati con competenze in:
-- Integrazione di sistemi robotizzati
-- Configurazione di sistemi di visione industriale
-- Installazione e manutenzione di apparecchiature elettromeccaniche
+Esta documentación está dirigida a técnicos cualificados con competencias en:
+- Integración de sistemas robotizados
+- Configuración de sistemas de visión industrial
+- Instalación y mantenimiento de equipos electromecánicos
 
-Si presuppone che il lettore possieda le conoscenze tecniche di base necessarie per comprendere le informazioni riportate.   Informazioni facilmente deducibili da disegni tecnici o diagrammi potrebbero non essere ulteriormente dettagliate.
+Se presupone que el lector posee los conocimientos técnicos básicos necesarios para comprender la información aquí recogida. La información fácilmente deducible de planos técnicos o diagramas podría no estar detallada adicionalmente.
 ```
 
 ---
 
-## Avvertenze importanti
+## Advertencias importantes
 
-### **Leggere prima dell'uso**
+### **Leer antes de usar**
 ```{warning}
 
-Prima di utilizzare il FlexiBowl®, è obbligatorio:
-- Leggere integralmente questo manuale per garantire un uso corretto del sistema
-- Rispettare le istruzioni operative e le raccomandazioni
-- Formare adeguatamente il personale incaricato dell'utilizzo
-- Consultare i manuali di istruzioni di tutti i componenti hardware collegati (FlexiVision One, Tramoggia, VisionController, Camera, Robot ecc.)
+Antes de utilizar el FlexiBowl®, es obligatorio:
+- Leer íntegramente este manual para garantizar un uso correcto del sistema
+- Respetar las instrucciones operativas y las recomendaciones
+- Formar adecuadamente al personal encargado del uso
+- Consultar los manuales de instrucciones de todos los componentes hardware conectados (FlexiVision One, Tolva, VisionController, Cámara, Robot, etc.)
 
-Il mancato rispetto di queste indicazioni può causare malfunzionamenti, danni alle apparecchiature o situazioni pericolose.
+El incumplimiento de estas indicaciones puede provocar fallos de funcionamiento, daños en los equipos o situaciones peligrosas.
 ```
-### **Contesto operativo e limitazioni di responsabilità**
+### **Contexto operativo y limitaciones de responsabilidad**
 
-Il FlexiBowl® è un sistema di alminentazione flessibile a disco rotante vibrante per il posizionamento e orientamento casuale dei componenti ai fini del prelievo robotico.
+El FlexiBowl® es un sistema de alimentación flexible de disco rotante vibrante para el posicionamiento y orientación aleatoria de componentes con el fin de facilitar la recogida robótica.
 
 ```{warning}
-Durante l'utilizzo, l'operatore deve:
-- Tenere conto degli ingombri fisici del sistema
-- Monitorare i movimenti del robot e dell'alimentatore
-- Prevedere e gestire situazioni operative impreviste
-- Rispettare le norme di sicurezza applicabili a robot e macchinari industriali
+Durante el uso, el operario debe:
+- Tener en cuenta las dimensiones físicas del sistema
+- Supervisar los movimientos del robot y del alimentador
+- Prever y gestionar situaciones operativas imprevistas
+- Cumplir las normas de seguridad aplicables a robots y maquinaria industrial
 ```
 ```{warning}
-**ARS S.r.l. declina ogni responsabilità per danni a persone o cose derivanti dal movimento di macchine e sistemi collegati al software FlexiVision One.**
+**ARS S.r.l. declina toda responsabilidad por daños a personas o cosas derivados del movimiento de máquinas y sistemas conectados al software FlexiVision One.**
 
-L'integrazione del sistema nell'ambiente di lavoro e la valutazione dei rischi sono responsabilità dell'integratore di sistema e dell'utilizzatore finale.
+La integración del sistema en el entorno de trabajo y la evaluación de riesgos son responsabilidad del integrador de sistema y del usuario final.
 ```
 
-(operatori)=
-## Operatori
+(operadores)=
+## Operadores
 
-Allo scopo di stabilire con certezza quali sono le competenze e le qualifiche degli operatori addetti alle varie mansioni (messa in marcia, pulizia, manutenzione ordinaria), consultare la seguente tabella:
+Con el fin de establecer con certeza cuáles son las competencias y cualificaciones de los operadores asignados a las distintas tareas (puesta en marcha, limpieza, mantenimiento ordinario), consulte la siguiente tabla:
 
 :::{list-table}
 :header-rows: 1
 :widths: 30 70
 
-* - Qualifica
-  - Definizione
+* - Cualificación
+  - Definición
 
-* - **Integratore di sistema**
-  - Personale addetto alla progettazione dei layout, del dimensionamento componenti e della verifica requisiti tecnici per l'installazione del FlexiBowl®.
+* - **Integrador de sistema**
+  - Personal encargado del diseño de los layouts, del dimensionamiento de los componentes y de la verificación de los requisitos técnicos para la instalación del FlexiBowl®.
 
-* - **Tecnico installatore**
-  - Personale addetto al montaggio meccanico, allacciamento elettrico e pneumatico e alla configurazione della rete.
+* - **Técnico instalador**
+  - Personal encargado del montaje mecánico, la conexión eléctrica y neumática y la configuración de la red.
 
-* - **Operatore**
-  - Personale dell'utilizzatore addestrato e abilitato all'utilizzo e conduzione
-    della macchina ai fini produttivi per le attività per cui è stata costruita
-    e fornita. Dovrà essere in grado di eseguire tutte le operazioni necessarie
-    per il buon funzionamento della macchina e per l'incolumità di sé stesso o
-    di eventuali collaboratori. Deve avere una comprovata esperienza nel corretto
-    utilizzo di tali tipologie di macchine ed essere formato, informato ed
-    istruito a riguardo. In caso di dubbi deve segnalare ogni anomalia al suo
-    superiore.
+* - **Operario**
+  - Personal del usuario entrenado y habilitado para el uso y la conducción
+    de la máquina con fines productivos para las actividades para las que ha sido
+    construida y suministrada. Deberá ser capaz de realizar todas las operaciones
+    necesarias para el buen funcionamiento de la máquina y para su propia seguridad
+    y la de posibles colaboradores. Debe tener experiencia demostrada en el uso
+    correcto de este tipo de máquinas y haber recibido formación, información e
+    instrucción al respecto. En caso de duda, deberá notificar cualquier anomalía
+    a su superior.
 
-    **Nota:** Non è abilitato ad effettuare alcuna attività di manutenzione.
+    **Nota:** No está habilitado para realizar ninguna actividad de mantenimiento.
     
-* - **Manutentore meccanico**
-  - Tecnico qualificato in grado di:
+* - **Técnico de mantenimiento mecánico**
+  - Técnico cualificado capaz de:
 
-    * svolgere attività di manutenzione preventiva/correttiva su tutte le parti
-      meccaniche della macchina soggette a manutenzione o riparazione;
-    * avere accesso a tutte le parti di macchina per analisi visiva, controllo
-      dello stato delle apparecchiature, regolazioni e tarature;
-    * intervenire sugli organi meccanici per regolazioni, manutenzioni e
-      riparazioni;
-    * leggere schemi pneumatici, oleodinamici, disegni tecnici e listati dei
-      pezzi di ricambio.
+    * realizar actividades de mantenimiento preventivo/correctivo en todas las partes
+      mecánicas de la máquina sujetas a mantenimiento o reparación;
+    * acceder a todas las partes de la máquina para análisis visual, control
+      del estado de los equipos, ajustes y calibraciones;
+    * intervenir en los órganos mecánicos para ajustes, mantenimientos y
+      reparaciones;
+    * leer esquemas neumáticos, oleohidráulicos, planos técnicos y listas de
+      piezas de repuesto.
 
-    In casi straordinari, è autorizzato a far funzionare la macchina con
-    sicurezze ridotte. Ove necessario, può dare all'operatore istruzioni per
-    un buon utilizzo della macchina ai fini produttivi.
+    En casos extraordinarios, está autorizado a poner en funcionamiento la máquina
+    con los dispositivos de seguridad reducidos. Cuando sea necesario, puede dar
+    al operario instrucciones para un buen uso de la máquina con fines productivos.
 
-    **Nota:** Non è abilitato ad intervenire su impianti elettrici sotto
-    tensione (se presenti).
+    **Nota:** No está habilitado para intervenir en instalaciones eléctricas
+    bajo tensión (si las hubiera).
 
-* - **Manutentore elettrico**
-  - Tecnico qualificato in grado di:
-    * svolgere attività di manutenzione preventiva/correttiva su tutte le parti meccaniche della macchina soggette a manutenzione o riparazione;
-    * avere accesso a tutte le parti di macchina per analisi visiva, controllo dello stato delle apparecchiature, regolazioni e tarature;
-    * condurre la macchina come l’operatore;
-    * intervenire sulle regolazioni e sugli impianti elettrici per manutenzione, riparazione e sostituzione pezzi usurati;
-    * leggere schemi elettrici e verificare il corretto ciclo funzionale.
-  Ove necessario, può dare all’operatore istruzioni per un buon utilizzo della macchina ai fini produttivi. Può operare in presenza di tensione all’interno dei quadri elettrici, scatole di derivazione, apparecchiature di controllo etc. solo se trattasi di persona idonea (PEI). (Fare riferimento normativa **EN50110-1**). Non effettua programmazione software di sistemi quali: PLC (logica o sicurezza), non può modificare le password di sistema.
+* - **Técnico de mantenimiento eléctrico**
+  - Técnico cualificado capaz de:
+    * realizar actividades de mantenimiento preventivo/correctivo en todas las partes mecánicas de la máquina sujetas a mantenimiento o reparación;
+    * acceder a todas las partes de la máquina para análisis visual, control del estado de los equipos, ajustes y calibraciones;
+    * conducir la máquina como el operario;
+    * intervenir en los ajustes y en las instalaciones eléctricas para mantenimiento, reparación y sustitución de piezas desgastadas;
+    * leer esquemas eléctricos y verificar el correcto ciclo funcional.
+  Cuando sea necesario, puede dar al operario instrucciones para un buen uso de la máquina con fines productivos. Puede operar en presencia de tensión en el interior de los cuadros eléctricos, cajas de derivación, equipos de control, etc., únicamente si se trata de una persona cualificada (PEI). (Referencia normativa **EN50110-1**). No realiza programación software de sistemas tales como: PLC (lógica o seguridad), ni puede modificar las contraseñas del sistema.
 
-* - **Tecnico esperto software**
-  - Tecnico qualificato in grado di:
-    * svolgere attività preventiva/correttiva su tutte le parti software della macchina;
-    * avere accesso a tutte le parti di macchina per analisi visiva, controllo dello stato delle apparecchiature, regolazioni e tarature.
-  Tecnico qualificato del Costruttore con comprovata esperienza e formazione dei sistemi basati su: PLC/PC azionamenti, ecc. (conoscenza programmazione, funzioni macchina etc.) per operazioni complesse quali ad esempio:
-    * modifica dati macchina; 
-    * creazione programmi di lavoro; 
-    * regolazione parametri drive etc. in quanto a conoscenza del ciclo produttivo, tecnologico e di costruzione della macchina fornita. 
-  Può operare all’interno dei quadri elettrici, scatole di derivazione, apparecchiature di controllo etc. in presenza di tensione solo se trattasi di persona idonea (PEI) (Fare riferimento normativa **EN50110-1**). Le competenze sono di tipo elettronico e/o software.
+* - **Técnico experto en software**
+  - Técnico cualificado capaz de:
+    * realizar actividades preventivas/correctivas en todas las partes software de la máquina;
+    * acceder a todas las partes de la máquina para análisis visual, control del estado de los equipos, ajustes y calibraciones.
+  Técnico cualificado del Fabricante con experiencia y formación demostradas en sistemas basados en: PLC/PC accionamientos, etc. (conocimiento de programación, funciones de la máquina, etc.) para operaciones complejas tales como:
+    * modificación de datos de la máquina;
+    * creación de programas de trabajo;
+    * ajuste de parámetros del drive, etc., en tanto en cuanto conoce el ciclo productivo, tecnológico y de construcción de la máquina suministrada.
+  Puede operar en el interior de los cuadros eléctricos, cajas de derivación, equipos de control, etc., en presencia de tensión únicamente si se trata de una persona cualificada (PEI) (Referencia normativa **EN50110-1**). Las competencias son de tipo electrónico y/o software.
 
-* - **Tecnico del Costruttore**
-  - Tecnico qualificato dal Costruttore e/o dal suo distributore per operazioni complesse, in quanto a conoscenza del ciclo produttivo di costruzione della macchina. Questa persona interviene in accordo con le richieste dell’utilizzatore. Le competenze sono di tipo meccanico.
+* - **Técnico del Fabricante**
+  - Técnico cualificado por el Fabricante y/o su distribuidor para operaciones complejas, en tanto en cuanto conoce el ciclo productivo de construcción de la máquina. Esta persona interviene de acuerdo con las solicitudes del usuario. Las competencias son de tipo mecánico.
 
-* - **Persona Addestrata**
-  - Raggruppa tutte le qualifiche riportate in questa tabella: trattasi di colui che è stato informato, istruito ed addestrato sul lavoro e sugli eventuali pericoli derivanti da un uso improprio. Conosce inoltre l’importanza dei dispositivi di sicurezza, le norme antinfortunistiche e le condizioni di lavoro in sicurezza.
+* - **Persona Adiestrada**
+  - Agrupa todas las cualificaciones recogidas en esta tabla: se trata de aquella persona que ha sido informada, instruida y adiestrada sobre el trabajo y los posibles peligros derivados de un uso incorrecto. Conoce además la importancia de los dispositivos de seguridad, las normas de prevención de accidentes y las condiciones de trabajo en condiciones de seguridad.
 
 :::
 
 ---
 
-## Note sulla documentazione
+## Notas sobre la documentación
 
-### **Versione e aggiornamenti**
+### **Versión y actualizaciones**
 
 ```{note}
 
-- **Lingua di riferimento**: la versione italiana di questo documento è quella ufficiale e prevale in caso di discrepanze con altre traduzioni
-- **Aggiornamenti**: le informazioni contenute sono soggette a modifiche senza preavviso per miglioramenti del prodotto
-- **Unità di misura**: salvo diversa indicazione, tutte le dimensioni sono espresse in millimetri (mm)
-- **Versione documento**: controllare sempre di disporre della versione più recente consultando il sito [www.flexibowl.it](https://www.flexibowl.it)
+- **Idioma de referencia**: la versión italiana de este documento es la oficial y prevalece en caso de discrepancias con otras traducciones
+- **Actualizaciones**: la información contenida está sujeta a modificaciones sin previo aviso por mejoras del producto
+- **Unidades de medida**: salvo indicación contraria, todas las dimensiones están expresadas en milímetros (mm)
+- **Versión del documento**: comprobar siempre que se dispone de la versión más reciente consultando el sitio [www.flexibowl.it](https://www.flexibowl.it)
 ```
-### **Come usare al meglio questo manuale**
+### **Cómo sacar el máximo partido a este manual**
 
 ```{tip}
 
-Per un'esperienza ottimale:
-- Utilizza il menu di navigazione laterale per passare rapidamente tra le sezioni
-- Consulta l'indice iniziale per identificare immediatamente la sezione di tuo interesse
-- Presta particolare attenzione ai banner di avvertenza, nota  e suggerimento 
-- Segui le procedure nell'ordine indicato, soprattutto durante l'installazione iniziale
-- Conserva questo manuale in formato digitale per facilitare ricerche rapide tramite parole chiave
+Para una experiencia óptima:
+- Utilice el menú de navegación lateral para pasar rápidamente entre las secciones
+- Consulte el índice inicial para identificar de inmediato la sección de su interés
+- Preste especial atención a los banners de advertencia, nota y sugerencia
+- Siga los procedimientos en el orden indicado, especialmente durante la instalación inicial
+- Conserve este manual en formato digital para facilitar búsquedas rápidas mediante palabras clave
 ```
 
 ---
 
 
-## Diritti di riproduzione e note legali
+## Derechos de reproducción y notas legales
 
 ```{important}
-**Copyright © ARS S.r.l. - Tutti i diritti riservati**
+**Copyright © ARS S.r.l. - Todos los derechos reservados**
 
-Nessuna parte di questa pubblicazione può essere riprodotta, distribuita, tradotta o trasmessa con qualsiasi mezzo (elettronico, meccanico, fotocopia, registrazione o altro sistema di archiviazione) per scopi diversi dall'uso personale, senza previa autorizzazione scritta di ARS S.r.l.
+Ninguna parte de esta publicación puede ser reproducida, distribuida, traducida o transmitida por ningún medio (electrónico, mecánico, fotocopia, grabación u otro sistema de almacenamiento) para fines distintos del uso personal, sin autorización escrita previa de ARS S.r.l.
 
-ARS S.r.l. declina ogni responsabilità per conseguenze derivanti da operazioni errate eseguite dall'utente o dall'uso improprio del prodotto.
+ARS S.r.l. declina toda responsabilidad por las consecuencias derivadas de operaciones incorrectas realizadas por el usuario o del uso indebido del producto.
 
-**Marchi registrati**: FlexiBowl® è un marchio registrati di ARS S.r.l. Tutti gli altri marchi, nomi commerciali e loghi menzionati in questo documento appartengono ai rispettivi proprietari e sono utilizzati esclusivamente a scopo identificativo.
+**Marcas registradas**: FlexiBowl® es una marca registrada de ARS S.r.l. Todas las demás marcas, nombres comerciales y logotipos mencionados en este documento pertenecen a sus respectivos propietarios y se utilizan exclusivamente con fines identificativos.
 ```
 ---
-
-

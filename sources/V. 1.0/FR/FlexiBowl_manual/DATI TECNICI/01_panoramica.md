@@ -1,5 +1,5 @@
 (panoramica)=
-# **Panoramica e Unboxing**
+# **Aperçu et Unboxing**
 
 ## Componenti principali del FlexiBowl®
 

@@ -1,4 +1,4 @@
-# [SOF] **Monitor**
+# **Monitor**
 
 ## Panoramica
 

@@ -1,1 +1,1 @@
-# **Risoluzione Problemi**
+# **Resolución de problemas**

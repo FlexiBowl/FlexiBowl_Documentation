@@ -1,5 +1,5 @@
 (sostbl)=
-# [MEC] **Sostituzione Backlight**
+# **Sustitución de la retroiluminación**
 
 :::::{important}
 

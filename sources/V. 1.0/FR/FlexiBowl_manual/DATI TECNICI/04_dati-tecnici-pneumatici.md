@@ -1,5 +1,5 @@
 (datipneum)=
-# [ELE] **Dati Tecnici Pneumatici**
+# **Caractéristiques Techniques Pneumatiques**
 
 ## Caratteristiche pneumatiche del FlexiBowl®
 

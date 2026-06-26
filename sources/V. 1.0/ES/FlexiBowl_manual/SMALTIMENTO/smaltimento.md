@@ -1,5 +1,5 @@
 (smaltimento)=
-# **Smaltimento e fine vita**
+# **Eliminación y fin de la vida útil**
 
 :::{warning}
 Le operazioni di messa fuori servizio e smantellamento devono essere affidate a personale specializzato in tali attività. In 

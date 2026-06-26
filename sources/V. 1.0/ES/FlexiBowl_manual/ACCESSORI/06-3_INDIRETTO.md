@@ -1,5 +1,5 @@
 (sofind)=
-# [MEC] **Soffi indiretti (solo per FlexiBowl® 500E)**
+# **Soplado de aire indirecto (solo para FlexiBowl® 500E)**
 
 Non essendo i soffi radiali compatibili con il FlexiBowl® 500E, per garantire comunque la possibilità di utilizzare un getto d'aria come sistema di deviazione dal bordo del disco rigido si può ricorrere all'uso dei soffi indiretti. Questi sono costituiti da due beccucci che vengono assemblati sulla parete di uno schermo flip dedicato e il cui getto d'aria è direzionato verso la faccia interna del bordo del disco, in modo da creare una zona di turbolenza che porta i componenti verso il centro dell'area di lavoro del FlexiBowl®.
 

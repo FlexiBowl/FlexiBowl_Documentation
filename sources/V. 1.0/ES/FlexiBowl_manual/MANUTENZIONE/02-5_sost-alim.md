@@ -1,1 +1,1 @@
-# [ELE] **Sostituzione Alimentatori**
+# **Sustitución de fuentes de alimentación**

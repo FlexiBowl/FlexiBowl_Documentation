@@ -1,4 +1,4 @@
-# [MEC] **Manutenzione e Risoluzione Problemi**
+# **Mantenimiento y resolución de problemas**
 
 :::{warning}
 Eseguire le operazioni di manutenzione quando la macchina è spenta.
