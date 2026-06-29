@@ -1,4 +1,4 @@
-# **Componenti Opzionali**
+# **Optionale Komponenten**
 
 Per rendere il FlexiBowl® adatto ad ogni esigenza, l'operatore si può avvalere di una vasta gamma di accessori atti a movimentare ogni tipo di componente.
 

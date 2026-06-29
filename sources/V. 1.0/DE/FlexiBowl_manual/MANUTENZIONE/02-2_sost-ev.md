@@ -1,4 +1,4 @@
-# [MEC] **Sostituzione Elettrovalvole**
+# **Austausch von Magnetventilen**
 
 :::::{important}
 

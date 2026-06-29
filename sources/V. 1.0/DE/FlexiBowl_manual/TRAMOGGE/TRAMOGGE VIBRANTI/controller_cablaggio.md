@@ -1,4 +1,4 @@
-# **[ELE]** Controller e Cablaggio
+# **Steuergeräte und Verkabelung**
 
 La macchina, durante il funzionamento, non necessita della presenza continua di un operatore.
 

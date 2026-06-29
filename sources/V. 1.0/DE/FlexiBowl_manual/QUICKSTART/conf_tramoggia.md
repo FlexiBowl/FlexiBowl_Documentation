@@ -1,1 +1,1 @@
-# **Configurazione Tramoggia**
+# **Konfiguration des Trichters**

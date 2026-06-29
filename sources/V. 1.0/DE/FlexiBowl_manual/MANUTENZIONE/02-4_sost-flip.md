@@ -1,4 +1,4 @@
-# [MEC] **Sostituzione Gruppo Flip**
+# **Austausch der Flip-Einheit**
 
 :::::{important}
 

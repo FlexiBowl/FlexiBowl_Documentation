@@ -1,4 +1,4 @@
-﻿# **Garanzia**
+﻿# **Garantie**
 
 ```{important}
    I termini completi della garanzia sono inclusi nel **contratto di vendita**. 

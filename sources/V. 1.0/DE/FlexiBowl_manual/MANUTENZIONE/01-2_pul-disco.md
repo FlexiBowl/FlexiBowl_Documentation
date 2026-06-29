@@ -1,4 +1,4 @@
-# [MEC] **Pulizia del Disco**
+# **Festplattenbereinigung**
 
 :::{warning}
 Disconnettere l'alimentazione elettrica prima di procedere con la pulizia.

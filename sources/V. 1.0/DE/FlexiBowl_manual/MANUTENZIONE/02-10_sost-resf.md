@@ -1,1 +1,1 @@
-# [ELE] **Sostituzione Resistenza di Frenatura**
+# **Austausch des Bremswiderstands**

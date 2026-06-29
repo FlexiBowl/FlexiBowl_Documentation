@@ -1,145 +1,142 @@
-# **Informazioni di Sicurezza**
+# **Sicherheitsinformationen**
 
-Le seguenti istruzioni di sicurezza, precauzioni generali e norme relative alla movimentazione e all'ambiente operativo devono essere scrupolosamente rispettate per garantire la sicurezza del personale, l'integrità del prodotto e il corretto funzionamento dell'impianto.
+Die folgenden Sicherheitsanweisungen, allgemeinen Vorsichtsmaßnahmen und Vorschriften zur Handhabung und Betriebsumgebung müssen sorgfältig eingehalten werden, um die Sicherheit des Personals, die Unversehrtheit des Produkts und den ordnungsgemäßen Betrieb der Anlage zu gewährleisten.
 
 ```{warning}
-**Responsabilità dell'utente**
+**Verantwortung des Benutzers**
 
-Il rispetto di tutte le norme di sicurezza riportate in questa sezione è obbligatorio e di responsabilità dell'utilizzatore finale. Il mancato rispetto può causare danni a persone, apparecchiature o compromettere il funzionamento del sistema.
+Die Einhaltung aller in diesem Abschnitt aufgeführten Sicherheitsvorschriften ist obligatorisch und liegt in der Verantwortung des Endbenutzers. Die Nichteinhaltung kann zu Personen- oder Geräteschäden führen oder den ordnungsgemäßen Betrieb des Systems beeinträchtigen.
 ```
 
 ---
 
-## Area di sicurezza dell'operatore
+## Sicherheitsbereich des Bedieners
 
-Le zone intorno alla macchina vengono suddivise nel seguente modo: 
+Die Bereiche rund um die Maschine werden wie folgt unterteilt: 
 
 :::{list-table}
 :widths: 20 60
 :header-rows: 1
 
-* - Termine
-  - Descrizione
+* - Begriff
+  - Beschreibung
 
-* - Zone di comando 
-  - Sono le zone in cui l’utilizzatore e gli altri operatori possono eseguire le operazioni di comando e controllo delle funzioni cicliche della macchina (“postazione di guida”), sia in automatico che in semiautomatico, agendo sugli appositi pannelli di comando o per l’esecuzione delle operazioni manuali. 
+* - Bedienbereiche 
+  - Dies sind die Bereiche, in denen der Benutzer und andere Bediener die Steuerungs- und Kontrolloperationen der zyklischen Maschinenfunktionen ausführen können („Fahrposition"), sowohl im Automatik- als auch im Halbautomatikbetrieb, über die entsprechenden Bedientafeln oder zur Ausführung manueller Operationen. 
 
-* - Zone di manutenzione/regolazione 
-  - Sono le zone in cui i manutentori meccanici possono eseguire le operazioni di manutenzione o regolazione. Queste zone sono considerate a rischio e non accessibili durante il normale funzionamento della macchina. Gli operatori devono essere perfettamente a conoscenza delle avvertenze riguardante la sicurezza e dei dispositivi individuali da indossare. 
+* - Wartungs-/Einstellbereiche 
+  - Dies sind die Bereiche, in denen Mechaniker Wartungs- oder Einstellarbeiten durchführen können. Diese Bereiche gelten als risikobehaftet und sind während des normalen Maschinenbetriebs nicht zugänglich. Die Bediener müssen die Sicherheitshinweise und die zu tragenden persönlichen Schutzausrüstungen genau kennen. 
 
-* - Zone pericolose
-  - Sono considerate tali tutte le zone all’interno (o circostanti) alla macchina con la presenza di rischi residui che possono provocare danni alle persone. In queste zone è vietato l’accesso a chiunque, durante il funzionamento della macchina. 
+* - Gefahrenbereiche
+  - Als solche gelten alle Bereiche innerhalb (oder in der Umgebung) der Maschine, in denen Restrisiken vorhanden sind, die zu Personenschäden führen können. In diesen Bereichen ist der Zugang für jedermann während des Maschinenbetriebs verboten. 
 
 :::
 
-I pericoli ed i rischi esistenti in queste zone sono protetti, per quanto possibile, con ripari (carter, portelli) e con dispositivi di sicurezza (sensori, microinterruttori, barriere fotoelettriche) che, in caso di attivazione, provvedono ad un totale arresto della macchina stessa. Tuttavia, quando la macchina è in funzione, è assolutamente vietato operare nelle zone pericolose in quanto alcuni rischi potrebbero non essere stati totalmente annullati.
+Die in diesen Bereichen vorhandenen Gefahren und Risiken sind so weit wie möglich durch Schutzvorrichtungen (Abdeckungen, Türen) und Sicherheitseinrichtungen (Sensoren, Mikroschalter, Lichtschranken) geschützt, die im Aktivierungsfall für einen vollständigen Maschinenstopp sorgen. Wenn die Maschine jedoch in Betrieb ist, ist das Arbeiten in Gefahrenbereichen absolut verboten, da einige Risiken möglicherweise nicht vollständig eliminiert wurden.
 
 (dpi)=
-## Dispositivi di protezione individuale (D.P.I.)
+## Persönliche Schutzausrüstung (PSA)
 
-Quando si opera vicino al FlexiBowl®, sia per le operazioni di montaggio, che per quelle di manutenzione e/o regolazione, bisogna 
-strettamente attenersi alle norme generali antinfortunistiche, per questo sarà importante utilizzare i dispositivi di protezione 
-individuale (D.P.I.) richiesti per ogni singola operazione. 
-Riportiamo l’elenco completo dei dispositivi di protezione individuale (D.P.I.) che potranno essere richiesti per le diverse 
-procedure: 
+Beim Arbeiten in der Nähe des FlexiBowl®, sowohl bei Montage- als auch bei Wartungs- und/oder Einstellarbeiten, müssen die allgemeinen Unfallverhütungsvorschriften strikt eingehalten werden. Daher ist es wichtig, die für jeden einzelnen Vorgang erforderliche persönliche Schutzausrüstung (PSA) zu verwenden. 
+Nachfolgend finden Sie die vollständige Liste der persönlichen Schutzausrüstungen (PSA), die für die verschiedenen Verfahren erforderlich sein können: 
 
 :::: {list-table}
 :header-rows: 1
 :widths: 20 60
 
-* - Simbolo
-  - Descrizione
+* - Symbol
+  - Beschreibung
 
 * - ::: {figure} ../../../../_shared/media/images/guanti.png
     :align: center
     :width: 50%
     :::
 
-  - **Obbligo ad utilizzare guanti protettivi o isolanti.**
+  - **Pflicht zur Verwendung von Schutz- oder Isolierhandschuhen.**
 
-    Indica una prescrizione per il personale di utilizzare guanti protettivi o isolanti. 
+    Gibt eine Vorschrift für das Personal an, Schutz- oder Isolierhandschuhe zu tragen. 
 
 * - ::: {figure} ../../../../_shared/media/images/occhiali.png
     :align: center
     :width: 50%
     :::
 
-  - **Obbligo ad utilizzare occhiali di protezione.**
+  - **Pflicht zur Verwendung einer Schutzbrille.**
 
-    Indica una prescrizione per il personale di utilizzare occhiali protettivi per gli occhi. 
+    Gibt eine Vorschrift für das Personal an, eine Schutzbrille zum Schutz der Augen zu tragen. 
 
 * - ::: {figure} ../../../../_shared/media/images/scarpe.png
     :align: center
     :width: 50%
     :::
 
-  - **Obbligo ad utilizzare scarpe antinfortunistiche.**
+  - **Pflicht zur Verwendung von Sicherheitsschuhen.**
 
-    Indica una prescrizione per il personale di utilizzare scarpe antinfortunistiche a protezione dei piedi. 
+    Gibt eine Vorschrift für das Personal an, Sicherheitsschuhe zum Schutz der Füße zu tragen. 
 
 * - ::: {figure} ../../../../_shared/media/images/rumore.png
     :align: center
     :width: 50%
     :::
 
-  - **Obbligo ad utilizzare dispositivi di protezione dal rumore.**
+  - **Pflicht zur Verwendung von Gehörschutzgeräten.**
 
-    Indica una prescrizione per il personale di utilizzare cuffie o tappi isolanti a protezione dell'udito. 
+    Gibt eine Vorschrift für das Personal an, Gehörschutzkapseln oder Ohrstöpsel zum Schutz des Gehörs zu tragen. 
 
 * - ::: {figure} ../../../../_shared/media/images/tuta.png
     :align: center
     :width: 50%
     :::
 
-  - **Obbligo ad utilizzare indumenti protettivi.**
+  - **Pflicht zur Verwendung von Schutzkleidung.**
 
-    Indica una prescrizione per il personale di utilizzare specifici indumenti protettivi. 
+    Gibt eine Vorschrift für das Personal an, spezifische Schutzkleidung zu tragen. 
 
 * - ::: {figure} ../../../../_shared/media/images/casco.png
     :align: center
     :width: 50%
     :::
 
-  - **Obbligo ad utilizzare un elmetto protettivo.**
+  - **Pflicht zur Verwendung eines Schutzhelms.**
 
-    Indica una prescrizione per il personale di utilizzare un elmetto a protezione della testa. 
+    Gibt eine Vorschrift für das Personal an, einen Helm zum Schutz des Kopfes zu tragen. 
 
 * - ::: {figure} ../../../../_shared/media/images/manuale.png
     :align: center
     :width: 50%
     :::
 
-  - **Obbligo consultare il manuale/libretto delle istruzioni.**
+  - **Pflicht zur Einsichtnahme in das Handbuch/die Betriebsanleitung.**
 
-    Indica una prescrizione per il personale di consultare (e comprendere) le istruzioni d’uso e di avvertenza della macchina prima di operare con essa. 
+    Gibt eine Vorschrift für das Personal an, die Betriebs- und Sicherheitsanweisungen der Maschine vor der Inbetriebnahme zu lesen (und zu verstehen). 
 
 ::::
 
-L’abbigliamento di chi opera o effettua manutenzione sulla linea deve essere conforme ai requisiti essenziali di sicurezza definiti dal **Reg. UE 2016/425** e alle leggi vigenti nel paese in cui la stessa viene installata. 
+Die Kleidung von Personen, die an der Linie arbeiten oder Wartungsarbeiten durchführen, muss den grundlegenden Sicherheitsanforderungen entsprechen, die durch die **EU-Verordnung 2016/425** und die im Land der Installation geltenden Gesetze festgelegt sind. 
 
-## Dispositivi di sicurezza
+## Sicherheitseinrichtungen
 
-Allo scopo di garantire una totale sicurezza dell’operatore e impedire l’accesso all’interno della macchina quando questa è in movimento, la macchina è stata dotata di una serie di dispositivi di sicurezza che, in caso di attivazione, provvedono al suo totale arresto. La macchina è stata progettata e dotata di sistemi di sicurezza per ridurre al minimo i rischi dell’operatore.  La macchina è provvista dei dispositivi di sicurezza descritti nella seguente tabella. Per la posizione di tali dispositivi, fare riferimento allo schema seguente.
+Um die vollständige Sicherheit des Bedieners zu gewährleisten und den Zugang zum Maschineninneren während des Betriebs zu verhindern, ist die Maschine mit einer Reihe von Sicherheitseinrichtungen ausgestattet, die im Aktivierungsfall für einen vollständigen Maschinenstopp sorgen. Die Maschine wurde konzipiert und mit Sicherheitssystemen ausgestattet, um die Risiken für den Bediener auf ein Minimum zu reduzieren. Die Maschine ist mit den in der folgenden Tabelle beschriebenen Sicherheitseinrichtungen ausgestattet. Für die Position dieser Einrichtungen siehe das folgende Schema.
 
 :::{list-table}
 :widths: 10 20 60
 :header-rows: 1
 
-* - N.
-  - Elemento
-  - Descrizione
+* - Nr.
+  - Element
+  - Beschreibung
 
 * - 1
-  - Carter
-  - È costituito da protezioni perimetrali fisse (carterature), le quali hanno funzione di impedire l’accesso ai movimenti delle varie parti della macchina durante il ciclo di funzionamento e richiedono utensili specifici per la loro rimozione.
+  - Abdeckung
+  - Besteht aus festen Umfangsschutzvorrichtungen (Abdeckungen), die verhindern sollen, dass die Bewegungen der verschiedenen Maschinenteile während des Betriebszyklus zugänglich sind, und die zur Entfernung spezifische Werkzeuge erfordern.
 
 * - 2
-  - Interruttore elettrico
-  - È posizionato sul pannello comandi e permette di interrompere l’alimentazione elettrica in caso di:
+  - Elektrischer Schalter
+  - Befindet sich am Bedienteil und ermöglicht die Unterbrechung der Stromversorgung im Falle von:
 
-    * pericolo per l’incolumità dell’operatore;
-    * pericolo elettrico sulla macchina;
-    * interventi di natura meccanica o elettrica sulla macchina.
+    * Gefahr für die Unversehrtheit des Bedieners;
+    * elektrischer Gefahr an der Maschine;
+    * mechanischen oder elektrischen Eingriffen an der Maschine.
 
 :::
 
@@ -149,68 +146,66 @@ Allo scopo di garantire una totale sicurezza dell’operatore e impedire l’acc
 :::
 
 :::{warning}
-A causa della presenza di sporgenze appuntite sulle superfici o dischi rigidi con Spike, l’operatore potrebbe essere esposto 
-al pericolo di abrasione e/o taglio in caso di contatto con esse. Indossare gli opportuni D.P.I. in caso di operazioni 
-nelle vicinanze di tali superfici o dischi rigidi.
+Aufgrund der Anwesenheit spitzer Vorsprünge auf den Oberflächen oder starrer Scheiben mit Spikes kann der Bediener 
+beim Kontakt damit dem Risiko von Abrasion und/oder Schnitt ausgesetzt sein. Tragen Sie bei Arbeiten 
+in der Nähe solcher Oberflächen oder starrer Scheiben die entsprechende PSA.
 :::
 
 :::{warning}
-In caso di emergenza, togliere l’alimentazione connessa al pannello comandi per disabilitare in sicurezza i 
-comandi del FlexiBowl®.
+Im Notfall die am Bedienteil angeschlossene Stromversorgung trennen, um die Befehle des FlexiBowl® sicher zu deaktivieren.
 :::
 
-## Pericoli e rischi
+## Gefahren und Risiken
 
-### Rumore
-Le misurazioni di rumore sono state effettuate in accordo con quanto stabilito dalle norme UNI EN ISO 11200:2020 – “Rumore emesso dalle macchine e dalle apparecchiature - Linee guida per l'uso delle norme di base per la determinazione dei livelli di pressione sonora al posto di lavoro e in altre specifiche posizioni” e la UNI EN ISO 3746:2011 “Determinazione dei livelli di potenza sonora e dei livelli di energia sonora delle sorgenti di rumore mediante misurazione della pressione sonora - Metodo di controllo con una superficie avvolgente su un piano riflettente”. Abbiamo effettuato anche la valutazione seguendo le procedure riportate nella DIRETTIVA 2006/42/CE punto 1.5.8 – punto 1.7.4.2 lettera u.
+### Lärm
+Die Lärmmessungen wurden in Übereinstimmung mit den Normen UNI EN ISO 11200:2020 – „Von Maschinen und Geräten emittierter Lärm – Leitlinien für die Anwendung der Basisnormen zur Bestimmung der Schalldruckpegel am Arbeitsplatz und an anderen definierten Positionen" und UNI EN ISO 3746:2011 „Bestimmung der Schallleistungs- und Schallenergiepegelwerte von Lärmquellen durch Messung des Schalldruckpegels – Prüfverfahren mit einer Umhüllungsfläche über einer schallreflektierenden Ebene" durchgeführt. Die Bewertung wurde auch nach den in der RICHTLINIE 2006/42/EG Punkt 1.5.8 – Punkt 1.7.4.2 Buchstabe u beschriebenen Verfahren vorgenommen.
 
-La relazione completa è contenuta nella documentazione perntinente la quasi macchina custodita da ARS. Il report di misura è disponibile su richiesta per utilizzatori e integratori.
+Der vollständige Bericht ist in der Dokumentation der unvollständigen Maschine enthalten, die von ARS aufbewahrt wird. Der Messbericht ist auf Anfrage für Benutzer und Integratoren erhältlich.
 
-Le misure sono state effettuate in 3 differenti condizioni operative:
+Die Messungen wurden unter 3 verschiedenen Betriebsbedingungen durchgeführt:
 
-- FlexiBowl in funzione (MOVE, SHAKE, FLIP) senza la presenza di componenti (“funzionamento a vuoto”);
-- FlexiBowl in funzione (MOVE, SHAKE, FLIP) con la presenza di componenti sul disco rotante, componenti in plastica rigida; 
-- FlexiBowl in funzione (MOVE, SHAKE, FLIP) con la presenza di componenti sul disco rotante, componenti in metallo;
+- FlexiBowl in Betrieb (MOVE, SHAKE, FLIP) ohne Bauteile („Leerlaufbetrieb");
+- FlexiBowl in Betrieb (MOVE, SHAKE, FLIP) mit Kunststoffbauteilen auf der Rotationsscheibe; 
+- FlexiBowl in Betrieb (MOVE, SHAKE, FLIP) mit Metallbauteilen auf der Rotationsscheibe;
 
-Durante i cicli di funzionamento a vuoto, il livello di pressione acustica continuo equivalente ponderato A nel posto di lavoro è pari a 73.3 dB(A). Per i cicli di funzionamento con componenti, dato che il livello di pressione acustica dell'emissione ponderato A nei posti di lavoro supera 80 dB(A), si riporta nella tabella seguente anche il livello di potenza acustica ponderato A emesso dalla macchina.
+Während der Leerlaufbetriebszyklen beträgt der kontinuierliche A-bewertete äquivalente Schalldruckpegel am Arbeitsplatz 73,3 dB(A). Für Betriebszyklen mit Bauteilen, bei denen der A-bewertete Schallemissionsdruckpegel an den Arbeitsplätzen 80 dB(A) überschreitet, wird in der folgenden Tabelle auch der von der Maschine emittierte A-bewertete Schallleistungspegel angegeben.
 
-:::{list-table} Valori emissioni sonore valutate ai sensi della norma UNI EN ISO 3746:2011 - UNI EN ISO 11202:2021
+:::{list-table} Schallemissionswerte gemäß UNI EN ISO 3746:2011 - UNI EN ISO 11202:2021
 :widths: 30 30 30 30 30
 :header-rows: 1
 
 * - FlexiBowl® 800
-  - Livello di potenza sonora ponderata A Lw(A)
-  - Incertezza di misura K
-  - Livello di potenza sonora lineare Lw(z)
-  - Incertezza di misura K
+  - A-bewerteter Schallleistungspegel Lw(A)
+  - Messunsicherheit K
+  - Linearer Schallleistungspegel Lw(z)
+  - Messunsicherheit K
 
-* - Funzionamento a vuoto
-  - 82.6 dB(A)
-  - 8.9
-  - 87.7 dB
-  - 8.9
+* - Leerlaufbetrieb
+  - 82,6 dB(A)
+  - 8,9
+  - 87,7 dB
+  - 8,9
 
-* - Funzionamento con pezzi in plastica rigida
-  - 89.7 dB(A)
-  - 6.0
-  - 90.7 dB
-  - 6.0
+* - Betrieb mit Kunststoffteilen
+  - 89,7 dB(A)
+  - 6,0
+  - 90,7 dB
+  - 6,0
 
-* - Funzionamento con pezzi staffe metalliche
-  - 85.0
-  - 6.0
-  - 88.5
-  - 6.0
+* - Betrieb mit Metallklammern
+  - 85,0
+  - 6,0
+  - 88,5
+  - 6,0
 
 :::
 
-Il livello di rumore effettivo della macchina installata durante il funzionamento presso il sito in un processo produttivo potrebbe 
-essere diverso da quello sopra riportato poiché il rumore è influenzato da vari fattori quali:
+Der tatsächliche Lärmpegel der installierten Maschine während des Betriebs am Standort in einem Produktionsprozess kann von dem oben angegebenen abweichen, da der Lärm von verschiedenen Faktoren beeinflusst wird, wie z. B.:
 
-- componenti movimentati dal FlexiBowl e parametri operativi;  
-- tipo e caratteristiche del sito; 
-- caratteristiche della macchina su cu il FlexiBowl® è integrato; 
-- altre macchine adiacenti in funzione.
+- vom FlexiBowl bewegte Bauteile und Betriebsparameter;  
+- Art und Eigenschaften des Standorts; 
+- Eigenschaften der Maschine, in die der FlexiBowl® integriert ist; 
+- andere benachbarte Maschinen in Betrieb.
 
 ::::{warning}
 <table style="width: 100%; border: none; background: transparent;">
@@ -219,35 +214,35 @@ essere diverso da quello sopra riportato poiché il rumore è influenzato da var
       <img src="../../../../_shared/media/images/rumore.png" style="width: 100px; height: auto;">
     </td>
     <td style="width: 80%; border: none; vertical-align: middle; background: transparent !important; padding-left: 15px;">
-      Per livelli di esposizione quotidiana superiori a 80 dB(A), è obbligatorio utilizzare gli appositi dispositivi di protezione individuale.
+      Bei täglichen Expositionspegeln über 80 dB(A) ist die Verwendung der entsprechenden persönlichen Schutzausrüstung obligatorisch.
     </td>
   </tr>
 </table>
 ::::
 
-### Backlight e Toplight
+### Backlight und Toplight
 
-Fare riferimento alla seguente tabella per la classificazione del livello di rischio dovuto all'utilizzo degli illuminatori Toplight e Backlight, in base alla norma EN-62471:
+In der folgenden Tabelle sind die Risikoklassifizierungen für die Verwendung der Toplight- und Backlight-Beleuchtungen gemäß der Norm EN-62471 aufgeführt:
 
 :::{list-table} Toplight
 :widths: 30 15 15
 :header-rows: 1
 
-* - Colore
-  - Classe
-  - Rischio
+* - Farbe
+  - Klasse
+  - Risiko
 
-* - Bianco
+* - Weiß
   - 0
-  - Nessuno
+  - Keines
 
-* - Rosso
+* - Rot
   - 0
-  - Nessuno
+  - Keines
 
 * - IR
   - 1
-  - Basso
+  - Gering
 
 :::
 
@@ -255,45 +250,45 @@ Fare riferimento alla seguente tabella per la classificazione del livello di ris
 :widths: 30 15 15
 :header-rows: 1
 
-* - Colore
-  - Classe
-  - Rischio
+* - Farbe
+  - Klasse
+  - Risiko
 
-* - Bianco
+* - Weiß
   - 0
-  - Nessuno
+  - Keines
 
-* - Rosso
+* - Rot
   - 0
-  - Nessuno
+  - Keines
 
 * - IR
   - 1
-  - Basso
+  - Gering
 
 :::
 
 :::{note}
-Gli illuminatori infrarossi emettono luce non visibile e perciò possono apparire non funzionanti. Controllare con una telecamera con un filtro ad infrarossi installato per verificarne il funzionamento. La maggior parte degli smartphone visualizzano gli infrarossi.
+Infrarot-Beleuchtungen emittieren unsichtbares Licht und können daher nicht funktionsfähig erscheinen. Überprüfen Sie die Funktion mit einer Kamera mit installiertem Infrarotfilter. Die meisten Smartphones zeigen Infrarotstrahlung an.
 :::
 
 (temp)=
-### Temperatura
+### Temperatur
 
 ::::{warning}
-In condizioni di utilizzo intenso o ambienti caldi, alcuni componenti del sistema possono raggiungere temperature elevate:
+Bei intensivem Einsatz oder in warmen Umgebungen können einige Systemkomponenten hohe Temperaturen erreichen:
 
-- Calotta stringi-disco: fino a 65°C
-- Motore: fino a 80°C
+- Scheibenklemmkappe: bis zu 65 °C
+- Motor: bis zu 80 °C
 
-Il pianale superiore del telaio può presentare una zona calda ampia circa quanto il foro centrale ampliato del 25%:
+Die obere Rahmenfläche kann eine heiße Zone aufweisen, die etwa so groß ist wie die um 25 % vergrößerte mittlere Öffnung:
 
 :::{figure} ../../../../_shared/media/images/FB800_zone-calde.PNG
     :width: 80%
     :align: center
 :::
 
-{strong}`NOTA:` Questi valori sono stati ottenuti facendo funzionare il FlexiBowl® in maniera continuativa per due settimane in un ambiente ristretto e privo di ventilazione utilizzando i seguenti parametri:
+{strong}`HINWEIS:` Diese Werte wurden ermittelt, indem der FlexiBowl® zwei Wochen lang kontinuierlich in einem beengten, nicht belüfteten Bereich mit den folgenden Parametern betrieben wurde:
 
 :::{raw} html
 <p class="centered-params">
@@ -306,37 +301,35 @@ Il pianale superiore del telaio può presentare una zona calda ampia circa quant
 
 ::::
 
-### Vibrazioni
+### Vibrationen
 
-Le vibrazioni prodotte dalla macchina, in funzione delle modalità di conduzione della stessa, non sono pericolose alla salute degli 
-operatori.
-
-:::{warning}
-Un’ eccessiva vibrazione può solo essere causata da un guasto meccanico che deve essere immediatamente segnalato ed eliminato, per non pregiudicare la sicurezza della linea e degli operatori.
-:::
-
-### Compatibilità elettromagnetica
-
-La macchina fornita contiene componenti elettronici soggetti alle normative sulla Compatibilità Elettromagnetica, condizionati da emissioni condotte e irradiate.
-
-I valori delle emissioni rientrano nelle esigenze normative grazie all’impiego di componenti conformi alla direttiva Compatibilità Elettromagnetica, collegamenti idonei e installazione di filtri dove necessario. La macchina risulta quindi conforme alla direttiva sulla Compatibilità Elettromagnetica (EMC).
+Die von der Maschine erzeugten Vibrationen sind je nach Betriebsweise nicht gesundheitsgefährdend für die Bediener.
 
 :::{warning}
-Eventuali attività manutentive sull’apparecchiatura elettrica realizzate in modo non conforme o sostituzioni errate di componenti possono compromettere l’efficienza delle soluzioni adottate.
+Übermäßige Vibrationen können nur durch einen mechanischen Defekt verursacht werden, der sofort gemeldet und behoben werden muss, um die Sicherheit der Linie und der Bediener nicht zu gefährden.
 :::
 
-### Rischi residui
+### Elektromagnetische Verträglichkeit
 
-La progettazione della macchina è stata eseguita in modo da garantire i requisiti essenziali di sicurezza per l’operatore. La sicurezza, per quanto possibile, è stata integrata nel progetto e nella costruzione della macchina; tuttavia permangono rischi dai quali gli operatori devono essere protetti soprattutto in fase di:
+Die gelieferte Maschine enthält elektronische Komponenten, die den Vorschriften zur elektromagnetischen Verträglichkeit unterliegen und durch leitungsgebundene und abgestrahlte Emissionen beeinflusst werden.
 
-- trasporto e installazione; 
-- funzionamento normale; 
-- regolazione e messa a punto, 
-- manutenzione e pulizia; 
-- smontaggio e smantellamento.
+Die Emissionswerte liegen dank des Einsatzes von Komponenten, die der Richtlinie zur elektromagnetischen Verträglichkeit entsprechen, geeigneter Verbindungen und der Installation von Filtern, wo notwendig, innerhalb der normativen Anforderungen. Die Maschine entspricht daher der Richtlinie zur elektromagnetischen Verträglichkeit (EMV).
 
-Di seguito per ogni rischio residuo viene fornita una descrizione, la zona o parte di macchina oggetto del rischio (a meno che non 
-ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo evitare:
+:::{warning}
+Nicht vorschriftsmäßige Wartungsarbeiten an der elektrischen Ausrüstung oder fehlerhafte Komponentenersetzungen können die Wirksamkeit der getroffenen Maßnahmen beeinträchtigen.
+:::
+
+### Restrisiken
+
+Die Konstruktion der Maschine wurde so durchgeführt, dass die grundlegenden Sicherheitsanforderungen für den Bediener gewährleistet sind. Die Sicherheit wurde so weit wie möglich in Konstruktion und Fertigung der Maschine integriert; es verbleiben jedoch Risiken, vor denen die Bediener insbesondere in folgenden Phasen geschützt werden müssen:
+
+- Transport und Installation; 
+- Normalbetrieb; 
+- Einstellung und Inbetriebnahme, 
+- Wartung und Reinigung; 
+- Demontage und Abbau.
+
+Nachfolgend wird für jedes Restrisiko eine Beschreibung, die Maschinenzone oder der betroffene Maschinenteil (sofern nicht die gesamte Maschine betroffen ist) sowie Verfahrenshinweise zur Vermeidung angegeben:
 
 :::{raw} html
 <style>
@@ -404,15 +397,15 @@ ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo 
 <table class="custom-safety-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Rischio</th>
-      <th>Descrizione ed informazioni procedurali</th>
+      <th style="width: 25%;">Risiko</th>
+      <th>Beschreibung und Verfahrenshinweise</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: center;">
-        <strong>PERICOLI DOVUTI ALLA MOVIMENTAZIONE</strong><br><br>
-        <small style="color: #666;">PITTOGRAMMI:</small>
+        <strong>GEFAHREN DURCH HANDHABUNG</strong><br><br>
+        <small style="color: #666;">PIKTOGRAMME:</small>
         <div class="pittogrammi-container">
           <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
           <img src="../../../../_shared/media/images/muletto1.png" alt="muletto1" width="60">
@@ -420,76 +413,76 @@ ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo 
         </div>
       </td>
       <td>
-        Le procedure di movimentazione sono descritte al capitolo <strong>"Trasporto e installazione"</strong> del presente manuale d'istruzioni.<br>
-        <strong>Rischio residuo:</strong><br>
-        Le operazioni di:
+        Die Handhabungsverfahren sind im Kapitel <strong>„Transport und Installation"</strong> dieser Betriebsanleitung beschrieben.<br>
+        <strong>Restrisiko:</strong><br>
+        Die folgenden Vorgänge:
         <ul>
-            <li>scarico degli imballi,</li>
-            <li>apertura degli imballi,</li>
-            <li>movimentazione della macchina</li>
+            <li>Entladen der Verpackungen,</li>
+            <li>Öffnen der Verpackungen,</li>
+            <li>Handhabung der Maschine</li>
         </ul>
-        espongono gli operatori al rischio di carichi sospesi e schiacciamento. Tali operazioni devono essere svolte esclusivamente da personale specializzato nella conduzione di mezzi di sollevamento e che sia stato opportunamente addestrato allo scopo.
+        setzen die Bediener dem Risiko hängender Lasten und Quetschung aus. Diese Vorgänge dürfen ausschließlich von Personal durchgeführt werden, das im Umgang mit Hebezeugen spezialisiert und entsprechend geschult ist.
       </td>
     </tr>
     <tr>
       <td style="text-align: center;">
-        <strong>PERICOLO DI ABRASIONE, TAGLIO, URTO</strong><br><br>
-        <small style="color: #666;">PITTOGRAMMI:</small>
+        <strong>GEFAHR DURCH ABRASION, SCHNITT, STOSS</strong><br><br>
+        <small style="color: #666;">PIKTOGRAMME:</small>
         <div class="pittogrammi-container">
           <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
           <img src="../../../../_shared/media/images/mano.png" alt="mano" width="60">
         </div>
       </td>
       <td>
-        A causa della presenza di sporgenze appuntite sui <strong>"Rotary Disc"</strong> con Spike, l'operatore potrebbe essere esposto al pericolo di abrasione e/o taglio in caso di contatto con esse.<br>
-        Indossare gli opportuni D.P.I. in caso di operazioni nelle vicinanze di tali <strong>"Rotary Disc"</strong>.
+        Aufgrund der Anwesenheit spitzer Vorsprünge auf den <strong>„Rotary Disc"</strong> mit Spikes kann der Bediener beim Kontakt damit dem Risiko von Abrasion und/oder Schnitt ausgesetzt sein.<br>
+        Tragen Sie bei Arbeiten in der Nähe solcher <strong>„Rotary Disc"</strong> die entsprechende PSA.
       </td>
     </tr>
     <tr>
       <td style="text-align: center;">
-        <strong>PERICOLO ELETTRICO</strong><br><br>
-        <small style="color: #666;">PITTOGRAMMI:</small>
+        <strong>ELEKTRISCHE GEFAHR</strong><br><br>
+        <small style="color: #666;">PIKTOGRAMME:</small>
         <div class="pittogrammi-container">
           <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
           <img src="../../../../_shared/media/images/corrente.png" alt="corrente" width="60">
         </div>
       </td>
       <td>
-        Le operazioni di accesso e manutenzione della macchina espongono gli operatori al rischio elettrico. Gli interventi sulle apparecchiature sotto tensione devono essere effettuati esclusivamente da personale esperto e qualificato.<br>
-        Si raccomandano le seguenti misure di sicurezza:
+        Zugangs- und Wartungsarbeiten an der Maschine setzen die Bediener elektrischen Risiken aus. Arbeiten an spannungsführenden Geräten dürfen ausschließlich von erfahrenem und qualifiziertem Personal durchgeführt werden.<br>
+        Folgende Sicherheitsmaßnahmen werden empfohlen:
         <ul>
-            <li>prestare la massima attenzione ai pittogrammi di sicurezza relativi al rischio elettrico;</li>
-            <li>non effettuare interventi di manutenzione senza aver preventivamente sezionato l'energia elettrica;</li>
-            <li>consultare i manuali delle attrezzature commerciali per eventuali raccomandazioni specifiche;</li>
-            <li>ispezionare periodicamente il circuito di protezione equipotenziale.</li>
+            <li>den Sicherheitspiktogrammen für elektrische Risiken besondere Aufmerksamkeit schenken;</li>
+            <li>keine Wartungsarbeiten durchführen, ohne zuvor die elektrische Versorgung getrennt zu haben;</li>
+            <li>die Handbücher der Handelsgeräte auf spezifische Empfehlungen konsultieren;</li>
+            <li>den Potenzialausgleichskreis regelmäßig inspizieren.</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td style="text-align: center;">
-        <strong>PERICOLO DERIVANTE DA DISTURBI DI ILLUMINAZIONE</strong><br><br>
-        <small style="color: #666;">PITTOGRAMMI:</small>
+        <strong>GEFAHR DURCH BELEUCHTUNGSSTÖRUNGEN</strong><br><br>
+        <small style="color: #666;">PIKTOGRAMME:</small>
         <div class="pittogrammi-container">
           <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
         </div>
       </td>
       <td>
-        Il <strong>"Backlight"</strong> è posto nella parte interna del corpo macchina, fuori dalla vista dell'operatore ed è schermata quasi totalmente dai ripari del corpo macchina.<br>
-        <strong>Rischio residuo:</strong><br>
-        L'operatore può subire danni alla vista se osserva per un lasso di tempo prolungato l'intensa luce del <strong>"Backlight"</strong>.
+        Das <strong>„Backlight"</strong> befindet sich im Inneren des Maschinengehäuses, außerhalb des Sichtfelds des Bedieners, und wird durch die Maschinenverkleidung fast vollständig abgeschirmt.<br>
+        <strong>Restrisiko:</strong><br>
+        Der Bediener kann Augenschäden erleiden, wenn er das intensive Licht des <strong>„Backlight"</strong> für einen längeren Zeitraum betrachtet.
       </td>
     </tr>
     <tr>
       <td style="text-align: center;">
-        <strong>PERICOLO DERIVANTE DA POLVERI, SCHEGGE, ECC.</strong><br><br>
-        <small style="color: #666;">PITTOGRAMMI:</small>
+        <strong>GEFAHR DURCH STAUB, SPÄNE USW.</strong><br><br>
+        <small style="color: #666;">PIKTOGRAMME:</small>
         <div class="pittogrammi-container">
           <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
         </div>
       </td>
       <td>
-        Al termine del ciclo di lavoro potrebbero restare sul <strong>"Rotary Disc"</strong> della macchina una serie di residui delle parti alimentate o accumuli di polveri.<br>
-        Procedere ad un'accurata pulizia del <strong>"Rotary Disc"</strong> dopo ogni utilizzo, come descritto all'interno del cap.7 del presente manuale.
+        Am Ende des Arbeitszyklus können auf der <strong>„Rotary Disc"</strong> der Maschine Rückstände der zugeführten Teile oder Staubansammlungen verbleiben.<br>
+        Führen Sie nach jeder Verwendung eine gründliche Reinigung der <strong>„Rotary Disc"</strong> durch, wie in Kapitel 7 dieser Anleitung beschrieben.
       </td>
     </tr>
   </tbody>
@@ -497,106 +490,100 @@ ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo 
 :::
 
 :::{warning}
-Non effettuare attività di manutenzione e pulizia se prima non si è provveduto a de-energizzare le energie 
-presenti.
+Führen Sie keine Wartungs- und Reinigungsarbeiten durch, ohne zuvor alle vorhandenen Energiequellen abzuschalten.
 :::
 
 :::{warning}
-È assolutamente vietato rimuovere le protezioni di sicurezza installate sulla macchina o aprire i ripari fissi senza 
-prima aver sezionato l’alimentazione elettrica e pneumatica della macchina.
+Es ist absolut verboten, die an der Maschine installierten Sicherheitsvorrichtungen zu entfernen oder feste Schutzvorrichtungen zu öffnen, ohne zuvor die elektrische und pneumatische Versorgung getrennt zu haben.
 :::
 
-Sarà cura dell’utilizzatore provvedere a: 
-- analizzare i rischi che potrebbero verificarsi durante una fase di movimentazione e di installazione all’interno della 
-propria sede (le analisi fatte sulla movimentazione della macchina sono state fatte solo in considerazioni delle 
-caratteristiche della stessa); 
-- sensibilizzare ed istruire il personale addetto alle operazioni sulle postazioni di lavoro e il personale addetto alla 
-conduzione della macchina; 
-- applicare le segnaletiche visive di sicurezza nell’ambiente di lavoro dopo aver valutato i rischi all’interno delle aree di 
-transito o di comando.
+Der Benutzer ist dafür verantwortlich: 
+- die Risiken zu analysieren, die während einer Handhabungs- und Installationsphase am eigenen Standort auftreten könnten (die Handhabungsanalysen der Maschine wurden nur unter Berücksichtigung ihrer Eigenschaften durchgeführt); 
+- das für die Arbeiten an den Arbeitsplätzen zuständige Personal und das für die Maschinenführung zuständige Personal zu sensibilisieren und zu schulen; 
+- nach Bewertung der Risiken in den Durchgangs- oder Bedienbereichen visuelle Sicherheitsbeschilderungen im Arbeitsbereich anzubringen.
 
-## Pittogrammi di sicurezza apllicati alla macchina
+## An der Maschine angebrachte Sicherheitspiktogramme
 
-Nella tabella di seguito sono elencati i pittogrammi presenti sulla macchina, solitamente presenti accanto al pannello comandi.
+In der folgenden Tabelle sind die an der Maschine vorhandenen Piktogramme aufgeführt, die sich üblicherweise neben dem Bedienteil befinden.
 
 ::::{list-table}
 :widths: 30 60
 :header-rows: 1
 
-* - Pittogramma
-  - Descrizione
+* - Piktogramm
+  - Beschreibung
 
 * - :::{figure} ../../../../_shared/media/images/manutenzione.png
     :width: 80%
     :align: center
     :::
-  - **PERICOLO! SOLO IL PERSONALE AUTORIZZATO PUÒ ESEGUIRE LAVORI DI MANUTENZIONE O RIPARAZIONE.**
+  - **GEFAHR! NUR AUTORISIERTES PERSONAL DARF WARTUNGS- ODER REPARATURARBEITEN DURCHFÜHREN.**
 
-    Indica un divieto ad eseguire lavori di manutenzione o riparazione a personale non autorizzato. 
+    Gibt ein Verbot an, Wartungs- oder Reparaturarbeiten durch nicht autorisiertes Personal durchzuführen. 
 
 * - :::{figure} ../../../../_shared/media/images/disconnettere.png
     :width: 80%
     :align: center
     :::
-  - **ATTENZIONE! DISCONNETTERE L’ALIMENTAZIONE ELETTRICA PRIMA DI ESEGUIRE OPERAZIONI DI PULIZIA O MANUTENZIONE.**
+  - **ACHTUNG! STROMVERSORGUNG TRENNEN, BEVOR REINIGUNGS- ODER WARTUNGSARBEITEN DURCHGEFÜHRT WERDEN.**
 
-    Indica un divieto ad eseguire lavori di manutenzione o pulizia non prima di aver staccato l’alimentazione elettrica.
+    Gibt ein Verbot an, Wartungs- oder Reinigungsarbeiten durchzuführen, ohne zuvor die Stromversorgung getrennt zu haben.
 
 ::::
 
-## Integrazione con sistemi robotizzati
+## Integration mit Robotersystemen
 
-### **Requisiti di sicurezza della cella**
-
-:::{warning}
-Il FlexiBowl® opera in stretta connessione con sistemi robotizzati di terze parti. L'utente deve garantire che l'area di lavoro sia dotata di tutte le misure di sicurezza necessarie imposte dalle normative pertinenti
-:::
-
-### **Attenzione durante l'operatività**
+### **Sicherheitsanforderungen der Zelle**
 
 :::{warning}
-
-Durante il funzionamento del sistema, tenere sempre conto di:
-
-- Ingombri fisici del robot e del FlexiBowl
-- Traiettorie e velocità dei movimenti robotici
-- Possibili situazioni impreviste (caduta pezzi, errori di prelievo)
-- Zone di pericolo durante le fasi di vibrazione del FlexiBowl
+Der FlexiBowl® arbeitet in engem Zusammenhang mit Robotersystemen von Drittanbietern. Der Benutzer muss sicherstellen, dass der Arbeitsbereich mit allen erforderlichen Sicherheitsmaßnahmen ausgestattet ist, die durch die einschlägigen Vorschriften vorgeschrieben sind.
 :::
 
-## Precauzioni generali prima degli interventi
+### **Vorsicht während des Betriebs**
 
-### **Disconnessione alimentazioni**
+:::{warning}
+
+Während des Systembetriebs ist stets Folgendes zu berücksichtigen:
+
+- Physische Abmessungen des Roboters und des FlexiBowl
+- Trajektorien und Geschwindigkeiten der Roboterbewegungen
+- Mögliche unvorhergesehene Situationen (Teilefall, Entnahmefehler)
+- Gefahrenbereiche während der Vibrationsphasen des FlexiBowl
+:::
+
+## Allgemeine Vorsichtsmaßnahmen vor Eingriffen
+
+### **Trennung der Versorgungen**
 
 ```{warning}
-Prima di eseguire qualsiasi intervento di manutenzione, modifica o ispezione sul sistema, assicurarsi sempre che:
+Stellen Sie vor der Durchführung von Wartungs-, Änderungs- oder Inspektionsarbeiten am System immer sicher, dass:
 
-- Tutte le fonti di alimentazione elettrica siano disconnesse (VisionController, FlexiBowl, Camera, Illuminatore)
-- L'alimentazione pneumatica sia scaricata e disconnessa (se presente)
-- I cavi di collegamento siano fisicamente scollegati
-- Il robot sia in modalità di sicurezza o completamente spento
+- Alle elektrischen Versorgungsquellen getrennt sind (VisionController, FlexiBowl, Kamera, Beleuchtung)
+- Die Druckluftversorgung entleert und getrennt ist (falls vorhanden)
+- Die Verbindungskabel physisch getrennt sind
+- Der Roboter sich im Sicherheitsmodus befindet oder vollständig ausgeschaltet ist
 ```
-### **Procedure di sicurezza**
+### **Sicherheitsverfahren**
 
 ```{warning}
 
-Non affidarsi esclusivamente agli interruttori: utilizzare procedure di lockout/tagout (LOTO) quando disponibili.
+Verlassen Sie sich nicht ausschließlich auf Schalter: Verwenden Sie Lockout/Tagout-Verfahren (LOTO), wenn diese verfügbar sind.
 ```
 
-## Modifiche e manomissioni
+## Änderungen und Manipulationen
 
-### **Divieto di modifiche non autorizzate**
+### **Verbot nicht autorisierter Änderungen**
 
 ```{warning}
-Non modificare mai il prodotto o i suoi componenti senza espressa autorizzazione scritta di ARS S.r.l.
+Verändern Sie niemals das Produkt oder seine Komponenten ohne ausdrückliche schriftliche Genehmigung von ARS S.r.l.
 ```
-### **Conseguenze delle modifiche**
+### **Folgen von Änderungen**
 
 ```{warning}
-Modifiche non autorizzate possono:
+Nicht autorisierte Änderungen können:
 
-- Causare malfunzionamenti del sistema
-- Invalidare la garanzia
-- Creare rischi di lesioni, scosse elettriche o incendi
-- Compromettere le certificazioni di sicurezza del prodotto
+- Systemfehlfunktionen verursachen
+- Die Garantie ungültig machen
+- Risiken von Verletzungen, elektrischen Schlägen oder Bränden erzeugen
+- Die Sicherheitszertifizierungen des Produkts beeinträchtigen
 ```

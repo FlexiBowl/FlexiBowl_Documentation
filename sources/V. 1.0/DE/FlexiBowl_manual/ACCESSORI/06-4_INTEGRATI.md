@@ -1,4 +1,4 @@
-# [MEC] **Soffi integrati nello schermo flip (FlexiBowl® 200-350)**
+# [MEC] **Integrierte Luftblasvorrichtungen nello schermo flip (FlexiBowl® 200-350)**
 
 Gli schermi flip dei FlexiBowl® 200 e 350 sono realizzati per stampa 3D. Questo consente la realizzazione di canali interni che terminano con ugelli studiati appsta per direzionare il getto d'aria in modo tale da ottenere gli stessi comportamenti degli accessori analoghi, senza la necessità di utilizzare ulteriori appendici da montare sui FlexiBowl®.
 

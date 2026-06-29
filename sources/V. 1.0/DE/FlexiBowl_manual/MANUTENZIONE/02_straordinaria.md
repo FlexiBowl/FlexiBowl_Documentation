@@ -1,4 +1,4 @@
-# [MEC] **Manutenzione Straordinaria**
+# **Außerordentliche Wartung**
 
 :::{warning}
 La manutenzione straordinaria e la riparazione della macchina sono riservate ai tecnici qualificati, istruiti ed autorizzati, dipendenti dal Costruttore o dal centro assistenza autorizzato. Questi interventi richiedono conoscenza approfondita e specialistica delle macchine, delle operazioni necessarie, dei rischi connessi e delle procedure corrette per operare in sicurezza.
