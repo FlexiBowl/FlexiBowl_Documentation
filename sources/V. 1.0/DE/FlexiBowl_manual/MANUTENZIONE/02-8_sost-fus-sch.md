@@ -1,1 +1,1 @@
-# [ELE] **Sostituzione Fusibile Scheda**
+# **Austausch der Sicherung auf der Platine**

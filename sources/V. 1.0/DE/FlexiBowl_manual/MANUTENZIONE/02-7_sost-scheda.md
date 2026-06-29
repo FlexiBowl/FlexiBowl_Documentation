@@ -1,1 +1,1 @@
-# [ELE] **Sostituzione Scheda**
+# **Austausch der Platine**

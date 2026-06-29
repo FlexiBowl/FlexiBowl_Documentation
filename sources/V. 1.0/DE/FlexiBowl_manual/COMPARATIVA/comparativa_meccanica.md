@@ -1,4 +1,4 @@
-# **[MEC]** Comparativa Meccanica
+# **Mechanischer Vergleich**
 
 ## Gamma modelli
 

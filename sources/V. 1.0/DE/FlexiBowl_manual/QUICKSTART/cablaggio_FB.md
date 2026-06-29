@@ -1,4 +1,4 @@
-# **[ELE]** Cablaggio del FlexiBowl®
+# **Verkabelung des FlexiBowl®**
 
 :::::{important}
 

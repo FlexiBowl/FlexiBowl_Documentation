@@ -1,1 +1,1 @@
-# [ELE] **Sostituzione Fusibile 220V**
+# **Austausch der 220-V-Sicherung**

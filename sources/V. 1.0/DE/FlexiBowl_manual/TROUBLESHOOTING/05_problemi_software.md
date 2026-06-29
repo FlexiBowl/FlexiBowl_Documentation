@@ -1,1 +1,1 @@
-# **[SOF]** Risoluzione Problemi Software
+# **Fehlerbehebung bei Softwareproblemen**

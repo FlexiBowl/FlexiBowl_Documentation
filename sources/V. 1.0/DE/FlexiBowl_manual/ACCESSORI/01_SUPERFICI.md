@@ -1,4 +1,4 @@
-# [MEC] **Superfici e Dischi Rigidi**
+# **Rotationsscheiben und starre Scheiben**
 
 
 :::{list-table}

@@ -1,4 +1,4 @@
-# **Glossario** 
+# **Glossar** 
 
 ```{list-table}
 :header-rows: 1

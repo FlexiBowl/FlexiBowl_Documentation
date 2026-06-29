@@ -1,5 +1,5 @@
 
-# **Informazioni Preliminari Generali**
+# **Allgemeine Vorabinformationen**
 
 ```{important}
 Prima di installare, utilizzare o effettuare manutenzione sulla macchina, leggere attentamente l'intero manuale e tutta la documentazione allegata.

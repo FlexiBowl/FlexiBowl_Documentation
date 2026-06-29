@@ -1,257 +1,260 @@
-# **Manuale FlexiVision One**
+# **FlexiBowl Handbuch**
 
-## **Benvenuto nel manuale di FlexiVision One!**  
-Siamo entusiasti di darvi il benvenuto alla vostra nuova guida di FlexiVision One!
-Questo manuale è stato creato appositamente per essere il vostro punto di riferimento chiaro e affidabile. Ci auguriamo che, consultandolo, possiate godere appieno di tutti i benefici del nostro sistema.
-Il vostro parere è fondamentale per noi: non esitate a fornirci il vostro feedback [contattandoci](https://www.flexibowl.it/contatti)! 
+## **Willkommen im FlexiBowl®-Handbuch!**  
+Wir freuen uns, Sie zu Ihrem neuen FlexiBowl®-Leitfaden willkommen zu heißen!
+Dieses Handbuch wurde eigens als Ihre klare und zuverlässige Referenz erstellt. Wir hoffen, dass Sie durch dessen Konsultation alle Vorteile unseres Systems voll ausschöpfen können.
+Ihr Feedback ist für uns von grundlegender Bedeutung: Zögern Sie nicht, uns Ihre Meinung mitzuteilen, indem Sie uns [kontaktieren](https://www.arsautomation.com/contact)!
 
-*- Il Team di Ars Automation*    
+*- Das ARS Automation Team*    
 <a href="https://www.arsautomation.com" target="_blank">
   <img src="../../_shared/static/logo_fv.png" alt="Ars logo" class="only-light img-logo">
   <img src="../../_shared/static/logo_fv_black.png" alt="Ars logo" class="only-dark img-logo">
 </a>
   
-## **Cosa è FlexiVision One?**  
-FlexiVision One è la nostra soluzione di visione basata su VisionController, pensata per guidare il robot e disponibile come componente aggiuntivo per i sistemi FlexiBowl®.
-Mantenendo tutte le potenti funzionalità della versione precedente, permettendo quindi lo scarico, la separazione, il riconoscimento e il prelievo dei pezzi sfusi sulla superficie dell’alimentatore, FlexiVision One rivoluziona l'esperienza utente.
-Grazie a una guida passo passo completa e a strumenti intuitivi, abbiamo estremamente semplificato il processo, rendendo la programmazione e l'utilizzo accessibili e utilizzabili da chiunque, indipendentemente dal livello di esperienza.
+## **Was ist der FlexiBowl?**  
+Der FlexiBowl® ist ein flexibles Zuführsystem mit rotierender oder vibrierender Scheibe zur zufälligen Positionierung und Ausrichtung von Bauteilen für die Robotergreifung.
 
-## **Panoramica del sistema** 
-Schema esemplificativo del sistema con collegamenti fino a tre FlexiBowl, tre camere e tre tramogge.
+## **Systemübersicht** 
+Der Arbeitsbereich des FlexiBowl® ist virtuell in vier Bereiche unterteilt, von denen jeder einer Phase des Arbeitszyklus gewidmet ist:
 
-```{figure} ../../_shared/media/images/Icon_FlexiVision.png
+:::{list-table}
+:widths: 20 50
+:header-rows: 1
+
+* - Phase
+  - Beschreibung
+
+* - **Übergabe**
+  - Eine Zuführeinheit lädt die Bauteile auf den Arbeitsbereich des FlexiBowl®.
+
+* - **Vereinzelung**
+  - Eine kombinierte Aktion der {ref}`Flip-Einheit <panoramica>` und der Bewegung der Oberfläche oder Hartscheibe vereinzelt die Bauteile und wendet sie, sodass sich stets mindestens eines in der richtigen Greifposition befindet.
+
+* - **Entnahme**
+  - Das Bildverarbeitungssystem erkennt greifbare Bauteile und übermittelt deren Koordinaten an den Roboter, der anschließend die Pick-and-Place-Vorgänge durchführt.
+
+* - **Rückführung**
+  - Nicht entnommene Bauteile beginnen ihren Weg im FlexiBowl® erneut, bis sie vom Roboter gegriffen werden.
+
+:::
+
+:::{figure} ../../_shared/media/images/Funz-standard.PNG
 :align: center
 :width: 50%
 
-Schema esemplificativo del sistema FlexiVision One
-```
-## **Come leggere il manuale**  
-Questo manuale è stato concepito per supportare sia la fase di progettazione e integrazione di sistema, sia la fase di installazione e messa in servizio in campo. 
-Per questo motivo, è diviso in delle macro-sezioni con destinatari e finalità distinte.
+Schematische Darstellung des FlexiBowl®-Systems im Standardbetrieb.
+:::
+
+:::{note}
+Der {ref}`Flexitracking <tracking>`-Zyklus ist dem herkömmlichen Zyklus im Wesentlichen gleich, mit dem Unterschied, dass alle Phasen gleichzeitig und kontinuierlich ablaufen.
+:::
+
+
+## **So lesen Sie das Handbuch**  
+Dieses Handbuch wurde entwickelt, um sowohl die Projektierungs- und Systemintegrationsphase als auch die Installation und Inbetriebnahme vor Ort zu unterstützen.
+Aus diesem Grund ist es in Makro-Abschnitte mit unterschiedlichen Zielgruppen und Zielsetzungen unterteilt.
   
-## **Qual è la sezione che stai cercando?**  
+## **Welchen Abschnitt suchen Sie?**  
 ```{list-table}
 :widths: 40 60
 :header-rows: 1
 
-* - Se devi...
-  - L'informazione si trova in...
+* - Wenn Sie...
+  - Die Information befindet sich in...
 
-* - Verificare dimensioni, pesi, requisiti elettrici e protocolli di comunicazione
-  - [**RIFERIMENTO TECNICO E SPECIFICHE**](specifiche_tecniche)
+* - Maße, Gewichte, elektrische Anforderungen und Kommunikationsprotokolle prüfen möchten
+  - [**TECHNISCHE REFERENZ UND SPEZIFIKATIONEN**](specifiche_tecniche)
 
-* - Installare i componenti, cablare il sistema, configurare la rete o calibrare camera/robot
-  - [**INSTALLAZIONE DEL SISTEMA**](Installazione_Meccanica) e [**QUICKSTART**](quickstart)
+* - Komponenten installieren, das System verkabeln, das Netzwerk konfigurieren oder Kamera/Roboter kalibrieren möchten
+  - [**SYSTEMINSTALLATION**](Installazione_Meccanica) und [**QUICKSTART**](quickstart)
 
-* - Programmare un nuovo modello pezzo o configurare il sistema di alimentazione
+* - Ein neues Bauteilmodell programmieren oder das Zuführsystem konfigurieren möchten
   - [**QUICKSTART**](quickstart)
 
-* - Risolvere problemi o richiedere assistenza
-  - [**TROUBLESHOOTING**](troubleshooting) e [**SUPPORT**](support)
-```
-## **Gruppi di intervento e responsabilità**
-
-La corretta implementazione di FlexiVision One richiede la collaborazione di diverse figure professionali. Questa tabella chiarisce ruoli e responsabilità:
-
-```{list-table}
-:widths: 25 35 40
-:header-rows: 1
-
-* - Figura professionale
-  - Responsabilità principali
-  - Sezioni del manuale di riferimento
-
-* - **Integratore di sistema**
-  - Progettazione layout, dimensionamento componenti, verifica requisiti tecnici
-  - Riferimento tecnico e specifiche, Opzioni
-
-* - **Tecnico installatore**
-  - Montaggio meccanico, cablaggio elettrico, configurazione rete
-  - Installazione del sistema, Cablaggio e connessioni
-
-* - **Programmatore robot**
-  - Calibrazione camera-robot, integrazione plugin, programmazione logiche di prelievo
-  - Quickstart, Protocol Setup, Calibrazione
-
-* - **Operatore di linea**
-  - Creazione nuovi modelli pezzo, configurazione parametri FlexiBowl, monitoraggio prestazioni
-  - Verifica risultati Run Time
-
-* - **Manutentore**
-  - Diagnosi problemi, sostituzione componenti, aggiornamenti software
-  - Nuovo modello, Configurazione FlexiBowl, Troubleshooting, Support
+* - Probleme beheben oder Unterstützung anfordern möchten
+  - [**FEHLERBEHEBUNG**](troubleshooting) und [**SUPPORT**](support)
 ```
 
-## **Convenzioni e simboli utilizzati**
+## **Verwendete Konventionen und Symbole**
 
-In tutto il manuale vengono utilizzati banner informativi per evidenziare contenuti importanti:
+Im gesamten Handbuch werden Informationsbanner verwendet, um wichtige Inhalte hervorzuheben:
 
 ```{list-table}
 :widths: 20 80
 :header-rows: 1
 
-* - Tipo
-  - Significato
+* - Typ
+  - Bedeutung
 
 * - ```{warning}
-    Avvertenza
+    Warnung
     ```
-  - Indica una situazione potenzialmente pericolosa o una procedura critica che, se non eseguita correttamente, potrebbe provocare danni all'apparecchiatura o malfunzionamenti gravi del sistema.
+  - Weist auf eine potenziell gefährliche Situation oder einen kritischen Vorgang hin, der bei falscher Ausführung zu Geräteschäden oder schwerwiegenden Systemstörungen führen könnte.
 
 * - ```{important}
-    Importante
+    Wichtig
     ```
-  - Evidenzia informazioni fondamentali che non devono essere ignorate per garantire il corretto funzionamento del sistema o la sicurezza dell'operazione.
+  - Hebt grundlegende Informationen hervor, die nicht ignoriert werden dürfen, um den ordnungsgemäßen Betrieb des Systems oder die Sicherheit des Vorgangs zu gewährleisten.
 
 * - ```{note}
-    Nota informativa
+    Hinweis
     ```
-  - Fornisce informazioni essenziali per il corretto svolgimento della procedura, chiarimenti tecnici o rimandi a capitoli correlati.
+  - Liefert wesentliche Informationen für die korrekte Durchführung des Verfahrens, technische Erläuterungen oder Verweise auf verwandte Kapitel.
 
 * - ```{tip}
-    Suggerimento
+    Tipp
     ```
-  - Suggerisce una pratica ottimale, un'alternativa o un consiglio che può semplificare l'installazione o migliorare le prestazioni del sistema.
+  - Empfiehlt eine bewährte Vorgehensweise, eine Alternative oder einen Ratschlag, der die Installation vereinfachen oder die Systemleistung verbessern kann.
 
 * - ```{error}
-    Errore
+    Fehler
     ```
-  - Indica un errore critico o una condizione di guasto che richiede intervento immediato. Segnala situazioni che compromettono il funzionamento del sistema e richiedono azione correttiva.
+  - Weist auf einen kritischen Fehler oder eine Störungsbedingung hin, die sofortiges Eingreifen erfordert. Zeigt Situationen an, die den Systembetrieb beeinträchtigen und Korrekturmaßnahmen erfordern.
 ```
 
 
-
-
-
-
-
-```{toctree}
+:::{toctree}
 :hidden:
-:caption: PRIMA DI INIZIARE 
-
-FlexiVisionEasy_manual/01_informazioni_preliminari.md
-```  
-
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/02_informazioni_sicurezza.md
-```  
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/03_Unboxing_Contenuto.md
-```    
-```{toctree} 
-:hidden:
-FlexiVisionEasy_manual/27_Support.md
-
-```
-```{toctree} 
-:hidden:
-FlexiVisionEasy_manual/27b_Glossario.md
-
-```
-
-```{toctree}
-:hidden:
-:caption: RIFERIMENTO TECNICO E SPECIFICHE 
-
-FlexiVisionEasy_manual/rif_tecnico_specifiche/04_Specifiche_FlexiVision.md
-```    
-
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/rif_tecnico_specifiche/04b_Protocolli_Comunicazione.md
-```   
-
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/rif_tecnico_specifiche/05_Calcolo_distanza_ottimale.md
-```    
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/rif_tecnico_specifiche/integrazione_software/06_PlugIn.md
-```    
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/rif_tecnico_specifiche/integrazione_software/07_Backup_management.md
-```     
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/rif_tecnico_specifiche/08_Opzioni.md
-```   
-```{toctree}
-:hidden:
-:caption: INSTALLAZIONE DEL SISTEMA
-
-FlexiVisionEasy_manual/INSTALLAZIONE_SISTEMA/09_Installazione_Meccanica.md
-```     
-```{toctree}
-:hidden:
-FlexiVisionEasy_manual/INSTALLAZIONE_SISTEMA/10_Cablaggio_Connessioni.md
-```     
+:caption: VOR DEM START 
+FlexiBowl_manual/PRIMA DI INIZIARE/01_informazioni_preliminari.md
+FlexiBowl_manual/PRIMA DI INIZIARE/02_informazioni_sicurezza.md
+FlexiBowl_manual/PRIMA DI INIZIARE/03_trasporto.md
+FlexiBowl_manual/PRIMA DI INIZIARE/04_cond-util.md
+FlexiBowl_manual/PRIMA DI INIZIARE/05_glossario.md
+FlexiBowl_manual/PRIMA DI INIZIARE/06_support.md
+FlexiBowl_manual/PRIMA DI INIZIARE/07_garanzia.md
+:::
   
-```{toctree}
+:::{toctree}
+:hidden:
+:caption: TECHNISCHE DATEN
+FlexiBowl_manual/DATI TECNICI/01_panoramica.md
+FlexiBowl_manual/DATI TECNICI/02_dati-tecnici-meccanici.md
+FlexiBowl_manual/DATI TECNICI/03_dati-tecnici-elettrici.md
+FlexiBowl_manual/DATI TECNICI/04_dati-tecnici-pneumatici.md
+FlexiBowl_manual/DATI TECNICI/05_dati-tecnici-applicativi.md
+:::
+
+:::{toctree}
+:hidden:
+:caption: INSTALLATION
+FlexiBowl_manual/INSTALLAZIONE/01_interfaccia-meccanica.md
+FlexiBowl_manual/INSTALLAZIONE/02_interfaccia-elettrica.md
+FlexiBowl_manual/INSTALLAZIONE/03_interfaccia-pneumatica.md
+FlexiBowl_manual/INSTALLAZIONE/04_interfaccia-software.md
+:::
+
+:::{toctree}
+:hidden:
+:caption: SOFTWARE-ÜBERSICHT
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04_home.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04b_maincommand.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04c_sequence.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04d_monitor.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04e_jogmotor.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04f_wizard.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04h_graphs.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04i_filetransfer.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04l_setup.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04m_hopper.md
+:::
+
+:::{toctree}  
 :hidden:
 :caption: QUICKSTART
+FlexiBowl_manual/QUICKSTART/panoramica.md
+FlexiBowl_manual/QUICKSTART/installazione_meccanica.md
+FlexiBowl_manual/QUICKSTART/cablaggio_FB.md
+FlexiBowl_manual/QUICKSTART/conf_interfaccia.md
+FlexiBowl_manual/QUICKSTART/FB_wizard.md
+FlexiBowl_manual/QUICKSTART/conf_tramoggia.md
+:::
 
-FlexiVisionEasy_manual/QUICKSTART/12_Panoramica_Interfaccia.md
-```     
-```{toctree}
+:::{toctree}  
 :hidden:
-FlexiVisionEasy_manual/QUICKSTART/SETUP/13_setup.md
-``` 
+:caption: BETRIEBSMODI 
+FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_standard.md
+FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_mix.md
+FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_tracking.md
+:::
 
-
-```{toctree}
+:::{toctree}  
 :hidden:
-FlexiVisionEasy_manual/QUICKSTART/Nuovo_Modello/16_Nuovo_modello.md
-```
+:caption: PLUG-INS 
+FlexiBowl_manual/PLUG-IN/01_PlugIn.md
+:::
 
-```{toctree}
+:::{toctree}
 :hidden:
-FlexiVisionEasy_manual/QUICKSTART/24_Verifica_Risultati.md
-```
+:caption: LAYOUT BEST PRACTICES
+FlexiBowl_manual/LAYOUT BEST PRACTICE/01_layoutbp.md
+:::
 
-```{toctree}
+:::{toctree}
 :hidden:
-:caption: APPLICAZIONI MIX
+:caption: ZUBEHÖR
+FlexiBowl_manual/ACCESSORI/00_ACCESSORI.md
+FlexiBowl_manual/ACCESSORI/01_SUPERFICI.md
+FlexiBowl_manual/ACCESSORI/03_04_illuminazione.md
+FlexiBowl_manual/ACCESSORI/05_DEVIATORE.md
+FlexiBowl_manual/ACCESSORI/06_SOFFI.md
+FlexiBowl_manual/ACCESSORI/07_BRUSH_DIVERTER.md
+FlexiBowl_manual/ACCESSORI/08_WEDGE.md
+FlexiBowl_manual/ACCESSORI/09_SVUOTAMENTO.md
+:::
 
-FlexiVisionEasy_manual/APPLICAZIONI_MIX/28_Panoramica_Mix.md
-```  
-
-```{toctree}
+:::{toctree}  
 :hidden:
-FlexiVisionEasy_manual/APPLICAZIONI_MIX/29_Comandi_Mix.md
-```  
+:caption: WARTUNG 
+FlexiBowl_manual/MANUTENZIONE/01_ordinaria.md
+FlexiBowl_manual/MANUTENZIONE/02_straordinaria.md
+:::
 
-```{toctree}
+:::{toctree}  
 :hidden:
-:caption: CONFIGURAZIONI MULTI-DISPOSITIVO
+:caption: GARANTIE 
+FlexiBowl_manual/Garanzia.md
+:::
 
-FlexiVisionEasy_manual/CONFIGURAZIONI_MULTI-DISPOSITIVO/30_2FB2CAM.md
-```
-
-```{toctree}
+:::{toctree}  
 :hidden:
-FlexiVisionEasy_manual/CONFIGURAZIONI_MULTI-DISPOSITIVO/31_3FB3CAM.md
-```  
+:caption: FEHLERBEHEBUNG
+FlexiBowl_manual/TROUBLESHOOTING/01_risoluzione-problemi.md
+FlexiBowl_manual/TROUBLESHOOTING/02_problemi_meccanici.md
+FlexiBowl_manual/TROUBLESHOOTING/03_problemi_elettrici.md
+FlexiBowl_manual/TROUBLESHOOTING/04_problemi_pneumatici.md
+FlexiBowl_manual/TROUBLESHOOTING/05_problemi_software.md
+:::
 
-
-```{toctree}  
+:::{toctree}  
 :hidden:
-:caption: GARANZIA 
+:caption: ENTSORGUNG
+FlexiBowl_manual/SMALTIMENTO/smaltimento.md
+:::
 
-FlexiVisionEasy_manual/25_Garanzia.md
-```
-
-```{toctree}  
+:::{toctree}  
 :hidden:
-:caption: TROUBLESHOOTING
+:caption: ZERTIFIZIERUNGEN 
+FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
+:::
 
-FlexiVisionEasy_manual/TROUBLESHOOTING/26_trb_shooting_guide.md
-```
+:::{toctree}  
+:hidden:
+:caption: ZUFÜHREINHEITEN
+FlexiBowl_manual/TRAMOGGE/TRAMOGGE VIBRANTI/tramogge_vibranti.md
+FlexiBowl_manual/TRAMOGGE/TRAMOGGE A NASTRO/tramogge_nastro.md
 
+:::
 
+:::{toctree}
+:hidden:
+:caption: FLEXIBOWL 2.0 VS FLEXIBOWL 3.0
+FlexiBowl_manual/COMPARATIVA/panoramica.md
+FlexiBowl_manual/COMPARATIVA/comparativa_meccanica.md
+FlexiBowl_manual/COMPARATIVA/comparativa_elettrica.md
+FlexiBowl_manual/COMPARATIVA/comparativa_pneumatica.md
+FlexiBowl_manual/COMPARATIVA/comparativa_software.md
+:::
 
 
 

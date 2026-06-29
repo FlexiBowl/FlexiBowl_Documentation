@@ -1,5 +1,5 @@
 (sost-disco)=
-# [MEC] **Sostituzione della Superficie o del Disco Rigido**
+# **Austausch der Oberfläche oder der Festplatte**
 
 Il cambio della superficie o del disco rigido è richiesto qualora si faccia un cambio di produzione o siano presenti danni alla superficie o disco rigido precedenti.
 In ogni caso si consiglia di cambiare la superficie o disco rigido:
