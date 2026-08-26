@@ -1,0 +1,1226 @@
+(intele)=
+# **Elektrische Schnittstelle**
+
+Il pannello connettori del FlexiBowl® varia in base alla versione della macchina:
+
+:::{raw} html
+<style>
+.ie-tabs, .ie-wrap, .ie-tabs *, .ie-wrap * {
+  box-sizing: border-box;
+}
+/* Applica margin e padding zero solo ai componenti del tuo pannello se necessario, 
+   senza toccare il resto del sito di Sphinx */
+.ie-tabs, .ie-panel, .ie-wrap, .ie-row, .ie-bubble, .ie-name, .ie-desc {
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --acc:#1a6fc4;--acc-dk:#0d4a8a;--acc-bg:#e8f1fb;
+  --bd:#e0e0e0;--bg-p:#ffffff;--bg-s:#f7f8f9;--bg-h:#f0f4fa;
+  --tx1:#1a1a1a;--tx2:#555;--tx3:#888;
+  --r:10px;--tr:0.35s cubic-bezier(.4,0,.2,1);
+}
+.ie-tabs{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
+.ie-tab{padding:5px 14px;border-radius:6px;border:1.5px solid var(--bd);background:#fff;font-size:13px;font-weight:600;color:var(--tx2);cursor:pointer;transition:background var(--tr),color var(--tr),border-color var(--tr)}
+.ie-tab:hover{background:var(--bg-h)}
+.ie-tab.on{background:var(--acc-bg);color:var(--acc-dk);border-color:var(--acc)}
+.ie-panel{display:none}
+.ie-panel.on{display:block}
+.ie-wrap{border:1px solid var(--bd);border-radius:var(--r);overflow:hidden;background:var(--bg-p);box-shadow:0 2px 12px rgba(0,0,0,0.07)}
+.ie-img-outer{position:relative;width:100%;padding-top:70.71%}
+.ie-img-outer img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:0;transition:opacity var(--tr)}
+.ie-img-base{opacity:1;z-index:1}
+.ie-img-hl{opacity:0;z-index:2}
+.ie-badge{position:absolute;top:12px;left:14px;z-index:3;background:var(--acc);color:#fff;font-size:12px;font-weight:600;padding:4px 10px;border-radius:20px;opacity:0;transform:translateY(-4px);transition:opacity var(--tr),transform var(--tr);pointer-events:none;white-space:nowrap}
+.ie-badge.on{opacity:1;transform:translateY(0)}
+.ie-hint{position:absolute;bottom:14px;left:50%;z-index:3;transform:translateX(-50%);font-size:13px;color:#fff;background:rgba(0,0,0,0.38);padding:6px 16px;border-radius:20px;pointer-events:none;transition:opacity var(--tr);white-space:nowrap}
+.ie-list-panel{border-top:1px solid var(--bd);background:var(--bg-p)}
+.ie-list-head{display:grid;grid-template-columns:40px 140px 1fr;gap:8px;padding:8px 14px;background:var(--bg-s);border-bottom:1px solid var(--bd);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--tx3)}
+.ie-row{display:grid;grid-template-columns:40px 140px 1fr;gap:8px;align-items:center;padding:9px 14px;border-bottom:1px solid var(--bd);cursor:pointer;transition:background var(--tr);user-select:none}
+.ie-row:last-child{border-bottom:none}
+.ie-row:hover{background:var(--bg-h)}
+.ie-row.on{background:var(--acc-bg)}
+.ie-bubble{width:26px;height:26px;border-radius:50%;border:1.5px solid var(--bd);background:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;color:var(--tx2);flex-shrink:0;transition:background var(--tr),color var(--tr),border-color var(--tr)}
+.ie-row.on .ie-bubble{background:var(--acc);color:#fff;border-color:var(--acc)}
+.ie-name{font-size:13px;font-weight:600;color:var(--tx1);font-family:monospace;transition:color var(--tr)}
+.ie-row.on .ie-name{color:var(--acc-dk)}
+.ie-desc{font-size:12px;color:var(--tx2);line-height:1.55}
+</style>
+ 
+<!-- Tab bar -->
+<div class="ie-tabs">
+  <button class="ie-tab on" onclick="ieSwitchTab('smallpanel',this)">Pannello FlexiBowl® 200-350</button>
+  <button class="ie-tab"    onclick="ieSwitchTab('rack',this)">Rack</button>
+  <button class="ie-tab"    onclick="ieSwitchTab('stpanel',this)">Pannello Standard</button>
+  <button class="ie-tab"    onclick="ieSwitchTab('encpanel',this)">Pannello Flexitracking</button>
+</div>
+<!-- ══════════ PANNELLO FB200-350 ══════════ -->
+<div class="ie-panel on" id="ie-panel-smallpanel">
+  <div class="ie-wrap">
+    <div class="ie-img-outer">
+      <img class="ie-img-base" id="smallpanel-img-base" src="../../../../_shared/media/images/smallpanel0.PNG" alt="Pannello FlexiBowl® 200-350" />
+      <img class="ie-img-hl"   id="smallpanel-img-hl"   src="" alt="" aria-hidden="true" />
+      <div class="ie-badge" id="smallpanel-badge"></div>
+      <div class="ie-hint"  id="smallpanel-hint">Seleziona un connettore dalla lista</div>
+    </div>
+    <div class="ie-list-panel">
+      <div class="ie-list-head"><span>N.</span><span>Connettore</span><span>Descrizione</span></div>
+      <div id="smallpanel-list"></div>
+    </div>
+  </div>
+</div>
+<!-- ══════════ RACK ══════════ -->
+<div class="ie-panel" id="ie-panel-rack">
+  <div class="ie-wrap">
+    <div class="ie-img-outer">
+      <img class="ie-img-base" id="rack-img-base" src="../../../../_shared/media/images/rack0.PNG" alt="Rack FlexiBowl®" />
+      <img class="ie-img-hl"   id="rack-img-hl"   src="" alt="" aria-hidden="true" />
+      <div class="ie-badge" id="rack-badge"></div>
+      <div class="ie-hint"  id="rack-hint">Seleziona un connettore dalla lista</div>
+    </div>
+    <div class="ie-list-panel">
+      <div class="ie-list-head"><span>N.</span><span>Connettore</span><span>Descrizione</span></div>
+      <div id="rack-list"></div>
+    </div>
+  </div>
+</div>
+<!-- ══════════ PANNELLO STANDARD ══════════ -->
+<div class="ie-panel" id="ie-panel-stpanel">
+  <div class="ie-wrap">
+    <div class="ie-img-outer">
+      <img class="ie-img-base" id="stpanel-img-base" src="../../../../_shared/media/images/stpanel0.PNG" alt="Pannello Standard FlexiBowl®" />
+      <img class="ie-img-hl"   id="stpanel-img-hl"   src="" alt="" aria-hidden="true" />
+      <div class="ie-badge" id="stpanel-badge"></div>
+      <div class="ie-hint"  id="stpanel-hint">Seleziona un connettore dalla lista</div>
+    </div>
+    <div class="ie-list-panel">
+      <div class="ie-list-head"><span>N.</span><span>Connettore</span><span>Descrizione</span></div>
+      <div id="stpanel-list"></div>
+    </div>
+  </div>
+</div>
+<!-- ══════════ PANNELLO FLEXITRACKING ══════════ -->
+<div class="ie-panel" id="ie-panel-encpanel">
+  <div class="ie-wrap">
+    <div class="ie-img-outer">
+      <img class="ie-img-base" id="encpanel-img-base" src="../../../../_shared/media/images/encpanel0.PNG" alt="Pannello Flexitracking FlexiBowl®" />
+      <img class="ie-img-hl"   id="encpanel-img-hl"   src="" alt="" aria-hidden="true" />
+      <div class="ie-badge" id="encpanel-badge"></div>
+      <div class="ie-hint"  id="encpanel-hint">Seleziona un connettore dalla lista</div>
+    </div>
+    <div class="ie-list-panel">
+      <div class="ie-list-head"><span>N.</span><span>Connettore</span><span>Descrizione</span></div>
+      <div id="encpanel-list"></div>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  var models = {
+    smallpanel: {
+      imgPath: '../../../../_shared/media/images/smallpanel',
+      imgExt: '.PNG',
+      comps: [
+        {n:1, name:'C-A SIGNAL', desc:'Connettore C-A signal'},
+        {n:2, name:'C-B SIGNAL', desc:'Connettore C-B Signal'},
+        {n:3, name:'MOTOR',      desc:'Connettore cavo motore'},
+        {n:4, name:'C-ETH FB',   desc:'Collegamento ethernet al rack'},
+        {n:5, name:'AIR SUPPLY', desc:'Ingresso aria'}
+      ]
+    },
+    rack: {
+      imgPath: '../../../../_shared/media/images/rack',
+      imgExt: '.PNG',
+      comps: [
+        {n:1, name:'POWER SUPPLY', desc:'Presa di corrente e interruttore; comprende anche un filtro IEC'},
+        {n:2, name:'STO',          desc:'Connettore STO'},
+        {n:3, name:'MOTOR',        desc:'Connettore cavo motore'},
+        {n:4, name:'C-A SIGNAL',   desc:'Connettore C-A signal'},
+        {n:5, name:'C-B SIGNAL',   desc:'Connettore C-B Signal'},
+        {n:6, name:'C-ETH IN',     desc:'Connettore Ethernet'},
+        {n:7, name:'HOPPER',       desc:'Connettore tramoggia'},
+        {n:8, name:'C-ETH FB',     desc:'Collegamento Ethernet al FlexiBowl\u00ae'}
+      ]
+    },
+    stpanel: {
+      imgPath: '../../../../_shared/media/images/stpanel',
+      imgExt: '.PNG',
+      comps: [
+        {n:1, name:'POWER SUPPLY', desc:'Presa di corrente e interruttore; comprende anche un filtro IEC'},
+        {n:2, name:'AIR SUPPLY',   desc:'Ingresso aria'},
+        {n:3, name:'LIGHT ON',     desc:'LED di stato backlight'},
+        {n:4, name:'READY/FAULT',  desc:'LED di stato Ready/Fault'},
+        {n:5, name:'HOPPER',       desc:'Connettore tramoggia'},
+        {n:6, name:'C-ETH',        desc:'Connettore Ethernet'},
+        {n:7, name:'STO',          desc:'Connettore STO'}
+      ]
+    },
+    encpanel: {
+      imgPath: '../../../../_shared/media/images/encpanel',
+      imgExt: '.PNG',
+      comps: [
+        {n:1, name:'POWER SUPPLY', desc:'Presa di corrente e interruttore; comprende anche un filtro IEC'},
+        {n:2, name:'LIGHT ON',     desc:'LED di stato backlight'},
+        {n:3, name:'READY/FAULT',  desc:'LED di stato Ready/Fault'},
+        {n:4, name:'HOPPER',       desc:'Connettore tramoggia'},
+        {n:5, name:'C-ETH',        desc:'Connettore Ethernet'},
+        {n:6, name:'ENCODER',      desc:'Passaggio cavo encoder'},
+        {n:7, name:'AIR SUPPLY',   desc:'Ingresso aria'},
+        {n:8, name:'I/O',          desc:'Connettore I/O'},
+        {n:9, name:'STO',          desc:'Connettore STO'}
+      ]
+    }
+  };
+  var state = {};
+  Object.keys(models).forEach(function(id){ state[id]={activeN:null,activeRow:null}; });
+  Object.keys(models).forEach(function(id){
+    var m  = models[id];
+    var el = document.getElementById(id+'-list');
+    m.comps.forEach(function(c){
+      var row = document.createElement('div');
+      row.className = 'ie-row';
+      row.innerHTML = '<div class="ie-bubble">'+c.n+'</div>'
+                    + '<div class="ie-name">'+c.name+'</div>'
+                    + '<div class="ie-desc">'+c.desc+'</div>';
+      row.addEventListener('click', function(){ toggle(id, c, row); });
+      el.appendChild(row);
+    });
+  });
+  function toggle(id, c, row){
+    var s       = state[id];
+    var m       = models[id];
+    var imgBase = document.getElementById(id+'-img-base');
+    var imgHl   = document.getElementById(id+'-img-hl');
+    var badge   = document.getElementById(id+'-badge');
+    var hint    = document.getElementById(id+'-hint');
+    if(s.activeN === c.n){ reset(id); return; }
+    if(s.activeRow) s.activeRow.classList.remove('on');
+    row.classList.add('on');
+    s.activeRow = row; s.activeN = c.n;
+    badge.textContent = c.name + ' \u2014 ' + c.desc;
+    badge.classList.add('on');
+    hint.style.opacity = '0';
+    var newImg = new Image();
+    newImg.onload = function(){
+      imgHl.src = newImg.src;
+      imgHl.style.opacity = '1';
+      imgBase.style.opacity = '0';
+    };
+    newImg.onerror = function(){
+      imgBase.style.opacity = '1';
+      imgHl.style.opacity = '0';
+    };
+    newImg.src = m.imgPath + c.n + m.imgExt;
+  }
+  function reset(id){
+    var s       = state[id];
+    var imgBase = document.getElementById(id+'-img-base');
+    var imgHl   = document.getElementById(id+'-img-hl');
+    var badge   = document.getElementById(id+'-badge');
+    var hint    = document.getElementById(id+'-hint');
+    if(s.activeRow) s.activeRow.classList.remove('on');
+    s.activeRow = null; s.activeN = null;
+    imgBase.style.opacity = '1';
+    imgHl.style.opacity = '0';
+    setTimeout(function(){ imgHl.src = ''; }, 350);
+    badge.classList.remove('on');
+    hint.style.opacity = '1';
+  }
+  window.ieSwitchTab = function(id, btn){
+    document.querySelectorAll('.ie-panel.on').forEach(function(p){
+      var oldId = p.id.replace('ie-panel-','');
+      reset(oldId);
+    });
+    document.querySelectorAll('.ie-tab').forEach(function(b){ b.classList.remove('on'); });
+    document.querySelectorAll('.ie-panel').forEach(function(p){ p.classList.remove('on'); });
+    btn.classList.add('on');
+    document.getElementById('ie-panel-'+id).classList.add('on');
+  };
+})();
+</script>
+:::
+
+
+:::{warning}
+Prima di effettuare qualsiasi connessione elettrica, assicurarsi che l'alimentazione sia disinserita e che il sistema sia in stato di sicurezza. 
+:::
+
+:::{important}
+Lasciare circa {ref}`100mm di spazio libero <dim800>` attorno ai connettori di alimentazione per agevolare le operazioni di cablaggio e manutenzione.
+:::
+
+## Interfaccia Utente
+
+### Collegamento Elettrico
+
+Per collegare elettricamente il FlexiBowl procedere come segue:
+
+- **Connessione di alimentazione**: collegare il FlexiBowl ad un'alimentazione 230 Vac utilizzando il connettore fornito in dotazione, identificato con la sigla **POWER SUPPLY**.
+
+- **Accensione/Spegnimento**: utilizzare il pulsante di alimentazione per accendere o spegnere il dispositivo.
+
+:::{figure} ../../../../_shared/media/images/stpanel1.PNG
+:width: 80%
+:center:
+:::
+
+:::{attention}
+Assicurarsi che il dispositivo sia collegato a terra prima di procedere all'accensione.
+:::
+
+### Fusibili – Alloggiamento
+
+Il connettore elettrico è provvisto di un supporto per l'alloggiamento di n. 2 fusibili, aventi la funzione di proteggere il dispositivo da eventuali anomalie elettriche.
+
+
+## Connettori e Interfacce
+
+### Connettore STO – Safety Torque Off
+
+Per attivare il motore è necessario collegare correttamente il sistema STO (Safety Torque Off) tramite il connettore identificato con la sigla **STO**.
+
+:::{figure} ../../../../_shared/media/images/stpanel7.PNG
+:width: 80%
+:center:
+:::
+
+Di seguito è riportato il pinout del connettore a 10 pin:
+
+:::{list-table}
+:widths: 20 80
+:header-rows: 1
+* - Pin
+  - Descrizione
+* - 1
+  - +24 Vdc
+* - 2
+  - −24 Vdc
+* - 3
+  - +STO1
+* - 4
+  - −STO1
+* - 5
+  - +STO2
+* - 6
+  - −STO2
+* - 7
+  - NC
+* - 8
+  - NC
+* - 9
+  - NC
+* - 10
+  - NC
+:::
+
+- **+STO1 e +STO2**: collegare al circuito di sicurezza. Questi ingressi devono ricevere +24 Vdc.
+
+- **−STO1 e −STO2**: collegare a riferimento −24 Vdc.
+
+### Connessione Ethernet
+
+Per la comunicazione con il FlexiBowl è disponibile la porta Ethernet identificata con la sigla **C-ETH**, accessibile anche tramite web browser.
+
+- **Tipo connettore**: M12, codifica D-Code
+
+:::{figure} ../../../../_shared/media/images/stpanel6.PNG
+:width: 80%
+:center:
+:::
+
+### Collegamento Tramogge
+
+Il FlexiBowl è dotato di una connessione verso uno o più controller di tramogge vibranti di produzione ARS, tramite il connettore M12 A-code identificato con la sigla **HOPPER**.
+
+:::{figure} ../../../../_shared/media/images/stpanel5.PNG
+:width: 80%
+:center:
+:::
+
+## LED di Stato
+
+Sul pannello frontale del FlexiBowl sono presenti due LED di stato:
+
+### LED – Light ON
+
+- **Colore**: Verde (unico stato)
+
+Indica se il backlight a bordo del FlexiBowl è nello stato ON (acceso) o OFF (spento). Il backlight viene utilizzato dal sistema di visione per illuminare i componenti e renderli riconoscibili. L'attivazione del backlight è accessibile tramite il software di visione oppure mediante comandi provenienti da un sistema esterno in comunicazione Ethernet.
+
+### LED – Ready / Fault
+
+Questo LED può avere due stati:
+
+:::{list-table}
+:widths: 30 70
+:header-rows: 1
+* - Colore LED
+  - Significato
+* - Verde
+  - Sistema operativo e privo di anomalie. Collegamento Ethernet corretto.
+* - Rosso
+  - Anomalia interna o anomalia nel collegamento Ethernet. Fare riferimento alla tabella delle anomalie.
+:::
+
+## Pannellino FlexiTrack
+
+Il pannellino in dotazione con l'opzione FlexiTrack prevede i seguenti connettori:
+
+:::::{grid} 1
+:gutter: 2
+
+::::{grid-item} Sofffi radiali
+
+:::{figure} ../../../../_shared/media/images/encpanel6.PNG
+:width: 100%
+:::
+
+::::
+
+::::{grid-item} Soffio centrale
+
+:::{figure} ../../../../_shared/media/images/encpanel8.PNG
+:width: 100%
+:::
+
+::::
+
+- **Connettore I/O**: scambio segnali digitali, inclusa la funzione Latch.
+
+- **Passacavo encoder**: dedicato all'encoder interno al FlexiBowl.
+
+### Connettore I/O – 19 pin
+
+Di seguito è riportata la mappa segnali del connettore a 19 pin:
+
+:::{list-table}
+:widths: 25 75
+:header-rows: 1
+* - Pin
+  - Segnale
+* - 1
+  - IN – Bit 1 – Seq. Cmd
+* - 2
+  - IN – Bit 2 – Seq. Cmd
+* - 3
+  - IN – Bit 3 – Seq. Cmd
+* - 4
+  - IN – Bit 4 – Seq. Cmd
+* - 5
+  - IN – Bit 5 – Seq. Cmd
+* - 6
+  - IN – Latch
+* - 7
+  - NC
+* - 8
+  - NC
+* - 9
+  - OUT – Ready
+* - 10
+  - OUT – Fault
+* - 11
+  - OUT – Busy
+* - 12
+  - OUT – Hopper_1_IsVibrating
+* - 13
+  - OUT – Hopper_2_IsVibrating
+* - 14
+  - OUT – Hopper_3_IsVibrating
+* - 15
+  - OUT – Hopper_4_IsVibrating
+* - 16
+  - NC
+* - 17
+  - NC
+* - 18
+  - NC
+* - 19
+  - NC
+:::
+
+## Pannello Rack (FB 200 / FB 350)
+
+I modelli FlexiBowl FB 200 e FB 350 sono dotati di un Rack contenente tutti i dispositivi elettronici necessari al funzionamento. Il pannello di interfaccia prevede connettori dedicati allo scambio dati tra la stazione remota e il FlexiBowl.
+
+Oltre ai connettori standard presenti nei pannelli per le taglie superiori, sono disponibili i seguenti connettori dedicati:
+- **C-ETH FB**: collegamento Ethernet con FlexiBowl.
+- **C-A Signal**: segnali analogici di comando.
+- **C-B Signal**: segnali digitali di comando.
+- **Motor**: alimentazione ausiliaria, comando motore e segnali STO.
+
+### Connettore C-A Signal
+
+:::{figure} ../../../../_shared/media/images/rack4.PNG
+:width: 80%
+:center:
+:::
+
+Connettore a 12 pin per segnali analogici:
+
+:::{list-table}
+:widths: 20 80
+:header-rows: 1
+* - Pin
+  - Descrizione
+* - 1
+  - Analog Output 1
+* - 2
+  - −24 Vdc
+* - 3
+  - Analog Input 1
+* - 4
+  - +24 Vdc
+* - 5–12
+  - NC
+:::
+
+### Connettore C-B Signal
+
+:::{figure} ../../../../_shared/media/images/rack5.PNG
+:width: 80%
+:center:
+:::
+
+Connettore a 19 pin per segnali digitali:
+
+:::{list-table}
+:widths: 20 80
+:header-rows: 1
+* - Pin
+  - Descrizione
+* - 1
+  - +24 Vdc – Attivazione Led Verde Stato
+* - 2
+  - −24 Vdc – Comune Led Stato
+* - 3
+  - +24 Vdc – Attivazione Led Rosso Stato
+* - 4
+  - +24 Vdc – Attivazione Led Stato Back light
+* - 5
+  - −24 Vdc – Attivazione Led Stato Back light
+* - 6
+  - +24 Vdc – Attivazione Back light
+* - 7
+  - −24 Vdc – Attivazione Back light
+* - 8
+  - +24 Vdc – Attivazione Flip
+* - 9
+  - −24 Vdc – Attivazione Flip
+* - 10
+  - +24 Vdc – Attivazione Blow
+* - 11
+  - −24 Vdc – Attivazione Blow
+* - 12–19
+  - NC
+:::
+### Connettore Motor
+
+:::{figure} ../../../../_shared/media/images/rack3.PNG
+:width: 80%
+:center:
+:::
+
+Connettore a 9 pin per alimentazione motore e segnali STO:
+
+:::{list-table}
+:widths: 20 80
+:header-rows: 1
+* - Pin
+  - Descrizione
+* - 1
+  - +STO1 – Safety Torque Off
+* - 2
+  - +24 Vdc – Alimentazione ausiliaria
+* - 3
+  - +STO2 – Safety Torque Off
+* - 4
+  - −24 Vdc – Alimentazione ausiliaria
+* - 5
+  - NC
+* - 6
+  - +48 Vdc – Motor Power
+* - 7
+  - −STO1 – Safety Torque Off
+* - 8
+  - −48 Vdc – Motor Power
+* - 9
+  - −STO2 – Safety Torque Off
+:::
+
+### Connessione Ethernet FlexiBowl
+
+:::{figure} ../../../../_shared/media/images/rack8.PNG
+:width: 80%
+:center:
+:::
+
+Connettore M12 D-Code per il collegamento del Rack con il FlexiBowl.
+
+## Note e Avvertenze Generali
+
+:::{attention}
+Tutte le operazioni di connessione devono essere eseguite a dispositivo spento e scollegato dall'alimentazione.
+:::
+
+:::{attention}
+Il collegamento di terra è obbligatorio e deve essere verificato prima di ogni accensione.
+:::
+
+:::{attention}
+In caso di anomalia indicata dal LED rosso (Ready/Fault), fare riferimento alla tabella delle anomalie specifica del modello.
+:::
+
+:::{attention}
+Per ulteriori informazioni tecniche o assistenza, contattare ARS s.r.l. – FlexiBowl® Division.
+:::
+
+
+<br>
+
+<!-- Versions and languages set-up -->
+<style>
+  .fixed-bar {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(240, 240, 240, 0.85);
+    border: 1px solid rgba(100, 100, 100, 0.3);
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+    color: #222;
+    display: flex;
+    gap: 12px;
+    padding: 6px 12px;
+    align-items: center;
+    z-index: 9999;
+    backdrop-filter: saturate(180%) blur(10px);
+  }
+
+  @media print {
+    .fixed-bar {
+      display: none !important;
+    }
+  }
+
+  .fixed-bar .dropdown {
+    position: relative;
+    user-select: none;
+  }
+
+  .fixed-bar .dropdown-toggle {
+    background-color: rgba(200, 200, 200, 0.4);
+    color: #222;
+    padding: 6px 10px;
+    border: 1px solid rgba(100, 100, 100, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+  }
+
+  .fixed-bar .dropdown-toggle::after {
+    content: none !important;
+    display: none !important;
+  }
+
+  .fixed-bar .dropdown-toggle:hover {
+    background-color: rgba(100, 150, 220, 0.2);
+    color: #1a3e72;
+    border-color: rgba(26, 62, 114, 0.6);
+  }
+
+  .fixed-bar .dropdown-toggle .fa {
+    font-size: 0.9rem;
+  }
+
+  .fixed-bar .dropdown-menu {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background-color: rgba(250, 250, 250, 0.95);
+    border: 1px solid rgba(150, 150, 150, 0.3);
+    border-radius: 4px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    min-width: 140px;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    flex-direction: column;
+    z-index: 10000;
+    backdrop-filter: saturate(180%) blur(8px);
+  }
+
+  .fixed-bar .dropdown-menu.show {
+    display: flex;
+  }
+
+  .fixed-bar .dropdown-menu a {
+    padding: 8px 12px;
+    color: #1a3e72;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+    white-space: nowrap;
+    transition: background-color 0.25s ease;
+  }
+
+  .fixed-bar .dropdown-menu a:last-child {
+    border-bottom: none;
+  }
+
+  .fixed-bar .dropdown-menu a:hover {
+    background-color: rgba(100, 150, 220, 0.15);
+  }
+
+  .dropdown-download-buttons .btn__icon-container svg {
+    width: 1em;
+    height: 1em;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    vertical-align: middle;
+  }
+
+  a.headerlink.manual-heading-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.2em;
+    text-decoration: none;
+    color: #7b8493;
+    transition: color 0.2s ease, opacity 0.2s ease;
+  }
+
+  a.headerlink.manual-heading-action svg {
+    width: 0.8em;
+    height: 0.8em;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    vertical-align: middle;
+  }
+
+  a.headerlink.manual-feedback-link:hover,
+  a.headerlink.manual-feedback-link:focus-visible {
+    color: #2563eb;
+  }
+
+  a.headerlink.manual-service-link:hover,
+  a.headerlink.manual-service-link:focus-visible {
+    color: #d97706;
+  }
+</style>
+
+<div class="fixed-bar" role="region" aria-label="Version and language selector">
+  <div class="dropdown" data-selector="version">
+    <div class="dropdown-toggle" tabindex="0" aria-haspopup="listbox" aria-expanded="false">
+      Version: <span class="current-value">V. 1.0</span>
+      <span class="caret-icon" aria-hidden="true">&#9662;</span>
+    </div>
+    <div class="dropdown-menu" role="listbox">
+      	<a href="#" role="option">V. 1.0</a>
+    </div>
+  </div>
+
+  <div class="dropdown" data-selector="language">
+    <div class="dropdown-toggle" tabindex="0" aria-haspopup="listbox" aria-expanded="false">
+      Language: <span class="current-value">DE</span>
+      <span class="caret-icon" aria-hidden="true">&#9662;</span>
+    </div>
+    <div class="dropdown-menu" role="listbox">
+      	<a href="#" role="option">DE</a>
+				<a href="#" role="option">EN</a>
+				<a href="#" role="option">ES</a>
+				<a href="#" role="option">FR</a>
+				<a href="#" role="option">IT</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const bar = document.querySelector('.fixed-bar');
+    if (!bar) {
+      return;
+    }
+
+    const inlineVersions = ["V. 1.0"];
+    const inlineLanguages = ["DE", "EN", "ES", "FR", "IT"];
+    const manifest = window.FV_VERSIONING || null;
+    const versions = Array.isArray(manifest && manifest.versions) && manifest.versions.length
+      ? manifest.versions
+      : inlineVersions;
+    const offlineZipEnabled = false;
+    const offlineZipFileName = 'Offline manual.zip';
+    const americanRegions = new Set([
+      'AG', 'AR', 'AW', 'BB', 'BL', 'BM', 'BO', 'BQ', 'BR', 'BS', 'BZ', 'CA', 'CL', 'CO', 'CR',
+      'CU', 'CW', 'DM', 'DO', 'EC', 'FK', 'GD', 'GF', 'GL', 'GP', 'GT', 'GY', 'HN', 'HT', 'JM',
+      'KN', 'KY', 'LC', 'MF', 'MQ', 'MS', 'MX', 'NI', 'PA', 'PE', 'PM', 'PR', 'PY', 'SR', 'SV',
+      'SX', 'TC', 'TT', 'US', 'UY', 'VC', 'VE', 'VG', 'VI', '419'
+    ]);
+    const additionalAmericanTimeZones = new Set([
+      'Atlantic/Bermuda',
+      'Pacific/Easter',
+      'Pacific/Galapagos',
+      'Pacific/Honolulu',
+      'Pacific/Pitcairn'
+    ]);
+
+    function setCaret(toggle, isOpen) {
+      const caret = toggle.querySelector('.caret-icon');
+      if (caret) {
+        caret.innerHTML = isOpen ? '&#9652;' : '&#9662;';
+      }
+    }
+
+    function closeAllMenus() {
+      bar.querySelectorAll('.dropdown').forEach(dropdown => {
+        const menu = dropdown.querySelector('.dropdown-menu');
+        const toggle = dropdown.querySelector('.dropdown-toggle');
+        menu.classList.remove('show');
+        toggle.setAttribute('aria-expanded', 'false');
+        setCaret(toggle, false);
+      });
+    }
+
+    function getLanguagesForVersion(version) {
+      const manifestLanguages = manifest &&
+        manifest.languagesByVersion &&
+        Array.isArray(manifest.languagesByVersion[version]) &&
+        manifest.languagesByVersion[version].length
+          ? manifest.languagesByVersion[version]
+          : null;
+
+      if (manifestLanguages) {
+        return manifestLanguages;
+      }
+
+      return inlineLanguages;
+    }
+
+    function getDefaultLanguageForVersion(version) {
+      const manifestDefault = manifest &&
+        manifest.defaultLanguageByVersion &&
+        typeof manifest.defaultLanguageByVersion[version] === 'string'
+          ? manifest.defaultLanguageByVersion[version]
+          : '';
+
+      if (manifestDefault) {
+        return manifestDefault;
+      }
+
+      const availableLanguages = getLanguagesForVersion(version);
+      return availableLanguages.length ? availableLanguages[0] : (inlineLanguages[0] || '');
+    }
+
+    function populateSelectorMenu(selector, values) {
+      const menu = bar.querySelector(`[data-selector="${selector}"] .dropdown-menu`);
+      if (!menu) {
+        return;
+      }
+
+      menu.innerHTML = '';
+      values.forEach(value => {
+        const link = document.createElement('a');
+        link.href = '#';
+        link.setAttribute('role', 'option');
+        link.textContent = value;
+        menu.appendChild(link);
+      });
+    }
+
+    function getNavigationContext() {
+      const currentUrl = new URL(window.location.href);
+      const rawSegments = currentUrl.pathname.split('/').filter(Boolean);
+      const decodedSegments = rawSegments.map(segment => decodeURIComponent(segment));
+      const currentVersionLabel = bar.querySelector('[data-selector="version"] .current-value');
+      const currentLanguageLabel = bar.querySelector('[data-selector="language"] .current-value');
+      const fallbackVersion = currentVersionLabel ? currentVersionLabel.textContent.trim() : '';
+      const versionIndex = decodedSegments.findIndex(segment => versions.includes(segment));
+      const currentVersion = versionIndex !== -1 ? decodedSegments[versionIndex] : fallbackVersion;
+      const availableLanguages = getLanguagesForVersion(currentVersion);
+      const fallbackLanguage = currentLanguageLabel ? currentLanguageLabel.textContent.trim() : '';
+      const languageIndex = decodedSegments.findIndex(
+        (segment, index) => index > versionIndex && availableLanguages.includes(segment)
+      );
+
+      return {
+        currentUrl: currentUrl,
+        rawSegments: rawSegments,
+        versionIndex: versionIndex,
+        currentVersion: currentVersion,
+        currentLanguage: languageIndex !== -1 ? decodedSegments[languageIndex] : fallbackLanguage
+      };
+    }
+
+    function refreshNavigationMenus() {
+      const context = getNavigationContext();
+      const resolvedVersion = versions.includes(context.currentVersion) ? context.currentVersion : (versions[0] || context.currentVersion);
+      const availableLanguages = getLanguagesForVersion(resolvedVersion);
+      const resolvedLanguage = availableLanguages.includes(context.currentLanguage)
+        ? context.currentLanguage
+        : (getDefaultLanguageForVersion(resolvedVersion) || context.currentLanguage);
+
+      populateSelectorMenu('version', versions);
+      populateSelectorMenu('language', availableLanguages);
+
+      const versionLabel = bar.querySelector('[data-selector="version"] .current-value');
+      const languageLabel = bar.querySelector('[data-selector="language"] .current-value');
+      if (versionLabel) {
+        versionLabel.textContent = resolvedVersion;
+      }
+      if (languageLabel) {
+        languageLabel.textContent = resolvedLanguage;
+      }
+    }
+
+    function buildScopedUrl(targetVersion, targetLanguage, pageName) {
+      const context = getNavigationContext();
+      const rootSegments = context.versionIndex !== -1 ? context.rawSegments.slice(0, context.versionIndex) : [];
+      const targetPath = '/' + rootSegments.concat([
+        encodeURIComponent(targetVersion),
+        encodeURIComponent(targetLanguage),
+        encodeURIComponent(pageName)
+      ]).join('/');
+
+      if (context.currentUrl.protocol === 'file:') {
+        return 'file://' + targetPath;
+      }
+
+      return context.currentUrl.origin + targetPath;
+    }
+
+    function buildTargetUrl(targetVersion, targetLanguage) {
+      return buildScopedUrl(targetVersion, targetLanguage, 'index.html');
+    }
+
+    function buildSiteRootAssetUrl(fileName) {
+      const context = getNavigationContext();
+      const rootSegments = context.versionIndex !== -1 ? context.rawSegments.slice(0, context.versionIndex) : [];
+      const targetPath = '/' + rootSegments.concat([encodeURIComponent(fileName)]).join('/');
+
+      if (context.currentUrl.protocol === 'file:') {
+        return 'file://' + targetPath;
+      }
+
+      return context.currentUrl.origin + targetPath;
+    }
+
+    function buildClientSiteZipUrl() {
+      return buildSiteRootAssetUrl(offlineZipFileName);
+    }
+
+    function getHeadingText(heading) {
+      const clone = heading.cloneNode(true);
+      clone.querySelectorAll('a.headerlink').forEach(link => link.remove());
+      return clone.textContent.replace(/\s+/g, ' ').trim();
+    }
+
+    function normalizeMailText(text) {
+      return String(text || '').replace(/\u00AE/g, '');
+    }
+
+    function getTimeZoneAmericaDecision() {
+      try {
+        const timeZone = String(Intl.DateTimeFormat().resolvedOptions().timeZone || '').trim();
+        if (!timeZone) {
+          return null;
+        }
+        return timeZone.startsWith('America/') || additionalAmericanTimeZones.has(timeZone);
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function isCoordinateInAmericas(latitude, longitude) {
+      if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
+        return null;
+      }
+
+      return latitude >= -60 && latitude <= 85 && longitude >= -170 && longitude <= -25;
+    }
+
+    function getCurrentPosition(options) {
+      return new Promise((resolve, reject) => {
+        if (!navigator.geolocation || typeof navigator.geolocation.getCurrentPosition !== 'function') {
+          reject(new Error('Geolocation unavailable'));
+          return;
+        }
+
+        navigator.geolocation.getCurrentPosition(resolve, reject, options);
+      });
+    }
+
+    async function resolveServiceAddress() {
+      const timeZoneDecision = getTimeZoneAmericaDecision();
+      if (timeZoneDecision === false) {
+        return 'service@arsautomation.com';
+      }
+
+      const canTryGeolocation = Boolean(
+        navigator.onLine &&
+        window.isSecureContext &&
+        navigator.geolocation &&
+        typeof navigator.geolocation.getCurrentPosition === 'function'
+      );
+
+      if (canTryGeolocation) {
+        try {
+          const position = await getCurrentPosition({
+            enableHighAccuracy: false,
+            timeout: 4000,
+            maximumAge: 300000
+          });
+          const inAmericas = isCoordinateInAmericas(position.coords.latitude, position.coords.longitude);
+          if (inAmericas !== null) {
+            return inAmericas ? 'us.service@arsautomation.com' : 'service@arsautomation.com';
+          }
+        } catch (error) {
+        }
+      }
+
+      if (timeZoneDecision === true) {
+        return 'us.service@arsautomation.com';
+      }
+
+      return 'service@arsautomation.com';
+    }
+
+    function buildMailtoUrl(address, subject, body) {
+      return 'mailto:' + address +
+        '?subject=' + encodeURIComponent(normalizeMailText(subject)) +
+        '&body=' + encodeURIComponent(normalizeMailText(body));
+    }
+
+    function createHeadingActionLink(className, title, mailtoUrl, svgMarkup) {
+      const link = document.createElement('a');
+      link.className = 'headerlink manual-heading-action ' + className;
+      link.href = mailtoUrl;
+      link.title = title;
+      link.setAttribute('aria-label', title);
+      link.innerHTML = svgMarkup;
+      return link;
+    }
+
+    function addHeadingActions() {
+      const feedbackIcon = [
+        '<svg viewBox="0 0 16 16" aria-hidden="true">',
+        '<path d="M3 3.5h10v6.5H7.5L4.5 13v-3H3z"></path>',
+        '<path d="M6 6.2h4"></path>',
+        '<path d="M6 8.2h3"></path>',
+        '</svg>'
+      ].join('');
+
+        const serviceIcon = [
+          '<svg viewBox="0 0 16 16" aria-hidden="true">',
+          '<circle cx="8" cy="8" r="5.2"></circle>',
+          '<path d="M6.4 6.1A1.9 1.9 0 0 1 8 5.2c1.1 0 1.9.7 1.9 1.7 0 .8-.4 1.3-1.2 1.8-.6.4-.9.8-.9 1.5"></path>',
+          '<circle cx="8" cy="11.7" r="0.45" style="fill:currentColor;stroke:none"></circle>',
+          '</svg>'
+        ].join('');
+
+      document.querySelectorAll('h1 > a.headerlink, h2 > a.headerlink, h3 > a.headerlink, h4 > a.headerlink, h5 > a.headerlink, h6 > a.headerlink').forEach(link => {
+        const heading = link.parentElement;
+        if (!heading || heading.querySelector('.manual-feedback-link') || heading.querySelector('.manual-service-link')) {
+          return;
+        }
+
+        const sectionTitle = getHeadingText(heading);
+        const sectionUrl = new URL(link.getAttribute('href'), window.location.href).href;
+        const pageUrl = window.location.href.split('#')[0];
+        const feedbackBody = [
+          'Hello Documentation Team,',
+          '',
+          'I would like to suggest an improvement for this section of the manual.',
+          '',
+          'Section: ' + sectionTitle,
+          'Page: ' + pageUrl,
+          'Section link: ' + sectionUrl,
+          '',
+          'Suggestion:',
+          ''
+        ].join('\n');
+          const serviceBody = [
+            'Hello Service Team,',
+            '',
+            'I need support related to this section of the manual.',
+            '',
+            'Section: ' + sectionTitle,
+            'Page: ' + pageUrl,
+            'Section link: ' + sectionUrl,
+            '',
+            'FlexiBowl serial number:',
+            '',
+            'Photos or videos of the issue attached:',
+            '',
+            'Issue description:',
+            ''
+          ].join('\n');
+
+        const feedbackLink = createHeadingActionLink(
+          'manual-feedback-link',
+          'Suggest an improvement for this section',
+          buildMailtoUrl('documentation@arsautomation.com', 'Documentation suggestion: ' + sectionTitle, feedbackBody),
+          feedbackIcon
+        );
+          const serviceLink = createHeadingActionLink(
+            'manual-service-link',
+            'Contact service about this section',
+            '#',
+            serviceIcon
+          );
+          serviceLink.addEventListener('click', async event => {
+            event.preventDefault();
+            const serviceAddress = await resolveServiceAddress();
+            window.location.href = buildMailtoUrl(serviceAddress, 'Service request: ' + sectionTitle, serviceBody);
+          });
+
+          heading.appendChild(feedbackLink);
+          heading.appendChild(serviceLink);
+        });
+    }
+
+    function enhancePrintMenu() {
+      const dropdown = document.querySelector('.dropdown-download-buttons');
+      if (!dropdown || dropdown.dataset.printMenuEnhanced === 'true') {
+        return;
+      }
+
+      dropdown.dataset.printMenuEnhanced = 'true';
+
+      const toggleButton = dropdown.querySelector('.dropdown-toggle');
+      const hasReleaseDownloads = offlineZipEnabled;
+
+      if (toggleButton) {
+        const toggleLabel = hasReleaseDownloads ? 'Export options' : 'Print options';
+        toggleButton.setAttribute('aria-label', toggleLabel);
+        toggleButton.setAttribute('title', toggleLabel);
+        toggleButton.setAttribute('data-bs-original-title', toggleLabel);
+        const toggleIcon = toggleButton.querySelector('i');
+        if (toggleIcon) {
+          toggleIcon.className = hasReleaseDownloads ? 'fas fa-download' : 'fas fa-print';
+        }
+      }
+
+      dropdown.querySelectorAll('.btn-download-source-button').forEach(sourceButton => {
+        const sourceItem = sourceButton.closest('li');
+        if (sourceItem) {
+          sourceItem.remove();
+        }
+      });
+
+      const pagePrintButton = dropdown.querySelector('.btn-download-pdf-button');
+      if (pagePrintButton) {
+        pagePrintButton.setAttribute('title', 'Print this page');
+        pagePrintButton.setAttribute('aria-label', 'Print this page');
+        pagePrintButton.setAttribute('data-bs-original-title', 'Print this page');
+        const textContainer = pagePrintButton.querySelector('.btn__text-container');
+        if (textContainer) {
+          textContainer.textContent = 'Print this page';
+        }
+      }
+
+      const menu = dropdown.querySelector('.dropdown-menu');
+      if (!menu) {
+        return;
+      }
+
+      menu.querySelectorAll('.btn-download-client-site-zip-button').forEach(button => {
+        const item = button.closest('li');
+        if (item) {
+          item.remove();
+        }
+      });
+
+      if (offlineZipEnabled) {
+        const siteZipItem = document.createElement('li');
+        const siteZipLink = document.createElement('a');
+        siteZipLink.className = 'btn btn-sm dropdown-item btn-download-client-site-zip-button';
+        siteZipLink.title = 'Download offline manual';
+        siteZipLink.setAttribute('aria-label', 'Download offline manual');
+        siteZipLink.setAttribute('download', offlineZipFileName);
+        siteZipLink.href = buildClientSiteZipUrl();
+        siteZipLink.innerHTML = [
+          '<span class="btn__icon-container">',
+          '<svg viewBox="0 0 16 16" aria-hidden="true">',
+          '<path d="M4 3.5h8v2.5H4z"></path>',
+          '<path d="M4 6h8v6.5H4z"></path>',
+          '<path d="M8 3.5v9"></path>',
+          '<path d="M6.3 9.2L8 10.9l1.7-1.7"></path>',
+          '</svg>',
+          '</span>',
+          '<span class="btn__text-container">Download offline manual</span>'
+        ].join('');
+        siteZipItem.appendChild(siteZipLink);
+        menu.appendChild(siteZipItem);
+      }
+    }
+
+    refreshNavigationMenus();
+
+    bar.querySelectorAll('.dropdown').forEach(dropdown => {
+      const toggle = dropdown.querySelector('.dropdown-toggle');
+      const menu = dropdown.querySelector('.dropdown-menu');
+      const selector = dropdown.getAttribute('data-selector');
+
+      toggle.addEventListener('click', event => {
+        event.stopPropagation();
+        const willOpen = toggle.getAttribute('aria-expanded') !== 'true';
+        closeAllMenus();
+
+        if (willOpen) {
+          menu.classList.add('show');
+          toggle.setAttribute('aria-expanded', 'true');
+          setCaret(toggle, true);
+        }
+      });
+
+      menu.addEventListener('click', event => {
+        const link = event.target.closest('a');
+        if (!link) {
+          return;
+        }
+
+        event.preventDefault();
+        const selectedValue = link.textContent.trim();
+        const context = getNavigationContext();
+        if (!selectedValue) {
+          return;
+        }
+
+        if (selector === 'version') {
+          const targetVersion = selectedValue;
+          const availableLanguages = getLanguagesForVersion(targetVersion);
+          const targetLanguage = availableLanguages.includes(context.currentLanguage)
+            ? context.currentLanguage
+            : getDefaultLanguageForVersion(targetVersion);
+          if (targetLanguage) {
+            window.location.href = buildTargetUrl(targetVersion, targetLanguage);
+          }
+          return;
+        }
+
+        window.location.href = buildTargetUrl(context.currentVersion, selectedValue);
+      });
+    });
+
+    window.addEventListener('click', closeAllMenus);
+    window.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        closeAllMenus();
+      }
+    });
+
+    addHeadingActions();
+    enhancePrintMenu();
+  })();
+</script>
