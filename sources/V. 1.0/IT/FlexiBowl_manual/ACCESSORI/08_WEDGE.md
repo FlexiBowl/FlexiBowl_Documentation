@@ -3,6 +3,11 @@
 
 Il Wedge Diverter consiste in un dosso posizionato a monte dell'area di flip, sotto alla superficie per creare un rialzo che riporta i componenti in una zona in cui il flip possa essere più efficace.
 
+:::{figure} ../../../../_shared/media/images/wedge.PNG
+:width: 100%
+:align: center
+:::
+
 ## Applicazioni consigliate 
 
 Soluzione da adottare per la movimentazione di componenti delicati che possono rompersi o deformarsi sotto l’azione del flip. È particolarmente indicato per pezzi che rotolano o scivolano facilmente. 
@@ -11,6 +16,11 @@ Soluzione da adottare per la movimentazione di componenti delicati che possono r
 
 :::{warning} Attenzione
 Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il montaggio.
+:::
+
+:::{figure} ../../../../_shared/media/images/wedgemount.PNG
+:width: 100%
+:align: center
 :::
 
 ### FB500: 
@@ -30,7 +40,7 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il 
 | 2 | Svitare le viti di regolazione per rimuovere entrambi i deviatori |
 | 3 | Assicurandosi che siano presenti i dadi quadri, montare la cartuccia wedge diverter al posto del deviatore pre-flip |
 | 4 | Sostituire il settore di anello a monte del deviatore pre-flip con quello fornito nel kit |
-| 5 | Fissare la parete tramite quattro viti di fissaggio: due viti TCEI M6x120 si fissano in corrispondenza della cartuccia wedge diverter, mentre le due viti TCEI M6x160 si - fissano in corrispondenza del settore di anello appena montato |
+| 5 | Fissare la parete con le viti fornite |
 
 ### FB1200: 
 
@@ -41,7 +51,7 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il 
 | 3 | Rimuovere il settore di anello su cui era montato il deviatore pre-flip e sostituirlo con il settore di anello incluso nel kit |
 | 4 | Montare la cartuccia tappo al posto del deviatore post-flip |
 | 5 | Assicurandosi che siano presenti i dadi quadri, montare la cartuccia wedge diverter al posto del deviatore pre-flip |
-| 6 | Fissare la parete tramite quattro viti di fissaggio: due viti TCEI M6x140 si fissano in corrispondenza della cartuccia wedge diverter, mentre le due viti TCEI M6x160 si fissano in corrispondenza del settore di anello appena montato |
+| 6 | Fissare la parete con le viti fornite |
 
 ## Procedura di regolazione 
 

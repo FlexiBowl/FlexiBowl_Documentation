@@ -35,6 +35,27 @@ Nel fissaggio delle viti utilizzare sempre LOCTITE 243, in modo da eseguire un p
   - Ogni sei mesi
   - Annualmente
 
+* - Controllo del corretto funzionamento dei dispositivi di sicurezza
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+  - 
+
+* - Controllo delle condizioni della superficie o disco rigido
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+  - 
+  - 
+  - 
+  - 
+
+* - Pulizia della superficie o disco rigido
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+  - 
+  - 
+  - 
+
 * - Sostituzione della superficie o disco rigido
   - 
   - 
@@ -42,16 +63,9 @@ Nel fissaggio delle viti utilizzare sempre LOCTITE 243, in modo da eseguire un p
   - 
   - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
 
-* - Pulizia della superficie o disco rigido
-  - 
-  - 
-  - 
-  - 
-  - 
-
 * - Pulizia generale del FlexiBowl® 
   - 
-  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
   - 
   - 
   - 
@@ -59,7 +73,7 @@ Nel fissaggio delle viti utilizzare sempre LOCTITE 243, in modo da eseguire un p
 * - Controllo visivo del flip
   - 
   - 
-  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔¹</div>
   - 
   - 
 
@@ -67,9 +81,45 @@ Nel fissaggio delle viti utilizzare sempre LOCTITE 243, in modo da eseguire un p
   - 
   - 
   - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+  - 
+
+* - Controllo dello stato dei fusibili
+  - 
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+
+* - Controllo dello stato di usura dei relè
+  - 
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+
+* - Controllo del corretto funzionamento delle elettrovalvole
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔²</div>
+  - 
+
+* - Controllo dello stato di usura del FlexiBowl®
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔³</div>
+  - 
   - 
   - 
 
+:::
+
+:::{note}
+**¹** Si consiglia di procedere ogni anno alla sua completa sostituzione.
+
+**²** Si consigia di procedere ogni due anni alla loro completa sostituzione.
+
+**³** Procedere alla completa sostituzione in base al grado di usura rilevato.
 :::
 
 :::{toctree}

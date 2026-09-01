@@ -54,6 +54,9 @@ Alcune parti interessate dal processo di manutenzione qua descritto possono aver
 * - Chiave esagonale H4
   - 1
 
+* - Chiave inglese 20mm
+  - 1
+
 * - Gruppo flip sostitutivo
   - 1
 
@@ -95,6 +98,36 @@ Alcune parti interessate dal processo di manutenzione qua descritto possono aver
 :::{note}
 Per facilitare il lavoro è possibile rimuovere i carter, stando attenti a non tirare eccessivamente i cavi dei LED di stato.
 :::
+
+È anche possibile sostituire la porzione superiore del flip:
+
+| Step | Operazione |
+|:----:|-----------|
+| 1 | Rimuovere lo schermo flip |
+| 2 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
+| 3 | Rimuovere le viti del carter che si trova sul lato flip |
+| 4 | Rimuovere le viti che fissano il supporto dello schermo al pianale superiore |
+| 5 | Scollegare gli allacciamenti pneumatici del blocco distributore e rimuoverlo insieme al carter |
+| 6 | Svitare la porzione superiore del flip e sostituirla col nuovo sottoassieme |
+| 7 | A sostituzione terminata, rimontare tutti i componenti |
+
+::::{raw} html
+<figure style="text-align: center;">
+  <video id="sostflip200-1" width="100%" height="auto" controls>
+    <source src="../../../../_shared/media/videos/AS000001_cambio-flip-sup.mp4" type="video/mp4">
+    Il tuo browser non supporta il video.
+  </video>
+  <br>
+  <label for="velcamflip200-1">Velocità:</label>
+  <select id="velcamflip200-1" onchange="document.getElementById('sostflip200-1').playbackRate = this.value">
+    <option value="0.5">0.5x</option>
+    <option value="1" selected>1x</option>
+    <option value="1.5">1.5x</option>
+    <option value="2">2x</option>
+  </select>
+  <figcaption><i>Procedura di sostituzione della porzione superiore del gruppo flip illustrata su FlexiBowl® 200</i></figcaption>
+</figure>
+::::
 
 ## FlexiBowl® 350-500-650-800-1200
 
