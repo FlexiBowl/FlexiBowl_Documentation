@@ -76,6 +76,10 @@ Seguono le interfacce di foratura e le posizioni e ampiezze dello sportello di f
 (rackinstall)=
 ## Scatola rack (per FlexiBowl® 200 e 350)
 
+Il controller è realizzato in un contenitore standard rack 19″ da 3U ed è predisposto per l’installazione in armadi rack compatibili.
+
+Per l’installazione deve essere riservato uno spazio minimo di 3 unità rack (3U). Le dimensioni e la posizione dei punti di fissaggio sono riportate nel disegno dimensionale.
+
 :::{figure} ../../../../_shared/media/images/rackfix.PNG
 :align: center
 :::

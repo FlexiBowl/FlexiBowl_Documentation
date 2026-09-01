@@ -225,6 +225,7 @@ ARS S.r.l. non risponde dei danni, a cose o a persone, causati da incidenti prov
 
 Dopo il disimballo, il FlexiBowl® si presenta già interamente montato. Seguire la seguente tabella per i pesi e gli ingombri dei vari modelli:
 
+(dims&weight)=
 :::{list-table}
 :widths: 40 40 40
 :header-rows: 1
@@ -234,33 +235,37 @@ Dopo il disimballo, il FlexiBowl® si presenta già interamente montato. Seguire
   - Ingombri
 
 * - FlexiBowl® 200
-  - xxx kg
-  - xxxx
+  - 7 kg*
+  - Ø240 x 196 mm
 
 * - FlexiBowl® 350
-  - xxx kg
-  - xxxx
+  - 14 kg*
+  - Ø384 x 234 mm
 
 * - FlexiBowl® 500
-  - xxx kg
-  - xxxx
+  - 35 kg
+  - 668 x 535 x 275 mm
 
 * - FlexiBowl® 650
-  - xxx kg
-  - xxxx
+  - 51 kg
+  - 821 x 694 x 314.50 mm
 
 * - FlexiBowl® 800
-  - xxx kg
-  - xxxx
+  - 67 kg
+  - 973 x 884 x 342 mm
 
 * - FlexiBowl® 1200
-  - xxx kg
-  - xxxx
+  - 144 kg
+  - 1386 x 1240 x 388 mm
 
 :::
 
+:::{note}
+Misura riferita al solo FlexiBowl®; il rack per l'elettronica remotata, annesso alle taglie a cui si fa riferimento, pesa 10 kg.
+:::
+
 :::{warning}
-La normativa **EN ISO 11228-1-2022** proibisce di sollevare manualmente carichi superiori ai 25kg (il limite può essere anche inferiore in base al sesso e all'età dell'operatore) quindi, per ragioni di sicurezza, è obbligatorio l'uso di macchine di sollevamento per i FlexiBowl® che superano questo limite. È anche necessario considerare che la tabella dei pesi, riportata di sopra e anche in altri capitoli del presente manuale, si riferisce ai FlexiBowl® **senza** accessori montati, il peso può aumentare in base alla configurazione acquistata: in tal caso il peso sarà adeguatamente riportato. I FlexiBowl® che superano il limite dei 25kg sono quelli di taglia 500 e oltre.
+La normativa **EN ISO 11228-1-2022** proibisce di sollevare manualmente carichi superiori ai 25kg (il limite può essere anche inferiore in base al sesso e all'età dell'operatore) quindi, per ragioni di sicurezza, è obbligatorio l'uso di macchine di sollevamento per i FlexiBowl® che superano questo limite. I FlexiBowl® che superano il limite dei 25kg sono quelli di taglia 500 e oltre.
 :::
 
 I FlexiBowl® di taglia 500 e oltre sono provvisti di golfari per il sollevamento, da utilizzare per il trasporto della macchina dalla scatola di imballo alla sua posizione finale.
@@ -280,7 +285,7 @@ Le maniglie presenti sui FlexiBowl® di taglia 500 e oltre **NON** sono da utili
 
 ### Dimensionamento delle funi per il sollevamento
 
-Il diametro delle funi deve essere sufficiente per supportare il peso del FlexiBowl®, mentre la lunghezza deve essere tale da garantire il corretto orientamento del carico sul golfare in base ai principi descritti sopra, basati sulla normativa DIN 580:
+Il diametro delle funi deve essere sufficiente per supportare il {ref}`peso <dims&weight>` del FlexiBowl®, mentre la lunghezza deve essere tale da garantire il corretto orientamento del carico sul golfare in base ai principi descritti sopra, basati sulla normativa DIN 580:
 
 :::{figure} ../../../../_shared/media/images/FB650sol.png
   :align: center

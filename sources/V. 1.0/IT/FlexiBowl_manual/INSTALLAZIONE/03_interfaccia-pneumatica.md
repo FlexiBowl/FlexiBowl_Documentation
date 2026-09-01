@@ -13,7 +13,7 @@ Non superare mai i 7 bar di pressione nell’impianto pneumatico della macchina.
 :::
 
 :::{warning}
-È precisa responsabilità dell’utilizzatore/cliente assicurare la corretta connessione al gruppo trattamento aria principale con tubazioni rigide, solidamente fissate al fine di evitare effetto frusta o protette con altri ripari che ne evitino o trattengano il trafilamento “a getto”.
+Il FlexiBowl® è fornito senza dispositivo manuale di intercettazione e scarico dell’alimentazione pneumatica. L’integratore deve predisporre a monte un dispositivo chiaramente identificato, facilmente accessibile e bloccabile in posizione di chiusura, che consenta di interrompere l’alimentazione, scaricare la pressione residua e prevenire riattivazioni involontarie. Tubazioni e raccordi devono essere adeguati alla pressione di esercizio, correttamente fissati e protetti contro lo sfilamento. Eventuali ulteriori dispositivi pneumatici di sicurezza devono essere definiti mediante la valutazione dei rischi della macchina finale.
 :::
 
 :::::{important}
@@ -87,8 +87,4 @@ Per l'allacciamento alla rete pneumatica, collegare un tubo dell’aria {ref}`de
     <img src="../../../../_shared/media/images/encpanel7.PNG" alt="Pannello ENC" />
   </div>
 </div>
-:::
-
-:::{note}
-Per interventi di manutenzione è necessario prevedere un sistema di sezionamento dell'aria.
 :::
