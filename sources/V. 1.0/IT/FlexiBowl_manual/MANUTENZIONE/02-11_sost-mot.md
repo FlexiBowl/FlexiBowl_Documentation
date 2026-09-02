@@ -34,6 +34,10 @@ Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione d
 Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
 :::
 
+:::{important}
+Quando si monta il gruppo motore sul FlexiBowl® è importante usare le medesime viti di fissaggio e applicare della Loctite 243.
+:::
+
 ## FlexiBowl® 200
 
 Nel FlexiBowl® 200 il motore è in presa diretta, e il ricambio fornito consiste nel solo motore.

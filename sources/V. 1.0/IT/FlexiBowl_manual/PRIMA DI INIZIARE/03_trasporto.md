@@ -186,7 +186,7 @@ Per la **rimozione dell'imballo**, procedere come descritto:
   - Rimuovere il dispositivo USB ed il fascicolo di collaudo dalla cassa. Conservarlo per un uso successivo.
 
 * - 4
-  - Usare le maniglie laterali presenti nel FlexiBowl® per sollevarlo e rimuoverlo dalla cassa.
+  - {ref}`Sollevare il FlexiBowl® <transflex>` e rimuoverlo dalla cassa.
 
 :::
 
