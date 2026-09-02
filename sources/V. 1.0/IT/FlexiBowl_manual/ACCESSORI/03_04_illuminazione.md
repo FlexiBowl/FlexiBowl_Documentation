@@ -1669,7 +1669,7 @@ La calibrazione, quando si utilizza una griglia di calibrazione ARS, dev'essere 
 ````
 Per maggiori Informazioni sulla Schermatura della Luce Ambientale visitare la sezione [Schermatura Luce Ambientale](luce_ambientale).
 
-## Verifica del corretto funzionamento del Backlight e del Toplight
+# **Verifica del corretto funzionamento del Backlight e del Toplight**
 
 Per controllare il funzionamento degli illuminatori è sufficiente accenderli dall'interfaccia e verificarne l'accensione.
 
