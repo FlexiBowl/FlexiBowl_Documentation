@@ -299,10 +299,10 @@ Le tramogge possono sopportare un carico massimo specifico. È fondamentale dime
 | :---: | :---: | :---: |
 | **1,5lt** | 1 kg | 0,6 |
 | **3lt**   | 1,5 kg | 0,6 |
-| **5lt**   | 3 kg | 2 |
-| **10lt**  | 3 kg | 2 |
-| **20lt**  | 3 kg | 2 |
-| **40lt**  | 7,5 kg | 5 |
+| **5lt**   | 6 kg | 2 |
+| **10lt**  | 6 kg | 2 |
+| **20lt**  | 6 kg | 2 |
+| **40lt**  | 15 kg | 5 |
 
 Il gruppo di controllo dovrà essere installato il più vicino possibile alla tramoggia, in un luogo asciutto, pulito e privo di vibrazioni.
 

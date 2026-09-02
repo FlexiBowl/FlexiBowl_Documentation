@@ -1668,3 +1668,26 @@ La calibrazione, quando si utilizza una griglia di calibrazione ARS, dev'essere 
     ```
 ````
 Per maggiori Informazioni sulla Schermatura della Luce Ambientale visitare la sezione [Schermatura Luce Ambientale](luce_ambientale).
+
+## Verifica del corretto funzionamento del Backlight e del Toplight
+
+Per controllare il funzionamento degli illuminatori è sufficiente accenderli dall'interfaccia e verificarne l'accensione.
+
+::::{warning}
+:::{raw} html
+<table style="width: 100%; border: none; background: transparent;">
+  <tr style="background: transparent !important; border: none !important;">
+    <td style="width: 10%; border: none; vertical-align: middle; text-align: center; background: transparent !important;">
+      <img src="../../../../_shared/media/images/occhiali.png" style="width: 50px; height: auto;">
+    </td>
+    <td style="width: 90%; border: none; vertical-align: middle; background: transparent !important; padding-left: 15px;">
+      L'esposizione diretta alla luce degli illuminatori può essere nociva per gli occhi. Indossare protezioni adeguate.
+    </td>
+  </tr>
+</table>
+:::
+::::
+
+:::{note}
+Gli illuminatori infrarossi emettono luce non visibile e perciò possono apparire non funzionanti. Controllare con una telecamera con un filtro ad infrarossi installato per verificarne il funzionamento. La maggior parte degli smartphone visualizzano gli infrarossi.
+:::
