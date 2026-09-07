@@ -128,5 +128,4 @@ Nel fissaggio delle viti utilizzare sempre LOCTITE 243, in modo da eseguire un p
 01-2_pul-disco.md
 01-3_pul-fb.md
 01-4_contr-flip.md
-01-5_contr-light.md
 :::
