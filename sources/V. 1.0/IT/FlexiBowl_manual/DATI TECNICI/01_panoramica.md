@@ -249,3 +249,107 @@ Il FlexiBowl® è composto dalle seguenti parti fondamentali:
 :::
 
 ## What is in the box?
+
+
+Questa sezione descrive il contenuto della confezione di **FlexiBowl® 3.0** e i componenti standard forniti in dotazione con l'unità.
+
+:::{important}
+Prima di procedere con l'installazione, verificare che tutti i componenti elencati in questa sezione siano presenti nella confezione. In caso di componenti mancanti o danneggiati, contattare il [Supporto Tecnico](support) prima di mettere in funzione il dispositivo.
+:::
+
+---
+
+### 1. Contenuto della confezione
+
+All'interno della confezione sono presenti il **FlexiBowl®** e tutti gli adattatori di connessione standard:
+
+```{list-table}
+:header-rows: 1
+:widths: 22 58 20
+
+* - Componente
+  - Descrizione
+  - Immagine
+* - **Connettore di alimentazione**
+  - Dotato di clip di bloccaggio, che ne previene la sconnessione accidentale
+  - :::{image} ../../../../_shared/media/images/connettore_power.png
+    :width: 80%
+    :::
+* - **Cavo connettore a 10 pin**
+  - Veicola l'alimentazione a 24 Vdc e i due canali Safe Torque Off (STO)
+  - :::{image} ../../../../_shared/media/images/connettore_STO.png
+    :width: 80%
+    :::
+* - **Connettore M12 D-code**
+  - Utilizzato per la comunicazione Ethernet tra il FlexiBowl® e il sistema
+  - :::{image} ../../../../_shared/media/images/connettore_ethernet.png
+    :width: 80%
+    :::
+* - **Connettore M12 A-code**
+  - Utilizzato per la comunicazione Modbus RTU con il controller della tramoggia
+  - :::{image} ../../../../_shared/media/images/connettore_hopper.png
+    :width: 80%
+    :::
+* - **Chiavetta USB**
+  - Contiene i manuali dell'unità e il relativo rapporto di collaudo (test report) individuale
+  - —
+```
+:::{note}
+I cavi di collegamento sono acquistabili separatamente come opzione.
+:::
+
+---
+
+### 2. Componenti aggiuntivi per taglia
+
+
+```{list-table}
+:header-rows: 1
+:widths: 20 20 60
+
+* - Modello
+  - Immagine
+  - Dotazione aggiuntiva
+* - **FlexiBowl® 200 / 350**
+  - :::{image} ../../../../_shared/media/images/FB350.png
+    :width: 80%
+    :::
+  - Include anche il **rack** e i relativi **cavi di collegamento**, necessari per l'elettronica esterna
+    :::{image} ../../../../_shared/media/images/rack.png
+    :width: 80%
+    :::
+* - **FlexiBowl® 500 e superiori**
+  - :::{image} ../../../../_shared/media/images/FB650.png
+    :width: 80%
+    :::
+  - Non richiedono il rack di collegamento esterno: l'elettronica è integrata direttamente nell'unità
+```
+
+
+#### Pannello connessioni del rack (FlexiBowl® 200 / 350)
+
+```{image} ../../../../_shared/media/images/rack.png
+:alt: Pannello connessioni del rack
+:width: 80%
+:align: center
+```
+
+Il pannello posteriore del rack raggruppa tutti i punti di connessione descritti al paragrafo precedente: alimentazione (**POWER SUPPLY**), Safe Torque Off (**STO**), motore (**MOTOR**), Ethernet verso il sistema (**C-ETH IN**) e verso il FlexiBowl® (**C-ETH FB**), tramoggia (**HOPPER**) e segnali encoder (**C-A SIGNAL**, **C-B SIGNAL**).
+
+:::{note}
+Per i dettagli relativi al posizionamento e al collegamento del rack, fare riferimento alla sezione [Installazione Meccanica](mech_install).
+:::
+
+
+---
+
+### 3. Documentazione a corredo
+
+La chiavetta USB fornita in dotazione contiene:
+
+- I **manuali** dell'unità (versione offline della documentazione)
+- Il **rapporto di collaudo** (test report) individuale del FlexiBowl® acquistato
+
+:::{note}
+La documentazione è disponibile anche in versione **online**, sempre aggiornata. Per maggiori dettagli consultare la sezione [Documentazione](documentation).
+:::
