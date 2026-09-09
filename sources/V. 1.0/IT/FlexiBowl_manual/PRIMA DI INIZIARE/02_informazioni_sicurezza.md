@@ -268,7 +268,7 @@ Fare riferimento alla seguente tabella per la classificazione del livello di ris
   - Nessuno
 
 * - IR
-  - 1
+  - 0
   - Basso
 
 :::
