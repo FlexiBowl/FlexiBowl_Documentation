@@ -130,16 +130,16 @@ Allo scopo di garantire una totale sicurezza dell’operatore e impedire l’acc
   - Descrizione
 
 * - 1
-  - Carter
-  - È costituito da protezioni perimetrali fisse (carterature), le quali hanno funzione di impedire l’accesso ai movimenti delle varie parti della macchina durante il ciclo di funzionamento e richiedono utensili specifici per la loro rimozione.
-
-* - 2
   - Interruttore elettrico
   - È posizionato sul pannello comandi e permette di interrompere l’alimentazione elettrica in caso di:
 
     * pericolo per l’incolumità dell’operatore;
     * pericolo elettrico sulla macchina;
     * interventi di natura meccanica o elettrica sulla macchina.
+
+* - 2
+  - Carter
+  - È costituito da protezioni perimetrali fisse (carterature), le quali hanno funzione di impedire l’accesso ai movimenti delle varie parti della macchina durante il ciclo di funzionamento e richiedono utensili specifici per la loro rimozione.
 
 :::
 
