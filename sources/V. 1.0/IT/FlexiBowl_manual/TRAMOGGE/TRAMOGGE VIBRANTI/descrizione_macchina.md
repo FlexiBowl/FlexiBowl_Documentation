@@ -191,14 +191,14 @@ La tramoggia è disponibile in sei modelli base. Modelli personalizzati, derivan
 
 **Capacità dei modelli standard disponibili:**
 
-| Modello Base | Capacità della Vasca |
-|:--- |:--- |
-| **Modello 1** | 1,5 litri |
-| **Modello 2** | 3 litri |
-| **Modello 3** | 5 litri |
-| **Modello 4** | 10 litri |
-| **Modello 5** | 20 litri |
-| **Modello 6** | 40 litri |
+| Modello Base | Capacità della Vasca | Capacità di Carico |
+|:--- |:--- | :--- | 
+| **Modello 1** | 1,5 litri | 1 kg | 
+| **Modello 2** | 3 litri | 1,5 kg | 
+| **Modello 3** | 5 litri | 6 kg |
+| **Modello 4** | 10 litri | 6 kg |
+| **Modello 5** | 20 litri | 6 kg |
+| **Modello 6** | 40 litri | 15 kg |
 
 
 La macchina in oggetto è destinata ad uso industriale per: 

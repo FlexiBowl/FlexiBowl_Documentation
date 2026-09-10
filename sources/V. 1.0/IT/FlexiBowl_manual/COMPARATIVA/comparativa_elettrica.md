@@ -54,7 +54,7 @@
 Questa pagina confronta le principali differenze elettriche tra **FlexiBowl® 2.0** e **FlexiBowl® 3.0**, in termini di alimentazione, connettività e sicurezza.
 
 :::{important}
-Prima di leggere i contenuti della pagina corrente, è buona pratica avere chiare le informazioni riportate nella pagina [Specifiche Elettriche e Pneumatiche](elec_pneu_specs)
+Prima di leggere i contenuti della pagina corrente, è buona pratica avere chiare le informazioni riportate nella pagina [Specifiche Elettriche e Pneumatiche](dati_elettrici)
 :::
 
 ---
@@ -126,7 +126,7 @@ Per arrestare in sicurezza l'unità è necessario **scollegare completamente l'a
 <div class="compare-card-header">FlexiBowl® 3.0</div>
 <div class="compare-card-body">
 
-<img src="../../../../_shared/media/images/connettore_STO.png" width="90"/>
+<img src="../../../../_shared/media/images/connettore_STO.png" width="110"/>
 
 Funzione **Safe Torque Off (STO)** integrata, che consente l'arresto sicuro senza dover scollegare l'alimentazione.
 
@@ -135,7 +135,7 @@ Funzione **Safe Torque Off (STO)** integrata, che consente l'arresto sicuro senz
 </div>
 
 :::{note}
-Per i dettagli sui canali STO e sul relativo cablaggio, fare riferimento alla pagina [Interfaccia Elettrica e Pneumatica](elec_pneu_interface).
+Per i dettagli sui canali STO e sul relativo cablaggio, fare riferimento alla pagina [Interfaccia Elettrica](dati_elettrici).
 :::
 
 ---

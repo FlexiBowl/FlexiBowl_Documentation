@@ -56,7 +56,7 @@
 Questa pagina confronta le principali differenze pneumatiche tra **FlexiBowl® 2.0** e **FlexiBowl® 3.0**.
 
 :::{important}
-Prima di leggere i contenuti della pagina corrente, è buona pratica avere chiare le informazioni riportate nella pagina [Specifiche Elettriche e Pneumatiche](elec_pneu_specs)
+Prima di leggere i contenuti della pagina corrente, è buona pratica avere chiare le informazioni riportate nella pagina [Specifiche Pneumatiche](datipneum)
 :::
 
 ---
@@ -87,7 +87,7 @@ Prima di leggere i contenuti della pagina corrente, è buona pratica avere chiar
 <div class="compare-card-header">FlexiBowl® 2.0</div>
 <div class="compare-card-body">
 
-<img src="../../../../_shared/media/images/flip_strength_v20.jpg" width="200"/>
+<img src="../../../../_shared/media/images/flip_strength_v20.png" width="200"/>
 
 La forza dell'impulso viene regolata tramite il **regolatore dell'aria compressa**, posizionato sul pannello di controllo. Il relativo indicatore di pressione è **integrato nel pannello**.
 
@@ -137,7 +137,7 @@ Controllo nativo del soffio (**Native Blow Control**) direttamente da interfacci
 </div>
 
 :::{note}
-Per i dettagli sul collegamento dell'alimentazione dell'aria, fare riferimento alla pagina [Interfaccia Elettrica e Pneumatica](elec_pneu_interface).
+Per i dettagli sul collegamento dell'alimentazione dell'aria, fare riferimento alla pagina [Interfaccia Pneumatica](datipneum).
 :::
 
 ---

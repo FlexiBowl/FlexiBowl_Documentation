@@ -55,7 +55,7 @@
 Questa pagina confronta le principali differenze meccaniche tra **FlexiBowl® 2.0** e **FlexiBowl® 3.0**, in termini di dimensioni e peso.
 
 :::{important}
-Prima di leggere i contenuti della pagina corrente, è buona pratica avere chiare le informazioni riportate nella pagina [Specifiche Meccaniche](mech_specs)
+Prima di leggere i contenuti della pagina corrente, è buona pratica avere chiare le informazioni riportate nella pagina [Specifiche Meccaniche](dati_meccanici)
 :::
 
 ---
@@ -134,14 +134,10 @@ FlexiBowl® 3.0 adotta un design **più compatto e snello** rispetto alla genera
   - 248 mm
 ```
 
-:::{note}
-FlexiBowl® 200 è l'unico modello in cui il peso di FlexiBowl® 3.0 risulta **superiore** a quello della generazione 2.0.
-:::
-
 ---
 
 ## 2. Sintesi
 
 FlexiBowl® 3.0 offre un design meccanico più compatto rispetto alla generazione precedente, risultando in generale più leggero, più basso e circa il 5% più stretto a parità di modello.
 
-Per i valori dimensionali puntuali di ciascun modello, fare riferimento alle rispettive pagine di [Specifiche Meccaniche](mech_specs) di FlexiBowl® 2.0 e 3.0.
+Per i valori dimensionali puntuali di ciascun modello, fare riferimento alle rispettive pagine di [Specifiche Meccaniche](dati_meccanici) di FlexiBowl® 2.0 e 3.0.

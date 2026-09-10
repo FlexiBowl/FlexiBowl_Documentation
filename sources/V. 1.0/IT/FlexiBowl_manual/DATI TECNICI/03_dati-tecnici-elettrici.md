@@ -1,3 +1,4 @@
+(dati_elettrici)=
 # [ELE] **Dati Tecnici Elettrici**
 
 ## Dati di Alimentazione
