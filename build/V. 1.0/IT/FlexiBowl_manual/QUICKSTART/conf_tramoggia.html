@@ -16,38 +16,35 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "light";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
   </script>
-  <!--
-    this give us a css class that will be invisible only if js is disabled
-  -->
-  <noscript>
-    <style>
-      .pst-js-only { display: none !important; }
-
-    </style>
-  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../../../_shared/static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
-<link href="../../../../_shared/static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+  <link href="../../../../_shared/static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../_shared/static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../_shared/static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../../../_shared/static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_shared/static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_shared/static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_shared/static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/pygments.css?v=8f2a1f02" />
-    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../../../../_shared/static/custom.css?v=0278f637" />
   
-  <!-- So that users can add custom icons -->
-  <script src="../../../../_shared/static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../../../_shared/static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
-<link rel="preload" as="script" href="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+  <link rel="preload" as="script" href="../../../../_shared/static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../../_shared/static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script src="../../../../_shared/static/documentation_options.js?v=a681ed88"></script>
-    <script src="../../../../_shared/static/doctools.js?v=fd6eb6e6"></script>
-    <script src="../../../../_shared/static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../_shared/static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../_shared/static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../../../_shared/static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../../../../_shared/static/copybutton.js?v=f281be69"></script>
-    <script src="../../../../_shared/static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script src="../../../../_shared/static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script src="../../../../_shared/static/design-tabs.js?v=f930bc37"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'FlexiBowl_manual/QUICKSTART/conf_tramoggia';</script>
     <script src="../../../../_shared/static/versioning-data.js?v=37039824"></script>
@@ -58,7 +55,6 @@
     <link rel="prev" title="[SOF] FlexiBowl® Wizard" href="FB_wizard.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -74,8 +70,19 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <dialog id="pst-search-dialog">
-    
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
       action="../../search.html"
       method="get">
@@ -83,6 +90,7 @@
   <input type="search"
          class="form-control"
          name="q"
+         id="search-input"
          placeholder="Search..."
          aria-label="Search..."
          autocomplete="off"
@@ -90,8 +98,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-  </dialog>
+</form></div>
+  </div>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -107,8 +115,7 @@
       
       
       
-      <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+      <div class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -136,17 +143,21 @@
     
     
     <img src="../../../../_shared/static/logo.png" class="logo__image only-light" alt="FlexiBowl® Manual - Home"/>
-    <img src="../../../../_shared/static/logo_dark.png" class="logo__image only-dark pst-js-only" alt="FlexiBowl® Manual - Home"/>
+    <script>document.write(`<img src="../../../../_shared/static/logo_dark.png" class="logo__image only-dark" alt="FlexiBowl® Manual - Home"/>`);</script>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button></div>
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">PRIMA DI INIZIARE</span></p>
@@ -288,14 +299,9 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
-      <div class="sidebar-primary-item">
-<div id="ethical-ad-placement"
-      class="flat"
-      data-ea-publisher="readthedocs"
-      data-ea-type="readthedocs-sidebar"
-      data-ea-manual="true">
-</div></div>
   </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -378,7 +384,7 @@
 
 
 <button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  class="btn btn-sm btn-fullscreen-button"
   title="Fullscreen mode"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
@@ -392,17 +398,27 @@
 
 
 
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button>
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
 
 
-<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
 </button>
-
 </div></div>
       
     </div>
@@ -418,6 +434,17 @@
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#posizionamento-e-installazione-meccanica">1. Posizionamento e installazione meccanica</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#collegamenti-elettrici">2. Collegamenti elettrici</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indirizzo-di-comunicazione-rs485">3. Indirizzo di comunicazione RS485</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#configurazione-da-interfaccia-software">4. Configurazione da interfaccia software</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -429,6 +456,380 @@
                   
   <section class="tex2jax_ignore mathjax_ignore" id="configurazione-tramoggia">
 <h1><strong>Configurazione Tramoggia</strong><a class="headerlink" href="#configurazione-tramoggia" title="Link to this heading">#</a></h1>
+<p>Questa pagina guida alla messa in funzione della tramoggia vibrante, l’accessorio opzionale che alimenta il FlexiBowl® in modo continuo e uniforme. Segui le quattro fasi in sequenza: posizionamento e montaggio meccanico, collegamenti elettrici, impostazione dell’indirizzo di comunicazione e configurazione dei parametri da interfaccia software.</p>
+<script src="https://unpkg.com/@phosphor-icons/web"></script>
+<div class="quickstart-workflow">
+  <style>
+    .quickstart-workflow {
+      font-family: inherit;
+      max-width: 680px;
+      margin: 2.5rem auto;
+      padding: 0 1rem;
+    }
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>.qs-step {
+  display: flex;
+  align-items: stretch;
+  gap: 1.25rem;
+  margin-bottom: 0;
+}
+
+.qs-step:hover .qs-card {
+  border-color: #2980b9;
+  background: #f0f7ff;
+  transform: translateX(4px);
+}
+
+.qs-step:hover .qs-number {
+  background: #2980b9;
+}
+
+.qs-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: 44px;
+}
+
+.qs-number {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #3498db;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+
+.qs-connector {
+  flex: 1;
+  width: 3px;
+  background: linear-gradient(to bottom, #3498db 0%, #bcd6ec 100%);
+  margin: 6px auto 0;
+  min-height: 32px;
+}
+
+.qs-last .qs-connector {
+  display: none;
+}
+
+.qs-card {
+  flex: 1;
+  border: 1.5px solid #d0e4f0;
+  border-radius: 10px;
+  padding: 0.85rem 1.1rem;
+  background: #fff;
+  transition: border-color 0.2s, background 0.2s, transform 0.2s;
+  margin-bottom: 0.65rem;
+}
+
+.qs-card-title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1a3a52;
+  margin-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.qs-card-title i {
+  font-size: 1.2rem;
+  color: #1a3a52;
+  flex-shrink: 0;
+}
+
+.qs-title-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.qs-title-link:hover {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.qs-card-desc {
+  font-size: 0.875rem;
+  color: #556b7d;
+  margin: 0;
+  line-height: 1.45;
+}
+</pre></div>
+</div>
+  </style>
+  <!-- Step 1 -->
+  <div class="qs-step">
+    <div class="qs-left">
+      <div class="qs-number">1</div>
+      <div class="qs-connector"></div>
+    </div>
+    <div class="qs-card">
+      <div class="qs-card-title">
+        <i class="ph ph-package"></i>
+        <a class="qs-title-link" href="conf_tramoggia.html#posizionamento-e-installazione-meccanica">Posizionamento e installazione meccanica</a>
+      </div>
+      <p class="qs-card-desc">
+        Posizionare la tramoggia rispettando l'orientamento corretto rispetto al FlexiBowl® e fissarla alla staffa di supporto.
+      </p>
+    </div>
+  </div>
+  <!-- Step 2 -->
+  <div class="qs-step">
+    <div class="qs-left">
+      <div class="qs-number">2</div>
+      <div class="qs-connector"></div>
+    </div>
+    <div class="qs-card">
+      <div class="qs-card-title">
+        <i class="ph ph-plugs"></i>
+        <a class="qs-title-link" href="conf_tramoggia.html#collegamenti-elettrici">Collegamenti elettrici</a>
+      </div>
+      <p class="qs-card-desc">
+        Collegare il controller alla tramoggia, al FlexiBowl® (o al rack) e all'alimentazione, rispettando l'ordine di connessione.
+      </p>
+    </div>
+  </div>
+  <!-- Step 3 -->
+  <div class="qs-step">
+    <div class="qs-left">
+      <div class="qs-number">3</div>
+      <div class="qs-connector"></div>
+    </div>
+    <div class="qs-card">
+      <div class="qs-card-title">
+        <i class="ph ph-hash"></i>
+        <a class="qs-title-link" href="conf_tramoggia.html#indirizzo-di-comunicazione-rs485">Indirizzo di comunicazione RS485</a>
+      </div>
+      <p class="qs-card-desc">
+        Impostare dal pannello del controller un indirizzo univoco, necessario per comunicare con il FlexiBowl® ed eventuali altre tramogge.
+      </p>
+    </div>
+  </div>
+  <!-- Step 4 -->
+  <div class="qs-step">
+    <div class="qs-left">
+      <div class="qs-number">4</div>
+      <div class="qs-connector"></div>
+    </div>
+    <div class="qs-card">
+      <div class="qs-card-title">
+        <i class="ph ph-hash"></i>
+        <a class="qs-title-link" href="conf_tramoggia.html#configurazione-da-interfaccia-software">Configurazione da interfaccia software</a>
+      </div>
+      <p class="qs-card-desc">
+        Abilitare la tramoggia dall'interfaccia web del FlexiBowl® e impostare ampiezza, frequenza e tempo di attivazione della vibrazione.
+      </p>
+    </div>
+  </div>
+</div>
+<hr class="docutils" />
+<section id="posizionamento-e-installazione-meccanica">
+<h2>1. Posizionamento e installazione meccanica<a class="headerlink" href="#posizionamento-e-installazione-meccanica" title="Link to this heading">#</a></h2>
+<p>Le tramogge vibranti sono disponibili in diverse dimensioni, ciascuna con un proprio carico massimo:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Capacità</p></th>
+<th class="head"><p>Carico massimo</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1,5 l</p></td>
+<td><p>1 kg</p></td>
+</tr>
+<tr class="row-odd"><td><p>3 l</p></td>
+<td><p>1,5 kg</p></td>
+</tr>
+<tr class="row-even"><td><p>5 l</p></td>
+<td><p>6 kg</p></td>
+</tr>
+<tr class="row-odd"><td><p>10 l</p></td>
+<td><p>6 kg</p></td>
+</tr>
+<tr class="row-even"><td><p>20 l</p></td>
+<td><p>6 kg</p></td>
+</tr>
+<tr class="row-odd"><td><p>40 l</p></td>
+<td><p>15 kg</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>La tramoggia arriva già assemblata: non è necessario montarla, solo posizionarla e fissarla.</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-0">
+Posizionamento corretto</label><div class="sd-tab-content docutils">
+<p><img alt="Posizionamento corretto della tramoggia rispetto al FlexiBowl®" src="../../_images/posizione_giustatramoggia.png" /></p>
+<p>Lo scivolo della tramoggia deve scaricare i componenti direttamente nell’area di lavoro del piatto, con un’inclinazione che segue il profilo del FlexiBowl®.</p>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-1">
+Posizionamento errato</label><div class="sd-tab-content docutils">
+<p><img alt="Esempio di posizionamento errato della tramoggia" src="../../_images/posizione_sbagliatatramoggia.png" /></p>
+<p>Uno scivolo troppo lontano dall’area di lavoro genera un’alimentazione incostante e penalizza le prestazioni dell’applicazione.</p>
+</div>
+</div>
+<p><strong>Passaggi:</strong></p>
+<ol class="arabic simple">
+<li><p>Posizionare la tramoggia su una superficie stabile e orizzontale, vicino al FlexiBowl®, rispettando l’orientamento corretto indicato sopra.</p></li>
+<li><p>Se la tramoggia viene installata sul piano di una macchina sensibile alle vibrazioni, interporre un materiale isolante e anti-vibrante tra le due superfici, per evitare che le vibrazioni della tramoggia si trasmettano al FlexiBowl®.</p></li>
+<li><p>Fissare la tramoggia alla staffa di supporto tramite i fori dedicati, utilizzando viti M8: la tramoggia standard ha 4 fori alla base, mentre la versione più piccola (1,5 l) ne ha 2.</p></li>
+</ol>
+</section>
+<section id="collegamenti-elettrici">
+<h2>2. Collegamenti elettrici<a class="headerlink" href="#collegamenti-elettrici" title="Link to this heading">#</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Prima di effettuare o modificare qualsiasi collegamento elettrico, assicurarsi che il sistema sia spento. Verificare sempre che il conduttore di terra sia correttamente installato e integro: il collegamento elettrico, compresa la messa a terra, deve essere sempre garantito per il corretto funzionamento della macchina.</p>
+</div>
+<p><img alt="Schema dei connettori sul controller della tramoggia" src="../../_images/tramoggia-schema-elettrico-controller.png" /></p>
+<p>Il controller della tramoggia dispone di: ingresso alimentazione di rete (terra, linea, neutro), connettore RS485 per la comunicazione (A+, B-, GND), uscita di potenza verso il motore della tramoggia e interruttore generale.</p>
+<p><strong>Passaggi:</strong></p>
+<ol class="arabic simple">
+<li><p>Collegare il controller alla tramoggia tramite il cavo dedicato.</p></li>
+<li><p>Collegare il controller al FlexiBowl® tramite il connettore M12 A-code (comunicazione Modbus RTU). In caso di installazioni multi-tramoggia con rack, collegare invece il controller al rack.</p></li>
+<li><p>Tappare qualsiasi connettore non utilizzato con l’apposito cappuccio, per proteggerlo da polvere e detriti. Il cappuccio deve garantire una resistenza di 120 Ω tra i canali A+ e B- della linea RS485.</p></li>
+<li><p>Collegare il cavo di alimentazione al controller: collegare sempre per primo il lato controller del cavo, prima di collegare l’altra estremità.</p></li>
+<li><p>Con l’interruttore del controller in posizione OFF, collegare il cavo di alimentazione alla presa di rete. L’alimentazione standard è 115 o 230 VAC ±5% (la versione a 115 V è disponibile solo su richiesta esplicita).</p></li>
+<li><p>Accendere il controller dall’interruttore generale.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Un singolo FlexiBowl® supporta fino a <strong>4 tramogge</strong>. Per installazioni multi-tramoggia, collegare ogni tramoggia al proprio controller, collegare il primo controller al FlexiBowl® (o al rack) e concatenare i controller successivi tramite la porta del connettore tramoggia (daisy-chain). Tappare la porta inutilizzata sull’ultimo controller della catena e collegare il cavo di alimentazione a ciascun controller.</p>
+</div>
+</section>
+<section id="indirizzo-di-comunicazione-rs485">
+<h2>3. Indirizzo di comunicazione RS485<a class="headerlink" href="#indirizzo-di-comunicazione-rs485" title="Link to this heading">#</a></h2>
+<p>Ogni controller di tramoggia deve avere un indirizzo di comunicazione univoco sulla rete RS485 (parametro <strong>r</strong>, intervallo 1–31). In presenza di più tramogge, assicurarsi che ogni controller sulla stessa rete abbia un indirizzo diverso.</p>
+<p><img alt="Pannello frontale del controller: indicatori, display e comandi" src="../../_images/tramoggia-pannello-controller.jpg" /></p>
+<p><strong>Passaggi dal pannello del controller:</strong></p>
+<ol class="arabic simple">
+<li><p>Tenere premuto <strong>FUNC</strong> per 2 secondi per entrare nello stato di regolazione dei parametri base.</p></li>
+<li><p>Premere ripetutamente <strong>FUNC</strong> per selezionare il parametro <strong>r</strong> (indirizzo di comunicazione).</p></li>
+<li><p>Premere <strong>▲</strong> o <strong>▼</strong> per modificare il valore (1–31).</p></li>
+<li><p>Tenere nuovamente premuto <strong>FUNC</strong> per 2 secondi per uscire e salvare.</p></li>
+</ol>
+</section>
+<section id="configurazione-da-interfaccia-software">
+<h2>4. Configurazione da interfaccia software<a class="headerlink" href="#configurazione-da-interfaccia-software" title="Link to this heading">#</a></h2>
+<p>Una volta completati i collegamenti e impostato l’indirizzo, la tramoggia può essere configurata e comandata dalla pagina dedicata dell’interfaccia web del FlexiBowl®.</p>
+<p><img alt="Interfaccia software di configurazione delle tramogge" src="../../_images/tramoggia-interfaccia-software.png" /></p>
+<p>Per ciascuna delle 4 tramogge disponibili è possibile impostare:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Campo</p></th>
+<th class="head"><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Enable</strong></p></td>
+<td><p>Abilita la tramoggia corrispondente.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>ID</strong></p></td>
+<td><p>Indirizzo RS485 del controller collegato; usare <strong>Set New ID</strong> per assegnarne uno nuovo via software.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Status</strong></p></td>
+<td><p>Stato corrente della tramoggia (es. Disabled).</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Amplitude</strong></p></td>
+<td><p>Ampiezza della vibrazione.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Frequency</strong></p></td>
+<td><p>Frequenza della vibrazione.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Activation Time</strong></p></td>
+<td><p>Durata, in millisecondi, di ogni impulso di vibrazione.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Passaggi:</strong></p>
+<ol class="arabic simple">
+<li><p>Accedere all’interfaccia web del FlexiBowl® e aprire la pagina delle tramogge.</p></li>
+<li><p>Selezionare <strong>Enable</strong> sulla tramoggia da attivare.</p></li>
+<li><p>Verificare che il campo <strong>ID</strong> corrisponda all’indirizzo impostato sul controller (punto 3); in caso contrario, usare <strong>Set New ID</strong>.</p></li>
+<li><p>Impostare i valori iniziali di <strong>Amplitude</strong>, <strong>Frequency</strong> e <strong>Activation Time</strong> in base al componente da alimentare.</p></li>
+<li><p>Premere <strong>Start Hopper</strong> per avviare la tramoggia e verificarne il funzionamento; regolare i parametri finché l’alimentazione dei componenti non risulta continua e uniforme.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>I valori ottimali di ampiezza, frequenza e tempo di attivazione dipendono dal componente e dalla geometria della tramoggia: regolarli progressivamente osservando il flusso di alimentazione, partendo da valori bassi e aumentando fino a ottenere un’alimentazione costante senza inceppamenti.</p>
+</div>
+<details>
+<summary><strong>Parametri avanzati del controller</strong> (regolabili dal pannello fisico)</summary>
+<p><strong>Parametri comuni</strong> — regolabili in qualsiasi momento con i tasti <strong>Vol+</strong> / <strong>Vol-</strong>, anche mentre è visualizzato un altro parametro:</p>
+<p><img alt="Parametri comuni del controller" src="../../_images/tramoggia-parametri-comuni.png" /></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Definizione</p></th>
+<th class="head"><p>Simbolo</p></th>
+<th class="head"><p>Range</p></th>
+<th class="head"><p>Default</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Tensione di uscita</p></td>
+<td><p>U</p></td>
+<td><p>0–260 V</p></td>
+<td><p>50</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Parametri base</strong> — tenere premuto <strong>FUNC</strong> per 2 secondi per accedere, premere <strong>FUNC</strong> per scorrere i parametri, <strong>▲/▼</strong> per modificarli, tenere premuto <strong>FUNC</strong> per 2 secondi per uscire:</p>
+<p><img alt="Parametri base del controller" src="../../_images/tramoggia-parametri-base.png" /></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Definizione</p></th>
+<th class="head"><p>Simbolo</p></th>
+<th class="head"><p>Range</p></th>
+<th class="head"><p>Default</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Frequenza di uscita</p></td>
+<td><p>E</p></td>
+<td><p>40,0–200,0 Hz</p></td>
+<td><p>100,0</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tensione di uscita massima regolabile</p></td>
+<td><p>h</p></td>
+<td><p>0–260 V</p></td>
+<td><p>260</p></td>
+</tr>
+<tr class="row-even"><td><p>Indirizzo di comunicazione</p></td>
+<td><p>r</p></td>
+<td><p>1–31</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Baud rate di comunicazione</p></td>
+<td><p>c</p></td>
+<td><p>0,3–115,2 kbps</p></td>
+<td><p>115,2</p></td>
+</tr>
+<tr class="row-even"><td><p>Reset del controller</p></td>
+<td><p>—</p></td>
+<td><p>—</p></td>
+<td><p>—</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Reset del controller:</strong></p>
+<p><img alt="Procedura di reset del controller" src="../../_images/tramoggia-reset-controller.png" /></p>
+<ol class="arabic simple">
+<li><p>Tenere premuto <strong>FUNC</strong> per 2 secondi per entrare nello stato di regolazione dei parametri base.</p></li>
+<li><p>Premere <strong>FUNC</strong> finché sul display lampeggia il parametro di reset (<code class="docutils literal notranslate"><span class="pre">88888</span></code>).</p></li>
+<li><p>Tenere premuto <strong>▲</strong> finché non compare <code class="docutils literal notranslate"><span class="pre">-----</span></code> sul display.</p></li>
+<li><p>Rilasciare <strong>▲</strong> per completare il reset: il display mostrerà <code class="docutils literal notranslate"><span class="pre">U</span> <span class="pre">50</span></code>, a conferma dell’operazione avvenuta con successo.</p></li>
+</ol>
+</details>
 <br>
 <!-- Versions and languages set-up -->
 <style>
@@ -1075,6 +1476,7 @@
   })();
 </script>
 </section>
+</section>
 
 
                 </article>
@@ -1111,6 +1513,24 @@
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#posizionamento-e-installazione-meccanica">1. Posizionamento e installazione meccanica</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#collegamenti-elettrici">2. Collegamenti elettrici</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indirizzo-di-comunicazione-rs485">3. Indirizzo di comunicazione RS485</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#configurazione-da-interfaccia-software">4. Configurazione da interfaccia software</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
@@ -1155,8 +1575,8 @@ By ARS Automation
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../../../../_shared/static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
-<script defer src="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+  <script src="../../../../_shared/static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>

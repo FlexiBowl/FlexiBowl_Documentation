@@ -317,6 +317,12 @@ Per il corretto posizionamento, seguire la seguente sequenza operativa:
       Posizionare la tramoggia su un piano stabile.<br><strong>Nota:</strong> se installata sulla piattaforma di una macchina sensibile alle vibrazioni, interporre del materiale isolante e antivibrante tra le superfici.
     </div>
   </div>
+</div>
+
+![posizionamento giusto](../../../../../_shared/media/images/posizione_giustatramoggia.png)
+![posizionamento sbagliato](../../../../../_shared/media/images/posizione_sbagliatatramoggia.png)
+
+<div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">

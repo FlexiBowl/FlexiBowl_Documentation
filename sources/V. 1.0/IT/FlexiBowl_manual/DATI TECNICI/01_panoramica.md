@@ -273,29 +273,29 @@ All'interno della confezione sono presenti il **FlexiBowl®** e tutti gli adatta
 * - **Connettore di alimentazione**
   - Dotato di clip di bloccaggio, che ne previene la sconnessione accidentale
   - :::{image} ../../../../_shared/media/images/connettore_power.png
-    :width: 80%
+    :width: 100%
     :::
 * - **Cavo connettore a 10 pin**
   - Veicola l'alimentazione a 24 Vdc e i due canali Safe Torque Off (STO)
   - :::{image} ../../../../_shared/media/images/connettore_STO.png
-    :width: 80%
+    :width: 100%
     :::
 * - **Connettore M12 D-code**
   - Utilizzato per la comunicazione Ethernet tra il FlexiBowl® e il sistema
   - :::{image} ../../../../_shared/media/images/connettore_ethernet.png
-    :width: 80%
+    :width: 100%
     :::
 * - **Connettore M12 A-code**
   - Utilizzato per la comunicazione Modbus RTU con il controller della tramoggia
   - :::{image} ../../../../_shared/media/images/connettore_hopper.png
-    :width: 80%
+    :width: 100%
     :::
 * - **Chiavetta USB**
   - Contiene i manuali dell'unità e il relativo rapporto di collaudo (test report) individuale
   - —
 ```
 :::{note}
-I cavi di collegamento sono acquistabili separatamente come opzione.
+I cavi di collegamento sono acquistabili separatamente come opzione in 3, 5 o 10 metri. 
 :::
 
 ---
@@ -312,15 +312,15 @@ I cavi di collegamento sono acquistabili separatamente come opzione.
   - Dotazione aggiuntiva
 * - **FlexiBowl® 200 / 350**
   - :::{image} ../../../../_shared/media/images/FB350.png
-    :width: 80%
+    :width: 100%
     :::
-  - Include anche il **rack** e i relativi **cavi di collegamento**, necessari per l'elettronica esterna
+  - Include anche il **rack** e i relativi **cavi di collegamento**, necessari per l'elettronica esterna. I cavi inclusi, lunghi 3 m, permettono di effettuare tutti i collegamenti tra rack e FlexiBowl®. In opzione è possibile averli da 5/10 metri. 
     :::{image} ../../../../_shared/media/images/rack.png
-    :width: 80%
+    :width: 100%
     :::
 * - **FlexiBowl® 500 e superiori**
   - :::{image} ../../../../_shared/media/images/FB650.png
-    :width: 80%
+    :width: 100%
     :::
   - Non richiedono il rack di collegamento esterno: l'elettronica è integrata direttamente nell'unità
 ```

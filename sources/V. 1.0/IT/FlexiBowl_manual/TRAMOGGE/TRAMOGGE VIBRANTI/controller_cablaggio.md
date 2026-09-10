@@ -9,7 +9,7 @@ La società ARS S.r.l. non risponde per danni causati da un uso improprio della 
 
 ## Descrizione Controller 
 
-Il **Controller digitale** è dotato di un microprocessore con visualizzazione della frequenza. È possibile impostare un ritardo all’avvio o all’arresto del vibratore, tramite **sensore PNP/NPN** o tramite un **contatto meccanico** fino a un massimo di 6 secondi regolabili.
+Il **Controller digitale** è dotato di un microprocessore con visualizzazione della frequenza. È possibile impostare un ritardo all'avvio o all'arresto del vibratore, tramite **sensore PNP/NPN** o tramite un **contatto meccanico** fino a un massimo di 6 secondi regolabili.
 
 ### Dati Tecnici Controller 
 
@@ -30,7 +30,7 @@ Il **Controller digitale** è dotato di un microprocessore con visualizzazione d
 | **Grado di Protezione** | IP65 in cassetta |
 
 :::{attention}
-È possibile integrare controller diversi da quello fornito dal Costruttore purché quest’ultimo ne abbia preliminarmente validato le caratteristiche tecniche. La società ARS s.r.l. non risponde per danni causati dall’utilizzo di un controller non validato o non compatibile con la macchina.
+È possibile integrare controller diversi da quello fornito dal Costruttore purché quest'ultimo ne abbia preliminarmente validato le caratteristiche tecniche. La società ARS s.r.l. non risponde per danni causati dall'utilizzo di un controller non validato o non compatibile con la macchina.
 :::
 
 ## Procedure di utilizzo
@@ -73,20 +73,94 @@ Prima di procedere con la messa in funzione della macchina, occorre eseguire le 
   <div class="isw-symbol-item">
     <div>
       <div class="isw-symbol-label">Stato Macchina</div>
-      <div class="isw-symbol-desc">Controllare che la macchina non si trovi in stato di “Manutenzione”.</div>
+      <div class="isw-symbol-desc">Controllare che la macchina non si trovi in stato di "Manutenzione".</div>
     </div>
   </div>
 </div>
+
+### Sequenza di collegamento elettrico
+
+Indipendentemente dal tipo di controller utilizzato (standard, analogico o digitale), il collegamento elettrico tra tramoggia, controller e FlexiBowl® segue sempre la stessa sequenza:
+
+<div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Collegare il <strong>Controller</strong> alla <strong>tramoggia</strong> (base vibrante).
+    </div>
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Collegare il <strong>Controller</strong> al connettore <strong>HOPPER</strong> del FlexiBowl® (pannello standard) oppure del <strong>rack</strong>, per i modelli FlexiBowl® 200/350 che lo prevedono.
+    </div>
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Se il connettore Hopper del FlexiBowl®/rack non viene utilizzato, inserire l'apposito <strong>cappuccio di terminazione</strong>*.
+    </div>
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Collegare il cavo di <strong>alimentazione</strong> al Controller, verificando che l'interruttore di accensione sia in posizione <strong>OFF</strong>.
+    </div>
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">5</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Collegare la spina del cavo di alimentazione alla <strong>presa di corrente</strong>, solo dopo aver confermato che l'interruttore del controller sia su OFF.
+    </div>
+  </div>
+</div>
+
+*Il cappuccio deve garantire una resistenza di **120 Ω** tra i canali A+ e B-.
+
+<div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin:1rem 0 1.5rem;">
+<div>
+
+```{image} ../../../../../_shared/media/images/pannello_fb_standard_hopper.png
+:alt: Connettore HOPPER sul pannello standard FlexiBowl
+:width: 100%
+```
+<p style="text-align:center; font-size:0.85em; color:#7a9ab0;">Connettore HOPPER — pannello standard</p>
+
+</div>
+<div>
+
+```{image} ../../../../../_shared/media/images/pannello_rack_hopper.png
+:alt: Connettore HOPPER sul pannello del rack
+:width: 100%
+```
+<p style="text-align:center; font-size:0.85em; color:#7a9ab0;">Connettore HOPPER — pannello rack (FlexiBowl® 200/350)</p>
+
+</div>
+</div>
+
+:::{important}
+Collegare sempre **prima il lato controller** del cavo di alimentazione, e solo dopo inserire la spina nella presa di corrente.
+:::
+
+```{image} ../../../../../_shared/media/images/step_connessione_controller_first.png
+:alt: Collegare sempre prima il lato controller
+:width: 70%
+:align: center
+```
+
+:::{note}
+Alimentazione standard del controller: **115 Vac** oppure **230 Vac ±5%**. Verificare sempre che il conduttore di terra sia correttamente installato e integro prima di alimentare il sistema.
+:::
 
 ### Controller standard
 
 #### Connessioni elettriche e setup controller
 
 :::{attention}
-Prima di accendere il controller collegare la spina Schuko nella presa di corrente verificando che l’impianto abbia un adeguato sistema di messa a terra.
+Prima di accendere il controller collegare la spina Schuko nella presa di corrente verificando che l'impianto abbia un adeguato sistema di messa a terra.
 :::
 
-Per eseguire l’avviamento, procedere come descritto:
+Per eseguire l'avviamento, procedere come descritto:
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
@@ -98,7 +172,7 @@ Per eseguire l’avviamento, procedere come descritto:
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Ruotare la manopola di regolazione frequenza <strong>(2)</strong> e di regolazione di ampiezza <strong>(3)</strong> del controller sulla posizione “•”.
+      Ruotare la manopola di regolazione frequenza <strong>(2)</strong> e di regolazione di ampiezza <strong>(3)</strong> del controller sulla posizione "•".
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
@@ -179,13 +253,13 @@ Il vibratore può essere bloccato e riavviato tramite comando esterno su **CONN3
 
 #### Connessioni elettriche e setup controller
 
-Per eseguire l’avviamento, procedere come descritto e fare riferimento all’immagine a fine paragrafo:
+Per eseguire l'avviamento, procedere come descritto e fare riferimento all'immagine a fine paragrafo:
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Collegare l’alimentazione 80/250 Vac al connettore <strong>CONN 1</strong>.
+      Collegare l'alimentazione 80/250 Vac al connettore <strong>CONN 1</strong>.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
@@ -203,7 +277,7 @@ Per eseguire l’avviamento, procedere come descritto e fare riferimento all’i
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Collegare l’ingresso analogico al connettore <strong>CONN 7</strong>.
+      Collegare l'ingresso analogico al connettore <strong>CONN 7</strong>.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
@@ -271,13 +345,143 @@ Il vibratore può essere bloccato e riavviato tramite comando esterno su **CONN3
 
 ![Schema Controller](../../../../../_shared/media/images/controller_schema.png)
 
+---
+
+### Controller digitale
+
+Controller a microprocessore con display a LED, modello **CUH® SDVC34-XLRH**. A differenza dei controller standard e analogico (regolazione tramite manopole/trimmer fisici), la regolazione dei parametri avviene interamente tramite i pulsanti e il display del controller.
+
+```{image} images/controller_digitale_pannello.jpeg
+:alt: Pannello frontale controller digitale CUH SDVC34-XLRH
+:width: 90%
+:align: center
+```
+
+#### Comandi del pannello frontale
+
+| Elemento | Funzione |
+|---|---|
+| **Display LED** | Visualizza il parametro corrente e il relativo valore |
+| **Indicatore Saturated** | Segnala la saturazione del segnale di uscita |
+| **Indicatore Remote** | Segnala il controllo da remoto attivo |
+| **Indicatori Speed A / Speed B** | Segnalano la velocità/uscita attiva |
+| **Indicatore Stop** | Segnala lo stato di arresto |
+| **Pulsanti Vol+ / Vol-** | Regolano i **Parametri Comuni** (vedi sotto), in qualunque momento |
+| **Pulsante FUNC** | Ingresso/uscita e navigazione tra i **Parametri Base** |
+| **Pulsanti ▲ / ▼** | Incrementano/decrementano il valore del parametro selezionato |
+| **Indicatori Auto / Sync / Sensor / Sync Signal / Communicate** | Stato del funzionamento e della comunicazione RS485 |
+| **Pulsante ON/OFF** | Accensione/spegnimento del controller |
+
+#### Connettori sul retro
+
+```{image} ../../../../../_shared/media/images/controller_digitale_connettori.png
+:alt: Pannello connettori posteriore controller digitale
+:width: 85%
+:align: center
+```
+
+| Connettore | Pin | Funzione |
+|---|---|---|
+| **Mains Power** (alimentazione) | PE-PE, 1-L, 2-N, 3-NC | Alimentazione di rete |
+| **Connettore 5 pin** (comunicazione) | 1-A+, 2-NC, 3-B-, 4-GND, 5-NC | Comunicazione RS485 (A+/B-) |
+| **Power Output to Feeder** (uscita verso vibratore) | PE-PE, 1-output, 2-output, 3-NC | Alimentazione verso la base vibrante |
+| **Power Switch** | — | Interruttore di accensione/spegnimento |
+
+#### Parametri Comuni
+
+Regolabili in qualsiasi momento con **Vol+ / Vol-**, anche mentre è visualizzato un altro parametro; al termine della regolazione il display torna al parametro precedente.
+
+```{image} ../../../../../_shared/media/images/parametri_comuni.png
+:alt: Parametri comuni del controller digitale
+:width: 90%
+:align: center
+```
+
+| Definizione | Simbolo | Range | Default |
+|---|---|---|---|
+| Output Voltage (tensione di uscita) | `U` | 0–260 (V) | 50 |
+
+#### Parametri Base
+
+Per accedere: tenere premuto **FUNC** per 2 secondi per entrare in modalità di regolazione dei Parametri Base; premere **FUNC** ripetutamente per scorrere ciclicamente tra i parametri; usare **▲/▼** per modificare il valore; tenere premuto di nuovo **FUNC** per 2 secondi per uscire.
+
+```{image} ../../../../../_shared/media/images/parametri_base.png
+:alt: Parametri base del controller digitale
+:width: 90%
+:align: center
+```
+
+| Definizione | Simbolo | Range | Default |
+|---|---|---|---|
+| Output Frequency (frequenza di uscita) | `E` | 40,0–200,0 (Hz) | 100,0 |
+| Max Adjustable Output Voltage (tensione massima regolabile) | `h` | 0–260 (V) | 260 |
+| Communication Address (indirizzo RS485) | `r` | 1–31 | 1 |
+| Communication Baud Rate (velocità di comunicazione) | `c` | 0,3–115,2 kbps | 115,2 |
+| Controller Reset | `88888` | — | — |
+
+:::{note}
+Il parametro **Communication Address** (`r`) identifica l'ID del controller sulla rete di comunicazione **RS485**. Quando più controller sono collegati sulla stessa rete, è obbligatorio assegnare a ciascuno un indirizzo diverso (range 1–31) per poterli distinguere.
+:::
+
+```{image} ../../../../../_shared/media/images/parametro_indirizzo_1.png
+:alt: Ingresso in modalità regolazione parametro indirizzo
+:width: 90%
+:align: center
+```
+
+```{image} ../../../../../_shared/media/images/parametro_indirizzo_2.png
+:alt: Descrizione parametro indirizzo comunicazione
+:width: 90%
+:align: center
+```
+
+#### Procedura di Controller Reset
+
+<div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #7c3aed; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Tenere premuto <strong>FUNC</strong> per 2 secondi per entrare in modalità di regolazione dei Parametri Base.
+    </div>
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #7c3aed; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Premere <strong>FUNC</strong> fino a visualizzare il parametro <code>88888</code> lampeggiante sul display.
+    </div>
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #7c3aed; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Tenere premuto <strong>▲</strong> finché il display non mostra <code>-----</code>.
+    </div>
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #7c3aed; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Rilasciare <strong>▲</strong> per completare il reset: il display mostra <code>U 50</code> a conferma dell'avvenuto ripristino.
+    </div>
+  </div>
+</div>
+
+```{image} ../../../../../_shared/media/images/controller_reset.png
+:alt: Procedura di reset del controller digitale
+:width: 90%
+:align: center
+```
+
+:::{warning}
+Il **Controller Reset** riporta tutti i Parametri Comuni e Base ai valori di default (Output Voltage 50, Output Frequency 100,0 Hz, Max Output Voltage 260, Communication Address 1, Baud Rate 115,2 kbps). Utilizzarlo con cautela se sono presenti configurazioni personalizzate.
+:::
+
+---
+
 ## **Messa in servizio della tramoggia**
 
 :::{important}
 - Se il sistema include **FlexiVision One**, la configurazione dei parametri della tramoggia è guidata nella sezione [Configurazione Tramoggia]().
 - Altrimenti, fare riferimento alla sezione [Hopper](hopper) di questo manuale.
 :::
-
 
 
 
