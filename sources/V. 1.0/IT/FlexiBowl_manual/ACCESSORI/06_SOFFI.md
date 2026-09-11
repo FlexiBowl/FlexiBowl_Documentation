@@ -40,8 +40,7 @@ I soffi agiscono sui componenti tramite un getto d'aria in pressione tale da smi
 
 :::{toctree}
 :hidden:
-06-1_RADIALE.md
-06-2_CENTRALE.md
-06-3_INDIRETTO.md
-06-4_INTEGRATI.md
+06-1_AIRBLOWKIT.md
+06-2_INDIRETTO.md
+06-3_INTEGRATI.md
 :::

@@ -159,6 +159,7 @@ FlexiBowl_manual/INTERFACCIA SOFTWARE/04h_graphs.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04i_filetransfer.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04l_setup.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04m_hopper.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04n_emptying.md
 :::
 
 :::{toctree}  
