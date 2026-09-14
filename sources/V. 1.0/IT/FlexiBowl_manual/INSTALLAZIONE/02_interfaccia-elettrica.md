@@ -1,5 +1,5 @@
 (intele)=
-# [ELE] **Interfaccia elettrica**
+# [ELE] **Interfaccia Elettrica**
 
 Il pannello connettori del FlexiBowl® varia in base alla versione della macchina:
 
@@ -251,91 +251,316 @@ Lasciare circa {ref}`100mm di spazio libero <dim800>` attorno ai connettori di a
 
 ## Interfaccia Utente
 
-### Collegamento Elettrico
+### Collegamento Elettrico Pannello standard FlexiBowl 500-1200
 
-Per collegare elettricamente il FlexiBowl procedere come segue:
 
-- **Connessione di alimentazione**: collegare il FlexiBowl ad un'alimentazione 230 Vac utilizzando il connettore fornito in dotazione, identificato con la sigla **POWER SUPPLY**.
+```{list-table}
+:widths: 8 52 40
+:header-rows: 1
 
-- **Accensione/Spegnimento**: utilizzare il pulsante di alimentazione per accendere o spegnere il dispositivo.
+* - #
+  - Azione
+  - Immagine
+* - 1
+  - **Collegare lo STO.**
 
-:::{figure} ../../../../_shared/media/images/stpanel1.PNG
-:width: 80%
-:center:
-:::
+    <div class="ars-step-note">
+    Connettore a 10 pin. Gli ingressi <strong>+STO1</strong> e <strong>+STO2</strong> devono ricevere <strong>+24 Vdc</strong> dal circuito di sicurezza; <strong>−STO1</strong> e <strong>−STO2</strong> vanno collegati al riferimento −24 Vdc. Senza questo collegamento il motore non può essere attivato.
+    </div>
+
+    <details class="ars-dropdown"><summary>Pinout connettore 10 pin</summary><div class="ars-dropdown-body">
+
+    | Pin | Descrizione |
+    |---|---|
+    | 1 | +24 Vdc |
+    | 2 | −24 Vdc |
+    | 3 | +STO1 |
+    | 4 | −STO1 |
+    | 5 | +STO2 |
+    | 6 | −STO2 |
+    | 7–10 | NC |
+
+    </div></details>
+  -
+    ```{image} ../../../../_shared/media/images/stpanel7.PNG
+    :alt: Collegare lo STO
+    ```
+
+* - 2
+  - **Collegare l'Ethernet (C-ETH).**
+
+    <div class="ars-step-note">
+    Connettore M12, codifica D-Code. Consente la comunicazione con il FlexiBowl®, accessibile anche tramite web browser.
+    </div>
+
+    <div class="ars-step-attn">
+    Quando il FlexiBowl® è alimentato, il collegamento Ethernet è <strong>obbligatorio</strong>: se assente, la macchina entra in stato di <strong>ERROR</strong> (LED Ready/Fault rosso).
+    </div>
+
+    <details class="ars-dropdown"><summary>Pinout M12 → RJ45</summary><div class="ars-dropdown-body">
+
+    Adattatore M12 8 poli → RJ45:
+
+    | Pin | Colore |
+    |---|---|
+    | 1 | Giallo |
+    | 2 | Arancione |
+    | 3 | Bianco |
+    | 4 | Non assegnato |
+    | 5 | Non assegnato |
+    | 6 | Blu |
+    | 7 | Non assegnato |
+    | 8 | Non assegnato |
+
+    Connettore M12 D-code 4 poli:
+
+    | Pin | Colore |
+    |---|---|
+    | 1 | Giallo |
+    | 2 | Bianco |
+    | 3 | Arancione |
+    | 4 | Blu |
+
+    </div></details>
+  -
+    ```{image} ../../../../_shared/media/images/stpanel6.PNG
+    :alt: Collegare l'Ethernet
+    ```
+
+* - 3
+  - **Collegare l'Hopper.**
+
+    <div class="ars-step-note">
+    Connettore M12 A-code, utilizzato per comunicare con i controller hopper ARS tramite protocollo <strong>Modbus RTU</strong>.
+    </div>
+
+    <details class="ars-dropdown"><summary>Pinout M12 A-code</summary><div class="ars-dropdown-body">
+
+    | Pin | Colore |
+    |---|---|
+    | 1 | Marrone |
+    | 2 | Bianco |
+    | 3 | Blu |
+    | 4 | Nero |
+    | 5 | Grigio |
+
+    </div></details>
+  -
+    ```{image} ../../../../_shared/media/images/stpanel5.PNG
+    :alt: Collegare l'Hopper
+    ```
+
+* - 4
+  - **Collegare l'alimentazione (Power Supply).**
+
+    <div class="ars-step-attn">
+    Assicurarsi che il FlexiBowl® sia <strong>spento</strong> prima di collegare l'alimentazione, e che il dispositivo sia collegato a terra.
+    </div>
+
+    <div class="ars-step-warn">
+    Tensione ammessa: <strong>120–230 Vac, 50/60 Hz</strong>. Utilizzare esclusivamente il connettore fornito in dotazione, identificato con la sigla <strong>POWER SUPPLY</strong>.
+    </div>
+
+    <div class="ars-step-note">
+    Il connettore di alimentazione è provvisto di un supporto per l'alloggiamento di <strong>n. 2 fusibili</strong>, con funzione di protezione da eventuali anomalie elettriche. Al primo avvio, verificarne sempre lo stato prima di accendere il dispositivo. L'accensione/spegnimento avviene tramite l'apposito pulsante di alimentazione.
+    </div>
+
+    <details class="ars-dropdown"><summary>Schema pinout cavo alimentazione</summary><div class="ars-dropdown-body">
+
+    | Colore | Tipo | Etichetta |
+    |---|---|---|
+    | Marrone | Fase | L1 |
+    | Blu | Neutro | N1 |
+    | Giallo/Verde | Terra | PE1 |
+
+    </div></details>
+  -
+    ```{image} ../../../../_shared/media/images/stpanel1.PNG
+    :alt: Collegare l'alimentazione
+    ```
+
+* - 5
+  - **Verificare i LED di stato.**
+
+    Dopo l'accensione, attendere che il LED di stato **Ready/Fault** si accenda: se Hopper e C-ETH sono collegati correttamente, il LED sarà **verde**.
+
+    <div class="ars-step-note">
+    Il pannello frontale dispone di due LED:
+    </div>
+
+    <details class="ars-dropdown"><summary>Significato dei LED</summary><div class="ars-dropdown-body">
+
+    | LED | Colore | Significato |
+    |---|---|---|
+    | Light ON | Verde (unico stato) | Indica se il backlight del sistema di visione è ON o OFF. Attivabile via software di visione o da comandi Ethernet esterni. |
+    | Ready / Fault | Verde | Sistema operativo, privo di anomalie, collegamento Ethernet corretto. |
+    | Ready / Fault | Rosso | Anomalia interna o anomalia nel collegamento Ethernet: fare riferimento alla tabella delle anomalie. |
+
+    </div></details>
+  -
+
+* - 6
+  - **Collegare l'aria compressa** con tubo **Ø 8 mm**.
+
+    :::{note}
+    Per le caratteristiche dell'aria richieste (pressione, classe di pulizia ISO) fare riferimento ai [Dati Tecnici Pneumatici](datipneum).
+    :::
+  -
+    ```{image} ../../../../_shared/media/images/connectAir.png
+    :alt: Collegare l'aria compressa Ø8mm
+    ```
+```
+
+---
+
+### Collegamento Elettrico Pannello FlexiBowl 200 e 350
+
+
+I modelli FlexiBowl® FB 200 e FB 350 sono dotati di un **Rack** esterno, contenente tutti i dispositivi elettronici necessari al funzionamento. I collegamenti verso gli impianti del cliente si trovano sul rack (non sulla macchina); il rack va poi collegato alla macchina tramite 4 cavi dedicati.
+
+#### Collegamento tra Rack e FlexiBowl®
+
+Il rack comunica con il FlexiBowl® tramite 4 cavi dedicati, ciascuno da collegare **esclusivamente** alla porta con l'etichetta corrispondente sul pannello.
 
 :::{attention}
-Assicurarsi che il dispositivo sia collegato a terra prima di procedere all'accensione.
+Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔ MOTOR, C-A SIGNAL ↔ C-A SIGNAL). Un collegamento incrociato può danneggiare il sistema.
 :::
+
+```{list-table}
+:widths: 8 52 40
+:header-rows: 1
+
+* - #
+  - Azione
+  - Immagine
+* - 5
+  - **Collegare il cavo Ethernet (C-ETH FB)** tra Rack e FlexiBowl® — connettore M12 D-code.
+  -
+    ```{image} ../../../../_shared/media/images/rack8.PNG
+    :width: 110%
+    :alt: Collegare il cavo C-ETH FB
+    ```
+* - 6
+  - **Collegare il cavo MOTOR.**
+
+    <div class="ars-step-note">
+    Connettore a 9 pin: veicola sia l'alimentazione del motore sia i segnali <strong>STO</strong> verso il FlexiBowl® (sul rack, STO e Motore sono connettori separati; sul cavo verso la macchina sono combinati in un unico connettore a 9 pin).
+    </div>
+
+    <details class="ars-dropdown"><summary>Pinout connettore Motor (9 pin)</summary><div class="ars-dropdown-body">
+
+    | Pin | Descrizione |
+    |---|---|
+    | 1 | +STO1 – Safety Torque Off |
+    | 2 | +24 Vdc – Alimentazione ausiliaria |
+    | 3 | +STO2 – Safety Torque Off |
+    | 4 | −24 Vdc – Alimentazione ausiliaria |
+    | 5 | NC |
+    | 6 | +48 Vdc – Motor Power |
+    | 7 | −STO1 – Safety Torque Off |
+    | 8 | −48 Vdc – Motor Power |
+    | 9 | −STO2 – Safety Torque Off |
+
+    </div></details>
+  -
+    ```{image} ../../../../_shared/media/images/rack3.PNG
+    :width: 110%
+    :alt: Collegare il cavo Motor
+    ```
+* - 7
+  - **Collegare il cavo C-A SIGNAL** — connettore a 12 pin per i segnali analogici.
+
+    <details class="ars-dropdown"><summary>Pinout C-A Signal (12 pin)</summary><div class="ars-dropdown-body">
+
+    | Pin | Descrizione |
+    |---|---|
+    | 1 | Analog Output 1 |
+    | 2 | −24 Vdc |
+    | 3 | Analog Input 1 |
+    | 4 | +24 Vdc |
+    | 5–12 | NC |
+
+    </div></details>
+  -
+    ```{image} ../../../../_shared/media/images/rack4.PNG
+    :width: 110%
+    :alt: Collegare il cavo C-A Signal
+    ```
+* - 8
+  - **Collegare il cavo C-B SIGNAL** — connettore a 19 pin per i segnali digitali.
+
+    <details class="ars-dropdown"><summary>Pinout C-B Signal (19 pin)</summary><div class="ars-dropdown-body">
+
+    | Pin | Descrizione |
+    |---|---|
+    | 1 | +24 Vdc – Attivazione Led Verde Stato |
+    | 2 | −24 Vdc – Comune Led Stato |
+    | 3 | +24 Vdc – Attivazione Led Rosso Stato |
+    | 4 | +24 Vdc – Attivazione Led Stato Back light |
+    | 5 | −24 Vdc – Attivazione Led Stato Back light |
+    | 6 | +24 Vdc – Attivazione Back light |
+    | 7 | −24 Vdc – Attivazione Back light |
+    | 8 | +24 Vdc – Attivazione Flip |
+    | 9 | −24 Vdc – Attivazione Flip |
+    | 10 | +24 Vdc – Attivazione Blow |
+    | 11 | −24 Vdc – Attivazione Blow |
+    | 12–19 | NC |
+
+    </div></details>
+  -
+    ```{image} ../../../../_shared/media/images/rack5.PNG
+    :width: 110%
+    :alt: Collegare il cavo C-B Signal
+    ```
+* - 9
+  - **Collegare l'aria compressa** con tubo **Ø 6 mm**, direttamente sul pannello della macchina.
+
+    :::{note}
+    Per le caratteristiche dell'aria richieste (pressione, classe di pulizia ISO) fare riferimento ai [Dati Tecnici Pneumatici](datipneum).
+    :::
+  -
+    ```{image} ../../../../_shared/media/images/connectAir200.png
+    :width: 110%
+    :alt: Collegare l'aria compressa Ø6mm
+    ```
+```
+
+
+### Collegamenti sul Rack
+
+I connettori del rack sono gli stessi del pannello standard (stessa piedinatura), semplicemente posizionati su un box esterno anziché sulla macchina.
+
+```{list-table}
+:header-rows: 1
+
+* - #
+  - Azione
+
+* - 1
+  - **Collegare lo STO** sul rack — stesso connettore a 10 pin del pannello standard (vedi tabella pinout sopra).
+
+* - 2
+  - **Collegare il C-ETH IN** sul rack — stesso connettore M12 D-code del pannello standard. Vale la stessa regola: collegamento obbligatorio, altrimenti la macchina va in ERROR.
+
+* - 3
+  - **Collegare l'Hopper** sul rack — stesso connettore M12 A-code (Modbus RTU) del pannello standard.
+
+* - 4
+  - **Collegare l'alimentazione** sul rack — 120–230 Vac.
+
+    <div class="ars-step-attn">
+    Assicurarsi che il FlexiBowl® sia <strong>spento</strong> prima di collegare l'alimentazione.
+    </div>
+
+    <div class="ars-step-note">
+    Anche sul rack, il connettore di alimentazione dispone dell'alloggiamento per i <strong>2 fusibili</strong> di protezione: verificarne lo stato al primo avvio.
+    </div>
+```
 
 ### Fusibili – Alloggiamento
 
 Il connettore elettrico è provvisto di un supporto per l'alloggiamento di n. 2 fusibili, aventi la funzione di proteggere il dispositivo da eventuali anomalie elettriche.
 
-
-## Connettori e Interfacce
-
-### Connettore STO – Safety Torque Off
-
-Per attivare il motore è necessario collegare correttamente il sistema STO (Safety Torque Off) tramite il connettore identificato con la sigla **STO**.
-
-:::{figure} ../../../../_shared/media/images/stpanel7.PNG
-:width: 80%
-:center:
-:::
-
-Di seguito è riportato il pinout del connettore a 10 pin:
-
-:::{list-table}
-:widths: 20 80
-:header-rows: 1
-* - Pin
-  - Descrizione
-* - 1
-  - +24 Vdc
-* - 2
-  - −24 Vdc
-* - 3
-  - +STO1
-* - 4
-  - −STO1
-* - 5
-  - +STO2
-* - 6
-  - −STO2
-* - 7
-  - NC
-* - 8
-  - NC
-* - 9
-  - NC
-* - 10
-  - NC
-:::
-
-- **+STO1 e +STO2**: collegare al circuito di sicurezza. Questi ingressi devono ricevere +24 Vdc.
-
-- **−STO1 e −STO2**: collegare a riferimento −24 Vdc.
-
-### Connessione Ethernet
-
-Per la comunicazione con il FlexiBowl è disponibile la porta Ethernet identificata con la sigla **C-ETH**, accessibile anche tramite web browser.
-
-- **Tipo connettore**: M12, codifica D-Code
-
-:::{figure} ../../../../_shared/media/images/stpanel6.PNG
-:width: 80%
-:center:
-:::
-
-### Collegamento Tramogge
-
-Il FlexiBowl è dotato di una connessione verso uno o più controller di tramogge vibranti di produzione ARS, tramite il connettore M12 A-code identificato con la sigla **HOPPER**.
-
-:::{figure} ../../../../_shared/media/images/stpanel5.PNG
-:width: 80%
-:center:
-:::
 
 ## LED di Stato
 
@@ -362,7 +587,11 @@ Questo LED può avere due stati:
   - Anomalia interna o anomalia nel collegamento Ethernet. Fare riferimento alla tabella delle anomalie.
 :::
 
-## Pannellino FlexiTrack
+### Verificare i LED di stato
+
+Come per il pannello standard, dopo l'accensione attendere che il LED **Ready/Fault** diventi verde (Hopper e C-ETH correttamente collegati); in caso di anomalia — interna o sul collegamento Ethernet — il LED sarà rosso.
+
+## Pannello FlexiTrack
 
 Il pannellino in dotazione con l'opzione FlexiTrack prevede i seguenti connettori:
 
@@ -438,123 +667,6 @@ Di seguito è riportata la mappa segnali del connettore a 19 pin:
   - NC
 :::
 
-## Pannello Rack (FB 200 / FB 350)
-
-I modelli FlexiBowl FB 200 e FB 350 sono dotati di un Rack contenente tutti i dispositivi elettronici necessari al funzionamento. Il pannello di interfaccia prevede connettori dedicati allo scambio dati tra la stazione remota e il FlexiBowl.
-
-Oltre ai connettori standard presenti nei pannelli per le taglie superiori, sono disponibili i seguenti connettori dedicati:
-- **C-ETH FB**: collegamento Ethernet con FlexiBowl.
-- **C-A Signal**: segnali analogici di comando.
-- **C-B Signal**: segnali digitali di comando.
-- **Motor**: alimentazione ausiliaria, comando motore e segnali STO.
-
-### Connettore C-A Signal
-
-:::{figure} ../../../../_shared/media/images/rack4.PNG
-:width: 80%
-:center:
-:::
-
-Connettore a 12 pin per segnali analogici:
-
-:::{list-table}
-:widths: 20 80
-:header-rows: 1
-* - Pin
-  - Descrizione
-* - 1
-  - Analog Output 1
-* - 2
-  - −24 Vdc
-* - 3
-  - Analog Input 1
-* - 4
-  - +24 Vdc
-* - 5–12
-  - NC
-:::
-
-### Connettore C-B Signal
-
-:::{figure} ../../../../_shared/media/images/rack5.PNG
-:width: 80%
-:center:
-:::
-
-Connettore a 19 pin per segnali digitali:
-
-:::{list-table}
-:widths: 20 80
-:header-rows: 1
-* - Pin
-  - Descrizione
-* - 1
-  - +24 Vdc – Attivazione Led Verde Stato
-* - 2
-  - −24 Vdc – Comune Led Stato
-* - 3
-  - +24 Vdc – Attivazione Led Rosso Stato
-* - 4
-  - +24 Vdc – Attivazione Led Stato Back light
-* - 5
-  - −24 Vdc – Attivazione Led Stato Back light
-* - 6
-  - +24 Vdc – Attivazione Back light
-* - 7
-  - −24 Vdc – Attivazione Back light
-* - 8
-  - +24 Vdc – Attivazione Flip
-* - 9
-  - −24 Vdc – Attivazione Flip
-* - 10
-  - +24 Vdc – Attivazione Blow
-* - 11
-  - −24 Vdc – Attivazione Blow
-* - 12–19
-  - NC
-:::
-### Connettore Motor
-
-:::{figure} ../../../../_shared/media/images/rack3.PNG
-:width: 80%
-:center:
-:::
-
-Connettore a 9 pin per alimentazione motore e segnali STO:
-
-:::{list-table}
-:widths: 20 80
-:header-rows: 1
-* - Pin
-  - Descrizione
-* - 1
-  - +STO1 – Safety Torque Off
-* - 2
-  - +24 Vdc – Alimentazione ausiliaria
-* - 3
-  - +STO2 – Safety Torque Off
-* - 4
-  - −24 Vdc – Alimentazione ausiliaria
-* - 5
-  - NC
-* - 6
-  - +48 Vdc – Motor Power
-* - 7
-  - −STO1 – Safety Torque Off
-* - 8
-  - −48 Vdc – Motor Power
-* - 9
-  - −STO2 – Safety Torque Off
-:::
-
-### Connessione Ethernet FlexiBowl
-
-:::{figure} ../../../../_shared/media/images/rack8.PNG
-:width: 80%
-:center:
-:::
-
-Connettore M12 D-Code per il collegamento del Rack con il FlexiBowl.
 
 ## Note e Avvertenze Generali
 
@@ -573,3 +685,8 @@ In caso di anomalia indicata dal LED rosso (Ready/Fault), fare riferimento alla 
 :::{attention}
 Per ulteriori informazioni tecniche o assistenza, contattare ARS s.r.l. – FlexiBowl® Division.
 :::
+
+
+
+
+
