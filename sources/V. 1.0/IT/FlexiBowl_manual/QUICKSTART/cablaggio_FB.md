@@ -53,6 +53,18 @@
 .ars-pin-table { width:100%; border-collapse:collapse; font-size:0.8rem; margin-top:0.4rem; }
 .ars-pin-table th { background:#f0f4f8; padding:0.3rem 0.5rem; text-align:left; border:1px solid #d0e4f0; }
 .ars-pin-table td { padding:0.3rem 0.5rem; border:1px solid #d0e4f0; }
+
+
+.ars-zoom-img {
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.35s ease;
+  cursor: zoom-in;
+  position: relative;
+}
+.ars-zoom-img:hover {
+  transform: scale(1.8);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.22);
+  z-index: 10;
+}
 </style>
 
 :::::{important}
@@ -124,6 +136,7 @@ Il cablaggio del FlexiBowl® cambia in base alla taglia della macchina:
   - 
     ```{image} ../../../../_shared/media/images/connectSTO.png
     :alt: Collegare lo STO
+    :class: ars-zoom-img
     ```
 
 * - 2
@@ -161,6 +174,7 @@ Il cablaggio del FlexiBowl® cambia in base alla taglia della macchina:
   - 
     ```{image} ../../../../_shared/media/images/connectEthernet.png
     :alt: Collegare l'Ethernet
+    :class: ars-zoom-img
     ```
 
 * - 3
@@ -184,6 +198,7 @@ Il cablaggio del FlexiBowl® cambia in base alla taglia della macchina:
   - 
     ```{image} ../../../../_shared/media/images/connectHopper.png
     :alt: Collegare l'Hopper
+    :class: ars-zoom-img
     ```
 
 * - 4
@@ -213,6 +228,7 @@ Il cablaggio del FlexiBowl® cambia in base alla taglia della macchina:
   - 
     ```{image} ../../../../_shared/media/images/connectSupply.png
     :alt: Collegare l'alimentazione
+    :class: ars-zoom-img
     ```
 
 * - 5
@@ -224,6 +240,7 @@ Il cablaggio del FlexiBowl® cambia in base alla taglia della macchina:
   - 
     ```{image} ../../../../_shared/media/images/connectAir.png
     :alt: Collegare l'aria compressa Ø8mm
+    :class: ars-zoom-img
     ```
 ```
 
@@ -281,6 +298,7 @@ Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔
     ```{image} ../../../../_shared/media/images/connectEthernet200.png
     :width: 110%
     :alt: Collegare il cavo C-ETH FB
+    :class: ars-zoom-img
     ```
 * - 6
   - **Collegare il cavo MOTOR.**
@@ -292,6 +310,7 @@ Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔
     ```{image} ../../../../_shared/media/images/connectMotor.png
     :width:110%
     :alt: Collegare il cavo Motor
+    :class: ars-zoom-img
     ```
 * - 7
   - **Collegare il cavo C-A SIGNAL** — connettore a 19 poli per i segnali analogici.
@@ -299,6 +318,7 @@ Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔
     ```{image} ../../../../_shared/media/images/connectASignal.png
     :width:110%
     :alt: Collegare il cavo C-A Signal
+    :class: ars-zoom-img
     ```
 * - 8
   - **Collegare il cavo C-B SIGNAL** — connettore a 19 poli per i segnali digitali.
@@ -306,6 +326,7 @@ Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔
     ```{image} ../../../../_shared/media/images/connectBSignal.png
     :width:110%
     :alt: Collegare il cavo C-B Signal
+    :class: ars-zoom-img
     ```
 * - 9
   - **Collegare l'aria compressa** con tubo **Ø 6 mm**, direttamente sul pannello della macchina.
@@ -317,5 +338,6 @@ Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔
     ```{image} ../../../../_shared/media/images/connectAir200.png
     :width:110%
     :alt: Collegare l'aria compressa Ø6mm
+    :class: ars-zoom-img
     ```
 ```

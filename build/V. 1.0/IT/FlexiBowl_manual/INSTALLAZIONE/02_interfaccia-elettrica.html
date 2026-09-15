@@ -443,23 +443,15 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interfaccia-utente">Interfaccia Utente</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collegamento-elettrico-pannello-standard-flexibowl-500-1200">Collegamento Elettrico Pannello standard FlexiBowl 500-1200</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collegamento-elettrico-pannello-flexibowl-200-e-350">Collegamento Elettrico Pannello FlexiBowl 200 e 350</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#collegamento-tra-rack-e-flexibowl">Collegamento tra Rack e FlexiBowl®</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-500-1200-pannello-elettrico-standard">FlexiBowl® 500 – 1200 — Pannello Elettrico Standard</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-200-350-rack-esterno">FlexiBowl® 200 / 350 — Rack Esterno</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collegamenti-sul-rack">Collegamenti sul Rack</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fusibili-alloggiamento">Fusibili – Alloggiamento</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collegamento-tra-rack-e-flexibowl">Collegamento tra Rack e FlexiBowl®</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#led-di-stato">LED di Stato</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#led-light-on">LED – Light ON</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#led-ready-fault">LED – Ready / Fault</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#verificare-i-led-di-stato">Verificare i LED di stato</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-flexitrack">Pannello FlexiTrack</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#led-di-stato">LED di Stato</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opzione-flexitrack-pannellino-di-interfaccia">Opzione FlexiTrack — Pannellino di Interfaccia</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#note-e-avvertenze-generali">Note e Avvertenze Generali</a></li>
 </ul>
             </nav>
         </div>
@@ -707,7 +699,71 @@ document.write(`
     document.getElementById('ie-panel-'+id).classList.add('on');
   };
 })();
-</script><div class="admonition warning">
+</script><style>
+.ars-dropdown {
+  margin: 0.9rem 0 0.4rem 0;
+  border: 2px solid #7fb3dd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(26,111,196,0.10);
+}
+.ars-dropdown summary {
+  cursor: pointer;
+  color: #2980b9;
+  font-weight: 600;
+  font-size: 0.83rem;
+  padding: 0.5rem 0.9rem;
+  display: block;
+  background: #eaf3fb;
+  list-style: none;
+  user-select: none;
+}
+.ars-dropdown summary::-webkit-details-marker { display: none; }
+.ars-dropdown summary::before {
+  content: "▸ ";
+}
+.ars-dropdown[open] summary::before {
+  content: "▾ ";
+}
+.ars-dropdown[open] summary {
+  border-bottom: 2px solid #7fb3dd;
+}
+.ars-dropdown .ars-dropdown-body {
+  padding: 0.9rem 1rem;
+  background: #fff;
+}
+.ars-dropdown img {
+  display: block;
+  max-width: 100%;
+  width: 360px;
+  border-radius: 4px;
+}
+.ars-step-warn, .ars-step-attn, .ars-step-note {
+  border-radius: 5px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.83rem;
+  margin-top: 0.55rem;
+  line-height: 1.4;
+}
+.ars-step-warn { background:#fff3cd; border-left:4px solid #f0ad4e; color:#7a5b00; }
+.ars-step-attn { background:#fee2e2; border-left:4px solid #dc2626; color:#8a1c1c; }
+.ars-step-note { background:#eef6fc; border-left:4px solid #2980b9; color:#1a3a52; }
+.ars-pin-table { width:100%; border-collapse:collapse; font-size:0.8rem; margin-top:0.4rem; }
+.ars-pin-table th { background:#f0f4f8; padding:0.3rem 0.5rem; text-align:left; border:1px solid #d0e4f0; }
+.ars-pin-table td { padding:0.3rem 0.5rem; border:1px solid #d0e4f0; }
+
+.ars-zoom-img {
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.35s ease;
+  cursor: zoom-in;
+  position: relative;
+}
+.ars-zoom-img:hover {
+  transform: scale(1.8);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.22);
+  z-index: 10;
+}
+</style>
+<div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Prima di effettuare qualsiasi connessione elettrica, assicurarsi che l’alimentazione sia disinserita e che il sistema sia in stato di sicurezza.</p>
 </div>
@@ -715,10 +771,14 @@ document.write(`
 <p class="admonition-title">Important</p>
 <p>Lasciare circa <a class="reference internal" href="../DATI%20TECNICI/02_dati-tecnici-meccanici.html#dim800"><span class="std std-ref">100mm di spazio libero</span></a> attorno ai connettori di alimentazione per agevolare le operazioni di cablaggio e manutenzione.</p>
 </div>
-<section id="interfaccia-utente">
-<h2>Interfaccia Utente<a class="headerlink" href="#interfaccia-utente" title="Link to this heading">#</a></h2>
-<section id="collegamento-elettrico-pannello-standard-flexibowl-500-1200">
-<h3>Collegamento Elettrico Pannello standard FlexiBowl 500-1200<a class="headerlink" href="#collegamento-elettrico-pannello-standard-flexibowl-500-1200" title="Link to this heading">#</a></h3>
+<p>L’interfaccia elettrica del FlexiBowl® cambia in base alla taglia della macchina:</p>
+<ul class="simple">
+<li><p><strong>FlexiBowl® 500 – 1200</strong>: tutti i connettori (STO, Ethernet, Hopper, alimentazione, aria) si trovano su un unico <strong>pannello elettrico standard</strong>, montato direttamente sulla macchina.</p></li>
+<li><p><strong>FlexiBowl® 200 / 350</strong>: i connettori principali si trovano su un <strong>rack</strong> esterno; il rack viene poi collegato alla macchina tramite 4 cavi dedicati (Ethernet, Motore+STO, segnale A, segnale B). Sulla macchina resta da collegare solo l’aria compressa.</p></li>
+</ul>
+<hr class="docutils" />
+<section id="flexibowl-500-1200-pannello-elettrico-standard">
+<h2>FlexiBowl® 500 – 1200 — Pannello Elettrico Standard<a class="headerlink" href="#flexibowl-500-1200-pannello-elettrico-standard" title="Link to this heading">#</a></h2>
 <div class="pst-scrollable-table-container"><table class="table">
 <colgroup>
 <col style="width: 8.0%" />
@@ -735,10 +795,11 @@ document.write(`
 <tbody>
 <tr class="row-even"><td><p>1</p></td>
 <td><p><strong>Collegare lo STO.</strong></p>
+<p>Connettore a 10 pin. Necessario per attivare il motore.</p>
 <div class="ars-step-note">
-Connettore a 10 pin. Gli ingressi <strong>+STO1</strong> e <strong>+STO2</strong> devono ricevere <strong>+24 Vdc</strong> dal circuito di sicurezza; <strong>−STO1</strong> e <strong>−STO2</strong> vanno collegati al riferimento −24 Vdc. Senza questo collegamento il motore non può essere attivato.
+Gli ingressi <strong>+STO1</strong> e <strong>+STO2</strong> devono ricevere <strong>+24 Vdc</strong> dal circuito di sicurezza; <strong>−STO1</strong> e <strong>−STO2</strong> vanno collegati al riferimento −24 Vdc.
 </div>
-<details class="ars-dropdown"><summary>Pinout connettore 10 pin</summary><div class="ars-dropdown-body">
+<details class="ars-dropdown"><summary>Pinout connettore STO (10 pin)</summary><div class="ars-dropdown-body">
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin</p></th>
@@ -772,14 +833,12 @@ Connettore a 10 pin. Gli ingressi <strong>+STO1</strong> e <strong>+STO2</strong
 </div>
 </div></details>
 </td>
-<td><img alt="Collegare lo STO" src="../../../../_shared/media/images/stpanel7.PNG" />
+<td><img alt="Collegare lo STO" class="ars-zoom-img" src="../../../../_shared/media/images/stpanel7.PNG" />
 </td>
 </tr>
 <tr class="row-odd"><td><p>2</p></td>
 <td><p><strong>Collegare l’Ethernet (C-ETH).</strong></p>
-<div class="ars-step-note">
-Connettore M12, codifica D-Code. Consente la comunicazione con il FlexiBowl®, accessibile anche tramite web browser.
-</div>
+<p>Connettore M12, codifica D-Code. Consente la comunicazione con il FlexiBowl®, accessibile anche tramite web browser.</p>
 <div class="ars-step-attn">
 Quando il FlexiBowl® è alimentato, il collegamento Ethernet è <strong>obbligatorio</strong>: se assente, la macchina entra in stato di <strong>ERROR</strong> (LED Ready/Fault rosso).
 </div>
@@ -844,14 +903,12 @@ Quando il FlexiBowl® è alimentato, il collegamento Ethernet è <strong>obbliga
 </div>
 </div></details>
 </td>
-<td><img alt="Collegare l'Ethernet" src="../../../../_shared/media/images/stpanel6.PNG" />
+<td><img alt="Collegare l'Ethernet" class="ars-zoom-img" src="../../../../_shared/media/images/stpanel6.PNG" />
 </td>
 </tr>
 <tr class="row-even"><td><p>3</p></td>
 <td><p><strong>Collegare l’Hopper.</strong></p>
-<div class="ars-step-note">
-Connettore M12 A-code, utilizzato per comunicare con i controller hopper ARS tramite protocollo <strong>Modbus RTU</strong>.
-</div>
+<p>Connettore M12 A-code, utilizzato per comunicare con i controller hopper ARS tramite protocollo <strong>Modbus RTU</strong>.</p>
 <details class="ars-dropdown"><summary>Pinout M12 A-code</summary><div class="ars-dropdown-body">
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -880,19 +937,20 @@ Connettore M12 A-code, utilizzato per comunicare con i controller hopper ARS tra
 </div>
 </div></details>
 </td>
-<td><img alt="Collegare l'Hopper" src="../../../../_shared/media/images/stpanel5.PNG" />
+<td><img alt="Collegare l'Hopper" class="ars-zoom-img" src="../../../../_shared/media/images/stpanel5.PNG" />
 </td>
 </tr>
 <tr class="row-odd"><td><p>4</p></td>
-<td><p><strong>Collegare l’alimentazione (Power Supply).</strong></p>
+<td><p><strong>Collegare l’alimentazione (Power Supply) — per ultima.</strong></p>
+<p>Connettore fornito in dotazione, identificato con la sigla <strong>POWER SUPPLY</strong>. Il pulsante di alimentazione consente di accendere/spegnere il dispositivo.</p>
 <div class="ars-step-attn">
 Assicurarsi che il FlexiBowl® sia <strong>spento</strong> prima di collegare l'alimentazione, e che il dispositivo sia collegato a terra.
 </div>
 <div class="ars-step-warn">
-Tensione ammessa: <strong>120–230 Vac, 50/60 Hz</strong>. Utilizzare esclusivamente il connettore fornito in dotazione, identificato con la sigla <strong>POWER SUPPLY</strong>.
+Tensione ammessa: <strong>120–230 Vac, 50/60 Hz</strong>.
 </div>
 <div class="ars-step-note">
-Il connettore di alimentazione è provvisto di un supporto per l'alloggiamento di <strong>n. 2 fusibili</strong>, con funzione di protezione da eventuali anomalie elettriche. Al primo avvio, verificarne sempre lo stato prima di accendere il dispositivo. L'accensione/spegnimento avviene tramite l'apposito pulsante di alimentazione.
+Il connettore di alimentazione è provvisto di un supporto per l'alloggiamento di <strong>n. 2 fusibili</strong>, con funzione di protezione da eventuali anomalie elettriche. Al primo avvio, verificarne sempre lo stato prima di accendere il dispositivo.
 </div>
 <details class="ars-dropdown"><summary>Schema pinout cavo alimentazione</summary><div class="ars-dropdown-body">
 <div class="pst-scrollable-table-container"><table class="table">
@@ -920,68 +978,23 @@ Il connettore di alimentazione è provvisto di un supporto per l'alloggiamento d
 </div>
 </div></details>
 </td>
-<td><img alt="Collegare l'alimentazione" src="../../../../_shared/media/images/stpanel1.PNG" />
+<td><img alt="Collegare l'alimentazione" class="ars-zoom-img" src="../../../../_shared/media/images/stpanel1.PNG" />
 </td>
-</tr>
-<tr class="row-even"><td><p>5</p></td>
-<td><p><strong>Verificare i LED di stato.</strong></p>
-<p>Dopo l’accensione, attendere che il LED di stato <strong>Ready/Fault</strong> si accenda: se Hopper e C-ETH sono collegati correttamente, il LED sarà <strong>verde</strong>.</p>
-<div class="ars-step-note">
-Il pannello frontale dispone di due LED:
-</div>
-<details class="ars-dropdown"><summary>Significato dei LED</summary><div class="ars-dropdown-body">
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>LED</p></th>
-<th class="head"><p>Colore</p></th>
-<th class="head"><p>Significato</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Light ON</p></td>
-<td><p>Verde (unico stato)</p></td>
-<td><p>Indica se il backlight del sistema di visione è ON o OFF. Attivabile via software di visione o da comandi Ethernet esterni.</p></td>
-</tr>
-<tr class="row-odd"><td><p>Ready / Fault</p></td>
-<td><p>Verde</p></td>
-<td><p>Sistema operativo, privo di anomalie, collegamento Ethernet corretto.</p></td>
-</tr>
-<tr class="row-even"><td><p>Ready / Fault</p></td>
-<td><p>Rosso</p></td>
-<td><p>Anomalia interna o anomalia nel collegamento Ethernet: fare riferimento alla tabella delle anomalie.</p></td>
 </tr>
 </tbody>
 </table>
 </div>
-</div></details>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>6</p></td>
-<td><p><strong>Collegare l’aria compressa</strong> con tubo <strong>Ø 8 mm</strong>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Per le caratteristiche dell’aria richieste (pressione, classe di pulizia ISO) fare riferimento ai <a class="reference internal" href="../DATI%20TECNICI/04_dati-tecnici-pneumatici.html#datipneum"><span class="std std-ref">Dati Tecnici Pneumatici</span></a>.</p>
-</div>
-</td>
-<td><img alt="Collegare l'aria compressa Ø8mm" src="../../_images/connectAir.png" />
-</td>
-</tr>
-</tbody>
-</table>
+<p>Dopo l’accensione, verificare sempre lo stato della macchina tramite i <strong>LED di stato</strong> sul pannello frontale — vedi sezione <a class="reference internal" href="#led-stato"><span class="std std-ref">LED di Stato</span></a> più in basso in questa pagina.</p>
 </div>
 </section>
 <hr class="docutils" />
-<section id="collegamento-elettrico-pannello-flexibowl-200-e-350">
-<h3>Collegamento Elettrico Pannello FlexiBowl 200 e 350<a class="headerlink" href="#collegamento-elettrico-pannello-flexibowl-200-e-350" title="Link to this heading">#</a></h3>
-<p>I modelli FlexiBowl® FB 200 e FB 350 sono dotati di un <strong>Rack</strong> esterno, contenente tutti i dispositivi elettronici necessari al funzionamento. I collegamenti verso gli impianti del cliente si trovano sul rack (non sulla macchina); il rack va poi collegato alla macchina tramite 4 cavi dedicati.</p>
-<section id="collegamento-tra-rack-e-flexibowl">
-<h4>Collegamento tra Rack e FlexiBowl®<a class="headerlink" href="#collegamento-tra-rack-e-flexibowl" title="Link to this heading">#</a></h4>
-<p>Il rack comunica con il FlexiBowl® tramite 4 cavi dedicati, ciascuno da collegare <strong>esclusivamente</strong> alla porta con l’etichetta corrispondente sul pannello.</p>
-<div class="admonition attention">
-<p class="admonition-title">Attention</p>
-<p>Collegare ogni cavo alla porta con l’<strong>etichetta corrispondente</strong> (es. MOTOR ↔ MOTOR, C-A SIGNAL ↔ C-A SIGNAL). Un collegamento incrociato può danneggiare il sistema.</p>
-</div>
+<section id="flexibowl-200-350-rack-esterno">
+<h2>FlexiBowl® 200 / 350 — Rack Esterno<a class="headerlink" href="#flexibowl-200-350-rack-esterno" title="Link to this heading">#</a></h2>
+<p>I modelli FlexiBowl® FB 200 e FB 350 sono dotati di un <strong>Rack</strong> esterno, contenente tutti i dispositivi elettronici necessari al funzionamento. I connettori verso gli impianti del cliente si trovano sul rack (non sulla macchina) e hanno la <strong>stessa piedinatura</strong> dei corrispondenti connettori del pannello standard, semplicemente posizionati su un box esterno.</p>
+<section id="collegamenti-sul-rack">
+<h3>Collegamenti sul Rack<a class="headerlink" href="#collegamenti-sul-rack" title="Link to this heading">#</a></h3>
 <div class="pst-scrollable-table-container"><table class="table">
 <colgroup>
 <col style="width: 8.0%" />
@@ -996,9 +1009,229 @@ Il pannello frontale dispone di due LED:
 </tr>
 </thead>
 <tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p><strong>Collegare lo STO</strong> sul rack.</p>
+<p>Connettore a 10 pin, stessa funzione e piedinatura del pannello standard.</p>
+<div class="ars-step-note">
+Gli ingressi <strong>+STO1</strong> e <strong>+STO2</strong> devono ricevere <strong>+24 Vdc</strong> dal circuito di sicurezza; <strong>−STO1</strong> e <strong>−STO2</strong> vanno collegati al riferimento −24 Vdc.
+</div>
+<details class="ars-dropdown"><summary>Pinout connettore STO (10 pin)</summary><div class="ars-dropdown-body">
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Pin</p></th>
+<th class="head"><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>+24 Vdc</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>−24 Vdc</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>+STO1</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>−STO1</p></td>
+</tr>
 <tr class="row-even"><td><p>5</p></td>
-<td><p><strong>Collegare il cavo Ethernet (C-ETH FB)</strong> tra Rack e FlexiBowl® — connettore M12 D-code.</p></td>
-<td><a class="reference internal image-reference" href="../../../../_shared/media/images/rack8.PNG"><img alt="Collegare il cavo C-ETH FB" src="../../../../_shared/media/images/rack8.PNG" style="width: 110%;" />
+<td><p>+STO2</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>−STO2</p></td>
+</tr>
+<tr class="row-even"><td><p>7–10</p></td>
+<td><p>NC</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div></details>
+</td>
+<td><img alt="Collegare lo STO" class="ars-zoom-img" src="../../_images/rack2.PNG" />
+</td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p><strong>Collegare il C-ETH IN</strong> sul rack.</p>
+<p>Connettore M12, codifica D-Code.</p>
+<div class="ars-step-attn">
+Collegamento <strong>obbligatorio</strong> a macchina alimentata: se assente, la macchina va in ERROR (LED Ready/Fault rosso).
+</div>
+<details class="ars-dropdown"><summary>Pinout M12 → RJ45</summary><div class="ars-dropdown-body">
+<p>Adattatore M12 8 poli → RJ45:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Pin</p></th>
+<th class="head"><p>Colore</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Giallo</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Arancione</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Bianco</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Non assegnato</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Non assegnato</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>Blu</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>Non assegnato</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>Non assegnato</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Connettore M12 D-code 4 poli:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Pin</p></th>
+<th class="head"><p>Colore</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Giallo</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Bianco</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Arancione</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Blu</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div></details>
+</td>
+<td><a class="ars-zoom-img reference internal image-reference" href="../../_images/rack6.PNG"><img alt="Pannello rack" class="ars-zoom-img" src="../../_images/rack6.PNG" style="width: 110%;" />
+</a>
+</td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p><strong>Collegare l’Hopper</strong> sul rack.</p>
+<p>Connettore M12 A-code, protocollo <strong>Modbus RTU</strong>.</p>
+<details class="ars-dropdown"><summary>Pinout M12 A-code</summary><div class="ars-dropdown-body">
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Pin</p></th>
+<th class="head"><p>Colore</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Marrone</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Bianco</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Blu</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Nero</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Grigio</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div></details>
+</td>
+<td><a class="ars-zoom-img reference internal image-reference" href="../../_images/rack7.PNG"><img alt="Pannello rack" class="ars-zoom-img" src="../../_images/rack7.PNG" style="width: 110%;" />
+</a>
+</td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p><strong>Collegare l’alimentazione</strong> sul rack — per ultima.</p>
+<p>Presa di corrente con interruttore; comprende anche un filtro IEC.</p>
+<div class="ars-step-attn">
+Assicurarsi che il FlexiBowl® sia <strong>spento</strong> prima di collegare l'alimentazione.
+</div>
+<div class="ars-step-warn">
+Tensione ammessa: <strong>120–230 Vac, 50/60 Hz</strong>.
+</div>
+<div class="ars-step-note">
+Anche sul rack, il connettore di alimentazione dispone dell'alloggiamento per i <strong>2 fusibili</strong> di protezione: verificarne lo stato al primo avvio.
+</div>
+<details class="ars-dropdown"><summary>Schema pinout cavo alimentazione</summary><div class="ars-dropdown-body">
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Colore</p></th>
+<th class="head"><p>Tipo</p></th>
+<th class="head"><p>Etichetta</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Marrone</p></td>
+<td><p>Fase</p></td>
+<td><p>L1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Blu</p></td>
+<td><p>Neutro</p></td>
+<td><p>N1</p></td>
+</tr>
+<tr class="row-even"><td><p>Giallo/Verde</p></td>
+<td><p>Terra</p></td>
+<td><p>PE1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div></details>
+</td>
+<td><a class="ars-zoom-img reference internal image-reference" href="../../_images/rack1.PNG"><img alt="Pannello rack" class="ars-zoom-img" src="../../_images/rack1.PNG" style="width: 110%;" />
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="collegamento-tra-rack-e-flexibowl">
+<h3>Collegamento tra Rack e FlexiBowl®<a class="headerlink" href="#collegamento-tra-rack-e-flexibowl" title="Link to this heading">#</a></h3>
+<p>Il rack comunica con il FlexiBowl® tramite 4 cavi dedicati, ciascuno da collegare <strong>esclusivamente</strong> alla porta con l’etichetta corrispondente sul pannello macchina.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Collegare ogni cavo alla porta con l’<strong>etichetta corrispondente</strong> (es. MOTOR ↔ MOTOR, C-A SIGNAL ↔ C-A SIGNAL). Un collegamento incrociato può danneggiare il sistema.</p>
+</div>
+<div class="pst-scrollable-table-container"><table class="table">
+<colgroup>
+<col style="width: 8.0%" />
+<col style="width: 52.0%" />
+<col style="width: 40.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p class="rubric" id="id3"></p>
+</th>
+<th class="head"><p>Azione</p></th>
+<th class="head"><p>Immagine</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>5</p></td>
+<td><p><strong>Collegare il cavo Ethernet (C-ETH FB)</strong> tra Rack e FlexiBowl®.</p>
+<p>Connettore M12 D-code.</p>
+</td>
+<td><a class="ars-zoom-img reference internal image-reference" href="../../../../_shared/media/images/rack8.PNG"><img alt="Collegare il cavo C-ETH FB" class="ars-zoom-img" src="../../../../_shared/media/images/rack8.PNG" style="width: 110%;" />
+</a>
+<a class="ars-zoom-img reference internal image-reference" href="../../_images/smallpanel4.PNG"><img alt="Collegare il cavo C-ETH FB" class="ars-zoom-img" src="../../_images/smallpanel4.PNG" style="width: 110%;" />
 </a>
 </td>
 </tr>
@@ -1047,12 +1280,15 @@ Connettore a 9 pin: veicola sia l'alimentazione del motore sia i segnali <strong
 </div>
 </div></details>
 </td>
-<td><a class="reference internal image-reference" href="../../../../_shared/media/images/rack3.PNG"><img alt="Collegare il cavo Motor" src="../../../../_shared/media/images/rack3.PNG" style="width: 110%;" />
+<td><a class="ars-zoom-img reference internal image-reference" href="../../../../_shared/media/images/rack3.PNG"><img alt="Collegare il cavo Motor" class="ars-zoom-img" src="../../../../_shared/media/images/rack3.PNG" style="width: 110%;" />
+</a>
+<a class="ars-zoom-img reference internal image-reference" href="../../_images/smallpanel3.PNG"><img alt="Collegare il cavo C-ETH FB" class="ars-zoom-img" src="../../_images/smallpanel3.PNG" style="width: 110%;" />
 </a>
 </td>
 </tr>
 <tr class="row-even"><td><p>7</p></td>
-<td><p><strong>Collegare il cavo C-A SIGNAL</strong> — connettore a 12 pin per i segnali analogici.</p>
+<td><p><strong>Collegare il cavo C-A SIGNAL.</strong></p>
+<p>Connettore a 12 pin per i segnali analogici.</p>
 <details class="ars-dropdown"><summary>Pinout C-A Signal (12 pin)</summary><div class="ars-dropdown-body">
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -1081,12 +1317,15 @@ Connettore a 9 pin: veicola sia l'alimentazione del motore sia i segnali <strong
 </div>
 </div></details>
 </td>
-<td><a class="reference internal image-reference" href="../../../../_shared/media/images/rack4.PNG"><img alt="Collegare il cavo C-A Signal" src="../../../../_shared/media/images/rack4.PNG" style="width: 110%;" />
+<td><a class="ars-zoom-img reference internal image-reference" href="../../../../_shared/media/images/rack4.PNG"><img alt="Collegare il cavo C-A Signal" class="ars-zoom-img" src="../../../../_shared/media/images/rack4.PNG" style="width: 110%;" />
+</a>
+<a class="ars-zoom-img reference internal image-reference" href="../../_images/smallpanel1.PNG"><img alt="Collegare il cavo C-ETH FB" class="ars-zoom-img" src="../../_images/smallpanel1.PNG" style="width: 110%;" />
 </a>
 </td>
 </tr>
 <tr class="row-odd"><td><p>8</p></td>
-<td><p><strong>Collegare il cavo C-B SIGNAL</strong> — connettore a 19 pin per i segnali digitali.</p>
+<td><p><strong>Collegare il cavo C-B SIGNAL.</strong></p>
+<p>Connettore a 19 pin per i segnali digitali, incluse le attivazioni dei LED di stato.</p>
 <details class="ars-dropdown"><summary>Pinout C-B Signal (19 pin)</summary><div class="ars-dropdown-body">
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -1136,134 +1375,79 @@ Connettore a 9 pin: veicola sia l'alimentazione del motore sia i segnali <strong
 </div>
 </div></details>
 </td>
-<td><a class="reference internal image-reference" href="../../../../_shared/media/images/rack5.PNG"><img alt="Collegare il cavo C-B Signal" src="../../../../_shared/media/images/rack5.PNG" style="width: 110%;" />
+<td><a class="ars-zoom-img reference internal image-reference" href="../../../../_shared/media/images/rack5.PNG"><img alt="Collegare il cavo C-B Signal" class="ars-zoom-img" src="../../../../_shared/media/images/rack5.PNG" style="width: 110%;" />
+</a>
+<a class="ars-zoom-img reference internal image-reference" href="../../_images/smallpanel2.PNG"><img alt="Collegare il cavo C-ETH FB" class="ars-zoom-img" src="../../_images/smallpanel2.PNG" style="width: 110%;" />
 </a>
 </td>
 </tr>
-<tr class="row-even"><td><p>9</p></td>
-<td><p><strong>Collegare l’aria compressa</strong> con tubo <strong>Ø 6 mm</strong>, direttamente sul pannello della macchina.</p>
+</tbody>
+</table>
+</div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Per le caratteristiche dell’aria richieste (pressione, classe di pulizia ISO) fare riferimento ai <a class="reference internal" href="../DATI%20TECNICI/04_dati-tecnici-pneumatici.html#datipneum"><span class="std std-ref">Dati Tecnici Pneumatici</span></a>.</p>
+<p>Dopo l’accensione, verificare sempre lo stato della macchina tramite i <strong>LED di stato</strong> sul pannello frontale — vedi sezione <a class="reference internal" href="#led-stato"><span class="std std-ref">LED di Stato</span></a> più in basso in questa pagina.</p>
 </div>
-</td>
-<td><a class="reference internal image-reference" href="../../_images/connectAir200.png"><img alt="Collegare l'aria compressa Ø6mm" src="../../_images/connectAir200.png" style="width: 110%;" />
-</a>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
-</section>
-<section id="collegamenti-sul-rack">
-<h3>Collegamenti sul Rack<a class="headerlink" href="#collegamenti-sul-rack" title="Link to this heading">#</a></h3>
-<p>I connettori del rack sono gli stessi del pannello standard (stessa piedinatura), semplicemente posizionati su un box esterno anziché sulla macchina.</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p class="rubric" id="id3"></p>
-</th>
-<th class="head"><p>Azione</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>1</p></td>
-<td><p><strong>Collegare lo STO</strong> sul rack — stesso connettore a 10 pin del pannello standard (vedi tabella pinout sopra).</p></td>
-</tr>
-<tr class="row-odd"><td><p>2</p></td>
-<td><p><strong>Collegare il C-ETH IN</strong> sul rack — stesso connettore M12 D-code del pannello standard. Vale la stessa regola: collegamento obbligatorio, altrimenti la macchina va in ERROR.</p></td>
-</tr>
-<tr class="row-even"><td><p>3</p></td>
-<td><p><strong>Collegare l’Hopper</strong> sul rack — stesso connettore M12 A-code (Modbus RTU) del pannello standard.</p></td>
-</tr>
-<tr class="row-odd"><td><p>4</p></td>
-<td><p><strong>Collegare l’alimentazione</strong> sul rack — 120–230 Vac.</p>
-<div class="ars-step-attn">
-Assicurarsi che il FlexiBowl® sia <strong>spento</strong> prima di collegare l'alimentazione.
-</div>
-<div class="ars-step-note">
-Anche sul rack, il connettore di alimentazione dispone dell'alloggiamento per i <strong>2 fusibili</strong> di protezione: verificarne lo stato al primo avvio.
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
-<section id="fusibili-alloggiamento">
-<h3>Fusibili – Alloggiamento<a class="headerlink" href="#fusibili-alloggiamento" title="Link to this heading">#</a></h3>
-<p>Il connettore elettrico è provvisto di un supporto per l’alloggiamento di n. 2 fusibili, aventi la funzione di proteggere il dispositivo da eventuali anomalie elettriche.</p>
+<hr class="docutils" />
 </section>
 </section>
 <section id="led-di-stato">
-<h2>LED di Stato<a class="headerlink" href="#led-di-stato" title="Link to this heading">#</a></h2>
-<p>Sul pannello frontale del FlexiBowl sono presenti due LED di stato:</p>
-<section id="led-light-on">
-<h3>LED – Light ON<a class="headerlink" href="#led-light-on" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p><strong>Colore</strong>: Verde (unico stato)</p></li>
-</ul>
-<p>Indica se il backlight a bordo del FlexiBowl è nello stato ON (acceso) o OFF (spento). Il backlight viene utilizzato dal sistema di visione per illuminare i componenti e renderli riconoscibili. L’attivazione del backlight è accessibile tramite il software di visione oppure mediante comandi provenienti da un sistema esterno in comunicazione Ethernet.</p>
-</section>
-<section id="led-ready-fault">
-<h3>LED – Ready / Fault<a class="headerlink" href="#led-ready-fault" title="Link to this heading">#</a></h3>
-<p>Questo LED può avere due stati:</p>
+<span id="led-stato"></span><h2>LED di Stato<a class="headerlink" href="#led-di-stato" title="Link to this heading">#</a></h2>
+<p>Sul pannello frontale del FlexiBowl® sono presenti due LED di stato, comuni a <strong>tutte le taglie</strong> (500–1200 e 200/350):</p>
 <div class="pst-scrollable-table-container"><table class="table">
-<colgroup>
-<col style="width: 30.0%" />
-<col style="width: 70.0%" />
-</colgroup>
 <thead>
-<tr class="row-odd"><th class="head"><p>Colore LED</p></th>
+<tr class="row-odd"><th class="head"><p>LED</p></th>
+<th class="head"><p>Colore</p></th>
 <th class="head"><p>Significato</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Verde</p></td>
+<tr class="row-even"><td><p><strong>Light ON</strong></p></td>
+<td><p>Verde (unico stato)</p></td>
+<td><p>Indica se il backlight a bordo del FlexiBowl® è ON o OFF. Il backlight viene utilizzato dal sistema di visione per illuminare i componenti e renderli riconoscibili. Attivabile tramite il software di visione oppure mediante comandi provenienti da un sistema esterno in comunicazione Ethernet.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Ready / Fault</strong></p></td>
+<td><p>Verde</p></td>
 <td><p>Sistema operativo e privo di anomalie. Collegamento Ethernet corretto.</p></td>
 </tr>
-<tr class="row-odd"><td><p>Rosso</p></td>
-<td><p>Anomalia interna o anomalia nel collegamento Ethernet. Fare riferimento alla tabella delle anomalie.</p></td>
+<tr class="row-even"><td><p><strong>Ready / Fault</strong></p></td>
+<td><p>Rosso</p></td>
+<td><p>Anomalia interna oppure anomalia nel collegamento Ethernet. Fare riferimento alla tabella delle anomalie.</p></td>
 </tr>
 </tbody>
 </table>
 </div>
-</section>
-<section id="verificare-i-led-di-stato">
-<h3>Verificare i LED di stato<a class="headerlink" href="#verificare-i-led-di-stato" title="Link to this heading">#</a></h3>
-<p>Come per il pannello standard, dopo l’accensione attendere che il LED <strong>Ready/Fault</strong> diventi verde (Hopper e C-ETH correttamente collegati); in caso di anomalia — interna o sul collegamento Ethernet — il LED sarà rosso.</p>
-</section>
-</section>
-<section id="pannello-flexitrack">
-<h2>Pannello FlexiTrack<a class="headerlink" href="#pannello-flexitrack" title="Link to this heading">#</a></h2>
-<p>Il pannellino in dotazione con l’opzione FlexiTrack prevede i seguenti connettori:</p>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-1 sd-row-cols-lg-1 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
-<div class="sd-col sd-d-flex-column docutils">
-<p>Sofffi radiali</p>
-<figure class="align-default">
-<a class="reference internal image-reference" href="../../../../_shared/media/images/encpanel6.PNG"><img alt="../../_images/encpanel6.PNG" src="../../../../_shared/media/images/encpanel6.PNG" style="width: 100%;" />
-</a>
-</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Dopo l’accensione, attendere che il LED <strong>Ready/Fault</strong> si accenda: se Hopper e C-ETH sono collegati correttamente, il LED sarà <strong>verde</strong>.</p>
 </div>
-<div class="sd-col sd-d-flex-column docutils">
-<p>Soffio centrale</p>
-<figure class="align-default">
-<a class="reference internal image-reference" href="../../../../_shared/media/images/encpanel8.PNG"><img alt="../../_images/encpanel8.PNG" src="../../../../_shared/media/images/encpanel8.PNG" style="width: 100%;" />
-</a>
-</figure>
-</div>
+</section>
+<hr class="docutils" />
+<section id="opzione-flexitrack-pannellino-di-interfaccia">
+<h2>Opzione FlexiTrack — Pannellino di Interfaccia<a class="headerlink" href="#opzione-flexitrack-pannellino-di-interfaccia" title="Link to this heading">#</a></h2>
+<p>Il pannellino in dotazione con l’opzione FlexiTrack aggiunge, oltre ai collegamenti già descritti, i seguenti connettori dedicati:</p>
 <ul class="simple">
 <li><p><strong>Connettore I/O</strong>: scambio segnali digitali, inclusa la funzione Latch.</p></li>
-<li><p><strong>Passacavo encoder</strong>: dedicato all’encoder interno al FlexiBowl.</p></li>
+<li><p><strong>Passacavo encoder</strong>: dedicato all’encoder interno al FlexiBowl®.</p></li>
 </ul>
-<p class="rubric" id="connettore-i-o-19-pin">Connettore I/O – 19 pin</p>
-<p>Di seguito è riportata la mappa segnali del connettore a 19 pin:</p>
 <div class="pst-scrollable-table-container"><table class="table">
 <colgroup>
-<col style="width: 25.0%" />
-<col style="width: 75.0%" />
+<col style="width: 8.0%" />
+<col style="width: 52.0%" />
+<col style="width: 40.0%" />
 </colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p class="rubric" id="id4"></p>
+</th>
+<th class="head"><p>Azione</p></th>
+<th class="head"><p>Immagine</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>10</p></td>
+<td><p><strong>Collegare il connettore I/O</strong> a 19 pin.</p>
+<details class="ars-dropdown"><summary>Pinout connettore I/O (19 pin)</summary><div class="ars-dropdown-body">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin</p></th>
 <th class="head"><p>Segnale</p></th>
@@ -1288,49 +1472,53 @@ Anche sul rack, il connettore di alimentazione dispone dell'alloggiamento per i 
 <tr class="row-odd"><td><p>6</p></td>
 <td><p>IN – Latch</p></td>
 </tr>
-<tr class="row-even"><td><p>7</p></td>
+<tr class="row-even"><td><p>7–8</p></td>
 <td><p>NC</p></td>
 </tr>
-<tr class="row-odd"><td><p>8</p></td>
-<td><p>NC</p></td>
-</tr>
-<tr class="row-even"><td><p>9</p></td>
+<tr class="row-odd"><td><p>9</p></td>
 <td><p>OUT – Ready</p></td>
 </tr>
-<tr class="row-odd"><td><p>10</p></td>
+<tr class="row-even"><td><p>10</p></td>
 <td><p>OUT – Fault</p></td>
 </tr>
-<tr class="row-even"><td><p>11</p></td>
+<tr class="row-odd"><td><p>11</p></td>
 <td><p>OUT – Busy</p></td>
 </tr>
-<tr class="row-odd"><td><p>12</p></td>
+<tr class="row-even"><td><p>12</p></td>
 <td><p>OUT – Hopper_1_IsVibrating</p></td>
 </tr>
-<tr class="row-even"><td><p>13</p></td>
+<tr class="row-odd"><td><p>13</p></td>
 <td><p>OUT – Hopper_2_IsVibrating</p></td>
 </tr>
-<tr class="row-odd"><td><p>14</p></td>
+<tr class="row-even"><td><p>14</p></td>
 <td><p>OUT – Hopper_3_IsVibrating</p></td>
 </tr>
-<tr class="row-even"><td><p>15</p></td>
+<tr class="row-odd"><td><p>15</p></td>
 <td><p>OUT – Hopper_4_IsVibrating</p></td>
 </tr>
-<tr class="row-odd"><td><p>16</p></td>
-<td><p>NC</p></td>
-</tr>
-<tr class="row-even"><td><p>17</p></td>
-<td><p>NC</p></td>
-</tr>
-<tr class="row-odd"><td><p>18</p></td>
-<td><p>NC</p></td>
-</tr>
-<tr class="row-even"><td><p>19</p></td>
+<tr class="row-even"><td><p>16–19</p></td>
 <td><p>NC</p></td>
 </tr>
 </tbody>
 </table>
 </div>
-<p class="rubric" id="note-e-avvertenze-generali">Note e Avvertenze Generali</p>
+</div></details>
+</td>
+<td><img alt="Connettore I/O FlexiTrack" class="ars-zoom-img" src="../../../../_shared/media/images/encpanel6.PNG" />
+</td>
+</tr>
+<tr class="row-odd"><td><p>11</p></td>
+<td><p><strong>Collegare il passacavo encoder</strong>, dedicato all’encoder interno al FlexiBowl®.</p></td>
+<td><img alt="Passacavo encoder FlexiTrack" class="ars-zoom-img" src="../../../../_shared/media/images/encpanel8.PNG" />
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="note-e-avvertenze-generali">
+<h2>Note e Avvertenze Generali<a class="headerlink" href="#note-e-avvertenze-generali" title="Link to this heading">#</a></h2>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
 <p>Tutte le operazioni di connessione devono essere eseguite a dispositivo spento e scollegato dall’alimentazione.</p>
@@ -1992,8 +2180,6 @@ Anche sul rack, il connettore di alimentazione dispone dell'alloggiamento per i 
     enhancePrintMenu();
   })();
 </script>
-</div>
-</div>
 </section>
 </section>
 
@@ -2042,23 +2228,15 @@ Anche sul rack, il connettore di alimentazione dispone dell'alloggiamento per i 
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interfaccia-utente">Interfaccia Utente</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collegamento-elettrico-pannello-standard-flexibowl-500-1200">Collegamento Elettrico Pannello standard FlexiBowl 500-1200</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collegamento-elettrico-pannello-flexibowl-200-e-350">Collegamento Elettrico Pannello FlexiBowl 200 e 350</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#collegamento-tra-rack-e-flexibowl">Collegamento tra Rack e FlexiBowl®</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-500-1200-pannello-elettrico-standard">FlexiBowl® 500 – 1200 — Pannello Elettrico Standard</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#flexibowl-200-350-rack-esterno">FlexiBowl® 200 / 350 — Rack Esterno</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collegamenti-sul-rack">Collegamenti sul Rack</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fusibili-alloggiamento">Fusibili – Alloggiamento</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collegamento-tra-rack-e-flexibowl">Collegamento tra Rack e FlexiBowl®</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#led-di-stato">LED di Stato</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#led-light-on">LED – Light ON</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#led-ready-fault">LED – Ready / Fault</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#verificare-i-led-di-stato">Verificare i LED di stato</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pannello-flexitrack">Pannello FlexiTrack</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#led-di-stato">LED di Stato</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opzione-flexitrack-pannellino-di-interfaccia">Opzione FlexiTrack — Pannellino di Interfaccia</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#note-e-avvertenze-generali">Note e Avvertenze Generali</a></li>
 </ul>
   </nav></div>
 

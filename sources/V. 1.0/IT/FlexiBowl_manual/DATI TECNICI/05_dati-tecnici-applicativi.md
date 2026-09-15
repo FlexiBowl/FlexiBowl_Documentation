@@ -24,12 +24,12 @@
   - FlexiBowl® 1200
 
 * - Dimensione massima del singolo componente
-  - 15 mm
+  - 20 mm
   - 50 mm
-  - 105 mm
-  - 160 mm
-  - 240 mm
-  - 460 mm
+  - 100 mm
+  - 150 mm
+  - 250 mm
+  - 400 mm
 
 * - Altezza massima del singolo componente¹
   - 10 mm

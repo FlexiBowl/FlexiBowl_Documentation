@@ -350,6 +350,4 @@ La chiavetta USB fornita in dotazione contiene:
 - I **manuali** dell'unità (versione offline della documentazione)
 - Il **rapporto di collaudo** (test report) individuale del FlexiBowl® acquistato
 
-:::{note}
-La documentazione è disponibile anche in versione **online**, sempre aggiornata. Per maggiori dettagli consultare la sezione [Documentazione](documentation).
-:::
+

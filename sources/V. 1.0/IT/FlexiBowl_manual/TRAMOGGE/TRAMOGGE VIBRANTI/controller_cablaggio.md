@@ -116,7 +116,7 @@ Prima di procedere con la messa in funzione della macchina, occorre eseguire le 
 
 ### Sequenza di collegamento elettrico
 
-Indipendentemente dal tipo di controller utilizzato (standard, analogico o digitale), il collegamento elettrico tra tramoggia, controller e FlexiBowl® segue una sequenza precisa. La sequenza differisce leggermente in base al modello: i **FlexiBowl® 500/600/900/1200** dispongono di un pannello standard con connettore HOPPER integrato, mentre i **FlexiBowl® 200/350** utilizzano un rack esterno dotato di proprio connettore HOPPER.
+Indipendentemente dal tipo di controller utilizzato (standard, analogico o digitale), il collegamento elettrico tra tramoggia, controller e FlexiBowl® segue una sequenza precisa. La sequenza differisce leggermente in base al modello: i **FlexiBowl® 500/650/8 00/1200** dispongono di un pannello standard con connettore HOPPER integrato, mentre i **FlexiBowl® 200/350** utilizzano un rack esterno dotato di proprio connettore HOPPER.
 
 #### FlexiBowl® 500 / 600 / 900 / 1200 — pannello standard
 

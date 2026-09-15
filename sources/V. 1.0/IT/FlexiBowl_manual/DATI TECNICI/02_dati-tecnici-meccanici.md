@@ -260,3 +260,7 @@
   - 10 kg
 
 :::
+
+:::{note}
+Il Rack esterno per FlexiBowl® 200 e 350 è di tipo standard **3U**.
+:::
