@@ -59,4 +59,4 @@ Il wedge diverter non necessita di regolazione
 
 ## Valutazione del corretto funzionamento 
 
-Verificare il corretto scorrimento del disco sul wedge diverter.
+Prima di iniziare il regolare utilizzo dell'accessorio, verificare che il disco scorra correttamente sul wedge diverter.

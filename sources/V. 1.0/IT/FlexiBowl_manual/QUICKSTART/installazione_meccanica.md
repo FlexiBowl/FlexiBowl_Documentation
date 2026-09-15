@@ -129,6 +129,10 @@ Per evitare il surriscaldamento del rack è importante lasciare delle zone di *c
 :::
 
 :::{note}
+Il Rack esterno per FlexiBowl® 200 e 350 è di tipo standard **3U**.
+:::
+
+:::{note}
 È possibile installare due rack uno sopra l'altro a patto che venga rispettata una delle seguenti condizioni:
 
 1. la distanza tra i due sia non inferiore ai 100mm;
