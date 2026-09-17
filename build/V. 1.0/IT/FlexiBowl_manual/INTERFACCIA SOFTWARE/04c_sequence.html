@@ -182,7 +182,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../INSTALLAZIONE/01_interfaccia-meccanica.html">[MEC] <strong>Interfaccia Meccanica</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../INSTALLAZIONE/02_interfaccia-elettrica.html">[ELE] <strong>Interfaccia Elettrica</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../INSTALLAZIONE/03_interfaccia-pneumatica.html">[ELE] <strong>Interfaccia Pneumatica</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../INSTALLAZIONE/04_interfaccia-software.html">[SOF] <strong>Interfaccia Software</strong></a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../INSTALLAZIONE/04_interfaccia-software.html">[SOF] <strong>Interfaccia Software</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../INSTALLAZIONE/04a_interfaccia_software.html">Ethernet/IP, Profinet, Modbus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../INSTALLAZIONE/04b_interfaccia_software.html">TCP Server</a></li>
+</ul>
+</details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">PANORAMICA SOFTWARE</span></p>
 <ul class="current nav bd-sidenav">
@@ -670,7 +674,7 @@ document.write(`
 <td><p>Rotazione del FlexiBowl® secondo i parametri MOVE</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_MOVE_FLIP</span></code></p></td>
-<td><p>Rotazione combinata con flip</p></td>
+<td><p>Rotazione combinata con flip (ribaltamento) del piatto</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_MOVE_BLOWe</span></code></p></td>
 <td><p>Rotazione combinata con soffiaggio esterno</p></td>
@@ -678,8 +682,65 @@ document.write(`
 <tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_MOVE_BLOWc</span></code></p></td>
 <td><p>Rotazione combinata con soffiaggio centrale</p></td>
 </tr>
-<tr class="row-odd"><td><p><em>(altri comandi)</em></p></td>
-<td><p><em>(da completare)</em></p></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_MOVE_BLOWce</span></code></p></td>
+<td><p>Rotazione combinata con soffiaggio centrale ed esterno</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_MOVE_BLOWe_FLIP</span></code></p></td>
+<td><p>Rotazione, soffiaggio esterno e flip combinati</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_MOVE_BLOWc_FLIP</span></code></p></td>
+<td><p>Rotazione, soffiaggio centrale e flip combinati</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_MOVE_BLOWce_FLIP</span></code></p></td>
+<td><p>Rotazione, soffiaggio centrale ed esterno e flip combinati</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_SHAKE</span></code></p></td>
+<td><p>Scuotimento del piatto senza rotazione</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_BLOWe</span></code></p></td>
+<td><p>Soffiaggio esterno, senza rotazione</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_BLOWc</span></code></p></td>
+<td><p>Soffiaggio centrale, senza rotazione</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_BLOWce</span></code></p></td>
+<td><p>Soffiaggio centrale ed esterno, senza rotazione</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_FLIP</span></code></p></td>
+<td><p>Flip (ribaltamento) del piatto, senza rotazione</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_PAUSE_100ms</span></code></p></td>
+<td><p>Pausa di 100 millisecondi</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_PAUSE_200ms</span></code></p></td>
+<td><p>Pausa di 200 millisecondi</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_PAUSE_500ms</span></code></p></td>
+<td><p>Pausa di 500 millisecondi</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_LIGHT_1_ON</span></code></p></td>
+<td><p>Accensione luce 1</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_LIGHT_1_OFF</span></code></p></td>
+<td><p>Spegnimento luce 1</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_LIGHT_2_ON</span></code></p></td>
+<td><p>Accensione luce 2</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_LIGHT_2_OFF</span></code></p></td>
+<td><p>Spegnimento luce 2</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_ENABLE</span></code></p></td>
+<td><p>Abilitazione del FlexiBowl®</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_DISABLE</span></code></p></td>
+<td><p>Disabilitazione del FlexiBowl®</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_BARRIER_DOWN</span></code></p></td>
+<td><p>Abbassamento della barriera</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">FLB_BARRIER_UP</span></code></p></td>
+<td><p>Sollevamento della barriera</p></td>
 </tr>
 </tbody>
 </table>
