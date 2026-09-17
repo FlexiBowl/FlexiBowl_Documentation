@@ -586,7 +586,7 @@ Queste variabili sono **le stesse per tutti i protocolli di comunicazione**: cam
 (sec-fieldbus)=
 ## EtherNet/IP, Profinet, Modbus - <span class="isw-section-badge isw-badge-field"><i class="ph ph-swap"></i> FIELDBUS</span>
 
-Per **EtherNet/IP**, **Profinet** e **Modbus** le variabili di [Input](#sec-io) e [Output](#sec-io) vengono scambiate come **pacchetto di I/O ciclico**: non esistono messaggi testuali, ogni variabile occupa una posizione fissa nel pacchetto dati.
+Per **EtherNet/IP**, **Profinet** e **Modbus** le variabili di [Input](#sec-io) e [Output](#sec-io) vengono scambiate come **pacchetto di I/O ciclico**: non esistono messaggi testuali, ogni variabile occupa una posizione fissa nel pacchetto dati. Per tutte le informazioni dettagliate su questo protocollo fare riferimento alla pagina [successiva](fieldbus).
 
 ### Pacchetto dati — Input (verso il FlexiBowl®)
 
@@ -604,12 +604,21 @@ Per **EtherNet/IP**, **Profinet** e **Modbus** le variabili di [Input](#sec-io) 
 La sequenza di scrittura è sempre la stessa: impostare **ControlWord** (e **Data_1** se richiesto) con **ExecuteControlWord = 0**, poi portare **ExecuteControlWord** a `1` per generare il fronte di salita che avvia l'esecuzione.
 :::
 
+:::{card} VAI ALLA PAGINA DEDICATA
+:link: fieldbus
+:link-type: ref
+:class-card: isw-card-field
+:class-body: isw-card-body
+
+Documentazione completa del protocollo Fieldbus (EtherNet/IP, Profinet, Modbus)
+:::
+
 ---
 
 (sec-tcp)=
 ## Sintassi Messaggi <span class="isw-section-badge isw-badge-tcp"><i class="ph ph-network"></i> TCP SERVER</span>
 
-Quando si utilizza la comunicazione **TCP Server**, i comandi non vengono inviati come variabili binarie ma come **stringhe di testo** attraverso una connessione socket sulla porta configurata (default: 8123).
+Quando si utilizza la comunicazione **TCP Server**, i comandi non vengono inviati come variabili binarie ma come **stringhe di testo** attraverso una connessione socket sulla porta configurata (default: 8123). Per tutte le informazioni dettagliate su questo protocollo fare riferimento alla pagina [successiva](tcp).
 
 ### Struttura del messaggio
 
@@ -621,38 +630,14 @@ NomeVariabile[Valore]%
 
 Il carattere `%` è il **terminatore di messaggio** e deve essere sempre presente alla fine. Il campo `[Valore]` contiene il dato numerico associato (ControlWord, stato, ecc.).
 
-### Tabella di sintassi TCP
+:::{card} VAI ALLA PAGINA DEDICATA
+:link: tcp
+:link-type: ref
+:class-card: isw-card-tcp
+:class-body: isw-card-body
 
-| Operazione | Messaggio da inviare | Risposta se OK | Risposta se errore |
-|---|---|---|---|
-| Tutti i comandi EXE | `10[0]%` | `10[0]%` | `1[0]%` |
-| Tutti i comandi WRITE | `100[56]%` | `100[0]%` | `2[0]%` |
-| Tutti i comandi READ | `10100[0]%` | `10100[valore]%` | `2[0]%` |
-| Reset errori | `Reset%` | `Reset%` | — |
-| Leggi stato Busy | `Busy%` | `Busy[1]%` | `Busy[0]%` |
-| Leggi stato Ready | `Ready%` | `Ready[1]%` | `Ready[0]%` |
-| Leggi stato InError | `InError%` | `InError[1]%` | `InError[0]%` |
-| Leggi stato InPowerOn | `InPowerOn%` | `InPowerOn[1]%` | `InPowerOn[0]%` |
-| Leggi ErrorCode | `ErrorCode%` | `ErrorCode[56]%` | `ErrorCode[0]%` |
-
-:::{note}
-Nelle risposte di tipo READ, il testo `[valore]` viene sostituito con il dato numerico effettivo letto dal sistema. Ad esempio, per leggere la velocità della SEQ 1 (ControlWord 10102), si invia `10102[0]%` e si riceve `10102[35]%` se la velocità è impostata a 35%.
+Sintassi completa dei messaggi TCP Server, comandi e terminatori
 :::
-
-:::{warning}
-I comandi Hopper via TCP (`Hopper1Start%`, ecc.) funzionano **solo quando la comunicazione è attiva e il FlexiBowl®  non è in movimento**. Non è garantito il corretto funzionamento se il FlexiBowl® sta eseguendo una sequenza o è in modalità jog.
-:::
-
-### Significato di ReturnData_1 (o risposta TCP)
-
-| Valore | Significato |
-|---|---|
-| `0` | NULL — nessun comando in corso (stato iniziale) |
-| `1` | Comando non interpretabile (ControlWord sconosciuta) |
-| `2` | Data_1 fuori range, ma il comando è stato riconosciuto |
-| `3` | Sistema occupato (Busy) — riprovare dopo che Busy torna a 0 |
-| Valore = ControlWord | Comando eseguito correttamente |
-
 ---
 
 ## Protocollo Comandi
@@ -716,46 +701,10 @@ I comandi EXE avviano un'azione immediata sul FlexiBowl®. Durante l'esecuzione 
 Il comando **Reset Return Data** (ControlWord 50) azzera il valore di ReturnData_1 e ReturnData_2, riportandoli allo stato iniziale `0`. È utile per verificare che un nuovo comando venga effettivamente ricevuto ed elaborato.
 :::
 
-#### Esempio pratico — «Esegui Sequenza 3»
+#### Esempio pratico 
 
-<div class="isw-example">
-<div class="isw-example-title">Esegui Sequenza 3 → ControlWord 12</div>
-<div class="isw-example-body">
-<div>
-<div class="isw-example-col-title">EtherNet/IP · Profinet · Modbus</div>
-
-Pacchetto inviato:
-
-| ControlWord | Data_1 | ExecuteCW | Hopper_1 | Hopper_2 | Hopper_3 | Hopper_4 | Reset |
-|---|---|---|---|---|---|---|---|
-| 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 12 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
-
-Pacchetto ricevuto:
-
-| Busy | Ready | In_Error | In_PowerOn | ReturnData_1 | ReturnData_2 | ErrorCode |
-|---|---|---|---|---|---|---|
-| 0 | 1 | 0 | 1 | 12 | 0 | 0 |
-
-</div>
-<div>
-<div class="isw-example-col-title">TCP Server</div>
-
-<div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>12[0]%</code><br>
-RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">12[0]</span>
-</div>
-
-Esempio di comando **non valido** (es. sequenza 9 inesistente sul dispositivo):
-
-<div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>9[0]%</code><br>
-RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
-</div>
-
-</div>
-</div>
-</div>
+Per visualizzare un esempio pratico di Comando EXE in fieldbus, consultare la sezione [Esempio Pratico EXE](fieldbus_exe).  
+Per visualizzare un esempio pratico di comando EXE in TCP, consultare la sezione [Esempio Pratico EXE TCP](TCP_EXE). 
 
 (sec-write)=
 ### Comandi <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span>
@@ -814,46 +763,10 @@ La formula è semplice:
 - Per scrivere il FlipCount (offset 10) della sequenza 15, la ControlWord è `15 × 100 + 10 = 1510`.
 :::
 
-#### Esempio pratico — «Imposta l'accelerazione del Move a 80 nella Sequenza 7»
+#### Esempio pratico #### Esempio pratico 
 
-<div class="isw-example">
-<div class="isw-example-title">SpeedMove Seq 7 → ControlWord 700, Data_1 = 80</div>
-<div class="isw-example-body">
-<div>
-<div class="isw-example-col-title">EtherNet/IP · Profinet · Modbus</div>
-
-Pacchetto inviato:
-
-| ControlWord | Data_1 | ExecuteCW | Hopper_1 | Hopper_2 | Hopper_3 | Hopper_4 | Reset |
-|---|---|---|---|---|---|---|---|
-| 700 | 80 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 700 | 80 | 1 | 0 | 0 | 0 | 0 | 0 |
-
-Pacchetto ricevuto:
-
-| Busy | Ready | In_Error | In_PowerOn | ReturnData_1 | ReturnData_2 | ErrorCode |
-|---|---|---|---|---|---|---|
-| 0 | 1 | 0 | 1 | 700 | 0 | 0 |
-
-</div>
-<div>
-<div class="isw-example-col-title">TCP Server</div>
-
-<div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>700[80]%</code><br>
-RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">700[0]</span>
-</div>
-
-Esempio di **valore fuori range** (accelerazione 1000 non ammessa, range 1–100):
-
-<div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>700[1000]%</code><br>
-RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">2[0]</span>
-</div>
-
-</div>
-</div>
-</div>
+Per visualizzare un esempio pratico di Comando WRITE in fieldbus, consultare la sezione [Esempio Pratico WRITE](fieldbus_write).  
+Per visualizzare un esempio pratico di comando WRITE in TCP, consultare la sezione [Esempio Pratico WRITE TCP](TCP_write). 
 
 #### Parametri WRITE JOG
 
@@ -919,46 +832,10 @@ Formula rapida:
  Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è `10000 + 12 × 100 + 2 = 11202`.
 :::
 
-#### Esempio pratico — «Leggi l'angolo della Sequenza 16»
+#### Esempio pratico 
 
-<div class="isw-example">
-<div class="isw-example-title">AngleMove Seq 16 → ControlWord 11603</div>
-<div class="isw-example-body">
-<div>
-<div class="isw-example-col-title">EtherNet/IP · Profinet · Modbus</div>
-
-Pacchetto inviato:
-
-| ControlWord | Data_1 | ExecuteCW | Hopper_1 | Hopper_2 | Hopper_3 | Hopper_4 | Reset |
-|---|---|---|---|---|---|---|---|
-| 11603 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 11603 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
-
-Pacchetto ricevuto (angolo letto = 45°):
-
-| Busy | Ready | In_Error | In_PowerOn | ReturnData_1 | ReturnData_2 | ErrorCode |
-|---|---|---|---|---|---|---|
-| 0 | 1 | 0 | 1 | 11603 | 45 | 0 |
-
-</div>
-<div>
-<div class="isw-example-col-title">TCP Server</div>
-
-<div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>11603[0]%</code><br>
-RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">11603[45]</span>
-</div>
-
-Esempio di **valore fuori range** in scrittura sullo stesso parametro (angolo massimo 720°):
-
-<div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>11603[6799]%</code><br>
-RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
-</div>
-
-</div>
-</div>
-</div>
+Per visualizzare un esempio pratico di Comando READ in fieldbus, consultare la sezione [Esempio Pratico READ](fieldbus_read).  
+Per visualizzare un esempio pratico di comando READ in TCP, consultare la sezione [Esempio Pratico READ TCP](TCP_read). 
 
 #### Parametri READ JOG
 
@@ -987,19 +864,6 @@ Gli stessi parametri scrivibili del JOG (blocco 20000) sono leggibili nel blocco
 ## Comandi <span class="isw-section-badge isw-badge-hop"><i class="ph ph-funnel"></i> HOPPER</span>
 
 I comandi Hopper controllano le tramogge vibrazionali collegate al sistema (fino a 4). Seguono la stessa logica ControlWord/WRITE/READ descritta sopra, valida per tutti i protocolli, più una sintassi TCP dedicata per l'avvio rapido.
-
-### Avvio rapido via TCP
-
-Oltre alla sintassi generale ControlWord, il protocollo **TCP Server** offre messaggi dedicati per avviare direttamente un hopper:
-
-| Operazione | Messaggio da inviare | Risposta |
-|---|---|---|
-| Avvia Hopper 1 | `Hopper1Start%` | `Hopper1Start *` |
-| Avvia Hopper 2 | `Hopper2Start%` | `Hopper2Start *` |
-| Avvia Hopper 3 | `Hopper3Start%` | `Hopper3Start *` |
-| Avvia Hopper 4 | `Hopper4Start%` | `Hopper4Start *` |
-
-Sui protocolli fieldbus (EtherNet/IP, Profinet, Modbus) lo stesso avvio immediato si ottiene impostando direttamente a `1` il bit **Hopper_1**...**Hopper_4** del [pacchetto I/O](#sec-fieldbus), senza passare dalla ControlWord.
 
 ### Comandi WRITE Hopper
 
@@ -1034,89 +898,10 @@ Sui protocolli fieldbus (EtherNet/IP, Profinet, Modbus) lo stesso avvio immediat
 Nel materiale di training, la ControlWord `30005` (Hopper_2_Id) riportava per errore lo stesso range dell'Amplitude (50–220). In questa tabella è stata corretta a **1–100**, coerente con Hopper_1_Id, Hopper_3_Id e Hopper_4_Id. Verificare questo valore con il firmware/datasheet prima di pubblicare la pagina.
 :::
 
-#### Esempio pratico — «Abilita Hopper 1»
+#### Esempio pratico
 
-<div class="isw-example">
-<div class="isw-example-title">Hopper_1_Enable → ControlWord 30017</div>
-<div class="isw-example-body">
-<div>
-<div class="isw-example-col-title">EtherNet/IP · Profinet · Modbus</div>
-
-Pacchetto inviato:
-
-| ControlWord | Data_1 | ExecuteCW | Hopper_1 | Hopper_2 | Hopper_3 | Hopper_4 | Reset |
-|---|---|---|---|---|---|---|---|
-| 30017 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 30017 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
-
-Pacchetto ricevuto:
-
-| Busy | Ready | In_Error | In_PowerOn | ReturnData_1 | ReturnData_2 | ErrorCode |
-|---|---|---|---|---|---|---|
-| 0 | 1 | 0 | 1 | 30017 | 0 | 0 |
-
-</div>
-<div>
-<div class="isw-example-col-title">TCP Server</div>
-
-Via ControlWord generica:
-
-<div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>30017[0]%</code><br>
-RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">30017[0]</span>
-</div>
-
-Oppure, per il solo avvio, con il messaggio dedicato:
-
-<div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>Hopper1Start%</code><br>
-RETURN:&nbsp;&nbsp;&nbsp;<span class="ok">Hopper1Start *</span>
-</div>
-
-</div>
-</div>
-</div>
-
-#### Esempio pratico — «Imposta l'ampiezza dell'Hopper 2 a 220»
-
-<div class="isw-example">
-<div class="isw-example-title">Hopper_2_Amplitude → ControlWord 30006, Data_1 = 220</div>
-<div class="isw-example-body">
-<div>
-<div class="isw-example-col-title">EtherNet/IP · Profinet · Modbus</div>
-
-Pacchetto inviato:
-
-| ControlWord | Data_1 | ExecuteCW | Hopper_1 | Hopper_2 | Hopper_3 | Hopper_4 | Reset |
-|---|---|---|---|---|---|---|---|
-| 30006 | 220 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 30006 | 220 | 1 | 0 | 0 | 0 | 0 | 0 |
-
-Pacchetto ricevuto:
-
-| Busy | Ready | In_Error | In_PowerOn | ReturnData_1 | ReturnData_2 | ErrorCode |
-|---|---|---|---|---|---|---|
-| 0 | 1 | 0 | 1 | 30006 | 0 | 0 |
-
-</div>
-<div>
-<div class="isw-example-col-title">TCP Server</div>
-
-<div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>30006[220]%</code><br>
-RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">30006[0]</span>
-</div>
-
-Esempio di **valore fuori range** (ampiezza 2200 non ammessa, range 50–220):
-
-<div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>30006[2200]%</code><br>
-RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">2[0]</span>
-</div>
-
-</div>
-</div>
-</div>
+Per visualizzare un esempio pratico di Comando WRITE HOPPER in fieldbus, consultare la sezione [Esempio Pratico WRITE HOPPER](fieldbus_WRITEHOPPER).  
+Per visualizzare un esempio pratico di comando WRITE HOPPER in TCP, consultare la sezione [Esempio Pratico WRITE HOPPER TCP](TCP_WRITEHOPPER). 
 
 ### Comandi READ Hopper
 
@@ -1151,47 +936,10 @@ RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">2[0]</span>
 | Hopper_3_Enabled | 30127 | 0–1 | 0 = disabilitato, 1 = abilitato |
 | Hopper_4_Enabled | 30128 | 0–1 | 0 = disabilitato, 1 = abilitato |
 
-#### Esempio pratico — «Leggi la frequenza dell'Hopper 4»
+#### Esempio pratico 
 
-<div class="isw-example">
-<div class="isw-example-title">Hopper_4_Frequency → ControlWord 30115</div>
-<div class="isw-example-body">
-<div>
-<div class="isw-example-col-title">EtherNet/IP · Profinet · Modbus</div>
-
-Pacchetto inviato:
-
-| ControlWord | Data_1 | ExecuteCW | Hopper_1 | Hopper_2 | Hopper_3 | Hopper_4 | Reset |
-|---|---|---|---|---|---|---|---|
-| 30115 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 30115 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
-
-Pacchetto ricevuto (frequenza letta = 40):
-
-| Busy | Ready | In_Error | In_PowerOn | ReturnData_1 | ReturnData_2 | ErrorCode |
-|---|---|---|---|---|---|---|
-| 0 | 1 | 0 | 1 | 30115 | 40 | 0 |
-
-</div>
-<div>
-<div class="isw-example-col-title">TCP Server</div>
-
-<div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>30115[0]%</code><br>
-RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">30115[40]</span>
-</div>
-
-Esempio di **comando non interpretabile** (ControlWord READ inesistente):
-
-<div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>30199[0]%</code><br>
-RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
-</div>
-
-</div>
-</div>
-</div>
-
+Per visualizzare un esempio pratico di Comando READ HOPPER in fieldbus, consultare la sezione [Esempio Pratico READ HOPPER](fieldbus_READHOPPER).  
+Per visualizzare un esempio pratico di comando READ HOPPER in TCP, consultare la sezione [Esempio Pratico READ HOPPER TCP](TCP_READHOPPER). 
 ---
 
 (sec-empty)=
@@ -1334,3 +1082,10 @@ function filterErrors() {
 </script>
 
 </div>
+
+
+:::{toctree}
+:hidden:
+04a_interfaccia_software.md
+04b_interfaccia_software.md
+:::

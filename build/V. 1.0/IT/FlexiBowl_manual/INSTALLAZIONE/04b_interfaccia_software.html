@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>[SOF] Interfaccia Software &#8212; FlexiBowl® Manual</title>
+    <title>TCP Server &#8212; FlexiBowl® Manual</title>
   
   
   
@@ -46,13 +46,13 @@
     <script src="../../../../_shared/static/copybutton.js?v=f281be69"></script>
     <script src="../../../../_shared/static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script src="../../../../_shared/static/design-tabs.js?v=f930bc37"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'FlexiBowl_manual/INSTALLAZIONE/04_interfaccia-software';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'FlexiBowl_manual/INSTALLAZIONE/04b_interfaccia_software';</script>
     <script src="../../../../_shared/static/versioning-data.js?v=37039824"></script>
     <script src="../../../../_shared/static/fix_print.js?v=d332f839"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Ethernet/IP, Profinet, Modbus" href="04a_interfaccia_software.html" />
-    <link rel="prev" title="[ELE] Interfaccia Pneumatica" href="03_interfaccia-pneumatica.html" />
+    <link rel="next" title="[SOF] Home" href="../INTERFACCIA%20SOFTWARE/04_home.html" />
+    <link rel="prev" title="Ethernet/IP, Profinet, Modbus" href="04a_interfaccia_software.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -182,9 +182,9 @@
 <li class="toctree-l1"><a class="reference internal" href="01_interfaccia-meccanica.html">[MEC] <strong>Interfaccia Meccanica</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="02_interfaccia-elettrica.html">[ELE] <strong>Interfaccia Elettrica</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="03_interfaccia-pneumatica.html">[ELE] <strong>Interfaccia Pneumatica</strong></a></li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">[SOF] <strong>Interfaccia Software</strong></a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="04_interfaccia-software.html">[SOF] <strong>Interfaccia Software</strong></a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="04a_interfaccia_software.html">Ethernet/IP, Profinet, Modbus</a></li>
-<li class="toctree-l2"><a class="reference internal" href="04b_interfaccia_software.html">TCP Server</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">TCP Server</a></li>
 </ul>
 </details></li>
 </ul>
@@ -353,7 +353,7 @@
       
       
       
-      <li><a href="../../_sources/FlexiBowl_manual/INSTALLAZIONE/04_interfaccia-software.md" target="_blank"
+      <li><a href="../../_sources/FlexiBowl_manual/INSTALLAZIONE/04b_interfaccia_software.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -437,7 +437,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>[SOF] Interfaccia Software</h1>
+    <h1>TCP Server</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -447,70 +447,41 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione">Introduzione</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#naviga-la-pagina">Naviga la pagina</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#come-funziona-un-comando">Come funziona un comando</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#variabili-di-input-e-output">Variabili di Input e Output</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#input-segnali-inviati-al-flexibowl">INPUT — Segnali inviati al FlexiBowl®</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#output-segnali-inviati-dal-flexibowl">OUTPUT — Segnali inviati dal FlexiBowl®</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#valori-di-returndata-1">Valori di ReturnData_1</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ethernet-ip-profinet-modbus-fieldbus">EtherNet/IP, Profinet, Modbus - <span class="isw-section-badge isw-badge-field"><i class="ph ph-swap"></i> FIELDBUS</span></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pacchetto-dati-input-verso-il-flexibowl">Pacchetto dati — Input (verso il FlexiBowl®)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pacchetto-dati-output-dal-flexibowl">Pacchetto dati — Output (dal FlexiBowl®)</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sintassi-messaggi-tcp-server">Sintassi Messaggi <span class="isw-section-badge isw-badge-tcp"><i class="ph ph-network"></i> TCP SERVER</span></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#struttura-del-messaggio">Struttura del messaggio</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tabella-di-sintassi-tcp">Tabella di sintassi TCP</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#significato-di-returndata-1-o-risposta-tcp">Significato di ReturnData_1 (o risposta TCP)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#protocollo-comandi">Protocollo Comandi</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-exe">Comandi <span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span></a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico">Esempio pratico</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-esegui-sequenza-3">Esempio pratico — «Esegui Sequenza 3»</a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-write">Comandi <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span></a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#logica-di-indirizzamento-delle-sequenze">Logica di indirizzamento delle sequenze</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-scrivibili-per-ogni-sequenza">Parametri scrivibili per ogni sequenza</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempi-di-controlword-write">Esempi di ControlWord WRITE</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-esempio-pratico">Esempio pratico #### Esempio pratico</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-imposta-laccelerazione-del-move-a-80-nella-sequenza-7">Esempio pratico — «Imposta l’accelerazione del Move a 80 nella Sequenza 7»</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-write-jog">Parametri WRITE JOG</a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-read">Comandi <span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span></a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#logica-di-indirizzamento-read-sequenze">Logica di indirizzamento READ sequenze</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempi-di-controlword-read">Esempi di ControlWord READ</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Esempio pratico</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-leggi-langolo-della-sequenza-16">Esempio pratico — «Leggi l’angolo della Sequenza 16»</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-read-jog">Parametri READ JOG</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-hopper">Comandi <span class="isw-section-badge isw-badge-hop"><i class="ph ph-funnel"></i> HOPPER</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#avvio-rapido-via-tcp">Avvio rapido via TCP</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-write-hopper">Comandi WRITE Hopper</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Esempio pratico</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-abilita-hopper-1">Esempio pratico — «Abilita Hopper 1»</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-imposta-lampiezza-dellhopper-2-a-220">Esempio pratico — «Imposta l’ampiezza dell’Hopper 2 a 220»</a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-read-hopper">Comandi READ Hopper</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Esempio pratico</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-leggi-la-frequenza-dellhopper-4">Esempio pratico — «Leggi la frequenza dell’Hopper 4»</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#per-visualizzare-un-esempio-pratico-di-comando-read-hopper-in-fieldbus-consultare-la-sezione-esempio-pratico-read-hopper-per-visualizzare-un-esempio-pratico-di-comando-read-hopper-in-tcp-consultare-la-sezione-esempio-pratico-read-hopper-tcp">Per visualizzare un esempio pratico di Comando READ HOPPER in fieldbus, consultare la sezione <span class="xref myst">Esempio Pratico READ HOPPER</span>.<br/>
-Per visualizzare un esempio pratico di comando READ HOPPER in TCP, consultare la sezione <span class="xref myst">Esempio Pratico READ HOPPER TCP</span>.</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-di-svuotamento-emptying">Comandi di Svuotamento — <span class="isw-section-badge isw-badge-exe"><i class="ph ph-arrow-counter-clockwise"></i> EMPTYING</span></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Comandi EXE</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Comandi WRITE</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Comandi READ</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-di-errore">Codici di Errore</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-generali">Codici Generali</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-errore-driver">Codici Errore Driver</a></li>
 </ul>
 </li>
 </ul>
@@ -524,719 +495,114 @@ Per visualizzare un esempio pratico di comando READ HOPPER in TCP, consultare la
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="sof-interfaccia-software">
-<span id="int-software"></span><h1>[SOF] <strong>Interfaccia Software</strong><a class="headerlink" href="#sof-interfaccia-software" title="Link to this heading">#</a></h1>
-<script src="https://unpkg.com/@phosphor-icons/web"></script>
-<div class="isw-page">
-<style>
-  /* ── Reset & base ── */
-  .isw-page { font-family: inherit; max-width: 860px; margin: 0 auto; padding: 0 0 3rem; }
-<p>/* ── NAV CARDS ── */
-.isw-nav {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-gap: 0.75rem;
-margin: 1.5rem 0 2.5rem;
-}
-.isw-nav-card {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 0.45rem;
-padding: 0.9rem 1rem;
-border: 1.5px solid #d0e4f0;
-border-radius: 10px;
-background: #fff;
-text-decoration: none;
-color: inherit;
-transition: border-color 0.18s, background 0.18s, transform 0.18s;
-}
-.isw-nav-card:hover {
-border-color: #2980b9;
-background: #f0f7ff;
-transform: translateY(-2px);
-text-decoration: none;
-}
-.isw-nav-card i {
-font-size: 1.4rem;
-color: #2980b9;
-}
-.isw-nav-card-title {
-font-weight: 700;
-font-size: 0.82rem;
-color: #1a3a52;
-line-height: 1.3;
-}
-.isw-nav-card-sub {
-font-size: 0.72rem;
-color: #7a9ab0;
-}</p>
-<p>/* ── FLOW DIAGRAM — orizzontale ── */
-.isw-flow {
-display: flex;
-flex-direction: row;
-align-items: center;
-gap: 0;
-margin: 1.5rem 0 2rem;
-overflow-x: auto;
-padding-bottom: 0.5rem;
-flex-wrap: nowrap;
-}
-.isw-flow-step {
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 0.35rem;
-min-width: 110px;
-flex: 1;
-}
-.isw-flow-bubble {
-width: 48px;
-height: 48px;
-border-radius: 50%;
-background: #e3f1fb;
-border: 2px solid #2980b9;
-display: flex;
-align-items: center;
-justify-content: center;
-color: #2980b9;
-font-size: 1.2rem;
-flex-shrink: 0;
-}
-.isw-flow-label {
-font-size: 0.72rem;
-font-weight: 600;
-color: #1a3a52;
-text-align: center;
-line-height: 1.3;
-}
-.isw-flow-sub {
-font-size: 0.65rem;
-color: #7a9ab0;
-text-align: center;
-}
-.isw-flow-arrow {
-color: #bcd6ec;
-font-size: 1.6rem;
-flex-shrink: 0;
-margin: 0 2px;
-padding-bottom: 1.8rem;
-display: flex;
-align-items: flex-start;
-padding-top: 0.2rem;
-}</p>
-<p>/* ── FORMULA BOX ── */
-.isw-formula {
-background: #f0f7ff;
-border-left: 4px solid #2980b9;
-border-radius: 0 8px 8px 0;
-padding: 1rem 1.25rem;
-margin: 1rem 0 1.5rem;
-display: flex;
-flex-wrap: wrap;
-gap: 1rem;
-align-items: center;
-}
-.isw-formula-main {
-font-family: monospace;
-font-size: 1.05rem;
-font-weight: 700;
-color: #1a3a52;
-white-space: nowrap;
-}
-.isw-formula-example {
-font-size: 0.8rem;
-color: #556b7d;
-border-left: 1px solid #bcd6ec;
-padding-left: 1rem;
-}
-.isw-formula-example strong { color: #2980b9; }</p>
-<p>/* ── SECTION BADGES ── */
-.isw-section-badge {
-display: inline-flex;
-align-items: center;
-gap: 0.35rem;
-font-size: 0.72rem;
-font-weight: 700;
-letter-spacing: 0.04em;
-border-radius: 5px;
-padding: 3px 10px;
-margin-bottom: 0.6rem;
-}
-.isw-badge-exe  { background: #dbeafe; color: #1d4ed8; }
-.isw-badge-write{ background: #fef3c7; color: #92400e; }
-.isw-badge-read { background: #d1fae5; color: #065f46; }
-.isw-badge-io   { background: #ede9fe; color: #5b21b6; }
-.isw-badge-tcp  { background: #fce7f3; color: #9d174d; }
-.isw-badge-err  { background: #fee2e2; color: #991b1b; }
-.isw-badge-field { background: #dcfce7; color: #166534; }
-.isw-badge-hop  { background: #ffe4e6; color: #9f1239; }</p>
-<p>/* ── TABLES ── */
-.isw-table-wrap {
-overflow-x: auto;
-border-radius: 8px;
-border: 1px solid #e2eef6;
-margin: 0.75rem 0 1.5rem;
-}
-.isw-table {
-width: 100%;
-border-collapse: collapse;
-font-size: 0.82rem;
-}
-.isw-table thead tr {
-background: #1a3a52;
-color: #fff;
-position: sticky;
-top: 0;
-z-index: 1;
-}
-.isw-table thead th {
-padding: 0.6rem 0.9rem;
-text-align: left;
-font-weight: 600;
-white-space: nowrap;
-}
-.isw-table tbody tr:nth-child(even) { background: #f7fbfe; }
-.isw-table tbody tr:hover { background: #e8f4fc; }
-.isw-table tbody td {
-padding: 0.5rem 0.9rem;
-border-bottom: 1px solid #e9f2f9;
-color: #334e5e;
-vertical-align: top;
-}
-.isw-table tbody td:first-child {
-font-weight: 600;
-color: #1a3a52;
-white-space: nowrap;
-}
-.isw-table code {
-background: #e3f1fb;
-color: #1d4ed8;
-border-radius: 3px;
-padding: 1px 5px;
-font-size: 0.8rem;
-}
-.isw-table tbody tr.isw-hidden { display: none; }</p>
-<p>/* ── TABELLA ERRORI DRIVER — stile Sphinx standard ── */
-.isw-err-wrap {
-overflow-x: auto;
-margin: 0.75rem 0 1.5rem;
-}
-.isw-err-table {
-width: 100%;
-border-collapse: collapse;
-font-size: 0.85rem;
-}
-.isw-err-table thead tr {
-background: #f0f4f8;
-}
-.isw-err-table thead th {
-padding: 0.55rem 0.8rem;
-text-align: left;
-font-weight: 700;
-color: #1a3a52;
-border: 1px solid #c8d8e4;
-}
-.isw-err-table tbody tr:nth-child(even) { background: #f7fbfe; }
-.isw-err-table tbody tr:hover { background: #cfe2ff; }
-.isw-err-table tbody td {
-padding: 0.45rem 0.8rem;
-border: 1px solid #c8d8e4;
-color: #334e5e;
-vertical-align: top;
-}
-.isw-err-table tbody td:first-child {
-font-weight: 600;
-color: #1a3a52;
-white-space: nowrap;
-}
-.isw-err-table code {
-font-family: monospace;
-font-size: 0.82rem;
-color: #1a3a52;
-background: none;
-padding: 0;
-}
-.isw-err-table tbody tr.isw-hidden { display: none; }</p>
-<p>/* ── SEARCH BOX ── */
-.isw-search-wrap {
-display: flex;
-align-items: center;
-gap: 0.5rem;
-margin-bottom: 0.75rem;
-}
-.isw-search {
-flex: 1;
-max-width: 340px;
-padding: 0.45rem 0.75rem 0.45rem 2.2rem;
-border: 1.5px solid #d0e4f0;
-border-radius: 7px;
-font-size: 0.85rem;
-color: #1a3a52;
-outline: none;
-background: #fff url(“data:image/svg+xml,%3Csvg xmlns=‘http://www.w3.org/2000/svg’ width=‘14’ height=‘14’ viewBox=‘0 0 256 256’%3E%3Cpath fill=‘%237a9ab0’ d=‘M229.66 218.34l-50.07-50.07a88.11 88.11 0 1 0-11.31 11.31l50.06 50.07a8 8 0 0 0 11.32-11.31ZM40 112a72 72 0 1 1 72 72 72.08 72.08 0 0 1-72-72Z’/%3E%3C/svg%3E”) no-repeat 0.6rem center;
-transition: border-color 0.18s;
-}
-.isw-search:focus { border-color: #2980b9; }
-.isw-search-count {
-font-size: 0.75rem;
-color: #7a9ab0;
-}</p>
-<p>/* ── RETURN DATA — tabella leggibile ── */
-.isw-return-table {
-width: 100%;
-border-collapse: collapse;
-font-size: 0.88rem;
-margin: 0.75rem 0 1.5rem;
-}
-.isw-return-table thead tr {
-background: #e3f1fb;
-}
-.isw-return-table thead th {
-padding: 0.55rem 1rem;
-text-align: left;
-font-weight: 700;
-color: #1a3a52;
-border-bottom: 2px solid #2980b9;
-}
-.isw-return-table tbody tr:nth-child(even) { background: #f7fbfe; }
-.isw-return-table tbody tr:hover { background: #cfe2ff; }
-.isw-return-table tbody td {
-padding: 0.55rem 1rem;
-border-bottom: 1px solid #d0e4f0;
-color: #334e5e;
-vertical-align: middle;
-}
-.isw-return-table tbody td:first-child {
-font-family: monospace;
-font-size: 1rem;
-font-weight: 700;
-color: #2980b9;
-white-space: nowrap;
-width: 90px;
-}</p>
-<p>/* ── ESEMPI PRATICI (pacchetto dati) ── */
-.isw-example {
-border: 1px solid #d0e4f0;
-border-radius: 10px;
-margin: 1rem 0 1.75rem;
-overflow: hidden;
-}
-.isw-example-title {
-background: #f0f7ff;
-padding: 0.6rem 1rem;
-font-weight: 700;
-font-size: 0.88rem;
-color: #1a3a52;
-border-bottom: 1px solid #d0e4f0;
-}
-.isw-example-body {
-padding: 1rem;
-display: grid;
-grid-template-columns: 1fr;
-gap: 1.25rem;
-}
-.isw-example-body &gt; div + div {
-border-top: 1px solid #e2eef6;
-padding-top: 1rem;
-}
-.isw-example-col-title {
-font-size: 0.72rem;
-font-weight: 700;
-letter-spacing: 0.04em;
-color: #2980b9;
-margin-bottom: 0.5rem;
-text-transform: uppercase;
-}
-.isw-example-body table {
-width: 100%;
-border-collapse: collapse;
-font-size: 0.78rem;
-margin-bottom: 0.5rem;
-}
-.isw-example-body table th {
-background: #f0f4f8;
-padding: 0.35rem 0.5rem;
-text-align: center;
-font-weight: 700;
-color: #1a3a52;
-border: 1px solid #d0e4f0;
-white-space: nowrap;
-}
-.isw-example-body table td {
-padding: 0.35rem 0.5rem;
-text-align: center;
-border: 1px solid #d0e4f0;
-color: #334e5e;
-}
-.isw-example-tcp {
-font-family: monospace;
-font-size: 0.85rem;
-background: #f7fbfe;
-border-radius: 6px;
-padding: 0.6rem 0.8rem;
-margin: 0.35rem 0;
-}
-.isw-example-tcp .ok { color: #166534; font-weight: 700; }
-.isw-example-tcp .ko { color: #991b1b; font-weight: 700; }
-</style></p>
-<section id="introduzione">
-<h2>Introduzione<a class="headerlink" href="#introduzione" title="Link to this heading">#</a></h2>
-<p>Il sistema di comunicazione è basato su <strong>variabili di Input/Output</strong> e <strong>Control Word numeriche</strong>: il sistema esterno invia un numero (la ControlWord) che identifica l’azione da eseguire e il FlexiBowl® risponde con segnali di stato e dati di ritorno.</p>
-<p>Protocolli supportati:</p>
-<ul class="simple">
-<li><p><strong>TCP Server</strong></p></li>
-<li><p><strong>EtherNet/IP</strong></p></li>
-<li><p><strong>Profinet</strong></p></li>
-<li><p><strong>Modbus</strong></p></li>
-</ul>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Le variabili, le ControlWord e tutti i comandi <strong>EXE</strong>, <strong>WRITE</strong> e <strong>READ</strong> descritti in questa pagina sono <strong>identici per tutti e quattro i protocolli di comunicazione</strong>. Ciò che cambia da protocollo a protocollo è <strong>esclusivamente il modo in cui questi dati vengono scambiati fisicamente</strong>:</p>
-<ul class="simple">
-<li><p><strong>EtherNet/IP, Profinet e Modbus</strong> si comportano allo stesso modo tra loro: scambiano un <strong>pacchetto di I/O ciclico</strong> con campi fissi (vedi <a class="reference internal" href="#sec-fieldbus">Trasporto Fieldbus</a>).</p></li>
-<li><p><strong>TCP Server</strong> utilizza invece <strong>messaggi testuali</strong> su socket (vedi <a class="reference internal" href="#sec-tcp">Sintassi TCP</a>).</p></li>
-</ul>
-<p>Per questo motivo, ogni esempio pratico in questa pagina viene mostrato in entrambe le modalità.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="tcp-server">
+<span id="tcp"></span><h1>TCP Server<a class="headerlink" href="#tcp-server" title="Link to this heading">#</a></h1>
+<p>Quando si utilizza la comunicazione <strong>TCP Server</strong>, i comandi non vengono inviati come variabili binarie ma come <strong>stringhe di testo</strong> attraverso una connessione socket sulla porta configurata (default: 8123).</p>
+<p>Ogni messaggio ha la forma:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">NomeVariabile</span><span class="p">[</span><span class="n">Valore</span><span class="p">]</span><span class="o">%</span>
+</pre></div>
 </div>
-<hr class="docutils" />
-<section id="naviga-la-pagina">
-<h3>Naviga la pagina<a class="headerlink" href="#naviga-la-pagina" title="Link to this heading">#</a></h3>
-<div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; margin:1.5rem 0 2.5rem;">
-  <a href="#sec-io" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit; transition:border-color 0.18s, background 0.18s;">
-    <i class="ph ph-arrows-left-right" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Variabili I/O</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Input & Output</span>
-  </a>
-  <a href="#sec-fieldbus" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
-    <i class="ph ph-swap" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Trasporto Fieldbus</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">EtherNet/IP, Profinet, Modbus</span>
-  </a>
-  <a href="#sec-tcp" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
-    <i class="ph ph-network" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Sintassi TCP</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Messaggi socket</span>
-  </a>
-  <a href="#sec-exe" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
-    <i class="ph ph-play-circle" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi EXE</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Avvio sequenze & jog</span>
-  </a>
-  <a href="#sec-write" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
-    <i class="ph ph-pencil-simple" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi WRITE</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Scrittura parametri</span>
-  </a>
-  <a href="#sec-read" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
-    <i class="ph ph-eye" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi READ</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Lettura parametri</span>
-  </a>
-  <a href="#sec-hopper" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
-    <i class="ph ph-funnel" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi Hopper</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Tramogge vibrazionali</span>
-  </a>
-  <a href="#sec-empty" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
-    <i class="ph ph-arrow-counter-clockwise" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Svuotamento</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Emptying Option</span>
-  </a>
-  <a href="#sec-err" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
-    <i class="ph ph-warning-circle" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Codici di Errore</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Diagnostica</span>
-  </a>
-</div>
-</section>
-<hr class="docutils" />
-<section id="come-funziona-un-comando">
-<h3>Come funziona un comando<a class="headerlink" href="#come-funziona-un-comando" title="Link to this heading">#</a></h3>
-<p>Questa logica è <strong>identica per tutti i protocolli</strong>: cambia solo il modo in cui i 4 passaggi vengono trasmessi fisicamente (pacchetto I/O per i protocolli fieldbus, messaggio testuale per TCP — vedi sezioni successive).</p>
-<table style="width:100%; border-collapse:collapse; margin: 1.5rem 0 2rem;">
-  <tr>
-    <td style="text-align:center; padding:0 8px; width:22%;">
-      <div style="width:52px; height:52px; border-radius:50%; background:#e3f1fb; border:2px solid #2980b9; display:inline-flex; align-items:center; justify-content:center; color:#2980b9; font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
-        1
-      </div><br>
-      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Imposta<br>ControlWord</span><br>
-      <span style="font-size:0.8rem; color:#7a9ab0;">numero del comando</span>
-    </td>
-    <td style="text-align:center; color:#bcd6ec; font-size:1.6rem; width:4%; vertical-align:middle; padding-bottom:1.8rem;">
-      <i class="ph ph-caret-right"></i>
-    </td>
-    <td style="text-align:center; padding:0 8px; width:22%;">
-      <div style="width:52px; height:52px; border-radius:50%; background:#e3f1fb; border:2px solid #2980b9; display:inline-flex; align-items:center; justify-content:center; color:#2980b9; font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
-        2
-      </div><br>
-      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Imposta<br>Data_1</span><br>
-      <span style="font-size:0.8rem; color:#7a9ab0;">se richiesto</span>
-    </td>
-    <td style="text-align:center; color:#bcd6ec; font-size:1.6rem; width:4%; vertical-align:middle; padding-bottom:1.8rem;">
-      <i class="ph ph-caret-right"></i>
-    </td>
-    <td style="text-align:center; padding:0 8px; width:22%;">
-      <div style="width:52px; height:52px; border-radius:50%; background:#e3f1fb; border:2px solid #2980b9; display:inline-flex; align-items:center; justify-content:center; color:#2980b9; font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
-        3
-      </div><br>
-      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Fronte salita<br>ExecuteCW</span><br>
-      <span style="font-size:0.8rem; color:#7a9ab0;">trigger 0 → 1</span>
-    </td>
-    <td style="text-align:center; color:#bcd6ec; font-size:1.6rem; width:4%; vertical-align:middle; padding-bottom:1.8rem;">
-      <i class="ph ph-caret-right"></i>
-    </td>
-    <td style="text-align:center; padding:0 8px; width:22%;">
-      <div style="width:52px; height:52px; border-radius:50%; background:#e3f1fb; border:2px solid #2980b9; display:inline-flex; align-items:center; justify-content:center; color:#2980b9; font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
-        4
-      </div><br>
-      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Attendi<br>Busy = 0</span><br>
-      <span style="font-size:0.8rem; color:#7a9ab0;">e ReturnData_1 = CW</span>
-    </td>
-  </tr>
-</table>
-<ol class="arabic simple">
-<li><p>Il sistema esterno imposta la <strong>ControlWord</strong> con il numero del comando desiderato.</p></li>
-<li><p>Se il comando richiede un argomento, imposta anche <strong>Data_1</strong>.</p></li>
-<li><p>Invia un fronte di salita su <strong>ExecuteControlWord</strong>.</p></li>
-<li><p>Attende che <strong>Busy</strong> torni a <code class="docutils literal notranslate"><span class="pre">0</span></code> e che <strong>ReturnData_1</strong> restituisca il valore della ControlWord (conferma di esecuzione corretta).</p></li>
-</ol>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Non inviare un nuovo comando mentre <strong>Busy</strong> è a <code class="docutils literal notranslate"><span class="pre">1</span></code>. Il sistema ignorerà il comando e <strong>ReturnData_1</strong> restituirà il valore <code class="docutils literal notranslate"><span class="pre">3</span></code> (sistema occupato).</p>
-</div>
-<hr class="docutils" />
-</section>
-</section>
-<section id="variabili-di-input-e-output">
-<span id="sec-io"></span><h2>Variabili di Input e Output<a class="headerlink" href="#variabili-di-input-e-output" title="Link to this heading">#</a></h2>
-<p>Queste variabili sono <strong>le stesse per tutti i protocolli di comunicazione</strong>: cambia solo il modo in cui vengono scambiate (vedi <a class="reference internal" href="#sec-fieldbus">Trasporto Fieldbus</a> e <a class="reference internal" href="#sec-tcp">Sintassi TCP</a>).</p>
-<section id="input-segnali-inviati-al-flexibowl">
-<h3>INPUT — Segnali inviati al FlexiBowl®<a class="headerlink" href="#input-segnali-inviati-al-flexibowl" title="Link to this heading">#</a></h3>
+<p>Il carattere <code class="docutils literal notranslate"><span class="pre">%</span></code> è il <strong>terminatore di messaggio</strong> e deve essere sempre presente alla fine. Il campo <code class="docutils literal notranslate"><span class="pre">[Valore]</span></code> contiene il dato numerico associato (ControlWord, stato, ecc.).</p>
+<section id="tabella-di-sintassi-tcp">
+<h2>Tabella di sintassi TCP<a class="headerlink" href="#tabella-di-sintassi-tcp" title="Link to this heading">#</a></h2>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
-<tr class="row-odd"><th class="head"><p>Variabile</p></th>
-<th class="head"><p>Tipo</p></th>
-<th class="head"><p>Descrizione</p></th>
+<tr class="row-odd"><th class="head"><p>Operazione</p></th>
+<th class="head"><p>Messaggio da inviare</p></th>
+<th class="head"><p>Risposta se OK</p></th>
+<th class="head"><p>Risposta se errore</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><strong>ControlWord</strong></p></td>
-<td><p>UDINT</p></td>
-<td><p>Numero intero che identifica il comando da eseguire. Ogni valore corrisponde a un’azione specifica (vedi tabella comandi).</p></td>
+<tr class="row-even"><td><p>Tutti i comandi EXE</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">10[0]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">10[0]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">1[0]%</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p><strong>Data_1</strong></p></td>
-<td><p>UDINT</p></td>
-<td><p>Argomento numerico associato alla ControlWord, quando richiesto (es. il valore di velocità da scrivere). Il significato dipende dal comando selezionato.</p></td>
+<tr class="row-odd"><td><p>Tutti i comandi WRITE</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">100[56]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">100[0]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">2[0]%</span></code></p></td>
 </tr>
-<tr class="row-even"><td><p><strong>ExecuteControlWord</strong></p></td>
-<td><p>BOOL</p></td>
-<td><p>Segnale di trigger: sul <strong>fronte di salita</strong> (da 0 a 1) la ControlWord viene letta e il comando viene eseguito.</p></td>
+<tr class="row-even"><td><p>Tutti i comandi READ</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">10100[0]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">10100[valore]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">2[0]%</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p><strong>Hopper_1</strong></p></td>
-<td><p>BOOL</p></td>
-<td><p>Attiva direttamente l’Hopper 1, indipendentemente dalla ControlWord.</p></td>
+<tr class="row-odd"><td><p>Reset errori</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Reset%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Reset%</span></code></p></td>
+<td><p>—</p></td>
 </tr>
-<tr class="row-even"><td><p><strong>Hopper_2</strong></p></td>
-<td><p>BOOL</p></td>
-<td><p>Attiva direttamente l’Hopper 2.</p></td>
+<tr class="row-even"><td><p>Leggi stato Busy</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Busy%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Busy[1]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Busy[0]%</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p><strong>Hopper_3</strong></p></td>
-<td><p>BOOL</p></td>
-<td><p>Attiva direttamente l’Hopper 3.</p></td>
+<tr class="row-odd"><td><p>Leggi stato Ready</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Ready%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Ready[1]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Ready[0]%</span></code></p></td>
 </tr>
-<tr class="row-even"><td><p><strong>Hopper_4</strong></p></td>
-<td><p>BOOL</p></td>
-<td><p>Attiva direttamente l’Hopper 4.</p></td>
+<tr class="row-even"><td><p>Leggi stato InError</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">InError%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">InError[1]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">InError[0]%</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p><strong>Reset</strong></p></td>
-<td><p>BOOL</p></td>
-<td><p>Sul fronte di salita, esegue il reset degli errori attivi sul dispositivo.</p></td>
+<tr class="row-odd"><td><p>Leggi stato InPowerOn</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">InPowerOn%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">InPowerOn[1]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">InPowerOn[0]%</span></code></p></td>
 </tr>
-</tbody>
-</table>
-</div>
-</section>
-<section id="output-segnali-inviati-dal-flexibowl">
-<h3>OUTPUT — Segnali inviati dal FlexiBowl®<a class="headerlink" href="#output-segnali-inviati-dal-flexibowl" title="Link to this heading">#</a></h3>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Variabile</p></th>
-<th class="head"><p>Tipo</p></th>
-<th class="head"><p>Descrizione</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p><strong>Busy</strong></p></td>
-<td><p>BOOL</p></td>
-<td><p>Vale <code class="docutils literal notranslate"><span class="pre">1</span></code> mentre il FlexiBowl® sta eseguendo un comando. Finché è attivo, non inviare nuovi comandi.</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>Ready</strong></p></td>
-<td><p>BOOL</p></td>
-<td><p>Vale <code class="docutils literal notranslate"><span class="pre">1</span></code> quando il dispositivo è pronto a ricevere nuovi comandi.</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>In_Error</strong></p></td>
-<td><p>BOOL</p></td>
-<td><p>Vale <code class="docutils literal notranslate"><span class="pre">1</span></code> se sono presenti errori attivi sul dispositivo. Consultare <strong>ErrorCode</strong> per identificare il tipo di errore.</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>ReturnData_1</strong></p></td>
-<td><p>UDINT</p></td>
-<td><p>Conferma del comando ricevuto (echo). I valori possibili sono: <code class="docutils literal notranslate"><span class="pre">0</span></code> = stato iniziale (nessun comando), <code class="docutils literal notranslate"><span class="pre">1</span></code> = comando non interpretabile, <code class="docutils literal notranslate"><span class="pre">2</span></code> = Data_1 errato ma comando riconosciuto, <code class="docutils literal notranslate"><span class="pre">3</span></code> = sistema occupato (Busy), oppure il valore stesso della ControlWord = comando eseguito correttamente.</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>ReturnData_2</strong></p></td>
-<td><p>UDINT</p></td>
-<td><p>Contiene i dati richiesti dai comandi di lettura (READ).</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>ErrorCode</strong></p></td>
-<td><p>UDINT</p></td>
-<td><p>Codice numerico dell’errore attivo. Vale <code class="docutils literal notranslate"><span class="pre">0</span></code> se non ci sono errori. Vedere la sezione <a class="reference internal" href="#codici-di-errore"><span class="xref myst">Codici di Errore</span></a> per il significato di ogni codice.</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>InPowerOn</strong></p></td>
-<td><p>BOOL</p></td>
-<td><p>Vale <code class="docutils literal notranslate"><span class="pre">1</span></code> se il dispositivo è alimentato e operativo.</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
-<section id="valori-di-returndata-1">
-<h3>Valori di ReturnData_1<a class="headerlink" href="#valori-di-returndata-1" title="Link to this heading">#</a></h3>
-<div class="isw-ret">
-<style>
-.isw-ret table thead tr,
-.isw-ret table thead tr th {
-  background: #f0f4f8 !important;
-  color: #1a3a52 !important;
-  border-bottom: 2px solid #2980b9 !important;
-}
-</style>
-<table style="width:100%; border-collapse:collapse; font-size:0.95rem; margin:0.75rem 0 1.5rem;">
-  <thead>
-    <tr>
-      <th style="padding:0.6rem 0.9rem; text-align:left; font-weight:700; white-space:nowrap; width:100px;">Valore</th>
-      <th style="padding:0.6rem 0.9rem; text-align:left; font-weight:700;">Significato</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">0</td>
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">NULL — nessun comando in corso (stato iniziale)</td>
-    </tr>
-    <tr style="background:#f7fbfe;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#f7fbfe'">
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">1</td>
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Comando non interpretabile (ControlWord sconosciuta)</td>
-    </tr>
-    <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">2</td>
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Data_1 fuori range, comando riconosciuto</td>
-    </tr>
-    <tr style="background:#f7fbfe;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#f7fbfe'">
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">3</td>
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Sistema occupato (Busy) — riprovare</td>
-    </tr>
-    <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">= CW</td>
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Comando eseguito correttamente</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-<hr class="docutils" />
-</section>
-</section>
-<section id="ethernet-ip-profinet-modbus-fieldbus">
-<span id="sec-fieldbus"></span><h2>EtherNet/IP, Profinet, Modbus - <span class="isw-section-badge isw-badge-field"><i class="ph ph-swap"></i> FIELDBUS</span><a class="headerlink" href="#ethernet-ip-profinet-modbus-fieldbus" title="Link to this heading">#</a></h2>
-<p>Per <strong>EtherNet/IP</strong>, <strong>Profinet</strong> e <strong>Modbus</strong> le variabili di <a class="reference internal" href="#sec-io">Input</a> e <a class="reference internal" href="#sec-io">Output</a> vengono scambiate come <strong>pacchetto di I/O ciclico</strong>: non esistono messaggi testuali, ogni variabile occupa una posizione fissa nel pacchetto dati. Per tutte le informazioni dettagliate su questo protocollo fare riferimento alla pagina <a class="reference internal" href="04a_interfaccia_software.html#fieldbus"><span class="std std-ref">successiva</span></a>.</p>
-<section id="pacchetto-dati-input-verso-il-flexibowl">
-<h3>Pacchetto dati — Input (verso il FlexiBowl®)<a class="headerlink" href="#pacchetto-dati-input-verso-il-flexibowl" title="Link to this heading">#</a></h3>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>ControlWord</p></th>
-<th class="head"><p>Data_1</p></th>
-<th class="head"><p>ExecuteControlWord</p></th>
-<th class="head"><p>Hopper_1</p></th>
-<th class="head"><p>Hopper_2</p></th>
-<th class="head"><p>Hopper_3</p></th>
-<th class="head"><p>Hopper_4</p></th>
-<th class="head"><p>Reset</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p><em>(numero comando)</em></p></td>
-<td><p><em>(argomento)</em></p></td>
-<td><p><em>(bit trigger 0→1)</em></p></td>
-<td><p><em>(bit)</em></p></td>
-<td><p><em>(bit)</em></p></td>
-<td><p><em>(bit)</em></p></td>
-<td><p><em>(bit)</em></p></td>
-<td><p><em>(bit)</em></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
-<section id="pacchetto-dati-output-dal-flexibowl">
-<h3>Pacchetto dati — Output (dal FlexiBowl®)<a class="headerlink" href="#pacchetto-dati-output-dal-flexibowl" title="Link to this heading">#</a></h3>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Busy</p></th>
-<th class="head"><p>Ready</p></th>
-<th class="head"><p>In_Error</p></th>
-<th class="head"><p>In_PowerOn</p></th>
-<th class="head"><p>ReturnData_1</p></th>
-<th class="head"><p>ReturnData_2</p></th>
-<th class="head"><p>ErrorCode</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p><em>(bit)</em></p></td>
-<td><p><em>(bit)</em></p></td>
-<td><p><em>(bit)</em></p></td>
-<td><p><em>(bit)</em></p></td>
-<td><p><em>(eco ControlWord)</em></p></td>
-<td><p><em>(dato letto)</em></p></td>
-<td><p><em>(codice errore)</em></p></td>
+<tr class="row-even"><td><p>Leggi ErrorCode</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">ErrorCode%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">ErrorCode[56]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">ErrorCode[0]%</span></code></p></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>La sequenza di scrittura è sempre la stessa: impostare <strong>ControlWord</strong> (e <strong>Data_1</strong> se richiesto) con <strong>ExecuteControlWord = 0</strong>, poi portare <strong>ExecuteControlWord</strong> a <code class="docutils literal notranslate"><span class="pre">1</span></code> per generare il fronte di salita che avvia l’esecuzione.</p>
+<p>Nelle risposte di tipo READ, il testo <code class="docutils literal notranslate"><span class="pre">[valore]</span></code> viene sostituito con il dato numerico effettivo letto dal sistema. Ad esempio, per leggere la velocità della SEQ 1 (ControlWord 10102), si invia <code class="docutils literal notranslate"><span class="pre">10102[0]%</span></code> e si riceve <code class="docutils literal notranslate"><span class="pre">10102[35]%</span></code> se la velocità è impostata a 35%.</p>
 </div>
-<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover isw-card-field docutils">
-<div class="sd-card-body isw-card-body docutils">
-<div class="sd-card-title sd-font-weight-bold docutils">
-VAI ALLA PAGINA DEDICATA</div>
-<p class="sd-card-text">Documentazione completa del protocollo Fieldbus (EtherNet/IP, Profinet, Modbus)</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>I comandi Hopper via TCP (<code class="docutils literal notranslate"><span class="pre">Hopper1Start%</span></code>, ecc.) funzionano <strong>solo quando la comunicazione è attiva e il FlexiBowl®  non è in movimento</strong>. Non è garantito il corretto funzionamento se il FlexiBowl® sta eseguendo una sequenza o è in modalità jog.</p>
 </div>
-<a class="sd-stretched-link sd-hide-link-text reference internal" href="04a_interfaccia_software.html#fieldbus"><span class="std std-ref">Ethernet/IP, Profinet, Modbus</span></a></div>
-<hr class="docutils" />
 </section>
-</section>
-<section id="sintassi-messaggi-tcp-server">
-<span id="sec-tcp"></span><h2>Sintassi Messaggi <span class="isw-section-badge isw-badge-tcp"><i class="ph ph-network"></i> TCP SERVER</span><a class="headerlink" href="#sintassi-messaggi-tcp-server" title="Link to this heading">#</a></h2>
-<p>Quando si utilizza la comunicazione <strong>TCP Server</strong>, i comandi non vengono inviati come variabili binarie ma come <strong>stringhe di testo</strong> attraverso una connessione socket sulla porta configurata (default: 8123). Per tutte le informazioni dettagliate su questo protocollo fare riferimento alla pagina <a class="reference internal" href="04b_interfaccia_software.html#tcp"><span class="std std-ref">successiva</span></a>.</p>
-<section id="struttura-del-messaggio">
-<h3>Struttura del messaggio<a class="headerlink" href="#struttura-del-messaggio" title="Link to this heading">#</a></h3>
-<p>Ogni messaggio ha la forma:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">NomeVariabile</span><span class="p">[</span><span class="n">Valore</span><span class="p">]</span><span class="o">%</span>
-</pre></div>
+<section id="significato-di-returndata-1-o-risposta-tcp">
+<h2>Significato di ReturnData_1 (o risposta TCP)<a class="headerlink" href="#significato-di-returndata-1-o-risposta-tcp" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Valore</p></th>
+<th class="head"><p>Significato</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">0</span></code></p></td>
+<td><p>NULL — nessun comando in corso (stato iniziale)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">1</span></code></p></td>
+<td><p>Comando non interpretabile (ControlWord sconosciuta)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">2</span></code></p></td>
+<td><p>Data_1 fuori range, ma il comando è stato riconosciuto</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">3</span></code></p></td>
+<td><p>Sistema occupato (Busy) — riprovare dopo che Busy torna a 0</p></td>
+</tr>
+<tr class="row-even"><td><p>Valore = ControlWord</p></td>
+<td><p>Comando eseguito correttamente</p></td>
+</tr>
+</tbody>
+</table>
 </div>
-<p>Il carattere <code class="docutils literal notranslate"><span class="pre">%</span></code> è il <strong>terminatore di messaggio</strong> e deve essere sempre presente alla fine. Il campo <code class="docutils literal notranslate"><span class="pre">[Valore]</span></code> contiene il dato numerico associato (ControlWord, stato, ecc.).</p>
-<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover isw-card-tcp docutils">
-<div class="sd-card-body isw-card-body docutils">
-<div class="sd-card-title sd-font-weight-bold docutils">
-VAI ALLA PAGINA DEDICATA</div>
-<p class="sd-card-text">Sintassi completa dei messaggi TCP Server, comandi e terminatori</p>
-</div>
-<a class="sd-stretched-link sd-hide-link-text reference internal" href="04b_interfaccia_software.html#tcp"><span class="std std-ref">TCP Server</span></a></div>
-</section>
 </section>
 <hr class="docutils" />
 <section id="protocollo-comandi">
 <h2>Protocollo Comandi<a class="headerlink" href="#protocollo-comandi" title="Link to this heading">#</a></h2>
-<p>Il protocollo comandi definisce tutte le azioni disponibili attraverso la ControlWord. Le ControlWord sono <strong>le stesse per tutti i protocolli</strong>; cambia solo il trasporto (vedi <a class="reference internal" href="#sec-fieldbus">Trasporto Fieldbus</a> e <a class="reference internal" href="#sec-tcp">Sintassi TCP</a>). I comandi sono raggruppati in categorie:</p>
+<p>Il protocollo comandi definisce tutte le azioni disponibili attraverso la ControlWord. Le ControlWord sono <strong>le stesse per tutti i protocolli</strong>; cambia solo il trasporto (vedi <a class="reference internal" href="04_interfaccia-software.html#sec-fieldbus"><span class="std std-ref">Trasporto Fieldbus</span></a> e <a class="reference internal" href="04_interfaccia-software.html#sec-tcp"><span class="std std-ref">Sintassi TCP</span></a>). I comandi sono raggruppati in categorie:</p>
 <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; margin:1.5rem 0 2.5rem;">
   <a href="#sec-exe" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
     <i class="ph ph-play-circle" style="font-size:1.6rem; color:#2980b9;"></i>
@@ -1412,10 +778,26 @@ VAI ALLA PAGINA DEDICATA</div>
 <p class="admonition-title">Note</p>
 <p>Il comando <strong>Reset Return Data</strong> (ControlWord 50) azzera il valore di ReturnData_1 e ReturnData_2, riportandoli allo stato iniziale <code class="docutils literal notranslate"><span class="pre">0</span></code>. È utile per verificare che un nuovo comando venga effettivamente ricevuto ed elaborato.</p>
 </div>
-<section id="esempio-pratico">
-<h4>Esempio pratico<a class="headerlink" href="#esempio-pratico" title="Link to this heading">#</a></h4>
-<p>Per visualizzare un esempio pratico di Comando EXE in fieldbus, consultare la sezione <a class="reference internal" href="04a_interfaccia_software.html#fieldbus-exe"><span class="std std-ref">Esempio Pratico EXE</span></a>.<br />
-Per visualizzare un esempio pratico di comando EXE in TCP, consultare la sezione <a class="reference internal" href="04b_interfaccia_software.html#tcp-exe"><span class="std std-ref">Esempio Pratico EXE TCP</span></a>.</p>
+<section id="esempio-pratico-esegui-sequenza-3">
+<span id="tcp-exe"></span><h4>Esempio pratico — «Esegui Sequenza 3»<a class="headerlink" href="#esempio-pratico-esegui-sequenza-3" title="Link to this heading">#</a></h4>
+<div class="isw-example">
+<div class="isw-example-title">Esegui Sequenza 3 → ControlWord 12</div>
+<div class="isw-example-body">
+<div>
+<div>
+<div class="isw-example-col-title">TCP Server</div>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>12[0]%</code><br>
+RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">12[0]</span>
+</div>
+<p>Esempio di comando <strong>non valido</strong> (es. sequenza 9 inesistente sul dispositivo):</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>9[0]%</code><br>
+RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
+</div>
+</div>
+</div>
+</div>
 </section>
 </section>
 <section id="comandi-write">
@@ -1618,10 +1000,26 @@ Per visualizzare un esempio pratico di comando EXE in TCP, consultare la sezione
 </ul>
 </div>
 </section>
-<section id="esempio-pratico-esempio-pratico">
-<h4>Esempio pratico #### Esempio pratico<a class="headerlink" href="#esempio-pratico-esempio-pratico" title="Link to this heading">#</a></h4>
-<p>Per visualizzare un esempio pratico di Comando WRITE in fieldbus, consultare la sezione <a class="reference internal" href="04a_interfaccia_software.html#fieldbus-write"><span class="std std-ref">Esempio Pratico WRITE</span></a>.<br />
-Per visualizzare un esempio pratico di comando WRITE in TCP, consultare la sezione <a class="reference internal" href="04b_interfaccia_software.html#tcp-write"><span class="std std-ref">Esempio Pratico WRITE TCP</span></a>.</p>
+<section id="esempio-pratico-imposta-laccelerazione-del-move-a-80-nella-sequenza-7">
+<span id="tcp-write"></span><h4>Esempio pratico — «Imposta l’accelerazione del Move a 80 nella Sequenza 7»<a class="headerlink" href="#esempio-pratico-imposta-laccelerazione-del-move-a-80-nella-sequenza-7" title="Link to this heading">#</a></h4>
+<div class="isw-example">
+<div class="isw-example-title">SpeedMove Seq 7 → ControlWord 700, Data_1 = 80</div>
+<div class="isw-example-body">
+<div>
+<div>
+<div class="isw-example-col-title">TCP Server</div>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>700[80]%</code><br>
+RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">700[0]</span>
+</div>
+<p>Esempio di <strong>valore fuori range</strong> (accelerazione 1000 non ammessa, range 1–100):</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>700[1000]%</code><br>
+RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">2[0]</span>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="parametri-write-jog">
 <h4>Parametri WRITE JOG<a class="headerlink" href="#parametri-write-jog" title="Link to this heading">#</a></h4>
@@ -1805,10 +1203,26 @@ Per visualizzare un esempio pratico di comando WRITE in TCP, consultare la sezio
 Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è <code class="docutils literal notranslate"><span class="pre">10000</span> <span class="pre">+</span> <span class="pre">12</span> <span class="pre">×</span> <span class="pre">100</span> <span class="pre">+</span> <span class="pre">2</span> <span class="pre">=</span> <span class="pre">11202</span></code>.</p>
 </div>
 </section>
-<section id="id1">
-<h4>Esempio pratico<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
-<p>Per visualizzare un esempio pratico di Comando READ in fieldbus, consultare la sezione <a class="reference internal" href="04a_interfaccia_software.html#fieldbus-read"><span class="std std-ref">Esempio Pratico READ</span></a>.<br />
-Per visualizzare un esempio pratico di comando READ in TCP, consultare la sezione <a class="reference internal" href="04b_interfaccia_software.html#tcp-read"><span class="std std-ref">Esempio Pratico READ TCP</span></a>.</p>
+<section id="esempio-pratico-leggi-langolo-della-sequenza-16">
+<span id="tcp-read"></span><h4>Esempio pratico — «Leggi l’angolo della Sequenza 16»<a class="headerlink" href="#esempio-pratico-leggi-langolo-della-sequenza-16" title="Link to this heading">#</a></h4>
+<div class="isw-example">
+<div class="isw-example-title">AngleMove Seq 16 → ControlWord 11603</div>
+<div class="isw-example-body">
+<div>
+<div>
+<div class="isw-example-col-title">TCP Server</div>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>11603[0]%</code><br>
+RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">11603[45]</span>
+</div>
+<p>Esempio di <strong>valore fuori range</strong> in scrittura sullo stesso parametro (angolo massimo 720°):</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>11603[6799]%</code><br>
+RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="parametri-read-jog">
 <h4>Parametri READ JOG<a class="headerlink" href="#parametri-read-jog" title="Link to this heading">#</a></h4>
@@ -1887,6 +1301,38 @@ Per visualizzare un esempio pratico di comando READ in TCP, consultare la sezion
 <section id="comandi-hopper">
 <span id="sec-hopper"></span><h2>Comandi <span class="isw-section-badge isw-badge-hop"><i class="ph ph-funnel"></i> HOPPER</span><a class="headerlink" href="#comandi-hopper" title="Link to this heading">#</a></h2>
 <p>I comandi Hopper controllano le tramogge vibrazionali collegate al sistema (fino a 4). Seguono la stessa logica ControlWord/WRITE/READ descritta sopra, valida per tutti i protocolli, più una sintassi TCP dedicata per l’avvio rapido.</p>
+<section id="avvio-rapido-via-tcp">
+<h3>Avvio rapido via TCP<a class="headerlink" href="#avvio-rapido-via-tcp" title="Link to this heading">#</a></h3>
+<p>Oltre alla sintassi generale ControlWord, il protocollo <strong>TCP Server</strong> offre messaggi dedicati per avviare direttamente un hopper:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Operazione</p></th>
+<th class="head"><p>Messaggio da inviare</p></th>
+<th class="head"><p>Risposta</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Avvia Hopper 1</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper1Start%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper1Start</span> <span class="pre">*</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Avvia Hopper 2</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper2Start%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper2Start</span> <span class="pre">*</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>Avvia Hopper 3</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper3Start%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper3Start</span> <span class="pre">*</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Avvia Hopper 4</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper4Start%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper4Start</span> <span class="pre">*</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Sui protocolli fieldbus (EtherNet/IP, Profinet, Modbus) lo stesso avvio immediato si ottiene impostando direttamente a <code class="docutils literal notranslate"><span class="pre">1</span></code> il bit <strong>Hopper_1</strong>…<strong>Hopper_4</strong> del <a class="reference internal" href="04_interfaccia-software.html#sec-fieldbus"><span class="std std-ref">pacchetto I/O</span></a>, senza passare dalla ControlWord.</p>
+</section>
 <section id="comandi-write-hopper">
 <h3>Comandi WRITE Hopper<a class="headerlink" href="#comandi-write-hopper" title="Link to this heading">#</a></h3>
 <div class="pst-scrollable-table-container"><table class="table">
@@ -2025,10 +1471,48 @@ Per visualizzare un esempio pratico di comando READ in TCP, consultare la sezion
 <p class="admonition-title">Note</p>
 <p>Nel materiale di training, la ControlWord <code class="docutils literal notranslate"><span class="pre">30005</span></code> (Hopper_2_Id) riportava per errore lo stesso range dell’Amplitude (50–220). In questa tabella è stata corretta a <strong>1–100</strong>, coerente con Hopper_1_Id, Hopper_3_Id e Hopper_4_Id. Verificare questo valore con il firmware/datasheet prima di pubblicare la pagina.</p>
 </div>
-<section id="id2">
-<h4>Esempio pratico<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
-<p>Per visualizzare un esempio pratico di Comando WRITE HOPPER in fieldbus, consultare la sezione <a class="reference internal" href="04a_interfaccia_software.html#fieldbus-writehopper"><span class="std std-ref">Esempio Pratico WRITE HOPPER</span></a>.<br />
-Per visualizzare un esempio pratico di comando WRITE HOPPER in TCP, consultare la sezione <a class="reference internal" href="04b_interfaccia_software.html#tcp-writehopper"><span class="std std-ref">Esempio Pratico WRITE HOPPER TCP</span></a>.</p>
+<section id="esempio-pratico-abilita-hopper-1">
+<span id="tcp-writehopper"></span><h4>Esempio pratico — «Abilita Hopper 1»<a class="headerlink" href="#esempio-pratico-abilita-hopper-1" title="Link to this heading">#</a></h4>
+<div class="isw-example">
+<div class="isw-example-title">Hopper_1_Enable → ControlWord 30017</div>
+<div class="isw-example-body">
+<div>
+<div>
+<div class="isw-example-col-title">TCP Server</div>
+<p>Via ControlWord generica:</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>30017[0]%</code><br>
+RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">30017[0]</span>
+</div>
+<p>Oppure, per il solo avvio, con il messaggio dedicato:</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>Hopper1Start%</code><br>
+RETURN:&nbsp;&nbsp;&nbsp;<span class="ok">Hopper1Start *</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="esempio-pratico-imposta-lampiezza-dellhopper-2-a-220">
+<h4>Esempio pratico — «Imposta l’ampiezza dell’Hopper 2 a 220»<a class="headerlink" href="#esempio-pratico-imposta-lampiezza-dellhopper-2-a-220" title="Link to this heading">#</a></h4>
+<div class="isw-example">
+<div class="isw-example-title">Hopper_2_Amplitude → ControlWord 30006, Data_1 = 220</div>
+<div class="isw-example-body">
+<div>
+<div>
+<div class="isw-example-col-title">TCP Server</div>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>30006[220]%</code><br>
+RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">30006[0]</span>
+</div>
+<p>Esempio di <strong>valore fuori range</strong> (ampiezza 2200 non ammessa, range 50–220):</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>30006[2200]%</code><br>
+RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">2[0]</span>
+</div>
+</div>
+</div>
+</div>
 </section>
 </section>
 <section id="comandi-read-hopper">
@@ -2185,300 +1669,33 @@ Per visualizzare un esempio pratico di comando WRITE HOPPER in TCP, consultare l
 </tbody>
 </table>
 </div>
-<section id="id3">
-<h4>Esempio pratico<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
-</section>
-</section>
-</section>
-<section id="per-visualizzare-un-esempio-pratico-di-comando-read-hopper-in-fieldbus-consultare-la-sezione-esempio-pratico-read-hopper-per-visualizzare-un-esempio-pratico-di-comando-read-hopper-in-tcp-consultare-la-sezione-esempio-pratico-read-hopper-tcp">
-<h2>Per visualizzare un esempio pratico di Comando READ HOPPER in fieldbus, consultare la sezione <a class="reference internal" href="04a_interfaccia_software.html#fieldbus-readhopper"><span class="std std-ref">Esempio Pratico READ HOPPER</span></a>.<br />
-Per visualizzare un esempio pratico di comando READ HOPPER in TCP, consultare la sezione <a class="reference internal" href="04b_interfaccia_software.html#tcp-readhopper"><span class="std std-ref">Esempio Pratico READ HOPPER TCP</span></a>.<a class="headerlink" href="#per-visualizzare-un-esempio-pratico-di-comando-read-hopper-in-fieldbus-consultare-la-sezione-esempio-pratico-read-hopper-per-visualizzare-un-esempio-pratico-di-comando-read-hopper-in-tcp-consultare-la-sezione-esempio-pratico-read-hopper-tcp" title="Link to this heading">#</a></h2>
-</section>
-<section id="comandi-di-svuotamento-emptying">
-<span id="sec-empty"></span><h2>Comandi di Svuotamento — <span class="isw-section-badge isw-badge-exe"><i class="ph ph-arrow-counter-clockwise"></i> EMPTYING</span><a class="headerlink" href="#comandi-di-svuotamento-emptying" title="Link to this heading">#</a></h2>
-<p>La funzione <strong>Emptying</strong> consente di svuotare il piatto del FlexiBowl® eseguendo fino a 4 sequenze dedicate, ciascuna con un proprio numero di loop. Anche questi comandi seguono la stessa logica ControlWord, valida per tutti i protocolli.</p>
-<section id="id4">
-<h3>Comandi EXE<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Comando</p></th>
-<th class="head"><p>ControlWord</p></th>
-<th class="head"><p>Busy durante esecuzione</p></th>
-<th class="head"><p>ReturnData_1</p></th>
-<th class="head"><p>Spiegazione</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Start Emptying</p></td>
-<td><p>45</p></td>
-<td><p>SI (Emptying attivo)</p></td>
-<td><p>45</p></td>
-<td><p>Avvia lo svuotamento</p></td>
-</tr>
-<tr class="row-odd"><td><p>Stop Emptying</p></td>
-<td><p>46</p></td>
-<td><p>SI (Emptying attivo)</p></td>
-<td><p>46</p></td>
-<td><p>Ferma lo svuotamento</p></td>
-</tr>
-<tr class="row-even"><td><p>Emptying Active</p></td>
-<td><p>47</p></td>
-<td><p>NO</p></td>
-<td><p>47</p></td>
-<td><p>Verifica se lo svuotamento è attivo</p></td>
-</tr>
-</tbody>
-</table>
+<section id="esempio-pratico-leggi-la-frequenza-dellhopper-4">
+<span id="tcp-readhopper"></span><h4>Esempio pratico — «Leggi la frequenza dell’Hopper 4»<a class="headerlink" href="#esempio-pratico-leggi-la-frequenza-dellhopper-4" title="Link to this heading">#</a></h4>
+<div class="isw-example">
+<div class="isw-example-title">Hopper_4_Frequency → ControlWord 30115</div>
+<div class="isw-example-body">
+<div>
+<div>
+<div class="isw-example-col-title">TCP Server</div>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>30115[0]%</code><br>
+RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">30115[40]</span>
 </div>
-</section>
-<section id="id5">
-<h3>Comandi WRITE<a class="headerlink" href="#id5" title="Link to this heading">#</a></h3>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Comando</p></th>
-<th class="head"><p>ControlWord</p></th>
-<th class="head"><p>Range Data_1</p></th>
-<th class="head"><p>Busy durante esecuzione</p></th>
-<th class="head"><p>ReturnData_1</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>FirstSequence</p></td>
-<td><p>20200</p></td>
-<td><p>1–20</p></td>
-<td><p>NO</p></td>
-<td><p>20200</p></td>
-</tr>
-<tr class="row-odd"><td><p>FirstLoop</p></td>
-<td><p>20201</p></td>
-<td><p>0–500</p></td>
-<td><p>NO</p></td>
-<td><p>20201</p></td>
-</tr>
-<tr class="row-even"><td><p>SecondSequence</p></td>
-<td><p>20202</p></td>
-<td><p>1–20</p></td>
-<td><p>NO</p></td>
-<td><p>20202</p></td>
-</tr>
-<tr class="row-odd"><td><p>SecondLoop</p></td>
-<td><p>20203</p></td>
-<td><p>0–500</p></td>
-<td><p>NO</p></td>
-<td><p>20203</p></td>
-</tr>
-<tr class="row-even"><td><p>ThirdSequence</p></td>
-<td><p>20204</p></td>
-<td><p>1–20</p></td>
-<td><p>NO</p></td>
-<td><p>20204</p></td>
-</tr>
-<tr class="row-odd"><td><p>ThirdLoop</p></td>
-<td><p>20205</p></td>
-<td><p>0–500</p></td>
-<td><p>NO</p></td>
-<td><p>20205</p></td>
-</tr>
-<tr class="row-even"><td><p>FourthSequence</p></td>
-<td><p>20206</p></td>
-<td><p>1–20</p></td>
-<td><p>NO</p></td>
-<td><p>20206</p></td>
-</tr>
-<tr class="row-odd"><td><p>FourthLoop</p></td>
-<td><p>20207</p></td>
-<td><p>0–500</p></td>
-<td><p>NO</p></td>
-<td><p>20207</p></td>
-</tr>
-</tbody>
-</table>
+<p>Esempio di <strong>comando non interpretabile</strong> (ControlWord READ inesistente):</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>30199[0]%</code><br>
+RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
 </div>
-</section>
-<section id="id6">
-<h3>Comandi READ<a class="headerlink" href="#id6" title="Link to this heading">#</a></h3>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Comando</p></th>
-<th class="head"><p>ControlWord</p></th>
-<th class="head"><p>Busy durante esecuzione</p></th>
-<th class="head"><p>ReturnData_1</p></th>
-<th class="head"><p>Range ReturnData_2</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>FirstSequence</p></td>
-<td><p>20300</p></td>
-<td><p>NO</p></td>
-<td><p>20300</p></td>
-<td><p>1–20</p></td>
-</tr>
-<tr class="row-odd"><td><p>FirstLoop</p></td>
-<td><p>20301</p></td>
-<td><p>NO</p></td>
-<td><p>20301</p></td>
-<td><p>0–500</p></td>
-</tr>
-<tr class="row-even"><td><p>SecondSequence</p></td>
-<td><p>20302</p></td>
-<td><p>NO</p></td>
-<td><p>20302</p></td>
-<td><p>1–20</p></td>
-</tr>
-<tr class="row-odd"><td><p>SecondLoop</p></td>
-<td><p>20303</p></td>
-<td><p>NO</p></td>
-<td><p>20303</p></td>
-<td><p>0–500</p></td>
-</tr>
-<tr class="row-even"><td><p>ThirdSequence</p></td>
-<td><p>20304</p></td>
-<td><p>NO</p></td>
-<td><p>20304</p></td>
-<td><p>1–20</p></td>
-</tr>
-<tr class="row-odd"><td><p>ThirdLoop</p></td>
-<td><p>20305</p></td>
-<td><p>NO</p></td>
-<td><p>20305</p></td>
-<td><p>0–500</p></td>
-</tr>
-<tr class="row-even"><td><p>FourthSequence</p></td>
-<td><p>20306</p></td>
-<td><p>NO</p></td>
-<td><p>20306</p></td>
-<td><p>1–20</p></td>
-</tr>
-<tr class="row-odd"><td><p>FourthLoop</p></td>
-<td><p>20307</p></td>
-<td><p>NO</p></td>
-<td><p>20307</p></td>
-<td><p>0–500</p></td>
-</tr>
-</tbody>
-</table>
+</div>
+</div>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><code class="docutils literal notranslate"><span class="pre">FirstSequence</span></code>…<code class="docutils literal notranslate"><span class="pre">FourthSequence</span></code> indicano quale delle 20 sequenze programmate viene eseguita in ciascuno dei 4 passaggi dello svuotamento; <code class="docutils literal notranslate"><span class="pre">FirstLoop</span></code>…<code class="docutils literal notranslate"><span class="pre">FourthLoop</span></code> indicano quante volte quel passaggio viene ripetuto.</p>
+<p>Per i comandi di Svuotamento, fare riferimento alla sezione <a class="reference internal" href="04_interfaccia-software.html#sec-empty"><span class="std std-ref">Comandi di Svuotamento</span></a></p>
 </div>
-<hr class="docutils" />
-</section>
-</section>
-<section id="codici-di-errore">
-<span id="sec-err"></span><h2>Codici di Errore<a class="headerlink" href="#codici-di-errore" title="Link to this heading">#</a></h2>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>In presenza di un errore, il LED <strong>In_Error</strong> si attiva e il sistema non eseguirà nuovi comandi di movimento fino al reset. Prima di eseguire il reset, identificare e risolvere la causa dell’errore.</p>
-</div>
-<section id="codici-generali">
-<h3>Codici Generali<a class="headerlink" href="#codici-generali" title="Link to this heading">#</a></h3>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>ErrorCode</p></th>
-<th class="head"><p>Descrizione</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>1</p></td>
-<td><p>Il movimento di jog non ha attivato alcuna azione sul motore</p></td>
-</tr>
-<tr class="row-odd"><td><p>2</p></td>
-<td><p>Motore non connesso</p></td>
-</tr>
-<tr class="row-even"><td><p>3</p></td>
-<td><p>EtherNet/IP selezionato ma non connesso</p></td>
-</tr>
-<tr class="row-odd"><td><p>4</p></td>
-<td><p>Il motore non ha raggiunto la potenza operativa entro il tempo prestabilito</p></td>
-</tr>
-<tr class="row-even"><td><p>5</p></td>
-<td><p>Richiesto movimento del motore, ma il motore non è alimentato</p></td>
-</tr>
-<tr class="row-odd"><td><p>6</p></td>
-<td><p>Errore modulo I/O digitale: modulo mancante</p></td>
-</tr>
-<tr class="row-even"><td><p>7</p></td>
-<td><p>Errore modulo I/O digitale: errore di configurazione</p></td>
-</tr>
-<tr class="row-odd"><td><p>8</p></td>
-<td><p>Errore modulo I/O digitale: errore generale</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
-<section id="codici-errore-driver">
-<h3>Codici Errore Driver<a class="headerlink" href="#codici-errore-driver" title="Link to this heading">#</a></h3>
-<div class="isw-search-wrap">
-  <input class="isw-search" id="errSearch" type="text" placeholder="Filtra per codice o descrizione…" oninput="filterErrors()">
-  <span class="isw-search-count" id="errCount"></span>
-</div>
-<div style="margin-top: 2rem;"></div>
-<div class="isw-err-wrap">
-<table class="isw-err-table" id="errTable">
-<thead><tr><th>Codice</th><th>Hex</th><th>Errore</th><th>Descrizione</th></tr></thead>
-<tbody>
-<tr><td><code>50</code></td><td><code>0x7500</code></td><td>EtherCAT communication error</td><td></td></tr>
-<tr><td><code>51</code></td><td><code>0xFF01</code></td><td>Drive Over Current</td><td>Corrente motore eccessiva</td></tr>
-<tr><td><code>52</code></td><td><code>0xFF02</code></td><td>Drive Over Voltage</td><td>Tensione bus DC eccessiva</td></tr>
-<tr><td><code>53</code></td><td><code>0xFF03</code></td><td>Drive Over Temperature</td><td>Temperatura driver troppo elevata</td></tr>
-<tr><td><code>54</code></td><td><code>0xFF04</code></td><td>Reserved</td><td></td></tr>
-<tr><td><code>55</code></td><td><code>0xFF05</code></td><td>Drive Internal Voltage Error</td><td>Errore tensione interna</td></tr>
-<tr><td><code>56</code></td><td><code>0xFF06</code></td><td>Position Error</td><td>Errore di posizionamento</td></tr>
-<tr><td><code>57</code></td><td><code>0xFF07</code></td><td>Motor Encoder Disconnected</td><td>Encoder non collegato o guasto</td></tr>
-<tr><td><code>58</code></td><td><code>0xFF0A</code></td><td>Regen Failed</td><td>Errore nel circuito di rigenerazione</td></tr>
-<tr><td><code>59</code></td><td><code>0xFF0B</code></td><td>Safe Torque Off (STO)</td><td>Funzione di sicurezza attiva</td></tr>
-<tr><td><code>60</code></td><td><code>0xFF0C</code></td><td>Reserved</td><td></td></tr>
-<tr><td><code>61</code></td><td><code>0xFF0D</code></td><td>Bad FPGA</td><td>Errore interno all'FPGA del driver</td></tr>
-<tr><td><code>62</code></td><td><code>0xFF0E</code></td><td>Parameter Read Failed</td><td>Lettura parametri fallita</td></tr>
-<tr><td><code>63</code></td><td><code>0xFF0F</code></td><td>Motor Encoder Multi-turn Error</td><td>Errore encoder multi-giro</td></tr>
-<tr><td><code>64</code></td><td><code>0xFF10</code></td><td>Motor Stall Protection</td><td>Protezione stallo motore attiva</td></tr>
-<tr><td><code>65</code></td><td><code>0xFF11</code></td><td>Drive Power Module Over Temperature</td><td>Modulo di potenza surriscaldato</td></tr>
-<tr><td><code>66</code></td><td><code>0xFF31</code></td><td>N Limit</td><td>Limite di posizione negativo raggiunto</td></tr>
-<tr><td><code>67</code></td><td><code>0xFF32</code></td><td>P Limit</td><td>Limite di posizione positivo raggiunto</td></tr>
-<tr><td><code>68</code></td><td><code>0xFF33</code></td><td>N&P Limit</td><td>Entrambi i limiti di posizione raggiunti</td></tr>
-<tr><td><code>69</code></td><td><code>0xFF34</code></td><td>Current Foldback</td><td>Riduzione corrente per protezione termica</td></tr>
-<tr><td><code>70</code></td><td><code>0xFF35</code></td><td>Move @ Disabled</td><td>Tentativo di movimento con driver disabilitato</td></tr>
-<tr><td><code>71</code></td><td><code>0xFF36</code></td><td>Drive Low Voltage</td><td>Tensione bus DC insufficiente</td></tr>
-<tr><td><code>72</code></td><td><code>0xFF37</code></td><td>Blank Q Segment</td><td>Segmento di traiettoria non definito</td></tr>
-<tr><td><code>73</code></td><td><code>0xFF38</code></td><td>Velocity Limit</td><td>Limite di velocità superato</td></tr>
-<tr><td><code>74</code></td><td><code>0xFF39</code></td><td>Drive Power Phase Lost</td><td>Perdita di una fase di alimentazione</td></tr>
-<tr><td><code>75</code></td><td><code>0xFF3A</code></td><td>Emergency Stop</td><td>Arresto di emergenza attivo</td></tr>
-<tr><td><code>76</code></td><td><code>0xFF3B</code></td><td>Abs. Encoder Battery</td><td>Batteria encoder assoluto scarica o assente</td></tr>
-<tr><td><code>77</code></td><td><code>0xFF3C</code></td><td>Abs. Position Lost Warning</td><td>Avviso perdita posizione assoluta</td></tr>
-<tr><td><code>78</code></td><td><code>0xFF3D</code></td><td>Abs. Position Overflow</td><td>Overflow posizione assoluta</td></tr>
-<tr><td><code>79</code></td><td><code>0xFF3E</code></td><td>Motor Over Temperature</td><td>Temperatura motore eccessiva</td></tr>
-<tr><td><code>80</code></td><td><code>0xFF3F</code></td><td>Drive Voltage Warning</td><td>Avviso tensione driver fuori range</td></tr>
-<tr><td><code>81</code></td><td><code>0xFF41</code></td><td>Save Failed</td><td>Salvataggio parametri fallito</td></tr>
-<tr><td><code>82</code></td><td><code>0xFFFF</code></td><td>Other Error</td><td>Errore generico non classificato</td></tr>
-</tbody>
-</table>
-</div>
-<script>
-function filterErrors() {
-  var input = document.getElementById('errSearch').value.toLowerCase();
-  var rows = document.querySelectorAll('#errTable tbody tr');
-  var count = 0;
-  rows.forEach(function(row) {
-    var text = row.textContent.toLowerCase();
-    if (text.includes(input)) {
-      row.classList.remove('isw-hidden');
-      count++;
-    } else {
-      row.classList.add('isw-hidden');
-    }
-  });
-  var countEl = document.getElementById('errCount');
-  if (input) {
-    countEl.textContent = count + ' risultat' + (count === 1 ? 'o' : 'i');
-  } else {
-    countEl.textContent = '';
-  }
-}
-</script>
-</div>
-<div class="toctree-wrapper compound">
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Per i Codici di Errore, fare riferimento alla sezione <a class="reference internal" href="04_interfaccia-software.html#sec-err"><span class="std std-ref">Codici di Errore</span></a></p>
 </div>
 <br>
 <!-- Versions and languages set-up -->
@@ -3128,6 +2345,7 @@ function filterErrors() {
 </section>
 </section>
 </section>
+</section>
 
 
                 </article>
@@ -3141,20 +2359,20 @@ function filterErrors() {
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="03_interfaccia-pneumatica.html"
+       href="04a_interfaccia_software.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">[ELE] <strong>Interfaccia Pneumatica</strong></p>
+        <p class="prev-next-title">Ethernet/IP, Profinet, Modbus</p>
       </div>
     </a>
     <a class="right-next"
-       href="04a_interfaccia_software.html"
+       href="../INTERFACCIA%20SOFTWARE/04_home.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Ethernet/IP, Profinet, Modbus</p>
+        <p class="prev-next-title">[SOF] <strong>Home</strong></p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -3174,70 +2392,41 @@ function filterErrors() {
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduzione">Introduzione</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#naviga-la-pagina">Naviga la pagina</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#come-funziona-un-comando">Come funziona un comando</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#variabili-di-input-e-output">Variabili di Input e Output</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#input-segnali-inviati-al-flexibowl">INPUT — Segnali inviati al FlexiBowl®</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#output-segnali-inviati-dal-flexibowl">OUTPUT — Segnali inviati dal FlexiBowl®</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#valori-di-returndata-1">Valori di ReturnData_1</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ethernet-ip-profinet-modbus-fieldbus">EtherNet/IP, Profinet, Modbus - <span class="isw-section-badge isw-badge-field"><i class="ph ph-swap"></i> FIELDBUS</span></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pacchetto-dati-input-verso-il-flexibowl">Pacchetto dati — Input (verso il FlexiBowl®)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pacchetto-dati-output-dal-flexibowl">Pacchetto dati — Output (dal FlexiBowl®)</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sintassi-messaggi-tcp-server">Sintassi Messaggi <span class="isw-section-badge isw-badge-tcp"><i class="ph ph-network"></i> TCP SERVER</span></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#struttura-del-messaggio">Struttura del messaggio</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tabella-di-sintassi-tcp">Tabella di sintassi TCP</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#significato-di-returndata-1-o-risposta-tcp">Significato di ReturnData_1 (o risposta TCP)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#protocollo-comandi">Protocollo Comandi</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-exe">Comandi <span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span></a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico">Esempio pratico</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-esegui-sequenza-3">Esempio pratico — «Esegui Sequenza 3»</a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-write">Comandi <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span></a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#logica-di-indirizzamento-delle-sequenze">Logica di indirizzamento delle sequenze</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-scrivibili-per-ogni-sequenza">Parametri scrivibili per ogni sequenza</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempi-di-controlword-write">Esempi di ControlWord WRITE</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-esempio-pratico">Esempio pratico #### Esempio pratico</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-imposta-laccelerazione-del-move-a-80-nella-sequenza-7">Esempio pratico — «Imposta l’accelerazione del Move a 80 nella Sequenza 7»</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-write-jog">Parametri WRITE JOG</a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-read">Comandi <span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span></a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#logica-di-indirizzamento-read-sequenze">Logica di indirizzamento READ sequenze</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempi-di-controlword-read">Esempi di ControlWord READ</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Esempio pratico</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-leggi-langolo-della-sequenza-16">Esempio pratico — «Leggi l’angolo della Sequenza 16»</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-read-jog">Parametri READ JOG</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-hopper">Comandi <span class="isw-section-badge isw-badge-hop"><i class="ph ph-funnel"></i> HOPPER</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#avvio-rapido-via-tcp">Avvio rapido via TCP</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-write-hopper">Comandi WRITE Hopper</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Esempio pratico</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-abilita-hopper-1">Esempio pratico — «Abilita Hopper 1»</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-imposta-lampiezza-dellhopper-2-a-220">Esempio pratico — «Imposta l’ampiezza dell’Hopper 2 a 220»</a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-read-hopper">Comandi READ Hopper</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Esempio pratico</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#esempio-pratico-leggi-la-frequenza-dellhopper-4">Esempio pratico — «Leggi la frequenza dell’Hopper 4»</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#per-visualizzare-un-esempio-pratico-di-comando-read-hopper-in-fieldbus-consultare-la-sezione-esempio-pratico-read-hopper-per-visualizzare-un-esempio-pratico-di-comando-read-hopper-in-tcp-consultare-la-sezione-esempio-pratico-read-hopper-tcp">Per visualizzare un esempio pratico di Comando READ HOPPER in fieldbus, consultare la sezione <span class="xref myst">Esempio Pratico READ HOPPER</span>.<br/>
-Per visualizzare un esempio pratico di comando READ HOPPER in TCP, consultare la sezione <span class="xref myst">Esempio Pratico READ HOPPER TCP</span>.</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comandi-di-svuotamento-emptying">Comandi di Svuotamento — <span class="isw-section-badge isw-badge-exe"><i class="ph ph-arrow-counter-clockwise"></i> EMPTYING</span></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Comandi EXE</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Comandi WRITE</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Comandi READ</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-di-errore">Codici di Errore</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-generali">Codici Generali</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#codici-errore-driver">Codici Errore Driver</a></li>
 </ul>
 </li>
 </ul>

@@ -98,10 +98,29 @@ I comandi disponibili sono:
 |---|---|
 | `FLB_NULL` | Comando nullo, nessuna azione eseguita |
 | `FLB_MOVE` | Rotazione del FlexiBowl® secondo i parametri MOVE |
-| `FLB_MOVE_FLIP` | Rotazione combinata con flip |
+| `FLB_MOVE_FLIP` | Rotazione combinata con flip (ribaltamento) del piatto |
 | `FLB_MOVE_BLOWe` | Rotazione combinata con soffiaggio esterno |
 | `FLB_MOVE_BLOWc` | Rotazione combinata con soffiaggio centrale |
-| *(altri comandi)* | *(da completare)* |
+| `FLB_MOVE_BLOWce` | Rotazione combinata con soffiaggio centrale ed esterno |
+| `FLB_MOVE_BLOWe_FLIP` | Rotazione, soffiaggio esterno e flip combinati |
+| `FLB_MOVE_BLOWc_FLIP` | Rotazione, soffiaggio centrale e flip combinati |
+| `FLB_MOVE_BLOWce_FLIP` | Rotazione, soffiaggio centrale ed esterno e flip combinati |
+| `FLB_SHAKE` | Scuotimento del piatto senza rotazione |
+| `FLB_BLOWe` | Soffiaggio esterno, senza rotazione |
+| `FLB_BLOWc` | Soffiaggio centrale, senza rotazione |
+| `FLB_BLOWce` | Soffiaggio centrale ed esterno, senza rotazione |
+| `FLB_FLIP` | Flip (ribaltamento) del piatto, senza rotazione |
+| `FLB_PAUSE_100ms` | Pausa di 100 millisecondi |
+| `FLB_PAUSE_200ms` | Pausa di 200 millisecondi |
+| `FLB_PAUSE_500ms` | Pausa di 500 millisecondi |
+| `FLB_LIGHT_1_ON` | Accensione luce 1 |
+| `FLB_LIGHT_1_OFF` | Spegnimento luce 1 |
+| `FLB_LIGHT_2_ON` | Accensione luce 2 |
+| `FLB_LIGHT_2_OFF` | Spegnimento luce 2 |
+| `FLB_ENABLE` | Abilitazione del FlexiBowl® |
+| `FLB_DISABLE` | Disabilitazione del FlexiBowl® |
+| `FLB_BARRIER_DOWN` | Abbassamento della barriera |
+| `FLB_BARRIER_UP` | Sollevamento della barriera |
 
 :::{tip}
 Selezionare il comando desiderato dal menu a tendina prima di premere **ADD**. Il comando verrà inserito nella prima riga libera della lista **Command Active**.
