@@ -97,9 +97,7 @@ La forza dell'impulso viene regolata tramite il **regolatore dell'aria compressa
 <div class="compare-card-header">FlexiBowl® 3.0</div>
 <div class="compare-card-body">
 
-<video width="100%" controls poster="video/flip_pressure_v30_poster.jpg">
-  <source src="../../../../_shared/media/videos/flip_pressure_v30_demo.mp4" type="video/mp4">
-</video>
+<img src="../../../../_shared/media/videos/flip_pressure_v30_demo.gif" width="100%"/>
 
 Regolazione e lettura della pressione impostabili **direttamente dall'interfaccia software**.
 
@@ -126,9 +124,7 @@ Regolazione tramite componentistica pneumatica fisica (raccordi e regolatori sul
 <div class="compare-card-header">FlexiBowl® 3.0</div>
 <div class="compare-card-body">
 
-<video width="100%" controls poster="video/blow_control_v30_poster.jpg">
-  <source src="../../../../_shared/media/videos/blow_control_v30_demo.mp4" type="video/mp4">
-</video>
+<img src="../../../../_shared/media/videos/blow_control_v30_demo.gif" width="100%"/>
 
 Controllo nativo del soffio (**Native Blow Control**) direttamente da interfaccia software: Flip Pressure, Flip Count, Flip Delay, Blow Pressure, Blow Time.
 

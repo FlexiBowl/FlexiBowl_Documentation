@@ -1,3 +1,4 @@
+(jog)=
 # [SOF] **Jog Motor**
 
 ## Panoramica
