@@ -349,32 +349,41 @@ ARS S.r.l. non risponde per danni causati a cose o persone nel caso:
 
 ```{list-table}
 :header-rows: 1
+:widths: 20 30 25 25
 
-* - Dati alimentazione elettrica
-  - 1,5lt
-  - 3lt
-  - 5lt
-  - 10lt
-  - 20lt
-  - 40lt
-* - Alimentazione elettrica
-  - :span: 6
-  - 230Vac +/- 5% (115Vac su richiesta)
-* - Frequenza / Fase
-  - :span: 6
+* - Taglia Tramoggia
+  - Alimentazione elettrica
+  - Frequenza / Fase
+  - Assorbimento (A)
+* - 1,5 lt
+  - 230Vac ±5% (115Vac su richiesta)
   - 50-60 Hz / monofase
-* - Assorbimento (A)
   - 0,1
+* - 3 lt
+  - 230Vac ±5% (115Vac su richiesta)
+  - 50-60 Hz / monofase
   - 0,1
+* - 5 lt
+  - 230Vac ±5% (115Vac su richiesta)
+  - 50-60 Hz / monofase
   - 0,25
+* - 10 lt
+  - 230Vac ±5% (115Vac su richiesta)
+  - 50-60 Hz / monofase
   - 0,25
+* - 20 lt
+  - 230Vac ±5% (115Vac su richiesta)
+  - 50-60 Hz / monofase
   - 0,25
+* - 40 lt
+  - 230Vac ±5% (115Vac su richiesta)
+  - 50-60 Hz / monofase
   - 0,45
 ```
 
-| Dati alimentazione elettrica | 1,5lt | 3lt | 5lt | 10lt | 20lt | 40lt |
+| Taglia Tramoggia | 1,5lt | 3lt | 5lt | 10lt | 20lt | 40lt |
 |------------------------------|--------|------|------|-------|-------|-------|
-| Peso netto                   | 11 Kg | 18 Kg | 22 Kg | 24 Kg | 27 Kg | 38 Kg |
+| Peso netto corrispondente | 11 Kg | 18 Kg | 22 Kg | 24 Kg | 27 Kg | 38 Kg |
 
 :::{attention}
 Nel caso di modelli personalizzati i valori indicati potrebbero differire da quelli in tabella. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto. 
