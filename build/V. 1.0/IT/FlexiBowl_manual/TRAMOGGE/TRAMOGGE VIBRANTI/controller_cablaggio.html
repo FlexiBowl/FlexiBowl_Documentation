@@ -492,54 +492,146 @@ La società ARS S.r.l. non risponde per danni causati da un uso improprio della 
 </div>
 <section id="descrizione-controller">
 <h2>Descrizione Controller<a class="headerlink" href="#descrizione-controller" title="Link to this heading">#</a></h2>
-<p>Il <strong>Controller digitale</strong> è dotato di un microprocessore con visualizzazione della frequenza. È possibile impostare un ritardo all’avvio o all’arresto del vibratore, tramite <strong>sensore PNP/NPN</strong> o tramite un <strong>contatto meccanico</strong> fino a un massimo di 6 secondi regolabili.</p>
+<p>Il <strong>Controller digitale</strong> (mod. SDVC34-XLRH) è un controller a frequenza variabile dotato di microprocessore, display <strong>LED</strong> e tastiera di comando (pulsanti <strong>Vol+/Vol-</strong> per la tensione di uscita, pulsanti <strong>▲/▼</strong> per i parametri, tasto <strong>FUNC</strong> per la selezione, tasto <strong>ON/OFF</strong> per accensione/spegnimento e blocco tastiera).</p>
+<p>Di <strong>default il controller non genera alcuna uscita all’accensione</strong> e rimane in stato di stop: per abilitare l’uscita principale è necessario applicare un <strong>segnale PNP</strong> sull’<strong>Enable Output Port</strong> (connettore 4 pin).</p>
+<p>Il controller integra protezioni automatiche:</p>
+<ul class="simple">
+<li><p><strong>Cortocircuito</strong> → arresto immediato dell’uscita, errore <code class="docutils literal notranslate"><span class="pre">Err01</span></code></p></li>
+<li><p><strong>Sovracorrente</strong> → arresto immediato dell’uscita, errore <code class="docutils literal notranslate"><span class="pre">Err02</span></code></p></li>
+<li><p><strong>Sovratemperatura</strong> → arresto dell’uscita oltre 65 °C, ripristino automatico sotto i 60 °C, errore <code class="docutils literal notranslate"><span class="pre">Err03</span></code></p></li>
+</ul>
+<p>La comunicazione avviene tramite porta <strong>RS485</strong> (protocollo <strong>Modbus</strong>), con indirizzo di rete impostabile da 1 a 31 e baud rate configurabile.</p>
 <section id="dati-tecnici-controller">
 <h3>Dati Tecnici Controller<a class="headerlink" href="#dati-tecnici-controller" title="Link to this heading">#</a></h3>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head text-left"><p>Caratteristica tecnica</p></th>
-<th class="head text-left"><p>Specifica / Valore</p></th>
+<th class="head text-left"><p>Min</p></th>
+<th class="head text-left"><p>Tipico</p></th>
+<th class="head text-left"><p>Max</p></th>
+<th class="head text-left"><p>Unità</p></th>
+<th class="head text-left"><p>Note</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td class="text-left"><p><strong>Alimentazione elettrica</strong></p></td>
-<td class="text-left"><p>85 / 250 V</p></td>
+<tr class="row-even"><td class="text-left"><p><strong>Tensione di ingresso</strong></p></td>
+<td class="text-left"><p>85</p></td>
+<td class="text-left"><p>220</p></td>
+<td class="text-left"><p>250</p></td>
+<td class="text-left"><p>V</p></td>
+<td class="text-left"><p>AC RMS</p></td>
 </tr>
-<tr class="row-odd"><td class="text-left"><p><strong>Frequenza / Fase</strong></p></td>
-<td class="text-left"><p>50/60 Hz / monofase</p></td>
+<tr class="row-odd"><td class="text-left"><p><strong>Range tensione di uscita regolabile</strong></p></td>
+<td class="text-left"><p>0</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>260</p></td>
+<td class="text-left"><p>V</p></td>
+<td class="text-left"><p>Inferiore al 150% della tensione di ingresso</p></td>
 </tr>
-<tr class="row-even"><td class="text-left"><p><strong>Consumo</strong></p></td>
-<td class="text-left"><p>1,5 W max</p></td>
+<tr class="row-even"><td class="text-left"><p><strong>Precisione regolazione tensione</strong></p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>1</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>V</p></td>
+<td class="text-left"><p>—</p></td>
 </tr>
-<tr class="row-odd"><td class="text-left"><p><strong>Corrente Max</strong></p></td>
-<td class="text-left"><p>5 A (RMS)</p></td>
+<tr class="row-odd"><td class="text-left"><p><strong>Precisione regolazione tensione (ΔVout/ΔVin)</strong></p></td>
+<td class="text-left"><p>0</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>10</p></td>
+<td class="text-left"><p>%</p></td>
+<td class="text-left"><p>ΔVout/ΔVin</p></td>
 </tr>
-<tr class="row-even"><td class="text-left"><p><strong>Fusibili</strong></p></td>
-<td class="text-left"><p>Doppio 5A F 250V 5x20 H 1500A</p></td>
+<tr class="row-even"><td class="text-left"><p><strong>Range corrente di uscita regolabile</strong></p></td>
+<td class="text-left"><p>0</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>6</p></td>
+<td class="text-left"><p>A</p></td>
+<td class="text-left"><p>—</p></td>
 </tr>
-<tr class="row-odd"><td class="text-left"><p><strong>Carico Minimo</strong></p></td>
-<td class="text-left"><p>50 mA (RMS)</p></td>
+<tr class="row-odd"><td class="text-left"><p><strong>Potenza di uscita</strong></p></td>
+<td class="text-left"><p>0</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>1320</p></td>
+<td class="text-left"><p>VA</p></td>
+<td class="text-left"><p>—</p></td>
 </tr>
-<tr class="row-even"><td class="text-left"><p><strong>On/Off</strong></p></td>
-<td class="text-left"><p>Contatto pulito - Segnale in tensione 0-24 Vcc</p></td>
+<tr class="row-even"><td class="text-left"><p><strong>Frequenza di uscita</strong></p></td>
+<td class="text-left"><p>30,0</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>130,0</p></td>
+<td class="text-left"><p>Hz</p></td>
+<td class="text-left"><p>—</p></td>
 </tr>
-<tr class="row-odd"><td class="text-left"><p><strong>Reg. Di Frequenza Vibratore</strong></p></td>
-<td class="text-left"><p>50 ÷ 100 Hz +/- 12 Hz</p></td>
+<tr class="row-odd"><td class="text-left"><p><strong>Precisione regolazione frequenza</strong></p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>0,1</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>Hz</p></td>
+<td class="text-left"><p>—</p></td>
 </tr>
-<tr class="row-even"><td class="text-left"><p><strong>Ingresso Sensore</strong></p></td>
-<td class="text-left"><p>NPN/PNP - contatto meccanico</p></td>
+<tr class="row-even"><td class="text-left"><p><strong>Forma d’onda di uscita</strong></p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>Sinusoidale</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>—</p></td>
 </tr>
-<tr class="row-odd"><td class="text-left"><p><strong>Ritardo ON/OFF</strong></p></td>
-<td class="text-left"><p>0 / 6 secondi</p></td>
+<tr class="row-odd"><td class="text-left"><p><strong>Temperatura intervento protezione sovratemperatura</strong></p></td>
+<td class="text-left"><p>60</p></td>
+<td class="text-left"><p>65</p></td>
+<td class="text-left"><p>65</p></td>
+<td class="text-left"><p>°C</p></td>
+<td class="text-left"><p>—</p></td>
 </tr>
-<tr class="row-even"><td class="text-left"><p><strong>Temperatura di Funzionamento</strong></p></td>
-<td class="text-left"><p>-15 °C / +45 °C</p></td>
+<tr class="row-even"><td class="text-left"><p><strong>Comunicazione digitale</strong></p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>ModBus 485</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>—</p></td>
 </tr>
-<tr class="row-odd"><td class="text-left"><p><strong>Norme Europee</strong></p></td>
-<td class="text-left"><p>EMC CE</p></td>
+<tr class="row-odd"><td class="text-left"><p><strong>Metodo di regolazione</strong></p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>6</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>Button</p></td>
+<td class="text-left"><p>—</p></td>
 </tr>
-<tr class="row-even"><td class="text-left"><p><strong>Grado di Protezione</strong></p></td>
-<td class="text-left"><p>IP65 in cassetta</p></td>
+<tr class="row-even"><td class="text-left"><p><strong>Consumo in standby</strong></p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>7</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>W</p></td>
+<td class="text-left"><p>—</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Metodo di visualizzazione</strong></p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>5</p></td>
+<td class="text-left"><p>—</p></td>
+<td class="text-left"><p>Digit</p></td>
+<td class="text-left"><p>LED</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Temperatura ambiente</strong></p></td>
+<td class="text-left"><p>0</p></td>
+<td class="text-left"><p>25</p></td>
+<td class="text-left"><p>40</p></td>
+<td class="text-left"><p>°C</p></td>
+<td class="text-left"><p>Senza condensa</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Umidità ambiente</strong></p></td>
+<td class="text-left"><p>10</p></td>
+<td class="text-left"><p>60</p></td>
+<td class="text-left"><p>85</p></td>
+<td class="text-left"><p>%</p></td>
+<td class="text-left"><p>Senza condensa</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Temperatura ambiente di stoccaggio</strong></p></td>
+<td class="text-left"><p>-20</p></td>
+<td class="text-left"><p>25</p></td>
+<td class="text-left"><p>65</p></td>
+<td class="text-left"><p>°C</p></td>
+<td class="text-left"><p>Senza condensa</p></td>
 </tr>
 </tbody>
 </table>

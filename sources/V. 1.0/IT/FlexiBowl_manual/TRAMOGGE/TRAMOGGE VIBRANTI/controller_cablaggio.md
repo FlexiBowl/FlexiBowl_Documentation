@@ -7,27 +7,42 @@ Utilizzare la macchina per scopo diverso da quello previsto dal Costruttore potr
 La società ARS S.r.l. non risponde per danni causati da un uso improprio della macchina.
 :::
 
-## Descrizione Controller 
+## Descrizione Controller
 
-Il **Controller digitale** è dotato di un microprocessore con visualizzazione della frequenza. È possibile impostare un ritardo all'avvio o all'arresto del vibratore, tramite **sensore PNP/NPN** o tramite un **contatto meccanico** fino a un massimo di 6 secondi regolabili.
+Il **Controller digitale** (mod. SDVC34-XLRH) è un controller a frequenza variabile dotato di microprocessore, display **LED** e tastiera di comando (pulsanti **Vol+/Vol-** per la tensione di uscita, pulsanti **▲/▼** per i parametri, tasto **FUNC** per la selezione, tasto **ON/OFF** per accensione/spegnimento e blocco tastiera).
 
-### Dati Tecnici Controller 
+Di **default il controller non genera alcuna uscita all'accensione** e rimane in stato di stop: per abilitare l'uscita principale è necessario applicare un **segnale PNP** sull'**Enable Output Port** (connettore 4 pin).
 
-| Caratteristica tecnica | Specifica / Valore |
-| :--- | :--- |
-| **Alimentazione elettrica** | 85 / 250 V |
-| **Frequenza / Fase** | 50/60 Hz / monofase |
-| **Consumo** | 1,5 W max |
-| **Corrente Max** | 5 A (RMS) |
-| **Fusibili** | Doppio 5A F 250V 5x20 H 1500A |
-| **Carico Minimo** | 50 mA (RMS) |
-| **On/Off** | Contatto pulito - Segnale in tensione 0-24 Vcc |
-| **Reg. Di Frequenza Vibratore** | 50 ÷ 100 Hz +/- 12 Hz |
-| **Ingresso Sensore** | NPN/PNP - contatto meccanico |
-| **Ritardo ON/OFF** | 0 / 6 secondi |
-| **Temperatura di Funzionamento** | -15 °C / +45 °C |
-| **Norme Europee** | EMC CE |
-| **Grado di Protezione** | IP65 in cassetta |
+Il controller integra protezioni automatiche:
+
+- **Cortocircuito** → arresto immediato dell'uscita, errore `Err01`
+- **Sovracorrente** → arresto immediato dell'uscita, errore `Err02`
+- **Sovratemperatura** → arresto dell'uscita oltre 65 °C, ripristino automatico sotto i 60 °C, errore `Err03`
+
+La comunicazione avviene tramite porta **RS485** (protocollo **Modbus**), con indirizzo di rete impostabile da 1 a 31 e baud rate configurabile.
+
+
+### Dati Tecnici Controller
+
+| Caratteristica tecnica | Min | Tipico | Max | Unità | Note |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Tensione di ingresso** | 85 | 220 | 250 | V | AC RMS |
+| **Range tensione di uscita regolabile** | 0 | — | 260 | V | Inferiore al 150% della tensione di ingresso |
+| **Precisione regolazione tensione** | — | 1 | — | V | — |
+| **Precisione regolazione tensione (ΔVout/ΔVin)** | 0 | — | 10 | % | ΔVout/ΔVin |
+| **Range corrente di uscita regolabile** | 0 | — | 6 | A | — |
+| **Potenza di uscita** | 0 | — | 1320 | VA | — |
+| **Frequenza di uscita** | 30,0 | — | 130,0 | Hz | — |
+| **Precisione regolazione frequenza** | — | 0,1 | — | Hz | — |
+| **Forma d'onda di uscita** | — | Sinusoidale | — | — | — |
+| **Temperatura intervento protezione sovratemperatura** | 60 | 65 | 65 | °C | — |
+| **Comunicazione digitale** | — | ModBus 485 | — | — | — |
+| **Metodo di regolazione** | — | 6 | — | Button | — |
+| **Consumo in standby** | — | 7 | — | W | — |
+| **Metodo di visualizzazione** | — | 5 | — | Digit | LED |
+| **Temperatura ambiente** | 0 | 25 | 40 | °C | Senza condensa |
+| **Umidità ambiente** | 10 | 60 | 85 | % | Senza condensa |
+| **Temperatura ambiente di stoccaggio** | -20 | 25 | 65 | °C | Senza condensa |
 
 :::{attention}
 È possibile integrare controller diversi da quello fornito dal Costruttore purché quest'ultimo ne abbia preliminarmente validato le caratteristiche tecniche. La società ARS s.r.l. non risponde per danni causati dall'utilizzo di un controller non validato o non compatibile con la macchina.
