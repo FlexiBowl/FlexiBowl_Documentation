@@ -243,6 +243,9 @@ Il cablaggio del FlexiBowl® cambia in base alla taglia della macchina:
     :class: ars-zoom-img
     ```
 ```
+:::{video} ../../../../_shared/media/videos/cablaggio_FB800.mp4
+:width: 100% 
+:::
 
 ---
 
@@ -341,3 +344,6 @@ Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔
     :class: ars-zoom-img
     ```
 ```
+:::{video} ../../../../_shared/media/videos/cablaggio_FB200.mp4
+:width: 100% 
+:::

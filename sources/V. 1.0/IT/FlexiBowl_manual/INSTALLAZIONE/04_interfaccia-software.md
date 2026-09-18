@@ -763,7 +763,7 @@ La formula è semplice:
 - Per scrivere il FlipCount (offset 10) della sequenza 15, la ControlWord è `15 × 100 + 10 = 1510`.
 :::
 
-#### Esempio pratico #### Esempio pratico 
+#### Esempio pratico 
 
 Per visualizzare un esempio pratico di Comando WRITE in fieldbus, consultare la sezione [Esempio Pratico WRITE](fieldbus_write).  
 Per visualizzare un esempio pratico di comando WRITE in TCP, consultare la sezione [Esempio Pratico WRITE TCP](TCP_write). 
@@ -940,6 +940,7 @@ Per visualizzare un esempio pratico di comando WRITE HOPPER in TCP, consultare l
 
 Per visualizzare un esempio pratico di Comando READ HOPPER in fieldbus, consultare la sezione [Esempio Pratico READ HOPPER](fieldbus_READHOPPER).  
 Per visualizzare un esempio pratico di comando READ HOPPER in TCP, consultare la sezione [Esempio Pratico READ HOPPER TCP](TCP_READHOPPER). 
+
 ---
 
 (sec-empty)=

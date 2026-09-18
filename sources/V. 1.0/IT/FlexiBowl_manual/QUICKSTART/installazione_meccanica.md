@@ -41,6 +41,10 @@
 
 ::::
 
+:::{video} ../../../../_shared/media/videos/installazione_FB800.mp4
+:width: 100%
+:::
+
 :::{important}
 Lasciare circa {ref}`100mm di spazio <dim800>` per i connettori di alimentazione del FlexiBowl®.
 :::
@@ -127,6 +131,11 @@ Per evitare il surriscaldamento del rack è importante lasciare delle zone di *c
   - 100mm
 
 :::
+
+:::{video} ../../../../_shared/media/videos/installazione_FB200.mp4
+:width: 100%
+:::
+
 
 :::{note}
 Il Rack esterno per FlexiBowl® 200 e 350 è di tipo standard **3U**.

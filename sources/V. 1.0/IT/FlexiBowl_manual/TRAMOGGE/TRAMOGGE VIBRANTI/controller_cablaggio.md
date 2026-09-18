@@ -65,8 +65,9 @@ Il **Controller digitale** è dotato di un microprocessore con visualizzazione d
 | Connettore | Pin | Funzione |
 |---|---|---|
 | **Mains Power** (alimentazione) | PE-PE, 1-L, 2-N, 3-NC | Alimentazione di rete |
-| **Connettore 5 pin** (comunicazione) | 1-A+, 2-NC, 3-B-, 4-GND, 5-NC | Comunicazione RS485 (A+/B-) |
-| **Power Output to Feeder** (uscita verso vibratore) | PE-PE, 1-output, 2-output, 3-NC | Alimentazione verso la base vibrante |
+| **Enable Output Port** (4 pin) | 1-+24V, 2-NC, 3-GND, 4-Input | Uscita di abilitazione per il controllo esterno della tramoggia, utilizzata quando questa viene acquistata separatamente e deve essere pilotata da un dispositivo esterno |
+| **RS485 Port** (2× 5 pin) | 1-A+, 2-NC, 3-B-, 4-GND, 5-NC | Due connettori RS485 identici: uno collega il controller al FlexiBowl®, l'altro consente il collegamento in **daisy chain** tra più tramogge. In configurazione a tramoggia singola, il connettore non utilizzato va chiuso con l'apposito **tappo di terminazione** fornito in dotazione, dotato di resistenza da **120 Ω** tra A+ e B- |
+| **Power Output to Feeder** (uscita verso la tramoggia) | PE-PE, 1-output, 2-output, 3-NC | Alimentazione verso la tramoggia |
 | **Power Switch** | — | Interruttore di accensione/spegnimento |
 
 ## Procedure di utilizzo

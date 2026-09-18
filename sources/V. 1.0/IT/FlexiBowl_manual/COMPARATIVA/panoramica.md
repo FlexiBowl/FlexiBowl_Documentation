@@ -1,30 +1,10 @@
 # [SOF] **Panoramica Comparativa**
 
-## Cos'è il FlexiBowl®
+## Cos'è FlexiBowl®
 
 Il FlexiBowl® è un sistema flessibile per l'alimentazione di componenti in linee automatizzate che impiegano robot industriali e/o collaborativi. Grazie alla combinazione di movimento rotatorio e impulsi "flip", le parti vengono separate e orientate per il prelievo da parte del robot, indipendentemente dalla loro geometria, superficie o materiale.
 
 Queste caratteristiche funzionali fondamentali rimangono invariate tra la versione 2.0 e la versione 3.0.
-
----
-
-## Confronto visivo
-
-*(inserire qui le immagini comparative: FlexiBowl® 2.0 a sinistra, FlexiBowl® 3.0 a destra)*
-
----
-
-## Principali differenze
-
-| Caratteristica | FlexiBowl® 2.0 | FlexiBowl® 3.0 |
-|---|---|---|
-| Architettura di controllo |  |  |
-| Interfaccia utente | |  |
-| Altezza complessiva |  |  |
-| Comunicazione |  |  |
-| Configurazione IP |  |  |
-| Versione Clean Room | Disponibile | Disponibile |
-| Svuotamento (QuickEmpty) | Opzionale | Opzionale |
 
 ---
 

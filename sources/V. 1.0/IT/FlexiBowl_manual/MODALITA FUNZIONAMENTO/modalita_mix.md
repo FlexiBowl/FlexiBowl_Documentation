@@ -47,15 +47,6 @@ che si ripetono in sequenza:
   - Il robot preleva il pezzo corretto in base alla logica di sorting e lo deposita nella posizione di destinazione.
 ```
 
----
-
-## Schema di installazione
-
-
-:::{figure} ../../../../_shared/media/images/MixLayout.PNG
-:width: 80%
-:align: center
-:::
 
 ---
 
