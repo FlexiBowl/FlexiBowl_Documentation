@@ -52,7 +52,12 @@ source_suffix = {
 # -- Options for HTML output -------------------------------------------------
 
 html_theme = "sphinx_book_theme"
-html_static_path = ["../../_shared/static", "../../_shared/media"]
+# Only the real static assets. _shared/media must NOT be listed here: Sphinx copies
+# every html_static_path entry into each language's _static/, which duplicated the
+# entire 1.2 GB media tree into build/_shared/static/ for nothing. Media reaches the
+# build via sync_shared_image_assets()/sync_shared_video_assets() instead. Matches
+# FlexiVision's conf_common.py.
+html_static_path = ["../../_shared/static"]
 html_title = "FlexiBowl® Manual"
 
 html_css_files = [
