@@ -18,6 +18,8 @@ from html import escape
 from pathlib import Path, PurePosixPath
 from urllib.parse import quote, unquote
 
+from image_cap import cap_directory
+
 FULL_MANUAL_PDF_NAME = "manual_full.pdf"
 PRINT_FULL_MANUAL_HTML_NAME = "print_full_manual.html"
 OFFLINE_MANUAL_ZIP_NAME = "Offline manual.zip"
@@ -1716,6 +1718,11 @@ def build_site(
     output_root = repo_root / "build"
     work_root.mkdir(parents=True, exist_ok=True)
 
+    with timed_step("cap oversized source images", timings):
+        changed, saved = cap_directory(source_root)
+        if changed:
+            print(f"Capped {changed} source images, saved {saved / 2**20:.1f} MB")
+
     try:
         build_root = run_html_build(
             ev,
@@ -1806,6 +1813,9 @@ def build_site(
             sync_shared_video_assets(source_root, output_root)
         with timed_step("repair shared video references in final build", timings):
             ensure_referenced_shared_videos(source_root, output_root)
+
+        with timed_step("cap oversized build images", timings):
+            cap_directory(output_root)
     finally:
         remove_directory(work_root)
         print_timing_summary(timings, time.perf_counter() - build_started_at)
