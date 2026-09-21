@@ -84,9 +84,18 @@ def test_rewrite_preserves_fragment():
     assert out == f'<a href="{CDN}/_downloads/doc.pdf#page=3">Doc</a>'
 
 
-def test_rewrite_ignores_script_bodies():
+def test_rewrites_offloaded_refs_inside_script_bodies():
+    # The theme writes its dark-mode logo at runtime; skipping scripts would
+    # leave it 404ing against the docs origin on every page.
+    page = BUILD / "V. 1.0/IT/search.html"
+    html = '<script>document.write(`<img src="../../_shared/static/logo_dark.png"/>`)</script>'
+    out = rewrite_html(html, page, BUILD, CDN)
+    assert out == f'<script>document.write(`<img src="{CDN}/_shared/static/logo_dark.png"/>`)</script>'
+
+
+def test_leaves_non_offloaded_strings_inside_scripts_alone():
     page = BUILD / "V. 1.0/IT/index.html"
-    html = '<script>var s = \'src="_images/fake.png"\';</script>'
+    html = '<script>var s = \'href="FlexiBowl_manual/intro.html"\';</script>'
     assert rewrite_html(html, page, BUILD, CDN) == html
 
 

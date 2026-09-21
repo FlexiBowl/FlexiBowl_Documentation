@@ -22,7 +22,6 @@ OFFLOAD_PREFIXES = ("_shared/", "_assets/")
 OFFLOAD_DIR_NAMES = frozenset({"_images", "_downloads"})
 
 _ATTR_RE = re.compile(r"""\b(src|href|poster)=(["'])([^"']*)\2""")
-_SKIP_BLOCK_RE = re.compile(r"(?is)<(script|style)\b.*?</\1\s*>")
 _NON_RELATIVE_PREFIXES = ("http://", "https://", "//", "/", "#", "data:", "mailto:", "javascript:", "tel:")
 
 
@@ -84,29 +83,12 @@ def rewrite_html(text: str, html_path: Path, build_root: Path, cdn_base: str) ->
         encoded = quote(relative, safe="/")
         return f"{attribute}={quote_char}{base}/{encoded}{suffix}{quote_char}"
 
-    # <script> and <style> bodies can contain attribute-shaped strings; skip them.
-    # But rewrite attributes in the opening tags.
-    pieces: list[str] = []
-    cursor = 0
-    for block in _SKIP_BLOCK_RE.finditer(text):
-        pieces.append(_ATTR_RE.sub(replace_attr, text[cursor:block.start()]))
-
-        # Split the block into opening tag, body, and closing tag.
-        block_text = block.group(0)
-        # Find where the opening tag ends (at the first '>')
-        first_close = block_text.find('>')
-        if first_close != -1:
-            opening_tag = block_text[:first_close + 1]
-            body_and_closing = block_text[first_close + 1:]
-            # Rewrite attributes in the opening tag, but leave body unchanged.
-            rewritten_opening = _ATTR_RE.sub(replace_attr, opening_tag)
-            pieces.append(rewritten_opening + body_and_closing)
-        else:
-            pieces.append(block_text)
-
-        cursor = block.end()
-    pieces.append(_ATTR_RE.sub(replace_attr, text[cursor:]))
-    return "".join(pieces)
+    # Script bodies are rewritten too. The theme emits its dark-mode logo with
+    # document.write(`<img src="../../_shared/...">`), so skipping <script> would
+    # leave that image pointing at the docs origin, where nginx returns 404. The
+    # real guard is is_offloaded(): a string is only touched when it resolves to
+    # a path we actually host on the CDN.
+    return _ATTR_RE.sub(replace_attr, text)
 
 
 def rewrite_tree(build_root: Path, cdn_base: str) -> tuple[int, int]:
