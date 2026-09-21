@@ -158,8 +158,14 @@ jobs:
             n=$(find "$root" -type f | wc -l)
             mb=$(du -sm "$root" | cut -f1)
             echo "image content: $n files, ${mb} MB"
-            [ "$n" -ge 400 ] && [ "$n" -le 700 ] || { echo "::error::file count $n outside 400-700"; fail=1; }
-            [ "$mb" -le 60 ] || { echo "::error::content ${mb} MB exceeds 60 MB"; fail=1; }
+            if [ "$n" -lt 400 ] || [ "$n" -gt 700 ]; then
+              echo "::error::file count $n outside expected band 400-700"
+              fail=1
+            fi
+            if [ "$mb" -gt 60 ]; then
+              echo "::error::content ${mb} MB exceeds 60 MB"
+              fail=1
+            fi
 
             exit "$fail"
           '
@@ -168,8 +174,9 @@ jobs:
           # precedence yields the right status codes. The image is already
           # pulled, so exercise it.
           docker run -d --name docs-smoke -p 8088:80 "$IMAGE"
-          for i in $(seq 1 15); do
-            curl -fsS -o /dev/null http://localhost:8088/ && break || sleep 1
+          for _ in $(seq 1 15); do
+            if curl -fsS -o /dev/null http://localhost:8088/; then break; fi
+            sleep 1
           done
           check() {
             code=$(curl -s -o /dev/null -w '%{http_code}' "http://localhost:8088$1")
