@@ -17,31 +17,6 @@ def make_png(width: int, height: int, colour=(120, 30, 200)) -> bytes:
     return buf.getvalue()
 
 
-def make_palette_png_with_gradient(width: int, height: int) -> bytes:
-    """Create a palette-mode PNG with a gradient (not flat colour).
-
-    Gradients and noise patterns ensure that different resampling filters
-    produce visibly different outputs, making the test meaningful.
-    """
-    # Create an RGB gradient image
-    rgb_img = Image.new("RGB", (width, height))
-    pixels = rgb_img.load()
-    for y in range(height):
-        for x in range(width):
-            # Gradient from blue to red across width, green changes with height
-            r = int(255 * x / width)
-            g = int(255 * y / height)
-            b = 255 - int(255 * x / width)
-            pixels[x, y] = (r, g, b)
-
-    # Convert to palette mode (P) to test the conversion path
-    palettized = rgb_img.quantize(colors=256)
-
-    buf = io.BytesIO()
-    palettized.save(buf, "PNG")
-    return buf.getvalue()
-
-
 def test_returns_none_when_already_narrow_enough():
     assert cap_image_bytes(make_png(800, 600)) is None
 
@@ -123,7 +98,7 @@ def test_width_invariant_enforced(tmp_path: Path):
     After cap_image_file returns True, the stored file must have width == MAX_IMAGE_WIDTH.
     """
     target = tmp_path / "wide.png"
-    target.write_bytes(make_png(3000, 2000))
+    target.write_bytes(make_png(9000, 3000))
     assert cap_image_file(target) is True
     with Image.open(target) as im:
         assert im.size[0] == MAX_IMAGE_WIDTH, (
@@ -131,40 +106,27 @@ def test_width_invariant_enforced(tmp_path: Path):
         )
 
 
-def test_palette_mode_uses_lanczos(tmp_path: Path):
-    """Palette-mode images are converted before resizing so LANCZOS applies.
+def test_palette_images_are_really_antialiased():
+    """Pillow forces NEAREST for mode "P" unless the image is promoted first.
 
-    Pillow silently reverts to NEAREST for mode P/1 even when LANCZOS is requested.
-    We convert P/1 to RGBA before resizing to ensure the filter is honoured.
-
-    A gradient ensures different filters produce visibly different output.
-    Verify by comparing capped output with explicit NEAREST resize of the source.
+    A flat-colour fixture would pass vacuously: every filter agrees on it.
+    Built from linear_gradient (256x256) and scaled up: a putdata list at
+    these dimensions would allocate gigabytes.
     """
-    source_data = make_palette_png_with_gradient(3000, 2000)
+    ramp = Image.linear_gradient("L")
+    gradient = Image.merge("RGB", (
+        ramp,
+        ramp.transpose(Image.ROTATE_90),
+        ramp.transpose(Image.ROTATE_180),
+    ))
+    buf = io.BytesIO()
+    gradient.resize((3000, 750), Image.NEAREST).convert("P").save(buf, "PNG")
 
-    # Get the capped version (should use LANCZOS via RGBA conversion)
-    capped_data = cap_image_bytes(source_data)
-    assert capped_data is not None
-
-    # Manually downscale the original with NEAREST to establish a baseline
-    with Image.open(io.BytesIO(source_data)) as source_img:
-        source_width, source_height = source_img.size
-        new_height = round(source_height * MAX_IMAGE_WIDTH / source_width)
-
-        # Convert to RGBA to have a mode we can resize
-        source_rgb = source_img.convert("RGBA")
-
-        # Downscale with NEAREST
-        nearest_resized = source_rgb.resize(
-            (MAX_IMAGE_WIDTH, new_height), Image.NEAREST
-        )
-        nearest_buf = io.BytesIO()
-        nearest_resized.save(nearest_buf, "PNG")
-        nearest_data = nearest_buf.getvalue()
-
-    # The capped version (LANCZOS) should differ from NEAREST
-    # They may differ in content bytes or metadata, but the visual content differs
-    assert capped_data != nearest_data, (
-        "Capped output should differ from NEAREST resample; "
-        "LANCZOS may not have been applied."
-    )
+    capped = cap_image_bytes(buf.getvalue())
+    assert capped is not None
+    with Image.open(io.BytesIO(capped)) as got:
+        antialiased = got.convert("RGB").tobytes()
+        size = got.size
+    with Image.open(io.BytesIO(buf.getvalue())) as src:
+        nearest = src.resize(size, Image.NEAREST).convert("RGB").tobytes()
+    assert antialiased != nearest
