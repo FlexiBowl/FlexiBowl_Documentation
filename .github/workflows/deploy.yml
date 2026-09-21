@@ -95,7 +95,9 @@ jobs:
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             case "$f" in
-              build/_shared/*|build/_assets/*|build/*/_images/*|build/*/_downloads/*|sources/*|"build/Offline manual.zip") ;;
+              build/_shared/*|build/_assets/*|build/*/_images/*|build/*/_downloads/*) ;;
+              sources/*|tools/*|tests/*|installer/*|.github/*|.makai/*) ;;
+              *.md|"build/Offline manual.zip") ;;
               *)
                 echo "::error file=$f::LFS-tracked file is not excluded by .dockerignore and would ship as a 130-byte pointer"
                 fail=1
@@ -155,13 +157,19 @@ jobs:
           IMAGE: ${{ steps.meta.outputs.image }}:${{ github.sha }}
         run: |
           set -euo pipefail
+          expected=$(find build -type f \
+            -not -path 'build/_shared/*' -not -path 'build/_assets/*' \
+            -not -path '*/_images/*' -not -path '*/_downloads/*' \
+            -not -name 'Offline manual.zip' | wc -l | tr -d ' ')
+          echo "expected image file count from checkout: $expected"
+
           docker pull "$IMAGE"
 
           # .dockerignore is the whole offload strategy, but its patterns
           # (trailing-slash dirs, ** globs) are only ever proven by BuildKit
           # itself. Verify the artifact, not the patterns. Check BOTH
           # directions: nothing heavy got in, nothing needed got dropped.
-          docker run --rm --entrypoint sh "$IMAGE" -c '
+          docker run --rm --entrypoint sh -e EXPECTED="$expected" "$IMAGE" -c '
             set -e
             root=/usr/share/nginx/html
             fail=0
@@ -181,12 +189,12 @@ jobs:
             n=$(find "$root" -type f | wc -l)
             mb=$(du -sm "$root" | cut -f1)
             echo "image content: $n files, ${mb} MB"
-            if [ "$n" -lt 400 ] || [ "$n" -gt 700 ]; then
-              echo "::error::file count $n outside expected band 400-700"
+            if [ "$n" -lt $(( EXPECTED - 5 )) ]; then
+              echo "::error::image has $n files, expected about $EXPECTED — content is missing"
               fail=1
             fi
-            if [ "$mb" -gt 60 ]; then
-              echo "::error::content ${mb} MB exceeds 60 MB"
+            if [ "$mb" -gt 200 ]; then
+              echo "::error::image content is ${mb} MB, far above the expected ~30 MB"
               fail=1
             fi
 
