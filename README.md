@@ -63,6 +63,15 @@ Lo script installa solo le dipendenze necessarie alla build nel Python locale gi
 - La build `full` genera il sito HTML e lo ZIP offline, ma non produce piu' il PDF completo del manuale.
 - I media condivisi vengono centralizzati in `sources/_shared/media`.
 - Gli output HTML gia' presenti nel repository non sono la fonte da modificare a mano.
+- La build limita automaticamente la larghezza delle immagini a 2560 px, quindi non e'
+  necessario ridimensionare a mano gli export CAD a piena risoluzione prima del commit.
+
+## Deployment
+
+Un push su `main` pubblica automaticamente il manuale su
+`https://flexibowl-docs.flexibowl.com` entro 1-2 minuti. Per il dettaglio operativo
+(stato del deploy, rollback, rotazione credenziali) vedi `DEPLOYMENT.md`; per le regole
+di contribuzione vedi `AGENTS.md`.
 
 ## Licenza
 
