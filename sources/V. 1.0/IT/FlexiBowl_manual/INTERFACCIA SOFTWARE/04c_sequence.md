@@ -36,11 +36,8 @@ Il sistema supporta fino a **20 sequenze indipendenti** (SEQUENCE 1 – SEQUENCE
 
 ![pannello comandi](../../../../_shared/media/images/empty_sequence.png)
 
-Il toggle **Emptying Sequence** (in alto al centro, con bordo rosso) attiva una modalità speciale in cui la sequenza viene eseguita con l'obiettivo di svuotare il FlexiBowl® dai componenti presenti.
-
-:::{warning}
-Attivare **Emptying Sequence** solo quando si desidera rimuovere tutti i componenti dal FlexiBowl®. Questa modalità altera il comportamento della sequenza rispetto all'utilizzo normale.
-:::
+Il toggle **Emptying Sequence** (in alto al centro) attiva una modalità in cui la sequenza viene eseguita con l'obiettivo di svuotare il FlexiBowl® dai componenti presenti. Viene utilizzato nel caso in cui l'opzione svuotamento viene acquistata.  
+Per maggiori informazioni sull'opzione svuotamento, consultare la [pagina dedicata](svuotamento).
 
 ---
 (param)=
