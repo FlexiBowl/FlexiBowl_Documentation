@@ -40,6 +40,12 @@ def cap_image_bytes(data: bytes, max_width: int = MAX_IMAGE_WIDTH) -> bytes | No
             return None
 
         new_height = round(height * max_width / width)
+
+        # Convert palette and 1-bit modes to RGBA so that LANCZOS filtering
+        # actually applies. Pillow silently falls back to NEAREST for P and 1 modes.
+        if image.mode in {"P", "1"}:
+            image = image.convert("RGBA")
+
         resized = image.resize((max_width, new_height), Image.LANCZOS)
 
         save_kwargs: dict[str, object] = {"optimize": True}
@@ -61,7 +67,7 @@ def cap_image_file(path: Path, max_width: int = MAX_IMAGE_WIDTH) -> bool:
 
     original = path.read_bytes()
     capped = cap_image_bytes(original, max_width)
-    if capped is None or len(capped) >= len(original):
+    if capped is None:
         return False
 
     path.write_bytes(capped)
