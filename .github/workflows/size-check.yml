@@ -18,6 +18,9 @@ jobs:
         run: |
           set -euo pipefail
           MAX_BYTES=$((10 * 1024 * 1024))
+          # Capture first — see the note in deploy.yml: `done < <(cmd)` hides a
+          # failure of cmd from `set -e`, which would pass this gate silently.
+          tracked=$(git ls-files)
           fail=0
           while IFS= read -r f; do
             [ -z "$f" ] && continue
@@ -34,5 +37,5 @@ jobs:
                   ;;
               esac
             fi
-          done < <(git ls-files)
+          done <<< "$tracked"
           exit "$fail"

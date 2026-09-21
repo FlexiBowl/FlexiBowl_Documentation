@@ -79,6 +79,10 @@ jobs:
       - name: Assert no LFS-tracked file can reach the image
         run: |
           set -euo pipefail
+          # Capture first: a process substitution's exit status is invisible to
+          # `set -e`, so `done < <(git lfs ls-files -n)` would silently pass the
+          # guard if the command itself failed rather than printing nothing.
+          lfs_files=$(git lfs ls-files -n)
           fail=0
           while IFS= read -r f; do
             [ -z "$f" ] && continue
@@ -89,7 +93,7 @@ jobs:
                 fail=1
                 ;;
             esac
-          done < <(git lfs ls-files -n)
+          done <<< "$lfs_files"
           exit "$fail"
 
       - name: Rewrite HTML asset URLs to CDN
