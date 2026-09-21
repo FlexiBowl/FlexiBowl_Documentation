@@ -58,6 +58,14 @@ jobs:
               aws s3 sync "$dir" "s3://${S3_BUCKET}/${key}" --size-only --delete
             done
 
+      - name: Upload Offline manual.zip
+        run: |
+          if [ -f "build/Offline manual.zip" ]; then
+            aws s3 cp "build/Offline manual.zip" "s3://${S3_BUCKET}/Offline manual.zip"
+          else
+            echo "build/Offline manual.zip not present (quick build) — skipping"
+          fi
+
       - name: Invalidate CloudFront cache
         run: aws cloudfront create-invalidation --distribution-id "$DIST_ID" --paths "/*"
 
@@ -87,7 +95,7 @@ jobs:
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             case "$f" in
-              build/_shared/*|build/_assets/*|build/*/_images/*|build/*/_downloads/*|sources/*) ;;
+              build/_shared/*|build/_assets/*|build/*/_images/*|build/*/_downloads/*|sources/*|"build/Offline manual.zip") ;;
               *)
                 echo "::error file=$f::LFS-tracked file is not excluded by .dockerignore and would ship as a 130-byte pointer"
                 fail=1
@@ -98,6 +106,17 @@ jobs:
 
       - name: Rewrite HTML asset URLs to CDN
         run: python3 -m tools.ci.rewrite_cdn_urls --build-root build --cdn-base "$CDN_BASE_URL"
+
+      - name: Bake CDN URL into nginx.conf
+        run: |
+          set -euo pipefail
+          base="${CDN_BASE_URL%/}"
+          escaped=$(printf '%s' "$base" | sed -e 's/[\/&]/\\&/g')
+          sed -i "s#__CDN_BASE_URL__#${escaped}#g" nginx.conf
+          if grep -q '__CDN_BASE_URL__' nginx.conf; then
+            echo "::error::nginx.conf still contains __CDN_BASE_URL__ after substitution" >&2
+            exit 1
+          fi
 
       - name: Set up QEMU (for cross-arch builds)
         uses: docker/setup-qemu-action@v3
