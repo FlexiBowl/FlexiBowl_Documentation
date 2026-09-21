@@ -1,0 +1,195 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'build/**'
+      - 'Dockerfile'
+      - 'nginx.conf'
+      - '.dockerignore'
+      - 'tools/ci/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  AWS_REGION: ${{ secrets.AWS_REGION }}
+  S3_BUCKET: ${{ secrets.S3_BUCKET_NAME }}
+  CDN_BASE_URL: ${{ secrets.CDN_BASE_URL }}
+  DIST_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+
+jobs:
+  sync-s3:
+    name: Rewrite HTML & sync media to S3
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (with LFS — media is uploaded from this job)
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Rewrite HTML asset URLs to CDN
+        run: python3 -m tools.ci.rewrite_cdn_urls --build-root build --cdn-base "$CDN_BASE_URL"
+
+      - name: Sync build/_shared/ to S3
+        run: aws s3 sync build/_shared "s3://${S3_BUCKET}/_shared" --size-only --delete
+
+      - name: Sync build/_assets/ to S3
+        run: aws s3 sync build/_assets "s3://${S3_BUCKET}/_assets" --size-only --delete
+
+      - name: Sync per-language _images/ and _downloads/ to S3
+        run: |
+          set -euo pipefail
+          find build -type d \( -name _images -o -name _downloads \) -print0 |
+            while IFS= read -r -d '' dir; do
+              key="${dir#build/}"
+              echo "syncing $dir -> s3://${S3_BUCKET}/${key}"
+              aws s3 sync "$dir" "s3://${S3_BUCKET}/${key}" --size-only --delete
+            done
+
+      - name: Invalidate CloudFront cache
+        run: aws cloudfront create-invalidation --distribution-id "$DIST_ID" --paths "/*"
+
+  build-image:
+    name: Build & push Docker image, trigger Dokploy
+    needs: sync-s3
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      # No LFS here: .dockerignore excludes every LFS-tracked path, so pulling
+      # the objects would waste the whole LFS bandwidth quota for nothing.
+      - name: Checkout (without LFS)
+        uses: actions/checkout@v4
+        with:
+          lfs: false
+
+      - name: Assert no LFS-tracked file can reach the image
+        run: |
+          set -euo pipefail
+          fail=0
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            case "$f" in
+              build/_shared/*|build/_assets/*|build/*/_images/*|build/*/_downloads/*|sources/*) ;;
+              *)
+                echo "::error file=$f::LFS-tracked file is not excluded by .dockerignore and would ship as a 130-byte pointer"
+                fail=1
+                ;;
+            esac
+          done < <(git lfs ls-files -n)
+          exit "$fail"
+
+      - name: Rewrite HTML asset URLs to CDN
+        run: python3 -m tools.ci.rewrite_cdn_urls --build-root build --cdn-base "$CDN_BASE_URL"
+
+      - name: Set up QEMU (for cross-arch builds)
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Compute image name
+        id: meta
+        env:
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          owner_lc=$(printf '%s' "$OWNER" | tr '[:upper:]' '[:lower:]')
+          printf 'image=ghcr.io/%s/flexibowl-docs\n' "$owner_lc" >> "$GITHUB_OUTPUT"
+
+      - name: Build and push image (linux/amd64 + linux/arm64)
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile
+          push: true
+          platforms: linux/amd64,linux/arm64
+          tags: |
+            ${{ steps.meta.outputs.image }}:latest
+            ${{ steps.meta.outputs.image }}:${{ github.sha }}
+
+      - name: Verify the built image (contents + live behaviour)
+        env:
+          IMAGE: ${{ steps.meta.outputs.image }}:${{ github.sha }}
+        run: |
+          set -euo pipefail
+          docker pull "$IMAGE"
+
+          # .dockerignore is the whole offload strategy, but its patterns
+          # (trailing-slash dirs, ** globs) are only ever proven by BuildKit
+          # itself. Verify the artifact, not the patterns. Check BOTH
+          # directions: nothing heavy got in, nothing needed got dropped.
+          docker run --rm --entrypoint sh "$IMAGE" -c '
+            set -e
+            root=/usr/share/nginx/html
+            fail=0
+
+            for d in _shared _assets; do
+              [ -e "$root/$d" ] && { echo "::error::$d was baked into the image"; fail=1; }
+            done
+            if find "$root" -type d \( -name _images -o -name _downloads \) -print -quit | grep -q .; then
+              echo "::error::a per-language _images/_downloads directory reached the image"
+              fail=1
+            fi
+
+            for f in .nojekyll index.html "V. 1.0/IT/index.html"; do
+              [ -f "$root/$f" ] || { echo "::error::$f is MISSING — .dockerignore is too broad"; fail=1; }
+            done
+
+            n=$(find "$root" -type f | wc -l)
+            mb=$(du -sm "$root" | cut -f1)
+            echo "image content: $n files, ${mb} MB"
+            [ "$n" -ge 400 ] && [ "$n" -le 700 ] || { echo "::error::file count $n outside 400-700"; fail=1; }
+            [ "$mb" -le 60 ] || { echo "::error::content ${mb} MB exceeds 60 MB"; fail=1; }
+
+            exit "$fail"
+          '
+
+          # Static reading cannot prove nginx.conf parses, nor that location
+          # precedence yields the right status codes. The image is already
+          # pulled, so exercise it.
+          docker run -d --name docs-smoke -p 8088:80 "$IMAGE"
+          for i in $(seq 1 15); do
+            curl -fsS -o /dev/null http://localhost:8088/ && break || sleep 1
+          done
+          check() {
+            code=$(curl -s -o /dev/null -w '%{http_code}' "http://localhost:8088$1")
+            echo "  $1 -> $code (expected $2)"
+            [ "$code" = "$2" ]
+          }
+          rc=0
+          check "/" 200 || rc=1
+          check "/_shared/static/theme.css" 404 || rc=1
+          check "/V.%201.0/IT/" 200 || rc=1
+          docker logs docs-smoke 2>&1 | tail -20
+          docker rm -f docs-smoke >/dev/null
+          exit "$rc"
+
+      - name: Trigger Dokploy redeploy
+        env:
+          DOKPLOY_WEBHOOK: ${{ secrets.DOKPLOY_WEBHOOK }}
+        run: |
+          if [ -z "${DOKPLOY_WEBHOOK:-}" ]; then
+            echo "::warning::DOKPLOY_WEBHOOK secret is empty — skipping redeploy ping"
+            exit 0
+          fi
+          curl -fsSL -X POST "$DOKPLOY_WEBHOOK"
