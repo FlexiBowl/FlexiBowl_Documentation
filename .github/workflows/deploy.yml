@@ -95,9 +95,9 @@ jobs:
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             case "$f" in
-              build/_shared/*|build/_assets/*|build/*/_images/*|build/*/_downloads/*) ;;
+              build/_shared/*|build/_assets/*|*/_images/*|*/_downloads/*) ;;
               sources/*|tools/*|tests/*|installer/*|.github/*|.makai/*) ;;
-              *.md|"build/Offline manual.zip") ;;
+              AGENTS.md|CLAUDE.md|DEPLOYMENT.md|README.md|"build/Offline manual.zip") ;;
               *)
                 echo "::error file=$f::LFS-tracked file is not excluded by .dockerignore and would ship as a 130-byte pointer"
                 fail=1
