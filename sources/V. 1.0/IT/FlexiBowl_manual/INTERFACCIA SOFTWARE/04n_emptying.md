@@ -1,8 +1,11 @@
+(emptying)=
 # [SOF] **Emptying**
+
+La Pagina Emptying viene resa automaticamente disponibile quando l'opzione Svuotamento viene acquistata. 
 
 ## Panoramica
 
-La funzione **Emptying** consente di svuotare automaticamente il piatto del FlexiBowl® concatenando fino a **4 sequenze** dedicate, ciascuna ripetuta per un numero di volte (loop) configurabile. È pensata per liberare rapidamente il disco dai pezzi residui, ad esempio a fine turno o in fase di cambio produzione, senza dover richiamare manualmente le sequenze una per una.
+La funzione **Emptying** consente di svuotare automaticamente il FlexiBowl® concatenando fino a **4 sequenze** dedicate, ciascuna ripetuta per un numero di volte (loop) configurabile. È pensata per liberare rapidamente il disco dai pezzi residui, ad esempio a fine turno o in fase di cambio produzione, senza dover richiamare manualmente le sequenze una per una.
 
 ![Pagina Emptying](../../../../_shared/media/images/pagina_Emptying.png)
 
@@ -37,6 +40,24 @@ Nella configurazione di default, la prima sequenza chiude la barriera (**FLB_BAR
 | **STOP EMPTYING** | Interrompe il ciclo di svuotamento in corso |
 
 ---
+## Pagina Option
+
+Nel caso in cui la funzione Emptying fosse presente, nella sezione OPTION della pagina 'Main Command', sarà possibile visualizzare il seguente riquadro: 
+
+![Emptying OPTION](../../../../_shared/media/images/emptying_option.png)
+
+Questo riquadro, contenente i due pulsanti 'Raise Barrier' e 'Lower Barrier', permette infatti di alzare ed abbassare la barrierra di svuotamento e quindi di verificarne il corretto funzionamento. 
+Nel momento in cui la barriera viene abbassata, il sensore presente in questo riquadro viene attivato. 
+
+## Pagina Sequence 
+
+:::{image} ../../../../_shared/media/images/box_emptying.png
+:width: 50% 
+:align: center
+:::
+
+Nella pagina Sequence, il check nella box 'Emptying Sequence' permette di rendere possibile la movimentazione del FlexiBowl anche con la barriera dello svuotamento abbassata. 
+Infatti, se la barriera viene abbassata e il check nella pagina Sequence non spuntato, non sarà possibile effettuare la movimentazione associata alla sequenza corrente. 
 
 ## Comandi da protocollo
 
