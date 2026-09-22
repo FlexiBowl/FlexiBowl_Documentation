@@ -229,6 +229,24 @@ paths/month are free; `/flexibowl/*` counts as one path.
   prefix in `deploy.yml`, or a `CDN_BASE_URL` secret that no longer matches. Rotating
   the shared AWS credentials also affects both sites; see `DEPLOY_SETUP.md`'s FAQ.
 
+### Site returns 502 with no `server:` header
+
+Traefik has the route and a valid certificate but cannot reach a container. Most often the
+GHCR image is private: **GHCR packages are private by default even when the repository is
+public**. Either give the Dokploy app registry credentials (a GitHub PAT with
+`read:packages` — the FlexiVision app already has one), or make the package public at
+GitHub → org → Packages → `flexibowl-docs` → Package settings → Change visibility.
+
+Check it from anywhere with:
+
+```bash
+TOK=$(curl -s "https://ghcr.io/token?scope=repository:flexibowl/flexibowl-docs:pull" \
+  | python3 -c 'import sys,json;print(json.load(sys.stdin)["token"])')
+curl -s -o /dev/null -w '%{http_code}\n' -H "Authorization: Bearer $TOK" \
+  https://ghcr.io/v2/flexibowl/flexibowl-docs/manifests/latest
+```
+`200` means public, `403` means private.
+
 ## If everything is on fire
 
 - Ask Makai Labs to pause auto-deploy on the Dokploy server so a broken push doesn't
