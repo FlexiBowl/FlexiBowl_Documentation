@@ -29,10 +29,44 @@ committed, so there's nothing for this pipeline to pick up.)
 | Size guard (blocks big non-LFS files)   | `.github/workflows/size-check.yml`                         |
 | CDN URL rewriter                        | `tools/ci/rewrite_cdn_urls.py`                             |
 | Docker image                            | `ghcr.io/flexibowl/flexibowl-docs`                          |
-| Media & big files                       | AWS S3 bucket `flexibowl-docs` (eu-south-1, Milan)          |
-| CDN in front of S3                      | AWS CloudFront distribution (URL in `CDN_BASE_URL` secret)  |
+| Media & big files                       | AWS S3 bucket `flexivision-docs` (eu-south-1, Milan) — **shared with FlexiVision**, see below |
+| CDN in front of S3                      | AWS CloudFront distribution `d1nwml7sk3eafv.cloudfront.net` — **shared with FlexiVision**, see below |
 | Runtime                                 | Makai Labs Dokploy server, app `flexibowl-docs`             |
-| AWS + deploy credentials                | GitHub → Settings → Secrets (7 entries)                      |
+| AWS + deploy credentials                | GitHub → Settings → Secrets: 5 shared AWS secrets at **organisation** level (`FlexiBowl` org), 2 at repo level (`CDN_BASE_URL`, `DOKPLOY_WEBHOOK`) |
+
+### The bucket and CDN are shared with FlexiVision
+
+FlexiBowl does not have its own S3 bucket or CloudFront distribution. It reuses
+`FlexiVision_One_Documentation`'s existing stack — same bucket, same distribution, same
+IAM user — rather than a second one being provisioned. This works because the two sites
+write to disjoint key prefixes:
+
+- FlexiVision's objects sit at the **bucket root**: `_shared/…`, `_assets/…`.
+- FlexiBowl's objects sit under the **`flexibowl/` prefix**: `flexibowl/_shared/…`,
+  `flexibowl/_assets/…`, `flexibowl/V. 1.0/<lang>/_images/…`, etc.
+
+The prefix is applied in exactly two independent places, which must agree and must
+never both apply to the same string:
+
+- **`deploy.yml`** applies it to every S3 destination — all four sync/copy targets
+  (`_shared`, `_assets`, the per-language `_images`/`_downloads` loop, and the offline
+  archive) write to `s3://$S3_BUCKET/flexibowl/…`.
+- **The `CDN_BASE_URL` secret** applies it for URLs the rewriter emits —
+  `https://d1nwml7sk3eafv.cloudfront.net/flexibowl`, so a rewritten `<img src>` already
+  ends in `/flexibowl/_shared/…` before `tools/ci/rewrite_cdn_urls.py` ever runs; the
+  rewriter itself knows nothing about the prefix and must stay that way.
+
+This is also why `aws s3 sync --delete` is safe here: `--delete` only removes objects
+*within its own destination prefix*, so FlexiBowl's sync can never delete FlexiVision's
+root-level keys, and vice versa. The CloudFront invalidation is scoped to
+`/flexibowl/*`, not `/*`, for the same reason — an unscoped invalidation would evict
+FlexiVision's cached objects on every FlexiBowl deploy.
+
+**If the other manual's media disappears or 404s, suspect a misconfigured sync in
+*either* repo first** — a missing or doubled `flexibowl/` prefix in `deploy.yml`, or a
+`CDN_BASE_URL` value that doesn't match, are the most likely causes. See
+`DEPLOY_SETUP.md` → "Reuse FlexiVision's existing AWS stack" for the full setup
+rationale (gitignored — ask Makai Labs if you need it and don't have it).
 
 ## Check deploy status
 
@@ -45,11 +79,13 @@ committed, so there's nothing for this pipeline to pick up.)
 - **Site stale?** Confirm the latest run is green in the Actions tab. If it is but the
   site still shows old content after a few minutes, the Dokploy server didn't pick up
   the new image — ping Makai Labs.
-- **Media missing?** Check the S3 bucket's Objects tab for the file. If absent, re-run
-  the workflow manually from Actions.
+- **Media missing?** Check the S3 bucket's Objects tab under the `flexibowl/` prefix for
+  the file — not the bucket root, that's FlexiVision's. If absent, re-run the workflow
+  manually from Actions.
 - **Old media still showing?** CloudFront cache. Wait for TTL to expire, or trigger an
   invalidation manually (AWS console → CloudFront → distribution → Invalidations →
-  `Create invalidation` → path `/*`).
+  `Create invalidation` → path `/flexibowl/*`). **Never use `/*`** — the distribution is
+  shared with FlexiVision, and an unscoped invalidation evicts their cached objects too.
 
 ## Common actions
 
@@ -62,9 +98,12 @@ committed, so there's nothing for this pipeline to pick up.)
 
 ### Rotate AWS credentials
 
-AWS IAM → Users → `github-actions-flexibowl` → Security credentials → deactivate the
-old access key, create a new one → update `AWS_ACCESS_KEY_ID` and
-`AWS_SECRET_ACCESS_KEY` in GitHub Secrets.
+This IAM user and access key are **shared with FlexiVision** — the same credentials
+authenticate both repos' workflows. AWS IAM → Users → deactivate the old access key,
+create a new one → update `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`, which are
+**organisation-level secrets on the `FlexiBowl` GitHub org**, not secrets on this repo.
+Coordinate with whoever owns FlexiVision's deploy before rotating — a mid-rotation gap
+breaks both sites' next deploy, not just this one.
 
 ### Extend the list of files that go to LFS
 
@@ -141,21 +180,29 @@ Unlike FlexiVision, this manual emits per-language asset directories —
 language build embeds figures and Sphinx-collected downloads relative to its own HTML
 files rather than to the build root. CI finds every directory named `_images` or
 `_downloads` anywhere under `build/` and syncs it to S3 under its build-root-relative
-key (e.g. `build/V. 1.0/IT/_images/...` → `s3://flexibowl-docs/V. 1.0/IT/_images/...`).
+key, prefixed `flexibowl/` (e.g. `build/V. 1.0/IT/_images/...` →
+`s3://flexivision-docs/flexibowl/V. 1.0/IT/_images/...` — note the bucket is
+`flexivision-docs`, shared with FlexiVision, not a `flexibowl-docs` bucket of its own;
+see "The bucket and CDN are shared with FlexiVision" above).
 `tools/ci/rewrite_cdn_urls.py` resolves and rewrites the matching `src=`/`href=`
-references in the HTML to the CDN URL before the Docker image is built. This runs
-automatically on every push, same as `_shared/` and `_assets/` — you don't need to do
-anything differently.
+references in the HTML to the CDN URL before the Docker image is built — it has no
+knowledge of the `flexibowl/` prefix at all, since that's already baked into
+`CDN_BASE_URL` before the rewriter ever runs. This runs automatically on every push,
+same as `_shared/` and `_assets/` — you don't need to do anything differently.
 
 ### Move to a different CDN URL or bucket
 
-Update the `CDN_BASE_URL`, `S3_BUCKET_NAME`, and/or `CLOUDFRONT_DISTRIBUTION_ID`
-secret. Next push rewrites HTML URLs to the new target and syncs there.
+`S3_BUCKET_NAME` and `CLOUDFRONT_DISTRIBUTION_ID` are organisation-level secrets shared
+with FlexiVision (see above) — don't change them here without coordinating, since that
+would repoint FlexiVision's deploy too. `CDN_BASE_URL` is this repo's own secret; update
+it (keeping the `/flexibowl` path, or whatever prefix the new target uses) and the next
+push rewrites HTML URLs to the new target and syncs there.
 
 ### Force a fresh CDN cache
 
-Manual invalidation in CloudFront, path `/*`. First 1000 invalidation paths/month are
-free; `/*` counts as one path.
+Manual invalidation in CloudFront, path `/flexibowl/*` — **not** `/*`, which would also
+evict FlexiVision's cached objects from the shared distribution. First 1000 invalidation
+paths/month are free; `/flexibowl/*` counts as one path.
 
 ## Known limits
 
@@ -173,6 +220,14 @@ free; `/*` counts as one path.
 - `build/Offline manual.zip` (from a full build) is ~1.5 GB — well past what the 1 GB
   free LFS tier can hold. It is not committed and the download feature stays off for
   that reason. See "Special case" above.
+- **The AWS blast radius is shared with FlexiVision**, not per-repo: one IAM key pair,
+  one S3 bucket, one CloudFront distribution serve both docs sites. There is no AWS-side
+  isolation between them — the `flexibowl/` key prefix (and the matching invalidation
+  scope) is the *only* thing separating FlexiBowl's media from FlexiVision's. If either
+  site's media suddenly goes missing or starts 404ing, the first thing to suspect is a
+  misconfigured sync in the *other* repo — a dropped, doubled, or wrong `flexibowl/`
+  prefix in `deploy.yml`, or a `CDN_BASE_URL` secret that no longer matches. Rotating
+  the shared AWS credentials also affects both sites; see `DEPLOY_SETUP.md`'s FAQ.
 
 ## If everything is on fire
 

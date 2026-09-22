@@ -43,10 +43,10 @@ jobs:
         run: python3 -m tools.ci.rewrite_cdn_urls --build-root build --cdn-base "$CDN_BASE_URL"
 
       - name: Sync build/_shared/ to S3
-        run: aws s3 sync build/_shared "s3://${S3_BUCKET}/_shared" --size-only --delete
+        run: aws s3 sync build/_shared "s3://${S3_BUCKET}/flexibowl/_shared" --size-only --delete
 
       - name: Sync build/_assets/ to S3
-        run: aws s3 sync build/_assets "s3://${S3_BUCKET}/_assets" --size-only --delete
+        run: aws s3 sync build/_assets "s3://${S3_BUCKET}/flexibowl/_assets" --size-only --delete
 
       - name: Sync per-language _images/ and _downloads/ to S3
         run: |
@@ -54,20 +54,20 @@ jobs:
           find build -type d \( -name _images -o -name _downloads \) -print0 |
             while IFS= read -r -d '' dir; do
               key="${dir#build/}"
-              echo "syncing $dir -> s3://${S3_BUCKET}/${key}"
-              aws s3 sync "$dir" "s3://${S3_BUCKET}/${key}" --size-only --delete
+              echo "syncing $dir -> s3://${S3_BUCKET}/flexibowl/${key}"
+              aws s3 sync "$dir" "s3://${S3_BUCKET}/flexibowl/${key}" --size-only --delete
             done
 
       - name: Upload Offline manual.zip
         run: |
           if [ -f "build/Offline manual.zip" ]; then
-            aws s3 cp "build/Offline manual.zip" "s3://${S3_BUCKET}/Offline manual.zip"
+            aws s3 cp "build/Offline manual.zip" "s3://${S3_BUCKET}/flexibowl/Offline manual.zip"
           else
             echo "build/Offline manual.zip not present (quick build) — skipping"
           fi
 
       - name: Invalidate CloudFront cache
-        run: aws cloudfront create-invalidation --distribution-id "$DIST_ID" --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id "$DIST_ID" --paths "/flexibowl/*"
 
   build-image:
     name: Build & push Docker image, trigger Dokploy
