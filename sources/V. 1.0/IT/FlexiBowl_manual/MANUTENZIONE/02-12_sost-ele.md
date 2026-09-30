@@ -254,7 +254,7 @@ Questa sezione descrive il funzionamento e la procedura di sostituzione dei **re
 
 La figura seguente mostra la scheda con l'indicazione della posizione dei relè e dei fusibili.
 
-::: {figure} ../../../../_shared/media/images/schedafronte.jpg
+::: {figure} ../../../../_shared/media/images/schedafronte.png
 :align: center
 :width: 80%
 
@@ -264,7 +264,7 @@ Vista frontale della scheda di interfaccia
 Sulla parte posteriore della scheda sono riportati l'amperaggio di ciascun fusibile e il riferimento di ciascun relè di interfaccia.
 
 (scheda-interfaccia-retro)=
-::: {figure} ../../../../_shared/media/images/schedaretro.jpg
+::: {figure} ../../../../_shared/media/images/schedaretro.png
 :align: center
 :width: 80%
 
