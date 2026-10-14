@@ -50,6 +50,214 @@ function Get-SortedLanguages {
         }
 }
 
+function Get-MarkdownTitle {
+    param([string]$Path)
+
+    $heading = Get-Content -LiteralPath $Path -Encoding UTF8 -TotalCount 60 |
+        Where-Object { $_ -match '^\s{0,3}#{1,6}\s+' } |
+        Select-Object -First 1
+
+    if ([string]::IsNullOrWhiteSpace($heading)) {
+        return [System.IO.Path]::GetFileNameWithoutExtension($Path)
+    }
+
+    $title = $heading -replace '^\s{0,3}#{1,6}\s+', ''
+    $title = $title -replace '[#*_`]', ''
+    $title = $title -replace '<[^>]+>', ''
+    $title = $title -replace '\{[^}]+\}', ''
+    $title = $title.Trim()
+
+    if ([string]::IsNullOrWhiteSpace($title)) {
+        return [System.IO.Path]::GetFileNameWithoutExtension($Path)
+    }
+
+    return $title
+}
+
+function Get-SourcePageCandidates {
+    param(
+        [string]$TargetVersion,
+        [string]$TargetLanguage
+    )
+
+    $candidates = New-Object System.Collections.Generic.List[object]
+    $versionsToScan = @()
+
+    if (-not [string]::IsNullOrWhiteSpace($TargetVersion)) {
+        $versionsToScan = @($TargetVersion)
+    } else {
+        $versionsToScan = @(Get-SortedVersions -Root $sourceRoot)
+    }
+
+    foreach ($version in $versionsToScan) {
+        $versionPath = Join-Path $sourceRoot $version
+        if (-not (Test-Path -LiteralPath $versionPath)) {
+            continue
+        }
+
+        $languagesToScan = @()
+        if (-not [string]::IsNullOrWhiteSpace($TargetLanguage)) {
+            $languagesToScan = @($TargetLanguage)
+        } else {
+            $languagesToScan = @(Get-SortedLanguages -VersionPath $versionPath)
+        }
+
+        foreach ($language in $languagesToScan) {
+            $languagePath = Join-Path $versionPath $language
+            if (-not (Test-Path -LiteralPath $languagePath)) {
+                continue
+            }
+
+            Get-ChildItem -LiteralPath $languagePath -Recurse -File -Filter '*.md' |
+                Where-Object { $_.Name -ne 'index.md' -and $_.FullName -like "*\FlexiBowl_manual\*" } |
+                ForEach-Object {
+                    $relativeMarkdown = $_.FullName.Substring($languagePath.Length).TrimStart('\', '/')
+                    $relativeMarkdown = $relativeMarkdown -replace '\\', '/'
+                    $relativeHtml = [regex]::Replace($relativeMarkdown, '\.md$', '.html', 'IgnoreCase')
+                    $outputPath = (($version, $language, $relativeHtml) -join '/') -replace '\\', '/'
+                    $title = Get-MarkdownTitle -Path $_.FullName
+                    $defaultChecked = $relativeMarkdown -match '^FlexiBowl_manual/MANUTENZIONE/02'
+                    $label = '{0} / {1} / {2}  [{3}]' -f $version, $language, $title, $relativeMarkdown
+
+                    $candidates.Add([pscustomobject]@{
+                        Label            = $label
+                        OutputPath       = $outputPath
+                        IsDefaultChecked = $defaultChecked
+                    }) | Out-Null
+                }
+        }
+    }
+
+    return $candidates | Sort-Object Label
+}
+
+function Show-ProtectedPageDialog {
+    param(
+        [string]$TargetVersion,
+        [string]$TargetLanguage
+    )
+
+    $candidates = @(Get-SourcePageCandidates -TargetVersion $TargetVersion -TargetLanguage $TargetLanguage)
+    if ($candidates.Count -eq 0) {
+        return [pscustomobject]@{
+            Cancelled = $false
+            Pages     = @()
+        }
+    }
+
+    $candidateByLabel = @{}
+    $defaultByLabel = @{}
+    foreach ($candidate in $candidates) {
+        $candidateByLabel[[string]$candidate.Label] = [string]$candidate.OutputPath
+        $defaultByLabel[[string]$candidate.Label] = [bool]$candidate.IsDefaultChecked
+    }
+
+    $protectedForm = New-Object System.Windows.Forms.Form
+    $protectedForm.Text = 'Pagine da cifrare'
+    $protectedForm.StartPosition = 'CenterScreen'
+    $protectedForm.FormBorderStyle = 'FixedDialog'
+    $protectedForm.MaximizeBox = $false
+    $protectedForm.MinimizeBox = $false
+    $protectedForm.ClientSize = New-Object System.Drawing.Size(860, 560)
+    $protectedForm.Font = New-Object System.Drawing.Font('Segoe UI', 9)
+    $protectedForm.Topmost = $true
+
+    $protectedTitle = New-Object System.Windows.Forms.Label
+    $protectedTitle.Text = 'Scegli le pagine da cifrare'
+    $protectedTitle.Location = New-Object System.Drawing.Point(20, 18)
+    $protectedTitle.Size = New-Object System.Drawing.Size(320, 24)
+    $protectedTitle.Font = New-Object System.Drawing.Font('Segoe UI Semibold', 11)
+    $protectedForm.Controls.Add($protectedTitle)
+
+    $protectedInfo = New-Object System.Windows.Forms.Label
+    $protectedInfo.Text = 'Le pagine selezionate saranno protette con password ArS2026!. Puoi lasciare tutto deselezionato per una build normale.'
+    $protectedInfo.Location = New-Object System.Drawing.Point(20, 48)
+    $protectedInfo.Size = New-Object System.Drawing.Size(805, 38)
+    $protectedForm.Controls.Add($protectedInfo)
+
+    $checkedList = New-Object System.Windows.Forms.CheckedListBox
+    $checkedList.Location = New-Object System.Drawing.Point(20, 94)
+    $checkedList.Size = New-Object System.Drawing.Size(820, 360)
+    $checkedList.CheckOnClick = $true
+    $checkedList.HorizontalScrollbar = $true
+    foreach ($candidate in $candidates) {
+        [void]$checkedList.Items.Add([string]$candidate.Label, [bool]$candidate.IsDefaultChecked)
+    }
+    $protectedForm.Controls.Add($checkedList)
+
+    $selectDefaultButton = New-Object System.Windows.Forms.Button
+    $selectDefaultButton.Text = 'Solo straordinaria'
+    $selectDefaultButton.Location = New-Object System.Drawing.Point(20, 468)
+    $selectDefaultButton.Size = New-Object System.Drawing.Size(130, 30)
+    $selectDefaultButton.Add_Click({
+        for ($i = 0; $i -lt $checkedList.Items.Count; $i++) {
+            $label = [string]$checkedList.Items[$i]
+            $checkedList.SetItemChecked($i, [bool]$defaultByLabel[$label])
+        }
+    })
+    $protectedForm.Controls.Add($selectDefaultButton)
+
+    $selectAllButton = New-Object System.Windows.Forms.Button
+    $selectAllButton.Text = 'Seleziona tutto'
+    $selectAllButton.Location = New-Object System.Drawing.Point(158, 468)
+    $selectAllButton.Size = New-Object System.Drawing.Size(120, 30)
+    $selectAllButton.Add_Click({
+        for ($i = 0; $i -lt $checkedList.Items.Count; $i++) {
+            $checkedList.SetItemChecked($i, $true)
+        }
+    })
+    $protectedForm.Controls.Add($selectAllButton)
+
+    $clearButton = New-Object System.Windows.Forms.Button
+    $clearButton.Text = 'Deseleziona tutto'
+    $clearButton.Location = New-Object System.Drawing.Point(286, 468)
+    $clearButton.Size = New-Object System.Drawing.Size(130, 30)
+    $clearButton.Add_Click({
+        for ($i = 0; $i -lt $checkedList.Items.Count; $i++) {
+            $checkedList.SetItemChecked($i, $false)
+        }
+    })
+    $protectedForm.Controls.Add($clearButton)
+
+    $continueButton = New-Object System.Windows.Forms.Button
+    $continueButton.Text = 'Continua'
+    $continueButton.Location = New-Object System.Drawing.Point(640, 510)
+    $continueButton.Size = New-Object System.Drawing.Size(96, 32)
+    $continueButton.DialogResult = [System.Windows.Forms.DialogResult]::OK
+    $protectedForm.Controls.Add($continueButton)
+
+    $cancelProtectedButton = New-Object System.Windows.Forms.Button
+    $cancelProtectedButton.Text = 'Annulla'
+    $cancelProtectedButton.Location = New-Object System.Drawing.Point(744, 510)
+    $cancelProtectedButton.Size = New-Object System.Drawing.Size(96, 32)
+    $cancelProtectedButton.DialogResult = [System.Windows.Forms.DialogResult]::Cancel
+    $protectedForm.Controls.Add($cancelProtectedButton)
+
+    $protectedForm.AcceptButton = $continueButton
+    $protectedForm.CancelButton = $cancelProtectedButton
+
+    $protectedResult = $protectedForm.ShowDialog()
+    if ($protectedResult -ne [System.Windows.Forms.DialogResult]::OK) {
+        return [pscustomobject]@{
+            Cancelled = $true
+            Pages     = @()
+        }
+    }
+
+    $selectedPages = New-Object System.Collections.Generic.List[string]
+    foreach ($item in $checkedList.CheckedItems) {
+        $label = [string]$item
+        if ($candidateByLabel.ContainsKey($label)) {
+            $selectedPages.Add([string]$candidateByLabel[$label]) | Out-Null
+        }
+    }
+
+    return [pscustomobject]@{
+        Cancelled = $false
+        Pages     = $selectedPages.ToArray()
+    }
+}
+
 $versions = Get-SortedVersions -Root $sourceRoot
 if (-not $versions -or $versions.Count -eq 0) {
     throw "Nessuna versione trovata in $sourceRoot"
@@ -226,6 +434,11 @@ if ($result -ne [System.Windows.Forms.DialogResult]::OK) {
     exit 0
 }
 
+$selectedBuildType = if ($radioFull.Checked) { 'full' } else { 'quick' }
+$selectedBuildScope = if ($radioSingle.Checked) { 'single' } else { 'all' }
+$selectedVersion = ''
+$selectedLanguage = ''
+
 if ($radioSingle.Checked) {
     $selectedVersion = [string]$versionCombo.SelectedItem
     $selectedLanguage = [string]$languageCombo.SelectedItem
@@ -240,21 +453,28 @@ if ($radioSingle.Checked) {
         Write-Output 'CANCELLED=1'
         exit 0
     }
+}
 
-    if ($radioFull.Checked) {
-        Write-Output 'BUILD_TYPE=full'
-    } else {
-        Write-Output 'BUILD_TYPE=quick'
-    }
-    Write-Output 'BUILD_SCOPE=single'
-    Write-Output ('VERSION=' + $selectedVersion)
-    Write-Output ('LANGUAGE=' + $selectedLanguage)
+$protectedSelection = Show-ProtectedPageDialog -TargetVersion $selectedVersion -TargetLanguage $selectedLanguage
+if ($protectedSelection.Cancelled) {
+    Write-Output 'CANCELLED=1'
     exit 0
 }
 
-if ($radioFull.Checked) {
-    Write-Output 'BUILD_TYPE=full'
-} else {
-    Write-Output 'BUILD_TYPE=quick'
+$protectedPagesFile = ''
+if ($protectedSelection.Pages.Count -gt 0) {
+    $protectedPagesFile = Join-Path ([System.IO.Path]::GetTempPath()) ('flexibowl-protected-pages-' + [guid]::NewGuid().ToString('N') + '.json')
+    $protectedPagesJson = ConvertTo-Json -InputObject @($protectedSelection.Pages)
+    $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+    [System.IO.File]::WriteAllText($protectedPagesFile, $protectedPagesJson, $utf8NoBom)
 }
-Write-Output 'BUILD_SCOPE=all'
+
+Write-Output ('BUILD_TYPE=' + $selectedBuildType)
+Write-Output ('BUILD_SCOPE=' + $selectedBuildScope)
+if ($selectedBuildScope -eq 'single') {
+    Write-Output ('VERSION=' + $selectedVersion)
+    Write-Output ('LANGUAGE=' + $selectedLanguage)
+}
+if (-not [string]::IsNullOrWhiteSpace($protectedPagesFile)) {
+    Write-Output ('PROTECTED_PAGES_FILE=' + $protectedPagesFile)
+}

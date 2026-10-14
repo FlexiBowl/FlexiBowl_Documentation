@@ -36,6 +36,7 @@ if "%~1"=="" (
   set "BUILD_SCOPE="
   set "BUILD_VERSION="
   set "BUILD_LANGUAGE="
+  set "PROTECTED_PAGES_FILE="
   set "BUILD_CANCELLED="
 
   for /f "usebackq tokens=1,* delims==" %%A in (`powershell -NoProfile -ExecutionPolicy Bypass -File "tools\manual_publisher\select_build_target.ps1"`) do (
@@ -43,6 +44,7 @@ if "%~1"=="" (
     if /I "%%A"=="BUILD_SCOPE" set "BUILD_SCOPE=%%B"
     if /I "%%A"=="VERSION" set "BUILD_VERSION=%%B"
     if /I "%%A"=="LANGUAGE" set "BUILD_LANGUAGE=%%B"
+    if /I "%%A"=="PROTECTED_PAGES_FILE" set "PROTECTED_PAGES_FILE=%%B"
     if /I "%%A"=="CANCELLED" set "BUILD_CANCELLED=%%B"
   )
 
@@ -54,9 +56,17 @@ if "%~1"=="" (
   )
 
   if /I "!BUILD_SCOPE!"=="single" (
-    call !PYTHON_CMD! "tools\manual_publisher\manual_publisher.py" --mode "!BUILD_TYPE!" --version "!BUILD_VERSION!" --language "!BUILD_LANGUAGE!"
+    if defined PROTECTED_PAGES_FILE (
+      call !PYTHON_CMD! "tools\manual_publisher\manual_publisher.py" --mode "!BUILD_TYPE!" --version "!BUILD_VERSION!" --language "!BUILD_LANGUAGE!" --protected-pages-file "!PROTECTED_PAGES_FILE!"
+    ) else (
+      call !PYTHON_CMD! "tools\manual_publisher\manual_publisher.py" --mode "!BUILD_TYPE!" --version "!BUILD_VERSION!" --language "!BUILD_LANGUAGE!"
+    )
   ) else (
-    call !PYTHON_CMD! "tools\manual_publisher\manual_publisher.py" --mode "!BUILD_TYPE!"
+    if defined PROTECTED_PAGES_FILE (
+      call !PYTHON_CMD! "tools\manual_publisher\manual_publisher.py" --mode "!BUILD_TYPE!" --protected-pages-file "!PROTECTED_PAGES_FILE!"
+    ) else (
+      call !PYTHON_CMD! "tools\manual_publisher\manual_publisher.py" --mode "!BUILD_TYPE!"
+    )
   )
 ) else (
   call !PYTHON_CMD! "tools\manual_publisher\manual_publisher.py" %*
@@ -117,7 +127,7 @@ echo Installa Python 3 e poi rilancia build_manual.bat.
 exit /b 1
 
 :ensure_dependencies
-call !PYTHON_CMD! -c "import sphinx, myst_parser, sphinx_book_theme, sphinx_copybutton, sphinx_design, sphinxcontrib.video" >nul 2>&1
+call !PYTHON_CMD! -c "import sphinx, myst_parser, sphinx_book_theme, sphinx_copybutton, sphinx_design, sphinxcontrib.video, cryptography" >nul 2>&1
 if not errorlevel 1 exit /b 0
 
 if "!AUTO_SETUP_RAN!"=="1" (
@@ -138,7 +148,7 @@ set "AUTO_SETUP_RAN=1"
 call :resolve_python
 if errorlevel 1 exit /b 1
 
-call !PYTHON_CMD! -c "import sphinx, myst_parser, sphinx_book_theme, sphinx_copybutton, sphinx_design, sphinxcontrib.video" >nul 2>&1
+call !PYTHON_CMD! -c "import sphinx, myst_parser, sphinx_book_theme, sphinx_copybutton, sphinx_design, sphinxcontrib.video, cryptography" >nul 2>&1
 if not errorlevel 1 exit /b 0
 
 echo Le dipendenze Python richieste dal publisher non risultano installate per !PYTHON_LABEL! anche dopo il setup automatico.

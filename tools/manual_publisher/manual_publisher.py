@@ -20,6 +20,11 @@ from urllib.parse import quote, unquote
 
 from image_cap import cap_directory
 
+try:
+    from protect_static_pages import protect_selected_pages
+except ImportError:  # pragma: no cover - used when imported as a package in tests
+    from .protect_static_pages import protect_selected_pages
+
 FULL_MANUAL_PDF_NAME = "manual_full.pdf"
 PRINT_FULL_MANUAL_HTML_NAME = "print_full_manual.html"
 OFFLINE_MANUAL_ZIP_NAME = "Offline manual.zip"
@@ -1706,6 +1711,7 @@ def build_site(
     mode: str,
     target_version: str | None,
     target_language: str | None,
+    protected_pages: list[str],
 ) -> int:
     timings: list[tuple[str, float]] = []
     build_started_at = time.perf_counter()
@@ -1816,6 +1822,13 @@ def build_site(
 
         with timed_step("cap oversized build images", timings):
             cap_directory(output_root)
+        if protected_pages:
+            with timed_step("protect selected pages", timings):
+                protected_count = protect_selected_pages(output_root, protected_pages)
+                print(f"Protected {protected_count} selected page(s).")
+            if mode == "full":
+                with timed_step("refresh offline zip after page protection", timings):
+                    create_site_zip(output_root, output_root / OFFLINE_MANUAL_ZIP_NAME)
     finally:
         remove_directory(work_root)
         print_timing_summary(timings, time.perf_counter() - build_started_at)
@@ -1833,7 +1846,45 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--version", help="Limit the selected build mode to a single version.")
     parser.add_argument("--language", help="Limit the selected build mode to a single language or to one language across versions.")
+    parser.add_argument(
+        "--protected-page",
+        action="append",
+        default=[],
+        help="Protect one built HTML page, relative to the build root. Can be passed more than once.",
+    )
+    parser.add_argument(
+        "--protected-pages-file",
+        help="Read protected page paths from a JSON array or newline-delimited file.",
+    )
     return parser.parse_args()
+
+
+def load_protected_page_specs(args: argparse.Namespace) -> list[str]:
+    page_specs = list(args.protected_page or [])
+    if not args.protected_pages_file:
+        return page_specs
+
+    page_file = Path(args.protected_pages_file)
+    if not page_file.exists():
+        raise FileNotFoundError(f"Protected pages file not found: {page_file}")
+
+    content = page_file.read_text(encoding="utf-8-sig").strip()
+    if not content:
+        return page_specs
+
+    try:
+        loaded = json.loads(content)
+    except json.JSONDecodeError:
+        loaded = [line.strip() for line in content.splitlines() if line.strip()]
+
+    if isinstance(loaded, str):
+        page_specs.append(loaded)
+    elif isinstance(loaded, list):
+        page_specs.extend(str(item) for item in loaded if str(item).strip())
+    else:
+        raise ValueError(f"Unsupported protected pages file format: {page_file}")
+
+    return page_specs
 
 
 def main() -> int:
@@ -1844,13 +1895,14 @@ def main() -> int:
     source_root = repo_root / "sources"
 
     target_version, target_language = validate_targets(source_root, args.version, args.language)
+    protected_pages = load_protected_page_specs(args)
 
     os.chdir(repo_root)
     sys.path.insert(0, str(vendor_root))
 
     from easy_versioning import main as ev  # Imported after chdir so the package reads the right root.
 
-    return build_site(ev, repo_root, source_root, args.mode, target_version, target_language)
+    return build_site(ev, repo_root, source_root, args.mode, target_version, target_language, protected_pages)
 
 
 if __name__ == "__main__":
