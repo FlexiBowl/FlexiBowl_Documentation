@@ -287,7 +287,7 @@ La rigidezza del componente influisce direttamente sull’efficienza di trasmiss
   
   *Note:* Presenza di micro-smorzamento strutturale. Aumentare la pressione base del 20% per garantire la stessa altezza di salto del pezzo rigido.
 
-- **Materiali non rigidi** ($K_m$ = 1.0):
+- **Materiali non rigidi** ($K_m$ = 1.8):
 
   *Materiali:* gomma naturale, gomma nitrilica (NBR), silicone, poliuretano, TPU morbido.
   
@@ -432,12 +432,19 @@ La massa del componente determina la sua inerzia al decollo. Componenti molto le
 </table>
 :::
 
+
+### Fattore correttivo della superficie ($K_s$)
+
+* Se si usa una superficie: &K_s = 1.0&
+
+* Se si usa un disco rigido: &K_s = 0.9&
+
 ### Calcolo della pressione del flip
 
 La pressione da impostare per il flip si ottiene applicando la formula:
 
 $$
-P_{flip} = P_{base} × K_m × K_w
+P_{flip} = P_{base} × K_m × K_w × K_s
 $$
 
 :::{attention}

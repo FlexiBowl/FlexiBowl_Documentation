@@ -164,145 +164,145 @@ L'utilizzo di aria non conforme può causare malfunzionamenti, riduzione delle p
 Su richiesta è disponibile opzionalmente un **kit di filtrazione aria esterno**. 
 Il kit è consigliato nei casi in cui la qualità dell’aria compressa dell’impianto cliente non sia nota o non garantita e consente di raggiungere la classe di qualità richiesta.
 
-(sc-pneum)=
-## Schemi pneumatici
+% (sc-pneum)=
+% ## Schemi pneumatici
 
-Seguono gli schemi pneumatici di tutti i modelli a listino, comprensivi di eventuali accessori svuotamento e soffi:
+% Seguono gli schemi pneumatici di tutti i modelli a listino, comprensivi di eventuali accessori svuotamento e soffi:
 
-::::{grid} 2
-:gutter: 3
+% ::::{grid} 2
+% :gutter: 3
 
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 200 C**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000001-pneum.pdf>`
-:::
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 200 C**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000001-pneum.pdf>`
+% :::
 
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 200 CC**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000019-pneum.pdf>`
-:::
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 200 CC**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000019-pneum.pdf>`
+% :::
 
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 350 C**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000010-pneum.pdf>`
-:::
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 350 C**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000010-pneum.pdf>`
+% :::
 
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 350 CC**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000020-pneum.pdf>`
-:::
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 350 CC**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000020-pneum.pdf>`
+% :::
 
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 500 C**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000004-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 500 CC**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000021-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 500 C/E**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000005-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 500 CC/E**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000022-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 650 C**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000008-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 650 CC**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000024-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 800 C**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000006-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 800 CC**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000023-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 1200 C**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000012-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 1200 CC**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000025-pneum.pdf>`
-:::
-
-::::
-
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 500 C**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000004-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 500 CC**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000021-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 500 C/E**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000005-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% class-header: pneum-card-header
+% **FlexiBowl® 500 CC/E**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000022-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 650 C**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000008-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 650 CC**
+% ^^^
+%  {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000024-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% % :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 800 C**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000006-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 800 CC**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000023-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 1200 C**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000012-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 1200 CC**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000025-pneum.pdf>`
+% :::
+% 
+% ::::
+% 
 % (pneucr)=
 % ## Clean Room
-
+% 
 % Il Clean Room comporta una modifica sostanziale dei collegamenti pneumatici e dei componenti utilizzati; qua sotto sono disponibili gli schemi pneumatici riadattati (sempre comprensivi di eventuali svuotamenti e soffi) :
 
 % :::{list-table}
