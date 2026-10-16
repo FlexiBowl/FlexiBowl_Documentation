@@ -1,0 +1,2808 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../" data-theme="light">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>TCP Server &#8212; FlexiBowl® Manual</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_shared/static/styles/theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
+<link href="../../../../_shared/static/styles/pydata-sphinx-theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/styles/sphinx-book-theme.css?v=4418a689" />
+    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../../../_shared/static/custom.css?v=5681bea8" />
+  
+  <!-- So that users can add custom icons -->
+  <script defer src="../../../../_shared/static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_shared/static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9" />
+<link rel="preload" as="script" href="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9" />
+
+    <script src="../../../../_shared/static/documentation_options.js?v=a681ed88"></script>
+    <script src="../../../../_shared/static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../../../_shared/static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../_shared/static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../../../_shared/static/copybutton.js?v=f281be69"></script>
+    <script src="../../../../_shared/static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script src="../../../../_shared/static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'FlexiBowl_manual/INSTALLAZIONE/04b_interfaccia_software';</script>
+    <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
+    <script src="../../../../_shared/static/versioning-data.js?v=37039824"></script>
+    <script src="../../../../_shared/static/fix_print.js?v=d332f839"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="[SOF] Home" href="../INTERFACCIA%20SOFTWARE/04_home.html" />
+    <link rel="prev" title="Ethernet/IP, Profinet, Modbus" href="04a_interfaccia_software.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="../../../../_shared/static/searchtools.js"></script>
+    <script src="../../../../_shared/static/language_data.js"></script>
+    <script src="../../searchindex.js"></script>
+  
+    <style id="ars-protected-access-style">
+    html:not([data-ars-protected-unlocked="true"]) [data-ars-protected-link-wrapper="true"],
+    html:not([data-ars-protected-unlocked="true"]) a[data-ars-protected-link="true"] {
+      display: none !important;
+    }
+    .ars-protected-access-dialog {
+      width: min(390px, calc(100vw - 32px));
+      border: 1px solid rgba(23, 32, 51, 0.18);
+      border-radius: 8px;
+      padding: 0;
+      color: var(--pst-color-text-base, #172033);
+      background: var(--pst-color-background, #fff);
+      box-shadow: 0 22px 70px rgba(20, 31, 54, 0.22);
+    }
+    .ars-protected-access-dialog::backdrop {
+      background: rgba(10, 16, 28, 0.42);
+    }
+    .ars-protected-access-form {
+      padding: 24px;
+    }
+    .ars-protected-access-form h2 {
+      margin: 0 0 8px;
+      font-size: 1.12rem;
+      line-height: 1.25;
+    }
+    .ars-protected-access-form p {
+      margin: 0 0 18px;
+      color: var(--pst-color-text-muted, #536071);
+      line-height: 1.42;
+    }
+    .ars-protected-access-form label {
+      display: block;
+      margin-bottom: 7px;
+      font-weight: 650;
+      font-size: 0.9rem;
+    }
+    .ars-protected-access-form input {
+      box-sizing: border-box;
+      width: 100%;
+      min-height: 40px;
+      padding: 8px 10px;
+      border: 1px solid var(--pst-color-border, #b9c2cf);
+      border-radius: 6px;
+      color: inherit;
+      background: var(--pst-color-background, #fff);
+      font: inherit;
+    }
+    .ars-protected-access-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .ars-protected-access-error {
+      min-height: 1.3em;
+      margin-top: 10px;
+      color: #b3261e;
+      font-size: 0.9rem;
+    }
+  </style>
+  </head>
+  <body data-default-mode="light">
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+  
+  
+  
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+    
+    <img src="../../../../_shared/static/logo.png" class="logo__image only-light" alt="FlexiBowl® Manual - Home"/>
+    <img src="../../../../_shared/static/logo_dark.png" class="logo__image only-dark pst-js-only" alt="FlexiBowl® Manual - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">BEFORE YOU START</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../PRIMA%20DI%20INIZIARE/01_informazioni_preliminari.html"><strong>Preliminary Information</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../PRIMA%20DI%20INIZIARE/02_informazioni_sicurezza.html"><strong>Safety Information</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../PRIMA%20DI%20INIZIARE/03_trasporto.html"><strong>Transport and handling</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../PRIMA%20DI%20INIZIARE/04_cond-util.html"><strong>Conditions of Use and Environmental Conditions</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../PRIMA%20DI%20INIZIARE/05_glossario.html"><strong>Glossary</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../PRIMA%20DI%20INIZIARE/06_support.html"><strong>Support and Contacts</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">TECHNICAL DATA</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../DATI%20TECNICI/01_panoramica.html"><strong>Overview and Unboxing</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../DATI%20TECNICI/02_dati-tecnici-meccanici.html">[MEC] <strong>Mechanical Technical Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../DATI%20TECNICI/03_dati-tecnici-elettrici.html">[ELE] <strong>Electrical Technical Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../DATI%20TECNICI/04_dati-tecnici-pneumatici.html">[ELE] <strong>Pneumatic Technical Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../DATI%20TECNICI/05_dati-tecnici-applicativi.html"><strong>Application Technical Data</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">INSTALLATION</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="01_interfaccia-meccanica.html">[MEC] <strong>Mechanical Interface</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="02_interfaccia-elettrica.html">[ELE] <strong>Electrical Interface</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="03_interfaccia-pneumatica.html">[ELE] <strong>Pneumatic Interface</strong></a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="04_interfaccia-software.html">[SOF] <strong>Software Interface</strong></a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="04a_interfaccia_software.html">Ethernet/IP, Profinet, Modbus</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">TCP Server</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">SOFTWARE OVERVIEW</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04_home.html">[SOF] <strong>Home</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04b_maincommand.html">[SOF] <strong>Main Command</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04c_sequence.html">[SOF] <strong>Sequence</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04d_monitor.html">[SOF] <strong>Monitor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04e_jogmotor.html">[SOF] <strong>Jog Motor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04f_wizard.html">[SOF] <strong>Wizard</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04h_graphs.html">[SOF] <strong>Graphs</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04i_filetransfer.html">[SOF] <strong>File Transfer</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04l_setup.html">[SOF] <strong>Setup</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04m_hopper.html">[SOF] <strong>Hopper</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../INTERFACCIA%20SOFTWARE/04n_emptying.html">[SOF] <strong>Emptying</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">QUICKSTART</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/panoramica.html"><strong>Operations Overview</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/installazione_meccanica.html">[MEC] <strong>Installing the FlexiBowl®</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/cablaggio_FB.html"><strong>[ELE]</strong> FlexiBowl® Wiring</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/conf_interfaccia.html">[SOF] <strong>Interface Configuration</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/FB_wizard.html">[SOF] <strong>FlexiBowl® Wizard</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../QUICKSTART/conf_tramoggia.html"><strong>Hopper Configuration</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">OPERATING MODES</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../MODALITA%20FUNZIONAMENTO/modalita_standard.html">[SOF] <strong>Standard Mode</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../MODALITA%20FUNZIONAMENTO/modalita_mix.html">[SOF] <strong>Mix Mode</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../MODALITA%20FUNZIONAMENTO/modalita_tracking.html">[SOF] <strong>Tracking Mode</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">PLUG-IN</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../PLUG-IN/01_PlugIn.html"><strong>[SOF]</strong> Plug-In</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">LAYOUT BEST PRACTICE</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../LAYOUT%20BEST%20PRACTICE/01_layoutbp.html"><strong>Layout Best Practice</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">ACCESSORIES</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/00_ACCESSORI.html">[MEC] <strong>Overview and compatibility</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/01_SUPERFICI.html">[MEC] <strong>Surfaces and Rigid Discs</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/03_04_illuminazione.html">[MEC] <strong>Lighting</strong></a></li>
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/05_DEVIATORE.html">[MEC] <strong>Standard Diverters</strong></a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../ACCESSORI/06_SOFFI.html">[MEC] <strong>Blows</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ACCESSORI/06-1_AIRBLOWKIT.html">[MEC] <strong>Air Blow Kit</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ACCESSORI/06-2_INDIRETTO.html">[MEC] <strong>Indirect blows (FlexiBowl® 500E only)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ACCESSORI/06-3_INTEGRATI.html">[MEC] <strong>Blows integrated in the flip screen (FlexiBowl® 200-350)</strong></a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/07_BRUSH_DIVERTER.html">[MEC] <strong>Brush Diverter</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/08_WEDGE.html">[MEC] <strong>Wedge Diverter</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ACCESSORI/09_SVUOTAMENTO.html">[MEC] <strong>Emptying</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">MAINTENANCE</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../MANUTENZIONE/01_ordinaria.html">[MEC] <strong>Routine Maintenance</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/01-1_sost-disco.html">[MEC] <strong>Replacing the Surface or Rigid Disc</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/01-2_pul-disco.html">[MEC] <strong>Cleaning the Disc</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/01-3_pul-fb.html">[MEC] <strong>General Cleaning of the FlexiBowl®</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../MANUTENZIONE/01-4_contr-flip.html">[MEC] <strong>Visual Check of the Flip</strong></a></li>
+</ul>
+</details></li>
+<li data-ars-protected-link-wrapper="true" class="toctree-l1 has-children"><a data-ars-protected-link="true" class="reference internal" href="../MANUTENZIONE/02_straordinaria.html">[MEC] <strong>Extraordinary Maintenance</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li data-ars-protected-link-wrapper="true" class="toctree-l2"><a data-ars-protected-link="true" class="reference internal" href="../MANUTENZIONE/02-1_sost-backlight.html">[MEC] <strong>Backlight Replacement</strong></a></li>
+<li data-ars-protected-link-wrapper="true" class="toctree-l2"><a data-ars-protected-link="true" class="reference internal" href="../MANUTENZIONE/02-2_sost-ev.html">[MEC] <strong>Solenoid Valve Replacement</strong></a></li>
+<li data-ars-protected-link-wrapper="true" class="toctree-l2"><a data-ars-protected-link="true" class="reference internal" href="../MANUTENZIONE/02-3_sost-vp.html">[MEC] <strong>Proportional Valve Replacement</strong></a></li>
+<li data-ars-protected-link-wrapper="true" class="toctree-l2"><a data-ars-protected-link="true" class="reference internal" href="../MANUTENZIONE/02-4_sost-flip.html">[MEC] <strong>Flip Assembly Replacement</strong></a></li>
+<li data-ars-protected-link-wrapper="true" class="toctree-l2"><a data-ars-protected-link="true" class="reference internal" href="../MANUTENZIONE/02-11_sost-mot.html">[MEC] <strong>Motor Assembly Replacement</strong></a></li>
+<li data-ars-protected-link-wrapper="true" class="toctree-l2"><a data-ars-protected-link="true" class="reference internal" href="../MANUTENZIONE/02-12_sost-ele.html">[ELE] <strong>Replacement of Electronic Components</strong></a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">TROUBLESHOOTING</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../TROUBLESHOOTING/01_risoluzione-problemi.html"><strong>Troubleshooting</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../TROUBLESHOOTING/02_problemi_meccanici.html"><strong>[MEC]</strong> Mechanical Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../TROUBLESHOOTING/03_problemi_elettrici.html"><strong>[ELE]</strong> Electrical Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../TROUBLESHOOTING/04_problemi_pneumatici.html"><strong>[MEC]</strong> Pneumatic Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../TROUBLESHOOTING/05_problemi_software.html"><strong>[SOF]</strong> Software Troubleshooting</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">DISPOSAL</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../SMALTIMENTO/smaltimento.html"><strong>Disposal and End of Life</strong></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">CERTIFICATIONS</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../CERTIFICAZIONI/01_certificazioni.html"><strong>[MEC]</strong> Certifications</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">HOPPERS</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/tramogge_vibranti.html"><strong>Vibrating Hoppers</strong></a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/info_preliminari.html"><strong>General Preliminary Information</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/descrizione_macchina.html">[MEC] <strong>Machine Description</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/trasporto_installazione.html">[MEC] <strong>Transport and Installation</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/controller_cablaggio.html"><strong>[ELE]</strong> Controller and Wiring</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/manutenzione.html">[MEC] <strong>Maintenance and Troubleshooting</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../TRAMOGGE/TRAMOGGE%20VIBRANTI/smaltimento_appendici.html">[MEC] <strong>Decommissioning and Disposal</strong></a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">FLEXIBOWL 2.0 VS FLEXIBOWL 3.0</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../COMPARATIVA/panoramica.html">[SOF] <strong>Comparison Overview</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../COMPARATIVA/comparativa_meccanica.html">[MEC] <strong>Mechanical Comparison</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../COMPARATIVA/comparativa_elettrica.html">[ELE] <strong>Electrical Comparison</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../COMPARATIVA/comparativa_pneumatica.html">[PNU] <strong>Pneumatic Comparison</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../COMPARATIVA/comparativa_software.html">[SOF] <strong>Software Comparison</strong></a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<button type="button"
+  class="btn btn-sm pst-navbar-icon ars-protected-access-button pst-js-only"
+  title="Sblocca contenuti riservati"
+  aria-label="Sblocca contenuti riservati"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+  data-ars-protected-access-button>
+  <span class="btn__icon-container">
+    <i class="fas fa-lock"></i>
+  </span>
+</button>
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/FlexiBowl_manual/INSTALLAZIONE/04b_interfaccia_software.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+    <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+  </ul>
+</div>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>TCP Server</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tcp-syntax-table">TCP syntax table</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meaning-of-returndata-1-or-tcp-response">Meaning of ReturnData_1 (or TCP response)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#command-protocol">Command Protocol</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exe"><span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-example-execute-sequence-3">Practical example — “Execute Sequence 3”</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#write"><span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#sequence-addressing-logic">Sequence addressing logic</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#writable-parameters-for-each-sequence">Writable parameters for each sequence</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#write-controlword-examples">WRITE ControlWord examples</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-example-set-the-move-acceleration-to-80-in-sequence-7">Practical example — “Set the Move acceleration to 80 in Sequence 7”</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#write-jog-parameters">WRITE JOG parameters</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#read"><span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#read-sequence-addressing-logic">READ sequence addressing logic</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#read-controlword-examples">READ ControlWord examples</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-example-read-the-angle-of-sequence-16">Practical example — “Read the angle of Sequence 16”</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-read-jog">Parametri READ JOG</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hopper"><span class="isw-section-badge isw-badge-hop"><i class="ph ph-funnel"></i> HOPPER</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start-via-tcp">Quick start via TCP</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hopper-write-commands">Hopper WRITE Commands</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-example-enable-hopper-1">Practical example — “Enable Hopper 1”</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-example-set-the-amplitude-of-hopper-2-to-220">Practical example — “Set the amplitude of Hopper 2 to 220”</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hopper-read-commands">Hopper READ Commands</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-example-read-the-frequency-of-hopper-4">Practical example — “Read the frequency of Hopper 4”</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="tcp-server">
+<span id="tcp"></span><h1>TCP Server<a class="headerlink" href="#tcp-server" title="Link to this heading">#</a></h1>
+<p>When using <strong>TCP Server</strong> communication, commands are not sent as binary variables but as <strong>text strings</strong> through a socket connection on the configured port (default: 8123).</p>
+<p>Every message has the form:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">VariableName</span><span class="p">[</span><span class="n">Value</span><span class="p">]</span><span class="o">%</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">%</span></code> character is the <strong>message terminator</strong> and must always be present at the end. The <code class="docutils literal notranslate"><span class="pre">[Value]</span></code> field contains the associated numeric data (ControlWord, state, etc.).</p>
+<section id="tcp-syntax-table">
+<h2>TCP syntax table<a class="headerlink" href="#tcp-syntax-table" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Operation</p></th>
+<th class="head"><p>Message to send</p></th>
+<th class="head"><p>Response if OK</p></th>
+<th class="head"><p>Response if error</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>All EXE commands</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">10[0]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">10[0]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">1[0]%</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>All WRITE commands</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">100[56]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">100[0]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">2[0]%</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>All READ commands</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">10100[0]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">10100[value]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">2[0]%</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Reset errors</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Reset%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Reset%</span></code></p></td>
+<td><p>—</p></td>
+</tr>
+<tr class="row-even"><td><p>Read Busy state</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Busy%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Busy[1]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Busy[0]%</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Read Ready state</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Ready%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Ready[1]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Ready[0]%</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>Read InError state</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">InError%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">InError[1]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">InError[0]%</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Read InPowerOn state</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">InPowerOn%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">InPowerOn[1]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">InPowerOn[0]%</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>Read ErrorCode</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">ErrorCode%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">ErrorCode[56]%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">ErrorCode[0]%</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In READ-type responses, the text <code class="docutils literal notranslate"><span class="pre">[value]</span></code> is replaced by the actual numeric data read by the system. For example, to read the speed of SEQ 1 (ControlWord 10102), you send <code class="docutils literal notranslate"><span class="pre">10102[0]%</span></code> and receive <code class="docutils literal notranslate"><span class="pre">10102[35]%</span></code> if the speed is set to 35%.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The Hopper commands via TCP (<code class="docutils literal notranslate"><span class="pre">Hopper1Start%</span></code>, etc.) work <strong>only when communication is active and the FlexiBowl® is not moving</strong>. Correct operation is not guaranteed if the FlexiBowl® is executing a sequence or is in jog mode.</p>
+</div>
+</section>
+<section id="meaning-of-returndata-1-or-tcp-response">
+<h2>Meaning of ReturnData_1 (or TCP response)<a class="headerlink" href="#meaning-of-returndata-1-or-tcp-response" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Value</p></th>
+<th class="head"><p>Meaning</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">0</span></code></p></td>
+<td><p>NULL — no command in progress (initial state)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">1</span></code></p></td>
+<td><p>Command not interpretable (unknown ControlWord)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">2</span></code></p></td>
+<td><p>Data_1 out of range, but the command was recognized</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">3</span></code></p></td>
+<td><p>System busy (Busy) — try again after Busy returns to 0</p></td>
+</tr>
+<tr class="row-even"><td><p>Value = ControlWord</p></td>
+<td><p>Command executed correctly</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="command-protocol">
+<h2>Command Protocol<a class="headerlink" href="#command-protocol" title="Link to this heading">#</a></h2>
+<p>The command protocol defines all the actions available through the ControlWord. The ControlWords are <strong>the same for all protocols</strong>; only the transport changes (see <a class="reference internal" href="04_interfaccia-software.html#sec-fieldbus"><span class="std std-ref">Fieldbus Transport</span></a> and <a class="reference internal" href="04_interfaccia-software.html#sec-tcp"><span class="std std-ref">TCP Syntax</span></a>). The commands are grouped into categories:</p>
+<div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; margin:1.5rem 0 2.5rem;">
+  <a href="#sec-exe" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-play-circle" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">EXE Commands</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Execution commands (sequence start, jog, reset)</span>
+  </a>
+  <a href="#sec-write" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-pencil-simple" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">WRITE Commands</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Writing parameters (speed, angles, times, etc.)</span>
+  </a>
+  <a href="#sec-read" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-eye" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">READ Commands</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Reading the currently configured parameters</span>
+  </a>
+</div>
+<section id="exe">
+<span id="sec-exe"></span><h3><span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span><a class="headerlink" href="#exe" title="Link to this heading">#</a></h3>
+<p>The EXE commands start an immediate action on the FlexiBowl®. During execution <strong>Busy</strong> remains at <code class="docutils literal notranslate"><span class="pre">1</span></code>.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Command</p></th>
+<th class="head"><p>ControlWord</p></th>
+<th class="head"><p>Busy during execution</p></th>
+<th class="head"><p>ReturnData_1</p></th>
+<th class="head"><p>Explanation</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Exe Seq 1</p></td>
+<td><p>10</p></td>
+<td><p>YES</p></td>
+<td><p>10</p></td>
+<td><p>Execute Sequence 1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Exe Seq 2</p></td>
+<td><p>11</p></td>
+<td><p>YES</p></td>
+<td><p>11</p></td>
+<td><p>Execute Sequence 2</p></td>
+</tr>
+<tr class="row-even"><td><p>Exe Seq 3</p></td>
+<td><p>12</p></td>
+<td><p>YES</p></td>
+<td><p>12</p></td>
+<td><p>Execute Sequence 3</p></td>
+</tr>
+<tr class="row-odd"><td><p>Exe Seq 4</p></td>
+<td><p>13</p></td>
+<td><p>YES</p></td>
+<td><p>13</p></td>
+<td><p>Execute Sequence 4</p></td>
+</tr>
+<tr class="row-even"><td><p>Exe Seq 5</p></td>
+<td><p>14</p></td>
+<td><p>YES</p></td>
+<td><p>14</p></td>
+<td><p>Execute Sequence 5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Exe Seq 6</p></td>
+<td><p>15</p></td>
+<td><p>YES</p></td>
+<td><p>15</p></td>
+<td><p>Execute Sequence 6</p></td>
+</tr>
+<tr class="row-even"><td><p>Exe Seq 7</p></td>
+<td><p>16</p></td>
+<td><p>YES</p></td>
+<td><p>16</p></td>
+<td><p>Execute Sequence 7</p></td>
+</tr>
+<tr class="row-odd"><td><p>Exe Seq 8</p></td>
+<td><p>17</p></td>
+<td><p>YES</p></td>
+<td><p>17</p></td>
+<td><p>Execute Sequence 8</p></td>
+</tr>
+<tr class="row-even"><td><p>Exe Seq 9</p></td>
+<td><p>18</p></td>
+<td><p>YES</p></td>
+<td><p>18</p></td>
+<td><p>Execute Sequence 9</p></td>
+</tr>
+<tr class="row-odd"><td><p>Exe Seq 10</p></td>
+<td><p>19</p></td>
+<td><p>YES</p></td>
+<td><p>19</p></td>
+<td><p>Execute Sequence 10</p></td>
+</tr>
+<tr class="row-even"><td><p>Exe Seq 11</p></td>
+<td><p>20</p></td>
+<td><p>YES</p></td>
+<td><p>20</p></td>
+<td><p>Execute Sequence 11</p></td>
+</tr>
+<tr class="row-odd"><td><p>Exe Seq 12</p></td>
+<td><p>21</p></td>
+<td><p>YES</p></td>
+<td><p>21</p></td>
+<td><p>Execute Sequence 12</p></td>
+</tr>
+<tr class="row-even"><td><p>Exe Seq 13</p></td>
+<td><p>22</p></td>
+<td><p>YES</p></td>
+<td><p>22</p></td>
+<td><p>Execute Sequence 13</p></td>
+</tr>
+<tr class="row-odd"><td><p>Exe Seq 14</p></td>
+<td><p>23</p></td>
+<td><p>YES</p></td>
+<td><p>23</p></td>
+<td><p>Execute Sequence 14</p></td>
+</tr>
+<tr class="row-even"><td><p>Exe Seq 15</p></td>
+<td><p>24</p></td>
+<td><p>YES</p></td>
+<td><p>24</p></td>
+<td><p>Execute Sequence 15</p></td>
+</tr>
+<tr class="row-odd"><td><p>Exe Seq 16</p></td>
+<td><p>25</p></td>
+<td><p>YES</p></td>
+<td><p>25</p></td>
+<td><p>Execute Sequence 16</p></td>
+</tr>
+<tr class="row-even"><td><p>Exe Seq 17</p></td>
+<td><p>26</p></td>
+<td><p>YES</p></td>
+<td><p>26</p></td>
+<td><p>Execute Sequence 17</p></td>
+</tr>
+<tr class="row-odd"><td><p>Exe Seq 18</p></td>
+<td><p>27</p></td>
+<td><p>YES</p></td>
+<td><p>27</p></td>
+<td><p>Execute Sequence 18</p></td>
+</tr>
+<tr class="row-even"><td><p>Exe Seq 19</p></td>
+<td><p>28</p></td>
+<td><p>YES</p></td>
+<td><p>28</p></td>
+<td><p>Execute Sequence 19</p></td>
+</tr>
+<tr class="row-odd"><td><p>Exe Seq 20</p></td>
+<td><p>29</p></td>
+<td><p>YES</p></td>
+<td><p>29</p></td>
+<td><p>Execute Sequence 20</p></td>
+</tr>
+<tr class="row-even"><td><p>Start Jog Seq</p></td>
+<td><p>40</p></td>
+<td><p>YES</p></td>
+<td><p>40</p></td>
+<td><p>Start Jog</p></td>
+</tr>
+<tr class="row-odd"><td><p>Stop Jog Seq</p></td>
+<td><p>41</p></td>
+<td><p>YES</p></td>
+<td><p>41</p></td>
+<td><p>Stop Jog</p></td>
+</tr>
+<tr class="row-even"><td><p>Reset Return Data</p></td>
+<td><p>50</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p>Resets the value of ReturnData_1 and ReturnData_2, returning them to the initial state <code class="docutils literal notranslate"><span class="pre">0</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <strong>Reset Return Data</strong> command (ControlWord 50) resets the value of ReturnData_1 and ReturnData_2, returning them to the initial state <code class="docutils literal notranslate"><span class="pre">0</span></code>. It is useful to check that a new command is actually received and processed.</p>
+</div>
+<section id="practical-example-execute-sequence-3">
+<span id="tcp-exe"></span><h4>Practical example — “Execute Sequence 3”<a class="headerlink" href="#practical-example-execute-sequence-3" title="Link to this heading">#</a></h4>
+<div class="isw-example">
+<div class="isw-example-title">Execute Sequence 3 → ControlWord 12</div>
+<div class="isw-example-body">
+<div>
+<div>
+<div class="isw-example-col-title">TCP Server</div>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>12[0]%</code><br>
+RETURN IF OK:&nbsp;&nbsp;&nbsp;<span class="ok">12[0]</span>
+</div>
+<p>Example of an <strong>invalid</strong> command (e.g. sequence 9 not existing on the device):</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>9[0]%</code><br>
+RETURN IF NOT OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="write">
+<span id="sec-write"></span><h3><span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span><a class="headerlink" href="#write" title="Link to this heading">#</a></h3>
+<p>The WRITE commands allow the operating parameters of the FlexiBowl® (speed, angles, times, etc.) to be modified directly from the external system, without having to access the graphical interface.</p>
+<section id="sequence-addressing-logic">
+<h4>Sequence addressing logic<a class="headerlink" href="#sequence-addressing-logic" title="Link to this heading">#</a></h4>
+<p>Each sequence (from 1 to 20) has its own block of parameters. The ControlWord is calculated with the formula:</p>
+<blockquote>
+<div><p><strong>ControlWord = N × 100 + parameter_offset</strong></p>
+</div></blockquote>
+<p>where <code class="docutils literal notranslate"><span class="pre">N</span></code> is the sequence number (1–20) and <code class="docutils literal notranslate"><span class="pre">parameter_offset</span></code> identifies the specific parameter.</p>
+</section>
+<section id="writable-parameters-for-each-sequence">
+<h4>Writable parameters for each sequence<a class="headerlink" href="#writable-parameters-for-each-sequence" title="Link to this heading">#</a></h4>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>Offset</p></th>
+<th class="head"><p>Data_1 range</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AccelerationMove</p></td>
+<td><p>00</p></td>
+<td><p>1–100</p></td>
+<td><p>Acceleration ramp of the rotary movement (%)</p></td>
+</tr>
+<tr class="row-odd"><td><p>DecelerationMove</p></td>
+<td><p>01</p></td>
+<td><p>1–100</p></td>
+<td><p>Deceleration ramp of the rotary movement (%)</p></td>
+</tr>
+<tr class="row-even"><td><p>SpeedMove</p></td>
+<td><p>02</p></td>
+<td><p>1–100</p></td>
+<td><p>Speed of the rotary movement (%)</p></td>
+</tr>
+<tr class="row-odd"><td><p>AngleMove</p></td>
+<td><p>03</p></td>
+<td><p>0–720</p></td>
+<td><p>Rotation angle in degrees. Values 1000–1720 = negative angle (opposite direction)</p></td>
+</tr>
+<tr class="row-even"><td><p>AccelerationShake</p></td>
+<td><p>04</p></td>
+<td><p>1–100</p></td>
+<td><p>Acceleration ramp of the shake (%)</p></td>
+</tr>
+<tr class="row-odd"><td><p>DecelerationShake</p></td>
+<td><p>05</p></td>
+<td><p>1–100</p></td>
+<td><p>Deceleration ramp of the shake (%)</p></td>
+</tr>
+<tr class="row-even"><td><p>CountShake</p></td>
+<td><p>06</p></td>
+<td><p>2–20</p></td>
+<td><p>Number of oscillations per shake cycle</p></td>
+</tr>
+<tr class="row-odd"><td><p>CwAngleShake</p></td>
+<td><p>07</p></td>
+<td><p>0–360</p></td>
+<td><p>Clockwise rotation angle during the shake. Values 1000–1360 = negative angle</p></td>
+</tr>
+<tr class="row-even"><td><p>CcwAngleShake</p></td>
+<td><p>08</p></td>
+<td><p>0–360</p></td>
+<td><p>Counterclockwise rotation angle during the shake. Values 1000–1360 = negative angle</p></td>
+</tr>
+<tr class="row-odd"><td><p>SpeedShake</p></td>
+<td><p>09</p></td>
+<td><p>1–100</p></td>
+<td><p>Shake speed (%)</p></td>
+</tr>
+<tr class="row-even"><td><p>FlipCount</p></td>
+<td><p>10</p></td>
+<td><p>0–20</p></td>
+<td><p>Number of flips per cycle</p></td>
+</tr>
+<tr class="row-odd"><td><p>FlipDelay</p></td>
+<td><p>11</p></td>
+<td><p>0–500</p></td>
+<td><p>Pause between one flip and the next (ms)</p></td>
+</tr>
+<tr class="row-even"><td><p>BlowDelay</p></td>
+<td><p>12</p></td>
+<td><p>0–500</p></td>
+<td><p>Pause between one blow pulse and the next (ms)</p></td>
+</tr>
+<tr class="row-odd"><td><p>ProportionalValve_Flip</p></td>
+<td><p>13</p></td>
+<td><p>0–600</p></td>
+<td><p>Flip proportional valve pressure (value /100 = Bar)</p></td>
+</tr>
+<tr class="row-even"><td><p>ProportionalValve_Blow</p></td>
+<td><p>14</p></td>
+<td><p>0–600</p></td>
+<td><p>Blow proportional valve pressure (value /100 = Bar)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Delete all sequence</p></td>
+<td><p>30</p></td>
+<td><p>—</p></td>
+<td><p>Deletes all commands from the sequence list</p></td>
+</tr>
+<tr class="row-even"><td><p>Emptying Sequence</p></td>
+<td><p>40</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = normal mode, 1 = emptying mode</p></td>
+</tr>
+<tr class="row-odd"><td><p>Seq Add Cmd</p></td>
+<td><p>50</p></td>
+<td><p>FLB COMMAND</p></td>
+<td><p>Adds a command to the sequence list</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="write-controlword-examples">
+<h4>WRITE ControlWord examples<a class="headerlink" href="#write-controlword-examples" title="Link to this heading">#</a></h4>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Sequence</p></th>
+<th class="head"><p>Parameter</p></th>
+<th class="head"><p>Offset associated with the parameter</p></th>
+<th class="head"><p>Formula (N x 100 + Offset)</p></th>
+<th class="head"><p>ControlWord</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>SEQ 1 (N=1)</p></td>
+<td><p>AccelerationMove</p></td>
+<td><p>00</p></td>
+<td><p>1 x 100 + 00</p></td>
+<td><p>100</p></td>
+</tr>
+<tr class="row-odd"><td><p>SEQ 1 (N=1)</p></td>
+<td><p>SpeedMove</p></td>
+<td><p>02</p></td>
+<td><p>1 x 100 + 02</p></td>
+<td><p>102</p></td>
+</tr>
+<tr class="row-even"><td><p>SEQ 1 (N=1)</p></td>
+<td><p>FlipCount</p></td>
+<td><p>10</p></td>
+<td><p>1 x 100 + 10</p></td>
+<td><p>110</p></td>
+</tr>
+<tr class="row-odd"><td><p>SEQ 1 (N=1)</p></td>
+<td><p>Emptying Sequence</p></td>
+<td><p>40</p></td>
+<td><p>1 x 100 + 40</p></td>
+<td><p>140</p></td>
+</tr>
+<tr class="row-even"><td><p>SEQ 1 (N=1)</p></td>
+<td><p>Seq Add Cmd</p></td>
+<td><p>50</p></td>
+<td><p>1 x 100 + 50</p></td>
+<td><p>150</p></td>
+</tr>
+<tr class="row-odd"><td><p>SEQ 2 (N=2)</p></td>
+<td><p>AccelerationMove</p></td>
+<td><p>00</p></td>
+<td><p>2 x 100 + 00</p></td>
+<td><p>200</p></td>
+</tr>
+<tr class="row-even"><td><p>SEQ 2 (N=2)</p></td>
+<td><p>SpeedMove</p></td>
+<td><p>02</p></td>
+<td><p>2 x 100 + 02</p></td>
+<td><p>202</p></td>
+</tr>
+<tr class="row-odd"><td><p>SEQ 5 (N=5)</p></td>
+<td><p>AngleMove</p></td>
+<td><p>03</p></td>
+<td><p>5 x 100 + 03</p></td>
+<td><p>503</p></td>
+</tr>
+<tr class="row-even"><td><p>SEQ 10 (N=10)</p></td>
+<td><p>FlipDelay</p></td>
+<td><p>11</p></td>
+<td><p>10 x 100 + 11</p></td>
+<td><p>1011</p></td>
+</tr>
+<tr class="row-odd"><td><p>SEQ 20 (N=20)</p></td>
+<td><p>SpeedMove</p></td>
+<td><p>02</p></td>
+<td><p>20 x 100 + 02</p></td>
+<td><p>2002</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>The formula is simple:</p>
+<ul class="simple">
+<li><p>To write the speed (offset 02) of sequence 7, the ControlWord is <code class="docutils literal notranslate"><span class="pre">7</span> <span class="pre">×</span> <span class="pre">100</span> <span class="pre">+</span> <span class="pre">2</span> <span class="pre">=</span> <span class="pre">702</span></code>.</p></li>
+<li><p>To write the FlipCount (offset 10) of sequence 15, the ControlWord is <code class="docutils literal notranslate"><span class="pre">15</span> <span class="pre">×</span> <span class="pre">100</span> <span class="pre">+</span> <span class="pre">10</span> <span class="pre">=</span> <span class="pre">1510</span></code>.</p></li>
+</ul>
+</div>
+</section>
+<section id="practical-example-set-the-move-acceleration-to-80-in-sequence-7">
+<span id="tcp-write"></span><h4>Practical example — “Set the Move acceleration to 80 in Sequence 7”<a class="headerlink" href="#practical-example-set-the-move-acceleration-to-80-in-sequence-7" title="Link to this heading">#</a></h4>
+<div class="isw-example">
+<div class="isw-example-title">SpeedMove Seq 7 → ControlWord 700, Data_1 = 80</div>
+<div class="isw-example-body">
+<div>
+<div>
+<div class="isw-example-col-title">TCP Server</div>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>700[80]%</code><br>
+RETURN IF OK:&nbsp;&nbsp;&nbsp;<span class="ok">700[0]</span>
+</div>
+<p>Example of an <strong>out-of-range value</strong> (acceleration 1000 not allowed, range 1–100):</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>700[1000]%</code><br>
+RETURN IF NOT OK:&nbsp;&nbsp;&nbsp;<span class="ko">2[0]</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="write-jog-parameters">
+<h4>WRITE JOG parameters<a class="headerlink" href="#write-jog-parameters" title="Link to this heading">#</a></h4>
+<p>The Jog parameters (continuous manual operation) can be configured separately via ControlWord in block 20000.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>ControlWord</p></th>
+<th class="head"><p>Data_1 range</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AccelerationJog</p></td>
+<td><p>20001</p></td>
+<td><p>0–100</p></td>
+<td><p>Jog acceleration ramp (%)</p></td>
+</tr>
+<tr class="row-odd"><td><p>DecelerationJog</p></td>
+<td><p>20002</p></td>
+<td><p>0–100</p></td>
+<td><p>Jog deceleration ramp (%)</p></td>
+</tr>
+<tr class="row-even"><td><p>SpeedJog</p></td>
+<td><p>20003</p></td>
+<td><p>0–100</p></td>
+<td><p>Jog speed (%). Values 1000–1100 = negative speed (reverse rotation)</p></td>
+</tr>
+<tr class="row-odd"><td><p>FlipJog_Enable</p></td>
+<td><p>20004</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = flip disabled, 1 = flip enabled during jog</p></td>
+</tr>
+<tr class="row-even"><td><p>FlipJog_Duration</p></td>
+<td><p>20005</p></td>
+<td><p>0–1000</p></td>
+<td><p>Flip pulse duration (ms)</p></td>
+</tr>
+<tr class="row-odd"><td><p>FlipJog_Pressure</p></td>
+<td><p>20006</p></td>
+<td><p>0–600</p></td>
+<td><p>Flip pressure (/100 = Bar)</p></td>
+</tr>
+<tr class="row-even"><td><p>FlipJog_Pause</p></td>
+<td><p>20007</p></td>
+<td><p>0–1000</p></td>
+<td><p>Pause between consecutive flips (ms)</p></td>
+</tr>
+<tr class="row-odd"><td><p>BlowJog_Enable</p></td>
+<td><p>20008</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = blow disabled, 1 = blow enabled during jog</p></td>
+</tr>
+<tr class="row-even"><td><p>BlowJog_Duration</p></td>
+<td><p>20009</p></td>
+<td><p>0–1000</p></td>
+<td><p>Blow pulse duration (ms)</p></td>
+</tr>
+<tr class="row-odd"><td><p>BlowJog_Pressure</p></td>
+<td><p>20010</p></td>
+<td><p>0–600</p></td>
+<td><p>Blow pressure (/100 = Bar)</p></td>
+</tr>
+<tr class="row-even"><td><p>BlowJog_Pause</p></td>
+<td><p>20011</p></td>
+<td><p>0–1000</p></td>
+<td><p>Pause between consecutive blows (ms)</p></td>
+</tr>
+<tr class="row-odd"><td><p>BlowJog_Type</p></td>
+<td><p>20012</p></td>
+<td><p>0–2</p></td>
+<td><p>Blow type: 0 = BLOWc, 1 = BLOWe, 2 = BLOWc+BLOWe</p></td>
+</tr>
+<tr class="row-even"><td><p>Backlight_1</p></td>
+<td><p>20013</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = off, 1 = on</p></td>
+</tr>
+<tr class="row-odd"><td><p>Backlight_2</p></td>
+<td><p>20014</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = off, 1 = on</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class="docutils" />
+</section>
+</section>
+<section id="read">
+<span id="sec-read"></span><h3><span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span><a class="headerlink" href="#read" title="Link to this heading">#</a></h3>
+<p>The READ commands allow the parameters currently configured in the FlexiBowl® to be read. The value read is returned in <strong>ReturnData_2</strong>.</p>
+<section id="read-sequence-addressing-logic">
+<h4>READ sequence addressing logic<a class="headerlink" href="#read-sequence-addressing-logic" title="Link to this heading">#</a></h4>
+<p>The ControlWord for reading is calculated with the formula:</p>
+<blockquote>
+<div><p><strong>ControlWord = 10000 + N × 100 + parameter_offset</strong></p>
+</div></blockquote>
+<p>where <code class="docutils literal notranslate"><span class="pre">N</span></code> is the sequence number (1–20) and <code class="docutils literal notranslate"><span class="pre">parameter_offset</span></code> is the same one used in the WRITE commands.</p>
+<p>The readable parameters are the same as in the WRITE block, with the addition of the 10 slots of the command list:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Additional parameter</p></th>
+<th class="head"><p>Offset</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Seq Slot 1 Cmd</p></td>
+<td><p>50</p></td>
+<td><p>Command in position 1 in the sequence list</p></td>
+</tr>
+<tr class="row-odd"><td><p>Seq Slot 2 Cmd</p></td>
+<td><p>51</p></td>
+<td><p>Command in position 2</p></td>
+</tr>
+<tr class="row-even"><td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+</tr>
+<tr class="row-odd"><td><p>Seq Slot 10 Cmd</p></td>
+<td><p>59</p></td>
+<td><p>Command in position 10</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="read-controlword-examples">
+<h4>READ ControlWord examples<a class="headerlink" href="#read-controlword-examples" title="Link to this heading">#</a></h4>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Sequence</p></th>
+<th class="head"><p>Parameter</p></th>
+<th class="head"><p>ControlWord</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>SEQ 1</p></td>
+<td><p>AccelerationMove</p></td>
+<td><p>10100</p></td>
+</tr>
+<tr class="row-odd"><td><p>SEQ 1</p></td>
+<td><p>SpeedMove</p></td>
+<td><p>10102</p></td>
+</tr>
+<tr class="row-even"><td><p>SEQ 1</p></td>
+<td><p>FlipCount</p></td>
+<td><p>10110</p></td>
+</tr>
+<tr class="row-odd"><td><p>SEQ 1</p></td>
+<td><p>Emptying Sequence</p></td>
+<td><p>10140</p></td>
+</tr>
+<tr class="row-even"><td><p>SEQ 1</p></td>
+<td><p>Slot 1 Cmd</p></td>
+<td><p>10150</p></td>
+</tr>
+<tr class="row-odd"><td><p>SEQ 1</p></td>
+<td><p>Slot 10 Cmd</p></td>
+<td><p>10159</p></td>
+</tr>
+<tr class="row-even"><td><p>SEQ 5</p></td>
+<td><p>AngleMove</p></td>
+<td><p>10503</p></td>
+</tr>
+<tr class="row-odd"><td><p>SEQ 10</p></td>
+<td><p>SpeedMove</p></td>
+<td><p>11002</p></td>
+</tr>
+<tr class="row-even"><td><p>SEQ 20</p></td>
+<td><p>Emptying Sequence</p></td>
+<td><p>12040</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Quick formula:<br />
+To read the speed (offset 02) of sequence 12, the ControlWord is <code class="docutils literal notranslate"><span class="pre">10000</span> <span class="pre">+</span> <span class="pre">12</span> <span class="pre">×</span> <span class="pre">100</span> <span class="pre">+</span> <span class="pre">2</span> <span class="pre">=</span> <span class="pre">11202</span></code>.</p>
+</div>
+</section>
+<section id="practical-example-read-the-angle-of-sequence-16">
+<span id="tcp-read"></span><h4>Practical example — “Read the angle of Sequence 16”<a class="headerlink" href="#practical-example-read-the-angle-of-sequence-16" title="Link to this heading">#</a></h4>
+<div class="isw-example">
+<div class="isw-example-title">AngleMove Seq 16 → ControlWord 11603</div>
+<div class="isw-example-body">
+<div>
+<div>
+<div class="isw-example-col-title">TCP Server</div>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>11603[0]%</code><br>
+RETURN IF OK:&nbsp;&nbsp;&nbsp;<span class="ok">11603[45]</span>
+</div>
+<p>Example of an <strong>out-of-range value</strong> when writing the same parameter (maximum angle 720°):</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>11603[6799]%</code><br>
+RETURN IF NOT OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="parametri-read-jog">
+<h4>Parametri READ JOG<a class="headerlink" href="#parametri-read-jog" title="Link to this heading">#</a></h4>
+<p>The same writable JOG parameters (block 20000) can be read in block 20100:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>READ ControlWord</p></th>
+<th class="head"><p>ReturnData_2 range</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AccelerationJog</p></td>
+<td><p>20101</p></td>
+<td><p>0–100</p></td>
+</tr>
+<tr class="row-odd"><td><p>DecelerationJog</p></td>
+<td><p>20102</p></td>
+<td><p>0–100</p></td>
+</tr>
+<tr class="row-even"><td><p>SpeedJog</p></td>
+<td><p>20103</p></td>
+<td><p>0–100 (1000–1100 = negative)</p></td>
+</tr>
+<tr class="row-odd"><td><p>FlipJog_Enable</p></td>
+<td><p>20104</p></td>
+<td><p>0–1</p></td>
+</tr>
+<tr class="row-even"><td><p>FlipJog_Duration</p></td>
+<td><p>20105</p></td>
+<td><p>0–1000</p></td>
+</tr>
+<tr class="row-odd"><td><p>FlipJog_Pressure</p></td>
+<td><p>20106</p></td>
+<td><p>0–600 (/100)</p></td>
+</tr>
+<tr class="row-even"><td><p>FlipJog_Pause</p></td>
+<td><p>20107</p></td>
+<td><p>0–1000</p></td>
+</tr>
+<tr class="row-odd"><td><p>BlowJog_Enable</p></td>
+<td><p>20108</p></td>
+<td><p>0–1</p></td>
+</tr>
+<tr class="row-even"><td><p>BlowJog_Duration</p></td>
+<td><p>20109</p></td>
+<td><p>0–1000</p></td>
+</tr>
+<tr class="row-odd"><td><p>BlowJog_Pressure</p></td>
+<td><p>20110</p></td>
+<td><p>0–600 (/100)</p></td>
+</tr>
+<tr class="row-even"><td><p>BlowJog_Pause</p></td>
+<td><p>20111</p></td>
+<td><p>0–1000</p></td>
+</tr>
+<tr class="row-odd"><td><p>BlowJog_Type</p></td>
+<td><p>20112</p></td>
+<td><p>0–2</p></td>
+</tr>
+<tr class="row-even"><td><p>Backlight_1</p></td>
+<td><p>20113</p></td>
+<td><p>0–1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Backlight_2</p></td>
+<td><p>20114</p></td>
+<td><p>0–1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class="docutils" />
+</section>
+</section>
+</section>
+<section id="hopper">
+<span id="sec-hopper"></span><h2><span class="isw-section-badge isw-badge-hop"><i class="ph ph-funnel"></i> HOPPER</span><a class="headerlink" href="#hopper" title="Link to this heading">#</a></h2>
+<p>The Hopper commands control the vibratory hoppers connected to the system (up to 4). They follow the same ControlWord/WRITE/READ logic described above, valid for all protocols, plus a dedicated TCP syntax for quick start.</p>
+<section id="quick-start-via-tcp">
+<h3>Quick start via TCP<a class="headerlink" href="#quick-start-via-tcp" title="Link to this heading">#</a></h3>
+<p>In addition to the general ControlWord syntax, the <strong>TCP Server</strong> protocol offers dedicated messages to start a hopper directly:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Operation</p></th>
+<th class="head"><p>Message to send</p></th>
+<th class="head"><p>Response</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Start Hopper 1</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper1Start%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper1Start</span> <span class="pre">*</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Start Hopper 2</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper2Start%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper2Start</span> <span class="pre">*</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>Start Hopper 3</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper3Start%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper3Start</span> <span class="pre">*</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Start Hopper 4</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper4Start%</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Hopper4Start</span> <span class="pre">*</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>On the fieldbus protocols (EtherNet/IP, Profinet, Modbus) the same immediate start is obtained by directly setting the <strong>Hopper_1</strong>…<strong>Hopper_4</strong> bit of the <a class="reference internal" href="04_interfaccia-software.html#sec-fieldbus"><span class="std std-ref">I/O packet</span></a> to <code class="docutils literal notranslate"><span class="pre">1</span></code>, without going through the ControlWord.</p>
+</section>
+<section id="hopper-write-commands">
+<h3>Hopper WRITE Commands<a class="headerlink" href="#hopper-write-commands" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>ControlWord</p></th>
+<th class="head"><p>Data_1 range</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Hopper_1_Id</p></td>
+<td><p>30001</p></td>
+<td><p>1–100</p></td>
+<td><p>Unique ID of hopper 1 on the network</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_1_Amplitude</p></td>
+<td><p>30002</p></td>
+<td><p>50–220</p></td>
+<td><p>Vibration amplitude of hopper 1</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_1_Frequency</p></td>
+<td><p>30003</p></td>
+<td><p>40–70</p></td>
+<td><p>Vibration frequency of hopper 1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_1_Activation_Time</p></td>
+<td><p>30004</p></td>
+<td><p>400–60000</p></td>
+<td><p>Activation time of hopper 1 (ms)</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_2_Id</p></td>
+<td><p>30005</p></td>
+<td><p>1–100</p></td>
+<td><p>Unique ID of hopper 2</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_2_Amplitude</p></td>
+<td><p>30006</p></td>
+<td><p>50–220</p></td>
+<td><p>Vibration amplitude of hopper 2</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_2_Frequency</p></td>
+<td><p>30007</p></td>
+<td><p>40–70</p></td>
+<td><p>Vibration frequency of hopper 2</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_2_Activation_Time</p></td>
+<td><p>30008</p></td>
+<td><p>400–60000</p></td>
+<td><p>Activation time of hopper 2 (ms)</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_3_Id</p></td>
+<td><p>30009</p></td>
+<td><p>1–100</p></td>
+<td><p>Unique ID of hopper 3</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_3_Amplitude</p></td>
+<td><p>30010</p></td>
+<td><p>50–220</p></td>
+<td><p>Vibration amplitude of hopper 3</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_3_Frequency</p></td>
+<td><p>30011</p></td>
+<td><p>40–70</p></td>
+<td><p>Vibration frequency of hopper 3</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_3_Activation_Time</p></td>
+<td><p>30012</p></td>
+<td><p>400–60000</p></td>
+<td><p>Activation time of hopper 3 (ms)</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_4_Id</p></td>
+<td><p>30013</p></td>
+<td><p>1–100</p></td>
+<td><p>Unique ID of hopper 4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_4_Amplitude</p></td>
+<td><p>30014</p></td>
+<td><p>50–220</p></td>
+<td><p>Vibration amplitude of hopper 4</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_4_Frequency</p></td>
+<td><p>30015</p></td>
+<td><p>40–70</p></td>
+<td><p>Vibration frequency of hopper 4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_4_Activation_Time</p></td>
+<td><p>30016</p></td>
+<td><p>400–60000</p></td>
+<td><p>Activation time of hopper 4 (ms)</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_1_Enable</p></td>
+<td><p>30017</p></td>
+<td><p>—</p></td>
+<td><p>Enables hopper 1 (immediate action)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_1_Disable</p></td>
+<td><p>30018</p></td>
+<td><p>—</p></td>
+<td><p>Disables hopper 1 (immediate action)</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_2_Enable</p></td>
+<td><p>30019</p></td>
+<td><p>—</p></td>
+<td><p>Enables hopper 2</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_2_Disable</p></td>
+<td><p>30020</p></td>
+<td><p>—</p></td>
+<td><p>Disables hopper 2</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_3_Enable</p></td>
+<td><p>30021</p></td>
+<td><p>—</p></td>
+<td><p>Enables hopper 3</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_3_Disable</p></td>
+<td><p>30022</p></td>
+<td><p>—</p></td>
+<td><p>Disables hopper 3</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_4_Enable</p></td>
+<td><p>30023</p></td>
+<td><p>—</p></td>
+<td><p>Enables hopper 4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_4_Disable</p></td>
+<td><p>30024</p></td>
+<td><p>—</p></td>
+<td><p>Disables hopper 4</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In the training material, ControlWord <code class="docutils literal notranslate"><span class="pre">30005</span></code> (Hopper_2_Id) mistakenly showed the same range as Amplitude (50–220). In this table it has been corrected to <strong>1–100</strong>, consistent with Hopper_1_Id, Hopper_3_Id and Hopper_4_Id. Check this value against the firmware/datasheet before publishing the page.</p>
+</div>
+<section id="practical-example-enable-hopper-1">
+<span id="tcp-writehopper"></span><h4>Practical example — “Enable Hopper 1”<a class="headerlink" href="#practical-example-enable-hopper-1" title="Link to this heading">#</a></h4>
+<div class="isw-example">
+<div class="isw-example-title">Hopper_1_Enable → ControlWord 30017</div>
+<div class="isw-example-body">
+<div>
+<div>
+<div class="isw-example-col-title">TCP Server</div>
+<p>Via generic ControlWord:</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>30017[0]%</code><br>
+RETURN IF OK:&nbsp;&nbsp;&nbsp;<span class="ok">30017[0]</span>
+</div>
+<p>Or, for start only, with the dedicated message:</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>Hopper1Start%</code><br>
+RETURN:&nbsp;&nbsp;&nbsp;<span class="ok">Hopper1Start *</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="practical-example-set-the-amplitude-of-hopper-2-to-220">
+<h4>Practical example — “Set the amplitude of Hopper 2 to 220”<a class="headerlink" href="#practical-example-set-the-amplitude-of-hopper-2-to-220" title="Link to this heading">#</a></h4>
+<div class="isw-example">
+<div class="isw-example-title">Hopper_2_Amplitude → ControlWord 30006, Data_1 = 220</div>
+<div class="isw-example-body">
+<div>
+<div>
+<div class="isw-example-col-title">TCP Server</div>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>30006[220]%</code><br>
+RETURN IF OK:&nbsp;&nbsp;&nbsp;<span class="ok">30006[0]</span>
+</div>
+<p>Example of an <strong>out-of-range value</strong> (amplitude 2200 not allowed, range 50–220):</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>30006[2200]%</code><br>
+RETURN IF NOT OK:&nbsp;&nbsp;&nbsp;<span class="ko">2[0]</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="hopper-read-commands">
+<h3>Hopper READ Commands<a class="headerlink" href="#hopper-read-commands" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>READ ControlWord</p></th>
+<th class="head"><p>ReturnData_2 range</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Hopper_1_Id</p></td>
+<td><p>30101</p></td>
+<td><p>1–100</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_1_Amplitude</p></td>
+<td><p>30102</p></td>
+<td><p>50–220</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_1_Frequency</p></td>
+<td><p>30103</p></td>
+<td><p>40–70</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_1_Activation_Time</p></td>
+<td><p>30104</p></td>
+<td><p>400–60000</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_2_Id</p></td>
+<td><p>30105</p></td>
+<td><p>1–100</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_2_Amplitude</p></td>
+<td><p>30106</p></td>
+<td><p>50–220</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_2_Frequency</p></td>
+<td><p>30107</p></td>
+<td><p>40–70</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_2_Activation_Time</p></td>
+<td><p>30108</p></td>
+<td><p>400–60000</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_3_Id</p></td>
+<td><p>30109</p></td>
+<td><p>1–100</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_3_Amplitude</p></td>
+<td><p>30110</p></td>
+<td><p>50–220</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_3_Frequency</p></td>
+<td><p>30111</p></td>
+<td><p>40–70</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_3_Activation_Time</p></td>
+<td><p>30112</p></td>
+<td><p>400–60000</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_4_Id</p></td>
+<td><p>30113</p></td>
+<td><p>1–100</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_4_Amplitude</p></td>
+<td><p>30114</p></td>
+<td><p>50–220</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_4_Frequency</p></td>
+<td><p>30115</p></td>
+<td><p>40–70</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_4_Activation_Time</p></td>
+<td><p>30116</p></td>
+<td><p>400–60000</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_1_Ready</p></td>
+<td><p>30117</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = not ready, 1 = ready</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_2_Ready</p></td>
+<td><p>30118</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = not ready, 1 = ready</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_3_Ready</p></td>
+<td><p>30119</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = not ready, 1 = ready</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_4_Ready</p></td>
+<td><p>30120</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = not ready, 1 = ready</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_1_InVibration</p></td>
+<td><p>30121</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = stopped, 1 = vibrating</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_2_InVibration</p></td>
+<td><p>30122</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = stopped, 1 = vibrating</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_3_InVibration</p></td>
+<td><p>30123</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = stopped, 1 = vibrating</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_4_InVibration</p></td>
+<td><p>30124</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = stopped, 1 = vibrating</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_1_Enabled</p></td>
+<td><p>30125</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = disabled, 1 = enabled</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_2_Enabled</p></td>
+<td><p>30126</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = disabled, 1 = enabled</p></td>
+</tr>
+<tr class="row-even"><td><p>Hopper_3_Enabled</p></td>
+<td><p>30127</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = disabled, 1 = enabled</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hopper_4_Enabled</p></td>
+<td><p>30128</p></td>
+<td><p>0–1</p></td>
+<td><p>0 = disabled, 1 = enabled</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<section id="practical-example-read-the-frequency-of-hopper-4">
+<span id="tcp-readhopper"></span><h4>Practical example — “Read the frequency of Hopper 4”<a class="headerlink" href="#practical-example-read-the-frequency-of-hopper-4" title="Link to this heading">#</a></h4>
+<div class="isw-example">
+<div class="isw-example-title">Hopper_4_Frequency → ControlWord 30115</div>
+<div class="isw-example-body">
+<div>
+<div>
+<div class="isw-example-col-title">TCP Server</div>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>30115[0]%</code><br>
+RETURN IF OK:&nbsp;&nbsp;&nbsp;<span class="ok">30115[40]</span>
+</div>
+<p>Example of a <strong>non-interpretable command</strong> (non-existent READ ControlWord):</p>
+<div class="isw-example-tcp">
+INPUT:&nbsp;&nbsp;&nbsp;<code>30199[0]%</code><br>
+RETURN IF NOT OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For the Emptying commands, refer to the <a class="reference internal" href="04_interfaccia-software.html#sec-empty"><span class="std std-ref">Emptying Commands</span></a> section</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>For the Error Codes, refer to the <a class="reference internal" href="04_interfaccia-software.html#sec-err"><span class="std std-ref">Error Codes</span></a> section</p>
+</div>
+<br>
+<!-- Versions and languages set-up -->
+<style>
+  .fixed-bar {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(240, 240, 240, 0.85);
+    border: 1px solid rgba(100, 100, 100, 0.3);
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+    color: #222;
+    display: flex;
+    gap: 12px;
+    padding: 6px 12px;
+    align-items: center;
+    z-index: 9999;
+    backdrop-filter: saturate(180%) blur(10px);
+  }
+
+  @media print {
+    .fixed-bar {
+      display: none !important;
+    }
+  }
+
+  .fixed-bar .dropdown {
+    position: relative;
+    user-select: none;
+  }
+
+  .fixed-bar .dropdown-toggle {
+    background-color: rgba(200, 200, 200, 0.4);
+    color: #222;
+    padding: 6px 10px;
+    border: 1px solid rgba(100, 100, 100, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+  }
+
+  .fixed-bar .dropdown-toggle::after {
+    content: none !important;
+    display: none !important;
+  }
+
+  .fixed-bar .dropdown-toggle:hover {
+    background-color: rgba(100, 150, 220, 0.2);
+    color: #1a3e72;
+    border-color: rgba(26, 62, 114, 0.6);
+  }
+
+  .fixed-bar .dropdown-toggle .fa {
+    font-size: 0.9rem;
+  }
+
+  .fixed-bar .dropdown-menu {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background-color: rgba(250, 250, 250, 0.95);
+    border: 1px solid rgba(150, 150, 150, 0.3);
+    border-radius: 4px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    min-width: 140px;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    flex-direction: column;
+    z-index: 10000;
+    backdrop-filter: saturate(180%) blur(8px);
+  }
+
+  .fixed-bar .dropdown-menu.show {
+    display: flex;
+  }
+
+  .fixed-bar .dropdown-menu a {
+    padding: 8px 12px;
+    color: #1a3e72;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+    white-space: nowrap;
+    transition: background-color 0.25s ease;
+  }
+
+  .fixed-bar .dropdown-menu a:last-child {
+    border-bottom: none;
+  }
+
+  .fixed-bar .dropdown-menu a:hover {
+    background-color: rgba(100, 150, 220, 0.15);
+  }
+
+  .dropdown-download-buttons .btn__icon-container svg {
+    width: 1em;
+    height: 1em;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    vertical-align: middle;
+  }
+
+  a.headerlink.manual-heading-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.2em;
+    text-decoration: none;
+    color: #7b8493;
+    transition: color 0.2s ease, opacity 0.2s ease;
+  }
+
+  a.headerlink.manual-heading-action svg {
+    width: 0.8em;
+    height: 0.8em;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    vertical-align: middle;
+  }
+
+  a.headerlink.manual-feedback-link:hover,
+  a.headerlink.manual-feedback-link:focus-visible {
+    color: #2563eb;
+  }
+
+  a.headerlink.manual-service-link:hover,
+  a.headerlink.manual-service-link:focus-visible {
+    color: #d97706;
+  }
+</style>
+<div class="fixed-bar" role="region" aria-label="Version and language selector">
+  <div class="dropdown" data-selector="version">
+    <div class="dropdown-toggle" tabindex="0" aria-haspopup="listbox" aria-expanded="false">
+      Version: <span class="current-value">V. 1.0</span>
+      <span class="caret-icon" aria-hidden="true">&#9662;</span>
+    </div>
+    <div class="dropdown-menu" role="listbox">
+      	<a href="#" role="option">V. 1.0</a>
+    </div>
+  </div>
+  <div class="dropdown" data-selector="language">
+    <div class="dropdown-toggle" tabindex="0" aria-haspopup="listbox" aria-expanded="false">
+      Language: <span class="current-value">EN</span>
+      <span class="caret-icon" aria-hidden="true">&#9662;</span>
+    </div>
+    <div class="dropdown-menu" role="listbox">
+      	<a href="#" role="option">DE</a>
+				<a href="#" role="option">EN</a>
+				<a href="#" role="option">ES</a>
+				<a href="#" role="option">FR</a>
+				<a href="#" role="option">IT</a>
+    </div>
+  </div>
+</div>
+<script>
+  (function () {
+    const bar = document.querySelector('.fixed-bar');
+    if (!bar) {
+      return;
+    }
+
+    const inlineVersions = ["V. 1.0"];
+    const inlineLanguages = ["DE", "EN", "ES", "FR", "IT"];
+    const manifest = window.FV_VERSIONING || null;
+    const versions = Array.isArray(manifest && manifest.versions) && manifest.versions.length
+      ? manifest.versions
+      : inlineVersions;
+    const offlineZipEnabled = false;
+    const offlineZipFileName = 'Offline manual.zip';
+    const americanRegions = new Set([
+      'AG', 'AR', 'AW', 'BB', 'BL', 'BM', 'BO', 'BQ', 'BR', 'BS', 'BZ', 'CA', 'CL', 'CO', 'CR',
+      'CU', 'CW', 'DM', 'DO', 'EC', 'FK', 'GD', 'GF', 'GL', 'GP', 'GT', 'GY', 'HN', 'HT', 'JM',
+      'KN', 'KY', 'LC', 'MF', 'MQ', 'MS', 'MX', 'NI', 'PA', 'PE', 'PM', 'PR', 'PY', 'SR', 'SV',
+      'SX', 'TC', 'TT', 'US', 'UY', 'VC', 'VE', 'VG', 'VI', '419'
+    ]);
+    const additionalAmericanTimeZones = new Set([
+      'Atlantic/Bermuda',
+      'Pacific/Easter',
+      'Pacific/Galapagos',
+      'Pacific/Honolulu',
+      'Pacific/Pitcairn'
+    ]);
+
+    function setCaret(toggle, isOpen) {
+      const caret = toggle.querySelector('.caret-icon');
+      if (caret) {
+        caret.innerHTML = isOpen ? '&#9652;' : '&#9662;';
+      }
+    }
+
+    function closeAllMenus() {
+      bar.querySelectorAll('.dropdown').forEach(dropdown => {
+        const menu = dropdown.querySelector('.dropdown-menu');
+        const toggle = dropdown.querySelector('.dropdown-toggle');
+        menu.classList.remove('show');
+        toggle.setAttribute('aria-expanded', 'false');
+        setCaret(toggle, false);
+      });
+    }
+
+    function getLanguagesForVersion(version) {
+      const manifestLanguages = manifest &&
+        manifest.languagesByVersion &&
+        Array.isArray(manifest.languagesByVersion[version]) &&
+        manifest.languagesByVersion[version].length
+          ? manifest.languagesByVersion[version]
+          : null;
+
+      if (manifestLanguages) {
+        return manifestLanguages;
+      }
+
+      return inlineLanguages;
+    }
+
+    function getDefaultLanguageForVersion(version) {
+      const manifestDefault = manifest &&
+        manifest.defaultLanguageByVersion &&
+        typeof manifest.defaultLanguageByVersion[version] === 'string'
+          ? manifest.defaultLanguageByVersion[version]
+          : '';
+
+      if (manifestDefault) {
+        return manifestDefault;
+      }
+
+      const availableLanguages = getLanguagesForVersion(version);
+      return availableLanguages.length ? availableLanguages[0] : (inlineLanguages[0] || '');
+    }
+
+    function populateSelectorMenu(selector, values) {
+      const menu = bar.querySelector(`[data-selector="${selector}"] .dropdown-menu`);
+      if (!menu) {
+        return;
+      }
+
+      menu.innerHTML = '';
+      values.forEach(value => {
+        const link = document.createElement('a');
+        link.href = '#';
+        link.setAttribute('role', 'option');
+        link.textContent = value;
+        menu.appendChild(link);
+      });
+    }
+
+    function getNavigationContext() {
+      const currentUrl = new URL(window.location.href);
+      const rawSegments = currentUrl.pathname.split('/').filter(Boolean);
+      const decodedSegments = rawSegments.map(segment => decodeURIComponent(segment));
+      const currentVersionLabel = bar.querySelector('[data-selector="version"] .current-value');
+      const currentLanguageLabel = bar.querySelector('[data-selector="language"] .current-value');
+      const fallbackVersion = currentVersionLabel ? currentVersionLabel.textContent.trim() : '';
+      const versionIndex = decodedSegments.findIndex(segment => versions.includes(segment));
+      const currentVersion = versionIndex !== -1 ? decodedSegments[versionIndex] : fallbackVersion;
+      const availableLanguages = getLanguagesForVersion(currentVersion);
+      const fallbackLanguage = currentLanguageLabel ? currentLanguageLabel.textContent.trim() : '';
+      const languageIndex = decodedSegments.findIndex(
+        (segment, index) => index > versionIndex && availableLanguages.includes(segment)
+      );
+
+      return {
+        currentUrl: currentUrl,
+        rawSegments: rawSegments,
+        versionIndex: versionIndex,
+        currentVersion: currentVersion,
+        currentLanguage: languageIndex !== -1 ? decodedSegments[languageIndex] : fallbackLanguage
+      };
+    }
+
+    function refreshNavigationMenus() {
+      const context = getNavigationContext();
+      const resolvedVersion = versions.includes(context.currentVersion) ? context.currentVersion : (versions[0] || context.currentVersion);
+      const availableLanguages = getLanguagesForVersion(resolvedVersion);
+      const resolvedLanguage = availableLanguages.includes(context.currentLanguage)
+        ? context.currentLanguage
+        : (getDefaultLanguageForVersion(resolvedVersion) || context.currentLanguage);
+
+      populateSelectorMenu('version', versions);
+      populateSelectorMenu('language', availableLanguages);
+
+      const versionLabel = bar.querySelector('[data-selector="version"] .current-value');
+      const languageLabel = bar.querySelector('[data-selector="language"] .current-value');
+      if (versionLabel) {
+        versionLabel.textContent = resolvedVersion;
+      }
+      if (languageLabel) {
+        languageLabel.textContent = resolvedLanguage;
+      }
+    }
+
+    function buildScopedUrl(targetVersion, targetLanguage, pageName) {
+      const context = getNavigationContext();
+      const rootSegments = context.versionIndex !== -1 ? context.rawSegments.slice(0, context.versionIndex) : [];
+      const targetPath = '/' + rootSegments.concat([
+        encodeURIComponent(targetVersion),
+        encodeURIComponent(targetLanguage),
+        encodeURIComponent(pageName)
+      ]).join('/');
+
+      if (context.currentUrl.protocol === 'file:') {
+        return 'file://' + targetPath;
+      }
+
+      return context.currentUrl.origin + targetPath;
+    }
+
+    function buildTargetUrl(targetVersion, targetLanguage) {
+      return buildScopedUrl(targetVersion, targetLanguage, 'index.html');
+    }
+
+    function buildSiteRootAssetUrl(fileName) {
+      const context = getNavigationContext();
+      const rootSegments = context.versionIndex !== -1 ? context.rawSegments.slice(0, context.versionIndex) : [];
+      const targetPath = '/' + rootSegments.concat([encodeURIComponent(fileName)]).join('/');
+
+      if (context.currentUrl.protocol === 'file:') {
+        return 'file://' + targetPath;
+      }
+
+      return context.currentUrl.origin + targetPath;
+    }
+
+    function buildClientSiteZipUrl() {
+      return buildSiteRootAssetUrl(offlineZipFileName);
+    }
+
+    function getHeadingText(heading) {
+      const clone = heading.cloneNode(true);
+      clone.querySelectorAll('a.headerlink').forEach(link => link.remove());
+      return clone.textContent.replace(/\s+/g, ' ').trim();
+    }
+
+    function normalizeMailText(text) {
+      return String(text || '').replace(/\u00AE/g, '');
+    }
+
+    function getTimeZoneAmericaDecision() {
+      try {
+        const timeZone = String(Intl.DateTimeFormat().resolvedOptions().timeZone || '').trim();
+        if (!timeZone) {
+          return null;
+        }
+        return timeZone.startsWith('America/') || additionalAmericanTimeZones.has(timeZone);
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function isCoordinateInAmericas(latitude, longitude) {
+      if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
+        return null;
+      }
+
+      return latitude >= -60 && latitude <= 85 && longitude >= -170 && longitude <= -25;
+    }
+
+    function getCurrentPosition(options) {
+      return new Promise((resolve, reject) => {
+        if (!navigator.geolocation || typeof navigator.geolocation.getCurrentPosition !== 'function') {
+          reject(new Error('Geolocation unavailable'));
+          return;
+        }
+
+        navigator.geolocation.getCurrentPosition(resolve, reject, options);
+      });
+    }
+
+    async function resolveServiceAddress() {
+      const timeZoneDecision = getTimeZoneAmericaDecision();
+      if (timeZoneDecision === false) {
+        return 'service@arsautomation.com';
+      }
+
+      const canTryGeolocation = Boolean(
+        navigator.onLine &&
+        window.isSecureContext &&
+        navigator.geolocation &&
+        typeof navigator.geolocation.getCurrentPosition === 'function'
+      );
+
+      if (canTryGeolocation) {
+        try {
+          const position = await getCurrentPosition({
+            enableHighAccuracy: false,
+            timeout: 4000,
+            maximumAge: 300000
+          });
+          const inAmericas = isCoordinateInAmericas(position.coords.latitude, position.coords.longitude);
+          if (inAmericas !== null) {
+            return inAmericas ? 'us.service@arsautomation.com' : 'service@arsautomation.com';
+          }
+        } catch (error) {
+        }
+      }
+
+      if (timeZoneDecision === true) {
+        return 'us.service@arsautomation.com';
+      }
+
+      return 'service@arsautomation.com';
+    }
+
+    function buildMailtoUrl(address, subject, body) {
+      return 'mailto:' + address +
+        '?subject=' + encodeURIComponent(normalizeMailText(subject)) +
+        '&body=' + encodeURIComponent(normalizeMailText(body));
+    }
+
+    function createHeadingActionLink(className, title, mailtoUrl, svgMarkup) {
+      const link = document.createElement('a');
+      link.className = 'headerlink manual-heading-action ' + className;
+      link.href = mailtoUrl;
+      link.title = title;
+      link.setAttribute('aria-label', title);
+      link.innerHTML = svgMarkup;
+      return link;
+    }
+
+    function addHeadingActions() {
+      const feedbackIcon = [
+        '<svg viewBox="0 0 16 16" aria-hidden="true">',
+        '<path d="M3 3.5h10v6.5H7.5L4.5 13v-3H3z"></path>',
+        '<path d="M6 6.2h4"></path>',
+        '<path d="M6 8.2h3"></path>',
+        '</svg>'
+      ].join('');
+
+        const serviceIcon = [
+          '<svg viewBox="0 0 16 16" aria-hidden="true">',
+          '<circle cx="8" cy="8" r="5.2"></circle>',
+          '<path d="M6.4 6.1A1.9 1.9 0 0 1 8 5.2c1.1 0 1.9.7 1.9 1.7 0 .8-.4 1.3-1.2 1.8-.6.4-.9.8-.9 1.5"></path>',
+          '<circle cx="8" cy="11.7" r="0.45" style="fill:currentColor;stroke:none"></circle>',
+          '</svg>'
+        ].join('');
+
+      document.querySelectorAll('h1 > a.headerlink, h2 > a.headerlink, h3 > a.headerlink, h4 > a.headerlink, h5 > a.headerlink, h6 > a.headerlink').forEach(link => {
+        const heading = link.parentElement;
+        if (!heading || heading.querySelector('.manual-feedback-link') || heading.querySelector('.manual-service-link')) {
+          return;
+        }
+
+        const sectionTitle = getHeadingText(heading);
+        const sectionUrl = new URL(link.getAttribute('href'), window.location.href).href;
+        const pageUrl = window.location.href.split('#')[0];
+        const feedbackBody = [
+          'Hello Documentation Team,',
+          '',
+          'I would like to suggest an improvement for this section of the manual.',
+          '',
+          'Section: ' + sectionTitle,
+          'Page: ' + pageUrl,
+          'Section link: ' + sectionUrl,
+          '',
+          'Suggestion:',
+          ''
+        ].join('\n');
+          const serviceBody = [
+            'Hello Service Team,',
+            '',
+            'I need support related to this section of the manual.',
+            '',
+            'Section: ' + sectionTitle,
+            'Page: ' + pageUrl,
+            'Section link: ' + sectionUrl,
+            '',
+            'FlexiBowl serial number:',
+            '',
+            'Photos or videos of the issue attached:',
+            '',
+            'Issue description:',
+            ''
+          ].join('\n');
+
+        const feedbackLink = createHeadingActionLink(
+          'manual-feedback-link',
+          'Suggest an improvement for this section',
+          buildMailtoUrl('documentation@arsautomation.com', 'Documentation suggestion: ' + sectionTitle, feedbackBody),
+          feedbackIcon
+        );
+          const serviceLink = createHeadingActionLink(
+            'manual-service-link',
+            'Contact service about this section',
+            '#',
+            serviceIcon
+          );
+          serviceLink.addEventListener('click', async event => {
+            event.preventDefault();
+            const serviceAddress = await resolveServiceAddress();
+            window.location.href = buildMailtoUrl(serviceAddress, 'Service request: ' + sectionTitle, serviceBody);
+          });
+
+          heading.appendChild(feedbackLink);
+          heading.appendChild(serviceLink);
+        });
+    }
+
+    function enhancePrintMenu() {
+      const dropdown = document.querySelector('.dropdown-download-buttons');
+      if (!dropdown || dropdown.dataset.printMenuEnhanced === 'true') {
+        return;
+      }
+
+      dropdown.dataset.printMenuEnhanced = 'true';
+
+      const toggleButton = dropdown.querySelector('.dropdown-toggle');
+      const hasReleaseDownloads = offlineZipEnabled;
+
+      if (toggleButton) {
+        const toggleLabel = hasReleaseDownloads ? 'Export options' : 'Print options';
+        toggleButton.setAttribute('aria-label', toggleLabel);
+        toggleButton.setAttribute('title', toggleLabel);
+        toggleButton.setAttribute('data-bs-original-title', toggleLabel);
+        const toggleIcon = toggleButton.querySelector('i');
+        if (toggleIcon) {
+          toggleIcon.className = hasReleaseDownloads ? 'fas fa-download' : 'fas fa-print';
+        }
+      }
+
+      dropdown.querySelectorAll('.btn-download-source-button').forEach(sourceButton => {
+        const sourceItem = sourceButton.closest('li');
+        if (sourceItem) {
+          sourceItem.remove();
+        }
+      });
+
+      const pagePrintButton = dropdown.querySelector('.btn-download-pdf-button');
+      if (pagePrintButton) {
+        pagePrintButton.setAttribute('title', 'Print this page');
+        pagePrintButton.setAttribute('aria-label', 'Print this page');
+        pagePrintButton.setAttribute('data-bs-original-title', 'Print this page');
+        const textContainer = pagePrintButton.querySelector('.btn__text-container');
+        if (textContainer) {
+          textContainer.textContent = 'Print this page';
+        }
+      }
+
+      const menu = dropdown.querySelector('.dropdown-menu');
+      if (!menu) {
+        return;
+      }
+
+      menu.querySelectorAll('.btn-download-client-site-zip-button').forEach(button => {
+        const item = button.closest('li');
+        if (item) {
+          item.remove();
+        }
+      });
+
+      if (offlineZipEnabled) {
+        const siteZipItem = document.createElement('li');
+        const siteZipLink = document.createElement('a');
+        siteZipLink.className = 'btn btn-sm dropdown-item btn-download-client-site-zip-button';
+        siteZipLink.title = 'Download offline manual';
+        siteZipLink.setAttribute('aria-label', 'Download offline manual');
+        siteZipLink.setAttribute('download', offlineZipFileName);
+        siteZipLink.href = buildClientSiteZipUrl();
+        siteZipLink.innerHTML = [
+          '<span class="btn__icon-container">',
+          '<svg viewBox="0 0 16 16" aria-hidden="true">',
+          '<path d="M4 3.5h8v2.5H4z"></path>',
+          '<path d="M4 6h8v6.5H4z"></path>',
+          '<path d="M8 3.5v9"></path>',
+          '<path d="M6.3 9.2L8 10.9l1.7-1.7"></path>',
+          '</svg>',
+          '</span>',
+          '<span class="btn__text-container">Download offline manual</span>'
+        ].join('');
+        siteZipItem.appendChild(siteZipLink);
+        menu.appendChild(siteZipItem);
+      }
+    }
+
+    refreshNavigationMenus();
+
+    bar.querySelectorAll('.dropdown').forEach(dropdown => {
+      const toggle = dropdown.querySelector('.dropdown-toggle');
+      const menu = dropdown.querySelector('.dropdown-menu');
+      const selector = dropdown.getAttribute('data-selector');
+
+      toggle.addEventListener('click', event => {
+        event.stopPropagation();
+        const willOpen = toggle.getAttribute('aria-expanded') !== 'true';
+        closeAllMenus();
+
+        if (willOpen) {
+          menu.classList.add('show');
+          toggle.setAttribute('aria-expanded', 'true');
+          setCaret(toggle, true);
+        }
+      });
+
+      menu.addEventListener('click', event => {
+        const link = event.target.closest('a');
+        if (!link) {
+          return;
+        }
+
+        event.preventDefault();
+        const selectedValue = link.textContent.trim();
+        const context = getNavigationContext();
+        if (!selectedValue) {
+          return;
+        }
+
+        if (selector === 'version') {
+          const targetVersion = selectedValue;
+          const availableLanguages = getLanguagesForVersion(targetVersion);
+          const targetLanguage = availableLanguages.includes(context.currentLanguage)
+            ? context.currentLanguage
+            : getDefaultLanguageForVersion(targetVersion);
+          if (targetLanguage) {
+            window.location.href = buildTargetUrl(targetVersion, targetLanguage);
+          }
+          return;
+        }
+
+        window.location.href = buildTargetUrl(context.currentVersion, selectedValue);
+      });
+    });
+
+    window.addEventListener('click', closeAllMenus);
+    window.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        closeAllMenus();
+      }
+    });
+
+    addHeadingActions();
+    enhancePrintMenu();
+  })();
+</script>
+</section>
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="04a_interfaccia_software.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Ethernet/IP, Profinet, Modbus</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../INTERFACCIA%20SOFTWARE/04_home.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">[SOF] <strong>Home</strong></p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tcp-syntax-table">TCP syntax table</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meaning-of-returndata-1-or-tcp-response">Meaning of ReturnData_1 (or TCP response)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#command-protocol">Command Protocol</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exe"><span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-example-execute-sequence-3">Practical example — “Execute Sequence 3”</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#write"><span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#sequence-addressing-logic">Sequence addressing logic</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#writable-parameters-for-each-sequence">Writable parameters for each sequence</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#write-controlword-examples">WRITE ControlWord examples</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-example-set-the-move-acceleration-to-80-in-sequence-7">Practical example — “Set the Move acceleration to 80 in Sequence 7”</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#write-jog-parameters">WRITE JOG parameters</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#read"><span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#read-sequence-addressing-logic">READ sequence addressing logic</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#read-controlword-examples">READ ControlWord examples</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-example-read-the-angle-of-sequence-16">Practical example — “Read the angle of Sequence 16”</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parametri-read-jog">Parametri READ JOG</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hopper"><span class="isw-section-badge isw-badge-hop"><i class="ph ph-funnel"></i> HOPPER</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start-via-tcp">Quick start via TCP</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hopper-write-commands">Hopper WRITE Commands</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-example-enable-hopper-1">Practical example — “Enable Hopper 1”</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-example-set-the-amplitude-of-hopper-2-to-220">Practical example — “Set the amplitude of Hopper 2 to 220”</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hopper-read-commands">Hopper READ Commands</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-example-read-the-frequency-of-hopper-4">Practical example — “Read the frequency of Hopper 4”</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By ARS Automation
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2026, Ars Automation.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../../../_shared/static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9"></script>
+<script defer src="../../../../_shared/static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9"></script>
+
+  <footer class="bd-footer">
+  </footer>
+    <dialog id="ars-protected-access-dialog" class="ars-protected-access-dialog">
+    <form id="ars-protected-access-form" class="ars-protected-access-form">
+      <h2>Contenuti riservati</h2>
+      <p>Inserisci la password per mostrare le pagine protette nell'indice.</p>
+      <label for="ars-protected-access-password">Password</label>
+      <input id="ars-protected-access-password" type="password" autocomplete="current-password" required>
+      <div id="ars-protected-access-error" class="ars-protected-access-error" role="alert" aria-live="polite"></div>
+      <div class="ars-protected-access-actions">
+        <button type="button" class="btn btn-sm btn-secondary" data-ars-protected-access-close>Annulla</button>
+        <button type="submit" class="btn btn-sm btn-primary" id="ars-protected-access-submit">Sblocca</button>
+      </div>
+    </form>
+  </dialog>
+  <script id="ars-protected-access-script">
+    (() => {
+      "use strict";
+
+      const verifier = {"version":1,"algorithm":"AES-GCM","kdf":"PBKDF2-SHA256","iterations":250000,"salt":"FYG9MNUmLr60SQfGQ7aG6A==","iv":"55XoO5Rauap9skJ0","ciphertext":"Zs+OO+VJIwK7njt7vkFJgwGLjcdW04uBjQFvrZqsgSdUYpdlm1RC"};
+      const expectedText = "ars-protected-access-ok";
+      const storageKey = "arsProtectedPagePassword";
+      const encoder = new TextEncoder();
+      const decoder = new TextDecoder();
+
+      function b64ToBytes(value) {
+        const binary = atob(value);
+        const bytes = new Uint8Array(binary.length);
+        for (let i = 0; i < binary.length; i += 1) {
+          bytes[i] = binary.charCodeAt(i);
+        }
+        return bytes;
+      }
+
+      async function deriveKey(password, salt, iterations) {
+        const passwordKey = await crypto.subtle.importKey(
+          "raw",
+          encoder.encode(password),
+          "PBKDF2",
+          false,
+          ["deriveKey"]
+        );
+        return crypto.subtle.deriveKey(
+          {
+            name: "PBKDF2",
+            salt,
+            iterations,
+            hash: "SHA-256"
+          },
+          passwordKey,
+          { name: "AES-GCM", length: 256 },
+          false,
+          ["decrypt"]
+        );
+      }
+
+      async function verifyPassword(password) {
+        const salt = b64ToBytes(verifier.salt);
+        const iv = b64ToBytes(verifier.iv);
+        const ciphertext = b64ToBytes(verifier.ciphertext);
+        const key = await deriveKey(password, salt, verifier.iterations);
+        const clearBytes = await crypto.subtle.decrypt({ name: "AES-GCM", iv }, key, ciphertext);
+        return decoder.decode(clearBytes) === expectedText;
+      }
+
+      function getSavedPassword() {
+        try {
+          return sessionStorage.getItem(storageKey);
+        } catch (_) {
+          return null;
+        }
+      }
+
+      function savePassword(password) {
+        try {
+          sessionStorage.setItem(storageKey, password);
+        } catch (_) {
+        }
+      }
+
+      function forgetPassword() {
+        try {
+          sessionStorage.removeItem(storageKey);
+        } catch (_) {
+        }
+      }
+
+      function setUnlocked(unlocked) {
+        document.documentElement.dataset.arsProtectedUnlocked = unlocked ? "true" : "false";
+        document.querySelectorAll("[data-ars-protected-access-button] i").forEach((icon) => {
+          icon.classList.toggle("fa-lock", !unlocked);
+          icon.classList.toggle("fa-unlock", unlocked);
+        });
+        document.querySelectorAll("[data-ars-protected-access-button]").forEach((button) => {
+          const label = unlocked ? "Contenuti riservati sbloccati" : "Sblocca contenuti riservati";
+          button.setAttribute("title", label);
+          button.setAttribute("aria-label", label);
+        });
+      }
+
+      function setError(message) {
+        const errorBox = document.getElementById("ars-protected-access-error");
+        if (errorBox) {
+          errorBox.textContent = message;
+        }
+      }
+
+      function openDialog() {
+        const dialog = document.getElementById("ars-protected-access-dialog");
+        const passwordInput = document.getElementById("ars-protected-access-password");
+        setError("");
+        if (!window.crypto || !crypto.subtle) {
+          setError("Apri il manuale tramite HTTPS o localhost per usare lo sblocco.");
+          return;
+        }
+        if (document.documentElement.dataset.arsProtectedUnlocked === "true") {
+          return;
+        }
+        if (dialog && typeof dialog.showModal === "function") {
+          dialog.showModal();
+          if (passwordInput) {
+            passwordInput.focus();
+          }
+          return;
+        }
+        const password = window.prompt("Password contenuti riservati");
+        if (password) {
+          unlockWithPassword(password);
+        }
+      }
+
+      async function unlockWithPassword(password) {
+        const submitButton = document.getElementById("ars-protected-access-submit");
+        if (submitButton) {
+          submitButton.disabled = true;
+        }
+        setError("");
+        try {
+          if (!(await verifyPassword(password))) {
+            throw new Error("Invalid password");
+          }
+          savePassword(password);
+          setUnlocked(true);
+          const dialog = document.getElementById("ars-protected-access-dialog");
+          if (dialog && typeof dialog.close === "function") {
+            dialog.close();
+          }
+        } catch (_) {
+          forgetPassword();
+          setUnlocked(false);
+          const passwordInput = document.getElementById("ars-protected-access-password");
+          if (passwordInput) {
+            passwordInput.select();
+          }
+          setError("Password non valida.");
+        } finally {
+          if (submitButton) {
+            submitButton.disabled = false;
+          }
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll("[data-ars-protected-access-button]").forEach((button) => {
+          button.addEventListener("click", openDialog);
+        });
+
+        const closeButton = document.querySelector("[data-ars-protected-access-close]");
+        if (closeButton) {
+          closeButton.addEventListener("click", () => {
+            const dialog = document.getElementById("ars-protected-access-dialog");
+            if (dialog && typeof dialog.close === "function") {
+              dialog.close();
+            }
+          });
+        }
+
+        const form = document.getElementById("ars-protected-access-form");
+        if (form) {
+          form.addEventListener("submit", (event) => {
+            event.preventDefault();
+            const passwordInput = document.getElementById("ars-protected-access-password");
+            unlockWithPassword(passwordInput ? passwordInput.value : "");
+          });
+        }
+
+        const savedPassword = getSavedPassword();
+        if (!savedPassword || !window.crypto || !crypto.subtle) {
+          setUnlocked(false);
+          return;
+        }
+
+        verifyPassword(savedPassword)
+          .then((isValid) => {
+            if (isValid) {
+              setUnlocked(true);
+            } else {
+              forgetPassword();
+              setUnlocked(false);
+            }
+          })
+          .catch(() => {
+            forgetPassword();
+            setUnlocked(false);
+          });
+      });
+    })();
+  </script>
+</body>
+</html>
