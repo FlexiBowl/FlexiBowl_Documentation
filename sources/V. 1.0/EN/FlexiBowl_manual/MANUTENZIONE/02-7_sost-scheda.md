@@ -1,1 +1,0 @@
-# [ELE] **Sostituzione Scheda**

@@ -1,1 +1,0 @@
-# **Software Problems Resolutions**
