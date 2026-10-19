@@ -1,5 +1,5 @@
 # **Manuale FlexiBowl**
-PROVA
+
 ## **Benvenuto nel manuale FlexiBowl®!**  
 Siamo entusiasti di darvi il benvenuto alla vostra nuova guida di FlexiBowl®!
 Questo manuale è stato creato appositamente per essere il vostro punto di riferimento chiaro e affidabile. Ci auguriamo che, consultandolo, possiate godere appieno di tutti i benefici del nostro sistema.
@@ -198,6 +198,7 @@ FlexiBowl_manual/LAYOUT BEST PRACTICE/01_layoutbp.md
 :caption: ACCESSORI
 FlexiBowl_manual/ACCESSORI/00_ACCESSORI.md
 FlexiBowl_manual/ACCESSORI/01_SUPERFICI.md
+FlexiBowl_manual/ACCESSORI/02_DISCHI_RIGIDI.md
 FlexiBowl_manual/ACCESSORI/03_04_illuminazione.md
 FlexiBowl_manual/ACCESSORI/05_DEVIATORE.md
 FlexiBowl_manual/ACCESSORI/06_SOFFI.md

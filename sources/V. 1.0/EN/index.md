@@ -198,6 +198,7 @@ FlexiBowl_manual/LAYOUT BEST PRACTICE/01_layoutbp.md
 :caption: ACCESSORIES
 FlexiBowl_manual/ACCESSORI/00_ACCESSORI.md
 FlexiBowl_manual/ACCESSORI/01_SUPERFICI.md
+FlexiBowl_manual/ACCESSORI/02_DISCHI_RIGIDI.md
 FlexiBowl_manual/ACCESSORI/03_04_illuminazione.md
 FlexiBowl_manual/ACCESSORI/05_DEVIATORE.md
 FlexiBowl_manual/ACCESSORI/06_SOFFI.md
