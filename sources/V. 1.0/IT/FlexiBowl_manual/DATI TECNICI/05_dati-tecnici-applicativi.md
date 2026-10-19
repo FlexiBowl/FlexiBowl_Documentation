@@ -177,8 +177,8 @@ html[data-theme="dark"] .fc{
         <div class="fc-f"><label for="fc-h">Altezza massima <i>H</i></label>
           <div class="fc-unit"><input id="fc-h" type="number" inputmode="decimal" min="0" step="0.1" placeholder="es. 12"><span>mm</span></div></div>
         <div class="fc-f"><label for="fc-b">Larghezza minima base <i>B<sub>min</sub></i></label>
-          <div class="fc-unit"><input id="fc-b" type="number" inputmode="decimal" min="0" step="0.1" placeholder="es. 8"><span>mm</span></div></div>
-          <div class="fc-hint">*B<sub>min</sub>* è il lato più stretto del rettangolo d'ingombro della base d'appoggio</div></div>
+          <div class="fc-unit"><input id="fc-b" type="number" inputmode="decimal" min="0" step="0.1" placeholder="es. 8"><span>mm</span></div>
+          <div class="fc-hint"><i>B<sub>min</sub></i> è il lato più stretto del rettangolo d'ingombro della base d'appoggio</div></div>
         <div class="fc-f"><label for="fc-m">Massa</label>
           <div class="fc-unit"><input id="fc-m" type="number" inputmode="decimal" min="0" step="0.1" placeholder="es. 25"><span>g</span></div></div>
       </div>
@@ -266,12 +266,12 @@ html[data-theme="dark"] .fc{
     else hint.textContent='';
     press($('fc-surf'), st.surf);
   }
-  ['fc-h','fc-b','fc-m','fc-l'].forEach(function(id){ $(id).addEventListener('input', calc); });
+  ['fc-h','fc-b','fc-m'].forEach(function(id){ $(id).addEventListener('input', calc); });
 
   function li(cls, icon, html){ return '<li class="'+cls+'"><i class="ph-fill ph-'+icon+'"></i><span>'+html+'</span></li>'; }
 
   function calc(){
-    var H=num('fc-h'), B=num('fc-b'), M=num('fc-m'), L=num('fc-l'), out=$('fc-out');
+    var H=num('fc-h'), B=num('fc-b'), M=num('fc-m'), out=$('fc-out');
     var missing=[];
     if(!st.size) missing.push('taglia'); if(!H) missing.push('altezza H'); if(!B) missing.push('larghezza B<sub>min</sub>');
     if(!M) missing.push('massa'); if(!st.mat) missing.push('materiale'); if(!st.surf) missing.push('piano di lavoro');
@@ -299,9 +299,6 @@ html[data-theme="dark"] .fc{
                    : li('fc-err','x-circle','Altezza '+f1(H)+' mm oltre il limite di <b>'+S.maxH+' mm</b>: il pezzo potrebbe non avere lo spazio per ribaltarsi sotto lo schermo flip.');
     c += M<=S.maxM ? li('fc-ok','check-circle','Massa '+f1(M)+' g entro il limite di '+S.maxM+' g.')
                    : li('fc-err','x-circle','Massa '+f1(M)+' g oltre il limite di <b>'+S.maxM+' g</b> per il FlexiBowl® '+st.size+'.');
-    if(L) c += L<=S.maxDim ? li('fc-ok','check-circle','Dimensione massima '+f1(L)+' mm entro il limite di '+S.maxDim+' mm.')
-                           : li('fc-err','x-circle','Dimensione massima '+f1(L)+' mm oltre il limite di <b>'+S.maxDim+' mm</b>.');
-    if(L && L<Math.max(H,B)) c += li('fc-warn','warning','La dimensione massima è inferiore ad H o B<sub>min</sub>: verificare le misure inserite.');
     if(Is<1.0) c += li('fc-warn','warning','Pezzo largo e basso: richiede la massima energia del flip.');
     else if(Is<=2.0) c += li('fc-warn','warning','Indice di snellezza in zona critica: il comportamento dipende dalla simmetria del pezzo, <b>validare con un test pratico</b>.');
     if(capped) c += li('fc-err','x-circle','Il calcolo restituisce '+f2(P)+' bar, oltre la massima pressione di esercizio del cilindro flip: impostare <b>6,0 bar</b> e aumentare il <b>Flip Count</b> se il pezzo non si ribalta costantemente.');
@@ -329,7 +326,7 @@ html[data-theme="dark"] .fc{
   }
   function reset(){
     st={size:null,mat:null,surf:null};
-    ['fc-h','fc-b','fc-m','fc-l'].forEach(function(id){ $(id).value=''; });
+    ['fc-h','fc-b','fc-m'].forEach(function(id){ $(id).value=''; });
     ['fc-size','fc-mat','fc-surf'].forEach(function(g){ press($(g),'__'); });
     $('fc-surf').querySelectorAll('button').forEach(function(b){ b.disabled=false; });
     $('fc-surf-hint').textContent='';
