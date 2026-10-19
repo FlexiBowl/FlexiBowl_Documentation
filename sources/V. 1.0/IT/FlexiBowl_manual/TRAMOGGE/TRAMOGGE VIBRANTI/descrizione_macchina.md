@@ -356,27 +356,27 @@ ARS S.r.l. non risponde per danni causati a cose o persone nel caso:
   - Frequenza / Fase
   - Assorbimento (A)
 * - 1,5 lt
-  - 230Vac ±5% (115Vac su richiesta)
+  - 230Vac ±5% ({ref}`115Vac su richiesta <tramoggia-110v>`)
   - 50-60 Hz / monofase
   - 0,1
 * - 3 lt
-  - 230Vac ±5% (115Vac su richiesta)
+  - 230Vac ±5% ({ref}`115Vac su richiesta <tramoggia-110v>`)
   - 50-60 Hz / monofase
   - 0,1
 * - 5 lt
-  - 230Vac ±5% (115Vac su richiesta)
+  - 230Vac ±5% ({ref}`115Vac su richiesta <tramoggia-110v>`)
   - 50-60 Hz / monofase
   - 0,25
 * - 10 lt
-  - 230Vac ±5% (115Vac su richiesta)
+  - 230Vac ±5% ({ref}`115Vac su richiesta <tramoggia-110v>`)
   - 50-60 Hz / monofase
   - 0,25
 * - 20 lt
-  - 230Vac ±5% (115Vac su richiesta)
+  - 230Vac ±5% ({ref}`115Vac su richiesta <tramoggia-110v>`)
   - 50-60 Hz / monofase
   - 0,25
 * - 40 lt
-  - 230Vac ±5% (115Vac su richiesta)
+  - 230Vac ±5% ({ref}`115Vac su richiesta <tramoggia-110v>`)
   - 50-60 Hz / monofase
   - 0,45
 ```
@@ -427,7 +427,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
   - STANDARD (esclusa tramoggia 1,5lt)
 
 * - Barriera dosatrice
-  - Dosatore a barriera per regolazione del flusso (registrabile)
+  - Dosatore a barriera per regolazione del flusso (registrabile). Vedi {ref}`barriera`.
   - 
     :::{image} ../../../../../_shared/media/images/barriera_dosatrice.jpg
     :alt: Barriera dosatrice
@@ -437,7 +437,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
   - OPZIONALE (esclusa tramoggia 1,5lt)
 
 * - Protezione di sicurezza
-  - Protezione di sicurezza per mani
+  - Protezione di sicurezza per mani. Vedi {ref}`hand-guard`.
   - 
     :::{image} ../../../../../_shared/media/images/protezione_sicurezza.jpg
     :alt: Protezione di sicurezza
@@ -447,7 +447,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
   - OPZIONALE (esclusa tramoggia 1,5lt)
 
 * - Rivestimento
-  - Rivestimento della vasca in poliuretano
+  - Rivestimento della vasca in poliuretano. Vedi {ref}`tramoggia-pu`.
   - 
     :::{image} ../../../../../_shared/media/images/rivestimento.png
         :alt: Rivestimento
@@ -457,7 +457,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
   - OPZIONALE (esclusa tramoggia 1,5lt)
 
 * - Fotocellula frontale
-  - Ha la funzione di verificare la presenza di componenti nella zona frontale della vasca vibrante durante il processo di alimentazione. Per maggiori informazioni fare riferimento all’Appendice A: “Frontal and Rear Photocells”.
+  - Ha la funzione di verificare la presenza di componenti nella zona frontale della vasca vibrante durante il processo di alimentazione. Vedi {ref}`fotocellula-frontale`.
   - 
     :::{image} ../../../../../_shared/media/images/fotocellula_frontale.png
         :alt: Fotocellula frontale
@@ -467,7 +467,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
   - OPZIONALE (esclusa tramoggia 1,5lt)
 
 * - Fotocellula posteriore
-  - Ha la funzione di monitorare il livello dei pezzi presenti dentro alla vasca. Per maggiori informazioni fare riferimento all’Appendice A: “Frontal and Rear Photocells”.
+  - Ha la funzione di monitorare il livello dei pezzi presenti dentro alla vasca. Vedi {ref}`fotocellula-posteriore`.
   - 
     :::{image} ../../../../../_shared/media/images/fotocellula_posteriore.png
         :alt: Fotocellula posteriore
@@ -477,6 +477,10 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
   - OPZIONALE (esclusa tramoggia 1,5lt)
 
 ```
+
+:::{note}
+L'elenco completo di varianti, accessori e opzioni disponibili a listino (incluse le versioni 110 V, i kit antivibranti e i cavi del controller) è riportato nella pagina {ref}`Accessori e Opzioni <tramoggia-accessori>`.
+:::
 
 ### Ciclo di lavorazione 
 

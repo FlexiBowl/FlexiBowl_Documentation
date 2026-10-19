@@ -294,7 +294,7 @@ All'interno della confezione sono presenti il **FlexiBowl®** e tutti gli adatta
   - —
 ```
 :::{note}
-I cavi di collegamento sono acquistabili separatamente come opzione in 3, 5 o 10 metri. 
+I cavi di collegamento sono acquistabili separatamente come opzione in 3, 5 o 10 metri: vedi {ref}`Cavi di collegamento <cavi>`.
 :::
 
 ---
@@ -313,7 +313,7 @@ I cavi di collegamento sono acquistabili separatamente come opzione in 3, 5 o 10
   - :::{image} ../../../../_shared/media/images/FB350.png
     :width: 100%
     :::
-  - Include anche il **rack** e i relativi **cavi di collegamento**, necessari per l'elettronica esterna. I cavi inclusi, lunghi 3 m, permettono di effettuare tutti i collegamenti tra rack e FlexiBowl®. In opzione è possibile averli da 5/10 metri. 
+  - Include anche il **rack** e i relativi **cavi di collegamento**, necessari per l'elettronica esterna. I cavi inclusi, lunghi 3 m, permettono di effettuare tutti i collegamenti tra rack e FlexiBowl®. In opzione è possibile averli da 5/10 metri ({ref}`vedi cavi per rack <cavo-rack>`).
     :::{image} ../../../../_shared/media/images/rack.png
     :width: 100%
     :::
@@ -348,5 +348,6 @@ La chiavetta USB fornita in dotazione contiene:
 
 - I **manuali** dell'unità (versione offline della documentazione)
 - Il **rapporto di collaudo** (test report) individuale del FlexiBowl® acquistato
+
 
 

@@ -234,6 +234,10 @@ Il controller della tramoggia dispone di: ingresso alimentazione di rete (terra,
 5. Con l'interruttore del controller in posizione OFF, collegare il cavo di alimentazione alla presa di rete. L'alimentazione standard è 115 o 230 VAC ±5% (la versione a 115 V è disponibile solo su richiesta esplicita).
 6. Accendere il controller dall'interruttore generale.
 
+:::{tip}
+Il cavo Modbus RTU tra controller e FlexiBowl® è disponibile nelle lunghezze da 3, 5 e 10 m: vedi {ref}`cavo-modbus`.
+:::
+
 :::{note}
 Un singolo FlexiBowl® supporta fino a **4 tramogge**. Per installazioni multi-tramoggia, collegare ogni tramoggia al proprio controller, collegare il primo controller al FlexiBowl® (o al rack) e concatenare i controller successivi tramite la porta del connettore tramoggia (daisy-chain). Tappare la porta inutilizzata sull'ultimo controller della catena e collegare il cavo di alimentazione a ciascun controller.
 :::

@@ -205,6 +205,7 @@ FlexiBowl_manual/ACCESSORI/06_SOFFI.md
 FlexiBowl_manual/ACCESSORI/07_BRUSH_DIVERTER.md
 FlexiBowl_manual/ACCESSORI/08_WEDGE.md
 FlexiBowl_manual/ACCESSORI/09_SVUOTAMENTO.md
+FlexiBowl_manual/ACCESSORI/11_CAVI.md
 :::
 
 :::{toctree}  

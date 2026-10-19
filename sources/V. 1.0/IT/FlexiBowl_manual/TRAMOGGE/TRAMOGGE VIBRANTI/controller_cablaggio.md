@@ -97,7 +97,7 @@ La comunicazione avviene tramite porta **RS485** (protocollo **Modbus**), con in
 
     </div></details>
 * - **Enable Output Port** (4 pin)
-  - Uscita di abilitazione per il controllo esterno della tramoggia, utilizzata quando questa viene acquistata separatamente e deve essere pilotata da un dispositivo esterno
+  - Uscita di abilitazione per il controllo esterno della tramoggia, utilizzata quando questa viene acquistata separatamente e deve essere pilotata da un dispositivo esterno. Cavo disponibile come opzione: {ref}`cavo-input`.
   - <details class="ars-dropdown"><summary>Pinout connettore 4 pin</summary><div class="ars-dropdown-body">
 
     | Pin | Descrizione |
@@ -109,7 +109,7 @@ La comunicazione avviene tramite porta **RS485** (protocollo **Modbus**), con in
 
     </div></details>
 * - **RS485 Port** (2× 5 pin)
-  - Due connettori RS485 identici: uno collega il controller al FlexiBowl®, l'altro consente il collegamento in **daisy chain** tra più tramogge. 
+  - Due connettori RS485 identici: uno collega il controller al FlexiBowl®, l'altro consente il collegamento in **daisy chain** tra più tramogge. Cavo disponibile come opzione: {ref}`cavo-modbus`.
     
     :::{important}
     In configurazione a tramoggia singola, il connettore non utilizzato va chiuso con l'apposito **tappo di terminazione** fornito in dotazione, dotato di resistenza da **120 Ω** tra A+ e B-

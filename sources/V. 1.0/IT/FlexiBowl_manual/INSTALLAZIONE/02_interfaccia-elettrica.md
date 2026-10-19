@@ -321,6 +321,7 @@ L'interfaccia elettrica del FlexiBowl® cambia in base alla taglia della macchin
 
 ---
 
+(pannello-standard)=
 ## FlexiBowl® 500 – 1200 — Pannello Elettrico Standard
 
 ```{list-table}
@@ -458,8 +459,13 @@ L'interfaccia elettrica del FlexiBowl® cambia in base alla taglia della macchin
 Dopo l'accensione, verificare sempre lo stato della macchina tramite i **LED di stato** sul pannello frontale — vedi sezione {ref}`LED di Stato <led-stato>` più in basso in questa pagina.
 :::
 
+:::{tip}
+I cavi di alimentazione ed Ethernet sono disponibili come opzione nelle lunghezze da 3, 5 e 10 m: vedi {ref}`cavo-alim` e {ref}`cavo-eth`.
+:::
+
 ---
 
+(rack-esterno)=
 ## FlexiBowl® 200 / 350 — Rack Esterno
 
 I modelli FlexiBowl® FB 200 e FB 350 sono dotati di un **Rack** esterno, contenente tutti i dispositivi elettronici necessari al funzionamento. I connettori verso gli impianti del cliente si trovano sul rack (non sulla macchina) e hanno la **stessa piedinatura** dei corrispondenti connettori del pannello standard, semplicemente posizionati su un box esterno.
@@ -599,12 +605,17 @@ I modelli FlexiBowl® FB 200 e FB 350 sono dotati di un **Rack** esterno, conten
     ```
 ```
 
+(collegamento-rack)=
 ### Collegamento tra Rack e FlexiBowl®
 
 Il rack comunica con il FlexiBowl® tramite 4 cavi dedicati, ciascuno da collegare **esclusivamente** alla porta con l'etichetta corrispondente sul pannello macchina.
 
 :::{attention}
 Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔ MOTOR, C-A SIGNAL ↔ C-A SIGNAL). Un collegamento incrociato può danneggiare il sistema.
+:::
+
+:::{tip}
+I cavi tra rack e FlexiBowl® da 3 m sono inclusi nella fornitura; le versioni da 5 e 10 m sono disponibili come opzione: vedi {ref}`cavo-rack`.
 :::
 
 ```{list-table}
@@ -748,6 +759,7 @@ Dopo l'accensione, attendere che il LED **Ready/Fault** si accenda: se Hopper e 
 
 ---
 
+(io-flexitrack)=
 ## Opzione FlexiTrack — Pannellino di Interfaccia
 
 Il pannellino in dotazione con l'opzione FlexiTrack aggiunge, oltre ai collegamenti già descritti, i seguenti connettori dedicati:
@@ -819,8 +831,5 @@ In caso di anomalia indicata dal LED rosso (Ready/Fault), fare riferimento alla 
 :::{attention}
 Per ulteriori informazioni tecniche o assistenza, contattare ARS s.r.l. – FlexiBowl® Division.
 :::
-
-
-
 
 

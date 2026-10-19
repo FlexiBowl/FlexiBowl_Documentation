@@ -47,4 +47,8 @@ L’opzione Wedge diverter è compatibile con le taglie 1200/800/650/500 in vers
 
 ## {ref}`Svuotamento <emptying>`
 
-L’opzione “Quick Emptying” serve per evacuare dal FlexiBowl® i pezzi residui prima di un cambio produzione. L’opzione “Quick Emptying” può essere attivata tramite I/O digitali o tramite software. Quando viene mandato il comando di “Quick Emptying” una porzione dell’anello si abbassa per far fuoriuscire i pezzi residui. Sono presenti dei sensori per sapere se la “Emptying Door” è aperta o chiusa. Lo stato dei sensori è possibile leggerlo anche nel connettore ingressi (Capitolo .......). La sequenza di “Quick Emptying“ è composta da una sequenza preconfigurata di movimenti combinati orari ed antiorari. Nella sequenza di “Quick Emptying” è possibile variare solo la velocità di movimentazione. Non è possibile variare il numero di movimentazioni e la direzione di queste. 
+L’opzione “Quick Emptying” serve per evacuare dal FlexiBowl® i pezzi residui prima di un cambio produzione. L’opzione “Quick Emptying” può essere attivata tramite I/O digitali o tramite software. Quando viene mandato il comando di “Quick Emptying” una porzione dell’anello si abbassa per far fuoriuscire i pezzi residui. Sono presenti dei sensori per sapere se la “Emptying Door” è aperta o chiusa. Lo stato dei sensori è possibile leggerlo anche nel connettore ingressi (Capitolo .......). La sequenza di “Quick Emptying“ è composta da una sequenza preconfigurata di movimenti combinati orari ed antiorari. Nella sequenza di “Quick Emptying” è possibile variare solo la velocità di movimentazione. Non è possibile variare il numero di movimentazioni e la direzione di queste.
+
+## {ref}`Cavi di collegamento <cavi>`
+
+I cavi di collegamento del FlexiBowl® (opzione I/O, rack, alimentazione ed Ethernet) sono acquistabili separatamente nelle lunghezze da 3, 5 o 10 metri.
