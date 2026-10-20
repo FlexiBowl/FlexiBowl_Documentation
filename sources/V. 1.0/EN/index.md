@@ -252,8 +252,8 @@ FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 :hidden:
 :caption: HOPPERS
 FlexiBowl_manual/TRAMOGGE/TRAMOGGE VIBRANTI/tramogge_vibranti.md
-FlexiBowl_manual/TRAMOGGE/TRAMOGGE A NASTRO/tramogge_nastro.md
-
+FlexiBowl_manual/TRAMOGGE/MOTORIZZATE/00_MOTORIZZATE.md
+FlexiBowl_manual/TRAMOGGE/CONVEYOR/00_CONVEYOR.md
 :::
 
 :::{toctree}
