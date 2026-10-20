@@ -221,7 +221,7 @@ Uno scivolo troppo lontano dall'area di lavoro genera un'alimentazione incostant
 Prima di effettuare o modificare qualsiasi collegamento elettrico, assicurarsi che il sistema sia spento. Verificare sempre che il conduttore di terra sia correttamente installato e integro: il collegamento elettrico, compresa la messa a terra, deve essere sempre garantito per il corretto funzionamento della macchina.
 :::
 
-![Schema dei connettori sul controller della tramoggia](../../../../_shared/media/images/tramoggia-schema-elettrico-controller.png)
+![Schema dei connettori sul controller della tramoggia](../../../../_shared/media/images/controller_digitale_connettori.png)
 
 Il controller della tramoggia dispone di: ingresso alimentazione di rete (terra, linea, neutro), connettore RS485 per la comunicazione (A+, B-, GND), uscita di potenza verso il motore della tramoggia e interruttore generale.
 

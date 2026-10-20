@@ -111,18 +111,18 @@ Il FlexiBowl® è composto dalle seguenti parti fondamentali:
       imgDefault: '../../../../_shared/media/images/component_default.PNG',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'Gruppo pneumatico',           desc:'Alimentano il gruppo flip e gli eventuali soffi.'},
-        {n:2,  name:'Gruppo motore',               desc:'Consente la rotazione della superficie o disco rigido.'},
-        {n:3,  name:'Anello di contenimento',      desc:'Composto da diversi settori, impedisce la fuoriuscita dei pezzi durante il funzionamento. Contiene anche i deviatori in assenza di accessori.'},
-        {n:4,  name:'Backlight',                   desc:'Retroillumina l\u2019area di visione per evidenziare i contorni dei pezzi.'},
-        {n:5,  name:'Schermo flip',                desc:'Impedisce la fuoriuscita dei pezzi durante il ribaltamento.'},
-        {n:6,  name:'Carter',                      desc:'Contiene e protegge gli elementi interni. Protegge l\u2019utente da esposizioni a voltaggio elettrico e componenti in movimento.'},
-        {n:7,  name:'Gruppo flip',                 desc:'Percussore azionato da semi slitta pneumatica (350\u20131200) o cilindro pneumatico (200). Genera un impulso per far ribaltare gli oggetti prima della finestra di visione.'},
-        {n:8,  name:'Telaio',                      desc:'\u00c8 la struttura portante del FlexiBowl\u00ae.'},
-        {n:9, name:'Gruppo elettronico',          desc:'Comprende tutta l\u2019elettronica di comando del FlexiBowl\u00ae.'},
-        {n:10, name:'Pannello connettori',         desc:'Comprende tutti gli allacciamenti elettrici e pneumatici.'},
-        {n:11, name:'Supporto superficie / disco', desc:'Tiene la superficie o disco rigido saldamente fissati al gruppo motore.'},
-        {n:12, name:'Piastre di copertura',        desc:'Consentono un facile accesso ai componenti interni per la manutenzione.'}
+//        {n:1,  name:'Gruppo pneumatico',           desc:'Alimentano il gruppo flip e gli eventuali soffi.'},
+//        {n:2,  name:'Gruppo motore',               desc:'Consente la rotazione della superficie o disco rigido.'},
+        {img:3,  name:'Anello di contenimento',      desc:'Composto da diversi settori, impedisce la fuoriuscita dei pezzi durante il funzionamento. Contiene anche i deviatori in assenza di accessori.'},
+//        {img:4,  name:'Backlight',                   desc:'Retroillumina l\u2019area di visione per evidenziare i contorni dei pezzi.'},
+        {img:5,  name:'Schermo flip',                desc:'Impedisce la fuoriuscita dei pezzi durante il ribaltamento.'},
+        {img:6,  name:'Carter',                      desc:'Contiene e protegge gli elementi interni. Protegge l\u2019utente da esposizioni a voltaggio elettrico e componenti in movimento.'},
+//        {img:7,  name:'Gruppo flip',                 desc:'Percussore azionato da semi slitta pneumatica (350\u20131200) o cilindro pneumatico (200). Genera un impulso per far ribaltare gli oggetti prima della finestra di visione.'},
+//        {n:8,  name:'Telaio',                      desc:'\u00c8 la struttura portante del FlexiBowl\u00ae.'},
+//        {n:9, name:'Gruppo elettronico',          desc:'Comprende tutta l\u2019elettronica di comando del FlexiBowl\u00ae.'},
+//        {n:10, name:'Pannello connettori',         desc:'Comprende tutti gli allacciamenti elettrici e pneumatici.'},
+        {img:11, name:'Supporto superficie / disco', desc:'Tiene la superficie o disco rigido saldamente fissati al gruppo motore.'},
+//        {n:12, name:'Piastre di copertura',        desc:'Consentono un facile accesso ai componenti interni per la manutenzione.'}
       ]
     },
     fb350: {
@@ -130,17 +130,17 @@ Il FlexiBowl® è composto dalle seguenti parti fondamentali:
       imgDefault: '../../../../_shared/media/images/FB350-0.PNG',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'Cavi e prolunghe',  desc:'Sono i collegamenti elettronici tra i vari componenti interni del FlexiBowl\u00ae.'},
-        {n:2,  name:'Gruppo pneumatico', desc:'Alimenta il gruppo flip e i soffi.'},
-        {n:3,  name:'Gruppo motore',     desc:'Consente la rotazione del disco rigido.'},
-        {n:4,  name:'Disco',             desc:'<a href="../ACCESSORI/02_DISCHI_RIGIDI.html">Vedi paragrafo dedicato</a>.'},
-        {n:5,  name:'Backlight',         desc:'Retroillumina l\u2019area di visione per evidenziare i contorni dei pezzi.'},
-        {n:6,  name:'Schermo flip',      desc:'Impedisce la fuoriuscita dei pezzi durante il ribaltamento. Comprende anche i <a href="../ACCESSORI/06-4_INTEGRATI.html">soffi</a>.'},
-        {n:7,  name:'Carter',            desc:'Contiene e protegge gli elementi interni. Protegge l\u2019utente da esposizioni a voltaggio elettrico e componenti in movimento.'},
-        {n:8,  name:'Gruppo flip',       desc:'Percussore azionato da cilindro pneumatico (200). Genera un impulso per far ribaltare gli oggetti prima della finestra di visione.'},
-        {n:9,  name:'Telaio',            desc:'\u00c8 la struttura portante del FlexiBowl\u00ae.'},
-        {n:10, name:'Supporto disco',    desc:'Tiene il disco rigido saldamente fissati al gruppo motore.'},
-        {n:11, name:'Rack',              desc:'Contiene tutta l\u2019elettronica del FlexiBowl\u00ae.'}
+        {img:1,  name:'Cavi e prolunghe',  desc:'Sono i collegamenti elettronici tra i vari componenti interni del FlexiBowl\u00ae.'},
+//        {n:2,  name:'Gruppo pneumatico', desc:'Alimenta il gruppo flip e i soffi.'},
+//        {n:3,  name:'Gruppo motore',     desc:'Consente la rotazione del disco rigido.'},
+        {img:4,  name:'Disco',             desc:'<a href="../ACCESSORI/02_DISCHI_RIGIDI.html">Vedi paragrafo dedicato</a>.'},
+//        {n:5,  name:'Backlight',         desc:'Retroillumina l\u2019area di visione per evidenziare i contorni dei pezzi.'},
+        {img:6,  name:'Schermo flip',      desc:'Impedisce la fuoriuscita dei pezzi durante il ribaltamento. Comprende anche i <a href="../ACCESSORI/06-4_INTEGRATI.html">soffi</a>.'},
+        {img:7,  name:'Carter',            desc:'Contiene e protegge gli elementi interni. Protegge l\u2019utente da esposizioni a voltaggio elettrico e componenti in movimento.'},
+//        {n:8,  name:'Gruppo flip',       desc:'Percussore azionato da cilindro pneumatico (200). Genera un impulso per far ribaltare gli oggetti prima della finestra di visione.'},
+//        {n:9,  name:'Telaio',            desc:'\u00c8 la struttura portante del FlexiBowl\u00ae.'},
+        {img:10, name:'Supporto disco',    desc:'Tiene il disco rigido saldamente fissati al gruppo motore.'},
+        {img:11, name:'Rack',              desc:'Contiene tutta l\u2019elettronica del FlexiBowl\u00ae.'}
       ]
     },
     fb200: {
@@ -148,19 +148,26 @@ Il FlexiBowl® è composto dalle seguenti parti fondamentali:
       imgDefault: '../../../../_shared/media/images/FB200-0.PNG',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'Cavi e prolunghe',  desc:'Sono i collegamenti elettronici tra i vari componenti interni del FlexiBowl\u00ae.'},
-        {n:2,  name:'Gruppo pneumatico', desc:'Alimenta il gruppo flip e i soffi.'},
-        {n:3,  name:'Gruppo motore',     desc:'Consente la rotazione del disco rigido.'},
-        {n:4,  name:'Disco',             desc:'<a href="../ACCESSORI/02_DISCHI_RIGIDI.html">Vedi paragrafo dedicato</a>.'},
-        {n:5,  name:'Backlight',         desc:'Retroillumina l\u2019area di visione per evidenziare i contorni dei pezzi.'},
-        {n:6,  name:'Schermo flip',      desc:'Impedisce la fuoriuscita dei pezzi durante il ribaltamento. Comprende anche i <a href="../ACCESSORI/06-4_INTEGRATI.html">soffi</a>.'},
-        {n:7,  name:'Carter',            desc:'Contiene e protegge gli elementi interni. Protegge l\u2019utente da esposizioni a voltaggio elettrico e componenti in movimento.'},
-        {n:8,  name:'Gruppo flip',       desc:'Percussore azionato da cilindro pneumatico (200). Genera un impulso per far ribaltare gli oggetti prima della finestra di visione.'},
-        {n:9,  name:'Telaio',            desc:'\u00c8 la struttura portante del FlexiBowl\u00ae.'},
-        {n:10, name:'Rack',              desc:'Contiene tutta l\u2019elettronica del FlexiBowl\u00ae.'}
+        {img:1,  name:'Cavi e prolunghe',  desc:'Sono i collegamenti elettronici tra i vari componenti interni del FlexiBowl\u00ae.'},
+//        {n:2,  name:'Gruppo pneumatico', desc:'Alimenta il gruppo flip e i soffi.'},
+//        {n:3,  name:'Gruppo motore',     desc:'Consente la rotazione del disco rigido.'},
+        {img:4,  name:'Disco',             desc:'<a href="../ACCESSORI/02_DISCHI_RIGIDI.html">Vedi paragrafo dedicato</a>.'},
+//        {n:5,  name:'Backlight',         desc:'Retroillumina l\u2019area di visione per evidenziare i contorni dei pezzi.'},
+        {img:6,  name:'Schermo flip',      desc:'Impedisce la fuoriuscita dei pezzi durante il ribaltamento. Comprende anche i <a href="../ACCESSORI/06-4_INTEGRATI.html">soffi</a>.'},
+        {img:7,  name:'Carter',            desc:'Contiene e protegge gli elementi interni. Protegge l\u2019utente da esposizioni a voltaggio elettrico e componenti in movimento.'},
+//        {n:8,  name:'Gruppo flip',       desc:'Percussore azionato da cilindro pneumatico (200). Genera un impulso per far ribaltare gli oggetti prima della finestra di visione.'},
+//        {n:9,  name:'Telaio',            desc:'\u00c8 la struttura portante del FlexiBowl\u00ae.'},
+        {img:10, name:'Rack',              desc:'Contiene tutta l\u2019elettronica del FlexiBowl\u00ae.'}
       ]
     }
   };
+
+  Object.keys(models).forEach(function(id){
+  models[id].comps.forEach(function(c, i){
+    if (c.img === undefined) c.img = c.n;
+    c.n = i + 1;
+  });
+});
 
   /* ── stato per modello ── */
   var state = {};
@@ -209,7 +216,7 @@ Il FlexiBowl® è composto dalle seguenti parti fondamentali:
       imgBase.style.opacity = '1';
       imgHl.style.opacity = '0';
     };
-    newImg.src = m.imgPath + c.n + m.imgExt;
+    newImg.src = m.imgPath + c.img + m.imgExt;   // <-- c.img, non c.n
   }
 
   /* ── reset ── */
