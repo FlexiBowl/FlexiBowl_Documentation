@@ -6,7 +6,7 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
 ## Matrice di compatibilità degli accessori con i FlexiBowl®
 
 :::{list-table}
-:widths: 20 20 20 20 20 20 20 20 20
+:widths: 20 20 20 20 20 20 20 20 
 :header-rows: 1
 :stub-columns: 1
 :class: tabacc
@@ -19,7 +19,6 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - Wedge Diverter
   - Svuotamento
   - Flexitracking
-  - Ringlight
 
 * - FlexiBowl® 200
   - 
@@ -29,7 +28,6 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - 
   - 
   - 
-  - ✓
 
 * - FlexiBowl® 350
   - ✓
@@ -39,10 +37,8 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - 
   - 
   - 
-  - ✓
 
 * - FlexiBowl® 500
-  - ✓
   - ✓
   - ✓
   - ✓
@@ -59,11 +55,9 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - 
   - 
   - ✓
-  - ✓
 
 
 * - FlexiBowl® 650
-  - ✓
   - ✓
   - ✓
   - ✓
@@ -80,10 +74,8 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - ✓
   - ✓
   - ✓
-  - ✓
 
 * - FlexiBowl® 1200
-  - ✓
   - ✓
   - ✓
   - ✓

@@ -78,14 +78,14 @@ Ogni ✓ rimanda alla scheda del prodotto a listino.
   - [✓](smooth-blue)
   - [✓](smooth-blue)
 
-* - Flexi Disc Smooth Beige FDA
+* - Flexi Disc Smooth Transparent FDA
   - 
   - 
   - 
-  - [✓](smooth-beige)
-  - [✓](smooth-beige)
-  - [✓](smooth-beige)
-  - [✓](smooth-beige)
+  - [✓](smooth-transparent)
+  - [✓](smooth-transparent)
+  - [✓](smooth-transparent)
+  - [✓](smooth-transparent)
 
 * - Flexi Disc Smooth Black
   - 
@@ -132,14 +132,14 @@ Ogni ✓ rimanda alla scheda del prodotto a listino.
   - [✓](anti-roll-6-14-spike-grey)
   - 
 
-* - Flexi Disc Anti-Roll 14-35mm Spike Beige FDA
+* - Flexi Disc Anti-Roll 14-35mm Spike Transparent FDA
   - 
   - 
   - 
-  - [✓](anti-roll-14-35-spike-beige)
-  - [✓](anti-roll-14-35-spike-beige)
-  - [✓](anti-roll-14-35-spike-beige)
-  - [✓](anti-roll-14-35-spike-beige)
+  - [✓](anti-roll-14-35-spike-transparent)
+  - [✓](anti-roll-14-35-spike-transparent)
+  - [✓](anti-roll-14-35-spike-transparent)
+  - [✓](anti-roll-14-35-spike-transparent)
 
 * - Flexi Disc Anti-Roll 14-35mm Spike Blue FDA
   - 

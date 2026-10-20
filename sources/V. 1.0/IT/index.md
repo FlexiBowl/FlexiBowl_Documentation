@@ -206,6 +206,7 @@ FlexiBowl_manual/ACCESSORI/07_BRUSH_DIVERTER.md
 FlexiBowl_manual/ACCESSORI/08_WEDGE.md
 FlexiBowl_manual/ACCESSORI/09_SVUOTAMENTO.md
 FlexiBowl_manual/ACCESSORI/11_CAVI.md
+FlexiBowl_manual/ACCESSORI/12_KIT_FILTRAGGIO.md
 :::
 
 :::{toctree}  
@@ -221,6 +222,7 @@ FlexiBowl_manual/MANUTENZIONE/02_straordinaria.md
 FlexiBowl_manual/Garanzia.md
 :::
 
+<!--  
 :::{toctree}  
 :hidden:
 :caption: TROUBLESHOOTING
@@ -230,6 +232,7 @@ FlexiBowl_manual/TROUBLESHOOTING/03_problemi_elettrici.md
 FlexiBowl_manual/TROUBLESHOOTING/04_problemi_pneumatici.md
 FlexiBowl_manual/TROUBLESHOOTING/05_problemi_software.md
 :::
+-->
 
 :::{toctree}  
 :hidden:
@@ -237,11 +240,13 @@ FlexiBowl_manual/TROUBLESHOOTING/05_problemi_software.md
 FlexiBowl_manual/SMALTIMENTO/smaltimento.md
 :::
 
+<!-- 
 :::{toctree}  
 :hidden:
 :caption: CERTIFICAZIONI 
 FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 :::
+-->
 
 :::{toctree}  
 :hidden:
