@@ -368,6 +368,14 @@
 
 ## Introduzione
 
+La nuova interfaccia FlexiBowl® è completamente web-based. Per accedervi è sufficiente inserire l'indirizzo IP di default del FlexiBowl® `192.168.1.10` sulla barra di ricerca del vostro browser. 
+
+:::{video} ../../../../_shared/media/videos/IP_Home.mp4
+:::
+
+
+## Comunicazione 
+
 Il sistema di comunicazione è basato su **variabili di Input/Output** e **Control Word numeriche**: il sistema esterno invia un numero (la ControlWord) che identifica l'azione da eseguire e il FlexiBowl® risponde con segnali di stato e dati di ritorno.
 
 Protocolli supportati:  

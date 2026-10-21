@@ -17,7 +17,7 @@ Al primo avvio del sistema, seguire la procedura guidata di seguito per configur
   - Operazione
 
 * - 1
-  - Inserire l'**indirizzo IP** del FlexiBowl® nella barra di ricerca del browser per accedere all'interfaccia software.
+  - Inserire l'**indirizzo IP** del FlexiBowl® nella barra di ricerca del browser per accedere all'interfaccia software. L'indirizzo IP di default del FlexiBowl® è `192.168.1.10`. 
 
 * - 2
   - Si apre la **Home page**. Selezionare la **lingua** desiderata dal menu a tendina in alto a destra.

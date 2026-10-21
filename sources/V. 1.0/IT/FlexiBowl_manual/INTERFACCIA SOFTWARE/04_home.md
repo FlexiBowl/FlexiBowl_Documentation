@@ -1,5 +1,7 @@
 # [SOF] **Home**
 
+La nuova interfaccia FlexiBowl® è completamente web-based. Per accedervi è sufficiente inserire l'indirizzo IP di default del FlexiBowl® `192.168.1.10` sulla barra di ricerca del vostro browser. 
+
 ## Panoramica
 
 La pagina **Home** è la schermata principale dell'interfaccia software FlexiBowl®. Viene visualizzata all'avvio del sistema e fornisce all'operatore una panoramica immediata dello stato del dispositivo, oltre a consentire l'accesso alle funzioni principali.
