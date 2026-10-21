@@ -167,7 +167,7 @@ dove `N` è il numero della sequenza (1–20) e `offset_parametro` identifica il
 | ProportionalValve_Flip | 13 | 0–600 | Pressione valvola proporzionale Flip (valore /100 = Bar) |
 | ProportionalValve_Blow | 14 | 0–600 | Pressione valvola proporzionale Blow (valore /100 = Bar) |
 | Delete all sequence | 30 | — | Cancella tutti i comandi dalla lista della sequenza |
-| Emptying Sequence | 40 | 0–1 | 0 = modalità normale, 1 = modalità svuotamento |
+| Emptying Sequence | 40 | 0–1 | 0 = modalità normale, 1 = modalità Quick Emptying |
 | Seq Add Cmd | 50 | COMANDO FLB | Aggiunge un comando alla lista della sequenza |
 
 #### Esempi di ControlWord WRITE
@@ -499,7 +499,7 @@ RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
 </div>
 
 :::{note}
-Per i comandi di Svuotamento, fare riferimento alla sezione [Comandi di Svuotamento](sec-empty)
+Per i comandi di Quick Emptying, fare riferimento alla sezione [Comandi di Quick Emptying](sec-empty)
 :::
 
 :::{important}

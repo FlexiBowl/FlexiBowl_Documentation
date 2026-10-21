@@ -371,6 +371,7 @@
 La nuova interfaccia FlexiBowl® è completamente web-based. Per accedervi è sufficiente inserire l'indirizzo IP di default del FlexiBowl® `192.168.1.10` sulla barra di ricerca del vostro browser. 
 
 :::{video} ../../../../_shared/media/videos/IP_Home.mp4
+:width: 50%
 :::
 
 
@@ -443,7 +444,7 @@ Per questo motivo, ogni esempio pratico in questa pagina viene mostrato in entra
 
   <a href="#sec-empty" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
     <i class="ph ph-arrow-counter-clockwise" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Svuotamento</span>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Quick Emptying</span>
     <span style="font-size:0.82rem; color:#7a9ab0;">Emptying Option</span>
   </a>
 
@@ -747,7 +748,7 @@ dove `N` è il numero della sequenza (1–20) e `offset_parametro` identifica il
 | ProportionalValve_Flip | 13 | 0–600 | Pressione valvola proporzionale Flip (valore /100 = Bar) |
 | ProportionalValve_Blow | 14 | 0–600 | Pressione valvola proporzionale Blow (valore /100 = Bar) |
 | Delete all sequence | 30 | — | Cancella tutti i comandi dalla lista della sequenza |
-| Emptying Sequence | 40 | 0–1 | 0 = modalità normale, 1 = modalità svuotamento |
+| Emptying Sequence | 40 | 0–1 | 0 = modalità normale, 1 = modalità Quick Emptying |
 | Seq Add Cmd | 50 | COMANDO FLB | Aggiunge un comando alla lista della sequenza |
 
 #### Esempi di ControlWord WRITE
@@ -952,7 +953,7 @@ Per visualizzare un esempio pratico di comando READ HOPPER in TCP, consultare la
 ---
 
 (sec-empty)=
-## Comandi di Svuotamento — <span class="isw-section-badge isw-badge-exe"><i class="ph ph-arrow-counter-clockwise"></i> EMPTYING</span>
+## Comandi di Quick Emptying — <span class="isw-section-badge isw-badge-exe"><i class="ph ph-arrow-counter-clockwise"></i> EMPTYING</span>
 
 La funzione **Emptying** consente di svuotare il piatto del FlexiBowl® eseguendo fino a 4 sequenze dedicate, ciascuna con un proprio numero di loop. Anche questi comandi seguono la stessa logica ControlWord, valida per tutti i protocolli.
 
@@ -960,9 +961,9 @@ La funzione **Emptying** consente di svuotare il piatto del FlexiBowl® eseguend
 
 | Comando | ControlWord | Busy durante esecuzione | ReturnData_1 | Spiegazione |
 |---|---|---|---|---|
-| Start Emptying | 45 | SI (Emptying attivo) | 45 | Avvia lo svuotamento |
-| Stop Emptying | 46 | SI (Emptying attivo) | 46 | Ferma lo svuotamento |
-| Emptying Active | 47 | NO | 47 | Verifica se lo svuotamento è attivo |
+| Start Emptying | 45 | SI (Emptying attivo) | 45 | Avvia lo Quick Emptying  |
+| Stop Emptying | 46 | SI (Emptying attivo) | 46 | Ferma lo Quick Emptying  |
+| Emptying Active | 47 | NO | 47 | Verifica se lo Quick Emptying  è attivo |
 
 ### Comandi WRITE
 
@@ -991,7 +992,7 @@ La funzione **Emptying** consente di svuotare il piatto del FlexiBowl® eseguend
 | FourthLoop | 20307 | NO | 20307 | 0–500 |
 
 :::{note}
-`FirstSequence`...`FourthSequence` indicano quale delle 20 sequenze programmate viene eseguita in ciascuno dei 4 passaggi dello svuotamento; `FirstLoop`...`FourthLoop` indicano quante volte quel passaggio viene ripetuto.
+`FirstSequence`...`FourthSequence` indicano quale delle 20 sequenze programmate viene eseguita in ciascuno dei 4 passaggi del Quick Emptying ; `FirstLoop`...`FourthLoop` indicano quante volte quel passaggio viene ripetuto.
 :::
 
 ---
