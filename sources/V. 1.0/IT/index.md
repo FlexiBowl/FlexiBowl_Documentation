@@ -48,7 +48,7 @@ Schema esemplificativo del sistema FlexiBowl® in funzionamento standard.
 :::
 
 :::{note}
-Il ciclo {ref}`Flexitracking <tracking>` è sostanzialmente uguale a quello tradizionale, con la differenza che tutte le fasi avvengono contemporaneamente e in continuazione.
+Il ciclo {ref}`Circular Tracking <tracking>` è sostanzialmente uguale a quello tradizionale, con la differenza che tutte le fasi avvengono contemporaneamente e in continuazione.
 :::
 
 
@@ -254,6 +254,12 @@ FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 FlexiBowl_manual/TRAMOGGE/TRAMOGGE VIBRANTI/tramogge_vibranti.md
 FlexiBowl_manual/TRAMOGGE/MOTORIZZATE/00_MOTORIZZATE.md
 FlexiBowl_manual/TRAMOGGE/CONVEYOR/00_CONVEYOR.md
+:::
+
+:::{toctree}
+:hidden:
+:caption: NOTE di RILASCIo
+FlexiBowl_manual/NOTE RILASCIO/release_notes.md
 :::
 
 :::{toctree}

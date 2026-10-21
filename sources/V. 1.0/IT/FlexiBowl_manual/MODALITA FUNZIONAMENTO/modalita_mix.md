@@ -49,7 +49,30 @@ che si ripetono in sequenza:
 
 
 ---
+## Vantaggi e svantaggi
 
+::::{grid} 1 2 2 2
+:gutter: 3
+
+:::{grid-item-card} Vantaggi
+- **Una sola stazione per più referenze**: riduce l'ingombro del layout e i costi rispetto a una stazione robotizzata per ogni referenza.
+- **Nessun hardware aggiuntivo**: basta configurare il riconoscimento di più modelli nel software di visione e la logica di sorting nel robot.
+- **Dosaggio indipendente**: il FlexiBowl® gestisce fino a 4 tramogge, una per referenza.
+:::
+
+:::{grid-item-card} Svantaggi
+- **Produttività inferiore per singola referenza**: i pezzi condividono la stessa area di visione e di presa.
+- **Parametri di compromesso**: tutte le referenze devono essere compatibili con la stessa superficie o disco rigido e con gli stessi parametri di flip (vedi {ref}`calcolo-pressione-flip`).
+- **Gestione più complessa**: ricetta di visione multi-modello e bilanciamento del dosaggio tra le tramogge per evitare accumuli di una referenza.
+:::
+
+::::
+
+:::{note}
+Il Multiple Parts Feeding è disponibile per FlexiBowl® 500, 650 e 800.
+:::
+
+---
 ## Note operative
 
 :::{tip}

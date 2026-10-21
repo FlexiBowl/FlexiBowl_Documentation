@@ -59,6 +59,19 @@ Durante la fase Move-Flip, lo scarico dell'hopper avviene in parallelo al movime
 :::
 
 ---
+## Esempio di layout
+
+:::{figure} ../../../../_shared/media/images/Funz-standard.PNG
+:align: center
+:width: 60%
+
+Esempio di layout in Modalità Standard: la tramoggia scarica nel settore di rilascio, il flip separa i componenti, il robot preleva nell'area di visione e i pezzi non presi ricircolano.
+:::
+
+L'area di lavoro del robot deve coprire interamente l'area di visione, così che il robot possa raggiungere tutti i componenti riconosciuti come prendibili. Per il posizionamento di robot, tramogge, depositi, telecamera e illuminazione fare riferimento a {ref}`Layout Best Practice <layoutbp-traditional>`.
+
+
+---
 
 ## Vantaggi della Modalità Standard
 

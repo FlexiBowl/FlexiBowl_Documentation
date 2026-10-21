@@ -83,6 +83,7 @@ Prima di leggere i contenuti della pagina corrente, è buona pratica avere chiar
 
 FlexiBowl® 3.0 adotta un design **più compatto e snello** rispetto alla generazione precedente: a parità di modello risulta generalmente **più leggero** e **più basso**, con una riduzione di larghezza di circa il **5%**.
 
+
 ```{list-table} Peso e altezza per modello
 :header-rows: 2
 :widths: 24 19 19 19 19
@@ -135,8 +136,42 @@ FlexiBowl® 3.0 adotta un design **più compatto e snello** rispetto alla genera
 ```
 
 ---
+(interasse-fori-2-3)=
+## 2. Interfaccia di fissaggio
 
-## 2. Sintesi
+:::{warning}
+L'**interasse dei fori di fissaggio** del FlexiBowl® 3.0 è **diverso** da quello del FlexiBowl® 2.0, per tutte le taglie. In caso di sostituzione di un FlexiBowl® 2.0 con un FlexiBowl® 3.0 **non è possibile riutilizzare la foratura esistente** del piano di appoggio: occorre realizzare una nuova foratura secondo il disegno di {ref}`interfaccia meccanica <intmec>`.
+:::
+
+```{list-table} Interasse fori di fissaggio per modello
+:header-rows: 1
+:widths: 40 30 30
+
+* - Modello
+  - FB 2.0
+  - FB 3.0
+* - **FlexiBowl® 200**
+  - 
+  - 
+* - **FlexiBowl® 350**
+  - 
+  - 
+* - **FlexiBowl® 500 / 500E**
+  - 
+  - 
+* - **FlexiBowl® 650**
+  - 
+  - 
+* - **FlexiBowl® 800**
+  - 
+  - 
+* - **FlexiBowl® 1200**
+  - 
+  - 
+```
+
+---
+## 3. Sintesi
 
 FlexiBowl® 3.0 offre un design meccanico più compatto rispetto alla generazione precedente, risultando in generale più leggero, più basso e circa il 5% più stretto a parità di modello.
 

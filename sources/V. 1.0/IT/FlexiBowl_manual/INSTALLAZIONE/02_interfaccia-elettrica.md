@@ -52,7 +52,7 @@ Il pannello connettori del FlexiBowl® varia in base alla versione della macchin
   <button class="ie-tab on" onclick="ieSwitchTab('smallpanel',this)">Pannello FlexiBowl® 200-350</button>
   <button class="ie-tab"    onclick="ieSwitchTab('rack',this)">Rack</button>
   <button class="ie-tab"    onclick="ieSwitchTab('stpanel',this)">Pannello Standard</button>
-  <button class="ie-tab"    onclick="ieSwitchTab('encpanel',this)">Pannello Flexitracking</button>
+  <button class="ie-tab"    onclick="ieSwitchTab('encpanel',this)">Pannello Circular Tracking</button>
 </div>
 <!-- ══════════ PANNELLO FB200-350 ══════════ -->
 <div class="ie-panel on" id="ie-panel-smallpanel">
@@ -103,7 +103,7 @@ Il pannello connettori del FlexiBowl® varia in base alla versione della macchin
 <div class="ie-panel" id="ie-panel-encpanel">
   <div class="ie-wrap">
     <div class="ie-img-outer">
-      <img class="ie-img-base" id="encpanel-img-base" src="../../../../_shared/media/images/encpanel0.PNG" alt="Pannello Flexitracking FlexiBowl®" />
+      <img class="ie-img-base" id="encpanel-img-base" src="../../../../_shared/media/images/encpanel0.PNG" alt="Pannello Circular Tracking FlexiBowl®" />
       <img class="ie-img-hl"   id="encpanel-img-hl"   src="" alt="" aria-hidden="true" />
       <div class="ie-badge" id="encpanel-badge"></div>
       <div class="ie-hint"  id="encpanel-hint">Seleziona un connettore dalla lista</div>
@@ -372,25 +372,25 @@ L'interfaccia elettrica del FlexiBowl® cambia in base alla taglia della macchin
 
     Adattatore M12 8 poli → RJ45:
 
-    | Pin | Colore |
-    |---|---|
-    | 1 | Giallo |
-    | 2 | Arancione |
-    | 3 | Bianco |
-    | 4 | Non assegnato |
-    | 5 | Non assegnato |
-    | 6 | Blu |
-    | 7 | Non assegnato |
-    | 8 | Non assegnato |
+    | Pin RJ45 | Segnale | Funzione | Colore |
+    |---|---|---|---|
+    | 1 | TD+ | Trasmissione dati (+) | Giallo |
+    | 2 | TD− | Trasmissione dati (−) | Arancione |
+    | 3 | RD+ | Ricezione dati (+) | Bianco |
+    | 4 | NC | Non assegnato | — |
+    | 5 | NC | Non assegnato | — |
+    | 6 | RD− | Ricezione dati (−) | Blu |
+    | 7 | NC | Non assegnato | — |
+    | 8 | NC | Non assegnato | — |
 
     Connettore M12 D-code 4 poli:
 
-    | Pin | Colore |
-    |---|---|
-    | 1 | Giallo |
-    | 2 | Bianco |
-    | 3 | Arancione |
-    | 4 | Blu |
+    | Pin M12 | Segnale | Funzione | Colore |
+    |---|---|---|---|
+    | 1 | TD+ | Trasmissione dati (+) | Giallo |
+    | 2 | RD+ | Ricezione dati (+) | Bianco |
+    | 3 | TD− | Trasmissione dati (−) | Arancione |
+    | 4 | RD− | Ricezione dati (−) | Blu |
 
     </div></details>
   -
@@ -406,13 +406,13 @@ L'interfaccia elettrica del FlexiBowl® cambia in base alla taglia della macchin
 
     <details class="ars-dropdown"><summary>Pinout M12 A-code</summary><div class="ars-dropdown-body">
 
-    | Pin | Colore |
-    |---|---|
-    | 1 | Marrone |
-    | 2 | Bianco |
-    | 3 | Blu |
-    | 4 | Nero |
-    | 5 | Grigio |
+    | Pin M12 | Segnale | Funzione | Colore |
+    |---|---|---|---|
+    | 1 | A+ | Linea dati RS485 (+) | Marrone |
+    | 2 | NC | Non assegnato | Bianco |
+    | 3 | B− | Linea dati RS485 (−) | Blu |
+    | 4 | GND | Riferimento comune | Nero |
+    | 5 | NC | Non assegnato | Grigio |
 
     </div></details>
   -
@@ -760,9 +760,9 @@ Dopo l'accensione, attendere che il LED **Ready/Fault** si accenda: se Hopper e 
 ---
 
 (io-flexitrack)=
-## Opzione FlexiTrack — Pannellino di Interfaccia
+## Opzione Circular Tracking — Pannellino di Interfaccia
 
-Il pannellino in dotazione con l'opzione FlexiTrack aggiunge, oltre ai collegamenti già descritti, i seguenti connettori dedicati:
+Il pannellino in dotazione con l'opzione Circular Tracking aggiunge, oltre ai collegamenti già descritti, i seguenti connettori dedicati:
 
 - **Connettore I/O**: scambio segnali digitali, inclusa la funzione Latch.
 - **Passacavo encoder**: dedicato all'encoder interno al FlexiBowl®.
@@ -800,14 +800,14 @@ Il pannellino in dotazione con l'opzione FlexiTrack aggiunge, oltre ai collegame
     </div></details>
   -
     ```{image} ../../../../_shared/media/images/encpanel6.PNG
-    :alt: Connettore I/O FlexiTrack
+    :alt: Connettore I/O Circular Tracking
     :class: ars-zoom-img
     ```
 * - 11
   - **Collegare il passacavo encoder**, dedicato all'encoder interno al FlexiBowl®.
   -
     ```{image} ../../../../_shared/media/images/encpanel8.PNG
-    :alt: Passacavo encoder FlexiTrack
+    :alt: Passacavo encoder Circular Tracking
     :class: ars-zoom-img
     ```
 ```

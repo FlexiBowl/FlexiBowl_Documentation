@@ -3,7 +3,7 @@
 
 ## Funzionamento in Tracking
 
-L'opzione **Flexitracking** consente di massimizzare la produttività del FlexiBowl® facendolo girare in maniera continua e senza interruzioni.  
+L'opzione **Circular Tracking** consente di massimizzare la produttività del FlexiBowl® facendolo girare in maniera continua e senza interruzioni.  
  Invece di fermarsi a ogni ciclo per scattare la foto e dare al robot il tempo di raccogliere i pezzi presenti sull'area di visione, un encoder tiene traccia dell'angolo di rotazione effettuato dalla superficie del disco rigido dal momento dello scatto della foto a quello della presa del pezzo da parte del robot.  
 
 :::{figure} ../../../../_shared/media/images/Tracking.png
@@ -18,7 +18,7 @@ L'opzione **Flexitracking** consente di massimizzare la produttività del FlexiB
 
 ::::{tip}
 Il funzionamento in tracking sposta l'area di presa che, se normalmente coincide con quella di visione, in questo caso sarà spostata a valle.  
- Fare riferimento al capitolo di {ref}`Layout Best Practice <layoutbp>` per maggiori informazioni sul piazzamento consigliato del robot e degli altri accessori in caso di funzionamento standard e Flexitracking.  
+ Fare riferimento al capitolo di {ref}`Layout Best Practice <layoutbp>` per maggiori informazioni sul piazzamento consigliato del robot e degli altri accessori in caso di funzionamento standard e Circular Tracking.  
 
 :::{figure} ../../../../_shared/media/images/TrackingLayout.PNG
 :width: 80%
@@ -70,40 +70,41 @@ svolgono in parallelo:
 
 ## Hardware e software richiesti
 
-Per abilitare il Flexitracking sono necessari i seguenti componenti:
+Per abilitare il Circular Tracking sono necessari i seguenti componenti:
 
-- **Opzione encoder** sul FlexiBowl®
-- **Opzione tracking** sul robot
+- Opzione **Circular Tracking** sul FlexiBowl®, disponibile a listino per:
 
-### Schema di collegamento
+  | Taglia | Codice a listino |
+  |---|---|
+  | FlexiBowl® 500 | Circular Tracking 500C · Circular Tracking 500CC |
+  | FlexiBowl® 650 | Circular Tracking 650CC |
+  | FlexiBowl® 800 | Circular Tracking 800C · Circular Tracking 800CC |
+  | FlexiBowl® 1200 | Circular Tracking 1200C · Circular Tracking 1200CC |
 
-Il Flexitracking si basa su un gruppo motore modificato con un supporto per una trasmissione
-a cinghia che alimenta l'encoder esterno.
+- Opzione **conveyor tracking** sul controller del robot
 
-:::{figure} ../../../../_shared/media/images/GM001788.PNG
-:width: 80%
-:align: center
-:::
+(schema-di-collegamento)=
+### Dati tecnici encoder
 
-Il segnale dell'encoder viene distribuito tramite uno **splitter interno**, che lo invia sia
-al driver del motore sia al robot:
+L'opzione Circular Tracking prevede un encoder collegato alla rotazione del disco. Il segnale dell'encoder viene sdoppiato all'interno del FlexiBowl® e inviato sia al driver del motore sia al controller del robot.
 
-<div class="hw-schema">
-
-```{list-table}
-:header-rows: 1
+:::{list-table}
 :widths: 35 65
+:stub-columns: 1
 
-* - Componente
-  - Funzione
-* - **Internal encoder splitter**
-  - Sdoppia il segnale encoder verso il driver e verso il robot.
-* - **External encoder**
-  - Montato su un albero collegato alla puleggia condotta tramite una staffa di supporto;
-    misura la rotazione effettiva della superficie del disco.
-```
-
-</div>
+* - Tipo di encoder
+  - 
+* - Risoluzione
+  - 
+* - Tipo di segnale / uscita
+  - 
+* - Tensione di alimentazione
+  - 
+* - Connessione sul FlexiBowl®
+  - {ref}`Passacavo encoder <io-flexitrack>`
+* - Cavo verso il robot
+  - 
+:::
 
 ---
 ## Pagina JOG 

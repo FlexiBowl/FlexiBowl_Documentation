@@ -106,7 +106,7 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - Brush Diverter
   - Wedge Diverter
   - Svuotamento
-  - Flexitracking
+  - Circular Tracking
   - Ringlight
 
 * - **Deviatore Standard**

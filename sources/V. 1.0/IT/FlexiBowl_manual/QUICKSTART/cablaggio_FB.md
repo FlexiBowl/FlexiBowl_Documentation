@@ -150,25 +150,25 @@ Il cablaggio del FlexiBowl® cambia in base alla taglia della macchina:
 
     Adattatore M12 8 poli → RJ45:
 
-    | Pin | Colore |
-    |---|---|
-    | 1 | Giallo |
-    | 2 | Arancione |
-    | 3 | Bianco |
-    | 4 | Non assegnato |
-    | 5 | Non assegnato |
-    | 6 | Blu |
-    | 7 | Non assegnato |
-    | 8 | Non assegnato |
+    | Pin RJ45 | Segnale | Funzione | Colore |
+    |---|---|---|---|
+    | 1 | TD+ | Trasmissione dati (+) | Giallo |
+    | 2 | TD− | Trasmissione dati (−) | Arancione |
+    | 3 | RD+ | Ricezione dati (+) | Bianco |
+    | 4 | NC | Non assegnato | — |
+    | 5 | NC | Non assegnato | — |
+    | 6 | RD− | Ricezione dati (−) | Blu |
+    | 7 | NC | Non assegnato | — |
+    | 8 | NC | Non assegnato | — |
 
     Connettore M12 D-code 4 poli:
 
-    | Pin | Colore |
-    |---|---|
-    | 1 | Giallo |
-    | 2 | Bianco |
-    | 3 | Arancione |
-    | 4 | Blu |
+    | Pin M12 | Segnale | Funzione | Colore |
+    |---|---|---|---|
+    | 1 | TD+ | Trasmissione dati (+) | Giallo |
+    | 2 | RD+ | Ricezione dati (+) | Bianco |
+    | 3 | TD− | Trasmissione dati (−) | Arancione |
+    | 4 | RD− | Ricezione dati (−) | Blu |
 
     </div></details>
   - 
@@ -186,13 +186,13 @@ Il cablaggio del FlexiBowl® cambia in base alla taglia della macchina:
 
     <details class="ars-dropdown"><summary>Pinout M12 A-code</summary><div class="ars-dropdown-body">
 
-    | Pin | Colore |
-    |---|---|
-    | 1 | Marrone |
-    | 2 | Bianco |
-    | 3 | Blu |
-    | 4 | Nero |
-    | 5 | Grigio |
+    | Pin M12 | Segnale | Funzione | Colore |
+    |---|---|---|---|
+    | 1 | A+ | Linea dati RS485 (+) | Marrone |
+    | 2 | NC | Non assegnato | Bianco |
+    | 3 | B− | Linea dati RS485 (−) | Blu |
+    | 4 | GND | Riferimento comune | Nero |
+    | 5 | NC | Non assegnato | Grigio |
 
     </div></details>
   - 
