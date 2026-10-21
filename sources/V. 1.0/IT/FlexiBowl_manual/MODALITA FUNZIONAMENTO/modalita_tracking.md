@@ -92,18 +92,16 @@ L'opzione Circular Tracking prevede un encoder collegato alla rotazione del disc
 :widths: 35 65
 :stub-columns: 1
 
-* - Tipo di encoder
+* - Modello
   - 
-* - Risoluzione
-  - 
-* - Tipo di segnale / uscita
-  - 
-* - Tensione di alimentazione
-  - 
+* - Numero max. di impulsi
+  - 49152 / 65536 impulsi/giro, in base alla velocità del FlexiBowl®
+* - Interfaccia di comunicazione
+  - Incrementale, TTL / HTL (impostazione di fabbrica: TTL)
+* - Certificazioni
+  - Dichiarazione di conformità UE · Dichiarazione di conformità UK · Dichiarazione di conformità ACMA · Dichiarazione di conformità Marocco · China RoHS · cULus
 * - Connessione sul FlexiBowl®
   - {ref}`Passacavo encoder <io-flexitrack>`
-* - Cavo verso il robot
-  - 
 :::
 
 ---
