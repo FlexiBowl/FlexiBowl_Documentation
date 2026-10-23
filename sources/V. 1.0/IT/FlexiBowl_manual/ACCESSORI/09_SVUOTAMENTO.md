@@ -14,6 +14,35 @@ La sequenza di Quick Emptying  è preconfigurata e consiste in movimenti rapidi 
 È possibile variare la velocità dei movimenti di Quick Emptying , ma non il numero di movimenti e la loro direzione.
 :::
 
+
+## Interfaccia dello {ref}`svuotamento <emptying>`
+
+Seguono le interfacce di foratura e le posizioni e ampiezze dello sportello di fuoriuscita per le varie taglie di FlexiBowl®, utili per la progettazione del cassetto di raccoglimento. 
+
+### FlexiBowl® 500
+
+:::{figure} ../../../../_shared/media/images/AS000004_Interfaccia1.PNG
+:align: center
+:::
+
+### FlexiBowl® 650
+
+:::{figure} ../../../../_shared/media/images/AS000008_Interfaccia1.PNG
+:align: center
+:::
+
+### FlexiBowl® 800
+
+:::{figure} ../../../../_shared/media/images/AS000006_Interfaccia1.PNG
+:align: center
+:::
+
+### FlexiBowl® 1200
+
+:::{figure} ../../../../_shared/media/images/AS000012_Interfaccia1.PNG
+:align: center
+:::
+
 ## Procedura di attivazione 
 
 L'opzione Quick Emptying  viene automaticamente resa disponibile se acquistata. Non è necessario eseguire alcuna procedura di attivazione, è possibile infatti seguire direttamente le istruzioni presenti sulla pagina [Quick Emptying](emptying).
