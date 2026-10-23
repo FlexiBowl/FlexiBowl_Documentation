@@ -49,8 +49,6 @@
     <script src="../../../../_shared/static/copybutton.js?v=f281be69"></script>
     <script src="../../../../_shared/static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
     <script src="../../../../_shared/static/design-tabs.js?v=f930bc37"></script>
-    <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'FlexiBowl_manual/DATI TECNICI/05_dati-tecnici-applicativi';</script>
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
     <script src="../../../../_shared/static/versioning-data.js?v=37039824"></script>
@@ -562,10 +560,7 @@
             <nav aria-label="Page">
                 <ul class="pst-show_toc_level nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caratteristiche-dei-componenti-ammessi-sul-flexibowl">Caratteristiche dei componenti ammessi sul FlexiBowl®</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#come-valutare-la-ribaltabilita-del-componente">Come valutare la ribaltabilità del componente</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#come-viene-calcolata-la-pressione">Come viene calcolata la pressione</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#come-valutare-la-ribaltabilita-del-componente">Come valutare la ribaltabilità del componente</a></li>
 </ul>
             </nav>
         </div>
@@ -662,15 +657,13 @@
 </section>
 <section id="come-valutare-la-ribaltabilita-del-componente">
 <span id="calcolo-pressione-flip"></span><h2>Come valutare la ribaltabilità del componente<a class="headerlink" href="#come-valutare-la-ribaltabilita-del-componente" title="Link to this heading">#</a></h2>
-<p>Per capire se un pezzo caricato in Bulk Feeder può essere separato e ribaltato efficacemente dal flip, vanno valutati quattro fattori: <strong>geometria</strong>, <strong>massa</strong>, <strong>materiale</strong> e <strong>piano di lavoro</strong> (superficie o disco rigido).</p>
 <p>Inserire i dati del componente nel calcolatore: il sistema verifica automaticamente la compatibilità con la taglia di FlexiBowl® scelta e restituisce la <strong>pressione del flip consigliata</strong>.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Misurare il pezzo appoggiato nella sua <strong>posizione più stabile</strong>: l’altezza <em>H</em> è la distanza dal piano di appoggio al punto più alto, la larghezza minima <em>B<sub>min</sub></em> è il lato più stretto del rettangolo d’ingombro della base d’appoggio.</p>
+<p>Misurare il pezzo appoggiato nella sua <strong>posizione più stabile</strong>: l’<strong>altezza</strong> è la distanza dal piano di appoggio al punto più alto, la <strong>larghezza minima</strong> è il lato più stretto del rettangolo d’ingombro della base d’appoggio.</p>
 </div>
 <div class="fc" id="fc-flip">
 <style>
-/* ── Token: chiaro (default) e scuro (pydata: html[data-theme="dark"]) ── */
 .fc{
   --fc-acc:#2980b9; --fc-acc-soft:rgba(41,128,185,.10); --fc-head:#1a3a52;
   --fc-bg:var(--pst-color-surface,#f7f9fb); --fc-card:var(--pst-color-background,#fff);
@@ -705,42 +698,36 @@ html[data-theme="dark"] .fc{
 .fc-seg button[aria-pressed="true"]{border-color:var(--fc-acc);background:var(--fc-acc-soft);color:var(--fc-acc)}
 .fc-seg button:disabled{opacity:.45;cursor:not-allowed;text-decoration:line-through}
 .fc-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem}
-@container (max-width:480px){.fc-fields{grid-template-columns:1fr}.fc-chips{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@container (max-width:480px){.fc-fields{grid-template-columns:1fr}}
 .fc-f label{display:block;font-size:.82rem;font-weight:600;margin-bottom:.25rem}
-.fc-f label small{font-weight:400;color:var(--fc-mut)}
 .fc-unit{display:flex;align-items:stretch;border:1.5px solid var(--fc-bd);border-radius:8px;background:var(--fc-card);overflow:hidden}
 .fc-unit:focus-within{border-color:var(--fc-acc)}
+.fc-unit.fc-bad{border-color:var(--fc-err)}
 .fc-unit input{flex:1;min-width:0;border:none;background:transparent;color:var(--fc-tx);font:inherit;font-size:.95rem;padding:.45rem .6rem;outline:none}
 .fc-unit span{display:flex;align-items:center;padding:0 .6rem;font-size:.8rem;color:var(--fc-mut);border-left:1px solid var(--fc-bd)}
-.fc-hint{font-size:.75rem;color:var(--fc-mut);margin-top:.2rem}
+.fc-hint{font-size:.75rem;color:var(--fc-mut);margin-top:.2rem;min-height:1em}
+.fc-hint.fc-bad{color:var(--fc-err);font-weight:600}
 .fc-mat{display:grid;grid-template-columns:1fr;gap:.5rem}
 .fc-mat button{font:inherit;text-align:left;padding:.6rem .7rem;border-radius:8px;border:1.5px solid var(--fc-bd);background:var(--fc-card);color:var(--fc-tx);cursor:pointer;transition:border-color .15s,background .15s}
 .fc-mat button:hover{border-color:var(--fc-acc)}
 .fc-mat button[aria-pressed="true"]{border-color:var(--fc-acc);background:var(--fc-acc-soft)}
 .fc-mat b{display:block;font-size:.88rem}
 .fc-mat small{display:block;font-size:.73rem;color:var(--fc-mut);line-height:1.35;margin-top:.2rem}
-/* risultato */
 .fc-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:.5rem;min-height:260px;color:var(--fc-mut);font-size:.9rem}
 .fc-empty i{font-size:2.2rem;color:var(--fc-acc);opacity:.6}
+.fc-empty.fc-bad i{color:var(--fc-err);opacity:.8}
 .fc-lbl{font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--fc-mut)}
 .fc-big{font-size:2.6rem;font-weight:800;line-height:1.1;color:var(--fc-head);font-variant-numeric:tabular-nums}
 .fc-big small{font-size:1rem;font-weight:600;color:var(--fc-mut);margin-left:.25rem}
 .fc-gauge{position:relative;height:8px;border-radius:4px;background:var(--fc-bd);margin:.7rem 0 .25rem}
 .fc-gauge div{position:absolute;left:0;top:0;bottom:0;border-radius:4px;background:var(--fc-acc);transition:width .3s}
-.fc-scale{display:flex;justify-content:space-between;font-size:.7rem;color:var(--fc-mut)}
-.fc-chips{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.4rem;margin:1rem 0 .6rem}
-.fc-chip{border:1px solid var(--fc-bd);border-radius:8px;padding:.4rem .5rem;text-align:center}
-.fc-chip span{display:block;font-size:.72rem;color:var(--fc-mut)}
-.fc-chip b{font-size:.98rem;font-variant-numeric:tabular-nums}
-.fc-formula{font-size:.8rem;color:var(--fc-mut);font-variant-numeric:tabular-nums;margin-bottom:.9rem}
-.fc-is{display:flex;align-items:center;gap:.5rem;font-size:.85rem;margin-bottom:.8rem}
-.fc-pill{font-size:.72rem;font-weight:700;padding:.15rem .55rem;border-radius:20px}
+.fc-scale{display:flex;justify-content:space-between;font-size:.7rem;color:var(--fc-mut);margin-bottom:1rem}
 .fc-checks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.4rem}
 .fc-checks li{display:flex;gap:.5rem;align-items:flex-start;font-size:.82rem;line-height:1.4;padding:.45rem .6rem;border-radius:6px;margin:0}
 .fc-checks li i{font-size:1rem;flex-shrink:0;margin-top:.05rem}
-.fc-ok{background:var(--fc-ok-soft)} .fc-ok i,.fc-pill.fc-ok{color:var(--fc-ok)}
-.fc-warn{background:var(--fc-warn-soft)} .fc-warn i,.fc-pill.fc-warn{color:var(--fc-warn)}
-.fc-err{background:var(--fc-err-soft)} .fc-err i,.fc-pill.fc-err{color:var(--fc-err)}
+.fc-ok{background:var(--fc-ok-soft)} .fc-ok i{color:var(--fc-ok)}
+.fc-warn{background:var(--fc-warn-soft)} .fc-warn i{color:var(--fc-warn)}
+.fc-err{background:var(--fc-err-soft)} .fc-err i{color:var(--fc-err)}
 .fc-info{background:var(--fc-acc-soft)} .fc-info i{color:var(--fc-acc)}
 .fc-reset{font:inherit;font-size:.8rem;margin-top:.9rem;background:none;border:none;color:var(--fc-acc);cursor:pointer;padding:0;text-decoration:underline}
 </style>
@@ -754,15 +741,17 @@ html[data-theme="dark"] .fc{
       <div class="fc-seg" id="fc-size" role="group" aria-label="Taglia FlexiBowl"></div>
     </div>
     <div>
-      <div class="fc-step"><em>2</em>Geometria e massa del componente</div>
+      <div class="fc-step"><em>2</em>Dimensioni e peso del componente</div>
       <div class="fc-fields">
-        <div class="fc-f"><label for="fc-h">Altezza massima <i>H</i></label>
-          <div class="fc-unit"><input id="fc-h" type="number" inputmode="decimal" min="0" step="0.1" placeholder="es. 12"><span>mm</span></div></div>
-        <div class="fc-f"><label for="fc-b">Larghezza minima base <i>B<sub>min</sub></i></label>
-          <div class="fc-unit"><input id="fc-b" type="number" inputmode="decimal" min="0" step="0.1" placeholder="es. 8"><span>mm</span></div>
-          <div class="fc-hint"><i>B<sub>min</sub></i> è il lato più stretto del rettangolo d'ingombro della base d'appoggio</div></div>
-        <div class="fc-f"><label for="fc-m">Massa</label>
-          <div class="fc-unit"><input id="fc-m" type="number" inputmode="decimal" min="0" step="0.1" placeholder="es. 25"><span>g</span></div></div>
+        <div class="fc-f"><label for="fc-h">Altezza massima</label>
+          <div class="fc-unit" id="fc-h-w"><input id="fc-h" type="number" inputmode="decimal" min="0" step="0.1" placeholder="es. 12"><span>mm</span></div>
+          <div class="fc-hint" id="fc-h-msg"></div></div>
+        <div class="fc-f"><label for="fc-b">Larghezza minima della base</label>
+          <div class="fc-unit" id="fc-b-w"><input id="fc-b" type="number" inputmode="decimal" min="0" step="0.1" placeholder="es. 8"><span>mm</span></div>
+          <div class="fc-hint" id="fc-b-msg"></div></div>
+        <div class="fc-f"><label for="fc-m">Peso del singolo componente</label>
+          <div class="fc-unit" id="fc-m-w"><input id="fc-m" type="number" inputmode="decimal" min="0" step="0.1" placeholder="es. 25"><span>g</span></div>
+          <div class="fc-hint" id="fc-m-msg"></div></div>
       </div>
     </div>
     <div>
@@ -780,25 +769,25 @@ html[data-theme="dark"] .fc{
 
 <script>
 (function(){
-  /* ═════ DATI — allineati alle tabelle di riferimento sotto ═════ */
+  /* Dati interni: non vengono mai mostrati all'utente */
   var SIZES = {
-    200: {grp:'200-350',  wGrp:'small', maxDim:20,  maxH:10, maxM:20,  surf:false, disc:true},
-    350: {grp:'200-350',  wGrp:'small', maxDim:50,  maxH:20, maxM:40,  surf:false, disc:true},
-    500: {grp:'500-650',  wGrp:'small', maxDim:100, maxH:40, maxM:100, surf:true,  disc:true},
-    650: {grp:'500-650',  wGrp:'large', maxDim:150, maxH:45, maxM:170, surf:true,  disc:false},
-    800: {grp:'800-1200', wGrp:'large', maxDim:250, maxH:60, maxM:250, surf:true,  disc:false},
-    1200:{grp:'800-1200', wGrp:'large', maxDim:400, maxH:70, maxM:300, surf:true,  disc:false}
+    200: {grp:'200-350',  wGrp:'small', maxH:10, maxM:20,  surf:false, disc:true},
+    350: {grp:'200-350',  wGrp:'small', maxH:20, maxM:40,  surf:false, disc:true},
+    500: {grp:'500-650',  wGrp:'small', maxH:40, maxM:100, surf:true,  disc:true},
+    650: {grp:'500-650',  wGrp:'large', maxH:45, maxM:170, surf:true,  disc:false},
+    800: {grp:'800-1200', wGrp:'large', maxH:60, maxM:250, surf:true,  disc:false},
+    1200:{grp:'800-1200', wGrp:'large', maxH:70, maxM:300, surf:true,  disc:false}
   };
   var PBASE = {
-    '200-350': {flat:[2.5,'Rischio overlapping: aumentare il numero di colpi (Flip Count) se i pezzi si sormontano.'],
-                slim:[2.0,'Ottima ribaltabilità. Prestare attenzione a pezzi troppo leggeri.']},
-    '500-650': {flat:[3.2,'Richiede maggiore energia per vincere la stabilità geometrica.'],
+    '200-350': {flat:[2.5,'Se i pezzi tendono a sovrapporsi, aumentare il numero di colpi (Flip Count).'],
+                slim:[2.0,'Geometria molto favorevole al ribaltamento. Prestare attenzione se il pezzo è molto leggero.']},
+    '500-650': {flat:[3.2,'Il pezzo richiede maggiore energia per ribaltarsi.'],
                 slim:[2.8,'Configurazione standard bilanciata.']},
-    '800-1200':{flat:[4.0,'Necessaria per separare geometrie piatte e pesanti.'],
+    '800-1200':{flat:[4.0,'Pressione necessaria per separare geometrie piatte e pesanti.'],
                 slim:[3.5,'Punto di partenza ottimale per componenti ingombranti.']}
   };
-  var KW = { small:{lo:10, hi:100}, large:{lo:30, hi:250} };   /* soglie massa in g */
-  var KW_VAL = {light:[0.8,'Leggero'], std:[1.0,'Standard'], heavy:[1.3,'Pesante']};
+  var KW = { small:{lo:10, hi:100}, large:{lo:30, hi:250} };
+  var KW_VAL = {light:0.8, std:1.0, heavy:1.3};
   var MAT = [
     {id:'rigid', k:1.0, n:'Rigido',      ex:'Acciaio, alluminio, ottone, POM, PA rigido, ABS, vetro'},
     {id:'semi',  k:1.2, n:'Semi-rigido', ex:'PE, PP, nylon non caricato, cartone denso, compositi'},
@@ -807,35 +796,41 @@ html[data-theme="dark"] .fc{
   var SURF = [{id:'surf', k:1.0, n:'Superficie'}, {id:'disc', k:0.9, n:'Disco rigido'}];
   var PMAX = 6.0;
 
-  /* ═════ STATO ═════ */
   var st = {size:null, mat:null, surf:null};
   var root = document.getElementById('fc-flip');
+  if(!root || root.dataset.fcInit) return;   /* già inizializzato: evita card duplicate */
+  root.dataset.fcInit = '1';
   var $ = function(id){ return root.querySelector('#'+id); };
-  var f2 = function(x){ return x.toFixed(2).replace('.',','); };
   var f1 = function(x){ return x.toFixed(1).replace('.',','); };
-  var num = function(id){ var v=parseFloat(String($(id).value).replace(',','.')); return isFinite(v)&&v>0 ? v : null; };
 
+  /* lettura campo: {e:true} se vuoto, altrimenti {v, ok} con ok = numero > 0 */
+  function rd(id){
+    var s = String($(id).value).trim().replace(',','.');
+    if(s==='') return {e:true};
+    var v = Number(s);
+    return {e:false, v:v, ok:isFinite(v) && v>0};
+  }
+  function setMsg(id, msg, bad){
+    $(id+'-w').classList.toggle('fc-bad', !!bad);
+    var m = $(id+'-msg'); m.textContent = msg || ''; m.classList.toggle('fc-bad', !!bad);
+  }
   function press(group, val){
     group.querySelectorAll('button').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.v===String(val)); });
   }
 
-  /* taglie */
   Object.keys(SIZES).forEach(function(s){
     var b=document.createElement('button'); b.type='button'; b.dataset.v=s; b.textContent=s; b.setAttribute('aria-pressed','false');
     b.onclick=function(){ st.size=+s; press($('fc-size'),s); syncSurf(); calc(); };
     $('fc-size').appendChild(b);
   });
-  /* materiali */
   MAT.forEach(function(m){
     var b=document.createElement('button'); b.type='button'; b.dataset.v=m.id; b.setAttribute('aria-pressed','false');
-    b.innerHTML='<b>'+m.n+' · K<sub>m</sub> '+f1(m.k)+'</b><small>'+m.ex+'</small>';
+    b.innerHTML='<b>'+m.n+'</b><small>'+m.ex+'</small>';
     b.onclick=function(){ st.mat=m.id; press($('fc-mat'),m.id); calc(); };
     $('fc-mat').appendChild(b);
   });
-  /* piano di lavoro */
   SURF.forEach(function(s){
-    var b=document.createElement('button'); b.type='button'; b.dataset.v=s.id; b.setAttribute('aria-pressed','false');
-    b.textContent=s.n+' · Ks '+f1(s.k);
+    var b=document.createElement('button'); b.type='button'; b.dataset.v=s.id; b.textContent=s.n; b.setAttribute('aria-pressed','false');
     b.onclick=function(){ st.surf=s.id; press($('fc-surf'),s.id); calc(); };
     $('fc-surf').appendChild(b);
   });
@@ -848,60 +843,64 @@ html[data-theme="dark"] .fc{
     else hint.textContent='';
     press($('fc-surf'), st.surf);
   }
-  ['fc-h','fc-b','fc-m'].forEach(function(id){ $(id).addEventListener('input', calc); });
+
+  /* niente segni, notazione esponenziale o valori negativi digitati da tastiera */
+  ['fc-h','fc-b','fc-m'].forEach(function(id){
+    $(id).addEventListener('keydown', function(e){ if(['-','+','e','E'].indexOf(e.key)>-1) e.preventDefault(); });
+    $(id).addEventListener('input', calc);
+  });
 
   function li(cls, icon, html){ return '<li class="'+cls+'"><i class="ph-fill ph-'+icon+'"></i><span>'+html+'</span></li>'; }
 
   function calc(){
-    var H=num('fc-h'), B=num('fc-b'), M=num('fc-m'), out=$('fc-out');
+    var out=$('fc-out'), S = st.size ? SIZES[st.size] : null;
+    var H=rd('fc-h'), B=rd('fc-b'), M=rd('fc-m'), bad=false;
+
+    /* validazione: valori > 0; peso entro il massimo della taglia */
+    if(S){ $('fc-m').max = S.maxM; } else { $('fc-m').removeAttribute('max'); }
+    var NOTPOS = 'Inserire un valore maggiore di zero';
+    if(!H.e && !H.ok){ setMsg('fc-h', NOTPOS, true); bad=true; } else setMsg('fc-h','',false);
+    if(!B.e && !B.ok){ setMsg('fc-b', NOTPOS, true); bad=true; } else setMsg('fc-b','',false);
+    if(!M.e && !M.ok){ setMsg('fc-m', NOTPOS, true); bad=true; }
+    else if(S && !M.e && M.v > S.maxM){ setMsg('fc-m', 'Peso massimo ammesso per FlexiBowl® '+st.size+': '+S.maxM+' g', true); bad=true; }
+    else setMsg('fc-m', S ? 'Massimo ammesso per FlexiBowl® '+st.size+': '+S.maxM+' g' : 'Seleziona prima la taglia per vedere il peso massimo ammesso', false);
+
+    if(bad){
+      out.innerHTML='<div class="fc-empty fc-bad"><i class="ph ph-warning-circle"></i><div>Correggi i valori evidenziati per ottenere la pressione consigliata.</div></div>';
+      return;
+    }
+
     var missing=[];
-    if(!st.size) missing.push('taglia'); if(!H) missing.push('altezza H'); if(!B) missing.push('larghezza B<sub>min</sub>');
-    if(!M) missing.push('massa'); if(!st.mat) missing.push('materiale'); if(!st.surf) missing.push('piano di lavoro');
+    if(!st.size) missing.push('taglia'); if(H.e) missing.push('altezza'); if(B.e) missing.push('larghezza minima');
+    if(M.e) missing.push('peso'); if(!st.mat) missing.push('materiale'); if(!st.surf) missing.push('piano di lavoro');
     if(missing.length){
       out.innerHTML='<div class="fc-empty"><i class="ph ph-gauge"></i><div>Completa i dati per calcolare la pressione consigliata.</div><div style="font-size:.8rem">Mancano: '+missing.join(', ')+'</div></div>';
       return;
     }
-    var S=SIZES[st.size], Is=H/B, slim=Is>=1.0;
+
+    var h=H.v, b=B.v, m=M.v;
+    var ratio=h/b, slim=ratio>=1.0;
     var pb=PBASE[S.grp][slim?'slim':'flat'];
-    var th=KW[S.wGrp], wc = M<th.lo?'light':(M>th.hi?'heavy':'std');
-    var Kw=KW_VAL[wc][0];
-    var mat=MAT.filter(function(m){return m.id===st.mat;})[0];
-    var Ks=SURF.filter(function(s){return s.id===st.surf;})[0].k;
-    var P=pb[0]*mat.k*Kw*Ks, Pset=Math.min(P,PMAX), capped=P>PMAX;
+    var th=KW[S.wGrp], wc = m<th.lo?'light':(m>th.hi?'heavy':'std');
+    var mat=MAT.filter(function(x){return x.id===st.mat;})[0];
+    var Ks=SURF.filter(function(x){return x.id===st.surf;})[0].k;
+    var P=pb[0]*mat.k*KW_VAL[wc]*Ks, Pset=Math.min(P,PMAX), capped=P>PMAX;
 
-    /* classe di snellezza */
-    var isCls, isTxt;
-    if(Is<1.0){ isCls='fc-err'; isTxt='Estremamente stabile · difficile da ribaltare'; }
-    else if(Is<=2.0){ isCls='fc-warn'; isTxt='Stabilità moderata · zona critica'; }
-    else { isCls='fc-ok'; isTxt='Altamente instabile · ribaltamento ottimo'; }
-
-    /* controlli incrociati */
     var c='';
-    c += H<=S.maxH ? li('fc-ok','check-circle','Altezza '+f1(H)+' mm entro il limite di '+S.maxH+' mm per il FlexiBowl® '+st.size+'.')
-                   : li('fc-err','x-circle','Altezza '+f1(H)+' mm oltre il limite di <b>'+S.maxH+' mm</b>: il pezzo potrebbe non avere lo spazio per ribaltarsi sotto lo schermo flip.');
-    c += M<=S.maxM ? li('fc-ok','check-circle','Massa '+f1(M)+' g entro il limite di '+S.maxM+' g.')
-                   : li('fc-err','x-circle','Massa '+f1(M)+' g oltre il limite di <b>'+S.maxM+' g</b> per il FlexiBowl® '+st.size+'.');
-    if(Is<1.0) c += li('fc-warn','warning','Pezzo largo e basso: richiede la massima energia del flip.');
-    else if(Is<=2.0) c += li('fc-warn','warning','Indice di snellezza in zona critica: il comportamento dipende dalla simmetria del pezzo, <b>validare con un test pratico</b>.');
-    if(capped) c += li('fc-err','x-circle','Il calcolo restituisce '+f2(P)+' bar, oltre la massima pressione di esercizio del cilindro flip: impostare <b>6,0 bar</b> e aumentare il <b>Flip Count</b> se il pezzo non si ribalta costantemente.');
+    if(h>S.maxH) c += li('fc-err','x-circle','Altezza oltre il limite di <b>'+S.maxH+' mm</b> per il FlexiBowl® '+st.size+': il pezzo potrebbe non avere lo spazio per ribaltarsi sotto lo schermo flip.');
+    else c += li('fc-ok','check-circle','Il componente è compatibile con il FlexiBowl® '+st.size+'.');
+    if(ratio<1.0) c += li('fc-warn','warning','Pezzo largo e basso, difficile da ribaltare: è richiesta la massima energia del flip.');
+    else if(ratio<=2.0) c += li('fc-warn','warning','Per la geometria di questo pezzo il comportamento può variare: <b>si consiglia un test pratico di validazione</b>.');
+    if(capped) c += li('fc-err','x-circle','Per questo componente servirebbe una pressione superiore al limite del cilindro flip: impostare <b>6,0 bar</b> e aumentare il <b>Flip Count</b> se il pezzo non si ribalta in modo costante.');
     c += li('fc-info','info',pb[1]);
-    if(wc!=='std') c += li('fc-info','info', wc==='light'
-        ? 'Componente leggero: pressione ridotta per un salto controllato, evitando rimbalzi incontrollati.'
-        : 'Componente pesante: pressione aumentata per vincere la gravità e permettere il ribaltamento della massa.');
+    if(wc==='light') c += li('fc-info','info','Componente leggero: pressione ridotta per un salto controllato, evitando rimbalzi incontrollati.');
+    if(wc==='heavy') c += li('fc-info','info','Componente pesante: pressione aumentata per permettere il ribaltamento della massa.');
 
     out.innerHTML =
       '<div class="fc-lbl">Pressione flip consigliata</div>'+
       '<div class="fc-big">'+f1(Pset)+'<small>bar</small></div>'+
       '<div class="fc-gauge"><div style="width:'+(Pset/PMAX*100)+'%"></div></div>'+
       '<div class="fc-scale"><span>0</span><span>2</span><span>4</span><span>6 bar (max)</span></div>'+
-      '<div class="fc-chips">'+
-        '<div class="fc-chip"><span>P<sub>base</sub></span><b>'+f1(pb[0])+'</b></div>'+
-        '<div class="fc-chip"><span>K<sub>m</sub> '+mat.n.toLowerCase()+'</span><b>'+f1(mat.k)+'</b></div>'+
-        '<div class="fc-chip"><span>K<sub>w</sub> '+KW_VAL[wc][1].toLowerCase()+'</span><b>'+f1(Kw)+'</b></div>'+
-        '<div class="fc-chip"><span>K<sub>s</sub></span><b>'+f1(Ks)+'</b></div>'+
-      '</div>'+
-      '<div class="fc-formula">P<sub>flip</sub> = '+f1(pb[0])+' × '+f1(mat.k)+' × '+f1(Kw)+' × '+f1(Ks)+' = <b>'+f2(P)+' bar</b>'+(capped?' → limitata a 6,0 bar':'')+'</div>'+
-      '<div class="fc-is"><span>Indice di snellezza I<sub>s</sub> = '+f2(H)+' / '+f2(B)+' = <b>'+f2(Is)+'</b></span><span class="fc-pill '+isCls+'">'+isTxt+'</span></div>'+
       '<ul class="fc-checks">'+c+'</ul>'+
       '<button type="button" class="fc-reset" id="fc-reset">Azzera i dati</button>';
     $('fc-reset').onclick=reset;
@@ -921,212 +920,7 @@ html[data-theme="dark"] .fc{
 <p class="admonition-title">Attention</p>
 <p>Il valore calcolato è un <strong>punto di partenza</strong> da affinare in macchina. Per una valutazione più precisa e dettagliata dei parametri di flip non esitare a <a class="reference external" href="https://www.arsautomation.com/contact">contattare il nostro team</a> o richiedere un <a class="reference external" href="https://www.flexibowl.it/free-test"><em>free test</em></a>.</p>
 </div>
-<section id="come-viene-calcolata-la-pressione">
-<h3>Come viene calcolata la pressione<a class="headerlink" href="#come-viene-calcolata-la-pressione" title="Link to this heading">#</a></h3>
-<p>La pressione consigliata si ottiene moltiplicando una <strong>pressione base</strong>, che dipende dalla taglia del FlexiBowl® e dalla geometria del pezzo, per tre fattori correttivi:</p>
-<div class="math notranslate nohighlight">
-\[
-P_{flip} = P_{base} \times K_m \times K_w \times K_s
-\]</div>
-<p>Il risultato è limitato a <strong>6,0 bar</strong>, la massima pressione di esercizio del cilindro flip.</p>
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-icon"><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-graph" viewBox="0 0 16 16" aria-hidden="true"><path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path></svg></span><span class="sd-summary-text">Indice di snellezza e pressione base</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<p class="sd-card-text">L’indice di snellezza descrive quanto è facile ribaltare il pezzo:</p>
-<div class="math notranslate nohighlight">
-\[
-I_s = \frac{H}{B_{\min}}
-\]</div>
-<div class="pst-scrollable-table-container"><table class="table">
-<colgroup>
-<col style="width: 25.0%" />
-<col style="width: 35.0%" />
-<col style="width: 40.0%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p class="sd-card-text">Indice <span class="math notranslate nohighlight">\(I_s\)</span></p></th>
-<th class="head"><p class="sd-card-text">Stabilità del pezzo</p></th>
-<th class="head"><p class="sd-card-text">Idoneità al ribaltamento</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p class="sd-card-text"><span class="math notranslate nohighlight">\(I_s &lt; 1{,}0\)</span> (largo e basso)</p></td>
-<td><p class="sd-card-text"><strong>Estremamente stabile.</strong> Tende a saltare verticalmente senza ruotare o ricade sulla stessa base.</p></td>
-<td><p class="sd-card-text"><strong>Difficile da ribaltare.</strong> Richiede la massima energia del flip.</p></td>
-</tr>
-<tr class="row-odd"><td><p class="sd-card-text"><span class="math notranslate nohighlight">\(1{,}0 \le I_s \le 2{,}0\)</span></p></td>
-<td><p class="sd-card-text"><strong>Stabilità moderata.</strong> Il comportamento dinamico dipende dalla simmetria del pezzo.</p></td>
-<td><p class="sd-card-text"><strong>Zona critica.</strong> Richiede un test pratico di validazione sulla macchina.</p></td>
-</tr>
-<tr class="row-even"><td><p class="sd-card-text"><span class="math notranslate nohighlight">\(I_s &gt; 2{,}0\)</span> (snello e alto)</p></td>
-<td><p class="sd-card-text"><strong>Altamente instabile.</strong> Il baricentro alto lo rende estremamente sensibile all’urto.</p></td>
-<td><p class="sd-card-text"><strong>Ottima.</strong> Si ribalta molto facilmente con impostazioni di energia standard.</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="pst-scrollable-table-container"><table class="table">
-<colgroup>
-<col style="width: 18.0%" />
-<col style="width: 27.0%" />
-<col style="width: 15.0%" />
-<col style="width: 40.0%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p class="sd-card-text">Taglia FlexiBowl®</p></th>
-<th class="head"><p class="sd-card-text">Geometria</p></th>
-<th class="head"><p class="sd-card-text"><span class="math notranslate nohighlight">\(P_{base}\)</span></p></th>
-<th class="head"><p class="sd-card-text">Note operative</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p class="sd-card-text">200 – 350</p></td>
-<td><p class="sd-card-text"><span class="math notranslate nohighlight">\(I_s &lt; 1{,}0\)</span> (piatto/largo)</p></td>
-<td><p class="sd-card-text">2,5 bar</p></td>
-<td><p class="sd-card-text">Rischio overlapping. Aumentare il numero di colpi se i pezzi si sormontano.</p></td>
-</tr>
-<tr class="row-odd"><td><p class="sd-card-text">200 – 350</p></td>
-<td><p class="sd-card-text"><span class="math notranslate nohighlight">\(I_s \ge 1{,}0\)</span> (snello/alto)</p></td>
-<td><p class="sd-card-text">2,0 bar</p></td>
-<td><p class="sd-card-text">Ottima ribaltabilità. Prestare attenzione a pezzi troppo leggeri.</p></td>
-</tr>
-<tr class="row-even"><td><p class="sd-card-text">500 – 650</p></td>
-<td><p class="sd-card-text"><span class="math notranslate nohighlight">\(I_s &lt; 1{,}0\)</span> (piatto/largo)</p></td>
-<td><p class="sd-card-text">3,2 bar</p></td>
-<td><p class="sd-card-text">Richiede maggiore energia per vincere la stabilità geometrica.</p></td>
-</tr>
-<tr class="row-odd"><td><p class="sd-card-text">500 – 650</p></td>
-<td><p class="sd-card-text"><span class="math notranslate nohighlight">\(I_s \ge 1{,}0\)</span> (snello/alto)</p></td>
-<td><p class="sd-card-text">2,8 bar</p></td>
-<td><p class="sd-card-text">Configurazione standard bilanciata.</p></td>
-</tr>
-<tr class="row-even"><td><p class="sd-card-text">800 – 1200</p></td>
-<td><p class="sd-card-text"><span class="math notranslate nohighlight">\(I_s &lt; 1{,}0\)</span> (piatto/largo)</p></td>
-<td><p class="sd-card-text">4,0 bar</p></td>
-<td><p class="sd-card-text">Necessaria per separare geometrie piatte e pesanti.</p></td>
-</tr>
-<tr class="row-odd"><td><p class="sd-card-text">800 – 1200</p></td>
-<td><p class="sd-card-text"><span class="math notranslate nohighlight">\(I_s \ge 1{,}0\)</span> (snello/alto)</p></td>
-<td><p class="sd-card-text">3,5 bar</p></td>
-<td><p class="sd-card-text">Punto di partenza ottimale per componenti ingombranti.</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-icon"><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-package" viewBox="0 0 16 16" aria-hidden="true"><path d="m8.878.392 5.25 3.045c.54.314.872.89.872 1.514v6.098a1.75 1.75 0 0 1-.872 1.514l-5.25 3.045a1.75 1.75 0 0 1-1.756 0l-5.25-3.045A1.75 1.75 0 0 1 1 11.049V4.951c0-.624.332-1.201.872-1.514L7.122.392a1.75 1.75 0 0 1 1.756 0ZM7.875 1.69l-4.63 2.685L8 7.133l4.755-2.758-4.63-2.685a.248.248 0 0 0-.25 0ZM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432Zm6.25 8.271 4.625-2.683a.25.25 0 0 0 .125-.216V5.677L8.75 8.432Z"></path></svg></span><span class="sd-summary-text">Fattore correttivo del materiale (<span class="math notranslate nohighlight">\(K_m\)</span>)</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<p class="sd-card-text">La rigidezza del componente influisce direttamente sull’efficienza di trasmissione dell’impulso del flip. I materiali a comportamento elastico o smorzante assorbono parte dell’energia cinetica durante l’impatto, richiedendo una compensazione della pressione di linea.</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<colgroup>
-<col style="width: 18.0%" />
-<col style="width: 10.0%" />
-<col style="width: 37.0%" />
-<col style="width: 35.0%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p class="sd-card-text">Categoria</p></th>
-<th class="head"><p class="sd-card-text"><span class="math notranslate nohighlight">\(K_m\)</span></p></th>
-<th class="head"><p class="sd-card-text">Materiali</p></th>
-<th class="head"><p class="sd-card-text">Comportamento</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p class="sd-card-text">Rigido</p></td>
-<td><p class="sd-card-text">1,0</p></td>
-<td><p class="sd-card-text">Acciaio, alluminio, ottone, lamiera, POM, PA (nylon rigido), ABS, vetro, bachelite</p></td>
-<td><p class="sd-card-text">Urto perfettamente elastico: la totalità dell’energia viene trasferita al pezzo, che scatta istantaneamente. Nessuna correzione.</p></td>
-</tr>
-<tr class="row-odd"><td><p class="sd-card-text">Semi-rigido</p></td>
-<td><p class="sd-card-text">1,2</p></td>
-<td><p class="sd-card-text">Polietilene (PE), polipropilene (PP), nylon non caricato, cartone denso, materiali compositi stratificati</p></td>
-<td><p class="sd-card-text">Presenza di micro-smorzamento strutturale. Pressione base aumentata del 20% per garantire la stessa altezza di salto del pezzo rigido.</p></td>
-</tr>
-<tr class="row-even"><td><p class="sd-card-text">Non rigido</p></td>
-<td><p class="sd-card-text">1,8</p></td>
-<td><p class="sd-card-text">Gomma naturale, gomma nitrilica (NBR), silicone, poliuretano, TPU morbido</p></td>
-<td><p class="sd-card-text">Urto fortemente anelastico: il componente si deforma momentaneamente sotto l’impulso. Richiede un forte incremento della pressione base, fino al limite di linea di 6,0 bar se necessario.</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-icon"><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-stack" viewBox="0 0 16 16" aria-hidden="true"><path d="M7.122.392a1.75 1.75 0 0 1 1.756 0l5.003 2.902c.83.481.83 1.68 0 2.162L8.878 8.358a1.75 1.75 0 0 1-1.756 0L2.119 5.456a1.251 1.251 0 0 1 0-2.162ZM8.125 1.69a.248.248 0 0 0-.25 0l-4.63 2.685 4.63 2.685a.248.248 0 0 0 .25 0l4.63-2.685ZM1.601 7.789a.75.75 0 0 1 1.025-.273l5.249 3.044a.248.248 0 0 0 .25 0l5.249-3.044a.75.75 0 0 1 .752 1.298l-5.248 3.044a1.75 1.75 0 0 1-1.756 0L1.874 8.814A.75.75 0 0 1 1.6 7.789Zm0 3.5a.75.75 0 0 1 1.025-.273l5.249 3.044a.248.248 0 0 0 .25 0l5.249-3.044a.75.75 0 0 1 .752 1.298l-5.248 3.044a1.75 1.75 0 0 1-1.756 0l-5.248-3.044a.75.75 0 0 1-.273-1.025Z"></path></svg></span><span class="sd-summary-text">Fattore correttivo del peso (<span class="math notranslate nohighlight">\(K_w\)</span>)</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<p class="sd-card-text">La massa del componente determina la sua inerzia al decollo. Componenti molto leggeri richiedono pressioni ridotte per evitare traiettorie caotiche o fuoriuscite dal piatto, mentre componenti pesanti necessitano di una spinta maggiore per sollevare il baricentro.</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<colgroup>
-<col style="width: 18.0%" />
-<col style="width: 20.0%" />
-<col style="width: 20.0%" />
-<col style="width: 10.0%" />
-<col style="width: 32.0%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p class="sd-card-text">Categoria</p></th>
-<th class="head"><p class="sd-card-text">Massa (FlexiBowl® 200 / 350 / 500)</p></th>
-<th class="head"><p class="sd-card-text">Massa (FlexiBowl® 650 / 800 / 1200)</p></th>
-<th class="head"><p class="sd-card-text"><span class="math notranslate nohighlight">\(K_w\)</span></p></th>
-<th class="head"><p class="sd-card-text">Note</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p class="sd-card-text">Leggero</p></td>
-<td><p class="sd-card-text">&lt; 10 g</p></td>
-<td><p class="sd-card-text">&lt; 30 g</p></td>
-<td><p class="sd-card-text">0,8</p></td>
-<td><p class="sd-card-text">Bassa inerzia. Pressione ridotta del 20% per un salto controllato e smorzato, evitando rimbalzi incontrollati.</p></td>
-</tr>
-<tr class="row-odd"><td><p class="sd-card-text">Standard</p></td>
-<td><p class="sd-card-text">10 – 100 g</p></td>
-<td><p class="sd-card-text">30 – 250 g</p></td>
-<td><p class="sd-card-text">1,0</p></td>
-<td><p class="sd-card-text">Finestra di lavoro ottimale della macchina. Nessuna correzione richiesta.</p></td>
-</tr>
-<tr class="row-even"><td><p class="sd-card-text">Pesante</p></td>
-<td><blockquote>
-<div><p class="sd-card-text">100 g</p>
-</div></blockquote>
-</td>
-<td><blockquote>
-<div><p class="sd-card-text">250 g</p>
-</div></blockquote>
-</td>
-<td><p class="sd-card-text">1,3</p></td>
-<td><p class="sd-card-text">Alta inerzia. Pressione aumentata del 30% per vincere la forza di gravità e permettere il ribaltamento della massa.</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-icon"><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-circle" viewBox="0 0 16 16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Z"></path></svg></span><span class="sd-summary-text">Fattore correttivo del piano di lavoro (<span class="math notranslate nohighlight">\(K_s\)</span>)</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<div class="pst-scrollable-table-container"><table class="table">
-<colgroup>
-<col style="width: 50.0%" />
-<col style="width: 50.0%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p class="sd-card-text">Piano di lavoro</p></th>
-<th class="head"><p class="sd-card-text"><span class="math notranslate nohighlight">\(K_s\)</span></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p class="sd-card-text">Superficie</p></td>
-<td><p class="sd-card-text">1,0</p></td>
-</tr>
-<tr class="row-odd"><td><p class="sd-card-text">Disco rigido</p></td>
-<td><p class="sd-card-text">0,9</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p class="sd-card-text">I FlexiBowl® 200 e 350 lavorano solo con disco rigido; i FlexiBowl® 650, 800 e 1200 solo con superficie (vedi <a class="reference internal" href="../ACCESSORI/02_DISCHI_RIGIDI.html#dischi-rigidi"><span class="std std-ref">[MEC] Dischi Rigidi</span></a> e <a class="reference internal" href="../ACCESSORI/01_SUPERFICI.html#superfici"><span class="std std-ref">[MEC] Superfici</span></a>).</p>
-</div>
-</details><br>
+<br>
 <!-- Versions and languages set-up -->
 <style>
   .fixed-bar {
@@ -1773,7 +1567,6 @@ I_s = \frac{H}{B_{\min}}
 </script>
 </section>
 </section>
-</section>
 
 
                 </article>
@@ -1823,10 +1616,7 @@ I_s = \frac{H}{B_{\min}}
   <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="pst-show_toc_level nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caratteristiche-dei-componenti-ammessi-sul-flexibowl">Caratteristiche dei componenti ammessi sul FlexiBowl®</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#come-valutare-la-ribaltabilita-del-componente">Come valutare la ribaltabilità del componente</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#come-viene-calcolata-la-pressione">Come viene calcolata la pressione</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#come-valutare-la-ribaltabilita-del-componente">Come valutare la ribaltabilità del componente</a></li>
 </ul>
   </nav></div>
 
@@ -1897,7 +1687,7 @@ By ARS Automation
     (() => {
       "use strict";
 
-      const verifier = {"version":1,"algorithm":"AES-GCM","kdf":"PBKDF2-SHA256","iterations":250000,"salt":"NMjtCpdrFi3NQNuP3T54zw==","iv":"pjVmEKcItZK6+h5C","ciphertext":"iIIeVkPWjzQlpLXV4+6DX6s2t/dHVdWcrNUzuueDcZjjqKjuFFKW"};
+      const verifier = {"version":1,"algorithm":"AES-GCM","kdf":"PBKDF2-SHA256","iterations":250000,"salt":"v2jFYEoG28yBj1AZmmrZqg==","iv":"xMHHmM4/HglTY6Ox","ciphertext":"S8rhF+axBZsdwEKmu1tbr6dVdvUHGNMe6qQgkD88lV4bphsYLTnm"};
       const expectedText = "ars-protected-access-ok";
       const storageKey = "arsProtectedPagePassword";
       const encoder = new TextEncoder();
