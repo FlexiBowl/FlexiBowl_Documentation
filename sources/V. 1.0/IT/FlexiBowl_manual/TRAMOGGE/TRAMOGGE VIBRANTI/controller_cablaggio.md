@@ -97,7 +97,7 @@ La comunicazione avviene tramite porta **RS485** (protocollo **Modbus**), con in
 
     </div></details>
 * - **Enable Output Port** (4 pin)
-  - Uscita di abilitazione per il controllo esterno della tramoggia, utilizzata quando questa viene acquistata separatamente e deve essere pilotata da un dispositivo esterno. Cavo disponibile come opzione: {ref}`cavo-input`.
+  - Uscita di abilitazione per il controllo esterno della Bulk Feeder, utilizzata quando questa viene acquistata separatamente e deve essere pilotata da un dispositivo esterno. Cavo disponibile come opzione: {ref}`cavo-input`.
   - <details class="ars-dropdown"><summary>Pinout connettore 4 pin</summary><div class="ars-dropdown-body">
 
     | Pin | Descrizione |
@@ -109,10 +109,10 @@ La comunicazione avviene tramite porta **RS485** (protocollo **Modbus**), con in
 
     </div></details>
 * - **RS485 Port** (2× 5 pin)
-  - Due connettori RS485 identici: uno collega il controller al FlexiBowl®, l'altro consente il collegamento in **daisy chain** tra più tramogge. Cavo disponibile come opzione: {ref}`cavo-modbus`.
+  - Due connettori RS485 identici: uno collega il controller al FlexiBowl®, l'altro consente il collegamento in **daisy chain** tra più Bulk Feeder. Cavo disponibile come opzione: {ref}`cavo-modbus`.
     
     :::{important}
-    In configurazione a tramoggia singola, il connettore non utilizzato va chiuso con l'apposito **tappo di terminazione** fornito in dotazione, dotato di resistenza da **120 Ω** tra A+ e B-
+    In configurazione a Bulk Feeder singola, il connettore non utilizzato va chiuso con l'apposito **tappo di terminazione** fornito in dotazione, dotato di resistenza da **120 Ω** tra A+ e B-
     :::
   
   - <details class="ars-dropdown"><summary>Pinout connettore 5 pin</summary><div class="ars-dropdown-body">
@@ -126,8 +126,8 @@ La comunicazione avviene tramite porta **RS485** (protocollo **Modbus**), con in
     | 5 | NC |
 
     </div></details>
-* - **Power Output to Feeder** (uscita verso la tramoggia)
-  - Alimentazione verso la tramoggia
+* - **Power Output to Feeder** (uscita verso la Bulk Feeder)
+  - Alimentazione verso la Bulk Feeder
   - <details class="ars-dropdown"><summary>Pinout connettore</summary><div class="ars-dropdown-body">
 
     | Pin | Descrizione |
@@ -190,7 +190,7 @@ Prima di procedere con la messa in funzione della macchina, occorre eseguire le 
 
 ### Sequenza di collegamento elettrico
 
-Indipendentemente dal tipo di controller utilizzato (standard, analogico o digitale), il collegamento elettrico tra tramoggia, controller e FlexiBowl® segue una sequenza precisa. La sequenza differisce leggermente in base al modello: i **FlexiBowl® 500/650/8 00/1200** dispongono di un pannello standard con connettore HOPPER integrato, mentre i **FlexiBowl® 200/350** utilizzano un rack esterno dotato di proprio connettore HOPPER.
+Indipendentemente dal tipo di controller utilizzato (standard, analogico o digitale), il collegamento elettrico tra Bulk Feeder, controller e FlexiBowl® segue una sequenza precisa. La sequenza differisce leggermente in base al modello: i **FlexiBowl® 500/650/8 00/1200** dispongono di un pannello standard con connettore HOPPER integrato, mentre i **FlexiBowl® 200/350** utilizzano un rack esterno dotato di proprio connettore HOPPER.
 
 #### FlexiBowl® 500 / 600 / 900 / 1200 — pannello standard
 
@@ -198,30 +198,30 @@ Indipendentemente dal tipo di controller utilizzato (standard, analogico o digit
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Collegare il <strong>Controller</strong> alla <strong>tramoggia</strong> (base vibrante).
+      Collegare il <strong>Controller</strong> alla <strong>Bulk Feeder</strong> (base vibrante).
     </div>
-    <img src="../../../../../_shared/media/images/connect_Hopper.png" alt="Collegamento del Hopper Controller alla tramoggia" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+    <img src="../../../../../_shared/media/images/connect_Hopper.png" alt="Collegamento del Hopper Controller alla Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
       Collegare il <strong>Controller</strong> al connettore <strong>HOPPER</strong> sul pannello standard del FlexiBowl®.
     </div>
-    <img src="../../../../../_shared/media/images/connect_FB.png" alt="Collegamento del Hopper Controller alla tramoggia" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+    <img src="../../../../../_shared/media/images/connect_FB.png" alt="Collegamento del Hopper Controller alla Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
       Se il connettore Hopper del FlexiBowl® non viene utilizzato, inserire l'apposito <strong>cappuccio di terminazione</strong>*.
     </div>
-    <img src="../../../../../_shared/media/images/cover_cap.png" alt="Collegamento del Hopper Controller alla tramoggia" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+    <img src="../../../../../_shared/media/images/cover_cap.png" alt="Collegamento del Hopper Controller alla Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
       Collegare il cavo di <strong>alimentazione</strong> al Controller, verificando che l'interruttore di accensione sia in posizione <strong>OFF</strong>.
     </div>
-    <img src="../../../../../_shared/media/images/connect_Supply.png" alt="Collegamento del Hopper Controller alla tramoggia" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+    <img src="../../../../../_shared/media/images/connect_Supply.png" alt="Collegamento del Hopper Controller alla Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">5</div>
@@ -251,7 +251,7 @@ Collegare sempre **prima il lato controller** del cavo di alimentazione, e solo 
 :align: center
 ```
 
-#### **Collegamento in cascata di più tramogge**
+#### **Collegamento in cascata di più Bulk Feeder**
 
 Sui modelli con pannello standard è possibile collegare più unità Hopper Controller in cascata, alimentando ciascun controller singolarmente e collegando i connettori tra un'unità e la successiva.
 
@@ -267,30 +267,30 @@ Sui modelli con pannello standard è possibile collegare più unità Hopper Cont
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Collegare il <strong>Controller</strong> alla <strong>tramoggia</strong> (base vibrante).
+      Collegare il <strong>Controller</strong> alla <strong>Bulk Feeder</strong> (base vibrante).
     </div>
-    <img src="../../../../../_shared/media/images/connect_Hopper.png" alt="Collegamento del Hopper Controller alla tramoggia" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+    <img src="../../../../../_shared/media/images/connect_Hopper.png" alt="Collegamento del Hopper Controller alla Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
       Collegare il <strong>Controller</strong> al connettore <strong>HOPPER</strong> sul pannello del <strong>rack</strong>.
     </div>
-    <img src="../../../../../_shared/media/images/controller_Rack.png" alt="Collegamento del Hopper Controller alla tramoggia" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+    <img src="../../../../../_shared/media/images/controller_Rack.png" alt="Collegamento del Hopper Controller alla Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
       Se il connettore Hopper del rack non viene utilizzato, inserire l'apposito <strong>cappuccio di terminazione</strong>*.
     </div>
-    <img src="../../../../../_shared/media/images/cover_cap.png" alt="Collegamento del Hopper Controller alla tramoggia" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+    <img src="../../../../../_shared/media/images/cover_cap.png" alt="Collegamento del Hopper Controller alla Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
       Collegare il cavo di <strong>alimentazione</strong> al Controller, verificando che l'interruttore di accensione sia in posizione <strong>OFF</strong>.
     </div>
-    <img src="../../../../../_shared/media/images/connect_Supply.png" alt="Collegamento del Hopper Controller alla tramoggia" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+    <img src="../../../../../_shared/media/images/connect_Supply.png" alt="Collegamento del Hopper Controller alla Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">5</div>
@@ -331,7 +331,7 @@ Alimentazione standard del controller: **115 Vac** oppure **230 Vac ±5%**. Veri
 Una volta completato il cablaggio elettrico, il passaggio successivo è impostare un **indirizzo di comunicazione univoco** su ciascun controller, tramite il parametro **Communication Address** (`r`).
 
 :::{note}
-Il parametro `r` rappresenta l'**ID del controller** sulla rete di comunicazione **RS485**. Quando più controller sono collegati sulla stessa rete (es. più tramogge), è **obbligatorio** assegnare a ciascuno un indirizzo diverso, nel range **1–31**, per poterli distinguere e controllare singolarmente.
+Il parametro `r` rappresenta l'**ID del controller** sulla rete di comunicazione **RS485**. Quando più controller sono collegati sulla stessa rete (es. più Bulk Feeder), è **obbligatorio** assegnare a ciascuno un indirizzo diverso, nel range **1–31**, per poterli distinguere e controllare singolarmente.
 :::
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
@@ -359,26 +359,26 @@ Il parametro `r` rappresenta l'**ID del controller** sulla rete di comunicazione
 
 #### Interfaccia Software Hopper
 
-Una volta assegnato l'indirizzo univoco a ciascun controller, le tramogge risultano **integrate nel software FlexiBowl®** e possono essere controllate direttamente dalla relativa interfaccia, senza necessità di agire manualmente sui singoli controller.
+Una volta assegnato l'indirizzo univoco a ciascun controller, le Bulk Feeder risultano **integrate nel software FlexiBowl®** e possono essere controllate direttamente dalla relativa interfaccia, senza necessità di agire manualmente sui singoli controller.
 
 ```{image} ../../../../../_shared/media/images/hopper.png
-:alt: Interfaccia software FlexiBowl — gestione delle tramogge (Hopper 1–4)
+:alt: Interfaccia software FlexiBowl — gestione delle Bulk Feeder (Hopper 1–4)
 :width: 100%
 :align: center
 ```
 
-Dall'interfaccia software è possibile, per ciascuna tramoggia collegata:
+Dall'interfaccia software è possibile, per ciascuna Bulk Feeder collegata:
 
 | Campo | Funzione |
 |---|---|
 | **ID** | Indirizzo di comunicazione del controller (deve corrispondere a quello impostato manualmente) |
-| **ENABLE** | Abilita la tramoggia al funzionamento |
+| **ENABLE** | Abilita la Bulk Feeder al funzionamento |
 | **Set New ID** | Assegna un nuovo indirizzo di comunicazione dal software |
-| **STATUS** | Stato corrente della tramoggia (es. Disabled) |
+| **STATUS** | Stato corrente della Bulk Feeder (es. Disabled) |
 | **Amplitude** | Ampiezza di vibrazione |
 | **Frequency** | Frequenza di vibrazione |
-| **Activation Time** | Tempo di attivazione della tramoggia (ms) |
-| **Start Hopper** | Avvia manualmente la tramoggia |
+| **Activation Time** | Tempo di attivazione della Bulk Feeder (ms) |
+| **Start Hopper** | Avvia manualmente la Bulk Feeder |
 
 :::{note}
 Tutte le regolazioni disponibili tramite l'interfaccia software possono essere eseguite anche **direttamente dal controller**, tramite i Parametri Comuni e Base descritti di seguito.
@@ -474,10 +474,10 @@ Il **Controller Reset** riporta tutti i Parametri Comuni e Base ai valori di def
 
 ---
 
-## **Messa in servizio della tramoggia**
+## **Messa in servizio della Bulk Feeder**
 
 :::{important}
-- Se il sistema include **FlexiVision One**, la configurazione dei parametri della tramoggia è guidata nella sezione [Configurazione Tramoggia]().
+- Se il sistema include **FlexiVision One**, la configurazione dei parametri della Bulk Feeder è guidata nella sezione [Configurazione Bulk Feeder]().
 - Altrimenti, fare riferimento alla sezione [Hopper](hopper) di questo manuale.
 :::
 

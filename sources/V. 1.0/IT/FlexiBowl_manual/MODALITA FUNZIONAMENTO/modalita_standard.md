@@ -65,10 +65,10 @@ Durante la fase Move-Flip, lo scarico dell'hopper avviene in parallelo al movime
 :align: center
 :width: 60%
 
-Esempio di layout in Modalità Standard: la tramoggia scarica nel settore di rilascio, il flip separa i componenti, il robot preleva nell'area di visione e i pezzi non presi ricircolano.
+Esempio di layout in Modalità Standard: la Bulk Feeder scarica nel settore di rilascio, il flip separa i componenti, il robot preleva nell'area di visione e i pezzi non presi ricircolano.
 :::
 
-L'area di lavoro del robot deve coprire interamente l'area di visione, così che il robot possa raggiungere tutti i componenti riconosciuti come prendibili. Per il posizionamento di robot, tramogge, depositi, telecamera e illuminazione fare riferimento a {ref}`Layout Best Practice <layoutbp-traditional>`.
+L'area di lavoro del robot deve coprire interamente l'area di visione, così che il robot possa raggiungere tutti i componenti riconosciuti come prendibili. Per il posizionamento di robot, Bulk Feeder, depositi, telecamera e illuminazione fare riferimento a {ref}`Layout Best Practice <layoutbp-traditional>`.
 
 
 ---

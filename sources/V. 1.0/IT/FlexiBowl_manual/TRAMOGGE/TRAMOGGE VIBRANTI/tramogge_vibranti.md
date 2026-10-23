@@ -1,7 +1,7 @@
-# **Tramogge Vibranti**
+# **Bulk Feeder**
 
-## Cosa è una tramoggia vibrante?
-La tramoggia vibrante è un dispositivo industriale di stoccaggio e alimentazione progettato per contenere componenti e dosarli in modo continuo e uniforme verso il FlexiBowl.
+## Cosa è una Bulk Feeder?
+La Bulk Feeder vibrante è un dispositivo industriale di stoccaggio e alimentazione progettato per contenere componenti e dosarli in modo continuo e uniforme verso il FlexiBowl.
 
 ## Navigare il Manuale
 Questo manuale è strutturato come un vero e proprio workflow sequenziale pensato per accompagnare i tecnici, gli installatori e gli operatori attraverso tutte le fasi di vita del macchinario.
@@ -145,7 +145,7 @@ Ecco ciascuna delle pagine:
         <a class="qs-title-link" href="info_preliminari.html">Informazioni Preliminari</a>
       </div>
       <p class="qs-card-desc">
-        Contiene informazioni importanti come le avvertenze generali sulla sicurezza e i criteri di qualificazione dell'operatore, insieme ai dati di identificazione ufficiale del costruttore e della marcatura CE. Definisce in modo chiaro e vincolante i limiti d'uso previsti della tramoggia (scopo e campo di applicazione) e l'elenco degli usi non consentiti o potenzialmente pericolosi.
+        Contiene informazioni importanti come le avvertenze generali sulla sicurezza e i criteri di qualificazione dell'operatore, insieme ai dati di identificazione ufficiale del costruttore e della marcatura CE. Definisce in modo chiaro e vincolante i limiti d'uso previsti della Bulk Feeder (scopo e campo di applicazione) e l'elenco degli usi non consentiti o potenzialmente pericolosi.
       </p>
     </div>
   </div>
@@ -177,7 +177,7 @@ Ecco ciascuna delle pagine:
         <a class="qs-title-link" href="trasporto_installazione.html">Trasporto e Installazione </a>
       </div>
       <p class="qs-card-desc">
-        Specifica le linee guida per la ricezione e il disimballo del macchinario, le procedure per il sollevamento e la movimentazione sicura dei pesi nell'area di lavoro, e i requisiti meccanici per il corretto fissaggio e livellamento della tramoggia sulla struttura di supporto.
+        Specifica le linee guida per la ricezione e il disimballo del macchinario, le procedure per il sollevamento e la movimentazione sicura dei pesi nell'area di lavoro, e i requisiti meccanici per il corretto fissaggio e livellamento della Bulk Feeder sulla struttura di supporto.
       </p>
     </div>
   </div>
@@ -193,7 +193,7 @@ Ecco ciascuna delle pagine:
         <a class="qs-title-link" href="controller_cablaggio.html">Controller e Cablaggio</a>
       </div>
       <p class="qs-card-desc">
-        Illustra gli schemi elettrici e le modalità di interconnessione tra l'elettromagnete della tramoggia e l'unità di controllo esterna, definendo la configurazione dei segnali logici, la taratura delle frequenze di vibrazione e l'interfaccia con i PLC di linea.
+        Illustra gli schemi elettrici e le modalità di interconnessione tra l'elettromagnete della Bulk Feeder e l'unità di controllo esterna, definendo la configurazione dei segnali logici, la taratura delle frequenze di vibrazione e l'interfaccia con i PLC di linea.
       </p>
     </div>
   </div>
@@ -224,7 +224,7 @@ Ecco ciascuna delle pagine:
         <a class="qs-title-link" href="smaltimento_appendici.html">Messa fuori servizio e Smaltimento </a>
       </div>
       <p class="qs-card-desc">
-       Descrive le misure di sicurezza necessarie per l'arresto e l'immagazzinamento della tramoggia nei periodi di inattività prolungata, insieme alle procedure di smontaggio e ai requisiti ambientali (Direttiva RAEE) per il riciclo controllato dei materiali a fine vita.
+       Descrive le misure di sicurezza necessarie per l'arresto e l'immagazzinamento della Bulk Feeder nei periodi di inattività prolungata, insieme alle procedure di smontaggio e ai requisiti ambientali (Direttiva RAEE) per il riciclo controllato dei materiali a fine vita.
       </p>
     </div>
   </div>

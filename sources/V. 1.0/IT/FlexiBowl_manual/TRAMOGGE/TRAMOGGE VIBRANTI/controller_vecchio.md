@@ -88,7 +88,7 @@ Il vibratore può essere bloccato e riavviato tramite comando esterno su **CONN3
 | **DP1** | Entrambi gli switch in posizione ON |
 | **DP2** | Switch 2 ON — Switch 1 OFF |
 | **TR2 e TR3** | Vite di regolazione in senso antiorario fino a fine corsa |
-| **CONN3** | Start a tramoggia con contatto pulito |
+| **CONN3** | Start a Bulk Feeder con contatto pulito |
 
 ![Disegno Controller](../../../../../_shared/media/images/disegno_controller.jpg)
 
@@ -187,7 +187,7 @@ Il vibratore può essere bloccato e riavviato tramite comando esterno su **CONN3
 | **DP1** | Entrambi gli switch in posizione ON |
 | **DP2** | Switch 1 ON — Switch 2 OFF |
 | **TR2 e TR3** | Vite di regolazione in senso antiorario fino a fine corsa |
-| **CONN3** | Start a tramoggia con contatto pulito |
+| **CONN3** | Start a Bulk Feeder con contatto pulito |
 
 
 ![Schema Controller](../../../../../_shared/media/images/controller_schema.png)

@@ -2,7 +2,7 @@
 # [SOF] **Hopper**
 ## Panoramica
 
-La pagina **Hopper** consente di configurare e gestire fino a **4 hopper** (tramogge vibrazionali) collegati al FlexiBowl®. Ogni hopper è un'unità di alimentazione autonoma che rifornisce il FlexiBowl® di componenti, controllabile indipendentemente con parametri propri di vibrazione e temporizzazione.
+La pagina **Hopper** consente di configurare e gestire fino a **4 Bulk Feeder** collegati al FlexiBowl®. Ogni hopper è un'unità di alimentazione autonoma che rifornisce il FlexiBowl® di componenti, controllabile indipendentemente con parametri propri di vibrazione e temporizzazione.
 
 Ciascun hopper è rappresentato da una colonna verticale con gli stessi controlli, identificata come **HOPPER 1**, **HOPPER 2**, **HOPPER 3** e **HOPPER 4**.
 

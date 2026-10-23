@@ -368,7 +368,7 @@ Il mancato rispetto delle istruzioni riportate può causare:
   <div class="isw-meta-card">
     <div class="isw-meta-title"><i class="ph ph-cpu"></i> Identificazione Macchina</div>
     <div class="isw-meta-content">
-      <strong>Macchina:</strong> Tramoggia<br>
+      <strong>Macchina:</strong> Bulk Feeder<br>
       <strong>Modelli base:</strong>
       <div class="isw-model-badges">
         <span class="isw-badge">1,5 lt</span>
@@ -387,7 +387,7 @@ Il mancato rispetto delle istruzioni riportate può causare:
 
 La macchina è dotata di una targa di identificazione posizionata sulla **base vibrante**. Gli estremi riportati sulla targhetta devono essere citati in ogni comunicazione con ARS S.r.l.
 
-![Etichetta Tramoggia](../../../../../_shared/media/images/etichetta_tramoggia.jpg)
+![Etichetta Bulk Feeder](../../../../../_shared/media/images/etichetta_tramoggia.jpg)
 
 <table class="isw-table">
   <thead>

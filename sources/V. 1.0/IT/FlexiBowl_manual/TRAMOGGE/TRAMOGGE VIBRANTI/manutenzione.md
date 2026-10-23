@@ -243,7 +243,7 @@ Per pulire la macchina, non utilizzare frammenti di spugna, panni umidi e/o abra
 :::
 
 :::{attention} 
-Non usare acidi o solventi chimici aggressivi per pulire la base della tramoggia.
+Non usare acidi o solventi chimici aggressivi per pulire la base della Bulk Feeder.
 :::
 
 :::{important}

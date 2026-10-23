@@ -138,7 +138,7 @@ Il pannello connettori del FlexiBowl® varia in base alla versione della macchin
         {n:4, name:'C-A SIGNAL',   desc:'Connettore C-A signal'},
         {n:5, name:'C-B SIGNAL',   desc:'Connettore C-B Signal'},
         {n:6, name:'C-ETH IN',     desc:'Connettore Ethernet'},
-        {n:7, name:'HOPPER',       desc:'Connettore tramoggia'},
+        {n:7, name:'HOPPER',       desc:'Connettore Bulk Feeder'},
         {n:8, name:'C-ETH FB',     desc:'Collegamento Ethernet al FlexiBowl\u00ae'}
       ]
     },
@@ -150,7 +150,7 @@ Il pannello connettori del FlexiBowl® varia in base alla versione della macchin
         {n:2, name:'AIR SUPPLY',   desc:'Ingresso aria'},
         {n:3, name:'LIGHT ON',     desc:'LED di stato backlight'},
         {n:4, name:'READY/FAULT',  desc:'LED di stato Ready/Fault'},
-        {n:5, name:'HOPPER',       desc:'Connettore tramoggia'},
+        {n:5, name:'HOPPER',       desc:'Connettore Bulk Feeder'},
         {n:6, name:'C-ETH',        desc:'Connettore Ethernet'},
         {n:7, name:'STO',          desc:'Connettore STO'}
       ]
@@ -162,7 +162,7 @@ Il pannello connettori del FlexiBowl® varia in base alla versione della macchin
         {n:1, name:'POWER SUPPLY', desc:'Presa di corrente e interruttore; comprende anche un filtro IEC'},
         {n:2, name:'LIGHT ON',     desc:'LED di stato backlight'},
         {n:3, name:'READY/FAULT',  desc:'LED di stato Ready/Fault'},
-        {n:4, name:'HOPPER',       desc:'Connettore tramoggia'},
+        {n:4, name:'HOPPER',       desc:'Connettore Bulk Feeder'},
         {n:5, name:'C-ETH',        desc:'Connettore Ethernet'},
         {n:6, name:'ENCODER',      desc:'Passaggio cavo encoder'},
         {n:7, name:'AIR SUPPLY',   desc:'Ingresso aria'},

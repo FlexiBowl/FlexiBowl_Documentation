@@ -439,7 +439,7 @@ Per questo motivo, ogni esempio pratico in questa pagina viene mostrato in entra
   <a href="#sec-hopper" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
     <i class="ph ph-funnel" style="font-size:1.6rem; color:#2980b9;"></i>
     <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi Hopper</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Tramogge vibrazionali</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Bulk Feeder</span>
   </a>
 
   <a href="#sec-empty" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
@@ -872,7 +872,7 @@ Gli stessi parametri scrivibili del JOG (blocco 20000) sono leggibili nel blocco
 (sec-hopper)=
 ## Comandi <span class="isw-section-badge isw-badge-hop"><i class="ph ph-funnel"></i> HOPPER</span>
 
-I comandi Hopper controllano le tramogge vibrazionali collegate al sistema (fino a 4). Seguono la stessa logica ControlWord/WRITE/READ descritta sopra, valida per tutti i protocolli, più una sintassi TCP dedicata per l'avvio rapido.
+I comandi Hopper controllano le Bulk Feeder collegate al sistema (fino a 4). Seguono la stessa logica ControlWord/WRITE/READ descritta sopra, valida per tutti i protocolli, più una sintassi TCP dedicata per l'avvio rapido.
 
 ### Comandi WRITE Hopper
 

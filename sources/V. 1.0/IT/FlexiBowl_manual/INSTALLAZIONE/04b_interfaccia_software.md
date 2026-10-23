@@ -335,7 +335,7 @@ Gli stessi parametri scrivibili del JOG (blocco 20000) sono leggibili nel blocco
 (sec-hopper)=
 ## Comandi <span class="isw-section-badge isw-badge-hop"><i class="ph ph-funnel"></i> HOPPER</span>
 
-I comandi Hopper controllano le tramogge vibrazionali collegate al sistema (fino a 4). Seguono la stessa logica ControlWord/WRITE/READ descritta sopra, valida per tutti i protocolli, più una sintassi TCP dedicata per l'avvio rapido.
+I comandi Hopper controllano le Bulk Feeder collegate al sistema (fino a 4). Seguono la stessa logica ControlWord/WRITE/READ descritta sopra, valida per tutti i protocolli, più una sintassi TCP dedicata per l'avvio rapido.
 
 ### Avvio rapido via TCP
 

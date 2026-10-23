@@ -29,7 +29,7 @@ Prima di utilizzare il FlexiBowl®, è obbligatorio:
 - Leggere integralmente questo manuale per garantire un uso corretto del sistema
 - Rispettare le istruzioni operative e le raccomandazioni
 - Formare adeguatamente il personale incaricato dell'utilizzo
-- Consultare i manuali di istruzioni di tutti i componenti hardware collegati (FlexiVision One, Tramoggia, VisionController, Camera, Robot ecc.)
+- Consultare i manuali di istruzioni di tutti i componenti hardware collegati (FlexiVision One, Bulk Feeder, VisionController, Camera, Robot ecc.)
 
 Il mancato rispetto di queste indicazioni può causare malfunzionamenti, danni alle apparecchiature o situazioni pericolose.
 ```

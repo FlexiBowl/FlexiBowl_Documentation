@@ -207,10 +207,10 @@ Questa pagina fornisce una visione d'insieme del processo di configurazione e me
     <div class="qs-card">
       <div class="qs-card-title">
         <i class="ph ph-sliders"></i>
-        <a class="qs-title-link" href="conf_tramoggia.html">Configurazione Tramoggia</a>
+        <a class="qs-title-link" href="conf_tramoggia.html">Configurazione Bulk Feeder</a>
       </div>
       <p class="qs-card-desc">
-        Utilizzare la configurazione guidata per caratterizzare il comportamento della tramoggia.
+        Utilizzare la configurazione guidata per caratterizzare il comportamento della Bulk Feeder.
       </p>
     </div>
   </div>

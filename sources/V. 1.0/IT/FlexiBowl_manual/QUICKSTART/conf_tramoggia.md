@@ -1,7 +1,7 @@
-# **Configurazione Tramoggia**
+# **Configurazione Bulk Feeder**
 
 
-Questa pagina guida alla messa in funzione della tramoggia vibrante, l'accessorio opzionale che alimenta il FlexiBowl® in modo continuo e uniforme. Segui le quattro fasi in sequenza: posizionamento e montaggio meccanico, collegamenti elettrici, impostazione dell'indirizzo di comunicazione e configurazione dei parametri da interfaccia software.
+Questa pagina guida alla messa in funzione della Bulk Feeder vibrante, l'accessorio opzionale che alimenta il FlexiBowl® in modo continuo e uniforme. Segui le quattro fasi in sequenza: posizionamento e montaggio meccanico, collegamenti elettrici, impostazione dell'indirizzo di comunicazione e configurazione dei parametri da interfaccia software.
 
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
@@ -122,7 +122,7 @@ Questa pagina guida alla messa in funzione della tramoggia vibrante, l'accessori
         <a class="qs-title-link" href="conf_tramoggia.html#posizionamento-e-installazione-meccanica">Posizionamento e installazione meccanica</a>
       </div>
       <p class="qs-card-desc">
-        Posizionare la tramoggia rispettando l'orientamento corretto rispetto al FlexiBowl® e fissarla alla staffa di supporto.
+        Posizionare la Bulk Feeder rispettando l'orientamento corretto rispetto al FlexiBowl® e fissarla alla staffa di supporto.
       </p>
     </div>
   </div>
@@ -139,7 +139,7 @@ Questa pagina guida alla messa in funzione della tramoggia vibrante, l'accessori
         <a class="qs-title-link" href="conf_tramoggia.html#collegamenti-elettrici">Collegamenti elettrici</a>
       </div>
       <p class="qs-card-desc">
-        Collegare il controller alla tramoggia, al FlexiBowl® (o al rack) e all'alimentazione, rispettando l'ordine di connessione.
+        Collegare il controller alla Bulk Feeder, al FlexiBowl® (o al rack) e all'alimentazione, rispettando l'ordine di connessione.
       </p>
     </div>
   </div>
@@ -156,7 +156,7 @@ Questa pagina guida alla messa in funzione della tramoggia vibrante, l'accessori
         <a class="qs-title-link" href="conf_tramoggia.html#indirizzo-di-comunicazione-rs485">Indirizzo di comunicazione RS485</a>
       </div>
       <p class="qs-card-desc">
-        Impostare dal pannello del controller un indirizzo univoco, necessario per comunicare con il FlexiBowl® ed eventuali altre tramogge.
+        Impostare dal pannello del controller un indirizzo univoco, necessario per comunicare con il FlexiBowl® ed eventuali altre Bulk Feeder.
       </p>
     </div>
   </div>
@@ -173,7 +173,7 @@ Questa pagina guida alla messa in funzione della tramoggia vibrante, l'accessori
         <a class="qs-title-link" href="conf_tramoggia.html#configurazione-da-interfaccia-software">Configurazione da interfaccia software</a>
       </div>
       <p class="qs-card-desc">
-        Abilitare la tramoggia dall'interfaccia web del FlexiBowl® e impostare ampiezza, frequenza e tempo di attivazione della vibrazione.
+        Abilitare la Bulk Feeder dall'interfaccia web del FlexiBowl® e impostare ampiezza, frequenza e tempo di attivazione della vibrazione.
       </p>
     </div>
   </div>
@@ -183,7 +183,7 @@ Questa pagina guida alla messa in funzione della tramoggia vibrante, l'accessori
 
 ## 1. Posizionamento e installazione meccanica
 
-Le tramogge vibranti sono disponibili in diverse dimensioni, ciascuna con un proprio carico massimo:
+Le Bulk Feeder sono disponibili in diverse dimensioni, ciascuna con un proprio carico massimo:
 
 | Capacità | Carico massimo |
 |---|---|
@@ -194,16 +194,16 @@ Le tramogge vibranti sono disponibili in diverse dimensioni, ciascuna con un pro
 | 20 l | 6 kg |
 | 40 l | 15 kg |
 
-La tramoggia arriva già assemblata: non è necessario montarla, solo posizionarla e fissarla.
+La Bulk Feeder arriva già assemblata: non è necessario montarla, solo posizionarla e fissarla.
 
 ::::{tab-set}
 :::{tab-item} Posizionamento corretto
-![Posizionamento corretto della tramoggia rispetto al FlexiBowl®](../../../../_shared/media/images/posizione_giustatramoggia.png)
+![Posizionamento corretto della Bulk Feeder rispetto al FlexiBowl®](../../../../_shared/media/images/posizione_giustatramoggia.png)
 
-Lo scivolo della tramoggia deve scaricare i componenti direttamente nell'area di lavoro del piatto, con un'inclinazione che segue il profilo del FlexiBowl®.
+Lo scivolo della Bulk Feeder deve scaricare i componenti direttamente nell'area di lavoro del piatto, con un'inclinazione che segue il profilo del FlexiBowl®.
 :::
 :::{tab-item} Posizionamento errato
-![Esempio di posizionamento errato della tramoggia](../../../../_shared/media/images/posizione_sbagliatatramoggia.png)
+![Esempio di posizionamento errato della Bulk Feeder](../../../../_shared/media/images/posizione_sbagliatatramoggia.png)
 
 Uno scivolo troppo lontano dall'area di lavoro genera un'alimentazione incostante e penalizza le prestazioni dell'applicazione.
 :::
@@ -211,9 +211,9 @@ Uno scivolo troppo lontano dall'area di lavoro genera un'alimentazione incostant
 
 **Passaggi:**
 
-1. Posizionare la tramoggia su una superficie stabile e orizzontale, vicino al FlexiBowl®, rispettando l'orientamento corretto indicato sopra.
-2. Se la tramoggia viene installata sul piano di una macchina sensibile alle vibrazioni, interporre un materiale isolante e anti-vibrante tra le due superfici, per evitare che le vibrazioni della tramoggia si trasmettano al FlexiBowl®.
-3. Fissare la tramoggia alla staffa di supporto tramite i fori dedicati, utilizzando viti M8: la tramoggia standard ha 4 fori alla base, mentre la versione più piccola (1,5 l) ne ha 2.
+1. Posizionare la Bulk Feeder su una superficie stabile e orizzontale, vicino al FlexiBowl®, rispettando l'orientamento corretto indicato sopra.
+2. Se la Bulk Feeder viene installata sul piano di una macchina sensibile alle vibrazioni, interporre un materiale isolante e anti-vibrante tra le due superfici, per evitare che le vibrazioni della Bulk Feeder si trasmettano al FlexiBowl®.
+3. Fissare la Bulk Feeder alla staffa di supporto tramite i fori dedicati, utilizzando viti M8: la Bulk Feeder standard ha 4 fori alla base, mentre la versione più piccola (1,5 l) ne ha 2.
 
 ## 2. Collegamenti elettrici
 
@@ -221,14 +221,14 @@ Uno scivolo troppo lontano dall'area di lavoro genera un'alimentazione incostant
 Prima di effettuare o modificare qualsiasi collegamento elettrico, assicurarsi che il sistema sia spento. Verificare sempre che il conduttore di terra sia correttamente installato e integro: il collegamento elettrico, compresa la messa a terra, deve essere sempre garantito per il corretto funzionamento della macchina.
 :::
 
-![Schema dei connettori sul controller della tramoggia](../../../../_shared/media/images/controller_digitale_connettori.png)
+![Schema dei connettori sul controller della Bulk Feeder](../../../../_shared/media/images/controller_digitale_connettori.png)
 
-Il controller della tramoggia dispone di: ingresso alimentazione di rete (terra, linea, neutro), connettore RS485 per la comunicazione (A+, B-, GND), uscita di potenza verso il motore della tramoggia e interruttore generale.
+Il controller della Bulk Feeder dispone di: ingresso alimentazione di rete (terra, linea, neutro), connettore RS485 per la comunicazione (A+, B-, GND), uscita di potenza verso il motore della Bulk Feeder e interruttore generale.
 
 **Passaggi:**
 
-1. Collegare il controller alla tramoggia tramite il cavo dedicato.
-2. Collegare il controller al FlexiBowl® tramite il connettore M12 A-code (comunicazione Modbus RTU). In caso di installazioni multi-tramoggia con rack, collegare invece il controller al rack.
+1. Collegare il controller alla Bulk Feeder tramite il cavo dedicato.
+2. Collegare il controller al FlexiBowl® tramite il connettore M12 A-code (comunicazione Modbus RTU). In caso di installazioni multi-feeder con rack, collegare invece il controller al rack.
 3. Tappare qualsiasi connettore non utilizzato con l'apposito cappuccio, per proteggerlo da polvere e detriti. Il cappuccio deve garantire una resistenza di 120 Ω tra i canali A+ e B- della linea RS485.
 4. Collegare il cavo di alimentazione al controller: collegare sempre per primo il lato controller del cavo, prima di collegare l'altra estremità.
 5. Con l'interruttore del controller in posizione OFF, collegare il cavo di alimentazione alla presa di rete. L'alimentazione standard è 115 o 230 VAC ±5% (la versione a 115 V è disponibile solo su richiesta esplicita).
@@ -239,12 +239,12 @@ Il cavo Modbus RTU tra controller e FlexiBowl® è disponibile nelle lunghezze d
 :::
 
 :::{note}
-Un singolo FlexiBowl® supporta fino a **4 tramogge**. Per installazioni multi-tramoggia, collegare ogni tramoggia al proprio controller, collegare il primo controller al FlexiBowl® (o al rack) e concatenare i controller successivi tramite la porta del connettore tramoggia (daisy-chain). Tappare la porta inutilizzata sull'ultimo controller della catena e collegare il cavo di alimentazione a ciascun controller.
+Un singolo FlexiBowl® supporta fino a **4 Bulk Feeder**. Per installazioni multi-feeder, collegare ogni Bulk Feeder al proprio controller, collegare il primo controller al FlexiBowl® (o al rack) e concatenare i controller successivi tramite la porta del connettore Bulk Feeder (daisy-chain). Tappare la porta inutilizzata sull'ultimo controller della catena e collegare il cavo di alimentazione a ciascun controller.
 :::
 
 ## 3. Indirizzo di comunicazione RS485
 
-Ogni controller di tramoggia deve avere un indirizzo di comunicazione univoco sulla rete RS485 (parametro **r**, intervallo 1–31). In presenza di più tramogge, assicurarsi che ogni controller sulla stessa rete abbia un indirizzo diverso.
+Ogni controller di Bulk Feeder deve avere un indirizzo di comunicazione univoco sulla rete RS485 (parametro **r**, intervallo 1–31). In presenza di più Bulk Feeder, assicurarsi che ogni controller sulla stessa rete abbia un indirizzo diverso.
 
 ![Pannello frontale del controller: indicatori, display e comandi](../../../../_shared/media/images/tramoggia-pannello-controller.jpg)
 
@@ -258,31 +258,31 @@ Ogni controller di tramoggia deve avere un indirizzo di comunicazione univoco su
 
 ## 4. Configurazione da interfaccia software
 
-Una volta completati i collegamenti e impostato l'indirizzo, la tramoggia può essere configurata e comandata dalla pagina dedicata dell'interfaccia web del FlexiBowl®.
+Una volta completati i collegamenti e impostato l'indirizzo, la Bulk Feeder può essere configurata e comandata dalla pagina dedicata dell'interfaccia web del FlexiBowl®.
 
-![Interfaccia software di configurazione delle tramogge](../../../../_shared/media/images/tramoggia-interfaccia-software.png)
+![Interfaccia software di configurazione delle Bulk Feeder](../../../../_shared/media/images/tramoggia-interfaccia-software.png)
 
-Per ciascuna delle 4 tramogge disponibili è possibile impostare:
+Per ciascuna delle 4 Bulk Feeder disponibili è possibile impostare:
 
 | Campo | Descrizione |
 |---|---|
-| **Enable** | Abilita la tramoggia corrispondente. |
+| **Enable** | Abilita la Bulk Feeder corrispondente. |
 | **ID** | Indirizzo RS485 del controller collegato; usare **Set New ID** per assegnarne uno nuovo via software. |
-| **Status** | Stato corrente della tramoggia (es. Disabled). |
+| **Status** | Stato corrente della Bulk Feeder (es. Disabled). |
 | **Amplitude** | Ampiezza della vibrazione. |
 | **Frequency** | Frequenza della vibrazione. |
 | **Activation Time** | Durata, in millisecondi, di ogni impulso di vibrazione. |
 
 **Passaggi:**
 
-1. Accedere all'interfaccia web del FlexiBowl® e aprire la pagina delle tramogge.
-2. Selezionare **Enable** sulla tramoggia da attivare.
+1. Accedere all'interfaccia web del FlexiBowl® e aprire la pagina delle Bulk Feeder.
+2. Selezionare **Enable** sulla Bulk Feeder da attivare.
 3. Verificare che il campo **ID** corrisponda all'indirizzo impostato sul controller (punto 3); in caso contrario, usare **Set New ID**.
 4. Impostare i valori iniziali di **Amplitude**, **Frequency** e **Activation Time** in base al componente da alimentare.
-5. Premere **Start Hopper** per avviare la tramoggia e verificarne il funzionamento; regolare i parametri finché l'alimentazione dei componenti non risulta continua e uniforme.
+5. Premere **Start Hopper** per avviare la Bulk Feeder e verificarne il funzionamento; regolare i parametri finché l'alimentazione dei componenti non risulta continua e uniforme.
 
 :::{note}
-I valori ottimali di ampiezza, frequenza e tempo di attivazione dipendono dal componente e dalla geometria della tramoggia: regolarli progressivamente osservando il flusso di alimentazione, partendo da valori bassi e aumentando fino a ottenere un'alimentazione costante senza inceppamenti.
+I valori ottimali di ampiezza, frequenza e tempo di attivazione dipendono dal componente e dalla geometria della Bulk Feeder: regolarli progressivamente osservando il flusso di alimentazione, partendo da valori bassi e aumentando fino a ottenere un'alimentazione costante senza inceppamenti.
 :::
 
 <details>

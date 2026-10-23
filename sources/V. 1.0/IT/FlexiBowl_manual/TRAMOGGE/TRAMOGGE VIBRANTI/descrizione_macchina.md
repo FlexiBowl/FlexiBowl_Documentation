@@ -1,7 +1,7 @@
 # [MEC] **Descrizione Macchina** 
 
 <p style="line-height: 1.6; border-left: 4px solid #34495e; padding-left: 15px; margin-bottom: 25px;">
-  Le tramogge sono particolarmente adatte per alimentare e pre-dosare particolari di piccole, medie e grandi dimensioni. Sono azionate da una base lineare vibrante, il cui modello varia a seconda della dimensione della tramoggia stessa.
+  Le Bulk Feeder sono particolarmente adatte per alimentare e pre-dosare particolari di piccole, medie e grandi dimensioni. Sono azionate da una base lineare vibrante, il cui modello varia a seconda della dimensione della Bulk Feeder stessa.
 </p>
 
 La macchina standard è composta dalle seguenti parti fondamentali:
@@ -49,14 +49,14 @@ La macchina standard è composta dalle seguenti parti fondamentali:
 
 <!-- Tab bar -->
 <div class="tr-tabs">
-  <button class="tr-tab on"    onclick="trSwitchTab('tramoggia',this)">Tramoggia vibrante</button>
+  <button class="tr-tab on"    onclick="trSwitchTab('Bulk Feeder',this)">Bulk Feeder vibrante</button>
 </div>
 
 <!-- ══════════ TRAMOGGIA ══════════ -->
 <div class="tr-panel on" id="tr-panel-tramoggia">
   <div class="tr-wrap">
     <div class="tr-img-outer">
-      <img class="tr-img-base" id="tramoggia-img-base" src="../../../../../_shared/media/images/tramoggia0.PNG" alt="Vista Tramoggia" />
+      <img class="tr-img-base" id="tramoggia-img-base" src="../../../../../_shared/media/images/tramoggia0.PNG" alt="Vista Bulk Feeder" />
       <img class="tr-img-hl"   id="tramoggia-img-hl"   src="" alt="" aria-hidden="true" />
       <div class="tr-badge" id="tramoggia-badge"></div>
       <div class="tr-hint"  id="tramoggia-hint">Seleziona un componente dalla lista</div>
@@ -77,10 +77,10 @@ La macchina standard è composta dalle seguenti parti fondamentali:
       imgPath: '../../../../../_shared/media/images/tramoggia',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'Supporto',        desc:'È il componente che viene staffato sulla macchina e su cui viene posizionata la tramoggia.'},
-        {n:2,  name:'Base vibrante',    desc:'È il componente principale della tramoggia; tramite un elettromagnete effettua la vibrazione che permette l’avanzamento dei pezzi sulla vasca.'},
+        {n:1,  name:'Supporto',        desc:'È il componente che viene staffato sulla macchina e su cui viene posizionata la Bulk Feeder.'},
+        {n:2,  name:'Base vibrante',    desc:'È il componente principale della Bulk Feeder; tramite un elettromagnete effettua la vibrazione che permette l’avanzamento dei pezzi sulla vasca.'},
         {n:3,  name:'Vasca',            desc:'Può essere da 1,5lt, 5lt, 10lt, 20lt, 40lt a seconda del componente da lavorare. Su richiesta, sono realizzabili anche di dimensioni personalizzate. La vasca da 1,5lt è costruita in materiale plastico mentre le altre sono in acciaio INOX.'},
-        {n:4,  name:'Controller',       desc:'Viene utilizzato per regolare la vibrazione della tramoggia.'},
+        {n:4,  name:'Controller',       desc:'Viene utilizzato per regolare la vibrazione della Bulk Feeder.'},
         {n:5,  name:'Carter',           desc:'Componenti di protezione della base vibrante da urti, sporco e polvere.'},
       ]
     },
@@ -183,7 +183,7 @@ Nel caso di modelli personalizzati i componenti potrebbero differire, parzialmen
 
 ## Uso Previsto 
 
-La tramoggia è disponibile in sei modelli base. Modelli personalizzati, derivanti da quelli di base ma differenti dal punto di vista dimensionale e prestazionale, sono realizzabili previo confronto con le richieste dell’utilizzatore. 
+La Bulk Feeder è disponibile in sei modelli base. Modelli personalizzati, derivanti da quelli di base ma differenti dal punto di vista dimensionale e prestazionale, sono realizzabili previo confronto con le richieste dell’utilizzatore. 
 
 :::{note} 
 **Nota di validità:** Le informazioni contenute nel presente manuale sono da ritenersi valide anche per modelli di natura personalizzata.
@@ -351,7 +351,7 @@ ARS S.r.l. non risponde per danni causati a cose o persone nel caso:
 :header-rows: 1
 :widths: 20 30 25 25
 
-* - Taglia Tramoggia
+* - Taglia Bulk Feeder
   - Alimentazione elettrica
   - Frequenza / Fase
   - Assorbimento (A)
@@ -381,7 +381,7 @@ ARS S.r.l. non risponde per danni causati a cose o persone nel caso:
   - 0,45
 ```
 
-| Taglia Tramoggia | 1,5lt | 3lt | 5lt | 10lt | 20lt | 40lt |
+| Taglia Bulk Feeder | 1,5lt | 3lt | 5lt | 10lt | 20lt | 40lt |
 |------------------------------|--------|------|------|-------|-------|-------|
 | Peso netto corrispondente | 11 Kg | 18 Kg | 22 Kg | 24 Kg | 27 Kg | 38 Kg |
 
@@ -391,7 +391,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
 
 ## Layout 
 
-![Dimensioni Tramoggia](../../../../../_shared/media/images/dim_tramoggia.jpg)
+![Dimensioni Bulk Feeder](../../../../../_shared/media/images/dim_tramoggia.jpg)
 
 | Dimensioni | 1,5lt | 3lt | 5lt | 10lt | 20lt | 40lt |
 |------------|--------|------|------|-------|-------|-------|
@@ -407,7 +407,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
 
 ## Componenti Standard e Opzionali 
 
-```{list-table} Accessori e Dotazioni delle Tramogge
+```{list-table} Accessori e Dotazioni delle Bulk Feeder
 :widths: 20 40 25 15
 :header-rows: 1
 
@@ -424,7 +424,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
     :width: 120px
     :align: center
     :::
-  - STANDARD (esclusa tramoggia 1,5lt)
+  - STANDARD (esclusa Bulk Feeder 1,5lt)
 
 * - Barriera dosatrice
   - Dosatore a barriera per regolazione del flusso (registrabile). Vedi {ref}`barriera`.
@@ -434,7 +434,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
     :width: 120px
     :align: center
     :::
-  - OPZIONALE (esclusa tramoggia 1,5lt)
+  - OPZIONALE (esclusa Bulk Feeder 1,5lt)
 
 * - Protezione di sicurezza
   - Protezione di sicurezza per mani. Vedi {ref}`hand-guard`.
@@ -444,7 +444,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
     :width: 120px
     :align: center
     :::
-  - OPZIONALE (esclusa tramoggia 1,5lt)
+  - OPZIONALE (esclusa Bulk Feeder 1,5lt)
 
 * - Rivestimento
   - Rivestimento della vasca in poliuretano. Vedi {ref}`tramoggia-pu`.
@@ -454,7 +454,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
         :width: 120px
         :align: center
     :::
-  - OPZIONALE (esclusa tramoggia 1,5lt)
+  - OPZIONALE (esclusa Bulk Feeder 1,5lt)
 
 * - Fotocellula frontale
   - Ha la funzione di verificare la presenza di componenti nella zona frontale della vasca vibrante durante il processo di alimentazione. Vedi {ref}`fotocellula-frontale`.
@@ -464,7 +464,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
         :width: 120px
         :align: center
     :::
-  - OPZIONALE (esclusa tramoggia 1,5lt)
+  - OPZIONALE (esclusa Bulk Feeder 1,5lt)
 
 * - Fotocellula posteriore
   - Ha la funzione di monitorare il livello dei pezzi presenti dentro alla vasca. Vedi {ref}`fotocellula-posteriore`.
@@ -474,7 +474,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
         :width: 120px
         :align: center
     :::
-  - OPZIONALE (esclusa tramoggia 1,5lt)
+  - OPZIONALE (esclusa Bulk Feeder 1,5lt)
 
 ```
 
@@ -504,7 +504,7 @@ Di seguito viene descritto in maniera semplificata il ciclo di lavorazione, sudd
       2
     </div>
     <div style="padding: 15px 20px; display: flex; align-items: center; color: #2c3e50; line-height: 1.5;">
-      <span>La tramoggia effettua ciclicamente delle vibrazioni (impostate dall'operatore) per consentire l’avanzamento dei pezzi, in modo da garantire costantemente la presenza degli stessi sull’alimentatore.</span>
+      <span>La Bulk Feeder effettua ciclicamente delle vibrazioni (impostate dall'operatore) per consentire l’avanzamento dei pezzi, in modo da garantire costantemente la presenza degli stessi sull’alimentatore.</span>
     </div>
   </div>
 

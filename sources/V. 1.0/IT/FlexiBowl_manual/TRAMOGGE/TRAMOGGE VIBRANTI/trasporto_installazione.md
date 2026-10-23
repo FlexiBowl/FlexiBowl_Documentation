@@ -39,7 +39,7 @@ Alla ricezione della macchina il cliente deve obbligatoriamente verificare che n
 
 Seguire la seguente tabella per pesi e dimensioni comprensivi di imballo. 
 
-| Specifica | Tramoggia 1,5lt | Tramoggia 3lt | Tramoggia 5lt | Tramoggia 10lt | Tramoggia 20lt | Tramoggia 40lt |
+| Specifica | Bulk Feeder 1,5lt | Bulk Feeder 3lt | Bulk Feeder 5lt | Bulk Feeder 10lt | Bulk Feeder 20lt | Bulk Feeder 40lt |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Peso lordo** <br>*(con imballo)* | 28 kg | 28 kg | 39 kg | 41 kg | 59 kg | *(Verificare valore)* |
 | **Dimensioni cassa di legno** <br>*(L x P x H in mm)* | 700 x 700 x 500 | 700 x 700 x 500 | 700 x 700 x 500 | 700 x 700 x 500 | 1000 x 1000 x 500 | 1000 x 1000 x 500 |
@@ -159,14 +159,14 @@ Per la rimozione dell’imballo, procedere come descritto:
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #7f8c8d; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Afferrare la tramoggia dalla sua base, <strong>non dalla vasca</strong>, per sollevarla e rimuoverla dalla cassa.
+      Afferrare la Bulk Feeder dalla sua base, <strong>non dalla vasca</strong>, per sollevarla e rimuoverla dalla cassa.
     </div>
   </div>
 
 </div>
 
 :::{attention}
-Per l’operazione di sollevamento manuale dalla cassa di legno della tramoggia è necessaria la presenza di n°2 operatori.
+Per l’operazione di sollevamento manuale dalla cassa di legno della Bulk Feeder è necessaria la presenza di n°2 operatori.
 :::  
 
 Per la movimentazione della macchina e/o delle sue parti, fare riferimento al paragrafo “Trasporto e movimentazione”.  
@@ -201,7 +201,7 @@ ARS S.r.l. non risponde dei danni, a cose o a persone, causati da incidenti prov
 
 ## Assemblaggio 
 
-Dopo il disimballo, la tramoggia si presenta già assemblata.
+Dopo il disimballo, la Bulk Feeder si presenta già assemblata.
 Procedere con il fissaggio sulla seguente staffa con viti M8:
 
 :::{image} ../../../../../_shared/media/images/asseblaggio_tramoggia.jpg
@@ -293,7 +293,7 @@ Non sollevare mai l’unità tramite l’equipaggio mobile, in quanto il vibrato
 
 L’unità non deve essere installata laddove il canale possa venire in contatto con oggetti rigidi o superfici adiacenti; mantenere un **gioco di circa 3-5 cm** tra la parte vibrante e le parti statiche circostanti.
 
-Le tramogge possono sopportare un carico massimo specifico. È fondamentale dimensionare il supporto strutturale affinché sostenga in sicurezza il peso complessivo del sistema sotto carico vibrante:
+Le Bulk Feeder possono sopportare un carico massimo specifico. È fondamentale dimensionare il supporto strutturale affinché sostenga in sicurezza il peso complessivo del sistema sotto carico vibrante:
 
 | Modello | Carico massimo ammissibile | Produzione (T/h) |
 | :---: | :---: | :---: |
@@ -304,9 +304,9 @@ Le tramogge possono sopportare un carico massimo specifico. È fondamentale dime
 | **20lt**  | 6 kg | 2 |
 | **40lt**  | 15 kg | 5 |
 
-Il gruppo di controllo dovrà essere installato il più vicino possibile alla tramoggia, in un luogo asciutto, pulito e privo di vibrazioni.
+Il gruppo di controllo dovrà essere installato il più vicino possibile alla Bulk Feeder, in un luogo asciutto, pulito e privo di vibrazioni.
 
-### Posizionamento tramoggia
+### Posizionamento Bulk Feeder
 
 Per il corretto posizionamento, seguire la seguente sequenza operativa:
 
@@ -314,7 +314,7 @@ Per il corretto posizionamento, seguire la seguente sequenza operativa:
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Posizionare la tramoggia su un piano stabile.<br><strong>Nota:</strong> se installata sulla piattaforma di una macchina sensibile alle vibrazioni, interporre del materiale isolante e antivibrante tra le superfici.
+      Posizionare la Bulk Feeder su un piano stabile.<br><strong>Nota:</strong> se installata sulla piattaforma di una macchina sensibile alle vibrazioni, interporre del materiale isolante e antivibrante tra le superfici.
     </div>
   </div>
 </div>
@@ -326,7 +326,7 @@ Per il corretto posizionamento, seguire la seguente sequenza operativa:
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Fissare la tramoggia attraverso gli appositi fori.<br><strong>Nota:</strong> la tramoggia standard presenta 4 fori alla base per viti M8 per il serraggio alla superficie di appoggio.
+      Fissare la Bulk Feeder attraverso gli appositi fori.<br><strong>Nota:</strong> la Bulk Feeder standard presenta 4 fori alla base per viti M8 per il serraggio alla superficie di appoggio.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">

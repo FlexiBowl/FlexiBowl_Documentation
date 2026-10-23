@@ -68,7 +68,7 @@
 1) L'altezza massima del componente è quella che lascia lo spazio necessario tra esso e la superficie superiore dello schemro flip per consentirne il ribalto
 
 :::{note}
-Il valore della dimensione massima del componente è ricavato da test eseguiti internamente ed è da considerarsi puramente indicativo in quanto ci possono essere altri fattori che lo influenzano (dimensioni della tramoggia, tool del robot utilizzato per il *picking*, ecc...); per delle indicazioni puù precise non esitare a [contattare il nostro team](https://www.arsautomation.com/contact) o richiedere un [*free test*](https://www.flexibowl.it/free-test).
+Il valore della dimensione massima del componente è ricavato da test eseguiti internamente ed è da considerarsi puramente indicativo in quanto ci possono essere altri fattori che lo influenzano (dimensioni della Bulk Feeder, tool del robot utilizzato per il *picking*, ecc...); per delle indicazioni puù precise non esitare a [contattare il nostro team](https://www.arsautomation.com/contact) o richiedere un [*free test*](https://www.flexibowl.it/free-test).
 :::
 
 :::{note}
@@ -77,7 +77,7 @@ L'altezza massima del componente viene calcolata tenendo conto dello spazio nece
 (calcolo-pressione-flip)=
 ## Come valutare la ribaltabilità del componente
 
-Per capire se un pezzo caricato in tramoggia può essere separato e ribaltato efficacemente dal flip, vanno valutati quattro fattori: **geometria**, **massa**, **materiale** e **piano di lavoro** (superficie o disco rigido).
+Per capire se un pezzo caricato in Bulk Feeder può essere separato e ribaltato efficacemente dal flip, vanno valutati quattro fattori: **geometria**, **massa**, **materiale** e **piano di lavoro** (superficie o disco rigido).
 
 Inserire i dati del componente nel calcolatore: il sistema verifica automaticamente la compatibilità con la taglia di FlexiBowl® scelta e restituisce la **pressione del flip consigliata**.
 

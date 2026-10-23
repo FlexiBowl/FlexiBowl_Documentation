@@ -136,7 +136,7 @@ Il menu laterale, richiamabile dall'icona ☰, dà accesso a tutte le pagine del
 
 <a class="home-menu-card" href="04m_hopper.html">
 <div class="home-menu-card-title">Hopper</div>
-<div class="home-menu-card-sub">Configurazione e controllo delle tramogge collegate (ID, ampiezza, frequenza, tempo di attivazione)</div>
+<div class="home-menu-card-sub">Configurazione e controllo delle Bulk Feeder collegate (ID, ampiezza, frequenza, tempo di attivazione)</div>
 </a>
 
 <a class="home-menu-card" href="04n_emptying.html">

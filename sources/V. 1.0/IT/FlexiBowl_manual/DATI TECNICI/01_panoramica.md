@@ -292,7 +292,7 @@ All'interno della confezione sono presenti il **FlexiBowl®** e tutti gli adatta
     :width: 100%
     :::
 * - **Connettore M12 A-code**
-  - Utilizzato per la comunicazione Modbus RTU con il controller della tramoggia
+  - Utilizzato per la comunicazione Modbus RTU con il controller della Bulk Feeder
   - :::{image} ../../../../_shared/media/images/connettore_hopper.png
     :width: 100%
     :::
@@ -340,7 +340,7 @@ I cavi di collegamento sono acquistabili separatamente come opzione in 3, 5 o 10
 :align: center
 ```
 
-Il pannello posteriore del rack raggruppa tutti i punti di connessione descritti al paragrafo precedente: alimentazione (**POWER SUPPLY**), Safe Torque Off (**STO**), motore (**MOTOR**), Ethernet verso il sistema (**C-ETH IN**) e verso il FlexiBowl® (**C-ETH FB**), tramoggia (**HOPPER**) e segnali encoder (**C-A SIGNAL**, **C-B SIGNAL**).
+Il pannello posteriore del rack raggruppa tutti i punti di connessione descritti al paragrafo precedente: alimentazione (**POWER SUPPLY**), Safe Torque Off (**STO**), motore (**MOTOR**), Ethernet verso il sistema (**C-ETH IN**) e verso il FlexiBowl® (**C-ETH FB**), Bulk Feeder (**HOPPER**) e segnali encoder (**C-A SIGNAL**, **C-B SIGNAL**).
 
 :::{note}
 Per i dettagli relativi al posizionamento e al collegamento del rack, fare riferimento alla sezione [Installazione Meccanica](mech_install).

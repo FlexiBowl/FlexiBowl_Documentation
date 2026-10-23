@@ -1,7 +1,7 @@
 (layoutbp)=
 # **Layout Best Practice**
 
-L'area di lavoro del FlexiBowl® è virtualmente divisa in quattro settori, ognuno dedicato a una fase del ciclo: **rilascio** dei componenti dalla tramoggia, **separazione** tramite flip, **presa** da parte del robot e **ricircolo** dei componenti non presi. Un buon layout rispetta questa sequenza nel senso di rotazione del FlexiBowl® e riduce al minimo i percorsi di *pick and place*.
+L'area di lavoro del FlexiBowl® è virtualmente divisa in quattro settori, ognuno dedicato a una fase del ciclo: **rilascio** dei componenti dalla Bulk Feeder, **separazione** tramite flip, **presa** da parte del robot e **ricircolo** dei componenti non presi. Un buon layout rispetta questa sequenza nel senso di rotazione del FlexiBowl® e riduce al minimo i percorsi di *pick and place*.
 
 :::{figure} ../../../../_shared/media/images/Funz-standard.PNG
 :align: center
@@ -35,25 +35,25 @@ Nel {ref}`Circular Tracking <tracking>` il FlexiBowl® ruota in modo continuo: l
 
 <!-- DA COMPLETARE -->
 
-## Linee guida per il posizionamento delle tramogge
+## Linee guida per il posizionamento delle Bulk Feeder
 
 ### Precauzioni generali
 
-- Posizionare la tramoggia su un piano stabile e orizzontale, vicino al FlexiBowl®.
-- Se la tramoggia è installata sul piano di una macchina sensibile alle vibrazioni, interporre materiale isolante e antivibrante tra le superfici, per evitare che le vibrazioni si trasmettano al FlexiBowl® (vedi {ref}`tramoggia-antivibrazione`).
-- Fissare la tramoggia alla staffa di supporto con viti M8: 4 fori per le tramogge standard, 2 fori per la tramoggia da 1,5 l.
-- Un singolo FlexiBowl® gestisce fino a **4 tramogge**: nel {ref}`Multiple Parts Feeding <funzionamento-in-mix-mode>` è possibile dedicare una tramoggia a ciascuna referenza.
+- Posizionare la Bulk Feeder su un piano stabile e orizzontale, vicino al FlexiBowl®.
+- Se la Bulk Feeder è installata sul piano di una macchina sensibile alle vibrazioni, interporre materiale isolante e antivibrante tra le superfici, per evitare che le vibrazioni si trasmettano al FlexiBowl® (vedi {ref}`tramoggia-antivibrazione`).
+- Fissare la Bulk Feeder alla staffa di supporto con viti M8: 4 fori per le Bulk Feeder standard, 2 fori per la Bulk Feeder da 1,5 l.
+- Un singolo FlexiBowl® gestisce fino a **4 Bulk Feeder**: nel {ref}`Multiple Parts Feeding <funzionamento-in-mix-mode>` è possibile dedicare una Bulk Feeder a ciascuna referenza.
 
 ### Posizione consigliata
 
-Lo scivolo della tramoggia deve scaricare i componenti direttamente nel **settore di rilascio**, a monte del flip, con un'inclinazione che segue il profilo del FlexiBowl®.
+Lo scivolo della Bulk Feeder deve scaricare i componenti direttamente nel **settore di rilascio**, a monte del flip, con un'inclinazione che segue il profilo del FlexiBowl®.
 
 ::::{tab-set}
 :::{tab-item} Posizionamento corretto
-![Posizionamento corretto della tramoggia rispetto al FlexiBowl®](../../../../_shared/media/images/posizione_giustatramoggia.png)
+![Posizionamento corretto della Bulk Feeder rispetto al FlexiBowl®](../../../../_shared/media/images/posizione_giustatramoggia.png)
 :::
 :::{tab-item} Posizionamento errato
-![Esempio di posizionamento errato della tramoggia](../../../../_shared/media/images/posizione_sbagliatatramoggia.png)
+![Esempio di posizionamento errato della Bulk Feeder](../../../../_shared/media/images/posizione_sbagliatatramoggia.png)
 
 Uno scivolo troppo lontano dall'area di lavoro genera un'alimentazione incostante e penalizza le prestazioni dell'applicazione.
 :::

@@ -1,21 +1,21 @@
 (tramoggia-accessori)=
 # [MEC] **Accessori e Opzioni**
 
-Questa pagina raccoglie le varianti, gli accessori e le opzioni disponibili a listino per le tramogge vibranti. Ogni voce di listino ha una propria sezione, raggiungibile tramite link diretto.
+Questa pagina raccoglie le varianti, gli accessori e le opzioni disponibili a listino per le Bulk Feeder vibranti. Ogni voce di listino ha una propria sezione, raggiungibile tramite link diretto.
 
 :::{attention}
-Salvo diversa indicazione, accessori e opzioni **non sono disponibili per la tramoggia da 1,5 l**. Nel caso di modelli personalizzati è necessario fare riferimento al fascicolo tecnico di progetto.
+Salvo diversa indicazione, accessori e opzioni **non sono disponibili per la Bulk Feeder da 1,5 l**. Nel caso di modelli personalizzati è necessario fare riferimento al fascicolo tecnico di progetto.
 :::
 
 ---
 
 (tramoggia-varianti)=
-## Varianti della tramoggia
+## Varianti della Bulk Feeder
 
 (tramoggia-110v)=
 ### Versione 110 V
 
-Versione della tramoggia per reti di alimentazione a bassa tensione. L'alimentazione standard della tramoggia è **230 Vac ±5%**; la variante a bassa tensione viene fornita **solo su esplicita richiesta**.
+Versione della Bulk Feeder per reti di alimentazione a bassa tensione. L'alimentazione standard della Bulk Feeder è **230 Vac ±5%**; la variante a bassa tensione viene fornita **solo su esplicita richiesta**.
 
 :::{list-table}
 :widths: 30 70
@@ -83,7 +83,7 @@ Versione della tramoggia per reti di alimentazione a bassa tensione. L'alimentaz
 (tramoggia-pu)=
 ### Versione con rivestimento in poliuretano (PU)
 
-Versione della tramoggia con **rivestimento della vasca in poliuretano**.
+Versione della Bulk Feeder con **rivestimento della vasca in poliuretano**.
 
 :::{image} ../../../../../_shared/media/images/rivestimento.png
 :alt: Rivestimento in poliuretano
@@ -96,7 +96,7 @@ Versione della tramoggia con **rivestimento della vasca in poliuretano**.
 :stub-columns: 1
 
 * - Compatibilità
-  - Tutte le taglie, esclusa la tramoggia da 1,5 l
+  - Tutte le taglie, esclusa la Bulk Feeder da 1,5 l
 * - Manutenzione
   - Controllare periodicamente l'usura del rivestimento: vedi {doc}`manutenzione`
 :::
@@ -186,7 +186,7 @@ Versione della tramoggia con **rivestimento della vasca in poliuretano**.
 (barriera)=
 ### Barriera dosatrice
 
-Dosatore a barriera **registrabile**, per la regolazione del flusso di componenti in uscita dalla tramoggia.
+Dosatore a barriera **registrabile**, per la regolazione del flusso di componenti in uscita dalla Bulk Feeder.
 
 :::{image} ../../../../../_shared/media/images/barriera_dosatrice.jpg
 :alt: Barriera dosatrice
@@ -199,7 +199,7 @@ Dosatore a barriera **registrabile**, per la regolazione del flusso di component
 :stub-columns: 1
 
 * - Compatibilità
-  - Tutte le taglie, esclusa la tramoggia da 1,5 l
+  - Tutte le taglie, esclusa la Bulk Feeder da 1,5 l
 :::
 
 <!-- DA COMPLETARE -->
@@ -215,7 +215,7 @@ Dosatore a barriera **registrabile**, per la regolazione del flusso di component
   - Bulk Feeder Barrier 3l
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 3 l
 :::
 
@@ -230,7 +230,7 @@ Dosatore a barriera **registrabile**, per la regolazione del flusso di component
   - Bulk Feeder Barrier 5-10l
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 5 l · 10 l
 :::
 
@@ -245,7 +245,7 @@ Dosatore a barriera **registrabile**, per la regolazione del flusso di component
   - Bulk Feeder Barrier 20l
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 20 l
 :::
 
@@ -260,7 +260,7 @@ Dosatore a barriera **registrabile**, per la regolazione del flusso di component
   - Bulk Feeder Barrier 40l
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 40 l
 :::
 
@@ -280,7 +280,7 @@ Protezione di sicurezza per le mani.
 :stub-columns: 1
 
 * - Compatibilità
-  - Tutte le taglie, esclusa la tramoggia da 1,5 l
+  - Tutte le taglie, esclusa la Bulk Feeder da 1,5 l
 :::
 
 <!-- DA COMPLETARE -->
@@ -296,7 +296,7 @@ Protezione di sicurezza per le mani.
   - Hand Guard 3l
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 3 l
 :::
 
@@ -311,7 +311,7 @@ Protezione di sicurezza per le mani.
   - Hand Guard 5-10l
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 5 l · 10 l
 :::
 
@@ -326,7 +326,7 @@ Protezione di sicurezza per le mani.
   - Hand Guard 20l
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 20 l
 :::
 
@@ -341,7 +341,7 @@ Protezione di sicurezza per le mani.
   - Hand Guard 40l
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 40 l
 :::
 
@@ -364,7 +364,7 @@ Protezione di sicurezza per le mani.
 * - Funzione
   - Verifica la presenza di componenti nella zona frontale della vasca vibrante durante il processo di alimentazione.
 * - Compatibilità
-  - Tutte le taglie, esclusa la tramoggia da 1,5 l
+  - Tutte le taglie, esclusa la Bulk Feeder da 1,5 l
 :::
 
 :::{image} ../../../../../_shared/media/images/fotocellula_frontale.png
@@ -391,7 +391,7 @@ Monitora il **livello dei pezzi** presenti all'interno della vasca.
 :stub-columns: 1
 
 * - Compatibilità
-  - Tutte le taglie, esclusa la tramoggia da 1,5 l
+  - Tutte le taglie, esclusa la Bulk Feeder da 1,5 l
 :::
 
 <!-- DA COMPLETARE -->
@@ -407,7 +407,7 @@ Monitora il **livello dei pezzi** presenti all'interno della vasca.
   - Rear Photocell Kit 3l
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 3 l
 :::
 
@@ -422,7 +422,7 @@ Monitora il **livello dei pezzi** presenti all'interno della vasca.
   - Rear Photocell Kit 5-10l
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 5 l · 10 l
 :::
 
@@ -437,7 +437,7 @@ Monitora il **livello dei pezzi** presenti all'interno della vasca.
   - Rear Photocell Kit 20l
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 20 l
 :::
 
@@ -452,7 +452,7 @@ Monitora il **livello dei pezzi** presenti all'interno della vasca.
   - Rear Photocell Kit 40l
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 40 l
 :::
 
@@ -461,7 +461,7 @@ Monitora il **livello dei pezzi** presenti all'interno della vasca.
 (tramoggia-antivibrazione)=
 ## Antivibrazione
 
-Se la tramoggia viene installata sul piano di una macchina sensibile alle vibrazioni, è necessario interporre del materiale isolante e antivibrante tra le due superfici, per evitare che le vibrazioni della tramoggia si trasmettano al FlexiBowl®. Vedi {doc}`trasporto_installazione`.
+Se la Bulk Feeder viene installata sul piano di una macchina sensibile alle vibrazioni, è necessario interporre del materiale isolante e antivibrante tra le due superfici, per evitare che le vibrazioni della Bulk Feeder si trasmettano al FlexiBowl®. Vedi {doc}`trasporto_installazione`.
 
 (elementi-antivibranti)=
 ### Elementi antivibranti
@@ -496,7 +496,7 @@ Se la tramoggia viene installata sul piano di una macchina sensibile alle vibraz
   - Anti-Vibration Kit 3lt
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 3 l
 :::
 
@@ -511,7 +511,7 @@ Se la tramoggia viene installata sul piano di una macchina sensibile alle vibraz
   - Anti-Vibration Kit 5l-10l-20l
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 5 l · 10 l · 20 l
 :::
 
@@ -526,7 +526,7 @@ Se la tramoggia viene installata sul piano di una macchina sensibile alle vibraz
   - Anti-Vibration Kit 40lt
 * - Codice articolo
   - 
-* - Taglia tramoggia
+* - Taglia Bulk Feeder
   - 40 l
 :::
 
@@ -542,7 +542,7 @@ I cavi di collegamento del FlexiBowl® (alimentazione, Ethernet, I/O, rack) sono
 (cavo-modbus)=
 ### Cavo Modbus RTU
 
-Cavo di comunicazione **RS485 (Modbus RTU)** tra il controller della tramoggia e il FlexiBowl®. Si collega al connettore **HOPPER** del FlexiBowl® (pannello standard per le taglie 500 – 1200, rack per le taglie 200 / 350) e a una delle due porte **RS485** del controller; l'altra porta RS485 consente il collegamento in **daisy chain** tra più tramogge.
+Cavo di comunicazione **RS485 (Modbus RTU)** tra il controller della Bulk Feeder e il FlexiBowl®. Si collega al connettore **HOPPER** del FlexiBowl® (pannello standard per le taglie 500 – 1200, rack per le taglie 200 / 350) e a una delle due porte **RS485** del controller; l'altra porta RS485 consente il collegamento in **daisy chain** tra più Bulk Feeder.
 
 :::{list-table}
 :widths: 30 70
@@ -565,7 +565,7 @@ Cavo di comunicazione **RS485 (Modbus RTU)** tra il controller della tramoggia e
 | 5 | NC |
 
 :::{important}
-In configurazione a tramoggia singola, il connettore RS485 non utilizzato va chiuso con l'apposito **tappo di terminazione**, dotato di resistenza da **120 Ω** tra A+ e B-.
+In configurazione a Bulk Feeder singola, il connettore RS485 non utilizzato va chiuso con l'apposito **tappo di terminazione**, dotato di resistenza da **120 Ω** tra A+ e B-.
 :::
 
 (cavo-modbus-3m)=
@@ -616,7 +616,7 @@ In configurazione a tramoggia singola, il connettore RS485 non utilizzato va chi
 (cavo-input)=
 ### Cavo Input
 
-Cavo per il collegamento della porta **Enable Output Port** (4 pin) del controller, utilizzata per il comando della tramoggia da un dispositivo esterno quando questa viene acquistata separatamente. Per abilitare l'uscita del controller è necessario applicare un **segnale PNP** su questa porta.
+Cavo per il collegamento della porta **Enable Output Port** (4 pin) del controller, utilizzata per il comando della Bulk Feeder da un dispositivo esterno quando questa viene acquistata separatamente. Per abilitare l'uscita del controller è necessario applicare un **segnale PNP** su questa porta.
 
 :::{list-table}
 :widths: 30 70
