@@ -79,7 +79,7 @@ Il soffio centrale consiste in un beccuccio montato sulla punta dello schermo fl
 
 ### Procedura di regolazione 
 
-La regolazione dell'intensità del soffio avviene via software.
+La regolazione dell'intensità del soffio avviene via software. Inoltre, avvitando o svitando i grani di regolazione dei soffi radiali della stessa quantità è possibile strozzare o rilassare il flusso d'aria che arriva al soffio centrale.
 
 ## Applicazioni consigliate
 
@@ -89,4 +89,10 @@ Sono da preferire rispetto al deviatore standard qualora:
 
 ## Valutazione del corretto funzionamento
 
-Test standardizzato?
+Dei soffi radiali ben regolati si comportano come di seguito:
+
+* Il soffio a monte del flip porta i componenti a circa metà del raggio del FlexiBowl®, dove il flip è più efficace nel ribaltamento e nella separazione dei pezzi;
+
+* Il soffio centrale allontana i pezzi dalla calotta stringi-disco in modo tale da avitare collisione con il tool di presa;
+
+* Il soffio a valle del flip allontana leggermente i componenti dal bordo del FlexiBowl®, in modo da impedire eventuali collisioni con il tool di presa.

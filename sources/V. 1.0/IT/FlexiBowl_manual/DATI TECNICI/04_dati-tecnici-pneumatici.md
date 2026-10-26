@@ -149,6 +149,16 @@
    </table>
 :::
 
+:::{important}
+Il FlexiBowl® richiede, per la sua alimentazione pneumatica, aria compressa pulita secondo la normativa **ISO 8573-1:2010 classe 1.3.2**, ovvero:
+
+* Le particelle solide devono essere di dimensione ≤0.1μm;
+
+* Punto di rugiada in pressione ≤-20°C (assenza di condensa o brina);
+
+* Concentrazione di olio (inclusi aerosol e vapori) ≤0.1 mg/m³.
+:::
+
 :::{note}
 *La pressione minima di alimentazione per il FlexiBowl® 1200 diventa di 3 bar in caso sia provvisto di svuotamento.
 :::
@@ -161,7 +171,7 @@
 L'utilizzo di aria non conforme può causare malfunzionamenti, riduzione delle prestazioni e usura precoce dei componenti pneumatici.
 :::
 
-Su richiesta è disponibile opzionalmente un **kit di filtrazione aria esterno**. 
+Su richiesta è disponibile opzionalmente un **{ref}`kit di filtrazione aria esterno <airfilter>`**. 
 Il kit è consigliato nei casi in cui la qualità dell’aria compressa dell’impianto cliente non sia nota o non garantita e consente di raggiungere la classe di qualità richiesta.
 
 % (sc-pneum)=
