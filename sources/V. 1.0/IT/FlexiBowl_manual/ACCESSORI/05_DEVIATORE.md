@@ -47,26 +47,40 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il 
 Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la regolazione.
 :::
 
-%### Deviatori per disco rigido (FlexiBowl® 350-500E)
+### Deviatori per disco rigido (FlexiBowl® 350-500E)
 
-%| Step | Operazione |
-%|:----:|-----------|
-%| 1 | Allentare le viti per la regolazione radiale e verticale |
-%| 2 | Porre un foglio di carta tra disco e deviatore per tenerlo alla giusta distanza e serrare le viti per la regolazione verticale |
-%| 3 | Porre un foglio di carta tra la superficie esterna del deviatore e quella interna del bordo del disco per tenerlo alla giusta distanza e serrare le viti per la %regolazione radiale |
+| Step | Operazione |
+|:----:|-----------|
+| 1 | Allentare le viti per la regolazione radiale e verticale |
+| 2 | Porre un foglio di carta tra disco e deviatore per tenerlo alla giusta distanza e serrare le viti per la regolazione verticale |
+| 3 | Porre un foglio di carta tra la superficie esterna del deviatore e quella interna del bordo del disco per tenerlo alla giusta distanza e serrare le viti per la %regolazione radiale |
 
 %:::{figure} ../../../../_shared/media/images/deviatoridisco_regolazione.PNG
 %:width: 100%
 %:::
 
-%### Deviatori per superficie (FlexiBowl® 500-650-800-1200)
+### Deviatori per superficie (FlexiBowl® 500-650-800-1200)
 
-| Step | Operazione |
-|:----:|-----------|
-| 1 | Rimuovere i tappi sulla cartuccia deviatore |
-| 2 | Allentare le viti di fissaggio (2) |
-| 3 | Allentare o avvitare le viti di regolazione (1) finché la superficie inferiore del deviatore non si trova a ~0.1mm dalla superficie del disco |
-| 4 | Stringere le viti di fissaggio (2) per bloccare il deviatore in posizione |
+:::{list-table}
+:header-rows: 1
+:widths: 10 90
+:align: left
+
+* - Step
+  - Operazione
+* - 1
+  - Rimuovere i tappi sulla cartuccia deviatore
+* - 2
+  - Allentare le viti di fissaggio (2)
+* - 3
+  - Allentare o avvitare le viti di regolazione (1) finché la superficie inferiore del deviatore non si trova a ~0.1mm dalla superficie del disco.
+
+    :::{tip}
+    Porre un foglio di carta tra disco e deviatore per tenerlo alla giusta distanza e serrare le viti per la regolazione verticale.
+    :::
+* - 4
+  - Stringere le viti di fissaggio (2) per bloccare il deviatore in posizione
+:::
 
 :::{figure} ../../../../_shared/media/images/detdev.PNG
 :width: 100%
@@ -75,3 +89,8 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la 
 ## Valutazione del corretto funzionamento 
 
 I deviatori sono correttamente regolati quando la superficie o disco rigido scorrono senza incontrare resistenza e i componenti da movimentare non si incastrano tra i due.
+
+Per un funzionamento ottimale, inoltre, è necessario verificare che:
+
+- il deviatore **pre flip** porti i pezzi nella zona di massima efficienza del flip stesso, ovvero quella centrale;
+- il deviatore **successivo al flip** discosti i pezzi dal bordo quanto basta per poterli prelevare con il robot, anche nel caso in cui venga utilizzata una pinza che potrebbe urtare il bordo stesso.
