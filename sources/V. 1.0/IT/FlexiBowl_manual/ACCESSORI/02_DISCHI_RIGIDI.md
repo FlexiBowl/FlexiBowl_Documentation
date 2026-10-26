@@ -85,7 +85,7 @@ Ogni ✓ rimanda alla scheda del prodotto a listino.
   - [✓](smooth-transparent)
   - [✓](smooth-transparent)
   - [✓](smooth-transparent)
-  - [✓](smooth-transparent)
+  - 
 
 * - Flexi Disc Smooth Black
   - 
@@ -105,7 +105,7 @@ Ogni ✓ rimanda alla scheda del prodotto a listino.
   - [✓](anti-stick-blue)
   - [✓](anti-stick-blue)
 
-* - Flexi Disc Anti-Roll 1-3 mm White FDA
+* - Flexi Disc Anti-Roll Small White FDA
   - 
   - 
   - 
@@ -114,7 +114,7 @@ Ogni ✓ rimanda alla scheda del prodotto a listino.
   - 
   - 
 
-* - Flexi Disc Anti-Roll 3-6mm White FDA
+* - Flexi Disc Anti-Roll Medium White FDA
   - 
   - 
   - 
@@ -123,7 +123,7 @@ Ogni ✓ rimanda alla scheda del prodotto a listino.
   - [✓](anti-roll-3-6-white)
   - 
 
-* - Flexi Disc Anti-Roll 6-14mm Spike Grey FDA
+* - Flexi Disc Anti-Roll Transparent FDA
   - 
   - 
   - 
@@ -132,16 +132,16 @@ Ogni ✓ rimanda alla scheda del prodotto a listino.
   - [✓](anti-roll-6-14-spike-grey)
   - 
 
-* - Flexi Disc Anti-Roll 14-35mm Spike Transparent FDA
+* - Flexi Disc Anti-Roll Beige FDA
   - 
   - 
   - 
-  - [✓](anti-roll-14-35-spike-transparent)
-  - [✓](anti-roll-14-35-spike-transparent)
-  - [✓](anti-roll-14-35-spike-transparent)
-  - [✓](anti-roll-14-35-spike-transparent)
+  - [✓](anti-roll-14-35-spike-beige)
+  - [✓](anti-roll-14-35-spike-beige)
+  - [✓](anti-roll-14-35-spike-beige)
+  - [✓](anti-roll-14-35-spike-beige)
 
-* - Flexi Disc Anti-Roll 14-35mm Spike Blue FDA
+* - Flexi Disc Anti-Roll Blue FDA
   - 
   - 
   - 
@@ -150,7 +150,7 @@ Ogni ✓ rimanda alla scheda del prodotto a listino.
   - [✓](anti-roll-14-35-spike-blue)
   - [✓](anti-roll-14-35-spike-blue)
 
-* - Flexi Disc Anti-Roll Silicone White FDA
+* - Flexi Disc Silicone White FDA
   - 
   - 
   - 
@@ -159,7 +159,7 @@ Ogni ✓ rimanda alla scheda del prodotto a listino.
   - [✓](anti-roll-silicone-white)
   - [✓](anti-roll-silicone-white)
 
-* - Flexi Disc Anti-Cut Grey FDA
+* - Flexi Disc Anti-Cut FDA
   - 
   - 
   - 
@@ -168,7 +168,7 @@ Ogni ✓ rimanda alla scheda del prodotto a listino.
   - [✓](anti-cut-grey)
   - [✓](anti-cut-grey)
 
-* - Flexi Disc Custom Grooved
+* - Custom Disc
   - 
   - 
   - 
@@ -213,79 +213,79 @@ Ogni ✓ rimanda alla scheda del prodotto a listino.
   - 
   - 
 
-* - Rigid Disc Anti-Roll 1-5mm White FDA
+* - Rigid Disc Anti-Roll White FDA
   - [✓](rd200-anti-roll-1-5-white)
-  - [✓](rd350-anti-roll-1-5-white)
+  - 
   - 
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 1-5mm Black FDA
+* - Rigid Disc Anti-Roll Black FDA
   - [✓](rd200-anti-roll-1-5-black)
-  - [✓](rd350-anti-roll-1-5-black)
+  - 
   - 
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 6-8mm White FDA
+* - Rigid Disc Anti-Roll Small White FDA
   - 
-  - [✓](rd350-anti-roll-6-8-white)
+  - [✓](rd350-anti-roll-1-5-white)
   - [✓](rd500e-anti-roll-6-8-white)
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 6-8mm Black FDA
+* - Rigid Disc Anti-Roll Small Black FDA
   - 
-  - [✓](rd350-anti-roll-6-8-black)
+  - [✓](rd350-anti-roll-1-5-black)
   - [✓](rd500e-anti-roll-6-8-black)
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 9-15mm White FDA
+* - Rigid Disc Anti-Roll Medium White FDA
   - 
-  - [✓](rd350-anti-roll-9-15-white)
+  - [✓](rd350-anti-roll-6-8-white)
   - [✓](rd500e-anti-roll-9-15-white)
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 9-15mm Black FDA
+* - Rigid Disc Anti-Roll Medium Black FDA
   - 
-  - [✓](rd350-anti-roll-9-15-black)
+  - [✓](rd350-anti-roll-6-8-black)
   - [✓](rd500e-anti-roll-9-15-black)
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 23-30mm White FDA
+* - Rigid Disc Anti-Roll Large White FDA
   - 
-  - 
+  - [✓](rd350-anti-roll-9-15-white)
   - [✓](rd500e-anti-roll-23-30-white)
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 23-30mm Black FDA
+* - Rigid Disc Anti-Roll Large Black FDA
   - 
-  - 
+  - [✓](rd350-anti-roll-9-15-black)
   - [✓](rd500e-anti-roll-23-30-black)
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Application Specific Design
+* - Custom Disc
   - [✓](rd200-application-specific)
   - [✓](rd350-application-specific)
   - 
@@ -312,6 +312,8 @@ I dischi rigidi sono l'alternativa alle superfici adatta ai FlexiBowl® in versi
 La loro rigidezza cambia il funzionamento del flip: invece di agire in maniera praticamente diretta sui componenti tramite lo spostamento della superficie, provoca una vibrazione sul disco ideale per lo smistamento di componenti di dimensioni più ridotte. Presentano inoltre un bordo integrato, che li rende ancora più adatti all'elaborazione di componenti piccoli in quanto elimina il gap che si può formare tra una superficie e il normale anello di contenimento.
 
 A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è specifico per ogni taglia di FlexiBowl®.
+
+Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la fascia di diametro dei componenti, che varia in base alla taglia: l'intervallo esatto è riportato nella scheda di ciascun codice.
 
 ::::{grid} 1 3 3 3
 :gutter: 3
@@ -352,11 +354,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
   - Flat
 * - [Rigid Disc Flat Black FDA 200](rd200-flat-black)
   - Flat
-* - [Rigid Disc Anti-Roll 1-5mm White FDA 200](rd200-anti-roll-1-5-white)
+* - [Rigid Disc Anti-Roll White FDA 200](rd200-anti-roll-1-5-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 1-5mm Black FDA 200](rd200-anti-roll-1-5-black)
+* - [Rigid Disc Anti-Roll Black FDA 200](rd200-anti-roll-1-5-black)
   - Anti-Roll
-* - [Rigid Disc Application Specific Design 200](rd200-application-specific)
+* - [Custom Disc 200](rd200-application-specific)
   - Custom
 :::
 
@@ -639,9 +641,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd200-anti-roll-1-5-white)=
-### Rigid Disc Anti-Roll 1-5mm White FDA 200
+### Rigid Disc Anti-Roll White FDA 200
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 1-5mm White FDA 200](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_WHITE.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 1-5mm White FDA 200*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll White FDA 200](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_WHITE.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -720,7 +724,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 1-5mm White FDA 200)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll White FDA 200)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -786,9 +790,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd200-anti-roll-1-5-black)=
-### Rigid Disc Anti-Roll 1-5mm Black FDA 200
+### Rigid Disc Anti-Roll Black FDA 200
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 1-5mm Black FDA 200](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_BLACK.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 1-5mm Black FDA 200*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Black FDA 200](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_BLACK.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -867,7 +873,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 1-5mm Black FDA 200)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll Black FDA 200)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -933,9 +939,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd200-application-specific)=
-### Rigid Disc Application Specific Design 200
+### Custom Disc 200
 
-<!-- TODO immagine: ![Rigid Disc Application Specific Design 200](../../../../_shared/media/images/RD_CUSTOM.jpg) -->
+*Denominazione precedente: Rigid Disc Application Specific Design 200*
+
+<!-- TODO immagine: ![Custom Disc 200](../../../../_shared/media/images/RD_CUSTOM.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> Disco rigido progettato su misura per l'applicazione specifica del cliente. <!-- TODO: completare descrizione -->
@@ -975,19 +983,19 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
   - Flat
 * - [Rigid Disc Flat Black FDA 350](rd350-flat-black)
   - Flat
-* - [Rigid Disc Anti-Roll 1-5mm White FDA 350](rd350-anti-roll-1-5-white)
+* - [Rigid Disc Anti-Roll Small White FDA 350](rd350-anti-roll-1-5-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 1-5mm Black FDA 350](rd350-anti-roll-1-5-black)
+* - [Rigid Disc Anti-Roll Small Black FDA 350](rd350-anti-roll-1-5-black)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 6-8mm White FDA 350](rd350-anti-roll-6-8-white)
+* - [Rigid Disc Anti-Roll Medium White FDA 350](rd350-anti-roll-6-8-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 6-8mm Black FDA 350](rd350-anti-roll-6-8-black)
+* - [Rigid Disc Anti-Roll Medium Black FDA 350](rd350-anti-roll-6-8-black)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 9-15mm White FDA 350](rd350-anti-roll-9-15-white)
+* - [Rigid Disc Anti-Roll Large White FDA 350](rd350-anti-roll-9-15-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 9-15mm Black FDA 350](rd350-anti-roll-9-15-black)
+* - [Rigid Disc Anti-Roll Large Black FDA 350](rd350-anti-roll-9-15-black)
   - Anti-Roll
-* - [Rigid Disc Application Specific Design 350](rd350-application-specific)
+* - [Custom Disc 350](rd350-application-specific)
   - Custom
 :::
 
@@ -1270,9 +1278,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd350-anti-roll-1-5-white)=
-### Rigid Disc Anti-Roll 1-5mm White FDA 350
+### Rigid Disc Anti-Roll Small White FDA 350
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 1-5mm White FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_WHITE.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 1-5mm White FDA 350*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Small White FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_WHITE.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -1351,7 +1361,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 1-5mm White FDA 350)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll Small White FDA 350)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1417,9 +1427,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd350-anti-roll-1-5-black)=
-### Rigid Disc Anti-Roll 1-5mm Black FDA 350
+### Rigid Disc Anti-Roll Small Black FDA 350
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 1-5mm Black FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_BLACK.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 1-5mm Black FDA 350*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Small Black FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_BLACK.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -1498,7 +1510,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 1-5mm Black FDA 350)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll Small Black FDA 350)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1564,9 +1576,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd350-anti-roll-6-8-white)=
-### Rigid Disc Anti-Roll 6-8mm White FDA 350
+### Rigid Disc Anti-Roll Medium White FDA 350
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 6-8mm White FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_WHITE.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 6-8mm White FDA 350*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Medium White FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_WHITE.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -1645,7 +1659,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 6-8mm White FDA 350)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll Medium White FDA 350)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1711,9 +1725,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd350-anti-roll-6-8-black)=
-### Rigid Disc Anti-Roll 6-8mm Black FDA 350
+### Rigid Disc Anti-Roll Medium Black FDA 350
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 6-8mm Black FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_BLACK.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 6-8mm Black FDA 350*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Medium Black FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_BLACK.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -1792,7 +1808,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 6-8mm Black FDA 350)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll Medium Black FDA 350)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1858,9 +1874,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd350-anti-roll-9-15-white)=
-### Rigid Disc Anti-Roll 9-15mm White FDA 350
+### Rigid Disc Anti-Roll Large White FDA 350
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 9-15mm White FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_WHITE.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 9-15mm White FDA 350*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Large White FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_WHITE.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -1939,7 +1957,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 9-15mm White FDA 350)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll Large White FDA 350)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -2005,9 +2023,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd350-anti-roll-9-15-black)=
-### Rigid Disc Anti-Roll 9-15mm Black FDA 350
+### Rigid Disc Anti-Roll Large Black FDA 350
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 9-15mm Black FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_BLACK.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 9-15mm Black FDA 350*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Large Black FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_BLACK.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -2086,7 +2106,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 9-15mm Black FDA 350)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll Large Black FDA 350)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -2152,9 +2172,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd350-application-specific)=
-### Rigid Disc Application Specific Design 350
+### Custom Disc 350
 
-<!-- TODO immagine: ![Rigid Disc Application Specific Design 350](../../../../_shared/media/images/RD_CUSTOM.jpg) -->
+*Denominazione precedente: Rigid Disc Application Specific Design 350*
+
+<!-- TODO immagine: ![Custom Disc 350](../../../../_shared/media/images/RD_CUSTOM.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> Disco rigido progettato su misura per l'applicazione specifica del cliente. <!-- TODO: completare descrizione -->
@@ -2194,17 +2216,17 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
   - Flat
 * - [Rigid Disc Flat Black FDA 500](rd500e-flat-black)
   - Flat
-* - [Rigid Disc Anti-Roll 6-8mm White FDA 500](rd500e-anti-roll-6-8-white)
+* - [Rigid Disc Anti-Roll Small White FDA 500](rd500e-anti-roll-6-8-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 6-8mm Black FDA 500](rd500e-anti-roll-6-8-black)
+* - [Rigid Disc Anti-Roll Small Black FDA 500](rd500e-anti-roll-6-8-black)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 9-15mm White FDA 500](rd500e-anti-roll-9-15-white)
+* - [Rigid Disc Anti-Roll Medium White FDA 500](rd500e-anti-roll-9-15-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 9-15mm Black FDA 500](rd500e-anti-roll-9-15-black)
+* - [Rigid Disc Anti-Roll Medium Black FDA 500](rd500e-anti-roll-9-15-black)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 23-30mm White FDA 500](rd500e-anti-roll-23-30-white)
+* - [Rigid Disc Anti-Roll Large White FDA 500](rd500e-anti-roll-23-30-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 23-30mm Black FDA 500](rd500e-anti-roll-23-30-black)
+* - [Rigid Disc Anti-Roll Large Black FDA 500](rd500e-anti-roll-23-30-black)
   - Anti-Roll
 * - [Round-Edged Custom Grooved Disc 500](rd500e-round-edged-custom-grooved)
   - Custom
@@ -2489,9 +2511,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd500e-anti-roll-6-8-white)=
-### Rigid Disc Anti-Roll 6-8mm White FDA 500
+### Rigid Disc Anti-Roll Small White FDA 500
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 6-8mm White FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_WHITE.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 6-8mm White FDA 500*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Small White FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_WHITE.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -2570,7 +2594,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 6-8mm White FDA 500)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll Small White FDA 500)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -2636,9 +2660,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd500e-anti-roll-6-8-black)=
-### Rigid Disc Anti-Roll 6-8mm Black FDA 500
+### Rigid Disc Anti-Roll Small Black FDA 500
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 6-8mm Black FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_BLACK.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 6-8mm Black FDA 500*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Small Black FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_BLACK.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -2717,7 +2743,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 6-8mm Black FDA 500)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll Small Black FDA 500)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -2783,9 +2809,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd500e-anti-roll-9-15-white)=
-### Rigid Disc Anti-Roll 9-15mm White FDA 500
+### Rigid Disc Anti-Roll Medium White FDA 500
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 9-15mm White FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_WHITE.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 9-15mm White FDA 500*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Medium White FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_WHITE.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -2864,7 +2892,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 9-15mm White FDA 500)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll Medium White FDA 500)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -2930,9 +2958,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd500e-anti-roll-9-15-black)=
-### Rigid Disc Anti-Roll 9-15mm Black FDA 500
+### Rigid Disc Anti-Roll Medium Black FDA 500
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 9-15mm Black FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_BLACK.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 9-15mm Black FDA 500*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Medium Black FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_BLACK.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -3011,7 +3041,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 9-15mm Black FDA 500)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll Medium Black FDA 500)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -3077,9 +3107,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd500e-anti-roll-23-30-white)=
-### Rigid Disc Anti-Roll 23-30mm White FDA 500
+### Rigid Disc Anti-Roll Large White FDA 500
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 23-30mm White FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_23_30_WHITE.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 23-30mm White FDA 500*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Large White FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_23_30_WHITE.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -3158,7 +3190,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 23-30mm White FDA 500)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll Large White FDA 500)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -3224,9 +3256,11 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
 </div>
 
 (rd500e-anti-roll-23-30-black)=
-### Rigid Disc Anti-Roll 23-30mm Black FDA 500
+### Rigid Disc Anti-Roll Large Black FDA 500
 
-<!-- TODO immagine: ![Rigid Disc Anti-Roll 23-30mm Black FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_23_30_BLACK.jpg) -->
+*Denominazione precedente: Rigid Disc Anti-Roll 23-30mm Black FDA 500*
+
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Large Black FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_23_30_BLACK.jpg) -->
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -3305,7 +3339,7 @@ A differenza delle superfici, l'**interasse** dei dischi rigidi *Anti-Roll* è s
     </table>
 </div>
 
-#### Compatibilità Componenti (Rigid Disc Anti-Roll 23-30mm Black FDA 500)
+#### Compatibilità Componenti (Rigid Disc Anti-Roll Large Black FDA 500)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
