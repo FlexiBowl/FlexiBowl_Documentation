@@ -528,7 +528,7 @@ Esempio: per eseguire la Sequenza 5, impostare Bit1=1, Bit2=0, Bit3=1, Bit4=0, B
 
 ---
 
-## Schema ConfigIO — Configurazione PLC 
+### Schema ConfigIO — Configurazione PLC 
 
 Il seguente schema descrive la configurazione tipica di un PLC Wago utilizzato per il controllo del FlexiBowl® tramite Digital I/O.
 
@@ -538,7 +538,7 @@ Il seguente schema descrive la configurazione tipica di un PLC Wago utilizzato p
 - Modulo ingressi analogici: 0–10V (750-467)
 - Modulo uscite analogiche: 0–10V (750-550)
 
-### Ingressi digitali (DI) — Modulo 1
+#### Ingressi digitali (DI) — Modulo 1
 
 | DI | Descrizione |
 |---|---|
@@ -551,7 +551,7 @@ Il seguente schema descrive la configurazione tipica di un PLC Wago utilizzato p
 | 7 | Zeroing |
 | 8 | Spare |
 
-### Uscite digitali (DO) — Modulo 1
+#### Uscite digitali (DO) — Modulo 1
 
 | DO | Descrizione |
 |---|---|
@@ -564,14 +564,14 @@ Il seguente schema descrive la configurazione tipica di un PLC Wago utilizzato p
 | 7 | Blow 2 Comando |
 | 8 | Cmd Slitta Empty |
 
-### Ingressi analogici (AI)
+#### Ingressi analogici (AI)
 
 | AI | Descrizione |
 |---|---|
 | 1 | Feedback Elv. Flip |
 | 2 | Feedback Elv. Blow |
 
-### Uscite analogiche (AO)
+#### Uscite analogiche (AO)
 
 | AO | Descrizione |
 |---|---|
