@@ -1098,4 +1098,5 @@ function filterErrors() {
 :hidden:
 04a_interfaccia_software.md
 04b_interfaccia_software.md
+04c_interfaccia_software.md
 :::
