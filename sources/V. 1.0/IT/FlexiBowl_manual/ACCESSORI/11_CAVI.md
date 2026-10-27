@@ -29,7 +29,7 @@ Cavo per il collegamento dei segnali dell'opzione **Digital I/O**, che consente 
 * - Connettore lato sistema
   - 
 * - Riferimenti
-  - Segnali e codifica comandi: {ref}`Digital I/O <quickstart>` · Piedinatura connettore I/O: {ref}`io-flexitrack`
+  - Segnali e codifica comandi: [Digital I/O](digIO) · Piedinatura connettore I/O: {ref}`io-flexitrack`
 :::
 
 :::{note}
