@@ -4,7 +4,7 @@
 I cavi di collegamento del FlexiBowl® sono acquistabili separatamente come opzione, nelle lunghezze da **3, 5 o 10 metri**. Questa pagina raccoglie tutti i cavi disponibili a listino: ogni lunghezza ha una propria sezione, raggiungibile tramite link diretto.
 
 :::{note}
-I cavi di collegamento delle tramogge vibranti (cavo Modbus RTU e cavo Input del controller) sono descritti nella pagina {ref}`Accessori e Opzioni delle tramogge <tramoggia-cavi>`.
+I cavi di collegamento delle Bulk Feeder (cavo Modbus RTU e cavo Input del controller) sono descritti nella pagina {ref}`Accessori e Opzioni delle Bulk Feeder <tramoggia-cavi>`.
 :::
 
 :::{warning}
@@ -45,10 +45,8 @@ La modalità **Digital I/O** è un'opzione acquistabile separatamente e non è i
 :widths: 30 70
 :stub-columns: 1
 
-* - Voce di listino
+* - Articolo
   - FlexiBowl cable for I/O option, 3m
-* - Codice articolo
-  - 
 * - Lunghezza
   - 3 m
 :::
@@ -60,10 +58,8 @@ La modalità **Digital I/O** è un'opzione acquistabile separatamente e non è i
 :widths: 30 70
 :stub-columns: 1
 
-* - Voce di listino
+* - Articolo
   - FlexiBowl cable for I/O option, 5m
-* - Codice articolo
-  - 
 * - Lunghezza
   - 5 m
 :::
@@ -75,10 +71,8 @@ La modalità **Digital I/O** è un'opzione acquistabile separatamente e non è i
 :widths: 30 70
 :stub-columns: 1
 
-* - Voce di listino
+* - Articolo
   - FlexiBowl cable for I/O option, 10m
-* - Codice articolo
-  - 
 * - Lunghezza
   - 10 m
 :::
@@ -129,10 +123,8 @@ Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔
 :widths: 30 70
 :stub-columns: 1
 
-* - Voce di listino
+* - Articolo
   - Cable for remote electronic cabinet, 3m
-* - Codice articolo
-  - 
 * - Lunghezza
   - 3 m
 :::
@@ -144,10 +136,8 @@ Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔
 :widths: 30 70
 :stub-columns: 1
 
-* - Voce di listino
+* - Articolo
   - Cable for remote electronic cabinet, 5m
-* - Codice articolo
-  - 
 * - Lunghezza
   - 5 m
 :::
@@ -159,10 +149,8 @@ Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔
 :widths: 30 70
 :stub-columns: 1
 
-* - Voce di listino
+* - Articolo
   - Cable for remote electronic cabinet, 10m
-* - Codice articolo
-  - 
 * - Lunghezza
   - 10 m
 :::
@@ -183,7 +171,8 @@ Cavo di alimentazione di rete, da collegare al connettore **POWER SUPPLY** del p
 * - Tensione ammessa
   - 120–230 Vac, 50/60 Hz
 * - Riferimenti
-  - Procedura di collegamento: {ref}`pannello-standard` · {ref}`rack-esterno` · Dati di alimentazione: {ref}`dati_elettrici`
+  - Procedura di collegamento: {ref}`pannello-standard` · {ref}`rack-esterno` ·   
+    Dati di alimentazione: {ref}`dati_elettrici`
 :::
 
 | Colore | Tipo | Etichetta |
@@ -203,10 +192,8 @@ Collegare l'alimentazione **per ultima**, con il FlexiBowl® spento. Il collegam
 :widths: 30 70
 :stub-columns: 1
 
-* - Voce di listino
+* - Articolo
   - FlexiBowl Power Supply Cable, 3m
-* - Codice articolo
-  - 
 * - Lunghezza
   - 3 m
 :::
@@ -218,10 +205,8 @@ Collegare l'alimentazione **per ultima**, con il FlexiBowl® spento. Il collegam
 :widths: 30 70
 :stub-columns: 1
 
-* - Voce di listino
+* - Articolo
   - FlexiBowl Power Supply Cable, 5m
-* - Codice articolo
-  - 
 * - Lunghezza
   - 5 m
 :::
@@ -233,10 +218,8 @@ Collegare l'alimentazione **per ultima**, con il FlexiBowl® spento. Il collegam
 :widths: 30 70
 :stub-columns: 1
 
-* - Voce di listino
+* - Articolo
   - FlexiBowl Power Supply Cable, 10m
-* - Codice articolo
-  - 
 * - Lunghezza
   - 10 m
 :::
@@ -273,10 +256,8 @@ Quando il FlexiBowl® è alimentato, il collegamento Ethernet è **obbligatorio*
 :widths: 30 70
 :stub-columns: 1
 
-* - Voce di listino
+* - Articolo
   - Ethernet Cable 3m
-* - Codice articolo
-  - 
 * - Lunghezza
   - 3 m
 :::
@@ -288,10 +269,8 @@ Quando il FlexiBowl® è alimentato, il collegamento Ethernet è **obbligatorio*
 :widths: 30 70
 :stub-columns: 1
 
-* - Voce di listino
+* - Articolo
   - Ethernet Cable 5m
-* - Codice articolo
-  - 
 * - Lunghezza
   - 5 m
 :::
@@ -303,10 +282,8 @@ Quando il FlexiBowl® è alimentato, il collegamento Ethernet è **obbligatorio*
 :widths: 30 70
 :stub-columns: 1
 
-* - Voce di listino
+* - Articolo
   - Ethernet Cable 10m
-* - Codice articolo
-  - 
 * - Lunghezza
   - 10 m
 :::

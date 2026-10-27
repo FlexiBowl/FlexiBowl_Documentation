@@ -285,10 +285,10 @@ Per ciascuna delle 4 Bulk Feeder disponibili è possibile impostare:
 I valori ottimali di ampiezza, frequenza e tempo di attivazione dipendono dal componente e dalla geometria della Bulk Feeder: regolarli progressivamente osservando il flusso di alimentazione, partendo da valori bassi e aumentando fino a ottenere un'alimentazione costante senza inceppamenti.
 :::
 
-<details>
-<summary><strong>Parametri avanzati del controller</strong> (regolabili dal pannello fisico)</summary>
+## Parametri avanzati del controller 
 
-**Parametri comuni** — regolabili in qualsiasi momento con i tasti **Vol+** / **Vol-**, anche mentre è visualizzato un altro parametro:
+### **Parametri comuni** 
+I parametri comuni sono regolabili in qualsiasi momento con i tasti **Vol+** / **Vol-**, anche mentre è visualizzato un altro parametro:
 
 ![Parametri comuni del controller](../../../../_shared/media/images/tramoggia-parametri-comuni.png)
 
@@ -296,7 +296,8 @@ I valori ottimali di ampiezza, frequenza e tempo di attivazione dipendono dal co
 |---|---|---|---|
 | Tensione di uscita | U | 0–260 V | 50 |
 
-**Parametri base** — tenere premuto **FUNC** per 2 secondi per accedere, premere **FUNC** per scorrere i parametri, **▲/▼** per modificarli, tenere premuto **FUNC** per 2 secondi per uscire:
+### **Parametri base**
+Per accedere ai parametri base, tenere premuto **FUNC** per 2 secondi per accedere, premere **FUNC** per scorrere i parametri, **▲/▼** per modificarli, tenere premuto **FUNC** per 2 secondi per uscire:
 
 ![Parametri base del controller](../../../../_shared/media/images/tramoggia-parametri-base.png)
 
@@ -308,7 +309,7 @@ I valori ottimali di ampiezza, frequenza e tempo di attivazione dipendono dal co
 | Baud rate di comunicazione | c | 0,3–115,2 kbps | 115,2 |
 | Reset del controller | — | — | — |
 
-**Reset del controller:**
+### **Reset del controller**
 
 ![Procedura di reset del controller](../../../../_shared/media/images/tramoggia-reset-controller.png)
 
@@ -317,4 +318,4 @@ I valori ottimali di ampiezza, frequenza e tempo di attivazione dipendono dal co
 3. Tenere premuto **▲** finché non compare `-----` sul display.
 4. Rilasciare **▲** per completare il reset: il display mostrerà `U 50`, a conferma dell'operazione avvenuta con successo.
 
-</details>
+

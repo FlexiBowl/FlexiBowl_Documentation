@@ -26,4 +26,10 @@ La regolazione dell'intensità del soffio avviene via software tramite l'aggiust
 
 ## Valutazione del corretto funzionamento
 
-Test standardizzato?
+Dei soffi ben regolati si comportano come di seguito:
+
+* Il soffio a monte del flip porta i componenti a circa 3/4 del raggio del FlexiBowl® partendo dal centro, dove il flip è più efficace nel ribaltamento e nella separazione dei pezzi;
+
+* Il soffio centrale allontana i pezzi dalla calotta stringi-disco in modo tale da avitare collisione con il tool di presa;
+
+* Il soffio a valle del flip allontana leggermente i componenti dal bordo del FlexiBowl®, in modo da impedire eventuali collisioni con il tool di presa.
