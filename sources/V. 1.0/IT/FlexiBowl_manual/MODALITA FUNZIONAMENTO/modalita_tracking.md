@@ -17,7 +17,7 @@ L'opzione **Circular Tracking** consente di massimizzare la produttività del Fl
 :::
 
 ::::{tip}
-Il funzionamento in tracking sposta l'area di presa che, se normalmente coincide con quella di visione, in questo caso sarà spostata a valle.  
+Il funzionamento in circular tracking sposta l'area di presa che, se normalmente coincide con quella di visione, in questo caso sarà spostata a valle.  
  Fare riferimento al capitolo di {ref}`Layout Best Practice <layoutbp>` per maggiori informazioni sul piazzamento consigliato del robot e degli altri accessori in caso di funzionamento standard e Circular Tracking.  
 
 :::{figure} ../../../../_shared/media/images/TrackingLayout.PNG
@@ -46,7 +46,7 @@ Il funzionamento in tracking sposta l'area di presa che, se normalmente coincide
 
 ## Ciclo operativo
 
-Il funzionamento in tracking si basa su un ciclo continuo suddiviso in quattro fasi che si
+Il funzionamento in circular tracking si basa su un ciclo continuo suddiviso in quattro fasi che si
 svolgono in parallelo:
 
 ```{list-table}
@@ -107,7 +107,7 @@ L'opzione Circular Tracking prevede un encoder collegato alla rotazione del disc
 ---
 ## Pagina JOG 
 
-La pagina **Jog Motor** consente di azionare il FlexiBowl® in modalità tracking, senza l'utilizzo di sequenze programmate. È utilizzata principalmente durante le fasi di setup, messa in servizio e test del sistema, permettendo all'operatore di controllare direttamente la rotazione del FlexiBowl® e le funzioni accessorie.
+La pagina **Jog Motor** consente di azionare il FlexiBowl® in modalità circular tracking, senza l'utilizzo di sequenze programmate. È utilizzata principalmente durante le fasi di setup, messa in servizio e test del sistema, permettendo all'operatore di controllare direttamente la rotazione del FlexiBowl® e le funzioni accessorie.
 ![pagina jog monitor](../../../../_shared/media/images/jog_motor.png)
 
 Per maggiori informazioni, consultare la [Pagina JOG](jog)
@@ -170,12 +170,22 @@ Per i Codici di Errore, consultare la pagina dedicata.
 :class-body: isw-card-body
 :::
 ::::
----
 
+---
+## Vantaggi 
+
+
+:::{grid-item-card} Vantaggi
+- **Velocità**: .
+- **Stabilità del tempo ciclo**: .
+- **Ridotta impronta ambientale**: .
+:::
+
+---
 ## Note operative
 
 :::{warning}
-La modalità Tracking offre prestazioni massime ma con una **precisione leggermente inferiore**
+La modalità Circular Tracking offre prestazioni massime ma con una **precisione leggermente inferiore**
 rispetto alla modalità standard. Valutare l'adeguatezza in base ai requisiti di tolleranza
 del componente da manipolare.
 :::

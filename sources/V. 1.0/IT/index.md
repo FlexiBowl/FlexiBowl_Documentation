@@ -258,7 +258,7 @@ FlexiBowl_manual/TRAMOGGE/CONVEYOR/00_CONVEYOR.md
 
 :::{toctree}
 :hidden:
-:caption: NOTE di RILASCIo
+:caption: APPENDICI
 FlexiBowl_manual/NOTE RILASCIO/release_notes.md
 :::
 

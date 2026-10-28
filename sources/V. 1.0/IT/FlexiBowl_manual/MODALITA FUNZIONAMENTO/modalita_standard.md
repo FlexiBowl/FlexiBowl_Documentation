@@ -73,9 +73,11 @@ L'area di lavoro del robot deve coprire interamente l'area di visione, così che
 
 ---
 
-## Vantaggi della Modalità Standard
+## Vantaggi 
 
-- **Semplicità di integrazione**: la configurazione è immediata e non richiede parametri avanzati.
-- **Versatilità**: compatibile con una vasta gamma di componenti e settori industriali.
-- **Efficienza**: la simultaneità tra scarico hopper e movimento FlexiBowl® riduce i tempi di attesa.
-- **Affidabilità**: il ciclo sequenziale visione–prelievo minimizza gli errori di presa.
+
+:::{grid-item-card} Vantaggi
+- **Precisione**: .
+- **Separazione**: .
+- **Velocità**: .
+:::
