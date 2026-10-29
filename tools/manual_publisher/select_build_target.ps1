@@ -5,6 +5,9 @@ Add-Type -AssemblyName System.Drawing
 
 $repoRoot = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 $sourceRoot = Join-Path $repoRoot 'sources'
+$buildRoot = Join-Path $repoRoot 'build'
+$selectionStateFile = Join-Path $repoRoot '.build_cache/protected-page-selection.json'
+. (Join-Path $PSScriptRoot 'protected_page_selection.ps1')
 
 function Get-VersionSortKey {
     param([string]$Label)
@@ -147,6 +150,7 @@ function Show-ProtectedPageDialog {
 
     $candidateByLabel = @{}
     $defaultByLabel = @{}
+    $rememberedSelections = Get-ProtectedPageSelection -StateFile $selectionStateFile
     foreach ($candidate in $candidates) {
         $candidateByLabel[[string]$candidate.Label] = [string]$candidate.OutputPath
         $defaultByLabel[[string]$candidate.Label] = [bool]$candidate.IsDefaultChecked
@@ -170,7 +174,7 @@ function Show-ProtectedPageDialog {
     $protectedForm.Controls.Add($protectedTitle)
 
     $protectedInfo = New-Object System.Windows.Forms.Label
-    $protectedInfo.Text = 'Le pagine selezionate saranno protette con password ArS2026!. Puoi lasciare tutto deselezionato per una build normale.'
+    $protectedInfo.Text = 'Le pagine selezionate saranno protette con password ArS2026!. Le spunte e le deselezioni vengono ricordate alla prossima apertura.'
     $protectedInfo.Location = New-Object System.Drawing.Point(20, 48)
     $protectedInfo.Size = New-Object System.Drawing.Size(805, 38)
     $protectedForm.Controls.Add($protectedInfo)
@@ -181,7 +185,9 @@ function Show-ProtectedPageDialog {
     $checkedList.CheckOnClick = $true
     $checkedList.HorizontalScrollbar = $true
     foreach ($candidate in $candidates) {
-        [void]$checkedList.Items.Add([string]$candidate.Label, [bool]$candidate.IsDefaultChecked)
+        $isChecked = Get-ProtectedPageCheckedState -OutputPath $candidate.OutputPath `
+            -DefaultChecked $candidate.IsDefaultChecked -Selections $rememberedSelections -BuildRoot $buildRoot
+        [void]$checkedList.Items.Add([string]$candidate.Label, $isChecked)
     }
     $protectedForm.Controls.Add($checkedList)
 
@@ -235,6 +241,14 @@ function Show-ProtectedPageDialog {
 
     $protectedForm.AcceptButton = $continueButton
     $protectedForm.CancelButton = $cancelProtectedButton
+
+    $protectedForm.Add_FormClosing({
+        for ($i = 0; $i -lt $checkedList.Items.Count; $i++) {
+            $label = [string]$checkedList.Items[$i]
+            $rememberedSelections[$candidateByLabel[$label]] = $checkedList.GetItemChecked($i)
+        }
+        Save-ProtectedPageSelection -StateFile $selectionStateFile -Selections $rememberedSelections
+    })
 
     $protectedResult = $protectedForm.ShowDialog()
     if ($protectedResult -ne [System.Windows.Forms.DialogResult]::OK) {

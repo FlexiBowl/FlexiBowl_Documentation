@@ -7,6 +7,7 @@ import os
 import re
 from collections import defaultdict
 from dataclasses import dataclass
+from html import escape, unescape
 from pathlib import Path, PurePosixPath
 from urllib.parse import unquote, urlsplit
 
@@ -43,6 +44,8 @@ IV_SIZE = 12
 UNLOCK_VERIFIER_TEXT = "ars-protected-access-ok"
 
 SEARCH_INDEX_RE = re.compile(r"^\s*Search\.setIndex\((?P<payload>.*)\)\s*;?\s*$", re.DOTALL)
+ASSET_ATTRIBUTE_RE = re.compile(r"\b(src|href|poster)=([\"'])([^\"']*)\2")
+OFFLOADED_ASSET_DIRS = frozenset({"_shared", "_assets", "_images", "_downloads"})
 
 
 @dataclass(frozen=True)
@@ -423,7 +426,33 @@ def render_global_unlock_script(verifier_payload: dict[str, str | int]) -> str:
   </script>"""
 
 
-def render_protected_page(payload: dict[str, str | int]) -> str:
+def render_protected_asset_manifest(html: str) -> str:
+    """Expose asset URLs to the existing CI rewriter without exposing page content.
+
+    The template is inert: assets are loaded only after decryption. CI can rewrite
+    its href attributes even though it cannot inspect the encrypted document.
+    Base64 preserves each original URL verbatim for replacement after unlocking.
+    """
+    entries = []
+    seen: set[str] = set()
+    for match in ASSET_ATTRIBUTE_RE.finditer(html):
+        original_url = match.group(3)
+        parsed = urlsplit(unescape(original_url))
+        if parsed.scheme or parsed.netloc or not parsed.path or parsed.path.startswith("/"):
+            continue
+        if not OFFLOADED_ASSET_DIRS.intersection(PurePosixPath(unquote(parsed.path)).parts[:-1]):
+            continue
+        if original_url in seen:
+            continue
+        seen.add(original_url)
+        encoded_url = base64.b64encode(original_url.encode("utf-8")).decode("ascii")
+        entries.append(
+            f'    <a data-ars-original-url="{encoded_url}" href="{escape(unescape(original_url), quote=True)}"></a>'
+        )
+    return '\n'.join(['  <template id="ars-protected-page-assets">', *entries, '  </template>'])
+
+
+def render_protected_page(payload: dict[str, str | int], asset_manifest: str = "") -> str:
     payload_json = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
     return f"""<!DOCTYPE html>
 <html lang="it">
@@ -544,6 +573,7 @@ def render_protected_page(payload: dict[str, str | int]) -> str:
       <div id="error" role="alert" aria-live="polite"></div>
     </form>
   </main>
+{asset_manifest}
   <script type="application/json" id="ars-protected-page-data">{payload_json}</script>
   <script>
     (() => {{
@@ -615,17 +645,40 @@ def render_protected_page(payload: dict[str, str | int]) -> str:
         );
       }}
 
+      function restoreAssetUrls(html) {{
+        const manifest = document.getElementById("ars-protected-page-assets");
+        if (!manifest) {{
+          return html;
+        }}
+        const assetUrls = new Map();
+        manifest.content.querySelectorAll("[data-ars-original-url]").forEach((entry) => {{
+          const original = decoder.decode(b64ToBytes(entry.dataset.arsOriginalUrl));
+          const deployed = entry.getAttribute("href");
+          // Leave local/offline HTML byte-for-byte unchanged. Only deployment
+          // turns these template hrefs into absolute CDN URLs.
+          if (deployed.startsWith("https://") || deployed.startsWith("http://")) {{
+            assetUrls.set(original, deployed.replace(/&/g, "&amp;")
+              .replace(/"/g, "&quot;").replace(/'/g, "&#39;"));
+          }}
+        }});
+        return html.replace(/\\b(src|href|poster)=(["'])([^"']*)\\2/g,
+          (attribute, name, quote, url) => assetUrls.has(url)
+            ? name + "=" + quote + assetUrls.get(url) + quote
+            : attribute);
+      }}
+
       async function unlock(password, rememberPassword) {{
         const salt = b64ToBytes(payload.salt);
         const iv = b64ToBytes(payload.iv);
         const ciphertext = b64ToBytes(payload.ciphertext);
         const key = await deriveKey(password, salt);
         const clearBytes = await crypto.subtle.decrypt({{ name: "AES-GCM", iv }}, key, ciphertext);
+        const html = restoreAssetUrls(decoder.decode(clearBytes));
         if (rememberPassword) {{
           savePassword(password);
         }}
         document.open();
-        document.write(decoder.decode(clearBytes));
+        document.write(html);
         document.close();
       }}
 
@@ -749,7 +802,7 @@ def protect_html_file(html_file: Path, password: str) -> bool:
     if PROTECTED_PAGE_MARKER in html:
         return False
 
-    protected_html = render_protected_page(encrypt_html(html, password))
+    protected_html = render_protected_page(encrypt_html(html, password), render_protected_asset_manifest(html))
     html_file.write_text(protected_html, encoding="utf-8")
     return True
 

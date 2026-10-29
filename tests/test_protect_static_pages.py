@@ -2,10 +2,15 @@ import base64
 import hashlib
 import json
 import re
+import shutil
+import subprocess
+from html.parser import HTMLParser
 from pathlib import Path
 
+import pytest
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
+from tools.ci.rewrite_cdn_urls import rewrite_html
 from tools.manual_publisher.protect_static_pages import (
     PROTECTED_PAGE_MARKER,
     UNLOCK_VERIFIER_TEXT,
@@ -15,6 +20,7 @@ from tools.manual_publisher.protect_static_pages import (
     protect_selected_pages,
     protect_html_file,
     prune_search_index,
+    render_protected_asset_manifest,
 )
 
 
@@ -40,6 +46,119 @@ def extract_payload(protected_html: str) -> dict[str, str | int]:
     )
     assert match is not None
     return json.loads(match.group("payload"))
+
+
+class AssetManifestParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.assets: dict[str, str] = {}
+
+    def handle_starttag(self, tag, attrs):
+        attributes = dict(attrs)
+        if tag == "a" and "data-ars-original-url" in attributes:
+            original = base64.b64decode(attributes["data-ars-original-url"]).decode("utf-8")
+            self.assets[original] = attributes["href"]
+
+
+ASSET_HTML = """<!DOCTYPE html>
+<html><head>
+<link href="../../../../_shared/static/theme.css?v=1&amp;theme=light" rel="stylesheet">
+<script src='../../../../_shared/static/theme.js'></script>
+</head><body>
+<h1>Contenuto riservato</h1>
+<img src="../../_images/disegno%20caff%C3%A8.png">
+<video src="../../../../_shared/media/videos/repair.mp4" poster="../../../../_assets/poster.png"></video>
+<a href="../../_downloads/istruzioni.pdf#page=3">Documento</a>
+<script>document.write(`<img src="../../../../_shared/static/logo.png">`);</script>
+<img src="../../../../_shared/static/logo.png">
+<a href="01_ordinaria.html#controlli">Ordinaria</a>
+<img src="https://example.com/_shared/logo.png">
+<img src="data:image/png;base64,AAAA">
+<a href="#capitolo">Capitolo</a>
+</body></html>"""
+
+
+def test_asset_manifest_exposes_only_unique_local_asset_urls():
+    manifest = render_protected_asset_manifest(ASSET_HTML)
+    parsed = AssetManifestParser()
+    parsed.feed(manifest)
+
+    assert 'id="ars-protected-page-assets"' in manifest
+    assert "Contenuto riservato" not in manifest
+    assert "01_ordinaria" not in manifest
+    assert "example.com" not in manifest
+    assert set(parsed.assets) == {
+        "../../../../_shared/static/theme.css?v=1&amp;theme=light",
+        "../../../../_shared/static/theme.js",
+        "../../_images/disegno%20caff%C3%A8.png",
+        "../../../../_shared/media/videos/repair.mp4",
+        "../../../../_assets/poster.png",
+        "../../_downloads/istruzioni.pdf#page=3",
+        "../../../../_shared/static/logo.png",
+    }
+    assert manifest.count('<a ') == len(parsed.assets)
+
+
+def test_ci_rewrites_protected_asset_manifest_without_changing_ciphertext(tmp_path: Path):
+    root = tmp_path / "build"
+    page = root / "V. 1.0/IT/FlexiBowl_manual/MANUTENZIONE/page.html"
+    page.parent.mkdir(parents=True)
+    page.write_text(ASSET_HTML, encoding="utf-8")
+    protect_html_file(page, "test-password")
+    protected = page.read_text(encoding="utf-8")
+    deployed = rewrite_html(protected, page, root, "https://cdn.example.com/flexibowl")
+    parsed = AssetManifestParser()
+    parsed.feed(deployed)
+
+    assert len(parsed.assets) == 7
+    assert all(url.startswith("https://cdn.example.com/flexibowl/") for url in parsed.assets.values())
+    assert extract_payload(deployed) == extract_payload(protected)
+    assert decrypt_payload(extract_payload(deployed), "test-password") == ASSET_HTML
+    assert "Contenuto riservato" not in deployed
+
+
+@pytest.mark.parametrize("cdn", [None, "https://cdn.example.com/flexibowl"])
+def test_unlock_restores_same_asset_urls_as_public_pages(tmp_path: Path, cdn: str | None):
+    node = shutil.which("node")
+    if node is None:
+        pytest.skip("Node.js is needed to execute the generated browser JavaScript")
+    root = tmp_path / "build"
+    page = root / "V. 1.0/IT/FlexiBowl_manual/MANUTENZIONE/page.html"
+    page.parent.mkdir(parents=True)
+    page.write_text(ASSET_HTML, encoding="utf-8")
+    protect_html_file(page, "test-password")
+    protected = page.read_text(encoding="utf-8")
+    deployed = rewrite_html(protected, page, root, cdn) if cdn else protected
+    parsed = AssetManifestParser()
+    parsed.feed(deployed)
+    restore_function = re.search(
+        r"      function restoreAssetUrls\(html\) \{.*?(?=\n      async function unlock)",
+        deployed,
+        re.DOTALL,
+    )
+    assert restore_function is not None
+    # Run the actual emitted JavaScript, including its regex and HTML escaping.
+    script = """
+const input = JSON.parse(require('node:fs').readFileSync(0, 'utf8'));
+const decoder = new TextDecoder();
+const b64ToBytes = value => Uint8Array.from(Buffer.from(value, 'base64'));
+const document = {getElementById: () => ({content: {querySelectorAll: () =>
+  Object.entries(input.assets).map(([original, deployed]) => ({
+    dataset: {arsOriginalUrl: Buffer.from(original).toString('base64')},
+    getAttribute: () => deployed
+  }))
+}})};
+""" + restore_function.group(0) + "\nprocess.stdout.write(restoreAssetUrls(input.html));"
+    result = subprocess.run(
+        [node, "-e", script],
+        input=json.dumps({"assets": parsed.assets, "html": ASSET_HTML}),
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        check=True,
+    )
+    expected = rewrite_html(ASSET_HTML, page, root, cdn) if cdn else ASSET_HTML
+    assert result.stdout == expected
 
 
 def write_html(path: Path, title: str = "Pagina", body: str = "Contenuto") -> None:
