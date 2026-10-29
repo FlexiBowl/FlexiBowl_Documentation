@@ -462,48 +462,54 @@ La modifica del dimensionamento del pacco balestre (numero e spessore dei fogli)
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Sostenere saldamente la vasca per evitarne la caduta libera.
+      Sostenere saldamente la vasca per evitarne la caduta accidentale durante la rimozione.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Svitare completamente tutte le viti di fissaggio dei due carter di protezione laterali e rimuoverli.
+      Allentare i quattro grani di serraggio presenti sulla piastra di base della vasca.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Allentare i bulloni di tenuta inferiori della struttura della vasca.
+      Sollevare con cautela la vasca originale ed estrarla dalla propria sede.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Estrarre con cautela la vasca originale dalla propria sede.
+      Rimuovere la guarnizione dalla piastra di base.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">5</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Posizionare la nuova vasca di ricambio verificando gli allineamenti.
+      Posizionare la guarnizione sulla nuova vasca, verificandone il corretto alloggiamento.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">6</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Serrare saldamente le viti di bloccaggio strutturale.
+      Inserire la nuova vasca nella propria sede, verificando il corretto inserimento sui perni di serraggio e il corretto posizionamento della guarnizione.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">7</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Riassemblare i due carter protettivi, avendo l'avvertenza di rimontare per ultimo quello dotato di lembi piegati.
+      Serrare i quattro grani presenti sulla piastra di base per fissare la nuova vasca.
+    </div>
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">8</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Verificare che la nuova vasca sia correttamente posizionata e saldamente fissata.
     </div>
   </div>
 </div>
 
-![Regolazione Traferro](../../../../../_shared/media/images/vasca.jpg)
+![Smontaggio e montaggio vasca](../../../../../_shared/media/images/vasca.jpg)
 
 :::{attention}
 Nel caso di modelli personalizzati i componenti potrebbero differire, parzialmente o totalmente, da quelli indicati. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto.

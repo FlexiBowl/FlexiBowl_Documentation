@@ -383,7 +383,7 @@ ARS S.r.l. non risponde per danni causati a cose o persone nel caso:
 
 | Taglia Bulk Feeder | 1,5lt | 3lt | 5lt | 10lt | 20lt | 40lt |
 |------------------------------|--------|------|------|-------|-------|-------|
-| Peso netto corrispondente | 11 Kg | 18 Kg | 22 Kg | 24 Kg | 27 Kg | 38 Kg |
+| Peso netto corrispondente | 2 Kg | 11 Kg | 24 Kg | 26 Kg | 28 Kg | 38 Kg |
 
 :::{attention}
 Nel caso di modelli personalizzati i valori indicati potrebbero differire da quelli in tabella. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto. 
@@ -395,10 +395,11 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
 
 | Dimensioni | 1,5lt | 3lt | 5lt | 10lt | 20lt | 40lt |
 |------------|--------|------|------|-------|-------|-------|
-| A | 350 mm | 525 mm | 435 mm | 630 mm | 760 mm | 780 mm |
-| B | 65 mm | 98 mm | 135 mm | 135 mm | 180 mm | 260 mm |
-| C | 90 mm | 97 mm | 140 mm | 140 mm | 220 mm | 280 mm |
-| D | 211 mm | 218 mm | 247 mm | 247 mm | 262 mm | 290 mm |
+| A | 350 mm | 450 mm | 480 mm | 670 mm | 780 mm | 780 mm |
+| B | 65 mm | 100 mm | 130 mm | 155 mm | 183 mm | 208 mm |
+| C | 90 mm | 120 mm | 150 mm | 160 mm | 215 mm | 315 mm |
+| D | 211 mm | 215 mm | 247 mm | 247 mm | 247 mm | 290 mm |
+| E | 350 mm | 515 mm | 515 mm | 690 mm | 780 mm | 780 mm |
 
 :::{attention}
 Nel caso di modelli personalizzati i valori indicati potrebbero differire da quelli in tabella. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto. 
@@ -415,16 +416,6 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
   - **Descrizione**
   - **Foto**
   - **Standard / Opzionale**
-
-* - Sportello svuotamento
-  - Sportello di scarico posteriore per svuotamento rapido
-  - 
-    :::{image} ../../../../../_shared/media/images/sportello_svuotamento.jpg
-    :alt: Sportello svuotamento
-    :width: 120px
-    :align: center
-    :::
-  - STANDARD (esclusa Bulk Feeder 1,5lt)
 
 * - Barriera dosatrice
   - Dosatore a barriera per regolazione del flusso (registrabile). Vedi {ref}`barriera`.

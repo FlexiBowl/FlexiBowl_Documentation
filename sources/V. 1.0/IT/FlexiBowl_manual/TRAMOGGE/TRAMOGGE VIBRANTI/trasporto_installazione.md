@@ -204,7 +204,26 @@ ARS S.r.l. non risponde dei danni, a cose o a persone, causati da incidenti prov
 Dopo il disimballo, la Bulk Feeder si presenta già assemblata.
 Procedere con il fissaggio sulla seguente staffa con viti M8:
 
-:::{image} ../../../../../_shared/media/images/asseblaggio_tramoggia.jpg
+**Bulk Feeder 1,5lt**
+
+:::{image} ../../../../../_shared/media/images/asseblaggio_tramoggia_1-5lt.jpg
+:alt: Fissaggio Bulk Feeder 1,5lt
+:width: 400px
+:align: center
+:::
+
+**Bulk Feeder 3lt**
+
+:::{image} ../../../../../_shared/media/images/asseblaggio_tramoggia_3lt.jpg
+:alt: Fissaggio Bulk Feeder 3lt
+:width: 400px
+:align: center
+:::
+
+**Bulk Feeder 5lt / 10lt / 20lt / 40lt**
+
+:::{image} ../../../../../_shared/media/images/assemblaggio_tramoggia.jpg
+:alt: Fissaggio Bulk Feeder 5lt / 10lt / 20lt / 40lt
 :width: 400px
 :align: center
 :::
