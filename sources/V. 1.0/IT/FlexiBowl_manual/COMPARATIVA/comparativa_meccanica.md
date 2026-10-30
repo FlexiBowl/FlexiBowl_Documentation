@@ -143,6 +143,7 @@ FlexiBowl® 3.0 adotta un design **più compatto e snello** rispetto alla genera
 L'**interasse dei fori di fissaggio** del FlexiBowl® 3.0 è **diverso** da quello del FlexiBowl® 2.0, per tutte le taglie. In caso di sostituzione di un FlexiBowl® 2.0 con un FlexiBowl® 3.0 **non è possibile riutilizzare la foratura esistente** del piano di appoggio: occorre realizzare una nuova foratura secondo il disegno di {ref}`interfaccia meccanica <intmec>`.
 :::
 
+<!--
 ```{list-table} Interasse fori di fissaggio per modello
 :header-rows: 1
 :widths: 40 30 30
@@ -169,6 +170,7 @@ L'**interasse dei fori di fissaggio** del FlexiBowl® 3.0 è **diverso** da quel
   - 
   - 
 ```
+--> 
 
 ---
 ## 3. Sintesi

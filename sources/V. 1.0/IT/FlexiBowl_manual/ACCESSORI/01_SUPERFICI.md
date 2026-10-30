@@ -791,10 +791,11 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
   - Flexi Disc Smooth Black 1200
 :::
 
-<!-- TODO immagine: ![Flexi Disc Smooth Black](../../../../_shared/media/images/SMOOTHBLACK.jpg) -->
+![Flexi Disc Smooth Black](../../../../_shared/media/images/SMOOTHBLACK.jpg) 
 
 <div class="main-char-banner">
-    <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
+    <strong>Caratteristiche Principali:</strong> <em>Recommended for light-colored parts with toplight illumination. 
+Very little subject to dirt. </em> 
 </div>
 
 <div class="disc-container">
@@ -808,17 +809,17 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
         <tbody>
             <tr>
                 <td><strong>Materiale</strong></td>
-                <td><em>da definire</em></td>
+                <td><em>Poliuretano</em></td>
             </tr>
             <tr>
                 <td><strong>Filamenti Antistatici</strong></td>
-                <td><em>da definire</em></td>
+                <td><em>Si</em></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -830,7 +831,7 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -840,7 +841,7 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -848,7 +849,7 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
                 <td><strong>Grip</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -873,9 +874,9 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
                 <td><strong>Dirty/Oily</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red "></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -883,7 +884,7 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
                 <td><strong>Cylindrical</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -895,7 +896,7 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -904,7 +905,7 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -914,7 +915,7 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -923,7 +924,7 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
     </table>
 </div>
 
-<!-- TODO immagine: ![Flexi Disc Smooth Black](../../../../_shared/media/images/smoothblack_exp.png) -->
+![Flexi Disc Smooth Black](../../../../_shared/media/images/smoothblack_exp.png)
 
 (anti-stick-blue)=
 ### Flexi Disc Anti-Stick Blue FDA
@@ -1727,7 +1728,7 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
   - Flexi Disc Anti-Roll Blue FDA 1200
 :::
 
-<!-- TODO immagine: ![Flexi Disc Anti-Roll Blue FDA](../../../../_shared/media/images/SPIKEBLUE.jpg) -->
+![Flexi Disc Anti-Roll Blue FDA](../../../../_shared/media/images/SPIKEBLUE.jpg)
 
 <div class="main-char-banner">
     <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
@@ -1863,7 +1864,7 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
     </table>
 </div>
 
-<!-- TODO immagine: ![Flexi Disc Anti-Roll Blue FDA](../../../../_shared/media/images/spikeblue_exp.png) -->
+![Flexi Disc Anti-Roll Blue FDA](../../../../_shared/media/images/spikeblue_exp.png)
 
 (anti-roll-silicone-white)=
 ### Flexi Disc Silicone White FDA

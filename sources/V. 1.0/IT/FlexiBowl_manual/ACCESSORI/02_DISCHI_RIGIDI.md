@@ -398,7 +398,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -408,7 +408,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -418,7 +418,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -427,8 +427,16 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Planarità</strong></td>
+                <td>
+                    <div>
+                        range di valori
                     </div>
                 </td>
             </tr>
@@ -453,7 +461,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -461,7 +469,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Cylindrical</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -473,7 +481,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -481,7 +489,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -493,7 +501,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -535,7 +543,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -547,7 +555,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -557,7 +565,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -565,9 +573,17 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Grip</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Planarità</strong></td>
+                <td>
+                    <div>
+                        Range 
                     </div>
                 </td>
             </tr>
@@ -592,7 +608,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -600,7 +616,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Cylindrical</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -610,9 +626,9 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Sticky</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red "></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -621,7 +637,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -632,7 +648,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -677,16 +693,12 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td>1-5 mm</td>
             </tr>
             <tr>
-                <td><strong>Interasse (FlexiBowl® 200)</strong></td>
-                <td><em>da definire</em> <!-- TODO: interasse FB200 --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -696,7 +708,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -704,8 +716,8 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Cleaning</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot red "></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -716,7 +728,15 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Planarità</strong></td>
+                <td>
+                    <div>
+                        Range 
                     </div>
                 </td>
             </tr>
@@ -739,9 +759,9 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Dirty/Oily</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red "></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -751,7 +771,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -761,7 +781,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -769,7 +789,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -781,7 +801,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -833,7 +853,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -845,7 +865,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -853,8 +873,8 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Cleaning</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot red "></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -865,7 +885,15 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Planarità</strong></td>
+                <td>
+                    <div>
+                        Range 
                     </div>
                 </td>
             </tr>
@@ -890,7 +918,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -900,7 +928,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -910,7 +938,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -930,7 +958,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1023,7 +1051,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
             </tr>
             <tr>
                 <td><strong>Colore</strong></td>
-                <td>White</td>
+                <td>Black</td>
             </tr>
             <tr>
                 <td><strong>FDA</strong></td>
@@ -1033,7 +1061,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -1045,7 +1073,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1055,7 +1083,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1063,9 +1091,17 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Grip</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Planarità</strong></td>
+                <td>
+                    <div>
+                        Range 
                     </div>
                 </td>
             </tr>
@@ -2256,7 +2292,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
             </tr>
             <tr>
                 <td><strong>Colore</strong></td>
-                <td>White</td>
+                <td>Black</td>
             </tr>
             <tr>
                 <td><strong>FDA</strong></td>
@@ -2266,7 +2302,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -2278,7 +2314,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2288,7 +2324,7 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2296,9 +2332,17 @@ Le denominazioni *Small*, *Medium* e *Large* dei dischi *Anti-Roll* indicano la 
                 <td><strong>Grip</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Planarità</strong></td>
+                <td>
+                    <div>
+                        Range 
                     </div>
                 </td>
             </tr>

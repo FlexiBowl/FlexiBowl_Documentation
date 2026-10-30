@@ -187,11 +187,13 @@ FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_tracking.md
 FlexiBowl_manual/PLUG-IN/01_PlugIn.md
 :::
 
+<!--
 :::{toctree}
 :hidden:
 :caption: LAYOUT BEST PRACTICE
 FlexiBowl_manual/LAYOUT BEST PRACTICE/01_layoutbp.md
 :::
+--> 
 
 :::{toctree}
 :hidden:
