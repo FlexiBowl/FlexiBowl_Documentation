@@ -823,10 +823,6 @@ Las denominaciones *Small*, *Medium* y *Large* de los discos *Anti-Roll* indican
                 <td>1-5 mm</td>
             </tr>
             <tr>
-                <td><strong>Distancia entre ejes (FlexiBowl® 200)</strong></td>
-                <td><em>por definir</em> <!-- TODO: interasse FB200 --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -1301,10 +1297,6 @@ Los **Custom Discs** son discos rígidos de material plástico diseñados a medi
                 <td>1-5 mm</td>
             </tr>
             <tr>
-                <td><strong>Distancia entre ejes (FlexiBowl® 350)</strong></td>
-                <td><em>por definir</em> <!-- TODO: interasse FB350 --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -1449,10 +1441,6 @@ Los **Custom Discs** son discos rígidos de material plástico diseñados a medi
             <tr>
                 <td><strong>Diámetro de los componentes</strong></td>
                 <td>1-5 mm</td>
-            </tr>
-            <tr>
-                <td><strong>Distancia entre ejes (FlexiBowl® 350)</strong></td>
-                <td><em>por definir</em> <!-- TODO: interasse FB350 --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -1601,10 +1589,6 @@ Los **Custom Discs** son discos rígidos de material plástico diseñados a medi
                 <td>6-8 mm</td>
             </tr>
             <tr>
-                <td><strong>Distancia entre ejes (FlexiBowl® 350)</strong></td>
-                <td><em>por definir</em> <!-- TODO: interasse FB350 --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -1749,10 +1733,6 @@ Los **Custom Discs** son discos rígidos de material plástico diseñados a medi
             <tr>
                 <td><strong>Diámetro de los componentes</strong></td>
                 <td>6-8 mm</td>
-            </tr>
-            <tr>
-                <td><strong>Distancia entre ejes (FlexiBowl® 350)</strong></td>
-                <td><em>por definir</em> <!-- TODO: interasse FB350 --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -1901,10 +1881,6 @@ Los **Custom Discs** son discos rígidos de material plástico diseñados a medi
                 <td>9-15 mm</td>
             </tr>
             <tr>
-                <td><strong>Distancia entre ejes (FlexiBowl® 350)</strong></td>
-                <td><em>por definir</em> <!-- TODO: interasse FB350 --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -2049,10 +2025,6 @@ Los **Custom Discs** son discos rígidos de material plástico diseñados a medi
             <tr>
                 <td><strong>Diámetro de los componentes</strong></td>
                 <td>9-15 mm</td>
-            </tr>
-            <tr>
-                <td><strong>Distancia entre ejes (FlexiBowl® 350)</strong></td>
-                <td><em>por definir</em> <!-- TODO: interasse FB350 --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -2525,10 +2497,6 @@ Los **Custom Discs** son discos rígidos de material plástico diseñados a medi
                 <td>6-8 mm</td>
             </tr>
             <tr>
-                <td><strong>Distancia entre ejes (FlexiBowl® 500E)</strong></td>
-                <td><em>por definir</em> <!-- TODO: interasse FB500E --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -2673,10 +2641,6 @@ Los **Custom Discs** son discos rígidos de material plástico diseñados a medi
             <tr>
                 <td><strong>Diámetro de los componentes</strong></td>
                 <td>6-8 mm</td>
-            </tr>
-            <tr>
-                <td><strong>Distancia entre ejes (FlexiBowl® 500E)</strong></td>
-                <td><em>por definir</em> <!-- TODO: interasse FB500E --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -2825,10 +2789,6 @@ Los **Custom Discs** son discos rígidos de material plástico diseñados a medi
                 <td>9-15 mm</td>
             </tr>
             <tr>
-                <td><strong>Distancia entre ejes (FlexiBowl® 500E)</strong></td>
-                <td><em>por definir</em> <!-- TODO: interasse FB500E --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -2973,10 +2933,6 @@ Los **Custom Discs** son discos rígidos de material plástico diseñados a medi
             <tr>
                 <td><strong>Diámetro de los componentes</strong></td>
                 <td>9-15 mm</td>
-            </tr>
-            <tr>
-                <td><strong>Distancia entre ejes (FlexiBowl® 500E)</strong></td>
-                <td><em>por definir</em> <!-- TODO: interasse FB500E --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -3125,10 +3081,6 @@ Los **Custom Discs** son discos rígidos de material plástico diseñados a medi
                 <td>23-30 mm</td>
             </tr>
             <tr>
-                <td><strong>Distancia entre ejes (FlexiBowl® 500E)</strong></td>
-                <td><em>por definir</em> <!-- TODO: interasse FB500E --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -3273,10 +3225,6 @@ Los **Custom Discs** son discos rígidos de material plástico diseñados a medi
             <tr>
                 <td><strong>Diámetro de los componentes</strong></td>
                 <td>23-30 mm</td>
-            </tr>
-            <tr>
-                <td><strong>Distancia entre ejes (FlexiBowl® 500E)</strong></td>
-                <td><em>por definir</em> <!-- TODO: interasse FB500E --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>

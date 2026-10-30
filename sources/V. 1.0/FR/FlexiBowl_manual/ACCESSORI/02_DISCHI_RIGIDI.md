@@ -823,10 +823,6 @@ Les dénominations *Small*, *Medium* et *Large* des disques *Anti-Roll* indiquen
                 <td>1-5 mm</td>
             </tr>
             <tr>
-                <td><strong>Entraxe (FlexiBowl® 200)</strong></td>
-                <td><em>à définir</em> <!-- TODO: interasse FB200 --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -1301,10 +1297,6 @@ Les **Custom Discs** sont des disques rigides en matière plastique conçus sur 
                 <td>1-5 mm</td>
             </tr>
             <tr>
-                <td><strong>Entraxe (FlexiBowl® 350)</strong></td>
-                <td><em>à définir</em> <!-- TODO: interasse FB350 --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -1449,10 +1441,6 @@ Les **Custom Discs** sont des disques rigides en matière plastique conçus sur 
             <tr>
                 <td><strong>Diamètre des composants</strong></td>
                 <td>1-5 mm</td>
-            </tr>
-            <tr>
-                <td><strong>Entraxe (FlexiBowl® 350)</strong></td>
-                <td><em>à définir</em> <!-- TODO: interasse FB350 --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -1601,10 +1589,6 @@ Les **Custom Discs** sont des disques rigides en matière plastique conçus sur 
                 <td>6-8 mm</td>
             </tr>
             <tr>
-                <td><strong>Entraxe (FlexiBowl® 350)</strong></td>
-                <td><em>à définir</em> <!-- TODO: interasse FB350 --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -1749,10 +1733,6 @@ Les **Custom Discs** sont des disques rigides en matière plastique conçus sur 
             <tr>
                 <td><strong>Diamètre des composants</strong></td>
                 <td>6-8 mm</td>
-            </tr>
-            <tr>
-                <td><strong>Entraxe (FlexiBowl® 350)</strong></td>
-                <td><em>à définir</em> <!-- TODO: interasse FB350 --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -1901,10 +1881,6 @@ Les **Custom Discs** sont des disques rigides en matière plastique conçus sur 
                 <td>9-15 mm</td>
             </tr>
             <tr>
-                <td><strong>Entraxe (FlexiBowl® 350)</strong></td>
-                <td><em>à définir</em> <!-- TODO: interasse FB350 --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -2049,10 +2025,6 @@ Les **Custom Discs** sont des disques rigides en matière plastique conçus sur 
             <tr>
                 <td><strong>Diamètre des composants</strong></td>
                 <td>9-15 mm</td>
-            </tr>
-            <tr>
-                <td><strong>Entraxe (FlexiBowl® 350)</strong></td>
-                <td><em>à définir</em> <!-- TODO: interasse FB350 --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -2526,10 +2498,6 @@ Les **Custom Discs** sont des disques rigides en matière plastique conçus sur 
                 <td>6-8 mm</td>
             </tr>
             <tr>
-                <td><strong>Entraxe (FlexiBowl® 500E)</strong></td>
-                <td><em>à définir</em> <!-- TODO: interasse FB500E --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -2674,10 +2642,6 @@ Les **Custom Discs** sont des disques rigides en matière plastique conçus sur 
             <tr>
                 <td><strong>Diamètre des composants</strong></td>
                 <td>6-8 mm</td>
-            </tr>
-            <tr>
-                <td><strong>Entraxe (FlexiBowl® 500E)</strong></td>
-                <td><em>à définir</em> <!-- TODO: interasse FB500E --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -2826,10 +2790,6 @@ Les **Custom Discs** sont des disques rigides en matière plastique conçus sur 
                 <td>9-15 mm</td>
             </tr>
             <tr>
-                <td><strong>Entraxe (FlexiBowl® 500E)</strong></td>
-                <td><em>à définir</em> <!-- TODO: interasse FB500E --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -2974,10 +2934,6 @@ Les **Custom Discs** sont des disques rigides en matière plastique conçus sur 
             <tr>
                 <td><strong>Diamètre des composants</strong></td>
                 <td>9-15 mm</td>
-            </tr>
-            <tr>
-                <td><strong>Entraxe (FlexiBowl® 500E)</strong></td>
-                <td><em>à définir</em> <!-- TODO: interasse FB500E --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -3126,10 +3082,6 @@ Les **Custom Discs** sont des disques rigides en matière plastique conçus sur 
                 <td>23-30 mm</td>
             </tr>
             <tr>
-                <td><strong>Entraxe (FlexiBowl® 500E)</strong></td>
-                <td><em>à définir</em> <!-- TODO: interasse FB500E --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
@@ -3274,10 +3226,6 @@ Les **Custom Discs** sont des disques rigides en matière plastique conçus sur 
             <tr>
                 <td><strong>Diamètre des composants</strong></td>
                 <td>23-30 mm</td>
-            </tr>
-            <tr>
-                <td><strong>Entraxe (FlexiBowl® 500E)</strong></td>
-                <td><em>à définir</em> <!-- TODO: interasse FB500E --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>

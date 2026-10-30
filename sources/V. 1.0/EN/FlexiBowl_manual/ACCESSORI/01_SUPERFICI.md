@@ -288,15 +288,6 @@ Each ✓ links to the product sheet in the catalog.
 * - Custom Disc
   - [✓](rd200-application-specific)
   - [✓](rd350-application-specific)
-  - 
-  - 
-  - 
-  - 
-  - 
-
-* - Round-Edged Custom Grooved Disc
-  - 
-  - 
   - [✓](rd500e-round-edged-custom-grooved)
   - 
   - 
@@ -311,8 +302,6 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
 
 (smooth-white)=
 ### Flexi Disc Smooth White FDA
-
-*Previous name: Standard White*
 
 :::{list-table}
 :header-rows: 1
@@ -467,8 +456,6 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
 (smooth-blue)=
 ### Flexi Disc Smooth Blue FDA
 
-*Previous name: Smooth Blue*
-
 :::{list-table}
 :header-rows: 1
 :widths: 20 80
@@ -621,8 +608,6 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
 
 (smooth-transparent)=
 ### Flexi Disc Smooth Transparent FDA
-
-*Previous name: Flat Beige*
 
 :::{list-table}
 :header-rows: 1
@@ -927,8 +912,6 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
 (anti-stick-blue)=
 ### Flexi Disc Anti-Stick Blue FDA
 
-*Previous name: Diamond Blue*
-
 :::{list-table}
 :header-rows: 1
 :widths: 20 80
@@ -1082,8 +1065,6 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
 (anti-roll-1-3-white)=
 ### Flexi Disc Anti-Roll Small White FDA
 
-*Previous names: Anti-Roll 1-3 mm White FDA, GSTR White*
-
 :::{list-table}
 :header-rows: 1
 :widths: 20 80
@@ -1234,8 +1215,6 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
 
 (anti-roll-3-6-white)=
 ### Flexi Disc Anti-Roll Medium White FDA
-
-*Previous names: Anti-Roll 3-6mm White FDA, Polibech White*
 
 :::{list-table}
 :header-rows: 1
@@ -1392,8 +1371,6 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
 (anti-roll-6-14-spike-grey)=
 ### Flexi Disc Anti-Roll Transparent FDA
 
-*Previous names: Anti-Roll 6-14mm Spike Grey FDA, Spike Transparent*
-
 :::{list-table}
 :header-rows: 1
 :widths: 20 80
@@ -1548,8 +1525,6 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
 
 (anti-roll-14-35-spike-beige)=
 ### Flexi Disc Anti-Roll Beige FDA
-
-*Previous names: Anti-Roll 14-35mm Spike Beige FDA, Spike Beige*
 
 :::{list-table}
 :header-rows: 1
@@ -1708,8 +1683,6 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
 (anti-roll-14-35-spike-blue)=
 ### Flexi Disc Anti-Roll Blue FDA
 
-*Previous name: Anti-Roll 14-35mm Spike Blue FDA*
-
 :::{list-table}
 :header-rows: 1
 :widths: 20 80
@@ -1866,8 +1839,6 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
 (anti-roll-silicone-white)=
 ### Flexi Disc Silicone White FDA
 
-*Previous names: Anti-Roll Silicone White FDA, Silicon Transparent*
-
 :::{list-table}
 :header-rows: 1
 :widths: 20 80
@@ -2020,8 +1991,6 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
 
 (anti-cut-grey)=
 ### Flexi Disc Anti-Cut FDA
-
-*Previous names: Anti-Cut Grey FDA, Fabric Transparent*
 
 :::{list-table}
 :header-rows: 1
@@ -2178,96 +2147,20 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
 (custom)=
 ### Custom Disc
 
-*Previous name: Flexi Disc Custom Grooved*
-
-:::{list-table}
-:header-rows: 1
-:widths: 20 80
-
-* - **Size**
-  - **Catalog code**
-* - FlexiBowl® 500
-  - Custom Disc 500
-* - FlexiBowl® 650
-  - Custom Disc 650
-* - FlexiBowl® 800
-  - Custom Disc 800
-:::
-
 <!-- TODO immagine: ![Custom Disc](../../../../_shared/media/images/CUSTOM.jpg) -->
 
-<div class="main-char-banner">
-    <strong>Main Characteristics:</strong> Surface custom-designed for the customer's specific application. <!-- TODO: completare descrizione -->
-</div>
+The **Custom Disc** is a surface designed to order for the customer's specific application, starting from the geometry of the component to be fed, to achieve orientations and picking configurations that are hard to obtain with standard surfaces. Material and machining are defined together with the customer.
 
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specification / Level</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
-            </tr>
-            <tr>
-                <td><strong>Machining</strong></td>
-                <td><em>to be defined</em></td>
-            </tr>
-            <tr>
-                <td><strong>Required accessories</strong></td>
-                <td>[Lift Support for Custom Disc](lift-support)</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+Available for **FlexiBowl® 500, 650 and 800**. Requires the [Lift Support for Custom Disc](lift-support).
 
 (lift-support)=
 ### Lift Support for Custom Disc
 
-:::{list-table}
-:header-rows: 1
-:widths: 20 80
-
-* - **Size**
-  - **Catalog code**
-* - FlexiBowl® 500
-  - Lift Support for Custom Disc 500
-* - FlexiBowl® 650
-  - Lift Support 650
-* - FlexiBowl® 800
-  - Lift Support 800
-:::
-
 <!-- TODO immagine: ![Lift Support for Custom Disc](../../../../_shared/media/images/LIFTSUPPORT.jpg) -->
 
-<div class="main-char-banner">
-    <strong>Main Characteristics:</strong> Support for using the [Custom Disc](custom). <!-- TODO: completare descrizione -->
-</div>
+The **Lift Support for Custom Disc** is the support required to use the [Custom Disc](custom).
 
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specification / Level</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Function</strong></td>
-                <td><em>to be defined</em></td>
-            </tr>
-            <tr>
-                <td><strong>Compatibility</strong></td>
-                <td>Custom Disc</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+Available for **FlexiBowl® 500, 650 and 800**.
 
 ## **Surface Summary Tables**
 
@@ -2280,13 +2173,13 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
     <tr><td>Flexi Disc Smooth White FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td></tr>
     <tr><td>Flexi Disc Smooth Blue FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td></tr>
     <tr><td>Flexi Disc Smooth Transparent FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td></tr>
-    <tr><td>Flexi Disc Smooth Black</td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td></tr>
+    <tr><td>Flexi Disc Smooth Black</td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td></tr>
     <tr><td>Flexi Disc Anti-Stick Blue FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td></tr>
     <tr><td>Flexi Disc Anti-Roll Small White FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td></tr>
     <tr><td>Flexi Disc Anti-Roll Medium White FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td></tr>
     <tr><td>Flexi Disc Anti-Roll Transparent FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td></tr>
     <tr><td>Flexi Disc Anti-Roll Beige FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td></tr>
-    <tr><td>Flexi Disc Anti-Roll Blue FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td></tr>
+    <tr><td>Flexi Disc Anti-Roll Blue FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td></tr>
     <tr><td>Flexi Disc Silicone White FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td></tr>
     <tr><td>Flexi Disc Anti-Cut FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td></tr>
   </tbody>
@@ -2302,13 +2195,13 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
     <tr><td>Flexi Disc Smooth White FDA</td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td></tr>
     <tr><td>Flexi Disc Smooth Blue FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td></tr>
     <tr><td>Flexi Disc Smooth Transparent FDA</td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td></tr>
-    <tr><td>Flexi Disc Smooth Black</td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td></tr>
+    <tr><td>Flexi Disc Smooth Black</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td></tr>
     <tr><td>Flexi Disc Anti-Stick Blue FDA</td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td></tr>
     <tr><td>Flexi Disc Anti-Roll Small White FDA</td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td></tr>
     <tr><td>Flexi Disc Anti-Roll Medium White FDA</td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td></tr>
     <tr><td>Flexi Disc Anti-Roll Transparent FDA</td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td></tr>
     <tr><td>Flexi Disc Anti-Roll Beige FDA</td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td></tr>
-    <tr><td>Flexi Disc Anti-Roll Blue FDA</td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td><td><div class="semaforo"><div class="sem-dot"></div></div></td></tr>
+    <tr><td>Flexi Disc Anti-Roll Blue FDA</td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td></tr>
     <tr><td>Flexi Disc Silicone White FDA</td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot yellow active"></div></div></td></tr>
     <tr><td>Flexi Disc Anti-Cut FDA</td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td><td><div class="semaforo"><div class="sem-dot red active"></div></div></td><td><div class="semaforo"><div class="sem-dot green active"></div></div></td></tr>
   </tbody>
