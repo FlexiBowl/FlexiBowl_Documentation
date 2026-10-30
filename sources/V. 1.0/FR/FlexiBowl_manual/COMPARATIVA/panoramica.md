@@ -1,34 +1,14 @@
-# **Aperçu Général Comparatif**
+# **Vue d'ensemble comparative**
 
-## Cos'è il FlexiBowl®
+## Qu'est-ce que FlexiBowl®
 
-Il FlexiBowl® è un sistema flessibile per l'alimentazione di componenti in linee automatizzate che impiegano robot industriali e/o collaborativi. Grazie alla combinazione di movimento rotatorio e impulsi "flip", le parti vengono separate e orientate per il prelievo da parte del robot, indipendentemente dalla loro geometria, superficie o materiale.
+Le FlexiBowl® est un système flexible d'alimentation de composants dans des lignes automatisées utilisant des robots industriels et/ou collaboratifs. Grâce à la combinaison d'un mouvement rotatif et d'impulsions « flip », les pièces sont séparées et orientées pour être prélevées par le robot, quelles que soient leur géométrie, leur surface ou leur matière.
 
-Queste caratteristiche funzionali fondamentali rimangono invariate tra la versione 2.0 e la versione 3.0.
-
----
-
-## Confronto visivo
-
-*(inserire qui le immagini comparative: FlexiBowl® 2.0 a sinistra, FlexiBowl® 3.0 a destra)*
+Ces caractéristiques fonctionnelles fondamentales restent inchangées entre la version 2.0 et la version 3.0.
 
 ---
 
-## Principali differenze
-
-| Caratteristica | FlexiBowl® 2.0 | FlexiBowl® 3.0 |
-|---|---|---|
-| Architettura di controllo |  |  |
-| Interfaccia utente | |  |
-| Altezza complessiva |  |  |
-| Comunicazione |  |  |
-| Configurazione IP |  |  |
-| Versione Clean Room | Disponibile | Disponibile |
-| Svuotamento (QuickEmpty) | Opzionale | Opzionale |
-
----
-
-## Approfondimenti comparativi
+## Approfondissements comparatifs
 
 ---
 
@@ -147,10 +127,10 @@ Queste caratteristiche funzionali fondamentali rimangono invariate tra la versio
     </div>
     <a class="cw-card" href="comparativa_meccanica.html">
       <div class="cw-card-title">
-        Comparativa meccanica
+        Comparatif mécanique
       </div>
       <p class="cw-card-desc">
-        Confronto tra le dimensioni costruttive (riferimenti A–K, area backlight), i modelli disponibili e le capacità operative per ciascuna taglia.
+        Comparaison des dimensions de construction (références A–K, zone backlight), des modèles disponibles et des capacités opérationnelles pour chaque taille.
       </p>
     </a>
   </div>
@@ -163,10 +143,10 @@ Queste caratteristiche funzionali fondamentali rimangono invariate tra la versio
     </div>
     <a class="cw-card" href="comparativa_elettrica.html">
       <div class="cw-card-title">
-        Comparativa elettrica
+        Comparatif électrique
       </div>
       <p class="cw-card-desc">
-        Confronto tra i componenti elettrici: alimentazione, fusibili, scheda di interfaccia, driver e motore nella versione 2.0; PLC integrato nella versione 3.0.
+        Comparaison des composants électriques : alimentation, fusibles, carte d'interface, driver et moteur dans la version 2.0 ; automate intégré dans la version 3.0.
       </p>
     </a>
   </div>
@@ -179,10 +159,10 @@ Queste caratteristiche funzionali fondamentali rimangono invariate tra la versio
     </div>
     <a class="cw-card" href="comparativa_pneumatica.html">
       <div class="cw-card-title">
-        Comparativa pneumatica
+        Comparatif pneumatique
       </div>
       <p class="cw-card-desc">
-        Confronto tra schemi pneumatici, specifiche dell'aria compressa, componenti (flip, blow, svuotamento) e varianti Clean Room.
+        Comparaison des schémas pneumatiques, des spécifications de l'air comprimé, des composants (flip, blow, vidage) et des variantes Clean Room.
       </p>
     </a>
   </div>
@@ -195,10 +175,10 @@ Queste caratteristiche funzionali fondamentali rimangono invariate tra la versio
     </div>
     <a class="cw-card" href="comparativa_software.html">
       <div class="cw-card-title">
-        Comparativa software
+        Comparatif logiciel
       </div>
       <p class="cw-card-desc">
-        Confronto tra l'interfaccia di configurazione, la gestione dei parametri di movimento, il wizard di setup e le modalità di comunicazione.
+        Comparaison de l'interface de configuration, de la gestion des paramètres de mouvement, de l'assistant de configuration et des modes de communication.
       </p>
     </a>
   </div>

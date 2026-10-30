@@ -1,18 +1,18 @@
 # **Safety Information**
 
-The following safety instructions, general precautions and rules relating to handling and the operating environment must be scrupulously observed to ensure the safety of personnel, the integrity of the product and the correct operation of the plant.
+The following safety instructions, general precautions and rules concerning handling and the operating environment must be scrupulously observed to ensure the safety of personnel, the integrity of the product and the correct operation of the plant.
 
 ```{warning}
 **User responsibility**
 
-Compliance with all the safety rules set out in this section is mandatory and is the responsibility of the end user. Failure to comply may cause harm to persons, damage to equipment or compromise the operation of the system.
+Compliance with all the safety rules given in this section is mandatory and is the responsibility of the end user. Failure to comply may cause injury to persons, damage to equipment or compromise the operation of the system.
 ```
 
 ---
 
 ## Operator safety area
 
-The zones around the machine are divided as follows: 
+The zones around the machine are divided as follows:
 
 :::{list-table}
 :widths: 20 60
@@ -21,27 +21,23 @@ The zones around the machine are divided as follows:
 * - Term
   - Description
 
-* - Control zones 
-  - These are the zones in which the user and the other operators can carry out the command and control operations of the machine's cyclic functions (“driving station”), both in automatic and in semi-automatic mode, by using the dedicated control panels or to perform manual operations. 
+* - Control zones
+  - These are the zones in which the user and the other operators can carry out the control and monitoring operations of the cyclic functions of the machine ("operating station"), both in automatic and semi-automatic mode, using the dedicated control panels or for the execution of manual operations.
 
-* - Maintenance/adjustment zones 
-  - These are the zones in which the mechanical maintenance technicians can carry out maintenance or adjustment operations. These zones are considered hazardous and are not accessible during normal operation of the machine. Operators must be fully aware of the safety warnings and of the personal protective equipment to be worn. 
+* - Maintenance/adjustment zones
+  - These are the zones in which mechanical maintenance personnel can carry out maintenance or adjustment operations. These zones are considered hazardous and are not accessible during normal operation of the machine. Operators must be fully aware of the safety warnings and of the personal protective equipment to be worn.
 
 * - Hazardous zones
-  - All the zones inside (or surrounding) the machine in which residual risks that can cause harm to persons are present are considered as such. Access to these zones is forbidden to everyone during operation of the machine. 
+  - Hazardous zones are all the zones inside (or surrounding) the machine where residual risks that may cause injury to persons are present. Access to these zones is forbidden to everyone while the machine is operating.
 
 :::
 
-The hazards and risks existing in these zones are protected, as far as possible, with guards (covers, doors) and with safety devices (sensors, microswitches, photoelectric barriers) which, if activated, bring the machine to a complete stop. However, when the machine is running, it is absolutely forbidden to work in the hazardous zones, since some risks may not have been totally eliminated.
+The hazards and risks present in these zones are protected, as far as possible, by guards (casings, doors) and by safety devices (sensors, microswitches, photoelectric barriers) which, when activated, bring the machine to a complete stop. However, while the machine is running it is absolutely forbidden to work in the hazardous zones, since some risks may not have been completely eliminated.
 
 (dpi)=
 ## Personal protective equipment (PPE)
 
-When working near the FlexiBowl®, whether for assembly operations or for maintenance and/or adjustment, the general 
-accident prevention regulations must be strictly observed; for this reason it is important to use the personal 
-protective equipment (PPE) required for each individual operation. 
-Below is the complete list of the personal protective equipment (PPE) that may be required for the various 
-procedures: 
+When working near the FlexiBowl®, whether for assembly, maintenance and/or adjustment operations, the general accident-prevention rules must be strictly observed; for this reason it is important to use the personal protective equipment (PPE) required for each individual operation. Below is the complete list of the personal protective equipment (PPE) that may be required for the various procedures:
 
 :::: {list-table}
 :header-rows: 1
@@ -55,71 +51,71 @@ procedures:
     :width: 50%
     :::
 
-  - **Protective or insulating gloves must be worn.**
+  - **Mandatory use of protective or insulating gloves.**
 
-    Indicates a requirement for personnel to wear protective or insulating gloves. 
+    Indicates a requirement for personnel to wear protective or insulating gloves.
 
 * - ::: {figure} ../../../../_shared/media/images/occhiali.png
     :align: center
     :width: 50%
     :::
 
-  - **Protective glasses must be worn.**
+  - **Mandatory use of safety glasses.**
 
-    Indicates a requirement for personnel to wear protective eyewear. 
+    Indicates a requirement for personnel to wear protective eyewear.
 
 * - ::: {figure} ../../../../_shared/media/images/scarpe.png
     :align: center
     :width: 50%
     :::
 
-  - **Safety shoes must be worn.**
+  - **Mandatory use of safety footwear.**
 
-    Indicates a requirement for personnel to wear safety shoes to protect the feet. 
+    Indicates a requirement for personnel to wear safety footwear to protect the feet.
 
 * - ::: {figure} ../../../../_shared/media/images/rumore.png
     :align: center
     :width: 50%
     :::
 
-  - **Hearing protection must be worn.**
+  - **Mandatory use of hearing protection.**
 
-    Indicates a requirement for personnel to wear earmuffs or insulating earplugs to protect their hearing. 
+    Indicates a requirement for personnel to wear earmuffs or earplugs to protect hearing.
 
 * - ::: {figure} ../../../../_shared/media/images/tuta.png
     :align: center
     :width: 50%
     :::
 
-  - **Protective clothing must be worn.**
+  - **Mandatory use of protective clothing.**
 
-    Indicates a requirement for personnel to wear specific protective clothing. 
+    Indicates a requirement for personnel to wear specific protective clothing.
 
 * - ::: {figure} ../../../../_shared/media/images/casco.png
     :align: center
     :width: 50%
     :::
 
-  - **A protective helmet must be worn.**
+  - **Mandatory use of a safety helmet.**
 
-    Indicates a requirement for personnel to wear a helmet to protect the head. 
+    Indicates a requirement for personnel to wear a helmet to protect the head.
 
 * - ::: {figure} ../../../../_shared/media/images/manuale.png
     :align: center
     :width: 50%
     :::
 
-  - **The instruction manual/booklet must be consulted.**
+  - **Mandatory to consult the instruction manual/booklet.**
 
-    Indicates a requirement for personnel to consult (and understand) the machine's instructions for use and warnings before operating it. 
+    Indicates a requirement for personnel to consult (and understand) the machine's instructions for use and warnings before operating it.
 
 ::::
 
-The clothing of those who operate or carry out maintenance on the line must comply with the essential safety requirements defined by **EU Reg. 2016/425** and with the laws in force in the country where it is installed. 
+The clothing of those who operate or carry out maintenance on the line must comply with the essential safety requirements defined by **Reg. (EU) 2016/425** and with the laws in force in the country where the line is installed.
 
 ## Safety devices
 
-In order to guarantee total operator safety and prevent access to the inside of the machine while it is moving, the machine has been fitted with a series of safety devices which, if activated, bring it to a complete stop. The machine has been designed and equipped with safety systems to minimize operator risks.  The machine is provided with the safety devices described in the following table. For the position of these devices, refer to the following diagram.
+To guarantee total operator safety and prevent access to the inside of the machine while it is moving, the machine is equipped with a series of safety devices which, when activated, bring it to a complete stop. The machine has been designed and equipped with safety systems to minimize operator risks.  The machine is fitted with the safety devices described in the following table. For the position of these devices, refer to the diagram below.
 
 :::{list-table}
 :widths: 10 20 60
@@ -131,15 +127,15 @@ In order to guarantee total operator safety and prevent access to the inside of 
 
 * - 1
   - Electrical switch
-  - It is located on the control panel and makes it possible to cut off the electrical power supply in case of:
+  - It is located on the control panel and allows the electrical power supply to be cut off in case of:
 
     * danger to the safety of the operator;
     * electrical hazard on the machine;
-    * mechanical or electrical interventions on the machine.
+    * mechanical or electrical work on the machine.
 
 * - 2
-  - Cover
-  - It consists of fixed perimeter guards (casings), whose function is to prevent access to the movements of the various parts of the machine during the operating cycle and which require specific tools for their removal.
+  - Guards
+  - It consists of fixed perimeter guards (casings), whose function is to prevent access to the moving parts of the machine during the operating cycle and which require specific tools for their removal.
 
 :::
 
@@ -149,32 +145,29 @@ In order to guarantee total operator safety and prevent access to the inside of 
 :::
 
 :::{warning}
-Due to the presence of pointed protrusions on surfaces or rigid discs with Spikes, the operator may be exposed 
-to the danger of abrasion and/or cuts in case of contact with them. Wear the appropriate PPE when working 
-near such surfaces or rigid discs.
+Due to the presence of pointed protrusions on surfaces or rigid discs with Spike, the operator may be exposed to the danger of abrasion and/or cuts in the event of contact with them. Wear suitable PPE when working near such surfaces or rigid discs.
 :::
 
 :::{warning}
-In case of emergency, cut off the power supply connected to the control panel to safely disable the 
-FlexiBowl® controls.
+In an emergency, remove the power connected to the control panel to safely disable the FlexiBowl® commands.
 :::
 
 ## Hazards and risks
 
 ### Noise
-Noise measurements were carried out in accordance with the provisions of the standards UNI EN ISO 11200:2020 – “Noise emitted by machinery and equipment - Guidelines for the use of basic standards for the determination of emission sound pressure levels at a work station and at other specified positions” and UNI EN ISO 3746:2011 “Determination of sound power levels and sound energy levels of noise sources using sound pressure - Survey method using an enveloping measurement surface over a reflecting plane”. We also carried out the assessment following the procedures set out in DIRECTIVE 2006/42/EC point 1.5.8 – point 1.7.4.2 letter u.
+The noise measurements were carried out in accordance with the provisions of EN ISO 11200:2020 – "Noise emitted by machinery and equipment – Guidelines for the use of basic standards for the determination of emission sound pressure levels at a work station and at other specified positions" and EN ISO 3746:2011 "Determination of sound power levels and sound energy levels of noise sources using sound pressure – Survey method using an enveloping measurement surface over a reflecting plane". We also carried out the assessment following the procedures given in DIRECTIVE 2006/42/EC point 1.5.8 – point 1.7.4.2 letter u.
 
-The full report is contained in the documentation relating to the partly completed machine kept by ARS. The measurement report is available on request for users and integrators.
+The complete report is contained in the documentation relating to the partly completed machinery kept by ARS. The measurement report is available on request for users and integrators.
 
-The measurements were carried out in 3 different operating conditions:
+The measurements were carried out under 3 different operating conditions:
 
-- FlexiBowl running (MOVE, SHAKE, FLIP) without components (“no-load operation”);
-- FlexiBowl running (MOVE, SHAKE, FLIP) with components on the rotating disc, rigid plastic components; 
-- FlexiBowl running (MOVE, SHAKE, FLIP) with components on the rotating disc, metal components;
+- FlexiBowl in operation (MOVE, SHAKE, FLIP) without components ("no-load operation");
+- FlexiBowl in operation (MOVE, SHAKE, FLIP) with components on the rotating disc, rigid plastic components;
+- FlexiBowl in operation (MOVE, SHAKE, FLIP) with components on the rotating disc, metal components;
 
-During no-load operating cycles, the A-weighted equivalent continuous sound pressure level at the work station is 73.3 dB(A). For operating cycles with components, since the A-weighted emission sound pressure level at the work stations exceeds 80 dB(A), the following table also reports the A-weighted sound power level emitted by the machine.
+During no-load operating cycles, the A-weighted equivalent continuous sound pressure level at the workstation is 73.3 dB(A). For operating cycles with components, since the A-weighted emission sound pressure level at the workstations exceeds 80 dB(A), the table below also gives the A-weighted sound power level emitted by the machine.
 
-:::{list-table} Noise emission values assessed in accordance with UNI EN ISO 3746:2011 - UNI EN ISO 11202:2021
+:::{list-table} Sound emission values assessed in accordance with EN ISO 3746:2011 - EN ISO 11202:2021
 :widths: 30 30 30 30 30
 :header-rows: 1
 
@@ -204,12 +197,11 @@ During no-load operating cycles, the A-weighted equivalent continuous sound pres
 
 :::
 
-The actual noise level of the installed machine during operation at the site in a production process may 
-differ from the one reported above, since noise is influenced by various factors such as:
+The actual noise level of the installed machine during operation on site in a production process may differ from that stated above, because noise is influenced by various factors such as:
 
-- components handled by the FlexiBowl and operating parameters;  
-- type and characteristics of the site; 
-- characteristics of the machine on which the FlexiBowl® is integrated; 
+- components handled by the FlexiBowl and operating parameters;
+- type and characteristics of the site;
+- characteristics of the machine into which the FlexiBowl® is integrated;
 - other adjacent machines in operation.
 
 ::::{warning}
@@ -219,7 +211,7 @@ differ from the one reported above, since noise is influenced by various factors
       <img src="../../../../_shared/media/images/rumore.png" style="width: 100px; height: auto;">
     </td>
     <td style="width: 80%; border: none; vertical-align: middle; background: transparent !important; padding-left: 15px;">
-      For daily exposure levels above 80 dB(A), it is mandatory to use the appropriate personal protective equipment.
+      For daily exposure levels above 80 dB(A), the use of the appropriate personal protective equipment is mandatory.
     </td>
   </tr>
 </table>
@@ -227,7 +219,7 @@ differ from the one reported above, since noise is influenced by various factors
 
 ### Backlight and Toplight
 
-Refer to the following table for the classification of the risk level due to the use of the Toplight and Backlight illuminators, based on standard EN-62471:
+Refer to the following table for the classification of the risk level due to the use of the Toplight and Backlight illuminators, according to standard EN-62471:
 
 :::{list-table} Toplight
 :widths: 30 15 15
@@ -274,7 +266,7 @@ Refer to the following table for the classification of the risk level due to the
 :::
 
 :::{note}
-Infrared illuminators emit invisible light and may therefore appear not to be working. Check with a camera fitted with an infrared filter to verify their operation. Most smartphones can display infrared.
+Infrared illuminators emit invisible light and may therefore appear not to be working. Check them with a camera fitted with an infrared filter to verify that they work. Most smartphones can display infrared.
 :::
 
 (temp)=
@@ -283,24 +275,21 @@ Infrared illuminators emit invisible light and may therefore appear not to be wo
 ::::{warning}
 Under intensive use or in hot environments, some components of the system can reach high temperatures:
 
-- Disc-clamping cap: up to 65°C
+- Disc clamping cap: up to 65°C
 - Motor: up to 80°C
 
-The upper platform of the frame may have a hot zone about as wide as the central hole enlarged by 25%:
+The upper platform of the frame may have a hot zone about as large as the central hole enlarged by 25%:
 
 :::{figure} ../../../../_shared/media/images/FB800_zone-calde.PNG
     :width: 80%
     :align: center
 :::
 
-{strong}`NOTE:` These values were obtained by running the FlexiBowl® continuously for two weeks in a confined, unventilated environment using the following parameters:
+{strong}`NOTA:` These values were obtained by running the FlexiBowl® continuously for two weeks in a confined environment without ventilation, using the following parameters:
 
 :::{raw} html
 <p class="centered-params">
-  Move 90° <br>
-  Pause 1000 ms <br>
-  Shake +45° -45° <br>
-  Pause 1000 ms
+  Move 90° <br> Pause 1000 ms <br> Shake +45° -45° <br> Pause 1000 ms
 </p>
 :::
 
@@ -308,18 +297,17 @@ The upper platform of the frame may have a hot zone about as wide as the central
 
 ### Vibrations
 
-The vibrations produced by the machine, depending on how it is operated, are not hazardous to the health of the 
-operators.
+The vibrations produced by the machine, depending on how it is operated, are not hazardous to the health of the operators.
 
 :::{warning}
-Excessive vibration can only be caused by a mechanical fault, which must be reported and eliminated immediately so as not to jeopardize the safety of the line and of the operators.
+Excessive vibration can only be caused by a mechanical fault, which must be reported and eliminated immediately, so as not to jeopardize the safety of the line and of the operators.
 :::
 
 ### Electromagnetic compatibility
 
-The machine supplied contains electronic components subject to the Electromagnetic Compatibility regulations, affected by conducted and radiated emissions.
+The machine supplied contains electronic components subject to the regulations on Electromagnetic Compatibility, affected by conducted and radiated emissions.
 
-The emission values fall within regulatory requirements thanks to the use of components compliant with the Electromagnetic Compatibility directive, suitable connections and the installation of filters where necessary. The machine is therefore compliant with the Electromagnetic Compatibility (EMC) directive.
+The emission values fall within the regulatory requirements thanks to the use of components compliant with the Electromagnetic Compatibility directive, suitable connections and the installation of filters where necessary. The machine therefore complies with the Electromagnetic Compatibility (EMC) directive.
 
 :::{warning}
 Any maintenance activities on the electrical equipment carried out in a non-compliant manner, or incorrect replacement of components, may compromise the effectiveness of the solutions adopted.
@@ -327,15 +315,15 @@ Any maintenance activities on the electrical equipment carried out in a non-comp
 
 ### Residual risks
 
-The machine has been designed so as to guarantee the essential safety requirements for the operator. Safety has, as far as possible, been integrated into the design and construction of the machine; however, risks remain from which operators must be protected, especially during:
+The machine has been designed to ensure the essential safety requirements for the operator. Safety has been integrated, as far as possible, into the design and construction of the machine; however, risks remain from which operators must be protected, especially during:
 
-- transport and installation; 
-- normal operation; 
-- adjustment and setting up, 
-- maintenance and cleaning; 
-- disassembly and dismantling.
+- transport and installation;
+- normal operation;
+- adjustment and setting up,
+- maintenance and cleaning;
+- dismantling and decommissioning.
 
-Below, for each residual risk, a description is given, together with the zone or part of the machine concerned (unless the whole machine is concerned) and procedural information on how to avoid it:
+Below, for each residual risk, a description is given, together with the zone or part of the machine concerned (unless the whole machine is concerned) and the procedural information on how to avoid it:
 
 :::{raw} html
 <style>
@@ -348,10 +336,10 @@ Below, for each residual risk, a description is given, together with the zone or
     border: 1px solid #e0e6ed;
   }
 
-  /* Header row */
+  /* Riga intestazione */
   .custom-safety-table thead tr {
     background-color: #f8f9fa;
-    border-bottom: 3px solid #176de8; /* Your specific blue */
+    border-bottom: 3px solid #176de8; /* Il tuo blu specifico */
   }
 
   .custom-safety-table th {
@@ -359,14 +347,14 @@ Below, for each residual risk, a description is given, together with the zone or
     text-align: left;
     font-weight: bold;
     color: #1a202c;
-    border-right: 1px solid #e0e6ed; /* Vertical line in the header */
+    border-right: 1px solid #e0e6ed; /* Linea verticale nell'header */
   }
 
   .custom-safety-table th:last-child {
     border-right: none;
   }
 
-  /* Alternating rows (Zebra) */
+  /* Righe alternate (Zebra) */
   .custom-safety-table tbody tr:nth-child(even) {
     background-color: #f1f5f9;
   }
@@ -375,7 +363,7 @@ Below, for each residual risk, a description is given, together with the zone or
     background-color: #ffffff;
   }
 
-  /* Hover effect */
+  /* Effetto Hover */
   .custom-safety-table tbody tr:hover {
     background-color: #dbeafe !important;
     transition: background-color 0.2s ease !important;
@@ -385,11 +373,11 @@ Below, for each residual risk, a description is given, together with the zone or
     padding: 15px;
     vertical-align: top;
     border-bottom: 1px solid #e0e6ed;
-    border-right: 1px solid #e0e6ed; /* Vertical line between columns */
+    border-right: 1px solid #e0e6ed; /* Linea verticale tra le colonne */
   }
 
   .custom-safety-table td:last-child {
-    border-right: none; /* Removes the last line on the right */
+    border-right: none; /* Rimuove l'ultima linea a destra */
   }
 
   .pittogrammi-container {
@@ -413,35 +401,34 @@ Below, for each residual risk, a description is given, together with the zone or
         <strong>HAZARDS DUE TO HANDLING</strong><br><br>
         <small style="color: #666;">PICTOGRAMS:</small>
         <div class="pittogrammi-container">
-          <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
-          <img src="../../../../_shared/media/images/muletto1.png" alt="muletto1" width="60">
-          <img src="../../../../_shared/media/images/omino.png" alt="omino" width="60">
+          <img src="../../../../_shared/media/images/attenzione.png" alt="warning" width="60">
+          <img src="../../../../_shared/media/images/muletto1.png" alt="forklift1" width="60">
+          <img src="../../../../_shared/media/images/omino.png" alt="person" width="60">
         </div>
       </td>
       <td>
-        The handling procedures are described in the chapter <strong>"Transport and installation"</strong> of this instruction manual.<br>
+        The handling procedures are described in the <strong>"Transport and installation"</strong> chapter of this instruction manual.<br>
         <strong>Residual risk:</strong><br>
         The operations of:
         <ul>
-            <li>unloading the packages,</li>
-            <li>opening the packages,</li>
+            <li>unloading the packaging,</li>
+            <li>opening the packaging,</li>
             <li>handling the machine</li>
         </ul>
-        expose operators to the risk of suspended loads and crushing. These operations must be carried out exclusively by personnel specialized in operating lifting equipment and who have been suitably trained for the purpose.
+        expose operators to the risk of suspended loads and crushing. These operations must be carried out exclusively by personnel specialized in operating lifting equipment and suitably trained for the purpose.
       </td>
     </tr>
     <tr>
       <td style="text-align: center;">
-        <strong>HAZARD OF ABRASION, CUTTING, IMPACT</strong><br><br>
+        <strong>DANGER OF ABRASION, CUTS, IMPACT</strong><br><br>
         <small style="color: #666;">PICTOGRAMS:</small>
         <div class="pittogrammi-container">
-          <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
-          <img src="../../../../_shared/media/images/mano.png" alt="mano" width="60">
+          <img src="../../../../_shared/media/images/attenzione.png" alt="warning" width="60">
+          <img src="../../../../_shared/media/images/mano.png" alt="hand" width="60">
         </div>
       </td>
       <td>
-        Due to the presence of pointed protrusions on the <strong>"Rotary Discs"</strong> with Spikes, the operator may be exposed to the danger of abrasion and/or cuts in case of contact with them.<br>
-        Wear the appropriate PPE when working near such <strong>"Rotary Discs"</strong>.
+        Due to the presence of pointed protrusions on the <strong>"Rotary Disc"</strong> with Spike, the operator may be exposed to the danger of abrasion and/or cuts in the event of contact with them.<br> Wear suitable PPE when working near such <strong>"Rotary Disc"</strong>.
       </td>
     </tr>
     <tr>
@@ -449,46 +436,44 @@ Below, for each residual risk, a description is given, together with the zone or
         <strong>ELECTRICAL HAZARD</strong><br><br>
         <small style="color: #666;">PICTOGRAMS:</small>
         <div class="pittogrammi-container">
-          <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
-          <img src="../../../../_shared/media/images/corrente.png" alt="corrente" width="60">
+          <img src="../../../../_shared/media/images/attenzione.png" alt="warning" width="60">
+          <img src="../../../../_shared/media/images/corrente.png" alt="electricity" width="60">
         </div>
       </td>
       <td>
-        Access and maintenance operations on the machine expose operators to electrical risk. Interventions on live equipment must be carried out exclusively by experienced and qualified personnel.<br>
-        The following safety measures are recommended:
+        Access and maintenance operations on the machine expose operators to electrical risk. Work on live equipment must be carried out exclusively by experienced and qualified personnel.<br> The following safety measures are recommended:
         <ul>
-            <li>pay the utmost attention to the safety pictograms relating to electrical hazard;</li>
-            <li>do not carry out maintenance interventions without first isolating the electrical power;</li>
+            <li>pay the utmost attention to the safety pictograms relating to electrical risk;</li>
+            <li>do not carry out maintenance work without first isolating the electrical power;</li>
             <li>consult the manuals of the commercial equipment for any specific recommendations;</li>
-            <li>periodically inspect the equipotential protection circuit.</li>
+            <li>periodically inspect the equipotential protective circuit.</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td style="text-align: center;">
-        <strong>HAZARD ARISING FROM LIGHTING DISTURBANCES</strong><br><br>
+        <strong>HAZARD DUE TO LIGHTING DISTURBANCES</strong><br><br>
         <small style="color: #666;">PICTOGRAMS:</small>
         <div class="pittogrammi-container">
-          <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
+          <img src="../../../../_shared/media/images/attenzione.png" alt="warning" width="60">
         </div>
       </td>
       <td>
-        The <strong>"Backlight"</strong> is located inside the machine body, out of the operator's sight, and is almost completely shielded by the machine body guards.<br>
+        The <strong>"Backlight"</strong> is located inside the machine body, out of the operator's sight, and is almost entirely shielded by the guards of the machine body.<br>
         <strong>Residual risk:</strong><br>
         The operator may suffer eye damage if they look at the intense light of the <strong>"Backlight"</strong> for a prolonged period.
       </td>
     </tr>
     <tr>
       <td style="text-align: center;">
-        <strong>HAZARD ARISING FROM DUST, SPLINTERS, ETC.</strong><br><br>
+        <strong>HAZARD DUE TO DUST, SPLINTERS, ETC.</strong><br><br>
         <small style="color: #666;">PICTOGRAMS:</small>
         <div class="pittogrammi-container">
-          <img src="../../../../_shared/media/images/attenzione.png" alt="attenzione" width="60">
+          <img src="../../../../_shared/media/images/attenzione.png" alt="warning" width="60">
         </div>
       </td>
       <td>
-        At the end of the work cycle, a number of residues of the fed parts or accumulations of dust may remain on the machine's <strong>"Rotary Disc"</strong>.<br>
-        Thoroughly clean the <strong>"Rotary Disc"</strong> after each use, as described in chapter 7 of this manual.
+        At the end of the work cycle, a number of residues of the fed parts or accumulations of dust may remain on the machine's <strong>"Rotary Disc"</strong>.<br> Thoroughly clean the <strong>"Rotary Disc"</strong> after each use, as described in chapter 7 of this manual.
       </td>
     </tr>
   </tbody>
@@ -496,23 +481,17 @@ Below, for each residual risk, a description is given, together with the zone or
 :::
 
 :::{warning}
-Do not carry out maintenance and cleaning activities unless all the energy sources present have first been 
-de-energized.
+Do not carry out maintenance and cleaning activities unless all the energy sources present have first been de-energized.
 :::
 
 :::{warning}
-It is absolutely forbidden to remove the safety guards installed on the machine or to open the fixed guards without 
-first isolating the machine's electrical and pneumatic power supply.
+It is absolutely forbidden to remove the safety guards installed on the machine or to open the fixed guards without first isolating the electrical and pneumatic power supply of the machine.
 :::
 
-It is the user's responsibility to: 
-- analyze the risks that could occur during handling and installation within their 
-premises (the analyses carried out on the handling of the machine were made only in consideration of the 
-characteristics of the machine itself); 
-- raise awareness of and train the personnel in charge of operations at the workstations and the personnel in charge of 
-running the machine; 
-- apply visual safety signs in the work environment after having assessed the risks within the transit or 
-control areas.
+It is the user's responsibility to:
+- analyze the risks that could arise during handling and installation at its own premises (the analyses carried out on the handling of the machine were made only considering its characteristics);
+- raise awareness among and train the personnel assigned to operations at the workstations and the personnel in charge of running the machine;
+- apply visual safety signs in the work environment after assessing the risks within the transit or control areas.
 
 ## Safety pictograms applied to the machine
 
@@ -531,7 +510,7 @@ The following table lists the pictograms present on the machine, usually located
     :::
   - **DANGER! ONLY AUTHORIZED PERSONNEL MAY CARRY OUT MAINTENANCE OR REPAIR WORK.**
 
-    Indicates a prohibition on carrying out maintenance or repair work by unauthorized personnel. 
+    Indicates a prohibition on carrying out maintenance or repair work by unauthorized personnel.
 
 * - :::{figure} ../../../../_shared/media/images/disconnettere.png
     :width: 80%
@@ -558,8 +537,8 @@ The FlexiBowl® operates in close connection with third-party robotic systems. T
 During operation of the system, always take into account:
 
 - Physical dimensions of the robot and of the FlexiBowl
-- Trajectories and speeds of the robotic movements
-- Possible unexpected situations (dropped parts, picking errors)
+- Trajectories and speeds of the robot movements
+- Possible unexpected situations (falling parts, picking errors)
 - Danger zones during the vibration phases of the FlexiBowl
 :::
 
@@ -568,10 +547,10 @@ During operation of the system, always take into account:
 ### **Disconnecting power supplies**
 
 ```{warning}
-Before carrying out any maintenance, modification or inspection on the system, always make sure that:
+Before carrying out any maintenance, modification or inspection work on the system, always make sure that:
 
-- All sources of electrical power are disconnected (VisionController, FlexiBowl, Camera, Illuminator)
-- The pneumatic supply is vented and disconnected (if present)
+- All electrical power sources are disconnected (VisionController, FlexiBowl, Camera, Illuminator)
+- The pneumatic supply is depressurized and disconnected (if present)
 - The connection cables are physically disconnected
 - The robot is in safe mode or completely switched off
 ```
@@ -579,7 +558,7 @@ Before carrying out any maintenance, modification or inspection on the system, a
 
 ```{warning}
 
-Do not rely exclusively on switches: use lockout/tagout (LOTO) procedures when available.
+Do not rely solely on switches: use lockout/tagout (LOTO) procedures when available.
 ```
 
 ## Modifications and tampering
@@ -595,7 +574,7 @@ Never modify the product or its components without the express written authoriza
 Unauthorized modifications may:
 
 - Cause system malfunctions
-- Invalidate the warranty
+- Void the warranty
 - Create risks of injury, electric shock or fire
 - Compromise the safety certifications of the product
 ```

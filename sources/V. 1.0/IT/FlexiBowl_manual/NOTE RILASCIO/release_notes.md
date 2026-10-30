@@ -1,4 +1,4 @@
-# Note di Rilascio
+# **Note di Rilascio**
 
 Questa sezione raccoglie le note di rilascio relative al **software FlexiBowl®** e al presente manuale. Seleziona la sezione di interesse.
 

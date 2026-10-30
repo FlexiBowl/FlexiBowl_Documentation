@@ -1,23 +1,22 @@
 (toplight)=
 # **Toplight**
 
-Il Toplight è un illuminatore separato che viene montato all'altezza della telecamera e illumina l'area di visione del FlexiBowl® dall'alto, così che le features del componente che sono rivolte verso la telecamera siano messe in evidenza. È indicato principalmente per superfici lisce e non riflettenti, o superfici che presentano qualche tipo di marcatura distinguibile.
-Il Toplight è disponibile con luce: 
-- Bianca
-- Rossa
-- Infrarossa
+El Toplight es un iluminador independiente que se monta a la altura de la cámara e ilumina desde arriba el área de visión del FlexiBowl®, de modo que se resalten las características del componente orientadas hacia la cámara. Está indicado principalmente para superficies lisas y no reflectantes, o para superficies que presentan algún tipo de marcado distinguible. El Toplight está disponible con luz:
+- Blanca
+- Roja
+- Infrarroja
 
 :::{important}
-Il Toplight infrarosso emette luce non visibile e perciò può apparire non funzionante. Controllare con una telecamera con un filtro ad infrarossi installato per verificarne il funzionamento. La maggior parte degli smartphone visualizzano gli infrarossi.
+El Toplight infrarrojo emite luz no visible y, por lo tanto, puede parecer que no funciona. Compruebe su funcionamiento con una cámara que tenga instalado un filtro de infrarrojos. La mayoría de los teléfonos inteligentes muestran los infrarrojos.
 :::
 
-## Caratteristiche dei Toplight
+## Características de los Toplight
 
 ```{dropdown} TopLight 500x300 - White
-Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
+Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
 ![Toplight](../../../../_shared/media/images/toplight_CM002316.png)
  
-| Lunghezza | Larghezza | Altezza | Altezza con piastra di fissaggio | Diametro foro centrale | Superficie utile max [AxB] | Perimetro utile max |
+| Longitud | Anchura | Altura | Altura con placa de fijación | Diámetro del orificio central | Superficie útil máx. [AxB] | Perímetro útil máx. |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 500 | 300 | 45 | 55 | 65 | 0.15 m^2 | 1.6 m |
@@ -26,94 +25,91 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 200, FlexiB
 :widths: 35 65
 :header-rows: 0
  
-* - **Codice**
+* - **Código**
   - CM002316
  
-* - **Elettronica**
+* - **Electrónica**
   -
  
-* - Alimentazione
+* - Alimentación
   - 24 VDC ±10%
  
-* - Modalità di controllo
-  - Continua
+* - Modo de control
+  - Continuo
  
-* - Tempo massimo di salita
+* - Tiempo máximo de subida
   - 15 µs
  
-* - Tempo massimo di discesa
+* - Tiempo máximo de bajada
   - 10 µs
  
-* - Controllo
+* - Control
   - [Connettore M12](cablaggio_illuminatore)
  
-* - Configurazione pin connettore
+* - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
  
 * - Consumo
   - 96.6W
  
-* - Tensione minima di funzionamento
-  - 20V sull’ingresso luce
+* - Tensión mínima de funcionamiento
+  - 20 V en la entrada de luz
  
-* - Tensione nominale di funzionamento
-  - 24V sull’ingresso luce (±10%)
+* - Tensión nominal de funcionamiento
+  - 24 V en la entrada de luz (±10 %)
  
-* - Tensione massima di funzionamento
-  - 30V sull’ingresso luce
+* - Tensión máxima de funcionamiento
+  - 30 V en la entrada de luz
  
-* - Lunghezza d'onda
+* - Longitud de onda
   -
  
-* - Classe di Rischio
-  - 0 (nesusn rischio)
+* - Grupo de riesgo
+  - 0 (sin riesgo)
  
-* - **Meccanica**
+* - **Mecánica**
   -
  
-* - Spessore
-  - 45mm + 10mm con piastra di fissaggio
+* - Grosor
+  - 45 mm + 10 mm con placa de fijación
  
-* - Diametro interno
+* - Diámetro interior
   - 65mm
  
 * - Peso
   - 23.8 Kg/m² ±15%
  
-* - Materiali
-  - Alluminio e ABS caricato
+* - Materiales
+  - Aluminio y ABS cargado
  
-* - Diffusore
-  - PMMA bianco
+* - Difusor
+  - PMMA blanco
  
-* - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+* - Fijación
+  - 4 tuercas M4 (suministradas) para insertar en la ranura o 4 tornillos M4x20 (no suministrados) aplicados en las esquinas
  
-* - **Ambiente**
+* - **Entorno**
   -
  
-* - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de funcionamiento
+  - -10 °C a +40 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de almacenamiento
+  - -20 °C a +60 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Grado di protezione IP
+* - Grado de protección IP
   - IP 50
  
-* - Marcature
+* - Marcados
   - RoHS-CE-DEEE, UL
 :::
  
 ```
 ```{dropdown} TopLight 500x300 - Red  
-Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
+Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
 ![Toplight](../../../../_shared/media/images/toplight_CM002316.png)
  
-| Lunghezza | Larghezza | Altezza | Altezza con piastra di fissaggio | Diametro foro centrale | Superficie utile max [AxB] | Perimetro utile max |
+| Longitud | Anchura | Altura | Altura con placa de fijación | Diámetro del orificio central | Superficie útil máx. [AxB] | Perímetro útil máx. |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 500 | 300 | 45 | 55 | 65 | 0.15 m^2 | 1.6 m |
@@ -122,96 +118,93 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 200, FlexiB
 :widths: 35 65
 :header-rows: 0
  
-* - **Codice**
+* - **Código**
   - CM002401
  
-* - **Elettronica**
+* - **Electrónica**
   -
  
-* - Alimentazione
+* - Alimentación
   - 24 VDC ±10%
  
-* - Modalità di controllo
-  - Continua
+* - Modo de control
+  - Continuo
  
-* - Tempo massimo di salita
+* - Tiempo máximo de subida
   - 15 µs
  
-* - Tempo massimo di discesa
+* - Tiempo máximo de bajada
   - 10 µs
  
-* - Controllo
+* - Control
   - [Connettore M12](cablaggio_illuminatore)
  
-* - Configurazione pin connettore
+* - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
  
 * - Consumo
   - 96.6W @24 Vdc
  
-* - Tensione minima di funzionamento
-  - 20V sull’ingresso luce
+* - Tensión mínima de funcionamiento
+  - 20 V en la entrada de luz
  
-* - Tensione nominale di funzionamento
-  - 24V sull’ingresso luce (±10%)
+* - Tensión nominal de funcionamiento
+  - 24 V en la entrada de luz (±10 %)
  
-* - Tensione massima di funzionamento
-  - 30V sull’ingresso luce
+* - Tensión máxima de funcionamiento
+  - 30 V en la entrada de luz
  
-* - Lunghezza d'onda
+* - Longitud de onda
   - 630 nm
  
-* - Classe di Rischio
-  - 0 (nesusn rischio)
+* - Grupo de riesgo
+  - 0 (sin riesgo)
  
  
-* - **Meccanica**
+* - **Mecánica**
   -
  
-* - Spessore
-  - 45mm + 10mm con piastra di fissaggio
+* - Grosor
+  - 45 mm + 10 mm con placa de fijación
  
-* - Diametro interno
+* - Diámetro interior
   - 65mm
  
 * - Peso
   - 23.8 Kg/m² ±15%
  
-* - Materiali
-  - Alluminio e ABS caricato
+* - Materiales
+  - Aluminio y ABS cargado
  
-* - Diffusore
-  - PMMA bianco
+* - Difusor
+  - PMMA blanco
  
-* - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+* - Fijación
+  - 4 tuercas M4 (suministradas) para insertar en la ranura o 4 tornillos M4x20 (no suministrados) aplicados en las esquinas
  
-* - **Ambiente**
+* - **Entorno**
   -
  
-* - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de funcionamiento
+  - -10 °C a +40 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de almacenamiento
+  - -20 °C a +60 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Grado di protezione IP
+* - Grado de protección IP
   - IP 50
  
-* - Marcature
+* - Marcados
   - RoHS-CE-DEEE, UL
 :::
  
 ```
  
 ```{dropdown} TopLight 500x300 - Infrared
-Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
+Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
 ![Toplight](../../../../_shared/media/images/toplight_CM002316.png)
  
-| Lunghezza | Larghezza | Altezza | Altezza con piastra di fissaggio | Diametro foro centrale | Superficie utile max [AxB] | Perimetro utile max |
+| Longitud | Anchura | Altura | Altura con placa de fijación | Diámetro del orificio central | Superficie útil máx. [AxB] | Perímetro útil máx. |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 500 | 300 | 45 | 55 | 65 | 0.15 m^2 | 1.6 m |
@@ -220,95 +213,92 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 200, FlexiB
 :widths: 35 65
 :header-rows: 0
  
-* - **Codice**
+* - **Código**
   - CM002405
  
-* - **Elettronica**
+* - **Electrónica**
   -
  
-* - Alimentazione
+* - Alimentación
   - 24 VDC ±10%
  
-* - Modalità di controllo
-  - Continua
+* - Modo de control
+  - Continuo
  
-* - Tempo massimo di salita
+* - Tiempo máximo de subida
   - 15 µs
  
-* - Tempo massimo di discesa
+* - Tiempo máximo de bajada
   - 10 µs
  
-* - Controllo
+* - Control
   - [Connettore M12](cablaggio_illuminatore)
  
-* - Configurazione pin connettore
+* - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
  
 * - Consumo
   - 96.6W @24 Vdc
  
-* - Tensione minima di funzionamento
-  - 20V sull’ingresso luce
+* - Tensión mínima de funcionamiento
+  - 20 V en la entrada de luz
  
-* - Tensione nominale di funzionamento
-  - 24V sull’ingresso luce (±10%)
+* - Tensión nominal de funcionamiento
+  - 24 V en la entrada de luz (±10 %)
  
-* - Tensione massima di funzionamento
-  - 30V sull’ingresso luce
+* - Tensión máxima de funcionamiento
+  - 30 V en la entrada de luz
  
-* - Lunghezza d'onda
+* - Longitud de onda
   - 850 nm
  
-* - Classe di Rischio
-  - 1 (basso rischio)
+* - Grupo de riesgo
+  - 1 (riesgo bajo)
  
-* - **Meccanica**
+* - **Mecánica**
   -
  
-* - Spessore
-  - 45mm + 10mm con piastra di fissaggio
+* - Grosor
+  - 45 mm + 10 mm con placa de fijación
  
-* - Diametro interno
+* - Diámetro interior
   - 65mm
  
 * - Peso
   - 23.8 Kg/m² ±15%
  
-* - Materiali
-  - Alluminio e ABS caricato
+* - Materiales
+  - Aluminio y ABS cargado
  
-* - Diffusore
-  - PMMA bianco
+* - Difusor
+  - PMMA blanco
  
-* - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+* - Fijación
+  - 4 tuercas M4 (suministradas) para insertar en la ranura o 4 tornillos M4x20 (no suministrados) aplicados en las esquinas
  
-* - **Ambiente**
+* - **Entorno**
   -
  
-* - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de funcionamiento
+  - -10 °C a +40 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de almacenamiento
+  - -20 °C a +60 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Grado di protezione IP
+* - Grado de protección IP
   - IP 50
  
-* - Marcature
+* - Marcados
   - RoHS-CE-DEEE, UL
 :::
  
 ```
  
 ```{dropdown} TopLight 700x300 - White
-Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiBowl® 800
+Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002317.png)
  
-| Lunghezza | Larghezza | Altezza | Altezza con piastra di fissaggio | Diametro foro centrale | Superficie utile max [AxB] | Perimetro utile max |
+| Longitud | Anchura | Altura | Altura con placa de fijación | Diámetro del orificio central | Superficie útil máx. [AxB] | Perímetro útil máx. |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 700 | 300 | 45 | 55 | 65 | 0.21 m^2 | 2 m |
@@ -317,94 +307,91 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiB
 :widths: 35 65
 :header-rows: 0
  
-* - **Codice**
+* - **Código**
   - CM002317
  
-* - **Elettronica**
+* - **Electrónica**
   -
  
-* - Alimentazione
+* - Alimentación
   - 24 VDC ±10%
  
-* - Modalità di controllo
-  - Continua
+* - Modo de control
+  - Continuo
  
-* - Tempo massimo di salita
+* - Tiempo máximo de subida
   - 15 µs
  
-* - Tempo massimo di discesa
+* - Tiempo máximo de bajada
   - 10 µs
  
-* - Controllo
+* - Control
   - [Connettore M12](cablaggio_illuminatore)
  
-* - Configurazione pin connettore
+* - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
  
 * - Consumo
   - 135.6W @24 Vdc
  
-* - Tensione minima di funzionamento
-  - 20V sull’ingresso luce
+* - Tensión mínima de funcionamiento
+  - 20 V en la entrada de luz
  
-* - Tensione nominale di funzionamento
-  - 24V sull’ingresso luce (±10%)
+* - Tensión nominal de funcionamiento
+  - 24 V en la entrada de luz (±10 %)
  
-* - Tensione massima di funzionamento
-  - 30V sull’ingresso luce
+* - Tensión máxima de funcionamiento
+  - 30 V en la entrada de luz
  
-* - Lunghezza d'onda
+* - Longitud de onda
   -
  
-* - Classe di Rischio
-  - 0 (nesusn rischio)
+* - Grupo de riesgo
+  - 0 (sin riesgo)
  
-* - **Meccanica**
+* - **Mecánica**
   -
  
-* - Spessore
-  - 45mm + 10mm con piastra di fissaggio
+* - Grosor
+  - 45 mm + 10 mm con placa de fijación
  
-* - Diametro interno
+* - Diámetro interior
   - 65mm
  
 * - Peso
   - 23.8 Kg/m² ±15%
  
-* - Materiali
-  - Alluminio e ABS caricato
+* - Materiales
+  - Aluminio y ABS cargado
  
-* - Diffusore
-  - PMMA bianco
+* - Difusor
+  - PMMA blanco
  
-* - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+* - Fijación
+  - 4 tuercas M4 (suministradas) para insertar en la ranura o 4 tornillos M4x20 (no suministrados) aplicados en las esquinas
  
-* - **Ambiente**
+* - **Entorno**
   -
  
-* - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de funcionamiento
+  - -10 °C a +40 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de almacenamiento
+  - -20 °C a +60 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Grado di protezione IP
+* - Grado de protección IP
   - IP 50
  
-* - Marcature
+* - Marcados
   - RoHS-CE-DEEE, UL
 :::
 ```
  
 ```{dropdown} TopLight 700x300 - Red
-Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiBowl® 800
+Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002317.png)
  
-| Lunghezza | Larghezza | Altezza | Altezza con piastra di fissaggio | Diametro foro centrale | Superficie utile max [AxB] | Perimetro utile max |
+| Longitud | Anchura | Altura | Altura con placa de fijación | Diámetro del orificio central | Superficie útil máx. [AxB] | Perímetro útil máx. |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 700 | 300 | 45 | 55 | 65 | 0.21 m^2 | 2 m |
@@ -413,94 +400,91 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiB
 :widths: 35 65
 :header-rows: 0
  
- * - **Codice**
+ * - **Código**
    - CM002402
  
-* - **Elettronica**
+* - **Electrónica**
   -
  
-* - Alimentazione
+* - Alimentación
   - 24 VDC ±10%
  
-* - Modalità di controllo
-  - Continua
+* - Modo de control
+  - Continuo
  
-* - Tempo massimo di salita
+* - Tiempo máximo de subida
   - 15 µs
  
-* - Tempo massimo di discesa
+* - Tiempo máximo de bajada
   - 10 µs
  
-* - Controllo
+* - Control
   - [Connettore M12](cablaggio_illuminatore)
  
-* - Configurazione pin connettore
+* - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
  
 * - Consumo
   - 135.6W @24 Vdc
  
-* - Tensione minima di funzionamento
-  - 20V sull’ingresso luce
+* - Tensión mínima de funcionamiento
+  - 20 V en la entrada de luz
  
-* - Tensione nominale di funzionamento
-  - 24V sull’ingresso luce (±10%)
+* - Tensión nominal de funcionamiento
+  - 24 V en la entrada de luz (±10 %)
  
-* - Tensione massima di funzionamento
-  - 30V sull’ingresso luce
+* - Tensión máxima de funcionamiento
+  - 30 V en la entrada de luz
  
-* - Lunghezza d'onda
+* - Longitud de onda
   - 630 nm
  
-* - Classe di Rischio
-  - 0 (nesusn rischio)
+* - Grupo de riesgo
+  - 0 (sin riesgo)
  
-* - **Meccanica**
+* - **Mecánica**
   -
  
-* - Spessore
-  - 45mm + 10mm con piastra di fissaggio
+* - Grosor
+  - 45 mm + 10 mm con placa de fijación
  
-* - Diametro interno
+* - Diámetro interior
   - 65mm
  
 * - Peso
   - 23.8 Kg/m² ±15%
  
-* - Materiali
-  - Alluminio e ABS caricato
+* - Materiales
+  - Aluminio y ABS cargado
  
-* - Diffusore
-  - PMMA bianco
+* - Difusor
+  - PMMA blanco
  
-* - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+* - Fijación
+  - 4 tuercas M4 (suministradas) para insertar en la ranura o 4 tornillos M4x20 (no suministrados) aplicados en las esquinas
  
-* - **Ambiente**
+* - **Entorno**
   -
  
-* - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de funcionamiento
+  - -10 °C a +40 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de almacenamiento
+  - -20 °C a +60 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Grado di protezione IP
+* - Grado de protección IP
   - IP 50
  
-* - Marcature
+* - Marcados
   - RoHS-CE-DEEE, UL
 :::
 ```
  
 ```{dropdown} TopLight 700x300 - Infrared
-Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiBowl® 800
+Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002317.png)
  
-| Lunghezza | Larghezza | Altezza | Altezza con piastra di fissaggio | Diametro foro centrale | Superficie utile max [AxB] | Perimetro utile max |
+| Longitud | Anchura | Altura | Altura con placa de fijación | Diámetro del orificio central | Superficie útil máx. [AxB] | Perímetro útil máx. |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 700 | 300 | 45 | 55 | 65 | 0.21 m^2 | 2 m |
@@ -509,94 +493,91 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiB
 :widths: 35 65
 :header-rows: 0
  
-* - **Codice**
+* - **Código**
   - CM002406
  
-* - **Elettronica**
+* - **Electrónica**
   -
  
-* - Alimentazione
+* - Alimentación
   - 24 VDC ±10%
  
-* - Modalità di controllo
-  - Continua
+* - Modo de control
+  - Continuo
  
-* - Tempo massimo di salita
+* - Tiempo máximo de subida
   - 15 µs
  
-* - Tempo massimo di discesa
+* - Tiempo máximo de bajada
   - 10 µs
  
-* - Controllo
+* - Control
   - [Connettore M12](cablaggio_illuminatore)
  
-* - Configurazione pin connettore
+* - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
  
 * - Consumo
   - 135.6W @24 Vdc
  
-* - Tensione minima di funzionamento
-  - 20V sull’ingresso luce
+* - Tensión mínima de funcionamiento
+  - 20 V en la entrada de luz
  
-* - Tensione nominale di funzionamento
-  - 24V sull’ingresso luce (±10%)
+* - Tensión nominal de funcionamiento
+  - 24 V en la entrada de luz (±10 %)
  
-* - Tensione massima di funzionamento
-  - 30V sull’ingresso luce
+* - Tensión máxima de funcionamiento
+  - 30 V en la entrada de luz
  
-* - Lunghezza d'onda
+* - Longitud de onda
   - 850 nm
  
-* - Classe di Rischio
-  - 1 (basso rischio)
+* - Grupo de riesgo
+  - 1 (riesgo bajo)
  
-* - **Meccanica**
+* - **Mecánica**
   -
  
-* - Spessore
-  - 45mm + 10mm con piastra di fissaggio
+* - Grosor
+  - 45 mm + 10 mm con placa de fijación
  
-* - Diametro interno
+* - Diámetro interior
   - 65mm
  
 * - Peso
   - 23.8 Kg/m² ±15%
  
-* - Materiali
-  - Alluminio e ABS caricato
+* - Materiales
+  - Aluminio y ABS cargado
  
-* - Diffusore
-  - PMMA bianco
+* - Difusor
+  - PMMA blanco
  
-* - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+* - Fijación
+  - 4 tuercas M4 (suministradas) para insertar en la ranura o 4 tornillos M4x20 (no suministrados) aplicados en las esquinas
  
-* - **Ambiente**
+* - **Entorno**
   -
  
-* - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de funcionamiento
+  - -10 °C a +40 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de almacenamiento
+  - -20 °C a +60 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Grado di protezione IP
+* - Grado de protección IP
   - IP 50
  
-* - Marcature
+* - Marcados
   - RoHS-CE-DEEE, UL
 :::
 ```
  
 ```{dropdown} TopLight 700x500 - White
-Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiBowl® 800
+Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002318.png)
  
-| Lunghezza | Larghezza | Altezza | Altezza con piastra di fissaggio | Diametro foro centrale | Superficie utile max [AxB] | Perimetro utile max |
+| Longitud | Anchura | Altura | Altura con placa de fijación | Diámetro del orificio central | Superficie útil máx. [AxB] | Perímetro útil máx. |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 700 | 500 | 45 | 55 | 65 | 0.35 m^2 | 2.4 m |
@@ -605,94 +586,91 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiB
 :widths: 35 65
 :header-rows: 0
  
-* - **Codice**
+* - **Código**
   - CM002318
  
-* - **Elettronica**
+* - **Electrónica**
   -
  
-* - Alimentazione
+* - Alimentación
   - 24 VDC ±10%
  
-* - Modalità di controllo
-  - Continua
+* - Modo de control
+  - Continuo
  
-* - Tempo massimo di salita
+* - Tiempo máximo de subida
   - 15 µs
  
-* - Tempo massimo di discesa
+* - Tiempo máximo de bajada
   - 10 µs
  
-* - Controllo
+* - Control
   - [Connettore M12](cablaggio_illuminatore)
  
-* - Configurazione pin connettore
+* - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
  
 * - Consumo
   - 252.6W @24 Vdc
  
-* - Tensione minima di funzionamento
-  - 20V sull’ingresso luce
+* - Tensión mínima de funcionamiento
+  - 20 V en la entrada de luz
  
-* - Tensione nominale di funzionamento
-  - 24V sull’ingresso luce (±10%)
+* - Tensión nominal de funcionamiento
+  - 24 V en la entrada de luz (±10 %)
  
-* - Tensione massima di funzionamento
-  - 30V sull’ingresso luce
+* - Tensión máxima de funcionamiento
+  - 30 V en la entrada de luz
  
-* - Lunghezza d'onda
+* - Longitud de onda
   -
  
-* - Classe di Rischio
-  - 0 (nesusn rischio)
+* - Grupo de riesgo
+  - 0 (sin riesgo)
  
-* - **Meccanica**
+* - **Mecánica**
   -
  
-* - Spessore
-  - 45mm + 10mm con piastra di fissaggio
+* - Grosor
+  - 45 mm + 10 mm con placa de fijación
  
-* - Diametro interno
+* - Diámetro interior
   - 65mm
  
 * - Peso
   - 23.8 Kg/m² ±15%
  
-* - Materiali
-  - Alluminio e ABS caricato
+* - Materiales
+  - Aluminio y ABS cargado
  
-* - Diffusore
-  - PMMA bianco
+* - Difusor
+  - PMMA blanco
  
-* - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+* - Fijación
+  - 4 tuercas M4 (suministradas) para insertar en la ranura o 4 tornillos M4x20 (no suministrados) aplicados en las esquinas
  
-* - **Ambiente**
+* - **Entorno**
   -
  
-* - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de funcionamiento
+  - -10 °C a +40 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de almacenamiento
+  - -20 °C a +60 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Grado di protezione IP
+* - Grado de protección IP
   - IP 50
  
-* - Marcature
+* - Marcados
   - RoHS-CE-DEEE, UL
 :::
 ```
  
 ```{dropdown} TopLight 700x500 - Red
-Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiBowl® 800
+Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002318.png)
  
-| Lunghezza | Larghezza | Altezza | Altezza con piastra di fissaggio | Diametro foro centrale | Superficie utile max [AxB] | Perimetro utile max |
+| Longitud | Anchura | Altura | Altura con placa de fijación | Diámetro del orificio central | Superficie útil máx. [AxB] | Perímetro útil máx. |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 700 | 500 | 45 | 55 | 65 | 0.35 m^2 | 2.4 m |
@@ -701,94 +679,91 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiB
 :widths: 35 65
 :header-rows: 0
  
-* - **Codice**
+* - **Código**
   - CM002403
  
-* - **Elettronica**
+* - **Electrónica**
   -
  
-* - Alimentazione
+* - Alimentación
   - 24 VDC ±10%
  
-* - Modalità di controllo
-  - Continua
+* - Modo de control
+  - Continuo
  
-* - Tempo massimo di salita
+* - Tiempo máximo de subida
   - 15 µs
  
-* - Tempo massimo di discesa
+* - Tiempo máximo de bajada
   - 10 µs
  
-* - Controllo
+* - Control
   - [Connettore M12](cablaggio_illuminatore)
  
-* - Configurazione pin connettore
+* - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
  
 * - Consumo
   - 252.6W @24 Vdc
  
-* - Tensione minima di funzionamento
-  - 20V sull’ingresso luce
+* - Tensión mínima de funcionamiento
+  - 20 V en la entrada de luz
  
-* - Tensione nominale di funzionamento
-  - 24V sull’ingresso luce (±10%)
+* - Tensión nominal de funcionamiento
+  - 24 V en la entrada de luz (±10 %)
  
-* - Tensione massima di funzionamento
-  - 30V sull’ingresso luce
+* - Tensión máxima de funcionamiento
+  - 30 V en la entrada de luz
  
-* - Lunghezza d'onda
+* - Longitud de onda
   - 630 nm
  
-* - Classe di Rischio
-  - 0 (nesusn rischio)
+* - Grupo de riesgo
+  - 0 (sin riesgo)
  
-* - **Meccanica**
+* - **Mecánica**
   -
  
-* - Spessore
-  - 45mm + 10mm con piastra di fissaggio
+* - Grosor
+  - 45 mm + 10 mm con placa de fijación
  
-* - Diametro interno
+* - Diámetro interior
   - 65mm
  
 * - Peso
   - 23.8 Kg/m² ±15%
  
-* - Materiali
-  - Alluminio e ABS caricato
+* - Materiales
+  - Aluminio y ABS cargado
  
-* - Diffusore
-  - PMMA bianco
+* - Difusor
+  - PMMA blanco
  
-* - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+* - Fijación
+  - 4 tuercas M4 (suministradas) para insertar en la ranura o 4 tornillos M4x20 (no suministrados) aplicados en las esquinas
  
-* - **Ambiente**
+* - **Entorno**
   -
  
-* - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de funcionamiento
+  - -10 °C a +40 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de almacenamiento
+  - -20 °C a +60 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Grado di protezione IP
+* - Grado de protección IP
   - IP 50
  
-* - Marcature
+* - Marcados
   - RoHS-CE-DEEE, UL
 :::
 ```
  
 ```{dropdown} TopLight 700x500 - Infrared
-Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiBowl® 800
+Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002318.png)
  
-| Lunghezza | Larghezza | Altezza | Altezza con piastra di fissaggio | Diametro foro centrale | Superficie utile max [AxB] | Perimetro utile max |
+| Longitud | Anchura | Altura | Altura con placa de fijación | Diámetro del orificio central | Superficie útil máx. [AxB] | Perímetro útil máx. |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 700 | 500 | 45 | 55 | 65 | 0.35 m^2 | 2.4 m |
@@ -797,94 +772,91 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiB
 :widths: 35 65
 :header-rows: 0
  
-* - **Codice**
+* - **Código**
   - CM002407
  
-* - **Elettronica**
+* - **Electrónica**
   -
  
-* - Alimentazione
+* - Alimentación
   - 24 VDC ±10%
  
-* - Modalità di controllo
-  - Continua
+* - Modo de control
+  - Continuo
  
-* - Tempo massimo di salita
+* - Tiempo máximo de subida
   - 15 µs
  
-* - Tempo massimo di discesa
+* - Tiempo máximo de bajada
   - 10 µs
  
-* - Controllo
+* - Control
   - [Connettore M12](cablaggio_illuminatore)
  
-* - Configurazione pin connettore
+* - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
  
 * - Consumo
   - 252.6W @24 Vdc
  
-* - Tensione minima di funzionamento
-  - 20V sull’ingresso luce
+* - Tensión mínima de funcionamiento
+  - 20 V en la entrada de luz
  
-* - Tensione nominale di funzionamento
-  - 24V sull’ingresso luce (±10%)
+* - Tensión nominal de funcionamiento
+  - 24 V en la entrada de luz (±10 %)
  
-* - Tensione massima di funzionamento
-  - 30V sull’ingresso luce
+* - Tensión máxima de funcionamiento
+  - 30 V en la entrada de luz
  
-* - Lunghezza d'onda
+* - Longitud de onda
   - 850 nm
  
-* - Classe di Rischio
-  - 1 (basso rischio)
+* - Grupo de riesgo
+  - 1 (riesgo bajo)
  
-* - **Meccanica**
+* - **Mecánica**
   -
  
-* - Spessore
-  - 45mm + 10mm con piastra di fissaggio
+* - Grosor
+  - 45 mm + 10 mm con placa de fijación
  
-* - Diametro interno
+* - Diámetro interior
   - 65mm
  
 * - Peso
   - 23.8 Kg/m² ±15%
  
-* - Materiali
-  - Alluminio e ABS caricato
+* - Materiales
+  - Aluminio y ABS cargado
  
-* - Diffusore
-  - PMMA bianco
+* - Difusor
+  - PMMA blanco
  
-* - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+* - Fijación
+  - 4 tuercas M4 (suministradas) para insertar en la ranura o 4 tornillos M4x20 (no suministrados) aplicados en las esquinas
  
-* - **Ambiente**
+* - **Entorno**
   -
  
-* - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de funcionamiento
+  - -10 °C a +40 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de almacenamiento
+  - -20 °C a +60 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Grado di protezione IP
+* - Grado de protección IP
   - IP 50
  
-* - Marcature
+* - Marcados
   - RoHS-CE-DEEE, UL
 :::
 ```
  
 ```{dropdown} TopLight 900x600 - White
-Questa dimensione di Toplight è indicata per il modelli FlexiBowl® 1200
+Este tamaño de Toplight está indicado para los modelos FlexiBowl® 1200
 ![Toplight](../../../../_shared/media/images/toplight_dim.png)
  
-| Lunghezza | Larghezza | Altezza | Altezza con piastra di fissaggio | Diametro foro centrale | Superficie utile max [AxB] | Perimetro utile max |
+| Longitud | Anchura | Altura | Altura con placa de fijación | Diámetro del orificio central | Superficie útil máx. [AxB] | Perímetro útil máx. |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 900 | 600 | 45 | 55 | 65 | 0.54 m^2 | 3 m |
@@ -893,93 +865,90 @@ Questa dimensione di Toplight è indicata per il modelli FlexiBowl® 1200
 :widths: 35 65
 :header-rows: 0
  
-* - **Codice**
+* - **Código**
   - CM002319
  
-* - **Elettronica**
+* - **Electrónica**
   -
  
-* - Alimentazione
+* - Alimentación
   - 24 VDC ±10%
  
-* - Modalità di controllo
-  - Continua
+* - Modo de control
+  - Continuo
  
-* - Tempo massimo di salita
+* - Tiempo máximo de subida
   - 15 µs
  
-* - Tempo massimo di discesa
+* - Tiempo máximo de bajada
   - 10 µs
  
-* - Controllo
+* - Control
   - [Connettore M12](cablaggio_illuminatore)
  
-* - Configurazione pin connettore
+* - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
  
 * - Consumo
   - 345.6W @24 Vdc
  
-* - Tensione minima di funzionamento
-  - 20V sull’ingresso luce
+* - Tensión mínima de funcionamiento
+  - 20 V en la entrada de luz
  
-* - Tensione nominale di funzionamento
-  - 24V sull’ingresso luce (±10%)
+* - Tensión nominal de funcionamiento
+  - 24 V en la entrada de luz (±10 %)
  
-* - Tensione massima di funzionamento
-  - 30V sull’ingresso luce
+* - Tensión máxima de funcionamiento
+  - 30 V en la entrada de luz
  
-* - Lunghezza d'onda
+* - Longitud de onda
   -
  
-* - Classe di Rischio
-  - 0 (nesusn rischio)
+* - Grupo de riesgo
+  - 0 (sin riesgo)
  
-* - **Meccanica**
+* - **Mecánica**
   -
  
-* - Spessore
-  - 45mm + 10mm con piastra di fissaggio
+* - Grosor
+  - 45 mm + 10 mm con placa de fijación
  
-* - Diametro interno
+* - Diámetro interior
   - 65mm
  
 * - Peso
   - 23.8 Kg/m² ±15%
  
-* - Materiali
-  - Alluminio e ABS caricato
+* - Materiales
+  - Aluminio y ABS cargado
  
-* - Diffusore
-  - PMMA bianco
+* - Difusor
+  - PMMA blanco
  
-* - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+* - Fijación
+  - 4 tuercas M4 (suministradas) para insertar en la ranura o 4 tornillos M4x20 (no suministrados) aplicados en las esquinas
  
-* - **Ambiente**
+* - **Entorno**
   -
  
-* - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de funcionamiento
+  - -10 °C a +40 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de almacenamiento
+  - -20 °C a +60 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Grado di protezione IP
+* - Grado de protección IP
   - IP 50
  
-* - Marcature
+* - Marcados
   - RoHS-CE-DEEE, UL
 :::
 ```
 ```{dropdown} TopLight 900x600 - Red
-Questa dimensione di Toplight è indicata per il modelli FlexiBowl® 1200
+Este tamaño de Toplight está indicado para los modelos FlexiBowl® 1200
 ![Toplight](../../../../_shared/media/images/toplight_dim.png)
  
-| Lunghezza | Larghezza | Altezza | Altezza con piastra di fissaggio | Diametro foro centrale | Superficie utile max [AxB] | Perimetro utile max |
+| Longitud | Anchura | Altura | Altura con placa de fijación | Diámetro del orificio central | Superficie útil máx. [AxB] | Perímetro útil máx. |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 900 | 600 | 45 | 55 | 65 | 0.54 m^2 | 3 m |
@@ -988,94 +957,91 @@ Questa dimensione di Toplight è indicata per il modelli FlexiBowl® 1200
 :widths: 35 65
 :header-rows: 0
  
-* - **Codice**
+* - **Código**
   - CM002404
  
-* - **Elettronica**
+* - **Electrónica**
   -
  
-* - Alimentazione
+* - Alimentación
   - 24 VDC ±10%
  
-* - Modalità di controllo
-  - Continua
+* - Modo de control
+  - Continuo
  
-* - Tempo massimo di salita
+* - Tiempo máximo de subida
   - 15 µs
  
-* - Tempo massimo di discesa
+* - Tiempo máximo de bajada
   - 10 µs
  
-* - Controllo
+* - Control
   - [Connettore M12](cablaggio_illuminatore)
  
-* - Configurazione pin connettore
+* - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
  
 * - Consumo
   - 345.6W @24 Vdc
  
-* - Tensione minima di funzionamento
-  - 20V sull’ingresso luce
+* - Tensión mínima de funcionamiento
+  - 20 V en la entrada de luz
  
-* - Tensione nominale di funzionamento
-  - 24V sull’ingresso luce (±10%)
+* - Tensión nominal de funcionamiento
+  - 24 V en la entrada de luz (±10 %)
  
-* - Tensione massima di funzionamento
-  - 30V sull’ingresso luce
+* - Tensión máxima de funcionamiento
+  - 30 V en la entrada de luz
  
-* - Lunghezza d'onda
+* - Longitud de onda
   - 630 nm
  
-* - Classe di Rischio
-  - 0 (nesusn rischio)
+* - Grupo de riesgo
+  - 0 (sin riesgo)
  
-* - **Meccanica**
+* - **Mecánica**
   -
  
-* - Spessore
-  - 45mm + 10mm con piastra di fissaggio
+* - Grosor
+  - 45 mm + 10 mm con placa de fijación
  
-* - Diametro interno
+* - Diámetro interior
   - 65mm
  
 * - Peso
   - 23.8 Kg/m² ±15%
  
-* - Materiali
-  - Alluminio e ABS caricato
+* - Materiales
+  - Aluminio y ABS cargado
  
-* - Diffusore
-  - PMMA bianco
+* - Difusor
+  - PMMA blanco
  
-* - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+* - Fijación
+  - 4 tuercas M4 (suministradas) para insertar en la ranura o 4 tornillos M4x20 (no suministrados) aplicados en las esquinas
  
-* - **Ambiente**
+* - **Entorno**
   -
  
-* - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de funcionamiento
+  - -10 °C a +40 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de almacenamiento
+  - -20 °C a +60 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Grado di protezione IP
+* - Grado de protección IP
   - IP 50
  
-* - Marcature
+* - Marcados
   - RoHS-CE-DEEE, UL
 :::
 ```
  
 ```{dropdown} TopLight 900x600 - Infrared
-Questa dimensione di Toplight è indicata per il modelli FlexiBowl® 1200
+Este tamaño de Toplight está indicado para los modelos FlexiBowl® 1200
 ![Toplight](../../../../_shared/media/images/toplight_dim.png)
  
-| Lunghezza | Larghezza | Altezza | Altezza con piastra di fissaggio | Diametro foro centrale | Superficie utile max [AxB] | Perimetro utile max |
+| Longitud | Anchura | Altura | Altura con placa de fijación | Diámetro del orificio central | Superficie útil máx. [AxB] | Perímetro útil máx. |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 900 | 600 | 45 | 55 | 65 | 0.54 m^2 | 3 m |
@@ -1084,127 +1050,124 @@ Questa dimensione di Toplight è indicata per il modelli FlexiBowl® 1200
 :widths: 35 65
 :header-rows: 0
  
-* - **Codice**
+* - **Código**
   - CM002408
  
-* - **Elettronica**
+* - **Electrónica**
   -
  
-* - Alimentazione
+* - Alimentación
   - 24 VDC ±10%
  
-* - Modalità di controllo
-  - Continua
+* - Modo de control
+  - Continuo
  
-* - Tempo massimo di salita
+* - Tiempo máximo de subida
   - 15 µs
  
-* - Tempo massimo di discesa
+* - Tiempo máximo de bajada
   - 10 µs
  
-* - Controllo
+* - Control
   - [Connettore M12](cablaggio_illuminatore)
  
-* - Configurazione pin connettore
+* - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
  
 * - Consumo
   - 345.6W @24 Vdc
  
-* - Tensione minima di funzionamento
-  - 20V sull’ingresso luce
+* - Tensión mínima de funcionamiento
+  - 20 V en la entrada de luz
  
-* - Tensione nominale di funzionamento
-  - 24V sull’ingresso luce (±10%)
+* - Tensión nominal de funcionamiento
+  - 24 V en la entrada de luz (±10 %)
  
-* - Tensione massima di funzionamento
-  - 30V sull’ingresso luce
+* - Tensión máxima de funcionamiento
+  - 30 V en la entrada de luz
  
-* - Lunghezza d'onda
+* - Longitud de onda
   - 850 nm
  
-* - Classe di Rischio
-  - 1 (basso rischio)
+* - Grupo de riesgo
+  - 1 (riesgo bajo)
  
-* - **Meccanica**
+* - **Mecánica**
   -
  
-* - Spessore
-  - 45mm + 10mm con piastra di fissaggio
+* - Grosor
+  - 45 mm + 10 mm con placa de fijación
  
-* - Diametro interno
+* - Diámetro interior
   - 65mm
  
 * - Peso
   - 23.8 Kg/m² ±15%
  
-* - Materiali
-  - Alluminio e ABS caricato
+* - Materiales
+  - Aluminio y ABS cargado
  
-* - Diffusore
-  - PMMA bianco
+* - Difusor
+  - PMMA blanco
  
-* - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+* - Fijación
+  - 4 tuercas M4 (suministradas) para insertar en la ranura o 4 tornillos M4x20 (no suministrados) aplicados en las esquinas
  
-* - **Ambiente**
+* - **Entorno**
   -
  
-* - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de funcionamiento
+  - -10 °C a +40 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+* - Temperatura de almacenamiento
+  - -20 °C a +60 °C / 80 % de humedad sin condensación. Sin choque térmico (variación máxima: 10 °C en 24 h)
  
-* - Grado di protezione IP
+* - Grado de protección IP
   - IP 50
  
-* - Marcature
+* - Marcados
   - RoHS-CE-DEEE, UL
 :::
 ```
 
-## Colori dei Toplight
+## Colores de los Toplight
 
 :::{list-table}
 :widths: 15 15 70
 :header-rows: 1
 
-* - Colore
-  - Lunghezza d'onda
-  - Utilizzo consigliato
+* - Color
+  - Longitud de onda
+  - Uso recomendado
 
 * - Red
   - 630 nm
-  - Utilizzato per componenti metallici speciali. Lunghezza d’onda: 630 nm. È necessario schermare la cella da qualsiasi fonte di luce esterna e dalla luce solare.
+  - Se utiliza para componentes metálicos especiales. Longitud de onda: 630 nm. Es necesario apantallar la celda de cualquier fuente de luz externa y de la luz solar.
 
 * - IR
   - 850 nm
-  - Preferito per la maggior parte dei tipi di applicazioni. Non è visibile all’occhio umano. Lunghezza d’onda: 850 nm. Si consiglia di schermare la cella per evitare interferenze con la luce solare.
+  - Preferido para la mayoría de los tipos de aplicaciones. No es visible para el ojo humano. Longitud de onda: 850 nm. Se recomienda apantallar la celda para evitar interferencias con la luz solar.
 
 * - White
   - N/D
-  - Utilizzato con componenti trasparenti. È necessario schermare la cella da qualsiasi fonte di luce esterna e dalla luce solare.
+  - Se utiliza con componentes transparentes. Es necesario apantallar la celda de cualquier fuente de luz externa y de la luz solar.
 
 :::
 
 (cavoalimtoplight)=
-## Cavo Alimentazione Toplight
+## Cable de alimentación del Toplight
  
-| Codice   | Descrizione              | Connettore |
+| Código   | Descripción              | Conector |
 |----------|--------------------------|------------|
-| CE001337 | Cavo Alimentazione Toplight 2M  | M12 4 Pin Female |
-| CE001338 | Cavo Alimentazione Toplight power 5M | M12 4 Pin Female |
-| CE001339 | Cavo Alimentazione Toplight power 10M | M12 4 Pin Female |
+| CE001337 | Cable de alimentación del Toplight 2M  | M12 4 Pin Female |
+| CE001338 | Cable de alimentación del Toplight 5M | M12 4 Pin Female |
+| CE001339 | Cable de alimentación del Toplight 10M | M12 4 Pin Female |
 
-## Fissaggio del toplight
+## Fijación del toplight
 
-### Fissaggio sugli angoli
+### Fijación en las esquinas
 
-Si può fissare il toplight sfruttando le asole aperte sui quattro angoli; si consiglia di utilizzare quattro viti M4x20 e di posizionarle in base alla taglia secondo la seguente tabella:
+El toplight se puede fijar aprovechando las ranuras abiertas en las cuatro esquinas; se recomienda utilizar cuatro tornillos M4x20 y colocarlos según el tamaño conforme a la siguiente tabla:
 
 :::{figure} ../../../../_shared/media/images/fixtoplight-angoli.PNG
     :width: 80%
@@ -1215,19 +1178,19 @@ Si può fissare il toplight sfruttando le asole aperte sui quattro angoli; si co
 :widths: 33 33 33
 :header-rows: 1
 
-* - Taglia Toplight
+* - Tamaño del Toplight
   - 500x300
   - 700x300
   - 700x500
   - 900x600
 
-* - Lunghezza A
+* - Longitud A
   - 498 mm
   - 698 mm
   - 698 mm
   - 898 mm
 
-* - Lunghezza B
+* - Longitud B
   - 298 mm
   - 298 mm
   - 498 mm
@@ -1235,9 +1198,9 @@ Si può fissare il toplight sfruttando le asole aperte sui quattro angoli; si co
 
 :::
 
-### Fissaggio sui fianchi
+### Fijación en los laterales
 
-Se necessario è anche possibile sfruttare le cave presenti sui fianchi del Toplight per il fissaggio, inserendo al loro interno un apposito dado e sfruttando delle viti M4:
+Si es necesario, también se pueden aprovechar para la fijación las ranuras presentes en los laterales del Toplight, insertando en ellas una tuerca adecuada y utilizando tornillos M4:
 
 :::{figure} ../../../../_shared/media/images/fixtoplight-staffa.PNG
     :width: 80%
@@ -1245,7 +1208,7 @@ Se necessario è anche possibile sfruttare le cave presenti sui fianchi del Topl
 :::
 
 :::{warning}
-Al fine di garantire la resistenza del fissaggio, dimensionare lo spessore **s** delle staffe di fissaggio in base al peso del toplight indicato nelle tabelle precedenti. La lunghezza della vite dipenderà dallo spessore appena menzionato in modo da non sprofondare più di 5mm all'interno della cava e garantire un corretto serraggio.
+Para garantizar la resistencia de la fijación, dimensionar el grosor **s** de los soportes de fijación en función del peso del toplight indicado en las tablas anteriores. La longitud del tornillo dependerá de dicho grosor, de modo que no se hunda más de 5 mm en la ranura y se garantice un apriete correcto.
 :::
 
 ::::::{error}
@@ -1257,7 +1220,7 @@ Al fine di garantire la resistenza del fissaggio, dimensionare lo spessore **s**
 :width: 80%
 :align: center
 
-Non appendere l'illuminatore dall'alto.
+No colgar el iluminador desde arriba.
 :::
 ::::
 
@@ -1266,7 +1229,7 @@ Non appendere l'illuminatore dall'alto.
 :width: 80%
 :align: center
 
-Non deformare la struttura di fissaggio del Toplight.
+No deformar la estructura de fijación del Toplight.
 :::
 ::::
 :::::
@@ -1274,7 +1237,7 @@ Non deformare la struttura di fissaggio del Toplight.
 
 ::::::{tip}
 
-Seguono alcuni esempi di corretto montaggio del Toplight:
+A continuación se muestran algunos ejemplos de montaje correcto del Toplight:
 
 :::::{grid} 2
 

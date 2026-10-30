@@ -1,5 +1,5 @@
 (cavi)=
-# [ELE] **Cavi di collegamento**
+# **Cavi di collegamento**
 
 I cavi di collegamento del FlexiBowl® sono acquistabili separatamente come opzione, nelle lunghezze da **3, 5 o 10 metri**. Questa pagina riepiloga i cavi disponibili a listino, i relativi prerequisiti e le piedinature.
 
@@ -24,27 +24,27 @@ Collegare e scollegare i cavi solo a dispositivo spento e scollegato dall'alimen
 * - [Cavo per opzione I/O](cavo-io)
   - Opzione **Digital I/O** (acquistabile separatamente)
   - Tutte le taglie
-  - · 3   
-    · 5   
-    · 10 m  
+  - · 3
+    · 5
+    · 10 m
 * - [Cavo per quadro remoto (rack)](cavo-rack)
   - FlexiBowl® con rack esterno
   - FlexiBowl® 200 · 350
-  - · 3 m incluso nella fornitura;   
-    · 5   
-    · 10 m  
+  - · 3 m incluso nella fornitura;
+    · 5
+    · 10 m
 * - [Cavo di alimentazione](cavo-alim)
   - Nessuno
   - Tutte le taglie
-  - · 3   
-    · 5   
-    · 10 m  
+  - · 3
+    · 5
+    · 10 m
 * - [Cavo Ethernet](cavo-eth)
   - Nessuno
   - Tutte le taglie
-  - · 3   
-    · 5   
-    · 10 m  
+  - · 3
+    · 5
+    · 10 m
 :::
 
 ### Articoli a listino
@@ -110,9 +110,9 @@ Collegare e scollegare i cavi solo a dispositivo spento e scollegato dall'alimen
     | 16–19 | NC | Non assegnati | 
     :::
 * - Lunghezze disponibili
-  - · 3 m   
-    · 5 m   
-    · 10 m  
+  - · 3 m
+    · 5 m
+    · 10 m
 :::
 
 
@@ -130,12 +130,12 @@ Collegare e scollegare i cavi solo a dispositivo spento e scollegato dall'alimen
 * - Prerequisiti
   - FlexiBowl® con rack esterno (nessuna opzione da acquistare).
 * - Taglie compatibili
-  - · FlexiBowl® 200   
+  - · FlexiBowl® 200
     · FlexiBowl® 350
 * - Lunghezze disponibili
-  - · 3 m (incluso nella fornitura)  
-    · 5 m     
-    · 10 m    
+  - · 3 m (incluso nella fornitura)
+    · 5 m
+    · 10 m
 :::
 
 :::{attention}
@@ -145,12 +145,12 @@ Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔
 :::{list-table}
 :header-rows: 1 
 
-* - Cavo 
-  - Connettore 
-  - Funzione 
+* - Cavo
+  - Connettore
+  - Funzione
 
-* - **C-ETH FB**  
-  - M12 D-code 
+* - **C-ETH FB**
+  - M12 D-code
     :::{dropdown} **Pinout C-ETH FB (M12 D-code)**
     | Segnale | Funzione | Colore | Pin M12 (lato FlexiBowl®) | Pin RJ45 (lato cliente) |
     |---|---|---|---|---|
@@ -162,26 +162,26 @@ Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔
 
   - Collegamento Ethernet tra rack e FlexiBowl®
 
-* - **MOTOR** 
-  - 9 pin 
+* - **MOTOR**
+  - 9 pin
     :::{dropdown} **Pinout MOTOR (9 pin)**
 
     | Pin | Utilizzo | 
     |---|---|
-    | 1 | +STO1 – Safety Torque Off | 
+    | 1 | +STO1 – Safe Torque Off | 
     | 2 | +24 Vdc – Alimentazione ausiliaria | 
-    | 3 | +STO2 – Safety Torque Off | 
+    | 3 | +STO2 – Safe Torque Off | 
     | 4 | −24 Vdc – Alimentazione ausiliaria | 
     | 5 | NC |
     | 6 | +48 Vdc – Motor Power | 
-    | 7 | −STO1 – Safety Torque Off | 
+    | 7 | −STO1 – Safe Torque Off | 
     | 8 | −48 Vdc – Motor Power | 
-    | 9 | −STO2 – Safety Torque Off | 
+    | 9 | −STO2 – Safe Torque Off | 
     :::
   - Alimentazione motore e segnali STO
 
-* - **C-A SIGNAL** 
-  - 12 pin 
+* - **C-A SIGNAL**
+  - 12 pin
     :::{dropdown} **Pinout C-A SIGNAL (12 pin)**
 
     | Pin | Utilizzo |
@@ -194,8 +194,8 @@ Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔
     :::
   - Segnali analogici
 
-* - **C-B SIGNAL** 
-  - 19 pin 
+* - **C-B SIGNAL**
+  - 19 pin
     :::{dropdown} **Pinout C-B SIGNAL (19 pin)**
     | Pin | Utilizzo | 
     |---|---|
@@ -234,9 +234,9 @@ Collegare ogni cavo alla porta con l'**etichetta corrispondente** (es. MOTOR ↔
 * - Tensione ammessa
   - 120–230 Vac, 50/60 Hz ({ref}`dati_elettrici`)
 * - Lunghezze disponibili
-  - · 3 m     
-    · 5 m   
-    · 10 m  
+  - · 3 m
+    · 5 m
+    · 10 m
 :::
 
 | Etichetta (lato FlexiBowl®) | Tipo | Colore |
@@ -266,7 +266,7 @@ Collegare l'alimentazione **per ultima**, con il FlexiBowl® spento. Il collegam
 * - Taglie compatibili
   - Tutte le taglie FlexiBowl®
 * - Connettori
-  - Lato FlexiBowl®: M12 D-code  
+  - Lato FlexiBowl®: M12 D-code
     :::{dropdown} **Pinout M12 D-Code e RJ45**
     | Segnale | Funzione | Colore | Pin M12 (lato FlexiBowl®) | Pin RJ45 (lato cliente) |
     |---|---|---|---|---|
@@ -278,7 +278,7 @@ Collegare l'alimentazione **per ultima**, con il FlexiBowl® spento. Il collegam
     I pin RJ45 4, 5, 7 e 8 non sono assegnati.
     :::
 * - Lunghezze disponibili
-  - · 3 m   
-    · 5 m   
-    · 10 m  
+  - · 3 m
+    · 5 m
+    · 10 m
 :::

@@ -1,8 +1,9 @@
-# [SOF] **Modalità Mix**
+# **Modalità Mix**
 
+(funzionamento-in-mix-mode)=
 ## Funzionamento in MIX Mode
 
-La **modalità Mix** consente di alimentare contemporaneamente pezzi di tipologie diverse sulla stessa superficie del FlexiBowl®.    
+La **modalità Mix** consente di alimentare contemporaneamente pezzi di tipologie diverse sulla stessa superficie del FlexiBowl®.
 
 Questa modalità è particolarmente indicata per applicazioni di **smistamento** (sorting) in cui è richiesta la presenza di più referenze sullo stesso piano di lavoro senza dover moltiplicare le stazioni robotizzate.
 
@@ -30,8 +31,7 @@ Questa modalità è particolarmente indicata per applicazioni di **smistamento**
 
 ## Ciclo operativo
 
-Il ciclo della MIX Mode è semplificato rispetto alla modalità standard, con soli tre stadi
-che si ripetono in sequenza:
+Il ciclo della MIX Mode è semplificato rispetto alla modalità standard, con soli tre stadi che si ripetono in sequenza:
 
 ```{list-table}
 :header-rows: 1
@@ -67,7 +67,7 @@ La modalità Mix è disponibile per FlexiBowl® 500, 650 e 800.
 ## Note operative
 
 :::{tip}
-La modalità Mix non richiede hardware aggiuntivo rispetto a una configurazione standard.  
+La modalità Mix non richiede hardware aggiuntivo rispetto a una configurazione standard.
  È sufficiente configurare il software di visione per il riconoscimento di più referenze e impostare la logica di sorting nel programma robot.
 :::
 

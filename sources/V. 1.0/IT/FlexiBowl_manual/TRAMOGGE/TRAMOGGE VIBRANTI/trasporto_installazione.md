@@ -1,4 +1,4 @@
-# [MEC] **Trasporto e Installazione**
+# **Trasporto e Installazione**
 
 :::{important}
 Le operazioni di sollevamento e movimentazione devono essere eseguite esclusivamente da personale specializzato ed istruito avente le idoneità a svolgere tali attività.
@@ -37,7 +37,7 @@ Alla ricezione della macchina il cliente deve obbligatoriamente verificare che n
 
 ### Tabella divisione gruppi e pesi - con imballo 
 
-Seguire la seguente tabella per pesi e dimensioni comprensivi di imballo. 
+Seguire la seguente tabella per pesi e dimensioni comprensivi di imballo.
 
 | Specifica | Bulk Feeder 1,5lt | Bulk Feeder 3lt | Bulk Feeder 5lt | Bulk Feeder 10lt | Bulk Feeder 20lt | Bulk Feeder 40lt |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -66,14 +66,14 @@ Nel caso di modelli personalizzati i valori potrebbero differire da quelli indic
 ```
 
 :::{attention}
-Utilizzare solo idonei ed omologati mezzi di sollevamento; compatibili per le dimensioni e il peso della macchina. 
+Utilizzare solo idonei ed omologati mezzi di sollevamento; compatibili per le dimensioni e il peso della macchina.
 :::
 
 :::{attention}
-Accertarsi che nessuno sosti sotto e nel raggio d’azione del mezzo di sollevamento.  
+Accertarsi che nessuno sosti sotto e nel raggio d’azione del mezzo di sollevamento.
 :::
 
-Per la movimentazione del corpo macchina con imballo, procedere come descritto:   
+Per la movimentazione del corpo macchina con imballo, procedere come descritto:
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
 
@@ -138,7 +138,7 @@ Posizionare le forche del carrello elevatore come indicato in figura.
 
 ### Rimozione imballo   
 
-Per la rimozione dell’imballo, procedere come descritto:   
+Per la rimozione dell’imballo, procedere come descritto:
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
 
@@ -169,17 +169,16 @@ Per la rimozione dell’imballo, procedere come descritto:
 Per l’operazione di sollevamento manuale dalla cassa di legno della Bulk Feeder è necessaria la presenza di n°2 operatori.
 :::  
 
-Per la movimentazione della macchina e/o delle sue parti, fare riferimento al paragrafo “Trasporto e movimentazione”.  
+Per la movimentazione della macchina e/o delle sue parti, fare riferimento al paragrafo “Trasporto e movimentazione”.
 
 ### Smaltimento imballo 
 
-L’imballaggio è parte integrante della fornitura e non viene ritirato, per cui lo smaltimento del suddetto è a carico dell’acquirente.
-L’eventuale smaltimento o distruzione deve avvenire nel rispetto delle normative vigenti nel paese dell’utilizzatore, tenendo conto della natura dei materiali:  
+L’imballaggio è parte integrante della fornitura e non viene ritirato, per cui lo smaltimento del suddetto è a carico dell’acquirente. L’eventuale smaltimento o distruzione deve avvenire nel rispetto delle normative vigenti nel paese dell’utilizzatore, tenendo conto della natura dei materiali:
 
-* **Legname:** per le casse;  
-* **Film in materia plastica:** per la protezione della macchina e nastri adesivi per il fissaggio;  
-* **Sacchetti di sostanza assorbente:** per la protezione dall'umidità;  
-* **Altri elementi residui** (es. reggette, chiodi, ecc.).  
+* **Legname:** per le casse;
+* **Film in materia plastica:** per la protezione della macchina e nastri adesivi per il fissaggio;
+* **Sacchetti di sostanza assorbente:** per la protezione dall'umidità;
+* **Altri elementi residui** (es. reggette, chiodi, ecc.).
 
 ## Trasporto e Movimentazione 
 
@@ -201,8 +200,7 @@ ARS S.r.l. non risponde dei danni, a cose o a persone, causati da incidenti prov
 
 ## Assemblaggio 
 
-Dopo il disimballo, la Bulk Feeder si presenta già assemblata.
-Procedere con il fissaggio sulla seguente staffa con viti M8:
+Dopo il disimballo, la Bulk Feeder si presenta già assemblata. Procedere con il fissaggio sulla seguente staffa con viti M8:
 
 **Bulk Feeder 1,5lt**
 
@@ -280,13 +278,13 @@ Fatti salvi eventuali accordi contrattuali diversi è normalmente a carico del C
 
 L’ambiente in cui la macchina viene installata e utilizzata deve essere **interno e al riparo da agenti atmosferici** (pioggia, grandine, neve, nebbia), polveri in sospensione o combustibili, vapori corrosivi o sorgenti di calore eccessivo. La zona **non deve essere classificata ATEX**.
 
-In particolare, l’ambiente di installazione e utilizzo non deve presentare:  
-* Esposizione a fumi corrosivi o vapori oleosi;  
-* Esposizione ad umidità eccessiva (superiore all’85 %) e rapidi cambiamenti di umidità relativa (superiori a 0,005 p.u./h);   
-* Esposizione a polvere eccessiva o abrasiva;  
-* Esposizione a miscele esplosive di polveri o di gas oppure ad aria salmastra;  
-* Esposizione a vibrazioni, urti o scosse anomali;  
-* Esposizione a variazioni termiche elevate o rapide (superiori a 5K/h) o radiazioni nucleari.  
+In particolare, l’ambiente di installazione e utilizzo non deve presentare:
+* Esposizione a fumi corrosivi o vapori oleosi;
+* Esposizione ad umidità eccessiva (superiore all’85 %) e rapidi cambiamenti di umidità relativa (superiori a 0,005 p.u./h);
+* Esposizione a polvere eccessiva o abrasiva;
+* Esposizione a miscele esplosive di polveri o di gas oppure ad aria salmastra;
+* Esposizione a vibrazioni, urti o scosse anomali;
+* Esposizione a variazioni termiche elevate o rapide (superiori a 5K/h) o radiazioni nucleari.
 
 **Limiti operativi ambientali:**
 
@@ -366,37 +364,37 @@ Assicurarsi che la superficie di appoggio della macchina sia piana ed orizzontal
 
 ## Allacciamenti 
 
-Per la messa in funzione della macchina devono essere assicurati i necessari allacciamenti e collegamenti alle reti locali:  
+Per la messa in funzione della macchina devono essere assicurati i necessari allacciamenti e collegamenti alle reti locali:
 * Allacciamento elettrico (comprensivo della connessione della messa a terra).
 
-È responsabilità esclusiva dell’utilizzatore garantire le caratteristiche di allacciamento richieste.  
+È responsabilità esclusiva dell’utilizzatore garantire le caratteristiche di allacciamento richieste.
 
 :::{attention}
-Gli allacciamenti richiesti devono essere effettuati da personale qualificato ed autorizzato. 
+Gli allacciamenti richiesti devono essere effettuati da personale qualificato ed autorizzato.
 :::
 
 ### Allacciamento Elettrico 
 
 :::{attention}
-Prima di eseguire qualsiasi operazione di allacciamento elettrico, è importante controllare che la macchina sia spenta. 
+Prima di eseguire qualsiasi operazione di allacciamento elettrico, è importante controllare che la macchina sia spenta.
 :::
 
 :::{attention}
 Assicurarsi che la linea di alimentazione elettrica cliente sia stata preventivamente sezionata.
 :::
 
-La conformità del collegamento tra macchina ed impianto di messa a terra è a totale cura e carico dell’acquirente.  
+La conformità del collegamento tra macchina ed impianto di messa a terra è a totale cura e carico dell’acquirente.
 
 :::{attention}
 L’operazione deve essere eseguita esclusivamente da personale specializzato ed autorizzato (manutentore elettrico).
 :::
 
-Prima di procedere con l’allacciamento elettrico verificare che:  
-* Il manutentore sia a conoscenza delle normative vigenti nel paese d’installazione;  
-* I valori della frequenza e della tensione di alimentazione corrispondano a quelli della rete locale;  
-* La sezione dei cavi elettrici utilizzati sia adeguata all’assorbimento e ai massimi carichi della macchina;  
-* La messa a terra del circuito sia perfettamente conforme alle norme **EN 60204-1**;  
-* I materiali impiegati nell’impianto di messa a terra abbiano un'adeguata solidità o protezione meccanica.  
+Prima di procedere con l’allacciamento elettrico verificare che:
+* Il manutentore sia a conoscenza delle normative vigenti nel paese d’installazione;
+* I valori della frequenza e della tensione di alimentazione corrispondano a quelli della rete locale;
+* La sezione dei cavi elettrici utilizzati sia adeguata all’assorbimento e ai massimi carichi della macchina;
+* La messa a terra del circuito sia perfettamente conforme alle norme **EN 60204-1**;
+* I materiali impiegati nell’impianto di messa a terra abbiano un'adeguata solidità o protezione meccanica.
 
 :::{attention}
 Non operare con mani ed oggetti umidi. In caso di incendio non utilizzare acqua sui componenti elettrici.
@@ -406,7 +404,7 @@ Non operare con mani ed oggetti umidi. In caso di incendio non utilizzare acqua 
 :widths: 30 70
 
 * - **Qualifica operatore**
-  - Manutentore elettrico 
+  - Manutentore elettrico
 
 * - **DPI necessari**
   - <img src="../../../../../_shared/media/images/obbligo_guanti.png" width="80px"> <img src="../../../../../_shared/media/images/obbligo_antiinf.png" width="80px"> <img src="../../../../../_shared/media/images/obbligo_indumenti.png" width="80px">
@@ -414,7 +412,7 @@ Non operare con mani ed oggetti umidi. In caso di incendio non utilizzare acqua 
 ```
 
 
-Per l’allacciamento alla rete elettrica - AC, procedere come descritto di seguito:  
+Per l’allacciamento alla rete elettrica - AC, procedere come descritto di seguito:
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">

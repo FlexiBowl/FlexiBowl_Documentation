@@ -1,5 +1,5 @@
 (intele)=
-# [ELE] **Interfaccia Elettrica**
+# **Interfaccia Elettrica**
 
 Il pannello connettori del FlexiBowl® varia in base alla versione della macchina:
 
@@ -307,7 +307,7 @@ Il pannello connettori del FlexiBowl® varia in base alla versione della macchin
 </style>
 
 :::{warning}
-Prima di effettuare qualsiasi connessione elettrica, assicurarsi che l'alimentazione sia disinserita e che il sistema sia in stato di sicurezza. 
+Prima di effettuare qualsiasi connessione elettrica, assicurarsi che l'alimentazione sia disinserita e che il sistema sia in stato di sicurezza.
 :::
 
 :::{important}
@@ -651,15 +651,15 @@ I cavi tra rack e FlexiBowl® da 3 m sono inclusi nella fornitura; le versioni d
 
     | Pin | Descrizione |
     |---|---|
-    | 1 | +STO1 – Safety Torque Off |
+    | 1 | +STO1 – Safe Torque Off |
     | 2 | +24 Vdc – Alimentazione ausiliaria |
-    | 3 | +STO2 – Safety Torque Off |
+    | 3 | +STO2 – Safe Torque Off |
     | 4 | −24 Vdc – Alimentazione ausiliaria |
     | 5 | NC |
     | 6 | +48 Vdc – Motor Power |
-    | 7 | −STO1 – Safety Torque Off |
+    | 7 | −STO1 – Safe Torque Off |
     | 8 | −48 Vdc – Motor Power |
-    | 9 | −STO2 – Safety Torque Off |
+    | 9 | −STO2 – Safe Torque Off |
 
     </div></details>
   -

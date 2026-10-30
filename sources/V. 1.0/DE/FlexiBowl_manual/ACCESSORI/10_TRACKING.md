@@ -1,12 +1,12 @@
 (tracking)=
 # **Flexitracking**
 
-## Funzionamento in tracking
+## Betrieb im Tracking-Modus
 
-L'opzione Flexitracking consente di massimizzare la produttività del FlexiBowl® facendolo girare in maniera continua e senza interruzioni. Invece di fermarsi a ogni ciclo per scattare la foto e dare al robot il tempo di raccogliere i pezzi presenti sull'area di visione, un encoder tiene traccia dell'angolo di rotazione che ha effettuato la superficie o dico rigido dal momento dello scatto della foto e quello della presa del pezzo da parte del robot.
+Die Option Flexitracking maximiert die Produktivität des FlexiBowl®, indem sie ihn kontinuierlich und ohne Unterbrechung rotieren lässt. Anstatt in jedem Zyklus anzuhalten, um das Bild aufzunehmen und dem Roboter Zeit zu geben, die im Sichtbereich befindlichen Teile zu greifen, erfasst ein Encoder den Drehwinkel, den die Oberfläche bzw. die starre Scheibe zwischen der Bildaufnahme und dem Greifen des Teils durch den Roboter zurückgelegt hat.
 
 ::::{tip}
-Il funzionamento in tracking sposta l'area di presa che, se normalmente coincide con quella di visione, in questo caso sarà spostata a valle. Fare riferimento al capitolo di {ref}`Layout Best Practice <layoutbp>` per maggiori informazioni sul piazzamento consigliato del robot e degli altri accessori in caso di funzionamento standard e Flexitracking.
+Der Tracking-Betrieb verschiebt den Greifbereich, der normalerweise mit dem Sichtbereich übereinstimmt und in diesem Fall nach unten (in Drehrichtung) verlagert wird. Weitere Informationen zur empfohlenen Platzierung des Roboters und der übrigen Zubehörteile im Standardbetrieb und bei Flexitracking finden Sie im Kapitel {ref}`Layout Best Practice <layoutbp>`.
 
 :::{figure} ../../../../_shared/media/images/TrackingLayout.PNG
 :width: 80%
@@ -15,7 +15,7 @@ Il funzionamento in tracking sposta l'area di presa che, se normalmente coincide
 
 ::::
 
-Il Flexitracking consiste in un gruppo motore modificato con un supporto per una trasmissoine a cinghia che alimenta l'encoder:
+Das Flexitracking besteht aus einer modifizierten Motoreinheit mit einer Halterung für einen Riementrieb, der den Encoder antreibt:
 
 :::{figure} ../../../../_shared/media/images/GM001788.PNG
 :width: 80%

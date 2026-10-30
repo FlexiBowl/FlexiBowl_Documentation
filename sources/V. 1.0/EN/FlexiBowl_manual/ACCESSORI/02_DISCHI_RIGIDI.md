@@ -1,8 +1,8 @@
 (dischi-rigidi)=
-# [MEC] **Rigid Discs**
+# **Rigid Discs**
 
 <style>
-    /* Styles compatible with Sphinx Light and Dark themes */
+    /* Stili compatibili con Tema Chiaro e Scuro di Sphinx */
     .disc-container { margin-bottom: 40px; }
     .main-char-banner {
         background-color: rgba(41, 128, 185, 0.08);
@@ -21,7 +21,7 @@
     .sphinx-styled-table.summary th, .sphinx-styled-table.summary td { text-align: center; padding: 6px; font-size: 0.9em; }
     .sphinx-styled-table.summary td:first-child { text-align: left; font-weight: bold; }
 
-    /* Minimal traffic light */
+    /* Semaforo minimal */
     .semaforo { display: inline-flex; align-items: center; gap: 5px; background: rgba(0, 0, 0, 0.05); padding: 5px 8px; border-radius: 12px; width: fit-content; }
     html[data-theme='dark'] .semaforo { background: rgba(255, 255, 255, 0.08); }
     .sem-dot { width: 9px; height: 9px; border-radius: 50%; background-color: #dcdde1; }
@@ -30,13 +30,13 @@
     .sem-dot.yellow.active { background-color: #ffa801; box-shadow: 0 0 6px rgba(255, 168, 1, 0.6); }
     .sem-dot.green.active { background-color: #2ed573; box-shadow: 0 0 6px rgba(46, 213, 115, 0.6); }
 
-    /* No highlighted band on the anchor target heading */
+    /* Niente banda evidenziata sul titolo di destinazione delle ancore */
     :target, :target > h2, :target > h3, :target > h4 { background: none !important; box-shadow: none !important; }
 </style>
 
 ## **General Compatibility**
 
-Each ✓ links to the price-list product sheet.
+Each ✓ links to the product sheet in the catalog.
 
 :::{list-table}
 :header-rows: 1
@@ -78,14 +78,14 @@ Each ✓ links to the price-list product sheet.
   - [✓](smooth-blue)
   - [✓](smooth-blue)
 
-* - Flexi Disc Smooth Beige FDA
+* - Flexi Disc Smooth Transparent FDA
   - 
   - 
   - 
-  - [✓](smooth-beige)
-  - [✓](smooth-beige)
-  - [✓](smooth-beige)
-  - [✓](smooth-beige)
+  - [✓](smooth-transparent)
+  - [✓](smooth-transparent)
+  - [✓](smooth-transparent)
+  - 
 
 * - Flexi Disc Smooth Black
   - 
@@ -105,7 +105,7 @@ Each ✓ links to the price-list product sheet.
   - [✓](anti-stick-blue)
   - [✓](anti-stick-blue)
 
-* - Flexi Disc Anti-Roll 1-3 mm White FDA
+* - Flexi Disc Anti-Roll Small White FDA
   - 
   - 
   - 
@@ -114,7 +114,7 @@ Each ✓ links to the price-list product sheet.
   - 
   - 
 
-* - Flexi Disc Anti-Roll 3-6mm White FDA
+* - Flexi Disc Anti-Roll Medium White FDA
   - 
   - 
   - 
@@ -123,7 +123,7 @@ Each ✓ links to the price-list product sheet.
   - [✓](anti-roll-3-6-white)
   - 
 
-* - Flexi Disc Anti-Roll 6-14mm Spike Grey FDA
+* - Flexi Disc Anti-Roll Transparent FDA
   - 
   - 
   - 
@@ -132,7 +132,7 @@ Each ✓ links to the price-list product sheet.
   - [✓](anti-roll-6-14-spike-grey)
   - 
 
-* - Flexi Disc Anti-Roll 14-35mm Spike Beige FDA
+* - Flexi Disc Anti-Roll Beige FDA
   - 
   - 
   - 
@@ -141,7 +141,7 @@ Each ✓ links to the price-list product sheet.
   - [✓](anti-roll-14-35-spike-beige)
   - [✓](anti-roll-14-35-spike-beige)
 
-* - Flexi Disc Anti-Roll 14-35mm Spike Blue FDA
+* - Flexi Disc Anti-Roll Blue FDA
   - 
   - 
   - 
@@ -150,7 +150,7 @@ Each ✓ links to the price-list product sheet.
   - [✓](anti-roll-14-35-spike-blue)
   - [✓](anti-roll-14-35-spike-blue)
 
-* - Flexi Disc Anti-Roll Silicone White FDA
+* - Flexi Disc Silicone White FDA
   - 
   - 
   - 
@@ -159,7 +159,7 @@ Each ✓ links to the price-list product sheet.
   - [✓](anti-roll-silicone-white)
   - [✓](anti-roll-silicone-white)
 
-* - Flexi Disc Anti-Cut Grey FDA
+* - Flexi Disc Anti-Cut FDA
   - 
   - 
   - 
@@ -168,7 +168,7 @@ Each ✓ links to the price-list product sheet.
   - [✓](anti-cut-grey)
   - [✓](anti-cut-grey)
 
-* - Flexi Disc Custom Grooved
+* - Custom Disc
   - 
   - 
   - 
@@ -213,90 +213,81 @@ Each ✓ links to the price-list product sheet.
   - 
   - 
 
-* - Rigid Disc Anti-Roll 1-5mm White FDA
+* - Rigid Disc Anti-Roll White FDA
   - [✓](rd200-anti-roll-1-5-white)
-  - [✓](rd350-anti-roll-1-5-white)
+  - 
   - 
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 1-5mm Black FDA
+* - Rigid Disc Anti-Roll Black FDA
   - [✓](rd200-anti-roll-1-5-black)
-  - [✓](rd350-anti-roll-1-5-black)
+  - 
   - 
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 6-8mm White FDA
+* - Rigid Disc Anti-Roll Small White FDA
   - 
-  - [✓](rd350-anti-roll-6-8-white)
+  - [✓](rd350-anti-roll-1-5-white)
   - [✓](rd500e-anti-roll-6-8-white)
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 6-8mm Black FDA
+* - Rigid Disc Anti-Roll Small Black FDA
   - 
-  - [✓](rd350-anti-roll-6-8-black)
+  - [✓](rd350-anti-roll-1-5-black)
   - [✓](rd500e-anti-roll-6-8-black)
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 9-15mm White FDA
+* - Rigid Disc Anti-Roll Medium White FDA
   - 
-  - [✓](rd350-anti-roll-9-15-white)
+  - [✓](rd350-anti-roll-6-8-white)
   - [✓](rd500e-anti-roll-9-15-white)
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 9-15mm Black FDA
+* - Rigid Disc Anti-Roll Medium Black FDA
   - 
-  - [✓](rd350-anti-roll-9-15-black)
+  - [✓](rd350-anti-roll-6-8-black)
   - [✓](rd500e-anti-roll-9-15-black)
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 23-30mm White FDA
+* - Rigid Disc Anti-Roll Large White FDA
   - 
-  - 
+  - [✓](rd350-anti-roll-9-15-white)
   - [✓](rd500e-anti-roll-23-30-white)
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Anti-Roll 23-30mm Black FDA
+* - Rigid Disc Anti-Roll Large Black FDA
   - 
-  - 
+  - [✓](rd350-anti-roll-9-15-black)
   - [✓](rd500e-anti-roll-23-30-black)
   - 
   - 
   - 
   - 
 
-* - Rigid Disc Application Specific Design
+* - Custom Disc
   - [✓](rd200-application-specific)
   - [✓](rd350-application-specific)
-  - 
-  - 
-  - 
-  - 
-  - 
-
-* - Round-Edged Custom Grooved Disc
-  - 
-  - 
   - [✓](rd500e-round-edged-custom-grooved)
   - 
   - 
@@ -307,11 +298,13 @@ Each ✓ links to the price-list product sheet.
 
 ## **Rigid Discs by FlexiBowl® Size**
 
-Rigid discs are the alternative to surfaces suited to FlexiBowl® units in the Edge version: **FlexiBowl® 200**, **FlexiBowl® 350** and **FlexiBowl® 500E**.
+Rigid discs are the alternative to surfaces for FlexiBowl® units in the Edge version: **FlexiBowl® 200**, **FlexiBowl® 350** and **FlexiBowl® 500E**.
 
-Their rigidity changes how the flip works: instead of acting almost directly on the components by moving the surface, it causes a vibration of the disc that is ideal for sorting smaller components. They also feature an integrated edge, which makes them even better suited to handling small components, since it eliminates the gap that can form between a surface and the standard containment ring.
+Their rigidity changes how the flip works: instead of acting almost directly on the components by moving the surface, it causes a vibration on the disc that is ideal for sorting smaller components. They also feature an integrated edge, which makes them even better suited to processing small components because it eliminates the gap that can form between a surface and the standard containment ring.
 
 Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific to each FlexiBowl® size.
+
+The names *Small*, *Medium* and *Large* for *Anti-Roll* discs indicate the component diameter range, which varies according to size: the exact range is given in the sheet for each code.
 
 ::::{grid} 1 3 3 3
 :gutter: 3
@@ -319,22 +312,16 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 :::{card} Rigid Discs for FlexiBowl® 200
 :link: dischi-rigidi-fb200
 :link-type: ref
-
-5 list codes.
 :::
 
 :::{card} Rigid Discs for FlexiBowl® 350
 :link: dischi-rigidi-fb350
 :link-type: ref
-
-9 list codes.
 :::
 
 :::{card} Rigid Discs for FlexiBowl® 500E
 :link: dischi-rigidi-fb500e
 :link-type: ref
-
-9 list codes.
 :::
 
 ::::
@@ -346,41 +333,40 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 :header-rows: 1
 :widths: 70 30
 
-* - **List code**
+* - **Catalog code**
   - **Type**
 * - [Rigid Disc Flat White FDA 200](rd200-flat-white)
   - Flat
 * - [Rigid Disc Flat Black FDA 200](rd200-flat-black)
   - Flat
-* - [Rigid Disc Anti-Roll 1-5mm White FDA 200](rd200-anti-roll-1-5-white)
+* - [Rigid Disc Anti-Roll White FDA 200](rd200-anti-roll-1-5-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 1-5mm Black FDA 200](rd200-anti-roll-1-5-black)
+* - [Rigid Disc Anti-Roll Black FDA 200](rd200-anti-roll-1-5-black)
   - Anti-Roll
-* - [Rigid Disc Application Specific Design 200](rd200-application-specific)
+* - [Custom Disc 200](rd200-application-specific)
   - Custom
 :::
 
 (rd200-flat-white)=
 ### Rigid Disc Flat White FDA 200
 
-<!-- TODO image: ![Rigid Disc Flat White FDA 200](../../../../_shared/media/images/RD_FLAT_WHITE.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Flat White FDA 200](../../../../_shared/media/images/RD_FLAT_WHITE.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for flat, clean parts. Efficient with both backlight (from below) and toplight (from above) illumination.</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -396,7 +382,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -406,7 +392,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -416,7 +402,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -425,8 +411,16 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>
+                    <div>
+                        0.2–0.5 mm
                     </div>
                 </td>
             </tr>
@@ -451,7 +445,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -459,7 +453,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Cylindrical</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -471,7 +465,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -479,7 +473,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -491,7 +485,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -502,24 +496,23 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 (rd200-flat-black)=
 ### Rigid Disc Flat Black FDA 200
 
-<!-- TODO image: ![Rigid Disc Flat Black FDA 200](../../../../_shared/media/images/RD_FLAT_BLACK.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Flat Black FDA 200](../../../../_shared/media/images/RD_FLAT_BLACK.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for light-colored parts and for illumination from above (toplight). Not suitable for illumination from below (backlight).</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -533,7 +526,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -545,7 +538,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -555,7 +548,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -563,9 +556,17 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Grip</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>
+                    <div>
+                        0.2–0.5 mm
                     </div>
                 </td>
             </tr>
@@ -590,7 +591,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -598,7 +599,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Cylindrical</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -610,7 +611,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -619,7 +620,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -630,7 +631,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -639,26 +640,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd200-anti-roll-1-5-white)=
-### Rigid Disc Anti-Roll 1-5mm White FDA 200
+### Rigid Disc Anti-Roll White FDA 200
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 1-5mm White FDA 200](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_WHITE.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll White FDA 200](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_WHITE.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for cylindrical parts with a diameter of 1-5 mm. Efficient with both backlight (from below) and toplight (from above) illumination.</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -673,16 +673,12 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>1-5 mm</td>
             </tr>
             <tr>
-                <td><strong>Center distance (FlexiBowl® 200)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB200 --></td>
-            </tr>
-            <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -692,7 +688,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -701,7 +697,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -712,7 +708,15 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>
+                    <div>
+                        0.2–0.5 mm
                     </div>
                 </td>
             </tr>
@@ -720,7 +724,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 1-5mm White FDA 200)
+#### Component Compatibility (Rigid Disc Anti-Roll White FDA 200)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -737,7 +741,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -747,7 +751,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -757,7 +761,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -765,7 +769,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -777,7 +781,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -786,26 +790,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd200-anti-roll-1-5-black)=
-### Rigid Disc Anti-Roll 1-5mm Black FDA 200
+### Rigid Disc Anti-Roll Black FDA 200
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 1-5mm Black FDA 200](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_BLACK.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Black FDA 200](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_BLACK.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for light-colored cylindrical parts with a diameter of 1-5 mm, with illumination from above (toplight). Not suitable for illumination from below (backlight).</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -821,13 +824,13 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
             </tr>
             <tr>
                 <td><strong>Center distance (FlexiBowl® 200)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB200 --></td>
+                <td><em>to be defined</em> <!-- TODO: interasse FB200 --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -839,7 +842,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -848,7 +851,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -859,7 +862,15 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>
+                    <div>
+                        0.2–0.5 mm
                     </div>
                 </td>
             </tr>
@@ -867,7 +878,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 1-5mm Black FDA 200)
+#### Component Compatibility (Rigid Disc Anti-Roll Black FDA 200)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -884,7 +895,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -894,7 +905,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -904,7 +915,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -913,7 +924,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -924,7 +935,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -933,34 +944,11 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd200-application-specific)=
-### Rigid Disc Application Specific Design 200
+### Custom Disc 200
 
-<!-- TODO image: ![Rigid Disc Application Specific Design 200](../../../../_shared/media/images/RD_CUSTOM.jpg) -->
+<!-- TODO immagine: ![Custom Disc 200](../../../../_shared/media/images/RD_CUSTOM.jpg) -->
 
-<div class="main-char-banner">
-    <strong>Main Characteristics:</strong> Rigid disc custom-designed for the customer's specific application. <!-- TODO: complete description -->
-</div>
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
-            </tr>
-            <tr>
-                <td><strong>Machining</strong></td>
-                <td><em>to be defined</em></td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+**Custom Discs** are rigid plastic discs designed to order for the application, starting from the geometry of the component to be fed: they make it possible to orient and pick parts in configurations that are hard to achieve with traditional surfaces, simplifying the system.
 
 (dischi-rigidi-fb350)=
 ## **Rigid Discs for FlexiBowl® 350**
@@ -969,49 +957,48 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 :header-rows: 1
 :widths: 70 30
 
-* - **List code**
+* - **Catalog code**
   - **Type**
 * - [Rigid Disc Flat White FDA 350](rd350-flat-white)
   - Flat
 * - [Rigid Disc Flat Black FDA 350](rd350-flat-black)
   - Flat
-* - [Rigid Disc Anti-Roll 1-5mm White FDA 350](rd350-anti-roll-1-5-white)
+* - [Rigid Disc Anti-Roll Small White FDA 350](rd350-anti-roll-1-5-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 1-5mm Black FDA 350](rd350-anti-roll-1-5-black)
+* - [Rigid Disc Anti-Roll Small Black FDA 350](rd350-anti-roll-1-5-black)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 6-8mm White FDA 350](rd350-anti-roll-6-8-white)
+* - [Rigid Disc Anti-Roll Medium White FDA 350](rd350-anti-roll-6-8-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 6-8mm Black FDA 350](rd350-anti-roll-6-8-black)
+* - [Rigid Disc Anti-Roll Medium Black FDA 350](rd350-anti-roll-6-8-black)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 9-15mm White FDA 350](rd350-anti-roll-9-15-white)
+* - [Rigid Disc Anti-Roll Large White FDA 350](rd350-anti-roll-9-15-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 9-15mm Black FDA 350](rd350-anti-roll-9-15-black)
+* - [Rigid Disc Anti-Roll Large Black FDA 350](rd350-anti-roll-9-15-black)
   - Anti-Roll
-* - [Rigid Disc Application Specific Design 350](rd350-application-specific)
+* - [Custom Disc 350](rd350-application-specific)
   - Custom
 :::
 
 (rd350-flat-white)=
 ### Rigid Disc Flat White FDA 350
 
-<!-- TODO image: ![Rigid Disc Flat White FDA 350](../../../../_shared/media/images/RD_FLAT_WHITE.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Flat White FDA 350](../../../../_shared/media/images/RD_FLAT_WHITE.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for flat, clean parts. Efficient with both backlight (from below) and toplight (from above) illumination.</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -1027,7 +1014,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1037,7 +1024,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1047,7 +1034,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1056,8 +1043,16 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>
+                    <div>
+                        0.2–0.5 mm
                     </div>
                 </td>
             </tr>
@@ -1082,7 +1077,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1090,7 +1085,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Cylindrical</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -1102,7 +1097,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1110,7 +1105,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -1122,7 +1117,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1133,24 +1128,23 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 (rd350-flat-black)=
 ### Rigid Disc Flat Black FDA 350
 
-<!-- TODO image: ![Rigid Disc Flat Black FDA 350](../../../../_shared/media/images/RD_FLAT_BLACK.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Flat Black FDA 350](../../../../_shared/media/images/RD_FLAT_BLACK.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for light-colored parts and for illumination from above (toplight). Not suitable for illumination from below (backlight).</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -1164,7 +1158,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -1176,7 +1170,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1186,7 +1180,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1194,11 +1188,15 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Grip</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
@@ -1221,7 +1219,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1229,7 +1227,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Cylindrical</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -1241,7 +1239,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1250,7 +1248,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1261,7 +1259,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1270,26 +1268,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd350-anti-roll-1-5-white)=
-### Rigid Disc Anti-Roll 1-5mm White FDA 350
+### Rigid Disc Anti-Roll Small White FDA 350
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 1-5mm White FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_WHITE.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Small White FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_WHITE.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for cylindrical parts with a diameter of 1-5 mm. Efficient with both backlight (from below) and toplight (from above) illumination.</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -1305,7 +1302,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
             </tr>
             <tr>
                 <td><strong>Center distance (FlexiBowl® 350)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB350 --></td>
+                <td><em>to be defined</em> <!-- TODO: interasse FB350 --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -1313,7 +1310,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1323,7 +1320,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1332,7 +1329,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1343,15 +1340,19 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 1-5mm White FDA 350)
+#### Component Compatibility (Rigid Disc Anti-Roll Small White FDA 350)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1368,7 +1369,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1378,7 +1379,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1388,7 +1389,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1396,7 +1397,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -1408,7 +1409,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1417,26 +1418,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd350-anti-roll-1-5-black)=
-### Rigid Disc Anti-Roll 1-5mm Black FDA 350
+### Rigid Disc Anti-Roll Small Black FDA 350
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 1-5mm Black FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_BLACK.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Small Black FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_1_5_BLACK.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for light-colored cylindrical parts with a diameter of 1-5 mm, with illumination from above (toplight). Not suitable for illumination from below (backlight).</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -1452,13 +1452,13 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
             </tr>
             <tr>
                 <td><strong>Center distance (FlexiBowl® 350)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB350 --></td>
+                <td><em>to be defined</em> <!-- TODO: interasse FB350 --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -1470,7 +1470,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1479,7 +1479,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1490,15 +1490,19 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 1-5mm Black FDA 350)
+#### Component Compatibility (Rigid Disc Anti-Roll Small Black FDA 350)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1515,7 +1519,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1525,7 +1529,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1535,7 +1539,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1544,7 +1548,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1555,7 +1559,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1564,26 +1568,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd350-anti-roll-6-8-white)=
-### Rigid Disc Anti-Roll 6-8mm White FDA 350
+### Rigid Disc Anti-Roll Medium White FDA 350
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 6-8mm White FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_WHITE.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Medium White FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_WHITE.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for cylindrical parts with a diameter of 6-8 mm. Efficient with both backlight (from below) and toplight (from above) illumination.</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -1599,7 +1602,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
             </tr>
             <tr>
                 <td><strong>Center distance (FlexiBowl® 350)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB350 --></td>
+                <td><em>to be defined</em> <!-- TODO: interasse FB350 --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -1607,7 +1610,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1617,7 +1620,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1626,7 +1629,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1637,15 +1640,19 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 6-8mm White FDA 350)
+#### Component Compatibility (Rigid Disc Anti-Roll Medium White FDA 350)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1662,7 +1669,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1672,7 +1679,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1682,7 +1689,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1690,7 +1697,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -1702,7 +1709,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1711,26 +1718,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd350-anti-roll-6-8-black)=
-### Rigid Disc Anti-Roll 6-8mm Black FDA 350
+### Rigid Disc Anti-Roll Medium Black FDA 350
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 6-8mm Black FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_BLACK.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Medium Black FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_BLACK.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for light-colored cylindrical parts with a diameter of 6-8 mm, with illumination from above (toplight). Not suitable for illumination from below (backlight).</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -1746,13 +1752,13 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
             </tr>
             <tr>
                 <td><strong>Center distance (FlexiBowl® 350)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB350 --></td>
+                <td><em>to be defined</em> <!-- TODO: interasse FB350 --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -1764,7 +1770,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1773,7 +1779,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1784,15 +1790,19 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 6-8mm Black FDA 350)
+#### Component Compatibility (Rigid Disc Anti-Roll Medium Black FDA 350)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1809,7 +1819,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1819,7 +1829,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1829,7 +1839,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1838,7 +1848,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1849,7 +1859,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1858,26 +1868,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd350-anti-roll-9-15-white)=
-### Rigid Disc Anti-Roll 9-15mm White FDA 350
+### Rigid Disc Anti-Roll Large White FDA 350
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 9-15mm White FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_WHITE.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Large White FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_WHITE.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for cylindrical parts with a diameter of 9-15 mm. Efficient with both backlight (from below) and toplight (from above) illumination.</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -1893,7 +1902,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
             </tr>
             <tr>
                 <td><strong>Center distance (FlexiBowl® 350)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB350 --></td>
+                <td><em>to be defined</em> <!-- TODO: interasse FB350 --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -1901,7 +1910,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1911,7 +1920,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1920,7 +1929,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1931,15 +1940,19 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 9-15mm White FDA 350)
+#### Component Compatibility (Rigid Disc Anti-Roll Large White FDA 350)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1956,7 +1969,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1966,7 +1979,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1976,7 +1989,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1984,7 +1997,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -1996,7 +2009,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2005,26 +2018,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd350-anti-roll-9-15-black)=
-### Rigid Disc Anti-Roll 9-15mm Black FDA 350
+### Rigid Disc Anti-Roll Large Black FDA 350
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 9-15mm Black FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_BLACK.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Large Black FDA 350](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_BLACK.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for light-colored cylindrical parts with a diameter of 9-15 mm, with illumination from above (toplight). Not suitable for illumination from below (backlight).</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -2040,13 +2052,13 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
             </tr>
             <tr>
                 <td><strong>Center distance (FlexiBowl® 350)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB350 --></td>
+                <td><em>to be defined</em> <!-- TODO: interasse FB350 --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -2058,7 +2070,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2067,7 +2079,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -2078,15 +2090,19 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 9-15mm Black FDA 350)
+#### Component Compatibility (Rigid Disc Anti-Roll Large Black FDA 350)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -2103,7 +2119,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2113,7 +2129,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2123,7 +2139,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2132,7 +2148,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -2143,7 +2159,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2152,34 +2168,11 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd350-application-specific)=
-### Rigid Disc Application Specific Design 350
+### Custom Disc 350
 
-<!-- TODO image: ![Rigid Disc Application Specific Design 350](../../../../_shared/media/images/RD_CUSTOM.jpg) -->
+<!-- TODO immagine: ![Custom Disc 350](../../../../_shared/media/images/RD_CUSTOM.jpg) -->
 
-<div class="main-char-banner">
-    <strong>Main Characteristics:</strong> Rigid disc custom-designed for the customer's specific application. <!-- TODO: complete description -->
-</div>
-
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
-            </tr>
-            <tr>
-                <td><strong>Machining</strong></td>
-                <td><em>to be defined</em></td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+**Custom Discs** are rigid plastic discs designed to order for the application, starting from the geometry of the component to be fed: they make it possible to orient and pick parts in configurations that are hard to achieve with traditional surfaces, simplifying the system.
 
 (dischi-rigidi-fb500e)=
 ## **Rigid Discs for FlexiBowl® 500E**
@@ -2188,49 +2181,48 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 :header-rows: 1
 :widths: 70 30
 
-* - **List code**
+* - **Catalog code**
   - **Type**
 * - [Rigid Disc Flat White FDA 500](rd500e-flat-white)
   - Flat
 * - [Rigid Disc Flat Black FDA 500](rd500e-flat-black)
   - Flat
-* - [Rigid Disc Anti-Roll 6-8mm White FDA 500](rd500e-anti-roll-6-8-white)
+* - [Rigid Disc Anti-Roll Small White FDA 500](rd500e-anti-roll-6-8-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 6-8mm Black FDA 500](rd500e-anti-roll-6-8-black)
+* - [Rigid Disc Anti-Roll Small Black FDA 500](rd500e-anti-roll-6-8-black)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 9-15mm White FDA 500](rd500e-anti-roll-9-15-white)
+* - [Rigid Disc Anti-Roll Medium White FDA 500](rd500e-anti-roll-9-15-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 9-15mm Black FDA 500](rd500e-anti-roll-9-15-black)
+* - [Rigid Disc Anti-Roll Medium Black FDA 500](rd500e-anti-roll-9-15-black)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 23-30mm White FDA 500](rd500e-anti-roll-23-30-white)
+* - [Rigid Disc Anti-Roll Large White FDA 500](rd500e-anti-roll-23-30-white)
   - Anti-Roll
-* - [Rigid Disc Anti-Roll 23-30mm Black FDA 500](rd500e-anti-roll-23-30-black)
+* - [Rigid Disc Anti-Roll Large Black FDA 500](rd500e-anti-roll-23-30-black)
   - Anti-Roll
-* - [Round-Edged Custom Grooved Disc 500](rd500e-round-edged-custom-grooved)
+* - [Custom Disc 500](rd500e-round-edged-custom-grooved)
   - Custom
 :::
 
 (rd500e-flat-white)=
 ### Rigid Disc Flat White FDA 500
 
-<!-- TODO image: ![Rigid Disc Flat White FDA 500](../../../../_shared/media/images/RD_FLAT_WHITE.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Flat White FDA 500](../../../../_shared/media/images/RD_FLAT_WHITE.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for flat, clean parts. Efficient with both backlight (from below) and toplight (from above) illumination.</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -2246,7 +2238,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2256,7 +2248,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2266,7 +2258,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2275,8 +2267,16 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>
+                    <div>
+                        0.2–0.5 mm
                     </div>
                 </td>
             </tr>
@@ -2301,7 +2301,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2309,7 +2309,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Cylindrical</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -2321,7 +2321,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2329,7 +2329,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -2341,7 +2341,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2352,24 +2352,23 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 (rd500e-flat-black)=
 ### Rigid Disc Flat Black FDA 500
 
-<!-- TODO image: ![Rigid Disc Flat Black FDA 500](../../../../_shared/media/images/RD_FLAT_BLACK.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Flat Black FDA 500](../../../../_shared/media/images/RD_FLAT_BLACK.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for light-colored parts and for illumination from above (toplight). Not suitable for illumination from below (backlight).</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -2383,7 +2382,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -2395,7 +2394,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2405,7 +2404,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2413,11 +2412,15 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Grip</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
@@ -2440,7 +2443,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2448,7 +2451,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Cylindrical</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -2460,7 +2463,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2469,7 +2472,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -2480,7 +2483,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2489,26 +2492,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd500e-anti-roll-6-8-white)=
-### Rigid Disc Anti-Roll 6-8mm White FDA 500
+### Rigid Disc Anti-Roll Small White FDA 500
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 6-8mm White FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_WHITE.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Small White FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_WHITE.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for cylindrical parts with a diameter of 6-8 mm. Efficient with both backlight (from below) and toplight (from above) illumination.</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -2524,7 +2526,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
             </tr>
             <tr>
                 <td><strong>Center distance (FlexiBowl® 500E)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB500E --></td>
+                <td><em>to be defined</em> <!-- TODO: interasse FB500E --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -2532,7 +2534,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2542,7 +2544,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2551,7 +2553,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -2562,15 +2564,19 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 6-8mm White FDA 500)
+#### Component Compatibility (Rigid Disc Anti-Roll Small White FDA 500)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -2587,7 +2593,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2597,7 +2603,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2607,7 +2613,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2615,7 +2621,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -2627,7 +2633,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2636,26 +2642,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd500e-anti-roll-6-8-black)=
-### Rigid Disc Anti-Roll 6-8mm Black FDA 500
+### Rigid Disc Anti-Roll Small Black FDA 500
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 6-8mm Black FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_BLACK.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Small Black FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_6_8_BLACK.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for light-colored cylindrical parts with a diameter of 6-8 mm, with illumination from above (toplight). Not suitable for illumination from below (backlight).</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -2671,13 +2676,13 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
             </tr>
             <tr>
                 <td><strong>Center distance (FlexiBowl® 500E)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB500E --></td>
+                <td><em>to be defined</em> <!-- TODO: interasse FB500E --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -2689,7 +2694,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2698,7 +2703,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -2709,15 +2714,19 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 6-8mm Black FDA 500)
+#### Component Compatibility (Rigid Disc Anti-Roll Small Black FDA 500)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -2734,7 +2743,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2744,7 +2753,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2754,7 +2763,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2763,7 +2772,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -2774,7 +2783,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2783,26 +2792,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd500e-anti-roll-9-15-white)=
-### Rigid Disc Anti-Roll 9-15mm White FDA 500
+### Rigid Disc Anti-Roll Medium White FDA 500
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 9-15mm White FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_WHITE.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Medium White FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_WHITE.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for cylindrical parts with a diameter of 9-15 mm. Efficient with both backlight (from below) and toplight (from above) illumination.</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -2818,7 +2826,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
             </tr>
             <tr>
                 <td><strong>Center distance (FlexiBowl® 500E)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB500E --></td>
+                <td><em>to be defined</em> <!-- TODO: interasse FB500E --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -2826,7 +2834,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2836,7 +2844,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2845,7 +2853,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -2856,15 +2864,19 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 9-15mm White FDA 500)
+#### Component Compatibility (Rigid Disc Anti-Roll Medium White FDA 500)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -2881,7 +2893,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2891,7 +2903,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2901,7 +2913,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2909,7 +2921,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -2921,7 +2933,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2930,26 +2942,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd500e-anti-roll-9-15-black)=
-### Rigid Disc Anti-Roll 9-15mm Black FDA 500
+### Rigid Disc Anti-Roll Medium Black FDA 500
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 9-15mm Black FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_BLACK.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Medium Black FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_9_15_BLACK.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for light-colored cylindrical parts with a diameter of 9-15 mm, with illumination from above (toplight). Not suitable for illumination from below (backlight).</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -2965,13 +2976,13 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
             </tr>
             <tr>
                 <td><strong>Center distance (FlexiBowl® 500E)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB500E --></td>
+                <td><em>to be defined</em> <!-- TODO: interasse FB500E --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -2983,7 +2994,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -2992,7 +3003,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -3003,15 +3014,19 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 9-15mm Black FDA 500)
+#### Component Compatibility (Rigid Disc Anti-Roll Medium Black FDA 500)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -3028,7 +3043,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3038,7 +3053,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3048,7 +3063,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3057,7 +3072,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -3068,7 +3083,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3077,26 +3092,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd500e-anti-roll-23-30-white)=
-### Rigid Disc Anti-Roll 23-30mm White FDA 500
+### Rigid Disc Anti-Roll Large White FDA 500
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 23-30mm White FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_23_30_WHITE.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Large White FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_23_30_WHITE.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for cylindrical parts with a diameter of 23-30 mm. Efficient with both backlight (from below) and toplight (from above) illumination.</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -3112,7 +3126,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
             </tr>
             <tr>
                 <td><strong>Center distance (FlexiBowl® 500E)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB500E --></td>
+                <td><em>to be defined</em> <!-- TODO: interasse FB500E --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -3120,7 +3134,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3130,7 +3144,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3139,7 +3153,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -3150,15 +3164,19 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 23-30mm White FDA 500)
+#### Component Compatibility (Rigid Disc Anti-Roll Large White FDA 500)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -3175,7 +3193,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3185,7 +3203,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3195,7 +3213,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3203,7 +3221,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -3215,7 +3233,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3224,26 +3242,25 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd500e-anti-roll-23-30-black)=
-### Rigid Disc Anti-Roll 23-30mm Black FDA 500
+### Rigid Disc Anti-Roll Large Black FDA 500
 
-<!-- TODO image: ![Rigid Disc Anti-Roll 23-30mm Black FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_23_30_BLACK.jpg) -->
+<!-- TODO immagine: ![Rigid Disc Anti-Roll Large Black FDA 500](../../../../_shared/media/images/RD_ANTI_ROLL_23_30_BLACK.jpg) -->
 
 <div class="main-char-banner">
-    <strong>Main Characteristics:</strong> <em>to be defined</em> <!-- TODO: complete description -->
-</div>
+    <strong>Main Characteristics:</strong> Recommended for light-colored cylindrical parts with a diameter of 23-30 mm, with illumination from above (toplight). Not suitable for illumination from below (backlight).</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
         <thead>
             <tr>
                 <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
+                <th style="width: 70%;">Specification / Level</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
+                <td>POM-C</td>
             </tr>
             <tr>
                 <td><strong>Color</strong></td>
@@ -3259,13 +3276,13 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
             </tr>
             <tr>
                 <td><strong>Center distance (FlexiBowl® 500E)</strong></td>
-                <td><em>to be defined</em> <!-- TODO: center distance FB500E --></td>
+                <td><em>to be defined</em> <!-- TODO: interasse FB500E --></td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -3277,7 +3294,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3286,7 +3303,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -3297,15 +3314,19 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
+            </tr>
+            <tr>
+                <td><strong>Flatness</strong></td>
+                <td>0.2–0.5 mm</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-#### Component Compatibility (Rigid Disc Anti-Roll 23-30mm Black FDA 500)
+#### Component Compatibility (Rigid Disc Anti-Roll Large Black FDA 500)
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -3322,7 +3343,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3332,7 +3353,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3342,7 +3363,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3351,7 +3372,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -3362,7 +3383,7 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -3371,31 +3392,9 @@ Unlike surfaces, the **center distance** of *Anti-Roll* rigid discs is specific 
 </div>
 
 (rd500e-round-edged-custom-grooved)=
-### Round-Edged Custom Grooved Disc 500
+### Custom Disc 500
 
-<!-- TODO image: ![Round-Edged Custom Grooved Disc 500](../../../../_shared/media/images/RD_CUSTOM.jpg) -->
+<!-- TODO immagine: ![Custom Disc 500](../../../../_shared/media/images/RD_CUSTOM.jpg) -->
 
-<div class="main-char-banner">
-    <strong>Main Characteristics:</strong> Rigid disc custom-designed for the customer's specific application. <!-- TODO: complete description -->
-</div>
+**Custom Discs** are rigid plastic discs designed to order for the application, starting from the geometry of the component to be fed: they make it possible to orient and pick parts in configurations that are hard to achieve with traditional surfaces, simplifying the system.
 
-<div class="disc-container">
-    <table class="sphinx-styled-table">
-        <thead>
-            <tr>
-                <th style="width: 30%;">Property</th>
-                <th style="width: 70%;">Specifications / Level</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Material</strong></td>
-                <td><em>to be defined</em></td>
-            </tr>
-            <tr>
-                <td><strong>Machining</strong></td>
-                <td><em>to be defined</em></td>
-            </tr>
-        </tbody>
-    </table>
-</div>

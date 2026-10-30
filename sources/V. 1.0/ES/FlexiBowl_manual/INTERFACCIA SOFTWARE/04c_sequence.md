@@ -1,152 +1,168 @@
 # **Sequence**
 
-## Panoramica
+## Descripción general
 
-La pagina **Sequence** consente di creare, modificare e gestire sequenze operative personalizzate per il FlexiBowl®. Una sequenza è una lista ordinata di comandi che il sistema esegue in successione automatica, combinando movimenti di rotazione (MOVE), oscillazione (SHAKE), flip e soffio.
+La página **Sequence** permite crear, modificar y gestionar secuencias operativas personalizadas para el FlexiBowl®. Una secuencia es una lista ordenada de comandos que el sistema ejecuta en sucesión automática, combinando movimientos de rotación (MOVE), oscilación (SHAKE), flip y soplado.
 
 ---
 
-## Struttura dell'interfaccia
-![pagina sequence](../../../../_shared/media/images/sequence.png)
+## Estructura de la interfaz
+![página sequence](../../../../_shared/media/images/sequence.png)
 
-La pagina è organizzata in quattro aree principali:
+La página se organiza en cuatro áreas principales:
 
-| N° | Area | Posizione | Descrizione |
+| N.º | Área | Posición | Descripción |
 |---|---|---|---|
-| 1 | [**Selezione sequenza**](seq) | In alto a sinistra | Menu a tendina per selezionare la sequenza attiva |
-| 2 | [**Emptying Sequence**](empty) | In alto al centro | Toggle per attivare la modalità di svuotamento |
-| 3 | [**Pannello Parametri**](param) | Sinistra | Parametri di MOVE, SHAKE e OPTION; aggiunta comandi alla sequenza |
-| 4 | [**Pannello comandi**](comm) | Destra | Elenco ordinato dei comandi nella sequenza attiva e strumenti di gestione |
+| 1 | [**Selección de secuencia**](seq) | Arriba a la izquierda | Menú desplegable para seleccionar la secuencia activa |
+| 2 | [**Emptying Sequence**](empty) | Arriba en el centro | Interruptor para activar el modo de vaciado |
+| 3 | [**Panel de parámetros**](param) | Izquierda | Parámetros de MOVE, SHAKE y OPTION; adición de comandos a la secuencia |
+| 4 | [**Panel de comandos**](comm) | Derecha | Lista ordenada de los comandos de la secuencia activa y herramientas de gestión |
 
 ---
 (seq)=
-## 1. Selezione della sequenza
+## 1. Selección de la secuencia
 
 :::{important}
-**Prima di qualsiasi operazione**, selezionare la sequenza da modificare tramite il menu a tendina **"Select the sequence"** in alto a sinistra.
+**Antes de cualquier operación**, seleccionar la secuencia que se desea modificar mediante el menú desplegable **«Select the sequence»** situado arriba a la izquierda.
 :::
 
 ![select the sequence](../../../../_shared/media/images/sequence_combo_box.png)
 
-Il sistema supporta fino a **20 sequenze indipendenti** (SEQUENCE 1 – SEQUENCE 20), ognuna con la propria lista di comandi e parametri indipendenti. La sequenza selezionata diventa quella attiva su cui operano tutte le modifiche successive.
+El sistema admite hasta **20 secuencias independientes** (SEQUENCE 1 – SEQUENCE 20), cada una con su propia lista de comandos y parámetros independientes. La secuencia seleccionada pasa a ser la activa, sobre la que se aplican todas las modificaciones posteriores.
 
 ---
 (empty)=
 ## 2. Emptying Sequence
 
-![pannello comandi](../../../../_shared/media/images/empty_sequence.png)
+![panel de comandos](../../../../_shared/media/images/empty_sequence.png)
 
-Il toggle **Emptying Sequence** (in alto al centro, con bordo rosso) attiva una modalità speciale in cui la sequenza viene eseguita con l'obiettivo di svuotare il FlexiBowl® dai componenti presenti.
-
-:::{warning}
-Attivare **Emptying Sequence** solo quando si desidera rimuovere tutti i componenti dal FlexiBowl®. Questa modalità altera il comportamento della sequenza rispetto all'utilizzo normale.
-:::
+El interruptor **Emptying Sequence** (arriba en el centro) activa un modo en el que la secuencia se ejecuta con el objetivo de vaciar el FlexiBowl® de los componentes presentes. Se utiliza cuando se ha adquirido la opción de vaciado.
+Para más información sobre la opción de vaciado, consulte la [página específica](svuotamento).
 
 ---
 (param)=
-## 3. Pannello dei Parametri
+## 3. Panel de parámetros
 
-### Parametri MOVE
+### Parámetros MOVE
 
-| Parametro | Valore esempio | Descrizione |
+| Parámetro | Valor de ejemplo | Descripción |
 |---|---|---|
-| **Acceleration Move** | 50 % | Rampa di accelerazione per il movimento di rotazione |
-| **Deceleration Move** | 50 % | Rampa di decelerazione per il movimento di rotazione |
-| **Speed Move** | 35 % | Velocità di rotazione del FlexiBowl® |
-| **Angle Move** | 360 Degree | Angolo di rotazione percorso durante il comando MOVE |
+| **Acceleration Move** | 50 % | Rampa de aceleración para el movimiento de rotación |
+| **Deceleration Move** | 50 % | Rampa de deceleración para el movimiento de rotación |
+| **Speed Move** | 35 % | Velocidad de rotación del FlexiBowl® |
+| **Angle Move** | 360 grados | Ángulo de rotación recorrido durante el comando MOVE |
 
-### Parametri SHAKE
+### Parámetros SHAKE
 
-| Parametro | Valore esempio | Descrizione |
+| Parámetro | Valor de ejemplo | Descripción |
 |---|---|---|
-| **Acceleration Shake** | 50 % | Rampa di accelerazione durante lo shake |
-| **Deceleration Shake** | 50 % | Rampa di decelerazione durante lo shake |
-| **Speed Shake** | 50 % | Velocità di rotazione durante lo shake |
-| **Ccw Angle Shake** | -45 Degree | Angolo di rotazione in senso antiorario durante ogni oscillazione |
-| **Cw Angle Shake** | -30 Degree | Angolo di rotazione in senso orario durante ogni oscillazione |
-| **Count Shake** | 2 N° | Numero di oscillazioni complete per ciclo di shake |
+| **Acceleration Shake** | 50 % | Rampa de aceleración durante el shake |
+| **Deceleration Shake** | 50 % | Rampa de deceleración durante el shake |
+| **Speed Shake** | 50 % | Velocidad de rotación durante el shake |
+| **Ccw Angle Shake** | -45 grados | Ángulo de rotación en sentido antihorario durante cada oscilación |
+| **Cw Angle Shake** | -30 grados | Ángulo de rotación en sentido horario durante cada oscilación |
+| **Count Shake** | 2 N° | Número de oscilaciones completas por ciclo de shake |
 
-### Parametri OPTION (flip e blow)
+### Parámetros OPTION (flip y blow)
 
-| Parametro | Valore esempio | Descrizione |
+| Parámetro | Valor de ejemplo | Descripción |
 |---|---|---|
-| **Flip Pressure** | 5.00 Bar | Pressione dell'aria per l'attuazione del flip |
-| **Flip Count** | 4 N° | Numero di flip eseguiti per ciclo |
-| **Flip Delay** | 100 ms | Intervallo tra un flip e il successivo |
-| **Blow Pressure** | 5.00 Bar | Pressione dell'aria per il soffiaggio |
-| **Blow Time** | 200 ms | Durata dell'impulso di soffiaggio |
+| **Flip Pressure** | 5,00 Bar | Presión de aire para el accionamiento del flip |
+| **Flip Count** | 4 N° | Número de flips realizados por ciclo |
+| **Flip Delay** | 100 ms | Intervalo entre un flip y el siguiente |
+| **Blow Pressure** | 5,00 Bar | Presión de aire para el soplado |
+| **Blow Time** | 200 ms | Duración del impulso de soplado |
 
 :::{note}
-I parametri mostrati nel pannello sinistro si applicano ai comandi della sequenza. Prima di aggiungere un comando con **ADD**, verificare che i valori siano corretti: i parametri vengono associati al comando nel momento dell'inserimento.
+Los parámetros mostrados en el panel izquierdo se aplican a los comandos de la secuencia. Antes de añadir un comando con **ADD**, comprobar que los valores sean correctos: los parámetros se asocian al comando en el momento de la inserción.
 :::
 
 ---
 (comm)=
-## 4. Pannello dei comandi
-### Selezione e aggiunta di un comando
+## 4. Panel de comandos
+### Selección y adición de un comando
 
-![pannello comandi](../../../../_shared/media/images/pannello_comandi_sequence.png)
+![panel de comandos](../../../../_shared/media/images/pannello_comandi_sequence.png)
 
-Il pannello centrale superiore contiene:
+El panel central superior contiene:
 
-- Il menu a tendina **"Command Available"**: consente di selezionare il tipo di comando da aggiungere alla sequenza.
-- Il pulsante **ADD** (freccia →): aggiunge il comando selezionato in coda alla lista dei comandi attivi.
+- El menú desplegable **«Command Available»**: permite seleccionar el tipo de comando que se añadirá a la secuencia.
+- El botón **ADD** (flecha →): añade el comando seleccionado al final de la lista de comandos activos.
 
-I comandi disponibili sono:
+Los comandos disponibles son:
 
-| Comando | Descrizione |
+| Comando | Descripción |
 |---|---|
-| `FLB_NULL` | Comando nullo, nessuna azione eseguita |
-| `FLB_MOVE` | Rotazione del FlexiBowl® secondo i parametri MOVE |
-| `FLB_MOVE_FLIP` | Rotazione combinata con flip |
-| `FLB_MOVE_BLOWe` | Rotazione combinata con soffiaggio esterno |
-| `FLB_MOVE_BLOWc` | Rotazione combinata con soffiaggio centrale |
-| *(altri comandi)* | *(da completare)* |
+| `FLB_NULL` | Comando nulo, no se ejecuta ninguna acción |
+| `FLB_MOVE` | Rotación del FlexiBowl® según los parámetros MOVE |
+| `FLB_MOVE_FLIP` | Rotación combinada con flip (vuelco) del plato |
+| `FLB_MOVE_BLOWe` | Rotación combinada con soplado externo |
+| `FLB_MOVE_BLOWc` | Rotación combinada con soplado central |
+| `FLB_MOVE_BLOWce` | Rotación combinada con soplado central y externo |
+| `FLB_MOVE_BLOWe_FLIP` | Rotación, soplado externo y flip combinados |
+| `FLB_MOVE_BLOWc_FLIP` | Rotación, soplado central y flip combinados |
+| `FLB_MOVE_BLOWce_FLIP` | Rotación, soplado central y externo y flip combinados |
+| `FLB_SHAKE` | Sacudida del plato sin rotación |
+| `FLB_BLOWe` | Soplado externo, sin rotación |
+| `FLB_BLOWc` | Soplado central, sin rotación |
+| `FLB_BLOWce` | Soplado central y externo, sin rotación |
+| `FLB_FLIP` | Flip (vuelco) del plato, sin rotación |
+| `FLB_PAUSE_100ms` | Pausa de 100 milisegundos |
+| `FLB_PAUSE_200ms` | Pausa de 200 milisegundos |
+| `FLB_PAUSE_500ms` | Pausa de 500 milisegundos |
+| `FLB_LIGHT_1_ON` | Encendido de la luz 1 |
+| `FLB_LIGHT_1_OFF` | Apagado de la luz 1 |
+| `FLB_LIGHT_2_ON` | Encendido de la luz 2 |
+| `FLB_LIGHT_2_OFF` | Apagado de la luz 2 |
+| `FLB_ENABLE` | Habilitación del FlexiBowl® |
+| `FLB_DISABLE` | Deshabilitación del FlexiBowl® |
+| `FLB_BARRIER_DOWN` | Descenso de la barrera |
+| `FLB_BARRIER_UP` | Elevación de la barrera |
 
 :::{tip}
-Selezionare il comando desiderato dal menu a tendina prima di premere **ADD**. Il comando verrà inserito nella prima riga libera della lista **Command Active**.
+Seleccione el comando deseado en el menú desplegable antes de pulsar **ADD**. El comando se insertará en la primera fila libre de la lista **Command Active**.
 :::
 
-La tabella **Command Active** mostra la sequenza di comandi nell'ordine di esecuzione, numerati da 1 a 10.
+La tabla **Command Active** muestra la secuencia de comandos en orden de ejecución, numerados del 1 al 10.
 
-Nell'esempio visualizzato, la sequenza contiene un solo comando:
+En el ejemplo mostrado, la secuencia contiene un solo comando:
 
-| N° | Comando |
+| N.º | Comando |
 |---|---|
 | 1 | FLB_MOVE |
-| 2–10 | *(vuoto)* |
+| 2–10 | *(vacío)* |
 
-### Strumenti di gestione della lista
+### Herramientas de gestión de la lista
 
-| Pulsante | Funzione |
+| Botón | Función |
 |---|---|
-| **DELETE** | Elimina il comando selezionato dalla lista |
-| **UP** | Sposta il comando selezionato di una posizione verso l'alto |
-| **DOWN** | Sposta il comando selezionato di una posizione verso il basso |
-| **CLEAR** | Cancella tutti i comandi presenti nella lista |
+| **DELETE** | Elimina el comando seleccionado de la lista |
+| **UP** | Mueve el comando seleccionado una posición hacia arriba |
+| **DOWN** | Mueve el comando seleccionado una posición hacia abajo |
+| **CLEAR** | Elimina todos los comandos presentes en la lista |
 
 :::{warning}
-Il pulsante **CLEAR** rimuove **tutti** i comandi dalla sequenza senza possibilità di recupero. Utilizzarlo con cautela.
+El botón **CLEAR** elimina **todos** los comandos de la secuencia sin posibilidad de recuperación. Utilícelo con precaución.
 :::
 
 ---
 
-## 5. Esecuzione della sequenza
+## 5. Ejecución de la secuencia
 
-In basso a destra sono presenti due pulsanti di esecuzione:
+En la parte inferior derecha hay dos botones de ejecución:
 
-| Pulsante | Campo affiancato | Funzione |
+| Botón | Campo contiguo | Función |
 |---|---|---|
-| **TEST SEQUENCE** | Tempo esecuzione (ms) | Esegue la sequenza una volta sola. Il campo a destra mostra la durata totale dell'ultima esecuzione in millisecondi |
-| **RUN** | — | Avvia la sequenza in modalità operativa continua (loop), in attesa dei trigger del sistema di visione |
+| **TEST SEQUENCE** | Tiempo de ejecución (ms) | Ejecuta la secuencia una sola vez. El campo de la derecha muestra la duración total de la última ejecución en milisegundos |
+| **RUN** | — | Inicia la secuencia en modo operativo continuo (bucle), a la espera de los disparos del sistema de visión |
 
 :::{note}
-Il campo **ms** affiancato a **TEST SEQUENCE** indica il tempo totale di esecuzione della sequenza completa. Nell'esempio mostrato il valore è **1140 ms**. Questo dato è utile per la sincronizzazione con il sistema di visione artificiale.
+El campo **ms** junto a **TEST SEQUENCE** indica el tiempo total de ejecución de la secuencia completa. En el ejemplo mostrado el valor es **1140 ms**. Este dato es útil para la sincronización con el sistema de visión artificial.
 :::
 
 :::{important}
-Prima di premere **RUN**, verificare che:
-- Il motore sia abilitato (**ENABLE MOTOR** attivo)
-- Lo stato del sistema sia **READY**
-- La sequenza contenga almeno un comando valido nella lista **Command Active**
+Antes de pulsar **RUN**, comprobar que:
+- el motor está habilitado (**ENABLE MOTOR** activo)
+- el estado del sistema es **READY**
+- la secuencia contiene al menos un comando válido en la lista **Command Active**
 :::

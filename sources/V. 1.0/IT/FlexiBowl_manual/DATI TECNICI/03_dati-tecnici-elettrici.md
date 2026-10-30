@@ -1,5 +1,5 @@
 (dati_elettrici)=
-# [ELE] **Dati Tecnici Elettrici**
+# **Dati Tecnici Elettrici**
 
 Di seguito sono riportati i parametri elettrici nominali applicabili a tutte le varianti della famiglia FlexiBowl® FB 3.0.
 

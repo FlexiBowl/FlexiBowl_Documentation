@@ -1,14 +1,14 @@
-# **Festplattenbereinigung**
+# **Reinigung der Scheibe**
 
 :::{warning}
-Disconnettere l'alimentazione elettrica prima di procedere con la pulizia.
+Vor der Reinigung die elektrische Stromversorgung trennen.
 :::
 
-Per la pulizia della superficie o del disco rigido procedere come segue:
+Zur Reinigung der Oberfläche oder der starren Scheibe wie folgt vorgehen:
 
-| Step | Operazione |
+| Schritt | Vorgang |
 |:----:|-----------|
-| 1 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 2 | Pulire la superficie o disco rigido utilizzando alcool o sgrassatore |
-| 3 | Pulire la superficie dove appoggia la superficie o disco rigido utilizzando dello sgrassatore |
-| 4 | A pulizia terminata, {ref}`rimontare la superficie o disco rigido <sost-disco>` |
+| 1 | {ref}`Oberfläche oder starre Scheibe entfernen <sost-disco>` |
+| 2 | Oberfläche oder starre Scheibe mit Alkohol oder Entfetter reinigen |
+| 3 | Die Fläche, auf der die Oberfläche bzw. die starre Scheibe aufliegt, mit Entfetter reinigen |
+| 4 | Nach Abschluss der Reinigung {ref}`die Oberfläche oder starre Scheibe wieder montieren <sost-disco>` |

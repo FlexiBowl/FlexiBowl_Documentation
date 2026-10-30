@@ -1,52 +1,62 @@
 (wedge)=
 # **Wedge Diverter**
 
-Il Wedge Diverter consiste in un dosso posizionato a monte dell'area di flip, sotto alla superficie per creare un rialzo che riporta i componenti in una zona in cui il flip possa essere più efficace.
+El Wedge Diverter consiste en un resalte situado antes de la zona de flip, bajo la superficie, para crear una elevación que devuelve los componentes a una zona en la que el flip pueda ser más eficaz.
 
-## Applicazioni consigliate 
+:::{figure} ../../../../_shared/media/images/wedge.PNG
+:width: 100%
+:align: center
+:::
 
-Soluzione da adottare per la movimentazione di componenti delicati che possono rompersi o deformarsi sotto l’azione del flip. È particolarmente indicato per pezzi che rotolano o scivolano facilmente. 
+## Aplicaciones recomendadas 
 
-## Procedura di montaggio
+Solución que se debe adoptar para la manipulación de componentes delicados que pueden romperse o deformarse por la acción del flip. Es especialmente adecuada para piezas que ruedan o se deslizan con facilidad.
+
+## Procedimiento de montaje
 
 :::{warning} Attenzione
-Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il montaggio.
+Asegurarse de que el FlexiBowl® esté **apagado y detenido** antes de proceder con el montaje.
+:::
+
+:::{figure} ../../../../_shared/media/images/wedgemount.PNG
+:width: 100%
+:align: center
 :::
 
 ### FB500: 
 
-| Step | Operazione |
+| Paso | Operación |
 |:----:|-----------|
-| 1 | Rimuovere le viti di fissaggio di entrambi i deviatori |
-| 2 | Svitare le viti di regolazione per rimuovere entrambi i deviatori |
-| 3 | Montare la cartuccia tappo al posto del deviatore post-flip |
-| 4 | Montare il gruppo wedge diverter al posto del deviatore pre-flip |
+| 1 | Retirar los tornillos de fijación de ambos desviadores |
+| 2 | Desenroscar los tornillos de regulación para retirar ambos desviadores |
+| 3 | Montar el cartucho tapón en lugar del desviador posterior al flip |
+| 4 | Montar el conjunto wedge diverter en lugar del desviador previo al flip |
 
 ### FB650-800: 
 
-| Step | Operazione |
+| Paso | Operación |
 |:----:|-----------|
-| 1 | Rimuovere le viti di fissaggio di entrambi i deviatori |
-| 2 | Svitare le viti di regolazione per rimuovere entrambi i deviatori |
-| 3 | Assicurandosi che siano presenti i dadi quadri, montare la cartuccia wedge diverter al posto del deviatore pre-flip |
-| 4 | Sostituire il settore di anello a monte del deviatore pre-flip con quello fornito nel kit |
-| 5 | Fissare la parete tramite quattro viti di fissaggio: due viti TCEI M6x120 si fissano in corrispondenza della cartuccia wedge diverter, mentre le due viti TCEI M6x160 si - fissano in corrispondenza del settore di anello appena montato |
+| 1 | Retirar los tornillos de fijación de ambos desviadores |
+| 2 | Desenroscar los tornillos de regulación para retirar ambos desviadores |
+| 3 | Asegurándose de que estén presentes las tuercas cuadradas, montar el cartucho wedge diverter en lugar del desviador previo al flip |
+| 4 | Sustituir el sector de anillo situado antes del desviador previo al flip por el suministrado en el kit |
+| 5 | Fijar la pared con los tornillos suministrados |
 
 ### FB1200: 
 
-| Step | Operazione |
+| Paso | Operación |
 |:----:|-----------|
-| 1 | Rimuovere le viti di fissaggio di entrambi i deviatori |
-| 2 | Svitare le viti di regolazione per rimuovere entrambi i deviatori |
-| 3 | Rimuovere il settore di anello su cui era montato il deviatore pre-flip e sostituirlo con il settore di anello incluso nel kit |
-| 4 | Montare la cartuccia tappo al posto del deviatore post-flip |
-| 5 | Assicurandosi che siano presenti i dadi quadri, montare la cartuccia wedge diverter al posto del deviatore pre-flip |
-| 6 | Fissare la parete tramite quattro viti di fissaggio: due viti TCEI M6x140 si fissano in corrispondenza della cartuccia wedge diverter, mentre le due viti TCEI M6x160 si fissano in corrispondenza del settore di anello appena montato |
+| 1 | Retirar los tornillos de fijación de ambos desviadores |
+| 2 | Desenroscar los tornillos de regulación para retirar ambos desviadores |
+| 3 | Retirar el sector de anillo sobre el que estaba montado el desviador previo al flip y sustituirlo por el sector de anillo incluido en el kit |
+| 4 | Montar el cartucho tapón en lugar del desviador posterior al flip |
+| 5 | Asegurándose de que estén presentes las tuercas cuadradas, montar el cartucho wedge diverter en lugar del desviador previo al flip |
+| 6 | Fijar la pared con los tornillos suministrados |
 
-## Procedura di regolazione 
+## Procedimiento de regulación 
 
-Il wedge diverter non necessita di regolazione 
+El wedge diverter no requiere regulación
 
-## Valutazione del corretto funzionamento 
+## Comprobación del correcto funcionamiento 
 
-Verificare il corretto scorrimento del disco sul wedge diverter.
+Antes de comenzar el uso regular del accesorio, comprobar que el disco se desliza correctamente sobre el wedge diverter.

@@ -1,7 +1,7 @@
-# [SOF] **FlexiBowl® Wizard**
+# **FlexiBowl® Wizard**
 
 
-The **FlexiBowl® Wizard** interface is an interactive tool designed to guide the user in configuring the feeding parameters according to the specific family of products to be handled.
+The **FlexiBowl® Wizard** interface is an interactive tool designed to guide the user in configuring the feeding parameters according to the specific product family to be handled.
 
 ![Wizard page](../../../../_shared/media/images/wizard_home_page.png)
 
@@ -9,21 +9,21 @@ The **FlexiBowl® Wizard** interface is an interactive tool designed to guide th
 
 :::{list-table}
 * - **1**
-  - To access the guided configuration of the FlexiBowl® parameters, simply click the **Wizard** page in the side menu. 
+  - To access the guided configuration of the FlexiBowl® parameters, simply click the **Wizard** page in the side menu.
 :::
 
 :::{note}
-The model and the direction of rotation of the FlexiBowl® are automatically detected by the software. 
+The FlexiBowl® model and direction of rotation are detected automatically by the software.
 :::
 
-## Step 1: Component Characterization
+## Step 1: Component characterization
 
-The system requires information on the morphology of the parts in order to optimize separation.
+The system requests information on the morphology of the parts in order to optimize separation.
 ````{list-table}
 * - **2**
   - Select the size of the component:
 
-    **For FlexiBowl models 200, 350, 500, 650:**
+    **For FlexiBowl 200, 350, 500, 650 models:**
 
     :::{card}
     <= 150mm
@@ -33,7 +33,7 @@ The system requires information on the morphology of the parts in order to optim
     &gt; 150mm
     :::
 
-    **For FlexiBowl models 800 and 1200:**
+    **For FlexiBowl 800 and 1200 models:**
 
     :::{card}
     <= 250mm
@@ -58,7 +58,7 @@ The system requires information on the morphology of the parts in order to optim
       * **Overlapping**: The parts tend to overlap.
       * **Not Overlapping**: The parts do not overlap.
       * **Tangling / Stacking**: The parts tend to hook together or stack.
-      * **Not Tangling / Not Stacking**: The parts remain separate and do not jam.
+      * **Not Tangling / Not Stacking**: The parts remain separate and do not interlock.
 
       ![Overlapping](../../../../_shared/media/videos/overlapping.gif)
 
@@ -78,7 +78,7 @@ The system requires information on the morphology of the parts in order to optim
       ::::
 ````
 
-## Step 2: Accessory Test
+## Step 2: Accessory test
 
 ```{list-table}
 * - **5**
@@ -88,15 +88,14 @@ The system requires information on the morphology of the parts in order to optim
 * - **7**
   - Select **USE** to enable it in the current application, otherwise click **DON'T USE**.
 * - **8**
-  - Click **TEST FLIP** to check that the striker is actually activated.
-      The "Flip" is the unit that generates the mechanical pulse to flip the parts, and it is essential for separating, untangling or turning over the components during the feeding cycle.
+  - Click **TEST FLIP** to verify that the striker actually activates. The "Flip" is the unit that generates the mechanical pulse used to turn the parts over, and it is essential for separating, untangling or flipping the components during the feeding cycle.
  
       :::{important}
-      If the pulse cannot be felt, check that the compressed air is connected and act on the mechanical pressure regulator located on the control panel.
+      If the pulse cannot be felt, check that the compressed air is connected and adjust the mechanical pressure regulator located on the control panel.
       :::
 * - **9**
   - At the end of the Wizard, click **FINISH**: the system will automatically calculate the parameters:
-    - Movement parameters (speed, acceleration, angle)
+    - Motion parameters (speed, acceleration, angle)
     - Shake parameters
     - Accessory timings (flip, blow)
 * - **10**
@@ -119,29 +118,29 @@ The system requires information on the morphology of the parts in order to optim
      - Parameters of the main movement of the disc.
    * - **Option**
      - Flip Count, Flip Delay, Blow Time
-     - Management of the accessory activation times.
+     - Management of the activation timings of the accessories.
    * - **Shake**
      - Accel, Speed, Angle CW/CCW
      - Parameters of the shaking vibration (separation).
 ```
 
-## Step 3: Sequence Validation
+## Step 3: Sequence validation
 
-Open the **Sequence** page and use the **TEST SEQUENCE** button to check that the cycle meets the following efficiency criteria:
+Open the **Sequence** page and use the **TEST SEQUENCE** button to verify that the cycle meets the following efficiency criteria:
 
 ```{list-table}
 :widths: 5 95
 :header-rows: 0
 
 * - **Synchronization**
-  - The Flip pulse must end exactly at the same instant in which the movement (*Move*) ends. Adjust the *Flip Count* and *Delay* values to align them.
+  - The Flip pulse must end at exactly the same instant as the movement (*Move*) ends. Adjust the *Flip Count* and *Delay* values to align them.
 
-* - **Image Stability**
-  - The components must be still at the moment the camera shot is taken.
-    - If the parts move, reduce speed/acceleration or insert a pause (e.g. `pause 200ms`).
+* - **Image stability**
+  - The components must be stationary at the moment the camera captures the image.
+    - If the parts are moving, decrease speed/acceleration or insert a pause (e.g. `pause 200ms`).
 
-* - **Part positioning during the sequence**
-  - During the movement, the parts must be conveyed towards the center of the radius of the FlexiBowl® to maximize the effectiveness of the Flip. At the end of the sequence, the parts must be arranged approximately in the center of the vision area.
+* - **Positioning of the parts during the sequence**
+  - During the movement, the parts must be conveyed toward the center of the radius of the FlexiBowl® to maximize the effectiveness of the Flip. At the end of the sequence, the parts must be arranged approximately in the center of the vision area.
 ```
 
 :::{warning}

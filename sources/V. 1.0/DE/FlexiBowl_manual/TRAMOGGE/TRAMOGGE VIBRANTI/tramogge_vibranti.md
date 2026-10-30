@@ -1,12 +1,12 @@
-# **Vibrationstrichter**
+# **Bulk Feeder**
 
-## Cosa è una tramoggia vibrante?
-La tramoggia vibrante è un dispositivo industriale di stoccaggio e alimentazione progettato per contenere componenti e dosarli in modo continuo e uniforme verso il FlexiBowl.
+## Was ist ein Bulk Feeder?
+Der Vibrations-Bulk-Feeder ist ein industrielles Speicher- und Zuführgerät, das dafür ausgelegt ist, Bauteile aufzunehmen und kontinuierlich und gleichmäßig zum FlexiBowl zu dosieren.
 
-## Navigare il Manuale
-Questo manuale è strutturato come un vero e proprio workflow sequenziale pensato per accompagnare i tecnici, gli installatori e gli operatori attraverso tutte le fasi di vita del macchinario.
+## Navigation durch das Handbuch
+Dieses Handbuch ist als echter sequenzieller Workflow aufgebaut, der Techniker, Installateure und Bediener durch alle Lebensphasen der Maschine führt.
 
-Ecco ciascuna delle pagine: 
+Hier sind die einzelnen Seiten:
 
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
@@ -142,10 +142,10 @@ Ecco ciascuna delle pagine:
     </div>
     <div class="qs-card">
       <div class="qs-card-title">
-        <a class="qs-title-link" href="info_preliminari.html">Informazioni Preliminari</a>
+        <a class="qs-title-link" href="info_preliminari.html">Vorabinformationen</a>
       </div>
       <p class="qs-card-desc">
-        Contiene informazioni importanti come le avvertenze generali sulla sicurezza e i criteri di qualificazione dell'operatore, insieme ai dati di identificazione ufficiale del costruttore e della marcatura CE. Definisce in modo chiaro e vincolante i limiti d'uso previsti della tramoggia (scopo e campo di applicazione) e l'elenco degli usi non consentiti o potenzialmente pericolosi.
+        Enthält wichtige Informationen wie die allgemeinen Sicherheitshinweise und die Qualifikationskriterien für Bediener sowie die offiziellen Identifikationsdaten des Herstellers und der CE-Kennzeichnung. Es definiert klar und verbindlich die vorgesehenen Einsatzgrenzen des Bulk Feeders (Zweck und Anwendungsbereich) und die Liste der nicht zulässigen oder potenziell gefährlichen Verwendungen.
       </p>
     </div>
   </div>
@@ -158,10 +158,10 @@ Ecco ciascuna delle pagine:
     </div>
     <div class="qs-card">
       <div class="qs-card-title">
-        <a class="qs-title-link" href="descrizione_macchina.html">Descrizione Macchina </a>
+        <a class="qs-title-link" href="descrizione_macchina.html">Maschinenbeschreibung </a>
       </div>
       <p class="qs-card-desc">
-       Al suo interno sono descritti i gruppi principali che compongono la struttura, insieme alle schede dei dati tecnici nominali (dimensioni, pesi, tensioni e capacità di carico) utili per comprendere i limiti prestazionali del sistema.
+       Es beschreibt die Hauptbaugruppen der Struktur sowie die Datenblätter mit den technischen Nenndaten (Abmessungen, Gewichte, Spannungen und Tragfähigkeit), die zum Verständnis der Leistungsgrenzen des Systems nützlich sind.
       </p>
     </div>
   </div>
@@ -174,10 +174,10 @@ Ecco ciascuna delle pagine:
     </div>
     <div class="qs-card">
       <div class="qs-card-title">
-        <a class="qs-title-link" href="trasporto_installazione.html">Trasporto e Installazione </a>
+        <a class="qs-title-link" href="trasporto_installazione.html">Transport und Installation </a>
       </div>
       <p class="qs-card-desc">
-        Specifica le linee guida per la ricezione e il disimballo del macchinario, le procedure per il sollevamento e la movimentazione sicura dei pesi nell'area di lavoro, e i requisiti meccanici per il corretto fissaggio e livellamento della tramoggia sulla struttura di supporto.
+        Legt die Richtlinien für den Empfang und das Auspacken der Maschine fest, die Verfahren für das sichere Heben und Bewegen von Lasten im Arbeitsbereich sowie die mechanischen Anforderungen für die korrekte Befestigung und Nivellierung des Bulk Feeders auf der Tragstruktur.
       </p>
     </div>
   </div>
@@ -190,10 +190,10 @@ Ecco ciascuna delle pagine:
     </div>
     <div class="qs-card">
       <div class="qs-card-title">
-        <a class="qs-title-link" href="controller_cablaggio.html">Controller e Cablaggio</a>
+        <a class="qs-title-link" href="controller_cablaggio.html">Steuerung und Verdrahtung</a>
       </div>
       <p class="qs-card-desc">
-        Illustra gli schemi elettrici e le modalità di interconnessione tra l'elettromagnete della tramoggia e l'unità di controllo esterna, definendo la configurazione dei segnali logici, la taratura delle frequenze di vibrazione e l'interfaccia con i PLC di linea.
+        Erläutert die Schaltpläne und die Verschaltung zwischen dem Elektromagneten des Bulk Feeders und der externen Steuereinheit, einschließlich der Konfiguration der Logiksignale, der Einstellung der Vibrationsfrequenzen und der Schnittstelle zu den SPS der Linie.
       </p>
     </div>
   </div>
@@ -206,10 +206,10 @@ Ecco ciascuna delle pagine:
     </div>
     <div class="qs-card">
       <div class="qs-card-title">
-        <a class="qs-title-link" href="manutenzione.html">Manutenzione e Risoluzione Problemi </a>
+        <a class="qs-title-link" href="manutenzione.html">Wartung und Fehlerbehebung </a>
       </div>
       <p class="qs-card-desc">
-       Riporta il piano dei controlli periodici (pulizia, serraggi strutturali), le procedure di taratura meccanica avanzata — come la regolazione millimetrica del traferro dello statore — e le tabelle diagnostiche per l'isolamento e la risoluzione rapida dei guasti.
+       Enthält den Plan der regelmäßigen Kontrollen (Reinigung, strukturelle Verschraubungen), die Verfahren zur erweiterten mechanischen Einstellung – etwa die millimetergenaue Einstellung des Statorluftspalts – und die Diagnosetabellen zur Eingrenzung und schnellen Behebung von Störungen.
       </p>
     </div>
   </div>
@@ -221,10 +221,10 @@ Ecco ciascuna delle pagine:
     </div>
     <div class="qs-card">
       <div class="qs-card-title">
-        <a class="qs-title-link" href="smaltimento_appendici.html">Messa fuori servizio e Smaltimento </a>
+        <a class="qs-title-link" href="smaltimento_appendici.html">Außerbetriebnahme und Entsorgung </a>
       </div>
       <p class="qs-card-desc">
-       Descrive le misure di sicurezza necessarie per l'arresto e l'immagazzinamento della tramoggia nei periodi di inattività prolungata, insieme alle procedure di smontaggio e ai requisiti ambientali (Direttiva RAEE) per il riciclo controllato dei materiali a fine vita.
+       Beschreibt die erforderlichen Sicherheitsmaßnahmen für das Stilllegen und Einlagern des Bulk Feeders bei längerem Stillstand sowie die Demontageverfahren und die Umweltanforderungen (WEEE-Richtlinie) für das kontrollierte Recycling der Materialien am Lebensende.
       </p>
     </div>
   </div>
@@ -238,4 +238,5 @@ trasporto_installazione.md
 controller_cablaggio.md
 manutenzione.md
 smaltimento_appendici.md
+accessori_opzioni.md
 :::

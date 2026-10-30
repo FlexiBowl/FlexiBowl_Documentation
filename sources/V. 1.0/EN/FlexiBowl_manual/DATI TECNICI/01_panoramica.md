@@ -104,26 +104,25 @@ The FlexiBowl® consists of the following main parts:
 <script>
 (function(){
 
-  /* ── component data ── */
+  /* ── dati componenti ── */
   var models = {
     fb650: {
       imgPath: '../../../../_shared/media/images/component_',
       imgDefault: '../../../../_shared/media/images/component_default.PNG',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'Cables',                       desc:'Electrical connections between the various functional parts of the FlexiBowl\u00ae.'},
-        {n:2,  name:'Pneumatic assembly',           desc:'Supplies the flip assembly and any blows.'},
-        {n:3,  name:'Motor assembly',               desc:'Allows the surface or rigid disc to rotate.'},
-        {n:4,  name:'Containment ring',      desc:'Made up of several sectors, it prevents parts from spilling out during operation. It also holds the diverters when no accessories are fitted.'},
-        {n:5,  name:'Backlight',                   desc:'Backlights the vision area to highlight the outlines of the parts.'},
-        {n:6,  name:'Flip screen',                desc:'Prevents parts from spilling out during flipping.'},
-        {n:7,  name:'Cover',                      desc:'Contains and protects the internal elements. Protects the user from exposure to electrical voltage and moving components.'},
-        {n:8,  name:'Flip assembly',                 desc:'Striker driven by a pneumatic half-slide (350\u20131200) or a pneumatic cylinder (200). It generates a pulse to flip the objects before the vision window.'},
-        {n:9,  name:'Frame',                      desc:'It is the supporting structure of the FlexiBowl\u00ae.'},
-        {n:10, name:'Electronics assembly',          desc:'Includes all the control electronics of the FlexiBowl\u00ae.'},
-        {n:11, name:'Connector panel',         desc:'Includes all the electrical and pneumatic connections.'},
-        {n:12, name:'Surface / disc support', desc:'Holds the surface or rigid disc firmly fixed to the motor assembly.'},
-        {n:13, name:'Cover plates',        desc:'Allow easy access to the internal components for maintenance.'}
+//        {n:1,  name:'Pneumatic unit',           desc:'They supply the flip unit and any blow-off nozzles.'},
+//        {n:2,  name:'Motor unit',               desc:'Allows the surface or rigid disc to rotate.'},
+        {img:3,  name:'Containment ring',      desc:'Made up of several sectors, it prevents parts from escaping during operation. It also houses the diverters when no accessories are fitted.'},
+//        {img:4,  name:'Backlight',                   desc:'Backlights the vision area to highlight the outlines of the parts.'},
+        {img:5,  name:'Flip screen',                desc:'Prevents parts from escaping during flipping.'},
+        {img:6,  name:'Cover',                      desc:'Houses and protects the internal parts. Protects the user from exposure to electrical voltage and moving components.'},
+//        {img:7,  name:'Flip unit',                 desc:'Striker driven by a pneumatic mini-slide (350–1200) or a pneumatic cylinder (200). It generates an impulse that flips the objects before the vision window.'},
+//        {n:8,  name:'Frame',                      desc:'It is the load-bearing structure of the FlexiBowl®.'},
+//        {n:9, name:'Electronics unit',          desc:'Includes all the control electronics of the FlexiBowl®.'},
+//        {n:10, name:'Connector panel',         desc:'Includes all electrical and pneumatic connections.'},
+        {img:11, name:'Surface / disc support', desc:'Holds the surface or rigid disc firmly attached to the motor unit.'},
+//        {n:12, name:'Cover plates',        desc:'Allow easy access to the internal components for maintenance.'}
       ]
     },
     fb350: {
@@ -131,17 +130,17 @@ The FlexiBowl® consists of the following main parts:
       imgDefault: '../../../../_shared/media/images/FB350-0.PNG',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'Cables and extensions',  desc:'The electronic connections between the various internal components of the FlexiBowl\u00ae.'},
-        {n:2,  name:'Pneumatic assembly', desc:'Supplies the flip assembly and the blows.'},
-        {n:3,  name:'Motor assembly',     desc:'Allows the rigid disc to rotate.'},
-        {n:4,  name:'Disc',             desc:'<a href="../ACCESSORI/02_DISCHI_RIGIDI.html">See the dedicated paragraph</a>.'},
-        {n:5,  name:'Backlight',         desc:'Backlights the vision area to highlight the outlines of the parts.'},
-        {n:6,  name:'Flip screen',      desc:'Prevents parts from spilling out during flipping. It also includes the <a href="../ACCESSORI/05_DEVIATORE.html">diverters</a> and the <a href="../ACCESSORI/06-4_INTEGRATI.html">blows</a>.'},
-        {n:7,  name:'Cover',            desc:'Contains and protects the internal elements. Protects the user from exposure to electrical voltage and moving components.'},
-        {n:8,  name:'Flip assembly',       desc:'Striker driven by a pneumatic cylinder (200). It generates a pulse to flip the objects before the vision window.'},
-        {n:9,  name:'Frame',            desc:'It is the supporting structure of the FlexiBowl\u00ae.'},
-        {n:10, name:'Disc support',    desc:'Holds the rigid disc firmly fixed to the motor assembly.'},
-        {n:11, name:'Rack',              desc:'Contains all the electronics of the FlexiBowl\u00ae.'}
+        {img:1,  name:'Cables and extensions',  desc:'They are the electronic connections between the various internal components of the FlexiBowl®.'},
+//        {n:2,  name:'Pneumatic unit', desc:'Supplies the flip unit and the blow-off nozzles.'},
+//        {n:3,  name:'Motor unit',     desc:'Allows the rigid disc to rotate.'},
+        {img:4,  name:'Disc',             desc:'<a href="../ACCESSORI/02_DISCHI_RIGIDI.html">See the dedicated section</a>.'},
+//        {n:5,  name:'Backlight',         desc:'Backlights the vision area to highlight the outlines of the parts.'},
+        {img:6,  name:'Flip screen',      desc:'Prevents parts from escaping during flipping. Also includes the <a href="../ACCESSORI/06-4_INTEGRATI.html">blow-off nozzles</a>.'},
+        {img:7,  name:'Cover',            desc:'Houses and protects the internal parts. Protects the user from exposure to electrical voltage and moving components.'},
+//        {n:8,  name:'Flip unit',       desc:'Striker driven by a pneumatic cylinder (200). It generates an impulse that flips the objects before the vision window.'},
+//        {n:9,  name:'Frame',            desc:'It is the load-bearing structure of the FlexiBowl®.'},
+        {img:10, name:'Disc support',    desc:'Holds the rigid disc firmly attached to the motor unit.'},
+        {img:11, name:'Rack',              desc:'Houses all the electronics of the FlexiBowl®.'}
       ]
     },
     fb200: {
@@ -149,25 +148,32 @@ The FlexiBowl® consists of the following main parts:
       imgDefault: '../../../../_shared/media/images/FB200-0.PNG',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'Cables and extensions',  desc:'The electronic connections between the various internal components of the FlexiBowl\u00ae.'},
-        {n:2,  name:'Pneumatic assembly', desc:'Supplies the flip assembly and the blows.'},
-        {n:3,  name:'Motor assembly',     desc:'Allows the rigid disc to rotate.'},
-        {n:4,  name:'Disc',             desc:'<a href="../ACCESSORI/02_DISCHI_RIGIDI.html">See the dedicated paragraph</a>.'},
-        {n:5,  name:'Backlight',         desc:'Backlights the vision area to highlight the outlines of the parts.'},
-        {n:6,  name:'Flip screen',      desc:'Prevents parts from spilling out during flipping. It also includes the <a href="../ACCESSORI/06-4_INTEGRATI.html">blows</a>.'},
-        {n:7,  name:'Cover',            desc:'Contains and protects the internal elements. Protects the user from exposure to electrical voltage and moving components.'},
-        {n:8,  name:'Flip assembly',       desc:'Striker driven by a pneumatic cylinder (200). It generates a pulse to flip the objects before the vision window.'},
-        {n:9,  name:'Frame',            desc:'It is the supporting structure of the FlexiBowl\u00ae.'},
-        {n:10, name:'Rack',              desc:'Contains all the electronics of the FlexiBowl\u00ae.'}
+        {img:1,  name:'Cables and extensions',  desc:'They are the electronic connections between the various internal components of the FlexiBowl®.'},
+//        {n:2,  name:'Pneumatic unit', desc:'Supplies the flip unit and the blow-off nozzles.'},
+//        {n:3,  name:'Motor unit',     desc:'Allows the rigid disc to rotate.'},
+        {img:4,  name:'Disc',             desc:'<a href="../ACCESSORI/02_DISCHI_RIGIDI.html">See the dedicated section</a>.'},
+//        {n:5,  name:'Backlight',         desc:'Backlights the vision area to highlight the outlines of the parts.'},
+        {img:6,  name:'Flip screen',      desc:'Prevents parts from escaping during flipping. Also includes the <a href="../ACCESSORI/06-4_INTEGRATI.html">blow-off nozzles</a>.'},
+        {img:7,  name:'Cover',            desc:'Houses and protects the internal parts. Protects the user from exposure to electrical voltage and moving components.'},
+//        {n:8,  name:'Flip unit',       desc:'Striker driven by a pneumatic cylinder (200). It generates an impulse that flips the objects before the vision window.'},
+//        {n:9,  name:'Frame',            desc:'It is the load-bearing structure of the FlexiBowl®.'},
+        {img:10, name:'Rack',              desc:'Houses all the electronics of the FlexiBowl®.'}
       ]
     }
   };
 
-  /* ── state per model ── */
+  Object.keys(models).forEach(function(id){
+  models[id].comps.forEach(function(c, i){
+    if (c.img === undefined) c.img = c.n;
+    c.n = i + 1;
+  });
+});
+
+  /* ── stato per modello ── */
   var state = {};
   Object.keys(models).forEach(function(id){ state[id]={activeN:null,activeRow:null}; });
 
-  /* ── builds the lists ── */
+  /* ── costruisce le liste ── */
   Object.keys(models).forEach(function(id){
     var m   = models[id];
     var el  = document.getElementById(id+'-list');
@@ -182,7 +188,7 @@ The FlexiBowl® consists of the following main parts:
     });
   });
 
-  /* ── toggle component ── */
+  /* ── toggle componente ── */
   function toggle(id, c, row){
     var s       = state[id];
     var m       = models[id];
@@ -210,7 +216,7 @@ The FlexiBowl® consists of the following main parts:
       imgBase.style.opacity = '1';
       imgHl.style.opacity = '0';
     };
-    newImg.src = m.imgPath + c.n + m.imgExt;
+    newImg.src = m.imgPath + c.img + m.imgExt;   // <-- c.img, non c.n
   }
 
   /* ── reset ── */
@@ -233,7 +239,7 @@ The FlexiBowl® consists of the following main parts:
 
   /* ── switch tab ── */
   window.fbSwitchTab = function(id, btn){
-    /* reset the currently active panel before switching */
+    /* resetta il pannello attualmente attivo prima di cambiare */
     document.querySelectorAll('.fb-panel.on').forEach(function(p){
       var oldId = p.id.replace('fb-panel-','');
       reset(oldId);
@@ -254,14 +260,14 @@ The FlexiBowl® consists of the following main parts:
 This section describes the contents of the **FlexiBowl® 3.0** package and the standard components supplied with the unit.
 
 :::{important}
-Before proceeding with the installation, check that all the components listed in this section are present in the package. In case of missing or damaged components, contact [Technical Support](support) before putting the device into operation.
+Before proceeding with the installation, verify that all components listed in this section are present in the package. In case of missing or damaged components, contact [Technical Support](support) before putting the device into operation.
 :::
 
 ---
 
 ### 1. Package contents
 
-The package contains the **FlexiBowl®** and all the standard connection adapters:
+Inside the package are the **FlexiBowl®** and all standard connection adapters:
 
 ```{list-table}
 :header-rows: 1
@@ -271,7 +277,7 @@ The package contains the **FlexiBowl®** and all the standard connection adapter
   - Description
   - Image
 * - **Power connector**
-  - Fitted with a locking clip, which prevents accidental disconnection
+  - Equipped with a locking clip that prevents accidental disconnection
   - :::{image} ../../../../_shared/media/images/connettore_power.png
     :width: 100%
     :::
@@ -280,22 +286,22 @@ The package contains the **FlexiBowl®** and all the standard connection adapter
   - :::{image} ../../../../_shared/media/images/connettore_STO.png
     :width: 100%
     :::
-* - **Connettore M12 D-code**
+* - **M12 D-code connector**
   - Used for Ethernet communication between the FlexiBowl® and the system
   - :::{image} ../../../../_shared/media/images/connettore_ethernet.png
     :width: 100%
     :::
-* - **Connettore M12 A-code**
-  - Used for Modbus RTU communication with the hopper controller
+* - **M12 A-code connector**
+  - Used for Modbus RTU communication with the Bulk Feeder controller
   - :::{image} ../../../../_shared/media/images/connettore_hopper.png
     :width: 100%
     :::
 * - **USB flash drive**
-  - Contains the unit's manuals and its individual test report
+  - Contains the unit manuals and its individual test report
   - —
 ```
 :::{note}
-The connection cables can be purchased separately as an option in 3, 5 or 10 meter lengths. 
+Connection cables can be purchased separately as an option in 3, 5 or 10 meters: see {ref}`Connection cables <cavi>`.
 :::
 
 ---
@@ -314,7 +320,7 @@ The connection cables can be purchased separately as an option in 3, 5 or 10 met
   - :::{image} ../../../../_shared/media/images/FB350.png
     :width: 100%
     :::
-  - Also includes the **rack** and its **connection cables**, needed for the external electronics. The included cables, 3 m long, allow all the connections between rack and FlexiBowl® to be made. 5/10 meter cables are available as an option. 
+  - Also includes the **rack** and the related **connection cables**, required for the external electronics. The included cables, 3 m long, allow all connections between rack and FlexiBowl® to be made. 5/10 meter versions are available as an option ({ref}`see rack cables <cavo-rack>`).
     :::{image} ../../../../_shared/media/images/rack.png
     :width: 100%
     :::
@@ -322,7 +328,7 @@ The connection cables can be purchased separately as an option in 3, 5 or 10 met
   - :::{image} ../../../../_shared/media/images/FB650.png
     :width: 100%
     :::
-  - Do not require the external connection rack: the electronics are integrated directly in the unit
+  - Do not require the external connection rack: the electronics are integrated directly into the unit
 ```
 
 
@@ -334,7 +340,7 @@ The connection cables can be purchased separately as an option in 3, 5 or 10 met
 :align: center
 ```
 
-The rear panel of the rack groups all the connection points described in the previous paragraph: power supply (**POWER SUPPLY**), Safe Torque Off (**STO**), motor (**MOTOR**), Ethernet to the system (**C-ETH IN**) and to the FlexiBowl® (**C-ETH FB**), hopper (**HOPPER**) and encoder signals (**C-A SIGNAL**, **C-B SIGNAL**).
+The rear panel of the rack groups all the connection points described in the previous paragraph: power supply (**POWER SUPPLY**), Safe Torque Off (**STO**), motor (**MOTOR**), Ethernet to the system (**C-ETH IN**) and to the FlexiBowl® (**C-ETH FB**), Bulk Feeder (**HOPPER**) and encoder signals (**C-A SIGNAL**, **C-B SIGNAL**).
 
 :::{note}
 For details on the positioning and connection of the rack, refer to the [Mechanical Installation](mech_install) section.
@@ -347,7 +353,8 @@ For details on the positioning and connection of the rack, refer to the [Mechani
 
 The USB flash drive supplied contains:
 
-- The unit's **manuals** (offline version of the documentation)
-- The individual **test report** of the FlexiBowl® purchased
+- The unit **manuals** (offline version of the documentation)
+- The individual **test report** of the purchased FlexiBowl®
+
 
 

@@ -1,1 +1,1 @@
-# **Solución de problemas eléctricos**
+# **Resolución de problemas eléctricos**

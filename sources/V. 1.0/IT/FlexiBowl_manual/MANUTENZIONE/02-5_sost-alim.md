@@ -1,1 +1,1 @@
-# [ELE] **Sostituzione Alimentatori**
+# **Sostituzione Alimentatori**

@@ -1,8 +1,7 @@
 (digIO)=
-# Digital I/O
+# **Digital I/O**
 
-La comunicazione con I/O digitali è un'opzione acquistabile e non fa parte del FlexiBowl® standard. 
-Il connettore di ingresso della nuova generazione di FlexiBowl® supporta segnali digitali e analogici per l'integrazione diretta con un PLC senza necessità di comunicazione Ethernet.
+La comunicazione con I/O digitali è un'opzione acquistabile e non fa parte del FlexiBowl® standard. Il connettore di ingresso della nuova generazione di FlexiBowl® supporta segnali digitali e analogici per l'integrazione diretta con un PLC senza necessità di comunicazione Ethernet.
 
 ### Ingressi disponibili sul connettore principale
 
@@ -21,15 +20,15 @@ Il connettore di ingresso della nuova generazione di FlexiBowl® supporta segnal
 | Opzione | Strobe Backlight + / − | — | — | Comando strobe backlight esterno (protezione con diodo e fusibile richiesta) |
 | Opzione | Strobe Backlight 2+ / 2− | — | — | Comando strobe backlight esterno secondario |
 
-### Connettore STO (Safety Torque Off)
+### Connettore STO (Safe Torque Off)
 
 Il connettore STO è dedicato alla funzione di sicurezza per l'arresto del motore:
 
 | Pin | Segnale | Descrizione |
 |---|---|---|
-| 1 | STO1+ | Safety Torque Off 1 |
+| 1 | STO1+ | Safe Torque Off 1 |
 | 2 | STO1- | Ritorno STO1 |
-| 3 | STO2+ | Safety Torque Off 2 |
+| 3 | STO2+ | Safe Torque Off 2 |
 | 4 | STO2- | Ritorno STO2 |
 | 5 | 24V | Alimentazione |
 | 6 | 0V | Massa |
@@ -70,55 +69,3 @@ I 5 bit di ingresso digitale formano una parola binaria a 5 cifre che identifica
 :::{tip}
 Esempio: per eseguire la Sequenza 5, impostare Bit1=1, Bit2=0, Bit3=1, Bit4=0, Bit5=0 (codice binario `00101`) e poi inviare un fronte di salita su **Latch**.
 :::
-
----
-
-### Schema ConfigIO — Configurazione PLC 
-
-Il seguente schema descrive la configurazione tipica di un PLC Wago utilizzato per il controllo del FlexiBowl® tramite Digital I/O.
-
-**Hardware utilizzato:**
-- CPU: PFC300, 2× Ethernet, RS-485
-- Moduli I/O digitali: 8DI/8DO (750-1502) — 2 moduli
-- Modulo ingressi analogici: 0–10V (750-467)
-- Modulo uscite analogiche: 0–10V (750-550)
-
-#### Ingressi digitali (DI) — Modulo 1
-
-| DI | Descrizione |
-|---|---|
-| 1 | Bit 1 — Seg. Cmd |
-| 2 | Bit 2 — Seg. Cmd |
-| 3 | Bit 3 — Seg. Cmd |
-| 4 | Bit 4 — Seg. Cmd |
-| 5 | Latch |
-| 6 | Empty Sensor |
-| 7 | Zeroing |
-| 8 | Spare |
-
-#### Uscite digitali (DO) — Modulo 1
-
-| DO | Descrizione |
-|---|---|
-| 1 | Backlight 1 & 2 |
-| 2 | Ready Led + Sgn |
-| 3 | Fault Led + Sgn |
-| 4 | Busy Sgn |
-| 5 | Flip 1 Comando |
-| 6 | Blow 1 Comando |
-| 7 | Blow 2 Comando |
-| 8 | Cmd Slitta Empty |
-
-#### Ingressi analogici (AI)
-
-| AI | Descrizione |
-|---|---|
-| 1 | Feedback Elv. Flip |
-| 2 | Feedback Elv. Blow |
-
-#### Uscite analogiche (AO)
-
-| AO | Descrizione |
-|---|---|
-| 1 | Regol. Elv. Flip |
-| 2 | Regol. Elv. Blow |

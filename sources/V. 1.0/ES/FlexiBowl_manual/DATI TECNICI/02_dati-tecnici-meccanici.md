@@ -1,3 +1,4 @@
+(dati_meccanici)=
 # **Datos técnicos mecánicos**
 
 ## FlexiBowl® 200
@@ -13,7 +14,7 @@
 :widths: 20 40
 
 
-* - Riferimento
+* - Referencia
   - FlexiBowl® 200
 
 * - A
@@ -46,10 +47,10 @@
 * - J
   - —
 
-* - Backlight Area
+* - Zona de backlight
   - 9438 mm²
 
-* - Peso netto
+* - Peso neto
   - 7 kg
 
 :::
@@ -67,7 +68,7 @@
 :widths: 20 40
 
 
-* - Riferimento
+* - Referencia
   - FlexiBowl® 350
 
 * - A
@@ -103,10 +104,10 @@
 * - K
   - —
 
-* - Backlight Area
+* - Zona de backlight
   - 18547 mm²
 
-* - Peso netto
+* - Peso neto
   - 14 kg
 
 :::
@@ -124,7 +125,7 @@
 :align: center
 :widths: 20 40 40 40 40 40
 
-* - Riferimento
+* - Referencia
   - FlexiBowl® 500
   - FlexiBowl® 500E
   - FlexiBowl® 650
@@ -167,7 +168,7 @@
   - 470 mm
 
 * - F
-  - 275 
+  - 275
   - 275 mm
   - 314.50 mm
   - 342 mm
@@ -208,14 +209,14 @@
   - 100 mm
   - 100 mm
 
-* - Backlight Area
+* - Zona de backlight
   - 44611 mm²
   - 44611 mm²
   - 93663 mm²
   - 155804 mm²
   - 412944 mm²
 
-* - Peso netto
+* - Peso neto
   - 35 kg
   - 35 kg
   - 51 kg
@@ -224,7 +225,7 @@
 
 :::
 
-## Scatola rack per FlexiBowl®200-350
+## Caja del rack para FlexiBowl® 200-350
 
 ::: {figure} ../../../../_shared/media/images/dimrack.png
 :align: center
@@ -237,8 +238,8 @@
 :widths: 20 40
 
 
-* - Riferimento
-  - Scatola rack
+* - Referencia
+  - Caja del rack
 
 * - A
   - 483 mm
@@ -255,7 +256,11 @@
 * - E
   - 307 mm
 
-* - Peso netto
+* - Peso neto
   - 10 kg
 
+:::
+
+:::{note}
+El rack externo para FlexiBowl® 200 y 350 es de tipo estándar **3U**.
 :::

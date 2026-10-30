@@ -1,85 +1,76 @@
 (smaltimento)=
-# **Eliminación y fin de la vida útil**
+# **Eliminación y fin de vida útil**
 
 :::{warning}
-Le operazioni di messa fuori servizio e smantellamento devono essere affidate a personale specializzato in tali attività. In 
-particolare, solo la persona preposta alla fase di smantellamento e allo smaltimento a fine vita può effettuare: 
-- attività di scollegamento meccanico ed elettrico delle parti secondo le istruzioni di smontaggio e schemi di 
-progetto. 
-- attività di trasporto delle parti dalla posizione di impianto al centro di smaltimento per la separazione delle 
-parti.
+Las operaciones de puesta fuera de servicio y desmantelamiento deben encomendarse a personal especializado en dichas actividades. En particular, solo la persona encargada de la fase de desmantelamiento y de la eliminación al final de la vida útil puede realizar:
+- la desconexión mecánica y eléctrica de las partes según las instrucciones de desmontaje y los esquemas de proyecto.
+- el transporte de las partes desde el lugar de la instalación hasta el centro de eliminación para la separación de las partes.
 :::
 
-I materiali di cui è costituita la macchina sono essenzialmente:  
-- acciaio ferritico verniciato, plastificato o galvanizzato;  
-- acciaio inox serie 300/400;  
-- materiale plastico in polietilene; 
-- elastomeri, PTFE, grafite;  
-- olio per ingranaggi; 
-- grasso per la lubrificazione;  
-- motori elettrici;  
-- cavi elettrici con relative guaine;  
-- dispositivi elettronici di controllo e attuazione.  
-- ecc. 
+Los materiales de los que está formada la máquina son esencialmente:
+- acero ferrítico pintado, plastificado o galvanizado;
+- acero inoxidable de las series 300/400;
+- material plástico de polietileno;
+- elastómeros, PTFE, grafito;
+- aceite para engranajes;
+- grasa de lubricación;
+- motores eléctricos;
+- cables eléctricos con sus fundas;
+- dispositivos electrónicos de control y accionamiento.
+- etc.
 
 :::{important}
-La macchina non contiene componenti o sostanze pericolose che necessitano di procedure particolari di 
-rimozione.
+La máquina no contiene componentes o sustancias peligrosas que requieran procedimientos especiales de retirada.
 :::
 
-## Messa fuori servizio
+## Puesta fuera de servicio
 
-Se il FlexiBowl® non deve essere utilizzato per un lungo periodo si rende necessario porlo in sicurezza ed immagazzinarlo. 
-Procedere come descritto:
+Si el FlexiBowl® no va a utilizarse durante un largo periodo, es necesario ponerlo en condiciones seguras y almacenarlo. Proceda como se describe:
 
 :::{list-table}
 :widths: 15 60
 :header-rows: 1
 
-* - Step
-  - Operazione
+* - Paso
+  - Operación
 
 * - 1
-  - Scollegare l’alimentazione di energia elettrica.
+  - Desconecte la alimentación de energía eléctrica.
 
 * - 2
-  - Scollegare l’alimentazione di energia pneumatica.
+  - Desconecte la alimentación de energía neumática.
 
 * - 3
-  - Proteggere le apparecchiature elettriche particolarmente soggette all’usura del tempo e della polvere.
+  - Proteja los equipos eléctricos, particularmente expuestos al desgaste del tiempo y al polvo.
 
 :::
 
 :::{important}
-Per quanto riguarda la messa fuori servizio delle macchine provenienti da fornitori esterni, si rimanda ai manuali 
-sub-fornitori delle macchine stesse, allegati al presente manuale.
+Para la puesta fuera de servicio de las máquinas procedentes de proveedores externos, consulte los manuales de los subproveedores de dichas máquinas, adjuntos a este manual.
 :::
 
-## **Smaltimento responsabile**
+## **Eliminación responsable**
 
 :::{warning}
-Disconnettere l’alimentazione elettrica e l’alimentazione pneumatica della macchina. 
+Desconecte la alimentación eléctrica y la alimentación neumática de la máquina.
 :::
 
 :::{warning}
-Per il disassemblaggio di parti da commercio o di materiale di sub-fornitura che fanno parte della macchina fornita da ARS S.r.l. si prega di fare riferimento al relativo manuale del fornitore. 
+Para el desmontaje de piezas comerciales o de material de subproveedores que formen parte de la máquina suministrada por ARS S.r.l., consulte el manual del proveedor correspondiente.
 :::
 
-La demolizione della macchina deve essere affidata a personale qualificato, ciascuno per quanto di competenza.  Quando si intende smaltire la macchina si deve provvedere alla sua messa in sicurezza.
-Ai sensi della Direttiva “RAEE” 2012/19/UE se il componente/apparecchiatura acquistata e contrassegnata con il seguente simbolo 
-del contenitore di spazzatura su ruote barrato, significa che il prodotto alla fine della propria vita utile deve essere raccolto 
-separatamente dagli altri rifiuti. 
+El desguace de la máquina debe encomendarse a personal cualificado, cada uno dentro de su ámbito de competencia. Cuando se desee eliminar la máquina, debe ponerse en condiciones seguras. Conforme a la Directiva «RAEE» 2012/19/UE, si el componente/equipo adquirido lleva el siguiente símbolo del contenedor de basura con ruedas tachado, significa que al final de su vida útil el producto debe recogerse por separado de los demás residuos.
 
 :::{warning}
-Quando il prodotto raggiunge la fine del suo ciclo di vita, deve essere smaltito in conformità con le normative vigenti relative ai rifiuti di apparecchiature elettriche ed elettroniche (RAEE/WEEE). Si rammenta l’osservanza delle leggi vigenti in materia di smaltimento nel paese di installazione della macchina. 
+Cuando el producto llegue al final de su ciclo de vida, debe eliminarse de conformidad con la normativa vigente sobre residuos de aparatos eléctricos y electrónicos (RAEE/WEEE). Se recuerda la obligación de respetar las leyes vigentes en materia de eliminación en el país de instalación de la máquina.
 :::
 
-### **Componenti soggetti a smaltimento speciale**
+### **Componentes sujetos a eliminación especial**
 
 :::{note}
-**Componenti soggetti a smaltimento speciale:**
-- Schede elettroniche (VisionController): RAEE categoria 6
-- Camera industriale: RAEE categoria 6
-- Illuminatori a LED: RAEE categoria 5
-- Cavi e connettori: smaltimento con materiali elettrici
+**Componentes sujetos a eliminación especial:**
+- Tarjetas electrónicas (VisionController): RAEE categoría 6
+- Cámara industrial: RAEE categoría 6
+- Iluminadores LED: RAEE categoría 5
+- Cables y conectores: eliminación con los materiales eléctricos
 :::

@@ -1,25 +1,24 @@
 (compatibility)=
 # **Présentation et compatibilité**
 
-Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimentazione di qualsiasi tipologia di componente, sono a disposizione del cliente degli accessori che ne modificano le funzionalità ed i sistemi di deviazione. Questi accessori possono essere combinati per garantire la massima applicabilità del FlexiBowl®, a prescindere della linea di produzione: per comprendere meglio la compatibilità tra i vari accessori e le varie taglie di FlexiBowl®, si può fare riferimento alle seguenti tabelle:
+Pour optimiser les performances du FlexiBowl® et le rendre adapté à la manutention de tout type de composant, des accessoires sont mis à la disposition du client pour modifier ses fonctionnalités et ses systèmes de déviation. Ces accessoires peuvent être combinés afin de garantir une applicabilité maximale du FlexiBowl®, quelle que soit la ligne de production : pour mieux comprendre la compatibilité entre les différents accessoires et les différentes tailles de FlexiBowl®, vous pouvez vous référer aux tableaux suivants :
 
-## Matrice di compatibilità degli accessori con i FlexiBowl®
+## Matrice de compatibilité des accessoires avec les FlexiBowl®
 
 :::{list-table}
-:widths: 20 20 20 20 20 20 20 20 20
+:widths: 20 20 20 20 20 20 20 20 
 :header-rows: 1
 :stub-columns: 1
 :class: tabacc
 
 * - 
-  - Deviatore Standard
-  - Soffio radiale
-  - Soffio centrale
+  - Déviateur standard
+  - Soufflage radial
+  - Soufflage central
   - Brush Diverter
   - Wedge Diverter
-  - Svuotamento
-  - Flexitracking
-  - Ringlight
+  - Vidage
+  - Circular Tracking
 
 * - FlexiBowl® 200
   - 
@@ -29,7 +28,6 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - 
   - 
   - 
-  - ✓
 
 * - FlexiBowl® 350
   - ✓
@@ -39,10 +37,8 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - 
   - 
   - 
-  - ✓
 
 * - FlexiBowl® 500
-  - ✓
   - ✓
   - ✓
   - ✓
@@ -59,11 +55,9 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - 
   - 
   - ✓
-  - ✓
 
 
 * - FlexiBowl® 650
-  - ✓
   - ✓
   - ✓
   - ✓
@@ -80,10 +74,8 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - ✓
   - ✓
   - ✓
-  - ✓
 
 * - FlexiBowl® 1200
-  - ✓
   - ✓
   - ✓
   - ✓
@@ -95,12 +87,12 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
 :::
 
 :::{note}
-*I soffi dei FlexiBowl 200 e 350 sono montati di default e sono integrati nello {ref}`schermo flip <panoramica>`.
+*Les soufflages des FlexiBowl 200 et 350 sont montés par défaut et intégrés dans l'{ref}`écran flip <panoramica>`.
 
-**Il soffio radiale è indiretto, per maggiori informazioni fare riferimento {ref}`al paragrafo dedicato <sofind>`.
+**Le soufflage radial est indirect ; pour plus d'informations, reportez-vous {ref}`au paragraphe dédié <sofind>`.
 :::
 
-## Matrice di compatibilità degli accessori con altri accessori
+## Matrice de compatibilité des accessoires entre eux
 
 ::::{list-table}
 :widths: 20 20 20 20 20 20 20 20 20
@@ -108,16 +100,16 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
 :class: tabacc
 
 * - 
-  - Deviatore Standard
-  - Soffio radiale
-  - Soffio centrale
+  - Déviateur standard
+  - Soufflage radial
+  - Soufflage central
   - Brush Diverter
   - Wedge Diverter
-  - Svuotamento
-  - Flexitracking
+  - Vidage
+  - Circular Tracking
   - Ringlight
 
-* - **Deviatore Standard**
+* - **Déviateur standard**
   - :::{raw} html
     <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 5em;"></div>
     :::
@@ -129,7 +121,7 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - ✓
   - ✓
 
-* - **Soffio radiale**
+* - **Soufflage radial**
   - 
   - :::{raw} html
     <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 5em;"></div>
@@ -141,7 +133,7 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - ✓
   - ✓
 
-* - **Soffio centrale**
+* - **Soufflage central**
   - ✓
   - ✓
   - :::{raw} html
@@ -178,7 +170,7 @@ Per massimizzare le prestazione del FlexiBowl® e renderlo adatto alla movimenta
   - ✓
   - ✓
 
-* - **Svuotamento**
+* - **Vidage**
   - ✓
   - ✓
   - ✓

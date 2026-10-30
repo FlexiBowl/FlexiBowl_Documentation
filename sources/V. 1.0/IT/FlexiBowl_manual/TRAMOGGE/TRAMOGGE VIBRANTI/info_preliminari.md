@@ -358,9 +358,7 @@ Il mancato rispetto delle istruzioni riportate può causare:
     <div class="isw-meta-title"><i class="ph ph-factory"></i> Costruttore</div>
     <div class="isw-meta-content">
       <strong>ARS S.r.l.</strong><br>
-      Via Aretina Nord, 157<br>
-      52041 – Pieve al Toppo (AR), Italia<br>
-      Tel. +39 0575 398611 &nbsp;·&nbsp; Fax +39 0575 398620<br>
+      Via Aretina Nord, 157<br> 52041 – Pieve al Toppo (AR), Italia<br> Tel. +39 0575 398611 &nbsp;·&nbsp; Fax +39 0575 398620<br>
       <a href="mailto:info@arsautomation.com">info@arsautomation.com</a><br>
       <a href="https://www.arsautomation.com" target="_blank">www.arsautomation.com</a>
     </div>

@@ -35,7 +35,7 @@ Il mancato rispetto di queste indicazioni può causare malfunzionamenti, danni a
 ```
 ### **Contesto operativo e limitazioni di responsabilità**
 
-Il FlexiBowl® è un sistema di alminentazione flessibile a disco rotante vibrante per il posizionamento e orientamento casuale dei componenti ai fini del prelievo robotico.
+Il FlexiBowl® è un sistema di alimentazione flessibile a disco rotante vibrante per il posizionamento e orientamento casuale dei componenti ai fini del prelievo robotico.
 
 ```{warning}
 Durante l'utilizzo, l'operatore deve:
@@ -69,35 +69,21 @@ Allo scopo di stabilire con certezza quali sono le competenze e le qualifiche de
   - Personale addetto al montaggio meccanico, allacciamento elettrico e pneumatico e alla configurazione della rete.
 
 * - **Operatore**
-  - Personale dell'utilizzatore addestrato e abilitato all'utilizzo e conduzione
-    della macchina ai fini produttivi per le attività per cui è stata costruita
-    e fornita. Dovrà essere in grado di eseguire tutte le operazioni necessarie
-    per il buon funzionamento della macchina e per l'incolumità di sé stesso o
-    di eventuali collaboratori. Deve avere una comprovata esperienza nel corretto
-    utilizzo di tali tipologie di macchine ed essere formato, informato ed
-    istruito a riguardo. In caso di dubbi deve segnalare ogni anomalia al suo
-    superiore.
+  - Personale dell'utilizzatore addestrato e abilitato all'utilizzo e conduzione della macchina ai fini produttivi per le attività per cui è stata costruita e fornita. Dovrà essere in grado di eseguire tutte le operazioni necessarie per il buon funzionamento della macchina e per l'incolumità di sé stesso o di eventuali collaboratori. Deve avere una comprovata esperienza nel corretto utilizzo di tali tipologie di macchine ed essere formato, informato ed istruito a riguardo. In caso di dubbi deve segnalare ogni anomalia al suo superiore.
 
     **Nota:** Non è abilitato ad effettuare alcuna attività di manutenzione.
     
 * - **Manutentore meccanico**
   - Tecnico qualificato in grado di:
 
-    * svolgere attività di manutenzione preventiva/correttiva su tutte le parti
-      meccaniche della macchina soggette a manutenzione o riparazione;
-    * avere accesso a tutte le parti di macchina per analisi visiva, controllo
-      dello stato delle apparecchiature, regolazioni e tarature;
-    * intervenire sugli organi meccanici per regolazioni, manutenzioni e
-      riparazioni;
-    * leggere schemi pneumatici, oleodinamici, disegni tecnici e listati dei
-      pezzi di ricambio.
+    * svolgere attività di manutenzione preventiva/correttiva su tutte le parti meccaniche della macchina soggette a manutenzione o riparazione;
+    * avere accesso a tutte le parti di macchina per analisi visiva, controllo dello stato delle apparecchiature, regolazioni e tarature;
+    * intervenire sugli organi meccanici per regolazioni, manutenzioni e riparazioni;
+    * leggere schemi pneumatici, oleodinamici, disegni tecnici e listati dei pezzi di ricambio.
 
-    In casi straordinari, è autorizzato a far funzionare la macchina con
-    sicurezze ridotte. Ove necessario, può dare all'operatore istruzioni per
-    un buon utilizzo della macchina ai fini produttivi.
+    In casi straordinari, è autorizzato a far funzionare la macchina con sicurezze ridotte. Ove necessario, può dare all'operatore istruzioni per un buon utilizzo della macchina ai fini produttivi.
 
-    **Nota:** Non è abilitato ad intervenire su impianti elettrici sotto
-    tensione (se presenti).
+    **Nota:** Non è abilitato ad intervenire su impianti elettrici sotto tensione (se presenti).
 
 * - **Manutentore elettrico**
   - Tecnico qualificato in grado di:
@@ -105,18 +91,15 @@ Allo scopo di stabilire con certezza quali sono le competenze e le qualifiche de
     * avere accesso a tutte le parti di macchina per analisi visiva, controllo dello stato delle apparecchiature, regolazioni e tarature;
     * condurre la macchina come l’operatore;
     * intervenire sulle regolazioni e sugli impianti elettrici per manutenzione, riparazione e sostituzione pezzi usurati;
-    * leggere schemi elettrici e verificare il corretto ciclo funzionale.
-  Ove necessario, può dare all’operatore istruzioni per un buon utilizzo della macchina ai fini produttivi. Può operare in presenza di tensione all’interno dei quadri elettrici, scatole di derivazione, apparecchiature di controllo etc. solo se trattasi di persona idonea (PEI). (Fare riferimento normativa **EN50110-1**). Non effettua programmazione software di sistemi quali: PLC (logica o sicurezza), non può modificare le password di sistema.
+    * leggere schemi elettrici e verificare il corretto ciclo funzionale. Ove necessario, può dare all’operatore istruzioni per un buon utilizzo della macchina ai fini produttivi. Può operare in presenza di tensione all’interno dei quadri elettrici, scatole di derivazione, apparecchiature di controllo etc. solo se trattasi di persona idonea (PEI). (Fare riferimento normativa **EN50110-1**). Non effettua programmazione software di sistemi quali: PLC (logica o sicurezza), non può modificare le password di sistema.
 
 * - **Tecnico esperto software**
   - Tecnico qualificato in grado di:
     * svolgere attività preventiva/correttiva su tutte le parti software della macchina;
-    * avere accesso a tutte le parti di macchina per analisi visiva, controllo dello stato delle apparecchiature, regolazioni e tarature.
-  Tecnico qualificato del Costruttore con comprovata esperienza e formazione dei sistemi basati su: PLC/PC azionamenti, ecc. (conoscenza programmazione, funzioni macchina etc.) per operazioni complesse quali ad esempio:
-    * modifica dati macchina; 
-    * creazione programmi di lavoro; 
-    * regolazione parametri drive etc. in quanto a conoscenza del ciclo produttivo, tecnologico e di costruzione della macchina fornita. 
-  Può operare all’interno dei quadri elettrici, scatole di derivazione, apparecchiature di controllo etc. in presenza di tensione solo se trattasi di persona idonea (PEI) (Fare riferimento normativa **EN50110-1**). Le competenze sono di tipo elettronico e/o software.
+    * avere accesso a tutte le parti di macchina per analisi visiva, controllo dello stato delle apparecchiature, regolazioni e tarature. Tecnico qualificato del Costruttore con comprovata esperienza e formazione dei sistemi basati su: PLC/PC azionamenti, ecc. (conoscenza programmazione, funzioni macchina etc.) per operazioni complesse quali ad esempio:
+    * modifica dati macchina;
+    * creazione programmi di lavoro;
+    * regolazione parametri drive etc. in quanto a conoscenza del ciclo produttivo, tecnologico e di costruzione della macchina fornita. Può operare all’interno dei quadri elettrici, scatole di derivazione, apparecchiature di controllo etc. in presenza di tensione solo se trattasi di persona idonea (PEI) (Fare riferimento normativa **EN50110-1**). Le competenze sono di tipo elettronico e/o software.
 
 * - **Tecnico del Costruttore**
   - Tecnico qualificato dal Costruttore e/o dal suo distributore per operazioni complesse, in quanto a conoscenza del ciclo produttivo di costruzione della macchina. Questa persona interviene in accordo con le richieste dell’utilizzatore. Le competenze sono di tipo meccanico.
@@ -146,7 +129,7 @@ Allo scopo di stabilire con certezza quali sono le competenze e le qualifiche de
 Per un'esperienza ottimale:
 - Utilizza il menu di navigazione laterale per passare rapidamente tra le sezioni
 - Consulta l'indice iniziale per identificare immediatamente la sezione di tuo interesse
-- Presta particolare attenzione ai banner di avvertenza, nota  e suggerimento 
+- Presta particolare attenzione ai banner di avvertenza, nota  e suggerimento
 - Segui le procedure nell'ordine indicato, soprattutto durante l'installazione iniziale
 - Conserva questo manuale in formato digitale per facilitare ricerche rapide tramite parole chiave
 ```

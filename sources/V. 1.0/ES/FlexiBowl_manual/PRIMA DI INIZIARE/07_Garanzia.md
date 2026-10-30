@@ -1,54 +1,53 @@
 ﻿# **Garantía**
 
 ```{important}
-   I termini completi della garanzia sono inclusi nel **contratto di vendita**. 
-   In caso di discrepanze, le condizioni stabilite nel contratto hanno la priorità assoluta su quanto riportato in questa sezione.
+   Los términos completos de la garantía están incluidos en el **contrato de venta**. En caso de discrepancias, las condiciones establecidas en el contrato tienen prioridad absoluta sobre lo indicado en esta sección.
 ```
 ---
 
-## Condizioni Generali di Validità
+## Condiciones generales de validez
 
-Perché la garanzia sia ritenuta valida, devono essere rispettati i seguenti requisiti operativi:
+Para que la garantía se considere válida, deben cumplirse los siguientes requisitos operativos:
 
 ```{list-table}
    :widths: 30 70
    :header-rows: 1
 
-   * - Ambito
-     - Condizione Obbligatoria
-   * - **Ricezione**
-     - Apertura degli imballi con dispositivi idonei senza danneggiare l'impianto.
-   * - **Messa in servizio**
-     - Installazione e avviamento eseguiti da tecnici qualificati e formati.
-   * - **Utilizzo**
-     - Impiego della macchina entro i limiti contrattuali e tecnici specificati.
-   * - **Manutenzione**
-     - Esecuzione nei tempi previsti con ricambi originali **ARS S.r.l.** e personale autorizzato.
+   * - Ámbito
+     - Condición obligatoria
+   * - **Recepción**
+     - Apertura de los embalajes con dispositivos adecuados sin dañar la instalación.
+   * - **Puesta en servicio**
+     - Instalación y puesta en marcha realizadas por técnicos cualificados y formados.
+   * - **Uso**
+     - Uso de la máquina dentro de los límites contractuales y técnicos especificados.
+   * - **Mantenimiento**
+     - Realización en los plazos previstos con repuestos originales **ARS S.r.l.** y por personal autorizado.
 ```
 ---
 
-## Esclusioni e Decadenza della Garanzia
+## Exclusiones y caducidad de la garantía
 
-La garanzia viene considerata **nulla e priva di effetto** al verificarsi di una o più delle seguenti condizioni:
+La garantía se considera **nula y sin efecto** si se producen una o más de las siguientes condiciones:
 
 ```{warning} 
-   **Manomissioni e Sicurezza**
+   **Manipulaciones y seguridad**
    
-   * Rimozione o manomissione di dispositivi di sicurezza (protezioni, sensori, microinterruttori).
-   * Modifiche non autorizzate al software di controllo macchina.
-   * Manomissione dei circuiti elettrici o pneumatici.
-   * Rimozione della targa di identificazione o dei pittogrammi di sicurezza.
+   * Retirada o manipulación de los dispositivos de seguridad (protecciones, sensores, microinterruptores).
+   * Modificaciones no autorizadas del software de control de la máquina.
+   * Manipulación de los circuitos eléctricos o neumáticos.
+   * Retirada de la placa de identificación o de los pictogramas de seguridad.
 ```
 ```{error}
-   **Uso Improprio e Negligenza**
+   **Uso indebido y negligencia**
    
-   * Mancato rispetto delle norme di sicurezza e delle istruzioni del manuale.
-   * Utilizzo da parte di personale non formato o non autorizzato.
-   * Mancata attuazione del piano di manutenzione programmata.
-   * Installazione in locali non idonei o guasti all'alimentazione (elettrica/pneumatica).
-   * Modifiche o riparazioni senza autorizzazione scritta del Costruttore.
+   * Incumplimiento de las normas de seguridad y de las instrucciones del manual.
+   * Utilización por parte de personal no formado o no autorizado.
+   * Falta de ejecución del plan de mantenimiento programado.
+   * Instalación en locales no adecuados o fallos de alimentación (eléctrica/neumática).
+   * Modificaciones o reparaciones sin autorización por escrito del Fabricante.
 ```
 
 ```{note}
-   Sono esclusi dalla garanzia anche i danni derivanti da eventi eccezionali (alluvioni, incendi non causati dalla macchina) e lo smaltimento non conforme alle normative.
+   También quedan excluidos de la garantía los daños derivados de eventos excepcionales (inundaciones, incendios no causados por la máquina) y la eliminación no conforme a la normativa.
 ```

@@ -23,7 +23,7 @@
   - FlexiBowl® 800
   - FlexiBowl® 1200
 
-* - Maximum size of a single component
+* - Maximum size of the single component
   - 20 mm
   - 50 mm
   - 100 mm
@@ -31,7 +31,7 @@
   - 250 mm
   - 400 mm
 
-* - Maximum height of a single component¹
+* - Maximum height of the single component¹
   - 10 mm
   - 20 mm
   - 40 mm
@@ -39,7 +39,7 @@
   - 60 mm
   - 70 mm
 
-* - Maximum weight of a single component
+* - Maximum weight of the single component
   - 20 g
   - 40 g
   - 100 g
@@ -65,381 +65,289 @@
 
 :::
 
-1) The maximum component height is the one that leaves the necessary space between the component and the top surface of the flip screen to allow it to be flipped
+1) The maximum component height is the one that leaves the necessary space between the component and the upper surface of the flip screen to allow it to be flipped
 
 :::{note}
-The maximum component size value is derived from internal tests and is to be considered purely indicative, as other factors may influence it (hopper dimensions, the robot tool used for *picking*, etc.); for more precise indications, do not hesitate to [contact our team](https://www.arsautomation.com/contact) or request a [*free test*](https://www.flexibowl.it/free-test).
+The maximum component size value is derived from tests carried out internally and is to be considered purely indicative, as other factors may influence it (dimensions of the Bulk Feeder, robot tool used for *picking*, etc.); for more precise indications, do not hesitate to [contact our team](https://www.arsautomation.com/contact) or request a [*free test*](https://www.flexibowl.it/free-test).
 :::
 
 :::{note}
-The maximum component height is calculated taking into account the space needed to flip it using the flip, and is to be considered purely indicative, since the possibility of flipping also depends on the ratio between its dimensions. For a more precise assessment of the FlexiBowl® size best suited to the part to be handled, or of the component's compatibility with the desired FlexiBowl®, you can [contact our team](https://www.arsautomation.com/contact) or request a [*free test*](https://www.flexibowl.it/free-test).
+The maximum component height is calculated taking into account the space needed to flip it using the flip, and is to be considered purely indicative, as the possibility of flipping also depends on the ratio between its dimensions. For a more precise assessment of the FlexiBowl® size best suited to the part to be handled, or of the component's compatibility with the desired FlexiBowl®, it is possible to [contact our team](https://www.arsautomation.com/contact) or request a [*free test*](https://www.flexibowl.it/free-test).
 :::
 
-## How to assess the flippability of the component
+(calcolo-pressione-flip)=
+## How to assess the component's flippability
 
-To understand whether a part loaded in the hopper can be effectively separated and flipped by the flip, three main factors must be evaluated: geometry, mass limits and material.
+Enter the component data in the calculator: the system automatically checks compatibility with the selected FlexiBowl® size and returns the **recommended flip pressure**.
 
-### Slenderness index
-
-With the part placed in its most stable configuration, the following dimensions are measured:
-
-- Maximum height ***H***: Vertical distance from the supporting surface to the highest point of the part.
-
-- Minimum width at the base ***$B_{\min}$***: The narrowest side of the bounding rectangle of the supporting base.
-
-The index ***$I_s$*** is calculated as follows:
-
-$$
-I_s = \frac{H}{B_{\min}}
-$$
-
-This value tells us how easy it is to flip the part:
-
-:::{list-table}
-:widths: 33 33 33
-:header-rows: 1
-* - Slenderness index $I_s$
-  - Part stability
-  - Suitability for flipping
-* - $I_s < 1.0$ (wide and low)
-  - **Extremely Stable.** It tends to jump vertically without rotating or falls back onto the same base.
-  - **Difficult to flip.** Requires the maximum flip energy.
-* - $1.0 < I_s < 2.0$
-  - **Moderate Stability.** The dynamic behavior depends on the symmetry of the part.
-  - **Critical Zone.** Requires a practical validation test on the machine.
-* - $I_s > 2.0$ (slender and tall)
-  - **Highly Unstable.** The high center of gravity makes it extremely sensitive to impact.
-  - **Excellent.** It flips very easily with standard energy settings.
+:::{tip}
+Measure the part resting in its **most stable position**: the **height** is the distance from the support surface to the highest point, the **minimum width** is the narrowest side of the bounding rectangle of the support base.
 :::
-
-Based on the value of the slenderness index, a **base pressure** value is chosen for the flip:
 
 :::{raw} html
-
+<div class="fc" id="fc-flip">
 <style>
-     table.ars-table {
-       border-collapse: collapse;
-       width: 100%;
-       font-family: inherit;
-       border: 1px solid #cccccc;
-     }
-     table.ars-table thead tr {
-       background-color: #f5f5f5;
-       border-bottom: 2px solid #3366CC;
-     }
-     table.ars-table thead th {
-       font-weight: bold;
-       padding: 12px 16px;
-       text-align: center;
-       border-right: 1px solid #cccccc;
-     }
-     table.ars-table thead th:first-child {
-       text-align: left;
-     }
-     table.ars-table thead th:last-child {
-       border-right: none;
-     }
-     table.ars-table tbody tr:nth-child(odd)  { background-color: #f5f5f5; }
-     table.ars-table tbody tr:nth-child(even) { background-color: #ffffff; }
-     table.ars-table tbody tr:hover           { background-color: #ddeeff; }
-     table.ars-table td {
-       padding: 10px 16px;
-       text-align: center;
-       border-right: 1px solid #cccccc;
-     }
-     table.ars-table td:first-child {
-       text-align: left;
-     }
-     table.ars-table td:last-child {
-       border-right: none;
-     }
-/* Main table structure */
-[data-theme="dark"] table.ars-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  
-  /* Removes the outer vertical borders (left and right) */
-  border-left: none;
-  border-right: none;
-  
-  /* Keeps only the thin outer horizontal borders (top and bottom) */
-  border-top: 1px solid #383f4f;
-  border-bottom: 1px solid #383f4f;
+.fc{
+  --fc-acc:#2980b9; --fc-acc-soft:rgba(41,128,185,.10); --fc-head:#1a3a52;
+  --fc-bg:var(--pst-color-surface,#f7f9fb); --fc-card:var(--pst-color-background,#fff);
+  --fc-bd:var(--pst-color-border,#d0e4f0); --fc-tx:var(--pst-color-text-base,#1f2d3a);
+  --fc-mut:var(--pst-color-text-muted,#5b6b7a);
+  --fc-ok:#1e8449; --fc-ok-soft:rgba(30,132,73,.10);
+  --fc-warn:#b9770e; --fc-warn-soft:rgba(185,119,14,.12);
+  --fc-err:#c0392b; --fc-err-soft:rgba(192,57,43,.10);
 }
-
-/* Handling of the inner cell borders (th and td) */
-[data-theme="dark"] table.ars-table th,
-[data-theme="dark"] table.ars-table td {
-  padding: 10px 12px;
-  
-  /* Same bottom horizontal line for all rows */
-  border-bottom: 1px solid #383f4f;
-  
-  /* Inner vertical line (on the right of each cell) */
-  border-right: 1px solid #383f4f;
-  
-  /* Resets the other sides to avoid conflicts */
-  border-left: none;
-  border-top: none;
+html[data-theme="dark"] .fc{
+  --fc-acc:#5dade2; --fc-acc-soft:rgba(93,173,226,.14); --fc-head:#d6e6f2;
+  --fc-ok:#52be80; --fc-ok-soft:rgba(82,190,128,.14);
+  --fc-warn:#f0b04a; --fc-warn-soft:rgba(240,176,74,.14);
+  --fc-err:#ec7063; --fc-err-soft:rgba(236,112,99,.14);
 }
-
-/* Removes the last vertical line on the right so as not to create the outer right border */
-[data-theme="dark"] table.ars-table th:last-child,
-[data-theme="dark"] table.ars-table td:last-child {
-  border-right: none;
-}
-
-/* Removes the last horizontal line so as not to double it with the table bottom */
-[data-theme="dark"] table.ars-table tbody tr:last-child td {
-  border-bottom: none;
-}
-
-/* ══════════ MATCHING COLORS SECTION ══════════ */
-
-/* Header background */
-[data-theme="dark"] table.ars-table thead tr {
-  background-color: #29313d;
-}
-
-[data-theme="dark"] table.ars-table thead th {
-  color: #e0e0e0;
-  font-weight: 600;
-}
-
-/* Zebra striping identical to the first table */
-[data-theme="dark"] table.ars-table tbody tr:nth-child(odd) {
-  background-color: #222832; /* Dark row */
-}
-
-[data-theme="dark"] table.ars-table tbody tr:nth-child(even) {
-  background-color: #29313d; /* Light row */
-}
-
-/* Hover effect on mouse-over */
-[data-theme="dark"] table.ars-table tbody tr:hover {
-  background-color: #282d3a;
-}
-   </style>
-<table class="ars-table">
-  <thead>
-    <tr>
-      <th style="padding:10px 14px; text-align:left;">FlexiBowl® Size</th>
-      <th style="padding:10px 14px; text-align:left;">Component Geometry</th>
-      <th style="padding:10px 14px; text-align:left;">Base Pressure</th>
-      <th style="padding:10px 14px; text-align:left;">Operating Notes and Behavior</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Sizes 200 / 350 -->
-    <tr>
-      <td rowspan="2" style="padding:10px 14px; font-weight:bold; vertical-align:middle;">200-350</td>
-      <td style="padding:10px 14px;">I<sub>s</sub> &lt; 1.0 (Flat/Wide)</td>
-      <td style="padding:10px 14px;">2.5 bar</td>
-      <td style="padding:10px 14px;">Overlapping risk. Increase the number of strokes if the parts overlap.</td>
-    </tr>
-    <tr>
-      <td style="padding:10px 14px;">I<sub>s</sub> &ge; 1.0 (Slender/Tall)</td>
-      <td style="padding:10px 14px;">2.0 bar</td>
-      <td style="padding:10px 14px;">Excellent flippability. Pay attention to parts that are too light.</td>
-    </tr>
-    <!-- Sizes 500 / 650 -->
-    <tr>
-      <td rowspan="2" style="padding:10px 14px; font-weight:bold; vertical-align:middle;">500-650</td>
-      <td style="padding:10px 14px;">I<sub>s</sub> &lt; 1.0 (Flat/Wide)</td>
-      <td style="padding:10px 14px;">3.2 bar</td>
-      <td style="padding:10px 14px;">Requires more energy to overcome geometric stability.</td>
-    </tr>
-    <tr>
-      <td style="padding:10px 14px;">I<sub>s</sub> &ge; 1.0 (Slender/Tall)</td>
-      <td style="padding:10px 14px;">2.8 bar</td>
-      <td style="padding:10px 14px;">Balanced standard configuration.</td>
-    </tr>
-    <!-- Sizes 800 / 1200 -->
-    <tr>
-      <td rowspan="2" style="padding:10px 14px; font-weight:bold; vertical-align:middle;">800-1200</td>
-      <td style="padding:10px 14px;">I<sub>s</sub> &lt; 1.0 (Flat/Wide)</td>
-      <td style="padding:10px 14px;">4.0 bar</td>
-      <td style="padding:10px 14px;">Necessary to separate flat, heavy geometries.</td>
-    </tr>
-    <tr>
-      <td style="padding:10px 14px;">I<sub>s</sub> &ge; 1.0 (Slender/Tall)</td>
-      <td style="padding:10px 14px;">3.5 bar</td>
-      <td style="padding:10px 14px;">Optimal starting point for bulky components.</td>
-    </tr>
-  </tbody>
-</table>
-
-:::
-
-### Material correction factor ($K_m$)
-
-The stiffness of the component directly affects the efficiency of the flip pulse transmission. Materials with elastic or damping behavior absorb part of the kinetic energy during impact, requiring compensation of the line pressure.
-
-- **Rigid materials** ($K_m$ = 1.0):
-
-  *Materials:* steel, aluminum, brass, sheet metal, POM, PA (rigid Nylon), ABS, glass, bakelite.
-
-  *Notes:* Perfectly elastic impact. All of the energy is transferred to the part, which snaps instantly. No correction to the base pressure is required.
-
-- **Semi-rigid materials** ($K_m$ = 1.2):
-
-  *Materials:* polyethylene (PE), polypropylene (PP), unfilled Nylon, dense cardboard, layered composite materials.
-  
-  *Notes:* Presence of structural micro-damping. Increase the base pressure by 20% to ensure the same jump height as the rigid part.
-
-- **Non-rigid materials** ($K_m$ = 1.0):
-
-  *Materials:* natural rubber, nitrile rubber (NBR), silicone, polyurethane, soft TPU.
-  
-  *Notes:* Strongly inelastic impact. The component deforms momentarily under the pulse. Requires a 50% increase in the base pressure (up to the maximum line limit of 6.0 bar if necessary).
-
-### Weight correction factor ($K_w$)
-
-The mass of the component determines its inertia at take-off. Very light components require reduced pressures to avoid chaotic trajectories or spilling off the plate, while heavy components need a greater energy push to lift the center of gravity.
-
-:::{raw} html
-<style>
-  table.ars-table {
-    border-collapse: collapse;
-    width: 100%;
-    font-family: inherit;
-    border: 1px solid #cccccc;
-  }
-  table.ars-table thead tr {
-    background-color: #f5f5f5;
-    border-bottom: 2px solid #3366CC;
-  }
-  table.ars-table thead th {
-    font-weight: bold;
-    padding: 12px 16px;
-    text-align: center;
-    border-right: 1px solid #cccccc;
-  }
-  table.ars-table thead th:first-child { text-align: left; }
-  table.ars-table thead th:last-child  { border-right: none; }
-  table.ars-table tbody tr:nth-child(odd)  { background-color: #f5f5f5; }
-  table.ars-table tbody tr:nth-child(even) { background-color: #ffffff; }
-  table.ars-table tbody tr:hover           { background-color: #ddeeff; }
-  table.ars-table td {
-    padding: 10px 16px;
-    text-align: center;
-    border-right: 1px solid #cccccc;
-  }
-  table.ars-table td:first-child { text-align: left; }
-  table.ars-table td:last-child  { border-right: none; }
-
-/* Main table structure */
-[data-theme="dark"] table.ars-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  
-  /* Removes the outer vertical borders (left and right) */
-  border-left: none;
-  border-right: none;
-  
-  /* Keeps only the thin outer horizontal borders (top and bottom) */
-  border-top: 1px solid #383f4f;
-  border-bottom: 1px solid #383f4f;
-}
-
-/* Handling of the inner cell borders (th and td) */
-[data-theme="dark"] table.ars-table th,
-[data-theme="dark"] table.ars-table td {
-  padding: 10px 12px;
-  
-  /* Same bottom horizontal line for all rows */
-  border-bottom: 1px solid #383f4f;
-  
-  /* Inner vertical line (on the right of each cell) */
-  border-right: 1px solid #383f4f;
-  
-  /* Resets the other sides to avoid conflicts */
-  border-left: none;
-  border-top: none;
-}
-
-/* Removes the last vertical line on the right so as not to create the outer right border */
-[data-theme="dark"] table.ars-table th:last-child,
-[data-theme="dark"] table.ars-table td:last-child {
-  border-right: none;
-}
-
-/* Removes the last horizontal line so as not to double it with the table bottom */
-[data-theme="dark"] table.ars-table tbody tr:last-child td {
-  border-bottom: none;
-}
-
-/* ══════════ MATCHING COLORS SECTION ══════════ */
-
-/* Header background */
-[data-theme="dark"] table.ars-table thead tr {
-  background-color: #29313d;
-}
-
-[data-theme="dark"] table.ars-table thead th {
-  color: #e0e0e0;
-  font-weight: 600;
-}
-
-/* Zebra striping identical to the first table */
-[data-theme="dark"] table.ars-table tbody tr:nth-child(odd) {
-  background-color: #222832; /* Dark row */
-}
-
-[data-theme="dark"] table.ars-table tbody tr:nth-child(even) {
-  background-color: #29313d; /* Light row */
-}
-
-/* Hover effect on mouse-over */
-[data-theme="dark"] table.ars-table tbody tr:hover {
-  background-color: #282d3a;
-}
+.fc{container-type:inline-size;font-family:inherit;color:var(--fc-tx);border:1px solid var(--fc-bd);border-radius:12px;background:var(--fc-bg);margin:1.5rem 0;overflow:hidden}
+.fc *{box-sizing:border-box}
+.fc-head{display:flex;align-items:center;gap:.6rem;padding:.9rem 1.2rem;border-bottom:1px solid var(--fc-bd);background:var(--fc-card)}
+.fc-head i{font-size:1.4rem;color:var(--fc-acc)}
+.fc-head b{font-size:1.05rem;color:var(--fc-head)}
+.fc-head span{margin-left:auto;font-size:.8rem;color:var(--fc-mut)}
+.fc-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}
+@container (max-width:860px){.fc-grid{grid-template-columns:1fr}}
+.fc-in{padding:1.1rem 1.2rem;display:flex;flex-direction:column;gap:1.1rem}
+.fc-out{padding:1.1rem 1.2rem;border-left:1px solid var(--fc-bd);background:var(--fc-card)}
+@container (max-width:860px){.fc-out{border-left:none;border-top:1px solid var(--fc-bd)}}
+.fc-step{display:flex;align-items:center;gap:.5rem;font-weight:700;font-size:.85rem;color:var(--fc-head);margin-bottom:.5rem;text-transform:uppercase;letter-spacing:.03em}
+.fc-step em{font-style:normal;display:inline-flex;align-items:center;justify-content:center;width:1.4rem;height:1.4rem;border-radius:50%;background:var(--fc-acc);color:#fff;font-size:.75rem}
+.fc-seg{display:flex;flex-wrap:wrap;gap:.4rem}
+.fc-seg button{font:inherit;font-size:.88rem;font-weight:600;padding:.45rem .8rem;border-radius:8px;border:1.5px solid var(--fc-bd);background:var(--fc-card);color:var(--fc-tx);cursor:pointer;transition:border-color .15s,background .15s}
+.fc-seg button:hover:not(:disabled){border-color:var(--fc-acc)}
+.fc-seg button[aria-pressed="true"]{border-color:var(--fc-acc);background:var(--fc-acc-soft);color:var(--fc-acc)}
+.fc-seg button:disabled{opacity:.45;cursor:not-allowed;text-decoration:line-through}
+.fc-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem}
+@container (max-width:480px){.fc-fields{grid-template-columns:1fr}}
+.fc-f label{display:block;font-size:.82rem;font-weight:600;margin-bottom:.25rem}
+.fc-unit{display:flex;align-items:stretch;border:1.5px solid var(--fc-bd);border-radius:8px;background:var(--fc-card);overflow:hidden}
+.fc-unit:focus-within{border-color:var(--fc-acc)}
+.fc-unit.fc-bad{border-color:var(--fc-err)}
+.fc-unit input{flex:1;min-width:0;border:none;background:transparent;color:var(--fc-tx);font:inherit;font-size:.95rem;padding:.45rem .6rem;outline:none}
+.fc-unit span{display:flex;align-items:center;padding:0 .6rem;font-size:.8rem;color:var(--fc-mut);border-left:1px solid var(--fc-bd)}
+.fc-hint{font-size:.75rem;color:var(--fc-mut);margin-top:.2rem;min-height:1em}
+.fc-hint.fc-bad{color:var(--fc-err);font-weight:600}
+.fc-mat{display:grid;grid-template-columns:1fr;gap:.5rem}
+.fc-mat button{font:inherit;text-align:left;padding:.6rem .7rem;border-radius:8px;border:1.5px solid var(--fc-bd);background:var(--fc-card);color:var(--fc-tx);cursor:pointer;transition:border-color .15s,background .15s}
+.fc-mat button:hover{border-color:var(--fc-acc)}
+.fc-mat button[aria-pressed="true"]{border-color:var(--fc-acc);background:var(--fc-acc-soft)}
+.fc-mat b{display:block;font-size:.88rem}
+.fc-mat small{display:block;font-size:.73rem;color:var(--fc-mut);line-height:1.35;margin-top:.2rem}
+.fc-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:.5rem;min-height:260px;color:var(--fc-mut);font-size:.9rem}
+.fc-empty i{font-size:2.2rem;color:var(--fc-acc);opacity:.6}
+.fc-empty.fc-bad i{color:var(--fc-err);opacity:.8}
+.fc-lbl{font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--fc-mut)}
+.fc-big{font-size:2.6rem;font-weight:800;line-height:1.1;color:var(--fc-head);font-variant-numeric:tabular-nums}
+.fc-big small{font-size:1rem;font-weight:600;color:var(--fc-mut);margin-left:.25rem}
+.fc-gauge{position:relative;height:8px;border-radius:4px;background:var(--fc-bd);margin:.7rem 0 .25rem}
+.fc-gauge div{position:absolute;left:0;top:0;bottom:0;border-radius:4px;background:var(--fc-acc);transition:width .3s}
+.fc-scale{display:flex;justify-content:space-between;font-size:.7rem;color:var(--fc-mut);margin-bottom:1rem}
+.fc-checks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.4rem}
+.fc-checks li{display:flex;gap:.5rem;align-items:flex-start;font-size:.82rem;line-height:1.4;padding:.45rem .6rem;border-radius:6px;margin:0}
+.fc-checks li i{font-size:1rem;flex-shrink:0;margin-top:.05rem}
+.fc-ok{background:var(--fc-ok-soft)} .fc-ok i{color:var(--fc-ok)}
+.fc-warn{background:var(--fc-warn-soft)} .fc-warn i{color:var(--fc-warn)}
+.fc-err{background:var(--fc-err-soft)} .fc-err i{color:var(--fc-err)}
+.fc-info{background:var(--fc-acc-soft)} .fc-info i{color:var(--fc-acc)}
+.fc-reset{font:inherit;font-size:.8rem;margin-top:.9rem;background:none;border:none;color:var(--fc-acc);cursor:pointer;padding:0;text-decoration:underline}
 </style>
+<script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
 
-<table class="ars-table">
-  <thead>
-    <tr>
-      <th>Category</th>
-      <th>Mass (FlexiBowl® 200/350/500)</th>
-      <th>Mass (FlexiBowl® 650/800/1200)</th>
-      <th>K<sub>w</sub></th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Light Components</strong></td>
-      <td>&lt; 10 g</td>
-      <td>&lt; 30 g</td>
-      <td>0.8</td>
-      <td>Low inertia. Reduces the base pressure by 20% to ensure a controlled, damped jump, avoiding uncontrolled bouncing.</td>
-    </tr>
-    <tr>
-      <td><strong>Standard Components</strong></td>
-      <td>10 &divide; 100 g</td>
-      <td>30 &divide; 250 g</td>
-      <td>1.0</td>
-      <td>Optimal working window of the machine. No correction required.</td>
-    </tr>
-    <tr>
-      <td><strong>Heavy Components</strong></td>
-      <td>&gt; 100 g</td>
-      <td>&gt; 250 g</td>
-      <td>1.3</td>      
-      <td>High inertia. Increases the base pressure by 30% to overcome gravity and allow the mass to be flipped.</td>
-    </tr>
-  </tbody>
-</table>
+<div class="fc-head"><i class="ph ph-calculator"></i><b>Flip pressure calculator</b><span>Indicative result to be validated</span></div>
+<div class="fc-grid">
+  <div class="fc-in">
+    <div>
+      <div class="fc-step"><em>1</em>FlexiBowl® size</div>
+      <div class="fc-seg" id="fc-size" role="group" aria-label="FlexiBowl size"></div>
+    </div>
+    <div>
+      <div class="fc-step"><em>2</em>Component dimensions and weight</div>
+      <div class="fc-fields">
+        <div class="fc-f"><label for="fc-h">Maximum height</label>
+          <div class="fc-unit" id="fc-h-w"><input id="fc-h" type="number" inputmode="decimal" min="0" step="0.1" placeholder="e.g. 12"><span>mm</span></div>
+          <div class="fc-hint" id="fc-h-msg"></div></div>
+        <div class="fc-f"><label for="fc-b">Minimum width of the base</label>
+          <div class="fc-unit" id="fc-b-w"><input id="fc-b" type="number" inputmode="decimal" min="0" step="0.1" placeholder="e.g. 8"><span>mm</span></div>
+          <div class="fc-hint" id="fc-b-msg"></div></div>
+        <div class="fc-f"><label for="fc-m">Weight of the single component</label>
+          <div class="fc-unit" id="fc-m-w"><input id="fc-m" type="number" inputmode="decimal" min="0" step="0.1" placeholder="e.g. 25"><span>g</span></div>
+          <div class="fc-hint" id="fc-m-msg"></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="fc-step"><em>3</em>Material</div>
+      <div class="fc-mat" id="fc-mat" role="group" aria-label="Material"></div>
+    </div>
+    <div>
+      <div class="fc-step"><em>4</em>Work surface</div>
+      <div class="fc-seg" id="fc-surf" role="group" aria-label="Work surface"></div>
+      <div class="fc-hint" id="fc-surf-hint"></div>
+    </div>
+  </div>
+  <div class="fc-out" id="fc-out" aria-live="polite"></div>
+</div>
+
+<script>
+(function(){
+  /* Dati interni: non vengono mai mostrati all'utente */
+  var SIZES = {
+    200: {grp:'200-350',  wGrp:'small', maxH:10, maxM:20,  surf:false, disc:true},
+    350: {grp:'200-350',  wGrp:'small', maxH:20, maxM:40,  surf:false, disc:true},
+    500: {grp:'500-650',  wGrp:'small', maxH:40, maxM:100, surf:true,  disc:true},
+    650: {grp:'500-650',  wGrp:'large', maxH:45, maxM:170, surf:true,  disc:false},
+    800: {grp:'800-1200', wGrp:'large', maxH:60, maxM:250, surf:true,  disc:false},
+    1200:{grp:'800-1200', wGrp:'large', maxH:70, maxM:300, surf:true,  disc:false}
+  };
+  var PBASE = {
+    '200-350': {flat:[2.5,'If the parts tend to overlap, increase the number of strikes (Flip Count).'],
+                slim:[2.0,'Geometry very favourable to flipping. Pay attention if the part is very light.']},
+    '500-650': {flat:[3.2,'The part requires more energy to flip.'],
+                slim:[2.8,'Balanced standard configuration.']},
+    '800-1200':{flat:[4.0,'Pressure required to separate flat, heavy geometries.'],
+                slim:[3.5,'Optimal starting point for bulky components.']}
+  };
+  var KW = { small:{lo:10, hi:100}, large:{lo:30, hi:250} };
+  var KW_VAL = {light:0.8, std:1.0, heavy:1.3};
+  var MAT = [
+    {id:'rigid', k:1.0, n:'Rigido',      ex:'Steel, aluminium, brass, POM, rigid PA, ABS, glass'},
+    {id:'semi',  k:1.2, n:'Semi-rigido', ex:'PE, PP, unfilled nylon, dense cardboard, composites'},
+    {id:'soft',  k:1.8, n:'Non rigido',  ex:'Rubber, NBR, silicone, polyurethane, soft TPU'}
+  ];
+  var SURF = [{id:'surf', k:1.0, n:'Surface'}, {id:'disc', k:0.9, n:'Rigid disc'}];
+  var PMAX = 6.0;
+
+  var st = {size:null, mat:null, surf:null};
+  var root = document.getElementById('fc-flip');
+  if(!root || root.dataset.fcInit) return;   /* già inizializzato: evita card duplicate */
+  root.dataset.fcInit = '1';
+  var $ = function(id){ return root.querySelector('#'+id); };
+  var f1 = function(x){ return x.toFixed(1).replace('.',','); };
+
+  /* lettura campo: {e:true} se vuoto, altrimenti {v, ok} con ok = numero > 0 */
+  function rd(id){
+    var s = String($(id).value).trim().replace(',','.');
+    if(s==='') return {e:true};
+    var v = Number(s);
+    return {e:false, v:v, ok:isFinite(v) && v>0};
+  }
+  function setMsg(id, msg, bad){
+    $(id+'-w').classList.toggle('fc-bad', !!bad);
+    var m = $(id+'-msg'); m.textContent = msg || ''; m.classList.toggle('fc-bad', !!bad);
+  }
+  function press(group, val){
+    group.querySelectorAll('button').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.v===String(val)); });
+  }
+
+  Object.keys(SIZES).forEach(function(s){
+    var b=document.createElement('button'); b.type='button'; b.dataset.v=s; b.textContent=s; b.setAttribute('aria-pressed','false');
+    b.onclick=function(){ st.size=+s; press($('fc-size'),s); syncSurf(); calc(); };
+    $('fc-size').appendChild(b);
+  });
+  MAT.forEach(function(m){
+    var b=document.createElement('button'); b.type='button'; b.dataset.v=m.id; b.setAttribute('aria-pressed','false');
+    b.innerHTML='<b>'+m.n+'</b><small>'+m.ex+'</small>';
+    b.onclick=function(){ st.mat=m.id; press($('fc-mat'),m.id); calc(); };
+    $('fc-mat').appendChild(b);
+  });
+  SURF.forEach(function(s){
+    var b=document.createElement('button'); b.type='button'; b.dataset.v=s.id; b.textContent=s.n; b.setAttribute('aria-pressed','false');
+    b.onclick=function(){ st.surf=s.id; press($('fc-surf'),s.id); calc(); };
+    $('fc-surf').appendChild(b);
+  });
+  function syncSurf(){
+    var S=SIZES[st.size], hint=$('fc-surf-hint');
+    $('fc-surf').querySelectorAll('button').forEach(function(b){ b.disabled = !S[b.dataset.v]; });
+    if(st.surf && !S[st.surf]) st.surf=null;
+    if(!S.surf){ st.surf='disc'; hint.textContent='The FlexiBowl® '+st.size+' works only with a rigid disc.'; }
+    else if(!S.disc){ st.surf='surf'; hint.textContent='The FlexiBowl® '+st.size+' works only with a surface.'; }
+    else hint.textContent='';
+    press($('fc-surf'), st.surf);
+  }
+
+  /* niente segni, notazione esponenziale o valori negativi digitati da tastiera */
+  ['fc-h','fc-b','fc-m'].forEach(function(id){
+    $(id).addEventListener('keydown', function(e){ if(['-','+','e','E'].indexOf(e.key)>-1) e.preventDefault(); });
+    $(id).addEventListener('input', calc);
+  });
+
+  function li(cls, icon, html){ return '<li class="'+cls+'"><i class="ph-fill ph-'+icon+'"></i><span>'+html+'</span></li>'; }
+
+  function calc(){
+    var out=$('fc-out'), S = st.size ? SIZES[st.size] : null;
+    var H=rd('fc-h'), B=rd('fc-b'), M=rd('fc-m'), bad=false;
+
+    /* validazione: valori > 0; peso entro il massimo della taglia */
+    if(S){ $('fc-m').max = S.maxM; } else { $('fc-m').removeAttribute('max'); }
+    var NOTPOS = 'Enter a value greater than zero';
+    if(!H.e && !H.ok){ setMsg('fc-h', NOTPOS, true); bad=true; } else setMsg('fc-h','',false);
+    if(!B.e && !B.ok){ setMsg('fc-b', NOTPOS, true); bad=true; } else setMsg('fc-b','',false);
+    if(!M.e && !M.ok){ setMsg('fc-m', NOTPOS, true); bad=true; }
+    else if(S && !M.e && M.v > S.maxM){ setMsg('fc-m', 'Maximum permitted weight for FlexiBowl® '+st.size+': '+S.maxM+' g', true); bad=true; }
+    else setMsg('fc-m', S ? 'Maximum permitted for FlexiBowl® '+st.size+': '+S.maxM+' g' : 'Select the size first to see the maximum permitted weight', false);
+
+    if(bad){
+      out.innerHTML='<div class="fc-empty fc-bad"><i class="ph ph-warning-circle"></i><div>Correct the highlighted values to obtain the recommended pressure.</div></div>';
+      return;
+    }
+
+    var missing=[];
+    if(!st.size) missing.push('size'); if(H.e) missing.push('height'); if(B.e) missing.push('minimum width');
+    if(M.e) missing.push('weight'); if(!st.mat) missing.push('material'); if(!st.surf) missing.push('work surface');
+    if(missing.length){
+      out.innerHTML='<div class="fc-empty"><i class="ph ph-gauge"></i><div>Fill in the data to calculate the recommended pressure.</div><div style="font-size:.8rem">Missing: '+missing.join(', ')+'</div></div>';
+      return;
+    }
+
+    var h=H.v, b=B.v, m=M.v;
+    var ratio=h/b, slim=ratio>=1.0;
+    var pb=PBASE[S.grp][slim?'slim':'flat'];
+    var th=KW[S.wGrp], wc = m<th.lo?'light':(m>th.hi?'heavy':'std');
+    var mat=MAT.filter(function(x){return x.id===st.mat;})[0];
+    var Ks=SURF.filter(function(x){return x.id===st.surf;})[0].k;
+    var P=pb[0]*mat.k*KW_VAL[wc]*Ks, Pset=Math.min(P,PMAX), capped=P>PMAX;
+
+    var c='';
+    if(h>S.maxH) c += li('fc-err','x-circle','Height exceeds the limit of <b>'+S.maxH+' mm</b> for the FlexiBowl® '+st.size+': the part may not have enough room to flip under the flip screen.');
+    else c += li('fc-ok','check-circle','The component is compatible with the FlexiBowl® '+st.size+'.');
+    if(ratio<1.0) c += li('fc-warn','warning','Wide, low part, difficult to flip: maximum flip energy is required.');
+    else if(ratio<=2.0) c += li('fc-warn','warning','For the geometry of this part the behaviour may vary: <b>a practical validation test is recommended</b>.');
+    if(capped) c += li('fc-err','x-circle','This component would need a pressure above the flip cylinder limit: set <b>6.0 bar</b> and increase the <b>Flip Count</b> if the part does not flip consistently.');
+    c += li('fc-info','info',pb[1]);
+    if(wc==='light') c += li('fc-info','info','Light component: reduced pressure for a controlled jump, avoiding uncontrolled bouncing.');
+    if(wc==='heavy') c += li('fc-info','info','Heavy component: increased pressure to allow the mass to flip.');
+
+    out.innerHTML =
+      '<div class="fc-lbl">Recommended flip pressure</div>'+
+      '<div class="fc-big">'+f1(Pset)+'<small>bar</small></div>'+
+      '<div class="fc-gauge"><div style="width:'+(Pset/PMAX*100)+'%"></div></div>'+
+      '<div class="fc-scale"><span>0</span><span>2</span><span>4</span><span>6 bar (max)</span></div>'+
+      '<ul class="fc-checks">'+c+'</ul>'+
+      '<button type="button" class="fc-reset" id="fc-reset">Azzera i dati</button>';
+    $('fc-reset').onclick=reset;
+  }
+  function reset(){
+    st={size:null,mat:null,surf:null};
+    ['fc-h','fc-b','fc-m'].forEach(function(id){ $(id).value=''; });
+    ['fc-size','fc-mat','fc-surf'].forEach(function(g){ press($(g),'__'); });
+    $('fc-surf').querySelectorAll('button').forEach(function(b){ b.disabled=false; });
+    $('fc-surf-hint').textContent='';
+    calc();
+  }
+  calc();
+})();
+</script>
+</div>
 :::
-
-### Calculating the flip pressure
-
-The pressure to be set for the flip is obtained by applying the formula:
-
-$$
-P_{flip} = P_{base} × K_m × K_w
-$$
 
 :::{attention}
-If the calculation returns a value above 6.0 bar, set the regulator to the limit value of 6.0 bar (maximum operating pressure of the flip cylinder) and increase the Flip Count parameter if the part does not flip consistently. For a more precise and detailed assessment of the flip parameters, do not hesitate to [contact our team](https://www.arsautomation.com/contact) or request a [*free test*](https://www.flexibowl.it/free-test).
+The calculated value is a **starting point** to be refined on the machine. For a more precise and detailed evaluation of the flip parameters, do not hesitate to [contact our team](https://www.arsautomation.com/contact) or request a [*free test*](https://www.flexibowl.it/free-test).
 :::
+
+
+
+
+
+

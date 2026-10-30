@@ -1,1 +1,1 @@
-# **Résolution des problèmes logiciels**
+# **Dépannage des problèmes logiciels**

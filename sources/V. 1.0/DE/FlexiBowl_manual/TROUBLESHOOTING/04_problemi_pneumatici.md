@@ -1,1 +1,1 @@
-# **Fehlerbehebung bei Pneumatik**
+# **Behebung pneumatischer Probleme**

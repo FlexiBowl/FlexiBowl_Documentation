@@ -1,16 +1,18 @@
-# [SOF] **Home**
+# **Home**
+
+The new FlexiBowl® interface is fully web-based. To access it, simply enter the default IP address of the FlexiBowl® `192.168.1.10` in the address bar of your browser.
 
 ## Overview
 
-The **Home** page is the main screen of the FlexiBowl® software interface. It is displayed at system start-up and gives the operator an immediate overview of the device status, as well as providing access to the main functions.
+The **Home** page is the main screen of the FlexiBowl® software interface. It is displayed at system start-up and gives the operator an immediate overview of the device status, as well as access to the main functions.
 ![home page](../../../../_shared/media/images/home.png)
 
 | Element | Position | Description |
 |---|---|---|
-| **Menu** (☰) | Top left | Opens the main side navigation menu, which gives access to all the sections of the software (parameters, diagnostics, history, settings, etc.) |
-| **Status icon** (READY ✓) | Center-left | Indicates the current operating state of the system. The green icon with the check mark and the word **READY** signals that the system is ready for operation |
+| **Menu** (☰) | Top left | Opens the main side navigation menu, which gives access to all sections of the software (parameters, diagnostics, history, settings, etc.) |
+| **Status icon** (READY ✓) | Center-left | Indicates the current operating state of the system. The green icon with the check mark and the **READY** label signals that the system is ready for operation |
 | **User icon** | Center-right | Allows the active user profile to be managed (login, logout, change user) |
-| **ENABLE MOTOR button** | Top right | Enables the FlexiBowl® motor. |
+| **Pulsante ENABLE MOTOR** | Top right | Enables the FlexiBowl® motor. |
 | **Language selector** | Below ENABLE MOTOR | Drop-down menu to select the interface language. It shows the flag of the active language (e.g. 🇺🇸 English) |
 
 ---
@@ -84,7 +86,7 @@ The side menu, which can be opened with the ☰ icon, gives access to all the pa
 
 <a class="home-menu-card" href="04_home.html">
 <div class="home-menu-card-title">Home</div>
-<div class="home-menu-card-sub">Main screen with system status and quick access to the functions</div>
+<div class="home-menu-card-sub">Main screen with system status and quick access to functions</div>
 </a>
 
 <a class="home-menu-card" href="04b_maincommand.html">
@@ -94,7 +96,7 @@ The side menu, which can be opened with the ☰ icon, gives access to all the pa
 
 <a class="home-menu-card" href="04c_sequence.html">
 <div class="home-menu-card-title">Sequence</div>
-<div class="home-menu-card-sub">Creates and edits the feeding sequences directly from the interface</div>
+<div class="home-menu-card-sub">Creates and edits feeding sequences directly from the interface</div>
 </a>
 
 <a class="home-menu-card" href="04d_monitor.html">
@@ -104,7 +106,7 @@ The side menu, which can be opened with the ☰ icon, gives access to all the pa
 
 <a class="home-menu-card" href="04e_jogmotor.html">
 <div class="home-menu-card-title">Jog Motor</div>
-<div class="home-menu-card-sub">Manual movement of the motor, useful during setup, testing or troubleshooting</div>
+<div class="home-menu-card-sub">Manual motor movement, useful during setup, testing or troubleshooting</div>
 </a>
 
 <a class="home-menu-card" href="04f_wizard.html">
@@ -124,17 +126,17 @@ The side menu, which can be opened with the ☰ icon, gives access to all the pa
 
 <a class="home-menu-card" href="04i_filetransfer.html">
 <div class="home-menu-card-title">File Transfer</div>
-<div class="home-menu-card-sub">Transfer of parameters and recipes to and from the unit's backup</div>
+<div class="home-menu-card-sub">Transfer of parameters and recipes to and from unit backups</div>
 </a>
 
 <a class="home-menu-card" href="04l_setup.html">
 <div class="home-menu-card-title">Setup</div>
-<div class="home-menu-card-sub">Network configuration, selection of the communication protocol and other system settings</div>
+<div class="home-menu-card-sub">Network configuration, communication protocol selection and other system settings</div>
 </a>
 
 <a class="home-menu-card" href="04m_hopper.html">
 <div class="home-menu-card-title">Hopper</div>
-<div class="home-menu-card-sub">Configuration and control of the connected hoppers (ID, amplitude, frequency, activation time)</div>
+<div class="home-menu-card-sub">Configuration and control of the connected Bulk Feeders (ID, amplitude, frequency, activation time)</div>
 </a>
 
 <a class="home-menu-card" href="04n_emptying.html">
@@ -151,9 +153,9 @@ The side menu, which can be opened with the ☰ icon, gives access to all the pa
 ## Operating notes
 
 :::{attention}   
-Before enabling the motor, check that the system status is **READY** (green icon visible in the top bar). If the icon is not green, check the error messages in the diagnostics sections.
+Before enabling the motor, check that the system state is **READY** (green icon visible in the top bar). If the icon is not green, check the error messages in the diagnostic sections.
 :::
 
 :::{note}  
-The language selected from the Home page is applied to the entire software interface. The change is immediate and does not require restarting the system.
+The language selected from the Home page is applied to the entire software interface. The change is immediate and does not require a system restart.
 :::

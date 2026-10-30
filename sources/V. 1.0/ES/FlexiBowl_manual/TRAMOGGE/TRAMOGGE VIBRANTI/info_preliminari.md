@@ -1,14 +1,14 @@
 
-# **Información general preliminar**
+# **Información preliminar general**
 
 ```{important}
-Prima di installare, utilizzare o effettuare manutenzione sulla macchina, leggere attentamente l'intero manuale e tutta la documentazione allegata.
+Antes de instalar, utilizar o realizar el mantenimiento de la máquina, lea atentamente todo el manual y toda la documentación adjunta.
 
-Il mancato rispetto delle istruzioni riportate può causare:
-- danni alla macchina;
-- perdita delle condizioni di sicurezza;
-- rischi per operatori e manutentori;
-- decadenza della garanzia.
+El incumplimiento de las instrucciones indicadas puede causar:
+- daños a la máquina;
+- pérdida de las condiciones de seguridad;
+- riesgos para operadores y personal de mantenimiento;
+- la pérdida de la garantía.
 ```
 
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
@@ -351,76 +351,74 @@ Il mancato rispetto delle istruzioni riportate può causare:
 
 <div class="isw-page">
 
-## Identificazione
+## Identificación
 
 <div class="isw-meta-grid">
   <div class="isw-meta-card">
-    <div class="isw-meta-title"><i class="ph ph-factory"></i> Costruttore</div>
+    <div class="isw-meta-title"><i class="ph ph-factory"></i> Fabricante</div>
     <div class="isw-meta-content">
       <strong>ARS S.r.l.</strong><br>
-      Via Aretina Nord, 157<br>
-      52041 – Pieve al Toppo (AR), Italia<br>
-      Tel. +39 0575 398611 &nbsp;·&nbsp; Fax +39 0575 398620<br>
+      Via Aretina Nord, 157<br> 52041 – Pieve al Toppo (AR), Italia<br> Tel. +39 0575 398611 &nbsp;·&nbsp; Fax +39 0575 398620<br>
       <a href="mailto:info@arsautomation.com">info@arsautomation.com</a><br>
       <a href="https://www.arsautomation.com" target="_blank">www.arsautomation.com</a>
     </div>
   </div>
   <div class="isw-meta-card">
-    <div class="isw-meta-title"><i class="ph ph-cpu"></i> Identificazione Macchina</div>
+    <div class="isw-meta-title"><i class="ph ph-cpu"></i> Identificación de la máquina</div>
     <div class="isw-meta-content">
-      <strong>Macchina:</strong> Tramoggia<br>
-      <strong>Modelli base:</strong>
+      <strong>Máquina:</strong> Bulk Feeder<br>
+      <strong>Modelos base:</strong>
       <div class="isw-model-badges">
-        <span class="isw-badge">1,5 lt</span>
-        <span class="isw-badge">3 lt</span>
-        <span class="isw-badge">5 lt</span>
-        <span class="isw-badge">10 lt</span>
-        <span class="isw-badge">20 lt</span>
-        <span class="isw-badge">40 lt</span>
+        <span class="isw-badge">1,5 l</span>
+        <span class="isw-badge">3 l</span>
+        <span class="isw-badge">5 l</span>
+        <span class="isw-badge">10 l</span>
+        <span class="isw-badge">20 l</span>
+        <span class="isw-badge">40 l</span>
       </div>
-      <small>In alcune applicazioni possono esistere modelli personalizzati. L'identificazione è definita dal progetto di riferimento.</small>
+      <small>En algunas aplicaciones pueden existir modelos personalizados. La identificación queda definida por el proyecto de referencia.</small>
     </div>
   </div>
 </div>
 
-### Targa di Identificazione
+### Placa de identificación
 
-La macchina è dotata di una targa di identificazione posizionata sulla **base vibrante**. Gli estremi riportati sulla targhetta devono essere citati in ogni comunicazione con ARS S.r.l.
+La máquina está dotada de una placa de identificación situada en la **base vibratoria**. Los datos indicados en la placa deben citarse en toda comunicación con ARS S.r.l.
 
-![Etichetta Tramoggia](../../../../../_shared/media/images/etichetta_tramoggia.jpg)
+![Etiqueta del Bulk Feeder](../../../../../_shared/media/images/etichetta_tramoggia.jpg)
 
 <table class="isw-table">
   <thead>
     <tr>
       <th>Pos.</th>
-      <th>Elemento sulla targa</th>
+      <th>Elemento de la placa</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>Logo Costruttore</td></tr>
-    <tr><td>2</td><td>N° parte</td></tr>
-    <tr><td>3</td><td>Modello Macchina</td></tr>
-    <tr><td>4</td><td>Potenza</td></tr>
-    <tr><td>5</td><td>Tensione di Alimentazione</td></tr>
-    <tr><td>6</td><td>Anno di Costruzione</td></tr>
-    <tr><td>7</td><td>Grado di protezione IP</td></tr>
-    <tr><td>8</td><td>N° matricola</td></tr>
+    <tr><td>1</td><td>Logotipo del fabricante</td></tr>
+    <tr><td>2</td><td>N.º de pieza</td></tr>
+    <tr><td>3</td><td>Modelo de la máquina</td></tr>
+    <tr><td>4</td><td>Potencia</td></tr>
+    <tr><td>5</td><td>Tensión de alimentación</td></tr>
+    <tr><td>6</td><td>Año de fabricación</td></tr>
+    <tr><td>7</td><td>Grado de protección IP</td></tr>
+    <tr><td>8</td><td>N.º de serie</td></tr>
   </tbody>
 </table>
 
 ```{warning}
-**ATTENZIONE — Targa identificativa CE**
+**ATENCIÓN — Placa de identificación CE**
 
-È assolutamente vietato:
-- asportare la targa identificativa CE;
-- sostituirla con targhe non autorizzate.
+Está terminantemente prohibido:
+- retirar la placa de identificación CE;
+- sustituirla por placas no autorizadas.
 
-Se la targa venisse danneggiata o rimossa per cause accidentali, il cliente è **obbligato** a informare immediatamente il Costruttore.
+Si la placa resultara dañada o fuese retirada por causas accidentales, el cliente está **obligado** a informar inmediatamente al Fabricante.
 ```
 
 ---
 
-## Dichiarazione di Conformità CE (Copia)
+## Declaración de conformidad CE (copia)
 
 <div class="isw-ce-box">
   <div class="isw-ce-header">"CE" Declaration of Conformity</div>
@@ -434,161 +432,161 @@ Se la targa venisse danneggiata o rimossa per cause accidentali, il cliente è *
   </ul>
   <p style="font-size:.85rem; margin:0;">The machinery described above is intended to be incorporated into other machinery and must not be put into service until the relevant machinery into which it is to be incorporated has been declared in conformity with the essential health and safety requirements of Directive 2006/42/EC.</p>
   <div class="isw-ce-footer">
-    <div><strong>Luogo:</strong> Arezzo</div>
-    <div><strong>Firma:</strong> [Firmato]</div>
-    <div><strong>Data:</strong> 01-FEB-2019</div>
-    <div><strong>Nome:</strong> Marco Mazzini</div>
+    <div><strong>Lugar:</strong> Arezzo</div>
+    <div><strong>Firma:</strong> [Firmado]</div>
+    <div><strong>Fecha:</strong> 01-FEB-2019</div>
+    <div><strong>Nombre:</strong> Marco Mazzini</div>
   </div>
 </div>
 
 ---
 
-## Direttive di Riferimento
+## Directivas de referencia
 
-La macchina fornita da ARS S.r.l. non rientra nelle categorie elencate nell'**Allegato IV** della Direttiva Macchine; si applica pertanto la procedura di valutazione della conformità con **controllo interno sulla fabbricazione** (Allegato VIII).
+La máquina suministrada por ARS S.r.l. no se incluye en las categorías enumeradas en el **Anexo IV** de la Directiva de Máquinas; por lo tanto, se aplica el procedimiento de evaluación de la conformidad con **control interno de la fabricación** (Anexo VIII).
 
-Il fascicolo tecnico di costruzione è redatto secondo l'**Allegato VII** della Direttiva 2006/42/CE ed è disponibile agli organi di vigilanza su richiesta motivata.
+El expediente técnico de construcción se redacta conforme al **Anexo VII** de la Directiva 2006/42/CE y está a disposición de los órganos de vigilancia previa solicitud motivada.
 
-La macchina è immessa sul mercato corredata di:
-- Marcatura CE
-- Dichiarazione CE di Conformità
-- Manuale di istruzioni e avvertenze *(punto 1.7.4 della Direttiva Macchine 2006/42/CE)*
+La máquina se comercializa acompañada de:
+- Marcado CE
+- Declaración CE de conformidad
+- Manual de instrucciones y advertencias *(punto 1.7.4 de la Directiva de Máquinas 2006/42/CE)*
 
 <table class="isw-table">
   <thead>
     <tr>
-      <th>Direttiva</th>
-      <th>Descrizione / Ambito</th>
+      <th>Directiva</th>
+      <th>Descripción / Ámbito</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="font-family:inherit; font-weight:700; color:#1a3a52; width:auto;">2006/42/CE</td>
-      <td>Direttiva Macchine</td>
+      <td>Directiva de Máquinas</td>
     </tr>
     <tr>
       <td style="font-family:inherit; font-weight:700; color:#1a3a52;">2014/30/UE</td>
-      <td>Direttiva per la Compatibilità Elettromagnetica</td>
+      <td>Directiva de Compatibilidad Electromagnética</td>
     </tr>
   </tbody>
 </table>
 
 ---
 
-## Destinatari, Fornitura e Conservazione
+## Destinatarios, suministro y conservación
 
-Il manuale è destinato agli operatori incaricati di utilizzare e gestire la macchina in **tutte le fasi della sua vita tecnica**. Il manuale, unitamente al certificato CE, è **parte integrante della macchina** e deve accompagnarla in ogni spostamento o rivendita.
+El manual está destinado a los operadores encargados de utilizar y gestionar la máquina en **todas las fases de su vida técnica**. El manual, junto con el certificado CE, es **parte integrante de la máquina** y debe acompañarla en cada traslado o reventa.
 
-| Aspetto | Prescrizione |
+| Aspecto | Prescripción |
 |---|---|
-| **Integrità** | Conservare integro. In caso di smarrimento, richiedere copia immediata al Costruttore. |
-| **Passaggi di proprietà** | Deve seguire la macchina fino alla demolizione (spostamenti, vendita, noleggio, affitto). |
-| **Formato** | Fornito in formato elettronico, con allegati (schemi elettrici, manuali sub-fornitori). |
-| **Allegati** | I manuali allegati sono parte costitutiva; si applicano le medesime prescrizioni. |
-| **Lingua originale** | Italiano. In caso di incongruenze con le traduzioni, fa fede il testo originale. |
-| **Aggiornamenti** | A cura del Costruttore. L'utilizzatore garantisce che solo le versioni aggiornate siano in uso. |
+| **Integridad** | Conservar íntegro. En caso de pérdida, solicitar inmediatamente una copia al Fabricante. |
+| **Cambios de propiedad** | Debe acompañar a la máquina hasta su desguace (traslados, venta, alquiler, arrendamiento). |
+| **Formato** | Suministrado en formato electrónico, con anexos (esquemas eléctricos, manuales de subproveedores). |
+| **Anexos** | Los manuales adjuntos forman parte constitutiva; se aplican las mismas prescripciones. |
+| **Idioma original** | Italiano. En caso de incongruencias con las traducciones, prevalece el texto original. |
+| **Actualizaciones** | A cargo del Fabricante. El usuario garantiza que solo se utilicen las versiones actualizadas. |
 
 ```{attention}
-La Ditta Costruttrice declina ogni responsabilità per uso improprio della macchina e/o per danni causati da operazioni non contemplate nella documentazione tecnica.
+La empresa fabricante declina toda responsabilidad por el uso indebido de la máquina y/o por los daños causados por operaciones no contempladas en la documentación técnica.
 ```
 
 ---
 
-## Profili degli Operatori e Qualifiche
+## Perfiles de los operadores y cualificaciones
 
 <div class="isw-profiles">
 
   <div class="isw-profile">
     <div class="isw-profile-header">
       <i class="ph ph-user" style="color:#2980b9;font-size:1.1rem;"></i>
-      <span class="isw-profile-role">Operatore</span>
+      <span class="isw-profile-role">Operador</span>
     </div>
     <div class="isw-profile-body">
-      Personale dell'utilizzatore addestrato e abilitato alla conduzione della macchina ai fini produttivi. Esegue le operazioni necessarie al buon funzionamento e alla propria incolumità. Ha comprovata esperienza e formazione specifica. In caso di dubbi, segnala le anomalie al superiore.
-      <div class="isw-profile-note">⚠ Non è autorizzato ad effettuare alcuna attività di manutenzione.</div>
+      Personal del usuario formado y habilitado para la conducción de la máquina con fines productivos. Realiza las operaciones necesarias para el buen funcionamiento y para su propia integridad. Posee experiencia demostrada y formación específica. En caso de duda, comunica las anomalías a su superior.
+      <div class="isw-profile-note">⚠ No está autorizado a realizar ninguna actividad de mantenimiento.</div>
     </div>
   </div>
 
   <div class="isw-profile">
     <div class="isw-profile-header">
       <i class="ph ph-wrench" style="color:#2980b9;font-size:1.1rem;"></i>
-      <span class="isw-profile-role">Manutentore Meccanico</span>
+      <span class="isw-profile-role">Mantenedor mecánico</span>
     </div>
     <div class="isw-profile-body">
-      Tecnico qualificato per attività preventiva/correttiva su parti meccaniche. Accede a tutte le parti della macchina per analisi visiva, regolazione e taratura. Legge schemi pneumatici/oleodinamici, disegni tecnici e liste ricambi. In casi straordinari può operare con sicurezze ridotte.
-      <div class="isw-profile-note">⚠ Non è abilitato ad intervenire su impianti elettrici sotto tensione.</div>
+      Técnico cualificado para actividades preventivas/correctivas en partes mecánicas. Accede a todas las partes de la máquina para el análisis visual, el ajuste y la calibración. Lee esquemas neumáticos/oleohidráulicos, planos técnicos y listas de repuestos. En casos extraordinarios puede operar con seguridades reducidas.
+      <div class="isw-profile-note">⚠ No está habilitado para intervenir en instalaciones eléctricas bajo tensión.</div>
     </div>
   </div>
 
   <div class="isw-profile">
     <div class="isw-profile-header">
       <i class="ph ph-lightning" style="color:#2980b9;font-size:1.1rem;"></i>
-      <span class="isw-profile-role">Manutentore Elettrico</span>
+      <span class="isw-profile-role">Mantenedor eléctrico</span>
     </div>
     <div class="isw-profile-body">
-      Tecnico qualificato per manutenzione preventiva/correttiva sull'impianto elettrico. Legge gli schemi elettrici e verifica i cicli funzionali. Può operare sotto tensione nei quadri elettrici <strong>solo se in possesso di idoneità PEI (Normativa EN 50110-1)</strong>.
-      <div class="isw-profile-note">⚠ Non esegue programmazione software (PLC o logiche di sicurezza) e non modifica le password.</div>
+      Técnico cualificado para el mantenimiento preventivo/correctivo de la instalación eléctrica. Lee los esquemas eléctricos y verifica los ciclos funcionales. Puede trabajar bajo tensión en los cuadros eléctricos <strong>solo si posee la idoneidad PEI (norma EN 50110-1)</strong>.
+      <div class="isw-profile-note">⚠ No realiza programación de software (PLC o lógicas de seguridad) y no modifica las contraseñas.</div>
     </div>
   </div>
 
   <div class="isw-profile">
     <div class="isw-profile-header">
       <i class="ph ph-code" style="color:#2980b9;font-size:1.1rem;"></i>
-      <span class="isw-profile-role">Tecnico Esperto Software</span>
+      <span class="isw-profile-role">Técnico experto en software</span>
     </div>
     <div class="isw-profile-body">
-      Tecnico del Costruttore con comprovata esperienza su sistemi PLC/PC e azionamenti. Esegue modifiche ai dati macchina, creazione di programmi di lavoro e regolazione dei parametri drive. Può operare nei quadri elettrici sotto tensione solo se <strong>soggetto idoneo PEI (EN 50110-1)</strong>.
+      Técnico del Fabricante con experiencia demostrada en sistemas PLC/PC y accionamientos. Realiza modificaciones de los datos de la máquina, crea programas de trabajo y ajusta los parámetros de los drives. Puede trabajar bajo tensión en los cuadros eléctricos solo si es <strong>persona idónea PEI (EN 50110-1)</strong>.
     </div>
   </div>
 
   <div class="isw-profile">
     <div class="isw-profile-header">
       <i class="ph ph-star" style="color:#2980b9;font-size:1.1rem;"></i>
-      <span class="isw-profile-role">Tecnico del Costruttore</span>
+      <span class="isw-profile-role">Técnico del Fabricante</span>
     </div>
     <div class="isw-profile-body">
-      Tecnico specializzato e qualificato direttamente da ARS S.r.l. (o dal distributore) per operazioni ad elevata complessità. Conosce nel dettaglio il ciclo costruttivo della macchina e interviene su richiesta specifica dell'utilizzatore.
+      Técnico especializado y cualificado directamente por ARS S.r.l. (o por el distribuidor) para operaciones de elevada complejidad. Conoce en detalle el ciclo constructivo de la máquina e interviene a petición específica del usuario.
     </div>
   </div>
 
 </div>
 
-Tutte le qualifiche sopra rientrano obbligatoriamente nella categoria di **"Persona Addestrata"**:
+Todas las cualificaciones anteriores entran obligatoriamente en la categoría de **«Persona formada»**:
 
 <div class="isw-trained-person">
   <div>
-    <div class="isw-trained-person-title">Persona Addestrata</div>
-    Soggetto informato, istruito ed addestrato sul lavoro e sui pericoli derivanti da un uso improprio. Conosce l'importanza dei dispositivi di sicurezza, le norme antinfortunistiche e le condizioni operative per il lavoro in sicurezza.
+    <div class="isw-trained-person-title">Persona formada</div>
+    Persona informada, instruida y formada sobre el trabajo y los peligros derivados de un uso indebido. Conoce la importancia de los dispositivos de seguridad, las normas de prevención de accidentes y las condiciones operativas para trabajar con seguridad.
   </div>
 </div>
 
 ---
 
-## Simbologia di Sicurezza
+## Simbología de seguridad
 
 <div class="isw-symbol-grid">
 
   <div class="isw-symbol-item">
-    <img src="../../../../../_shared/media/images/simbolo_avvertenza.png" alt="Avvertenza">
+    <img src="../../../../../_shared/media/images/simbolo_avvertenza.png" alt="Advertencia">
     <div>
-      <div class="isw-symbol-label">Avvertenza generale</div>
-      <div class="isw-symbol-desc">Avvertenze cruciali per la sicurezza dell'operatore e/o per l'integrità della macchina.</div>
+      <div class="isw-symbol-label">Advertencia general</div>
+      <div class="isw-symbol-desc">Advertencias cruciales para la seguridad del operador y/o la integridad de la máquina.</div>
     </div>
   </div>
 
   <div class="isw-symbol-item">
-    <img src="../../../../../_shared/media/images/simbolo_elettrico.png" alt="Pericolo elettrico">
+    <img src="../../../../../_shared/media/images/simbolo_elettrico.png" alt="Peligro eléctrico">
     <div>
-      <div class="isw-symbol-label">Pericolo elettrico</div>
-      <div class="isw-symbol-desc">Segnala pericoli e rischi di natura elettrica (presenza di tensione).</div>
+      <div class="isw-symbol-label">Peligro eléctrico</div>
+      <div class="isw-symbol-desc">Señala peligros y riesgos de naturaleza eléctrica (presencia de tensión).</div>
     </div>
   </div>
 
   <div class="isw-symbol-item">
-    <img src="../../../../../_shared/media/images/obbligo_info.png" alt="Informazione importante">
+    <img src="../../../../../_shared/media/images/obbligo_info.png" alt="Información importante">
     <div>
-      <div class="isw-symbol-label">Informazione importante</div>
-      <div class="isw-symbol-desc">Informazioni di particolare importanza relative alla gestione operativa del sistema.</div>
+      <div class="isw-symbol-label">Información importante</div>
+      <div class="isw-symbol-desc">Información de especial importancia relativa a la gestión operativa del sistema.</div>
     </div>
   </div>
 
@@ -610,181 +608,181 @@ Tutte le qualifiche sopra rientrano obbligatoriamente nella categoria di **"Pers
 
 ---
 
-## Glossario Tecnico
+## Glosario técnico
 
 <table class="isw-table">
   <thead>
     <tr>
-      <th style="width:200px;">Termine</th>
-      <th>Definizione Tecnica</th>
+      <th style="width:200px;">Término</th>
+      <th>Definición técnica</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Accessori di sollevamento</td><td>Componenti non collegati alle macchine che consentono la presa del carico, disposti tra la macchina e il carico (incluse imbracature e loro componenti).</td></tr>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Avaria</td><td>Guasto che impedisce il normale funzionamento di un macchinario o di un impianto.</td></tr>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Catene, funi o cinghie</td><td>Elementi progettati per il sollevamento come parte integrante di macchine o accessori di sollevamento.</td></tr>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Danno</td><td>Qualunque conseguenza negativa derivante dal verificarsi di un evento pericoloso.</td></tr>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">D.P.I.</td><td>Dispositivo di Protezione Individuale: prodotti atti a salvaguardare la salute e la sicurezza dei lavoratori che li indossano.</td></tr>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Macchina</td><td>Insieme equipaggiato di un sistema di azionamento composto di parti (di cui almeno una mobile), collegate per un'applicazione determinata.</td></tr>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Malfunzionamento</td><td>Funzionamento difettoso o inadeguato di una macchina o di un suo elemento.</td></tr>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Pericolo</td><td>Potenziale sorgente di danno che, se non evitato, comporta un rischio per la sicurezza e la salute.</td></tr>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Protezione</td><td>Difesa contro ciò che può causare danno. Può essere <strong>Attiva</strong> (azionata dall'operatore) o <strong>Passiva</strong> (interviene senza comando umano).</td></tr>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Riparo</td><td>Barriera fisica, progettata come parte strutturale della macchina, per fornire protezione.</td></tr>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Rischio</td><td>Combinazione della probabilità e della gravità di una lesione o di un danno in una situazione pericolosa.</td></tr>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Rischio residuo</td><td>Rischio che permane dopo l'adozione delle misure di protezione e prevenzione in fase di progetto.</td></tr>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Uso previsto</td><td>Uso della macchina in conformità alle informazioni fornite nelle istruzioni d'uso.</td></tr>
-    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Uso scorretto prevedibile</td><td>Uso non previsto dal progettista, derivante da un comportamento umano facilmente prevedibile.</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Accesorios de elevación</td><td>Componentes no conectados a las máquinas que permiten la sujeción de la carga, dispuestos entre la máquina y la carga (incluidas las eslingas y sus componentes).</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Avería</td><td>Fallo que impide el funcionamiento normal de una máquina o instalación.</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Cadenas, cables o correas</td><td>Elementos diseñados para la elevación como parte integrante de máquinas o accesorios de elevación.</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Daño</td><td>Cualquier consecuencia negativa derivada de la aparición de un evento peligroso.</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">EPI</td><td>Equipo de Protección Individual: productos destinados a salvaguardar la salud y la seguridad de los trabajadores que los llevan.</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Máquina</td><td>Conjunto equipado con un sistema de accionamiento compuesto por partes (de las cuales al menos una es móvil), conectadas para una aplicación determinada.</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Fallo de funcionamiento</td><td>Funcionamiento defectuoso o inadecuado de una máquina o de uno de sus elementos.</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Peligro</td><td>Fuente potencial de daño que, si no se evita, supone un riesgo para la seguridad y la salud.</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Protección</td><td>Defensa contra lo que puede causar daño. Puede ser <strong>Activa</strong> (accionada por el operador) o <strong>Pasiva</strong> (interviene sin mando humano).</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Resguardo</td><td>Barrera física, diseñada como parte estructural de la máquina, para proporcionar protección.</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Riesgo</td><td>Combinación de la probabilidad y la gravedad de una lesión o un daño para la salud en una situación peligrosa.</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Riesgo residual</td><td>Riesgo que permanece tras la adopción de las medidas de protección y prevención en la fase de diseño.</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Uso previsto</td><td>Uso de la máquina de conformidad con la información facilitada en las instrucciones de uso.</td></tr>
+    <tr><td style="font-family:inherit;font-weight:700;color:#1a3a52;">Uso incorrecto previsible</td><td>Uso no previsto por el diseñador, derivado de un comportamiento humano fácilmente previsible.</td></tr>
   </tbody>
 </table>
 
 ---
 
-## Dispositivi di Protezione Individuale (D.P.I.) Obbligatori
+## Equipos de protección individual (EPI) obligatorios
 
-Nelle fasi di prossimità alla macchina (montaggio, manutenzione, regolazione) è obbligatorio impiegare i seguenti DPI:
+En las fases de proximidad a la máquina (montaje, mantenimiento, ajuste) es obligatorio utilizar los siguientes EPI:
 
 <div class="isw-symbol-grid">
   <div class="isw-symbol-item">
-    <img src="../../../../../_shared/media/images/obbligo_guanti.png" alt="Guanti protettivi">
+    <img src="../../../../../_shared/media/images/obbligo_guanti.png" alt="Guantes de protección">
     <div>
-      <div class="isw-symbol-label">Guanti protettivi</div>
-      <div class="isw-symbol-desc">Obbligo di indossare guanti protettivi o isolanti a protezione delle mani.</div>
+      <div class="isw-symbol-label">Guantes de protección</div>
+      <div class="isw-symbol-desc">Es obligatorio llevar guantes de protección o aislantes para proteger las manos.</div>
     </div>
   </div>
   <div class="isw-symbol-item">
-    <img src="../../../../../_shared/media/images/obbligo_occhiali.png" alt="Occhiali di protezione">
+    <img src="../../../../../_shared/media/images/obbligo_occhiali.png" alt="Gafas de protección">
     <div>
-      <div class="isw-symbol-label">Occhiali di protezione</div>
-      <div class="isw-symbol-desc">Obbligo di indossare occhiali protettivi per la salvaguardia degli occhi.</div>
+      <div class="isw-symbol-label">Gafas de protección</div>
+      <div class="isw-symbol-desc">Es obligatorio llevar gafas de protección para salvaguardar los ojos.</div>
     </div>
   </div>
   <div class="isw-symbol-item">
-    <img src="../../../../../_shared/media/images/obbligo_antiinf.png" alt="Scarpe antinfortunistiche">
+    <img src="../../../../../_shared/media/images/obbligo_antiinf.png" alt="Calzado de seguridad">
     <div>
-      <div class="isw-symbol-label">Scarpe antinfortunistiche</div>
-      <div class="isw-symbol-desc">Obbligo di calzare scarpe antinfortunistiche per la protezione dei piedi.</div>
+      <div class="isw-symbol-label">Calzado de seguridad</div>
+      <div class="isw-symbol-desc">Es obligatorio llevar calzado de seguridad para proteger los pies.</div>
     </div>
   </div>
   <div class="isw-symbol-item">
-    <img src="../../../../../_shared/media/images/obbligo_rumore.png" alt="Protezione dal rumore">
+    <img src="../../../../../_shared/media/images/obbligo_rumore.png" alt="Protección contra el ruido">
     <div>
-      <div class="isw-symbol-label">Protezione dal rumore</div>
-      <div class="isw-symbol-desc">Obbligo di indossare cuffie o tappi auricolari per la protezione dell'udito.</div>
+      <div class="isw-symbol-label">Protección contra el ruido</div>
+      <div class="isw-symbol-desc">Es obligatorio llevar orejeras o tapones para proteger el oído.</div>
     </div>
   </div>
   <div class="isw-symbol-item">
-    <img src="../../../../../_shared/media/images/obbligo_indumenti.png" alt="Indumenti protettivi">
+    <img src="../../../../../_shared/media/images/obbligo_indumenti.png" alt="Ropa de protección">
     <div>
-      <div class="isw-symbol-label">Indumenti protettivi</div>
-      <div class="isw-symbol-desc">Obbligo di indossare gli specifici indumenti di lavoro protettivi.</div>
+      <div class="isw-symbol-label">Ropa de protección</div>
+      <div class="isw-symbol-desc">Es obligatorio llevar la ropa de trabajo de protección específica.</div>
     </div>
   </div>
   <div class="isw-symbol-item">
-    <img src="../../../../../_shared/media/images/obbligo_manuale.png" alt="Consultazione manuale">
+    <img src="../../../../../_shared/media/images/obbligo_manuale.png" alt="Consulte el manual">
     <div>
-      <div class="isw-symbol-label">Consultazione Manuale</div>
-      <div class="isw-symbol-desc">Obbligo di leggere e comprendere le istruzioni d'uso prima di qualsiasi attività.</div>
+      <div class="isw-symbol-label">Consulte el manual</div>
+      <div class="isw-symbol-desc">Es obligatorio leer y comprender las instrucciones de uso antes de cualquier actividad.</div>
     </div>
   </div>
   <div class="isw-symbol-item">
-    <img src="../../../../../_shared/media/images/obbligo_casco.png" alt="Casco di protezione">
+    <img src="../../../../../_shared/media/images/obbligo_casco.png" alt="Casco de protección">
     <div>
-      <div class="isw-symbol-label">Casco di protezione</div>
-      <div class="isw-symbol-desc">Obbligo di indossare il casco a protezione del capo.</div>
+      <div class="isw-symbol-label">Casco de protección</div>
+      <div class="isw-symbol-desc">Es obligatorio llevar casco para proteger la cabeza.</div>
     </div>
   </div>
 </div>
 
 ```{warning}
-**ABBIGLIAMENTO DI SICUREZZA**
+**ROPA DE SEGURIDAD**
 
-L'abbigliamento del personale deve essere conforme ai requisiti essenziali previsti dal **Regolamento UE 2016/425** e alle leggi vigenti nel Paese di installazione. Il mancato rispetto può compromettere la sicurezza dell'operatore e delle persone esposte.
+La ropa del personal debe cumplir los requisitos esenciales previstos por el **Reglamento UE 2016/425** y las leyes vigentes en el país de instalación. El incumplimiento puede comprometer la seguridad del operador y de las personas expuestas.
 ```
 
 ---
 
-## Mappatura delle Aree di Sicurezza
+## Mapa de las áreas de seguridad
 
 <div class="isw-zones">
   <div class="isw-zone">
-    <div class="isw-zone-label">Zone di comando</div>
-    <div class="isw-zone-desc">Aree in cui l'operatore esegue il controllo delle funzioni cicliche (in modalità automatica o semiautomatica), tramite i pannelli dedicati.</div>
+    <div class="isw-zone-label">Zonas de mando</div>
+    <div class="isw-zone-desc">Áreas en las que el operador controla las funciones cíclicas (en modo automático o semiautomático) mediante los paneles dedicados.</div>
   </div>
   <div class="isw-zone">
-    <div class="isw-zone-label">Zone di manutenzione / regolazione</div>
-    <div class="isw-zone-desc">Accessibili solo a manutentori meccanici ed elettrici qualificati per operazioni di settaggio. Rimangono interdette durante il ciclo produttivo standard.</div>
+    <div class="isw-zone-label">Zonas de mantenimiento / ajuste</div>
+    <div class="isw-zone-desc">Accesibles solo para mantenedores mecánicos y eléctricos cualificados para operaciones de configuración. Permanecen vedadas durante el ciclo de producción estándar.</div>
   </div>
   <div class="isw-zone">
-    <div class="isw-zone-label">Zone pericolose</div>
-    <div class="isw-zone-desc">Aree interne o perimetrali alla macchina con rischi residui. <strong>È categoricamente vietato l'accesso a chiunque quando la macchina è in funzione.</strong></div>
+    <div class="isw-zone-label">Zonas peligrosas</div>
+    <div class="isw-zone-desc">Áreas internas o perimetrales de la máquina con riesgos residuales. <strong>Está categóricamente prohibido el acceso a cualquier persona cuando la máquina está en funcionamiento.</strong></div>
   </div>
 </div>
 
 ```{warning}
-**ACCESSO A ZONE PERICOLOSE**
+**ACCESO A ZONAS PELIGROSAS**
 
-I rischi nelle zone della macchina sono protetti tramite ripari fisici (carter, portelli) e dispositivi elettrici interbloccati (sensori, microinterruttori).
+Los riesgos en las zonas de la máquina están protegidos mediante resguardos físicos (carcasas, puertas) y dispositivos eléctricos con enclavamiento (sensores, microinterruptores).
 
-Quando il sistema è attivo è severamente vietato:
-- scavalcare le protezioni;
-- bypassare i dispositivi di sicurezza;
-- intervenire all'interno delle aree protette.
+Cuando el sistema está activo está terminantemente prohibido:
+- saltar por encima de las protecciones;
+- puentear los dispositivos de seguridad;
+- intervenir dentro de las áreas protegidas.
 
-La rimozione o l'elusione dei sistemi di sicurezza può causare gravi lesioni alle persone e danni alla macchina.
+La retirada o la elusión de los sistemas de seguridad puede causar lesiones graves a las personas y daños a la máquina.
 ```
 
 ---
 
-## Condizioni e Limiti della Garanzia
+## Condiciones y límites de la garantía
 
-Le clausole complete sono stabilite nel contratto di vendita, le cui condizioni hanno sempre la priorità rispetto a questo manuale.
+Las cláusulas completas se establecen en el contrato de venta, cuyas condiciones tienen siempre prioridad sobre este manual.
 
 <div class="isw-warranty-grid">
   <div class="isw-warranty-col valid">
-    <div class="isw-warranty-col-header">✔ Condizioni di validità</div>
+    <div class="isw-warranty-col-header">✔ Condiciones de validez</div>
     <ul>
-      <li>Apertura imballi eseguita con mezzi idonei senza danni ai sistemi.</li>
-      <li>Installazione e avviamento eseguiti alla presenza di tecnici abilitati.</li>
-      <li>Utilizzo entro i limiti nominali dichiarati nel contratto.</li>
-      <li>Manutenzione nei tempi prestabiliti con <strong>ricambi originali ARS S.r.l.</strong> affidati a personale qualificato.</li>
+      <li>Apertura de los embalajes realizada con medios adecuados sin daños a los sistemas.</li>
+      <li>Instalación y puesta en marcha realizadas en presencia de técnicos habilitados.</li>
+      <li>Uso dentro de los límites nominales declarados en el contrato.</li>
+      <li>Mantenimiento en los plazos establecidos con <strong>repuestos originales ARS S.r.l.</strong> encomendado a personal cualificado.</li>
     </ul>
   </div>
   <div class="isw-warranty-col invalid">
-    <div class="isw-warranty-col-header">✘ Cause di decadenza immediata</div>
+    <div class="isw-warranty-col-header">✘ Causas de caducidad inmediata</div>
     <ul>
-      <li>Mancato rispetto delle norme di sicurezza o delle istruzioni.</li>
-      <li>Installazione o impiego in ambienti non idonei.</li>
-      <li>Rimozione o manomissione di dispositivi di controllo e sicurezza.</li>
-      <li>Rimozione o alterazione della targa CE o dei pittogrammi.</li>
-      <li>Modifiche non autorizzate al software (PLC, logiche, password).</li>
-      <li>Uso improprio o affidamento a personale non autorizzato.</li>
-      <li>Modifiche meccaniche/elettriche/pneumatiche senza autorizzazione scritta del Costruttore.</li>
-      <li>Anomalie nell'erogazione dell'energia di alimentazione.</li>
-      <li>Mancata attuazione del piano di manutenzione programmata.</li>
-      <li>Smaltimento finale in violazione delle norme ambientali vigenti.</li>
+      <li>Incumplimiento de las normas de seguridad o de las instrucciones.</li>
+      <li>Instalación o uso en entornos no adecuados.</li>
+      <li>Retirada o manipulación de dispositivos de control y seguridad.</li>
+      <li>Retirada o alteración de la placa CE o de los pictogramas.</li>
+      <li>Modificaciones no autorizadas del software (PLC, lógicas, contraseñas).</li>
+      <li>Uso indebido o encomienda a personal no autorizado.</li>
+      <li>Modificaciones mecánicas/eléctricas/neumáticas sin autorización por escrito del Fabricante.</li>
+      <li>Anomalías en el suministro de la energía de alimentación.</li>
+      <li>Falta de ejecución del plan de mantenimiento programado.</li>
+      <li>Eliminación final en infracción de la normativa medioambiental vigente.</li>
     </ul>
   </div>
 </div>
 
 ---
 
-## Sicurezze
+## Seguridades
 
 <div class="isw-safety-cards">
 
   <div class="isw-safety-card">
-    <div class="isw-safety-card-title"><i class="ph ph-speaker-high"></i> Rumore</div>
-    <p>Misurazioni eseguite secondo UNI EN 11200 e UNI EN ISO 3746. L'esposizione al rumore durante il funzionamento è pari a <strong>90 dB</strong>. Il livello effettivo in sito può variare in funzione del tipo di installazione, delle macchine adiacenti e delle caratteristiche dell'ambiente.</p>
+    <div class="isw-safety-card-title"><i class="ph ph-speaker-high"></i> Ruido</div>
+    <p>Mediciones realizadas según UNI EN 11200 y UNI EN ISO 3746. La exposición al ruido durante el funcionamiento es igual a <strong>90 dB</strong>. El nivel real en el lugar puede variar en función del tipo de instalación, de las máquinas adyacentes y de las características del entorno.</p>
   </div>
 
   <div class="isw-safety-card">
-    <div class="isw-safety-card-title"><i class="ph ph-wave-sine"></i> Vibrazioni</div>
-    <p>Le vibrazioni prodotte dalla macchina in normali condizioni di esercizio non sono pericolose per la salute degli operatori. Una vibrazione eccessiva è sintomo di guasto meccanico e deve essere segnalata ed eliminata immediatamente.</p>
+    <div class="isw-safety-card-title"><i class="ph ph-wave-sine"></i> Vibraciones</div>
+    <p>Las vibraciones producidas por la máquina en condiciones normales de funcionamiento no son peligrosas para la salud de los operadores. Una vibración excesiva es síntoma de una avería mecánica y debe comunicarse y eliminarse inmediatamente.</p>
   </div>
 
   <div class="isw-safety-card">
-    <div class="isw-safety-card-title"><i class="ph ph-broadcast"></i> Compatibilità Elettromagnetica</div>
-    <p>La macchina è conforme alla Direttiva EMC. I valori di emissione rientrano nei limiti normativi grazie all'impiego di componenti certificati, collegamenti idonei e filtri dove necessario. Interventi manutentivi non conformi o sostituzioni errate di componenti possono compromettere tale conformità.</p>
+    <div class="isw-safety-card-title"><i class="ph ph-broadcast"></i> Compatibilidad electromagnética</div>
+    <p>La máquina cumple la Directiva EMC. Los valores de emisión se mantienen dentro de los límites normativos gracias al uso de componentes certificados, conexiones adecuadas y filtros cuando es necesario. Intervenciones de mantenimiento no conformes o sustituciones erróneas de componentes pueden comprometer dicha conformidad.</p>
   </div>
 
 </div>
@@ -798,17 +796,17 @@ Le clausole complete sono stabilite nel contratto di vendita, le cui condizioni 
 </style>
 
 ```{attention}
-**OBBLIGO** — È obbligatorio utilizzare i dispositivi di protezione individuale durante il funzionamento della macchina.
+**OBLIGACIÓN** — Es obligatorio utilizar los equipos de protección individual durante el funcionamiento de la máquina.
 ```
 
-### Rischi Residui
+### Riesgos residuales
 
-La progettazione della macchina è stata eseguita per garantire i requisiti essenziali di sicurezza; tuttavia, permangono rischi residui nelle fasi di:
-- trasporto e installazione
-- funzionamento normale
-- regolazione e messa a punto
-- manutenzione e pulizia
-- smontaggio e smantellamento
+El diseño de la máquina se ha realizado para garantizar los requisitos esenciales de seguridad; sin embargo, permanecen riesgos residuales en las fases de:
+- transporte e instalación
+- funcionamiento normal
+- ajuste y puesta a punto
+- mantenimiento y limpieza
+- desmontaje y desmantelamiento
 
 <div class="isw-risks">
 
@@ -819,10 +817,10 @@ La progettazione della macchina è stata eseguita per garantire i requisiti esse
       <img src="../../../../../_shared/media/images/pericolo_spazi.png" alt="">
     </div>
     <div class="isw-risk-body">
-      <div class="isw-risk-title">Pericoli dovuti alla movimentazione</div>
+      <div class="isw-risk-title">Peligros debidos a la manipulación</div>
       <div class="isw-risk-desc">
-        Le operazioni di scarico, apertura degli imballi e movimentazione della macchina espongono agli operatori al rischio di <strong>carichi sospesi e schiacciamento</strong>. Devono essere svolte esclusivamente da personale specializzato nella conduzione di mezzi di sollevamento e appositamente addestrato.
-        <br><br>Le procedure dettagliate sono descritte nel capitolo <em>"Trasporto e installazione"</em>.
+        Las operaciones de descarga, apertura de embalajes y manipulación de la máquina exponen a los operadores al riesgo de <strong>cargas suspendidas y aplastamiento</strong>. Deben ser realizadas exclusivamente por personal especializado en la conducción de medios de elevación y específicamente formado.
+        <br><br>Los procedimientos detallados se describen en el capítulo <em>«Transporte e instalación»</em>.
       </div>
     </div>
   </div>
@@ -833,14 +831,14 @@ La progettazione della macchina è stata eseguita per garantire i requisiti esse
       <img src="../../../../../_shared/media/images/simbolo_elettrico.png" alt="">
     </div>
     <div class="isw-risk-body">
-      <div class="isw-risk-title">Pericolo elettrico</div>
+      <div class="isw-risk-title">Peligro eléctrico</div>
       <div class="isw-risk-desc">
-        Le operazioni di accesso e manutenzione espongono al rischio elettrico. Gli interventi sotto tensione devono essere effettuati esclusivamente da personale esperto e qualificato. Misure di sicurezza:
+        Las operaciones de acceso y mantenimiento exponen al riesgo eléctrico. Las intervenciones bajo tensión deben ser realizadas exclusivamente por personal experto y cualificado. Medidas de seguridad:
         <ul>
-          <li>Rispettare i pittogrammi di sicurezza relativi al rischio elettrico.</li>
-          <li>Non effettuare manutenzione senza aver preventivamente sezionato l'alimentazione.</li>
-          <li>Consultare i manuali delle attrezzature commerciali per raccomandazioni specifiche.</li>
-          <li>Ispezionare periodicamente il circuito di protezione equipotenziale.</li>
+          <li>Respete los pictogramas de seguridad relativos al riesgo eléctrico.</li>
+          <li>No realice mantenimiento sin haber seccionado previamente la alimentación.</li>
+          <li>Consulte los manuales de los equipos comerciales para obtener recomendaciones específicas.</li>
+          <li>Inspeccione periódicamente el circuito de protección equipotencial.</li>
         </ul>
       </div>
     </div>
@@ -851,9 +849,9 @@ La progettazione della macchina è stata eseguita per garantire i requisiti esse
       <img src="../../../../../_shared/media/images/simbolo_avvertenza.png" alt="">
     </div>
     <div class="isw-risk-body">
-      <div class="isw-risk-title">Pericolo derivante da polveri e schegge</div>
+      <div class="isw-risk-title">Peligro por polvo y astillas</div>
       <div class="isw-risk-desc">
-        Al termine del ciclo di lavoro possono restare sulla superficie della macchina residui delle parti alimentate o accumuli di polveri. Procedere a un'accurata pulizia della superficie vibrante dopo ogni utilizzo (vedere cap. 7).
+        Al final del ciclo de trabajo pueden quedar en la superficie de la máquina residuos de las piezas alimentadas o acumulaciones de polvo. Limpie a fondo la superficie vibratoria después de cada uso (véase cap. 7).
       </div>
     </div>
   </div>
@@ -861,16 +859,16 @@ La progettazione della macchina è stata eseguita per garantire i requisiti esse
 </div>
 
 ```{attention}
-Non effettuare attività di manutenzione e pulizia senza aver prima de-energizzato tutte le fonti di energia presenti.
+No realice actividades de mantenimiento y limpieza sin haber desenergizado previamente todas las fuentes de energía presentes.
 ```
 
 ```{attention}
-È assolutamente vietato rimuovere le protezioni di sicurezza o aprire i ripari fissi senza aver prima sezionato l'alimentazione elettrica e pneumatica della macchina.
+Está terminantemente prohibido retirar las protecciones de seguridad o abrir los resguardos fijos sin haber seccionado previamente la alimentación eléctrica y neumática de la máquina.
 ```
 
-L'utilizzatore è tenuto a:
-- analizzare i rischi di movimentazione e installazione all'interno della propria sede;
-- sensibilizzare e istruire il personale addetto alle operazioni;
-- applicare le segnalazioni visive di sicurezza nell'ambiente di lavoro.
+El usuario está obligado a:
+- analizar los riesgos de manipulación e instalación dentro de sus propias instalaciones;
+- sensibilizar e instruir al personal encargado de las operaciones;
+- aplicar las señalizaciones visuales de seguridad en el entorno de trabajo.
 
 </div>

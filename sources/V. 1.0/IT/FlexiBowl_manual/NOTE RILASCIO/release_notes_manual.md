@@ -1,4 +1,4 @@
-# Note di Rilascio del Manuale 
+# **Note di Rilascio del Manuale**
 
 Questa pagina raccoglie la cronologia delle revisioni del presente manuale e indica con quali versioni del software FlexiBowl® ciascuna revisione è compatibile.
 

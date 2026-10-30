@@ -1,156 +1,155 @@
 (sost-disco)=
-# **Austausch der Oberfläche oder der Festplatte**
+# **Austausch der Oberfläche oder der starren Scheibe**
 
-Il cambio della superficie o del disco rigido è richiesto qualora si faccia un cambio di produzione o siano presenti danni alla superficie o disco rigido precedenti.
-In ogni caso si consiglia di cambiare la superficie o disco rigido:
-- **Ogni 3 mesi** in caso di utilizzo con componentistica particolarmente tagliente;
-- **Annuale** in tutti gli altri casi.
+Der Austausch der Oberfläche oder der starren Scheibe ist bei einem Produktionswechsel oder bei Beschädigungen der bisherigen Oberfläche bzw. Scheibe erforderlich. In jedem Fall wird empfohlen, die Oberfläche oder die starre Scheibe auszutauschen:
+- **Alle 3 Monate** bei Verwendung mit besonders scharfkantigen Bauteilen;
+- **Jährlich** in allen anderen Fällen.
 
 :::{warning}
-Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la sostituzione della superficie o del disco.
+Sicherstellen, dass der FlexiBowl® **ausgeschaltet ist und stillsteht**, bevor mit dem Austausch der Oberfläche oder der Scheibe begonnen wird.
 :::
 
 :::{warning}
-Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+Einige von den hier beschriebenen Wartungsarbeiten betroffene Teile können im Betrieb {ref}`hohe Temperaturen <temp>` erreicht haben; den FlexiBowl® ausreichend lange ausgeschaltet lassen, damit alle Teile gefahrlos gehandhabt werden können.
 :::
 
-## Superfici (FlexiBowl® 500-650-800-1200)
+## Oberflächen (FlexiBowl® 500-650-800-1200)
 
-### Cosa serve?
+### Was wird benötigt?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Gegenstand/Ausrüstung
+  - Menge
 
-* - Chiave esagonale H5
+* - Sechskantschlüssel H5
   - 1
 
-* - Superficie sostitutiva
+* - Ersatzoberfläche
   - 1
 
 :::
 
-### Procedimento
+### Vorgehensweise
 
-| Step | Operazione |
+| Schritt | Vorgang |
 |:----:|-----------|
-| 1 | Sollevare/rimuovere deviatori/spazzole (se presenti) |
-| 2 | Allentare viti di fissaggio della calotta centrale |
-| 3 | Ruotare e rimuovere calotta centrale |
-| 4 | Rimuovere la superficie e posizionare quella nuova |
-| 5 | Rimettere calotta centrale e serrare viti |
+| 1 | Abweiser/Bürsten anheben/entfernen (falls vorhanden) |
+| 2 | Befestigungsschrauben der zentralen Kappe lösen |
+| 3 | Zentrale Kappe drehen und abnehmen |
+| 4 | Oberfläche entfernen und die neue positionieren |
+| 5 | Zentrale Kappe wieder aufsetzen und Schrauben festziehen |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="disco800" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000006_Cambio_disco.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Ihr Browser unterstützt das Video nicht.
   </video>
   <br>
-  <label for="VelDisco800">Velocità:</label>
+  <label for="VelDisco800">Geschwindigkeit:</label>
   <select id="VelDisco800" onchange="document.getElementById('disco800').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select> 
-  <figcaption><i>Procedura di sostituzione di una superficie illustrata su FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Austauschverfahren einer Oberfläche, dargestellt an einem FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
-## Dischi rigidi
+## Starre Scheiben
 
 ### FlexiBowl® 350-500E
 
-#### Cosa serve?
+#### Was wird benötigt?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Gegenstand/Ausrüstung
+  - Menge
 
-* - Chiave esagonale H5
+* - Sechskantschlüssel H5
   - 1
 
-* - Disco rigido sostitutivo
+* - Ersatz-Starrscheibe
   - 1
 
 :::
 
-### Procedimento
+### Vorgehensweise
 
-| Step | Operazione |
+| Schritt | Vorgang |
 |:----:|-----------|
-| 1 | Rimuovere deviatori e gruppo barriera flip |
-| 2 | Allentare viti di fissaggio della calotta centrale |
-| 3 | Ruotare e rimuovere calotta centrale |
-| 4 | Rimuovere disco e posizionare quello nuovo  |
-| 5 | Rimettere calotta centrale e serrare viti |
+| 1 | Abweiser und Flip-Barrieregruppe entfernen |
+| 2 | Befestigungsschrauben der zentralen Kappe lösen |
+| 3 | Zentrale Kappe drehen und abnehmen |
+| 4 | Scheibe entfernen und die neue positionieren  |
+| 5 | Zentrale Kappe wieder aufsetzen und Schrauben festziehen |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="disco500" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000005_cambio-disco.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Ihr Browser unterstützt das Video nicht.
   </video>
   <br>
-  <label for="VelDisco500">Velocità:</label>
+  <label for="VelDisco500">Geschwindigkeit:</label>
   <select id="VelDisco500" onchange="document.getElementById('disco500').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione di un disco rigido illustrata su FlexiBowl® 500</i></figcaption>
+  <figcaption><i>Austauschverfahren einer starren Scheibe, dargestellt an einem FlexiBowl® 500</i></figcaption>
 </figure>
 ::::
 
 ### FlexiBowl®200
 
-#### Cosa serve?
+#### Was wird benötigt?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Gegenstand/Ausrüstung
+  - Menge
 
-* - Chiave esagonale H3
+* - Sechskantschlüssel H3
   - 1
 
-* - Disco rigido sostitutivo
+* - Ersatz-Starrscheibe
   - 1
 
 :::
 
-### Procedimento
+### Vorgehensweise
 
-| Step | Operazione |
+| Schritt | Vorgang |
 |:----:|-----------|
-| 1 | Rimuovere calotta centrale |
-| 2 | Sostiutuire disco |
-| 3 | Rimettere la calotta centrale |
+| 1 | Zentrale Kappe entfernen |
+| 2 | Scheibe austauschen |
+| 3 | Zentrale Kappe wieder aufsetzen |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="disco200" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000001_cambio_disco.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Ihr Browser unterstützt das Video nicht.
   </video>
   <br>
-  <label for="VelDisco200">Velocità:</label>
+  <label for="VelDisco200">Geschwindigkeit:</label>
   <select id="VelDisco200" onchange="document.getElementById('disco200').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione di un disco rigido illustrata su FlexiBowl® 200</i></figcaption>
+  <figcaption><i>Austauschverfahren einer starren Scheibe, dargestellt an einem FlexiBowl® 200</i></figcaption>
 </figure>
 ::::

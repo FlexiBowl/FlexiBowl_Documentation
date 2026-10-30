@@ -1,5 +1,5 @@
 (sostbl)=
-# [MEC] **Sostituzione Backlight**
+# **Sostituzione Backlight**
 
 :::::{important}
 

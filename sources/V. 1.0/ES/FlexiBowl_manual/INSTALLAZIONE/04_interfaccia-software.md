@@ -149,6 +149,8 @@
   .isw-badge-io   { background: #ede9fe; color: #5b21b6; }
   .isw-badge-tcp  { background: #fce7f3; color: #9d174d; }
   .isw-badge-err  { background: #fee2e2; color: #991b1b; }
+  .isw-badge-field { background: #dcfce7; color: #166534; }
+  .isw-badge-hop  { background: #ffe4e6; color: #9f1239; }
 
   /* ── TABLES ── */
   .isw-table-wrap {
@@ -298,75 +300,176 @@
     width: 90px;
   }
 
+  /* ── ESEMPI PRATICI (pacchetto dati) ── */
+  .isw-example {
+    border: 1px solid #d0e4f0;
+    border-radius: 10px;
+    margin: 1rem 0 1.75rem;
+    overflow: hidden;
+  }
+  .isw-example-title {
+    background: #f0f7ff;
+    padding: 0.6rem 1rem;
+    font-weight: 700;
+    font-size: 0.88rem;
+    color: #1a3a52;
+    border-bottom: 1px solid #d0e4f0;
+  }
+  .isw-example-body {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .isw-example-body > div + div {
+    border-top: 1px solid #e2eef6;
+    padding-top: 1rem;
+  }
+  .isw-example-col-title {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #2980b9;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+  .isw-example-body table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.78rem;
+    margin-bottom: 0.5rem;
+  }
+  .isw-example-body table th {
+    background: #f0f4f8;
+    padding: 0.35rem 0.5rem;
+    text-align: center;
+    font-weight: 700;
+    color: #1a3a52;
+    border: 1px solid #d0e4f0;
+    white-space: nowrap;
+  }
+  .isw-example-body table td {
+    padding: 0.35rem 0.5rem;
+    text-align: center;
+    border: 1px solid #d0e4f0;
+    color: #334e5e;
+  }
+  .isw-example-tcp {
+    font-family: monospace;
+    font-size: 0.85rem;
+    background: #f7fbfe;
+    border-radius: 6px;
+    padding: 0.6rem 0.8rem;
+    margin: 0.35rem 0;
+  }
+  .isw-example-tcp .ok { color: #166534; font-weight: 700; }
+  .isw-example-tcp .ko { color: #991b1b; font-weight: 700; }
 </style>
 
-## Introduzione
+## Introducción
 
-Il sistema di comunicazione è basato su **variabili di Input/Output** e **Control Word numeriche**: il sistema esterno invia un numero (la ControlWord) che identifica l'azione da eseguire e il FlexiBowl® risponde con segnali di stato e dati di ritorno.
+La nueva interfaz del FlexiBowl® está totalmente basada en web. Para acceder a ella basta con introducir la dirección IP por defecto del FlexiBowl® `192.168.1.10` en la barra de direcciones de su navegador.
 
-Protocolli supportati:  
-- **TCP Server**  
-- **EtherNet/IP**  
-- **Profinet**  
+:::{video} ../../../../_shared/media/videos/IP_Home.mp4
+:width: 90%
+:::
+
+
+## Comunicación 
+
+El sistema de comunicación se basa en **variables de entrada/salida** y **Control Words numéricas**: el sistema externo envía un número (la ControlWord) que identifica la acción que se debe ejecutar y el FlexiBowl® responde con señales de estado y datos de retorno.
+
+Protocolos compatibles:
+- **TCP Server**
+- **EtherNet/IP**
+- **Profinet**
 - **Modbus**
+
+:::{important}
+Las variables, las ControlWords y todos los comandos **EXE**, **WRITE** y **READ** descritos en esta página son **idénticos para los cuatro protocolos de comunicación**. Lo que cambia de un protocolo a otro es **exclusivamente la forma en que estos datos se intercambian físicamente**:
+
+- **EtherNet/IP, Profinet y Modbus** se comportan de la misma manera entre sí: intercambian un **paquete de E/S cíclico** con campos fijos (véase [Transporte Fieldbus](#sec-fieldbus)).
+- **TCP Server**, en cambio, utiliza **mensajes de texto** sobre socket (véase [Sintaxis TCP](#sec-tcp)).
+
+Por este motivo, cada ejemplo práctico de esta página se muestra en ambos modos.
+:::
 
 ---
 
-### Naviga la pagina
+### Navegar por la página
 
 <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; margin:1.5rem 0 2.5rem;">
 
   <a href="#sec-io" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit; transition:border-color 0.18s, background 0.18s;">
     <i class="ph ph-arrows-left-right" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Variabili I/O</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Input & Output</span>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Variables de E/S</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Entrada y salida</span>
   </a>
 
-  <a href="#sec-exe" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
-    <i class="ph ph-play-circle" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi EXE</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Avvio sequenze & jog</span>
-  </a>
-
-  <a href="#sec-write" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
-    <i class="ph ph-pencil-simple" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi WRITE</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Scrittura parametri</span>
-  </a>
-
-  <a href="#sec-read" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
-    <i class="ph ph-eye" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi READ</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Lettura parametri</span>
+  <a href="#sec-fieldbus" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-swap" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Transporte Fieldbus</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">EtherNet/IP, Profinet, Modbus</span>
   </a>
 
   <a href="#sec-tcp" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
     <i class="ph ph-network" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Sintassi TCP</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Messaggi socket</span>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Sintaxis TCP</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Mensajes socket</span>
+  </a>
+
+  <a href="#sec-exe" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-play-circle" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandos EXE</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Inicio de secuencias y jog</span>
+  </a>
+
+  <a href="#sec-write" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-pencil-simple" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandos WRITE</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Escritura de parámetros</span>
+  </a>
+
+  <a href="#sec-read" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-eye" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandos READ</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Lectura de parámetros</span>
+  </a>
+
+  <a href="#sec-hopper" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-funnel" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandos Hopper</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Bulk Feeder</span>
+  </a>
+
+  <a href="#sec-empty" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
+    <i class="ph ph-arrow-counter-clockwise" style="font-size:1.6rem; color:#2980b9;"></i>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Quick Emptying</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Opción de vaciado</span>
   </a>
 
   <a href="#sec-err" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
     <i class="ph ph-warning-circle" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Codici di Errore</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Diagnostica</span>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Códigos de error</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Diagnóstico</span>
   </a>
 
 </div>
 
 ---
 
-### Come funziona un comando
+### Cómo funciona un comando
 
-Due modifiche: numeri in grassetto semplice dentro il cerchio, testi più grandi e leggibili.
+Esta lógica es **idéntica para todos los protocolos**: solo cambia la forma en que se transmiten físicamente los 4 pasos (paquete de E/S para los protocolos fieldbus, mensaje de texto para TCP — véanse las secciones siguientes).
+
 <table style="width:100%; border-collapse:collapse; margin: 1.5rem 0 2rem;">
   <tr>
     <td style="text-align:center; padding:0 8px; width:22%;">
       <div style="width:52px; height:52px; border-radius:50%; background:#e3f1fb; border:2px solid #2980b9; display:inline-flex; align-items:center; justify-content:center; color:#2980b9; font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
         1
       </div><br>
-      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Imposta<br>ControlWord</span><br>
-      <span style="font-size:0.8rem; color:#7a9ab0;">numero del comando</span>
+      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Establecer<br>ControlWord</span><br>
+      <span style="font-size:0.8rem; color:#7a9ab0;">número del comando</span>
     </td>
     <td style="text-align:center; color:#bcd6ec; font-size:1.6rem; width:4%; vertical-align:middle; padding-bottom:1.8rem;">
       <i class="ph ph-caret-right"></i>
@@ -375,8 +478,8 @@ Due modifiche: numeri in grassetto semplice dentro il cerchio, testi più grandi
       <div style="width:52px; height:52px; border-radius:50%; background:#e3f1fb; border:2px solid #2980b9; display:inline-flex; align-items:center; justify-content:center; color:#2980b9; font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
         2
       </div><br>
-      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Imposta<br>Data_1</span><br>
-      <span style="font-size:0.8rem; color:#7a9ab0;">se richiesto</span>
+      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Establecer<br>Data_1</span><br>
+      <span style="font-size:0.8rem; color:#7a9ab0;">si se requiere</span>
     </td>
     <td style="text-align:center; color:#bcd6ec; font-size:1.6rem; width:4%; vertical-align:middle; padding-bottom:1.8rem;">
       <i class="ph ph-caret-right"></i>
@@ -385,7 +488,7 @@ Due modifiche: numeri in grassetto semplice dentro il cerchio, testi più grandi
       <div style="width:52px; height:52px; border-radius:50%; background:#e3f1fb; border:2px solid #2980b9; display:inline-flex; align-items:center; justify-content:center; color:#2980b9; font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
         3
       </div><br>
-      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Fronte salita<br>ExecuteCW</span><br>
+      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Flanco de subida<br>ExecuteCW</span><br>
       <span style="font-size:0.8rem; color:#7a9ab0;">trigger 0 → 1</span>
     </td>
     <td style="text-align:center; color:#bcd6ec; font-size:1.6rem; width:4%; vertical-align:middle; padding-bottom:1.8rem;">
@@ -395,54 +498,56 @@ Due modifiche: numeri in grassetto semplice dentro il cerchio, testi più grandi
       <div style="width:52px; height:52px; border-radius:50%; background:#e3f1fb; border:2px solid #2980b9; display:inline-flex; align-items:center; justify-content:center; color:#2980b9; font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
         4
       </div><br>
-      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Attendi<br>Busy = 0</span><br>
-      <span style="font-size:0.8rem; color:#7a9ab0;">e ReturnData_1 = CW</span>
+      <span style="font-size:0.92rem; font-weight:700; color:#1a3a52; line-height:1.4;">Esperar<br>Busy = 0</span><br>
+      <span style="font-size:0.8rem; color:#7a9ab0;">y ReturnData_1 = CW</span>
     </td>
   </tr>
 </table>
 
 
-1. Il sistema esterno imposta la **ControlWord** con il numero del comando desiderato.
-2. Se il comando richiede un argomento, imposta anche **Data_1**.
-3. Invia un fronte di salita su **ExecuteControlWord**.
-4. Attende che **Busy** torni a `0` e che **ReturnData_1** restituisca il valore della ControlWord (conferma di esecuzione corretta).
+1. El sistema externo establece la **ControlWord** con el número del comando deseado.
+2. Si el comando requiere un argumento, establece también **Data_1**.
+3. Envía un flanco de subida en **ExecuteControlWord**.
+4. Espera a que **Busy** vuelva a `0` y a que **ReturnData_1** devuelva el valor de la ControlWord (confirmación de ejecución correcta).
 
 :::{warning}
-Non inviare un nuovo comando mentre **Busy** è a `1`. Il sistema ignorerà il comando e **ReturnData_1** restituirà il valore `3` (sistema occupato).
+No enviar un nuevo comando mientras **Busy** esté a `1`. El sistema ignorará el comando y **ReturnData_1** devolverá el valor `3` (sistema ocupado).
 :::
 
 ---
 
 (sec-io)=
-## Variabili di Input e Output 
+## Variables de entrada y salida 
 
-### INPUT — Segnali inviati al FlexiBowl®
+Estas variables son **las mismas para todos los protocolos de comunicación**: solo cambia la forma en que se intercambian (véanse [Transporte Fieldbus](#sec-fieldbus) y [Sintaxis TCP](#sec-tcp)).
 
-| Variabile | Tipo | Descrizione |
+### INPUT — Señales enviadas al FlexiBowl®
+
+| Variable | Tipo | Descripción |
 |---|---|---|
-| **ControlWord** | UDINT | Numero intero che identifica il comando da eseguire. Ogni valore corrisponde a un'azione specifica (vedi tabella comandi). |
-| **Data_1** | UDINT | Argomento numerico associato alla ControlWord, quando richiesto (es. il valore di velocità da scrivere). Il significato dipende dal comando selezionato. |
-| **ExecuteControlWord** | BOOL | Segnale di trigger: sul **fronte di salita** (da 0 a 1) la ControlWord viene letta e il comando viene eseguito. |
-| **Hopper_1** | BOOL | Attiva direttamente l'Hopper 1, indipendentemente dalla ControlWord. |
-| **Hopper_2** | BOOL | Attiva direttamente l'Hopper 2. |
-| **Hopper_3** | BOOL | Attiva direttamente l'Hopper 3. |
-| **Hopper_4** | BOOL | Attiva direttamente l'Hopper 4. |
-| **Reset** | BOOL | Sul fronte di salita, esegue il reset degli errori attivi sul dispositivo. |
+| **ControlWord** | UDINT | Número entero que identifica el comando que se debe ejecutar. Cada valor corresponde a una acción específica (véase la tabla de comandos). |
+| **Data_1** | UDINT | Argumento numérico asociado a la ControlWord, cuando se requiere (p. ej. el valor de velocidad que se debe escribir). El significado depende del comando seleccionado. |
+| **ExecuteControlWord** | BOOL | Señal de disparo: en el **flanco de subida** (de 0 a 1) se lee la ControlWord y se ejecuta el comando. |
+| **Hopper_1** | BOOL | Activa directamente el Hopper 1, independientemente de la ControlWord. |
+| **Hopper_2** | BOOL | Activa directamente el Hopper 2. |
+| **Hopper_3** | BOOL | Activa directamente el Hopper 3. |
+| **Hopper_4** | BOOL | Activa directamente el Hopper 4. |
+| **Reset** | BOOL | En el flanco de subida, restablece los errores activos del dispositivo. |
 
-### OUTPUT — Segnali inviati dal FlexiBowl®
+### OUTPUT — Señales enviadas por el FlexiBowl®
 
-| Variabile | Tipo | Descrizione |
+| Variable | Tipo | Descripción |
 |---|---|---|
-| **Busy** | BOOL | Vale `1` mentre il FlexiBowl® sta eseguendo un comando. Finché è attivo, non inviare nuovi comandi. |
-| **Ready** | BOOL | Vale `1` quando il dispositivo è pronto a ricevere nuovi comandi. |
-| **In_Error** | BOOL | Vale `1` se sono presenti errori attivi sul dispositivo. Consultare **ErrorCode** per identificare il tipo di errore. |
-| **ReturnData_1** | UDINT | Conferma del comando ricevuto (echo). I valori possibili sono: `0` = stato iniziale (nessun comando), `1` = comando non interpretabile, `2` = Data_1 errato ma comando riconosciuto, `3` = sistema occupato (Busy), oppure il valore stesso della ControlWord = comando eseguito correttamente. |
-| **ReturnData_2** | UDINT | Contiene i dati richiesti dai comandi di lettura (READ). |
-| **ErrorCode** | UDINT | Codice numerico dell'errore attivo. Vale `0` se non ci sono errori. Vedere la sezione [Codici di Errore](#codici-di-errore) per il significato di ogni codice. |
-| **InPowerOn** | BOOL | Vale `1` se il dispositivo è alimentato e operativo. |
+| **Busy** | BOOL | Vale `1` mientras el FlexiBowl® ejecuta un comando. Mientras esté activo, no enviar nuevos comandos. |
+| **Ready** | BOOL | Vale `1` cuando el dispositivo está listo para recibir nuevos comandos. |
+| **In_Error** | BOOL | Vale `1` si hay errores activos en el dispositivo. Consulte **ErrorCode** para identificar el tipo de error. |
+| **ReturnData_1** | UDINT | Confirmación del comando recibido (eco). Los valores posibles son: `0` = estado inicial (ningún comando), `1` = comando no interpretable, `2` = Data_1 erróneo pero comando reconocido, `3` = sistema ocupado (Busy), o el propio valor de la ControlWord = comando ejecutado correctamente. |
+| **ReturnData_2** | UDINT | Contiene los datos solicitados por los comandos de lectura (READ). |
+| **ErrorCode** | UDINT | Código numérico del error activo. Vale `0` si no hay errores. Véase la sección [Códigos de error](#codici-di-errore) para el significado de cada código. |
+| **InPowerOn** | BOOL | Vale `1` si el dispositivo está alimentado y operativo. |
 
 
-### Valori di ReturnData_1
+### Valores de ReturnData_1
 
 <div class="isw-ret">
 <style>
@@ -456,136 +561,199 @@ Non inviare un nuovo comando mentre **Busy** è a `1`. Il sistema ignorerà il c
 <table style="width:100%; border-collapse:collapse; font-size:0.95rem; margin:0.75rem 0 1.5rem;">
   <thead>
     <tr>
-      <th style="padding:0.6rem 0.9rem; text-align:left; font-weight:700; white-space:nowrap; width:100px;">Valore</th>
-      <th style="padding:0.6rem 0.9rem; text-align:left; font-weight:700;">Significato</th>
+      <th style="padding:0.6rem 0.9rem; text-align:left; font-weight:700; white-space:nowrap; width:100px;">Valor</th>
+      <th style="padding:0.6rem 0.9rem; text-align:left; font-weight:700;">Significado</th>
     </tr>
   </thead>
   <tbody>
     <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
       <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">0</td>
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">NULL — nessun comando in corso (stato iniziale)</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">NULL — ningún comando en curso (estado inicial)</td>
     </tr>
     <tr style="background:#f7fbfe;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#f7fbfe'">
       <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">1</td>
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Comando non interpretabile (ControlWord sconosciuta)</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Comando no interpretable (ControlWord desconocida)</td>
     </tr>
     <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
       <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">2</td>
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Data_1 fuori range, comando riconosciuto</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Data_1 fuera de rango, comando reconocido</td>
     </tr>
     <tr style="background:#f7fbfe;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#f7fbfe'">
       <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">3</td>
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Sistema occupato (Busy) — riprovare</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Sistema ocupado (Busy) — volver a intentarlo</td>
     </tr>
     <tr style="background:#fff;" onmouseover="this.style.background='#e8f4fc'" onmouseout="this.style.background='#fff'">
       <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; font-family:monospace; font-size:1.05rem; font-weight:700; color:#2980b9;">= CW</td>
-      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Comando eseguito correttamente</td>
+      <td style="padding:0.55rem 0.9rem; border-bottom:1px solid #e9f2f9; color:#334e5e;">Comando ejecutado correctamente</td>
     </tr>
   </tbody>
 </table>
 </div>
 
 ---
-## Protocollo Comandi
 
-Il protocollo comandi definisce tutte le azioni disponibili attraverso la ControlWord. I comandi sono raggruppati in tre categorie:
+(sec-fieldbus)=
+## EtherNet/IP, Profinet, Modbus - <span class="isw-section-badge isw-badge-field"><i class="ph ph-swap"></i> FIELDBUS</span>
+
+Para **EtherNet/IP**, **Profinet** y **Modbus**, las variables de [entrada](#sec-io) y [salida](#sec-io) se intercambian como un **paquete de E/S cíclico**: no existen mensajes de texto, cada variable ocupa una posición fija en el paquete de datos. Para toda la información detallada sobre este protocolo, consulte la [página siguiente](fieldbus).
+
+### Paquete de datos — Input (hacia el FlexiBowl®)
+
+| ControlWord | Data_1 | ExecuteControlWord | Hopper_1 | Hopper_2 | Hopper_3 | Hopper_4 | Reset |
+|---|---|---|---|---|---|---|---|
+| *(número de comando)* | *(argumento)* | *(bit de disparo 0→1)* | *(bit)* | *(bit)* | *(bit)* | *(bit)* | *(bit)* |
+
+### Paquete de datos — Output (desde el FlexiBowl®)
+
+| Busy | Ready | In_Error | In_PowerOn | ReturnData_1 | ReturnData_2 | ErrorCode |
+|---|---|---|---|---|---|---|
+| *(bit)* | *(bit)* | *(bit)* | *(bit)* | *(eco de la ControlWord)* | *(dato leído)* | *(código de error)* |
+
+:::{note}
+La secuencia de escritura es siempre la misma: establecer **ControlWord** (y **Data_1** si se requiere) con **ExecuteControlWord = 0**, y después llevar **ExecuteControlWord** a `1` para generar el flanco de subida que inicia la ejecución.
+:::
+
+:::{card} IR A LA PÁGINA CORRESPONDIENTE
+:link: fieldbus
+:link-type: ref
+:class-card: isw-card-field
+:class-body: isw-card-body
+
+Documentación completa del protocolo Fieldbus (EtherNet/IP, Profinet, Modbus)
+:::
+
+---
+
+(sec-tcp)=
+## Sintaxis de mensajes <span class="isw-section-badge isw-badge-tcp"><i class="ph ph-network"></i> TCP SERVER</span>
+
+Cuando se utiliza la comunicación **TCP Server**, los comandos no se envían como variables binarias sino como **cadenas de texto** a través de una conexión socket en el puerto configurado (por defecto: 8123). Para toda la información detallada sobre este protocolo, consulte la [página siguiente](tcp).
+
+### Estructura del mensaje
+
+Cada mensaje tiene la forma:
+
+```
+NomeVariabile[Valore]%
+```
+
+El carácter `%` es el **terminador de mensaje** y debe estar siempre presente al final. El campo `[Valore]` contiene el dato numérico asociado (ControlWord, estado, etc.).
+
+:::{card} IR A LA PÁGINA CORRESPONDIENTE
+:link: tcp
+:link-type: ref
+:class-card: isw-card-tcp
+:class-body: isw-card-body
+
+Sintaxis completa de los mensajes TCP Server, de los comandos y de los terminadores
+:::
+---
+
+## Protocolo de comandos
+
+El protocolo de comandos define todas las acciones disponibles mediante la ControlWord. Las ControlWords son **las mismas para todos los protocolos**; solo cambia el transporte (véanse [Transporte Fieldbus](#sec-fieldbus) y [Sintaxis TCP](#sec-tcp)). Los comandos se agrupan en categorías:
 
 <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; margin:1.5rem 0 2.5rem;">
 
   <a href="#sec-exe" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
     <i class="ph ph-play-circle" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi EXE</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Comandi di esecuzione (avvio sequenze, jog, reset)</span>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandos EXE</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Comandos de ejecución (inicio de secuencias, jog, reinicio)</span>
   </a>
 
   <a href="#sec-write" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
     <i class="ph ph-pencil-simple" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi WRITE</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Scrittura di parametri (velocità, angoli, tempi, ecc.)</span>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandos WRITE</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Escritura de parámetros (velocidad, ángulos, tiempos, etc.)</span>
   </a>
 
   <a href="#sec-read" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
     <i class="ph ph-eye" style="font-size:1.6rem; color:#2980b9;"></i>
-    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandi READ</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Lettura dei parametri attualmente configurati</span>
+    <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">Comandos READ</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Lectura de los parámetros configurados actualmente</span>
   </a>
 
 </div>
 
 (sec-exe)=
-### Comandi <span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span>
+### Comandos <span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span>
 
-I comandi EXE avviano un'azione immediata sul FlexiBowl®. Durante l'esecuzione **Busy** rimane a `1`.
+Los comandos EXE inician una acción inmediata en el FlexiBowl®. Durante la ejecución **Busy** permanece a `1`.
 
-| Comando | ControlWord | Busy durante esecuzione | ReturnData_1 | Spiegazione | 
+| Comando | ControlWord | Busy durante la ejecución | ReturnData_1 | Explicación | 
 |---|---|---|---|---|
-| Exe Seq 1 | 10 | SI | 10 | Esegui Sequenza 1 |
-| Exe Seq 2 | 11 | SI | 11 | Esegui Sequenza 2 |
-| Exe Seq 3 | 12 | SI | 12 | Esegui Sequenza 3 |
-| Exe Seq 4 | 13 | SI | 13 | Esegui Sequenza 4 |
-| Exe Seq 5 | 14 | SI | 14 | Esegui Sequenza 5 |
-| Exe Seq 6 | 15 | SI | 15 | Esegui Sequenza 6 |
-| Exe Seq 7 | 16 | SI | 16 | Esegui Sequenza 7 |
-| Exe Seq 8 | 17 | SI | 17 | Esegui Sequenza 8 |
-| Exe Seq 9 | 18 | SI | 18 | Esegui Sequenza 9 |
-| Exe Seq 10 | 19 | SI | 19 | Esegui Sequenza 10 |
-| Exe Seq 11 | 20 | SI | 20 | Esegui Sequenza 11 |
-| Exe Seq 12 | 21 | SI | 21 | Esegui Sequenza 12 |
-| Exe Seq 13 | 22 | SI | 22 | Esegui Sequenza 13 |
-| Exe Seq 14 | 23 | SI | 23 | Esegui Sequenza 14 |
-| Exe Seq 15 | 24 | SI | 24 | Esegui Sequenza 15 |
-| Exe Seq 16 | 25 | SI | 25 | Esegui Sequenza 16 |
-| Exe Seq 17 | 26 | SI | 26 | Esegui Sequenza 17 |
-| Exe Seq 18 | 27 | SI | 27 | Esegui Sequenza 18 |
-| Exe Seq 19 | 28 | SI | 28 | Esegui Sequenza 19 |
-| Exe Seq 20 | 29 | SI | 29 | Esegui Sequenza 20 |
-| Start Jog Seq | 40 | SI | 40 | Avvia Jog |
-| Stop Jog Seq | 41 | SI | 41 | Ferma Jog |
-| Reset Return Data | 50 | NO | 0 | Azzera il valore di ReturnData_1 e ReturnData_2, riportandoli allo stato iniziale `0` |
+| Exe Seq 1 | 10 | SÍ | 10 | Ejecutar la Secuencia 1 |
+| Exe Seq 2 | 11 | SÍ | 11 | Ejecutar la Secuencia 2 |
+| Exe Seq 3 | 12 | SÍ | 12 | Ejecutar la Secuencia 3 |
+| Exe Seq 4 | 13 | SÍ | 13 | Ejecutar la Secuencia 4 |
+| Exe Seq 5 | 14 | SÍ | 14 | Ejecutar la Secuencia 5 |
+| Exe Seq 6 | 15 | SÍ | 15 | Ejecutar la Secuencia 6 |
+| Exe Seq 7 | 16 | SÍ | 16 | Ejecutar la Secuencia 7 |
+| Exe Seq 8 | 17 | SÍ | 17 | Ejecutar la Secuencia 8 |
+| Exe Seq 9 | 18 | SÍ | 18 | Ejecutar la Secuencia 9 |
+| Exe Seq 10 | 19 | SÍ | 19 | Ejecutar la Secuencia 10 |
+| Exe Seq 11 | 20 | SÍ | 20 | Ejecutar la Secuencia 11 |
+| Exe Seq 12 | 21 | SÍ | 21 | Ejecutar la Secuencia 12 |
+| Exe Seq 13 | 22 | SÍ | 22 | Ejecutar la Secuencia 13 |
+| Exe Seq 14 | 23 | SÍ | 23 | Ejecutar la Secuencia 14 |
+| Exe Seq 15 | 24 | SÍ | 24 | Ejecutar la Secuencia 15 |
+| Exe Seq 16 | 25 | SÍ | 25 | Ejecutar la Secuencia 16 |
+| Exe Seq 17 | 26 | SÍ | 26 | Ejecutar la Secuencia 17 |
+| Exe Seq 18 | 27 | SÍ | 27 | Ejecutar la Secuencia 18 |
+| Exe Seq 19 | 28 | SÍ | 28 | Ejecutar la Secuencia 19 |
+| Exe Seq 20 | 29 | SÍ | 29 | Ejecutar la Secuencia 20 |
+| Start Jog Seq | 40 | SÍ | 40 | Iniciar Jog |
+| Stop Jog Seq | 41 | SÍ | 41 | Detener Jog |
+| Reset Return Data | 50 | NO | 0 | Pone a cero el valor de ReturnData_1 y ReturnData_2, devolviéndolos al estado inicial `0` |
 
 :::{note}
-Il comando **Reset Return Data** (ControlWord 50) azzera il valore di ReturnData_1 e ReturnData_2, riportandoli allo stato iniziale `0`. È utile per verificare che un nuovo comando venga effettivamente ricevuto ed elaborato.
+El comando **Reset Return Data** (ControlWord 50) pone a cero el valor de ReturnData_1 y ReturnData_2, devolviéndolos al estado inicial `0`. Resulta útil para verificar que un nuevo comando se recibe y se procesa realmente.
 :::
 
+#### Ejemplo práctico 
+
+Para ver un ejemplo práctico de comando EXE en fieldbus, consulte la sección [Ejemplo práctico EXE](fieldbus_exe).
+Para ver un ejemplo práctico de comando EXE en TCP, consulte la sección [Ejemplo práctico EXE TCP](TCP_EXE).
+
 (sec-write)=
-### Comandi <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span>
+### Comandos <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span>
 
-I comandi WRITE permettono di modificare i parametri operativi del FlexiBowl® (velocità, angoli, tempi, ecc.) direttamente dal sistema esterno, senza dover accedere all'interfaccia grafica.
+Los comandos WRITE permiten modificar los parámetros operativos del FlexiBowl® (velocidad, ángulos, tiempos, etc.) directamente desde el sistema externo, sin necesidad de acceder a la interfaz gráfica.
 
-#### Logica di indirizzamento delle sequenze
+#### Lógica de direccionamiento de las secuencias
 
-Ogni sequenza (da 1 a 20) ha un proprio blocco di parametri. La ControlWord si calcola con la formula:
+Cada secuencia (de 1 a 20) tiene su propio bloque de parámetros. La ControlWord se calcula con la fórmula:
 
-> **ControlWord = N × 100 + offset_parametro**
+> **ControlWord = N × 100 + parameter_offset**
 
-dove `N` è il numero della sequenza (1–20) e `offset_parametro` identifica il parametro specifico.
+donde `N` es el número de la secuencia (1–20) y `offset_parametro` identifica el parámetro específico.
 
-#### Parametri scrivibili per ogni sequenza
+#### Parámetros escribibles para cada secuencia
 
-| Parametro | Offset | Range Data_1 | Note |
+| Parámetro | Offset | Range Data_1 | Notas |
 |---|---|---|---|
-| AccelerationMove | 00 | 1–100 | Rampa di accelerazione del movimento rotatorio (%) |
-| DecelerationMove | 01 | 1–100 | Rampa di decelerazione del movimento rotatorio (%) |
-| SpeedMove | 02 | 1–100 | Velocità del movimento rotatorio (%) |
-| AngleMove | 03 | 0–720 | Angolo di rotazione in gradi. Valori 1000–1720 = angolo negativo (direzione opposta) |
-| AccelerationShake | 04 | 1–100 | Rampa di accelerazione dello shake (%) |
-| DecelerationShake | 05 | 1–100 | Rampa di decelerazione dello shake (%) |
-| CountShake | 06 | 2–20 | Numero di oscillazioni per ciclo di shake |
-| CwAngleShake | 07 | 0–360 | Angolo di rotazione oraria durante lo shake. Valori 1000–1360 = angolo negativo |
-| CcwAngleShake | 08 | 0–360 | Angolo di rotazione antioraria durante lo shake. Valori 1000–1360 = angolo negativo |
-| SpeedShake | 09 | 1–100 | Velocità dello shake (%) |
-| FlipCount | 10 | 0–20 | Numero di flip per ciclo |
-| FlipDelay | 11 | 0–500 | Pausa tra un flip e il successivo (ms) |
-| BlowDelay | 12 | 0–500 | Pausa tra un impulso di blow e il successivo (ms) |
-| ProportionalValve_Flip | 13 | 0–600 | Pressione valvola proporzionale Flip (valore /100 = Bar) |
-| ProportionalValve_Blow | 14 | 0–600 | Pressione valvola proporzionale Blow (valore /100 = Bar) |
-| Delete all sequence | 30 | — | Cancella tutti i comandi dalla lista della sequenza |
-| Emptying Sequence | 40 | 0–1 | 0 = modalità normale, 1 = modalità svuotamento |
-| Seq Add Cmd | 50 | COMANDO FLB | Aggiunge un comando alla lista della sequenza |
+| AccelerationMove | 00 | 1–100 | Rampa de aceleración del movimiento rotatorio (%) |
+| DecelerationMove | 01 | 1–100 | Rampa de deceleración del movimiento rotatorio (%) |
+| SpeedMove | 02 | 1–100 | Velocidad del movimiento rotatorio (%) |
+| AngleMove | 03 | 0–720 | Ángulo de rotación en grados. Valores 1000–1720 = ángulo negativo (dirección opuesta) |
+| AccelerationShake | 04 | 1–100 | Rampa de aceleración del shake (%) |
+| DecelerationShake | 05 | 1–100 | Rampa de deceleración del shake (%) |
+| CountShake | 06 | 2–20 | Número de oscilaciones por ciclo de shake |
+| CwAngleShake | 07 | 0–360 | Ángulo de rotación en sentido horario durante el shake. Valores 1000–1360 = ángulo negativo |
+| CcwAngleShake | 08 | 0–360 | Ángulo de rotación en sentido antihorario durante el shake. Valores 1000–1360 = ángulo negativo |
+| SpeedShake | 09 | 1–100 | Velocidad del shake (%) |
+| FlipCount | 10 | 0–20 | Número de flips por ciclo |
+| FlipDelay | 11 | 0–500 | Pausa entre un flip y el siguiente (ms) |
+| BlowDelay | 12 | 0–500 | Pausa entre un impulso de blow y el siguiente (ms) |
+| ProportionalValve_Flip | 13 | 0–600 | Presión de la válvula proporcional Flip (valor /100 = Bar) |
+| ProportionalValve_Blow | 14 | 0–600 | Presión de la válvula proporcional Blow (valor /100 = Bar) |
+| Delete all sequence | 30 | — | Elimina todos los comandos de la lista de la secuencia |
+| Emptying Sequence | 40 | 0–1 | 0 = modo normal, 1 = modo Quick Emptying |
+| Seq Add Cmd | 50 | COMANDO FLB | Añade un comando a la lista de la secuencia |
 
-#### Esempi di ControlWord WRITE
+#### Ejemplos de ControlWord WRITE
 
-| Sequenza | Parametro | Offset associato al parametro | Formula (N x 100 + Offset) | ControlWord |
+| Secuencia | Parámetro | Offset asociado al parámetro | Fórmula (N x 100 + Offset) | ControlWord |
 |---|---|---|---|---|
 | SEQ 1 (N=1) | AccelerationMove | 00 | 1 x 100 + 00 | 100 |
 | SEQ 1 (N=1) | SpeedMove | 02 | 1 x 100 + 02 | 102 |
@@ -599,90 +767,64 @@ dove `N` è il numero della sequenza (1–20) e `offset_parametro` identifica il
 | SEQ 20 (N=20) | SpeedMove | 02 | 20 x 100 + 02 | 2002 |
 
 :::{tip}
-La formula è semplice:  
-- Per scrivere la velocità (offset 02) della sequenza 7, la ControlWord è `7 × 100 + 2 = 702`.  
-- Per scrivere il FlipCount (offset 10) della sequenza 15, la ControlWord è `15 × 100 + 10 = 1510`.
+La fórmula es sencilla:
+- Para escribir la velocidad (offset 02) de la secuencia 7, la ControlWord es `7 × 100 + 2 = 702`.
+- Para escribir el FlipCount (offset 10) de la secuencia 15, la ControlWord es `15 × 100 + 10 = 1510`.
 :::
 
-#### Parametri WRITE JOG
+#### Ejemplo práctico 
 
-I parametri del Jog (funzionamento manuale continuo) sono configurabili separatamente tramite ControlWord nel blocco 20000.
+Para ver un ejemplo práctico de comando WRITE en fieldbus, consulte la sección [Ejemplo práctico WRITE](fieldbus_write).
+Para ver un ejemplo práctico de comando WRITE en TCP, consulte la sección [Ejemplo práctico WRITE TCP](TCP_write).
 
-| Parametro | ControlWord | Range Data_1 | Note |
+#### Parámetros WRITE JOG
+
+Los parámetros del Jog (funcionamiento manual continuo) se pueden configurar por separado mediante ControlWord en el bloque 20000.
+
+| Parámetro | ControlWord | Range Data_1 | Notas |
 |---|---|---|---|
-| AccelerationJog | 20001 | 0–100 | Rampa di accelerazione del jog (%) |
-| DecelerationJog | 20002 | 0–100 | Rampa di decelerazione del jog (%) |
-| SpeedJog | 20003 | 0–100 | Velocità jog (%). Valori 1000–1100 = velocità negativa (rotazione inversa) |
-| FlipJog_Enable | 20004 | 0–1 | 0 = flip disabilitato, 1 = flip abilitato durante jog |
-| FlipJog_Duration | 20005 | 0–1000 | Durata impulso flip (ms) |
-| FlipJog_Pressure | 20006 | 0–600 | Pressione flip (/100 = Bar) |
-| FlipJog_Pause | 20007 | 0–1000 | Pausa tra flip consecutivi (ms) |
-| BlowJog_Enable | 20008 | 0–1 | 0 = blow disabilitato, 1 = blow abilitato durante jog |
-| BlowJog_Duration | 20009 | 0–1000 | Durata impulso blow (ms) |
-| BlowJog_Pressure | 20010 | 0–600 | Pressione blow (/100 = Bar) |
-| BlowJog_Pause | 20011 | 0–1000 | Pausa tra blow consecutivi (ms) |
-| BlowJog_Type | 20012 | 0–2 | Tipo di blow: 0 = BLOWc, 1 = BLOWe, 2 = BLOWc+BLOWe |
-| Backlight_1 | 20013 | 0–1 | 0 = spento, 1 = acceso |
-| Backlight_2 | 20014 | 0–1 | 0 = spento, 1 = acceso |
-
-#### Parametri WRITE HOPPER
-
-I parametri degli hopper (tramogge vibrazionali) sono configurabili nel blocco 30000.
-
-| Parametro | ControlWord | Range Data_1 | Tipo |
-|---|---|---|---|
-| Hopper_1_Id | 30001 | 1–100 | ID univoco dell'hopper 1 sulla rete |
-| Hopper_1_Amplitude | 30002 | 1–1000 | Ampiezza vibrazione hopper 1 |
-| Hopper_1_Frequency | 30003 | 50–1400 | Frequenza vibrazione hopper 1 |
-| Hopper_1_Stop_Time | 30004 | 400–60000 | Tempo di attivazione hopper 1 (ms) |
-| Hopper_2_Id | 30005 | 1–100 | ID univoco dell'hopper 2 |
-| Hopper_2_Amplitude | 30006 | 1–1000 | Ampiezza vibrazione hopper 2 |
-| Hopper_2_Frequency | 30007 | 50–1400 | Frequenza vibrazione hopper 2 |
-| Hopper_2_Stop_Time | 30008 | 400–60000 | Tempo di attivazione hopper 2 (ms) |
-| Hopper_3_Id | 30009 | 1–100 | ID univoco dell'hopper 3 |
-| Hopper_3_Amplitude | 30010 | 1–1000 | Ampiezza vibrazione hopper 3 |
-| Hopper_3_Frequency | 30011 | 50–1400 | Frequenza vibrazione hopper 3 |
-| Hopper_3_Stop_Time | 30012 | 400–60000 | Tempo di attivazione hopper 3 (ms) |
-| Hopper_4_Id | 30013 | 1–100 | ID univoco dell'hopper 4 |
-| Hopper_4_Amplitude | 30014 | 1–1000 | Ampiezza vibrazione hopper 4 |
-| Hopper_4_Frequency | 30015 | 50–1400 | Frequenza vibrazione hopper 4 |
-| Hopper_4_Stop_Time | 30016 | 400–60000 | Tempo di attivazione hopper 4 (ms) |
-| Hopper_1_Enable | 30017 | — | Abilita hopper 1 (azione immediata) |
-| Hopper_1_Disable | 30018 | — | Disabilita hopper 1 (azione immediata) |
-| Hopper_2_Enable | 30019 | — | Abilita hopper 2 |
-| Hopper_2_Disable | 30020 | — | Disabilita hopper 2 |
-| Hopper_3_Enable | 30021 | — | Abilita hopper 3 |
-| Hopper_3_Disable | 30022 | — | Disabilita hopper 3 |
-| Hopper_4_Enable | 30023 | — | Abilita hopper 4 |
-| Hopper_4_Disable | 30024 | — | Disabilita hopper 4 |
+| AccelerationJog | 20001 | 0–100 | Rampa de aceleración del jog (%) |
+| DecelerationJog | 20002 | 0–100 | Rampa de deceleración del jog (%) |
+| SpeedJog | 20003 | 0–100 | Velocidad del jog (%). Valores 1000–1100 = velocidad negativa (rotación inversa) |
+| FlipJog_Enable | 20004 | 0–1 | 0 = flip deshabilitado, 1 = flip habilitado durante el jog |
+| FlipJog_Duration | 20005 | 0–1000 | Duración del impulso de flip (ms) |
+| FlipJog_Pressure | 20006 | 0–600 | Presión de flip (/100 = Bar) |
+| FlipJog_Pause | 20007 | 0–1000 | Pausa entre flips consecutivos (ms) |
+| BlowJog_Enable | 20008 | 0–1 | 0 = blow deshabilitado, 1 = blow habilitado durante el jog |
+| BlowJog_Duration | 20009 | 0–1000 | Duración del impulso de blow (ms) |
+| BlowJog_Pressure | 20010 | 0–600 | Presión de blow (/100 = Bar) |
+| BlowJog_Pause | 20011 | 0–1000 | Pausa entre blows consecutivos (ms) |
+| BlowJog_Type | 20012 | 0–2 | Tipo de blow: 0 = BLOWc, 1 = BLOWe, 2 = BLOWc+BLOWe |
+| Backlight_1 | 20013 | 0–1 | 0 = apagado, 1 = encendido |
+| Backlight_2 | 20014 | 0–1 | 0 = apagado, 1 = encendido |
 
 ---
 
 (sec-read)=
-### Comandi <span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span>
+### Comandos <span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span>
 
-I comandi READ permettono di leggere i parametri attualmente configurati nel FlexiBowl®. Il valore letto viene restituito in **ReturnData_2**.
+Los comandos READ permiten leer los parámetros configurados actualmente en el FlexiBowl®. El valor leído se devuelve en **ReturnData_2**.
 
-#### Logica di indirizzamento READ sequenze
+#### Lógica de direccionamiento READ de las secuencias
 
-La ControlWord per la lettura si calcola con la formula:
+La ControlWord para la lectura se calcula con la fórmula:
 
-> **ControlWord = 10000 + N × 100 + offset_parametro**
+> **ControlWord = 10000 + N × 100 + parameter_offset**
 
-dove `N` è il numero della sequenza (1–20) e `offset_parametro` è lo stesso usato nei comandi WRITE.
+donde `N` es el número de la secuencia (1–20) y `offset_parametro` es el mismo que se usa en los comandos WRITE.
 
-I parametri leggibili sono gli stessi del blocco WRITE, con l'aggiunta dei 10 slot della lista comandi:
+Los parámetros legibles son los mismos que los del bloque WRITE, con la adición de las 10 ranuras de la lista de comandos:
 
-| Parametro aggiuntivo | Offset | Descrizione |
+| Parámetro adicional | Offset | Descripción |
 |---|---|---|
-| Seq Slot 1 Cmd | 50 | Comando in posizione 1 nella lista della sequenza |
-| Seq Slot 2 Cmd | 51 | Comando in posizione 2 |
+| Seq Slot 1 Cmd | 50 | Comando en la posición 1 de la lista de la secuencia |
+| Seq Slot 2 Cmd | 51 | Comando en la posición 2 |
 | … | … | … |
-| Seq Slot 10 Cmd | 59 | Comando in posizione 10 |
+| Seq Slot 10 Cmd | 59 | Comando en la posición 10 |
 
-#### Esempi di ControlWord READ
+#### Ejemplos de ControlWord READ
 
-| Sequenza | Parametro | ControlWord |
+| Secuencia | Parámetro | ControlWord |
 |---|---|---|
 | SEQ 1 | AccelerationMove | 10100 |
 | SEQ 1 | SpeedMove | 10102 |
@@ -695,15 +837,20 @@ I parametri leggibili sono gli stessi del blocco WRITE, con l'aggiunta dei 10 sl
 | SEQ 20 | Emptying Sequence | 12040 |
 
 :::{tip}
-Formula rapida:  
- Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è `10000 + 12 × 100 + 2 = 11202`.
+Fórmula rápida:
+ Para leer la velocidad (offset 02) de la secuencia 12, la ControlWord es `10000 + 12 × 100 + 2 = 11202`.
 :::
 
-#### Parametri READ JOG
+#### Ejemplo práctico 
 
-Gli stessi parametri scrivibili del JOG (blocco 20000) sono leggibili nel blocco 20100:
+Para ver un ejemplo práctico de comando READ en fieldbus, consulte la sección [Ejemplo práctico READ](fieldbus_read).
+Para ver un ejemplo práctico de comando READ en TCP, consulte la sección [Ejemplo práctico READ TCP](TCP_read).
 
-| Parametro | ControlWord READ | Range RestituData_2 |
+#### Parámetros READ JOG
+
+Los mismos parámetros JOG escribibles (bloque 20000) se pueden leer en el bloque 20100:
+
+| Parámetro | ControlWord READ | Rango ReturnData_2 |
 |---|---|---|
 | AccelerationJog | 20101 | 0–100 |
 | DecelerationJog | 20102 | 0–100 |
@@ -720,120 +867,161 @@ Gli stessi parametri scrivibili del JOG (blocco 20000) sono leggibili nel blocco
 | Backlight_1 | 20113 | 0–1 |
 | Backlight_2 | 20114 | 0–1 |
 
-#### Parametri READ HOPPER
+---
 
-| Parametro | ControlWord READ | Range ReturnData_2 | Note |
+(sec-hopper)=
+## Comandos <span class="isw-section-badge isw-badge-hop"><i class="ph ph-funnel"></i> HOPPER</span>
+
+Los comandos Hopper controlan los Bulk Feeders conectados al sistema (hasta 4). Siguen la misma lógica ControlWord/WRITE/READ descrita anteriormente, válida para todos los protocolos, además de una sintaxis TCP específica para el arranque rápido.
+
+### Comandos WRITE Hopper
+
+| Parámetro | ControlWord | Range Data_1 | Descripción |
+|---|---|---|---|
+| Hopper_1_Id | 30001 | 1–100 | ID único del hopper 1 en la red |
+| Hopper_1_Amplitude | 30002 | 50–220 | Amplitud de vibración del hopper 1 |
+| Hopper_1_Frequency | 30003 | 40–70 | Frecuencia de vibración del hopper 1 |
+| Hopper_1_Activation_Time | 30004 | 400–60000 | Tiempo de activación del hopper 1 (ms) |
+| Hopper_2_Id | 30005 | 1–100 | ID único del hopper 2 |
+| Hopper_2_Amplitude | 30006 | 50–220 | Amplitud de vibración del hopper 2 |
+| Hopper_2_Frequency | 30007 | 40–70 | Frecuencia de vibración del hopper 2 |
+| Hopper_2_Activation_Time | 30008 | 400–60000 | Tiempo de activación del hopper 2 (ms) |
+| Hopper_3_Id | 30009 | 1–100 | ID único del hopper 3 |
+| Hopper_3_Amplitude | 30010 | 50–220 | Amplitud de vibración del hopper 3 |
+| Hopper_3_Frequency | 30011 | 40–70 | Frecuencia de vibración del hopper 3 |
+| Hopper_3_Activation_Time | 30012 | 400–60000 | Tiempo de activación del hopper 3 (ms) |
+| Hopper_4_Id | 30013 | 1–100 | ID único del hopper 4 |
+| Hopper_4_Amplitude | 30014 | 50–220 | Amplitud de vibración del hopper 4 |
+| Hopper_4_Frequency | 30015 | 40–70 | Frecuencia de vibración del hopper 4 |
+| Hopper_4_Activation_Time | 30016 | 400–60000 | Tiempo de activación del hopper 4 (ms) |
+| Hopper_1_Enable | 30017 | — | Habilitar el hopper 1 (acción inmediata) |
+| Hopper_1_Disable | 30018 | — | Deshabilitar el hopper 1 (acción inmediata) |
+| Hopper_2_Enable | 30019 | — | Habilitar el hopper 2 |
+| Hopper_2_Disable | 30020 | — | Deshabilitar el hopper 2 |
+| Hopper_3_Enable | 30021 | — | Habilitar el hopper 3 |
+| Hopper_3_Disable | 30022 | — | Deshabilitar el hopper 3 |
+| Hopper_4_Enable | 30023 | — | Habilitar el hopper 4 |
+| Hopper_4_Disable | 30024 | — | Deshabilitar el hopper 4 |
+
+:::{note}
+En el material de formación, la ControlWord `30005` (Hopper_2_Id) indicaba por error el mismo rango que la Amplitude (50–220). En esta tabla se ha corregido a **1–100**, de forma coherente con Hopper_1_Id, Hopper_3_Id y Hopper_4_Id. Verificar este valor con el firmware/la hoja de datos antes de publicar la página.
+:::
+
+#### Ejemplo práctico
+
+Para ver un ejemplo práctico de comando WRITE HOPPER en fieldbus, consulte la sección [Ejemplo práctico WRITE HOPPER](fieldbus_WRITEHOPPER).
+Para ver un ejemplo práctico de comando WRITE HOPPER en TCP, consulte la sección [Ejemplo práctico WRITE HOPPER TCP](TCP_WRITEHOPPER).
+
+### Comandos READ Hopper
+
+| Parámetro | ControlWord READ | Range ReturnData_2 | Notas |
 |---|---|---|---|
 | Hopper_1_Id | 30101 | 1–100 | |
-| Hopper_1_Amplitude | 30102 | 1–1000 | |
-| Hopper_1_Frequency | 30103 | 50–1400 | |
-| Hopper_1_Stop_Time | 30104 | 400–60000 | |
+| Hopper_1_Amplitude | 30102 | 50–220 | |
+| Hopper_1_Frequency | 30103 | 40–70 | |
+| Hopper_1_Activation_Time | 30104 | 400–60000 | |
 | Hopper_2_Id | 30105 | 1–100 | |
-| Hopper_2_Amplitude | 30106 | 1–1000 | |
-| Hopper_2_Frequency | 30107 | 50–1400 | |
-| Hopper_2_Stop_Time | 30108 | 400–60000 | |
+| Hopper_2_Amplitude | 30106 | 50–220 | |
+| Hopper_2_Frequency | 30107 | 40–70 | |
+| Hopper_2_Activation_Time | 30108 | 400–60000 | |
 | Hopper_3_Id | 30109 | 1–100 | |
-| Hopper_3_Amplitude | 30110 | 1–1000 | |
-| Hopper_3_Frequency | 30111 | 50–1400 | |
-| Hopper_3_Stop_Time | 30112 | 400–60000 | |
+| Hopper_3_Amplitude | 30110 | 50–220 | |
+| Hopper_3_Frequency | 30111 | 40–70 | |
+| Hopper_3_Activation_Time | 30112 | 400–60000 | |
 | Hopper_4_Id | 30113 | 1–100 | |
-| Hopper_4_Amplitude | 30114 | 1–1000 | |
-| Hopper_4_Frequency | 30115 | 50–1400 | |
-| Hopper_4_Stop_Time | 30116 | 400–60000 | |
-| Hopper_1_Ready | 30117 | 0–1 | 0 = non pronto, 1 = pronto |
-| Hopper_2_Ready | 30118 | 0–1 | 0 = non pronto, 1 = pronto |
-| Hopper_3_Ready | 30119 | 0–1 | 0 = non pronto, 1 = pronto |
-| Hopper_4_Ready | 30120 | 0–1 | 0 = non pronto, 1 = pronto |
-| Hopper_1_InVibration | 30121 | 0–1 | 0 = fermo, 1 = in vibrazione |
-| Hopper_2_InVibration | 30122 | 0–1 | 0 = fermo, 1 = in vibrazione |
-| Hopper_3_InVibration | 30123 | 0–1 | 0 = fermo, 1 = in vibrazione |
-| Hopper_4_InVibration | 30124 | 0–1 | 0 = fermo, 1 = in vibrazione |
-| Hopper_1_Enabled | 30125 | 0–1 | 0 = disabilitato, 1 = abilitato |
-| Hopper_2_Enabled | 30126 | 0–1 | 0 = disabilitato, 1 = abilitato |
-| Hopper_3_Enabled | 30127 | 0–1 | 0 = disabilitato, 1 = abilitato |
-| Hopper_4_Enabled | 30128 | 0–1 | 0 = disabilitato, 1 = abilitato |
+| Hopper_4_Amplitude | 30114 | 50–220 | |
+| Hopper_4_Frequency | 30115 | 40–70 | |
+| Hopper_4_Activation_Time | 30116 | 400–60000 | |
+| Hopper_1_Ready | 30117 | 0–1 | 0 = no listo, 1 = listo |
+| Hopper_2_Ready | 30118 | 0–1 | 0 = no listo, 1 = listo |
+| Hopper_3_Ready | 30119 | 0–1 | 0 = no listo, 1 = listo |
+| Hopper_4_Ready | 30120 | 0–1 | 0 = no listo, 1 = listo |
+| Hopper_1_InVibration | 30121 | 0–1 | 0 = parado, 1 = en vibración |
+| Hopper_2_InVibration | 30122 | 0–1 | 0 = parado, 1 = en vibración |
+| Hopper_3_InVibration | 30123 | 0–1 | 0 = parado, 1 = en vibración |
+| Hopper_4_InVibration | 30124 | 0–1 | 0 = parado, 1 = en vibración |
+| Hopper_1_Enabled | 30125 | 0–1 | 0 = deshabilitado, 1 = habilitado |
+| Hopper_2_Enabled | 30126 | 0–1 | 0 = deshabilitado, 1 = habilitado |
+| Hopper_3_Enabled | 30127 | 0–1 | 0 = deshabilitado, 1 = habilitado |
+| Hopper_4_Enabled | 30128 | 0–1 | 0 = deshabilitado, 1 = habilitado |
+
+#### Ejemplo práctico 
+
+Para ver un ejemplo práctico de comando READ HOPPER en fieldbus, consulte la sección [Ejemplo práctico READ HOPPER](fieldbus_READHOPPER).
+Para ver un ejemplo práctico de comando READ HOPPER en TCP, consulte la sección [Ejemplo práctico READ HOPPER TCP](TCP_READHOPPER).
 
 ---
 
-(sec-tcp)=
-## Sintassi Messaggi TCP Server
+(sec-empty)=
+## Comandos Quick Emptying — <span class="isw-section-badge isw-badge-exe"><i class="ph ph-arrow-counter-clockwise"></i> EMPTYING</span>
 
-Quando si utilizza la comunicazione **TCP Server**, i comandi non vengono inviati come variabili binarie ma come **stringhe di testo** attraverso una connessione socket sulla porta configurata (default: 8123).
+La función **Emptying** permite vaciar el plato del FlexiBowl® ejecutando hasta 4 secuencias específicas, cada una con su propio número de bucles. Estos comandos también siguen la misma lógica ControlWord, válida para todos los protocolos.
 
-### Struttura del messaggio
+### Comandos EXE
 
-Ogni messaggio ha la forma:
+| Comando | ControlWord | Busy durante la ejecución | ReturnData_1 | Explicación |
+|---|---|---|---|---|
+| Start Emptying | 45 | SÍ (Emptying activo) | 45 | Inicia el Quick Emptying  |
+| Stop Emptying | 46 | SÍ (Emptying activo) | 46 | Detiene el Quick Emptying  |
+| Emptying Active | 47 | NO | 47 | Comprueba si el Quick Emptying está activo |
 
-```
-NomeVariabile[Valore]%
-```
+### Comandos WRITE
 
-Il carattere `%` è il **terminatore di messaggio** e deve essere sempre presente alla fine. Il campo `[Valore]` contiene il dato numerico associato (ControlWord, stato, ecc.).
+| Comando | ControlWord | Range Data_1 | Busy durante la ejecución | ReturnData_1 |
+|---|---|---|---|---|
+| FirstSequence | 20200 | 1–20 | NO | 20200 |
+| FirstLoop | 20201 | 0–500 | NO | 20201 |
+| SecondSequence | 20202 | 1–20 | NO | 20202 |
+| SecondLoop | 20203 | 0–500 | NO | 20203 |
+| ThirdSequence | 20204 | 1–20 | NO | 20204 |
+| ThirdLoop | 20205 | 0–500 | NO | 20205 |
+| FourthSequence | 20206 | 1–20 | NO | 20206 |
+| FourthLoop | 20207 | 0–500 | NO | 20207 |
 
-### Tabella di sintassi TCP
+### Comandos READ
 
-| Operazione | Messaggio da inviare | Risposta se OK | Risposta se errore |
-|---|---|---|---|
-| Tutti i comandi EXE | `10[0]%` | `10[0]%` | `1[0]%` |
-| Tutti i comandi WRITE | `100[56]%` | `100[0]%` | `2[0]%` |
-| Tutti i comandi READ | `10100[0]%` | `10100[valore]%` | `2[0]%` |
-| Avvia Hopper 1 | `Hopper1Start%` | `Hopper1Start *` | — |
-| Avvia Hopper 2 | `Hopper2Start%` | `Hopper2Start *` | — |
-| Avvia Hopper 3 | `Hopper3Start%` | `Hopper3Start *` | — |
-| Avvia Hopper 4 | `Hopper4Start%` | `Hopper4Start *` | — |
-| Reset errori | `Reset%` | `Reset%` | — |
-| Leggi stato Busy | `Busy%` | `Busy[1]%` | `Busy[0]%` |
-| Leggi stato Ready | `Ready%` | `Ready[1]%` | `Ready[0]%` |
-| Leggi stato InError | `InError%` | `InError[1]%` | `InError[0]%` |
-| Leggi stato InPowerOn | `InPowerOn%` | `InPowerOn[1]%` | `InPowerOn[0]%` |
-| Leggi ErrorCode | `ErrorCode%` | `ErrorCode[56]%` | `ErrorCode[0]%` |
+| Comando | ControlWord | Busy durante la ejecución | ReturnData_1 | Range ReturnData_2 |
+|---|---|---|---|---|
+| FirstSequence | 20300 | NO | 20300 | 1–20 |
+| FirstLoop | 20301 | NO | 20301 | 0–500 |
+| SecondSequence | 20302 | NO | 20302 | 1–20 |
+| SecondLoop | 20303 | NO | 20303 | 0–500 |
+| ThirdSequence | 20304 | NO | 20304 | 1–20 |
+| ThirdLoop | 20305 | NO | 20305 | 0–500 |
+| FourthSequence | 20306 | NO | 20306 | 1–20 |
+| FourthLoop | 20307 | NO | 20307 | 0–500 |
 
 :::{note}
-Nelle risposte di tipo READ, il testo `[valore]` viene sostituito con il dato numerico effettivo letto dal sistema. Ad esempio, per leggere la velocità della SEQ 1 (ControlWord 10102), si invia `10102[0]%` e si riceve `10102[35]%` se la velocità è impostata a 35%.
+`FirstSequence`...`FourthSequence` indican cuál de las 20 secuencias programadas se ejecuta en cada uno de los 4 pasos del Quick Emptying; `FirstLoop`...`FourthLoop` indican cuántas veces se repite ese paso.
 :::
-
-:::{warning}
-I comandi Hopper via TCP (`Hopper1Start%`, ecc.) funzionano **solo quando la comunicazione è attiva e il FlexiBowl®  non è in movimento**. Non è garantito il corretto funzionamento se il FlexiBowl® sta eseguendo una sequenza o è in modalità jog.
-:::
-
-### Significato di ReturnData_1 (o risposta TCP)
-
-| Valore | Significato |
-|---|---|
-| `0` | NULL — nessun comando in corso (stato iniziale) |
-| `1` | Comando non interpretabile (ControlWord sconosciuta) |
-| `2` | Data_1 fuori range, ma il comando è stato riconosciuto |
-| `3` | Sistema occupato (Busy) — riprovare dopo che Busy torna a 0 |
-| Valore = ControlWord | Comando eseguito correttamente |
-
 
 ---
 
 (sec-err)=
-## Codici di Errore
+## Códigos de error
 
 :::{warning}
-In presenza di un errore, il LED **In_Error** si attiva e il sistema non eseguirà nuovi comandi di movimento fino al reset. Prima di eseguire il reset, identificare e risolvere la causa dell'errore.
+En presencia de un error, el LED **In_Error** se activa y el sistema no ejecutará nuevos comandos de movimiento hasta el reinicio. Antes de realizar el reinicio, identificar y resolver la causa del error.
 :::
 
 
-### Codici Generali
+### Códigos generales
 
-| ErrorCode | Descrizione |
+| ErrorCode | Descripción |
 |---|---|
-| 1 | Il movimento di jog non ha attivato alcuna azione sul motore |
-| 2 | Motore non connesso |
-| 3 | EtherNet/IP selezionato ma non connesso |
-| 4 | Il motore non ha raggiunto la potenza operativa entro il tempo prestabilito |
-| 5 | Richiesto movimento del motore, ma il motore non è alimentato |
-| 6 | Errore modulo I/O digitale: modulo mancante |
-| 7 | Errore modulo I/O digitale: errore di configurazione |
-| 8 | Errore modulo I/O digitale: errore generale |
+| 1 | El movimiento de jog no ha activado ninguna acción en el motor |
+| 2 | Motor no conectado |
+| 3 | EtherNet/IP seleccionado pero no conectado |
+| 4 | El motor no ha alcanzado la potencia operativa dentro del tiempo preestablecido |
+| 5 | Se ha solicitado un movimiento del motor, pero el motor no está alimentado |
+| 6 | Error del módulo de E/S digital: módulo ausente |
+| 7 | Error del módulo de E/S digital: error de configuración |
+| 8 | Error del módulo de E/S digital: error general |
 
-### Codici Errore Driver
+### Códigos de error del driver
 
 <div class="isw-search-wrap">
-  <input class="isw-search" id="errSearch" type="text" placeholder="Filtra per codice o descrizione…" oninput="filterErrors()">
+  <input class="isw-search" id="errSearch" type="text" placeholder="Filtrar por código o descripción…" oninput="filterErrors()">
   <span class="isw-search-count" id="errCount"></span>
 </div>
 
@@ -841,41 +1029,41 @@ In presenza di un errore, il LED **In_Error** si attiva e il sistema non eseguir
 
 <div class="isw-err-wrap">
 <table class="isw-err-table" id="errTable">
-<thead><tr><th>Codice</th><th>Hex</th><th>Errore</th><th>Descrizione</th></tr></thead>
+<thead><tr><th>Código</th><th>Hex</th><th>Error</th><th>Descripción</th></tr></thead>
 <tbody>
 <tr><td><code>50</code></td><td><code>0x7500</code></td><td>EtherCAT communication error</td><td></td></tr>
-<tr><td><code>51</code></td><td><code>0xFF01</code></td><td>Drive Over Current</td><td>Corrente motore eccessiva</td></tr>
-<tr><td><code>52</code></td><td><code>0xFF02</code></td><td>Drive Over Voltage</td><td>Tensione bus DC eccessiva</td></tr>
-<tr><td><code>53</code></td><td><code>0xFF03</code></td><td>Drive Over Temperature</td><td>Temperatura driver troppo elevata</td></tr>
+<tr><td><code>51</code></td><td><code>0xFF01</code></td><td>Drive Over Current</td><td>Corriente del motor excesiva</td></tr>
+<tr><td><code>52</code></td><td><code>0xFF02</code></td><td>Drive Over Voltage</td><td>Tensión excesiva del bus DC</td></tr>
+<tr><td><code>53</code></td><td><code>0xFF03</code></td><td>Drive Over Temperature</td><td>Temperatura del driver demasiado alta</td></tr>
 <tr><td><code>54</code></td><td><code>0xFF04</code></td><td>Reserved</td><td></td></tr>
-<tr><td><code>55</code></td><td><code>0xFF05</code></td><td>Drive Internal Voltage Error</td><td>Errore tensione interna</td></tr>
-<tr><td><code>56</code></td><td><code>0xFF06</code></td><td>Position Error</td><td>Errore di posizionamento</td></tr>
-<tr><td><code>57</code></td><td><code>0xFF07</code></td><td>Motor Encoder Disconnected</td><td>Encoder non collegato o guasto</td></tr>
-<tr><td><code>58</code></td><td><code>0xFF0A</code></td><td>Regen Failed</td><td>Errore nel circuito di rigenerazione</td></tr>
-<tr><td><code>59</code></td><td><code>0xFF0B</code></td><td>Safe Torque Off (STO)</td><td>Funzione di sicurezza attiva</td></tr>
+<tr><td><code>55</code></td><td><code>0xFF05</code></td><td>Drive Internal Voltage Error</td><td>Error de tensión interna</td></tr>
+<tr><td><code>56</code></td><td><code>0xFF06</code></td><td>Position Error</td><td>Error de posicionamiento</td></tr>
+<tr><td><code>57</code></td><td><code>0xFF07</code></td><td>Motor Encoder Disconnected</td><td>Encoder no conectado o averiado</td></tr>
+<tr><td><code>58</code></td><td><code>0xFF0A</code></td><td>Regen Failed</td><td>Error en el circuito de regeneración</td></tr>
+<tr><td><code>59</code></td><td><code>0xFF0B</code></td><td>Safe Torque Off (STO)</td><td>Función de seguridad activa</td></tr>
 <tr><td><code>60</code></td><td><code>0xFF0C</code></td><td>Reserved</td><td></td></tr>
-<tr><td><code>61</code></td><td><code>0xFF0D</code></td><td>Bad FPGA</td><td>Errore interno all'FPGA del driver</td></tr>
-<tr><td><code>62</code></td><td><code>0xFF0E</code></td><td>Parameter Read Failed</td><td>Lettura parametri fallita</td></tr>
-<tr><td><code>63</code></td><td><code>0xFF0F</code></td><td>Motor Encoder Multi-turn Error</td><td>Errore encoder multi-giro</td></tr>
-<tr><td><code>64</code></td><td><code>0xFF10</code></td><td>Motor Stall Protection</td><td>Protezione stallo motore attiva</td></tr>
-<tr><td><code>65</code></td><td><code>0xFF11</code></td><td>Drive Power Module Over Temperature</td><td>Modulo di potenza surriscaldato</td></tr>
-<tr><td><code>66</code></td><td><code>0xFF31</code></td><td>N Limit</td><td>Limite di posizione negativo raggiunto</td></tr>
-<tr><td><code>67</code></td><td><code>0xFF32</code></td><td>P Limit</td><td>Limite di posizione positivo raggiunto</td></tr>
-<tr><td><code>68</code></td><td><code>0xFF33</code></td><td>N&P Limit</td><td>Entrambi i limiti di posizione raggiunti</td></tr>
-<tr><td><code>69</code></td><td><code>0xFF34</code></td><td>Current Foldback</td><td>Riduzione corrente per protezione termica</td></tr>
-<tr><td><code>70</code></td><td><code>0xFF35</code></td><td>Move @ Disabled</td><td>Tentativo di movimento con driver disabilitato</td></tr>
-<tr><td><code>71</code></td><td><code>0xFF36</code></td><td>Drive Low Voltage</td><td>Tensione bus DC insufficiente</td></tr>
-<tr><td><code>72</code></td><td><code>0xFF37</code></td><td>Blank Q Segment</td><td>Segmento di traiettoria non definito</td></tr>
-<tr><td><code>73</code></td><td><code>0xFF38</code></td><td>Velocity Limit</td><td>Limite di velocità superato</td></tr>
-<tr><td><code>74</code></td><td><code>0xFF39</code></td><td>Drive Power Phase Lost</td><td>Perdita di una fase di alimentazione</td></tr>
-<tr><td><code>75</code></td><td><code>0xFF3A</code></td><td>Emergency Stop</td><td>Arresto di emergenza attivo</td></tr>
-<tr><td><code>76</code></td><td><code>0xFF3B</code></td><td>Abs. Encoder Battery</td><td>Batteria encoder assoluto scarica o assente</td></tr>
-<tr><td><code>77</code></td><td><code>0xFF3C</code></td><td>Abs. Position Lost Warning</td><td>Avviso perdita posizione assoluta</td></tr>
-<tr><td><code>78</code></td><td><code>0xFF3D</code></td><td>Abs. Position Overflow</td><td>Overflow posizione assoluta</td></tr>
-<tr><td><code>79</code></td><td><code>0xFF3E</code></td><td>Motor Over Temperature</td><td>Temperatura motore eccessiva</td></tr>
-<tr><td><code>80</code></td><td><code>0xFF3F</code></td><td>Drive Voltage Warning</td><td>Avviso tensione driver fuori range</td></tr>
-<tr><td><code>81</code></td><td><code>0xFF41</code></td><td>Save Failed</td><td>Salvataggio parametri fallito</td></tr>
-<tr><td><code>82</code></td><td><code>0xFFFF</code></td><td>Other Error</td><td>Errore generico non classificato</td></tr>
+<tr><td><code>61</code></td><td><code>0xFF0D</code></td><td>Bad FPGA</td><td>Error interno de la FPGA del driver</td></tr>
+<tr><td><code>62</code></td><td><code>0xFF0E</code></td><td>Parameter Read Failed</td><td>Fallo en la lectura de parámetros</td></tr>
+<tr><td><code>63</code></td><td><code>0xFF0F</code></td><td>Motor Encoder Multi-turn Error</td><td>Error del encoder multivuelta</td></tr>
+<tr><td><code>64</code></td><td><code>0xFF10</code></td><td>Motor Stall Protection</td><td>Protección contra bloqueo del motor activa</td></tr>
+<tr><td><code>65</code></td><td><code>0xFF11</code></td><td>Drive Power Module Over Temperature</td><td>Módulo de potencia sobrecalentado</td></tr>
+<tr><td><code>66</code></td><td><code>0xFF31</code></td><td>N Limit</td><td>Límite de posición negativo alcanzado</td></tr>
+<tr><td><code>67</code></td><td><code>0xFF32</code></td><td>P Limit</td><td>Límite de posición positivo alcanzado</td></tr>
+<tr><td><code>68</code></td><td><code>0xFF33</code></td><td>N&P Limit</td><td>Ambos límites de posición alcanzados</td></tr>
+<tr><td><code>69</code></td><td><code>0xFF34</code></td><td>Current Foldback</td><td>Reducción de corriente por protección térmica</td></tr>
+<tr><td><code>70</code></td><td><code>0xFF35</code></td><td>Move @ Disabled</td><td>Intento de movimiento con el driver deshabilitado</td></tr>
+<tr><td><code>71</code></td><td><code>0xFF36</code></td><td>Drive Low Voltage</td><td>Tensión insuficiente del bus DC</td></tr>
+<tr><td><code>72</code></td><td><code>0xFF37</code></td><td>Blank Q Segment</td><td>Segmento de trayectoria no definido</td></tr>
+<tr><td><code>73</code></td><td><code>0xFF38</code></td><td>Velocity Limit</td><td>Límite de velocidad superado</td></tr>
+<tr><td><code>74</code></td><td><code>0xFF39</code></td><td>Drive Power Phase Lost</td><td>Pérdida de una fase de alimentación</td></tr>
+<tr><td><code>75</code></td><td><code>0xFF3A</code></td><td>Emergency Stop</td><td>Parada de emergencia activa</td></tr>
+<tr><td><code>76</code></td><td><code>0xFF3B</code></td><td>Abs. Encoder Battery</td><td>Batería del encoder absoluto baja o ausente</td></tr>
+<tr><td><code>77</code></td><td><code>0xFF3C</code></td><td>Abs. Position Lost Warning</td><td>Aviso de pérdida de posición absoluta</td></tr>
+<tr><td><code>78</code></td><td><code>0xFF3D</code></td><td>Abs. Position Overflow</td><td>Desbordamiento de la posición absoluta</td></tr>
+<tr><td><code>79</code></td><td><code>0xFF3E</code></td><td>Motor Over Temperature</td><td>Temperatura del motor excesiva</td></tr>
+<tr><td><code>80</code></td><td><code>0xFF3F</code></td><td>Drive Voltage Warning</td><td>Aviso de tensión del driver fuera de rango</td></tr>
+<tr><td><code>81</code></td><td><code>0xFF41</code></td><td>Save Failed</td><td>Fallo al guardar los parámetros</td></tr>
+<tr><td><code>82</code></td><td><code>0xFFFF</code></td><td>Other Error</td><td>Error genérico no clasificado</td></tr>
 </tbody>
 </table>
 </div>
@@ -896,7 +1084,7 @@ function filterErrors() {
   });
   var countEl = document.getElementById('errCount');
   if (input) {
-    countEl.textContent = count + ' risultat' + (count === 1 ? 'o' : 'i');
+    countEl.textContent = count + ' ' + (count === 1 ? 'resultado' : 'resultados');
   } else {
     countEl.textContent = '';
   }
@@ -904,3 +1092,11 @@ function filterErrors() {
 </script>
 
 </div>
+
+
+:::{toctree}
+:hidden:
+04a_interfaccia_software.md
+04b_interfaccia_software.md
+04c_interfaccia_software.md
+:::

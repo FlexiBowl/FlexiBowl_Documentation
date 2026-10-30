@@ -1,94 +1,95 @@
+(jog)=
 # **Jog Motor**
 
-## Panoramica
+## Descripción general
 
-La pagina **Jog Motor** consente di azionare il FlexiBowl® in modalità manuale continua (jog), senza l'utilizzo di sequenze programmate. È utilizzata principalmente durante le fasi di setup, messa in servizio e test del sistema, permettendo all'operatore di controllare direttamente la rotazione del FlexiBowl® e le funzioni accessorie.
-![pagina jog monitor](../../../../_shared/media/images/jog_motor.png)
+La página **Jog Motor** permite accionar el FlexiBowl® en modo manual continuo (jog), sin utilizar secuencias programadas. Se utiliza principalmente durante las fases de configuración, puesta en servicio y prueba del sistema, permitiendo al operador controlar directamente la rotación del FlexiBowl® y las funciones accesorias.
+![página jog motor](../../../../_shared/media/images/jog_motor.png)
 
 ---
 
-## Parametri di movimento
+## Parámetros de movimiento
 
-I tre slider in alto definiscono il comportamento del motore durante il jog.
+Los tres deslizadores de la parte superior definen el comportamiento del motor durante el jog.
 
-| Parametro | Unità | Valore esempio | Descrizione |
+| Parámetro | Unidad | Valor de ejemplo | Descripción |
 |---|---|---|---|
-| **Acceleration** | % | 50 | Rampa di accelerazione all'avvio del jog |
-| **Deceleration** | % | 50 | Rampa di decelerazione all'arresto del jog |
-| **Speed** | % | -30 | Velocità di rotazione del FlexiBowl®. Un valore **negativo** indica rotazione in senso **antiorario**; un valore **positivo** indica rotazione in senso **orario** |
+| **Acceleration** | % | 50 | Rampa de aceleración al inicio del jog |
+| **Deceleration** | % | 50 | Rampa de deceleración al detener el jog |
+| **Speed** | % | -30 | Velocidad de rotación del FlexiBowl®. Un valor **negativo** indica rotación en sentido **antihorario**; un valor **positivo** indica rotación en sentido **horario** |
 
 :::{tip}
-Per invertire il senso di rotazione del FlexiBowl® durante il jog, è sufficiente portare lo slider **Speed** su un valore negativo. Non è necessario fermare il jog per modificare il parametro.
+Para invertir el sentido de rotación del FlexiBowl® durante el jog, basta con poner el deslizador **Speed** en un valor negativo. No es necesario detener el jog para modificar el parámetro.
 :::
 
 ---
 
-## Pannello FLIP
+## Panel FLIP
 
-Il pannello **Flip Enable** gestisce l'attivazione e i parametri del sistema di ribaltamento durante il jog.
+El panel **Flip Enable** gestiona la activación y los parámetros del sistema de vuelco durante el jog.
 
-| Controllo | Valore esempio | Descrizione |
+| Control | Valor de ejemplo | Descripción |
 |---|---|---|
-| **Flip Enable** (toggle) | Attivo (rosso) | Abilita il flip automatico durante il jog |
-| **Flip Duration** | 200 ms | Durata dell'impulso di attuazione del flip |
-| **Flip Pression** | 3.00 Bar | Pressione dell'aria utilizzata per il flip |
-| **Flip Pause** | 200 ms | Pausa tra un flip e il successivo durante il jog |
+| **Flip Enable** (interruptor) | Activo (rojo) | Activa el flip automático durante el jog |
+| **Flip Duration** | 200 ms | Duración del impulso de accionamiento del flip |
+| **Flip Pression** | 3,00 Bar | Presión de aire utilizada para el flip |
+| **Flip Pause** | 200 ms | Pausa entre un flip y el siguiente durante el jog |
 
 :::{note}
-Il flip viene eseguito ciclicamente durante il jog, con la cadenza definita da **Flip Pause**, solo se il toggle **Flip Enable** è attivo.
+El flip se ejecuta cíclicamente durante el jog, con la cadencia definida por **Flip Pause**, solo si el interruptor **Flip Enable** está activo.
 :::
 
 ---
 
-## Pannello BLOW
+## Panel BLOW
 
-Il pannello **Blow Enable** gestisce l'attivazione e i parametri del sistema di soffio durante il jog.
+El panel **Blow Enable** gestiona la activación y los parámetros del sistema de soplado durante el jog.
 
-| Controllo | Valore esempio | Descrizione |
+| Control | Valor de ejemplo | Descripción |
 |---|---|---|
-| **Blow Enable** (toggle) | Attivo (rosso) | Abilita il soffio automatico durante il jog |
-| **Blow Duration** | 200 ms | Durata dell'impulso di soffio |
-| **Blow Pression** | 3.00 Bar | Pressione dell'aria utilizzata per il soffio |
-| **Blow Pause** | 200 ms | Pausa tra un impulso di blow e il successivo durante il jog |
-| **Blow Type** | BLOWc + BLOWe | Tipologia di soffio attivata. Le opzioni combinano soffio centrale (BLOWc) e/o soffio esterno (BLOWe) |
+| **Blow Enable** (interruptor) | Activo (rojo) | Activa el soplado automático durante el jog |
+| **Blow Duration** | 200 ms | Duración del impulso de soplado |
+| **Blow Pression** | 3,00 Bar | Presión de aire utilizada para el soplado |
+| **Blow Pause** | 200 ms | Pausa entre un impulso de soplado y el siguiente durante el jog |
+| **Blow Type** | BLOWc + BLOWe | Tipo de soplado activado. Las opciones combinan soplado central (BLOWc) y/o soplado externo (BLOWe) |
 
-### Opzioni Blow Type
+### Opciones de Blow Type
 
-| Valore | Descrizione |
+| Valor | Descripción |
 |---|---|
-| **BLOWc** | Solo soffio centrale |
-| **BLOWe** | Solo soffio esterno |
-| **BLOWc + BLOWe** | Entrambi i soffiaggi attivati simultaneamente |
+| **BLOWc** | Solo soplado central |
+| **BLOWe** | Solo soplado externo |
+| **BLOWc + BLOWe** | Ambos soplados activados simultáneamente |
 
 ---
 
-## Pannello BACKLIGHT
+## Panel BACKLIGHT
 
-Il pannello **Backlight** gestisce lo stato delle retroilluminazioni indipendentemente dal jog.
+El panel **Backlight** gestiona el estado de las retroiluminaciones independientemente del jog.
 
-| Controllo | Descrizione |
+| Control | Descripción |
 |---|---|
-| **Backlight 1** (toggle) | Abilita/disabilita la retroilluminazione 1 |
-| **Backlight 2** (toggle) | Abilita/disabilita la retroilluminazione 2 |
+| **Backlight 1** (interruptor) | Activa/desactiva la retroiluminación 1 |
+| **Backlight 2** (interruptor) | Activa/desactiva la retroiluminación 2 |
 
-I toggle mostrano rosso quando la retroilluminazione è **attiva**.
+Los interruptores se muestran en rojo cuando la retroiluminación está **activa**.
 
 ---
 
-## Avvio e arresto del jog
+## Inicio y parada del jog
 
-| Pulsante | Funzione |
+| Botón | Función |
 |---|---|
-| **START JOG** | Avvia la rotazione continua del FlexiBowl® con i parametri impostati, attivando contestualmente flip e blow se i rispettivi toggle sono abilitati |
-| **STOP JOG** | Interrompe il jog e arresta il FlexiBowl® |
+| **START JOG** | Inicia la rotación continua del FlexiBowl® con los parámetros establecidos, activando simultáneamente flip y blow si los interruptores respectivos están habilitados |
+| **STOP JOG** | Interrumpe el jog y detiene el FlexiBowl® |
 
 :::{important}
-Prima di premere **START JOG**, verificare che:
-- Il motore sia abilitato (**ENABLE MOTOR** attivo)
-- Lo stato del sistema sia **READY**
-- I parametri di Speed, Flip e Blow siano impostati correttamente per evitare movimenti indesiderati
+Antes de pulsar **START JOG**, comprobar que:
+- el motor está habilitado (**ENABLE MOTOR** activo)
+- el estado del sistema es **READY**
+- los parámetros Speed, Flip y Blow estén correctamente configurados para evitar movimientos no deseados
 :::
 
 :::{warning}
-Durante il jog il FlexiBowl® ruota in modo continuo. Assicurarsi che l'area attorno al FlexiBowl® sia libera da ostacoli e che il personale non sia a contatto con le parti in movimento prima di avviare il jog.
+Durante el jog el FlexiBowl® gira de forma continua. Antes de iniciar el jog, asegúrese de que la zona alrededor del FlexiBowl® esté libre de obstáculos y de que el personal no esté en contacto con las partes en movimiento.
 :::

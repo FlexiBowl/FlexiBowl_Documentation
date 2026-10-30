@@ -1,34 +1,14 @@
 # **Vergleichsübersicht**
 
-## Cos'è il FlexiBowl®
+## Was ist FlexiBowl®
 
-Il FlexiBowl® è un sistema flessibile per l'alimentazione di componenti in linee automatizzate che impiegano robot industriali e/o collaborativi. Grazie alla combinazione di movimento rotatorio e impulsi "flip", le parti vengono separate e orientate per il prelievo da parte del robot, indipendentemente dalla loro geometria, superficie o materiale.
+FlexiBowl® ist ein flexibles System zur Zuführung von Bauteilen in automatisierten Linien, die Industrie- und/oder Kollaborationsroboter einsetzen. Dank der Kombination aus Drehbewegung und „Flip“-Impulsen werden die Teile vereinzelt und für die Entnahme durch den Roboter ausgerichtet, unabhängig von ihrer Geometrie, Oberfläche oder ihrem Material.
 
-Queste caratteristiche funzionali fondamentali rimangono invariate tra la versione 2.0 e la versione 3.0.
-
----
-
-## Confronto visivo
-
-*(inserire qui le immagini comparative: FlexiBowl® 2.0 a sinistra, FlexiBowl® 3.0 a destra)*
+Diese grundlegenden funktionalen Merkmale bleiben zwischen Version 2.0 und Version 3.0 unverändert.
 
 ---
 
-## Principali differenze
-
-| Caratteristica | FlexiBowl® 2.0 | FlexiBowl® 3.0 |
-|---|---|---|
-| Architettura di controllo |  |  |
-| Interfaccia utente | |  |
-| Altezza complessiva |  |  |
-| Comunicazione |  |  |
-| Configurazione IP |  |  |
-| Versione Clean Room | Disponibile | Disponibile |
-| Svuotamento (QuickEmpty) | Opzionale | Opzionale |
-
----
-
-## Approfondimenti comparativi
+## Vergleichende Vertiefungen
 
 ---
 
@@ -147,10 +127,10 @@ Queste caratteristiche funzionali fondamentali rimangono invariate tra la versio
     </div>
     <a class="cw-card" href="comparativa_meccanica.html">
       <div class="cw-card-title">
-        Comparativa meccanica
+        Mechanischer Vergleich
       </div>
       <p class="cw-card-desc">
-        Confronto tra le dimensioni costruttive (riferimenti A–K, area backlight), i modelli disponibili e le capacità operative per ciascuna taglia.
+        Vergleich der Bauabmessungen (Referenzen A–K, Backlight-Bereich), der verfügbaren Modelle und der Betriebsfähigkeiten für jede Baugröße.
       </p>
     </a>
   </div>
@@ -163,10 +143,10 @@ Queste caratteristiche funzionali fondamentali rimangono invariate tra la versio
     </div>
     <a class="cw-card" href="comparativa_elettrica.html">
       <div class="cw-card-title">
-        Comparativa elettrica
+        Elektrischer Vergleich
       </div>
       <p class="cw-card-desc">
-        Confronto tra i componenti elettrici: alimentazione, fusibili, scheda di interfaccia, driver e motore nella versione 2.0; PLC integrato nella versione 3.0.
+        Vergleich der elektrischen Komponenten: Spannungsversorgung, Sicherungen, Schnittstellenkarte, Treiber und Motor in Version 2.0; integrierte SPS in Version 3.0.
       </p>
     </a>
   </div>
@@ -179,10 +159,10 @@ Queste caratteristiche funzionali fondamentali rimangono invariate tra la versio
     </div>
     <a class="cw-card" href="comparativa_pneumatica.html">
       <div class="cw-card-title">
-        Comparativa pneumatica
+        Pneumatischer Vergleich
       </div>
       <p class="cw-card-desc">
-        Confronto tra schemi pneumatici, specifiche dell'aria compressa, componenti (flip, blow, svuotamento) e varianti Clean Room.
+        Vergleich der Pneumatikschaltpläne, der Druckluftspezifikationen, der Komponenten (Flip, Blow, Entleerung) und der Clean-Room-Varianten.
       </p>
     </a>
   </div>
@@ -195,10 +175,10 @@ Queste caratteristiche funzionali fondamentali rimangono invariate tra la versio
     </div>
     <a class="cw-card" href="comparativa_software.html">
       <div class="cw-card-title">
-        Comparativa software
+        Software-Vergleich
       </div>
       <p class="cw-card-desc">
-        Confronto tra l'interfaccia di configurazione, la gestione dei parametri di movimento, il wizard di setup e le modalità di comunicazione.
+        Vergleich der Konfigurationsoberfläche, der Verwaltung der Bewegungsparameter, des Setup-Assistenten und der Kommunikationsmodi.
       </p>
     </a>
   </div>

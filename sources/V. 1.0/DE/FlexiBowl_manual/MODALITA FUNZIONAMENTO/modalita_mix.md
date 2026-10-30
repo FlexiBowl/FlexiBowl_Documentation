@@ -1,71 +1,76 @@
 # **Mix-Modus**
 
-## Funzionamento in MIX Mode
+(funzionamento-in-mix-mode)=
+## Betrieb im MIX-Modus
 
-La **MIX Mode** consente di alimentare contemporaneamente pezzi di tipologie diverse sulla stessa superficie del FlexiBowl®.    
+Der **Mix-Modus** ermöglicht es, Teile unterschiedlicher Typen gleichzeitig auf derselben Oberfläche des FlexiBowl® zuzuführen.
 
-Questa modalità è particolarmente indicata per applicazioni di **smistamento** (sorting) in cui è richiesta la presenza di più referenze sullo stesso piano di lavoro senza dover moltiplicare le stazioni robotizzate.
+Dieser Modus eignet sich besonders für **Sortieranwendungen** (Sorting), bei denen mehrere Referenzen auf derselben Arbeitsfläche vorhanden sein müssen, ohne die Roboterstationen vervielfachen zu müssen.
 
 ```{figure}  ../../../../_shared/media/images/flexibowl_standard_cycle.jpg
 :align: center
 :width: 50%
-:alt: *Ciclo operativo in Modalità Mix: Detect → Pick-Drop → Move-Flip*
+:alt: *Betriebszyklus im Mix-Modus: Detect → Pick-Drop → Move-Flip*
 ```
 
 ```{image}  ../../../../_shared/media/videos/MIX_MODE.gif
 :align: center
 :width: 100%
-:alt: *Ciclo operativo in Modalità Mix: Detect → Pick-Drop → Move-Flip*
+:alt: *Betriebszyklus im Mix-Modus: Detect → Pick-Drop → Move-Flip*
 ```
 ---
 
-## Caratteristiche principali
+## Hauptmerkmale
 
-| Caratteristica | Descrizione |
+| Merkmal | Beschreibung |
 |---|---|
-| **Applicazione** | Ideale per applicazioni di sorting con più tipologie di pezzi |
-| **Flessibilità** | Alimentazione di pezzi misti sulla stessa superficie |
+| **Anwendung** | Ideal für Sortieranwendungen mit mehreren Teiletypen |
+| **Flexibilität** | Zuführung gemischter Teile auf derselben Oberfläche |
 
 ---
 
-## Ciclo operativo
+## Betriebszyklus
 
-Il ciclo della MIX Mode è semplificato rispetto alla modalità standard, con soli tre stadi
-che si ripetono in sequenza:
+Der Zyklus des MIX-Modus ist gegenüber dem Standardmodus vereinfacht, mit nur drei Stufen, die sich nacheinander wiederholen:
 
 ```{list-table}
 :header-rows: 1
 :widths: 20 80
 
-* - Fase
-  - Descrizione
+* - Phase
+  - Beschreibung
 * - **Detect**
-  - La telecamera acquisisce l'immagine della superficie comune, identificando posizione e orientamento di tutti i pezzi presenti, indipendentemente dalla loro tipologia.
+  - Die Kamera erfasst das Bild der gemeinsamen Oberfläche und erkennt Position und Ausrichtung aller vorhandenen Teile, unabhängig von ihrem Typ.
 * - **Move-Flip**
-  - Il FlexiBowl® ruota e i pezzi non correttamente orientati vengono ribaltati o riposizionati.
+  - Der FlexiBowl® dreht sich, und nicht korrekt ausgerichtete Teile werden gewendet oder neu positioniert.
 * - **Pick-Drop**
-  - Il robot preleva il pezzo corretto in base alla logica di sorting e lo deposita nella posizione di destinazione.
+  - Der Roboter entnimmt das richtige Teil gemäß der Sortierlogik und legt es an der Zielposition ab.
 ```
 
+
 ---
+## Vorteile 
 
-## Schema di installazione
+
+:::{grid-item-card} Vorteile
+- **Maximale Flexibilität**: .
+- **Geringere Kosten**: .
+- **Geringer Platzbedarf**: .
+:::
 
 
-:::{figure} ../../../../_shared/media/images/MixLayout.PNG
-:width: 80%
-:align: center
+:::{note}
+Der Mix-Modus ist für FlexiBowl® 500, 650 und 800 verfügbar.
 :::
 
 ---
-
-## Note operative
+## Betriebshinweise
 
 :::{tip}
-La MIX Mode non richiede hardware aggiuntivo rispetto a una configurazione standard.  
- È sufficiente configurare il software di visione per il riconoscimento di più referenze e impostare la logica di sorting nel programma robot.
+Der Mix-Modus erfordert gegenüber einer Standardkonfiguration keine zusätzliche Hardware.
+ Es genügt, die Bildverarbeitungssoftware auf die Erkennung mehrerer Referenzen zu konfigurieren und die Sortierlogik im Roboterprogramm einzustellen.
 :::
 
 :::{note}
-Per il piazzamento ottimale del FlexiBowl® e del robot, fare riferimento al capitolo di {ref}`Layout Best Practice <layoutbp>`.
+Für die optimale Platzierung von FlexiBowl® und Roboter siehe das Kapitel {ref}`Layout Best Practice <layoutbp>`.
 :::

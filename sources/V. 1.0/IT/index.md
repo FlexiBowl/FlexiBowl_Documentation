@@ -1,18 +1,16 @@
 # **Manuale FlexiBowl**
 
 ## **Benvenuto nel manuale FlexiBowl®!**  
-Siamo entusiasti di darvi il benvenuto alla vostra nuova guida di FlexiBowl®!
-Questo manuale è stato creato appositamente per essere il vostro punto di riferimento chiaro e affidabile. Ci auguriamo che, consultandolo, possiate godere appieno di tutti i benefici del nostro sistema.
-Il vostro parere è fondamentale per noi: non esitate a fornirci il vostro feedback [contattandoci](https://www.arsautomation.com/contact)! 
+Siamo entusiasti di darvi il benvenuto alla vostra nuova guida di FlexiBowl®! Questo manuale è stato creato appositamente per essere il vostro punto di riferimento chiaro e affidabile. Ci auguriamo che, consultandolo, possiate godere appieno di tutti i benefici del nostro sistema. Il vostro parere è fondamentale per noi: non esitate a fornirci il vostro feedback [contattandoci](https://www.arsautomation.com/contact)!
 
-*- Il Team di Ars Automation*    
+*- Il Team di Ars Automation*
 <a href="https://www.arsautomation.com" target="_blank">
   <img src="../../_shared/static/logo_fv.png" alt="Ars logo" class="only-light img-logo">
   <img src="../../_shared/static/logo_fv_black.png" alt="Ars logo" class="only-dark img-logo">
 </a>
   
 ## **Cosa è FlexiBowl?**  
-Il FlexiBowl® è un sistema di alminentazione flessibile a disco rotante per il posizionamento e l'orientamento dei componenti ai fini del prelievo robotico.
+Il FlexiBowl® è un sistema di alimentazione flessibile a disco rotante per il posizionamento e l'orientamento dei componenti ai fini del prelievo robotico.
 
 ![Famiglia](../../_shared/media/images/famiglia.png)
 
@@ -33,7 +31,7 @@ L'area di lavoro del FlexiBowl® è virtualmente divisa in quattro parti, ognuna
   - Un'azione combinata del {ref}`gruppo flip <panoramica>` e del movimento della superficie o disco rigido separa i componenti e li ribalta per averne sempre almeno uno nella giusta posizione per la presa.
 
 * - **Presa**
-  - Il sistema di visione riconosce i pezi prendibile e ne invia le coordinate al robot, che procede con le operazioni di pick and place.
+  - Il sistema di visione riconosce i pezzi prendibili e ne invia le coordinate al robot, che procede con le operazioni di pick and place.
 
 * - **Ricircolo**
   - I componenti non presi ricominciano il loro percorso nel FlexiBowl® finché non vengono presi dal robot.
@@ -53,8 +51,7 @@ Il ciclo {ref}`Circular Tracking <tracking>` è sostanzialmente uguale a quello 
 
 
 ## **Come leggere il manuale**  
-Questo manuale è stato concepito per supportare sia la fase di progettazione e integrazione di sistema, sia la fase di installazione e messa in servizio in campo. 
-Per questo motivo, è diviso in delle macro-sezioni con destinatari e finalità distinte.
+Questo manuale è stato concepito per supportare sia la fase di progettazione e integrazione di sistema, sia la fase di installazione e messa in servizio in campo. Per questo motivo, è diviso in delle macro-sezioni con destinatari e finalità distinte.
   
 ## **Qual è la sezione che stai cercando?**  
 ```{list-table}
@@ -254,8 +251,8 @@ FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 :hidden:
 :caption: TRAMOGGE
 FlexiBowl_manual/TRAMOGGE/TRAMOGGE VIBRANTI/tramogge_vibranti.md
-FlexiBowl_manual/TRAMOGGE/MOTORIZZATE/00_MOTORIZZATE.md
-FlexiBowl_manual/TRAMOGGE/CONVEYOR/00_CONVEYOR.md
+<!--FlexiBowl_manual/TRAMOGGE/MOTORIZZATE/00_MOTORIZZATE.md
+FlexiBowl_manual/TRAMOGGE/CONVEYOR/00_CONVEYOR.md--->
 :::
 
 :::{toctree}

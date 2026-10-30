@@ -1,13 +1,11 @@
 (intpneum)=
-# [ELE] **Interfaccia Pneumatica**
+# **Interfaccia Pneumatica**
 
-La macchina è dotata di azionamento pneumatico.
-Prima di effettuare l'**allacciamento pneumatico** verificare che:
+La macchina è dotata di azionamento pneumatico. Prima di effettuare l'**allacciamento pneumatico** verificare che:
 - l'impianto di fornitura di aria compressa presente, garantisca alla macchina la quantità di aria alla giusta pressione;
 - il serbatoio dell'aria compressa predisposto sia correttamente dimensionato.
 
-L'allacciamento pneumatico deve essere effettuato collegando la linea principale al circuito macchina.
-Il cliente deve inoltre garantire un'alimentazione di aria con le caratteristiche elencate nel paragrafo {ref}`"Dati Tecnici Pneumatici" <datipneum>` di questo manuale.
+L'allacciamento pneumatico deve essere effettuato collegando la linea principale al circuito macchina. Il cliente deve inoltre garantire un'alimentazione di aria con le caratteristiche elencate nel paragrafo {ref}`"Dati Tecnici Pneumatici" <datipneum>` di questo manuale.
 
 :::{warning}
 Non superare mai i 7 bar di pressione nell'impianto pneumatico della macchina.

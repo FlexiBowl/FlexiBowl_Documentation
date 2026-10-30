@@ -51,7 +51,7 @@
 .compare-card-body video { border-radius: 4px; }
 </style>
 
-# [PNU] **Comparativa Pneumatica**
+# **Comparativa Pneumatica**
 
 Questa pagina confronta le principali differenze pneumatiche tra **FlexiBowl® 2.0** e **FlexiBowl® 3.0**.
 

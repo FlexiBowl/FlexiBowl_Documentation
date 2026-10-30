@@ -1,4 +1,4 @@
-# [MEC] **Air Blow Kit**
+# **Air Blow Kit**
 
 :::{note}
 L'implementazione dei soffi comporta una modifica dell'impianto pneumatico del FlexiBowl®, per maggiori informazioni fare riferimento agli {ref}`schemi pneumatici <sc-pneum>`.

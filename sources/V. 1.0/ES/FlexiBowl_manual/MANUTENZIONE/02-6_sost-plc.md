@@ -1,1 +1,1 @@
-# **Sustitución de PLC y módulos**
+# **Sustitución del PLC y de los módulos**

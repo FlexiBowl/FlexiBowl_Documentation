@@ -1,7 +1,7 @@
 (datipneum)=
-# **Technische Daten zu den Reifen**
+# **Technische Daten Pneumatik**
 
-## Caratteristiche pneumatiche del FlexiBowl®
+## Pneumatische Eigenschaften des FlexiBowl®
 
 :::{raw} html
 
@@ -113,10 +113,11 @@
    <table class="ars-table">
      <thead>
        <tr>
-         <th>Modello</th>
+         <th>Modell</th>
          <th>FB200</th>
          <th>FB350</th>
          <th>FB500</th>
+         <th>FB500E</th>
          <th>FB650</th>
          <th>FB800</th>
          <th>FB1200</th>
@@ -124,180 +125,193 @@
      </thead>
      <tbody>
        <tr>
-         <td><strong>Caratteristiche aria</strong></td>
-         <td colspan="6">Aria compressa pulita secondo ISO 8573-1:2010, classe 1.3.2</td>
+         <td><strong>Eigenschaften der Luft</strong></td>
+         <td colspan="7">Saubere Druckluft gemäß ISO 8573-1:2010, Klasse 1.3.2</td>
        </tr>
        <tr>
-         <td><strong>Minima pressione di alimentazione aria</strong></td>
-         <td colspan="5">2 Bar</td><td>2 Bar*</td>
+         <td><strong>Minimaler Versorgungsluftdruck</strong></td>
+         <td colspan="6">2 Bar</td><td>2 Bar*</td>
        </tr>
        <tr>
-         <td><strong>Massima pressione di alimentazione aria</strong></td>
-         <td colspan="6">7 Bar</td>
+         <td><strong>Maximaler Versorgungsluftdruck</strong></td>
+         <td colspan="7">7 Bar</td>
        </tr>       
        <tr>
-         <td><strong>Consumo aria</strong></td>
-         <td></td><td></td><td></td><td></td><td></td><td></td>
+         <td><strong>Luftverbrauch [l/min]**</strong></td>
+         <td>25</td><td>15</td><td>35</td><td>55</td><td>30</td><td>45</td><td>135</td>
        </tr>
        <tr>
-         <td><strong>Ø tubo di alimentazione pneumatica</strong></td>
+         <td><strong>Ø Druckluft-Versorgungsschlauch</strong></td>
          <td colspan="2">Ø6 mm</td>
-         <td colspan="4">Ø8 mm</td>
+         <td colspan="5">Ø8 mm</td>
        </tr>
      </tbody>
    </table>
 :::
 
+:::{important}
+Für seine pneumatische Versorgung benötigt der FlexiBowl® saubere Druckluft gemäß **ISO 8573-1:2010 Klasse 1.3.2**, d. h.:
+
+* Feststoffpartikel müssen eine Größe von ≤0,1 μm haben;
+
+* Drucktaupunkt ≤-20 °C (keine Kondensation oder Reif);
+
+* Ölkonzentration (einschließlich Aerosole und Dämpfe) ≤0,1 mg/m³.
+:::
+
 :::{note}
-*La pressione minima di alimentazione per il FlexiBowl® 1200 diventa di 3 bar in caso sia provvisto di svuotamento.
+*Der minimale Versorgungsdruck für den FlexiBowl® 1200 beträgt 3 bar, wenn dieser mit Entleerung ausgestattet ist.
+:::
+
+:::{note}
+**Durchschnittlicher Verbrauch bei ausschließlicher Verwendung des Flips. Die Installation der Blasdüsen kann den Verbrauch um bis zu 75 % erhöhen.
 :::
 
 :::{warning}
-L'utilizzo di aria non conforme può causare malfunzionamenti, riduzione delle prestazioni e usura precoce dei componenti pneumatici.
+Die Verwendung von nicht konformer Luft kann zu Fehlfunktionen, Leistungsminderung und vorzeitigem Verschleiß der pneumatischen Komponenten führen.
 :::
 
-Su richiesta è disponibile opzionalmente un **kit di filtrazione aria esterno**. 
-Il kit è consigliato nei casi in cui la qualità dell’aria compressa dell’impianto cliente non sia nota o non garantita e consente di raggiungere la classe di qualità richiesta.
+Auf Anfrage ist optional ein **{ref}`externes Luftfilterset <airfilter>`** erhältlich. Das Set wird empfohlen, wenn die Qualität der Druckluft in der Kundenanlage nicht bekannt oder nicht gewährleistet ist, und ermöglicht das Erreichen der geforderten Qualitätsklasse.
 
-(sc-pneum)=
-## Schemi pneumatici
+% (sc-pneum)=
+% ## Schemi pneumatici
 
-Seguono gli schemi pneumatici di tutti i modelli a listino, comprensivi di eventuali accessori svuotamento e soffi:
+% Seguono gli schemi pneumatici di tutti i modelli a listino, comprensivi di eventuali accessori svuotamento e soffi:
 
-::::{grid} 2
-:gutter: 3
+% ::::{grid} 2
+% :gutter: 3
 
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 200 C**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000001-pneum.pdf>`
-:::
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 200 C**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000001-pneum.pdf>`
+% :::
 
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 200 CC**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000019-pneum.pdf>`
-:::
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 200 CC**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000019-pneum.pdf>`
+% :::
 
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 350 C**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000010-pneum.pdf>`
-:::
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 350 C**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000010-pneum.pdf>`
+% :::
 
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 350 CC**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000020-pneum.pdf>`
-:::
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 350 CC**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000020-pneum.pdf>`
+% :::
 
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 500 C**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000004-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 500 CC**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000021-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 500 C/E**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000005-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 500 CC/E**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000022-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 650 C**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000008-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 650 CC**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000024-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 800 C**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000006-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 800 CC**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000023-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 1200 C**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000012-pneum.pdf>`
-:::
-
-:::{grid-item-card}
-:shadow: md
-:class-card: pneum-card
-:class-header: pneum-card-header
-**FlexiBowl® 1200 CC**
-^^^
-{download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000025-pneum.pdf>`
-:::
-
-::::
-
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 500 C**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000004-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 500 CC**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000021-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 500 C/E**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000005-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% class-header: pneum-card-header
+% **FlexiBowl® 500 CC/E**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000022-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 650 C**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000008-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 650 CC**
+% ^^^
+%  {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000024-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% % :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 800 C**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000006-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 800 CC**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000023-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 1200 C**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000012-pneum.pdf>`
+% :::
+% 
+% :::{grid-item-card}
+% :shadow: md
+% :class-card: pneum-card
+% :class-header: pneum-card-header
+% **FlexiBowl® 1200 CC**
+% ^^^
+% {download}`⬇ Scarica PDF <../../../../_shared/media/documents/AS000025-pneum.pdf>`
+% :::
+% 
+% ::::
+% 
 % (pneucr)=
 % ## Clean Room
-
+% 
 % Il Clean Room comporta una modifica sostanziale dei collegamenti pneumatici e dei componenti utilizzati; qua sotto sono disponibili gli schemi pneumatici riadattati (sempre comprensivi di eventuali svuotamenti e soffi) :
 
 % :::{list-table}

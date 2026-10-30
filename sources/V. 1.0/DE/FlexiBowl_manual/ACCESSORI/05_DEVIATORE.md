@@ -1,80 +1,96 @@
 (diverter)=
-# **Standard-Weichen**
+# **Standard-Abweiser**
 
-I deviatori standard sono dei blocchi di polietilene con delle superfici sagomate in modo tale da creare un effetto scivolo per i componenti mentre essi si muovono insieme alla superficie o disco rigido. L'idea alla base dei deviatori (standard o di altri tipi) è quella di modificare la posizione dei pezzi lungo il raggio del FlexiBowl®, in modo da massimizzare l'efficacia del flip e di tenerli a una distanza rispetto all'anello di contenimento e dalla calotta stringi-disco tale da consentire la presa al robot, senza che l'*end effector* entri in collisione con uno dei due.
+Standard-Abweiser sind Polyethylenblöcke mit geformten Oberflächen, die einen Rutscheffekt für die Bauteile erzeugen, während sie sich zusammen mit der Oberfläche bzw. der starren Scheibe bewegen. Der Grundgedanke der Abweiser (Standard oder anderer Typen) besteht darin, die Position der Teile entlang des Radius des FlexiBowl® zu verändern, um die Wirksamkeit des Flips zu maximieren und sie in einem solchen Abstand zum Rückhaltering und zur Scheibenspannkappe zu halten, dass der Roboter sie greifen kann, ohne dass der *End Effector* mit einem der beiden kollidiert.
 
-::::{grid} 2
-
-:::{grid-item}
-:::{figure} ../../../../_shared/media/images/deviatoridisco.PNG
-:width: 100%
-Deviatori su disco rigido (FlexiBowl® 350-500E)
-:::
-
-:::{grid-item}
 :::{figure} ../../../../_shared/media/images/deviatorisup.PNG
 :width: 100%
-Deviatori su superficie (FlexiBowl® 500-650-800-1200)
+Abweiser auf Oberfläche (FlexiBowl® 500-650-800-1200)
 :::
 
-::::
+## Empfohlene Anwendungen 
+Standardmäßig montierte Option; sie eignet sich für die Handhabung von Bauteilen ohne Vorsprünge, die klein genug sind, um sich zwischen Abweiser und Scheibe zu verklemmen.
 
-## Applicazioni consigliate 
-Opzione montata di default, è adatto per la movimentazione di componenti privi di sporgenze abbastanza piccole da incastrarsi tra deviatore e disco.
-
-## Procedura di montaggio
+## Montageverfahren
 
 :::{warning} Attenzione
-Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il montaggio.
+Vor der Montage sicherstellen, dass der FlexiBowl® **ausgeschaltet ist und stillsteht**.
 :::
 
-### Deviatori per disco rigido (FlexiBowl® 350-500E)
+%### Deviatori per disco rigido (FlexiBowl® 350-500E)
 
-I deviatori sono fissati sugli appositi fori ai lati dello schermo flip tramite due viti M6x22 ciascuno.
+%:::{note}
+%Nei FlexiBowl® con disco rigido i deviatore non sono fissati di default.
+%:::
 
-:::{figure} ../../../../_shared/media/images/deviatoridisco_fissaggio.PNG
-:width: 100%
-:::
+%I deviatori sono fissati sugli appositi fori ai lati dello schermo flip tramite due viti M6x22 ciascuno.
 
-### Deviatori per superficie (FlexiBowl® 500-650-800-1200)
+%:::{figure} ../../../../_shared/media/images/deviatoridisco_fissaggio.PNG
+%:width: 100%
+%:::
 
-| Step | Operazione |
+%### Deviatori per superficie (FlexiBowl® 500-650-800-1200)
+
+| Schritt | Vorgang |
 |:----:|-----------|
-| 1 | Posizionare il deviatore nell’apposito vano presente nell’anello di contenimento |
-| 2 | Con un cacciavite piatto, avvitare le viti di regolazione finché il deviatore non si trova all’altezza desiderata |
-| 3 | Usare le viti di serraggio per bloccare il deviatore in posizione |
+| 1 | Den Abweiser in die dafür vorgesehene Aussparung im Rückhaltering einsetzen |
+| 2 | Mit einem Schlitzschraubendreher die Einstellschrauben eindrehen, bis sich der Abweiser auf der gewünschten Höhe befindet |
+| 3 | Mit den Klemmschrauben den Abweiser in Position fixieren |
 
 :::{figure} ../../../../_shared/media/images/deviatorisup_componenti.PNG
 :width: 100%
 :::
 
-## Procedura di regolazione
+## Einstellverfahren
 
 :::{warning} Attenzione
-Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la regolazione.
+Vor der Einstellung sicherstellen, dass der FlexiBowl® **ausgeschaltet ist und stillsteht**.
 :::
 
-### Deviatori per disco rigido (FlexiBowl® 350-500E)
+### Abweiser für starre Scheibe (FlexiBowl® 350-500E)
 
-| Step | Operazione |
+| Schritt | Vorgang |
 |:----:|-----------|
-| 1 | Allentare le viti per la regolazione radiale e verticale |
-| 2 | Porre un foglio di carta tra disco e deviatore per tenerlo alla giusta distanza e serrare le viti per la regolazione verticale |
-| 3 | Porre un foglio di carta tra la superficie esterna del deviatore e quella interna del bordo del disco per tenerlo alla giusta distanza e serrare le viti per la regolazione radiale |
+| 1 | Die Schrauben für die radiale und vertikale Einstellung lösen |
+| 2 | Ein Blatt Papier zwischen Scheibe und Abweiser legen, um den richtigen Abstand einzuhalten, und die Schrauben der vertikalen Einstellung festziehen |
+| 3 | Ein Blatt Papier zwischen die Außenfläche des Abweisers und die Innenfläche des Scheibenrands legen, um den richtigen Abstand einzuhalten, und die Schrauben der %radialen Einstellung festziehen |
 
-:::{figure} ../../../../_shared/media/images/deviatoridisco_regolazione.PNG
+%:::{figure} ../../../../_shared/media/images/deviatoridisco_regolazione.PNG
+%:width: 100%
+%:::
+
+### Abweiser auf Oberfläche (FlexiBowl® 500-650-800-1200)
+
+:::{list-table}
+:header-rows: 1
+:widths: 10 90
+:align: left
+
+* - Schritt
+  - Vorgang
+* - 1
+  - Die Stopfen an der Abweiserkartusche entfernen
+* - 2
+  - Die Befestigungsschrauben (2) lösen
+* - 3
+  - Die Einstellschrauben (1) lösen oder eindrehen, bis sich die Unterseite des Abweisers in ca. 0,1 mm Abstand zur Scheibenoberfläche befindet.
+
+    :::{tip}
+    Ein Blatt Papier zwischen Scheibe und Abweiser legen, um den richtigen Abstand einzuhalten, und die Schrauben der vertikalen Einstellung festziehen.
+    :::
+* - 4
+  - Die Befestigungsschrauben (2) festziehen, um den Abweiser in Position zu fixieren
+:::
+
+:::{figure} ../../../../_shared/media/images/detdev.PNG
 :width: 100%
 :::
 
-### Deviatori per superficie (FlexiBowl® 500-650-800-1200)
+## Überprüfung der korrekten Funktion 
 
-| Step | Operazione |
-|:----:|-----------|
-| 1 | Rimuovere i tappi sulla cartuccia deviatore |
-| 2 | Allentare le viti di fissaggio |
-| 3 | Allentare o avvitare le viti di regolazione finché la superficie inferiore del deviatore non si trova a ~0.1mm dalla superficie del disco |
-| 4 | Stringere le viti di fissaggio per bloccare il deviatore in posizione |
+Die Abweiser sind korrekt eingestellt, wenn die Oberfläche bzw. die starre Scheibe ohne Widerstand gleitet und sich die zu handhabenden Bauteile nicht zwischen beiden verklemmen.
 
-## Valutazione del corretto funzionamento 
+Für einen optimalen Betrieb ist außerdem zu überprüfen, dass:
 
-I deviatori sono correttamente regolati quando la superficie o disco rigido scorrono senza incontrare resistenza e i componenti da movimentare non si incastrano tra i due.
+- der **Abweiser vor dem Flip** die Teile in den Bereich der maximalen Flip-Effizienz bringt, d. h. in den mittleren Bereich;
+- der **Abweiser nach dem Flip** die Teile gerade so weit vom Rand entfernt, dass der Roboter sie greifen kann, auch wenn ein Greifer verwendet wird, der den Rand selbst berühren könnte.

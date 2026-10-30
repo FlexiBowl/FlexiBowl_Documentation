@@ -1,5 +1,5 @@
-# **Übersicht über die Vorgänge**
-Questa pagina fornisce una visione d'insieme del processo di configurazione e messa in funzione del FlexiBowl®. Il workflow seguente illustra i passaggi principali in sequenza: clicca su ciascuno step per accedere alla pagina dedicata.
+# **Übersicht der Arbeitsschritte**
+Diese Seite bietet einen Überblick über den Konfigurations- und Inbetriebnahmeprozess des FlexiBowl®. Der folgende Workflow zeigt die wichtigsten Schritte in der richtigen Reihenfolge: Klicken Sie auf einen Schritt, um die zugehörige Seite zu öffnen.
 
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
@@ -136,11 +136,11 @@ Questa pagina fornisce una visione d'insieme del processo di configurazione e me
     <div class="qs-card">
       <div class="qs-card-title">
         <i class="ph ph-wrench"></i>
-        <a class="qs-title-link" href="installazione_meccanica.html">Installazione del FlexiBowl®</a>
-        <a class="qs-badge" href="../DATI TECNICI/02_dati-tecnici-meccanici.html">Meccanica</a>
+        <a class="qs-title-link" href="installazione_meccanica.html">Installation des FlexiBowl®</a>
+        <a class="qs-badge" href="../DATI TECNICI/02_dati-tecnici-meccanici.html">Mechanik</a>
       </div>
       <p class="qs-card-desc">
-        Posizionare e fissare il FlexiBowl® su un piano stabile e orizzontale, rispettando le tolleranze di planarità e i requisiti dimensionali del supporto.
+        Positionieren und befestigen Sie den FlexiBowl® auf einer stabilen, waagerechten Fläche und beachten Sie dabei die Ebenheitstoleranzen und die Maßvorgaben für die Auflage.
       </p>
     </div>
   </div>
@@ -154,11 +154,11 @@ Questa pagina fornisce una visione d'insieme del processo di configurazione e me
     <div class="qs-card">
       <div class="qs-card-title">
         <i class="ph ph-plugs"></i>
-        <a class="qs-title-link" href="cablaggio_FB.html">Cablaggio del FlexiBowl®</a>
-        <a class="qs-badge" href="../DATI TECNICI/03_dati-tecnici-elettrici.html">Elettrica</a>
+        <a class="qs-title-link" href="cablaggio_FB.html">Verdrahtung des FlexiBowl®</a>
+        <a class="qs-badge" href="../DATI TECNICI/03_dati-tecnici-elettrici.html">Elektrik</a>
       </div>
       <p class="qs-card-desc">
-        Eseguire i collegamenti elettrici seguendo le istruzioni specifiche per il modello in uso (200/350 tramite box esterno; 500–1200 sul pannello integrato).
+        Stellen Sie die elektrischen Anschlüsse gemäß den Anweisungen für das verwendete Modell her (200/350 über externe Box; 500–1200 am integrierten Schaltfeld).
       </p>
     </div>
   </div>
@@ -172,11 +172,11 @@ Questa pagina fornisce una visione d'insieme del processo di configurazione e me
     <div class="qs-card">
       <div class="qs-card-title">
         <i class="ph ph-monitor"></i>
-        <a class="qs-title-link" href="conf_interfaccia.html">Configurazione Interfaccia</a>
+        <a class="qs-title-link" href="conf_interfaccia.html">Konfiguration der Benutzeroberfläche</a>
         <a class="qs-badge" href="../INSTALLAZIONE/04_interfaccia-software.html">Software</a>
       </div>
       <p class="qs-card-desc">
-        Accedere all'interfaccia web del FlexiBowl®, configurare l'indirizzo IP, il tipo di comunicazione e, se necessario, abilitare il backlight per la calibrazione del sistema di visione.
+        Rufen Sie die FlexiBowl®-Weboberfläche auf, konfigurieren Sie die IP-Adresse und die Kommunikationsart und aktivieren Sie bei Bedarf das Backlight zur Kalibrierung des Bildverarbeitungssystems.
       </p>
     </div>
   </div>
@@ -193,7 +193,7 @@ Questa pagina fornisce una visione d'insieme del processo di configurazione e me
         <a class="qs-title-link" href="FB_wizard.html">FlexiBowl® Wizard</a>
       </div>
       <p class="qs-card-desc">
-        Utilizzare la configurazione guidata per caratterizzare il componente da alimentare (geometria, sovrapposizione), testare gli accessori (air-blow, flip) e generare automaticamente i parametri ottimali di movimento e scuotimento.
+        Nutzen Sie die geführte Konfiguration, um das zuzuführende Bauteil zu charakterisieren (Geometrie, Überlappung), die Zubehörteile (Air-Blow, Flip) zu testen und die optimalen Bewegungs- und Schüttelparameter automatisch zu erzeugen.
       </p>
     </div>
   </div>
@@ -207,15 +207,15 @@ Questa pagina fornisce una visione d'insieme del processo di configurazione e me
     <div class="qs-card">
       <div class="qs-card-title">
         <i class="ph ph-sliders"></i>
-        <a class="qs-title-link" href="conf_tramoggia.html">Configurazione Tramoggia</a>
+        <a class="qs-title-link" href="conf_tramoggia.html">Konfiguration des Bulk Feeders</a>
       </div>
       <p class="qs-card-desc">
-        Utilizzare la configurazione guidata per caratterizzare il comportamento della tramoggia.
+        Nutzen Sie die geführte Konfiguration, um das Verhalten des Bulk Feeders zu charakterisieren.
       </p>
     </div>
   </div>
 </div>
 
 :::{note}
-Se il sistema in uso è **FlexiVision One**, la fase di Configurazione Interfaccia viene gestita direttamente dalla sua interfaccia dedicata. Fare riferimento al Manuale FlexiVision One.
+Wenn das verwendete System **FlexiVision One** ist, wird die Phase der Konfiguration der Benutzeroberfläche direkt über die zugehörige Oberfläche abgewickelt. Siehe FlexiVision One Handbuch.
 :::

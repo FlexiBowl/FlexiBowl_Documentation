@@ -1,71 +1,76 @@
 # **Mode Mix**
 
-## Funzionamento in MIX Mode
+(funzionamento-in-mix-mode)=
+## Fonctionnement en MIX Mode
 
-La **MIX Mode** consente di alimentare contemporaneamente pezzi di tipologie diverse sulla stessa superficie del FlexiBowl®.    
+Le **mode Mix** permet d'alimenter simultanément des pièces de types différents sur la même surface du FlexiBowl®.
 
-Questa modalità è particolarmente indicata per applicazioni di **smistamento** (sorting) in cui è richiesta la presenza di più referenze sullo stesso piano di lavoro senza dover moltiplicare le stazioni robotizzate.
+Ce mode est particulièrement indiqué pour les applications de **tri** (sorting) où la présence de plusieurs références sur le même plan de travail est requise sans devoir multiplier les postes robotisés.
 
 ```{figure}  ../../../../_shared/media/images/flexibowl_standard_cycle.jpg
 :align: center
 :width: 50%
-:alt: *Ciclo operativo in Modalità Mix: Detect → Pick-Drop → Move-Flip*
+:alt: *Cycle opérationnel en mode Mix : Detect → Pick-Drop → Move-Flip*
 ```
 
 ```{image}  ../../../../_shared/media/videos/MIX_MODE.gif
 :align: center
 :width: 100%
-:alt: *Ciclo operativo in Modalità Mix: Detect → Pick-Drop → Move-Flip*
+:alt: *Cycle opérationnel en mode Mix : Detect → Pick-Drop → Move-Flip*
 ```
 ---
 
-## Caratteristiche principali
+## Caractéristiques principales
 
-| Caratteristica | Descrizione |
+| Caractéristique | Description |
 |---|---|
-| **Applicazione** | Ideale per applicazioni di sorting con più tipologie di pezzi |
-| **Flessibilità** | Alimentazione di pezzi misti sulla stessa superficie |
+| **Application** | Idéal pour les applications de tri avec plusieurs types de pièces |
+| **Flexibilité** | Alimentation de pièces mixtes sur la même surface |
 
 ---
 
-## Ciclo operativo
+## Cycle opérationnel
 
-Il ciclo della MIX Mode è semplificato rispetto alla modalità standard, con soli tre stadi
-che si ripetono in sequenza:
+Le cycle du MIX Mode est simplifié par rapport au mode standard, avec seulement trois étapes qui se répètent en séquence :
 
 ```{list-table}
 :header-rows: 1
 :widths: 20 80
 
-* - Fase
-  - Descrizione
+* - Phase
+  - Description
 * - **Detect**
-  - La telecamera acquisisce l'immagine della superficie comune, identificando posizione e orientamento di tutti i pezzi presenti, indipendentemente dalla loro tipologia.
+  - La caméra acquiert l'image de la surface commune, en identifiant la position et l'orientation de toutes les pièces présentes, indépendamment de leur type.
 * - **Move-Flip**
-  - Il FlexiBowl® ruota e i pezzi non correttamente orientati vengono ribaltati o riposizionati.
+  - Le FlexiBowl® tourne et les pièces mal orientées sont retournées ou repositionnées.
 * - **Pick-Drop**
-  - Il robot preleva il pezzo corretto in base alla logica di sorting e lo deposita nella posizione di destinazione.
+  - Le robot prélève la pièce correcte selon la logique de tri et la dépose à la position de destination.
 ```
 
+
 ---
+## Avantages 
 
-## Schema di installazione
+
+:::{grid-item-card} Avantages
+- **Flexibilité maximale** : .
+- **Coûts réduits** : .
+- **Empreinte au sol réduite** : .
+:::
 
 
-:::{figure} ../../../../_shared/media/images/MixLayout.PNG
-:width: 80%
-:align: center
+:::{note}
+Le mode Mix est disponible pour les FlexiBowl® 500, 650 et 800.
 :::
 
 ---
-
-## Note operative
+## Notes d'utilisation
 
 :::{tip}
-La MIX Mode non richiede hardware aggiuntivo rispetto a una configurazione standard.  
- È sufficiente configurare il software di visione per il riconoscimento di più referenze e impostare la logica di sorting nel programma robot.
+Le mode Mix ne nécessite aucun matériel supplémentaire par rapport à une configuration standard.
+ Il suffit de configurer le logiciel de vision pour la reconnaissance de plusieurs références et de définir la logique de tri dans le programme du robot.
 :::
 
 :::{note}
-Per il piazzamento ottimale del FlexiBowl® e del robot, fare riferimento al capitolo di {ref}`Layout Best Practice <layoutbp>`.
+Pour le placement optimal du FlexiBowl® et du robot, se référer au chapitre {ref}`Layout Best Practice <layoutbp>`.
 :::

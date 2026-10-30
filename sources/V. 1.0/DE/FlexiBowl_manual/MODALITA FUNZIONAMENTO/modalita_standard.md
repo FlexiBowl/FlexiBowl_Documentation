@@ -1,68 +1,83 @@
 # **Standardmodus**
 
-La **Modalità Standard** è la configurazione operativa predefinita del FlexiBowl® e si adatta a qualsiasi tipo di applicazione di alimentazione robotizzata. In questa modalità, il robot e il sistema di visione condividono la stessa area di lavoro, operando in modo coordinato e sequenziale per garantire elevate prestazioni di ciclo.
+Der **Standardmodus** ist die Standard-Betriebskonfiguration des FlexiBowl® und eignet sich für jede Art von robotergestützter Zuführanwendung. In diesem Modus teilen sich Roboter und Bildverarbeitungssystem denselben Arbeitsbereich und arbeiten koordiniert und nacheinander, um eine hohe Zyklusleistung zu gewährleisten.
 
 ---
 
-## Principio di funzionamento
+## Funktionsprinzip
 
-Il FlexiBowl® in Modalità Standard esegue un ciclo continuo composto da tre fasi principali, che si ripetono in sequenza:
+Im Standardmodus führt der FlexiBowl® einen kontinuierlichen Zyklus aus drei Hauptphasen aus, die sich nacheinander wiederholen:
 
 ```{figure} ../../../../_shared/media/images/flexibowl_standard_cycle.jpg
 :align: center
 :width: 50%
-:alt: *Ciclo operativo in Modalità Standard: Detect → Pick-Drop → Move-Flip*
+:alt: *Betriebszyklus im Standardmodus: Detect → Pick-Drop → Move-Flip*
 ```
 ```{image} ../../../../_shared/media/videos/STANDARD_MODE.gif
 :align: center
 :width: 100%
-:alt: *Ciclo operativo in Modalità Standard: Detect → Pick-Drop → Move-Flip*
+:alt: *Betriebszyklus im Standardmodus: Detect → Pick-Drop → Move-Flip*
 ```
 
-### 1. Detect (Rilevamento)
+### 1. Detect (Erkennung)
 
-Il sistema di visione acquisisce un'immagine della superficie del FlexiBowl® e identifica la posizione, l'orientamento e la tipologia dei componenti presenti. Le informazioni vengono trasmesse al robot per pianificare le operazioni di prelievo.
+Das Bildverarbeitungssystem erfasst ein Bild der Oberfläche des FlexiBowl® und erkennt Position, Ausrichtung und Typ der vorhandenen Bauteile. Die Informationen werden an den Roboter übermittelt, um die Entnahmevorgänge zu planen.
 
-### 2. Pick-Drop (Prelievo e Deposito)
+### 2. Pick-Drop (Entnahme und Ablage)
 
-Il robot preleva i componenti correttamente orientati dal FlexiBowl® e li deposita nella posizione di destinazione (es. vassoio, nastro trasportatore, stazione di assemblaggio). Le attività di visione e prelievo vengono eseguite **in modo sequenziale**: prima il sistema di visione scansiona la scena, poi il robot interviene.
+Der Roboter entnimmt die korrekt ausgerichteten Bauteile aus dem FlexiBowl® und legt sie an der Zielposition ab (z. B. Tray, Förderband, Montagestation). Bildverarbeitung und Entnahme werden **nacheinander** ausgeführt: Zuerst scannt das Bildverarbeitungssystem die Szene, dann greift der Roboter ein.
 
-### 3. Move-Flip (Movimento e Ribaltamento)
+### 3. Move-Flip (Bewegung und Wenden)
 
-Al termine del prelievo, il FlexiBowl® esegue un movimento combinato di rotazione e vibrazione (**flip**) per rimescolare i componenti rimanenti e favorire la corretta presentazione di nuovi pezzi. Contestualmente, lo **scarico dell'hopper** e il **movimento del bowl** vengono eseguiti **in modo simultaneo**, ottimizzando i tempi di ciclo.
+Nach der Entnahme führt der FlexiBowl® eine kombinierte Dreh- und Vibrationsbewegung (**Flip**) aus, um die verbleibenden Bauteile neu zu durchmischen und die korrekte Präsentation neuer Teile zu begünstigen. Gleichzeitig erfolgen die **Entladung des Hoppers** und die **Bewegung des Bowls** **simultan**, wodurch die Zykluszeiten optimiert werden.
 
 ---
 
-## Caratteristiche principali
+## Hauptmerkmale
 
-| Caratteristica | Descrizione |
+| Merkmal | Beschreibung |
 |---|---|
-| **Area di lavoro condivisa** | Il robot e il sistema di visione operano nella stessa zona del FlexiBowl® |
-| **Applicabilità** | Adatta a tutte le tipologie di applicazione |
-| **Scarico hopper** | Eseguito simultaneamente al movimento/impulso del FlexiBowl® |
-| **Visione e prelievo** | Eseguiti in sequenza |
-| **Misurazione del ciclo** | Il tempo di ciclo è misurato su base al minuto |
+| **Gemeinsamer Arbeitsbereich** | Roboter und Bildverarbeitungssystem arbeiten im selben Bereich des FlexiBowl® |
+| **Anwendbarkeit** | Für alle Anwendungsarten geeignet |
+| **Hopper-Entladung** | Erfolgt gleichzeitig mit der Bewegung/dem Impuls des FlexiBowl® |
+| **Bildverarbeitung und Entnahme** | Erfolgen nacheinander |
+| **Zyklusmessung** | Die Zykluszeit wird auf Minutenbasis gemessen |
 
 ---
 
-## Schema del ciclo operativo
+## Schema des Betriebszyklus
 
-Il ciclo si svolge secondo il seguente schema ad anello chiuso:
+Der Zyklus läuft nach folgendem Regelkreisschema ab:
 
-1. **Detect** — Il sistema di visione scansiona il FlexiBowl® e localizza i componenti.  
-2. **Pick-Drop** — Il robot preleva i pezzi identificati e li deposita nella destinazione.  
-3. **Move-Flip** — Il FlexiBowl® rimescola i componenti per il ciclo successivo.  
-4. Il ciclo ricomincia dal punto 1.
+1. **Detect** — Das Bildverarbeitungssystem scannt den FlexiBowl® und lokalisiert die Bauteile.
+2. **Pick-Drop** — Der Roboter entnimmt die erkannten Teile und legt sie am Ziel ab.
+3. **Move-Flip** — Der FlexiBowl® durchmischt die Bauteile für den nächsten Zyklus neu.
+4. Der Zyklus beginnt wieder bei Punkt 1.
 
 :::{note} 
-Durante la fase Move-Flip, lo scarico dell'hopper avviene in parallelo al movimento del FlexiBowl®, riducendo i tempi morti e massimizzando la produttività.
+Während der Phase Move-Flip erfolgt die Entladung des Hoppers parallel zur Bewegung des FlexiBowl®, wodurch Totzeiten reduziert und die Produktivität maximiert werden.
 :::
 
 ---
+## Layoutbeispiel
 
-## Vantaggi della Modalità Standard
+:::{figure} ../../../../_shared/media/images/Funz-standard.PNG
+:align: center
+:width: 60%
 
-- **Semplicità di integrazione**: la configurazione è immediata e non richiede parametri avanzati.
-- **Versatilità**: compatibile con una vasta gamma di componenti e settori industriali.
-- **Efficienza**: la simultaneità tra scarico hopper e movimento FlexiBowl® riduce i tempi di attesa.
-- **Affidabilità**: il ciclo sequenziale visione–prelievo minimizza gli errori di presa.
+Layoutbeispiel im Standardmodus: Der Bulk Feeder entlädt in den Abgabesektor, der Flip vereinzelt die Bauteile, der Roboter entnimmt im Sichtbereich und die nicht entnommenen Teile werden zurückgeführt.
+:::
+
+Der Arbeitsbereich des Roboters muss den Sichtbereich vollständig abdecken, damit der Roboter alle als greifbar erkannten Bauteile erreichen kann. Zur Positionierung von Roboter, Bulk Feeder, Ablageplätzen, Kamera und Beleuchtung siehe {ref}`Layout Best Practice <layoutbp-traditional>`.
+
+
+---
+
+## Vorteile 
+
+
+:::{grid-item-card} Vorteile
+- **Genauigkeit**: .
+- **Vereinzelung**: .
+- **Geschwindigkeit**: .
+:::

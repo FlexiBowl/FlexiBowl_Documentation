@@ -57,12 +57,12 @@
 }
 </style>
  
-# [SOF] **Software Comparison**
+# **Software Comparison**
  
-This page compares the main software differences between **FlexiBowl® 2.0** and **FlexiBowl® 3.0**, with the aim of guiding the user in understanding the new features and the operational changes introduced by the new generation.
+This page compares the main software differences between **FlexiBowl® 2.0** and **FlexiBowl® 3.0**, with the aim of guiding the user in understanding the new features and operational changes introduced by the new generation.
  
 :::{important}
-Before reading the contents of the current page, it is good practice to be familiar with the information given in the [Software Interface](int_software) page
+Before reading the contents of this page, it is good practice to be familiar with the information given on the [Software Interface](int_software) page
 :::
 ---
  
@@ -90,10 +90,10 @@ Before reading the contents of the current page, it is good practice to be famil
 **Installation and access:**
  
 1. Install the **FlexiBowl® Parameters** program on the PC (supplied by ARS).
-2. Connect the PC to the FlexiBowl® via an **Ethernet cable** (direct LAN or via switch).
-3. Start the program and enter the **IP address** of the FlexiBowl® to connect.
+2. Connect the PC to the FlexiBowl® via an **Ethernet cable** (direct LAN or via a switch).
+3. Start the program and enter the FlexiBowl® **IP address** to connect.
  
-From the **Main Commands** screen, the **Move**, **Shake** and **Option** panels are accessible via tabs at the top.
+From the **Main Commands** screen, the **Move**, **Shake** and **Option** panels can be accessed via tabs at the top.
  
 </div>
 </div>
@@ -101,12 +101,12 @@ From the **Main Commands** screen, the **Move**, **Shake** and **Option** panels
 <div class="compare-card-header">FlexiBowl® 3.0 — Web Interface</div>
 <div class="compare-card-body">
  
-**Fully web-based** interface: no installation is required. A modern browser is sufficient.
+**Fully web-based** interface: it requires no installation. A modern browser is all that is needed.
  
 **Access:**
  
 1. Connect the PC to the FlexiBowl® via Ethernet.
-2. Open the browser and type the **IP address** of the FlexiBowl® in the address bar.
+2. Open the browser and type the FlexiBowl® **IP address** in the address bar.
 3. The interface **Home page** opens.
  
 **Interface structure:**
@@ -134,9 +134,9 @@ If the system in use is **FlexiVision One**, the configuration is managed from i
 2. Connect the FlexiBowl® via Ethernet cable.
 3. Switch on the device.
 4. Start the program.
-5. In the **IP Address** box, enter the address: `192.168.1.10`  
+5. In the **IP Address** box, enter the address: `192.168.1.10`
    *(The connected PC must be in the same Class B subnet mask — 255.255.0.0)*
-6. Press **Ping** → pop-up **"FlexiBowl® found"**.
+6. Press **Ping** → **"FlexiBowl® found"** pop-up.
 7. Press **Ok** to enable **CONNECT** and start the connection.
 8. After connecting, the home screen will be displayed.
  
@@ -177,9 +177,9 @@ Movements are configured and tested from **Main Commands**, with three panels:
  
 - **Move**: sets Acceleration, Deceleration, Speed and Angle via slider or numeric field. **Test Move** executes the movement with the set values.
 - **Shake**: parameters CCW Angle, CW Angle, Count, Acceleration, Deceleration and Speed. **Test Shake** executes the shake.
-- **Try Commands**: combines several commands into a sequence with a configurable loop, by selecting from **All Commands** and adding to **Selected Commands**.
+- **Try Commands**: combines several commands into a sequence with a configurable loop, selecting from **All Commands** and adding to **Selected Commands**.
  
-For production via protocol, ASCII commands are sent (e.g. `QX2` for Move, `QX6` for Shake) through the configured TCP/UDP channel.
+For production via protocol, ASCII commands (e.g. `QX2` for Move, `QX6` for Shake) are sent through the configured TCP/UDP channel.
  
 </div>
 </div>
@@ -187,13 +187,13 @@ For production via protocol, ASCII commands are sent (e.g. `QX2` for Move, `QX6`
 <div class="compare-card-header">FlexiBowl® 3.0</div>
 <div class="compare-card-body">
  
-Movements are organized into **sequences** (up to 20), configurable from the **Main Command** page. Each sequence contains up to 10 command slots (Move, Shake, Flip, Blow).
+Movements are organized in **sequences** (up to 20), configurable from the **Main Command** page. Each sequence contains up to 10 command slots (Move, Shake, Flip, Blow).
  
 From the **Main Command** page it is possible to:
  
 - Select the sequence via **Select the sequence**.
-- Set all the parameters in the numeric fields.
-- Add commands with **Command Available** + **ADD**; reorder them with **UP/DOWN**; delete them with **DELETE** or clear all with **CLEAR**.
+- Set all parameters in the numeric fields.
+- Add commands with **Command Available** + **ADD**; reorder them with **UP/DOWN**; remove them with **DELETE** or empty the list with **CLEAR**.
 - Test with **TEST SEQUENCE** or start production with **RUN**.
  
 The **Jog Motor** page allows continuous rotation (positive Speed = clockwise, negative = counterclockwise) with integrated Flip and Blow.
@@ -206,17 +206,17 @@ For production via protocol: `10[0]%` for Sequence 1 via TCP, or ControlWord `10
  
 ---
  
-## 5. How to change the parameters
+## 5. How to change parameters
  
 <div class="compare-grid">
 <div class="compare-card v20">
 <div class="compare-card-header">FlexiBowl® 2.0</div>
 <div class="compare-card-body">
  
-The operating parameters are modified in two ways:
+Operating parameters are modified in two ways:
  
 - **Graphical interface**: sliders or numeric fields in the Move and Shake screens of **Main Commands**.
-- **Via protocol (runtime)**: `RW` (Write) and `RL` (Read) commands via TCP/UDP. The values must be multiplied by the machine **reduction factor** (obtained with the `RR114` command), since the parameters are expressed in internal driver units.
+- **Via protocol (runtime)**: commands `RW` (Write) and `RL` (Read) via TCP/UDP. Values must be multiplied by the machine's **reduction factor** (obtained with the command `RR114`), since the parameters are expressed in internal driver units.
  
 </div>
 </div>
@@ -224,11 +224,11 @@ The operating parameters are modified in two ways:
 <div class="compare-card-header">FlexiBowl® 3.0</div>
 <div class="compare-card-body">
  
-The parameters are modified in three ways:
+Parameters are modified in three ways:
  
 - **Web interface**: directly in the numeric fields of the **Main Command** page for each sequence.
-- **Via WRITE protocol**: WRITE block ControlWord with formula `N × 100 + parameter_offset`
-- **Via READ protocol**: READ block ControlWord with formula `10000 + N × 100 + parameter_offset`
+- **Via WRITE protocol**: ControlWord WRITE block with formula `N × 100 + offset_parametro`
+- **Via READ protocol**: ControlWord READ block with formula `10000 + N × 100 + offset_parametro`
  
 </div>
 </div>
@@ -238,30 +238,30 @@ The parameters are modified in three ways:
  
 ### Practical example: Move + Shake on FlexiBowl® 800
  
-The scenario is as follows: execute a **Move** at 360°, then a **Shake**, then a 200 ms wait.
+The scenario is as follows: execute a **Move** of 360°, then a **Shake**, then a 200 ms wait.
  
 <div class="compare-grid">
 <div class="compare-card v20">
 <div class="compare-card-header">FlexiBowl® 2.0 — TCP command sequence</div>
 <div class="compare-card-body">
  
-The parameters must be scaled using the machine **reduction factor**:
+Parameters must be scaled using the machine's **reduction factor**:
  
-<pre>QX7                     → Switch on backlight
+<pre>QX7                     → Turn on backlight
 RR114                   → Read reduction factor
-reduction_variable = RX 1
+reduction_factor = RX 1
  
-RL1 (50 × reduction_variable), RW11   → Acceleration Move = 50%
-RL1 (50 × reduction_variable), RW12   → Deceleration Move = 50%
-RL1 (35 × reduction_variable), RW13   → Speed Move = 35%
-RL1 (360 × reduction_variable), RW14  → Angle Move = 360°
+RL1 (50 × reduction_factor), RW11   → Acceleration Move = 50%
+RL1 (50 × reduction_factor), RW12   → Deceleration Move = 50%
+RL1 (35 × reduction_factor), RW13   → Speed Move = 35%
+RL1 (360 × reduction_factor), RW14  → Angle Move = 360°
 QX2                     → Execute Move
  
-RL1 (50 × reduction_variable), RW15  → Acceleration Shake = 50%
-RL1 (50 × reduction_variable), RW16  → Deceleration Shake = 50%
-RL1 (50 × reduction_variable), RW110 → Speed Shake = 50%
-RL1 (30 × reduction_variable), RW18  → Angle CW Shake = -30°
-RL1 (30 × reduction_variable), RW19  → Angle CCW Shake = -45°
+RL1 (50 × reduction_factor), RW15  → Acceleration Shake = 50%
+RL1 (50 × reduction_factor), RW16  → Deceleration Shake = 50%
+RL1 (50 × reduction_factor), RW110 → Speed Shake = 50%
+RL1 (30 × reduction_factor), RW18  → Angle CW Shake = -30°
+RL1 (30 × reduction_factor), RW19  → Angle CCW Shake = -45°
 RL1 2, RW17                           → Count Shake = 2
 QX6                     → Execute Shake</pre>
  
@@ -294,7 +294,7 @@ To execute the sequence via TCP:
  
 <pre>10[0]%    → Execute Sequence 1</pre>
  
-The system replies with `10[0]` as confirmation.
+The system responds with `10[0]` as confirmation.
  
 </div>
 </div>
@@ -302,18 +302,18 @@ The system replies with `10[0]` as confirmation.
  
 ---
  
-## 6. How to read the alarms
+## 6. How to read alarms
  
 <div class="compare-grid">
 <div class="compare-card v20">
 <div class="compare-card-header">FlexiBowl® 2.0</div>
 <div class="compare-card-body">
  
-Alarms are consulted from **Monitor → Alarm Status** of the **FlexiBowl® Parameters** program. The screen shows the driver statuses with LED indicators (green = OK, red = error). The **Driver Status** screen shows all the operating variables in real time.
+Alarms are consulted from **Monitor → Alarm Status** of the **FlexiBowl® Parameters** program. The screen shows the driver states with LED indicators (green = OK, red = error). The **Driver Status** screen shows all operating variables in real time.
  
 Alarm reset via protocol:
  
-<pre>Chr(0)Chr(7)QX12Chr(13)    → Alarm reset and motor re-enable</pre>
+<pre>Chr(0)Chr(7)QX12Chr(13)    → Reset alarm and re-enable motor</pre>
  
 </div>
 </div>
@@ -337,7 +337,7 @@ Alarm reset:
 </div>
  
 :::{warning}
-Before performing the reset, identify and resolve the cause of the error. The system will not execute new movement commands while an error is active.
+Before performing the reset, identify and resolve the cause of the error. The system will not execute new motion commands while an active error is present.
 :::
  
 :::{note}
@@ -358,22 +358,22 @@ The **FlexiTrack** mode is an option that can be purchased separately and allows
 **Required hardware:**
  
 - Connection to the **internal encoder** via the control panel connector (TTL quadrature signal, 4000 counts/rev on the motor; for FlexiBowl® 500/650/800 with 1:3 reduction → 12000 counts/rev on the disc).
-- Alternatively, an **external encoder** (incremental, TTL RS422, ≥ 12000 ppr) on the pin integral with the driven pulley.
+- Alternatively, **external encoder** (incremental, TTL RS422, ≥ 12000 ppr) on the shaft integral with the driven pulley.
  
 **Main FlexiTrack commands (via TCP/UDP):**
  
 | Command | Description |
 |---|---|
-| `JA<value>` | Acceleration/deceleration in rev/s² |
-| `JL<value>` | Deceleration (if different from JA, send after JA) |
-| `JS<value>` | Rotation speed in rev/s |
-| `CC<value>` | Current directed to the motor |
+| `JA<valore>` | Acceleration/deceleration in rev/s² |
+| `JL<valore>` | Deceleration (if different from JA, send after JA) |
+| `JS<valore>` | Rotation speed in rev/s |
+| `CC<valore>` | Current delivered to the motor |
 | `DI1` | Clockwise direction |
 | `DI-1` | Counterclockwise direction |
 | `CJ` | Start jog (continuous rotation) |
 | `SJ` | Stop jog (with JL ramp) |
-| `IL2` / `IH2` | Activate / deactivate Flip |
-| `IL3` / `IH3` | Activate / deactivate Blow |
+| `IL2` / `IH2` | Enable / disable Flip |
+| `IL3` / `IH3` | Enable / disable Blow |
  
 **Recommended parameters:**
  
@@ -383,7 +383,7 @@ JS0.2    → speed 0.2 rev/s
 CC1.3    → motor current
 DI1      → clockwise rotation</pre>
  
-Flip and Blow must be implemented through a **background program** with an iterative loop that toggles the state of the valves.
+Flip and Blow must be implemented through a **background program** with an iterative loop that toggles the valve state.
  
 </div>
 </div>
@@ -391,13 +391,13 @@ Flip and Blow must be implemented through a **background program** with an itera
 <div class="compare-card-header">FlexiBowl® 3.0</div>
 <div class="compare-card-body">
  
-The jog mode is **natively integrated** into the **Jog Motor** page — without additional hardware options.
+Jog mode is **natively integrated** in the **Jog Motor** page — without additional hardware options.
  
-**Jog motion parameters:**
+**Jog movement parameters:**
  
 | Parameter | Unit | Description |
 |---|---|---|
-| Acceleration | % | Acceleration ramp at start-up |
+| Acceleration | % | Acceleration ramp at start |
 | Deceleration | % | Deceleration ramp at stop |
 | Speed | % | Speed — positive = clockwise; negative = counterclockwise |
  
@@ -422,7 +422,7 @@ Control via protocol:
 </div>
  
 :::{important}
-Before starting the jog, check that the motor is enabled (**ENABLE MOTOR** active) and that the system status is **READY**.
+Before starting the jog, verify that the motor is enabled (**ENABLE MOTOR** active) and that the system state is **READY**.
 :::
  
 :::{important}

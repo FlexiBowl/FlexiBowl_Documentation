@@ -1,4 +1,4 @@
-# **Austausch der Motorbaugruppe**
+# **Austausch der Motoreinheit**
 
 :::::{important}
 
@@ -12,198 +12,202 @@
 ::::{list-table}
 :widths: 30 60
 :header-rows: 1
-* - {ref}`Qualifica operatore <operatori>`
-  - {ref}`D.P.I. Necessari <dpi>`
+* - {ref}`Qualifikation des Bedieners <operatori>`
+  - {ref}`Erforderliche PSA <dpi>`
 
-* - **Manutentore meccanico**
+* - **Mechanischer Instandhalter**
   - :::{raw} html
        <div class="ars-img-row">
-         <img src="../../../../_shared/media/images/guanti.png" alt="guanti">
-         <img src="../../../../_shared/media/images/scarpe.png" alt="scarpe">
-         <img src="../../../../_shared/media/images/tuta.png" alt="tuta">
+         <img src="../../../../_shared/media/images/guanti.png" alt="Handschuhe">
+         <img src="../../../../_shared/media/images/scarpe.png" alt="Schuhe">
+         <img src="../../../../_shared/media/images/tuta.png" alt="Overall">
        </div>
     :::
 ::::
 :::::
 
 :::{warning}
-Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione del gruppo motore.
+Vor dem Austausch der Motoreinheit die elektrische Stromversorgung trennen.
 :::
 
 :::{warning}
-Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+Einige von den hier beschriebenen Wartungsarbeiten betroffene Teile können im Betrieb {ref}`hohe Temperaturen <temp>` erreicht haben; den FlexiBowl® ausreichend lange ausgeschaltet lassen, damit alle Teile gefahrlos gehandhabt werden können.
+:::
+
+:::{important}
+Beim Montieren der Motoreinheit am FlexiBowl® ist es wichtig, dieselben Befestigungsschrauben zu verwenden und Loctite 243 aufzutragen.
 :::
 
 ## FlexiBowl® 200
 
-Nel FlexiBowl® 200 il motore è in presa diretta, e il ricambio fornito consiste nel solo motore.
+Beim FlexiBowl® 200 ist der Motor direkt angetrieben, und das gelieferte Ersatzteil besteht nur aus dem Motor.
 
-### Cosa serve?
+### Was wird benötigt?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Gegenstand/Ausrüstung
+  - Menge
 
-* - Chiave esagonale H5
+* - Sechskantschlüssel H5
   - 1
 
-* - Chiave esagonale H4
+* - Sechskantschlüssel H4
   - 1
 
-* - Gruppo motore sostitutivo
+* - Ersatz-Motoreinheit
   - 1
 
 :::
 
-### Procedimento
+### Vorgehensweise
 
-| Step | Operazione |
+| Schritt | Vorgang |
 |:----:|-----------|
-| 1 | Rimuovere il gruppo schermo flip |
-| 2 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 3 | {ref}`Rimuovere il Backlight <sostbl>` |
-| 4 | Rimuovere la vite di supporto frontale della scatola del Backlight |
-| 5 | Rimuovere le quattro viti di fissaggio della tavola e le due viti che fissano il distributore dello schermo alla stessa |
-| 6 | Sollevare la tavola e scollegare tutti i collegamenti del motore |
-| 7 | Rimuovere le viti che fissano la flangia motore alla tavola |
-| 8 | Ruotare la flangia porta disco finchè non saranno visibili i grani di bloccaggio e rimuoverli |
-| 9 | Svitare le viti che fissano il motore alla flangia e smontare il motore |
-| 10 | Togliere il distanziale e sostituire il motore |
-| 11 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | Flip-Schirmgruppe entfernen |
+| 2 | {ref}`Oberfläche oder starre Scheibe entfernen <sost-disco>` |
+| 3 | {ref}`Backlight entfernen <sostbl>` |
+| 4 | Die vordere Halteschraube des Backlight-Gehäuses entfernen |
+| 5 | Die vier Befestigungsschrauben des Tisches und die zwei Schrauben, die den Schirmverteiler daran befestigen, entfernen |
+| 6 | Den Tisch anheben und alle Motoranschlüsse trennen |
+| 7 | Die Schrauben entfernen, die den Motorflansch am Tisch befestigen |
+| 8 | Den Scheibenträgerflansch drehen, bis die Klemmstifte sichtbar sind, und diese entfernen |
+| 9 | Die Schrauben lösen, die den Motor am Flansch befestigen, und den Motor ausbauen |
+| 10 | Distanzstück entfernen und den Motor austauschen |
+| 11 | Nach Abschluss des Austauschs alle Komponenten wieder montieren |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="sostmot1" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000001_cambio_motore.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Ihr Browser unterstützt das Video nicht.
   </video>
   <br>
-  <label for="velcammot1">Velocità:</label>
+  <label for="velcammot1">Geschwindigkeit:</label>
   <select id="velcammot1" onchange="document.getElementById('sostmot1').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione del gruppo motore illustrata su FlexiBowl® 200</i></figcaption>
+  <figcaption><i>Austauschverfahren der Motoreinheit, dargestellt an einem FlexiBowl® 200</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-Per facilitare il lavoro è possibile rimuovere i carter, stando attenti a non tirare eccessivamente i cavi dei LED di stato.
+Zur Erleichterung der Arbeit können die Abdeckungen entfernt werden; dabei darauf achten, nicht übermäßig an den Kabeln der Status-LEDs zu ziehen.
 :::
 
 ## FlexiBowl® 350
 
-Per il FlexiBowl® 350 esiste un gruppo motore che comprende anche la flangia di fissaggio e tutta la catena cinematica che porta il moto al supporto del disco rigido, e il ricambio fornito consiste nel gruppo nella sua totalità.
+Für den FlexiBowl® 350 gibt es eine Motoreinheit, die auch den Befestigungsflansch und die gesamte kinematische Kette zur Übertragung der Bewegung auf den Träger der starren Scheibe umfasst; das gelieferte Ersatzteil besteht aus der Einheit als Ganzes.
 
-### Cosa serve?
+### Was wird benötigt?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Gegenstand/Ausrüstung
+  - Menge
 
-* - Chiave esagonale H5
+* - Sechskantschlüssel H5
   - 1
 
-* - Chiave esagonale H4
+* - Sechskantschlüssel H4
   - 1
 
-* - Gruppo motore sostitutivo
+* - Ersatz-Motoreinheit
   - 1
 
 :::
 
-### Procedimento
+### Vorgehensweise
 
-| Step | Operazione |
+| Schritt | Vorgang |
 |:----:|-----------|
-| 1 | Rimuovere il gruppo schermo flip |
-| 2 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 3 | {ref}`Rimuovere il Backlight <sostbl>` |
-| 4 | Rimuovere la vite di supporto frontale della scatola del Backlight |
-| 5 | Rimuovere le quattro viti di fissaggio della tavola e le due viti che fissano il distributore dello schermo alla stessa |
-| 6 | Sollevare la tavola e scollegare tutti i collegamenti del motore |
-| 7 | Rimuovere le viti che fissano la flangia motore alla tavola |
-| 8 | Rimuovere e sostituire il gruppo motore |
-| 9 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | Flip-Schirmgruppe entfernen |
+| 2 | {ref}`Oberfläche oder starre Scheibe entfernen <sost-disco>` |
+| 3 | {ref}`Backlight entfernen <sostbl>` |
+| 4 | Die vordere Halteschraube des Backlight-Gehäuses entfernen |
+| 5 | Die vier Befestigungsschrauben des Tisches und die zwei Schrauben, die den Schirmverteiler daran befestigen, entfernen |
+| 6 | Den Tisch anheben und alle Motoranschlüsse trennen |
+| 7 | Die Schrauben entfernen, die den Motorflansch am Tisch befestigen |
+| 8 | Motoreinheit entfernen und austauschen |
+| 9 | Nach Abschluss des Austauschs alle Komponenten wieder montieren |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="sostmot2" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000010_cambio-motore.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Ihr Browser unterstützt das Video nicht.
   </video>
   <br>
-  <label for="velcammot2">Velocità:</label>
+  <label for="velcammot2">Geschwindigkeit:</label>
   <select id="velcammot2" onchange="document.getElementById('sostmot2').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione del gruppo motore illustrata su FlexiBowl® 350</i></figcaption>
+  <figcaption><i>Austauschverfahren der Motoreinheit, dargestellt an einem FlexiBowl® 350</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-Per facilitare il lavoro è possibile rimuovere i carter, stando attenti a non tirare eccessivamente i cavi dei LED di stato.
+Zur Erleichterung der Arbeit können die Abdeckungen entfernt werden; dabei darauf achten, nicht übermäßig an den Kabeln der Status-LEDs zu ziehen.
 :::
 
 ## FlexiBowl® 500-650-800-1200
 
-I FlexiBowl® delle taglie più grandi sono provvisti di un gruppo motore che, come quello del FlexiBowl® 350, è compreso da tuttoil gruppo cinematico. Il ricambio prevede anche in questo caso l'intero gruppo.
+Die FlexiBowl® der größeren Baugrößen sind mit einer Motoreinheit ausgestattet, die wie beim FlexiBowl® 350 die gesamte kinematische Gruppe umfasst. Auch hier umfasst das Ersatzteil die gesamte Einheit.
 
-### Cosa serve?
+### Was wird benötigt?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Gegenstand/Ausrüstung
+  - Menge
 
-* - Chiave esagonale H2.5
+* - Sechskantschlüssel H2.5
   - 1
 
-* - Backlight sostitutivo
+* - Ersatz-Backlight
   - 1
 
 :::
 
-### Sostituzione gruppo motore standard
+### Austausch der Standard-Motoreinheit
 
-| Step | Operazione |
+| Schritt | Vorgang |
 |:----:|-----------|
-| 1 | Rimuovere il gruppo schermo flip |
-| 2 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 3 | Rimuovere la piastra di copertura del gruppo flip (usare due delle viti di fissaggio per la rimzozione tramite gli appositi fori filettati) |
-| 4 | Rimuovere gli allacciamenti pneumatici e smontare il gruppo flip |
-| 5 | Sostituire il gruppo flip danneggiato con quello nuovo |
-| 6 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | Flip-Schirmgruppe entfernen |
+| 2 | {ref}`Oberfläche oder starre Scheibe entfernen <sost-disco>` |
+| 3 | Die Abdeckplatte der Flip-Einheit entfernen (zwei der Befestigungsschrauben in die dafür vorgesehenen Gewindebohrungen eindrehen, um sie abzudrücken) |
+| 4 | Die pneumatischen Anschlüsse entfernen und die Flip-Einheit ausbauen |
+| 5 | Die beschädigte Flip-Einheit durch die neue ersetzen |
+| 6 | Nach Abschluss des Austauschs alle Komponenten wieder montieren |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="sostmot" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000006_cambio-motore.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Ihr Browser unterstützt das Video nicht.
   </video>
   <br>
-  <label for="velcammot">Velocità:</label>
+  <label for="velcammot">Geschwindigkeit:</label>
   <select id="velcammot" onchange="document.getElementById('sostmot').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione del gruppo motore illustrata su FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Austauschverfahren der Motoreinheit, dargestellt an einem FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
-### Sostituzione gruppo motore in presenza di Flexitracking (per FlexiBowl® 500-650-800-1200)
+### Austausch der Motoreinheit bei vorhandenem Flexitracking (für FlexiBowl® 500-650-800-1200)

@@ -1,15 +1,15 @@
 (intele)=
-# [ELE] **Electrical Interface**
+# **Electrical Interface**
 
-The connector panel of the FlexiBowl® varies depending on the machine version:
+The FlexiBowl® connector panel varies depending on the machine version:
 
 :::{raw} html
 <style>
 .ie-tabs, .ie-wrap, .ie-tabs *, .ie-wrap * {
   box-sizing: border-box;
 }
-/* Applies zero margin and padding only to your panel components if necessary, 
-   without touching the rest of the Sphinx site */
+/* Applica margin e padding zero solo ai componenti del tuo pannello se necessario, 
+   senza toccare il resto del sito di Sphinx */
 .ie-tabs, .ie-panel, .ie-wrap, .ie-row, .ie-bubble, .ie-name, .ie-desc {
   margin: 0;
   padding: 0;
@@ -49,12 +49,12 @@ The connector panel of the FlexiBowl® varies depending on the machine version:
  
 <!-- Tab bar -->
 <div class="ie-tabs">
-  <button class="ie-tab on" onclick="ieSwitchTab('smallpanel',this)">FlexiBowl® 200-350 Panel</button>
+  <button class="ie-tab on" onclick="ieSwitchTab('smallpanel',this)">FlexiBowl® 200-350 panel</button>
   <button class="ie-tab"    onclick="ieSwitchTab('rack',this)">Rack</button>
-  <button class="ie-tab"    onclick="ieSwitchTab('stpanel',this)">Standard Panel</button>
-  <button class="ie-tab"    onclick="ieSwitchTab('encpanel',this)">Flexitracking Panel</button>
+  <button class="ie-tab"    onclick="ieSwitchTab('stpanel',this)">Standard panel</button>
+  <button class="ie-tab"    onclick="ieSwitchTab('encpanel',this)">Circular Tracking panel</button>
 </div>
-<!-- ══════════ FB200-350 PANEL ══════════ -->
+<!-- ══════════ PANNELLO FB200-350 ══════════ -->
 <div class="ie-panel on" id="ie-panel-smallpanel">
   <div class="ie-wrap">
     <div class="ie-img-outer">
@@ -73,7 +73,7 @@ The connector panel of the FlexiBowl® varies depending on the machine version:
 <div class="ie-panel" id="ie-panel-rack">
   <div class="ie-wrap">
     <div class="ie-img-outer">
-      <img class="ie-img-base" id="rack-img-base" src="../../../../_shared/media/images/rack0.PNG" alt="Rack FlexiBowl®" />
+      <img class="ie-img-base" id="rack-img-base" src="../../../../_shared/media/images/rack0.PNG" alt="FlexiBowl® rack" />
       <img class="ie-img-hl"   id="rack-img-hl"   src="" alt="" aria-hidden="true" />
       <div class="ie-badge" id="rack-badge"></div>
       <div class="ie-hint"  id="rack-hint">Select a connector from the list</div>
@@ -84,7 +84,7 @@ The connector panel of the FlexiBowl® varies depending on the machine version:
     </div>
   </div>
 </div>
-<!-- ══════════ STANDARD PANEL ══════════ -->
+<!-- ══════════ PANNELLO STANDARD ══════════ -->
 <div class="ie-panel" id="ie-panel-stpanel">
   <div class="ie-wrap">
     <div class="ie-img-outer">
@@ -99,11 +99,11 @@ The connector panel of the FlexiBowl® varies depending on the machine version:
     </div>
   </div>
 </div>
-<!-- ══════════ FLEXITRACKING PANEL ══════════ -->
+<!-- ══════════ PANNELLO FLEXITRACKING ══════════ -->
 <div class="ie-panel" id="ie-panel-encpanel">
   <div class="ie-wrap">
     <div class="ie-img-outer">
-      <img class="ie-img-base" id="encpanel-img-base" src="../../../../_shared/media/images/encpanel0.PNG" alt="FlexiBowl® Flexitracking panel" />
+      <img class="ie-img-base" id="encpanel-img-base" src="../../../../_shared/media/images/encpanel0.PNG" alt="FlexiBowl® Circular Tracking panel" />
       <img class="ie-img-hl"   id="encpanel-img-hl"   src="" alt="" aria-hidden="true" />
       <div class="ie-badge" id="encpanel-badge"></div>
       <div class="ie-hint"  id="encpanel-hint">Select a connector from the list</div>
@@ -122,7 +122,7 @@ The connector panel of the FlexiBowl® varies depending on the machine version:
       imgExt: '.PNG',
       comps: [
         {n:1, name:'C-A SIGNAL', desc:'C-A signal connector'},
-        {n:2, name:'C-B SIGNAL', desc:'C-B Signal connector'},
+        {n:2, name:'C-B SIGNAL', desc:'C-B signal connector'},
         {n:3, name:'MOTOR',      desc:'Motor cable connector'},
         {n:4, name:'C-ETH FB',   desc:'Ethernet connection to the rack'},
         {n:5, name:'AIR SUPPLY', desc:'Air inlet'}
@@ -132,25 +132,25 @@ The connector panel of the FlexiBowl® varies depending on the machine version:
       imgPath: '../../../../_shared/media/images/rack',
       imgExt: '.PNG',
       comps: [
-        {n:1, name:'POWER SUPPLY', desc:'Power socket and switch; also includes an IEC filter'},
+        {n:1, name:'POWER SUPPLY', desc:'Power inlet and switch; also includes an IEC filter'},
         {n:2, name:'STO',          desc:'STO connector'},
         {n:3, name:'MOTOR',        desc:'Motor cable connector'},
         {n:4, name:'C-A SIGNAL',   desc:'C-A signal connector'},
-        {n:5, name:'C-B SIGNAL',   desc:'C-B Signal connector'},
+        {n:5, name:'C-B SIGNAL',   desc:'C-B signal connector'},
         {n:6, name:'C-ETH IN',     desc:'Ethernet connector'},
-        {n:7, name:'HOPPER',       desc:'Hopper connector'},
-        {n:8, name:'C-ETH FB',     desc:'Ethernet connection to the FlexiBowl\u00ae'}
+        {n:7, name:'HOPPER',       desc:'Bulk Feeder connector'},
+        {n:8, name:'C-ETH FB',     desc:'Ethernet connection to the FlexiBowl®'}
       ]
     },
     stpanel: {
       imgPath: '../../../../_shared/media/images/stpanel',
       imgExt: '.PNG',
       comps: [
-        {n:1, name:'POWER SUPPLY', desc:'Power socket and switch; also includes an IEC filter'},
+        {n:1, name:'POWER SUPPLY', desc:'Power inlet and switch; also includes an IEC filter'},
         {n:2, name:'AIR SUPPLY',   desc:'Air inlet'},
         {n:3, name:'LIGHT ON',     desc:'Backlight status LED'},
         {n:4, name:'READY/FAULT',  desc:'Ready/Fault status LED'},
-        {n:5, name:'HOPPER',       desc:'Hopper connector'},
+        {n:5, name:'HOPPER',       desc:'Bulk Feeder connector'},
         {n:6, name:'C-ETH',        desc:'Ethernet connector'},
         {n:7, name:'STO',          desc:'STO connector'}
       ]
@@ -159,12 +159,12 @@ The connector panel of the FlexiBowl® varies depending on the machine version:
       imgPath: '../../../../_shared/media/images/encpanel',
       imgExt: '.PNG',
       comps: [
-        {n:1, name:'POWER SUPPLY', desc:'Power socket and switch; also includes an IEC filter'},
+        {n:1, name:'POWER SUPPLY', desc:'Power inlet and switch; also includes an IEC filter'},
         {n:2, name:'LIGHT ON',     desc:'Backlight status LED'},
         {n:3, name:'READY/FAULT',  desc:'Ready/Fault status LED'},
-        {n:4, name:'HOPPER',       desc:'Hopper connector'},
+        {n:4, name:'HOPPER',       desc:'Bulk Feeder connector'},
         {n:5, name:'C-ETH',        desc:'Ethernet connector'},
-        {n:6, name:'ENCODER',      desc:'Encoder cable pass-through'},
+        {n:6, name:'ENCODER',      desc:'Encoder cable passage'},
         {n:7, name:'AIR SUPPLY',   desc:'Air inlet'},
         {n:8, name:'I/O',          desc:'I/O connector'},
         {n:9, name:'STO',          desc:'STO connector'}
@@ -307,20 +307,21 @@ The connector panel of the FlexiBowl® varies depending on the machine version:
 </style>
 
 :::{warning}
-Before making any electrical connection, make sure that the power supply is switched off and that the system is in a safe state. 
+Before making any electrical connection, make sure that the power supply is disconnected and that the system is in a safe state.
 :::
 
 :::{important}
 Leave about {ref}`100 mm of free space <dim800>` around the power connectors to facilitate wiring and maintenance operations.
 :::
 
-The electrical interface of the FlexiBowl® changes depending on the machine size:
+The electrical interface of the FlexiBowl® changes depending on the size of the machine:
 
 - **FlexiBowl® 500 – 1200**: all connectors (STO, Ethernet, Hopper, power supply, air) are located on a single **standard electrical panel**, mounted directly on the machine.
 - **FlexiBowl® 200 / 350**: the main connectors are located on an external **rack**; the rack is then connected to the machine via 4 dedicated cables (Ethernet, Motor+STO, signal A, signal B). Only the compressed air remains to be connected on the machine.
 
 ---
 
+(pannello-standard)=
 ## FlexiBowl® 500 – 1200 — Standard Electrical Panel
 
 ```{list-table}
@@ -361,35 +362,35 @@ The electrical interface of the FlexiBowl® changes depending on the machine siz
 * - 2
   - **Connect the Ethernet (C-ETH).**
 
-    M12 connector, D-Code coding. Enables communication with the FlexiBowl®, which can also be accessed via a web browser.
+    M12 connector, D-Code coding. It allows communication with the FlexiBowl®, which can also be accessed via web browser.
 
     <div class="ars-step-attn">
     When the FlexiBowl® is powered, the Ethernet connection is <strong>mandatory</strong>: if absent, the machine enters the <strong>ERROR</strong> state (red Ready/Fault LED).
     </div>
 
-    <details class="ars-dropdown"><summary>Pinout M12 → RJ45</summary><div class="ars-dropdown-body">
+    <details class="ars-dropdown"><summary>M12 → RJ45 pinout</summary><div class="ars-dropdown-body">
 
-    M12 8-pole → RJ45 adapter:
+    8-pole M12 → RJ45 adapter:
 
-    | Pin | Color |
-    |---|---|
-    | 1 | Yellow |
-    | 2 | Orange |
-    | 3 | White |
-    | 4 | Unassigned |
-    | 5 | Unassigned |
-    | 6 | Blue |
-    | 7 | Unassigned |
-    | 8 | Unassigned |
+    | RJ45 pin | Signal | Function | Color |
+    |---|---|---|---|
+    | 1 | TD+ | Data transmission (+) | Yellow |
+    | 2 | TD− | Data transmission (−) | Orange |
+    | 3 | RD+ | Data reception (+) | White |
+    | 4 | NC | Not assigned | — |
+    | 5 | NC | Not assigned | — |
+    | 6 | RD− | Data reception (−) | Blue |
+    | 7 | NC | Not assigned | — |
+    | 8 | NC | Not assigned | — |
 
-    M12 D-code 4-pole connector:
+    4-pole M12 D-code connector:
 
-    | Pin | Color |
-    |---|---|
-    | 1 | Yellow |
-    | 2 | White |
-    | 3 | Orange |
-    | 4 | Blue |
+    | M12 pin | Signal | Function | Color |
+    |---|---|---|---|
+    | 1 | TD+ | Data transmission (+) | Yellow |
+    | 2 | RD+ | Data reception (+) | White |
+    | 3 | TD− | Data transmission (−) | Orange |
+    | 4 | RD− | Data reception (−) | Blue |
 
     </div></details>
   -
@@ -401,17 +402,17 @@ The electrical interface of the FlexiBowl® changes depending on the machine siz
 * - 3
   - **Connect the Hopper.**
 
-    M12 A-code connector, used to communicate with the ARS hopper controllers via the **Modbus RTU** protocol.
+    M12 A-code connector, used to communicate with ARS hopper controllers via **Modbus RTU** protocol.
 
-    <details class="ars-dropdown"><summary>Pinout M12 A-code</summary><div class="ars-dropdown-body">
+    <details class="ars-dropdown"><summary>M12 A-code pinout</summary><div class="ars-dropdown-body">
 
-    | Pin | Color |
-    |---|---|
-    | 1 | Brown |
-    | 2 | White |
-    | 3 | Blue |
-    | 4 | Black |
-    | 5 | Gray |
+    | M12 pin | Signal | Function | Color |
+    |---|---|---|---|
+    | 1 | A+ | RS485 data line (+) | Brown |
+    | 2 | NC | Not assigned | White |
+    | 3 | B− | RS485 data line (−) | Blue |
+    | 4 | GND | Common reference | Black |
+    | 5 | NC | Not assigned | Gray |
 
     </div></details>
   -
@@ -434,7 +435,7 @@ The electrical interface of the FlexiBowl® changes depending on the machine siz
     </div>
 
     <div class="ars-step-note">
-    The power connector is fitted with a holder for <strong>2 fuses</strong>, which protect against any electrical faults. At first start-up, always check their condition before switching on the device.
+    The power connector is equipped with a holder for <strong>2 fuses</strong>, which protect against possible electrical faults. At first start-up, always check their condition before switching on the device.
     </div>
 
     <details class="ars-dropdown"><summary>Power cable pinout diagram</summary><div class="ars-dropdown-body">
@@ -455,16 +456,21 @@ The electrical interface of the FlexiBowl® changes depending on the machine siz
 ```
 
 :::{note}
-After switching on, always check the machine status via the **status LEDs** on the front panel — see the {ref}`Status LEDs <led-stato>` section further down on this page.
+After power-up, always check the state of the machine via the **status LEDs** on the front panel — see the {ref}`Status LEDs <led-stato>` section further down on this page.
+:::
+
+:::{tip}
+The power and Ethernet cables are available as an option in lengths of 3, 5 and 10 m: see {ref}`cavo-alim` and {ref}`cavo-eth`.
 :::
 
 ---
 
+(rack-esterno)=
 ## FlexiBowl® 200 / 350 — External Rack
 
 The FlexiBowl® FB 200 and FB 350 models are equipped with an external **Rack**, containing all the electronic devices needed for operation. The connectors to the customer's systems are located on the rack (not on the machine) and have the **same pinout** as the corresponding connectors of the standard panel, simply placed on an external box.
 
-### Connections on the Rack
+### Rack connections
 
 ```{list-table}
 :widths: 8 52 40
@@ -510,29 +516,29 @@ The FlexiBowl® FB 200 and FB 350 models are equipped with an external **Rack**,
     <strong>Mandatory</strong> connection when the machine is powered: if absent, the machine goes into ERROR (red Ready/Fault LED).
     </div>
 
-    <details class="ars-dropdown"><summary>Pinout M12 → RJ45</summary><div class="ars-dropdown-body">
+    <details class="ars-dropdown"><summary>M12 → RJ45 pinout</summary><div class="ars-dropdown-body">
 
-    M12 8-pole → RJ45 adapter:
+    8-pole M12 → RJ45 adapter:
 
-    | Pin | Color |
-    |---|---|
-    | 1 | Yellow |
-    | 2 | Orange |
-    | 3 | White |
-    | 4 | Unassigned |
-    | 5 | Unassigned |
-    | 6 | Blue |
-    | 7 | Unassigned |
-    | 8 | Unassigned |
+    | RJ45 pin | Signal | Function | Color |
+    |---|---|---|---|
+    | 1 | TD+ | Data transmission (+) | Yellow |
+    | 2 | TD− | Data transmission (−) | Orange |
+    | 3 | RD+ | Data reception (+) | White |
+    | 4 | NC | Not assigned | — |
+    | 5 | NC | Not assigned | — |
+    | 6 | RD− | Data reception (−) | Blue |
+    | 7 | NC | Not assigned | — |
+    | 8 | NC | Not assigned | — |
 
-    M12 D-code 4-pole connector:
+    4-pole M12 D-code connector:
 
-    | Pin | Color |
-    |---|---|
-    | 1 | Yellow |
-    | 2 | White |
-    | 3 | Orange |
-    | 4 | Blue |
+    | M12 pin | Signal | Function | Color |
+    |---|---|---|---|
+    | 1 | TD+ | Data transmission (+) | Yellow |
+    | 2 | RD+ | Data reception (+) | White |
+    | 3 | TD− | Data transmission (−) | Orange |
+    | 4 | RD− | Data reception (−) | Blue |
 
     </div></details>
   -
@@ -547,15 +553,15 @@ The FlexiBowl® FB 200 and FB 350 models are equipped with an external **Rack**,
 
     M12 A-code connector, **Modbus RTU** protocol.
 
-    <details class="ars-dropdown"><summary>Pinout M12 A-code</summary><div class="ars-dropdown-body">
+    <details class="ars-dropdown"><summary>M12 A-code pinout</summary><div class="ars-dropdown-body">
 
-    | Pin | Color |
-    |---|---|
-    | 1 | Brown |
-    | 2 | White |
-    | 3 | Blue |
-    | 4 | Black |
-    | 5 | Gray |
+    | M12 pin | Signal | Function | Color |
+    |---|---|---|---|
+    | 1 | A+ | RS485 data line (+) | Brown |
+    | 2 | NC | Not assigned | White |
+    | 3 | B− | RS485 data line (−) | Blue |
+    | 4 | GND | Common reference | Black |
+    | 5 | NC | Not assigned | Gray |
 
     </div></details>
   -
@@ -568,7 +574,7 @@ The FlexiBowl® FB 200 and FB 350 models are equipped with an external **Rack**,
 * - 4
   - **Connect the power supply** on the rack — last.
 
-    Power socket with switch; also includes an IEC filter.
+    Power socket with switch; it also includes an IEC filter.
 
     <div class="ars-step-attn">
     Make sure the FlexiBowl® is <strong>switched off</strong> before connecting the power supply.
@@ -579,7 +585,7 @@ The FlexiBowl® FB 200 and FB 350 models are equipped with an external **Rack**,
     </div>
 
     <div class="ars-step-note">
-    On the rack too, the power connector has the holder for the <strong>2 protection fuses</strong>: check their condition at first start-up.
+    On the rack too, the power connector has a housing for the <strong>2 protection fuses</strong>: check their condition at first start-up.
     </div>
 
     <details class="ars-dropdown"><summary>Power cable pinout diagram</summary><div class="ars-dropdown-body">
@@ -599,12 +605,17 @@ The FlexiBowl® FB 200 and FB 350 models are equipped with an external **Rack**,
     ```
 ```
 
+(collegamento-rack)=
 ### Connection between Rack and FlexiBowl®
 
-The rack communicates with the FlexiBowl® via 4 dedicated cables, each to be connected **only** to the port with the corresponding label on the machine panel.
+The rack communicates with the FlexiBowl® via 4 dedicated cables, each to be connected **exclusively** to the port with the corresponding label on the machine panel.
 
 :::{attention}
-Connect each cable to the port with the **corresponding label** (e.g. MOTOR ↔ MOTOR, C-A SIGNAL ↔ C-A SIGNAL). A crossed connection can damage the system.
+Connect each cable to the port with the **matching label** (e.g. MOTOR ↔ MOTOR, C-A SIGNAL ↔ C-A SIGNAL). A crossed connection can damage the system.
+:::
+
+:::{tip}
+The 3 m cables between rack and FlexiBowl® are included in the supply; the 5 and 10 m versions are available as an option: see {ref}`cavo-rack`.
 :::
 
 ```{list-table}
@@ -633,22 +644,22 @@ Connect each cable to the port with the **corresponding label** (e.g. MOTOR ↔ 
   - **Connect the MOTOR cable.**
 
     <div class="ars-step-note">
-    9-pin connector: carries both the motor power supply and the <strong>STO</strong> signals to the FlexiBowl® (on the rack, STO and Motor are separate connectors; on the cable to the machine they are combined in a single 9-pin connector).
+    9-pin connector: it carries both the motor power and the <strong>STO</strong> signals to the FlexiBowl® (on the rack, STO and Motor are separate connectors; on the cable to the machine they are combined in a single 9-pin connector).
     </div>
 
     <details class="ars-dropdown"><summary>Motor connector pinout (9 pin)</summary><div class="ars-dropdown-body">
 
     | Pin | Description |
     |---|---|
-    | 1 | +STO1 – Safety Torque Off |
+    | 1 | +STO1 – Safe Torque Off |
     | 2 | +24 Vdc – Auxiliary power supply |
-    | 3 | +STO2 – Safety Torque Off |
+    | 3 | +STO2 – Safe Torque Off |
     | 4 | −24 Vdc – Auxiliary power supply |
     | 5 | NC |
     | 6 | +48 Vdc – Motor Power |
-    | 7 | −STO1 – Safety Torque Off |
+    | 7 | −STO1 – Safe Torque Off |
     | 8 | −48 Vdc – Motor Power |
-    | 9 | −STO2 – Safety Torque Off |
+    | 9 | −STO2 – Safe Torque Off |
 
     </div></details>
   -
@@ -667,7 +678,7 @@ Connect each cable to the port with the **corresponding label** (e.g. MOTOR ↔ 
 
     12-pin connector for analog signals.
 
-    <details class="ars-dropdown"><summary>Pinout C-A Signal (12 pin)</summary><div class="ars-dropdown-body">
+    <details class="ars-dropdown"><summary>C-A Signal pinout (12 pin)</summary><div class="ars-dropdown-body">
 
     | Pin | Description |
     |---|---|
@@ -694,21 +705,21 @@ Connect each cable to the port with the **corresponding label** (e.g. MOTOR ↔ 
 
     19-pin connector for digital signals, including the status LED activations.
 
-    <details class="ars-dropdown"><summary>Pinout C-B Signal (19 pin)</summary><div class="ars-dropdown-body">
+    <details class="ars-dropdown"><summary>C-B Signal pinout (19 pin)</summary><div class="ars-dropdown-body">
 
     | Pin | Description |
     |---|---|
-    | 1 | +24 Vdc – Green Status LED Activation |
-    | 2 | −24 Vdc – Status LED Common |
-    | 3 | +24 Vdc – Red Status LED Activation |
-    | 4 | +24 Vdc – Backlight Status LED Activation |
-    | 5 | −24 Vdc – Backlight Status LED Activation |
-    | 6 | +24 Vdc – Backlight Activation |
-    | 7 | −24 Vdc – Backlight Activation |
-    | 8 | +24 Vdc – Flip Activation |
-    | 9 | −24 Vdc – Flip Activation |
-    | 10 | +24 Vdc – Blow Activation |
-    | 11 | −24 Vdc – Blow Activation |
+    | 1 | +24 Vdc – Green status LED activation |
+    | 2 | −24 Vdc – Status LED common |
+    | 3 | +24 Vdc – Red status LED activation |
+    | 4 | +24 Vdc – Backlight status LED activation |
+    | 5 | −24 Vdc – Backlight status LED activation |
+    | 6 | +24 Vdc – Backlight activation |
+    | 7 | −24 Vdc – Backlight activation |
+    | 8 | +24 Vdc – Flip activation |
+    | 9 | −24 Vdc – Flip activation |
+    | 10 | +24 Vdc – Blow activation |
+    | 11 | −24 Vdc – Blow activation |
     | 12–19 | NC |
 
     </div></details>
@@ -726,7 +737,7 @@ Connect each cable to the port with the **corresponding label** (e.g. MOTOR ↔ 
 ```
 
 :::{note}
-After switching on, always check the machine status via the **status LEDs** on the front panel — see the {ref}`Status LEDs <led-stato>` section further down on this page.
+After power-up, always check the state of the machine via the **status LEDs** on the front panel — see the {ref}`Status LEDs <led-stato>` section further down on this page.
 :::
 
 ---
@@ -738,22 +749,23 @@ On the front panel of the FlexiBowl® there are two status LEDs, common to **all
 
 | LED | Color | Meaning |
 |---|---|---|
-| **Light ON** | Green (only state) | Indicates whether the backlight on board the FlexiBowl® is ON or OFF. The backlight is used by the vision system to illuminate the components and make them recognizable. It can be activated via the vision software or via commands coming from an external system communicating over Ethernet. |
+| **Light ON** | Green (only state) | Indicates whether the backlight on board the FlexiBowl® is ON or OFF. The backlight is used by the vision system to illuminate the components and make them recognizable. It can be activated via the vision software or via commands from an external system communicating over Ethernet. |
 | **Ready / Fault** | Green | System operational and free of faults. Ethernet connection correct. |
-| **Ready / Fault** | Red | Internal fault or Ethernet connection fault. Refer to the fault table. |
+| **Ready / Fault** | Red | Internal fault or fault in the Ethernet connection. Refer to the fault table. |
 
 :::{note}
-After switching on, wait for the **Ready/Fault** LED to light up: if Hopper and C-ETH are connected correctly, the LED will be **green**.
+After power-up, wait for the **Ready/Fault** LED to light up: if Hopper and C-ETH are connected correctly, the LED will be **green**.
 :::
 
 ---
 
-## FlexiTrack Option — Interface Panel
+(io-flexitrack)=
+## Circular Tracking option — Interface Panel
 
-The small panel supplied with the FlexiTrack option adds, in addition to the connections already described, the following dedicated connectors:
+The small panel supplied with the Circular Tracking option adds, in addition to the connections already described, the following dedicated connectors:
 
-- **I/O connector**: digital signal exchange, including the Latch function.
-- **Encoder cable gland**: dedicated to the encoder inside the FlexiBowl®.
+- **I/O connector**: exchange of digital signals, including the Latch function.
+- **Encoder cable gland**: dedicated to the encoder internal to the FlexiBowl®.
 
 ```{list-table}
 :widths: 8 52 40
@@ -763,7 +775,7 @@ The small panel supplied with the FlexiTrack option adds, in addition to the con
   - Action
   - Image
 * - 10
-  - **Connect the 19-pin I/O connector.**
+  - **Connect the I/O connector** (19-pin).
 
     <details class="ars-dropdown"><summary>I/O connector pinout (19 pin)</summary><div class="ars-dropdown-body">
 
@@ -788,14 +800,14 @@ The small panel supplied with the FlexiTrack option adds, in addition to the con
     </div></details>
   -
     ```{image} ../../../../_shared/media/images/encpanel6.PNG
-    :alt: FlexiTrack I/O connector
+    :alt: Circular Tracking I/O connector
     :class: ars-zoom-img
     ```
 * - 11
-  - **Connect the encoder cable gland**, dedicated to the encoder inside the FlexiBowl®.
+  - **Connect the encoder cable gland**, dedicated to the encoder internal to the FlexiBowl®.
   -
     ```{image} ../../../../_shared/media/images/encpanel8.PNG
-    :alt: FlexiTrack encoder cable gland
+    :alt: Circular Tracking encoder cable gland
     :class: ars-zoom-img
     ```
 ```
@@ -805,22 +817,19 @@ The small panel supplied with the FlexiTrack option adds, in addition to the con
 ## General Notes and Warnings
 
 :::{attention}
-All connection operations must be carried out with the device switched off and disconnected from the power supply.
+All connection operations must be performed with the device switched off and disconnected from the power supply.
 :::
 
 :::{attention}
-The earth connection is mandatory and must be checked before every power-on.
+The earth connection is mandatory and must be verified before every power-up.
 :::
 
 :::{attention}
-In case of a fault indicated by the red LED (Ready/Fault), refer to the model-specific fault table.
+In case of an anomaly indicated by the red LED (Ready/Fault), refer to the model-specific fault table.
 :::
 
 :::{attention}
 For further technical information or assistance, contact ARS s.r.l. – FlexiBowl® Division.
 :::
-
-
-
 
 

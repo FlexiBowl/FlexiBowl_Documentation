@@ -1,5 +1,5 @@
 (brush)=
-# [MEC] **Brush Diverter**
+# **Brush Diverter**
 
 ## Assembly components
 The **brush diverter** assembly can include up to **4 brushes**:
@@ -50,7 +50,7 @@ The **brush diverter** assembly can include up to **4 brushes**:
   <button class="fb-tab on"    onclick="fbSwitchTab('Spazzole',this)">Brushes</button>
 </div>
 
-<!-- ══════════ Brushes ══════════ -->
+<!-- ══════════ Spazzole ══════════ -->
 <div class="fb-panel on" id="fb-panel-Spazzole">
   <div class="fb-wrap">
     <div class="fb-img-outer">
@@ -69,7 +69,7 @@ The **brush diverter** assembly can include up to **4 brushes**:
 <script>
 (function(){
 
-  /* ── component data ── */
+  /* ── dati componenti ── */
   var models = {
     Spazzole: {
       imgPath: '../../../../_shared/media/images/brush',
@@ -77,17 +77,17 @@ The **brush diverter** assembly can include up to **4 brushes**:
       imgExt: '.PNG',
       comps: [
         {n:1,  name:'Central brush',                       desc:'Moves the components away from the central cap of the FlexiBowl®.'},
-        {n:2,  name:'Diverter brushes',           desc:'Move the components away from the edge of the FlexiBowl®.'},
+        {n:2,  name:'Diverter brushes',           desc:'They move the components away from the edge of the FlexiBowl®.'},
         {n:3,  name:'Adjustable brush',               desc:'Manually adjustable in height, it prevents parts from overlapping.'},
       ]
     },
   };
 
-  /* ── state per model ── */
+  /* ── stato per modello ── */
   var state = {};
   Object.keys(models).forEach(function(id){ state[id]={activeN:null,activeRow:null}; });
 
-  /* ── build the lists ── */
+  /* ── costruisce le liste ── */
   Object.keys(models).forEach(function(id){
     var m   = models[id];
     var el  = document.getElementById(id+'-list');
@@ -102,7 +102,7 @@ The **brush diverter** assembly can include up to **4 brushes**:
     });
   });
 
-  /* ── toggle component ── */
+  /* ── toggle componente ── */
   function toggle(id, c, row){
     var s       = state[id];
     var m       = models[id];
@@ -153,7 +153,7 @@ The **brush diverter** assembly can include up to **4 brushes**:
 
   /* ── switch tab ── */
   window.fbSwitchTab = function(id, btn){
-    /* reset the currently active panel before switching */
+    /* resetta il pannello attualmente attivo prima di cambiare */
     document.querySelectorAll('.fb-panel.on').forEach(function(p){
       var oldId = p.id.replace('fb-panel-','');
       reset(oldId);
@@ -174,57 +174,57 @@ The **brush diverter** assembly can include up to **4 brushes**:
 
 Prefer the **brush diverter** assembly:
 
-- Over blows when the components are **too heavy** to be moved by the air jet;
-- Over standard diverters when **spike surfaces** are used.
+- Over the blows, when the components are **too heavy** to be moved by the air jet;
+- Over the standard diverters, when **spike surfaces** are used.
 
 ---
 
 ## Mounting procedure
 
-:::{warning} Warning
-Make sure that the FlexiBowl® is **switched off and stationary** before proceeding with the mounting.
+:::{warning} Attenzione
+Make sure the FlexiBowl® is **switched off and stationary** before proceeding with the mounting.
 :::
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Remove the entire **screen-flip barrier** assembly by unscrewing the **four** fixing **screws** |
+| 1 | Remove the entire **flip screen-barrier** assembly by unscrewing the **four** fixing screws |
 | 2 | Replace the screen with the **brush diverter** assembly |
-| 3 | Fix the new **brush diverter-flip barrier** assembly in place |
+| 3 | Fix the new **brush diverter-flip barrier** assembly |
 
 ---
 
 ## Adjustment procedure
 
-:::{warning} Warning
-Make sure that the FlexiBowl® is **switched off and stationary** before proceeding with the adjustment.
+:::{warning} Attenzione
+Make sure the FlexiBowl® is **switched off and stationary** before proceeding with the adjustment.
 :::
 
-### Central brush and diverter brushes
+### Central brushes and diverters
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Loosen the **two** fixing **screws** |
-| 2 | Use the **slot** to move the brush to the desired position |
+| 1 | Loosen the **two** fixing screws |
+| 2 | Use the **slot** to bring the brush to the desired position |
 | 3 | Tighten the **fixing screws** again |
 
 ### Adjustable brush
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Loosen the **screws** at the sides of the support |
+| 1 | Loosen the **screws** on the sides of the support |
 | 2 | Slide the brush along the **graduated columns** to the desired position |
-| 3 | Tighten the **screws** at the sides of the support |
+| 3 | Tighten the **screws** on the sides of the support |
 
 ---
 
-## Verifying correct operation
+## Checking correct operation
 
-Perform a handling test of the FlexiBowl® to assess the effectiveness of the diverters.
+Run a handling test of the FlexiBowl® to evaluate the effectiveness of the diverters.
 
 ---
 
 :::{seealso}
-For further information on accessories and alternative configurations, see:
+For more information on accessories and alternative configurations, see:
 - Standard diverter manual
 - Guide to compatible spike surfaces
 - FlexiBowl® datasheet

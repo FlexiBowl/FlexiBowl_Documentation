@@ -1,8 +1,7 @@
 (svuotamento)=
-# [MEC] **Quick Emptying**
+# **Quick Emptying**
 
-Il Quick Emptying  è un sistema che consente al FlexiBowl® di abbassare una porzione dell’anello di contenimento per evacuare dal FlexiBowl® i componenti residui prima di un cambio di produzione. L'opzione può essere attivata tramite I/O digitali o tramite softwre, e la posizione della porzione mobile dell'anello di contenimento è nota grazie a dei sensori che determinano se questa è aperta o chiusa.
-La sequenza di Quick Emptying  è preconfigurata e consiste in movimenti rapidi orari e antiorari.
+Il Quick Emptying  è un sistema che consente al FlexiBowl® di abbassare una porzione dell’anello di contenimento per evacuare dal FlexiBowl® i componenti residui prima di un cambio di produzione. L'opzione può essere attivata tramite I/O digitali o tramite softwre, e la posizione della porzione mobile dell'anello di contenimento è nota grazie a dei sensori che determinano se questa è aperta o chiusa. La sequenza di Quick Emptying  è preconfigurata e consiste in movimenti rapidi orari e antiorari.
 
 ```{raw} html
 <video autoplay loop muted playsinline style="width:100%; max-width:800px;">
@@ -17,7 +16,7 @@ La sequenza di Quick Emptying  è preconfigurata e consiste in movimenti rapidi 
 
 ## Interfaccia dello {ref}`svuotamento <emptying>`
 
-Seguono le interfacce di foratura e le posizioni e ampiezze dello sportello di fuoriuscita per le varie taglie di FlexiBowl®, utili per la progettazione del cassetto di raccoglimento. 
+Seguono le interfacce di foratura e le posizioni e ampiezze dello sportello di fuoriuscita per le varie taglie di FlexiBowl®, utili per la progettazione del cassetto di raccoglimento.
 
 ### FlexiBowl® 500
 

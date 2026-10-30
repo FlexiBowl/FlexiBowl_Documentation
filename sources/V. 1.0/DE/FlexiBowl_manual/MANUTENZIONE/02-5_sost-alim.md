@@ -1,1 +1,1 @@
-# **Austausch von Netzteilen**
+# **Austausch der Netzteile**

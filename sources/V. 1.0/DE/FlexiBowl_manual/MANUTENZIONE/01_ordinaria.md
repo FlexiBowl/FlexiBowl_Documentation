@@ -1,75 +1,118 @@
 # **Regelmäßige Wartung**
 
-Il FlexiBowl®, quando viene consegnato all’utilizzatore, è già regolato per lavorare in modo corretto; tuttavia, per garantirne il buon 
-funzionamento nel tempo, occorre eseguire controlli e manutenzioni periodiche e preventive. 
-La manutenzione ordinaria comprende ispezioni, controlli e interventi che, per prevenire guasti, tengono sotto controllo: 
-- le condizioni meccaniche della macchina, 
-- la pulizia della macchina. 
+Bei der Auslieferung an den Anwender ist der FlexiBowl® bereits für den korrekten Betrieb eingestellt; um jedoch den einwandfreien Betrieb über die Zeit sicherzustellen, sind regelmäßige und vorbeugende Kontrollen und Wartungen durchzuführen. Die regelmäßige Wartung umfasst Inspektionen, Kontrollen und Eingriffe, die zur Vermeidung von Ausfällen Folgendes überwachen:
+- den mechanischen Zustand der Maschine,
+- die Sauberkeit der Maschine.
 
-Le seguenti tabelle elencano una serie di controlli e di interventi da eseguire seguendo una tempistica consigliata. Le periodicità 
-delle operazioni di manutenzione ordinaria indicate si riferiscono a condizioni di funzionamento normali, cioè rispondenti alle 
-condizioni di impiego previste. 
-La seguente tabella elenca una serie di procedure di manutenzione ordinaria valide per tutte le tipologie di macchine prodotte da 
-ARS S.r.l. 
-L’operatore dovrà tenere in considerazione solo le procedure relative alla macchina oggetto del presente manuale.
+Die folgenden Tabellen listen eine Reihe von Kontrollen und Eingriffen auf, die nach einem empfohlenen Zeitplan durchzuführen sind. Die angegebenen Intervalle der regelmäßigen Wartungsarbeiten beziehen sich auf normale Betriebsbedingungen, d. h. auf die Bedingungen des bestimmungsgemäßen Gebrauchs. Die folgende Tabelle listet eine Reihe regelmäßiger Wartungsverfahren auf, die für alle von ARS S.r.l. hergestellten Maschinentypen gelten. Der Bediener muss nur die Verfahren berücksichtigen, die sich auf die in diesem Handbuch behandelte Maschine beziehen.
 
 :::{important}
-Per quanto riguarda la manutenzione ordinaria delle macchine provenienti da fornitori esterni, si rimanda ai manuali sub-fornitori delle macchine stesse, allegati al presente manuale.
+Für die regelmäßige Wartung von Maschinen externer Lieferanten wird auf die diesem Handbuch beiliegenden Unterlieferanten-Handbücher der jeweiligen Maschinen verwiesen.
 :::
 
 :::{important}
-Nel fissaggio delle viti utilizzare sempre LOCTITE 243, in modo da eseguire un perfetto fissaggio (ad eccezione  delle viti della flangia della superficie o disco rigido). 
+Beim Befestigen von Schrauben stets LOCTITE 243 verwenden, um eine einwandfreie Befestigung zu gewährleisten (mit Ausnahme der Schrauben des Flansches der Oberfläche bzw. der starren Scheibe).
 :::
 
-## Controlli
+## Kontrollen
 
 :::{list-table}
 :header-rows: 1
 :widths: 30 20 20 20 20 20
 :class: v-align-middle
 
-* - Operazione
-  - Tutti i giorni
-  - Settimanalmente
-  - Mensilmente
-  - Ogni sei mesi
-  - Annualmente
+* - Vorgang
+  - Täglich
+  - Wöchentlich
+  - Monatlich
+  - Alle sechs Monate
+  - Jährlich
 
-* - Sostituzione della superficie o disco rigido
+* - Prüfung der korrekten Funktion der Sicherheitseinrichtungen
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+  - 
+
+* - Prüfung des Zustands der Oberfläche oder der starren Scheibe
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+  - 
+  - 
+  - 
+  - 
+
+* - Reinigung der Oberfläche oder der starren Scheibe
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+  - 
+  - 
+  - 
+
+* - Austausch der Oberfläche oder der starren Scheibe
   - 
   - 
   - 
   - 
   - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
 
-* - Pulizia della superficie o disco rigido
+* - Allgemeine Reinigung des FlexiBowl®
   - 
-  - 
-  - 
-  - 
-  - 
-
-* - Pulizia generale del FlexiBowl® 
-  - 
-  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
   - 
   - 
   - 
 
-* - Controllo visivo del flip
+* - Sichtprüfung des Flips
   - 
   - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔¹</div>
+  - 
+  - 
+
+* - Prüfung von Backlight und Toplight
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+  - 
+
+* - Prüfung des Zustands der Sicherungen
+  - 
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+
+* - Prüfung des Verschleißzustands der Relais
+  - 
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+
+* - Prüfung der korrekten Funktion der Magnetventile
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔²</div>
+  - 
+
+* - Prüfung des Verschleißzustands des FlexiBowl®
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔³</div>
   - 
   - 
   - 
 
-* - Controllo Backlight e Toplight
-  - 
-  - 
-  - 
-  - 
-  - 
+:::
 
+:::{note}
+**¹** Es wird empfohlen, sie jedes Jahr vollständig auszutauschen.
+
+**²** Es wird empfohlen, sie alle zwei Jahre vollständig auszutauschen.
+
+**³** Je nach festgestelltem Verschleißgrad vollständig austauschen.
 :::
 
 :::{toctree}
@@ -78,5 +121,5 @@ Nel fissaggio delle viti utilizzare sempre LOCTITE 243, in modo da eseguire un p
 01-2_pul-disco.md
 01-3_pul-fb.md
 01-4_contr-flip.md
-01-5_contr-light.md
+01-6_sost-rele.md
 :::

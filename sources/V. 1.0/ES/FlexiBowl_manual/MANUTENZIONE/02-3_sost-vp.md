@@ -12,80 +12,80 @@
 ::::{list-table}
 :widths: 30 60
 :header-rows: 1
-* - {ref}`Qualifica operatore <operatori>`
-  - {ref}`D.P.I. Necessari <dpi>`
+* - {ref}`Cualificación del operario <operatori>`
+  - {ref}`EPI necesarios <dpi>`
 
-* - **Manutentore meccanico**
+* - **Técnico de mantenimiento mecánico**
   - :::{raw} html
        <div class="ars-img-row">
-         <img src="../../../../_shared/media/images/guanti.png" alt="guanti">
-         <img src="../../../../_shared/media/images/scarpe.png" alt="scarpe">
-         <img src="../../../../_shared/media/images/tuta.png" alt="tuta">
+         <img src="../../../../_shared/media/images/guanti.png" alt="guantes">
+         <img src="../../../../_shared/media/images/scarpe.png" alt="calzado">
+         <img src="../../../../_shared/media/images/tuta.png" alt="mono">
        </div>
     :::
 ::::
 :::::
 
 :::{warning}
-Disconnettere l'alimentazione elettrica e pneumatica prima di procedere con la sostituzione della valvola proporzionale.
+Desconecte la alimentación eléctrica y neumática antes de proceder a la sustitución de la válvula proporcional.
 :::
 
 :::{warning}
-Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+Algunas partes implicadas en el proceso de mantenimiento aquí descrito pueden haber alcanzado {ref}`altas temperaturas <temp>` durante el funcionamiento; asegúrese de dejar el FlexiBowl® apagado el tiempo suficiente para que todas sus partes puedan manipularse con seguridad.
 :::
 
-## Cosa serve?
+## ¿Qué se necesita?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Objeto/equipo
+  - Cantidad
 
-* - Chiave esagonale H5
+* - Llave hexagonal H5
   - 1
 
-* - Chiave esagonale H4
+* - Llave hexagonal H4
   - 1
 
-* - Chiave esagonale H2.5
+* - Llave hexagonal H2.5
   - 1
 
-* - Valvola proporzionale sostitutiva
+* - Válvula proporcional de repuesto
   - 1
 
 :::
 
-## Procedimento
+## Procedimiento
 
-| Step | Operazione |
+| Paso | Operación |
 |:----:|-----------|
-| 1 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 2 | Rimuovere il gruppo schermo flip |
-| 3 | Rimuovere la piastra di copertura del gruppo flip (usare due delle viti di fissaggio per la rimzozione tramite gli appositi fori filettati) |
-| 4 | Scollegare, rimuovere gli allacciamenti pneumatici e smontare la staffa della valvola proporzionale |
-| 5 | Sostituire la valvola proporzionale danneggiata con quella nuova |
-| 6 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | {ref}`Retirar la superficie o el disco rígido <sost-disco>` |
+| 2 | Retirar el grupo de pantalla del flip |
+| 3 | Retirar la placa de cubierta del grupo flip (utilizar dos de los tornillos de fijación para extraerla mediante los orificios roscados previstos) |
+| 4 | Desconectar, retirar las conexiones neumáticas y desmontar el soporte de la válvula proporcional |
+| 5 | Sustituir la válvula proporcional dañada por la nueva |
+| 6 | Una vez terminada la sustitución, vuelva a montar todos los componentes |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="sostprop" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000006_cambioprop.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Su navegador no admite el vídeo.
   </video>
   <br>
-  <label for="velcamprop">Velocità:</label>
+  <label for="velcamprop">Velocidad:</label>
   <select id="velcamprop" onchange="document.getElementById('sostprop').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione della valvola proporzionale illustrata su FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Procedimiento de sustitución de la válvula proporcional ilustrado en un FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-In base alla presenza o meno dei soffi, possono essere presenti una o due valvole proporzionali: la seconda si trova sotto alla piastra opposta a quella che copre il gruppo flip.
+Según la presencia o no de los soplados, puede haber una o dos válvulas proporcionales: la segunda se encuentra bajo la placa opuesta a la que cubre el grupo flip.
 :::

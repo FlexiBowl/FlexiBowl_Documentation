@@ -1,1 +1,1 @@
-# [ELE] **Sostituzione Fusibile 220V**
+# **Sostituzione Fusibile 220V**

@@ -1,56 +1,40 @@
-# **Glossar** 
+# **Glossar**
 
 ```{list-table}
 :header-rows: 1
 :widths: 25 75
 
-* - Termine
-  - Definizione
-* - **Accessori di sollevamento**
-  - Componenti o attrezzature non collegate alle macchine per il sollevamento, che consentono la presa 
-  del carico, disposti tra la macchina e il carico oppure sul carico stesso, oppure destinati a divenire 
-  parte integrante del carico e ad essere immessi sul mercato separatamente. 
-  Anche le imbracature e le loro componenti sono considerate accessori di sollevamento. 
-* - **Avaria**
-  - Guasto di vario genere che impedisce il normale funzionamento di un macchinario, di un 
-  impianto, ecc.. 
-* - **Catene, funi o cinghie**
-  - Elementi progettati e costruiti a fini del sollevamento come parte integrante di macchine per il 
-  sollevamento o di accessori di sollevamento. 
-* - **Danno**
-  - Qualunque conseguenza negativa derivante dal verificarsi dell’evento pericoloso. 
+* - Begriff
+  - Definition
+* - **Lastaufnahmemittel**
+  - Bauteile oder Ausrüstungen, die nicht mit Hebemaschinen verbunden sind und das Aufnehmen der Last ermöglichen, zwischen Maschine und Last oder an der Last selbst angeordnet sind oder dazu bestimmt sind, ein fester Bestandteil der Last zu werden und getrennt in Verkehr gebracht zu werden. Auch Anschlagmittel und ihre Bestandteile gelten als Lastaufnahmemittel.
+* - **Ausfall**
+  - Ein Defekt beliebiger Art, der den normalen Betrieb einer Maschine, einer Anlage usw. verhindert.
+* - **Ketten, Seile oder Gurte**
+  - Elemente, die für Hebezwecke als fester Bestandteil von Hebemaschinen oder Lastaufnahmemitteln konstruiert und gebaut sind.
+* - **Schaden**
+  - Jede negative Folge, die sich aus dem Eintreten des Gefährdungsereignisses ergibt.
 * - **D.P.I.**
-  - Con il termine Dispositivo di Protezione Individuale (acronimo DPI) si intendono i prodotti che 
-  hanno la funzione di salvaguardare il lavoratore (operatore, manutentore, tecnico, ecc.) che li 
-  indossi o comunque li porti con sé, da rischi per la salute e la sicurezza. 
-* - **Macchina**
-  - Insieme equipaggiato o destinato ad essere equipaggiato di un sistema di azionamento, 
-  composto di parti o di componenti, di cui almeno uno mobile, collegati tra loro solidamente per 
-  un’applicazione ben determinata. 
-* - **Malfunzionamento**
-  - Funzionamento difettoso o inadeguato di una macchina o di un suo elemento nell’eseguire una 
-  determinata funzione. 
-* - **Pericolo**
-  - Potenziale sorgente di danno che, se non evitato, comporta un rischio per la sicurezza e la salute 
-  delle persone esposte. 
-* - **Protezione**
-  - Difesa contro ciò che potrebbe recare danno. Elemento che si interpone tra chi può subire un 
-  danno e ciò che lo può causare per pericoli che non possono essere ragionevolmente eliminati 
-  o per rischi che non possono essere sufficientemente ridotti durante la progettazione. 
-  Distinguiamo:
-    * **Protezione attiva**: deve essere attivata dagli stessi operatori (arresti di emergenza, per esempio) e/o indossata (DPI)
-    * **Protezione passiva**: interviene anche senza il comando umano  
-* - **Riparo**
-  - Barriera fisica, progettata come parte della macchina, per fornire protezione. 
-* - **Rischio**
-  - Combinazione della probabilità e della gravità di una lesione o di un danno per la salute che 
-  possano insorgere in una situazione pericolosa.
-* - **Rischio residuo**
-  - Rischio che rimane dopo aver preso misure di protezione e prevenzione. 
-* - **Uso previsto**
-  - Uso di una macchina in conformità alle informazioni fornite nelle istruzioni per l’uso. 
-* - **Uso scorretto ragionevolmente prevedibile**
-  - Uso di una macchina in un modo non previsto dal progettista, ma che può derivare da un 
-  comportamento umano facilmente prevedibile. 
+  - Unter dem Begriff Persönliche Schutzausrüstung (Abkürzung PSA) sind Produkte zu verstehen, deren Funktion darin besteht, den Arbeitnehmer (Bediener, Wartungspersonal, Techniker usw.), der sie trägt oder sonst mit sich führt, vor Risiken für Gesundheit und Sicherheit zu schützen.
+* - **Maschine**
+  - Gesamtheit, die mit einem Antriebssystem ausgestattet oder dafür vorgesehen ist und aus fest miteinander verbundenen Teilen oder Bauteilen besteht, von denen mindestens eines beweglich ist, für eine bestimmte Anwendung.
+* - **Fehlfunktion**
+  - Fehlerhaftes oder unzureichendes Funktionieren einer Maschine oder eines ihrer Elemente bei der Ausführung einer bestimmten Funktion.
+* - **Gefährdung**
+  - Potenzielle Schadensquelle, die, wenn sie nicht vermieden wird, ein Risiko für die Sicherheit und Gesundheit der exponierten Personen darstellt.
+* - **Schutz**
+  - Abwehr dessen, was Schaden verursachen könnte. Ein Element, das sich zwischen die Person, die einen Schaden erleiden kann, und die Schadensursache stellt, bei Gefährdungen, die vernünftigerweise nicht beseitigt werden können, oder bei Risiken, die während der Konstruktion nicht ausreichend verringert werden können. Wir unterscheiden:
+    * **Aktiver Schutz**: muss von den Bedienern selbst aktiviert (z. B. Not-Halt) und/oder getragen werden (PSA)
+    * **Passiver Schutz**: greift auch ohne menschliches Zutun
+* - **Schutzeinrichtung**
+  - Physische Barriere, die als Teil der Maschine konstruiert ist, um Schutz zu bieten.
+* - **Risiko**
+  - Kombination aus der Wahrscheinlichkeit und dem Schweregrad einer Verletzung oder Gesundheitsschädigung, die in einer Gefahrensituation auftreten können.
+* - **Restrisiko**
+  - Risiko, das nach der Ergreifung von Schutz- und Vorbeugemaßnahmen verbleibt.
+* - **Bestimmungsgemäße Verwendung**
+  - Verwendung einer Maschine in Übereinstimmung mit den in der Betriebsanleitung enthaltenen Informationen.
+* - **Vernünftigerweise vorhersehbare Fehlanwendung**
+  - Verwendung einer Maschine in einer vom Konstrukteur nicht vorgesehenen Weise, die sich jedoch aus leicht vorhersehbarem menschlichem Verhalten ergeben kann.
 ```
 

@@ -1,82 +1,81 @@
 (hopper)=
 # **Hopper**
-## Panoramica
+## Présentation
 
-La pagina **Hopper** consente di configurare e gestire fino a **4 hopper** (tramogge vibrazionali) collegati al FlexiBowl®. Ogni hopper è un'unità di alimentazione autonoma che rifornisce il FlexiBowl® di componenti, controllabile indipendentemente con parametri propri di vibrazione e temporizzazione.
+La page **Hopper** permet de configurer et de gérer jusqu'à **4 Bulk Feeders** raccordés au FlexiBowl®. Chaque hopper est une unité d'alimentation autonome qui approvisionne le FlexiBowl® en composants, et peut être commandée indépendamment avec ses propres paramètres de vibration et de temporisation.
 
-Ciascun hopper è rappresentato da una colonna verticale con gli stessi controlli, identificata come **HOPPER 1**, **HOPPER 2**, **HOPPER 3** e **HOPPER 4**.
+Chaque hopper est représenté par une colonne verticale avec les mêmes commandes, identifiée comme **HOPPER 1**, **HOPPER 2**, **HOPPER 3** et **HOPPER 4**.
 
-![pagina hopper](../../../../_shared/media/images/hopper.png)
----
+![page hopper](../../../../_shared/media/images/hopper.png) ---
 
-## Struttura di ogni pannello Hopper
+## Structure de chaque panneau Hopper
 
 ### ENABLE
 
-La checkbox **ENABLE** in cima al pannello attiva o disattiva il relativo hopper. Solo gli hopper abilitati possono essere avviati e risponderanno ai comandi del sistema.
+La case à cocher **ENABLE** en haut du panneau active ou désactive le hopper correspondant. Seuls les hoppers activés peuvent être démarrés et répondront aux commandes du système.
 
-Nell'esempio mostrato, solo **HOPPER 1** ha la checkbox ENABLE selezionata (spunta blu); gli hopper 2, 3 e 4 risultano disabilitati.
+Dans l'exemple affiché, seul **HOPPER 1** a la case ENABLE cochée (coche bleue) ; les hoppers 2, 3 et 4 sont désactivés.
 
 :::{note}
-Un hopper disabilitato non risponde al pulsante **Start Hopper** e non viene attivato durante le sequenze automatiche, anche se è fisicamente collegato al sistema.
+Un hopper désactivé ne répond pas au bouton **Start Hopper** et n'est pas activé pendant les séquences automatiques, même s'il est physiquement raccordé au système.
 :::
 
 ---
 
-### ID e Set New ID
+### ID et Set New ID
 
-| Campo |  Descrizione |
+| Champ |  Description |
 |---|---|
-| **ID** |  Identificativo univoco assegnato all'hopper sulla rete di comunicazione |
-| **Set New ID** | Pulsante per assegnare un nuovo ID all'hopper. Utilizzato durante la configurazione iniziale o in caso di sostituzione dell'unità |
+| **ID** |  Identifiant unique attribué au hopper sur le réseau de communication |
+| **Set New ID** | Bouton pour attribuer un nouvel ID au hopper. Utilisé lors de la configuration initiale ou en cas de remplacement de l'unité |
 
 :::{warning}
-Modificare l'ID di un hopper solo se strettamente necessario. Un ID errato o duplicato impedisce la comunicazione con l'hopper e può causare malfunzionamenti nell'intera catena di alimentazione. Dopo aver impostato un nuovo ID, verificarne la corretta acquisizione tramite l'indicatore **STATUS**.
+Ne modifier l'ID d'un hopper que si c'est strictement nécessaire. Un ID erroné ou en double empêche la communication avec le hopper et peut provoquer des dysfonctionnements dans toute la chaîne d'alimentation. Après avoir défini un nouvel ID, vérifier qu'il a été correctement pris en compte au moyen de l'indicateur **STATUS**.
 :::
 
 ---
 
 ### STATUS
 
-L'indicatore **STATUS** mostra lo stato operativo corrente dell'hopper.
+L'indicateur **STATUS** affiche l'état opérationnel actuel du hopper.
 
-| Colore LED | Etichetta | Descrizione |
+| Couleur des LED | Étiquette | Description |
 |---|---|---|
-| 🔴 Rosso | **DISABLED** | L'hopper è disabilitata |
-| 🟢 Verde | **ENABLED** | L'hopper è abilitata |
+| 🔴 Rouge | **DISABLED** | Le hopper est désactivé |
+| 🟢 Vert | **ENABLED** | Le hopper est activé |
 
 
 ---
 
-### Parametri di vibrazione
+### Paramètres de vibration
 
-| Parametro |  Descrizione |
+| Paramètre |  Description |
 |---|---|
-| **Amplitude** |  Ampiezza della vibrazione dell'hopper, espressa in unità adimensionali. Valori più alti producono una vibrazione più intensa e un flusso di componenti maggiore |
-| **Frequency** | Frequenza di vibrazione dell'hopper. Influenza la cadenza con cui i componenti vengono convogliati verso il FlexiBowl® |
+| **Amplitude** |  Amplitude de la vibration du hopper, exprimée en unités sans dimension. Des valeurs plus élevées produisent une vibration plus intense et un flux de composants plus important |
+| **Frequency** | Fréquence de vibration du hopper. Elle influence la cadence à laquelle les composants sont acheminés vers le FlexiBowl® |
 
 
 ---
 
-### Activation Time e LED di stato
+### Activation Time et LED d'état
 
-| Campo  | Descrizione |
+| Champ  | Description |
 |---|---|
-| **Activation Time** | Durata dell'attivazione dell'hopper quando viene avviato manualmente con **Start Hopper** o richiamato da una sequenza |
-| **LED** (grigio/verde) |  Indicatore luminoso che si illumina durante l'attivazione dell'hopper |
+| **Activation Time** | Durée de l'activation du hopper lorsqu'il est démarré manuellement avec **Start Hopper** ou appelé par une séquence |
+| **LED** (gris/vert) |  Voyant lumineux qui s'allume pendant l'activation du hopper |
 
 :::{note}
-**HOPPER 1** ha un **Activation Time** di 2000 ms, mentre gli altri hopper sono impostati a 800 ms. Tempi di attivazione più lunghi determinano un maggiore apporto di componenti al FlexiBowl® per ogni ciclo di attivazione.
+**HOPPER 1** a une **Activation Time** de 2000 ms, tandis que les autres hoppers sont réglés sur 800 ms. Des temps d'activation plus longs entraînent un apport plus important de composants au FlexiBowl® pour chaque cycle d'activation.
 :::
 
 ---
 
 ### Start Hopper
 
-Il pulsante **Start Hopper** avvia manualmente l'hopper per la durata impostata in **Activation Time**. Al termine del tempo, l'hopper si arresta automaticamente.
+Le bouton **Start Hopper** démarre manuellement le hopper pour la durée définie dans **Activation Time**. Une fois le temps écoulé, le hopper s'arrête automatiquement.
 
 :::{important}
-Il pulsante **Start Hopper** è attivo solo se la checkbox **ENABLE** del relativo hopper è selezionata. Verificare che l'hopper sia abilitato prima di tentarne l'avvio manuale.
+Le bouton **Start Hopper** n'est actif que si la case **ENABLE** du hopper correspondant est cochée. Vérifier que le hopper est activé avant de tenter son démarrage manuel.
 :::
 
 ---

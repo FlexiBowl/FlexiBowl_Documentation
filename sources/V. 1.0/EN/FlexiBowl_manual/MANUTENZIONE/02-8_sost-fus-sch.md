@@ -1,1 +1,1 @@
-# [ELE] **Board Fuse Replacement**
+# **Replacing the Board Fuse**

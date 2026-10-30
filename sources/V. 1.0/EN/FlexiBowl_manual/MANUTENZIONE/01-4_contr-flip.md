@@ -1,8 +1,8 @@
 (contflip)=
-# [MEC] **Visual Check of the Flip**
+# **Visual Inspection of the Flip**
 
 :::{warning}
-Disconnect the electrical and pneumatic power supply before proceeding with the check.
+Disconnect the electrical and pneumatic power supply before proceeding with the inspection.
 :::
 
 :::{warning}
@@ -11,7 +11,7 @@ Some parts involved in the maintenance process described here may have reached {
 
 ## FlexiBowl® 200
 
-### What you need
+### What is needed?
 
 :::{list-table}
 :widths: 40 40
@@ -29,7 +29,7 @@ Some parts involved in the maintenance process described here may have reached {
 * - H4 hex key
   - 1
 
-* - Replacement flip assembly
+* - Replacement flip unit
   - 1
 
 :::
@@ -38,12 +38,12 @@ Some parts involved in the maintenance process described here may have reached {
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Remove the flip screen |
+| 1 | Remove the flip shield |
 | 2 | {ref}`Remove the rigid disc <sost-disco>` |
-| 3 | Remove the front cover |
-| 4 | For a better view, also remove the rear cover; release the screen support to make the work easier. |
+| 3 | Remove the front guard |
+| 4 | For a better view, also remove the rear guard; release the shield support to make the work easier. |
 | 5 | Visually check the wear condition of the striker elements |
-| 6 | Once the check is finished, refit all the components |
+| 6 | When the inspection is finished, refit all the components |
 
 ::::{raw} html
 <figure style="text-align: center;">
@@ -59,13 +59,13 @@ Some parts involved in the maintenance process described here may have reached {
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Visual check procedure of the flip assembly shown on a FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Visual inspection procedure of the flip unit illustrated on a FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
 ## FlexiBowl® 350-500-650-800-1200
 
-### What you need
+### What is needed?
 
 :::{list-table}
 :widths: 40 40
@@ -80,14 +80,14 @@ Some parts involved in the maintenance process described here may have reached {
 * - H4 hex key
   - 1
 
-* - Replacement flip assembly
+* - Replacement flip unit
   - 1
 
 :::
 
 ### Procedure
 
-To check the flip, proceed as follows:
+To inspect the flip, proceed as follows:
 
 | Step | Operation |
 |:----:|-----------|
@@ -95,10 +95,10 @@ To check the flip, proceed as follows:
 | 2 | {ref}`Remove the surface or rigid disc <sost-disco>` |
 | 3 | Remove the flip cover plate |
 | 4 | Visually check the wear condition of the striker elements |
-| 5 | Once the check is finished, refit the flip cover plate, {ref}`the surface or rigid disc <sost-disco>` and the flip barrier assembly |
+| 5 | When the inspection is finished, refit the flip cover plate, {ref}`the surface or rigid disc <sost-disco>` and the flip barrier assembly |
 
 :::{tip}
-On the **FlexiBowl® 350** it may be more convenient to remove the cover.
+On the **FlexiBowl® 350** it may be more convenient to remove the guard.
 :::
 
 ::::{raw} html
@@ -115,6 +115,6 @@ On the **FlexiBowl® 350** it may be more convenient to remove the cover.
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Visual check procedure of the flip assembly shown on a FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Visual inspection procedure of the flip unit illustrated on a FlexiBowl® 800</i></figcaption>
 </figure>
 ::::

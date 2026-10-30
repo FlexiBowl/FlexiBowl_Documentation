@@ -1,23 +1,21 @@
 # **FlexiBowl Manual**
 
 ## **Welcome to the FlexiBowl® manual!**  
-We are delighted to welcome you to your new FlexiBowl® guide!
-This manual has been created to be your clear and reliable point of reference. We hope that, by consulting it, you can fully enjoy all the benefits of our system.
-Your opinion matters to us: please do not hesitate to give us your feedback by [contacting us](https://www.arsautomation.com/contact)! 
+We are delighted to welcome you to your new FlexiBowl® guide! This manual has been created specifically to be your clear and reliable point of reference. We hope that, by consulting it, you will be able to fully enjoy all the benefits of our system. Your opinion is essential to us: do not hesitate to give us your feedback by [contacting us](https://www.arsautomation.com/contact)!
 
-*- The Ars Automation Team*    
+*- The Ars Automation Team*
 <a href="https://www.arsautomation.com" target="_blank">
-  <img src="../../_shared/static/logo_fv.png" alt="Ars logo" class="only-light img-logo">
-  <img src="../../_shared/static/logo_fv_black.png" alt="Ars logo" class="only-dark img-logo">
+  <img src="../../_shared/static/logo_fv.png" alt="ARS logo" class="only-light img-logo">
+  <img src="../../_shared/static/logo_fv_black.png" alt="ARS logo" class="only-dark img-logo">
 </a>
   
 ## **What is FlexiBowl?**  
-FlexiBowl® is a flexible rotating-disc feeding system for positioning and orienting components for robotic picking.
+The FlexiBowl® is a flexible rotating-disc feeding system for the positioning and orientation of components for robotic picking.
 
 ![Family](../../_shared/media/images/famiglia.png)
 
 ## **System overview** 
-The FlexiBowl® work area is virtually divided into four parts, each dedicated to one phase of the work cycle:
+The working area of the FlexiBowl® is virtually divided into four parts, each dedicated to a phase of the working cycle:
 
 :::{list-table}
 :widths: 20 50
@@ -27,16 +25,16 @@ The FlexiBowl® work area is virtually divided into four parts, each dedicated t
   - Description
 
 * - **Release**
-  - A hopper discharges the components onto the FlexiBowl® work area.
+  - A hopper discharges the components onto the working area of the FlexiBowl®.
 
 * - **Separation**
-  - A combined action of the {ref}`flip group <panoramica>` and the movement of the surface or rigid disc separates the components and flips them so that at least one is always in the right position for picking.
+  - A combined action of the {ref}`flip unit <panoramica>` and of the movement of the surface or rigid disc separates the components and turns them over, so that at least one is always in the right position for picking.
 
 * - **Picking**
-  - The vision system recognizes the pickable parts and sends their coordinates to the robot, which proceeds with the pick-and-place operations.
+  - The vision system recognises the pickable parts and sends their coordinates to the robot, which proceeds with the pick and place operations.
 
 * - **Recirculation**
-  - Components that are not picked start their path through the FlexiBowl® again until they are picked by the robot.
+  - Components that are not picked start their path again in the FlexiBowl® until they are picked by the robot.
 
 :::
 
@@ -48,13 +46,12 @@ Example diagram of the FlexiBowl® system in standard operation.
 :::
 
 :::{note}
-The {ref}`Flexitracking <tracking>` cycle is essentially the same as the traditional one, except that all phases take place simultaneously and continuously.
+The {ref}`Circular Tracking <tracking>` cycle is substantially the same as the traditional one, with the difference that all the phases take place simultaneously and continuously.
 :::
 
 
 ## **How to read the manual**  
-This manual has been designed to support both the system design and integration phase and the on-site installation and commissioning phase. 
-For this reason, it is divided into macro-sections with distinct audiences and purposes.
+This manual has been designed to support both the system design and integration phase and the on-site installation and commissioning phase. For this reason, it is divided into macro-sections with distinct audiences and purposes.
   
 ## **Which section are you looking for?**  
 ```{list-table}
@@ -62,7 +59,7 @@ For this reason, it is divided into macro-sections with distinct audiences and p
 :header-rows: 1
 
 * - If you need to...
-  - The information can be found in...
+  - The information is found in...
 
 * - Check dimensions, weights, electrical requirements and communication protocols
   - [**TECHNICAL REFERENCE AND SPECIFICATIONS**](specifiche_tecniche)
@@ -91,27 +88,27 @@ Throughout the manual, information banners are used to highlight important conte
 * - ```{warning}
     Warning
     ```
-  - Indicates a potentially dangerous situation or a critical procedure that, if not performed correctly, could cause damage to the equipment or serious malfunctions of the system.
+  - Indicates a potentially hazardous situation or a critical procedure that, if not performed correctly, could cause damage to the equipment or serious malfunctions of the system.
 
 * - ```{important}
     Important
     ```
-  - Highlights fundamental information that must not be ignored in order to ensure correct operation of the system or the safety of the operation.
+  - Highlights fundamental information that must not be ignored in order to ensure the correct operation of the system or the safety of the operation.
 
 * - ```{note}
     Information note
     ```
-  - Provides information essential for correctly carrying out the procedure, technical clarifications or references to related chapters.
+  - Provides essential information for the correct execution of the procedure, technical clarifications or references to related chapters.
 
 * - ```{tip}
     Tip
     ```
-  - Suggests a best practice, an alternative or a piece of advice that can simplify installation or improve system performance.
+  - Suggests an optimal practice, an alternative or a piece of advice that can simplify the installation or improve system performance.
 
 * - ```{error}
     Error
     ```
-  - Indicates a critical error or a fault condition that requires immediate intervention. It flags situations that compromise system operation and require corrective action.
+  - Indicates a critical error or a fault condition that requires immediate intervention. Signals situations that compromise the operation of the system and require corrective action.
 ```
 
 
@@ -187,11 +184,13 @@ FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_tracking.md
 FlexiBowl_manual/PLUG-IN/01_PlugIn.md
 :::
 
+<!--
 :::{toctree}
 :hidden:
 :caption: LAYOUT BEST PRACTICE
 FlexiBowl_manual/LAYOUT BEST PRACTICE/01_layoutbp.md
 :::
+--> 
 
 :::{toctree}
 :hidden:
@@ -222,7 +221,7 @@ FlexiBowl_manual/MANUTENZIONE/02_straordinaria.md
 FlexiBowl_manual/Garanzia.md
 :::
 
-<!-- 
+<!--  
 :::{toctree}  
 :hidden:
 :caption: TROUBLESHOOTING
@@ -243,7 +242,7 @@ FlexiBowl_manual/SMALTIMENTO/smaltimento.md
 <!-- 
 :::{toctree}  
 :hidden:
-:caption: CERTIFICATIONS 
+:caption: CERTIFICAZIONI 
 FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 :::
 -->
@@ -252,8 +251,14 @@ FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 :hidden:
 :caption: HOPPERS
 FlexiBowl_manual/TRAMOGGE/TRAMOGGE VIBRANTI/tramogge_vibranti.md
-FlexiBowl_manual/TRAMOGGE/MOTORIZZATE/00_MOTORIZZATE.md
-FlexiBowl_manual/TRAMOGGE/CONVEYOR/00_CONVEYOR.md
+<!--FlexiBowl_manual/TRAMOGGE/MOTORIZZATE/00_MOTORIZZATE.md
+FlexiBowl_manual/TRAMOGGE/CONVEYOR/00_CONVEYOR.md--->
+:::
+
+:::{toctree}
+:hidden:
+:caption: APPENDICES
+FlexiBowl_manual/NOTE RILASCIO/release_notes.md
 :::
 
 :::{toctree}

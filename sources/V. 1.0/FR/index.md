@@ -1,23 +1,21 @@
-
 # **Manuel FlexiBowl**
 
-## **Bienvenue dans le manuel FlexiBowl® !**   
-Nous sommes ravis de vous souhaiter la bienvenue dans votre nouveau guide FlexiBowl® !
-Ce manuel a été spécialement conçu pour être votre point de référence clair et fiable. Nous espérons qu'en le consultant, vous pourrez profiter pleinement de tous les avantages de notre système.
-Votre avis est essentiel pour nous : n'hésitez pas à nous faire part de vos commentaires en [nous contactant](https://www.arsautomation.com/contact) ! 
+## **Bienvenue dans le manuel FlexiBowl® !**  
+Nous sommes ravis de vous souhaiter la bienvenue dans votre nouveau guide FlexiBowl® ! Ce manuel a été conçu spécialement pour être votre point de référence clair et fiable. Nous espérons qu'en le consultant, vous pourrez profiter pleinement de tous les avantages de notre système. Votre avis est fondamental pour nous : n'hésitez pas à nous faire part de vos commentaires en [nous contactant](https://www.arsautomation.com/contact) !
 
-*- L'équipe d'Ars Automation*  
-
- <a href="https://www.arsautomation.com" target="_blank">
-  <img src="../../_shared/static/logo_fv.png" alt="Ars logo" class="only-light img-logo">
-  <img src="../../_shared/static/logo_fv_black.png" alt="Ars logo" class="only-dark img-logo">
+*- L'équipe Ars Automation*
+<a href="https://www.arsautomation.com" target="_blank">
+  <img src="../../_shared/static/logo_fv.png" alt="Logo ARS" class="only-light img-logo">
+  <img src="../../_shared/static/logo_fv_black.png" alt="Logo ARS" class="only-dark img-logo">
 </a>
   
 ## **Qu'est-ce que FlexiBowl ?**  
- Le FlexiBowl® est un système d'alimentation flexible à disque rotatif ou vibrant destiné au positionnement et à l'orientation aléatoire des composants pour le prélèvement robotique.
+Le FlexiBowl® est un système d'alimentation flexible à disque rotatif pour le positionnement et l'orientation des composants en vue de leur prélèvement robotisé.
 
-## **Présentation du système**  
- L'espace de travail du FlexiBowl® est virtuellement divisé en quatre parties, chacune dédiée à une phase du cycle de travail :
+![Famille](../../_shared/media/images/famiglia.png)
+
+## **Vue d'ensemble du système** 
+La zone de travail du FlexiBowl® est virtuellement divisée en quatre parties, chacune dédiée à une phase du cycle de travail :
 
 :::{list-table}
 :widths: 20 50
@@ -26,17 +24,17 @@ Votre avis est essentiel pour nous : n'hésitez pas à nous faire part de vos co
 * - Phase
   - Description
 
-* - **Alimentation**
-  - Une trémie décharge iIes composants sur l'espace de travail du FlexiBowl®.
+* - **Libération**
+  - Une trémie déverse les composants sur la zone de travail du FlexiBowl®.
 
 * - **Séparation**
-  - Une action combinée du {ref}`groupe flip <panoramica>` et du mouvement de la surface ou du disque rigide sépare les composants et les retourne afin d'en avoir toujours au moins un dans la bonne position pour la saisie.
+  - Une action combinée du {ref}`groupe flip <panoramica>` et du mouvement de la surface ou du disque rigide sépare les composants et les retourne afin d'en avoir toujours au moins un dans la bonne position pour la prise.
 
-* - **Saisie**
-  - Le système de vision reconnaît les pièces pouvant être saisies et envoie leurs coordonnées au robot, qui procède aux opérations de pick and place.
+* - **Prise**
+  - Le système de vision reconnaît les pièces prenables et en envoie les coordonnées au robot, qui procède aux opérations de pick and place.
 
 * - **Recirculation**
-  - Les composants non saisis recommencent leur parcours dans le FlexiBowl® jusqu'à ce qu'ils soient saisis par le robot.
+  - Les composants non prélevés recommencent leur parcours dans le FlexiBowl® jusqu'à ce qu'ils soient prélevés par le robot.
 
 :::
 
@@ -44,20 +42,19 @@ Votre avis est essentiel pour nous : n'hésitez pas à nous faire part de vos co
 :align: center
 :width: 50%
 
-Exemple de schéma du système FlexiBowl® en fonctionnement standard.
+Schéma d'exemple du système FlexiBowl® en fonctionnement standard.
 :::
 
 :::{note}
-Le cycle {ref}`Flexitracking <tracking>` est sensiblement identique au cycle traditionnel, à la différence que toutes les phases se déroulent simultanément et en continu.
+Le cycle {ref}`Circular Tracking <tracking>` est substantiellement identique au cycle traditionnel, à la différence que toutes les phases se déroulent simultanément et en continu.
 :::
 
-  
+
 ## **Comment lire le manuel**  
- Ce manuel a été conçu pour accompagner aussi bien la phase de conception et d'intégration du système que la phase d'installation et de mise en service sur le terrain. 
-Pour cette raison, il est divisé en macro-sections ayant des destinataires et des objectifs distincts.
+Ce manuel a été conçu pour accompagner aussi bien la phase de conception et d'intégration du système que la phase d'installation et de mise en service sur site. Pour cette raison, il est divisé en macro-sections avec des destinataires et des finalités distincts.
   
-## **Quelle est la section que vous recherchez ?**  
- ```{list-table}
+## **Quelle section recherchez-vous ?**  
+```{list-table}
 :widths: 40 60
 :header-rows: 1
 
@@ -67,19 +64,19 @@ Pour cette raison, il est divisé en macro-sections ayant des destinataires et d
 * - Vérifier les dimensions, les poids, les exigences électriques et les protocoles de communication
   - [**RÉFÉRENCE TECHNIQUE ET SPÉCIFICATIONS**](specifiche_tecniche)
 
-* - Installer les composants, câbler le système, configurer le réseau ou calibrer la caméra/le robot
+* - Installer les composants, câbler le système, configurer le réseau ou étalonner la caméra/le robot
   - [**INSTALLATION DU SYSTÈME**](Installazione_Meccanica) et [**QUICKSTART**](quickstart)
 
 * - Programmer un nouveau modèle de pièce ou configurer le système d'alimentation
   - [**QUICKSTART**](quickstart)
 
 * - Résoudre des problèmes ou demander de l'assistance
-  - [**TROUBLESHOOTING**](troubleshooting) et [**SUPPORT**](support)
+  - [**DÉPANNAGE**](troubleshooting) et [**ASSISTANCE**](support)
 ```
 
 ## **Conventions et symboles utilisés**
 
-Tout au long du manuel, des bannières d'information sont utilisées pour mettre en évidence les contenus importants :
+Dans tout le manuel, des bandeaux d'information sont utilisés pour mettre en évidence les contenus importants :
 
 ```{list-table}
 :widths: 20 80
@@ -91,7 +88,7 @@ Tout au long du manuel, des bannières d'information sont utilisées pour mettre
 * - ```{warning}
     Avertissement
     ```
-  - Indique une situation potentiellement dangereuse ou une procédure critique qui, si elle n'est pas correctement exécutée, pourrait provoquer des dommages à l'équipement ou de graves dysfonctionnements du système.
+  - Indique une situation potentiellement dangereuse ou une procédure critique qui, si elle n'est pas exécutée correctement, pourrait provoquer des dommages à l'équipement ou de graves dysfonctionnements du système.
 
 * - ```{important}
     Important
@@ -99,9 +96,9 @@ Tout au long du manuel, des bannières d'information sont utilisées pour mettre
   - Met en évidence des informations fondamentales qui ne doivent pas être ignorées pour garantir le bon fonctionnement du système ou la sécurité de l'opération.
 
 * - ```{note}
-    Note informative
+    Note d'information
     ```
-  - Fournit des informations essentielles pour le bon déroulement de la procédure, des clarifications techniques ou des renvois à des chapitres connexes.
+  - Fournit des informations essentielles pour le bon déroulement de la procédure, des précisions techniques ou des renvois à des chapitres connexes.
 
 * - ```{tip}
     Conseil
@@ -113,11 +110,6 @@ Tout au long du manuel, des bannières d'information sont utilisées pour mettre
     ```
   - Indique une erreur critique ou une condition de panne nécessitant une intervention immédiate. Signale des situations qui compromettent le fonctionnement du système et exigent une action corrective.
 ```
-
-
-
-
-
 
 
 :::{toctree}
@@ -153,7 +145,7 @@ FlexiBowl_manual/INSTALLAZIONE/04_interfaccia-software.md
 
 :::{toctree}
 :hidden:
-:caption: PRÉSENTATION LOGICIEL
+:caption: APERÇU DU LOGICIEL
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04_home.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04b_maincommand.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04c_sequence.md
@@ -164,6 +156,7 @@ FlexiBowl_manual/INTERFACCIA SOFTWARE/04h_graphs.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04i_filetransfer.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04l_setup.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04m_hopper.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04n_emptying.md
 :::
 
 :::{toctree}  
@@ -191,23 +184,28 @@ FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_tracking.md
 FlexiBowl_manual/PLUG-IN/01_PlugIn.md
 :::
 
+<!--
 :::{toctree}
 :hidden:
-:caption: BONNES PRATIQUES DE LAYOUT
+:caption: LAYOUT BEST PRACTICE
 FlexiBowl_manual/LAYOUT BEST PRACTICE/01_layoutbp.md
 :::
+--> 
 
 :::{toctree}
 :hidden:
 :caption: ACCESSOIRES
 FlexiBowl_manual/ACCESSORI/00_ACCESSORI.md
 FlexiBowl_manual/ACCESSORI/01_SUPERFICI.md
+FlexiBowl_manual/ACCESSORI/02_DISCHI_RIGIDI.md
 FlexiBowl_manual/ACCESSORI/03_04_illuminazione.md
 FlexiBowl_manual/ACCESSORI/05_DEVIATORE.md
 FlexiBowl_manual/ACCESSORI/06_SOFFI.md
 FlexiBowl_manual/ACCESSORI/07_BRUSH_DIVERTER.md
 FlexiBowl_manual/ACCESSORI/08_WEDGE.md
 FlexiBowl_manual/ACCESSORI/09_SVUOTAMENTO.md
+FlexiBowl_manual/ACCESSORI/11_CAVI.md
+FlexiBowl_manual/ACCESSORI/12_KIT_FILTRAGGIO.md
 :::
 
 :::{toctree}  
@@ -223,15 +221,17 @@ FlexiBowl_manual/MANUTENZIONE/02_straordinaria.md
 FlexiBowl_manual/Garanzia.md
 :::
 
+<!--  
 :::{toctree}  
 :hidden:
-:caption: DÉPANNAGE
+:caption: TROUBLESHOOTING
 FlexiBowl_manual/TROUBLESHOOTING/01_risoluzione-problemi.md
 FlexiBowl_manual/TROUBLESHOOTING/02_problemi_meccanici.md
 FlexiBowl_manual/TROUBLESHOOTING/03_problemi_elettrici.md
 FlexiBowl_manual/TROUBLESHOOTING/04_problemi_pneumatici.md
 FlexiBowl_manual/TROUBLESHOOTING/05_problemi_software.md
 :::
+-->
 
 :::{toctree}  
 :hidden:
@@ -239,18 +239,26 @@ FlexiBowl_manual/TROUBLESHOOTING/05_problemi_software.md
 FlexiBowl_manual/SMALTIMENTO/smaltimento.md
 :::
 
+<!-- 
 :::{toctree}  
 :hidden:
-:caption: CERTIFICATIONS 
+:caption: CERTIFICAZIONI 
 FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 :::
+-->
 
 :::{toctree}  
 :hidden:
 :caption: TRÉMIES
 FlexiBowl_manual/TRAMOGGE/TRAMOGGE VIBRANTI/tramogge_vibranti.md
-FlexiBowl_manual/TRAMOGGE/TRAMOGGE A NASTRO/tramogge_nastro.md
+<!--FlexiBowl_manual/TRAMOGGE/MOTORIZZATE/00_MOTORIZZATE.md
+FlexiBowl_manual/TRAMOGGE/CONVEYOR/00_CONVEYOR.md--->
+:::
 
+:::{toctree}
+:hidden:
+:caption: ANNEXES
+FlexiBowl_manual/NOTE RILASCIO/release_notes.md
 :::
 
 :::{toctree}
@@ -262,4 +270,3 @@ FlexiBowl_manual/COMPARATIVA/comparativa_elettrica.md
 FlexiBowl_manual/COMPARATIVA/comparativa_pneumatica.md
 FlexiBowl_manual/COMPARATIVA/comparativa_software.md
 :::
-

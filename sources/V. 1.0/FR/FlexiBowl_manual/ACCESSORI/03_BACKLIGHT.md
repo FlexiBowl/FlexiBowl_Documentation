@@ -1,151 +1,150 @@
 (backlight)=
 # **Backlight**
 
-Il Backlight è una luce localizzata sotto la finestra di lexan del piano di scorrimento, così che la sua luce possa colpire la superficie o il disco rigido e che la silhouette dei componenti al di sopra diventi visibile al sistema di visione. 
-Il Backlight è disponibile con luce: 
-- Bianca
-- Rossa
-- Infrarossa
+Le Backlight est une source lumineuse située sous la fenêtre en lexan du plan de glissement, de sorte que sa lumière puisse atteindre la surface ou le disque rigide et que la silhouette des composants situés au-dessus devienne visible pour le système de vision. Le Backlight est disponible avec les types de lumière suivants :
+- Blanche
+- Rouge
+- Infrarouge
 
 :::{important}
-Il Backlight infrarosso emette luce non visibile e perciò può apparire non funzionante. Controllare con una telecamera con un filtro ad infrarossi installato per verificarne il funzionamento. La maggior parte degli smartphone visualizzano gli infrarossi.
+Le Backlight infrarouge émet une lumière invisible et peut donc sembler ne pas fonctionner. Pour vérifier son fonctionnement, utilisez une caméra équipée d'un filtre infrarouge. La plupart des smartphones affichent l'infrarouge.
 :::
 
-Esistono inoltre due tipi di Backlight:
-- Standard: viene alimentato in modo continuo internamente ed è possibile ocmandarne l'accensione e lo spegnimento tramite software o I/O digitali;
-- Strobe: viene controllato esternamente tramite l'ingresso "strobe" del connettore input. Sarà cura del cliente portare la corretta alimentazione 24Vdc per accenderlo.
+Il existe par ailleurs deux types de Backlight :
+- Standard : il est alimenté en continu en interne et son allumage et son extinction peuvent être commandés par logiciel ou par E/S numériques ;
+- Strobe : il est commandé de l'extérieur via l'entrée « strobe » du connecteur d'entrée. Il incombe au client de fournir l'alimentation 24 Vdc appropriée pour l'allumer.
 
-## Caratteristiche dei Backlight
+## Caractéristiques des Backlight
 
-```{dropdown} Backlight per FB200
+```{dropdown} Backlight pour FB200
 
 ![Backlight 200](../../../../_shared/media/images/backlight200.PNG)
 
-| Articoli | CE001136 | CE001132 | CE001134 |
+| Articles | CE001136 | CE001132 | CE001134 |
 |--|--|--|--|
-| Colore LED | rosso | infrarosso | bianco |
-| Lunghezza d’onda | 630 nm | 850 nm | N/D |
-| Tensione | 24VDC | 24VDC | 24VDC |
-| Corrente | 0.17A | 0.12A | 0.17A |
-| Area di illuminazione | 155x75 mm^2 |  |  |
-| Materiale struttura | Lega di alluminio |  |  |
-| Temperatura di esercizio | -40 / +85 °C |  |  |
-| Lunghezza cavo | 0.2 m |  |  |
-| Metodo di raffreddamento | Aria naturale |  |  |
-| Materiale opalino | Vetro 3+3 con plastico bianco latte |  |  |
+| Couleur des LED | rouge | infrarouge | blanc |
+| Longueur d'onde | 630 nm | 850 nm | N/D |
+| Tension | 24VDC | 24VDC | 24VDC |
+| Courant | 0.17A | 0.12A | 0.17A |
+| Zone d'éclairage | 155x75 mm^2 |  |  |
+| Matériau de la structure | Alliage d'aluminium |  |  |
+| Température de fonctionnement | -40 / +85 °C |  |  |
+| Longueur du câble | 0.2 m |  |  |
+| Mode de refroidissement | Air naturel |  |  |
+| Matériau opalin | Verre 3+3 avec plastique blanc laiteux |  |  |
 ```
 
-```{dropdown} Backlight per FB350
+```{dropdown} Backlight pour FB350
 
 ![Backlight 350](../../../../_shared/media/images/backlight350.PNG)
 
-| Articoli | CE001142 | CE001139 | CE001140 |
+| Articles | CE001142 | CE001139 | CE001140 |
 |--|--|--|--|
-| Colore LED | rosso | infrarosso | bianco |
-| Lunghezza d’onda | 630 nm | 850 nm | N/D |
-| Tensione | 24VDC | 24VDC | 24VDC |
-| Corrente | 0.18A | 0.13A | 0.18A |
-| Area di illuminazione | 220x100 mm^2 |  |  |
-| Materiale struttura | Lega di alluminio |  |  |
-| Temperatura di esercizio | -40 / +85 °C |  |  |
-| Lunghezza cavo | 0.2 m |  |  |
-| Metodo di raffreddamento | Aria naturale |  |  |
-| Materiale opalino | Vetro 3+3 con plastico bianco latte |  |  |
+| Couleur des LED | rouge | infrarouge | blanc |
+| Longueur d'onde | 630 nm | 850 nm | N/D |
+| Tension | 24VDC | 24VDC | 24VDC |
+| Courant | 0.18A | 0.13A | 0.18A |
+| Zone d'éclairage | 220x100 mm^2 |  |  |
+| Matériau de la structure | Alliage d'aluminium |  |  |
+| Température de fonctionnement | -40 / +85 °C |  |  |
+| Longueur du câble | 0.2 m |  |  |
+| Mode de refroidissement | Air naturel |  |  |
+| Matériau opalin | Verre 3+3 avec plastique blanc laiteux |  |  |
 ```
 
-```{dropdown} Backlight per FB500
+```{dropdown} Backlight pour FB500
 
 ![Backlight 500](../../../../_shared/media/images/backlight500.PNG)
 
-| Articoli | CE001148 | CE001144 | CE001146 |
+| Articles | CE001148 | CE001144 | CE001146 |
 |--|--|--|--|
-| Colore LED | rosso | infrarosso | bianco |
-| Lunghezza d’onda | 630 nm | 850 nm | N/D |
-| Tensione | 24VDC | 24VDC | 24VDC |
-| Corrente | 0.46A | 0.31A | 0.46A |
-| Area di illuminazione | 330x170 mm^2 |  |  |
-| Materiale struttura | Lega di alluminio |  |  |
-| Temperatura di esercizio | -40 / +85 °C |  |  |
-| Lunghezza cavo | 0.2 m |  |  |
-| Metodo di raffreddamento | Aria naturale |  |  |
-| Materiale opalino | Vetro 3+3 con plastico bianco latte |  |  |
+| Couleur des LED | rouge | infrarouge | blanc |
+| Longueur d'onde | 630 nm | 850 nm | N/D |
+| Tension | 24VDC | 24VDC | 24VDC |
+| Courant | 0.46A | 0.31A | 0.46A |
+| Zone d'éclairage | 330x170 mm^2 |  |  |
+| Matériau de la structure | Alliage d'aluminium |  |  |
+| Température de fonctionnement | -40 / +85 °C |  |  |
+| Longueur du câble | 0.2 m |  |  |
+| Mode de refroidissement | Air naturel |  |  |
+| Matériau opalin | Verre 3+3 avec plastique blanc laiteux |  |  |
 ```
 
-```{dropdown} Backlight per FB650
+```{dropdown} Backlight pour FB650
 
 ![Backlight 650](../../../../_shared/media/images/backlight650.PNG)
 
-| Articoli | CE000306 | CE000273 | CE000305 |
+| Articles | CE000306 | CE000273 | CE000305 |
 |--|--|--|--|
-| Articoli alternativi | GM000591 | GM000592 | GM000590 |
-| Colore LED | rosso | infrarosso | bianco |
-| Lunghezza d’onda | 630 nm | 850 nm | N/D |
-| Tensione | 24VDC | 24VDC | 24VDC |
-| Corrente | 0.86A | 0.56A | 0.94A |
-| Area di illuminazione | 400x240 mm^2 |  |  |
-| Materiale struttura | Lega di alluminio |  |  |
-| Temperatura di esercizio | -40 / +85 °C |  |  |
-| Lunghezza cavo | 0.2 m |  |  |
-| Metodo di raffreddamento | Aria naturale |  |  |
-| Materiale opalino | Vetro 3+3 con plastico bianco latte |  |  |
+| Articles alternatifs | GM000591 | GM000592 | GM000590 |
+| Couleur des LED | rouge | infrarouge | blanc |
+| Longueur d'onde | 630 nm | 850 nm | N/D |
+| Tension | 24VDC | 24VDC | 24VDC |
+| Courant | 0.86A | 0.56A | 0.94A |
+| Zone d'éclairage | 400x240 mm^2 |  |  |
+| Matériau de la structure | Alliage d'aluminium |  |  |
+| Température de fonctionnement | -40 / +85 °C |  |  |
+| Longueur du câble | 0.2 m |  |  |
+| Mode de refroidissement | Air naturel |  |  |
+| Matériau opalin | Verre 3+3 avec plastique blanc laiteux |  |  |
 ```
 
-```{dropdown} Backlight per FB800
+```{dropdown} Backlight pour FB800
 
 ![Backlight 800](../../../../_shared/media/images/backlight800.PNG)
 
-| Articoli | CE001154 | CE001150 | CE001152 |
+| Articles | CE001154 | CE001150 | CE001152 |
 |--|--|--|--|
-| Colore LED | rosso | infrarosso | bianco |
-| Lunghezza d’onda | 630 nm | 850 nm | N/D |
-| Tensione | 24VDC | 24VDC | 24VDC |
-| Corrente | 1.15A | 0.76A | 1.2A |
-| Area di illuminazione | 400x315 mm^2 |  |  |
-| Materiale struttura | Lega di alluminio |  |  |
-| Temperatura di esercizio | -40 / +85 °C |  |  |
-| Lunghezza cavo | 0.2 m |  |  |
-| Metodo di raffreddamento | Aria naturale |  |  |
-| Materiale opalino | Vetro 3+3 con plastico bianco latte |  |  |
+| Couleur des LED | rouge | infrarouge | blanc |
+| Longueur d'onde | 630 nm | 850 nm | N/D |
+| Tension | 24VDC | 24VDC | 24VDC |
+| Courant | 1.15A | 0.76A | 1.2A |
+| Zone d'éclairage | 400x315 mm^2 |  |  |
+| Matériau de la structure | Alliage d'aluminium |  |  |
+| Température de fonctionnement | -40 / +85 °C |  |  |
+| Longueur du câble | 0.2 m |  |  |
+| Mode de refroidissement | Air naturel |  |  |
+| Matériau opalin | Verre 3+3 avec plastique blanc laiteux |  |  |
 ```
 
-```{dropdown} Backlight per FB1200
+```{dropdown} Backlight pour FB1200
 
 ![Backlight 1200](../../../../_shared/media/images/backlight1200.PNG)
 
-| Articoli | GE000051 | GE000052 | GE000050 |
+| Articles | GE000051 | GE000052 | GE000050 |
 |--|--|--|--|
-| Colore LED | rosso | infrarosso | bianco |
-| Lunghezza d’onda | 630 nm | 850 nm | N/D |
-| Tensione | 24VDC | 24VDC | 24VDC |
-| Corrente | 4A | 2.6A | 4.2A |
-| Area di illuminazione | 917x525 mm^2 |  |  |
-| Materiale struttura | Lega di alluminio |  |  |
-| Temperatura di esercizio | -40 / +85 °C |  |  |
-| Lunghezza cavo | 0.2 m |  |  |
-| Metodo di raffreddamento | Aria naturale |  |  |
-| Materiale opalino | Vetro 3+3 con plastico bianco latte |  |  |
+| Couleur des LED | rouge | infrarouge | blanc |
+| Longueur d'onde | 630 nm | 850 nm | N/D |
+| Tension | 24VDC | 24VDC | 24VDC |
+| Courant | 4A | 2.6A | 4.2A |
+| Zone d'éclairage | 917x525 mm^2 |  |  |
+| Matériau de la structure | Alliage d'aluminium |  |  |
+| Température de fonctionnement | -40 / +85 °C |  |  |
+| Longueur du câble | 0.2 m |  |  |
+| Mode de refroidissement | Air naturel |  |  |
+| Matériau opalin | Verre 3+3 avec plastique blanc laiteux |  |  |
 ```
 
-## Colori dei Backlight
+## Couleurs des Backlight
 
 :::{list-table}
 :widths: 15 15 70
 :header-rows: 1
 
-* - Colore
-  - Lunghezza d'onda
-  - Utilizzo consigliato
+* - Couleur
+  - Longueur d'onde
+  - Utilisation recommandée
 
 * - Red
   - 630 nm
-  - Utilizzato per componenti metallici speciali. Lunghezza d’onda: 630 nm. È necessario schermare la cella da qualsiasi fonte di luce esterna e dalla luce solare.
+  - Utilisé pour les composants métalliques spéciaux. Longueur d'onde : 630 nm. La cellule doit être protégée de toute source de lumière externe et de la lumière du soleil.
 
 * - IR
   - 850 nm
-  - Preferito per la maggior parte dei tipi di applicazioni. Non è visibile all’occhio umano. Lunghezza d’onda: 850 nm. Si consiglia di schermare la cella per evitare interferenze con la luce solare.
+  - Préféré pour la plupart des types d'applications. Non visible à l'œil humain. Longueur d'onde : 850 nm. Il est recommandé de protéger la cellule afin d'éviter les interférences avec la lumière du soleil.
 
 * - White
   - N/D
-  - Utilizzato con componenti trasparenti. È necessario schermare la cella da qualsiasi fonte di luce esterna e dalla luce solare.
+  - Utilisé avec les composants transparents. La cellule doit être protégée de toute source de lumière externe et de la lumière du soleil.
 
 :::

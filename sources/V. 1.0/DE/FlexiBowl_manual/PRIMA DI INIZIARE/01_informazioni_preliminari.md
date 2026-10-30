@@ -1,59 +1,59 @@
 (info)=
-# **Vorabinformationen**
+# **Vorbemerkungen**
 
-Dieser Abschnitt enthält rechtliche Hinweise und wichtige Warnungen zur Verwendung des FlexiBowl® und dieser Dokumentation. Bitte lesen Sie diesen Abschnitt sorgfältig, bevor Sie mit der Installation und dem Betrieb des Systems beginnen.
+Dieser Abschnitt enthält rechtliche Informationen und wichtige Warnhinweise zur Verwendung des FlexiBowl® und dieser Dokumentation.   Bitte sorgfältig lesen, bevor mit der Installation und der Nutzung des Systems begonnen wird.
 
 ---
 
-## Zielgruppe
+## Adressaten und Zielgruppe
 
 ```{note}
-**An wen richtet sich dieses Handbuch**
+**Für wen dieses Handbuch bestimmt ist**
 
-Diese Dokumentation richtet sich an qualifizierte Fachkräfte mit Kenntnissen in:
-- Integration von Robotersystemen
+Diese Dokumentation richtet sich an qualifizierte Techniker mit Kenntnissen in:
+- Integration robotergestützter Systeme
 - Konfiguration industrieller Bildverarbeitungssysteme
-- Installation und Wartung elektromechanischer Geräte
+- Installation und Wartung elektromechanischer Anlagen
 
-Es wird vorausgesetzt, dass der Leser über die erforderlichen technischen Grundkenntnisse verfügt, um die enthaltenen Informationen zu verstehen. Informationen, die aus technischen Zeichnungen oder Diagrammen leicht abgeleitet werden können, werden möglicherweise nicht weiter ausgeführt.
+Es wird vorausgesetzt, dass der Leser über die technischen Grundkenntnisse verfügt, die zum Verständnis der enthaltenen Informationen erforderlich sind.   Informationen, die sich leicht aus technischen Zeichnungen oder Diagrammen ableiten lassen, werden möglicherweise nicht weiter ausgeführt.
 ```
 
 ---
 
-## Wichtige Hinweise
+## Wichtige Warnhinweise
 
-### **Vor der Verwendung lesen**
+### **Vor Gebrauch lesen**
 ```{warning}
 
-Vor der Verwendung des FlexiBowl® ist Folgendes obligatorisch:
-- Dieses Handbuch vollständig lesen, um einen korrekten Betrieb des Systems zu gewährleisten
-- Die Betriebsanweisungen und Empfehlungen einhalten
-- Das mit der Bedienung betraute Personal angemessen schulen
-- Die Bedienungsanleitungen aller angeschlossenen Hardwarekomponenten konsultieren (FlexiVision One, Zuführeinheit, VisionController, Kamera, Roboter usw.)
+Vor der Verwendung des FlexiBowl® ist es zwingend erforderlich:
+- Dieses Handbuch vollständig zu lesen, um eine korrekte Nutzung des Systems sicherzustellen
+- Die Betriebsanweisungen und Empfehlungen zu beachten
+- Das mit der Nutzung beauftragte Personal angemessen zu schulen
+- Die Betriebsanleitungen aller angeschlossenen Hardwarekomponenten zu konsultieren (FlexiVision One, Bulk Feeder, VisionController, Kamera, Roboter usw.)
 
-Die Nichtbeachtung dieser Anweisungen kann zu Fehlfunktionen, Geräteschäden oder gefährlichen Situationen führen.
+Die Nichtbeachtung dieser Hinweise kann zu Fehlfunktionen, Schäden an den Geräten oder gefährlichen Situationen führen.
 ```
-### **Betriebskontext und Haftungsbeschränkung**
+### **Betriebskontext und Haftungsbeschränkungen**
 
-Der FlexiBowl® ist ein flexibles Zuführsystem mit rotierender Vibrationsscheibe zur zufälligen Positionierung und Ausrichtung von Bauteilen für die Robotergreifung.
+Der FlexiBowl® ist ein flexibles Zuführsystem mit rotierender Vibrationsscheibe zur zufälligen Positionierung und Ausrichtung von Bauteilen für die robotergestützte Entnahme.
 
 ```{warning}
-Während des Betriebs muss der Bediener:
-- Die physischen Abmessungen des Systems berücksichtigen
-- Die Bewegungen des Roboters und der Zuführeinheit überwachen
-- Unvorhergesehene Betriebssituationen vorhersehen und handhaben
-- Die für Roboter und Industriemaschinen geltenden Sicherheitsvorschriften einhalten
+Während der Nutzung muss der Bediener:
+- die physischen Abmessungen des Systems berücksichtigen
+- die Bewegungen des Roboters und des Zuführers überwachen
+- unvorhergesehene Betriebssituationen vorhersehen und bewältigen
+- die für Industrieroboter und Maschinen geltenden Sicherheitsnormen einhalten
 ```
 ```{warning}
-**ARS S.r.l. übernimmt keine Haftung für Personen- oder Sachschäden, die durch die Bewegung von Maschinen und Systemen entstehen, die mit der FlexiVision One-Software verbunden sind.**
+**ARS S.r.l. lehnt jede Haftung für Personen- oder Sachschäden ab, die aus der Bewegung von Maschinen und Systemen entstehen, die an die FlexiVision-One-Software angeschlossen sind.**
 
 Die Integration des Systems in die Arbeitsumgebung und die Risikobewertung liegen in der Verantwortung des Systemintegrators und des Endanwenders.
 ```
 
 (operatori)=
-## Bedienpersonal
+## Bediener
 
-Um eindeutig festzulegen, welche Kompetenzen und Qualifikationen das für die verschiedenen Aufgaben zuständige Personal (Inbetriebnahme, Reinigung, ordentliche Wartung) besitzen muss, ist die folgende Tabelle zu konsultieren:
+Um die Kompetenzen und Qualifikationen der mit den verschiedenen Aufgaben (Inbetriebnahme, Reinigung, regelmäßige Wartung) betrauten Bediener eindeutig festzulegen, die folgende Tabelle konsultieren:
 
 :::{list-table}
 :header-rows: 1
@@ -63,66 +63,49 @@ Um eindeutig festzulegen, welche Kompetenzen und Qualifikationen das für die ve
   - Definition
 
 * - **Systemintegrator**
-  - Personal, das für die Planung von Layouts, die Dimensionierung von Komponenten und die Überprüfung der technischen Anforderungen für die Installation des FlexiBowl® zuständig ist.
+  - Personal, das mit der Planung der Layouts, der Dimensionierung der Komponenten und der Prüfung der technischen Anforderungen für die Installation des FlexiBowl® betraut ist.
 
 * - **Installationstechniker**
-  - Personal, das für die mechanische Montage, den elektrischen und pneumatischen Anschluss sowie die Netzwerkkonfiguration zuständig ist.
+  - Personal, das mit der mechanischen Montage, dem elektrischen und pneumatischen Anschluss sowie der Netzwerkkonfiguration betraut ist.
 
 * - **Bediener**
-  - Personal des Anwenders, das für die Bedienung und den Betrieb der Maschine
-    zu Produktionszwecken für die Tätigkeiten, für die sie gebaut und geliefert
-    wurde, geschult und berechtigt ist. Er muss in der Lage sein, alle für den
-    ordnungsgemäßen Betrieb der Maschine und für seine eigene Sicherheit sowie
-    die etwaiger Mitarbeiter erforderlichen Maßnahmen durchzuführen. Er muss
-    nachgewiesene Erfahrung im korrekten Umgang mit diesen Maschinentypen haben
-    und diesbezüglich geschult, informiert und unterwiesen sein. Im Zweifelsfall
-    muss er jede Anomalie seinem Vorgesetzten melden.
+  - Geschultes und befugtes Personal des Anwenders für die Nutzung und den Betrieb der Maschine zu Produktionszwecken, für die Tätigkeiten, für die sie gebaut und geliefert wurde. Es muss in der Lage sein, alle für den einwandfreien Betrieb der Maschine und für die Unversehrtheit der eigenen Person und eventueller Mitarbeiter erforderlichen Arbeiten auszuführen. Es muss nachweisliche Erfahrung im korrekten Umgang mit derartigen Maschinen haben und diesbezüglich geschult, informiert und unterwiesen sein. Im Zweifelsfall muss es jede Anomalie seinem Vorgesetzten melden.
 
-    **Hinweis:** Er ist nicht berechtigt, Wartungsarbeiten durchzuführen.
+    **Hinweis:** Nicht befugt, Wartungstätigkeiten jeglicher Art durchzuführen.
     
-* - **Mechanischer Wartungstechniker**
+* - **Mechanischer Instandhalter**
   - Qualifizierter Techniker, der in der Lage ist:
 
-    * vorbeugende/korrektive Wartungsarbeiten an allen wartungs- oder
-      reparaturbedürftigen mechanischen Teilen der Maschine durchzuführen;
-    * auf alle Maschinenteile zur Sichtprüfung, Zustandskontrolle der
-      Geräte, Einstellungen und Kalibrierungen zuzugreifen;
-    * an mechanischen Bauteilen für Einstellungen, Wartung und Reparaturen
-      einzugreifen;
-    * Pneumatik-, Hydraulikpläne, technische Zeichnungen und
-      Ersatzteillisten zu lesen.
+    * vorbeugende/korrektive Wartungsarbeiten an allen mechanischen Teilen der Maschine durchzuführen, die gewartet oder repariert werden müssen;
+    * zu allen Teilen der Maschine Zugang zu haben für Sichtprüfung, Kontrolle des Gerätezustands, Einstellungen und Kalibrierungen;
+    * an den mechanischen Bauteilen Einstellungen, Wartungs- und Reparaturarbeiten vorzunehmen;
+    * pneumatische und hydraulische Schaltpläne, technische Zeichnungen und Ersatzteillisten zu lesen.
 
-    In außergewöhnlichen Fällen ist er berechtigt, die Maschine mit
-    reduzierten Sicherheitsvorkehrungen zu betreiben. Bei Bedarf kann er dem
-    Bediener Anweisungen für einen ordnungsgemäßen Produktionsbetrieb geben.
+    In außergewöhnlichen Fällen ist er befugt, die Maschine mit reduzierten Sicherheitseinrichtungen zu betreiben. Wo erforderlich, kann er dem Bediener Anweisungen für die ordnungsgemäße Nutzung der Maschine zu Produktionszwecken geben.
 
-    **Hinweis:** Er ist nicht berechtigt, an unter Spannung stehenden
-    Elektroanlagen einzugreifen (sofern vorhanden).
+    **Hinweis:** Nicht befugt, an unter Spannung stehenden elektrischen Anlagen zu arbeiten (falls vorhanden).
 
-* - **Elektrischer Wartungstechniker**
+* - **Elektrofachkraft für die Wartung**
   - Qualifizierter Techniker, der in der Lage ist:
-    * vorbeugende/korrektive Wartungsarbeiten an allen wartungs- oder reparaturbedürftigen mechanischen Teilen der Maschine durchzuführen;
-    * auf alle Maschinenteile zur Sichtprüfung, Zustandskontrolle der Geräte, Einstellungen und Kalibrierungen zuzugreifen;
+    * vorbeugende/korrektive Wartungsarbeiten an allen mechanischen Teilen der Maschine durchzuführen, die gewartet oder repariert werden müssen;
+    * zu allen Teilen der Maschine Zugang zu haben für Sichtprüfung, Kontrolle des Gerätezustands, Einstellungen und Kalibrierungen;
     * die Maschine wie der Bediener zu führen;
-    * an Einstellungen und Elektroanlagen für Wartung, Reparatur und Austausch verschlissener Teile einzugreifen;
-    * Elektropläne zu lesen und den korrekten Funktionszyklus zu überprüfen.
-  Bei Bedarf kann er dem Bediener Anweisungen für einen ordnungsgemäßen Produktionsbetrieb geben. Er darf unter Spannung in Schaltkästen, Abzweigdosen, Steuergeräten usw. arbeiten, sofern er eine geeignete Person (PEI) ist. (Siehe Norm **EN50110-1**). Er führt keine Software-Programmierung von Systemen wie PLC (Logik oder Sicherheit) durch und darf keine Systempasswörter ändern.
+    * Einstellungen und elektrische Anlagen für Wartung, Reparatur und Austausch von Verschleißteilen zu bearbeiten;
+    * Schaltpläne zu lesen und den korrekten Funktionsablauf zu überprüfen. Wo erforderlich, kann er dem Bediener Anweisungen für die ordnungsgemäße Nutzung der Maschine zu Produktionszwecken geben. Er darf unter Spannung in Schaltschränken, Abzweigdosen, Steuergeräten usw. nur arbeiten, wenn es sich um eine geeignete Person (PEI) handelt. (Siehe Norm **EN50110-1**). Er führt keine Softwareprogrammierung von Systemen wie SPS (Logik oder Sicherheit) durch und darf keine Systempasswörter ändern.
 
-* - **Software-Experte**
+* - **Software-Fachtechniker**
   - Qualifizierter Techniker, der in der Lage ist:
-    * vorbeugende/korrektive Maßnahmen an allen Software-Teilen der Maschine durchzuführen;
-    * auf alle Maschinenteile zur Sichtprüfung, Zustandskontrolle der Geräte, Einstellungen und Kalibrierungen zuzugreifen.
-  Qualifizierter Techniker des Herstellers mit nachgewiesener Erfahrung und Ausbildung in Systemen basierend auf: SPS/PC-Antrieben usw. (Kenntnisse der Programmierung, Maschinenfunktionen usw.) für komplexe Vorgänge wie zum Beispiel:
-    * Änderung von Maschinendaten; 
-    * Erstellung von Arbeitsprogrammen; 
-    * Einstellung von Antriebsparametern usw. aufgrund der Kenntnisse des Produktions-, Technologie- und Konstruktionszyklus der gelieferten Maschine. 
-  Er darf unter Spannung in Schaltkästen, Abzweigdosen, Steuergeräten usw. arbeiten, sofern er eine geeignete Person (PEI) ist (Siehe Norm **EN50110-1**). Die Kompetenzen sind elektronischer und/oder softwaretechnischer Art.
+    * vorbeugende/korrektive Tätigkeiten an allen Softwareteilen der Maschine durchzuführen;
+    * zu allen Teilen der Maschine Zugang zu haben für Sichtprüfung, Kontrolle des Gerätezustands, Einstellungen und Kalibrierungen. Qualifizierter Techniker des Herstellers mit nachgewiesener Erfahrung und Ausbildung in Systemen auf Basis von: SPS/PC, Antrieben usw. (Kenntnis von Programmierung, Maschinenfunktionen usw.) für komplexe Arbeiten wie zum Beispiel:
+    * Änderung von Maschinendaten;
+    * Erstellung von Arbeitsprogrammen;
+    * Einstellung von Antriebsparametern usw., da er den Produktions-, Technologie- und Konstruktionszyklus der gelieferten Maschine kennt. Er darf unter Spannung in Schaltschränken, Abzweigdosen, Steuergeräten usw. nur arbeiten, wenn es sich um eine geeignete Person (PEI) handelt (siehe Norm **EN50110-1**). Seine Kompetenzen liegen im Bereich Elektronik und/oder Software.
 
-* - **Herstellertechniker**
-  - Vom Hersteller und/oder seinem Händler qualifizierter Techniker für komplexe Vorgänge, aufgrund der Kenntnisse des Produktionsfertigungszyklus der Maschine. Diese Person greift in Übereinstimmung mit den Anforderungen des Anwenders ein. Die Kompetenzen sind mechanischer Art.
+* - **Techniker des Herstellers**
+  - Vom Hersteller und/oder seinem Händler qualifizierter Techniker für komplexe Arbeiten, da er den Produktionszyklus beim Bau der Maschine kennt. Diese Person wird entsprechend den Anforderungen des Anwenders tätig. Seine Kompetenzen liegen im mechanischen Bereich.
 
-* - **Ausgebildete Person**
-  - Umfasst alle in dieser Tabelle aufgeführten Qualifikationen: Es handelt sich um eine Person, die über die Arbeit und mögliche Gefahren bei unsachgemäßem Gebrauch informiert, unterwiesen und geschult wurde. Sie kennt außerdem die Bedeutung der Sicherheitsvorrichtungen, die Unfallverhütungsvorschriften und die sicheren Arbeitsbedingungen.
+* - **Unterwiesene Person**
+  - Fasst alle in dieser Tabelle aufgeführten Qualifikationen zusammen: Es handelt sich um eine Person, die über die Arbeit und mögliche Gefahren durch unsachgemäße Verwendung informiert, unterwiesen und geschult wurde. Sie kennt außerdem die Bedeutung der Sicherheitseinrichtungen, die Unfallverhütungsvorschriften und die Bedingungen für sicheres Arbeiten.
 
 :::
 
@@ -134,36 +117,37 @@ Um eindeutig festzulegen, welche Kompetenzen und Qualifikationen das für die ve
 
 ```{note}
 
-- **Referenzsprache**: Die italienische Version dieses Dokuments ist die offizielle Version und hat bei Abweichungen von anderen Übersetzungen Vorrang
-- **Aktualisierungen**: Die enthaltenen Informationen können zur Produktverbesserung ohne vorherige Ankündigung geändert werden
-- **Maßeinheiten**: Sofern nicht anders angegeben, sind alle Maße in Millimetern (mm) ausgedrückt
-- **Dokumentversion**: Stellen Sie stets sicher, dass Sie über die neueste Version verfügen, indem Sie die Website [www.flexibowl.it](https://www.flexibowl.it) konsultieren
+- **Referenzsprache**: Die italienische Fassung dieses Dokuments ist die offizielle und hat bei Abweichungen von anderen Übersetzungen Vorrang
+- **Aktualisierungen**: Die enthaltenen Informationen können im Zuge von Produktverbesserungen ohne Vorankündigung geändert werden
+- **Maßeinheiten**: Sofern nicht anders angegeben, sind alle Abmessungen in Millimetern (mm) angegeben
+- **Dokumentversion**: Stets prüfen, ob die aktuellste Version vorliegt, indem die Website [www.flexibowl.it](https://www.flexibowl.it) konsultiert wird
 ```
 ### **So nutzen Sie dieses Handbuch optimal**
 
 ```{tip}
 
-Für ein optimales Erlebnis:
-- Verwenden Sie das seitliche Navigationsmenü, um schnell zwischen den Abschnitten zu wechseln
-- Konsultieren Sie das Ausgangsverzeichnis, um sofort den für Sie relevanten Abschnitt zu identifizieren
-- Achten Sie besonders auf die Warn-, Hinweis- und Tipp-Banner
-- Befolgen Sie die Verfahren in der angegebenen Reihenfolge, insbesondere bei der Erstinstallation
-- Bewahren Sie dieses Handbuch im digitalen Format auf, um schnelle Stichwortsuchen zu erleichtern
+Für eine optimale Nutzung:
+- Das seitliche Navigationsmenü verwenden, um schnell zwischen den Abschnitten zu wechseln
+- Das Inhaltsverzeichnis am Anfang konsultieren, um den gewünschten Abschnitt sofort zu finden
+- Besondere Aufmerksamkeit den Warn-, Hinweis- und Tipp-Bannern widmen
+- Die Verfahren in der angegebenen Reihenfolge befolgen, insbesondere bei der Erstinstallation
+- Dieses Handbuch in digitaler Form aufbewahren, um die schnelle Stichwortsuche zu erleichtern
 ```
 
 ---
 
 
-## Vervielfältigungsrechte und rechtliche Hinweise
+## Urheberrecht und rechtliche Hinweise
 
 ```{important}
 **Copyright © ARS S.r.l. - Alle Rechte vorbehalten**
 
-Kein Teil dieser Veröffentlichung darf ohne vorherige schriftliche Genehmigung von ARS S.r.l. für andere Zwecke als den persönlichen Gebrauch reproduziert, verteilt, übersetzt oder mit irgendwelchen Mitteln (elektronisch, mechanisch, Fotokopie, Aufzeichnung oder andere Speichersysteme) übertragen werden.
+Kein Teil dieser Veröffentlichung darf ohne vorherige schriftliche Genehmigung von ARS S.r.l. für andere Zwecke als den persönlichen Gebrauch auf irgendeine Weise (elektronisch, mechanisch, Fotokopie, Aufzeichnung oder sonstiges Speichersystem) vervielfältigt, verbreitet, übersetzt oder übertragen werden.
 
-ARS S.r.l. übernimmt keine Haftung für Folgen, die aus fehlerhaften Bedienungen durch den Benutzer oder aus unsachgemäßem Gebrauch des Produkts entstehen.
+ARS S.r.l. lehnt jede Haftung für Folgen ab, die sich aus fehlerhaften Handlungen des Anwenders oder aus unsachgemäßer Verwendung des Produkts ergeben.
 
 **Eingetragene Marken**: FlexiBowl® ist eine eingetragene Marke von ARS S.r.l. Alle anderen in diesem Dokument genannten Marken, Handelsnamen und Logos gehören ihren jeweiligen Eigentümern und werden ausschließlich zu Identifikationszwecken verwendet.
 ```
 ---
+
 

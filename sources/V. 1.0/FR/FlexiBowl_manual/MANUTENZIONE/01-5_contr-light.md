@@ -1,1 +1,1 @@
-# **Vérification du bon fonctionnement du rétroéclairage et de l'éclairage supérieur**
+# **Contrôle du bon fonctionnement du Backlight et du Toplight**

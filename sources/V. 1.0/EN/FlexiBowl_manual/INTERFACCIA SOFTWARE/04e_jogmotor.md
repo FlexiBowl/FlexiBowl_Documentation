@@ -1,14 +1,14 @@
 (jog)=
-# [SOF] **Jog Motor**
+# **Jog Motor**
 
 ## Overview
 
-The **Jog Motor** page allows the FlexiBowl® to be operated in continuous manual mode (jog), without using programmed sequences. It is mainly used during the setup, commissioning and testing phases of the system, allowing the operator to directly control the rotation of the FlexiBowl® and the accessory functions.
-![jog monitor page](../../../../_shared/media/images/jog_motor.png)
+The **Jog Motor** page allows the FlexiBowl® to be driven in continuous manual mode (jog), without using programmed sequences. It is mainly used during setup, commissioning and testing of the system, allowing the operator to directly control the rotation of the FlexiBowl® and the accessory functions.
+![jog motor page](../../../../_shared/media/images/jog_motor.png)
 
 ---
 
-## Movement parameters
+## Motion parameters
 
 The three sliders at the top define the behavior of the motor during the jog.
 
@@ -19,39 +19,39 @@ The three sliders at the top define the behavior of the motor during the jog.
 | **Speed** | % | -30 | Rotation speed of the FlexiBowl®. A **negative** value indicates **counterclockwise** rotation; a **positive** value indicates **clockwise** rotation |
 
 :::{tip}
-To reverse the direction of rotation of the FlexiBowl® during the jog, simply move the **Speed** slider to a negative value. It is not necessary to stop the jog to change the parameter.
+To reverse the direction of rotation of the FlexiBowl® during the jog, simply set the **Speed** slider to a negative value. It is not necessary to stop the jog to change the parameter.
 :::
 
 ---
 
 ## FLIP panel
 
-The **Flip Enable** panel manages the activation and parameters of the flipping system during the jog.
+The **Flip Enable** panel manages the activation and the parameters of the flipping system during the jog.
 
 | Control | Example value | Description |
 |---|---|---|
-| **Flip Enable** (toggle) | Active (red) | Enables the automatic flip during the jog |
+| **Flip Enable** (toggle) | Active (red) | Enables automatic flip during the jog |
 | **Flip Duration** | 200 ms | Duration of the flip actuation pulse |
 | **Flip Pression** | 3.00 Bar | Air pressure used for the flip |
 | **Flip Pause** | 200 ms | Pause between one flip and the next during the jog |
 
 :::{note}
-The flip is performed cyclically during the jog, at the rate defined by **Flip Pause**, only if the **Flip Enable** toggle is active.
+The flip is executed cyclically during the jog, at the rate defined by **Flip Pause**, only if the **Flip Enable** toggle is active.
 :::
 
 ---
 
 ## BLOW panel
 
-The **Blow Enable** panel manages the activation and parameters of the blow system during the jog.
+The **Blow Enable** panel manages the activation and the parameters of the blowing system during the jog.
 
-| Controllo | Valore esempio | Descrizione |
+| Control | Example value | Description |
 |---|---|---|
-| **Blow Enable** (toggle) | Active (red) | Enables the automatic blow during the jog |
+| **Blow Enable** (toggle) | Active (red) | Enables automatic blowing during the jog |
 | **Blow Duration** | 200 ms | Duration of the blow pulse |
-| **Blow Pression** | 3.00 Bar | Air pressure used for the blow |
+| **Blow Pression** | 3.00 Bar | Air pressure used for blowing |
 | **Blow Pause** | 200 ms | Pause between one blow pulse and the next during the jog |
-| **Blow Type** | BLOWc + BLOWe | Type of blow activated. The options combine central blow (BLOWc) and/or external blow (BLOWe) |
+| **Blow Type** | BLOWc + BLOWe | Type of blowing activated. The options combine central blow (BLOWc) and/or external blow (BLOWe) |
 
 ### Blow Type options
 
@@ -72,7 +72,7 @@ The **Backlight** panel manages the state of the backlights independently of the
 | **Backlight 1** (toggle) | Enables/disables backlight 1 |
 | **Backlight 2** (toggle) | Enables/disables backlight 2 |
 
-The toggles show red when the backlight is **active**.
+The toggles show red when the backlight is **on**.
 
 ---
 
@@ -80,8 +80,8 @@ The toggles show red when the backlight is **active**.
 
 | Button | Function |
 |---|---|
-| **START JOG** | Starts the continuous rotation of the FlexiBowl® with the set parameters, simultaneously activating flip and blow if their respective toggles are enabled |
-| **STOP JOG** | Stops the jog and stops the FlexiBowl® |
+| **START JOG** | Starts the continuous rotation of the FlexiBowl® with the set parameters, simultaneously activating flip and blow if the respective toggles are enabled |
+| **STOP JOG** | Stops the jog and halts the FlexiBowl® |
 
 :::{important}
 Before pressing **START JOG**, check that:

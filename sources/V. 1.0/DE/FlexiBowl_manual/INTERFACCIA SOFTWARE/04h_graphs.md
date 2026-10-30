@@ -1,102 +1,102 @@
 # **Graphs**
 
-## Panoramica
+## Übersicht
 
-La pagina **Graphs** fornisce una dashboard di monitoraggio in tempo reale delle grandezze elettriche e termiche del driver motore del FlexiBowl®. In questa pagina, l'operatore può verificare le prestazioni del sistema e rilevare eventuali anomalie durante il funzionamento.
+Die Seite **Graphs** bietet ein Echtzeit-Überwachungs-Dashboard der elektrischen und thermischen Größen des Motortreibers des FlexiBowl®. Auf dieser Seite kann der Bediener die Leistung des Systems überprüfen und eventuelle Anomalien während des Betriebs erkennen.
 
-![pagina home](../../../../_shared/media/images/graphs.png)
+![Startseite](../../../../_shared/media/images/pagina_Graphs.png)
 
 ---
 
-## Barra dei contatori e indicatori
+## Leiste mit Zählern und Anzeigen
 
-La parte superiore della pagina raccoglie i principali parametri di stato del sistema, suddivisi in tre colonne.
+Der obere Teil der Seite fasst die wichtigsten Statusparameter des Systems zusammen, aufgeteilt in drei Spalten.
 
-### Colonna sinistra
+### Linke Spalte
 
-| Campo | Valore esempio | Descrizione |
+| Feld | Beispielwert | Beschreibung |
 |---|---|---|
-| **Timer Global** | 0 d: 23 h: 9 min: 15 s | Tempo totale di accensione del sistema dall'ultimo reset del contatore globale |
-| **Drive Temperature** | 40.2 °C | Temperatura attuale del driver motore |
-| **DC Voltage** | 48.4 V | Tensione del bus DC che alimenta il driver motore |
+| **Timer Global** | 30 d: 0 h: 14 min: 48 s | Gesamte Einschaltzeit des Systems seit dem letzten Zurücksetzen des globalen Zählers |
+| **Drive Temperature** | 45.2 °C | Aktuelle Temperatur des Motortreibers |
+| **DC Voltage** | 48.4 V | Spannung des DC-Busses, der den Motortreiber versorgt |
 
-### Colonna centrale
+### Mittlere Spalte
 
-| Campo | Valore esempio | Descrizione |
+| Feld | Beispielwert | Beschreibung |
 |---|---|---|
-| **Timer Run** | 0 d: 0 h: 3 min: 25 s | Tempo totale di funzionamento del motore (tempo effettivo di movimento) dall'ultimo reset |
-| **Dsp Temperature** | 46.8 °C | Temperatura del processore DSP interno al driver |
-| **Total Revolutions** | 111 | Numero totale di giri effettuati dal FlexiBowl® dall'ultimo reset del contatore |
+| **Timer Run** | 4 d: 14 h: 8 min: 34 s | Gesamte Laufzeit des Motors (tatsächliche Bewegungszeit) seit dem letzten Zurücksetzen |
+| **Dsp Temperature** | 50.7 °C | Temperatur des DSP-Prozessors im Inneren des Treibers |
+| **Total Revolutions** | 127023 | Gesamtzahl der vom FlexiBowl® seit dem letzten Zurücksetzen des Zählers ausgeführten Umdrehungen |
 
-### Colonna destra
+### Rechte Spalte
 
-| Campo | Valore esempio | Descrizione |
+| Feld | Beispielwert | Beschreibung |
 |---|---|---|
-| **Utilization** | 0 % | Percentuale di utilizzo corrente del motore rispetto alla capacità massima. Visualizzato in rosso se il valore supera una soglia critica |
-| **Max Drive Temperature** | 40.2 °C | Temperatura massima raggiunta dal driver motore dall'ultimo reset |
-| **Max Dsp Temperature** | 46.8 °C | Temperatura massima raggiunta dal DSP dall'ultimo reset |
+| **Utilization** | 15 % | Aktueller Auslastungsgrad des Motors in Prozent bezogen auf die maximale Kapazität. Dargestellt durch einen Fortschrittsbalken mit dem Prozentwert in farbigem Text |
+| **Max Drive Temperature** | 45.7 °C | Höchste vom Motortreiber seit dem letzten Zurücksetzen erreichte Temperatur |
+| **Max Dsp Temperature** | 51.1 °C | Höchste vom DSP seit dem letzten Zurücksetzen erreichte Temperatur |
 
 ### ECO LOAD %
 
-Il tachimetro **ECO LOAD %** in alto a destra indica il carico medio del motore in percentuale. Il valore visualizzato nell'esempio è **0.2 %**, indicando un carico estremamente ridotto — condizione tipica di sistema in standby o in movimento a velocità molto bassa.
+Das Tachometer **ECO LOAD %** oben rechts zeigt die durchschnittliche Motorlast in Prozent an. Der im Beispiel angezeigte Wert beträgt **9,1 %** und weist auf eine geringe Last hin – ein typischer Zustand bei Systemen mit kurzen Arbeitszyklen oder niedrigen Geschwindigkeiten.
 
 :::{tip}
-Il valore **ECO LOAD %** è un indicatore utile per valutare l'efficienza operativa del sistema nel tempo. Valori costantemente elevati possono indicare un sovraccarico meccanico o parametri di velocità troppo aggressivi.
+Der Wert **ECO LOAD %** ist ein nützlicher Indikator zur Beurteilung der Betriebseffizienz des Systems im Zeitverlauf. Dauerhaft hohe Werte können auf eine mechanische Überlastung oder zu aggressive Geschwindigkeitsparameter hinweisen.
 :::
 
 ---
 
-## Grafici in tempo reale
+## Echtzeit-Diagramme
 
-La parte inferiore della pagina mostra tre grafici a oscilloscopio che tracciano l'andamento nel tempo delle grandezze motore. L'asse orizzontale riporta il tempo trascorso dall'avvio, nel formato `Xh Ym Zs`.
+Der untere Teil der Seite zeigt drei Oszilloskop-Diagramme, die den zeitlichen Verlauf der Motorgrößen darstellen. Die horizontale Achse zeigt die seit dem Start vergangene Zeit im Format `Xh Ym Zs` (Felder mit dem Wert null, wie die Stunden, werden möglicherweise nicht angezeigt – z. B. `33m46s`).
 
 ### Velocity Motor %
 
-Grafico della **velocità del motore** espressa in percentuale rispetto alla velocità massima.
+Diagramm der **Motorgeschwindigkeit**, ausgedrückt in Prozent der maximalen Geschwindigkeit.
 
-| Asse | Descrizione |
+| Achse | Beschreibung |
 |---|---|
-| **Y** | Velocità normalizzata: da **-1** (massima velocità antioraria) a **+1** (massima velocità oraria). Il valore **0** corrisponde al motore fermo |
-| **X** | Tempo di esecuzione |
+| **Y** | Geschwindigkeit in **Prozent** der maximalen Geschwindigkeit, mit Vorzeichen: **Negative** Werte bedeuten Drehung **gegen den Uhrzeigersinn**, **positive** Werte Drehung **im Uhrzeigersinn**. Der Wert **0** entspricht einem stillstehenden Motor |
+| **X** | Ausführungszeit |
 
 :::{note}
-Un valore di velocità negativo indica rotazione in senso **antiorario**; un valore positivo indica rotazione in senso **orario**. Questo è coerente con il parametro **Speed** nella pagina Jog Motor.
+Ein negativer Geschwindigkeitswert bedeutet Drehung **gegen den Uhrzeigersinn**; ein positiver Wert bedeutet Drehung **im Uhrzeigersinn**. Dies entspricht dem Parameter **Speed** auf der Seite Jog Motor.
 :::
 
 ### Current Motor %
 
-Grafico della **corrente assorbita dal motore** espressa in percentuale rispetto alla corrente massima nominale.
+Diagramm des **vom Motor aufgenommenen Stroms**, ausgedrückt in Prozent des maximalen Nennstroms.
 
-| Asse | Descrizione |
+| Achse | Beschreibung |
 |---|---|
-| **Y** | Corrente normalizzata, tipicamente compresa tra **0.0** e valori positivi. I picchi corrispondono alle fasi di accelerazione e decelerazione |
-| **X** | Tempo di esecuzione |
+| **Y** | Auf Prozent normierter Strom. Er kann je nach Betriebsphase (z. B. Beschleunigung/Verzögerung) sowohl **positive** als auch **negative** Werte annehmen; die Spitzen entsprechen den abruptesten Geschwindigkeitsänderungen |
+| **X** | Ausführungszeit |
 
 :::{tip}
-Picchi di corrente elevati e ricorrenti possono indicare rampe di accelerazione troppo aggressive. In tal caso, aumentare i valori di **Acceleration** e **Deceleration** per distribuire lo sforzo su un intervallo di tempo più lungo.
+Hohe, wiederkehrende Stromspitzen können auf zu aggressive Beschleunigungsrampen hinweisen. In diesem Fall die Werte für **Acceleration** und **Deceleration** erhöhen, um die Belastung auf einen längeren Zeitraum zu verteilen.
 :::
 
 ### Torque Motor %
 
-Grafico della **coppia erogata dal motore** espressa in percentuale rispetto alla coppia massima nominale.
+Diagramm des **vom Motor abgegebenen Drehmoments**, ausgedrückt in Prozent des maximalen Nenndrehmoments.
 
-| Asse | Descrizione |
+| Achse | Beschreibung |
 |---|---|
-| **Y** | Coppia normalizzata, tipicamente compresa tra **0.0** e valori positivi. I picchi coincidono con le fasi di variazione del movimento |
-| **X** | Tempo di esecuzione |
+| **Y** | Auf Prozent normiertes Drehmoment. Wie beim Strom kann es je nach Bewegungsphase sowohl **positive** als auch **negative** Werte annehmen |
+| **X** | Ausführungszeit |
 
 :::{note}
-I grafici **Current Motor %** e **Torque Motor %** mostrano tipicamente un andamento molto simile, poiché in un motore a corrente continua la coppia è direttamente proporzionale alla corrente. Differenze significative tra i due possono indicare anomalie nel driver.
+Die Diagramme **Current Motor %** und **Torque Motor %** zeigen typischerweise einen sehr ähnlichen Verlauf, da bei einem Gleichstrommotor das Drehmoment direkt proportional zum Strom ist. Deutliche Unterschiede zwischen beiden können auf Anomalien im Treiber hinweisen.
 :::
 
 ---
 
-## Note di utilizzo
+## Hinweise zur Verwendung
 
 :::{warning}
-Valori di **Drive Temperature** o **Dsp Temperature** costantemente superiori a 70 °C possono ridurre la vita utile del driver e causare arresti di protezione termica. Verificare le condizioni di ventilazione del cabinet e il ciclo di lavoro del sistema.
+Dauerhaft über 70 °C liegende Werte von **Drive Temperature** oder **Dsp Temperature** können die Lebensdauer des Treibers verkürzen und Abschaltungen durch den Thermoschutz verursachen. Die Belüftungsbedingungen des Schaltschranks und den Arbeitszyklus des Systems überprüfen.
 :::
 
 :::{warning}
-Un valore di **DC Voltage** fuori dal range nominale (tipicamente 48 V ± 10%) può indicare problemi all'alimentatore. Interrompere il funzionamento e contattare il servizio tecnico.
+Ein Wert von **DC Voltage** außerhalb des Nennbereichs (typischerweise 48 V ± 10 %) kann auf Probleme mit dem Netzteil hinweisen. Den Betrieb unterbrechen und den technischen Service kontaktieren.
 :::

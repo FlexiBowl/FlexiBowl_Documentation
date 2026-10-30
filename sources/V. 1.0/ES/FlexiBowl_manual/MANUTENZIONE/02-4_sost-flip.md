@@ -1,4 +1,4 @@
-# **Sustitución del grupo Flip**
+# **Sustitución del grupo flip**
 
 :::::{important}
 
@@ -12,143 +12,176 @@
 ::::{list-table}
 :widths: 30 60
 :header-rows: 1
-* - {ref}`Qualifica operatore <operatori>`
-  - {ref}`D.P.I. Necessari <dpi>`
+* - {ref}`Cualificación del operario <operatori>`
+  - {ref}`EPI necesarios <dpi>`
 
-* - **Manutentore meccanico**
+* - **Técnico de mantenimiento mecánico**
   - :::{raw} html
        <div class="ars-img-row">
-         <img src="../../../../_shared/media/images/guanti.png" alt="guanti">
-         <img src="../../../../_shared/media/images/scarpe.png" alt="scarpe">
-         <img src="../../../../_shared/media/images/tuta.png" alt="tuta">
+         <img src="../../../../_shared/media/images/guanti.png" alt="guantes">
+         <img src="../../../../_shared/media/images/scarpe.png" alt="calzado">
+         <img src="../../../../_shared/media/images/tuta.png" alt="mono">
        </div>
     :::
 ::::
 :::::
 
 :::{warning}
-Disconnettere l'alimentazione elettrica e pneumatica prima di procedere con la sostituzione del gruppo flip.
+Desconecte la alimentación eléctrica y neumática antes de proceder a la sustitución del grupo flip.
 :::
 
 :::{warning}
-Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+Algunas partes implicadas en el proceso de mantenimiento aquí descrito pueden haber alcanzado {ref}`altas temperaturas <temp>` durante el funcionamiento; asegúrese de dejar el FlexiBowl® apagado el tiempo suficiente para que todas sus partes puedan manipularse con seguridad.
 :::
 
 ## FlexiBowl® 200
 
-### Cosa serve?
+### ¿Qué se necesita?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Objeto/equipo
+  - Cantidad
 
-* - Chiave esagonale H2.5
+* - Llave hexagonal H2.5
   - 1
 
-* - Chiave esagonale H3
+* - Llave hexagonal H3
   - 1
 
-* - Chiave esagonale H4
+* - Llave hexagonal H4
   - 1
 
-* - Gruppo flip sostitutivo
+* - Llave inglesa de 20 mm
+  - 1
+
+* - Grupo flip de repuesto
   - 1
 
 :::
 
-### Procedimento
+### Procedimiento
 
-| Step | Operazione |
+| Paso | Operación |
 |:----:|-----------|
-| 1 | Rimuovere lo schermo flip |
-| 2 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 3 | Rimuovere il backlight e svitare la vite che fissa la parte frontale della scatola backlight alla colonna del FlexiBowl® |
-| 4 | Rimuovere la tavola superiore |
-| 5 | Scollegare gli allacciamenti pneumatici del blocco distributore e rimuoverlo |
-| 6 | Rimuovere il carter |
-| 7 | Scollegare gli allacciamenti elettrici e pneumatici e smontare il gruppo flip |
-| 8 | Smontare l'elettrovalvola dal gruppo flip |
-| 9 | Sostituire il gruppo flip con quello nuovo |
-| 10 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | Retirar la pantalla del flip |
+| 2 | {ref}`Retirar la superficie o el disco rígido <sost-disco>` |
+| 3 | Retirar el backlight y aflojar el tornillo que fija la parte frontal de la caja del backlight a la columna del FlexiBowl® |
+| 4 | Retirar la mesa superior |
+| 5 | Desconectar las conexiones neumáticas del bloque distribuidor y retirarlo |
+| 6 | Retirar el cárter |
+| 7 | Desconectar las conexiones eléctricas y neumáticas y desmontar el grupo flip |
+| 8 | Desmontar la electroválvula del grupo flip |
+| 9 | Sustituir el grupo flip por el nuevo |
+| 10 | Una vez terminada la sustitución, vuelva a montar todos los componentes |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="sostflip200" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000001_cambio-flip.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Su navegador no admite el vídeo.
   </video>
   <br>
-  <label for="velcamflip200">Velocità:</label>
+  <label for="velcamflip200">Velocidad:</label>
   <select id="velcamflip200" onchange="document.getElementById('sostflip200').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione del gruppo flip illustrata su FlexiBowl® 200</i></figcaption>
+  <figcaption><i>Procedimiento de sustitución del grupo flip ilustrado en un FlexiBowl® 200</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-Per facilitare il lavoro è possibile rimuovere i carter, stando attenti a non tirare eccessivamente i cavi dei LED di stato.
+Para facilitar el trabajo es posible retirar los cárteres, procurando no tirar en exceso de los cables de los LED de estado.
 :::
+
+También es posible sustituir la parte superior del flip:
+
+| Paso | Operación |
+|:----:|-----------|
+| 1 | Retirar la pantalla del flip |
+| 2 | {ref}`Retirar la superficie o el disco rígido <sost-disco>` |
+| 3 | Retirar los tornillos del cárter situado en el lado del flip |
+| 4 | Retirar los tornillos que fijan el soporte de la pantalla a la plataforma superior |
+| 5 | Desconectar las conexiones neumáticas del bloque distribuidor y retirarlo junto con el cárter |
+| 6 | Desenroscar la parte superior del flip y sustituirla por el nuevo subconjunto |
+| 7 | Una vez terminada la sustitución, vuelva a montar todos los componentes |
+
+::::{raw} html
+<figure style="text-align: center;">
+  <video id="sostflip200-1" width="100%" height="auto" controls>
+    <source src="../../../../_shared/media/videos/AS000001_cambio-flip-sup.mp4" type="video/mp4">
+    Su navegador no admite el vídeo.
+  </video>
+  <br>
+  <label for="velcamflip200-1">Velocidad:</label>
+  <select id="velcamflip200-1" onchange="document.getElementById('sostflip200-1').playbackRate = this.value">
+    <option value="0.5">0.5x</option>
+    <option value="1" selected>1x</option>
+    <option value="1.5">1.5x</option>
+    <option value="2">2x</option>
+  </select>
+  <figcaption><i>Procedimiento de sustitución de la parte superior del grupo flip ilustrado en un FlexiBowl® 200</i></figcaption>
+</figure>
+::::
 
 ## FlexiBowl® 350-500-650-800-1200
 
-### Cosa serve?
+### ¿Qué se necesita?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Objeto/equipo
+  - Cantidad
 
-* - Chiave esagonale H5
+* - Llave hexagonal H5
   - 1
 
-* - Chiave esagonale H4
+* - Llave hexagonal H4
   - 1
 
-* - Gruppo flip sostitutivo
+* - Grupo flip de repuesto
   - 1
 
 :::
 
-### Procedimento
+### Procedimiento
 
-| Step | Operazione |
+| Paso | Operación |
 |:----:|-----------|
-| 1 | {ref}`accedere al gruppo flip <contflip>` |
-| 2 | Rimuovere gli allacciamenti pneumatici e smontare il gruppo flip |
-| 3 | Sostituire il gruppo flip danneggiato con quello nuovo |
-| 4 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | {ref}`acceder al grupo flip <contflip>` |
+| 2 | Retirar las conexiones neumáticas y desmontar el grupo flip |
+| 3 | Sustituir el grupo flip dañado por el nuevo |
+| 4 | Una vez terminada la sustitución, vuelva a montar todos los componentes |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="sostflip" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000006_cambioflip.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Su navegador no admite el vídeo.
   </video>
   <br>
-  <label for="velcamflip">Velocità:</label>
+  <label for="velcamflip">Velocidad:</label>
   <select id="velcamflip" onchange="document.getElementById('sostflip').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione del gruppo flip illustrata su FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Procedimiento de sustitución del grupo flip ilustrado en un FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-Il gruppo flip del FlexiBowl® 1200 è composto da due parti da smontare individualmente.
+El grupo flip del FlexiBowl® 1200 se compone de dos partes que deben desmontarse individualmente.
 :::
 
 :::{tip}
-Sul **FlexiBowl® 350** potrebbe risultare più comodo rimuovere il carter.
+En el **FlexiBowl® 350** puede resultar más cómodo retirar el cárter.
 :::

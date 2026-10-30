@@ -49,7 +49,7 @@
 .compare-card-body table tr:last-child td { border-bottom: none; }
 </style>
 
-# [ELE] **Comparativa Elettrica**
+# **Comparativa Elettrica**
 
 Questa pagina confronta le principali differenze elettriche tra **FlexiBowl® 2.0** e **FlexiBowl® 3.0**, in termini di alimentazione, connettività e sicurezza.
 

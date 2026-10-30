@@ -1,6 +1,6 @@
-# [SOF] **Home**
+# **Home**
 
-La nuova interfaccia FlexiBowl® è completamente web-based. Per accedervi è sufficiente inserire l'indirizzo IP di default del FlexiBowl® `192.168.1.10` sulla barra di ricerca del vostro browser. 
+La nuova interfaccia FlexiBowl® è completamente web-based. Per accedervi è sufficiente inserire l'indirizzo IP di default del FlexiBowl® `192.168.1.10` sulla barra di ricerca del vostro browser.
 
 ## Panoramica
 

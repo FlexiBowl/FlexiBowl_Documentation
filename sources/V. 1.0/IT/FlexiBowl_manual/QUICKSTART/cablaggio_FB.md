@@ -1,4 +1,4 @@
-# **[ELE]** Cablaggio del FlexiBowl®
+# **Cablaggio del FlexiBowl®**
 
 <style>
 .ars-dropdown {
@@ -94,7 +94,7 @@
 :::::
 
 :::{warning}
-Prima di effettuare qualsiasi connessione elettrica, assicurarsi che l'alimentazione sia disinserita e che il sistema sia in stato di sicurezza. 
+Prima di effettuare qualsiasi connessione elettrica, assicurarsi che l'alimentazione sia disinserita e che il sistema sia in stato di sicurezza.
 :::
 
 Il cablaggio del FlexiBowl® cambia in base alla taglia della macchina:

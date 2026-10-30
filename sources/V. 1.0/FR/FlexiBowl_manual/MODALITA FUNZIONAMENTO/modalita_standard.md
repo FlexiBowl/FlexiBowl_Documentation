@@ -1,68 +1,83 @@
 # **Mode Standard**
 
-La **Modalità Standard** è la configurazione operativa predefinita del FlexiBowl® e si adatta a qualsiasi tipo di applicazione di alimentazione robotizzata. In questa modalità, il robot e il sistema di visione condividono la stessa area di lavoro, operando in modo coordinato e sequenziale per garantire elevate prestazioni di ciclo.
+Le **mode Standard** est la configuration opérationnelle par défaut du FlexiBowl® et convient à tout type d'application d'alimentation robotisée. Dans ce mode, le robot et le système de vision partagent la même zone de travail, en opérant de manière coordonnée et séquentielle afin de garantir des performances de cycle élevées.
 
 ---
 
-## Principio di funzionamento
+## Principe de fonctionnement
 
-Il FlexiBowl® in Modalità Standard esegue un ciclo continuo composto da tre fasi principali, che si ripetono in sequenza:
+En mode Standard, le FlexiBowl® exécute un cycle continu composé de trois phases principales, qui se répètent en séquence :
 
 ```{figure} ../../../../_shared/media/images/flexibowl_standard_cycle.jpg
 :align: center
 :width: 50%
-:alt: *Ciclo operativo in Modalità Standard: Detect → Pick-Drop → Move-Flip*
+:alt: *Cycle opérationnel en mode Standard : Detect → Pick-Drop → Move-Flip*
 ```
 ```{image} ../../../../_shared/media/videos/STANDARD_MODE.gif
 :align: center
 :width: 100%
-:alt: *Ciclo operativo in Modalità Standard: Detect → Pick-Drop → Move-Flip*
+:alt: *Cycle opérationnel en mode Standard : Detect → Pick-Drop → Move-Flip*
 ```
 
-### 1. Detect (Rilevamento)
+### 1. Detect (Détection)
 
-Il sistema di visione acquisisce un'immagine della superficie del FlexiBowl® e identifica la posizione, l'orientamento e la tipologia dei componenti presenti. Le informazioni vengono trasmesse al robot per pianificare le operazioni di prelievo.
+Le système de vision acquiert une image de la surface du FlexiBowl® et identifie la position, l'orientation et le type des composants présents. Les informations sont transmises au robot pour planifier les opérations de prélèvement.
 
-### 2. Pick-Drop (Prelievo e Deposito)
+### 2. Pick-Drop (Prélèvement et dépose)
 
-Il robot preleva i componenti correttamente orientati dal FlexiBowl® e li deposita nella posizione di destinazione (es. vassoio, nastro trasportatore, stazione di assemblaggio). Le attività di visione e prelievo vengono eseguite **in modo sequenziale**: prima il sistema di visione scansiona la scena, poi il robot interviene.
+Le robot prélève les composants correctement orientés du FlexiBowl® et les dépose à la position de destination (par ex. plateau, tapis roulant, poste d'assemblage). Les activités de vision et de prélèvement sont exécutées **de manière séquentielle** : d'abord le système de vision scanne la scène, puis le robot intervient.
 
-### 3. Move-Flip (Movimento e Ribaltamento)
+### 3. Move-Flip (Mouvement et retournement)
 
-Al termine del prelievo, il FlexiBowl® esegue un movimento combinato di rotazione e vibrazione (**flip**) per rimescolare i componenti rimanenti e favorire la corretta presentazione di nuovi pezzi. Contestualmente, lo **scarico dell'hopper** e il **movimento del bowl** vengono eseguiti **in modo simultaneo**, ottimizzando i tempi di ciclo.
+À la fin du prélèvement, le FlexiBowl® exécute un mouvement combiné de rotation et de vibration (**flip**) pour remélanger les composants restants et favoriser la présentation correcte de nouvelles pièces. Parallèlement, la **décharge du hopper** et le **mouvement du bowl** sont exécutés **simultanément**, ce qui optimise les temps de cycle.
 
 ---
 
-## Caratteristiche principali
+## Caractéristiques principales
 
-| Caratteristica | Descrizione |
+| Caractéristique | Description |
 |---|---|
-| **Area di lavoro condivisa** | Il robot e il sistema di visione operano nella stessa zona del FlexiBowl® |
-| **Applicabilità** | Adatta a tutte le tipologie di applicazione |
-| **Scarico hopper** | Eseguito simultaneamente al movimento/impulso del FlexiBowl® |
-| **Visione e prelievo** | Eseguiti in sequenza |
-| **Misurazione del ciclo** | Il tempo di ciclo è misurato su base al minuto |
+| **Zone de travail partagée** | Le robot et le système de vision opèrent dans la même zone du FlexiBowl® |
+| **Applicabilité** | Adapté à tous les types d'application |
+| **Décharge du hopper** | Exécutée simultanément avec le mouvement/l'impulsion du FlexiBowl® |
+| **Vision et prélèvement** | Exécutés en séquence |
+| **Mesure du cycle** | Le temps de cycle est mesuré sur une base à la minute |
 
 ---
 
-## Schema del ciclo operativo
+## Schéma du cycle opérationnel
 
-Il ciclo si svolge secondo il seguente schema ad anello chiuso:
+Le cycle se déroule selon le schéma en boucle fermée suivant :
 
-1. **Detect** — Il sistema di visione scansiona il FlexiBowl® e localizza i componenti.  
-2. **Pick-Drop** — Il robot preleva i pezzi identificati e li deposita nella destinazione.  
-3. **Move-Flip** — Il FlexiBowl® rimescola i componenti per il ciclo successivo.  
-4. Il ciclo ricomincia dal punto 1.
+1. **Detect** — Le système de vision scanne le FlexiBowl® et localise les composants.
+2. **Pick-Drop** — Le robot prélève les pièces identifiées et les dépose à destination.
+3. **Move-Flip** — Le FlexiBowl® remélange les composants pour le cycle suivant.
+4. Le cycle recommence au point 1.
 
 :::{note} 
-Durante la fase Move-Flip, lo scarico dell'hopper avviene in parallelo al movimento del FlexiBowl®, riducendo i tempi morti e massimizzando la produttività.
+Pendant la phase Move-Flip, la décharge du hopper s'effectue en parallèle avec le mouvement du FlexiBowl®, ce qui réduit les temps morts et maximise la productivité.
 :::
 
 ---
+## Exemple d'implantation
 
-## Vantaggi della Modalità Standard
+:::{figure} ../../../../_shared/media/images/Funz-standard.PNG
+:align: center
+:width: 60%
 
-- **Semplicità di integrazione**: la configurazione è immediata e non richiede parametri avanzati.
-- **Versatilità**: compatibile con una vasta gamma di componenti e settori industriali.
-- **Efficienza**: la simultaneità tra scarico hopper e movimento FlexiBowl® riduce i tempi di attesa.
-- **Affidabilità**: il ciclo sequenziale visione–prelievo minimizza gli errori di presa.
+Exemple d'implantation en mode Standard : le Bulk Feeder décharge dans le secteur de dépose, le flip sépare les composants, le robot prélève dans la zone de vision et les pièces non prélevées recirculent.
+:::
+
+La zone de travail du robot doit couvrir entièrement la zone de vision, de sorte que le robot puisse atteindre tous les composants reconnus comme prenables. Pour le positionnement du robot, du Bulk Feeder, des zones de dépose, de la caméra et de l'éclairage, se référer à {ref}`Layout Best Practice <layoutbp-traditional>`.
+
+
+---
+
+## Avantages 
+
+
+:::{grid-item-card} Avantages
+- **Précision** : .
+- **Séparation** : .
+- **Vitesse** : .
+:::

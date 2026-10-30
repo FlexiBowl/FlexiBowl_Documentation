@@ -1,5 +1,5 @@
 (int_software)=
-# [SOF] **Interfaccia Software**
+# **Interfaccia Software**
 
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
@@ -368,7 +368,7 @@
 
 ## Introduzione
 
-La nuova interfaccia FlexiBowl® è completamente web-based. Per accedervi è sufficiente inserire l'indirizzo IP di default del FlexiBowl® `192.168.1.10` sulla barra di ricerca del vostro browser. 
+La nuova interfaccia FlexiBowl® è completamente web-based. Per accedervi è sufficiente inserire l'indirizzo IP di default del FlexiBowl® `192.168.1.10` sulla barra di ricerca del vostro browser.
 
 :::{video} ../../../../_shared/media/videos/IP_Home.mp4
 :width: 90%
@@ -379,10 +379,10 @@ La nuova interfaccia FlexiBowl® è completamente web-based. Per accedervi è su
 
 Il sistema di comunicazione è basato su **variabili di Input/Output** e **Control Word numeriche**: il sistema esterno invia un numero (la ControlWord) che identifica l'azione da eseguire e il FlexiBowl® risponde con segnali di stato e dati di ritorno.
 
-Protocolli supportati:  
-- **TCP Server**  
-- **EtherNet/IP**  
-- **Profinet**  
+Protocolli supportati:
+- **TCP Server**
+- **EtherNet/IP**
+- **Profinet**
 - **Modbus**
 
 :::{important}
@@ -712,8 +712,8 @@ Il comando **Reset Return Data** (ControlWord 50) azzera il valore di ReturnData
 
 #### Esempio pratico 
 
-Per visualizzare un esempio pratico di Comando EXE in fieldbus, consultare la sezione [Esempio Pratico EXE](fieldbus_exe).  
-Per visualizzare un esempio pratico di comando EXE in TCP, consultare la sezione [Esempio Pratico EXE TCP](TCP_EXE). 
+Per visualizzare un esempio pratico di Comando EXE in fieldbus, consultare la sezione [Esempio Pratico EXE](fieldbus_exe).
+Per visualizzare un esempio pratico di comando EXE in TCP, consultare la sezione [Esempio Pratico EXE TCP](TCP_EXE).
 
 (sec-write)=
 ### Comandi <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span>
@@ -767,15 +767,15 @@ dove `N` è il numero della sequenza (1–20) e `offset_parametro` identifica il
 | SEQ 20 (N=20) | SpeedMove | 02 | 20 x 100 + 02 | 2002 |
 
 :::{tip}
-La formula è semplice:  
-- Per scrivere la velocità (offset 02) della sequenza 7, la ControlWord è `7 × 100 + 2 = 702`.  
+La formula è semplice:
+- Per scrivere la velocità (offset 02) della sequenza 7, la ControlWord è `7 × 100 + 2 = 702`.
 - Per scrivere il FlipCount (offset 10) della sequenza 15, la ControlWord è `15 × 100 + 10 = 1510`.
 :::
 
 #### Esempio pratico 
 
-Per visualizzare un esempio pratico di Comando WRITE in fieldbus, consultare la sezione [Esempio Pratico WRITE](fieldbus_write).  
-Per visualizzare un esempio pratico di comando WRITE in TCP, consultare la sezione [Esempio Pratico WRITE TCP](TCP_write). 
+Per visualizzare un esempio pratico di Comando WRITE in fieldbus, consultare la sezione [Esempio Pratico WRITE](fieldbus_write).
+Per visualizzare un esempio pratico di comando WRITE in TCP, consultare la sezione [Esempio Pratico WRITE TCP](TCP_write).
 
 #### Parametri WRITE JOG
 
@@ -837,14 +837,14 @@ I parametri leggibili sono gli stessi del blocco WRITE, con l'aggiunta dei 10 sl
 | SEQ 20 | Emptying Sequence | 12040 |
 
 :::{tip}
-Formula rapida:  
+Formula rapida:
  Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è `10000 + 12 × 100 + 2 = 11202`.
 :::
 
 #### Esempio pratico 
 
-Per visualizzare un esempio pratico di Comando READ in fieldbus, consultare la sezione [Esempio Pratico READ](fieldbus_read).  
-Per visualizzare un esempio pratico di comando READ in TCP, consultare la sezione [Esempio Pratico READ TCP](TCP_read). 
+Per visualizzare un esempio pratico di Comando READ in fieldbus, consultare la sezione [Esempio Pratico READ](fieldbus_read).
+Per visualizzare un esempio pratico di comando READ in TCP, consultare la sezione [Esempio Pratico READ TCP](TCP_read).
 
 #### Parametri READ JOG
 
@@ -909,8 +909,8 @@ Nel materiale di training, la ControlWord `30005` (Hopper_2_Id) riportava per er
 
 #### Esempio pratico
 
-Per visualizzare un esempio pratico di Comando WRITE HOPPER in fieldbus, consultare la sezione [Esempio Pratico WRITE HOPPER](fieldbus_WRITEHOPPER).  
-Per visualizzare un esempio pratico di comando WRITE HOPPER in TCP, consultare la sezione [Esempio Pratico WRITE HOPPER TCP](TCP_WRITEHOPPER). 
+Per visualizzare un esempio pratico di Comando WRITE HOPPER in fieldbus, consultare la sezione [Esempio Pratico WRITE HOPPER](fieldbus_WRITEHOPPER).
+Per visualizzare un esempio pratico di comando WRITE HOPPER in TCP, consultare la sezione [Esempio Pratico WRITE HOPPER TCP](TCP_WRITEHOPPER).
 
 ### Comandi READ Hopper
 
@@ -947,8 +947,8 @@ Per visualizzare un esempio pratico di comando WRITE HOPPER in TCP, consultare l
 
 #### Esempio pratico 
 
-Per visualizzare un esempio pratico di Comando READ HOPPER in fieldbus, consultare la sezione [Esempio Pratico READ HOPPER](fieldbus_READHOPPER).  
-Per visualizzare un esempio pratico di comando READ HOPPER in TCP, consultare la sezione [Esempio Pratico READ HOPPER TCP](TCP_READHOPPER). 
+Per visualizzare un esempio pratico di Comando READ HOPPER in fieldbus, consultare la sezione [Esempio Pratico READ HOPPER](fieldbus_READHOPPER).
+Per visualizzare un esempio pratico di comando READ HOPPER in TCP, consultare la sezione [Esempio Pratico READ HOPPER TCP](TCP_READHOPPER).
 
 ---
 

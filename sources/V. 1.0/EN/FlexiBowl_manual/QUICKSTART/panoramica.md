@@ -1,5 +1,5 @@
 # **Operations Overview**
-This page provides an overview of the configuration and start-up process of the FlexiBowl®. The following workflow illustrates the main steps in sequence: click on each step to access the dedicated page.
+This page provides an overview of the FlexiBowl® configuration and commissioning process. The following workflow shows the main steps in sequence: click on each step to access the dedicated page.
 
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
@@ -136,11 +136,11 @@ This page provides an overview of the configuration and start-up process of the 
     <div class="qs-card">
       <div class="qs-card-title">
         <i class="ph ph-wrench"></i>
-        <a class="qs-title-link" href="installazione_meccanica.html">FlexiBowl® Installation</a>
+        <a class="qs-title-link" href="installazione_meccanica.html">Installing the FlexiBowl®</a>
         <a class="qs-badge" href="../DATI TECNICI/02_dati-tecnici-meccanici.html">Mechanical</a>
       </div>
       <p class="qs-card-desc">
-        Place and fix the FlexiBowl® on a stable, horizontal surface, respecting the flatness tolerances and the dimensional requirements of the support.
+        Position and secure the FlexiBowl® on a stable, horizontal surface, observing the flatness tolerances and the dimensional requirements of the support.
       </p>
     </div>
   </div>
@@ -158,7 +158,7 @@ This page provides an overview of the configuration and start-up process of the 
         <a class="qs-badge" href="../DATI TECNICI/03_dati-tecnici-elettrici.html">Electrical</a>
       </div>
       <p class="qs-card-desc">
-        Make the electrical connections following the specific instructions for the model in use (200/350 via external box; 500–1200 on the integrated panel).
+        Make the electrical connections following the instructions specific to the model in use (200/350 via external box; 500–1200 on the integrated panel).
       </p>
     </div>
   </div>
@@ -176,7 +176,7 @@ This page provides an overview of the configuration and start-up process of the 
         <a class="qs-badge" href="../INSTALLAZIONE/04_interfaccia-software.html">Software</a>
       </div>
       <p class="qs-card-desc">
-        Access the FlexiBowl® web interface, configure the IP address, the communication type and, if necessary, enable the backlight for calibration of the vision system.
+        Access the FlexiBowl® web interface, configure the IP address and communication type and, if necessary, enable the backlight for calibrating the vision system.
       </p>
     </div>
   </div>
@@ -193,7 +193,7 @@ This page provides an overview of the configuration and start-up process of the 
         <a class="qs-title-link" href="FB_wizard.html">FlexiBowl® Wizard</a>
       </div>
       <p class="qs-card-desc">
-        Use the guided configuration to characterize the component to be fed (geometry, overlapping), test the accessories (air-blow, flip) and automatically generate the optimal movement and shake parameters.
+        Use the guided configuration to characterise the component to be fed (geometry, overlap), test the accessories (air-blow, flip) and automatically generate the optimal movement and shaking parameters.
       </p>
     </div>
   </div>
@@ -207,10 +207,10 @@ This page provides an overview of the configuration and start-up process of the 
     <div class="qs-card">
       <div class="qs-card-title">
         <i class="ph ph-sliders"></i>
-        <a class="qs-title-link" href="conf_tramoggia.html">Hopper Configuration</a>
+        <a class="qs-title-link" href="conf_tramoggia.html">Bulk Feeder Configuration</a>
       </div>
       <p class="qs-card-desc">
-        Use the guided configuration to characterize the behavior of the hopper.
+        Use the guided configuration to characterise the behaviour of the Bulk Feeder.
       </p>
     </div>
   </div>

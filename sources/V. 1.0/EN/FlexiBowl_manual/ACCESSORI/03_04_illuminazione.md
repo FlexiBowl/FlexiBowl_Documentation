@@ -1,21 +1,20 @@
-# [MEC] **Lighting**
+# **Lighting**
 
 (backlight)=
 # **Backlight**
 
-The Backlight is a light located under the Lexan window of the sliding plane, so that its light can hit the surface or rigid disc and the silhouette of the components above it becomes visible to the vision system. 
-The Backlight is available with the following light: 
+The Backlight is a light located under the lexan window of the sliding plane, so that its light can hit the surface or rigid disc and the silhouette of the components above it becomes visible to the vision system. The Backlight is available with the following light colors:
 - White
 - Red
 - Infrared
 
 :::{important}
-The infrared Backlight emits invisible light and may therefore appear not to be working. Check with a camera fitted with an infrared filter to verify its operation. Most smartphones can display infrared.
+The infrared Backlight emits invisible light and may therefore appear not to be working. Check it with a camera fitted with an infrared filter to verify that it works. Most smartphones can display infrared.
 :::
 
 There are also two types of Backlight:
 - Standard: it is powered continuously from inside, and it can be switched on and off via software or digital I/O;
-- Strobe: it is controlled externally through the "strobe" input of the input connector. It is up to the customer to supply the correct 24Vdc power to switch it on.
+- Strobe: it is controlled externally via the "strobe" input of the input connector. The customer is responsible for supplying the correct 24Vdc power to switch it on.
 
 ## Backlight characteristics
 
@@ -26,7 +25,7 @@ There are also two types of Backlight:
 | Items | CE001136 | CE001132 | CE001134 |
 |--|--|--|--|
 | LED color | red | infrared | white |
-| Wavelength | 630 nm | 850 nm | N/D |
+| Wavelength | 630 nm | 850 nm | N/A |
 | Voltage | 24VDC | 24VDC | 24VDC |
 | Current | 0.17A | 0.12A | 0.17A |
 | Illumination area | 155x75 mm^2 |  |  |
@@ -34,7 +33,7 @@ There are also two types of Backlight:
 | Operating temperature | -40 / +85 °C |  |  |
 | Cable length | 0.2 m |  |  |
 | Cooling method | Natural air |  |  |
-| Opal material | 3+3 glass with milky white plastic |  |  |
+| Opal material | 3+3 glass with milk-white plastic |  |  |
 ```
 
 ```{dropdown} Backlight for FB350
@@ -44,7 +43,7 @@ There are also two types of Backlight:
 | Items | CE001142 | CE001139 | CE001140 |
 |--|--|--|--|
 | LED color | red | infrared | white |
-| Wavelength | 630 nm | 850 nm | N/D |
+| Wavelength | 630 nm | 850 nm | N/A |
 | Voltage | 24VDC | 24VDC | 24VDC |
 | Current | 0.18A | 0.13A | 0.18A |
 | Illumination area | 220x100 mm^2 |  |  |
@@ -52,7 +51,7 @@ There are also two types of Backlight:
 | Operating temperature | -40 / +85 °C |  |  |
 | Cable length | 0.2 m |  |  |
 | Cooling method | Natural air |  |  |
-| Opal material | 3+3 glass with milky white plastic |  |  |
+| Opal material | 3+3 glass with milk-white plastic |  |  |
 ```
 
 ```{dropdown} Backlight for FB500
@@ -62,7 +61,7 @@ There are also two types of Backlight:
 | Items | CE001148 | CE001144 | CE001146 |
 |--|--|--|--|
 | LED color | red | infrared | white |
-| Wavelength | 630 nm | 850 nm | N/D |
+| Wavelength | 630 nm | 850 nm | N/A |
 | Voltage | 24VDC | 24VDC | 24VDC |
 | Current | 0.46A | 0.31A | 0.46A |
 | Illumination area | 330x170 mm^2 |  |  |
@@ -70,7 +69,7 @@ There are also two types of Backlight:
 | Operating temperature | -40 / +85 °C |  |  |
 | Cable length | 0.2 m |  |  |
 | Cooling method | Natural air |  |  |
-| Opal material | 3+3 glass with milky white plastic |  |  |
+| Opal material | 3+3 glass with milk-white plastic |  |  |
 ```
 
 ```{dropdown} Backlight for FB650
@@ -81,7 +80,7 @@ There are also two types of Backlight:
 |--|--|--|--|
 | Alternative items | GM000591 | GM000592 | GM000590 |
 | LED color | red | infrared | white |
-| Wavelength | 630 nm | 850 nm | N/D |
+| Wavelength | 630 nm | 850 nm | N/A |
 | Voltage | 24VDC | 24VDC | 24VDC |
 | Current | 0.86A | 0.56A | 0.94A |
 | Illumination area | 400x240 mm^2 |  |  |
@@ -89,7 +88,7 @@ There are also two types of Backlight:
 | Operating temperature | -40 / +85 °C |  |  |
 | Cable length | 0.2 m |  |  |
 | Cooling method | Natural air |  |  |
-| Opal material | 3+3 glass with milky white plastic |  |  |
+| Opal material | 3+3 glass with milk-white plastic |  |  |
 ```
 
 ```{dropdown} Backlight for FB800
@@ -99,7 +98,7 @@ There are also two types of Backlight:
 | Items | CE001154 | CE001150 | CE001152 |
 |--|--|--|--|
 | LED color | red | infrared | white |
-| Wavelength | 630 nm | 850 nm | N/D |
+| Wavelength | 630 nm | 850 nm | N/A |
 | Voltage | 24VDC | 24VDC | 24VDC |
 | Current | 1.15A | 0.76A | 1.2A |
 | Illumination area | 400x315 mm^2 |  |  |
@@ -107,7 +106,7 @@ There are also two types of Backlight:
 | Operating temperature | -40 / +85 °C |  |  |
 | Cable length | 0.2 m |  |  |
 | Cooling method | Natural air |  |  |
-| Opal material | 3+3 glass with milky white plastic |  |  |
+| Opal material | 3+3 glass with milk-white plastic |  |  |
 ```
 
 ```{dropdown} Backlight for FB1200
@@ -117,7 +116,7 @@ There are also two types of Backlight:
 | Items | GE000051 | GE000052 | GE000050 |
 |--|--|--|--|
 | LED color | red | infrared | white |
-| Wavelength | 630 nm | 850 nm | N/D |
+| Wavelength | 630 nm | 850 nm | N/A |
 | Voltage | 24VDC | 24VDC | 24VDC |
 | Current | 4A | 2.6A | 4.2A |
 | Illumination area | 917x525 mm^2 |  |  |
@@ -125,7 +124,7 @@ There are also two types of Backlight:
 | Operating temperature | -40 / +85 °C |  |  |
 | Cable length | 0.2 m |  |  |
 | Cooling method | Natural air |  |  |
-| Opal material | 3+3 glass with milky white plastic |  |  |
+| Opal material | 3+3 glass with milk-white plastic |  |  |
 ```
 
 ## Backlight colors
@@ -140,11 +139,11 @@ There are also two types of Backlight:
 
 * - Red
   - 630 nm
-  - Used for special metallic components. Wavelength: 630 nm. The cell must be shielded from any external light source and from sunlight.
+  - Used for special metal components. Wavelength: 630 nm. The cell must be shielded from any external light source and from sunlight.
 
 * - IR
   - 850 nm
-  - Preferred for most types of applications. Not visible to the human eye. Wavelength: 850 nm. It is recommended to shield the cell to avoid interference from sunlight.
+  - Preferred for most types of applications. Not visible to the human eye. Wavelength: 850 nm. Shielding the cell is recommended to avoid interference from sunlight.
 
 * - White
   - N/A
@@ -156,23 +155,22 @@ There are also two types of Backlight:
 (toplight)=
 # **Toplight**
 
-The Toplight is a separate illuminator that is mounted at the height of the camera and illuminates the FlexiBowl® vision area from above, so that the features of the component that face the camera are highlighted. It is mainly suited to smooth, non-reflective surfaces, or surfaces that have some kind of distinguishable marking.
-The Toplight is available with the following light: 
+The Toplight is a separate illuminator that is mounted at the height of the camera and illuminates the vision area of the FlexiBowl® from above, so that the features of the component facing the camera are highlighted. It is mainly suitable for smooth, non-reflective surfaces, or surfaces with some kind of distinguishable marking. The Toplight is available with the following light colors:
 - White
 - Red
 - Infrared
 
 :::{important}
-The infrared Toplight emits invisible light and may therefore appear not to be working. Check with a camera fitted with an infrared filter to verify its operation. Most smartphones can display infrared.
+The infrared Toplight emits invisible light and may therefore appear not to be working. Check it with a camera fitted with an infrared filter to verify that it works. Most smartphones can display infrared.
 :::
 
 ## Toplight characteristics
 
 ```{dropdown} TopLight 500x300 - White
-This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
+This Toplight size is suitable for the following models: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
 ![Toplight](../../../../_shared/media/images/toplight_CM002316.png)
  
-| Length | Width | Height | Height with fixing plate | Central hole diameter | Max usable surface [AxB] | Max usable perimeter |
+| Length | Width | Height | Height with mounting plate | Center hole diameter | Max usable area [AxB] | Max usable perimeter |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 500 | 300 | 45 | 55 | 65 | 0.15 m^2 | 1.6 m |
@@ -200,7 +198,7 @@ This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl
   - 10 µs
  
 * - Control
-  - [M12 connector](cablaggio_illuminatore)
+  - [Connettore M12](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -220,14 +218,14 @@ This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl
 * - Wavelength
   -
  
-* - Risk Class
+* - Risk Group
   - 0 (no risk)
  
 * - **Mechanical**
   -
  
 * - Thickness
-  - 45mm + 10mm with fixing plate
+  - 45mm + 10mm with mounting plate
  
 * - Inner diameter
   - 65mm
@@ -241,20 +239,17 @@ This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl
 * - Diffuser
   - White PMMA
  
-* - Fixing
-  - 4 M4 nuts (supplied) to be inserted in the groove
-    or 4 M4x20 screws (not supplied) applied at the corners
+* - Mounting
+  - 4 M4 nuts (supplied) to be inserted in the groove, or 4 M4x20 screws (not supplied) applied at the corners
  
 * - **Environment**
   -
  
 * - Operating temperature
-  - -10°C to +40°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -10°C to +40°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - Storage temperature
-  - -20°C to +60°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -20°C to +60°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - IP protection rating
   - IP 50
@@ -265,10 +260,10 @@ This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl
  
 ```
 ```{dropdown} TopLight 500x300 - Red  
-This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
+This Toplight size is suitable for the following models: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
 ![Toplight](../../../../_shared/media/images/toplight_CM002316.png)
  
-| Length | Width | Height | Height with fixing plate | Central hole diameter | Max usable surface [AxB] | Max usable perimeter |
+| Length | Width | Height | Height with mounting plate | Center hole diameter | Max usable area [AxB] | Max usable perimeter |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 500 | 300 | 45 | 55 | 65 | 0.15 m^2 | 1.6 m |
@@ -296,7 +291,7 @@ This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl
   - 10 µs
  
 * - Control
-  - [M12 connector](cablaggio_illuminatore)
+  - [Connettore M12](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -316,7 +311,7 @@ This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl
 * - Wavelength
   - 630 nm
  
-* - Risk Class
+* - Risk Group
   - 0 (no risk)
  
  
@@ -324,7 +319,7 @@ This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl
   -
  
 * - Thickness
-  - 45mm + 10mm with fixing plate
+  - 45mm + 10mm with mounting plate
  
 * - Inner diameter
   - 65mm
@@ -338,20 +333,17 @@ This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl
 * - Diffuser
   - White PMMA
  
-* - Fixing
-  - 4 M4 nuts (supplied) to be inserted in the groove
-    or 4 M4x20 screws (not supplied) applied at the corners
+* - Mounting
+  - 4 M4 nuts (supplied) to be inserted in the groove, or 4 M4x20 screws (not supplied) applied at the corners
  
 * - **Environment**
   -
  
 * - Operating temperature
-  - -10°C to +40°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -10°C to +40°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - Storage temperature
-  - -20°C to +60°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -20°C to +60°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - IP protection rating
   - IP 50
@@ -363,10 +355,10 @@ This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl
 ```
  
 ```{dropdown} TopLight 500x300 - Infrared
-This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
+This Toplight size is suitable for the following models: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
 ![Toplight](../../../../_shared/media/images/toplight_CM002316.png)
  
-| Length | Width | Height | Height with fixing plate | Central hole diameter | Max usable surface [AxB] | Max usable perimeter |
+| Length | Width | Height | Height with mounting plate | Center hole diameter | Max usable area [AxB] | Max usable perimeter |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 500 | 300 | 45 | 55 | 65 | 0.15 m^2 | 1.6 m |
@@ -394,7 +386,7 @@ This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl
   - 10 µs
  
 * - Control
-  - [M12 connector](cablaggio_illuminatore)
+  - [Connettore M12](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -414,14 +406,14 @@ This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl
 * - Wavelength
   - 850 nm
  
-* - Risk Class
+* - Risk Group
   - 1 (low risk)
  
 * - **Mechanical**
   -
  
 * - Thickness
-  - 45mm + 10mm with fixing plate
+  - 45mm + 10mm with mounting plate
  
 * - Inner diameter
   - 65mm
@@ -435,20 +427,17 @@ This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl
 * - Diffuser
   - White PMMA
  
-* - Fixing
-  - 4 M4 nuts (supplied) to be inserted in the groove
-    or 4 M4x20 screws (not supplied) applied at the corners
+* - Mounting
+  - 4 M4 nuts (supplied) to be inserted in the groove, or 4 M4x20 screws (not supplied) applied at the corners
  
 * - **Environment**
   -
  
 * - Operating temperature
-  - -10°C to +40°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -10°C to +40°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - Storage temperature
-  - -20°C to +60°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -20°C to +60°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - IP protection rating
   - IP 50
@@ -460,10 +449,10 @@ This Toplight size is suited to the following models: FlexiBowl® 200, FlexiBowl
 ```
  
 ```{dropdown} TopLight 700x300 - White
-This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl® 800
+This Toplight size is suitable for the following models: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002317.png)
  
-| Length | Width | Height | Height with fixing plate | Central hole diameter | Max usable surface [AxB] | Max usable perimeter |
+| Length | Width | Height | Height with mounting plate | Center hole diameter | Max usable area [AxB] | Max usable perimeter |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 700 | 300 | 45 | 55 | 65 | 0.21 m^2 | 2 m |
@@ -491,7 +480,7 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
   - 10 µs
  
 * - Control
-  - [M12 connector](cablaggio_illuminatore)
+  - [Connettore M12](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -511,14 +500,14 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 * - Wavelength
   -
  
-* - Risk Class
+* - Risk Group
   - 0 (no risk)
  
 * - **Mechanical**
   -
  
 * - Thickness
-  - 45mm + 10mm with fixing plate
+  - 45mm + 10mm with mounting plate
  
 * - Inner diameter
   - 65mm
@@ -532,20 +521,17 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 * - Diffuser
   - White PMMA
  
-* - Fixing
-  - 4 M4 nuts (supplied) to be inserted in the groove
-    or 4 M4x20 screws (not supplied) applied at the corners
+* - Mounting
+  - 4 M4 nuts (supplied) to be inserted in the groove, or 4 M4x20 screws (not supplied) applied at the corners
  
 * - **Environment**
   -
  
 * - Operating temperature
-  - -10°C to +40°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -10°C to +40°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - Storage temperature
-  - -20°C to +60°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -20°C to +60°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - IP protection rating
   - IP 50
@@ -556,10 +542,10 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 ```
  
 ```{dropdown} TopLight 700x300 - Red
-This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl® 800
+This Toplight size is suitable for the following models: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002317.png)
  
-| Length | Width | Height | Height with fixing plate | Central hole diameter | Max usable surface [AxB] | Max usable perimeter |
+| Length | Width | Height | Height with mounting plate | Center hole diameter | Max usable area [AxB] | Max usable perimeter |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 700 | 300 | 45 | 55 | 65 | 0.21 m^2 | 2 m |
@@ -587,7 +573,7 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
   - 10 µs
  
 * - Control
-  - [M12 connector](cablaggio_illuminatore)
+  - [Connettore M12](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -607,14 +593,14 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 * - Wavelength
   - 630 nm
  
-* - Risk Class
+* - Risk Group
   - 0 (no risk)
  
 * - **Mechanical**
   -
  
 * - Thickness
-  - 45mm + 10mm with fixing plate
+  - 45mm + 10mm with mounting plate
  
 * - Inner diameter
   - 65mm
@@ -628,20 +614,17 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 * - Diffuser
   - White PMMA
  
-* - Fixing
-  - 4 M4 nuts (supplied) to be inserted in the groove
-    or 4 M4x20 screws (not supplied) applied at the corners
+* - Mounting
+  - 4 M4 nuts (supplied) to be inserted in the groove, or 4 M4x20 screws (not supplied) applied at the corners
  
 * - **Environment**
   -
  
 * - Operating temperature
-  - -10°C to +40°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -10°C to +40°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - Storage temperature
-  - -20°C to +60°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -20°C to +60°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - IP protection rating
   - IP 50
@@ -652,10 +635,10 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 ```
  
 ```{dropdown} TopLight 700x300 - Infrared
-This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl® 800
+This Toplight size is suitable for the following models: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002317.png)
  
-| Length | Width | Height | Height with fixing plate | Central hole diameter | Max usable surface [AxB] | Max usable perimeter |
+| Length | Width | Height | Height with mounting plate | Center hole diameter | Max usable area [AxB] | Max usable perimeter |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 700 | 300 | 45 | 55 | 65 | 0.21 m^2 | 2 m |
@@ -683,7 +666,7 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
   - 10 µs
  
 * - Control
-  - [M12 connector](cablaggio_illuminatore)
+  - [Connettore M12](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -703,14 +686,14 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 * - Wavelength
   - 850 nm
  
-* - Risk Class
+* - Risk Group
   - 1 (low risk)
  
 * - **Mechanical**
   -
  
 * - Thickness
-  - 45mm + 10mm with fixing plate
+  - 45mm + 10mm with mounting plate
  
 * - Inner diameter
   - 65mm
@@ -724,20 +707,17 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 * - Diffuser
   - White PMMA
  
-* - Fixing
-  - 4 M4 nuts (supplied) to be inserted in the groove
-    or 4 M4x20 screws (not supplied) applied at the corners
+* - Mounting
+  - 4 M4 nuts (supplied) to be inserted in the groove, or 4 M4x20 screws (not supplied) applied at the corners
  
 * - **Environment**
   -
  
 * - Operating temperature
-  - -10°C to +40°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -10°C to +40°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - Storage temperature
-  - -20°C to +60°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -20°C to +60°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - IP protection rating
   - IP 50
@@ -748,10 +728,10 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 ```
  
 ```{dropdown} TopLight 700x500 - White
-This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl® 800
+This Toplight size is suitable for the following models: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002318.png)
  
-| Length | Width | Height | Height with fixing plate | Central hole diameter | Max usable surface [AxB] | Max usable perimeter |
+| Length | Width | Height | Height with mounting plate | Center hole diameter | Max usable area [AxB] | Max usable perimeter |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 700 | 500 | 45 | 55 | 65 | 0.35 m^2 | 2.4 m |
@@ -779,7 +759,7 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
   - 10 µs
  
 * - Control
-  - [M12 connector](cablaggio_illuminatore)
+  - [Connettore M12](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -799,14 +779,14 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 * - Wavelength
   -
  
-* - Risk Class
+* - Risk Group
   - 0 (no risk)
  
 * - **Mechanical**
   -
  
 * - Thickness
-  - 45mm + 10mm with fixing plate
+  - 45mm + 10mm with mounting plate
  
 * - Inner diameter
   - 65mm
@@ -820,20 +800,17 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 * - Diffuser
   - White PMMA
  
-* - Fixing
-  - 4 M4 nuts (supplied) to be inserted in the groove
-    or 4 M4x20 screws (not supplied) applied at the corners
+* - Mounting
+  - 4 M4 nuts (supplied) to be inserted in the groove, or 4 M4x20 screws (not supplied) applied at the corners
  
 * - **Environment**
   -
  
 * - Operating temperature
-  - -10°C to +40°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -10°C to +40°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - Storage temperature
-  - -20°C to +60°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -20°C to +60°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - IP protection rating
   - IP 50
@@ -844,10 +821,10 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 ```
  
 ```{dropdown} TopLight 700x500 - Red
-This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl® 800
+This Toplight size is suitable for the following models: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002318.png)
  
-| Length | Width | Height | Height with fixing plate | Central hole diameter | Max usable surface [AxB] | Max usable perimeter |
+| Length | Width | Height | Height with mounting plate | Center hole diameter | Max usable area [AxB] | Max usable perimeter |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 700 | 500 | 45 | 55 | 65 | 0.35 m^2 | 2.4 m |
@@ -875,7 +852,7 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
   - 10 µs
  
 * - Control
-  - [M12 connector](cablaggio_illuminatore)
+  - [Connettore M12](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -895,14 +872,14 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 * - Wavelength
   - 630 nm
  
-* - Risk Class
+* - Risk Group
   - 0 (no risk)
  
 * - **Mechanical**
   -
  
 * - Thickness
-  - 45mm + 10mm with fixing plate
+  - 45mm + 10mm with mounting plate
  
 * - Inner diameter
   - 65mm
@@ -916,20 +893,17 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 * - Diffuser
   - White PMMA
  
-* - Fixing
-  - 4 M4 nuts (supplied) to be inserted in the groove
-    or 4 M4x20 screws (not supplied) applied at the corners
+* - Mounting
+  - 4 M4 nuts (supplied) to be inserted in the groove, or 4 M4x20 screws (not supplied) applied at the corners
  
 * - **Environment**
   -
  
 * - Operating temperature
-  - -10°C to +40°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -10°C to +40°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - Storage temperature
-  - -20°C to +60°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -20°C to +60°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - IP protection rating
   - IP 50
@@ -940,10 +914,10 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 ```
  
 ```{dropdown} TopLight 700x500 - Infrared
-This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl® 800
+This Toplight size is suitable for the following models: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002318.png)
  
-| Length | Width | Height | Height with fixing plate | Central hole diameter | Max usable surface [AxB] | Max usable perimeter |
+| Length | Width | Height | Height with mounting plate | Center hole diameter | Max usable area [AxB] | Max usable perimeter |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 700 | 500 | 45 | 55 | 65 | 0.35 m^2 | 2.4 m |
@@ -971,7 +945,7 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
   - 10 µs
  
 * - Control
-  - [M12 connector](cablaggio_illuminatore)
+  - [Connettore M12](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -991,14 +965,14 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 * - Wavelength
   - 850 nm
  
-* - Risk Class
+* - Risk Group
   - 1 (low risk)
  
 * - **Mechanical**
   -
  
 * - Thickness
-  - 45mm + 10mm with fixing plate
+  - 45mm + 10mm with mounting plate
  
 * - Inner diameter
   - 65mm
@@ -1012,20 +986,17 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 * - Diffuser
   - White PMMA
  
-* - Fixing
-  - 4 M4 nuts (supplied) to be inserted in the groove
-    or 4 M4x20 screws (not supplied) applied at the corners
+* - Mounting
+  - 4 M4 nuts (supplied) to be inserted in the groove, or 4 M4x20 screws (not supplied) applied at the corners
  
 * - **Environment**
   -
  
 * - Operating temperature
-  - -10°C to +40°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -10°C to +40°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - Storage temperature
-  - -20°C to +60°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -20°C to +60°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - IP protection rating
   - IP 50
@@ -1036,10 +1007,10 @@ This Toplight size is suited to the following models: FlexiBowl® 650, FlexiBowl
 ```
  
 ```{dropdown} TopLight 900x600 - White
-This Toplight size is suited to the FlexiBowl® 1200 models
+This Toplight size is suitable for the FlexiBowl® 1200 models
 ![Toplight](../../../../_shared/media/images/toplight_dim.png)
  
-| Length | Width | Height | Height with fixing plate | Central hole diameter | Max usable surface [AxB] | Max usable perimeter |
+| Length | Width | Height | Height with mounting plate | Center hole diameter | Max usable area [AxB] | Max usable perimeter |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 900 | 600 | 45 | 55 | 65 | 0.54 m^2 | 3 m |
@@ -1067,7 +1038,7 @@ This Toplight size is suited to the FlexiBowl® 1200 models
   - 10 µs
  
 * - Control
-  - [M12 connector](cablaggio_illuminatore)
+  - [Connettore M12](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1087,14 +1058,14 @@ This Toplight size is suited to the FlexiBowl® 1200 models
 * - Wavelength
   -
  
-* - Risk Class
+* - Risk Group
   - 0 (no risk)
  
 * - **Mechanical**
   -
  
 * - Thickness
-  - 45mm + 10mm with fixing plate
+  - 45mm + 10mm with mounting plate
  
 * - Inner diameter
   - 65mm
@@ -1108,20 +1079,17 @@ This Toplight size is suited to the FlexiBowl® 1200 models
 * - Diffuser
   - White PMMA
  
-* - Fixing
-  - 4 M4 nuts (supplied) to be inserted in the groove
-    or 4 M4x20 screws (not supplied) applied at the corners
+* - Mounting
+  - 4 M4 nuts (supplied) to be inserted in the groove, or 4 M4x20 screws (not supplied) applied at the corners
  
 * - **Environment**
   -
  
 * - Operating temperature
-  - -10°C to +40°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -10°C to +40°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - Storage temperature
-  - -20°C to +60°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -20°C to +60°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - IP protection rating
   - IP 50
@@ -1131,10 +1099,10 @@ This Toplight size is suited to the FlexiBowl® 1200 models
 :::
 ```
 ```{dropdown} TopLight 900x600 - Red
-This Toplight size is suited to the FlexiBowl® 1200 models
+This Toplight size is suitable for the FlexiBowl® 1200 models
 ![Toplight](../../../../_shared/media/images/toplight_dim.png)
  
-| Length | Width | Height | Height with fixing plate | Central hole diameter | Max usable surface [AxB] | Max usable perimeter |
+| Length | Width | Height | Height with mounting plate | Center hole diameter | Max usable area [AxB] | Max usable perimeter |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 900 | 600 | 45 | 55 | 65 | 0.54 m^2 | 3 m |
@@ -1162,7 +1130,7 @@ This Toplight size is suited to the FlexiBowl® 1200 models
   - 10 µs
  
 * - Control
-  - [M12 connector](cablaggio_illuminatore)
+  - [Connettore M12](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1182,14 +1150,14 @@ This Toplight size is suited to the FlexiBowl® 1200 models
 * - Wavelength
   - 630 nm
  
-* - Risk Class
+* - Risk Group
   - 0 (no risk)
  
 * - **Mechanical**
   -
  
 * - Thickness
-  - 45mm + 10mm with fixing plate
+  - 45mm + 10mm with mounting plate
  
 * - Inner diameter
   - 65mm
@@ -1203,20 +1171,17 @@ This Toplight size is suited to the FlexiBowl® 1200 models
 * - Diffuser
   - White PMMA
  
-* - Fixing
-  - 4 M4 nuts (supplied) to be inserted in the groove
-    or 4 M4x20 screws (not supplied) applied at the corners
+* - Mounting
+  - 4 M4 nuts (supplied) to be inserted in the groove, or 4 M4x20 screws (not supplied) applied at the corners
  
 * - **Environment**
   -
  
 * - Operating temperature
-  - -10°C to +40°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -10°C to +40°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - Storage temperature
-  - -20°C to +60°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -20°C to +60°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - IP protection rating
   - IP 50
@@ -1227,10 +1192,10 @@ This Toplight size is suited to the FlexiBowl® 1200 models
 ```
  
 ```{dropdown} TopLight 900x600 - Infrared
-This Toplight size is suited to the FlexiBowl® 1200 models
+This Toplight size is suitable for the FlexiBowl® 1200 models
 ![Toplight](../../../../_shared/media/images/toplight_dim.png)
  
-| Length | Width | Height | Height with fixing plate | Central hole diameter | Max usable surface [AxB] | Max usable perimeter |
+| Length | Width | Height | Height with mounting plate | Center hole diameter | Max usable area [AxB] | Max usable perimeter |
 |--|--|--|--|--|--|--|
 | **A** | **B** | **C** | **C + 10mm** | **D** | - | - |
 | 900 | 600 | 45 | 55 | 65 | 0.54 m^2 | 3 m |
@@ -1258,7 +1223,7 @@ This Toplight size is suited to the FlexiBowl® 1200 models
   - 10 µs
  
 * - Control
-  - [M12 connector](cablaggio_illuminatore)
+  - [Connettore M12](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1278,14 +1243,14 @@ This Toplight size is suited to the FlexiBowl® 1200 models
 * - Wavelength
   - 850 nm
  
-* - Risk Class
+* - Risk Group
   - 1 (low risk)
  
 * - **Mechanical**
   -
  
 * - Thickness
-  - 45mm + 10mm with fixing plate
+  - 45mm + 10mm with mounting plate
  
 * - Inner diameter
   - 65mm
@@ -1299,20 +1264,17 @@ This Toplight size is suited to the FlexiBowl® 1200 models
 * - Diffuser
   - White PMMA
  
-* - Fixing
-  - 4 M4 nuts (supplied) to be inserted in the groove
-    or 4 M4x20 screws (not supplied) applied at the corners
+* - Mounting
+  - 4 M4 nuts (supplied) to be inserted in the groove, or 4 M4x20 screws (not supplied) applied at the corners
  
 * - **Environment**
   -
  
 * - Operating temperature
-  - -10°C to +40°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -10°C to +40°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - Storage temperature
-  - -20°C to +60°C / 80% humidity without condensation
-    No thermal shock (maximum variation: 10°C in 24h)
+  - -20°C to +60°C / 80% humidity, non-condensing. No thermal shock (maximum variation: 10°C in 24h)
  
 * - IP protection rating
   - IP 50
@@ -1334,11 +1296,11 @@ This Toplight size is suited to the FlexiBowl® 1200 models
 
 * - Red
   - 630 nm
-  - Used for special metallic components. Wavelength: 630 nm. The cell must be shielded from any external light source and from sunlight.
+  - Used for special metal components. Wavelength: 630 nm. The cell must be shielded from any external light source and from sunlight.
 
 * - IR
   - 850 nm
-  - Preferred for most types of applications. Not visible to the human eye. Wavelength: 850 nm. It is recommended to shield the cell to avoid interference from sunlight.
+  - Preferred for most types of applications. Not visible to the human eye. Wavelength: 850 nm. Shielding the cell is recommended to avoid interference from sunlight.
 
 * - White
   - N/A
@@ -1353,7 +1315,7 @@ This Toplight size is suited to the FlexiBowl® 1200 models
 :width: 60%
 ```
 
-| Code     | Description              | Connector |
+| Code   | Description              | Connector |
 |----------|--------------------------|------------|
 | CE001337 | Toplight Power Cable 2M  | M12 4 Pin Female |
 | CE001338 | Toplight Power Cable 5M | M12 4 Pin Female |
@@ -1361,23 +1323,23 @@ This Toplight size is suited to the FlexiBowl® 1200 models
 
 (staffa)=
 ### *Toplight Mounting Bracket* 
-For [mounting the Toplight on the side](montaggio_staffa), a dedicated bracket can be purchased **separately**. 
+For [mounting the toplight on the side](montaggio_staffa), a dedicated bracket can be purchased **separately**.
 
 ```{image} ../../../../_shared/media/images/staffa_montaggio.png
 :align: center
 :width: 80%
 ```
-## Toplight Mounting
+## Toplight mounting
 
-If the order includes a Toplight (top illuminator), it must be mounted on the same support structure as the camera to ensure uniform illumination of the work surface.
+If the order includes a Toplight (overhead illuminator), it must be mounted on the same support structure as the camera to ensure uniform illumination of the work surface.
 
 :::{attention}
-During mounting, the device must be switched off and disconnected from the power supply.
+During installation, the device must be switched off and disconnected from the power supply.
 :::
-### *Toplight Dimensions* 
-![Toplight Dimensions](../../../../_shared/media/images/toplight_dim.JPG)
+### *Toplight dimensions* 
+![Toplight dimensions](../../../../_shared/media/images/toplight_dim.JPG)
 
-| Length x Width (mm) | Height (mm) | Height with fixing plate (mm) | Central hole diameter | Maximum usable surface [A x B] | Maximum usable perimeter |
+| Length x Width (mm) | Height (mm) | Height with mounting plate (mm) | Center hole diameter | Maximum usable area [A x B] | Maximum usable perimeter |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | **A x B** | **C** | **C + 10 mm** | **D** | **–** | **–** |
 | 500x300 | 45 | 55 | 65 | 0.15 m² | 1.6 m |
@@ -1385,33 +1347,32 @@ During mounting, the device must be switched off and disconnected from the power
 | 700x500 | 45 | 55 | 65 | 0.35 m² | 2.4 m |
 | 900x600 | 45 | 55 | 65 | 0.54 m² | 3 m |
 
-### *Toplight Positioning* 
-The Toplight must be positioned centrally with respect to the usable surface of the light panel,
-with the camera optics mounted inside the central hole, flush with the upper surface of the Toplight.   
-The red arrows indicate the locking screws of the lens rings, one for focus adjustment and one for aperture adjustment. As shown in the figure, the Toplight must be mounted so that the two screws remain accessible from above. 
+### *Toplight positioning* 
+The toplight must be positioned centrally with respect to the usable surface of the light panel, with the camera optics mounted inside the central hole, flush with the top surface of the toplight.
+The red arrows indicate the fixing screws of the lens rings, one for focus adjustment and one for aperture adjustment. As shown in the figure, the toplight must be mounted so that the two screws remain accessible from above.
 
-![Toplight and Cam position](../../../../_shared/media/images/posizione_cam_TPL_B.png)
+![Toplight and camera position](../../../../_shared/media/images/posizione_cam_TPL_B.png)
 
-The camera's field of view and the Toplight's light beam (in green) must be aligned concentrically and perpendicularly to the vision area on the FlexiBowl®.    
-As shown in the three views (front, top and isometric), the Toplight must illuminate exactly the area framed by the camera, with both components centered on the system's vertical optical axis.  
+The camera's field of view and the toplight's light beam (in green) must be aligned concentrically and perpendicular to the viewing area on the FlexiBowl®.
+As shown in the three views (front, top and axonometric), the toplight must illuminate exactly the area framed by the camera, with both components centered on the vertical optical axis of the system.
 
-![Toplight Cam + FB position](../../../../_shared/media/images/posizioneTPL_giusta.png)
+![Toplight and camera + FB position](../../../../_shared/media/images/posizioneTPL_giusta.png)
 
-Incorrect positioning occurs when the Toplight and the camera are not centered on the FlexiBowl® vision area.   
-As illustrated (in red), two typical errors are:  
-- shifting forward or backward with respect to the vision area.  
-- rotating the Toplight with respect to it.   
+Incorrect positioning occurs when the toplight and the camera are not centered on the viewing area of the FlexiBowl®.
+As illustrated (in red), two typical errors are:
+- shifting forward or backward relative to the viewing area.
+- rotating the toplight relative to it.
   
-In both cases, the illumination is off-axis and not perpendicular, compromising the quality of the acquisition.
+In both cases, the illumination is off-axis and not perpendicular, compromising the quality of the image acquisition.
 
-![Incorrect Toplight Cam + FB position](../../../../_shared/media/images/posizioneTPL_sbagliata.png)
+![Incorrect toplight and camera + FB position](../../../../_shared/media/images/posizioneTPL_sbagliata.png)
 
 ### *Installation procedure*
 ```{list-table}
 :header-rows: 1
 :widths: 35 65
 
-* - **Phase**
+* - **Step**
   - **Operating instructions**
 * - **1. Positioning**
   - Fix the Toplight to the support structure in a position concentric with the camera.
@@ -1419,39 +1380,39 @@ In both cases, the illumination is off-axis and not perpendicular, compromising 
   - Position the illuminator at a distance from the FlexiBowl® surface similar to that of the camera in order to:
     
     * Minimize the shadows cast by the parts
-    * Maximize lighting uniformity
-    * Avoid direct reflections towards the camera
+    * Maximize light uniformity
+    * Avoid direct reflections toward the camera
 * - **3. Orientation**
-  - Make sure that the emitting surface of the Toplight is parallel to the FlexiBowl® work surface.
+  - Make sure that the emitting surface of the Toplight is parallel to the working surface of the FlexiBowl®.
 * - **4. Illumination angle**
   - Perpendicular to the surface (0° tilt).
-* - **5. Fixing**
+* - **5. Mounting**
   - According to the specifications of the chosen method (see next section).
 ```
 
-### *Fixing methods*
+### *Mounting methods*
 
-The Toplight can be fixed in two ways: at the [corner](angolo) or on the [side](lato).
+The Toplight can be mounted in two ways: at the [corner](angolo) or on the [side](lato).
 
 :::{note}
-The fixing components are **not included** in the Toplight supply. The mounting can therefore be customized according to the needs of the installation.
+The fastening components are **not included** in the Toplight supply. The mounting can therefore be customized according to the needs of the installation.
 
-- Fixing on the side (groove): M4 nuts **supplied**
-- Fixing at the corner: M4x20 CHC screws **not supplied**
+- Side mounting (groove): M4 nuts **supplied**
+- Corner mounting: M4x20 socket head cap screws **not supplied**
 
-In both cases the use of a **threadlocker** (not supplied) is recommended to prevent loosening over time. The recommended tightening torque is between **0.5 and 1.5 Nm**.
+In both cases, the use of a **threadlocker** (not supplied) is recommended to prevent loosening over time. The recommended tightening torque is between **0.5 and 1.5 Nm**.
 :::
 
 (angolo)=
-#### *1. Fixing at the corner*
+#### *1. Corner mounting*
 
-Fixing at the corner uses M4x20 CHC screws (not supplied) applied in the holes located at the four corners of the Toplight.
+Corner mounting uses M4x20 socket head cap screws (not supplied) fitted into the holes located at the four corners of the Toplight.
 ```{figure} ../../../../_shared/media/images/fissaggio_angolo.png
-:alt: Fixing the Toplight at the corner with an M4x20 CHC screw
+:alt: Corner mounting of the Toplight with an M4x20 socket head cap screw
 :align: center
 :width: 60%
 
-Fixing at the corner using an M4x20 CHC screw (not supplied).
+Corner mounting using an M4x20 socket head cap screw (not supplied).
 ```
 
 :::{figure} ../../../../_shared/media/images/tlfix-angoli.PNG 
@@ -1484,22 +1445,22 @@ Fixing at the corner using an M4x20 CHC screw (not supplied).
 :::
 
 (lato)=
-#### *2. Fixing on the side (groove)*
+#### *2. Side mounting (groove)*
 
-Fixing on the side uses 4 M4 nuts (supplied) to be inserted in the side groove of the Toplight profile.  
-   The maximum insertion depth of the nut in the groove is **5 mm**.  
+Side mounting uses 4 M4 nuts (supplied) to be inserted into the side groove of the Toplight profile.
+   The maximum insertion depth of the nut in the groove is **5 mm**.
      The recommended screws are M4x8.
 
 ```{figure} ../../../../_shared/media/images/tlfix-sezione.PNG
-:alt: Fixing the Toplight on the side 
+:alt: Side mounting of the Toplight 
 :align: center
 :width: 100%
 
-Fixing on the side
+Side mounting
 ```
 (montaggio_staffa)=
-##### Side fixing with brackets 
-If the Toplight is fixed with brackets: 
+##### Side mounting with brackets 
+If the Toplight is fixed with brackets:
 
 ::::::{error}
 :::::{grid} 2
@@ -1509,7 +1470,7 @@ If the Toplight is fixed with brackets:
 :align: center
 :width: 100%
 
-Do not hang the illuminator from one side only
+Do not suspend the illuminator from one side only
 :::
 ::::
 
@@ -1518,14 +1479,14 @@ Do not hang the illuminator from one side only
 :align: center
 :width: 100%
 
-Do not deform the Toplight fixing structure
+Do not deform the Toplight mounting structure
 :::
 ::::
 ::::::
 
 ::::::{tip}
 
-Some examples of correct TopLight fixing follow:
+Some examples of correct Toplight mounting follow:
 
 :::::{grid} 2
 
@@ -1553,7 +1514,7 @@ Some examples of correct TopLight fixing follow:
 ### *Illuminator wiring*
 
 
-![Pin Toplight](../../../../_shared/media/images/pin_toplight.png)
+![Toplight pins](../../../../_shared/media/images/pin_toplight.png)
 
 ```{list-table} 
 :header-rows: 1
@@ -1564,11 +1525,11 @@ Some examples of correct TopLight fixing follow:
 * - **Voltage**
   - 24V DC (±10%). Minimum operating voltage: 20V DC on the light input.
 * - **Connector**
-  - M12 5-pole (T-coding).
+  - M12 5-pin (T-coding).
 * - **Connector pinout**
   - Pin 1: +24V (brown) — Pin 3: GND (blue) — Pin 4: STROBE PNP (black)
 * - **STROBE mode (PNP)**
-  - From 5V to 24V for 100% switch-on. From 0V to 1V for 100% switch-off.
+  - 5V to 24V for 100% switch-on. 0V to 1V for 100% switch-off.
 * - **CONTINUOUS mode**
   - Pin 1 (+24V) and Pin 3 (GND) connected; Pin 4 (PNP) connected to Pin 1.
 * - **Voltage drop (M12 cable, 10m)**
@@ -1585,7 +1546,7 @@ Some examples of correct TopLight fixing follow:
 - Do not look directly at the light source.
 ```
 
-### Fixing hole diagram
+### Fixing hole layout
 
 
 # **Backlight or Toplight?**
@@ -1593,12 +1554,12 @@ Some examples of correct TopLight fixing follow:
 ```{warning}
 **Impact on part recognition**
 
-The choice between backlight and toplight significantly influences recognition:
+The choice between backlight and toplight significantly affects recognition:
 
-- **Backlight**: Excellent for profiles/shapes; parts appear as dark silhouettes on a light background
-- **Toplight**: Necessary to recognize surface details, textures, internal features
+- **Backlight**: Excellent for profiles/outlines; parts appear as dark silhouettes on a light background
+- **Toplight**: Required to recognize surface details, textures, internal features
 
-Calibration, when using an ARS calibration grid, must be performed using the backlight illuminator, with the toplight switched off if present.
+When using an ARS calibration grid, calibration must be performed with the backlight illuminator, and the toplight, if present, must be switched off.
 ```
 
 
@@ -1609,22 +1570,22 @@ Calibration, when using an ARS calibration grid, must be performed using the bac
    :widths: 20 50 30
    :header-rows: 1
 
-   * - Illuminator
-     - When to use it
-     - Example
+   * - Illuminatore
+     - Quando usarlo
+     - Esempio
    * - **Toplight**
-     - Used when the component cannot be recognized from its shape alone, but from the details present on the object. It is mainly suited to smooth, non-reflective surfaces, or surfaces that have some kind of distinguishable marking.
+     - Utilizzato quando il riconoscimento del componente non può essere effettuato dalla sola forma, ma dai dettagli presenti sull'oggetto. È indicato principalmente per superfici lisce e non riflettenti, o superfici che presentano qualche tipo di marcatura distinguibile.
      - .. image:: ../../../../_shared/media/images/TOPLIGHT.png
           :width: 150px
    * - **Backlight**
-     - The main use case of the backlight is when the object can be recognized by its silhouette/shape, or when it has transparent parts.
+     - Il caso d'uso principale del backlight è quando l'oggetto può essere riconosciuto dalla sua silhouette/forma oppure con parti trasparenti.
      - .. image:: ../../../../_shared/media/images/BACKLIGHT.png
           :width: 150px
 ```
 #### *Typical use cases*
 
 - Screws, bolts, washers → **Backlight**
-- Parts with prints on the upper face, opaque parts on dark surfaces → **Toplight**
+- Parts with printing on the top face, matte parts on dark surfaces → **Toplight**
 - Transparent or translucent parts → **Backlight**
 - Shiny parts with reflections → **Backlight**
 
@@ -1651,7 +1612,7 @@ Calibration, when using an ARS calibration grid, must be performed using the bac
       :width: 120px
     ```
 * - **Red (630 nm)**
-  - Used for special metallic components. Wavelength: 630 nm. The cell must be shielded from any external light source and from sunlight.
+  - Used for special metal components. Wavelength: 630 nm. The cell must be shielded from any external light source and from sunlight.
   - ```{image} ../../../../_shared/media/images/REDLIGHT1.png
       :width: 120px
     ```
@@ -1659,7 +1620,7 @@ Calibration, when using an ARS calibration grid, must be performed using the bac
       :width: 120px
     ```
 * - **Infrared (850 nm)**
-  - Preferred for most types of applications. Not visible to the human eye. Wavelength: 850 nm. It is recommended to shield the cell to avoid interference from sunlight.
+  - Preferred for most types of applications. Not visible to the human eye. Wavelength: 850 nm. Shielding the cell is recommended to avoid interference from sunlight.
   - ```{image} ../../../../_shared/media/images/INFRARED1.png
       :width: 120px
     ```
@@ -1671,7 +1632,7 @@ For more information on Ambient Light Shielding, see the [Ambient Light Shieldin
 
 # **Verifying correct operation of the Backlight and Toplight**
 
-To check the operation of the illuminators, simply switch them on from the interface and verify that they light up.
+To check that the illuminators are working, simply switch them on from the interface and verify that they light up.
 
 ::::{warning}
 :::{raw} html
@@ -1689,5 +1650,5 @@ To check the operation of the illuminators, simply switch them on from the inter
 ::::
 
 :::{note}
-Infrared illuminators emit invisible light and may therefore appear not to be working. Check with a camera fitted with an infrared filter to verify their operation. Most smartphones can display infrared.
+Infrared illuminators emit invisible light and may therefore appear not to be working. Check them with a camera fitted with an infrared filter to verify that they work. Most smartphones can display infrared.
 :::

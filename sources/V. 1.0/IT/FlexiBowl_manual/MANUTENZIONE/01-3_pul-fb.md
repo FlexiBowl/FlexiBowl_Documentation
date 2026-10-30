@@ -1,6 +1,6 @@
-# [MEC] **Pulizia Generale del FlexiBowl®**
+# **Pulizia Generale del FlexiBowl®**
 
-Per garantire sempre il corretto funzionamento del FlexiBowl®, è importante che esso venga mantenuto in un buono stato di pulizia. Per eseguire la pulizia generale della macchina, procedere come descritto di seguito: 
+Per garantire sempre il corretto funzionamento del FlexiBowl®, è importante che esso venga mantenuto in un buono stato di pulizia. Per eseguire la pulizia generale della macchina, procedere come descritto di seguito:
 
 | Step | Operazione |
 |:----:|-----------|

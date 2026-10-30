@@ -1,1 +1,1 @@
-# **Behebung elektrischer Störungen**
+# **Behebung elektrischer Probleme**

@@ -1,70 +1,70 @@
-# **Konfiguration der Schnittstelle**
+# **Konfiguration der Benutzeroberfläche**
 
 
 :::{note}
-Se il sistema in uso è **FlexiVision One**, la configurazione viene gestita interamente dalla sua interfaccia dedicata. Non è necessario utilizzare l'interfaccia software FlexiBowl® descritta in questa sezione. Fare riferimento al {ref}`Manuale FlexiVision One <flexivision_one>`.
+Wenn das verwendete System **FlexiVision One** ist, erfolgt die Konfiguration vollständig über die zugehörige Oberfläche. Die in diesem Abschnitt beschriebene FlexiBowl®-Software-Oberfläche muss nicht verwendet werden. Siehe {ref}`FlexiVision One Handbuch <flexivision_one>`.
 :::
 
-## Primo avvio
+## Erste Inbetriebnahme
 
-Al primo avvio del sistema, seguire la procedura guidata di seguito per configurare la comunicazione e preparare il FlexiBowl® all'uso.
+Befolgen Sie beim ersten Start des Systems die nachstehende geführte Prozedur, um die Kommunikation zu konfigurieren und den FlexiBowl® für den Einsatz vorzubereiten.
 
 ::::{list-table}
 :widths: 10 90
 :header-rows: 1
 
-* - Step
-  - Operazione
+* - Schritt
+  - Vorgang
 
 * - 1
-  - Inserire l'**indirizzo IP** del FlexiBowl® nella barra di ricerca del browser per accedere all'interfaccia software.
+  - Geben Sie die **IP-Adresse** des FlexiBowl® in die Adressleiste des Browsers ein, um die Software-Oberfläche aufzurufen. Die Standard-IP-Adresse des FlexiBowl® lautet `192.168.1.10`.
 
 * - 2
-  - Si apre la **Home page**. Selezionare la **lingua** desiderata dal menu a tendina in alto a destra.
+  - Die **Startseite** wird geöffnet. Wählen Sie im Dropdown-Menü oben rechts die gewünschte **Sprache** aus.
 
 * - 3
-  - Aprire la pagina **Setup** dal menu laterale.
+  - Öffnen Sie im Seitenmenü die Seite **Setup**.
 
 * - 4
-  - Cliccare su **Get IP** per leggere i parametri di rete correnti del dispositivo.
+  - Klicken Sie auf **Get IP**, um die aktuellen Netzwerkparameter des Geräts auszulesen.
 
 * - 5
-  - Inserire il **nuovo indirizzo IP** che si intende assegnare al FlexiBowl® nei campi dedicati, quindi cliccare su **Set IP**.
+  - Geben Sie in den entsprechenden Feldern die **neue IP-Adresse** ein, die dem FlexiBowl® zugewiesen werden soll, und klicken Sie dann auf **Set IP**.
 
 * - 6
-  - Selezionare il **tipo di comunicazione** desiderato dal menu a tendina. L'opzione predefinita è **TCP Server**.
+  - Wählen Sie im Dropdown-Menü die gewünschte **Kommunikationsart** aus. Die Standardoption ist **TCP Server**.
 
     :::{note}
-    La modalità **Digital I/O** non è inclusa nella configurazione standard, ma è disponibile come opzione acquistabile separatamente.
+    Der Modus **Digital I/O** ist nicht in der Standardkonfiguration enthalten, ist aber als separat erhältliche Option verfügbar.
     :::
 
 * - 7
-  - Cliccare su **Apply** per confermare le impostazioni di comunicazione.
+  - Klicken Sie auf **Apply**, um die Kommunikationseinstellungen zu bestätigen.
 
 * - 8
-  - Cliccare su **Reboot** per riavviare il software e rendere effettive le modifiche.
+  - Klicken Sie auf **Reboot**, um die Software neu zu starten und die Änderungen wirksam zu machen.
 
 ::::
 
 :::{important}
-Dopo il reboot, riconnettersi al FlexiBowl® utilizzando il nuovo indirizzo IP impostato al punto 5.
+Verbinden Sie sich nach dem Neustart mit der in Schritt 5 festgelegten neuen IP-Adresse erneut mit dem FlexiBowl®.
 :::
 
-## Abilitazione del Backlight (se necessario)
+## Backlight aktivieren (falls erforderlich)
 
-Se è richiesta la calibrazione del sistema di visione, abilitare la retroilluminazione prima di procedere:
+Wenn eine Kalibrierung des Bildverarbeitungssystems erforderlich ist, aktivieren Sie die Hintergrundbeleuchtung, bevor Sie fortfahren:
 
 ::::{list-table}
 :widths: 10 90
 :header-rows: 0
 
 * - 1
-  - Aprire la pagina **Main Command** dal menu laterale.
+  - Öffnen Sie im Seitenmenü die Seite **Main Command**.
 
 * - 2
-  - Selezionare **OPTION** dal menu a tendina **"Chose Visualization Page"**.
+  - Wählen Sie im Dropdown-Menü **„Chose Visualization Page“** den Eintrag **OPTION** aus.
 
 * - 3
-  - Attivare il toggle **Backlight 1** e/o **Backlight 2** in base alle necessità.
+  - Aktivieren Sie je nach Bedarf den Schalter **Backlight 1** und/oder **Backlight 2**.
 
 ::::

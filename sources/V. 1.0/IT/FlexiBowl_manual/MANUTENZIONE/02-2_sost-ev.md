@@ -1,4 +1,4 @@
-# [MEC] **Sostituzione Elettrovalvole**
+# **Sostituzione Elettrovalvole**
 
 :::::{important}
 

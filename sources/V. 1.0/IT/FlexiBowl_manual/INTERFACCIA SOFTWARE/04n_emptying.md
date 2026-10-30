@@ -1,7 +1,7 @@
 (emptying)=
-# [SOF] **Emptying**
+# **Emptying**
 
-La Pagina Emptying viene resa automaticamente disponibile quando l'opzione Svuotamento viene acquistata. 
+La Pagina Emptying viene resa automaticamente disponibile quando l'opzione Svuotamento viene acquistata.
 
 ## Panoramica
 
@@ -42,12 +42,11 @@ Nella configurazione di default, la prima sequenza chiude la barriera (**FLB_BAR
 ---
 ## Pagina Option
 
-Nel caso in cui la funzione Emptying fosse presente, nella sezione OPTION della pagina 'Main Command', sarà possibile visualizzare il seguente riquadro: 
+Nel caso in cui la funzione Emptying fosse presente, nella sezione OPTION della pagina 'Main Command', sarà possibile visualizzare il seguente riquadro:
 
 ![Emptying OPTION](../../../../_shared/media/images/emptying_option.png)
 
-Questo riquadro, contenente i due pulsanti 'Raise Barrier' e 'Lower Barrier', permette infatti di alzare ed abbassare la barrierra di svuotamento e quindi di verificarne il corretto funzionamento. 
-Nel momento in cui la barriera viene abbassata, il sensore presente in questo riquadro viene attivato. 
+Questo riquadro, contenente i due pulsanti 'Raise Barrier' e 'Lower Barrier', permette infatti di alzare ed abbassare la barrierra di svuotamento e quindi di verificarne il corretto funzionamento. Nel momento in cui la barriera viene abbassata, il sensore presente in questo riquadro viene attivato.
 
 ## Pagina Sequence 
 
@@ -56,8 +55,7 @@ Nel momento in cui la barriera viene abbassata, il sensore presente in questo ri
 :align: center
 :::
 
-Nella pagina Sequence, il check nella box 'Emptying Sequence' permette di rendere possibile la movimentazione del FlexiBowl anche con la barriera dello svuotamento abbassata. 
-Infatti, se la barriera viene abbassata e il check nella pagina Sequence non spuntato, non sarà possibile effettuare la movimentazione associata alla sequenza corrente. 
+Nella pagina Sequence, il check nella box 'Emptying Sequence' permette di rendere possibile la movimentazione del FlexiBowl anche con la barriera dello svuotamento abbassata. Infatti, se la barriera viene abbassata e il check nella pagina Sequence non spuntato, non sarà possibile effettuare la movimentazione associata alla sequenza corrente.
 
 ## Comandi da protocollo
 

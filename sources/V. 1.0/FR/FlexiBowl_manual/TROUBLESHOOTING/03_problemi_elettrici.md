@@ -1,1 +1,1 @@
-# **Résolution des problèmes électriques**
+# **Dépannage des problèmes électriques**

@@ -1,105 +1,97 @@
 (condamb)=
-# **Conditions d'utilisation et conditions environnementales**
+# **Conditions d'utilisation et environnementales**
 
-## Uso previsto (corretto)
+## Utilisation prévue (correcte)
 
-Il FlexiBowl® è disponibile in cinque modelli: 200, 350, 500, 650, 800 e 1200. La macchina in oggetto è destinata ad uso industriale per: 
+Le FlexiBowl® est disponible en six modèles : 200, 350, 500, 650, 800 et 1200. La machine en question est destinée à un usage industriel pour :
 
 ::: {list-table}
 :header-rows: 1
 :widths: 30 30 30 30
 
-* - Operazione
-  - Consentita
-  - Non consentita
-  - Ambiente di lavorazione
+* - Opération
+  - Autorisé
+  - Non autorisé
+  - Environnement de travail
 
-* - **Movimentazione volta al prelievo** di:
-  - Componentistica di peso e dimensioni massime variabili in base al modello di macchina. 
-  - Qualsiasi altro componente non compreso all'interno del range di peso e dimensioni massime consentite. 
-  - Industriale.
+* - **Manutention en vue du prélèvement** de :
+  - Composants dont le poids et les dimensions maximaux varient selon le modèle de machine.
+  - Tout autre composant ne rentrant pas dans la plage de poids et de dimensions maximaux autorisés.
+  - Industriel.
 
   :::
 
 ::: {note}
-Per maggiori informazioni sulla tipologia di componentistica consentita, consultare il paragrafo “Dati tecnici” del presente manuale. 
+Pour plus d'informations sur le type de composants autorisés, consulter le paragraphe « Caractéristiques techniques » du présent manuel.
 :::
 
-Il FlexiBowl® è stato creato per: 
-- soddisfare le esigenze specifiche menzionate sul contratto di vendita; 
-- essere utilizzata secondo le istruzioni ed i limiti d’impiego riportati nel presente manuale. 
+Le FlexiBowl® a été conçu pour :
+- répondre aux exigences spécifiques mentionnées dans le contrat de vente ;
+- être utilisé conformément aux instructions et aux limites d'emploi indiquées dans le présent manuel.
 
-La macchina è progettata e costruita per lavorare in sicurezza se: 
-- viene impiegata entro i limiti dichiarati sul contratto e sul presente manuale; 
-- vengono seguite le procedure del manuale d’uso; 
-- viene effettuata la manutenzione ordinaria nei tempi e nei modi indicati;  
-- viene fatta eseguire tempestivamente la manutenzione straordinaria in caso di necessità;  
-- non vengono rimossi e/o bypassati i dispositivi di sicurezza. 
+La machine est conçue et construite pour fonctionner en sécurité si :
+- elle est utilisée dans les limites déclarées dans le contrat et dans le présent manuel ;
+- les procédures du manuel d'utilisation sont suivies ;
+- la maintenance courante est effectuée dans les délais et selon les modalités indiquées ;
+- la maintenance extraordinaire est effectuée rapidement en cas de besoin ;
+- les dispositifs de sécurité ne sont pas retirés et/ou contournés.
 
-## Uso scorretto ragionevolmente prevedibile
+## Mauvais usage raisonnablement prévisible
 
-L’uso scorretto ragionevolmente prevedibile viene di seguito elencato: 
-- lavorare componenti liquidi e graniglie fini; 
-- modificare i parametri di lavoro inficianti la sicurezza; 
-- trasporto di persone; 
-- sfruttare la macchina come punto d’appoggio; 
-- utilizzare la macchina in modo da ottenere valori di produzione superiore ai limiti prescritti; 
-- modificare / manomettere i collegamenti elettrici e penumatici della macchina o ogni altro suo componente; 
-- utilizzare la macchina con prodotto diverso da quello elencato nell’ “Uso previsto(corretto)”;  
-- utilizzare la macchina diversamente da quanto previsto al paragrafo “Uso previsto(corretto)”. 
+Le mauvais usage raisonnablement prévisible est énuméré ci-dessous :
+- traiter des composants liquides et des grenailles fines ;
+- modifier les paramètres de travail compromettant la sécurité ;
+- transport de personnes ;
+- utiliser la machine comme point d'appui ;
+- utiliser la machine de manière à obtenir des valeurs de production supérieures aux limites prescrites ;
+- modifier / altérer les raccordements électriques et pneumatiques de la machine ou tout autre de ses composants ;
+- utiliser la machine avec un produit différent de celui énuméré dans « Utilisation prévue (correcte) » ;
+- utiliser la machine de manière différente de ce qui est prévu au paragraphe « Utilisation prévue (correcte) ».
 
-Qualsiasi altro impiego della macchina rispetto a quello previsto deve essere preventivamente autorizzato per iscritto dal 
-Costruttore. In mancanza di tale autorizzazione scritta, l’impiego è da considerarsi “uso improprio”; pertanto il Costruttore 
-declina ogni responsabilità in relazione ai danni eventualmente provocati a cose o persone e ritiene decaduta ogni tipo di 
-garanzia sulla macchina. 
+Toute autre utilisation de la machine par rapport à celle prévue doit être préalablement autorisée par écrit par le Constructeur. En l'absence de cette autorisation écrite, l'utilisation est considérée comme un « usage inapproprié » ; le Constructeur décline donc toute responsabilité pour les dommages éventuellement causés aux biens ou aux personnes et considère comme caduque toute garantie sur la machine.
 
 ::: {important}
-Un uso improprio del FlexiBowl® esclude qualsiasi responsabilità del Costruttore.
+Un usage inapproprié du FlexiBowl® exclut toute responsabilité du Constructeur.
 :::
 
-## Predisposiziopni a carico del cliente
+## Dispositions à la charge du client
 
-Fatti salvi eventuali accordi contrattuali diversi è normalmente a carico del Cliente la predisposizione di: 
-- locali (comprese opere murarie, come fondazioni o canalizzazioni eventualmente richieste, illuminazione); 
-- impianti elettrici fino ai punti di alimentazione della macchina, in conformità alle norme vigenti nel paese di installazione e/o richiesti dal Costruttore della macchina Tutte le specifiche tecniche richieste dal Costruttore sono contenute nel contratto di vendita. Il Costruttore declina ogni responsabilità se il cliente non riuscisse a garantire le caratteristiche tecniche dell’impianto elettrico richieste nel contratto di vendita. 
-- l’alimentazione elettrica per la macchina, compreso il conduttore di messa a terra, secondo le caratteristiche e tolleranze richieste e specificate nel presente manuale. 
-- servizi ausiliari adeguati alle esigenze della macchina; 
-- utensili e materiali di consumo occorrenti per il montaggio e installazione; 
-- lubrificanti necessari per la messa in moto della macchina; 
-- l’alimentazione pneumatica per la macchina adeguata come da specifica presente al paragrafo “Dati tecnici”; 
-- mezzi di sollevamento e movimentazione adeguati.
+Sauf accords contractuels différents, il incombe normalement au Client de prévoir :
+- locaux (y compris les ouvrages de maçonnerie, tels que fondations ou canalisations éventuellement requises, éclairage) ;
+- installations électriques jusqu'aux points d'alimentation de la machine, conformément aux normes en vigueur dans le pays d'installation et/ou requises par le Constructeur de la machine. Toutes les spécifications techniques requises par le Constructeur figurent dans le contrat de vente. Le Constructeur décline toute responsabilité si le client ne parvient pas à garantir les caractéristiques techniques de l'installation électrique requises dans le contrat de vente.
+- l'alimentation électrique de la machine, y compris le conducteur de mise à la terre, selon les caractéristiques et tolérances requises et spécifiées dans le présent manuel.
+- services auxiliaires adaptés aux besoins de la machine ;
+- outils et consommables nécessaires au montage et à l'installation ;
+- lubrifiants nécessaires à la mise en marche de la machine ;
+- l'alimentation pneumatique de la machine, adaptée selon la spécification figurant au paragraphe « Caractéristiques techniques » ;
+- moyens de levage et de manutention adaptés.
 
-## Condizioni ambientali ammesse
+## Conditions environnementales admises
 
-L’ambiente in cui il FlexiBowl® viene installato e utilizzato è interno, al riparo da agenti atmosferici quali: pioggia, grandine, neve, 
-nebbia, polveri in sospensione, polveri combustibili, al riparo da agenti aggressivi quali vapori corrosivi o sorgenti di calore 
-eccessiva e non deve essere classificato ATEX. 
-L’impiego del FlexiBowl®, dei sistemi di controllo associati e delle apparecchiature di azionamento in condizioni diverse da quelle 
-elencate non è consentito. 
-In particolare l’ambiente di installazione e utilizzo non deve presentare: 
-- Esposizione a fumi corrosivi; 
-- Esposizione ad umidità eccessiva (superiori all’85 %) e rapidi cambiamenti di umidità relativa (superiori a 0,005 p.u./h);  
-- Esposizione a polvere eccessiva; 
-- Esposizione a polvere abrasiva; 
-- Esposizione a vapori oleosi; 
-- Esposizione a miscele esplosive di polveri o di gas; 
-- Esposizione all’aria salmastra; 
-- Esposizione a vibrazioni, urti o scosse anomali; 
-- Esposizioni ad intemperie fuori dai limiti permessi o sgocciolamento; 
-- Esposizione a condizioni non usuali di trasporto o immagazzinamento; 
-- Esposizione a variazioni termiche elevate o rapide (superiori a 5K/h); 
-- Presenza di radiazioni nucleari.
+L'environnement dans lequel le FlexiBowl® est installé et utilisé est intérieur, à l'abri des agents atmosphériques tels que pluie, grêle, neige, brouillard, poussières en suspension, poussières combustibles, à l'abri des agents agressifs tels que vapeurs corrosives ou sources de chaleur excessive, et ne doit pas être classé ATEX. L'emploi du FlexiBowl®, des systèmes de commande associés et des équipements d'entraînement dans des conditions différentes de celles énumérées n'est pas autorisé. En particulier, l'environnement d'installation et d'utilisation ne doit pas présenter :
+- Exposition à des fumées corrosives ;
+- Exposition à une humidité excessive (supérieure à 85 %) et à des changements rapides d'humidité relative (supérieurs à 0,005 p.u./h) ;
+- Exposition à une poussière excessive ;
+- Exposition à une poussière abrasive ;
+- Exposition à des vapeurs huileuses ;
+- Exposition à des mélanges explosifs de poussières ou de gaz ;
+- Exposition à l'air salin ;
+- Exposition à des vibrations, chocs ou secousses anormaux ;
+- Exposition aux intempéries en dehors des limites permises ou à des égouttements ;
+- Exposition à des conditions inhabituelles de transport ou de stockage ;
+- Exposition à des variations thermiques élevées ou rapides (supérieures à 5 K/h) ;
+- Présence de rayonnements nucléaires.
 
-Il FlexiBowl® è progettato e costruito per funzionare, in sicurezza, nelle seguenti condizioni ambientali:
+Le FlexiBowl® est conçu et construit pour fonctionner en sécurité dans les conditions environnementales suivantes :
 
 :::{list-table}
 :widths: 25 25 25 25
 :header-rows: 1
 
-* - Grado di protezione del FlexiBowl®
-  - Temperatura ambiente durante il funzionamento
-  - Temperatura ambiente durante lo stoccaggio
-  - Umidità relativa massima
+* - Indice de protection du FlexiBowl®
+  - Température ambiante pendant le fonctionnement
+  - Température ambiante pendant le stockage
+  - Humidité relative maximale
 
 * - IP40
   - +5 ÷ +40 °C
@@ -109,93 +101,89 @@ Il FlexiBowl® è progettato e costruito per funzionare, in sicurezza, nelle seg
 :::
 
 :::{warning}
-Condizioni ambientali diverse da quelle specificate possono causare gravi danni alla macchina. 
-Il posizionamento della macchina in ambienti non corrispondenti a quanto indicato fa decadere la garanzia per 
-gli organi da sostituire.
+Des conditions environnementales différentes de celles spécifiées peuvent causer de graves dommages à la machine. Le positionnement de la machine dans des environnements ne correspondant pas à ceux indiqués entraîne la déchéance de la garantie pour les organes à remplacer.
 :::
 
 :::{important}
-La superficie di lavoro deve essere sufficientemente illuminata. Nel caso in cui sul posto di lavoro si riscontrino 
-zone d’ombra o dislivelli, sarà cura dell’utente predisporre dispositivi di illuminazione adeguati.
+La surface de travail doit être suffisamment éclairée. Si des zones d'ombre ou des dénivelés sont constatés sur le lieu de travail, il incombera à l'utilisateur de prévoir des dispositifs d'éclairage adaptés.
 :::
 
-Se non vengono rispettate queste prescrizioni il Costruttore declina ogni responsabilità.
+Si ces prescriptions ne sont pas respectées, le Constructeur décline toute responsabilité.
 
-### **Soluzioni per ambienti critici**
+### **Solutions pour les environnements critiques**
 
 ```{note}
-Se il sistema deve operare in ambienti con presenza di liquidi, prevedere adeguate protezioni (custodie IP65 o superiori) e consultare il servizio tecnico ARS per soluzioni personalizzate.
+Si le système doit fonctionner dans des environnements avec présence de liquides, prévoir des protections adéquates (boîtiers IP65 ou supérieurs) et consulter le service technique ARS pour des solutions personnalisées.
 ```
 
-### **Responsabilità del cliente**
+### **Responsabilité du client**
 
 ```{warning}
-È responsabilità del cliente:
+Il est de la responsabilité du client de :
 
-- Documentare i rischi termici nella propria valutazione dei rischi
-- Istruire il personale sulle procedure per evitare contatti accidentali
-- Prevedere segnaletica di avvertimento dove necessario
-- Garantire adeguata ventilazione dei componenti
+- Documenter les risques thermiques dans sa propre évaluation des risques
+- Former le personnel aux procédures permettant d'éviter les contacts accidentels
+- Prévoir une signalisation d'avertissement là où nécessaire
+- Garantir une ventilation adéquate des composants
 ```
 
-### **Precauzioni aggiuntive per l'ambiente**
+### **Précautions supplémentaires pour l'environnement**
 
 ```{note}
-Per preservare l'integrità dei componenti:
+Pour préserver l'intégrité des composants :
 
-- Evitare l'esposizione diretta alla luce solare
-- Proteggere da vibrazioni eccessive durante lo stoccaggio
-- Mantenere in ambiente asciutto e privo di polveri aggressive
-- La camera è sensibile agli shock meccanici: maneggiare con cura
+- Éviter l'exposition directe à la lumière du soleil
+- Protéger des vibrations excessives pendant le stockage
+- Conserver dans un environnement sec et exempt de poussières agressives
+- La caméra est sensible aux chocs mécaniques : manipuler avec précaution
 ```
-## Obblighi e divieti
+## Obligations et interdictions
 
-### Obblighi degli utilizzatori
+### Obligations des utilisateurs
 
-L’utilizzatore (imprenditore o datore di lavoro) **deve**: 
-- tenere conto delle capacità e delle condizioni degli operatori in rapporto alla loro salute e alla loro sicurezza; 
-- fornire i mezzi di protezione individuale adeguati alle singole procedure; 
-- fornire mezzi e procedure di sollevamento a norma; 
-- richiedere l’osservanza da parte dei singoli lavoratori delle norme e delle disposizioni aziendali in materia di sicurezza e di uso dei mezzi di protezione collettivi e individuali messi a loro disposizione; 
-- istruire il personale sulle procedure in caso di infortunio; 
-- istruire il personale sui rischi residui presenti; 
-- istruire il personale sui dispositivi predisposti per la sicurezza degli operatori;  
-- istruire il personale sui rischi di emissione da rumore nell’ambiente di lavoro;  
-- istruire il personale sulle regole antinfortunistiche generali previste da direttive europee e dalla legislazione del Paese di destinazione della macchina. 
+L'utilisateur (entrepreneur ou employeur) **doit** :
+- tenir compte des capacités et des conditions des opérateurs en rapport avec leur santé et leur sécurité ;
+- fournir des équipements de protection individuelle adaptés aux différentes procédures ;
+- fournir des moyens et des procédures de levage conformes ;
+- exiger de chaque travailleur le respect des règles et dispositions de l'entreprise en matière de sécurité et d'utilisation des moyens de protection collectifs et individuels mis à sa disposition ;
+- former le personnel aux procédures à suivre en cas d'accident ;
+- former le personnel sur les risques résiduels présents ;
+- former le personnel sur les dispositifs prévus pour la sécurité des opérateurs ;
+- former le personnel sur les risques d'émission de bruit dans l'environnement de travail ;
+- former le personnel sur les règles générales de prévention des accidents prévues par les directives européennes et par la législation du pays de destination de la machine.
 
 ::: {important}
-Fare operare sulla macchina solo personale che abbia preso visione del presente manuale e opportunamente 
-addestrato.
+Ne faire opérer sur la machine que du personnel ayant pris connaissance du présent manuel et formé de manière appropriée.
 ::: 
 
-### Obblighi del personale addetto (operatori/manutentori/tecnici)
+### Obligations du personnel affecté (opérateurs/mainteneurs/techniciens)
 
-Il personale **deve**: 
-- Effettuare gli interventi di manutenzione sempre a macchine spente. Non lubrificare gli organi in moto. 
-- Quando la macchina è in funzione non operare nei pressi con catene, braccialetti, cravatte, od altri indumenti che si possano impigliare nei meccanismi. 
-- L’operatore con capelli lunghi è obbligato a raccoglierli in modo da evitare che si impiglino. 
-- Effettuare gli interventi sul quadro elettrico, sulle cassette di derivazione, sui cavi e su tutti i componenti dell’impianto elettrico sempre con l’interruttore generale spento. 
-- Quando si avvia la macchina sincerarsi che non vi sia nessuna persona all’interno delle zone pericolose. 
-- Durante il funzionamento usare la massima attenzione che non ci siano persone che possano accedere direttamente alle parti in movimento. 
-- Utilizzare in modo appropriato i dispositivi di protezione messi a disposizione dal datore di lavoro. 
-- Segnalare immediatamente al datore di lavoro, al dirigente o al preposto, le deficienze dei dispositivi sicurezza. 
+Le personnel **doit** :
+- Effectuer toujours les interventions de maintenance machines éteintes. Ne pas lubrifier les organes en mouvement.
+- Lorsque la machine est en fonctionnement, ne pas opérer à proximité avec des chaînes, des bracelets, des cravates ou d'autres vêtements susceptibles de se prendre dans les mécanismes.
+- L'opérateur ayant les cheveux longs est tenu de les attacher de façon à éviter qu'ils ne se prennent dans les mécanismes.
+- Effectuer les interventions sur le tableau électrique, les boîtes de dérivation, les câbles et tous les composants de l'installation électrique toujours avec l'interrupteur général éteint.
+- Lors du démarrage de la machine, s'assurer qu'aucune personne ne se trouve à l'intérieur des zones dangereuses.
+- Pendant le fonctionnement, veiller avec la plus grande attention à ce qu'aucune personne ne puisse accéder directement aux parties en mouvement.
+- Utiliser de manière appropriée les dispositifs de protection mis à disposition par l'employeur.
+- Signaler immédiatement à l'employeur, au dirigeant ou au préposé les déficiences des dispositifs de sécurité.
 
-### Divieti del personale addetto (operatori/manutentori/tecnici)
+### Interdictions pour le personnel affecté (opérateurs/mainteneurs/techniciens)
 
-In particolare, il personale **non deve**: 
-- utilizzare la macchina in modo improprio, cioè per usi diversi da quelli indicati nel paragrafo “Uso Previsto”; 
-- rimuovere o modificare senza autorizzazione i dispositivi di sicurezza o di segnalazione; 
-- compiere di propria iniziativa operazioni o manovre che non sono di loro competenza ovvero che possono compromettere la sicurezza propria o di altri lavoratori; 
-- indossare bracciali, anelli o catenine che possono ciondolare ed essere trascinati da organi in movimento creando pericolo per l’operatore; 
-- sostituire o modificare le velocità dei componenti della macchina senza che gli sia consentito da un responsabile;  
-- modificare il ciclo della macchina;  
-- modificare gli allacciamenti elettrici per escludere le sicurezze interne; 
-- utilizzare la macchina se non è stata installata secondo le normative vigenti; 
-- sfruttare la macchina come punto di appoggio anche se non funzionanti (pena il rischio di caduta e/o il rischio di danneggiamento delle macchine stesse); 
-- utilizzare la macchina al di fuori delle condizionali ambientali permesse (consultare paragrafo {ref}`"Trasporto e movimentazione" <trasporto>`). 
+En particulier, le personnel **ne doit pas** :
+- utiliser la machine de manière inappropriée, c'est-à-dire pour des usages différents de ceux indiqués au paragraphe « Utilisation prévue » ;
+- retirer ou modifier sans autorisation les dispositifs de sécurité ou de signalisation ;
+- effectuer de leur propre initiative des opérations ou des manœuvres qui ne relèvent pas de leur compétence ou qui peuvent compromettre leur sécurité ou celle d'autres travailleurs ;
+- porter des bracelets, des bagues ou des chaînettes pouvant pendre et être entraînés par des organes en mouvement, créant un danger pour l'opérateur ;
+- remplacer ou modifier les vitesses des composants de la machine sans y avoir été autorisé par un responsable ;
+- modifier le cycle de la machine ;
+- modifier les raccordements électriques pour exclure les sécurités internes ;
+- utiliser la machine si elle n'a pas été installée conformément aux réglementations en vigueur ;
+- utiliser la machine comme point d'appui même si elle ne fonctionne pas (sous peine de risque de chute et/ou d'endommagement des machines elles-mêmes) ;
+- utiliser la machine en dehors des conditions environnementales permises (consulter le paragraphe {ref}`« Transport et manutention » <trasporto>`).
 
 :::{warning}
-ARS S.r.l. non risponde per danni causati a cose o persone nel caso: 
-- si accerti che la macchina sia stata utilizzata in uno degli ambienti non ammessi; 
-- non siano stati rispettati gli obblighi ed i divieti qui descritti. 
+ARS S.r.l. ne répond pas des dommages causés aux biens ou aux personnes dans le cas où :
+- il soit établi que la machine a été utilisée dans l'un des environnements non admis ;
+- les obligations et interdictions décrites ici n'aient pas été respectées.
 :::

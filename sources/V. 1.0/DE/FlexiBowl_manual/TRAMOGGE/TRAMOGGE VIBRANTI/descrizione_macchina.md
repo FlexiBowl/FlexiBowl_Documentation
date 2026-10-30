@@ -1,10 +1,10 @@
-# **Maschinenbeschreibung** 
+# **Maschinenbeschreibung**
 
 <p style="line-height: 1.6; border-left: 4px solid #34495e; padding-left: 15px; margin-bottom: 25px;">
-  Le tramogge sono particolarmente adatte per alimentare e pre-dosare particolari di piccole, medie e grandi dimensioni. Sono azionate da una base lineare vibrante, il cui modello varia a seconda della dimensione della tramoggia stessa.
+  Bulk Feeder eignen sich besonders zum Zuführen und Vordosieren von kleinen, mittleren und großen Teilen. Sie werden von einem linearen Vibrationssockel angetrieben, dessen Modell sich nach der Größe des Bulk Feeders richtet.
 </p>
 
-La macchina standard è composta dalle seguenti parti fondamentali:
+Die Standardmaschine besteht aus den folgenden Hauptteilen:
 
 :::{raw} html
 <style>
@@ -49,20 +49,20 @@ La macchina standard è composta dalle seguenti parti fondamentali:
 
 <!-- Tab bar -->
 <div class="tr-tabs">
-  <button class="tr-tab on"    onclick="trSwitchTab('tramoggia',this)">Tramoggia vibrante</button>
+  <button class="tr-tab on"    onclick="trSwitchTab('Bulk Feeder',this)">Vibrations-Bulk-Feeder</button>
 </div>
 
 <!-- ══════════ TRAMOGGIA ══════════ -->
 <div class="tr-panel on" id="tr-panel-tramoggia">
   <div class="tr-wrap">
     <div class="tr-img-outer">
-      <img class="tr-img-base" id="tramoggia-img-base" src="../../../../../_shared/media/images/tramoggia0.PNG" alt="Vista Tramoggia" />
+      <img class="tr-img-base" id="tramoggia-img-base" src="../../../../../_shared/media/images/tramoggia0.PNG" alt="Ansicht des Bulk Feeders" />
       <img class="tr-img-hl"   id="tramoggia-img-hl"   src="" alt="" aria-hidden="true" />
       <div class="tr-badge" id="tramoggia-badge"></div>
-      <div class="tr-hint"  id="tramoggia-hint">Seleziona un componente dalla lista</div>
+      <div class="tr-hint"  id="tramoggia-hint">Eine Komponente aus der Liste auswählen</div>
     </div>
     <div class="tr-list-panel">
-      <div class="tr-list-head"><span>N.</span><span>Componente</span><span>Descrizione</span></div>
+      <div class="tr-list-head"><span>Nr.</span><span>Komponente</span><span>Beschreibung</span></div>
       <div id="tramoggia-list"></div>
     </div>
   </div>
@@ -77,11 +77,11 @@ La macchina standard è composta dalle seguenti parti fondamentali:
       imgPath: '../../../../../_shared/media/images/tramoggia',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'Supporto',        desc:'È il componente che viene staffato sulla macchina e su cui viene posizionata la tramoggia.'},
-        {n:2,  name:'Base vibrante',    desc:'È il componente principale della tramoggia; tramite un elettromagnete effettua la vibrazione che permette l’avanzamento dei pezzi sulla vasca.'},
-        {n:3,  name:'Vasca',            desc:'Può essere da 1,5lt, 5lt, 10lt, 20lt, 40lt a seconda del componente da lavorare. Su richiesta, sono realizzabili anche di dimensioni personalizzate. La vasca da 1,5lt è costruita in materiale plastico mentre le altre sono in acciaio INOX.'},
-        {n:4,  name:'Controller',       desc:'Viene utilizzato per regolare la vibrazione della tramoggia.'},
-        {n:5,  name:'Carter',           desc:'Componenti di protezione della base vibrante da urti, sporco e polvere.'},
+        {n:1,  name:'Halterung',        desc:'Dies ist die Komponente, die an der Maschine befestigt wird und auf der der Bulk Feeder positioniert wird.'},
+        {n:2,  name:'Vibrationsbasis',    desc:'Dies ist die Hauptkomponente des Bulk Feeders; mithilfe eines Elektromagneten erzeugt sie die Vibration, die die Teile auf der Wanne vorantreibt.'},
+        {n:3,  name:'Wanne',            desc:'Sie ist in 1,5 l, 5 l, 10 l, 20 l oder 40 l erhältlich, je nach zu verarbeitendem Bauteil. Auf Anfrage sind auch kundenspezifische Größen möglich. Die 1,5-l-Wanne besteht aus Kunststoff, die anderen aus Edelstahl.'},
+        {n:4,  name:'Controller',       desc:'Er dient zur Einstellung der Vibration des Bulk Feeders.'},
+        {n:5,  name:'Gehäuse',           desc:'Komponenten zum Schutz der Vibrationsbasis vor Stößen, Schmutz und Staub.'},
       ]
     },
   };
@@ -170,308 +170,312 @@ La macchina standard è composta dalle seguenti parti fondamentali:
 :::
 
 :::{attention}
-Nel caso di modelli personalizzati i componenti potrebbero differire, parzialmente o totalmente, da quelli indicati. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto. 
+Bei kundenspezifischen Modellen können die Komponenten ganz oder teilweise von den angegebenen abweichen. Für solche Modelle ist die technische Projektakte heranzuziehen.
 :::
 
-## Componenti e Funzionamento
+## Komponenten und Funktionsweise
 
-* **Struttura della base:** La base lineare vibrante è composta da due corpi uniti tra loro da molle a balestra.
-* **Meccanismo di vibrazione:** Il funzionamento è affidato ad un elettromagnete solidale al corpo fisso che attrae e rilascia il corpo mobile. Questa azione genera la vibrazione che permette l’avanzamento dei particolari contenuti all’interno della vasca (posizionata sul corpo mobile e bloccata tramite l’utilizzo di ganasce).
-* **Controllo elettrico:** Per assolvere a questo scopo i vibratori necessitano di un controller che converte la corrente alternata in corrente di impulso, oltre a regolare la velocità del sistema stesso.
+* **Aufbau des Sockels:** Der lineare Vibrationssockel besteht aus zwei Körpern, die durch Blattfedern miteinander verbunden sind.
+* **Vibrationsmechanismus:** Der Betrieb beruht auf einem am feststehenden Körper befestigten Elektromagneten, der den beweglichen Körper anzieht und freigibt. Diese Bewegung erzeugt die Vibration, durch die sich die in der Wanne befindlichen Teile vorwärtsbewegen (die Wanne ist auf dem beweglichen Körper positioniert und mit Klemmbacken befestigt).
+* **Elektrische Steuerung:** Hierfür benötigen die Vibratoren eine Steuerung, die Wechselstrom in Impulsstrom umwandelt und außerdem die Geschwindigkeit des Systems regelt.
 
 ---
 
-## Uso Previsto 
+## Bestimmungsgemäße Verwendung 
 
-La tramoggia è disponibile in sei modelli base. Modelli personalizzati, derivanti da quelli di base ma differenti dal punto di vista dimensionale e prestazionale, sono realizzabili previo confronto con le richieste dell’utilizzatore. 
+Der Bulk Feeder ist in sechs Basismodellen erhältlich. Kundenspezifische Modelle, die von den Basismodellen abgeleitet sind, sich aber in Abmessungen und Leistung unterscheiden, sind nach Abstimmung mit den Anforderungen des Anwenders realisierbar.
 
 :::{note} 
-**Nota di validità:** Le informazioni contenute nel presente manuale sono da ritenersi valide anche per modelli di natura personalizzata.
+**Hinweis zur Gültigkeit:** Die in diesem Handbuch enthaltenen Informationen gelten auch für kundenspezifische Modelle.
 :::
 
-**Capacità dei modelli standard disponibili:**
+**Fassungsvermögen der verfügbaren Standardmodelle:**
 
-| Modello Base | Capacità della Vasca |
-|:--- |:--- |
-| **Modello 1** | 1,5 litri |
-| **Modello 2** | 3 litri |
-| **Modello 3** | 5 litri |
-| **Modello 4** | 10 litri |
-| **Modello 5** | 20 litri |
-| **Modello 6** | 40 litri |
+| Basismodell | Fassungsvermögen der Wanne | Tragfähigkeit |
+|:--- |:--- | :--- | 
+| **Modell 1** | 1,5 Liter | 1 kg | 
+| **Modell 2** | 3 Liter | 1,5 kg | 
+| **Modell 3** | 5 Liter | 6 kg |
+| **Modell 4** | 10 Liter | 6 kg |
+| **Modell 5** | 20 Liter | 6 kg |
+| **Modell 6** | 40 Liter | 15 kg |
 
 
-La macchina in oggetto è destinata ad uso industriale per: 
+Die vorliegende Maschine ist für den industriellen Einsatz bestimmt zur:
 
 ::::{list-table}
 :widths: 25 25 25 25
 :header-rows: 1
 :class: custom-safety-table
 
-* - <span style="font-weight: bold; color: #2c3e50;">Operazione</span>
-  - <span style="font-weight: bold; color: #27ae60;">Consentita</span>
-  - <span style="font-weight: bold; color: #c0392b;">Non Consentita</span>
-  - <span style="font-weight: bold; color: #2c3e50;">Ambiente di lavorazione</span>
+* - <span style="font-weight: bold; color: #2c3e50;">Vorgang</span>
+  - <span style="font-weight: bold; color: #27ae60;">Zulässig</span>
+  - <span style="font-weight: bold; color: #c0392b;">Nicht zulässig</span>
+  - <span style="font-weight: bold; color: #2c3e50;">Arbeitsumgebung</span>
 
-* - <div style="padding: 8px 0;"><span style="font-weight: 600; text-transform: uppercase; font-size: 0.9em; ">Movimentazione volta all'alimentazione di:</span></div>
+* - <div style="padding: 8px 0;"><span style="font-weight: 600; text-transform: uppercase; font-size: 0.9em; ">Handhabung zum Zweck der Zuführung von:</span></div>
   - <div style="background-color: #e8f8f5; border-left: 4px solid #2ecc71; padding: 10px; margin: 5px 0; border-radius: 4px; font-size: 0.95em; color: #117a65;">
-      Componentistica di peso e dimensioni massime variabili in base al modello di macchina.
+      Bauteile, deren maximales Gewicht und maximale Abmessungen je nach Maschinenmodell variieren.
     </div>
   - <div style="background-color: #fdf2f2; border-left: 4px solid #e74c3c; padding: 10px; margin: 5px 0; border-radius: 4px; font-size: 0.95em; color: #78281f;">
-      Qualsiasi altro componente non compreso all'interno del range di peso e dimensioni massime consentite.
+      Alle anderen Bauteile, die nicht im zulässigen Bereich für maximales Gewicht und maximale Abmessungen liegen.
     </div>
   - <div style="background-color: #f4f6f7; padding: 10px; margin: 5px 0; border-radius: 4px; font-size: 0.95em; text-align: center; font-weight: 500; color: #566573;">
-      Industriale
+      Industriell
     </div>
 ::::
 
 :::{IMPORTANT}
-Per maggiori informazioni sulla tipologia di componentistica consentita, consultare il paragrafo “Dati tecnici” del presente manuale.
+Weitere Informationen zur Art der zulässigen Bauteile finden sich im Abschnitt „Technische Daten“ dieses Handbuchs.
 :::
 
 <div style="display: flex; flex-direction: column; gap: 20px; margin: 20px 0;">
 
   <!-- Card 1: Destinazione d'Uso -->
   <div style="border-left: 5px solid #2980b9; background-color: #ebf5fb; padding: 20px; border-radius: 4px 8px 8px 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-    <h3 style="color: #2980b9; margin-top: 0; font-size: 1.2em; border-bottom: none;"> Destinazione d'Uso</h3>
-    <p style="margin-bottom: 10px; color: #2c3e50;">La macchina è stata creata per:</p>
+    <h3 style="color: #2980b9; margin-top: 0; font-size: 1.2em; border-bottom: none;"> Verwendungszweck</h3>
+    <p style="margin-bottom: 10px; color: #2c3e50;">Die Maschine wurde geschaffen, um:</p>
     <ul style="color: #34495e; margin-bottom: 0; padding-left: 20px;">
-      <li style="margin-bottom: 5px;">soddisfare le <strong>esigenze specifiche</strong> menzionate sul contratto di vendita;</li>
-      <li>essere utilizzata secondo le <strong>istruzioni ed i limiti d’impiego</strong> riportati nel presente manuale.</li>
+      <li style="margin-bottom: 5px;">die <strong>spezifischen Anforderungen</strong> zu erfüllen, die im Kaufvertrag genannt sind;</li>
+      <li>entsprechend den <strong>Anweisungen und Einsatzgrenzen</strong> verwendet zu werden, die in diesem Handbuch angegeben sind.</li>
     </ul>
   </div>
 
   <!-- Card 2: Condizioni per la Sicurezza -->
   <div style="border-left: 5px solid #27ae60; background-color: #eafaf1; padding: 20px; border-radius: 4px 8px 8px 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-    <h3 style="color: #27ae60; margin-top: 0; font-size: 1.2em; border-bottom: none;"> Condizioni per la Sicurezza</h3>
-    <p style="margin-bottom: 10px; color: #2c3e50;">La macchina è progettata e costruita per lavorare in sicurezza <strong>esclusivamente se</strong>:</p>
+    <h3 style="color: #27ae60; margin-top: 0; font-size: 1.2em; border-bottom: none;"> Sicherheitsbedingungen</h3>
+    <p style="margin-bottom: 10px; color: #2c3e50;">Die Maschine ist so konstruiert und gebaut, dass sie sicher arbeitet, <strong>jedoch ausschließlich, wenn</strong>:</p>
     <ul style="color: #34495e; margin-bottom: 0; padding-left: 20px;">
-      <li style="margin-bottom: 5px;">viene impiegata entro i limiti dichiarati sul contratto e sul presente manuale;</li>
-      <li style="margin-bottom: 5px;">vengono seguite scrupolosamente le procedure del manuale d’uso;</li>
-      <li style="margin-bottom: 5px;">viene effettuata la manutenzione ordinaria nei tempi e nei modi indicati;</li>
-      <li style="margin-bottom: 5px;">viene fatta eseguire tempestivamente la manutenzione straordinaria in caso di necessità;</li>
-      <li><strong style="color: #c0392b;">NON vengono mai rimossi e/o bypassati i dispositivi di sicurezza.</strong></li>
+      <li style="margin-bottom: 5px;">sie innerhalb der im Vertrag und in diesem Handbuch angegebenen Grenzen eingesetzt wird;</li>
+      <li style="margin-bottom: 5px;">die Verfahren des Betriebshandbuchs gewissenhaft befolgt werden;</li>
+      <li style="margin-bottom: 5px;">die regelmäßige Wartung zu den angegebenen Zeitpunkten und auf die angegebene Weise durchgeführt wird;</li>
+      <li style="margin-bottom: 5px;">bei Bedarf rechtzeitig die außerordentliche Wartung durchgeführt wird;</li>
+      <li><strong style="color: #c0392b;">die Sicherheitseinrichtungen NIEMALS entfernt und/oder überbrückt werden.</strong></li>
     </ul>
   </div>
 
 </div>
 
-## Uso Scorretto (Ragionevolmente Prevedibile)
+## Fehlanwendung (vernünftigerweise vorhersehbar)
 
 <div style="border-left: 5px solid #c0392b; background-color: #fdf2f2; padding: 20px; border-radius: 4px; margin: 15px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
   <ul style="color: #2c3e50; margin: 0; padding-left: 20px; line-height: 1.6;">
-    <li style="margin-bottom: 8px;">Lavorare componenti liquidi e graniglie fini;</li>
-    <li style="margin-bottom: 8px;">Modificare i parametri di lavoro inficianti la sicurezza;</li>
-    <li style="margin-bottom: 8px;">Trasporto di persone;</li>
-    <li style="margin-bottom: 8px;">Sfruttare la macchina come punto d’appoggio;</li>
-    <li style="margin-bottom: 8px;">Utilizzare la macchina in modo da ottenere valori di produzione superiori ai limiti prescritti;</li>
-    <li style="margin-bottom: 8px;">Modificare / manomettere i collegamenti elettrici e pneumatici della macchina o ogni altro suo componente;</li>
-    <li style="margin-bottom: 8px;">Utilizzare la macchina con prodotto diverso da quello elencato nell’“Uso previsto (corretto)”;</li>
-    <li style="margin-bottom: 0;">Utilizzare la macchina diversamente da quanto previsto al paragrafo “Uso previsto (corretto)”.</li>
+    <li style="margin-bottom: 8px;">Verarbeiten flüssiger Bauteile und feinen Strahlguts;</li>
+    <li style="margin-bottom: 8px;">Ändern von Arbeitsparametern in einer Weise, die die Sicherheit beeinträchtigt;</li>
+    <li style="margin-bottom: 8px;">Transport von Personen;</li>
+    <li style="margin-bottom: 8px;">Verwendung der Maschine als Abstützpunkt;</li>
+    <li style="margin-bottom: 8px;">Verwendung der Maschine, um Produktionswerte über den vorgeschriebenen Grenzen zu erzielen;</li>
+    <li style="margin-bottom: 8px;">Ändern / Manipulieren der elektrischen und pneumatischen Anschlüsse der Maschine oder anderer ihrer Bauteile;</li>
+    <li style="margin-bottom: 8px;">Verwendung der Maschine mit einem anderen als dem unter „Bestimmungsgemäße Verwendung (korrekt)“ aufgeführten Produkt;</li>
+    <li style="margin-bottom: 0;">Verwendung der Maschine auf andere Weise als im Absatz „Bestimmungsgemäße Verwendung (korrekt)“ vorgesehen.</li>
   </ul>
 </div>
 
 :::{warning}
-Qualsiasi altro impiego della macchina rispetto a quello previsto deve essere preventivamente autorizzato per iscritto dal Costruttore. In mancanza di tale autorizzazione scritta, l’impiego è da considerare “uso improprio”; pertanto il Costruttore declina ogni responsabilità in relazione ai danni eventualmente provocati a cose o persone e ritiene decaduta ogni tipo di garanzia sulla macchina.  
+Jede von der vorgesehenen abweichende Verwendung der Maschine muss vorab schriftlich vom Hersteller genehmigt werden. Fehlt diese schriftliche Genehmigung, gilt die Verwendung als „unsachgemäß“; der Hersteller lehnt daher jede Haftung für eventuell verursachte Sach- oder Personenschäden ab und betrachtet jegliche Garantie auf die Maschine als erloschen.
 :::
 
 :::{important}
-Un uso improprio della macchina esclude qualsiasi responsabilità del Costruttore.
+Eine unsachgemäße Verwendung der Maschine schließt jegliche Haftung des Herstellers aus.
 :::
 
-## Obblighi e Divieti 
+## Pflichten und Verbote 
 
-### Obblighi degli utilizzatori 
+### Pflichten der Anwender 
 
-L’utilizzatore (imprenditore o datore di lavoro) deve:
+Der Anwender (Unternehmer oder Arbeitgeber) muss:
 
 <div style="border-left: 5px solid #2980b9; background-color: #ebf5fb; padding: 20px; border-radius: 4px; margin: 15px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
   <ul style="color: #2c3e50; margin: 0; padding-left: 20px; line-height: 1.6;">
-    <li style="margin-bottom: 8px;">Tenere conto delle capacità e delle condizioni degli operatori in rapporto alla loro salute e alla loro sicurezza;</li>
-    <li style="margin-bottom: 8px;">Fornire i mezzi di protezione individuale (DPI) adeguati alle singole procedure;</li>
-    <li style="margin-bottom: 8px;">Fornire mezzi e procedure di sollevamento a norma;</li>
-    <li style="margin-bottom: 8px;">Richiedere l’osservanza da parte dei singoli lavoratori delle norme e delle disposizioni aziendali in materia di sicurezza e di uso dei mezzi di protezione collettivi e individuali messi a loro disposizione;</li>
-    <li style="margin-bottom: 8px;">Istruire il personale sulle procedure da seguire in caso di infortunio;</li>
-    <li style="margin-bottom: 8px;">Istruire il personale sui rischi residui presenti;</li>
-    <li style="margin-bottom: 8px;">Istruire il personale sui dispositivi predisposti per la sicurezza degli operatori;</li>
-    <li style="margin-bottom: 8px;">Istruire il personale sui rischi di emissione da rumore nell’ambiente di lavoro;</li>
-    <li style="margin-bottom: 0;">Istruire il personale sulle regole antinfortunistiche generali previste da direttive europee e dalla legislazione del Paese di destinazione della macchina.</li>
+    <li style="margin-bottom: 8px;">die Fähigkeiten und Bedingungen der Bediener im Hinblick auf deren Gesundheit und Sicherheit berücksichtigen;</li>
+    <li style="margin-bottom: 8px;">die für die einzelnen Verfahren geeignete persönliche Schutzausrüstung (PSA) bereitstellen;</li>
+    <li style="margin-bottom: 8px;">normgerechte Hebemittel und Hebeverfahren bereitstellen;</li>
+    <li style="margin-bottom: 8px;">von den einzelnen Arbeitnehmern die Einhaltung der betrieblichen Regeln und Vorschriften zur Sicherheit und zur Verwendung der ihnen zur Verfügung gestellten kollektiven und individuellen Schutzmittel verlangen;</li>
+    <li style="margin-bottom: 8px;">das Personal über die im Unfallfall zu befolgenden Verfahren unterweisen;</li>
+    <li style="margin-bottom: 8px;">das Personal über die vorhandenen Restrisiken unterweisen;</li>
+    <li style="margin-bottom: 8px;">das Personal über die zur Sicherheit der Bediener vorgesehenen Einrichtungen unterweisen;</li>
+    <li style="margin-bottom: 8px;">das Personal über die Risiken der Lärmemission am Arbeitsplatz unterweisen;</li>
+    <li style="margin-bottom: 0;">das Personal über die allgemeinen Unfallverhütungsvorschriften unterweisen, die in europäischen Richtlinien und in der Gesetzgebung des Bestimmungslandes der Maschine vorgesehen sind.</li>
   </ul>
 </div>
 
 :::{note} 
-Fare operare sulla macchina solo personale che abbia preso visione del presente manuale e che sia stato opportunamente addestrato.
+nur Personal an der Maschine arbeiten lassen, das dieses Handbuch gelesen hat und entsprechend geschult wurde.
 :::
 
-### Obblighi del personale addetto (operatori/manutentori/tecnici)
+### Pflichten des eingesetzten Personals (Bediener/Wartungspersonal/Techniker)
 
-Il personale deve:
+Das Personal muss:
 
 <div style="border-left: 5px solid #27ae60; background-color: #eafaf1; padding: 20px; border-radius: 4px; margin: 15px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
   <ul style="color: #2c3e50; margin: 0; padding-left: 20px; line-height: 1.6;">
-    <li style="margin-bottom: 8px;"><strong>Effettuare gli interventi di manutenzione sempre a macchina spenta.</strong> Non lubrificare mai organi in moto;</li>
-    <li style="margin-bottom: 8px;">Quando la macchina è in funzione, evitare di operare nei pressi con catene, braccialetti, cravatte o altri indumenti che possano impigliarsi nei meccanismi;</li>
-    <li style="margin-bottom: 8px;">Raccogliere obbligatoriamente i capelli lunghi per evitare il rischio di trascinamento;</li>
-    <li style="margin-bottom: 8px;">Effettuare interventi sul quadro elettrico, cassette di derivazione, cavi e componenti elettrici <strong>esclusivamente con l’interruttore generale spento</strong>;</li>
-    <li style="margin-bottom: 8px;">Sincerarsi che non vi sia nessuna persona all'interno delle zone pericolose prima di avviare la macchina;</li>
-    <li style="margin-bottom: 8px;">Prestare la massima attenzione durante il funzionamento affinché nessuno possa accedere direttamente alle parti in movimento;</li>
-    <li style="margin-bottom: 8px;">Utilizzare in modo appropriato i dispositivi di protezione messi a disposizione dal datore di lavoro;</li>
-    <li style="margin-bottom: 0;">Segnalare immediatamente al datore di lavoro, al dirigente o al preposto qualsiasi deficienza o anomalia nei dispositivi di sicurezza.</li>
+    <li style="margin-bottom: 8px;"><strong>Wartungsarbeiten immer bei ausgeschalteter Maschine durchführen.</strong> nie bewegte Teile schmieren;</li>
+    <li style="margin-bottom: 8px;">bei laufender Maschine nicht in ihrer Nähe mit Ketten, Armbändern, Krawatten oder anderer Kleidung arbeiten, die sich in den Mechanismen verfangen kann;</li>
+    <li style="margin-bottom: 8px;">lange Haare unbedingt zusammenbinden, um die Gefahr des Einzugs zu vermeiden;</li>
+    <li style="margin-bottom: 8px;">Arbeiten am Schaltschrank, an Abzweigdosen, Kabeln und elektrischen Bauteilen <strong>ausschließlich bei ausgeschaltetem Hauptschalter durchführen</strong>;</li>
+    <li style="margin-bottom: 8px;">sich vor dem Start der Maschine vergewissern, dass sich niemand in den Gefahrenbereichen befindet;</li>
+    <li style="margin-bottom: 8px;">während des Betriebs höchste Aufmerksamkeit walten lassen, damit niemand direkt an die beweglichen Teile gelangen kann;</li>
+    <li style="margin-bottom: 8px;">die vom Arbeitgeber zur Verfügung gestellten Schutzeinrichtungen sachgemäß verwenden;</li>
+    <li style="margin-bottom: 0;">dem Arbeitgeber, der Führungskraft oder dem Vorgesetzten unverzüglich jeden Mangel oder jede Auffälligkeit an den Sicherheitseinrichtungen melden.</li>
   </ul>
 </div>
 
-### Divieti del personale addetto 
+### Verbote für das Bedienpersonal 
 
-In particolare, il personale non deve:
+Insbesondere darf das Personal nicht:
 
 <div style="border-left: 5px solid #c0392b; background-color: #fdf2f2; padding: 20px; border-radius: 4px; margin: 15px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
   <ul style="color: #2c3e50; margin: 0; padding-left: 20px; line-height: 1.6;">
-    <li style="margin-bottom: 8px;">Utilizzare la macchina in modo improprio (ovvero per usi diversi da quelli indicati nel paragrafo “Uso Previsto”);</li>
-    <li style="margin-bottom: 8px;">Rimuovere o modificare senza preventiva autorizzazione i dispositivi di sicurezza o di segnalazione;</li>
-    <li style="margin-bottom: 8px;">Compiere di propria iniziativa operazioni o manovre fuori dalla propria competenza o che possano compromettere la sicurezza propria o di altri lavoratori;</li>
-    <li style="margin-bottom: 8px;">Indossare bracciali, anelli o catenine che possano ciondolare ed essere trascinati da organi in movimento;</li>
-    <li style="margin-bottom: 8px;">Sostituire o modificare le velocità dei componenti della macchina senza l'esplicito consenso di un responsabile;</li>
-    <li style="margin-bottom: 8px;">Modificare in alcun modo il ciclo programmato della macchina;</li>
-    <li style="margin-bottom: 8px;">Modificare gli allacciamenti elettrici con lo scopo di escludere o bypassare le sicurezze interne;</li>
-    <li style="margin-bottom: 8px;">Utilizzare la macchina se non è stata installata in totale conformità con le normative vigenti;</li>
-    <li style="margin-bottom: 8px;">Sfruttare la macchina come punto di appoggio, anche se non funzionante (pena il rischio di caduta dell'operatore e/o il danneggiamento della struttura);</li>
-    <li style="margin-bottom: 0;">Utilizzare la macchina al di fuori delle condizioni ambientali permesse (consultare il “Capitolo 5”).</li>
+    <li style="margin-bottom: 8px;">die Maschine unsachgemäß verwenden (d. h. für andere als die im Absatz „Bestimmungsgemäße Verwendung“ angegebenen Zwecke);</li>
+    <li style="margin-bottom: 8px;">ohne vorherige Genehmigung Sicherheits- oder Signaleinrichtungen entfernen oder verändern;</li>
+    <li style="margin-bottom: 8px;">aus eigener Initiative Arbeiten oder Handgriffe ausführen, die außerhalb ihrer Zuständigkeit liegen oder die die eigene Sicherheit oder die anderer Arbeitnehmer gefährden können;</li>
+    <li style="margin-bottom: 8px;">Armbänder, Ringe oder Halsketten tragen, die baumeln und von beweglichen Teilen erfasst werden können;</li>
+    <li style="margin-bottom: 8px;">die Geschwindigkeiten der Maschinenkomponenten ohne ausdrückliche Zustimmung eines Verantwortlichen ersetzen oder ändern;</li>
+    <li style="margin-bottom: 8px;">den programmierten Zyklus der Maschine in irgendeiner Weise verändern;</li>
+    <li style="margin-bottom: 8px;">die elektrischen Anschlüsse mit dem Ziel verändern, die internen Sicherheitseinrichtungen auszuschalten oder zu überbrücken;</li>
+    <li style="margin-bottom: 8px;">die Maschine verwenden, wenn sie nicht in vollständiger Übereinstimmung mit den geltenden Vorschriften installiert wurde;</li>
+    <li style="margin-bottom: 8px;">die Maschine als Abstützpunkt verwenden, auch wenn sie nicht in Betrieb ist (bei Gefahr eines Sturzes des Bedieners und/oder einer Beschädigung der Struktur);</li>
+    <li style="margin-bottom: 0;">die Maschine außerhalb der zulässigen Umgebungsbedingungen verwenden (siehe „Kapitel 5“).</li>
   </ul>
 </div>
 
 :::{attention}
-ARS S.r.l. non risponde per danni causati a cose o persone nel caso:  
-•	si accerti che la macchina sia stata utilizzata in uno degli ambienti non ammessi;  
-•	non siano stati rispettati gli obblighi ed i divieti qui descritti.  
+ARS S.r.l. haftet nicht für Sach- oder Personenschäden, wenn:
+•	festgestellt wird, dass die Maschine in einer der unzulässigen Umgebungen verwendet wurde;
+•	die hier beschriebenen Pflichten und Verbote nicht eingehalten wurden.
 :::
 
-## Dati Tecnici 
+## Technische Daten 
 
 ```{list-table}
 :header-rows: 1
+:widths: 20 30 25 25
 
-* - Dati alimentazione elettrica
-  - 1,5lt
-  - 3lt
-  - 5lt
-  - 10lt
-  - 20lt
-  - 40lt
-* - Alimentazione elettrica
-  - :span: 6
-  - 230Vac +/- 5% (115Vac su richiesta)
-* - Frequenza / Fase
-  - :span: 6
-  - 50-60 Hz / monofase
-* - Assorbimento (A)
+* - Größe des Bulk Feeders
+  - Elektrische Versorgung
+  - Frequenz / Phase
+  - Stromaufnahme (A)
+* - 1,5 l
+  - 230 V AC ±5 % ({ref}`115 V AC auf Anfrage <tramoggia-110v>`)
+  - 50-60 Hz / einphasig
   - 0,1
+* - 3 l
+  - 230 V AC ±5 % ({ref}`115 V AC auf Anfrage <tramoggia-110v>`)
+  - 50-60 Hz / einphasig
   - 0,1
+* - 5 l
+  - 230 V AC ±5 % ({ref}`115 V AC auf Anfrage <tramoggia-110v>`)
+  - 50-60 Hz / einphasig
   - 0,25
+* - 10 l
+  - 230 V AC ±5 % ({ref}`115 V AC auf Anfrage <tramoggia-110v>`)
+  - 50-60 Hz / einphasig
   - 0,25
+* - 20 l
+  - 230 V AC ±5 % ({ref}`115 V AC auf Anfrage <tramoggia-110v>`)
+  - 50-60 Hz / einphasig
   - 0,25
+* - 40 l
+  - 230 V AC ±5 % ({ref}`115 V AC auf Anfrage <tramoggia-110v>`)
+  - 50-60 Hz / einphasig
   - 0,45
 ```
 
-| Dati alimentazione elettrica | 1,5lt | 3lt | 5lt | 10lt | 20lt | 40lt |
+| Größe des Bulk Feeders | 1,5 l | 3 l | 5 l | 10 l | 20 l | 40 l |
 |------------------------------|--------|------|------|-------|-------|-------|
-| Peso netto                   | 11 Kg | 18 Kg | 22 Kg | 24 Kg | 27 Kg | 38 Kg |
+| Entsprechendes Nettogewicht | 2 kg | 11 kg | 24 kg | 26 kg | 28 kg | 38 kg |
 
 :::{attention}
-Nel caso di modelli personalizzati i valori indicati potrebbero differire da quelli in tabella. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto. 
+Bei kundenspezifischen Modellen können die angegebenen Werte von denen in der Tabelle abweichen. Für solche Modelle ist die technische Projektakte heranzuziehen.
 :::
 
 ## Layout 
 
-![Dimensioni Tramoggia](../../../../../_shared/media/images/dim_tramoggia.jpg)
+![Abmessungen des Bulk Feeders](../../../../../_shared/media/images/dim_tramoggia.jpg)
 
-| Dimensioni | 1,5lt | 3lt | 5lt | 10lt | 20lt | 40lt |
+| Abmessungen | 1,5 l | 3 l | 5 l | 10 l | 20 l | 40 l |
 |------------|--------|------|------|-------|-------|-------|
-| A | 350 mm | 525 mm | 435 mm | 630 mm | 760 mm | 780 mm |
-| B | 65 mm | 98 mm | 135 mm | 135 mm | 180 mm | 260 mm |
-| C | 90 mm | 97 mm | 140 mm | 140 mm | 220 mm | 280 mm |
-| D | 211 mm | 218 mm | 247 mm | 247 mm | 262 mm | 290 mm |
+| A | 350 mm | 450 mm | 480 mm | 670 mm | 780 mm | 780 mm |
+| B | 65 mm | 100 mm | 130 mm | 155 mm | 183 mm | 208 mm |
+| C | 90 mm | 120 mm | 150 mm | 160 mm | 215 mm | 315 mm |
+| D | 211 mm | 215 mm | 247 mm | 247 mm | 247 mm | 290 mm |
+| E | 350 mm | 515 mm | 515 mm | 690 mm | 780 mm | 780 mm |
 
 :::{attention}
-Nel caso di modelli personalizzati i valori indicati potrebbero differire da quelli in tabella. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto. 
+Bei kundenspezifischen Modellen können die angegebenen Werte von denen in der Tabelle abweichen. Für solche Modelle ist die technische Projektakte heranzuziehen.
 :::
 
 
-## Componenti Standard e Opzionali 
+## Standard- und optionale Komponenten 
 
-```{list-table} Accessori e Dotazioni delle Tramogge
+```{list-table} Zubehör und Ausstattung der Bulk Feeder
 :widths: 20 40 25 15
 :header-rows: 1
 
-* - **Elemento**
-  - **Descrizione**
+* - **Element**
+  - **Beschreibung**
   - **Foto**
-  - **Standard / Opzionale**
+  - **Standard / Optional**
 
-* - Sportello svuotamento
-  - Sportello di scarico posteriore per svuotamento rapido
-  - 
-    :::{image} ../../../../../_shared/media/images/sportello_svuotamento.jpg
-    :alt: Sportello svuotamento
-    :width: 120px
-    :align: center
-    :::
-  - STANDARD (esclusa tramoggia 1,5lt)
-
-* - Barriera dosatrice
-  - Dosatore a barriera per regolazione del flusso (registrabile)
+* - Dosierbarriere
+  - Barrieredosierer zur Flussregulierung (einstellbar). Siehe {ref}`barriera`.
   - 
     :::{image} ../../../../../_shared/media/images/barriera_dosatrice.jpg
-    :alt: Barriera dosatrice
+    :alt: Dosierbarriere
     :width: 120px
     :align: center
     :::
-  - OPZIONALE (esclusa tramoggia 1,5lt)
+  - OPTIONAL (ausgenommen Bulk Feeder 1,5 l)
 
-* - Protezione di sicurezza
-  - Protezione di sicurezza per mani
+* - Sicherheitsschutz
+  - Sicherheits-Handschutz. Siehe {ref}`hand-guard`.
   - 
     :::{image} ../../../../../_shared/media/images/protezione_sicurezza.jpg
-    :alt: Protezione di sicurezza
+    :alt: Sicherheitsschutz
     :width: 120px
     :align: center
     :::
-  - OPZIONALE (esclusa tramoggia 1,5lt)
+  - OPTIONAL (ausgenommen Bulk Feeder 1,5 l)
 
-* - Rivestimento
-  - Rivestimento della vasca in poliuretano
+* - Beschichtung
+  - Polyurethan-Beschichtung der Wanne. Siehe {ref}`tramoggia-pu`.
   - 
     :::{image} ../../../../../_shared/media/images/rivestimento.png
-        :alt: Rivestimento
+        :alt: Beschichtung
         :width: 120px
         :align: center
     :::
-  - OPZIONALE (esclusa tramoggia 1,5lt)
+  - OPTIONAL (ausgenommen Bulk Feeder 1,5 l)
 
-* - Fotocellula frontale
-  - Ha la funzione di verificare la presenza di componenti nella zona frontale della vasca vibrante durante il processo di alimentazione. Per maggiori informazioni fare riferimento all’Appendice A: “Frontal and Rear Photocells”.
+* - Frontlichtschranke
+  - Seine Funktion ist es, während des Zuführprozesses das Vorhandensein von Bauteilen im vorderen Bereich der Vibrationswanne zu prüfen. Siehe {ref}`fotocellula-frontale`.
   - 
     :::{image} ../../../../../_shared/media/images/fotocellula_frontale.png
-        :alt: Fotocellula frontale
+        :alt: Frontlichtschranke
         :width: 120px
         :align: center
     :::
-  - OPZIONALE (esclusa tramoggia 1,5lt)
+  - OPTIONAL (ausgenommen Bulk Feeder 1,5 l)
 
-* - Fotocellula posteriore
-  - Ha la funzione di monitorare il livello dei pezzi presenti dentro alla vasca. Per maggiori informazioni fare riferimento all’Appendice A: “Frontal and Rear Photocells”.
+* - Rücklichtschranke
+  - Seine Funktion ist es, den Füllstand der Teile in der Wanne zu überwachen. Siehe {ref}`fotocellula-posteriore`.
   - 
     :::{image} ../../../../../_shared/media/images/fotocellula_posteriore.png
-        :alt: Fotocellula posteriore
+        :alt: Rücklichtschranke
         :width: 120px
         :align: center
     :::
-  - OPZIONALE (esclusa tramoggia 1,5lt)
+  - OPTIONAL (ausgenommen Bulk Feeder 1,5 l)
 
 ```
 
-### Ciclo di lavorazione 
+:::{note}
+Die vollständige Liste der in der Preisliste verfügbaren Varianten, Zubehörteile und Optionen (einschließlich der 110-V-Versionen, der Schwingungsdämpfungs-Kits und der Steuerungskabel) finden Sie auf der Seite {ref}`Zubehör und Optionen <tramoggia-accessori>`.
+:::
 
-Di seguito viene descritto in maniera semplificata il ciclo di lavorazione, suddiviso nelle seguenti fasi operative:
+### Arbeitszyklus 
+
+Nachfolgend wird der Arbeitszyklus vereinfacht beschrieben, gegliedert in die folgenden Betriebsphasen:
 
 <div style="display: flex; flex-direction: column; gap: 15px; margin: 20px 0; position: relative;">
 
@@ -481,7 +485,7 @@ Di seguito viene descritto in maniera semplificata il ciclo di lavorazione, sudd
       1
     </div>
     <div style="padding: 15px 20px; display: flex; align-items: center; color: #2c3e50; line-height: 1.5;">
-      <span>L'operatore posiziona manualmente o con un sistema di carico automatico il prodotto da lavorare all’interno della vasca.</span>
+      <span>Der Bediener legt das zu verarbeitende Produkt manuell oder mit einem automatischen Beladesystem in die Wanne.</span>
     </div>
   </div>
 
@@ -491,7 +495,7 @@ Di seguito viene descritto in maniera semplificata il ciclo di lavorazione, sudd
       2
     </div>
     <div style="padding: 15px 20px; display: flex; align-items: center; color: #2c3e50; line-height: 1.5;">
-      <span>La tramoggia effettua ciclicamente delle vibrazioni (impostate dall'operatore) per consentire l’avanzamento dei pezzi, in modo da garantire costantemente la presenza degli stessi sull’alimentatore.</span>
+      <span>Der Bulk Feeder führt zyklisch Vibrationen aus (vom Bediener eingestellt), damit die Teile vorrücken können, sodass sie stets auf dem Zuführer vorhanden sind.</span>
     </div>
   </div>
 

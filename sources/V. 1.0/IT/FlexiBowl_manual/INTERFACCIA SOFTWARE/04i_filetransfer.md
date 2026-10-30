@@ -1,4 +1,4 @@
-# [SOF] **File Transfer**
+# **File Transfer**
 
 ## Panoramica
 

@@ -1,13 +1,12 @@
 (sost-disco)=
-# [MEC] **Replacing the Surface or Rigid Disc**
+# **Replacing the Surface or the Rigid Disc**
 
-Changing the surface or rigid disc is required when a production changeover is made or when the previous surface or rigid disc is damaged.
-In any case, it is recommended to change the surface or rigid disc:
+Changing the surface or the rigid disc is required when there is a production changeover or when the previous surface or rigid disc is damaged. In any case, it is recommended to change the surface or rigid disc:
 - **Every 3 months** when used with particularly sharp components;
 - **Annually** in all other cases.
 
 :::{warning}
-Make sure that the FlexiBowl® is **switched off and stationary** before proceeding with the replacement of the surface or disc.
+Make sure the FlexiBowl® is **switched off and stationary** before proceeding with the replacement of the surface or the disc.
 :::
 
 :::{warning}
@@ -16,7 +15,7 @@ Some parts involved in the maintenance process described here may have reached {
 
 ## Surfaces (FlexiBowl® 500-650-800-1200)
 
-### What you need
+### What is needed?
 
 :::{list-table}
 :widths: 40 40
@@ -37,10 +36,10 @@ Some parts involved in the maintenance process described here may have reached {
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Lift/remove diverters/brushes (if present) |
+| 1 | Lift/remove deflectors/brushes (if present) |
 | 2 | Loosen the fixing screws of the central cap |
 | 3 | Rotate and remove the central cap |
-| 4 | Remove the surface and fit the new one |
+| 4 | Remove the surface and position the new one |
 | 5 | Refit the central cap and tighten the screws |
 
 ::::{raw} html
@@ -57,7 +56,7 @@ Some parts involved in the maintenance process described here may have reached {
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select> 
-  <figcaption><i>Surface replacement procedure shown on FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Surface replacement procedure illustrated on a FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
@@ -65,7 +64,7 @@ Some parts involved in the maintenance process described here may have reached {
 
 ### FlexiBowl® 350-500E
 
-#### What you need
+#### What is needed?
 
 :::{list-table}
 :widths: 40 40
@@ -86,10 +85,10 @@ Some parts involved in the maintenance process described here may have reached {
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Remove the diverters and the flip barrier assembly |
+| 1 | Remove the deflectors and the flip barrier assembly |
 | 2 | Loosen the fixing screws of the central cap |
 | 3 | Rotate and remove the central cap |
-| 4 | Remove the disc and fit the new one  |
+| 4 | Remove the disc and position the new one  |
 | 5 | Refit the central cap and tighten the screws |
 
 ::::{raw} html
@@ -106,13 +105,13 @@ Some parts involved in the maintenance process described here may have reached {
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Rigid disc replacement procedure shown on FlexiBowl® 500</i></figcaption>
+  <figcaption><i>Rigid disc replacement procedure illustrated on a FlexiBowl® 500</i></figcaption>
 </figure>
 ::::
 
-### FlexiBowl® 200
+### FlexiBowl®200
 
-#### What you need
+#### What is needed?
 
 :::{list-table}
 :widths: 40 40
@@ -151,6 +150,6 @@ Some parts involved in the maintenance process described here may have reached {
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Rigid disc replacement procedure shown on FlexiBowl® 200</i></figcaption>
+  <figcaption><i>Rigid disc replacement procedure illustrated on a FlexiBowl® 200</i></figcaption>
 </figure>
 ::::

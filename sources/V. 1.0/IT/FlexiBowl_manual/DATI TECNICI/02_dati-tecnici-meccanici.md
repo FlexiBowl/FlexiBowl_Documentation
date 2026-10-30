@@ -1,5 +1,5 @@
 (dati_meccanici)=
-# [MEC] **Dati Tecnici Meccanici**
+# **Dati Tecnici Meccanici**
 
 ## FlexiBowl® 200
 
@@ -168,7 +168,7 @@
   - 470 mm
 
 * - F
-  - 275 
+  - 275
   - 275 mm
   - 314.50 mm
   - 342 mm

@@ -1,27 +1,27 @@
 # **Wizard**
-L'interfaccia **FlexiBowl® Wizard** è uno strumento interattivo progettato per guidare l'utente nella configurazione dei parametri di alimentazione in base alla specifica famiglia di prodotti da gestire.
+La interfaz **FlexiBowl® Wizard** es una herramienta interactiva diseñada para guiar al usuario en la configuración de los parámetros de alimentación según la familia de productos específica que se va a gestionar.
 
-![Pagina Wizard](../../../../_shared/media/images/wizard_home_page.png)
+![Página Wizard](../../../../_shared/media/images/wizard_home_page.png)
 
-## Step 0: Accesso al Wizard
+## Paso 0: Acceso al Wizard
 
 :::{list-table}
 * - **1**
-  - Per accedere alla configurazione guidata dei parametri FlexiBowl®, è sufficiente cliccare sulla pagina **Wizard** nel menu laterale. 
+  - Para acceder a la configuración guiada de los parámetros del FlexiBowl®, basta con hacer clic en la página **Wizard** del menú lateral.
 :::
 
 :::{note}
-Il modello e il senso di trotazione del FlexiBowl® vengono automaticamente rilevati dal software. 
+El modelo y el sentido de rotación del FlexiBowl® son detectados automáticamente por el software.
 :::
 
-## Step 1: Caratterizzazione del Componente
+## Paso 1: Caracterización del componente
 
-Il sistema richiede informazioni sulla morfologia dei pezzi per ottimizzare la separazione.
+El sistema solicita información sobre la morfología de las piezas para optimizar la separación.
 ````{list-table}
 * - **2**
-  - Selezionare la dimensione del componente:**
+  - Seleccione el tamaño del componente:
 
-    **Per Modelli FlexiBowl 200, 350, 500, 650:**
+    **Para los modelos FlexiBowl 200, 350, 500, 650:**
 
     :::{card}
     <= 150mm
@@ -31,7 +31,7 @@ Il sistema richiede informazioni sulla morfologia dei pezzi per ottimizzare la s
     &gt; 150mm
     :::
 
-    **Per Modelli FlexiBowl 800 e 1200:**
+    **Para los modelos FlexiBowl 800 y 1200:**
 
     :::{card}
     <= 250mm
@@ -42,98 +42,97 @@ Il sistema richiede informazioni sulla morfologia dei pezzi per ottimizzare la s
     :::
 
 * - **3**
-  - Selezionare la geometria che meglio descrive il componente:
-      * **FLAT**: Componenti piatti.
-      * **CYLINDRICAL**: Componenti cilindrici.
-      * **COMPLEX**: Geometrie articolate o irregolari
+  - Seleccione la geometría que mejor describa el componente:
+      * **FLAT**: Componentes planos.
+      * **CYLINDRICAL**: Componentes cilíndricos.
+      * **COMPLEX**: Geometrías articuladas o irregulares
 
-      ![Flat Cylindrical or Complex](../../../../_shared/media/images/flatorcomplex.png)
+      ![Flat, Cylindrical o Complex](../../../../_shared/media/images/flatorcomplex.png)
 
-      *Esempi di geometrie: Flat, Cylindrical e Complex.*
+      *Ejemplos de geometrías: Flat, Cylindrical y Complex.*
 
 * - **4**
-  - Definire come i componenti interagiscono tra loro sulla superficie:
-      * **Overlapping**: I pezzi tendono a sovrapporsi.
-      * **Not Overlapping**: I pezzi non si sovrappongono.
-      * **Tangling / Stacking**: I pezzi tendono ad agganciarsi o impilarsi.
-      * **Not Tangling / Not Stacking**: I pezzi rimangono separati e non si incastrano.
+  - Definir cómo interactúan los componentes entre sí sobre la superficie:
+      * **Overlapping**: Las piezas tienden a solaparse.
+      * **Not Overlapping**: Las piezas no se solapan.
+      * **Tangling / Stacking**: Las piezas tienden a engancharse o apilarse.
+      * **Not Tangling / Not Stacking**: Las piezas permanecen separadas y no se encajan.
 
       ![Overlapping](../../../../_shared/media/videos/overlapping.gif)
 
-      *Not Overlapping: i pezzi non si sovrappongono sulla superficie.*
+      *Not Overlapping: las piezas no se solapan sobre la superficie.*
 
       ::::{grid} 2
       :::{grid-item}
       ![Stacking](../../../../_shared/media/videos/stacking.gif)
 
-      *Stacking: i pezzi si impilano.*
+      *Stacking: las piezas se apilan.*
       :::
       :::{grid-item}
       ![Tangling](../../../../_shared/media/videos/tangling.gif)
 
-      *Tangling: i pezzi si agganciano tra loro.*
+      *Tangling: las piezas se enganchan entre sí.*
       :::
       ::::
 ````
-## Step 2: Test degli Accessori
+## Paso 2: Prueba de los accesorios
 ```{list-table}
 * - **5**
-  - Selezionare dal menu a tendina se il FlexiBowl® è equipaggiato con il modulo **Air-blow**.
+  - Seleccione en el menú desplegable si el FlexiBowl® está equipado con el módulo **Air-blow**.
 * - **6**
-  - Cliccare su **TEST Air-blow** per verificare il funzionamento.
+  - Haga clic en **TEST Air-blow** para comprobar el funcionamiento.
 * - **7**
-  - Selezionare **USE** per abilitarlo nell'applicazione corrente, altrimenti cliccare su **DON'T USE**.
+  - Seleccione **USE** para habilitarlo en la aplicación actual; en caso contrario, haga clic en **DON'T USE**.
 * - **8**
-  - Cliccare su **TEST FLIP** per verificare l'effettiva attivazione del percussore.
-      Il "Flip" è l'unità che genera l'impulso meccanico per ribaltare i pezzi, è fondamentale per separare, districare o capovolgere i componenti durante il ciclo di alimentazione.
+  - Haga clic en **TEST FLIP** para comprobar la activación efectiva del percutor. El «Flip» es la unidad que genera el impulso mecánico para voltear las piezas; es fundamental para separar, desenredar o dar la vuelta a los componentes durante el ciclo de alimentación.
  
       :::{important}
-      Se l'impulso non è avvertibile, verificare che l'aria compressa sia collegata e agire sul regolatore di pressione meccanico posto sul pannello di controllo.
+      Si el impulso no se percibe, compruebe que el aire comprimido esté conectado y actúe sobre el regulador de presión mecánico situado en el panel de control.
       :::
 * - **9**
-  - Al termine del Wizard, cliccando su **FINISH**, il sistema calcolerà automaticamente i parametri: 
-    - Parametri di movimento (velocità, accelerazione, angolo)
-    - Parametri di scuotimento (shake)
-    - Temporizzazioni accessori (flip, blow)
+  - Al finalizar el Wizard, al hacer clic en **FINISH**, el sistema calculará automáticamente los parámetros:
+    - Parámetros de movimiento (velocidad, aceleración, ángulo)
+    - Parámetros de sacudida (shake)
+    - Temporizaciones de los accesorios (flip, blow)
 * - **10**
-  - Sarà quindi possibile affinarli nella dashboard riassuntiva.
+  - A continuación se podrán afinar en el panel de resumen.
 ```
-```{list-table} Panoramica Parametri
+```{list-table} Visión general de los parámetros
    :widths: 20 30 50
    :header-rows: 1
 
-   * - Gruppo
-     - Parametro
-     - Descrizione
+   * - Grupo
+     - Parámetro
+     - Descripción
    * - **Move**
      - Accel, Decel, Speed, Angle
-     - Parametri del movimento principale del disco.
+     - Parámetros del movimiento principal del disco.
    * - **Option**
      - Flip Count, Flip Delay, Blow Time
-     - Gestione dei tempi di attivazione degli accessori.
+     - Gestión de los tiempos de activación de los accesorios.
    * - **Shake**
      - Accel, Speed, Angle CW/CCW
-     - Parametri della vibrazione di scuotimento (separazione).
+     - Parámetros de la vibración de sacudida (separación).
 ```
 
-## Step 3: Validazione della Sequenza
+## Paso 3: Validación de la secuencia
 
-Utilizzare la funzione **...** per verificare che il ciclo rispetti i seguenti criteri di efficienza:
+Utilice la función **...** para comprobar que el ciclo cumple los siguientes criterios de eficiencia:
 ```{list-table}
 :widths: 5 95
 :header-rows: 0
 
-* - **Sincronizzazione**
-  - L'impulso di Flip deve terminare esattamente nello stesso istante in cui termina il movimento (*Move*). Regolare i valori di *Flip Count* e *Delay* per allinearli.
+* - **Sincronización**
+  - El impulso de Flip debe terminar exactamente en el mismo instante en que termina el movimiento (*Move*). Ajuste los valores de *Flip Count* y *Delay* para alinearlos.
 
-* - **Stabilità Immagine**
-  - I componenti devono essere immobili al momento dello scatto della camera.
-    - Se i pezzi si muovono, diminuire velocità/accelerazione o inserire una pausa (es. `pause 200ms`).
+* - **Estabilidad de la imagen**
+  - Los componentes deben estar inmóviles en el momento de la captura de la cámara.
+    - Si las piezas se mueven, reduzca la velocidad/aceleración o inserte una pausa (p. ej. `pause 200ms`).
 
-* - **Posizionamento dei pezzi durante la sequenza**
-  - Durante il movimento, i pezzi devono essere convogliati verso il centro del raggio del FlexiBowl® per massimizzare l'efficacia del Flip. Al termine della sequenza, i pezzi devono disporsi approssimativamente al centro dell'area di visione.
+* - **Posicionamiento de las piezas durante la secuencia**
+  - Durante el movimiento, las piezas deben conducirse hacia el centro del radio del FlexiBowl® para maximizar la eficacia del Flip. Al final de la secuencia, las piezas deben quedar dispuestas aproximadamente en el centro del área de visión.
 ```
 
 :::{warning}
-Cliccare sempre su **Synchronize Parameters** dopo ogni modifica manuale per rendere attive le variazioni nel controller.
+Haga clic siempre en **Synchronize Parameters** después de cada modificación manual para que los cambios se activen en el controlador.
 :::

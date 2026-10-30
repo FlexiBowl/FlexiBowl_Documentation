@@ -1,5 +1,5 @@
 (brush)=
-# [MEC] **Brush Diverter**
+# **Brush Diverter**
 
 ## Componenti del gruppo
 Il gruppo **brush diverter** può comprendere fino a **4 spazzole**:

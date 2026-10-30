@@ -1,156 +1,155 @@
 (sost-disco)=
-# **Sustitución de la superficie o del disco duro**
+# **Sustitución de la superficie o del disco rígido**
 
-Il cambio della superficie o del disco rigido è richiesto qualora si faccia un cambio di produzione o siano presenti danni alla superficie o disco rigido precedenti.
-In ogni caso si consiglia di cambiare la superficie o disco rigido:
-- **Ogni 3 mesi** in caso di utilizzo con componentistica particolarmente tagliente;
-- **Annuale** in tutti gli altri casi.
+El cambio de la superficie o del disco rígido es necesario cuando se produce un cambio de producción o cuando la superficie o el disco rígido anterior está dañado. En cualquier caso, se recomienda cambiar la superficie o el disco rígido:
+- **Cada 3 meses** en caso de uso con componentes especialmente cortantes;
+- **Anualmente** en todos los demás casos.
 
 :::{warning}
-Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la sostituzione della superficie o del disco.
+Asegúrese de que el FlexiBowl® esté **apagado y detenido** antes de proceder a la sustitución de la superficie o del disco.
 :::
 
 :::{warning}
-Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+Algunas partes implicadas en el proceso de mantenimiento aquí descrito pueden haber alcanzado {ref}`altas temperaturas <temp>` durante el funcionamiento; asegúrese de dejar el FlexiBowl® apagado el tiempo suficiente para que todas sus partes puedan manipularse con seguridad.
 :::
 
-## Superfici (FlexiBowl® 500-650-800-1200)
+## Superficies (FlexiBowl® 500-650-800-1200)
 
-### Cosa serve?
+### ¿Qué se necesita?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Objeto/equipo
+  - Cantidad
 
-* - Chiave esagonale H5
+* - Llave hexagonal H5
   - 1
 
-* - Superficie sostitutiva
+* - Superficie de repuesto
   - 1
 
 :::
 
-### Procedimento
+### Procedimiento
 
-| Step | Operazione |
+| Paso | Operación |
 |:----:|-----------|
-| 1 | Sollevare/rimuovere deviatori/spazzole (se presenti) |
-| 2 | Allentare viti di fissaggio della calotta centrale |
-| 3 | Ruotare e rimuovere calotta centrale |
-| 4 | Rimuovere la superficie e posizionare quella nuova |
-| 5 | Rimettere calotta centrale e serrare viti |
+| 1 | Levantar/retirar los desviadores/cepillos (si los hay) |
+| 2 | Aflojar los tornillos de fijación de la tapa central |
+| 3 | Girar y retirar la tapa central |
+| 4 | Retirar la superficie y colocar la nueva |
+| 5 | Volver a colocar la tapa central y apretar los tornillos |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="disco800" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000006_Cambio_disco.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Su navegador no admite el vídeo.
   </video>
   <br>
-  <label for="VelDisco800">Velocità:</label>
+  <label for="VelDisco800">Velocidad:</label>
   <select id="VelDisco800" onchange="document.getElementById('disco800').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select> 
-  <figcaption><i>Procedura di sostituzione di una superficie illustrata su FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Procedimiento de sustitución de una superficie ilustrado en un FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
-## Dischi rigidi
+## Discos rígidos
 
 ### FlexiBowl® 350-500E
 
-#### Cosa serve?
+#### ¿Qué se necesita?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Objeto/equipo
+  - Cantidad
 
-* - Chiave esagonale H5
+* - Llave hexagonal H5
   - 1
 
-* - Disco rigido sostitutivo
+* - Disco rígido de repuesto
   - 1
 
 :::
 
-### Procedimento
+### Procedimiento
 
-| Step | Operazione |
+| Paso | Operación |
 |:----:|-----------|
-| 1 | Rimuovere deviatori e gruppo barriera flip |
-| 2 | Allentare viti di fissaggio della calotta centrale |
-| 3 | Ruotare e rimuovere calotta centrale |
-| 4 | Rimuovere disco e posizionare quello nuovo  |
-| 5 | Rimettere calotta centrale e serrare viti |
+| 1 | Retirar los desviadores y el grupo de barrera flip |
+| 2 | Aflojar los tornillos de fijación de la tapa central |
+| 3 | Girar y retirar la tapa central |
+| 4 | Retirar el disco y colocar el nuevo  |
+| 5 | Volver a colocar la tapa central y apretar los tornillos |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="disco500" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000005_cambio-disco.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Su navegador no admite el vídeo.
   </video>
   <br>
-  <label for="VelDisco500">Velocità:</label>
+  <label for="VelDisco500">Velocidad:</label>
   <select id="VelDisco500" onchange="document.getElementById('disco500').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione di un disco rigido illustrata su FlexiBowl® 500</i></figcaption>
+  <figcaption><i>Procedimiento de sustitución de un disco rígido ilustrado en un FlexiBowl® 500</i></figcaption>
 </figure>
 ::::
 
 ### FlexiBowl®200
 
-#### Cosa serve?
+#### ¿Qué se necesita?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Objeto/equipo
+  - Cantidad
 
-* - Chiave esagonale H3
+* - Llave hexagonal H3
   - 1
 
-* - Disco rigido sostitutivo
+* - Disco rígido de repuesto
   - 1
 
 :::
 
-### Procedimento
+### Procedimiento
 
-| Step | Operazione |
+| Paso | Operación |
 |:----:|-----------|
-| 1 | Rimuovere calotta centrale |
-| 2 | Sostiutuire disco |
-| 3 | Rimettere la calotta centrale |
+| 1 | Retirar la tapa central |
+| 2 | Sustituir el disco |
+| 3 | Volver a colocar la tapa central |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="disco200" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000001_cambio_disco.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Su navegador no admite el vídeo.
   </video>
   <br>
-  <label for="VelDisco200">Velocità:</label>
+  <label for="VelDisco200">Velocidad:</label>
   <select id="VelDisco200" onchange="document.getElementById('disco200').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione di un disco rigido illustrata su FlexiBowl® 200</i></figcaption>
+  <figcaption><i>Procedimiento de sustitución de un disco rígido ilustrado en un FlexiBowl® 200</i></figcaption>
 </figure>
 ::::

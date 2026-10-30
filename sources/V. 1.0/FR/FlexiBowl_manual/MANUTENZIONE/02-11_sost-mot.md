@@ -12,198 +12,202 @@
 ::::{list-table}
 :widths: 30 60
 :header-rows: 1
-* - {ref}`Qualifica operatore <operatori>`
-  - {ref}`D.P.I. Necessari <dpi>`
+* - {ref}`Qualification de l'opérateur <operatori>`
+  - {ref}`EPI nécessaires <dpi>`
 
-* - **Manutentore meccanico**
+* - **Technicien de maintenance mécanique**
   - :::{raw} html
        <div class="ars-img-row">
-         <img src="../../../../_shared/media/images/guanti.png" alt="guanti">
-         <img src="../../../../_shared/media/images/scarpe.png" alt="scarpe">
-         <img src="../../../../_shared/media/images/tuta.png" alt="tuta">
+         <img src="../../../../_shared/media/images/guanti.png" alt="gants">
+         <img src="../../../../_shared/media/images/scarpe.png" alt="chaussures">
+         <img src="../../../../_shared/media/images/tuta.png" alt="combinaison">
        </div>
     :::
 ::::
 :::::
 
 :::{warning}
-Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione del gruppo motore.
+Débrancher l'alimentation électrique avant de procéder au remplacement du groupe moteur.
 :::
 
 :::{warning}
-Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+Certaines parties concernées par l'opération de maintenance décrite ici peuvent avoir atteint des {ref}`températures élevées <temp>` pendant le fonctionnement ; veiller à laisser le FlexiBowl® éteint suffisamment longtemps pour que toutes ses parties puissent être manipulées en toute sécurité.
+:::
+
+:::{important}
+Lors du montage du groupe moteur sur le FlexiBowl®, il est important d'utiliser les mêmes vis de fixation et d'appliquer du Loctite 243.
 :::
 
 ## FlexiBowl® 200
 
-Nel FlexiBowl® 200 il motore è in presa diretta, e il ricambio fornito consiste nel solo motore.
+Sur le FlexiBowl® 200, le moteur est en prise directe, et la pièce de rechange fournie se compose uniquement du moteur.
 
-### Cosa serve?
+### De quoi a-t-on besoin ?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Objet/équipement
+  - Quantité
 
-* - Chiave esagonale H5
+* - Clé hexagonale H5
   - 1
 
-* - Chiave esagonale H4
+* - Clé hexagonale H4
   - 1
 
-* - Gruppo motore sostitutivo
+* - Groupe moteur de remplacement
   - 1
 
 :::
 
-### Procedimento
+### Procédure
 
-| Step | Operazione |
+| Étape | Opération |
 |:----:|-----------|
-| 1 | Rimuovere il gruppo schermo flip |
-| 2 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 3 | {ref}`Rimuovere il Backlight <sostbl>` |
-| 4 | Rimuovere la vite di supporto frontale della scatola del Backlight |
-| 5 | Rimuovere le quattro viti di fissaggio della tavola e le due viti che fissano il distributore dello schermo alla stessa |
-| 6 | Sollevare la tavola e scollegare tutti i collegamenti del motore |
-| 7 | Rimuovere le viti che fissano la flangia motore alla tavola |
-| 8 | Ruotare la flangia porta disco finchè non saranno visibili i grani di bloccaggio e rimuoverli |
-| 9 | Svitare le viti che fissano il motore alla flangia e smontare il motore |
-| 10 | Togliere il distanziale e sostituire il motore |
-| 11 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | Retirer le groupe écran flip |
+| 2 | {ref}`Retirer la surface ou le disque rigide <sost-disco>` |
+| 3 | {ref}`Retirer le Backlight <sostbl>` |
+| 4 | Retirer la vis de support avant du boîtier du Backlight |
+| 5 | Retirer les quatre vis de fixation du plateau et les deux vis qui fixent le distributeur de l'écran à celui-ci |
+| 6 | Soulever le plateau et débrancher toutes les connexions du moteur |
+| 7 | Retirer les vis qui fixent la bride du moteur au plateau |
+| 8 | Tourner la bride porte-disque jusqu'à ce que les vis sans tête de blocage soient visibles, et les retirer |
+| 9 | Dévisser les vis qui fixent le moteur à la bride et démonter le moteur |
+| 10 | Retirer l'entretoise et remplacer le moteur |
+| 11 | Une fois le remplacement terminé, remonter tous les composants |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="sostmot1" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000001_cambio_motore.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Votre navigateur ne prend pas en charge la vidéo.
   </video>
   <br>
-  <label for="velcammot1">Velocità:</label>
+  <label for="velcammot1">Vitesse :</label>
   <select id="velcammot1" onchange="document.getElementById('sostmot1').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione del gruppo motore illustrata su FlexiBowl® 200</i></figcaption>
+  <figcaption><i>Procédure de remplacement du groupe moteur illustrée sur un FlexiBowl® 200</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-Per facilitare il lavoro è possibile rimuovere i carter, stando attenti a non tirare eccessivamente i cavi dei LED di stato.
+Pour faciliter le travail, il est possible de retirer les carters, en veillant à ne pas tirer excessivement sur les câbles des LED d'état.
 :::
 
 ## FlexiBowl® 350
 
-Per il FlexiBowl® 350 esiste un gruppo motore che comprende anche la flangia di fissaggio e tutta la catena cinematica che porta il moto al supporto del disco rigido, e il ricambio fornito consiste nel gruppo nella sua totalità.
+Pour le FlexiBowl® 350, il existe un groupe moteur qui comprend également la bride de fixation et toute la chaîne cinématique qui transmet le mouvement au support du disque rigide, et la pièce de rechange fournie se compose du groupe dans son ensemble.
 
-### Cosa serve?
+### De quoi a-t-on besoin ?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Objet/équipement
+  - Quantité
 
-* - Chiave esagonale H5
+* - Clé hexagonale H5
   - 1
 
-* - Chiave esagonale H4
+* - Clé hexagonale H4
   - 1
 
-* - Gruppo motore sostitutivo
+* - Groupe moteur de remplacement
   - 1
 
 :::
 
-### Procedimento
+### Procédure
 
-| Step | Operazione |
+| Étape | Opération |
 |:----:|-----------|
-| 1 | Rimuovere il gruppo schermo flip |
-| 2 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 3 | {ref}`Rimuovere il Backlight <sostbl>` |
-| 4 | Rimuovere la vite di supporto frontale della scatola del Backlight |
-| 5 | Rimuovere le quattro viti di fissaggio della tavola e le due viti che fissano il distributore dello schermo alla stessa |
-| 6 | Sollevare la tavola e scollegare tutti i collegamenti del motore |
-| 7 | Rimuovere le viti che fissano la flangia motore alla tavola |
-| 8 | Rimuovere e sostituire il gruppo motore |
-| 9 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | Retirer le groupe écran flip |
+| 2 | {ref}`Retirer la surface ou le disque rigide <sost-disco>` |
+| 3 | {ref}`Retirer le Backlight <sostbl>` |
+| 4 | Retirer la vis de support avant du boîtier du Backlight |
+| 5 | Retirer les quatre vis de fixation du plateau et les deux vis qui fixent le distributeur de l'écran à celui-ci |
+| 6 | Soulever le plateau et débrancher toutes les connexions du moteur |
+| 7 | Retirer les vis qui fixent la bride du moteur au plateau |
+| 8 | Retirer et remplacer le groupe moteur |
+| 9 | Une fois le remplacement terminé, remonter tous les composants |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="sostmot2" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000010_cambio-motore.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Votre navigateur ne prend pas en charge la vidéo.
   </video>
   <br>
-  <label for="velcammot2">Velocità:</label>
+  <label for="velcammot2">Vitesse :</label>
   <select id="velcammot2" onchange="document.getElementById('sostmot2').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione del gruppo motore illustrata su FlexiBowl® 350</i></figcaption>
+  <figcaption><i>Procédure de remplacement du groupe moteur illustrée sur un FlexiBowl® 350</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-Per facilitare il lavoro è possibile rimuovere i carter, stando attenti a non tirare eccessivamente i cavi dei LED di stato.
+Pour faciliter le travail, il est possible de retirer les carters, en veillant à ne pas tirer excessivement sur les câbles des LED d'état.
 :::
 
 ## FlexiBowl® 500-650-800-1200
 
-I FlexiBowl® delle taglie più grandi sono provvisti di un gruppo motore che, come quello del FlexiBowl® 350, è compreso da tuttoil gruppo cinematico. Il ricambio prevede anche in questo caso l'intero gruppo.
+Les FlexiBowl® des tailles supérieures sont dotés d'un groupe moteur qui, comme celui du FlexiBowl® 350, comprend l'ensemble du groupe cinématique. Là aussi, la pièce de rechange comprend l'ensemble du groupe.
 
-### Cosa serve?
+### De quoi a-t-on besoin ?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Objet/équipement
+  - Quantité
 
-* - Chiave esagonale H2.5
+* - Clé hexagonale H2.5
   - 1
 
-* - Backlight sostitutivo
+* - Backlight de remplacement
   - 1
 
 :::
 
-### Sostituzione gruppo motore standard
+### Remplacement du groupe moteur standard
 
-| Step | Operazione |
+| Étape | Opération |
 |:----:|-----------|
-| 1 | Rimuovere il gruppo schermo flip |
-| 2 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 3 | Rimuovere la piastra di copertura del gruppo flip (usare due delle viti di fissaggio per la rimzozione tramite gli appositi fori filettati) |
-| 4 | Rimuovere gli allacciamenti pneumatici e smontare il gruppo flip |
-| 5 | Sostituire il gruppo flip danneggiato con quello nuovo |
-| 6 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | Retirer le groupe écran flip |
+| 2 | {ref}`Retirer la surface ou le disque rigide <sost-disco>` |
+| 3 | Retirer la plaque de recouvrement du groupe flip (utiliser deux des vis de fixation pour la déposer au moyen des trous filetés prévus à cet effet) |
+| 4 | Retirer les raccordements pneumatiques et démonter le groupe flip |
+| 5 | Remplacer le groupe flip endommagé par le nouveau |
+| 6 | Une fois le remplacement terminé, remonter tous les composants |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="sostmot" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000006_cambio-motore.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Votre navigateur ne prend pas en charge la vidéo.
   </video>
   <br>
-  <label for="velcammot">Velocità:</label>
+  <label for="velcammot">Vitesse :</label>
   <select id="velcammot" onchange="document.getElementById('sostmot').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione del gruppo motore illustrata su FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Procédure de remplacement du groupe moteur illustrée sur un FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
-### Sostituzione gruppo motore in presenza di Flexitracking (per FlexiBowl® 500-650-800-1200)
+### Remplacement du groupe moteur en présence de Flexitracking (pour FlexiBowl® 500-650-800-1200)

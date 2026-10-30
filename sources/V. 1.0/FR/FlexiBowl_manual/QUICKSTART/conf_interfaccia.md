@@ -2,69 +2,69 @@
 
 
 :::{note}
-Se il sistema in uso è **FlexiVision One**, la configurazione viene gestita interamente dalla sua interfaccia dedicata. Non è necessario utilizzare l'interfaccia software FlexiBowl® descritta in questa sezione. Fare riferimento al {ref}`Manuale FlexiVision One <flexivision_one>`.
+Si le système utilisé est **FlexiVision One**, la configuration est gérée entièrement par son interface dédiée. Il n'est pas nécessaire d'utiliser l'interface logicielle FlexiBowl® décrite dans cette section. Reportez-vous au {ref}`Manuel FlexiVision One <flexivision_one>`.
 :::
 
-## Primo avvio
+## Premier démarrage
 
-Al primo avvio del sistema, seguire la procedura guidata di seguito per configurare la comunicazione e preparare il FlexiBowl® all'uso.
+Au premier démarrage du système, suivez la procédure guidée ci-dessous pour configurer la communication et préparer le FlexiBowl® à l'utilisation.
 
 ::::{list-table}
 :widths: 10 90
 :header-rows: 1
 
-* - Step
-  - Operazione
+* - Étape
+  - Opération
 
 * - 1
-  - Inserire l'**indirizzo IP** del FlexiBowl® nella barra di ricerca del browser per accedere all'interfaccia software.
+  - Saisissez l'**adresse IP** du FlexiBowl® dans la barre d'adresse du navigateur pour accéder à l'interface logicielle. L'adresse IP par défaut du FlexiBowl® est `192.168.1.10`.
 
 * - 2
-  - Si apre la **Home page**. Selezionare la **lingua** desiderata dal menu a tendina in alto a destra.
+  - La **page d'accueil** s'ouvre. Sélectionnez la **langue** souhaitée dans le menu déroulant en haut à droite.
 
 * - 3
-  - Aprire la pagina **Setup** dal menu laterale.
+  - Ouvrez la page **Setup** depuis le menu latéral.
 
 * - 4
-  - Cliccare su **Get IP** per leggere i parametri di rete correnti del dispositivo.
+  - Cliquez sur **Get IP** pour lire les paramètres réseau actuels de l'appareil.
 
 * - 5
-  - Inserire il **nuovo indirizzo IP** che si intende assegnare al FlexiBowl® nei campi dedicati, quindi cliccare su **Set IP**.
+  - Saisissez dans les champs prévus la **nouvelle adresse IP** que vous souhaitez attribuer au FlexiBowl®, puis cliquez sur **Set IP**.
 
 * - 6
-  - Selezionare il **tipo di comunicazione** desiderato dal menu a tendina. L'opzione predefinita è **TCP Server**.
+  - Sélectionnez le **type de communication** souhaité dans le menu déroulant. L'option par défaut est **TCP Server**.
 
     :::{note}
-    La modalità **Digital I/O** non è inclusa nella configurazione standard, ma è disponibile come opzione acquistabile separatamente.
+    Le mode **Digital I/O** n'est pas inclus dans la configuration standard, mais est disponible en option, à acheter séparément.
     :::
 
 * - 7
-  - Cliccare su **Apply** per confermare le impostazioni di comunicazione.
+  - Cliquez sur **Apply** pour confirmer les paramètres de communication.
 
 * - 8
-  - Cliccare su **Reboot** per riavviare il software e rendere effettive le modifiche.
+  - Cliquez sur **Reboot** pour redémarrer le logiciel et rendre les modifications effectives.
 
 ::::
 
 :::{important}
-Dopo il reboot, riconnettersi al FlexiBowl® utilizzando il nuovo indirizzo IP impostato al punto 5.
+Après le redémarrage, reconnectez-vous au FlexiBowl® en utilisant la nouvelle adresse IP définie à l'étape 5.
 :::
 
-## Abilitazione del Backlight (se necessario)
+## Activation du Backlight (si nécessaire)
 
-Se è richiesta la calibrazione del sistema di visione, abilitare la retroilluminazione prima di procedere:
+Si l'étalonnage du système de vision est requis, activez le rétroéclairage avant de poursuivre :
 
 ::::{list-table}
 :widths: 10 90
 :header-rows: 0
 
 * - 1
-  - Aprire la pagina **Main Command** dal menu laterale.
+  - Ouvrez la page **Main Command** depuis le menu latéral.
 
 * - 2
-  - Selezionare **OPTION** dal menu a tendina **"Chose Visualization Page"**.
+  - Sélectionnez **OPTION** dans le menu déroulant **« Chose Visualization Page »**.
 
 * - 3
-  - Attivare il toggle **Backlight 1** e/o **Backlight 2** in base alle necessità.
+  - Activez l'interrupteur **Backlight 1** et/ou **Backlight 2** selon les besoins.
 
 ::::

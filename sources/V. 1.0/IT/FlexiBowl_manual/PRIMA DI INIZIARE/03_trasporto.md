@@ -3,12 +3,12 @@
 
 ## Imballo
 
-La macchina è spedita a cura di ARS s.r.l. dallo stabilimento di produzione a quello del Cliente utilizzatore. In funzione della distanza del trasporto, dalle richieste specifiche del Cliente, e dal tempo di permanenza del carico nell’imballo, la spedizione della macchina avviene nei seguenti modi:  
+La macchina è spedita a cura di ARS s.r.l. dallo stabilimento di produzione a quello del Cliente utilizzatore. In funzione della distanza del trasporto, dalle richieste specifiche del Cliente, e dal tempo di permanenza del carico nell’imballo, la spedizione della macchina avviene nei seguenti modi:
 
-- imballo protettivo normale per corte e medie distanze; 
-- imballo protettivo speciale per lunghe distanze. 
+- imballo protettivo normale per corte e medie distanze;
+- imballo protettivo speciale per lunghe distanze.
 
-La spedizione deve essere effettuata con mezzi di trasporto coperti o telonati in dipendenza del tipo di carico.  
+La spedizione deve essere effettuata con mezzi di trasporto coperti o telonati in dipendenza del tipo di carico.
 
 ### **Ispezione all'arrivo**
 
@@ -28,9 +28,7 @@ Se si riscontrano problemi:
 - NON firmare la ricevuta come "conforme"
 - Annotare i danni sul documento di trasporto
 - Fotografare eventuali danni evidenti
-- Contattare immediatamente il servizio assistenza ARS: 
-    [service@arsautomation.com](mailto:service@arsautomation.com) 
-    [us.service@arsautomation.com](mailto:us.service@arsautomation.com) se si contatta dall'America
+- Contattare immediatamente il servizio assistenza ARS: [service@arsautomation.com](mailto:service@arsautomation.com) [us.service@arsautomation.com](mailto:us.service@arsautomation.com) se si contatta dall'America
 ```
 
 ## Dimensioni e pesi dell'imballo
@@ -106,7 +104,7 @@ Se si riscontrano problemi:
 - Accertarsi che nessuno sosti e nel raggio d'azione del mezzo di sollevamento.
 :::
 
-Per la movimentazione del corpo macchina con imballo, procedere come descritto: 
+Per la movimentazione del corpo macchina con imballo, procedere come descritto:
 
 ::::{list-table}
 :widths: 15 60
@@ -116,25 +114,25 @@ Per la movimentazione del corpo macchina con imballo, procedere come descritto:
   - Operazione
 
 * - 1
-  - Posizionare le forche del carrello elevatore sotto alla cassa di legno in cui è riposta la macchina. 
+  - Posizionare le forche del carrello elevatore sotto alla cassa di legno in cui è riposta la macchina.
 
 * - 2
-  - Assicurarsi che le forche fuoriescano dalla parte anteriore del carico (almeno 5 cm), per una lunghezza sufficiente ad eliminare eventuali rischi di ribaltamento della     parte trasportata. 
+  - Assicurarsi che le forche fuoriescano dalla parte anteriore del carico (almeno 5 cm), per una lunghezza sufficiente ad eliminare eventuali rischi di ribaltamento della     parte trasportata.
 
 * - 3
-  - Sollevare le forche fino al contatto col carico. 
+  - Sollevare le forche fino al contatto col carico.
     :::{note}
-    Se necessario fissare il carico alle forche con morsetti o dispositivi similari. 
+    Se necessario fissare il carico alle forche con morsetti o dispositivi similari.
     :::
 
 * - 4
-  - Sollevare lentamente il carico di qualche decina di centimetri e verificarne la stabilità facendo attenzione che il baricentro del carico sia posizionato al centro delle forche di sollevamento. 
+  - Sollevare lentamente il carico di qualche decina di centimetri e verificarne la stabilità facendo attenzione che il baricentro del carico sia posizionato al centro delle forche di sollevamento.
 
 * - 5
-  - Inclinare il montante all’indietro (verso il posto guida) per avvantaggiare il momento ribaltante e garantire una maggiore stabilità del carico durante il trasporto. 
+  - Inclinare il montante all’indietro (verso il posto guida) per avvantaggiare il momento ribaltante e garantire una maggiore stabilità del carico durante il trasporto.
 
 * - 6
-  - Adeguare la velocità di trasporto in base alla pavimentazione ed al tipo di carico, evitando manovre brusche. 
+  - Adeguare la velocità di trasporto in base alla pavimentazione ed al tipo di carico, evitando manovre brusche.
 
 ::::
 
@@ -194,30 +192,24 @@ Per la **rimozione dell'imballo**, procedere come descritto:
 Per l’operazione di sollevamento manuale dalla cassa di legno del FlexiBowl® è necessaria la presenza di n°2 operatori.
 :::
 
-Per la movimentazione della macchina e/o delle sue parti, fare riferimento al paragrafo {ref}`“Trasporto del FlexiBowl®” <transflex>`. 
+Per la movimentazione della macchina e/o delle sue parti, fare riferimento al paragrafo {ref}`“Trasporto del FlexiBowl®” <transflex>`.
 
 ### Smaltimento dell'imballo
 
-L’imballaggio è parte integrante della fornitura e non viene ritirato, per cui lo smaltimento del suddetto è a carico dell’acquirente. 
-L’eventuale smaltimento o distruzione deve avvenire nel rispetto delle normative vigenti nel paese dell’utilizzatore, tenendo conto 
-della natura dei materiali: 
-- legname per le casse; 
-- film di materia plastica per la protezione della macchina e nastri adesivi per il fissaggio degli stessi;  
-- sacchetti di sostanza assorbente per l’umidita; 
-- ecc. 
+L’imballaggio è parte integrante della fornitura e non viene ritirato, per cui lo smaltimento del suddetto è a carico dell’acquirente. L’eventuale smaltimento o distruzione deve avvenire nel rispetto delle normative vigenti nel paese dell’utilizzatore, tenendo conto della natura dei materiali:
+- legname per le casse;
+- film di materia plastica per la protezione della macchina e nastri adesivi per il fissaggio degli stessi;
+- sacchetti di sostanza assorbente per l’umidita;
+- ecc.
 
 (transflex)=
 ## Trasporto del FlexiBowl®
 
-**ARS s.r.l.** in funzione delle modalità di trasporto utilizza imballi e fissaggi adeguati a garantire l’integrità e la conservazione durante 
-il trasporto.
+**ARS s.r.l.** in funzione delle modalità di trasporto utilizza imballi e fissaggi adeguati a garantire l’integrità e la conservazione durante il trasporto.
 
-Al ricevimento della macchina, verificare che nessuna parte abbia subito danni durante il trasporto e/o la movimentazione. 
-**Nel caso si riscontrassero danni è obbligatorio segnalarli immediatamente al Costruttore.**
+Al ricevimento della macchina, verificare che nessuna parte abbia subito danni durante il trasporto e/o la movimentazione. **Nel caso si riscontrassero danni è obbligatorio segnalarli immediatamente al Costruttore.**
 
-Le attività di movimentazione descritte in questo paragrafo devono essere effettuate da personale qualificato per tali operazioni: 
-personale appositamente addestrato per eseguire in tutta sicurezza le operazioni di carico, scarico e movimentazione mediante 
-mezzi di sollevamento, e che sia a conoscenza delle regole di prevenzione degli infortuni.
+Le attività di movimentazione descritte in questo paragrafo devono essere effettuate da personale qualificato per tali operazioni: personale appositamente addestrato per eseguire in tutta sicurezza le operazioni di carico, scarico e movimentazione mediante mezzi di sollevamento, e che sia a conoscenza delle regole di prevenzione degli infortuni.
 
 :::{warning}
 ARS S.r.l. non risponde dei danni, a cose o a persone, causati da incidenti provocati dal mancato rispetto delle istruzioni riportate nel presente manuale.

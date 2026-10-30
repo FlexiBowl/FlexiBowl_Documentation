@@ -12,80 +12,80 @@
 ::::{list-table}
 :widths: 30 60
 :header-rows: 1
-* - {ref}`Qualifica operatore <operatori>`
-  - {ref}`D.P.I. Necessari <dpi>`
+* - {ref}`Qualification de l'opérateur <operatori>`
+  - {ref}`EPI nécessaires <dpi>`
 
-* - **Manutentore meccanico**
+* - **Technicien de maintenance mécanique**
   - :::{raw} html
        <div class="ars-img-row">
-         <img src="../../../../_shared/media/images/guanti.png" alt="guanti">
-         <img src="../../../../_shared/media/images/scarpe.png" alt="scarpe">
-         <img src="../../../../_shared/media/images/tuta.png" alt="tuta">
+         <img src="../../../../_shared/media/images/guanti.png" alt="gants">
+         <img src="../../../../_shared/media/images/scarpe.png" alt="chaussures">
+         <img src="../../../../_shared/media/images/tuta.png" alt="combinaison">
        </div>
     :::
 ::::
 :::::
 
 :::{warning}
-Disconnettere l'alimentazione elettrica e pneumatica prima di procedere con la sostituzione della valvola proporzionale.
+Débrancher l'alimentation électrique et pneumatique avant de procéder au remplacement de la vanne proportionnelle.
 :::
 
 :::{warning}
-Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+Certaines parties concernées par l'opération de maintenance décrite ici peuvent avoir atteint des {ref}`températures élevées <temp>` pendant le fonctionnement ; veiller à laisser le FlexiBowl® éteint suffisamment longtemps pour que toutes ses parties puissent être manipulées en toute sécurité.
 :::
 
-## Cosa serve?
+## De quoi a-t-on besoin ?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Objet/équipement
+  - Quantité
 
-* - Chiave esagonale H5
+* - Clé hexagonale H5
   - 1
 
-* - Chiave esagonale H4
+* - Clé hexagonale H4
   - 1
 
-* - Chiave esagonale H2.5
+* - Clé hexagonale H2.5
   - 1
 
-* - Valvola proporzionale sostitutiva
+* - Vanne proportionnelle de remplacement
   - 1
 
 :::
 
-## Procedimento
+## Procédure
 
-| Step | Operazione |
+| Étape | Opération |
 |:----:|-----------|
-| 1 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 2 | Rimuovere il gruppo schermo flip |
-| 3 | Rimuovere la piastra di copertura del gruppo flip (usare due delle viti di fissaggio per la rimzozione tramite gli appositi fori filettati) |
-| 4 | Scollegare, rimuovere gli allacciamenti pneumatici e smontare la staffa della valvola proporzionale |
-| 5 | Sostituire la valvola proporzionale danneggiata con quella nuova |
-| 6 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | {ref}`Retirer la surface ou le disque rigide <sost-disco>` |
+| 2 | Retirer le groupe écran flip |
+| 3 | Retirer la plaque de recouvrement du groupe flip (utiliser deux des vis de fixation pour la déposer au moyen des trous filetés prévus à cet effet) |
+| 4 | Débrancher, retirer les raccordements pneumatiques et démonter le support de la vanne proportionnelle |
+| 5 | Remplacer la vanne proportionnelle endommagée par la nouvelle |
+| 6 | Une fois le remplacement terminé, remonter tous les composants |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="sostprop" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000006_cambioprop.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Votre navigateur ne prend pas en charge la vidéo.
   </video>
   <br>
-  <label for="velcamprop">Velocità:</label>
+  <label for="velcamprop">Vitesse :</label>
   <select id="velcamprop" onchange="document.getElementById('sostprop').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione della valvola proporzionale illustrata su FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Procédure de remplacement de la vanne proportionnelle illustrée sur un FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-In base alla presenza o meno dei soffi, possono essere presenti una o due valvole proporzionali: la seconda si trova sotto alla piastra opposta a quella che copre il gruppo flip.
+Selon la présence ou non des soufflages, une ou deux vannes proportionnelles peuvent être présentes : la seconde se trouve sous la plaque opposée à celle qui recouvre le groupe flip.
 :::

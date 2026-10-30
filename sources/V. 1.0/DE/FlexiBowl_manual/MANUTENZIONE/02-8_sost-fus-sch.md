@@ -1,1 +1,1 @@
-# **Austausch der Sicherung auf der Platine**
+# **Austausch der Platinensicherung**

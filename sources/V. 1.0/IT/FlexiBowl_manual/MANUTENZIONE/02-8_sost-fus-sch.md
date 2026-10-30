@@ -1,1 +1,1 @@
-# [ELE] **Sostituzione Fusibile Scheda**
+# **Sostituzione Fusibile Scheda**

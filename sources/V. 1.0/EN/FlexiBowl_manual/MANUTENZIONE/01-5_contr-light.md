@@ -1,1 +1,1 @@
-# [MEC] **Checking Correct Operation of the Backlight and Toplight**
+# **Checking the Correct Operation of the Backlight and the Toplight**

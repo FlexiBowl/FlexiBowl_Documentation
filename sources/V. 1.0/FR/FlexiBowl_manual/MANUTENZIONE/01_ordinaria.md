@@ -1,75 +1,118 @@
-# **Entretien courant**
+# **Maintenance courante**
 
-Il FlexiBowl®, quando viene consegnato all’utilizzatore, è già regolato per lavorare in modo corretto; tuttavia, per garantirne il buon 
-funzionamento nel tempo, occorre eseguire controlli e manutenzioni periodiche e preventive. 
-La manutenzione ordinaria comprende ispezioni, controlli e interventi che, per prevenire guasti, tengono sotto controllo: 
-- le condizioni meccaniche della macchina, 
-- la pulizia della macchina. 
+Lorsqu'il est livré à l'utilisateur, le FlexiBowl® est déjà réglé pour fonctionner correctement ; toutefois, pour garantir son bon fonctionnement dans le temps, il faut effectuer des contrôles et des opérations de maintenance périodiques et préventifs. La maintenance courante comprend des inspections, des contrôles et des interventions qui, afin de prévenir les pannes, maintiennent sous contrôle :
+- l'état mécanique de la machine,
+- la propreté de la machine.
 
-Le seguenti tabelle elencano una serie di controlli e di interventi da eseguire seguendo una tempistica consigliata. Le periodicità 
-delle operazioni di manutenzione ordinaria indicate si riferiscono a condizioni di funzionamento normali, cioè rispondenti alle 
-condizioni di impiego previste. 
-La seguente tabella elenca una serie di procedure di manutenzione ordinaria valide per tutte le tipologie di macchine prodotte da 
-ARS S.r.l. 
-L’operatore dovrà tenere in considerazione solo le procedure relative alla macchina oggetto del presente manuale.
+Les tableaux suivants énumèrent une série de contrôles et d'interventions à effectuer selon une périodicité recommandée. Les périodicités des opérations de maintenance courante indiquées se réfèrent à des conditions de fonctionnement normales, c'est-à-dire conformes aux conditions d'utilisation prévues. Le tableau suivant énumère une série de procédures de maintenance courante valables pour tous les types de machines produites par ARS S.r.l. L'opérateur ne devra tenir compte que des procédures relatives à la machine faisant l'objet du présent manuel.
 
 :::{important}
-Per quanto riguarda la manutenzione ordinaria delle macchine provenienti da fornitori esterni, si rimanda ai manuali sub-fornitori delle macchine stesse, allegati al presente manuale.
+Pour la maintenance courante des machines provenant de fournisseurs externes, se référer aux manuels des sous-traitants de ces machines, joints au présent manuel.
 :::
 
 :::{important}
-Nel fissaggio delle viti utilizzare sempre LOCTITE 243, in modo da eseguire un perfetto fissaggio (ad eccezione  delle viti della flangia della superficie o disco rigido). 
+Pour la fixation des vis, utiliser toujours du LOCTITE 243, afin d'obtenir une fixation parfaite (à l'exception des vis de la bride de la surface ou du disque rigide).
 :::
 
-## Controlli
+## Contrôles
 
 :::{list-table}
 :header-rows: 1
 :widths: 30 20 20 20 20 20
 :class: v-align-middle
 
-* - Operazione
-  - Tutti i giorni
-  - Settimanalmente
-  - Mensilmente
-  - Ogni sei mesi
-  - Annualmente
+* - Opération
+  - Tous les jours
+  - Hebdomadaire
+  - Mensuel
+  - Tous les six mois
+  - Annuel
 
-* - Sostituzione della superficie o disco rigido
+* - Contrôle du bon fonctionnement des dispositifs de sécurité
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+  - 
+
+* - Contrôle de l'état de la surface ou du disque rigide
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+  - 
+  - 
+  - 
+  - 
+
+* - Nettoyage de la surface ou du disque rigide
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+  - 
+  - 
+  - 
+
+* - Remplacement de la surface ou du disque rigide
   - 
   - 
   - 
   - 
   - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
 
-* - Pulizia della superficie o disco rigido
+* - Nettoyage général du FlexiBowl®
   - 
-  - 
-  - 
-  - 
-  - 
-
-* - Pulizia generale del FlexiBowl® 
-  - 
-  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
   - 
   - 
   - 
 
-* - Controllo visivo del flip
+* - Contrôle visuel du flip
   - 
   - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔¹</div>
+  - 
+  - 
+
+* - Contrôle du Backlight et du Toplight
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+  - 
+
+* - Contrôle de l'état des fusibles
+  - 
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+
+* - Contrôle de l'état d'usure des relais
+  - 
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔</div>
+
+* - Contrôle du bon fonctionnement des électrovannes
+  - 
+  - 
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔²</div>
+  - 
+
+* - Contrôle de l'état d'usure du FlexiBowl®
+  - 
+  - <div style="display: flex; justify-content: center; align-items: center; height: 50px;" >✔³</div>
   - 
   - 
   - 
 
-* - Controllo Backlight e Toplight
-  - 
-  - 
-  - 
-  - 
-  - 
+:::
 
+:::{note}
+**¹** Il est recommandé de procéder chaque année à son remplacement complet.
+
+**²** Il est recommandé de procéder tous les deux ans à leur remplacement complet.
+
+**³** Procéder au remplacement complet en fonction du degré d'usure constaté.
 :::
 
 :::{toctree}
@@ -78,5 +121,5 @@ Nel fissaggio delle viti utilizzare sempre LOCTITE 243, in modo da eseguire un p
 01-2_pul-disco.md
 01-3_pul-fb.md
 01-4_contr-flip.md
-01-5_contr-light.md
+01-6_sost-rele.md
 :::

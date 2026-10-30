@@ -1,4 +1,4 @@
-# Note di rilascio del FlexiBowl®
+# **Note di rilascio del FlexiBowl®**
 
 Questa pagina raccoglie le informazioni sul software del FlexiBowl®.
 

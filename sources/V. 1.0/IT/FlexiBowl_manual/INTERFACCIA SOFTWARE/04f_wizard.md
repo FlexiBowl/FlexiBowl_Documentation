@@ -1,4 +1,4 @@
-# [SOF] **Wizard**
+# **Wizard**
 L'interfaccia **FlexiBowl® Wizard** è uno strumento interattivo progettato per guidare l'utente nella configurazione dei parametri di alimentazione in base alla specifica famiglia di prodotti da gestire.
 
 ![Pagina Wizard](../../../../_shared/media/images/wizard_home_page.png)
@@ -7,11 +7,11 @@ L'interfaccia **FlexiBowl® Wizard** è uno strumento interattivo progettato per
 
 :::{list-table}
 * - **1**
-  - Per accedere alla configurazione guidata dei parametri FlexiBowl®, è sufficiente cliccare sulla pagina **Wizard** nel menu laterale. 
+  - Per accedere alla configurazione guidata dei parametri FlexiBowl®, è sufficiente cliccare sulla pagina **Wizard** nel menu laterale.
 :::
 
 :::{note}
-Il modello e il senso di trotazione del FlexiBowl® vengono automaticamente rilevati dal software. 
+Il modello e il senso di trotazione del FlexiBowl® vengono automaticamente rilevati dal software.
 :::
 
 ## Step 1: Caratterizzazione del Componente
@@ -19,7 +19,7 @@ Il modello e il senso di trotazione del FlexiBowl® vengono automaticamente rile
 Il sistema richiede informazioni sulla morfologia dei pezzi per ottimizzare la separazione.
 ````{list-table}
 * - **2**
-  - Selezionare la dimensione del componente:**
+  - Selezionare la dimensione del componente:
 
     **Per Modelli FlexiBowl 200, 350, 500, 650:**
 
@@ -84,14 +84,13 @@ Il sistema richiede informazioni sulla morfologia dei pezzi per ottimizzare la s
 * - **7**
   - Selezionare **USE** per abilitarlo nell'applicazione corrente, altrimenti cliccare su **DON'T USE**.
 * - **8**
-  - Cliccare su **TEST FLIP** per verificare l'effettiva attivazione del percussore.
-      Il "Flip" è l'unità che genera l'impulso meccanico per ribaltare i pezzi, è fondamentale per separare, districare o capovolgere i componenti durante il ciclo di alimentazione.
+  - Cliccare su **TEST FLIP** per verificare l'effettiva attivazione del percussore. Il "Flip" è l'unità che genera l'impulso meccanico per ribaltare i pezzi, è fondamentale per separare, districare o capovolgere i componenti durante il ciclo di alimentazione.
  
       :::{important}
       Se l'impulso non è avvertibile, verificare che l'aria compressa sia collegata e agire sul regolatore di pressione meccanico posto sul pannello di controllo.
       :::
 * - **9**
-  - Al termine del Wizard, cliccando su **FINISH**, il sistema calcolerà automaticamente i parametri: 
+  - Al termine del Wizard, cliccando su **FINISH**, il sistema calcolerà automaticamente i parametri:
     - Parametri di movimento (velocità, accelerazione, angolo)
     - Parametri di scuotimento (shake)
     - Temporizzazioni accessori (flip, blow)

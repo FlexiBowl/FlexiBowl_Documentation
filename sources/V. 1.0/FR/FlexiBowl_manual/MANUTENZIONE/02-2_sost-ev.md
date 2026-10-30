@@ -12,80 +12,80 @@
 ::::{list-table}
 :widths: 30 60
 :header-rows: 1
-* - {ref}`Qualifica operatore <operatori>`
-  - {ref}`D.P.I. Necessari <dpi>`
+* - {ref}`Qualification de l'opérateur <operatori>`
+  - {ref}`EPI nécessaires <dpi>`
 
-* - **Manutentore meccanico**
+* - **Technicien de maintenance mécanique**
   - :::{raw} html
        <div class="ars-img-row">
-         <img src="../../../../_shared/media/images/guanti.png" alt="guanti">
-         <img src="../../../../_shared/media/images/scarpe.png" alt="scarpe">
-         <img src="../../../../_shared/media/images/tuta.png" alt="tuta">
+         <img src="../../../../_shared/media/images/guanti.png" alt="gants">
+         <img src="../../../../_shared/media/images/scarpe.png" alt="chaussures">
+         <img src="../../../../_shared/media/images/tuta.png" alt="combinaison">
        </div>
     :::
 ::::
 :::::
 
 :::{warning}
-Disconnettere l'alimentazione elettrica e pneumatica prima di procedere con la sostituzione delle elettrovalvole.
+Débrancher l'alimentation électrique et pneumatique avant de procéder au remplacement des électrovannes.
 :::
 
 :::{warning}
-Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+Certaines parties concernées par l'opération de maintenance décrite ici peuvent avoir atteint des {ref}`températures élevées <temp>` pendant le fonctionnement ; veiller à laisser le FlexiBowl® éteint suffisamment longtemps pour que toutes ses parties puissent être manipulées en toute sécurité.
 :::
 
-## Cosa serve?
+## De quoi a-t-on besoin ?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Objet/équipement
+  - Quantité
 
-* - Chiave esagonale H5
+* - Clé hexagonale H5
   - 1
 
-* - Chiave esagonale H4
+* - Clé hexagonale H4
   - 1
 
-* - Chiave esagonale H2.5
+* - Clé hexagonale H2.5
   - 1
 
-* - Elettrovalvola sostitutiva
+* - Électrovanne de remplacement
   - Q.B.
 
 :::
 
-## Procedimento
+## Procédure
 
-| Step | Operazione |
+| Étape | Opération |
 |:----:|-----------|
-| 1 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 2 | Rimuovere il gruppo schermo flip |
-| 3 | Rimuovere la piastra di copertura del gruppo flip (usare due delle viti di fissaggio per la rimzozione tramite gli appositi fori filettati) |
-| 4 | Scollegare e smontare il gruppo elettrovalvole |
-| 5 | Separare le elettrovalvole dalla staffa di supporto e sostituire quella danneggiata |
-| 6 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | {ref}`Retirer la surface ou le disque rigide <sost-disco>` |
+| 2 | Retirer le groupe écran flip |
+| 3 | Retirer la plaque de recouvrement du groupe flip (utiliser deux des vis de fixation pour la déposer au moyen des trous filetés prévus à cet effet) |
+| 4 | Débrancher et démonter le groupe d'électrovannes |
+| 5 | Séparer les électrovannes du support et remplacer celle qui est endommagée |
+| 6 | Une fois le remplacement terminé, remonter tous les composants |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="sostev" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000006_cambioev.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Votre navigateur ne prend pas en charge la vidéo.
   </video>
   <br>
-  <label for="velcambev">Velocità:</label>
+  <label for="velcambev">Vitesse :</label>
   <select id="velcambev" onchange="document.getElementById('sostev').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione dell'elettrovalvola illustrata su FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Procédure de remplacement de l'électrovanne illustrée sur un FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-In base alla presenza o meno degli accessori soffio e svuotamento, possono essere presenti più di un'elettrovalvola. Il FlexiBowl® 1200 monta due elettrovalvole per il comando del flip.
+Selon la présence ou non des accessoires de soufflage et de vidage, plusieurs électrovannes peuvent être présentes. Le FlexiBowl® 1200 est équipé de deux électrovannes pour la commande du flip.
 :::

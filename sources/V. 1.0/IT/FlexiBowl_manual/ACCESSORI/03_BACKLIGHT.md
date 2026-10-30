@@ -1,8 +1,7 @@
 (backlight)=
 # **Backlight**
 
-Il Backlight è una luce localizzata sotto la finestra di lexan del piano di scorrimento, così che la sua luce possa colpire la superficie o il disco rigido e che la silhouette dei componenti al di sopra diventi visibile al sistema di visione. 
-Il Backlight è disponibile con luce: 
+Il Backlight è una luce localizzata sotto la finestra di lexan del piano di scorrimento, così che la sua luce possa colpire la superficie o il disco rigido e che la silhouette dei componenti al di sopra diventi visibile al sistema di visione. Il Backlight è disponibile con luce:
 - Bianca
 - Rossa
 - Infrarossa

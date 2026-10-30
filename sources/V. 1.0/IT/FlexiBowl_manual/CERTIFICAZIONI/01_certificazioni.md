@@ -1,1 +1,1 @@
-# **[MEC]** Certificazioni
+# **Certificazioni**

@@ -57,88 +57,88 @@
 }
 </style>
  
-# **Comparaison Logiciel**
+# **Comparatif logiciel**
  
-Questa pagina confronta le principali differenze software tra **FlexiBowl® 2.0** e **FlexiBowl® 3.0**, con l'obiettivo di guidare l'utente nella comprensione delle nuove funzionalità e dei cambiamenti operativi introdotti dalla nuova generazione.
+Cette page compare les principales différences logicielles entre le **FlexiBowl® 2.0** et le **FlexiBowl® 3.0**, dans le but de guider l'utilisateur dans la compréhension des nouvelles fonctionnalités et des changements opérationnels introduits par la nouvelle génération.
  
 :::{important}
-Prima di leggere i contenuti della pagina corrente, è buona pratica avere chiare le informazioni riportate nella pagina [Interfaccia Software](int_software)
+Avant de lire le contenu de la présente page, il est recommandé de bien connaître les informations figurant dans la page [Interface logicielle](int_software)
 :::
 ---
  
-## 1. Protocolli di comunicazione disponibili
+## 1. Protocoles de communication disponibles
  
-| Protocollo | FlexiBowl® 2.0 | FlexiBowl® 3.0 |
+| Protocole | FlexiBowl® 2.0 | FlexiBowl® 3.0 |
 |---|---|---|
 | TCP/IP – UDP | ✓ | ✓ (TCP Server) |
 | EtherNet/IP | ✓ | ✓ |
 | Profinet | ✗ | ✓ |
 | Modbus | ✗ | ✓ |
-| Digital I/O | ✓ | ✓ (opzionale) |
+| Digital I/O | ✓ | ✓ (en option) |
  
 ---
  
-## 2. Interfaccia utente: com'è fatta e come si accede
+## 2. Interface utilisateur : comment elle est faite et comment y accéder
  
 <div class="compare-grid">
 <div class="compare-card v20">
 <div class="compare-card-header">FlexiBowl® 2.0 — Software Parameters</div>
 <div class="compare-card-body">
  
-Interfaccia **desktop** chiamata **FlexiBowl® Parameters**, da installare sul PC di controllo.
+Interface **desktop** appelée **FlexiBowl® Parameters**, à installer sur le PC de contrôle.
  
-**Installazione e accesso:**
+**Installation et accès :**
  
-1. Installare il programma **FlexiBowl® Parameters** sul PC (fornito da ARS).
-2. Collegare il PC al FlexiBowl® tramite **cavo Ethernet** (LAN diretta o via switch).
-3. Avviare il programma e inserire l'**indirizzo IP** del FlexiBowl® per connettersi.
+1. Installer le programme **FlexiBowl® Parameters** sur le PC (fourni par ARS).
+2. Raccorder le PC au FlexiBowl® au moyen d'un **câble Ethernet** (LAN directe ou via un switch).
+3. Lancer le programme et saisir l'**adresse IP** du FlexiBowl® pour se connecter.
  
-Dalla schermata **Main Commands** sono accessibili i pannelli **Move**, **Shake** e **Option** tramite tab nella parte superiore.
+Depuis l'écran **Main Commands**, les panneaux **Move**, **Shake** et **Option** sont accessibles au moyen d'onglets situés en haut.
  
 </div>
 </div>
 <div class="compare-card v30">
-<div class="compare-card-header">FlexiBowl® 3.0 — Interfaccia Web</div>
+<div class="compare-card-header">FlexiBowl® 3.0 — Interface web</div>
 <div class="compare-card-body">
  
-Interfaccia **completamente web-based**: non richiede alcuna installazione. È sufficiente un browser moderno.
+Interface **entièrement web** : aucune installation n'est requise. Un navigateur récent suffit.
  
-**Accesso:**
+**Accès :**
  
-1. Collegare il PC al FlexiBowl® tramite Ethernet.
-2. Aprire il browser e digitare nella barra degli indirizzi l'**indirizzo IP** del FlexiBowl®.
-3. Si apre la **Home page** dell'interfaccia.
+1. Raccorder le PC au FlexiBowl® via Ethernet.
+2. Ouvrir le navigateur et saisir l'**adresse IP** du FlexiBowl® dans la barre d'adresse.
+3. La **page d'accueil** de l'interface s'ouvre.
  
-**Struttura dell'interfaccia:**
+**Structure de l'interface :**
  
-Il menu laterale include pagine dedicate a ogni funzione operativa (Main Command, Jog Motor, Setup, Monitor, ecc.), accessibili direttamente dal browser.
+Le menu latéral comprend des pages dédiées à chaque fonction opérationnelle (Main Command, Jog Motor, Setup, Monitor, etc.), accessibles directement depuis le navigateur.
  
 </div>
 </div>
 </div>
  
 :::{note}
-Se il sistema in uso è **FlexiVision One**, la configurazione viene gestita dalla sua interfaccia dedicata. Non è necessario utilizzare l'interfaccia software FlexiBowl® descritta in questa sezione.
+Si le système utilisé est **FlexiVision One**, la configuration est gérée depuis son interface dédiée. Il n'est pas nécessaire d'utiliser l'interface logicielle du FlexiBowl® décrite dans cette section.
 :::
  
 ---
  
-## 3. Come cambiare l'indirizzo IP
+## 3. Comment modifier l'adresse IP
  
 <div class="compare-grid">
 <div class="compare-card v20">
 <div class="compare-card-header">FlexiBowl® 2.0</div>
 <div class="compare-card-body">
  
-1. Utilizzare il programma fornito sulla USB.
-2. Collegare il FlexiBowl® tramite cavo Ethernet.
-3. Accendere il dispositivo.
-4. Avviare il programma.
-5. Nella casella **IP Address**, inserire l'indirizzo: `192.168.1.10`  
-   *(Il PC collegato deve essere nella stessa subnet mask Classe B — 255.255.0.0)*
-6. Premere **Ping** → pop-up **"FlexiBowl® found"**.
-7. Premere **Ok** per abilitare **CONNECT** e avviare la connessione.
-8. Dopo la connessione verrà visualizzata la home screen.
+1. Utiliser le programme fourni sur la clé USB.
+2. Raccorder le FlexiBowl® au moyen d'un câble Ethernet.
+3. Allumer l'appareil.
+4. Lancer le programme.
+5. Dans la case **IP Address**, saisir l'adresse : `192.168.1.10`
+   *(Le PC connecté doit se trouver dans le même masque de sous-réseau de classe B — 255.255.0.0)*
+6. Appuyer sur **Ping** → fenêtre contextuelle **« FlexiBowl® found »**.
+7. Appuyer sur **Ok** pour activer **CONNECT** et lancer la connexion.
+8. Après la connexion, l'écran d'accueil s'affichera.
  
 </div>
 </div>
@@ -146,40 +146,40 @@ Se il sistema in uso è **FlexiVision One**, la configurazione viene gestita dal
 <div class="compare-card-header">FlexiBowl® 3.0</div>
 <div class="compare-card-body">
  
-1. Aprire il browser e accedere all'interfaccia tramite l'IP corrente.
-2. Dal menu laterale, aprire la pagina **Setup**.
-3. Cliccare su **Get IP** per leggere i parametri di rete correnti.
-4. Inserire il nuovo indirizzo IP nei campi dedicati e cliccare **Set IP**.
-5. Cliccare **Apply** per confermare, poi **Reboot** per rendere effettive le modifiche.
+1. Ouvrir le navigateur et accéder à l'interface via l'IP actuelle.
+2. Dans le menu latéral, ouvrir la page **Setup**.
+3. Cliquer sur **Get IP** pour lire les paramètres réseau actuels.
+4. Saisir la nouvelle adresse IP dans les champs prévus et cliquer sur **Set IP**.
+5. Cliquer sur **Apply** pour confirmer, puis sur **Reboot** pour que les modifications soient prises en compte.
  
 </div>
 </div>
 </div>
  
 :::{note}
-**FlexiBowl® 2.0** — Se è installata una versione precedente del programma, è necessario disinstallarla prima.
+**FlexiBowl® 2.0** — Si une version précédente du programme est installée, il est nécessaire de la désinstaller au préalable.
 :::
  
 :::{important}
-**FlexiBowl® 3.0** — Dopo il reboot, riconnettersi al FlexiBowl® utilizzando il nuovo indirizzo IP impostato.
+**FlexiBowl® 3.0** — Après le redémarrage, se reconnecter au FlexiBowl® en utilisant la nouvelle adresse IP définie.
 :::
  
 ---
  
-## 4. Come gestire i movimenti
+## 4. Comment gérer les mouvements
  
 <div class="compare-grid">
 <div class="compare-card v20">
 <div class="compare-card-header">FlexiBowl® 2.0</div>
 <div class="compare-card-body">
  
-I movimenti vengono configurati e testati da **Main Commands**, con tre pannelli:
+Les mouvements sont configurés et testés depuis **Main Commands**, avec trois panneaux :
  
-- **Move**: imposta Acceleration, Deceleration, Speed e Angle tramite slider o campo numerico. **Test Move** esegue il movimento con i valori impostati.
-- **Shake**: parametri CCW Angle, CW Angle, Count, Acceleration, Deceleration e Speed. **Test Shake** esegue lo shake.
-- **Try Commands**: combina più comandi in una sequenza con loop configurabile, selezionando da **All Commands** e aggiungendo a **Selected Commands**.
+- **Move** : règle Acceleration, Deceleration, Speed et Angle au moyen d'un curseur ou d'un champ numérique. **Test Move** exécute le mouvement avec les valeurs définies.
+- **Shake** : paramètres CCW Angle, CW Angle, Count, Acceleration, Deceleration et Speed. **Test Shake** exécute le shake.
+- **Try Commands** : combine plusieurs commandes en une séquence avec une boucle configurable, en sélectionnant dans **All Commands** et en ajoutant à **Selected Commands**.
  
-Per la produzione via protocollo, si inviano comandi ASCII (es. `QX2` per Move, `QX6` per Shake) tramite il canale TCP/UDP configurato.
+Pour la production via protocole, des commandes ASCII (par ex. `QX2` pour Move, `QX6` pour Shake) sont envoyées via le canal TCP/UDP configuré.
  
 </div>
 </div>
@@ -187,18 +187,18 @@ Per la produzione via protocollo, si inviano comandi ASCII (es. `QX2` per Move, 
 <div class="compare-card-header">FlexiBowl® 3.0</div>
 <div class="compare-card-body">
  
-I movimenti sono organizzati in **sequenze** (fino a 20), configurabili dalla pagina **Main Command**. Ogni sequenza contiene fino a 10 slot di comandi (Move, Shake, Flip, Blow).
+Les mouvements sont organisés en **séquences** (jusqu'à 20), configurables depuis la page **Main Command**. Chaque séquence contient jusqu'à 10 emplacements de commande (Move, Shake, Flip, Blow).
  
-Dalla pagina **Main Command** è possibile:
+Depuis la page **Main Command**, il est possible de :
  
-- Selezionare la sequenza tramite **Select the sequence**.
-- Impostare tutti i parametri nei campi numerici.
-- Aggiungere comandi con **Command Available** + **ADD**; riordinarli con **UP/DOWN**; eliminarli con **DELETE** o svuotare con **CLEAR**.
-- Testare con **TEST SEQUENCE** o avviare in produzione con **RUN**.
+- Sélectionner la séquence au moyen de **Select the sequence**.
+- Définir tous les paramètres dans les champs numériques.
+- Ajouter des commandes avec **Command Available** + **ADD** ; les réordonner avec **UP/DOWN** ; les supprimer avec **DELETE** ou vider la liste avec **CLEAR**.
+- Tester avec **TEST SEQUENCE** ou démarrer la production avec **RUN**.
  
-La pagina **Jog Motor** consente rotazione continua (Speed positivo = orario, negativo = antiorario) con Flip e Blow integrati.
+La page **Jog Motor** permet la rotation continue (Speed positive = sens horaire, négative = sens antihoraire) avec Flip et Blow intégrés.
  
-Per la produzione via protocollo: `10[0]%` per Sequenza 1 via TCP, oppure ControlWord `10` via EtherNet/IP o Profinet.
+Pour la production via protocole : `10[0]%` pour la Séquence 1 via TCP, ou ControlWord `10` via EtherNet/IP ou Profinet.
  
 </div>
 </div>
@@ -206,17 +206,17 @@ Per la produzione via protocollo: `10[0]%` per Sequenza 1 via TCP, oppure Contro
  
 ---
  
-## 5. Come cambiare i parametri
+## 5. Comment modifier les paramètres
  
 <div class="compare-grid">
 <div class="compare-card v20">
 <div class="compare-card-header">FlexiBowl® 2.0</div>
 <div class="compare-card-body">
  
-I parametri operativi vengono modificati in due modalità:
+Les paramètres opérationnels se modifient de deux manières :
  
-- **Interfaccia grafica**: slider o campi numerici nelle schermate Move e Shake di **Main Commands**.
-- **Via protocollo (runtime)**: comandi `RW` (Write) e `RL` (Read) via TCP/UDP. I valori devono essere moltiplicati per il **fattore di riduzione** della macchina (ottenuto con il comando `RR114`), poiché i parametri sono espressi in unità interne del driver.
+- **Interface graphique** : curseurs ou champs numériques dans les écrans Move et Shake de **Main Commands**.
+- **Via protocole (runtime)** : commandes `RW` (Write) et `RL` (Read) via TCP/UDP. Les valeurs doivent être multipliées par le **facteur de réduction** de la machine (obtenu avec la commande `RR114`), car les paramètres sont exprimés en unités internes du driver.
  
 </div>
 </div>
@@ -224,11 +224,11 @@ I parametri operativi vengono modificati in due modalità:
 <div class="compare-card-header">FlexiBowl® 3.0</div>
 <div class="compare-card-body">
  
-I parametri vengono modificati in tre modalità:
+Les paramètres se modifient de trois manières :
  
-- **Interfaccia web**: direttamente nei campi numerici della pagina **Main Command** per ogni sequenza.
-- **Via protocollo WRITE**: ControlWord blocco WRITE con formula `N × 100 + offset_parametro`
-- **Via protocollo READ**: ControlWord blocco READ con formula `10000 + N × 100 + offset_parametro`
+- **Interface web** : directement dans les champs numériques de la page **Main Command** pour chaque séquence.
+- **Via protocole WRITE** : ControlWord bloc WRITE avec la formule `N × 100 + offset_parametro`
+- **Via protocole READ** : ControlWord bloc READ avec la formule `10000 + N × 100 + offset_parametro`
  
 </div>
 </div>
@@ -236,46 +236,46 @@ I parametri vengono modificati in tre modalità:
  
 ---
  
-### Esempio pratico: Move + Shake su FlexiBowl® 800
+### Exemple pratique : Move + Shake sur FlexiBowl® 800
  
-Lo scenario è il seguente: eseguire un **Move** a 360°, poi uno **Shake**, poi un wait di 200 ms.
+Le scénario est le suivant : exécuter un **Move** de 360°, puis un **Shake**, puis une attente de 200 ms.
  
 <div class="compare-grid">
 <div class="compare-card v20">
-<div class="compare-card-header">FlexiBowl® 2.0 — Sequenza comandi TCP</div>
+<div class="compare-card-header">FlexiBowl® 2.0 — Séquence de commandes TCP</div>
 <div class="compare-card-body">
  
-I parametri devono essere scalati tramite il **fattore di riduzione** della macchina:
+Les paramètres doivent être mis à l'échelle au moyen du **facteur de réduction** de la machine :
  
-<pre>QX7                     → Accendi backlight
-RR114                   → Leggi fattore di riduzione
-variabile_riduzione = RX 1
+<pre>QX7                     → Allumer le rétroéclairage
+RR114                   → Lire le facteur de réduction
+reduction_factor = RX 1
  
-RL1 (50 × variabile_riduzione), RW11   → Acceleration Move = 50%
-RL1 (50 × variabile_riduzione), RW12   → Deceleration Move = 50%
-RL1 (35 × variabile_riduzione), RW13   → Speed Move = 35%
-RL1 (360 × variabile_riduzione), RW14  → Angle Move = 360°
-QX2                     → Esegui Move
+RL1 (50 × reduction_factor), RW11   → Acceleration Move = 50 %
+RL1 (50 × reduction_factor), RW12   → Deceleration Move = 50 %
+RL1 (35 × reduction_factor), RW13   → Speed Move = 35 %
+RL1 (360 × reduction_factor), RW14  → Angle Move = 360°
+QX2                     → Exécuter Move
  
-RL1 (50 × variabile_riduzione), RW15  → Acceleration Shake = 50%
-RL1 (50 × variabile_riduzione), RW16  → Deceleration Shake = 50%
-RL1 (50 × variabile_riduzione), RW110 → Speed Shake = 50%
-RL1 (30 × variabile_riduzione), RW18  → Angle CW Shake = -30°
-RL1 (30 × variabile_riduzione), RW19  → Angle CCW Shake = -45°
+RL1 (50 × reduction_factor), RW15  → Acceleration Shake = 50 %
+RL1 (50 × reduction_factor), RW16  → Deceleration Shake = 50 %
+RL1 (50 × reduction_factor), RW110 → Speed Shake = 50 %
+RL1 (30 × reduction_factor), RW18  → Angle CW Shake = -30°
+RL1 (30 × reduction_factor), RW19  → Angle CCW Shake = -45°
 RL1 2, RW17                           → Count Shake = 2
-QX6                     → Esegui Shake</pre>
+QX6                     → Exécuter Shake</pre>
  
-Il wait di 200 ms è gestito dal sistema chiamante (robot o PLC).
+L'attente de 200 ms est gérée par le système appelant (robot ou automate).
  
 </div>
 </div>
 <div class="compare-card v30">
-<div class="compare-card-header">FlexiBowl® 3.0 — Configurazione interfaccia web</div>
+<div class="compare-card-header">FlexiBowl® 3.0 — Configuration de l'interface web</div>
 <div class="compare-card-body">
  
-Dalla pagina **Main Command**, selezionare **SEQUENCE 1** e impostare:
+Depuis la page **Main Command**, sélectionner **SEQUENCE 1** et définir :
  
-| Parametro | Valore |
+| Paramètre | Valeur |
 |---|---|
 | Acceleration Move | 50 % |
 | Deceleration Move | 50 % |
@@ -288,13 +288,13 @@ Dalla pagina **Main Command**, selezionare **SEQUENCE 1** e impostare:
 | Cw Angle Shake | −30° |
 | Count Shake | 2 |
  
-Aggiungere alla lista: `FLB_MOVE` → `FLB_SHAKE`. Verificare Backlight dalla pagina **Option**. Il wait di 200 ms si gestisce aggiungendo `FLB_WAIT` alla lista o lato sistema chiamante.
+Ajouter à la liste : `FLB_MOVE` → `FLB_SHAKE`. Vérifier Backlight depuis la page **Option**. L'attente de 200 ms se gère en ajoutant `FLB_WAIT` à la liste ou côté système appelant.
  
-Per eseguire la sequenza via TCP:
+Pour exécuter la séquence via TCP :
  
-<pre>10[0]%    → Esegui Sequenza 1</pre>
+<pre>10[0]%    → Exécuter la Séquence 1</pre>
  
-Il sistema risponde con `10[0]` a conferma.
+Le système répond par `10[0]` en confirmation.
  
 </div>
 </div>
@@ -302,18 +302,18 @@ Il sistema risponde con `10[0]` a conferma.
  
 ---
  
-## 6. Come leggere gli allarmi
+## 6. Comment lire les alarmes
  
 <div class="compare-grid">
 <div class="compare-card v20">
 <div class="compare-card-header">FlexiBowl® 2.0</div>
 <div class="compare-card-body">
  
-Gli allarmi si consultano da **Monitor → Alarm Status** del programma **FlexiBowl® Parameters**. La schermata mostra gli stati del driver con indicatori LED (verde = OK, rosso = errore). La schermata **Driver Status** mostra in tempo reale tutte le variabili operative.
+Les alarmes se consultent depuis **Monitor → Alarm Status** du programme **FlexiBowl® Parameters**. L'écran affiche les états du driver au moyen d'indicateurs LED (vert = OK, rouge = erreur). L'écran **Driver Status** affiche en temps réel toutes les variables opérationnelles.
  
-Reset allarme via protocollo:
+Réinitialisation de l'alarme via protocole :
  
-<pre>Chr(0)Chr(7)QX12Chr(13)    → Reset allarme e riabilitazione motore</pre>
+<pre>Chr(0)Chr(7)QX12Chr(13)    → Réinitialiser l'alarme et réactiver le moteur</pre>
  
 </div>
 </div>
@@ -321,69 +321,69 @@ Reset allarme via protocollo:
 <div class="compare-card-header">FlexiBowl® 3.0</div>
 <div class="compare-card-body">
  
-Gli allarmi si consultano dalla pagina **Monitor** (tab: **I/O Status**, **Driver Status**, **Alarm Status**).
+Les alarmes se consultent depuis la page **Monitor** (onglets : **I/O Status**, **Driver Status**, **Alarm Status**).
  
-Via protocollo, il segnale di allarme è esposto da **In_Error** (BOOL) e il codice attivo da **ErrorCode** (UDINT):
+Via protocole, le signal d'alarme est exposé par **In_Error** (BOOL) et le code actif par **ErrorCode** (UDINT) :
  
-<pre>InError%         → InError[1]% se c'è errore, InError[0]% se OK
-ErrorCode%       → ErrorCode[N]% con il codice dell'errore attivo</pre>
+<pre>InError%         → InError[1]% en cas d'erreur, InError[0]% si OK
+ErrorCode%       → ErrorCode[N]% avec le code de l'erreur active</pre>
  
-Reset dell'allarme:
-- Via protocollo TCP: `Reset%`
-- Via variabile digitale: fronte di salita sul segnale di input **Reset** (BOOL)
+Réinitialisation de l'alarme :
+- Via protocole TCP : `Reset%`
+- Via variable numérique : front montant sur le signal d'entrée **Reset** (BOOL)
  
 </div>
 </div>
 </div>
  
 :::{warning}
-Prima di eseguire il reset, identificare e risolvere la causa dell'errore. Il sistema non eseguirà nuovi comandi di movimento finché è presente un errore attivo.
+Avant d'effectuer la réinitialisation, identifier et résoudre la cause de l'erreur. Le système n'exécutera pas de nouvelles commandes de mouvement tant qu'une erreur est active.
 :::
  
 :::{note}
-Per la lista completa dei codici errore fare riferimento alla sezione [Codici Di Errore](sec-err)
+Pour la liste complète des codes d'erreur, se reporter à la section [Codes d'erreur](sec-err)
 :::
  
 ---
  
-## 7. Modalità tracking (FlexiTrack)
+## 7. Mode tracking (FlexiTrack)
  
 <div class="compare-grid">
 <div class="compare-card v20">
 <div class="compare-card-header">FlexiBowl® 2.0</div>
 <div class="compare-card-body">
  
-La modalità **FlexiTrack** è un'opzione acquistabile separatamente che consente di mantenere il FlexiBowl® in **rotazione continua** (jog) sincronizzando il segnale encoder con il robot di pick.
+Le mode **FlexiTrack** est une option achetable séparément qui permet de maintenir le FlexiBowl® en **rotation continue** (jog) en synchronisant le signal de l'encodeur avec le robot de pick.
  
-**Hardware richiesto:**
+**Matériel requis :**
  
-- Connessione all'**encoder interno** tramite il connettore del pannello di controllo (segnale quadratura TTL, 4000 conteggi/giro sul motore; per FlexiBowl® 500/650/800 con riduzione 1:3 → 12000 conteggi/giro sul disco).
-- In alternativa, **encoder esterno** (incremental, TTL RS422, ≥ 12000 ppr) sul perno solidale alla puleggia condotta.
+- Raccordement à l'**encodeur interne** via le connecteur du panneau de commande (signal en quadrature TTL, 4000 impulsions/tour sur le moteur ; pour les FlexiBowl® 500/650/800 avec réduction 1:3 → 12000 impulsions/tour sur le disque).
+- En alternative, **encodeur externe** (incrémental, TTL RS422, ≥ 12000 ppr) sur l'axe solidaire de la poulie menée.
  
-**Comandi principali FlexiTrack (via TCP/UDP):**
+**Principales commandes FlexiTrack (via TCP/UDP) :**
  
-| Comando | Descrizione |
+| Commande | Description |
 |---|---|
-| `JA<valore>` | Accelerazione/decelerazione in giri/s² |
-| `JL<valore>` | Decelerazione (se diversa da JA, inviare dopo JA) |
-| `JS<valore>` | Velocità di rotazione in giri/s |
-| `CC<valore>` | Corrente diretta al motore |
-| `DI1` | Direzione oraria |
-| `DI-1` | Direzione antioraria |
-| `CJ` | Avvia jog (rotazione continua) |
-| `SJ` | Ferma jog (con rampa JL) |
-| `IL2` / `IH2` | Attiva / disattiva Flip |
-| `IL3` / `IH3` | Attiva / disattiva Blow |
+| `JA<valore>` | Accélération/décélération en tr/s² |
+| `JL<valore>` | Décélération (si différente de JA, envoyer après JA) |
+| `JS<valore>` | Vitesse de rotation en tr/s |
+| `CC<valore>` | Courant envoyé au moteur |
+| `DI1` | Sens horaire |
+| `DI-1` | Sens antihoraire |
+| `CJ` | Démarrer le jog (rotation continue) |
+| `SJ` | Arrêter le jog (avec rampe JL) |
+| `IL2` / `IH2` | Activer / désactiver Flip |
+| `IL3` / `IH3` | Activer / désactiver Blow |
  
-**Parametri consigliati:**
+**Paramètres recommandés :**
  
-<pre>JA0.2    → accelerazione 0.2 giri/s²
-JL0.2    → decelerazione 0.2 giri/s²
-JS0.2    → velocità 0.2 giri/s
-CC1.3    → corrente motore
-DI1      → rotazione oraria</pre>
+<pre>JA0.2    → accélération 0.2 tr/s²
+JL0.2    → décélération 0.2 tr/s²
+JS0.2    → vitesse 0.2 tr/s
+CC1.3    → courant moteur
+DI1      → rotation horaire</pre>
  
-Flip e Blow vanno implementati tramite un **programma in background** con ciclo iterativo che commuta lo stato delle valvole.
+Flip et Blow doivent être mis en œuvre au moyen d'un **programme en arrière-plan** avec une boucle itérative qui commute l'état des électrovannes.
  
 </div>
 </div>
@@ -391,28 +391,28 @@ Flip e Blow vanno implementati tramite un **programma in background** con ciclo 
 <div class="compare-card-header">FlexiBowl® 3.0</div>
 <div class="compare-card-body">
  
-La modalità jog è **integrata nativamente** nella pagina **Jog Motor** — senza opzioni hardware aggiuntive.
+Le mode jog est **intégré nativement** dans la page **Jog Motor** — sans options matérielles supplémentaires.
  
-**Parametri di movimento Jog:**
+**Paramètres de mouvement Jog :**
  
-| Parametro | Unità | Descrizione |
+| Paramètre | Unité | Description |
 |---|---|---|
-| Acceleration | % | Rampa di accelerazione all'avvio |
-| Deceleration | % | Rampa di decelerazione all'arresto |
-| Speed | % | Velocità — positivo = orario; negativo = antiorario |
+| Acceleration | % | Rampe d'accélération au démarrage |
+| Deceleration | % | Rampe de décélération à l'arrêt |
+| Speed | % | Vitesse — positive = sens horaire ; négative = sens antihoraire |
  
-**Funzioni accessorie durante il Jog:**
+**Fonctions accessoires pendant le Jog :**
  
-- **Flip Enable**: flip automatico ciclico con Flip Duration, Flip Pression, Flip Pause.
-- **Blow Enable**: soffio automatico ciclico con Blow Duration, Blow Pression, Blow Pause, Blow Type (BLOWc, BLOWe, BLOWc+BLOWe).
-- **Backlight 1 / 2**: toggle retroilluminazione, indipendente dallo stato del jog.
+- **Flip Enable** : flip automatique cyclique avec Flip Duration, Flip Pression, Flip Pause.
+- **Blow Enable** : soufflage automatique cyclique avec Blow Duration, Blow Pression, Blow Pause, Blow Type (BLOWc, BLOWe, BLOWc+BLOWe).
+- **Backlight 1 / 2** : commutateur du rétroéclairage, indépendant de l'état du jog.
  
-**Avvio e arresto:**
+**Démarrage et arrêt :**
  
-- **START JOG**: avvia la rotazione continua.
-- **STOP JOG**: interrompe con rampa di decelerazione.
+- **START JOG** : démarre la rotation continue.
+- **STOP JOG** : arrête avec une rampe de décélération.
  
-Controllo via protocollo:
+Commande via protocole :
  
 <pre>40[0]%    → Start Jog Seq (via TCP)
 41[0]%    → Stop Jog Seq (via TCP)</pre>
@@ -422,9 +422,9 @@ Controllo via protocollo:
 </div>
  
 :::{important}
-Prima di avviare il jog, verificare che il motore sia abilitato (**ENABLE MOTOR** attivo) e che lo stato del sistema sia **READY**.
+Avant de démarrer le jog, vérifier que le moteur est activé (**ENABLE MOTOR** actif) et que l'état du système est **READY**.
 :::
  
 :::{important}
-Con FlexiTrack **(FlexiBowl® 2.0)**, il controllo del movimento è possibile **solo via protocollo Ethernet** (TCP/UDP). Il protocollo Digital I/O non è supportato.
+Avec FlexiTrack **(FlexiBowl® 2.0)**, le contrôle du mouvement est possible **uniquement via le protocole Ethernet** (TCP/UDP). Le protocole Digital I/O n'est pas pris en charge.
 :::

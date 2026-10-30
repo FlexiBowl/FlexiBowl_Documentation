@@ -1,4 +1,4 @@
-# [MEC] **Sostituzione Gruppo Flip**
+# **Sostituzione Gruppo Flip**
 
 :::::{important}
 

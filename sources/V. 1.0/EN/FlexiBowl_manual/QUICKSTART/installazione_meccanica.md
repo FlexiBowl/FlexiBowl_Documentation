@@ -1,4 +1,4 @@
-# [MEC] **Installing the FlexiBowl®**
+# **FlexiBowl® Installation**
 
 ::::{list-table}
 :widths: 10 50
@@ -11,17 +11,17 @@
   - Place the FlexiBowl® on a {ref}`stable surface <pianale>`. Pay attention to {ref}`transport and lifting <transflex>`.
 
 * - 2
-  - Remove the handles and fix the FlexiBowl® correctly to the support. The quantity and type of screws required are given in the {ref}`dedicated section <intmec>`.
+  - Remove the handles and properly fix the FlexiBowl® to the support. The quantity and type of screws required are given in the {ref}`dedicated section <intmec>`.
 
 * - 3
   - If present, remove the eyebolts:
     * **FlexiBowl® 500-650-800:**
 
-      1. Lock the swivel support of the eyebolts with an M5x12 screw.
+      1. Lock the rotating support of the eyebolts with an M5x12 screw.
 
       2. Remove the eyebolt.
 
-      3. Cover the M8 eyebolt hole with the appropriate plug.
+      3. Cover the M8 hole of the eyebolt with the appropriate plug.
 
       :::{figure} ../../../../_shared/media/images/golf650.PNG
          :align: center
@@ -31,7 +31,7 @@
 
       1. Remove the eyebolt.
 
-      2. Cover the M12 eyebolt hole with the appropriate plug.
+      2. Cover the M12 hole of the eyebolt with the appropriate plug.
 
 * - 4
   - {ref}`Mount the surface or rigid disc <sost-disco>`.
@@ -56,16 +56,16 @@ When installing the FlexiBowl® 200 and 350, pay particular attention to the {re
 ## Characteristics of the support surface
 
 ::::{important}
-Make sure that the machine's support surface is flat and level, and is suitable to bear its weight.
+Make sure that the machine support surface is flat and horizontal, and suitable to bear its weight.
 
-It is **strongly discouraged** to mount the FlexiBowl® on a cantilevered portion of the machine table. Where this is unavoidable, make sure to stiffen the support surface sufficiently.
+It is **strongly discouraged** to mount the FlexiBowl® on an overhanging portion of the machine table. Where this is unavoidable, make sure to stiffen the support surface sufficiently.
 
 :::{figure} ../../../../_shared/media/images/FB650-nosbalzo.PNG
 :align: center
 :::
 ::::
 
-To ensure the correct operation of the FlexiBowl®, the support surface must have flatness errors not exceeding 1 mm, be assembled horizontally, and be massive enough not to be affected by the vibrations caused by the normal operation of the FlexiBowl®, the robot and any other moving parts in the layout. Indications of the minimum dimensions and weight required for mounting the FlexiBowl® are given in the table below; from these data, taking into account the material used for the table, the minimum thickness required can be derived.
+To ensure correct operation of the FlexiBowl®, the supporting surface must have flatness errors of no more than 1 mm, be mounted horizontally, and be massive enough not to be affected by the vibrations caused by the normal operation of the FlexiBowl®, the robot and any other moving parts in the layout. Indications of the minimum dimensions and weight required for mounting the FlexiBowl® are given in the table below; from these data, taking into account the material used for the base plate, the minimum required thickness can be derived.
 
 :::{figure} ../../../../_shared/media/images/pianali.PNG
 :align: center
@@ -77,7 +77,7 @@ To ensure the correct operation of the FlexiBowl®, the support surface must hav
 :stub-columns: 1
 
 * - Model
-  - Table dimensions AxA [mm]
+  - Plate dimensions AxA [mm]
   - Weight M [kg]
 
 * - FlexiBowl® 200
@@ -108,7 +108,7 @@ To ensure the correct operation of the FlexiBowl®, the support surface must hav
 
 ## Installing the rack box (for FlexiBowl® 200 and 350)
 
-To avoid overheating of the rack, it is important to leave *clearance* zones around it:
+To prevent the rack from overheating, it is important to leave *clearance* zones around it:
 
 :::{figure} ../../../../_shared/media/images/rackclear.PNG
 :align: center
@@ -122,13 +122,13 @@ To avoid overheating of the rack, it is important to leave *clearance* zones aro
   - Value
 
 * - Side distance A
-  - 10 mm
+  - 10mm
 
 * - Top distance B
-  - 50 mm
+  - 50mm
 
 * - Front distance C
-  - 100 mm
+  - 100mm
 
 :::
 
@@ -150,5 +150,5 @@ Two racks can be installed one above the other provided that one of the followin
 :::
 
 :::{tip}
-It is useful to provide a ventilation system above the rack that forces the extraction of the hot air leaving the top surface, especially when more than one are mounted stacked vertically.
+It is useful to provide a ventilation system above the rack that forces the extraction of the hot air coming out of the upper surface, especially when several are mounted stacked vertically.
 :::

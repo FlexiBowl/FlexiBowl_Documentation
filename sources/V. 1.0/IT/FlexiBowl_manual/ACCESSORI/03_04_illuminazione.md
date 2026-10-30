@@ -1,10 +1,9 @@
-# [MEC] **Illuminazione**
+# **Illuminazione**
 
 (backlight)=
 # **Backlight**
 
-Il Backlight è una luce localizzata sotto la finestra di lexan del piano di scorrimento, così che la sua luce possa colpire la superficie o il disco rigido e che la silhouette dei componenti al di sopra diventi visibile al sistema di visione. 
-Il Backlight è disponibile con luce: 
+Il Backlight è una luce localizzata sotto la finestra di lexan del piano di scorrimento, così che la sua luce possa colpire la superficie o il disco rigido e che la silhouette dei componenti al di sopra diventi visibile al sistema di visione. Il Backlight è disponibile con luce:
 - Bianca
 - Rossa
 - Infrarossa
@@ -156,8 +155,7 @@ Esistono inoltre due tipi di Backlight:
 (toplight)=
 # **Toplight**
 
-Il Toplight è un illuminatore separato che viene montato all'altezza della telecamera e illumina l'area di visione del FlexiBowl® dall'alto, così che le features del componente che sono rivolte verso la telecamera siano messe in evidenza. È indicato principalmente per superfici lisce e non riflettenti, o superfici che presentano qualche tipo di marcatura distinguibile.
-Il Toplight è disponibile con luce: 
+Il Toplight è un illuminatore separato che viene montato all'altezza della telecamera e illumina l'area di visione del FlexiBowl® dall'alto, così che le features del componente che sono rivolte verso la telecamera siano messe in evidenza. È indicato principalmente per superfici lisce e non riflettenti, o superfici che presentano qualche tipo di marcatura distinguibile. Il Toplight è disponibile con luce:
 - Bianca
 - Rossa
 - Infrarossa
@@ -242,19 +240,16 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 200, FlexiB
   - PMMA bianco
  
 * - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+  - 4 dadi M4 (forniti) da inserire nella scanalatura oppure 4 viti M4x20 (non fornite) applicate agli angoli
  
 * - **Ambiente**
   -
  
 * - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -10°C a +40°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -20°C a +60°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Grado di protezione IP
   - IP 50
@@ -339,19 +334,16 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 200, FlexiB
   - PMMA bianco
  
 * - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+  - 4 dadi M4 (forniti) da inserire nella scanalatura oppure 4 viti M4x20 (non fornite) applicate agli angoli
  
 * - **Ambiente**
   -
  
 * - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -10°C a +40°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -20°C a +60°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Grado di protezione IP
   - IP 50
@@ -436,19 +428,16 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 200, FlexiB
   - PMMA bianco
  
 * - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+  - 4 dadi M4 (forniti) da inserire nella scanalatura oppure 4 viti M4x20 (non fornite) applicate agli angoli
  
 * - **Ambiente**
   -
  
 * - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -10°C a +40°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -20°C a +60°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Grado di protezione IP
   - IP 50
@@ -533,19 +522,16 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiB
   - PMMA bianco
  
 * - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+  - 4 dadi M4 (forniti) da inserire nella scanalatura oppure 4 viti M4x20 (non fornite) applicate agli angoli
  
 * - **Ambiente**
   -
  
 * - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -10°C a +40°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -20°C a +60°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Grado di protezione IP
   - IP 50
@@ -629,19 +615,16 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiB
   - PMMA bianco
  
 * - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+  - 4 dadi M4 (forniti) da inserire nella scanalatura oppure 4 viti M4x20 (non fornite) applicate agli angoli
  
 * - **Ambiente**
   -
  
 * - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -10°C a +40°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -20°C a +60°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Grado di protezione IP
   - IP 50
@@ -725,19 +708,16 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiB
   - PMMA bianco
  
 * - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+  - 4 dadi M4 (forniti) da inserire nella scanalatura oppure 4 viti M4x20 (non fornite) applicate agli angoli
  
 * - **Ambiente**
   -
  
 * - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -10°C a +40°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -20°C a +60°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Grado di protezione IP
   - IP 50
@@ -821,19 +801,16 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiB
   - PMMA bianco
  
 * - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+  - 4 dadi M4 (forniti) da inserire nella scanalatura oppure 4 viti M4x20 (non fornite) applicate agli angoli
  
 * - **Ambiente**
   -
  
 * - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -10°C a +40°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -20°C a +60°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Grado di protezione IP
   - IP 50
@@ -917,19 +894,16 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiB
   - PMMA bianco
  
 * - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+  - 4 dadi M4 (forniti) da inserire nella scanalatura oppure 4 viti M4x20 (non fornite) applicate agli angoli
  
 * - **Ambiente**
   -
  
 * - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -10°C a +40°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -20°C a +60°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Grado di protezione IP
   - IP 50
@@ -1013,19 +987,16 @@ Questa dimensione di Toplight è indicata per i modelli: FlexiBowl® 650, FlexiB
   - PMMA bianco
  
 * - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+  - 4 dadi M4 (forniti) da inserire nella scanalatura oppure 4 viti M4x20 (non fornite) applicate agli angoli
  
 * - **Ambiente**
   -
  
 * - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -10°C a +40°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -20°C a +60°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Grado di protezione IP
   - IP 50
@@ -1109,19 +1080,16 @@ Questa dimensione di Toplight è indicata per il modelli FlexiBowl® 1200
   - PMMA bianco
  
 * - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+  - 4 dadi M4 (forniti) da inserire nella scanalatura oppure 4 viti M4x20 (non fornite) applicate agli angoli
  
 * - **Ambiente**
   -
  
 * - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -10°C a +40°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -20°C a +60°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Grado di protezione IP
   - IP 50
@@ -1204,19 +1172,16 @@ Questa dimensione di Toplight è indicata per il modelli FlexiBowl® 1200
   - PMMA bianco
  
 * - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+  - 4 dadi M4 (forniti) da inserire nella scanalatura oppure 4 viti M4x20 (non fornite) applicate agli angoli
  
 * - **Ambiente**
   -
  
 * - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -10°C a +40°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -20°C a +60°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Grado di protezione IP
   - IP 50
@@ -1300,19 +1265,16 @@ Questa dimensione di Toplight è indicata per il modelli FlexiBowl® 1200
   - PMMA bianco
  
 * - Fissaggio
-  - 4 dadi M4 (forniti) da inserire nella scanalatura
-    oppure 4 viti M4x20 (non fornite) applicate agli angoli
+  - 4 dadi M4 (forniti) da inserire nella scanalatura oppure 4 viti M4x20 (non fornite) applicate agli angoli
  
 * - **Ambiente**
   -
  
 * - Temperatura di esercizio
-  - -10°C a +40°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -10°C a +40°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Temperatura di stoccaggio
-  - -20°C a +60°C / 80% di umidità senza condensa
-    Nessuno shock termico (variazione massima: 10°C in 24h)
+  - -20°C a +60°C / 80% di umidità senza condensa Nessuno shock termico (variazione massima: 10°C in 24h)
  
 * - Grado di protezione IP
   - IP 50
@@ -1361,7 +1323,7 @@ Questa dimensione di Toplight è indicata per il modelli FlexiBowl® 1200
 
 (staffa)=
 ### *Staffa per Montaggio Toplight* 
-Per il [montaggio del toplight sul lato](montaggio_staffa) è possibile acquistare **a parte** un'apposita staffa. 
+Per il [montaggio del toplight sul lato](montaggio_staffa) è possibile acquistare **a parte** un'apposita staffa.
 
 ```{image} ../../../../_shared/media/images/staffa_montaggio.png
 :align: center
@@ -1386,21 +1348,20 @@ Durante il montaggio, l'apparecchio deve essere spento e staccato dalla corrente
 | 900x600 | 45 | 55 | 65 | 0,54 m² | 3 m |
 
 ### *Posizionamento Toplight* 
-Il toplight deve essere posizionato centralmente rispetto alla superficie utile del pannello luminoso,
-con l'ottica della telecamera montata all'interno del foro centrale, a filo con la superficie superiore del toplight.   
-Le frecce rosse indicano le viti di fissaggio delle ghiere dell'obiettivo, una per la regolazione del fuoco e una per la regolazione del diaframma. Come mostrato nella figura, il toplight deve essere montato in modo che le due viti restino accessibili dall'alto. 
+Il toplight deve essere posizionato centralmente rispetto alla superficie utile del pannello luminoso, con l'ottica della telecamera montata all'interno del foro centrale, a filo con la superficie superiore del toplight.
+Le frecce rosse indicano le viti di fissaggio delle ghiere dell'obiettivo, una per la regolazione del fuoco e una per la regolazione del diaframma. Come mostrato nella figura, il toplight deve essere montato in modo che le due viti restino accessibili dall'alto.
 
 ![Posizione Toplight e Cam](../../../../_shared/media/images/posizione_cam_TPL_B.png)
 
-Il campo visivo della telecamera e il fascio luminoso del toplight (in verde) devono essere allineati concentricamente e perpendicolarmente rispetto all'area di visione sul FlexiBowl®.    
-Come mostrato nelle tre viste (frontale, dall'alto e assonometrica), il toplight deve illuminare esattamente l'area inquadrata dalla telecamera, con entrambi i componenti centrati sull'asse ottico verticale del sistema.  
+Il campo visivo della telecamera e il fascio luminoso del toplight (in verde) devono essere allineati concentricamente e perpendicolarmente rispetto all'area di visione sul FlexiBowl®.
+Come mostrato nelle tre viste (frontale, dall'alto e assonometrica), il toplight deve illuminare esattamente l'area inquadrata dalla telecamera, con entrambi i componenti centrati sull'asse ottico verticale del sistema.
 
 ![Posizione Toplight Cam + FB](../../../../_shared/media/images/posizioneTPL_giusta.png)
 
-Un posizionamento errato si verifica quando il toplight e la telecamera non sono centrati sull'area di visione del FlexiBowl®.   
-Come illustrato (in rosso), due errori tipici sono:  
-- spostarsi in avanti o indietro rispetto all'area di visione.  
-- ruotare il toplight rispetto ad essa.   
+Un posizionamento errato si verifica quando il toplight e la telecamera non sono centrati sull'area di visione del FlexiBowl®.
+Come illustrato (in rosso), due errori tipici sono:
+- spostarsi in avanti o indietro rispetto all'area di visione.
+- ruotare il toplight rispetto ad essa.
   
 In entrambi i casi, l'illuminazione risulta disassata e non perpendicolare, compromettendo la qualità dell'acquisizione.
 
@@ -1486,8 +1447,8 @@ Fissaggio sull'angolo tramite vite CHC M4x20 (non fornita).
 (lato)=
 #### *2. Fissaggio sul lato (scanalatura)*
 
-Il fissaggio sul lato utilizza 4 dadi M4 (forniti) da inserire nella scanalatura laterale del profilo del Toplight.  
-   La profondità massima di inserimento del dado nella scanalatura è di **5 mm**.  
+Il fissaggio sul lato utilizza 4 dadi M4 (forniti) da inserire nella scanalatura laterale del profilo del Toplight.
+   La profondità massima di inserimento del dado nella scanalatura è di **5 mm**.
      Le Viti consigliate sono M4x8.
 
 ```{figure} ../../../../_shared/media/images/tlfix-sezione.PNG
@@ -1499,7 +1460,7 @@ Fissaggio sul lato
 ```
 (montaggio_staffa)=
 ##### Fissaggio laterale con staffe 
-Nel caso in cui il Toplight venisse fissato con delle staffe: 
+Nel caso in cui il Toplight venisse fissato con delle staffe:
 
 ::::::{error}
 :::::{grid} 2

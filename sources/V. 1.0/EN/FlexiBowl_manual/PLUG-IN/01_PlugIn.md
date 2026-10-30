@@ -1,5 +1,5 @@
-# **[SOF]** Plug-In 
-Communication Plug-ins are essential software tools, developed to standardize and simplify the interface between the FlexiBowl® system and the automation environment (industrial robots). 
+# **Plug-In**
+The Communication Plug-ins are essential software tools, developed to standardize and simplify the interface between the FlexiBowl® system and the automation environment (industrial robots).
 :::{card} ABB
 :class-card: shadow plugin-card-it
 :::

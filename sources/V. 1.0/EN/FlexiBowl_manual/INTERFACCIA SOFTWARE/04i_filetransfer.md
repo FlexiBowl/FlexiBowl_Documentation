@@ -1,8 +1,8 @@
-# [SOF] **File Transfer**
+# **File Transfer**
 
 ## Overview
 
-The **File Transfer** page allows the complete parameter configuration of the FlexiBowl® to be exported and imported, transferring data between the system and a PC. It is the function dedicated to backing up and restoring the operating configuration.
+The **File Transfer** page allows the complete FlexiBowl® parameter configuration to be exported and imported, transferring the data between the system and a PC. It is the function dedicated to backing up and restoring the operating configuration.
 
 ![file transfer page](../../../../_shared/media/images/file_transfer.png)
 
@@ -14,10 +14,10 @@ The **File Transfer** page allows the complete parameter configuration of the Fl
 
 The upper panel, labeled **"Save the Current Parameters, from FlexiBowl® to PC"**, allows all the parameters currently configured in the system to be exported to a file.
 
-By pressing the **DOWNLOAD FILE** button the software generates a configuration file and makes it available for saving on the connected PC.
+When the **DOWNLOAD FILE** button is pressed, the software generates a configuration file and makes it available for saving on the connected PC.
 
 :::{tip}
-Perform a **DOWNLOAD FILE** before any significant change to the operating parameters. The downloaded file is a complete backup of the configuration and allows the previous state to be quickly restored in case of error.
+Perform a **DOWNLOAD FILE** before any significant change to the operating parameters. The downloaded file is a complete backup of the configuration and allows the previous state to be restored quickly in case of error.
 :::
 
 ---
@@ -33,7 +33,7 @@ Loading a configuration file **overwrites all the current parameters** of the sy
 :::
 
 :::{warning}
-Do not switch off the system and do not interrupt the connection during the file transfer. An interruption during the upload could cause an incomplete or corrupted configuration.
+Do not switch off the system and do not interrupt the connection during file transfer. An interruption during the upload could result in an incomplete or corrupted configuration.
 :::
 
 ---
@@ -44,8 +44,8 @@ At the bottom of the page there are three indicator lights (virtual LEDs) that s
 
 | Indicator | Active color | Description |
 |---|---|---|
-| **Active** | 🟡 Yellow ?? | The transfer is in progress |
-| **Successful** | 🟢 Green | The transfer completed correctly |
+| **Active** | 🟡 Yellow | The transfer is in progress |
+| **Successful** | 🟢 Green | The transfer completed successfully |
 | **Error** | 🔴 Red | An error occurred during the transfer |
 
 :::{note}

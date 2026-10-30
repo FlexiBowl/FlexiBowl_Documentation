@@ -1,77 +1,77 @@
 # **Außerbetriebnahme und Entsorgung**
 
 :::{attention}
-Le operazioni di messa fuori servizio e smantellamento devono essere affidate esclusivamente a personale specializzato e autorizzato. 
+Außerbetriebnahme und Demontage müssen ausschließlich spezialisiertem und befugtem Personal übertragen werden.
 :::
 
-In particolare, solo il personale preposto alla fase di smantellamento e allo smaltimento a fine vita può effettuare:
-* **Scollegamento:** Attività di scollegamento meccanico, elettrico e pneumatico dei componenti secondo le istruzioni di smontaggio e gli schemi di progetto.
-* **Logistica e movimentazione:** Attività di trasporto delle parti dalla posizione di installazione al centro di raccolta/smaltimento per la successiva separazione dei materiali.
+Insbesondere darf nur das für die Demontage und die Entsorgung am Lebensende zuständige Personal Folgendes durchführen:
+* **Trennung:** Mechanisches, elektrisches und pneumatisches Trennen der Komponenten gemäß den Demontageanweisungen und Konstruktionsplänen.
+* **Logistik und Handhabung:** Transport der Teile vom Aufstellort zum Sammel-/Entsorgungszentrum zur anschließenden Trennung der Materialien.
 
-### Censimento dei materiali della macchina
+### Bestandsaufnahme der Maschinenmaterialien
 
-Al fine di agevolare le operazioni di riciclo e separazione differenziata, si riportano i principali materiali che compongono la macchina:
+Zur Erleichterung von Recycling und getrennter Sammlung sind nachfolgend die wichtigsten Materialien aufgeführt, aus denen die Maschine besteht:
 
-| Macro-categoria | Tipologia di materiale specifico |
+| Hauptkategorie | Spezifische Materialart |
 | :--- | :--- |
-| **Componenti metallici** | Acciaio ferritico verniciato, plastificato o galvanizzato.<br>Acciaio inox serie 300 / 400. |
-| **Polimeri ed elastomeri** | Materiale plastico in polietilene.<br>Elastomeri, PTFE, grafite. |
-| **Fluidi e lubrificanti** | Olio per ingranaggi.<br>Grasso per la lubrificazione industriale. |
-| **Componenti elettrici / elettronici** | Motori elettrici.<br>Cavi elettrici con relative guaine isolanti.<br>Dispositivi elettronici di controllo, schede e attuatori. |
+| **Metallische Komponenten** | Lackierter, kunststoffbeschichteter oder verzinkter ferritischer Stahl.<br>Edelstahl der Serien 300 / 400. |
+| **Polymere und Elastomere** | Kunststoff aus Polyethylen.<br>Elastomere, PTFE, Graphit. |
+| **Flüssigkeiten und Schmierstoffe** | Getriebeöl.<br>Industrielles Schmierfett. |
+| **Elektrische / elektronische Komponenten** | Elektromotoren.<br>Elektrokabel mit zugehörigen Isoliermänteln.<br>Elektronische Steuerungseinrichtungen, Platinen und Aktoren. |
 
 :::{attention}
-La macchina non contiene componenti o sostanze tossico-nocive intrinseche che necessitino di procedure straordinarie o particolari di neutralizzazione prima dello smantellamento.
+Die Maschine enthält keine von Natur aus giftigen oder schädlichen Bauteile oder Stoffe, die vor der Demontage außerordentliche oder besondere Neutralisierungsverfahren erfordern.
 :::
 
 ---
 
-## Messa Fuori Servizio
+## Außerbetriebnahme
 
-Qualora la macchina non debba essere utilizzata per un lungo periodo di tempo, è necessario procedere alla sua messa in sicurezza e alla predisposizione per l'immagazzinamento.
+Wird die Maschine längere Zeit nicht verwendet, muss sie gesichert und für die Lagerung vorbereitet werden.
 
-#### Procedura di messa fuori servizio
+#### Verfahren zur Außerbetriebnahme
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Scollegare in modo permanente le linee di alimentazione dell'energia elettrica e pneumatica.
+      Trennen Sie die Leitungen der elektrischen und pneumatischen Energieversorgung dauerhaft.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Proteggere le apparecchiature elettriche ed elettroniche particolarmente soggette all'usura del tempo, all'umidità e all'accumulo di polvere mediante coperture idonee.
+      Schützen Sie die elektrischen und elektronischen Geräte, die besonders unter den Auswirkungen von Zeit, Feuchtigkeit und Staubansammlung leiden, mit geeigneten Abdeckungen.
     </div>
   </div>
 </div>
 
 :::{important}
-Per quanto riguarda la messa fuori servizio di moduli, azionamenti o macchine provenienti da fornitori esterni inseriti nell'impianto, si rimanda tassativamente ai manuali dei sub-fornitori allegati alla documentazione tecnica generale.
+Für die Außerbetriebnahme von Modulen, Antrieben oder Maschinen externer Lieferanten, die in die Anlage eingebunden sind, wird zwingend auf die der allgemeinen technischen Dokumentation beigefügten Unterlieferanten-Handbücher verwiesen.
 :::
 
 ---
 
-## Smaltimento e Demolizione
+## Entsorgung und Abbruch
 
-La demolizione finale della macchina deve essere affidata a personale qualificato, ciascuno per la propria area di competenza tecnica (meccanica, elettrica, gestione rifiuti). Quando si intende avviare la macchina allo smaltimento, è obbligatorio procedere preventivamente alla sua totale messa in sicurezza.
+Der endgültige Abbruch der Maschine muss qualifiziertem Personal übertragen werden, jeweils in seinem eigenen technischen Zuständigkeitsbereich (Mechanik, Elektrik, Abfallwirtschaft). Soll die Maschine der Entsorgung zugeführt werden, muss sie zuvor vollständig gesichert werden.
 
 :::{attention}
-Prima di iniziare qualsiasi operazione di smontaggio strutturale, verificare visivamente e strumentalmente la completa disconnessione dall’alimentazione elettrica e dall’alimentazione pneumatica della macchina.
+Prüfen Sie vor Beginn jeglicher struktureller Demontagearbeiten visuell und messtechnisch, dass die Maschine vollständig von der elektrischen und der pneumatischen Energieversorgung getrennt ist.
 :::
 
 :::{attention}
-Per il disassemblaggio di parti commerciali o di materiale di sub-fornitura integrato nella macchina fornita da ARS S.r.l., fare riferimento alle specifiche tecniche contenute nel relativo manuale del costruttore originario.
+Für die Demontage von Handelsteilen oder zugelieferten Materialien, die in die von ARS S.r.l. gelieferte Maschine integriert sind, beachten Sie die technischen Angaben im jeweiligen Handbuch des ursprünglichen Herstellers.
 :::
 
-### Gestione dei rifiuti elettrici ed elettronici (RAEE)
+### Entsorgung von Elektro- und Elektronik-Altgeräten (WEEE)
 
 :::{info} 
-**Direttiva RAEE 2012/19/UE:** Se il componente o l'apparecchiatura acquistata è contrassegnata con il simbolo del cassonetto barrato, significa che il prodotto, alla fine della propria vita utile, non deve essere assimilato ai rifiuti urbani ma deve essere conferito a un centro di raccolta differenziata specializzato.
+**WEEE-Richtlinie 2012/19/EU:** Ist das erworbene Bauteil oder Gerät mit dem Symbol der durchgestrichenen Mülltonne gekennzeichnet, bedeutet dies, dass das Produkt am Ende seiner Lebensdauer nicht dem Hausmüll gleichgestellt, sondern an einer spezialisierten Sammelstelle für getrennte Sammlung abgegeben werden muss.
 :::
 
-#### Obblighi normativi locali
+#### Lokale rechtliche Pflichten
 
 :::{attention}
-È fatto obbligo al Cliente/Utilizzatore la rigorosa osservanza e il rispetto delle leggi e dei decreti vigenti in materia di smaltimento e tutela ambientale nel Paese specifico in cui è installata la macchina.
+Der Kunde/Anwender ist verpflichtet, die im jeweiligen Installationsland der Maschine geltenden Gesetze und Verordnungen zu Entsorgung und Umweltschutz strikt zu beachten und einzuhalten.
 :::

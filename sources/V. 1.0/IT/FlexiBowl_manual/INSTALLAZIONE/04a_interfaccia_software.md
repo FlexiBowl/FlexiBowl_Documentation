@@ -1,5 +1,5 @@
 (fieldbus)=
-# Ethernet/IP, Profinet, Modbus
+# **Ethernet/IP, Profinet, Modbus**
 
 Per **EtherNet/IP**, **Profinet** e **Modbus** le variabili di [Input](#sec-io) e [Output](#sec-io) vengono scambiate come **pacchetto di I/O ciclico**: non esistono messaggi testuali, ogni variabile occupa una posizione fissa nel pacchetto dati.
 
@@ -156,8 +156,8 @@ dove `N` è il numero della sequenza (1–20) e `offset_parametro` identifica il
 | SEQ 20 (N=20) | SpeedMove | 02 | 20 x 100 + 02 | 2002 |
 
 :::{tip}
-La formula è semplice:  
-- Per scrivere la velocità (offset 02) della sequenza 7, la ControlWord è `7 × 100 + 2 = 702`.  
+La formula è semplice:
+- Per scrivere la velocità (offset 02) della sequenza 7, la ControlWord è `7 × 100 + 2 = 702`.
 - Per scrivere il FlipCount (offset 10) della sequenza 15, la ControlWord è `15 × 100 + 10 = 1510`.
 :::
 
@@ -243,7 +243,7 @@ I parametri leggibili sono gli stessi del blocco WRITE, con l'aggiunta dei 10 sl
 | SEQ 20 | Emptying Sequence | 12040 |
 
 :::{tip}
-Formula rapida:  
+Formula rapida:
  Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è `10000 + 12 × 100 + 2 = 11202`.
 :::
 

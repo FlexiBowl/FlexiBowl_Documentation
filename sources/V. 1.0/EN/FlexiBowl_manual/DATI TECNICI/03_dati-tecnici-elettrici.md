@@ -1,5 +1,5 @@
 (dati_elettrici)=
-# [ELE] **Electrical Technical Data**
+# **Electrical Technical Data**
 
 The nominal electrical parameters applicable to all variants of the FlexiBowl® FB 3.0 family are given below.
 
@@ -12,9 +12,9 @@ The nominal electrical parameters applicable to all variants of the FlexiBowl® 
 - **Nominal voltage**: 230 / 120 Vac
 - **Nominal frequency**: 50 Hz / 60 Hz
 
-### Nominal Current Draw
+### Nominal Absorbed Current
 
-The current drawn varies depending on the installed model. This figure is useful for sizing the upstream protection and the power supply cables.
+The absorbed current varies depending on the installed model. The value is useful for sizing the upstream protection and the power supply cables.
 
 :::{list-table}
 :widths: 50 50
@@ -35,9 +35,9 @@ The current drawn varies depending on the installed model. This figure is useful
   - 3.23 A
 :::
 
-### Nominal Installed Power
+### Installed Nominal Power
 
-The nominal power varies depending on the installed model and is the reference figure for sizing the power supply or the electrical panel.
+The nominal power varies depending on the installed model and is the reference value for sizing the power supply or the electrical cabinet.
 
 :::{list-table}
 :widths: 50 50
@@ -64,7 +64,7 @@ The nominal power varies depending on the installed model and is the reference f
 
 ### Fuses (internal)
 
-The power connector is fitted with a holder for **2 fast-acting fuses**, which protect the device against any electrical faults. The nominal values per model are as follows:
+The power connector is equipped with a holder for **2 fast-acting fuses**, which protect the device against possible electrical faults. The nominal values per model are as follows:
 
 :::{list-table}
 :widths: 50 50
@@ -87,7 +87,7 @@ The power connector is fitted with a holder for **2 fast-acting fuses**, which p
 
 ### Residual-Current Circuit Breaker (upstream)
 
-Each FlexiBowl® model requires an upstream residual-current circuit breaker with a **type D trip curve**, sized per model as shown in the table. This protection is the responsibility of the customer's integrator/installation and is separate from the internal fuses described above.
+Each FlexiBowl® model requires an upstream residual-current circuit breaker with **type D tripping curve**, sized per model as indicated in the table. This protection is the responsibility of the integrator/customer's installation and is separate from the internal fuses described above.
 
 :::{list-table}
 :widths: 50 50
@@ -112,14 +112,14 @@ Each FlexiBowl® model requires an upstream residual-current circuit breaker wit
 
 - **Protection class**: Class I
 
-Protection is achieved by basic insulation and by connecting all exposed metal parts to the protective conductor (PE – plant earth). Since this is Class I protection (and not double insulation), the earth connection is an integral part of the device's safety system.
+Protection is achieved through basic insulation and the connection of all metal exposed parts to the protective conductor (PE – system earth). Since this is Class I protection (and not double insulation), the earth connection is an integral part of the device's safety system.
 
 ### Earthing
 
-The device must be connected to the plant earth circuit **before any other operation**.
+The device must be connected to the system earth circuit **before any other operation**.
 
 :::{attention}
-Before switching on the FlexiBowl®, check that the device is correctly earthed to the general plant.
+Before switching on the FlexiBowl®, verify that the device is correctly earthed to the general system.
 :::
 
 ---
@@ -127,15 +127,15 @@ Before switching on the FlexiBowl®, check that the device is correctly earthed 
 ## General Notes and Warnings
 
 :::{attention}
-All connection operations must be carried out with the device switched off and disconnected from the power supply.
+All connection operations must be performed with the device switched off and disconnected from the power supply.
 :::
 
 :::{attention}
-The earth connection is mandatory and must be checked before every power-on.
+The earth connection is mandatory and must be verified before every power-up.
 :::
 
 :::{attention}
-In case of a fault indicated by the red LED (Ready/Fault), refer to the model-specific fault table.
+In case of an anomaly indicated by the red LED (Ready/Fault), refer to the model-specific fault table.
 :::
 
 :::{attention}

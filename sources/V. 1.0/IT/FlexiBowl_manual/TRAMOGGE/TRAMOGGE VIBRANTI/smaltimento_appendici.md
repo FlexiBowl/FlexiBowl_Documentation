@@ -1,7 +1,7 @@
-# [MEC] **Messa Fuori Servizio e Smaltimento**
+# **Messa Fuori Servizio e Smaltimento**
 
 :::{attention}
-Le operazioni di messa fuori servizio e smantellamento devono essere affidate esclusivamente a personale specializzato e autorizzato. 
+Le operazioni di messa fuori servizio e smantellamento devono essere affidate esclusivamente a personale specializzato e autorizzato.
 :::
 
 In particolare, solo il personale preposto alla fase di smantellamento e allo smaltimento a fine vita può effettuare:

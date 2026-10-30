@@ -1,52 +1,62 @@
 (wedge)=
 # **Wedge Diverter**
 
-Il Wedge Diverter consiste in un dosso posizionato a monte dell'area di flip, sotto alla superficie per creare un rialzo che riporta i componenti in una zona in cui il flip possa essere più efficace.
+Le Wedge Diverter consiste en une bosse positionnée en amont de la zone de flip, sous la surface, pour créer un surélévation qui ramène les composants dans une zone où le flip peut être plus efficace.
 
-## Applicazioni consigliate 
+:::{figure} ../../../../_shared/media/images/wedge.PNG
+:width: 100%
+:align: center
+:::
 
-Soluzione da adottare per la movimentazione di componenti delicati che possono rompersi o deformarsi sotto l’azione del flip. È particolarmente indicato per pezzi che rotolano o scivolano facilmente. 
+## Applications recommandées 
 
-## Procedura di montaggio
+Solution à adopter pour la manutention de composants délicats pouvant se casser ou se déformer sous l'action du flip. Elle est particulièrement indiquée pour les pièces qui roulent ou glissent facilement.
+
+## Procédure de montage
 
 :::{warning} Attenzione
-Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il montaggio.
+S'assurer que le FlexiBowl® est **éteint et à l'arrêt** avant de procéder au montage.
+:::
+
+:::{figure} ../../../../_shared/media/images/wedgemount.PNG
+:width: 100%
+:align: center
 :::
 
 ### FB500: 
 
-| Step | Operazione |
+| Étape | Opération |
 |:----:|-----------|
-| 1 | Rimuovere le viti di fissaggio di entrambi i deviatori |
-| 2 | Svitare le viti di regolazione per rimuovere entrambi i deviatori |
-| 3 | Montare la cartuccia tappo al posto del deviatore post-flip |
-| 4 | Montare il gruppo wedge diverter al posto del deviatore pre-flip |
+| 1 | Retirer les vis de fixation des deux déviateurs |
+| 2 | Dévisser les vis de réglage pour retirer les deux déviateurs |
+| 3 | Monter la cartouche bouchon à la place du déviateur post-flip |
+| 4 | Monter l'ensemble wedge diverter à la place du déviateur pré-flip |
 
 ### FB650-800: 
 
-| Step | Operazione |
+| Étape | Opération |
 |:----:|-----------|
-| 1 | Rimuovere le viti di fissaggio di entrambi i deviatori |
-| 2 | Svitare le viti di regolazione per rimuovere entrambi i deviatori |
-| 3 | Assicurandosi che siano presenti i dadi quadri, montare la cartuccia wedge diverter al posto del deviatore pre-flip |
-| 4 | Sostituire il settore di anello a monte del deviatore pre-flip con quello fornito nel kit |
-| 5 | Fissare la parete tramite quattro viti di fissaggio: due viti TCEI M6x120 si fissano in corrispondenza della cartuccia wedge diverter, mentre le due viti TCEI M6x160 si - fissano in corrispondenza del settore di anello appena montato |
+| 1 | Retirer les vis de fixation des deux déviateurs |
+| 2 | Dévisser les vis de réglage pour retirer les deux déviateurs |
+| 3 | En s'assurant que les écrous carrés sont présents, monter la cartouche wedge diverter à la place du déviateur pré-flip |
+| 4 | Remplacer le secteur d'anneau en amont du déviateur pré-flip par celui fourni dans le kit |
+| 5 | Fixer la paroi avec les vis fournies |
 
 ### FB1200: 
 
-| Step | Operazione |
+| Étape | Opération |
 |:----:|-----------|
-| 1 | Rimuovere le viti di fissaggio di entrambi i deviatori |
-| 2 | Svitare le viti di regolazione per rimuovere entrambi i deviatori |
-| 3 | Rimuovere il settore di anello su cui era montato il deviatore pre-flip e sostituirlo con il settore di anello incluso nel kit |
-| 4 | Montare la cartuccia tappo al posto del deviatore post-flip |
-| 5 | Assicurandosi che siano presenti i dadi quadri, montare la cartuccia wedge diverter al posto del deviatore pre-flip |
-| 6 | Fissare la parete tramite quattro viti di fissaggio: due viti TCEI M6x140 si fissano in corrispondenza della cartuccia wedge diverter, mentre le due viti TCEI M6x160 si fissano in corrispondenza del settore di anello appena montato |
+| 1 | Retirer les vis de fixation des deux déviateurs |
+| 2 | Dévisser les vis de réglage pour retirer les deux déviateurs |
+| 3 | Retirer le secteur d'anneau sur lequel était monté le déviateur pré-flip et le remplacer par le secteur d'anneau inclus dans le kit |
+| 4 | Monter la cartouche bouchon à la place du déviateur post-flip |
+| 5 | En s'assurant que les écrous carrés sont présents, monter la cartouche wedge diverter à la place du déviateur pré-flip |
+| 6 | Fixer la paroi avec les vis fournies |
 
-## Procedura di regolazione 
+## Procédure de réglage 
 
-Il wedge diverter non necessita di regolazione 
+Le wedge diverter ne nécessite aucun réglage
 
-## Valutazione del corretto funzionamento 
+## Vérification du bon fonctionnement 
 
-Verificare il corretto scorrimento del disco sul wedge diverter.
+Avant de commencer l'utilisation régulière de l'accessoire, vérifier que le disque glisse correctement sur le wedge diverter.

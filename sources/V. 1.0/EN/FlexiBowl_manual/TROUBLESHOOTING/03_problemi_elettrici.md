@@ -1,1 +1,1 @@
-# **[ELE]** Electrical Troubleshooting
+# **Troubleshooting Electrical Problems**

@@ -1,1 +1,1 @@
-# **Remplacement des automates programmables et des modules**
+# **Remplacement de l'automate et des modules**

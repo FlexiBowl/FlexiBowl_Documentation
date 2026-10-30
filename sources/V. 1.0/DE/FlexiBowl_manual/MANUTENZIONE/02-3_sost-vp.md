@@ -12,80 +12,80 @@
 ::::{list-table}
 :widths: 30 60
 :header-rows: 1
-* - {ref}`Qualifica operatore <operatori>`
-  - {ref}`D.P.I. Necessari <dpi>`
+* - {ref}`Qualifikation des Bedieners <operatori>`
+  - {ref}`Erforderliche PSA <dpi>`
 
-* - **Manutentore meccanico**
+* - **Mechanischer Instandhalter**
   - :::{raw} html
        <div class="ars-img-row">
-         <img src="../../../../_shared/media/images/guanti.png" alt="guanti">
-         <img src="../../../../_shared/media/images/scarpe.png" alt="scarpe">
-         <img src="../../../../_shared/media/images/tuta.png" alt="tuta">
+         <img src="../../../../_shared/media/images/guanti.png" alt="Handschuhe">
+         <img src="../../../../_shared/media/images/scarpe.png" alt="Schuhe">
+         <img src="../../../../_shared/media/images/tuta.png" alt="Overall">
        </div>
     :::
 ::::
 :::::
 
 :::{warning}
-Disconnettere l'alimentazione elettrica e pneumatica prima di procedere con la sostituzione della valvola proporzionale.
+Vor dem Austausch des Proportionalventils die elektrische und pneumatische Versorgung trennen.
 :::
 
 :::{warning}
-Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+Einige von den hier beschriebenen Wartungsarbeiten betroffene Teile können im Betrieb {ref}`hohe Temperaturen <temp>` erreicht haben; den FlexiBowl® ausreichend lange ausgeschaltet lassen, damit alle Teile gefahrlos gehandhabt werden können.
 :::
 
-## Cosa serve?
+## Was wird benötigt?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Gegenstand/Ausrüstung
+  - Menge
 
-* - Chiave esagonale H5
+* - Sechskantschlüssel H5
   - 1
 
-* - Chiave esagonale H4
+* - Sechskantschlüssel H4
   - 1
 
-* - Chiave esagonale H2.5
+* - Sechskantschlüssel H2.5
   - 1
 
-* - Valvola proporzionale sostitutiva
+* - Ersatz-Proportionalventil
   - 1
 
 :::
 
-## Procedimento
+## Vorgehensweise
 
-| Step | Operazione |
+| Schritt | Vorgang |
 |:----:|-----------|
-| 1 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 2 | Rimuovere il gruppo schermo flip |
-| 3 | Rimuovere la piastra di copertura del gruppo flip (usare due delle viti di fissaggio per la rimzozione tramite gli appositi fori filettati) |
-| 4 | Scollegare, rimuovere gli allacciamenti pneumatici e smontare la staffa della valvola proporzionale |
-| 5 | Sostituire la valvola proporzionale danneggiata con quella nuova |
-| 6 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | {ref}`Oberfläche oder starre Scheibe entfernen <sost-disco>` |
+| 2 | Flip-Schirmgruppe entfernen |
+| 3 | Die Abdeckplatte der Flip-Einheit entfernen (zwei der Befestigungsschrauben in die dafür vorgesehenen Gewindebohrungen eindrehen, um sie abzudrücken) |
+| 4 | Die pneumatischen Anschlüsse trennen und entfernen und die Halterung des Proportionalventils ausbauen |
+| 5 | Das beschädigte Proportionalventil durch das neue ersetzen |
+| 6 | Nach Abschluss des Austauschs alle Komponenten wieder montieren |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="sostprop" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000006_cambioprop.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Ihr Browser unterstützt das Video nicht.
   </video>
   <br>
-  <label for="velcamprop">Velocità:</label>
+  <label for="velcamprop">Geschwindigkeit:</label>
   <select id="velcamprop" onchange="document.getElementById('sostprop').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione della valvola proporzionale illustrata su FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Austauschverfahren des Proportionalventils, dargestellt an einem FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-In base alla presenza o meno dei soffi, possono essere presenti una o due valvole proporzionali: la seconda si trova sotto alla piastra opposta a quella che copre il gruppo flip.
+Je nachdem, ob die Blasluftfunktionen vorhanden sind, können ein oder zwei Proportionalventile vorhanden sein: Das zweite befindet sich unter der Platte gegenüber derjenigen, die die Flip-Einheit abdeckt.
 :::

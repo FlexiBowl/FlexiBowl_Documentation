@@ -1,21 +1,21 @@
-# **FlexiBowl Handbuch**
+# **FlexiBowl-Handbuch**
 
 ## **Willkommen im FlexiBowl®-Handbuch!**  
-Wir freuen uns, Sie zu Ihrem neuen FlexiBowl®-Leitfaden willkommen zu heißen!
-Dieses Handbuch wurde eigens als Ihre klare und zuverlässige Referenz erstellt. Wir hoffen, dass Sie durch dessen Konsultation alle Vorteile unseres Systems voll ausschöpfen können.
-Ihr Feedback ist für uns von grundlegender Bedeutung: Zögern Sie nicht, uns Ihre Meinung mitzuteilen, indem Sie uns [kontaktieren](https://www.arsautomation.com/contact)!
+Wir freuen uns, Sie zu Ihrem neuen FlexiBowl®-Leitfaden willkommen zu heißen! Dieses Handbuch wurde eigens dafür erstellt, Ihr klarer und verlässlicher Anlaufpunkt zu sein. Wir hoffen, dass Sie mit seiner Hilfe alle Vorteile unseres Systems voll nutzen können. Ihre Meinung ist uns sehr wichtig: Zögern Sie nicht, uns Ihr Feedback zu geben, indem Sie [uns kontaktieren](https://www.arsautomation.com/contact)!
 
-*- Das ARS Automation Team*    
+*- Das Team von Ars Automation*
 <a href="https://www.arsautomation.com" target="_blank">
-  <img src="../../_shared/static/logo_fv.png" alt="Ars logo" class="only-light img-logo">
-  <img src="../../_shared/static/logo_fv_black.png" alt="Ars logo" class="only-dark img-logo">
+  <img src="../../_shared/static/logo_fv.png" alt="ARS-Logo" class="only-light img-logo">
+  <img src="../../_shared/static/logo_fv_black.png" alt="ARS-Logo" class="only-dark img-logo">
 </a>
   
-## **Was ist der FlexiBowl?**  
-Der FlexiBowl® ist ein flexibles Zuführsystem mit rotierender oder vibrierender Scheibe zur zufälligen Positionierung und Ausrichtung von Bauteilen für die Robotergreifung.
+## **Was ist FlexiBowl?**  
+Der FlexiBowl® ist ein flexibles Zuführsystem mit rotierender Scheibe zur Positionierung und Ausrichtung von Bauteilen für das robotergestützte Greifen.
+
+![Produktfamilie](../../_shared/media/images/famiglia.png)
 
 ## **Systemübersicht** 
-Der Arbeitsbereich des FlexiBowl® ist virtuell in vier Bereiche unterteilt, von denen jeder einer Phase des Arbeitszyklus gewidmet ist:
+Der Arbeitsbereich des FlexiBowl® ist virtuell in vier Teile unterteilt, die jeweils einer Phase des Arbeitszyklus zugeordnet sind:
 
 :::{list-table}
 :widths: 20 50
@@ -24,17 +24,17 @@ Der Arbeitsbereich des FlexiBowl® ist virtuell in vier Bereiche unterteilt, von
 * - Phase
   - Beschreibung
 
-* - **Übergabe**
-  - Eine Zuführeinheit lädt die Bauteile auf den Arbeitsbereich des FlexiBowl®.
+* - **Abgabe**
+  - Ein Hopper gibt die Bauteile auf den Arbeitsbereich des FlexiBowl® ab.
 
 * - **Vereinzelung**
-  - Eine kombinierte Aktion der {ref}`Flip-Einheit <panoramica>` und der Bewegung der Oberfläche oder Hartscheibe vereinzelt die Bauteile und wendet sie, sodass sich stets mindestens eines in der richtigen Greifposition befindet.
+  - Ein kombiniertes Zusammenwirken der {ref}`Flip-Einheit <panoramica>` und der Bewegung der Oberfläche bzw. der starren Scheibe vereinzelt die Bauteile und wendet sie, sodass stets mindestens eines in der richtigen Position zum Greifen liegt.
 
-* - **Entnahme**
-  - Das Bildverarbeitungssystem erkennt greifbare Bauteile und übermittelt deren Koordinaten an den Roboter, der anschließend die Pick-and-Place-Vorgänge durchführt.
+* - **Greifen**
+  - Das Bildverarbeitungssystem erkennt die greifbaren Teile und sendet deren Koordinaten an den Roboter, der die Pick-and-Place-Vorgänge ausführt.
 
 * - **Rückführung**
-  - Nicht entnommene Bauteile beginnen ihren Weg im FlexiBowl® erneut, bis sie vom Roboter gegriffen werden.
+  - Nicht gegriffene Bauteile beginnen ihren Weg im FlexiBowl® erneut, bis sie vom Roboter gegriffen werden.
 
 :::
 
@@ -42,36 +42,35 @@ Der Arbeitsbereich des FlexiBowl® ist virtuell in vier Bereiche unterteilt, von
 :align: center
 :width: 50%
 
-Schematische Darstellung des FlexiBowl®-Systems im Standardbetrieb.
+Beispielschema des FlexiBowl®-Systems im Standardbetrieb.
 :::
 
 :::{note}
-Der {ref}`Flexitracking <tracking>`-Zyklus ist dem herkömmlichen Zyklus im Wesentlichen gleich, mit dem Unterschied, dass alle Phasen gleichzeitig und kontinuierlich ablaufen.
+Der Zyklus {ref}`Circular Tracking <tracking>` entspricht im Wesentlichen dem herkömmlichen, mit dem Unterschied, dass alle Phasen gleichzeitig und fortlaufend stattfinden.
 :::
 
 
 ## **So lesen Sie das Handbuch**  
-Dieses Handbuch wurde entwickelt, um sowohl die Projektierungs- und Systemintegrationsphase als auch die Installation und Inbetriebnahme vor Ort zu unterstützen.
-Aus diesem Grund ist es in Makro-Abschnitte mit unterschiedlichen Zielgruppen und Zielsetzungen unterteilt.
+Dieses Handbuch wurde konzipiert, um sowohl die Phase der Systemplanung und -integration als auch die Phase der Installation und Inbetriebnahme vor Ort zu unterstützen. Aus diesem Grund ist es in Hauptabschnitte mit unterschiedlichen Zielgruppen und Zwecken gegliedert.
   
 ## **Welchen Abschnitt suchen Sie?**  
 ```{list-table}
 :widths: 40 60
 :header-rows: 1
 
-* - Wenn Sie...
-  - Die Information befindet sich in...
+* - Wenn Sie ...
+  - Die Informationen finden Sie in ...
 
-* - Maße, Gewichte, elektrische Anforderungen und Kommunikationsprotokolle prüfen möchten
+* - Abmessungen, Gewichte, elektrische Anforderungen und Kommunikationsprotokolle prüfen möchten
   - [**TECHNISCHE REFERENZ UND SPEZIFIKATIONEN**](specifiche_tecniche)
 
-* - Komponenten installieren, das System verkabeln, das Netzwerk konfigurieren oder Kamera/Roboter kalibrieren möchten
+* - die Komponenten installieren, das System verdrahten, das Netzwerk konfigurieren oder Kamera/Roboter kalibrieren möchten
   - [**SYSTEMINSTALLATION**](Installazione_Meccanica) und [**QUICKSTART**](quickstart)
 
-* - Ein neues Bauteilmodell programmieren oder das Zuführsystem konfigurieren möchten
+* - ein neues Teilemodell programmieren oder das Zuführsystem konfigurieren möchten
   - [**QUICKSTART**](quickstart)
 
-* - Probleme beheben oder Unterstützung anfordern möchten
+* - Probleme lösen oder Unterstützung anfordern möchten
   - [**FEHLERBEHEBUNG**](troubleshooting) und [**SUPPORT**](support)
 ```
 
@@ -87,29 +86,29 @@ Im gesamten Handbuch werden Informationsbanner verwendet, um wichtige Inhalte he
   - Bedeutung
 
 * - ```{warning}
-    Warnung
+    Warnhinweis
     ```
-  - Weist auf eine potenziell gefährliche Situation oder einen kritischen Vorgang hin, der bei falscher Ausführung zu Geräteschäden oder schwerwiegenden Systemstörungen führen könnte.
+  - Weist auf eine potenziell gefährliche Situation oder ein kritisches Verfahren hin, das bei nicht korrekter Ausführung zu Schäden an der Ausrüstung oder zu schwerwiegenden Fehlfunktionen des Systems führen könnte.
 
 * - ```{important}
     Wichtig
     ```
-  - Hebt grundlegende Informationen hervor, die nicht ignoriert werden dürfen, um den ordnungsgemäßen Betrieb des Systems oder die Sicherheit des Vorgangs zu gewährleisten.
+  - Hebt grundlegende Informationen hervor, die nicht ignoriert werden dürfen, um den korrekten Betrieb des Systems oder die Sicherheit des Vorgangs zu gewährleisten.
 
 * - ```{note}
-    Hinweis
+    Informationshinweis
     ```
-  - Liefert wesentliche Informationen für die korrekte Durchführung des Verfahrens, technische Erläuterungen oder Verweise auf verwandte Kapitel.
+  - Liefert wesentliche Informationen für die korrekte Durchführung des Verfahrens, technische Erläuterungen oder Verweise auf zugehörige Kapitel.
 
 * - ```{tip}
     Tipp
     ```
-  - Empfiehlt eine bewährte Vorgehensweise, eine Alternative oder einen Ratschlag, der die Installation vereinfachen oder die Systemleistung verbessern kann.
+  - Schlägt eine optimale Vorgehensweise, eine Alternative oder einen Rat vor, der die Installation vereinfachen oder die Systemleistung verbessern kann.
 
 * - ```{error}
     Fehler
     ```
-  - Weist auf einen kritischen Fehler oder eine Störungsbedingung hin, die sofortiges Eingreifen erfordert. Zeigt Situationen an, die den Systembetrieb beeinträchtigen und Korrekturmaßnahmen erfordern.
+  - Weist auf einen kritischen Fehler oder einen Störungszustand hin, der sofortiges Eingreifen erfordert. Signalisiert Situationen, die den Betrieb des Systems beeinträchtigen und Abhilfemaßnahmen erfordern.
 ```
 
 
@@ -157,6 +156,7 @@ FlexiBowl_manual/INTERFACCIA SOFTWARE/04h_graphs.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04i_filetransfer.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04l_setup.md
 FlexiBowl_manual/INTERFACCIA SOFTWARE/04m_hopper.md
+FlexiBowl_manual/INTERFACCIA SOFTWARE/04n_emptying.md
 :::
 
 :::{toctree}  
@@ -172,7 +172,7 @@ FlexiBowl_manual/QUICKSTART/conf_tramoggia.md
 
 :::{toctree}  
 :hidden:
-:caption: BETRIEBSMODI 
+:caption: BETRIEBSARTEN 
 FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_standard.md
 FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_mix.md
 FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_tracking.md
@@ -180,27 +180,32 @@ FlexiBowl_manual/MODALITA FUNZIONAMENTO/modalita_tracking.md
 
 :::{toctree}  
 :hidden:
-:caption: PLUG-INS 
+:caption: PLUG-IN 
 FlexiBowl_manual/PLUG-IN/01_PlugIn.md
 :::
 
+<!--
 :::{toctree}
 :hidden:
-:caption: LAYOUT BEST PRACTICES
+:caption: LAYOUT BEST PRACTICE
 FlexiBowl_manual/LAYOUT BEST PRACTICE/01_layoutbp.md
 :::
+--> 
 
 :::{toctree}
 :hidden:
 :caption: ZUBEHÖR
 FlexiBowl_manual/ACCESSORI/00_ACCESSORI.md
 FlexiBowl_manual/ACCESSORI/01_SUPERFICI.md
+FlexiBowl_manual/ACCESSORI/02_DISCHI_RIGIDI.md
 FlexiBowl_manual/ACCESSORI/03_04_illuminazione.md
 FlexiBowl_manual/ACCESSORI/05_DEVIATORE.md
 FlexiBowl_manual/ACCESSORI/06_SOFFI.md
 FlexiBowl_manual/ACCESSORI/07_BRUSH_DIVERTER.md
 FlexiBowl_manual/ACCESSORI/08_WEDGE.md
 FlexiBowl_manual/ACCESSORI/09_SVUOTAMENTO.md
+FlexiBowl_manual/ACCESSORI/11_CAVI.md
+FlexiBowl_manual/ACCESSORI/12_KIT_FILTRAGGIO.md
 :::
 
 :::{toctree}  
@@ -216,15 +221,17 @@ FlexiBowl_manual/MANUTENZIONE/02_straordinaria.md
 FlexiBowl_manual/Garanzia.md
 :::
 
+<!--  
 :::{toctree}  
 :hidden:
-:caption: FEHLERBEHEBUNG
+:caption: TROUBLESHOOTING
 FlexiBowl_manual/TROUBLESHOOTING/01_risoluzione-problemi.md
 FlexiBowl_manual/TROUBLESHOOTING/02_problemi_meccanici.md
 FlexiBowl_manual/TROUBLESHOOTING/03_problemi_elettrici.md
 FlexiBowl_manual/TROUBLESHOOTING/04_problemi_pneumatici.md
 FlexiBowl_manual/TROUBLESHOOTING/05_problemi_software.md
 :::
+-->
 
 :::{toctree}  
 :hidden:
@@ -232,18 +239,26 @@ FlexiBowl_manual/TROUBLESHOOTING/05_problemi_software.md
 FlexiBowl_manual/SMALTIMENTO/smaltimento.md
 :::
 
+<!-- 
 :::{toctree}  
 :hidden:
-:caption: ZERTIFIZIERUNGEN 
+:caption: CERTIFICAZIONI 
 FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 :::
+-->
 
 :::{toctree}  
 :hidden:
-:caption: ZUFÜHREINHEITEN
+:caption: HOPPER
 FlexiBowl_manual/TRAMOGGE/TRAMOGGE VIBRANTI/tramogge_vibranti.md
-FlexiBowl_manual/TRAMOGGE/TRAMOGGE A NASTRO/tramogge_nastro.md
+<!--FlexiBowl_manual/TRAMOGGE/MOTORIZZATE/00_MOTORIZZATE.md
+FlexiBowl_manual/TRAMOGGE/CONVEYOR/00_CONVEYOR.md--->
+:::
 
+:::{toctree}
+:hidden:
+:caption: ANHÄNGE
+FlexiBowl_manual/NOTE RILASCIO/release_notes.md
 :::
 
 :::{toctree}
@@ -255,7 +270,3 @@ FlexiBowl_manual/COMPARATIVA/comparativa_elettrica.md
 FlexiBowl_manual/COMPARATIVA/comparativa_pneumatica.md
 FlexiBowl_manual/COMPARATIVA/comparativa_software.md
 :::
-
-
-
-

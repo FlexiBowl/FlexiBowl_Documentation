@@ -1,1 +1,1 @@
-# **Überprüfung der ordnungsgemäßen Funktion der Hintergrundbeleuchtung und der Toplight-Beleuchtung**
+# **Prüfung der korrekten Funktion von Backlight und Toplight**

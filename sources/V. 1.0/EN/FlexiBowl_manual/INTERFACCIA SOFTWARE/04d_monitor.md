@@ -1,4 +1,4 @@
-# [SOF] **Monitor**
+# **Monitor**
 
 ## Overview
 
@@ -9,10 +9,10 @@ The **Monitor** page provides a real-time view of the status of the motor and of
 
 ## STATE MOTOR section
 
-The **STATE MOTOR** panel shows the current operating state of the motor driver through a series of indicator lights (virtual LEDs).     
-Each LED can be:      
-🟢 **Green** : active state     
-⚫ **Gray** : inactive state  
+The **STATE MOTOR** panel shows the current operating state of the motor driver by means of a series of indicator lights (virtual LEDs).
+Each LED can be:
+🟢 **Green** : active state
+⚫ **Grey** : inactive state
 
 ### Status indicators
 
@@ -25,7 +25,7 @@ Each LED can be:
 | **Target Reached** | The FlexiBowl® has reached the target position or setpoint |
 | **Operation Enabled** | The motor is enabled and operational |
 | **Quick Stop Active** | Quick stop of the motor requested |
-| **Fault Reaction Active** | The driver is executing the fault reaction procedure |
+| **Fault Reaction Active** | The driver is carrying out the fault reaction procedure |
 | **Fault** | An active fault is present on the motor driver |
 | **SetPoint in process** | The system is processing or reaching a new position setpoint |
 
@@ -35,21 +35,21 @@ During normal operation, the **Operation Enabled** and **Target Reached** LEDs m
 
 ---
 
-## Sezione Communication State
+## Communication State section
 
-The right side panel shows the status of the communication between the software and the motor driver.
+The right-hand side panel shows the status of the communication between the software and the motor driver.
 
 | Field | Example value | Description |
 |---|---|---|
 | **Communication State** | `RUNNING` | Indicates that communication with the driver is active and working |
 | **Error Code** | `0` | Error code returned by the driver. The value `0` indicates no errors |
 
-### Pulsante Reset Driver
+### Reset Driver button
 
-The **Reset Driver** button resets the motor driver, useful for exiting a fault state or for reinitializing communication.
+The **Reset Driver** button performs a reset of the motor driver, useful to exit a fault state or to reinitialize communication.
 
 :::{warning}
-Press **Reset Driver** only after identifying and resolving the cause of the fault. Performing the reset without having eliminated the cause of the problem could result in the error recurring or in damage to the system.
+Press **Reset Driver** only after identifying and resolving the cause of the fault. Performing the reset without having eliminated the cause of the problem may cause the error to recur or damage the system.
 :::
 
 ---
@@ -62,7 +62,7 @@ The central table records in real time all the events, alarms and system message
 
 | Column | Description |
 |---|---|
-| **Timestamp** | Date and time of the event in the format `DD.MM.YYYY HH:MM:SS` |
+| **Timestamp** | Date and time of the event in the format `GG.MM.AAAA HH:MM:SS` |
 | **Message** | Text description of the event or alarm |
 | **Bitmap** | Icon indicating the type of event (⚠️ warning, ❌ error, etc.) |
 
@@ -77,7 +77,7 @@ The message **"Air pressure does not match the set value"** indicates that the a
 :::
 
 :::{tip}
-Warning messages are displayed in **red** in the Timestamp column and in **orange** in the Message column, to make them immediately recognizable even when there are many rows in the log.
+Warning messages are displayed in **red** in the Timestamp column and in **orange** in the Message column, so that they can be recognized immediately even when the log contains many rows.
 :::
 
 ---
@@ -86,11 +86,11 @@ Warning messages are displayed in **red** in the Timestamp column and in **orang
 
 | Button | Function |
 |---|---|
-| **ACK selected** | Acknowledges the message selected in the table, marking it as taken in charge |
+| **ACK selected** | Acknowledges the selected message in the table, marking it as taken in charge |
 | **ACK all visible** | Acknowledges all the messages currently visible in the table |
 | **History** | Opens the complete history of the events recorded by the system |
-| **Freeze Scrl Pos** | Freezes the automatic scrolling of the table, allowing previous messages to be examined without the view moving to the new events |
+| **Freeze Scrl Pos** | Locks the automatic scrolling of the table, allowing earlier messages to be examined without the view shifting towards new events |
 
 :::{note}
-It is good practice to **ACK** alarms only after having checked and resolved the condition that generated them, not to suppress the notification without taking action.
+It is good practice to **ACK** alarms only after verifying and resolving the condition that generated them, not to suppress the notification without intervening.
 :::

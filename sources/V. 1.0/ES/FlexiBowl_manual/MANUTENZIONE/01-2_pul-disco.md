@@ -1,14 +1,14 @@
 # **Limpieza del disco**
 
 :::{warning}
-Disconnettere l'alimentazione elettrica prima di procedere con la pulizia.
+Desconecte la alimentación eléctrica antes de proceder con la limpieza.
 :::
 
-Per la pulizia della superficie o del disco rigido procedere come segue:
+Para limpiar la superficie o el disco rígido, proceda de la siguiente manera:
 
-| Step | Operazione |
+| Paso | Operación |
 |:----:|-----------|
-| 1 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 2 | Pulire la superficie o disco rigido utilizzando alcool o sgrassatore |
-| 3 | Pulire la superficie dove appoggia la superficie o disco rigido utilizzando dello sgrassatore |
-| 4 | A pulizia terminata, {ref}`rimontare la superficie o disco rigido <sost-disco>` |
+| 1 | {ref}`Retirar la superficie o el disco rígido <sost-disco>` |
+| 2 | Limpie la superficie o el disco rígido con alcohol o desengrasante |
+| 3 | Limpie la zona sobre la que se apoya la superficie o el disco rígido con desengrasante |
+| 4 | Una vez terminada la limpieza, {ref}`vuelva a montar la superficie o el disco rígido <sost-disco>` |

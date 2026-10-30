@@ -1,96 +1,96 @@
 # **Monitor**
 
-## Panoramica
+## Descripción general
 
-La pagina **Monitor** fornisce una visione in tempo reale dello stato del motore e del sistema di comunicazione, e registra tutti gli eventi e gli allarmi generati durante il funzionamento del FlexiBowl®. È la pagina di riferimento per la diagnostica e il troubleshooting.
-![pagina mponitor](../../../../_shared/media/images/monitor.png)
+La página **Monitor** ofrece una vista en tiempo real del estado del motor y del sistema de comunicación, y registra todos los eventos y alarmas generados durante el funcionamiento del FlexiBowl®. Es la página de referencia para el diagnóstico y la resolución de problemas.
+![página monitor](../../../../_shared/media/images/monitor.png)
 
 ---
 
-## Sezione STATE MOTOR
+## Sección STATE MOTOR
 
-Il pannello **STATE MOTOR** mostra lo stato operativo corrente del driver motore tramite una serie di indicatori luminosi (LED virtuali).     
-Ogni LED può essere:      
-🟢 **Verde** : stato attivo     
-⚫ **Grigio** : stato inattivo  
+El panel **STATE MOTOR** muestra el estado operativo actual del driver del motor mediante una serie de indicadores luminosos (LED virtuales).
+Cada LED puede estar:
+🟢 **Verde** : estado activo
+⚫ **Gris** : estado inactivo
 
-### Indicatori di stato
+### Indicadores de estado
 
-| Indicatore | Descrizione |
+| Indicador | Descripción |
 |---|---|
-| **Not Ready To Switch On** | Il driver non è pronto per l'abilitazione  |
-| **Switch On Disabled** | L'abilitazione del motore è bloccata  |
-| **Ready To Switch On** | Il driver è pronto per ricevere il comando di abilitazione |
-| **Switched On** | Il motore è alimentato ma non ancora in controllo attivo |
-| **Target Reached** | Il FlexiBowl® ha raggiunto la posizione o il setpoint di destinazione |
-| **Operation Enabled** | Il motore è abilitato e operativo |
-| **Quick Stop Active** | Arresto rapido del motore richiesto |
-| **Fault Reaction Active** | Il driver sta eseguendo la procedura di reazione a un fault |
-| **Fault** | È presente un fault attivo sul driver motore |
-| **SetPoint in process** | Il sistema sta elaborando o raggiungendo un nuovo setpoint di posizione |
+| **Not Ready To Switch On** | El driver no está listo para la habilitación  |
+| **Switch On Disabled** | La habilitación del motor está bloqueada  |
+| **Ready To Switch On** | El driver está listo para recibir el comando de habilitación |
+| **Switched On** | El motor está alimentado pero todavía no está bajo control activo |
+| **Target Reached** | El FlexiBowl® ha alcanzado la posición o consigna de destino |
+| **Operation Enabled** | El motor está habilitado y operativo |
+| **Quick Stop Active** | Parada rápida del motor solicitada |
+| **Fault Reaction Active** | El driver está ejecutando el procedimiento de reacción a un fallo |
+| **Fault** | Hay un fallo activo en el driver del motor |
+| **SetPoint in process** | El sistema está procesando o alcanzando una nueva consigna de posición |
 
 :::{note}
-Durante il normale funzionamento operativo, i LED **Operation Enabled** e **Target Reached** devono risultare verdi. Qualsiasi altro LED verde indica una condizione anomala che richiede attenzione.
+Durante el funcionamiento normal, los LED **Operation Enabled** y **Target Reached** deben estar en verde. Cualquier otro LED verde indica una condición anómala que requiere atención.
 :::
 
 ---
 
-## Sezione Communication State
+## Sección Communication State
 
-Il pannello laterale destro mostra lo stato della comunicazione tra il software e il driver motore.
+El panel lateral derecho muestra el estado de la comunicación entre el software y el driver del motor.
 
-| Campo | Valore esempio | Descrizione |
+| Campo | Valor de ejemplo | Descripción |
 |---|---|---|
-| **Communication State** | `RUNNING` | Indica che la comunicazione con il driver è attiva e funzionante |
-| **Error Code** | `0` | Codice di errore restituito dal driver. Il valore `0` indica assenza di errori |
+| **Communication State** | `RUNNING` | Indica que la comunicación con el driver está activa y funciona correctamente |
+| **Error Code** | `0` | Código de error devuelto por el driver. El valor `0` indica ausencia de errores |
 
-### Pulsante Reset Driver
+### Botón Reset Driver
 
-Il pulsante **Reset Driver** esegue un reset del driver motore, utile per uscire da uno stato di fault o per reinizializzare la comunicazione.
+El botón **Reset Driver** realiza un reinicio del driver del motor, útil para salir de un estado de fallo o para reinicializar la comunicación.
 
 :::{warning}
-Premere **Reset Driver** solo dopo aver identificato e risolto la causa del fault. Eseguire il reset senza aver eliminato la causa del problema potrebbe comportare la ripetizione dell'errore o danni al sistema.
+Pulsar **Reset Driver** solo después de haber identificado y resuelto la causa del fallo. Realizar el reinicio sin haber eliminado la causa del problema podría provocar la repetición del error o daños en el sistema.
 :::
 
 ---
 
-## Log degli eventi (tabella messaggi)
+## Registro de eventos (tabla de mensajes)
 
-La tabella centrale registra in tempo reale tutti gli eventi, gli allarmi e i messaggi di sistema generati durante il funzionamento.
+La tabla central registra en tiempo real todos los eventos, alarmas y mensajes del sistema generados durante el funcionamiento.
 
-### Colonne della tabella
+### Columnas de la tabla
 
-| Colonna | Descrizione |
+| Columna | Descripción |
 |---|---|
-| **Timestamp** | Data e ora dell'evento nel formato `GG.MM.AAAA HH:MM:SS` |
-| **Message** | Descrizione testuale dell'evento o dell'allarme |
-| **Bitmap** | Icona che indica la tipologia dell'evento (⚠️ warning, ❌ errore, ecc.) |
+| **Timestamp** | Fecha y hora del evento en el formato `GG.MM.AAAA HH:MM:SS` |
+| **Message** | Descripción textual del evento o de la alarma |
+| **Bitmap** | Icono que indica el tipo de evento (⚠️ advertencia, ❌ error, etc.) |
 
-### Esempio di messaggio
+### Ejemplo de mensaje
 
 | # | Timestamp | Message | Bitmap |
 |---|---|---|---|
 | 0 | 14.05.2026 15:59:57 | Air pressure does not match the set value | ⚠️ |
 
 :::{warning}
-Il messaggio **"Air pressure does not match the set value"** indica che la pressione dell'aria rilevata dal sistema non corrisponde al valore impostato nei parametri. Verificare l'alimentazione pneumatica e controllare i valori di **Flip Pressure** e **Blow Pressure** nella pagina **Main Command > OPTION**.
+El mensaje **«Air pressure does not match the set value»** indica que la presión de aire detectada por el sistema no coincide con el valor establecido en los parámetros. Compruebe la alimentación neumática y revise los valores **Flip Pressure** y **Blow Pressure** en la página **Main Command > OPTION**.
 :::
 
 :::{tip}
-I messaggi di warning sono visualizzati in **rosso** nella colonna Timestamp e in **arancione** nella colonna Message, per facilitarne il riconoscimento immediato anche in presenza di molte righe nel log.
+Los mensajes de advertencia se muestran en **rojo** en la columna Timestamp y en **naranja** en la columna Message, para facilitar su reconocimiento inmediato incluso cuando el registro contiene muchas filas.
 :::
 
 ---
 
-## Pulsanti di gestione del log
+## Botones de gestión del registro
 
-| Pulsante | Funzione |
+| Botón | Función |
 |---|---|
-| **ACK selected** | Conferma il messaggio selezionato nella tabella, marcandolo come preso in carico |
-| **ACK all visible** | Conferma tutti i messaggi attualmente visibili nella tabella |
-| **History** | Apre la cronologia completa degli eventi registrati dal sistema |
-| **Freeze Scrl Pos** | Blocca lo scorrimento automatico della tabella, consentendo di esaminare i messaggi precedenti senza che la vista si sposti verso i nuovi eventi |
+| **ACK selected** | Confirma el mensaje seleccionado en la tabla, marcándolo como atendido |
+| **ACK all visible** | Confirma todos los mensajes visibles actualmente en la tabla |
+| **History** | Abre el historial completo de los eventos registrados por el sistema |
+| **Freeze Scrl Pos** | Bloquea el desplazamiento automático de la tabla, permitiendo examinar los mensajes anteriores sin que la vista se desplace hacia los nuevos eventos |
 
 :::{note}
-È buona pratica effettuare l'**ACK** degli allarmi solo dopo aver verificato e risolto la condizione che li ha generati, non per sopprimere la notifica senza intervenire.
+Es una buena práctica realizar el **ACK** de las alarmas solo después de haber verificado y resuelto la condición que las generó, y no para suprimir la notificación sin intervenir.
 :::

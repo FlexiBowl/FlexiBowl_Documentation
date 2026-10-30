@@ -1,114 +1,152 @@
 # **Setup**
-## Panoramica
+## Présentation
 
-La pagina **Setup** raggruppa le impostazioni di rete e di comunicazione del FlexiBowl®. Consente di configurare l'indirizzo IP del dispositivo, il tipo di protocollo di comunicazione con il sistema esterno (es. PLC o PC supervisore) e di monitorare lo stato della connessione in tempo reale.
+La page **Setup** regroupe les paramètres réseau et de communication du FlexiBowl®. Elle permet de configurer l'adresse IP du dispositif, le type de protocole de communication avec le système externe (par ex. automate ou PC superviseur) et de surveiller l'état de la connexion en temps réel.
 
-In alto a destra è indicata la **versione del firmware** installato (nell'esempio: `0.9.7`).  
+En haut à droite est indiquée la **version du firmware** installé (dans l'exemple : `1.0.2`).
 
-![pagina Setup](../../../../_shared/media/images/setup.png)
+![page Setup](../../../../_shared/media/images/setup.png)
 
 ---
 
-## Barra superiore
+## Barre supérieure
 
-| Elemento | Descrizione |
+| Élément | Description |
 |---|---|
-| **USER** | Indica l'utente attualmente connesso all'interfaccia software |
-| **REBOOT** | Riavvia il software del FlexiBowl® senza spegnere il sistema |
-| **Version** | Versione del firmware attualmente installato sul dispositivo |
+| **Menu** (icône ☰) | Ouvre le menu de navigation entre les pages du logiciel |
+| **READY** | Indicateur d'état du dispositif : signale que le FlexiBowl® est prêt à l'emploi |
+| **USER** | Indique l'utilisateur actuellement connecté à l'interface logicielle |
+| **REBOOT** | Redémarre le logiciel du FlexiBowl® sans éteindre le système |
+| **Version** | Version du firmware actuellement installé sur le dispositif |
+| **ENABLE MOTOR** | Active l'alimentation du moteur du FlexiBowl®. Avec le moteur désactivé, le dispositif n'exécute aucun mouvement |
 
 :::{warning}
-Il pulsante **REBOOT** interrompe temporaneamente tutte le operazioni in corso. Non eseguire il reboot durante una sequenza attiva o durante un trasferimento file.
+Le bouton **REBOOT** interrompt temporairement toutes les opérations en cours. Ne pas effectuer de reboot pendant une séquence active ou pendant un transfert de fichier.
+:::
+
+:::{warning}
+Avant d'appuyer sur **ENABLE MOTOR**, s'assurer que la zone autour du FlexiBowl® est dégagée : l'activation du moteur rend le dispositif prêt à se déplacer.
 :::
 
 ---
 
-## Pannello GET IP
+## Panneau GET IP
 
-Il pannello sinistro visualizza i parametri di rete attualmente assegnati al FlexiBowl®.
+Le panneau de gauche affiche les paramètres réseau actuellement attribués au FlexiBowl®.
 
-| Campo | Valore esempio | Descrizione |
+| Champ | Valeur d'exemple | Description |
 |---|---|---|
-| **IP** | 192.168.1.50 | Indirizzo IP corrente del dispositivo |
-| **SUBNET** | 255.255.255.0 | Maschera di sottorete corrente |
-| **MAC** | 00:30:de:68:46:4f | Indirizzo MAC della scheda di rete del dispositivo |
-| **Info** | Done | Esito dell'ultima operazione di lettura |
+| **IP** | 192.168.1.90 | Adresse IP actuelle du dispositif |
+| **SUBNET** | 255.255.255.0 | Masque de sous-réseau actuel |
+| **MAC** | 00:30:de:77:fe:74 | Adresse MAC de la carte réseau du dispositif |
+| **Info** | Done | Résultat de la dernière opération de lecture |
 
-Il pulsante **GET IP** aggiorna i campi leggendo i parametri di rete attualmente configurati sul dispositivo.
+Le bouton **GET IP** met à jour les champs en lisant les paramètres réseau actuellement configurés sur le dispositif.
 
 ---
 
-## Pannello SET IP
+## Panneau SET IP
 
-Il pannello centrale consente di modificare l'indirizzo IP e la maschera di sottorete del FlexiBowl®.
+Le panneau central permet de modifier l'adresse IP et le masque de sous-réseau du FlexiBowl®.
 
-| Campo | Valore esempio | Descrizione |
+| Champ | Valeur d'exemple | Description |
 |---|---|---|
-| **IP** | 192.168.1.50 | Nuovo indirizzo IP da assegnare al dispositivo (inseribile ottetto per ottetto) |
-| **SUBNET** | 255.255.255.0 | Nuova maschera di sottorete da assegnare |
-| **Info** | All Done. | Esito dell'ultima operazione di impostazione |
+| **IP** | 192.168.1.90 | Nouvelle adresse IP à attribuer au dispositif (saisissable octet par octet) |
+| **SUBNET** | 255.255.255.0 | Nouveau masque de sous-réseau à attribuer |
+| **Info** | All Done. | Résultat de la dernière opération de paramétrage |
 
-Il pulsante **SET IP** applica i valori inseriti e li salva nella configurazione di rete del dispositivo.
+Le bouton **SET IP** applique les valeurs saisies et les enregistre dans la configuration réseau du dispositif.
 
 :::{important}
-Dopo aver modificato l'indirizzo IP con **SET IP**, è necessario eseguire un **REBOOT** del sistema affinché le modifiche abbiano effetto. Il software dovrà essere riconnesso al nuovo indirizzo IP.
+Après avoir modifié l'adresse IP avec **SET IP**, il est nécessaire d'effectuer un **REBOOT** du système pour que les modifications prennent effet. Le logiciel devra être reconnecté à la nouvelle adresse IP.
 :::
 
 :::{warning}
-Assicurarsi che il nuovo indirizzo IP non sia già utilizzato da un altro dispositivo nella stessa rete, per evitare conflitti di indirizzo che potrebbero rendere il FlexiBowl® irraggiungibile.
+S'assurer que la nouvelle adresse IP n'est pas déjà utilisée par un autre dispositif sur le même réseau, afin d'éviter des conflits d'adresses qui pourraient rendre le FlexiBowl® injoignable.
 :::
 
 ---
 
-## Pannello SELECT THE COMMUNICATION TYPE
+## Panneau SELECT THE COMMUNICATION TYPE
 
-Il pannello destro consente di configurare il protocollo di comunicazione tra il FlexiBowl® e il sistema esterno (PLC, PC supervisore, sistema di visione).
+Le panneau de droite permet de configurer le protocole de communication entre le FlexiBowl® et le système externe (automate, PC superviseur, système de vision).
 
-| Campo |  Descrizione |
+![panneau de communication](../../../../_shared/media/images/comm_type.png)
+
+| Champ |  Description |
 |---|---|
-| **Tipo di comunicazione** |  Protocollo di comunicazione selezionato. Selezionabile tramite menu a tendina |
-| **Porta** |  Porta TCP su cui il FlexiBowl® è in ascolto come server |
+| **Type de communication** |  Protocole de communication sélectionné. Sélectionnable via le menu déroulant |
+| **Port** |  Port TCP sur lequel le FlexiBowl® est à l'écoute en tant que serveur |
+| **Chaîne de terminaison** | Caractère ou séquence de caractères qui délimite les messages échangés. Sélectionnable via le menu déroulant |
 
-Il pulsante **APPLY** conferma e applica le impostazioni di comunicazione selezionate.
+Le bouton **APPLY** confirme et applique les paramètres de communication sélectionnés.
 
 :::{note}
-La modalità **TCP Server** indica che il FlexiBowl® agisce da server: è il sistema esterno (client) a dover iniziare la connessione verso l'indirizzo IP e la porta configurati.
+Le mode **TCP Server** indique que le FlexiBowl® agit en tant que serveur : c'est le système externe (client) qui doit initier la connexion vers l'adresse IP et le port configurés.
 :::
 
 :::{tip}
-Verificare che la porta configurata (es. 8123) non sia bloccata da firewall sul PC o nella rete aziendale. In caso di problemi di connessione, consultare il responsabile IT.
+Vérifier que le port configuré (par ex. 8123) n'est pas bloqué par un pare-feu sur le PC ou dans le réseau de l'entreprise. En cas de problèmes de connexion, consulter le responsable informatique.
 :::
 
 ---
 
+## Sélection de la chaîne de terminaison
 
-## Pannello di stato della comunicazione
+Le troisième menu déroulant du panneau **SELECT THE COMMUNICATION TYPE** permet de choisir le **terminateur** des messages échangés avec le système externe, c'est-à-dire la séquence de caractères qui signale la fin de chaque commande envoyée et de chaque réponse reçue.
 
-Il pannello inferiore mostra in tempo reale lo stato della connessione tra il FlexiBowl® e il client esterno.
+![menu déroulant de la chaîne de terminaison](../../../../_shared/media/images/tendina_stringa.png)
 
-### Indicatori di stato
-
-| Indicatore | Colore attivo |  Descrizione |
+| Option | Terminateur | Description |
 |---|---|---|
-| **SERVER ONLINE** | 🟢 Verde |  Il server TCP del FlexiBowl® è attivo e in ascolto |
-| **CLIENT CONNECTED** | 🟢 Verde |  Un client esterno è attualmente connesso al server |
-| **CLIENT IP** | — | Indirizzo IP del client attualmente connesso |
+| **% only** | `%` | Uniquement le caractère `%`, sans caractères de fin de ligne |
+| **% + CR** | `%` + `\r` | Caractère `%` suivi d'un Carriage Return (0x0D) |
+| **% + LF** | `%` + `\n` | Caractère `%` suivi d'un Line Feed (0x0A) |
+| **% + CR/LF** | `%` + `\r\n` | Caractère `%` suivi d'un Carriage Return et d'un Line Feed (0x0D 0x0A) |
 
-### Monitor messaggi
+Après avoir sélectionné l'option souhaitée, appuyer sur **APPLY** pour rendre le réglage effectif.
 
-| Campo |  Descrizione |
-|---|---|
-| **Last message received** | Ultimo messaggio ricevuto dal client esterno |
-| **Last message sent** | Ultimo messaggio inviato dal FlexiBowl® al client |
-
-:::{note}
-Il monitor dei messaggi è utile in fase di integrazione e debug della comunicazione con il sistema esterno. I messaggi mostrati seguono il protocollo di comunicazione FlexiBowl®; fare riferimento alla documentazione del protocollo per l'elenco completo dei comandi disponibili.
+:::{important}
+La chaîne de terminaison sélectionnée doit correspondre à celle attendue par le système externe (automate, PC superviseur ou système de vision). Si les deux réglages ne coïncident pas, les commandes envoyées ne sont pas reconnues et la communication échoue, même avec le serveur en ligne et le client connecté.
 :::
 
-### Pulsante RESTART SERVER
+:::{tip}
+Si des commandes semblent envoyées mais restent sans réponse, vérifier dans le panneau d'état le champ **Last message received** : si le message arrive mais ne produit aucun effet, la cause est souvent une chaîne de terminaison erronée.
+:::
 
-Il pulsante **RESTART SERVER** riavvia il servizio TCP del FlexiBowl® senza eseguire un reboot completo del sistema. È utile per ripristinare la connessione in caso di disconnessione inattesa del client o di blocco del server.
+---
+
+## Panneau d'état de la communication
+
+Le panneau inférieur affiche en temps réel l'état de la connexion entre le FlexiBowl® et le client externe.
+
+### Indicateurs d'état
+
+| Indicateur | Couleur active |  Description |
+|---|---|---|
+| **SERVER ONLINE** | 🟢 Vert |  Le serveur TCP du FlexiBowl® est actif et à l'écoute |
+| **CLIENT CONNECTED** | 🟢 Vert |  Un client externe est actuellement connecté au serveur |
+| **CLIENT IP** | — | Adresse IP du client actuellement connecté |
+
+:::{note}
+Lorsqu'un indicateur est gris, la condition correspondante n'est pas vérifiée : dans l'exemple, le serveur est en ligne mais aucun client n'est encore connecté.
+:::
+
+### Moniteur de messages
+
+| Champ |  Description |
+|---|---|
+| **Last message received** | Dernier message reçu du client externe |
+| **Last message sent** | Dernier message envoyé par le FlexiBowl® au client |
+
+:::{note}
+Le moniteur de messages est utile lors de l'intégration et du débogage de la communication avec le système externe. Les messages affichés suivent le protocole de communication du FlexiBowl® ; se référer à la documentation du protocole pour la liste complète des commandes disponibles.
+:::
+
+### Bouton RESTART SERVER
+
+Le bouton **RESTART SERVER** redémarre le service TCP du FlexiBowl® sans effectuer un reboot complet du système. Il est utile pour rétablir la connexion en cas de déconnexion inattendue du client ou de blocage du serveur.
 
 :::{warning}
-**RESTART SERVER** interrompe la connessione TCP corrente. Se il FlexiBowl® è in esecuzione di una sequenza controllata da remoto, questa verrà interrotta. Utilizzare questa funzione solo quando il sistema è in stato di stand-by.
+**RESTART SERVER** interrompt la connexion TCP en cours. Si le FlexiBowl® exécute une séquence commandée à distance, celle-ci sera interrompue. Utiliser cette fonction uniquement lorsque le système est en veille.
 :::

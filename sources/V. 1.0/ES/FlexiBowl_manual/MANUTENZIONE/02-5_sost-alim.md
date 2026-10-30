@@ -1,1 +1,1 @@
-# **Sustitución de fuentes de alimentación**
+# **Sustitución de las fuentes de alimentación**

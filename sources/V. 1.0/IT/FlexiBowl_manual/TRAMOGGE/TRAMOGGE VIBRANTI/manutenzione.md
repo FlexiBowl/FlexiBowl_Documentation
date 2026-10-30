@@ -1,4 +1,4 @@
-# [MEC] **Manutenzione e Risoluzione Problemi**
+# **Manutenzione e Risoluzione Problemi**
 
 :::{warning}
 Eseguire le operazioni di manutenzione quando la macchina è spenta.
@@ -122,7 +122,7 @@ La manutenzione della macchina comprende gli interventi (ispezione, verifica, co
 
 </div>
 
-Il personale addetto deve essere ben addestrato e avere un'approfondita conoscenza delle norme antinfortunistiche. Il personale non autorizzato deve rimanere all'esterno dell'area di lavoro durante le operazioni. 
+Il personale addetto deve essere ben addestrato e avere un'approfondita conoscenza delle norme antinfortunistiche. Il personale non autorizzato deve rimanere all'esterno dell'area di lavoro durante le operazioni.
 
 Le attività di pulizia e regolazione vengono effettuate solo ed esclusivamente in fase di manutenzione, a macchina ferma, de-energizzata e con quadro elettrico sezionato.
 
@@ -131,8 +131,7 @@ In caso di dubbi è vietato operare. Interpellare il Costruttore per i necessari
 :::
 
 :::{attention}
-Gli interventi di riparazione o di manutenzione non contenuti nel presente manuale possono essere eseguiti soltanto previa autorizzazione di ARS S.r.l.
-Nessuna responsabilità relativa a danni a persone o cose può essere attribuita a ARS S.r.l. per interventi diversi da quelli descritti od eseguiti con modalità diverse da quelle indicate.
+Gli interventi di riparazione o di manutenzione non contenuti nel presente manuale possono essere eseguiti soltanto previa autorizzazione di ARS S.r.l. Nessuna responsabilità relativa a danni a persone o cose può essere attribuita a ARS S.r.l. per interventi diversi da quelli descritti od eseguiti con modalità diverse da quelle indicate.
 :::
 
 ### Classificazione operativa delle manutenzioni
@@ -190,7 +189,7 @@ Quando la macchina è in manutenzione, per evitare che questa possa essere messa
 
 ## Manutenzione Ordinaria 
 
-La manutenzione ordinaria tiene sotto controllo le condizioni meccaniche e la pulizia della macchina. Le periodicità indicate si riferiscono a condizioni di funzionamento normali. 
+La manutenzione ordinaria tiene sotto controllo le condizioni meccaniche e la pulizia della macchina. Le periodicità indicate si riferiscono a condizioni di funzionamento normali.
 
 :::{important}
 Per quanto riguarda la manutenzione ordinaria delle macchine provenienti da fornitori esterni, si rimanda ai manuali dei sub-fornitori allegati.

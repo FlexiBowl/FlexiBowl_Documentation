@@ -1,1 +1,1 @@
-# **[ELE]** Risoluzione Problemi Elettrici
+# **Risoluzione Problemi Elettrici**

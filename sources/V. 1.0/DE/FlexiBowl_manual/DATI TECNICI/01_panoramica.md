@@ -1,9 +1,9 @@
 (panoramica)=
-# **Übersicht und Unboxing**
+# **Übersicht und Auspacken**
 
-## Componenti principali del FlexiBowl®
+## Hauptkomponenten des FlexiBowl®
 
-Il FlexiBowl® è composto dalle seguenti parti fondamentali:
+Der FlexiBowl® besteht aus den folgenden Hauptteilen:
 
 :::{raw} html
 <style>
@@ -57,13 +57,13 @@ Il FlexiBowl® è composto dalle seguenti parti fondamentali:
 <div class="fb-panel" id="fb-panel-fb650">
   <div class="fb-wrap">
     <div class="fb-img-outer">
-      <img class="fb-img-base" id="fb650-img-base" src="../../../../_shared/media/images/component_default.PNG" alt="Vista FlexiBowl® 650" />
+      <img class="fb-img-base" id="fb650-img-base" src="../../../../_shared/media/images/component_default.PNG" alt="Ansicht FlexiBowl® 650" />
       <img class="fb-img-hl"   id="fb650-img-hl"   src="" alt="" aria-hidden="true" />
       <div class="fb-badge" id="fb650-badge"></div>
-      <div class="fb-hint"  id="fb650-hint">Seleziona un componente dalla lista</div>
+      <div class="fb-hint"  id="fb650-hint">Eine Komponente aus der Liste auswählen</div>
     </div>
     <div class="fb-list-panel">
-      <div class="fb-list-head"><span>N.</span><span>Componente</span><span>Descrizione</span></div>
+      <div class="fb-list-head"><span>Nr.</span><span>Komponente</span><span>Beschreibung</span></div>
       <div id="fb650-list"></div>
     </div>
   </div>
@@ -73,13 +73,13 @@ Il FlexiBowl® è composto dalle seguenti parti fondamentali:
 <div class="fb-panel" id="fb-panel-fb350">
   <div class="fb-wrap">
     <div class="fb-img-outer">
-      <img class="fb-img-base" id="fb350-img-base" src="../../../../_shared/media/images/FB350-0.PNG" alt="Vista FlexiBowl® 350" />
+      <img class="fb-img-base" id="fb350-img-base" src="../../../../_shared/media/images/FB350-0.PNG" alt="Ansicht FlexiBowl® 350" />
       <img class="fb-img-hl"   id="fb350-img-hl"   src="" alt="" aria-hidden="true" />
       <div class="fb-badge" id="fb350-badge"></div>
-      <div class="fb-hint"  id="fb350-hint">Seleziona un componente dalla lista</div>
+      <div class="fb-hint"  id="fb350-hint">Eine Komponente aus der Liste auswählen</div>
     </div>
     <div class="fb-list-panel">
-      <div class="fb-list-head"><span>N.</span><span>Componente</span><span>Descrizione</span></div>
+      <div class="fb-list-head"><span>Nr.</span><span>Komponente</span><span>Beschreibung</span></div>
       <div id="fb350-list"></div>
     </div>
   </div>
@@ -89,13 +89,13 @@ Il FlexiBowl® è composto dalle seguenti parti fondamentali:
 <div class="fb-panel on" id="fb-panel-fb200">
   <div class="fb-wrap">
     <div class="fb-img-outer">
-      <img class="fb-img-base" id="fb200-img-base" src="../../../../_shared/media/images/FB200-0.PNG" alt="Vista FlexiBowl® 200" />
+      <img class="fb-img-base" id="fb200-img-base" src="../../../../_shared/media/images/FB200-0.PNG" alt="Ansicht FlexiBowl® 200" />
       <img class="fb-img-hl"   id="fb200-img-hl"   src="" alt="" aria-hidden="true" />
       <div class="fb-badge" id="fb200-badge"></div>
-      <div class="fb-hint"  id="fb200-hint">Seleziona un componente dalla lista</div>
+      <div class="fb-hint"  id="fb200-hint">Eine Komponente aus der Liste auswählen</div>
     </div>
     <div class="fb-list-panel">
-      <div class="fb-list-head"><span>N.</span><span>Componente</span><span>Descrizione</span></div>
+      <div class="fb-list-head"><span>Nr.</span><span>Komponente</span><span>Beschreibung</span></div>
       <div id="fb200-list"></div>
     </div>
   </div>
@@ -111,19 +111,18 @@ Il FlexiBowl® è composto dalle seguenti parti fondamentali:
       imgDefault: '../../../../_shared/media/images/component_default.PNG',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'Cavi',                       desc:'Collegamenti elettrici tra le varie parti funzionali del FlexiBowl\u00ae.'},
-        {n:2,  name:'Gruppo pneumatico',           desc:'Alimentano il gruppo flip e gli eventuali soffi.'},
-        {n:3,  name:'Gruppo motore',               desc:'Consente la rotazione della superficie o disco rigido.'},
-        {n:4,  name:'Anello di contenimento',      desc:'Composto da diversi settori, impedisce la fuoriuscita dei pezzi durante il funzionamento. Contiene anche i deviatori in assenza di accessori.'},
-        {n:5,  name:'Backlight',                   desc:'Retroillumina l\u2019area di visione per evidenziare i contorni dei pezzi.'},
-        {n:6,  name:'Schermo flip',                desc:'Impedisce la fuoriuscita dei pezzi durante il ribaltamento.'},
-        {n:7,  name:'Carter',                      desc:'Contiene e protegge gli elementi interni. Protegge l\u2019utente da esposizioni a voltaggio elettrico e componenti in movimento.'},
-        {n:8,  name:'Gruppo flip',                 desc:'Percussore azionato da semi slitta pneumatica (350\u20131200) o cilindro pneumatico (200). Genera un impulso per far ribaltare gli oggetti prima della finestra di visione.'},
-        {n:9,  name:'Telaio',                      desc:'\u00c8 la struttura portante del FlexiBowl\u00ae.'},
-        {n:10, name:'Gruppo elettronico',          desc:'Comprende tutta l\u2019elettronica di comando del FlexiBowl\u00ae.'},
-        {n:11, name:'Pannello connettori',         desc:'Comprende tutti gli allacciamenti elettrici e pneumatici.'},
-        {n:12, name:'Supporto superficie / disco', desc:'Tiene la superficie o disco rigido saldamente fissati al gruppo motore.'},
-        {n:13, name:'Piastre di copertura',        desc:'Consentono un facile accesso ai componenti interni per la manutenzione.'}
+//        {n:1,  name:'Pneumatikeinheit',           desc:'Sie versorgen die Flip-Einheit und eventuelle Blasdüsen.'},
+//        {n:2,  name:'Motoreinheit',               desc:'Ermöglicht die Rotation der Oberfläche bzw. der starren Scheibe.'},
+        {img:3,  name:'Haltering',      desc:'Besteht aus mehreren Segmenten und verhindert, dass Teile während des Betriebs herausfallen. Enthält auch die Abweiser, wenn kein Zubehör montiert ist.'},
+//        {img:4,  name:'Backlight',                   desc:'Beleuchtet den Sichtbereich von hinten, um die Konturen der Teile hervorzuheben.'},
+        {img:5,  name:'Flip-Schirm',                desc:'Verhindert, dass Teile beim Wenden herausfallen.'},
+        {img:6,  name:'Gehäuse',                      desc:'Umschließt und schützt die internen Elemente. Schützt den Benutzer vor elektrischer Spannung und beweglichen Teilen.'},
+//        {img:7,  name:'Flip-Einheit',                 desc:'Schlagelement, angetrieben von einem pneumatischen Mini-Schlitten (350–1200) oder einem Pneumatikzylinder (200). Erzeugt einen Impuls, der die Objekte vor dem Sichtfenster wendet.'},
+//        {n:8,  name:'Rahmen',                      desc:'Es ist die tragende Struktur des FlexiBowl®.'},
+//        {n:9, name:'Elektronikeinheit',          desc:'Enthält die gesamte Steuerelektronik des FlexiBowl®.'},
+//        {n:10, name:'Anschlussfeld',         desc:'Enthält alle elektrischen und pneumatischen Anschlüsse.'},
+        {img:11, name:'Halterung Oberfläche / Scheibe', desc:'Hält die Oberfläche bzw. die starre Scheibe fest mit der Motoreinheit verbunden.'},
+//        {n:12, name:'Abdeckplatten',        desc:'Ermöglichen einen einfachen Zugang zu den internen Komponenten für Wartungsarbeiten.'}
       ]
     },
     fb350: {
@@ -131,17 +130,17 @@ Il FlexiBowl® è composto dalle seguenti parti fondamentali:
       imgDefault: '../../../../_shared/media/images/FB350-0.PNG',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'Cavi e prolunghe',  desc:'Sono i collegamenti elettronici tra i vari componenti interni del FlexiBowl\u00ae.'},
-        {n:2,  name:'Gruppo pneumatico', desc:'Alimenta il gruppo flip e i soffi.'},
-        {n:3,  name:'Gruppo motore',     desc:'Consente la rotazione del disco rigido.'},
-        {n:4,  name:'Disco',             desc:'<a href="../ACCESSORI/02_DISCHI_RIGIDI.html">Vedi paragrafo dedicato</a>.'},
-        {n:5,  name:'Backlight',         desc:'Retroillumina l\u2019area di visione per evidenziare i contorni dei pezzi.'},
-        {n:6,  name:'Schermo flip',      desc:'Impedisce la fuoriuscita dei pezzi durante il ribaltamento. Comprende anche i <a href="../ACCESSORI/05_DEVIATORE.html">deviatori</a> e i <a href="../ACCESSORI/06-4_INTEGRATI.html">soffi</a>.'},
-        {n:7,  name:'Carter',            desc:'Contiene e protegge gli elementi interni. Protegge l\u2019utente da esposizioni a voltaggio elettrico e componenti in movimento.'},
-        {n:8,  name:'Gruppo flip',       desc:'Percussore azionato da cilindro pneumatico (200). Genera un impulso per far ribaltare gli oggetti prima della finestra di visione.'},
-        {n:9,  name:'Telaio',            desc:'\u00c8 la struttura portante del FlexiBowl\u00ae.'},
-        {n:10, name:'Supporto disco',    desc:'Tiene il disco rigido saldamente fissati al gruppo motore.'},
-        {n:11, name:'Rack',              desc:'Contiene tutta l\u2019elettronica del FlexiBowl\u00ae.'}
+        {img:1,  name:'Kabel und Verlängerungen',  desc:'Sie sind die elektronischen Verbindungen zwischen den verschiedenen internen Komponenten des FlexiBowl®.'},
+//        {n:2,  name:'Pneumatikeinheit', desc:'Versorgt die Flip-Einheit und die Blasdüsen.'},
+//        {n:3,  name:'Motoreinheit',     desc:'Ermöglicht die Rotation der starren Scheibe.'},
+        {img:4,  name:'Scheibe',             desc:'<a href="../ACCESSORI/02_DISCHI_RIGIDI.html">Siehe eigenen Abschnitt</a>.'},
+//        {n:5,  name:'Backlight',         desc:'Beleuchtet den Sichtbereich von hinten, um die Konturen der Teile hervorzuheben.'},
+        {img:6,  name:'Flip-Schirm',      desc:'Verhindert, dass Teile beim Wenden herausfallen. Enthält auch die <a href="../ACCESSORI/06-4_INTEGRATI.html">Blasdüsen</a>.'},
+        {img:7,  name:'Gehäuse',            desc:'Umschließt und schützt die internen Elemente. Schützt den Benutzer vor elektrischer Spannung und beweglichen Teilen.'},
+//        {n:8,  name:'Flip-Einheit',       desc:'Schlagelement, angetrieben von einem Pneumatikzylinder (200). Erzeugt einen Impuls, der die Objekte vor dem Sichtfenster wendet.'},
+//        {n:9,  name:'Rahmen',            desc:'Es ist die tragende Struktur des FlexiBowl®.'},
+        {img:10, name:'Scheibenhalterung',    desc:'Hält die starre Scheibe fest mit der Motoreinheit verbunden.'},
+        {img:11, name:'Rack',              desc:'Enthält die gesamte Elektronik des FlexiBowl®.'}
       ]
     },
     fb200: {
@@ -149,19 +148,26 @@ Il FlexiBowl® è composto dalle seguenti parti fondamentali:
       imgDefault: '../../../../_shared/media/images/FB200-0.PNG',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'Cavi e prolunghe',  desc:'Sono i collegamenti elettronici tra i vari componenti interni del FlexiBowl\u00ae.'},
-        {n:2,  name:'Gruppo pneumatico', desc:'Alimenta il gruppo flip e i soffi.'},
-        {n:3,  name:'Gruppo motore',     desc:'Consente la rotazione del disco rigido.'},
-        {n:4,  name:'Disco',             desc:'<a href="../ACCESSORI/02_DISCHI_RIGIDI.html">Vedi paragrafo dedicato</a>.'},
-        {n:5,  name:'Backlight',         desc:'Retroillumina l\u2019area di visione per evidenziare i contorni dei pezzi.'},
-        {n:6,  name:'Schermo flip',      desc:'Impedisce la fuoriuscita dei pezzi durante il ribaltamento. Comprende anche i <a href="../ACCESSORI/06-4_INTEGRATI.html">soffi</a>.'},
-        {n:7,  name:'Carter',            desc:'Contiene e protegge gli elementi interni. Protegge l\u2019utente da esposizioni a voltaggio elettrico e componenti in movimento.'},
-        {n:8,  name:'Gruppo flip',       desc:'Percussore azionato da cilindro pneumatico (200). Genera un impulso per far ribaltare gli oggetti prima della finestra di visione.'},
-        {n:9,  name:'Telaio',            desc:'\u00c8 la struttura portante del FlexiBowl\u00ae.'},
-        {n:10, name:'Rack',              desc:'Contiene tutta l\u2019elettronica del FlexiBowl\u00ae.'}
+        {img:1,  name:'Kabel und Verlängerungen',  desc:'Sie sind die elektronischen Verbindungen zwischen den verschiedenen internen Komponenten des FlexiBowl®.'},
+//        {n:2,  name:'Pneumatikeinheit', desc:'Versorgt die Flip-Einheit und die Blasdüsen.'},
+//        {n:3,  name:'Motoreinheit',     desc:'Ermöglicht die Rotation der starren Scheibe.'},
+        {img:4,  name:'Scheibe',             desc:'<a href="../ACCESSORI/02_DISCHI_RIGIDI.html">Siehe eigenen Abschnitt</a>.'},
+//        {n:5,  name:'Backlight',         desc:'Beleuchtet den Sichtbereich von hinten, um die Konturen der Teile hervorzuheben.'},
+        {img:6,  name:'Flip-Schirm',      desc:'Verhindert, dass Teile beim Wenden herausfallen. Enthält auch die <a href="../ACCESSORI/06-4_INTEGRATI.html">Blasdüsen</a>.'},
+        {img:7,  name:'Gehäuse',            desc:'Umschließt und schützt die internen Elemente. Schützt den Benutzer vor elektrischer Spannung und beweglichen Teilen.'},
+//        {n:8,  name:'Flip-Einheit',       desc:'Schlagelement, angetrieben von einem Pneumatikzylinder (200). Erzeugt einen Impuls, der die Objekte vor dem Sichtfenster wendet.'},
+//        {n:9,  name:'Rahmen',            desc:'Es ist die tragende Struktur des FlexiBowl®.'},
+        {img:10, name:'Rack',              desc:'Enthält die gesamte Elektronik des FlexiBowl®.'}
       ]
     }
   };
+
+  Object.keys(models).forEach(function(id){
+  models[id].comps.forEach(function(c, i){
+    if (c.img === undefined) c.img = c.n;
+    c.n = i + 1;
+  });
+});
 
   /* ── stato per modello ── */
   var state = {};
@@ -210,7 +216,7 @@ Il FlexiBowl® è composto dalle seguenti parti fondamentali:
       imgBase.style.opacity = '1';
       imgHl.style.opacity = '0';
     };
-    newImg.src = m.imgPath + c.n + m.imgExt;
+    newImg.src = m.imgPath + c.img + m.imgExt;   // <-- c.img, non c.n
   }
 
   /* ── reset ── */
@@ -248,4 +254,107 @@ Il FlexiBowl® è composto dalle seguenti parti fondamentali:
 </script>
 :::
 
-## What is in the box?
+## Was ist im Lieferumfang enthalten?
+
+
+Dieser Abschnitt beschreibt den Inhalt der Verpackung des **FlexiBowl® 3.0** und die mit der Einheit gelieferten Standardkomponenten.
+
+:::{important}
+Vor der Installation prüfen, ob alle in diesem Abschnitt aufgeführten Komponenten in der Verpackung vorhanden sind. Bei fehlenden oder beschädigten Komponenten den [Technischen Support](support) kontaktieren, bevor das Gerät in Betrieb genommen wird.
+:::
+
+---
+
+### 1. Verpackungsinhalt
+
+In der Verpackung befinden sich der **FlexiBowl®** und alle Standard-Anschlussadapter:
+
+```{list-table}
+:header-rows: 1
+:widths: 22 58 20
+
+* - Komponente
+  - Beschreibung
+  - Bild
+* - **Stromversorgungsstecker**
+  - Mit Verriegelungsclip ausgestattet, der ein versehentliches Lösen verhindert
+  - :::{image} ../../../../_shared/media/images/connettore_power.png
+    :width: 100%
+    :::
+* - **10-poliges Steckerkabel**
+  - Führt die 24-Vdc-Versorgung und die beiden Safe-Torque-Off-Kanäle (STO)
+  - :::{image} ../../../../_shared/media/images/connettore_STO.png
+    :width: 100%
+    :::
+* - **M12-D-kodierter Stecker**
+  - Dient der Ethernet-Kommunikation zwischen dem FlexiBowl® und dem System
+  - :::{image} ../../../../_shared/media/images/connettore_ethernet.png
+    :width: 100%
+    :::
+* - **M12-A-kodierter Stecker**
+  - Dient der Modbus-RTU-Kommunikation mit der Steuerung des Bulk Feeders
+  - :::{image} ../../../../_shared/media/images/connettore_hopper.png
+    :width: 100%
+    :::
+* - **USB-Stick**
+  - Enthält die Handbücher der Einheit und den zugehörigen individuellen Prüfbericht (Test Report)
+  - —
+```
+:::{note}
+Die Verbindungskabel sind separat als Option in 3, 5 oder 10 Metern erhältlich: siehe {ref}`Verbindungskabel <cavi>`.
+:::
+
+---
+
+### 2. Zusätzliche Komponenten je Baugröße
+
+
+```{list-table}
+:header-rows: 1
+:widths: 20 20 60
+
+* - Modell
+  - Bild
+  - Zusätzliche Ausstattung
+* - **FlexiBowl® 200 / 350**
+  - :::{image} ../../../../_shared/media/images/FB350.png
+    :width: 100%
+    :::
+  - Enthält außerdem das **Rack** und die zugehörigen **Verbindungskabel**, die für die externe Elektronik erforderlich sind. Die mitgelieferten 3 m langen Kabel ermöglichen alle Verbindungen zwischen Rack und FlexiBowl®. Optional sind sie in 5/10 Metern erhältlich ({ref}`siehe Rack-Kabel <cavo-rack>`).
+    :::{image} ../../../../_shared/media/images/rack.png
+    :width: 100%
+    :::
+* - **FlexiBowl® 500 und größer**
+  - :::{image} ../../../../_shared/media/images/FB650.png
+    :width: 100%
+    :::
+  - Benötigen kein externes Anschluss-Rack: Die Elektronik ist direkt in die Einheit integriert
+```
+
+
+#### Anschlussfeld des Racks (FlexiBowl® 200 / 350)
+
+```{image} ../../../../_shared/media/images/rack.png
+:alt: Anschlussfeld des Racks
+:width: 80%
+:align: center
+```
+
+Das rückseitige Feld des Racks fasst alle im vorherigen Absatz beschriebenen Anschlusspunkte zusammen: Spannungsversorgung (**POWER SUPPLY**), Safe Torque Off (**STO**), Motor (**MOTOR**), Ethernet zum System (**C-ETH IN**) und zum FlexiBowl® (**C-ETH FB**), Bulk Feeder (**HOPPER**) und Encodersignale (**C-A SIGNAL**, **C-B SIGNAL**).
+
+:::{note}
+Einzelheiten zur Positionierung und zum Anschluss des Racks finden Sie im Abschnitt [Mechanische Installation](mech_install).
+:::
+
+
+---
+
+### 3. Mitgelieferte Dokumentation
+
+Der mitgelieferte USB-Stick enthält:
+
+- Die **Handbücher** der Einheit (Offline-Version der Dokumentation)
+- Der individuelle **Prüfbericht** (Test Report) des erworbenen FlexiBowl®
+
+
+

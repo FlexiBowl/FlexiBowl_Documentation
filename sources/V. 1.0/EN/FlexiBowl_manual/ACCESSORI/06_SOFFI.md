@@ -1,7 +1,7 @@
 (blow)=
-# [MEC] **Blows**
+# **Blows**
 
-Blows act on the components through a jet of pressurized air that sorts them and moves them away from the limits of the vision area. They can be of several types, depending on the Operator's needs.
+The blows act on the components through a jet of pressurized air that sorts them and moves them away from the limits of the vision area. There are several types, depending on the operator's needs.
 
 :::::{grid} 1
 :gutter: 2
@@ -26,7 +26,7 @@ Blows act on the components through a jet of pressurized air that sorts them and
 
 ::::
 
-::::{grid-item-card} Blows integrated in the screen (FlexiBowl® 200-350)
+::::{grid-item-card} Blows integrated into the screen (FlexiBowl® 200-350)
 :link: 06-3_INTEGRATI
 :link-type: doc
 

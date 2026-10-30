@@ -1,5 +1,5 @@
 (sostbl)=
-# **Austausch der Hintergrundbeleuchtung**
+# **Austausch des Backlight**
 
 :::::{important}
 
@@ -13,81 +13,81 @@
 ::::{list-table}
 :widths: 30 60
 :header-rows: 1
-* - {ref}`Qualifica operatore <operatori>`
-  - {ref}`D.P.I. Necessari <dpi>`
+* - {ref}`Qualifikation des Bedieners <operatori>`
+  - {ref}`Erforderliche PSA <dpi>`
 
-* - **Manutentore meccanico**
+* - **Mechanischer Instandhalter**
   - :::{raw} html
        <div class="ars-img-row">
-         <img src="../../../../_shared/media/images/guanti.png" alt="guanti">
-         <img src="../../../../_shared/media/images/scarpe.png" alt="scarpe">
-         <img src="../../../../_shared/media/images/tuta.png" alt="tuta">
+         <img src="../../../../_shared/media/images/guanti.png" alt="Handschuhe">
+         <img src="../../../../_shared/media/images/scarpe.png" alt="Schuhe">
+         <img src="../../../../_shared/media/images/tuta.png" alt="Overall">
        </div>
     :::
 ::::
 :::::
 
-Il backlight va sostituito qualora presentasse dei malfunzionamenti o ci fosse necessità di cambiare il tipo di luce in seguito a un cambiamento di produzione.
+Das Backlight ist auszutauschen, wenn es Fehlfunktionen aufweist oder wenn nach einem Produktionswechsel die Lichtart geändert werden muss.
 
 :::{warning}
-Disconnettere l'alimentazione elettrica prima di procedere con la sostituzione del Backlight.
+Vor dem Austausch des Backlight die elektrische Stromversorgung trennen.
 :::
 
 :::{warning}
-Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+Einige von den hier beschriebenen Wartungsarbeiten betroffene Teile können im Betrieb {ref}`hohe Temperaturen <temp>` erreicht haben; den FlexiBowl® ausreichend lange ausgeschaltet lassen, damit alle Teile gefahrlos gehandhabt werden können.
 :::
 
 :::{important}
-Il Backlight a luce infrarossa emette luce non visibile e perciò piuò apparire non funzionante. Controllare con una telecamera ad infrarossi per verificarne il funzionamento.
+Das Infrarot-Backlight emittiert nicht sichtbares Licht und kann daher defekt erscheinen. Mit einer Infrarotkamera prüfen, ob es funktioniert.
 
-**Nota:** La maggior parte degli smartphone visualizzano gli infrarossi.
+**Hinweis:** Die meisten Smartphones können Infrarot sichtbar machen.
 :::
 
-## Cosa serve?
+## Was wird benötigt?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Gegenstand/Ausrüstung
+  - Menge
 
-* - Chiave esagonale H2.5
+* - Sechskantschlüssel H2.5
   - 1
 
-* - Chiave esagonale H5
+* - Sechskantschlüssel H5
   - 1
 
-* - Backlight sostitutivo
+* - Ersatz-Backlight
   - 1
 
 :::
 
-## Procedimento
+## Vorgehensweise
 
-| Step | Operazione |
+| Schritt | Vorgang |
 |:----:|-----------|
-| 1 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 2 | Rimuovere il vetro di protezione dell'illuminatore (utilizzare le apposite tasche laterali) |
-| 3 | Rimuovere le viti che fissano la scheda dell'illuminatore alla sua sede |
-| 4 | Estrarre la scheda dell'illuminatore e disconnettere il suo connettore |
-| 5 | Connettere la nuova scheda e montarlo nella corretta posizione |
-| 6 | A sostituzione terminata, rimontare tutti i componenti |
+| 1 | {ref}`Oberfläche oder starre Scheibe entfernen <sost-disco>` |
+| 2 | Das Schutzglas des Leuchtkörpers entfernen (die dafür vorgesehenen seitlichen Aussparungen verwenden) |
+| 3 | Die Schrauben entfernen, die die Leuchtkörperplatine in ihrem Sitz befestigen |
+| 4 | Die Leuchtkörperplatine herausziehen und ihren Stecker trennen |
+| 5 | Die neue Platine anschließen und in der richtigen Position montieren |
+| 6 | Nach Abschluss des Austauschs alle Komponenten wieder montieren |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="myVideo" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000006_cambio-backlight.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Ihr Browser unterstützt das Video nicht.
   </video>
   <br>
-  <label for="speedControl">Velocità:</label>
+  <label for="speedControl">Geschwindigkeit:</label>
   <select id="speedControl" onchange="document.getElementById('myVideo').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura di sostituzione del backlight illustrata su FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Austauschverfahren des Backlight, dargestellt an einem FlexiBowl® 800</i></figcaption>
 </figure>
 ::::

@@ -1,1 +1,1 @@
-# **Austausch von SPS und Modulen**
+# **Austausch der SPS und der Module**

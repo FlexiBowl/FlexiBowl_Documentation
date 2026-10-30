@@ -1,80 +1,96 @@
 (diverter)=
-# **Dérivateurs Standard**
+# **Déviateurs standard**
 
-I deviatori standard sono dei blocchi di polietilene con delle superfici sagomate in modo tale da creare un effetto scivolo per i componenti mentre essi si muovono insieme alla superficie o disco rigido. L'idea alla base dei deviatori (standard o di altri tipi) è quella di modificare la posizione dei pezzi lungo il raggio del FlexiBowl®, in modo da massimizzare l'efficacia del flip e di tenerli a una distanza rispetto all'anello di contenimento e dalla calotta stringi-disco tale da consentire la presa al robot, senza che l'*end effector* entri in collisione con uno dei due.
+Les déviateurs standard sont des blocs en polyéthylène dont les surfaces sont profilées de manière à créer un effet de glissement pour les composants lorsqu'ils se déplacent avec la surface ou le disque rigide. L'idée à la base des déviateurs (standard ou d'autres types) est de modifier la position des pièces le long du rayon du FlexiBowl®, de manière à maximiser l'efficacité du flip et à les maintenir à une distance de l'anneau de retenue et de la calotte de serrage du disque qui permette au robot de les saisir, sans que l'*effecteur terminal* n'entre en collision avec l'un ou l'autre.
 
-::::{grid} 2
-
-:::{grid-item}
-:::{figure} ../../../../_shared/media/images/deviatoridisco.PNG
-:width: 100%
-Deviatori su disco rigido (FlexiBowl® 350-500E)
-:::
-
-:::{grid-item}
 :::{figure} ../../../../_shared/media/images/deviatorisup.PNG
 :width: 100%
-Deviatori su superficie (FlexiBowl® 500-650-800-1200)
+Déviateurs sur surface (FlexiBowl® 500-650-800-1200)
 :::
 
-::::
+## Applications recommandées 
+Option montée par défaut, adaptée à la manutention de composants dépourvus de saillies suffisamment petites pour se coincer entre le déviateur et le disque.
 
-## Applicazioni consigliate 
-Opzione montata di default, è adatto per la movimentazione di componenti privi di sporgenze abbastanza piccole da incastrarsi tra deviatore e disco.
-
-## Procedura di montaggio
+## Procédure de montage
 
 :::{warning} Attenzione
-Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il montaggio.
+S'assurer que le FlexiBowl® est **éteint et à l'arrêt** avant de procéder au montage.
 :::
 
-### Deviatori per disco rigido (FlexiBowl® 350-500E)
+%### Deviatori per disco rigido (FlexiBowl® 350-500E)
 
-I deviatori sono fissati sugli appositi fori ai lati dello schermo flip tramite due viti M6x22 ciascuno.
+%:::{note}
+%Nei FlexiBowl® con disco rigido i deviatore non sono fissati di default.
+%:::
 
-:::{figure} ../../../../_shared/media/images/deviatoridisco_fissaggio.PNG
-:width: 100%
-:::
+%I deviatori sono fissati sugli appositi fori ai lati dello schermo flip tramite due viti M6x22 ciascuno.
 
-### Deviatori per superficie (FlexiBowl® 500-650-800-1200)
+%:::{figure} ../../../../_shared/media/images/deviatoridisco_fissaggio.PNG
+%:width: 100%
+%:::
 
-| Step | Operazione |
+%### Deviatori per superficie (FlexiBowl® 500-650-800-1200)
+
+| Étape | Opération |
 |:----:|-----------|
-| 1 | Posizionare il deviatore nell’apposito vano presente nell’anello di contenimento |
-| 2 | Con un cacciavite piatto, avvitare le viti di regolazione finché il deviatore non si trova all’altezza desiderata |
-| 3 | Usare le viti di serraggio per bloccare il deviatore in posizione |
+| 1 | Positionner le déviateur dans le logement prévu dans l'anneau de retenue |
+| 2 | À l'aide d'un tournevis plat, visser les vis de réglage jusqu'à ce que le déviateur se trouve à la hauteur souhaitée |
+| 3 | Utiliser les vis de serrage pour bloquer le déviateur en position |
 
 :::{figure} ../../../../_shared/media/images/deviatorisup_componenti.PNG
 :width: 100%
 :::
 
-## Procedura di regolazione
+## Procédure de réglage
 
 :::{warning} Attenzione
-Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con la regolazione.
+S'assurer que le FlexiBowl® est **éteint et à l'arrêt** avant de procéder au réglage.
 :::
 
-### Deviatori per disco rigido (FlexiBowl® 350-500E)
+### Déviateurs pour disque rigide (FlexiBowl® 350-500E)
 
-| Step | Operazione |
+| Étape | Opération |
 |:----:|-----------|
-| 1 | Allentare le viti per la regolazione radiale e verticale |
-| 2 | Porre un foglio di carta tra disco e deviatore per tenerlo alla giusta distanza e serrare le viti per la regolazione verticale |
-| 3 | Porre un foglio di carta tra la superficie esterna del deviatore e quella interna del bordo del disco per tenerlo alla giusta distanza e serrare le viti per la regolazione radiale |
+| 1 | Desserrer les vis de réglage radial et vertical |
+| 2 | Placer une feuille de papier entre le disque et le déviateur pour le maintenir à la bonne distance et serrer les vis de réglage vertical |
+| 3 | Placer une feuille de papier entre la surface extérieure du déviateur et la surface intérieure du bord du disque pour le maintenir à la bonne distance et serrer les vis de %réglage radial |
 
-:::{figure} ../../../../_shared/media/images/deviatoridisco_regolazione.PNG
+%:::{figure} ../../../../_shared/media/images/deviatoridisco_regolazione.PNG
+%:width: 100%
+%:::
+
+### Déviateurs sur surface (FlexiBowl® 500-650-800-1200)
+
+:::{list-table}
+:header-rows: 1
+:widths: 10 90
+:align: left
+
+* - Étape
+  - Opération
+* - 1
+  - Retirer les bouchons de la cartouche du déviateur
+* - 2
+  - Desserrer les vis de fixation (2)
+* - 3
+  - Desserrer ou visser les vis de réglage (1) jusqu'à ce que la surface inférieure du déviateur se trouve à ~0,1 mm de la surface du disque.
+
+    :::{tip}
+    Placer une feuille de papier entre le disque et le déviateur pour le maintenir à la bonne distance et serrer les vis de réglage vertical.
+    :::
+* - 4
+  - Serrer les vis de fixation (2) pour bloquer le déviateur en position
+:::
+
+:::{figure} ../../../../_shared/media/images/detdev.PNG
 :width: 100%
 :::
 
-### Deviatori per superficie (FlexiBowl® 500-650-800-1200)
+## Vérification du bon fonctionnement 
 
-| Step | Operazione |
-|:----:|-----------|
-| 1 | Rimuovere i tappi sulla cartuccia deviatore |
-| 2 | Allentare le viti di fissaggio |
-| 3 | Allentare o avvitare le viti di regolazione finché la superficie inferiore del deviatore non si trova a ~0.1mm dalla superficie del disco |
-| 4 | Stringere le viti di fissaggio per bloccare il deviatore in posizione |
+Les déviateurs sont correctement réglés lorsque la surface ou le disque rigide glisse sans rencontrer de résistance et que les composants à manutentionner ne se coincent pas entre les deux.
 
-## Valutazione del corretto funzionamento 
+Pour un fonctionnement optimal, il est en outre nécessaire de vérifier que :
 
-I deviatori sono correttamente regolati quando la superficie o disco rigido scorrono senza incontrare resistenza e i componenti da movimentare non si incastrano tra i due.
+- le déviateur **pré-flip** amène les pièces dans la zone de rendement maximal du flip, c'est-à-dire la zone centrale ;
+- le déviateur **post-flip** écarte les pièces du bord juste assez pour que le robot puisse les saisir, même si l'on utilise une pince susceptible de heurter le bord lui-même.

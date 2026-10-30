@@ -1,53 +1,53 @@
 # **File Transfer**
 
-## Panoramica
+## Übersicht
 
-La pagina **File Transfer** consente di esportare e importare la configurazione completa dei parametri del FlexiBowl®, trasferendo i dati tra il sistema e un PC. È la funzione dedicata al backup e al ripristino della configurazione operativa.
+Die Seite **File Transfer** ermöglicht es, die vollständige Parameterkonfiguration des FlexiBowl® zu exportieren und zu importieren und die Daten zwischen dem System und einem PC zu übertragen. Sie ist die Funktion für Sicherung und Wiederherstellung der Betriebskonfiguration.
 
-![pagina filetransfer](../../../../_shared/media/images/file_transfer.png)
+![Seite File Transfer](../../../../_shared/media/images/file_transfer.png)
 
 ---
 
-## Funzioni disponibili
+## Verfügbare Funktionen
 
-### DOWNLOAD FILE — Salvataggio parametri (FlexiBowl® → PC)
+### DOWNLOAD FILE — Parameter speichern (FlexiBowl® → PC)
 
-Il pannello superiore, etichettato **"Save the Current Parameters, from FlexiBowl® to PC"**, consente di esportare in un file tutti i parametri attualmente configurati nel sistema.
+Der obere Bereich mit der Beschriftung **„Save the Current Parameters, from FlexiBowl® to PC“** ermöglicht es, alle aktuell im System konfigurierten Parameter in eine Datei zu exportieren.
 
-Premendo il pulsante **DOWNLOAD FILE** il software genera un file di configurazione e lo rende disponibile per il salvataggio sul PC collegato.
+Beim Drücken der Schaltfläche **DOWNLOAD FILE** erzeugt die Software eine Konfigurationsdatei und stellt sie zum Speichern auf dem angeschlossenen PC bereit.
 
 :::{tip}
-Eseguire un **DOWNLOAD FILE** prima di ogni modifica significativa ai parametri operativi. Il file scaricato costituisce un backup completo della configurazione e permette di ripristinare rapidamente lo stato precedente in caso di errore.
+Vor jeder wesentlichen Änderung der Betriebsparameter einen **DOWNLOAD FILE** ausführen. Die heruntergeladene Datei ist eine vollständige Sicherung der Konfiguration und ermöglicht es, im Fehlerfall schnell den vorherigen Zustand wiederherzustellen.
 :::
 
 ---
 
-### UPLOAD FILE — Caricamento parametri (PC → FlexiBowl®)
+### UPLOAD FILE — Parameter laden (PC → FlexiBowl®)
 
-Il pannello inferiore, etichettato **"Load in the Current Parameters, from PC to FlexiBowl®"**, consente di importare nel sistema un file di configurazione precedentemente salvato.
+Der untere Bereich mit der Beschriftung **„Load in the Current Parameters, from PC to FlexiBowl®“** ermöglicht es, eine zuvor gespeicherte Konfigurationsdatei in das System zu importieren.
 
-Premendo il pulsante **UPLOAD FILE** si apre il selettore file del sistema operativo. Una volta selezionato il file, i parametri vengono caricati nel FlexiBowl® e applicati immediatamente.
+Beim Drücken der Schaltfläche **UPLOAD FILE** öffnet sich die Dateiauswahl des Betriebssystems. Nach der Auswahl der Datei werden die Parameter in den FlexiBowl® geladen und sofort angewendet.
 
 :::{warning}
-Il caricamento di un file di configurazione **sovrascrive tutti i parametri correnti** del sistema. Assicurarsi che il file selezionato sia compatibile con il modello di FlexiBowl® in uso e con la versione software installata prima di procedere.
+Das Laden einer Konfigurationsdatei **überschreibt alle aktuellen Parameter** des Systems. Vor dem Fortfahren sicherstellen, dass die ausgewählte Datei mit dem verwendeten FlexiBowl®-Modell und der installierten Softwareversion kompatibel ist.
 :::
 
 :::{warning}
-Non spegnere il sistema e non interrompere la connessione durante il trasferimento del file. Un'interruzione durante l'upload potrebbe causare una configurazione incompleta o corrotta.
+Das System während der Dateiübertragung nicht ausschalten und die Verbindung nicht unterbrechen. Eine Unterbrechung während des Uploads kann zu einer unvollständigen oder beschädigten Konfiguration führen.
 :::
 
 ---
 
-## Indicatori di stato del trasferimento
+## Statusanzeigen der Übertragung
 
-In fondo alla pagina sono presenti tre indicatori luminosi (LED virtuali) che segnalano l'esito dell'operazione di trasferimento.
+Am unteren Seitenrand befinden sich drei Anzeigeleuchten (virtuelle LEDs), die das Ergebnis des Übertragungsvorgangs signalisieren.
 
-| Indicatore | Colore attivo | Descrizione |
+| Anzeige | Aktive Farbe | Beschreibung |
 |---|---|---|
-| **Active** | 🟡 Giallo ?? | Il trasferimento è in corso |
-| **Successful** | 🟢 Verde | Il trasferimento si è completato correttamente |
-| **Error** | 🔴 Rosso | Si è verificato un errore durante il trasferimento |
+| **Active** | 🟡 Gelb | Die Übertragung läuft |
+| **Successful** | 🟢 Grün | Die Übertragung wurde erfolgreich abgeschlossen |
+| **Error** | 🔴 Rot | Bei der Übertragung ist ein Fehler aufgetreten |
 
 :::{note}
-Durante un'operazione di download o upload, attendere che il LED **Successful** si illumini prima di procedere con altre operazioni. Se si illumina il LED **Error**, verificare la connessione al PC e ripetere l'operazione.
+Während eines Download- oder Upload-Vorgangs warten, bis die LED **Successful** leuchtet, bevor weitere Vorgänge ausgeführt werden. Leuchtet die LED **Error**, die Verbindung zum PC überprüfen und den Vorgang wiederholen.
 :::

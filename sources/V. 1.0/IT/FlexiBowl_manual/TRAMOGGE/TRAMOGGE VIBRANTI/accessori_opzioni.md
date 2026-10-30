@@ -1,5 +1,5 @@
 (tramoggia-accessori)=
-# [MEC] **Accessori e Opzioni**
+# **Accessori e Opzioni**
 
 Questa pagina raccoglie le varianti, gli accessori e le opzioni disponibili a listino per le Bulk Feeder vibranti. Ogni voce di listino ha una propria sezione, raggiungibile tramite link diretto.
 

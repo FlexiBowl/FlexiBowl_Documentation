@@ -51,17 +51,17 @@
 .compare-card-body video { border-radius: 4px; }
 </style>
 
-# [PNU] **Pneumatic Comparison**
+# **Pneumatic Comparison**
 
 This page compares the main pneumatic differences between **FlexiBowl® 2.0** and **FlexiBowl® 3.0**.
 
 :::{important}
-Before reading the contents of the current page, it is good practice to be familiar with the information given in the [Pneumatic Specifications](datipneum) page
+Before reading the contents of this page, it is good practice to be familiar with the information given on the [Pneumatic Specifications](datipneum) page
 :::
 
 ---
 
-## 1. Compressed Air Characteristics
+## 1. Compressed air characteristics
 
 ```{list-table}
 :header-rows: 1
@@ -80,7 +80,7 @@ Before reading the contents of the current page, it is good practice to be famil
 
 ---
 
-## 2. Pressure Adjustment and Reading
+## 2. Pressure adjustment and reading
 
 <div class="compare-grid">
 <div class="compare-card v20">
@@ -89,7 +89,7 @@ Before reading the contents of the current page, it is good practice to be famil
 
 <img src="../../../../_shared/media/images/flip_strength_v20.png" width="200"/>
 
-The pulse strength is adjusted via the **compressed air regulator**, located on the control panel. The corresponding pressure gauge is **integrated in the panel**.
+The impulse force is adjusted via the **compressed air regulator** located on the control panel. The corresponding pressure gauge is **integrated into the panel**.
 
 </div>
 </div>
@@ -107,7 +107,7 @@ Pressure adjustment and reading can be set **directly from the software interfac
 
 ---
 
-## 3. Blow Control
+## 3. Blow control
 
 <div class="compare-grid">
 <div class="compare-card v20">
@@ -133,11 +133,11 @@ Native blow control (**Native Blow Control**) directly from the software interfa
 </div>
 
 :::{note}
-For details on the connection of the air supply, refer to the [Pneumatic Interface](datipneum) page.
+For details on connecting the air supply, refer to the [Pneumatic Interface](datipneum) page.
 :::
 
 ---
 
 ## 4. Summary
 
-FlexiBowl® 3.0 requires a slightly higher air pressure (7 Bar versus 6 Bar) and specifies an ISO 8573-1:2010 1.3.2 cleanliness class, not defined on the previous generation. The most significant difference from a usability standpoint is the shift of pressure, flip and blow adjustment and reading from the physical panel components to the software interface.
+FlexiBowl® 3.0 requires a slightly higher air pressure (7 Bar versus 6 Bar) and specifies an ISO 8573-1:2010 1.3.2 cleanliness class, which was not defined for the previous generation. The most significant difference from a usability standpoint is the shift of pressure, flip and blow adjustment and reading from the physical components of the panel to the software interface.

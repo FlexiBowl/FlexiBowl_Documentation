@@ -1,4 +1,4 @@
-# [MEC] **Flip Assembly Replacement**
+# **Replacing the Flip Unit**
 
 :::::{important}
 
@@ -27,7 +27,7 @@
 :::::
 
 :::{warning}
-Disconnect the electrical and pneumatic power supply before proceeding with the replacement of the flip assembly.
+Disconnect the electrical and pneumatic power supply before proceeding with the replacement of the flip unit.
 :::
 
 :::{warning}
@@ -36,7 +36,7 @@ Some parts involved in the maintenance process described here may have reached {
 
 ## FlexiBowl® 200
 
-### What you need
+### What is needed?
 
 :::{list-table}
 :widths: 40 40
@@ -54,10 +54,10 @@ Some parts involved in the maintenance process described here may have reached {
 * - H4 hex key
   - 1
 
-* - 20mm wrench
+* - 20 mm wrench
   - 1
 
-* - Replacement flip assembly
+* - Replacement flip unit
   - 1
 
 :::
@@ -66,16 +66,16 @@ Some parts involved in the maintenance process described here may have reached {
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Remove the flip screen |
+| 1 | Remove the flip shield |
 | 2 | {ref}`Remove the surface or rigid disc <sost-disco>` |
-| 3 | Remove the backlight and unscrew the screw that fixes the front part of the backlight box to the FlexiBowl® column |
+| 3 | Remove the backlight and unscrew the screw fixing the front of the backlight box to the FlexiBowl® column |
 | 4 | Remove the upper table |
 | 5 | Disconnect the pneumatic connections of the distributor block and remove it |
-| 6 | Remove the cover |
-| 7 | Disconnect the electrical and pneumatic connections and remove the flip assembly |
-| 8 | Remove the solenoid valve from the flip assembly |
-| 9 | Replace the flip assembly with the new one |
-| 10 | Once the replacement is finished, refit all the components |
+| 6 | Remove the guard |
+| 7 | Disconnect the electrical and pneumatic connections and dismantle the flip unit |
+| 8 | Remove the solenoid valve from the flip unit |
+| 9 | Replace the flip unit with the new one |
+| 10 | When the replacement is finished, refit all the components |
 
 ::::{raw} html
 <figure style="text-align: center;">
@@ -91,25 +91,25 @@ Some parts involved in the maintenance process described here may have reached {
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Flip assembly replacement procedure shown on FlexiBowl® 200</i></figcaption>
+  <figcaption><i>Flip unit replacement procedure illustrated on a FlexiBowl® 200</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-To make the work easier, the covers can be removed, taking care not to pull the status LED cables excessively.
+To make the work easier, the guards can be removed, taking care not to pull excessively on the status LED cables.
 :::
 
 It is also possible to replace the upper portion of the flip:
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Remove the flip screen |
+| 1 | Remove the flip shield |
 | 2 | {ref}`Remove the surface or rigid disc <sost-disco>` |
-| 3 | Remove the screws of the cover located on the flip side |
-| 4 | Remove the screws that fix the screen support to the upper platform |
-| 5 | Disconnect the pneumatic connections of the distributor block and remove it together with the cover |
-| 6 | Unscrew the upper portion of the flip and replace it with the new sub-assembly |
-| 7 | Once the replacement is finished, refit all the components |
+| 3 | Remove the screws of the guard located on the flip side |
+| 4 | Remove the screws fixing the shield support to the upper platform |
+| 5 | Disconnect the pneumatic connections of the distributor block and remove it together with the guard |
+| 6 | Unscrew the upper portion of the flip and replace it with the new subassembly |
+| 7 | When the replacement is finished, refit all the components |
 
 ::::{raw} html
 <figure style="text-align: center;">
@@ -125,13 +125,13 @@ It is also possible to replace the upper portion of the flip:
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Replacement procedure of the upper portion of the flip assembly shown on FlexiBowl® 200</i></figcaption>
+  <figcaption><i>Procedure for replacing the upper portion of the flip unit illustrated on a FlexiBowl® 200</i></figcaption>
 </figure>
 ::::
 
 ## FlexiBowl® 350-500-650-800-1200
 
-### What you need
+### What is needed?
 
 :::{list-table}
 :widths: 40 40
@@ -146,7 +146,7 @@ It is also possible to replace the upper portion of the flip:
 * - H4 hex key
   - 1
 
-* - Replacement flip assembly
+* - Replacement flip unit
   - 1
 
 :::
@@ -155,10 +155,10 @@ It is also possible to replace the upper portion of the flip:
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | {ref}`Access the flip assembly <contflip>` |
-| 2 | Remove the pneumatic connections and remove the flip assembly |
-| 3 | Replace the damaged flip assembly with the new one |
-| 4 | Once the replacement is finished, refit all the components |
+| 1 | {ref}`access the flip unit <contflip>` |
+| 2 | Remove the pneumatic connections and dismantle the flip unit |
+| 3 | Replace the damaged flip unit with the new one |
+| 4 | When the replacement is finished, refit all the components |
 
 ::::{raw} html
 <figure style="text-align: center;">
@@ -174,14 +174,14 @@ It is also possible to replace the upper portion of the flip:
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Flip assembly replacement procedure shown on FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Flip unit replacement procedure illustrated on a FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-The flip assembly of the FlexiBowl® 1200 consists of two parts that must be removed individually.
+The flip unit of the FlexiBowl® 1200 consists of two parts that must be dismantled individually.
 :::
 
 :::{tip}
-On the **FlexiBowl® 350** it may be more convenient to remove the cover.
+On the **FlexiBowl® 350** it may be more convenient to remove the guard.
 :::

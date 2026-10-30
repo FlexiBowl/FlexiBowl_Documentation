@@ -1,54 +1,53 @@
 ﻿# **Garantie**
 
 ```{important}
-   I termini completi della garanzia sono inclusi nel **contratto di vendita**. 
-   In caso di discrepanze, le condizioni stabilite nel contratto hanno la priorità assoluta su quanto riportato in questa sezione.
+   Die vollständigen Garantiebedingungen sind im **Kaufvertrag** enthalten. Bei Abweichungen haben die im Vertrag festgelegten Bedingungen uneingeschränkten Vorrang vor den Angaben in diesem Abschnitt.
 ```
 ---
 
-## Condizioni Generali di Validità
+## Allgemeine Gültigkeitsbedingungen
 
-Perché la garanzia sia ritenuta valida, devono essere rispettati i seguenti requisiti operativi:
+Damit die Garantie als gültig gilt, müssen die folgenden Betriebsanforderungen erfüllt sein:
 
 ```{list-table}
    :widths: 30 70
    :header-rows: 1
 
-   * - Ambito
-     - Condizione Obbligatoria
-   * - **Ricezione**
-     - Apertura degli imballi con dispositivi idonei senza danneggiare l'impianto.
-   * - **Messa in servizio**
-     - Installazione e avviamento eseguiti da tecnici qualificati e formati.
-   * - **Utilizzo**
-     - Impiego della macchina entro i limiti contrattuali e tecnici specificati.
-   * - **Manutenzione**
-     - Esecuzione nei tempi previsti con ricambi originali **ARS S.r.l.** e personale autorizzato.
+   * - Bereich
+     - Verbindliche Bedingung
+   * - **Wareneingang**
+     - Öffnen der Verpackungen mit geeigneten Hilfsmitteln, ohne die Anlage zu beschädigen.
+   * - **Inbetriebnahme**
+     - Installation und Inbetriebnahme durch qualifizierte und geschulte Techniker.
+   * - **Verwendung**
+     - Einsatz der Maschine innerhalb der festgelegten vertraglichen und technischen Grenzen.
+   * - **Wartung**
+     - Durchführung innerhalb der vorgesehenen Fristen mit Original-Ersatzteilen von **ARS S.r.l.** und durch autorisiertes Personal.
 ```
 ---
 
-## Esclusioni e Decadenza della Garanzia
+## Garantieausschlüsse und Erlöschen der Garantie
 
-La garanzia viene considerata **nulla e priva di effetto** al verificarsi di una o più delle seguenti condizioni:
+Die Garantie gilt als **nichtig und wirkungslos**, wenn eine oder mehrere der folgenden Bedingungen eintreten:
 
 ```{warning} 
-   **Manomissioni e Sicurezza**
+   **Manipulation und Sicherheit**
    
-   * Rimozione o manomissione di dispositivi di sicurezza (protezioni, sensori, microinterruttori).
-   * Modifiche non autorizzate al software di controllo macchina.
-   * Manomissione dei circuiti elettrici o pneumatici.
-   * Rimozione della targa di identificazione o dei pittogrammi di sicurezza.
+   * Entfernen oder Manipulieren von Sicherheitseinrichtungen (Schutzabdeckungen, Sensoren, Mikroschalter).
+   * Nicht autorisierte Änderungen an der Maschinensteuerungssoftware.
+   * Manipulation der elektrischen oder pneumatischen Kreise.
+   * Entfernen des Typenschilds oder der Sicherheitspiktogramme.
 ```
 ```{error}
-   **Uso Improprio e Negligenza**
+   **Unsachgemäße Verwendung und Fahrlässigkeit**
    
-   * Mancato rispetto delle norme di sicurezza e delle istruzioni del manuale.
-   * Utilizzo da parte di personale non formato o non autorizzato.
-   * Mancata attuazione del piano di manutenzione programmata.
-   * Installazione in locali non idonei o guasti all'alimentazione (elettrica/pneumatica).
-   * Modifiche o riparazioni senza autorizzazione scritta del Costruttore.
+   * Nichtbeachtung der Sicherheitsvorschriften und der Anweisungen des Handbuchs.
+   * Verwendung durch nicht geschultes oder nicht autorisiertes Personal.
+   * Nichtdurchführung des planmäßigen Wartungsplans.
+   * Installation in ungeeigneten Räumen oder Störungen der Energieversorgung (elektrisch/pneumatisch).
+   * Änderungen oder Reparaturen ohne schriftliche Genehmigung des Herstellers.
 ```
 
 ```{note}
-   Sono esclusi dalla garanzia anche i danni derivanti da eventi eccezionali (alluvioni, incendi non causati dalla macchina) e lo smaltimento non conforme alle normative.
+   Von der Garantie ausgeschlossen sind auch Schäden infolge außergewöhnlicher Ereignisse (Überschwemmungen, nicht von der Maschine verursachte Brände) sowie eine nicht vorschriftsgemäße Entsorgung.
 ```

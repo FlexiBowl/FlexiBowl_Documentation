@@ -1,12 +1,12 @@
 (tracking)=
 # **Flexitracking**
 
-## Funzionamento in tracking
+## Fonctionnement en tracking
 
-L'opzione Flexitracking consente di massimizzare la produttività del FlexiBowl® facendolo girare in maniera continua e senza interruzioni. Invece di fermarsi a ogni ciclo per scattare la foto e dare al robot il tempo di raccogliere i pezzi presenti sull'area di visione, un encoder tiene traccia dell'angolo di rotazione che ha effettuato la superficie o dico rigido dal momento dello scatto della foto e quello della presa del pezzo da parte del robot.
+L'option Flexitracking permet de maximiser la productivité du FlexiBowl® en le faisant tourner de manière continue et sans interruption. Au lieu de s'arrêter à chaque cycle pour prendre la photo et laisser au robot le temps de saisir les pièces présentes dans la zone de vision, un codeur suit l'angle de rotation effectué par la surface ou le disque rigide entre le moment de la prise de vue et celui de la saisie de la pièce par le robot.
 
 ::::{tip}
-Il funzionamento in tracking sposta l'area di presa che, se normalmente coincide con quella di visione, in questo caso sarà spostata a valle. Fare riferimento al capitolo di {ref}`Layout Best Practice <layoutbp>` per maggiori informazioni sul piazzamento consigliato del robot e degli altri accessori in caso di funzionamento standard e Flexitracking.
+Le fonctionnement en tracking déplace la zone de saisie qui, si elle coïncide normalement avec la zone de vision, sera dans ce cas décalée vers l'aval. Se reporter au chapitre {ref}`Layout Best Practice <layoutbp>` pour plus d'informations sur le positionnement recommandé du robot et des autres accessoires en fonctionnement standard et en Flexitracking.
 
 :::{figure} ../../../../_shared/media/images/TrackingLayout.PNG
 :width: 80%
@@ -15,7 +15,7 @@ Il funzionamento in tracking sposta l'area di presa che, se normalmente coincide
 
 ::::
 
-Il Flexitracking consiste in un gruppo motore modificato con un supporto per una trasmissoine a cinghia che alimenta l'encoder:
+Le Flexitracking se compose d'un groupe moteur modifié avec un support pour une transmission par courroie qui entraîne le codeur :
 
 :::{figure} ../../../../_shared/media/images/GM001788.PNG
 :width: 80%

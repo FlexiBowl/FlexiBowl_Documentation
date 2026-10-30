@@ -1,5 +1,5 @@
 (superfici)=
-# [MEC] **Superfici**
+# **Superfici**
 
 <style>
     /* Stili compatibili con Tema Chiaro e Scuro di Sphinx */
@@ -791,12 +791,10 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
   - Flexi Disc Smooth Black 1200
 :::
 
-![Flexi Disc Smooth Black](../../../../_shared/media/images/SMOOTHBLACK.jpg) 
+![Flexi Disc Smooth Black](../../../../_shared/media/images/SMOOTHBLACK.jpg)
 
 <div class="main-char-banner">
-    <strong>Caratteristiche Principali:</strong> <em>Recommended for light-colored parts with toplight illumination. 
-Very little subject to dirt. </em> 
-</div>
+    <strong>Caratteristiche Principali:</strong> Consigliata per componenti di colore chiaro e per illuminazione dall'alto (toplight). Molto poco soggetta all'accumulo di sporco.</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -809,11 +807,11 @@ Very little subject to dirt. </em>
         <tbody>
             <tr>
                 <td><strong>Materiale</strong></td>
-                <td><em>Poliuretano</em></td>
+                <td>Polyurethane</td>
             </tr>
             <tr>
                 <td><strong>Filamenti Antistatici</strong></td>
-                <td><em>Si</em></td>
+                <td>Sì</td>
             </tr>
             <tr>
                 <td><strong>Backlight</strong></td>
@@ -1731,8 +1729,7 @@ Very little subject to dirt. </em>
 ![Flexi Disc Anti-Roll Blue FDA](../../../../_shared/media/images/SPIKEBLUE.jpg)
 
 <div class="main-char-banner">
-    <strong>Caratteristiche Principali:</strong> <em>da definire</em> <!-- TODO: completare descrizione -->
-</div>
+    <strong>Caratteristiche Principali:</strong> Raccomandata per componenti cilindrici con diametro superiore a 15 mm.</div>
 
 <div class="disc-container">
     <table class="sphinx-styled-table">
@@ -1745,11 +1742,11 @@ Very little subject to dirt. </em>
         <tbody>
             <tr>
                 <td><strong>Materiale</strong></td>
-                <td><em>da definire</em></td>
+                <td>Polyurethane - FDA</td>
             </tr>
             <tr>
                 <td><strong>Filamenti Antistatici</strong></td>
-                <td><em>da definire</em></td>
+                <td>No</td>
             </tr>
             <tr>
                 <td><strong>Diametro componenti</strong></td>
@@ -1760,7 +1757,7 @@ Very little subject to dirt. </em>
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1770,7 +1767,7 @@ Very little subject to dirt. </em>
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1780,7 +1777,7 @@ Very little subject to dirt. </em>
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1791,7 +1788,7 @@ Very little subject to dirt. </em>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1815,7 +1812,7 @@ Very little subject to dirt. </em>
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>
@@ -1826,7 +1823,7 @@ Very little subject to dirt. </em>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1836,7 +1833,7 @@ Very little subject to dirt. </em>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
                         <div class="sem-dot yellow"></div>
-                        <div class="sem-dot green"></div>
+                        <div class="sem-dot green active"></div>
                     </div>
                 </td>
             </tr>
@@ -1844,7 +1841,7 @@ Very little subject to dirt. </em>
                 <td><strong>Transparent</strong></td>
                 <td>
                     <div class="semaforo">
-                        <div class="sem-dot red"></div>
+                        <div class="sem-dot red active"></div>
                         <div class="sem-dot yellow"></div>
                         <div class="sem-dot green"></div>
                     </div>
@@ -1855,7 +1852,7 @@ Very little subject to dirt. </em>
                 <td>
                     <div class="semaforo">
                         <div class="sem-dot red"></div>
-                        <div class="sem-dot yellow"></div>
+                        <div class="sem-dot yellow active"></div>
                         <div class="sem-dot green"></div>
                     </div>
                 </td>

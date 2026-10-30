@@ -1,5 +1,5 @@
 (tcp)=
-# TCP Server
+# **TCP Server**
 
 Quando si utilizza la comunicazione **TCP Server**, i comandi non vengono inviati come variabili binarie ma come **stringhe di testo** attraverso una connessione socket sulla porta configurata (default: 8123).
 
@@ -119,15 +119,13 @@ Il comando **Reset Return Data** (ControlWord 50) azzera il valore di ReturnData
 <div class="isw-example-col-title">TCP Server</div>
 
 <div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>12[0]%</code><br>
-RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">12[0]</span>
+INPUT:&nbsp;&nbsp;&nbsp;<code>12[0]%</code><br> RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">12[0]</span>
 </div>
 
 Esempio di comando **non valido** (es. sequenza 9 inesistente sul dispositivo):
 
 <div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>9[0]%</code><br>
-RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
+INPUT:&nbsp;&nbsp;&nbsp;<code>9[0]%</code><br> RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
 </div>
 
 </div>
@@ -186,8 +184,8 @@ dove `N` è il numero della sequenza (1–20) e `offset_parametro` identifica il
 | SEQ 20 (N=20) | SpeedMove | 02 | 20 x 100 + 02 | 2002 |
 
 :::{tip}
-La formula è semplice:  
-- Per scrivere la velocità (offset 02) della sequenza 7, la ControlWord è `7 × 100 + 2 = 702`.  
+La formula è semplice:
+- Per scrivere la velocità (offset 02) della sequenza 7, la ControlWord è `7 × 100 + 2 = 702`.
 - Per scrivere il FlipCount (offset 10) della sequenza 15, la ControlWord è `15 × 100 + 10 = 1510`.
 :::
 
@@ -203,15 +201,13 @@ La formula è semplice:
 <div class="isw-example-col-title">TCP Server</div>
 
 <div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>700[80]%</code><br>
-RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">700[0]</span>
+INPUT:&nbsp;&nbsp;&nbsp;<code>700[80]%</code><br> RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">700[0]</span>
 </div>
 
 Esempio di **valore fuori range** (accelerazione 1000 non ammessa, range 1–100):
 
 <div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>700[1000]%</code><br>
-RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">2[0]</span>
+INPUT:&nbsp;&nbsp;&nbsp;<code>700[1000]%</code><br> RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">2[0]</span>
 </div>
 
 </div>
@@ -278,7 +274,7 @@ I parametri leggibili sono gli stessi del blocco WRITE, con l'aggiunta dei 10 sl
 | SEQ 20 | Emptying Sequence | 12040 |
 
 :::{tip}
-Formula rapida:  
+Formula rapida:
  Per leggere la velocità (offset 02) della sequenza 12, la ControlWord è `10000 + 12 × 100 + 2 = 11202`.
 :::
 
@@ -294,15 +290,13 @@ Formula rapida:
 <div class="isw-example-col-title">TCP Server</div>
 
 <div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>11603[0]%</code><br>
-RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">11603[45]</span>
+INPUT:&nbsp;&nbsp;&nbsp;<code>11603[0]%</code><br> RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">11603[45]</span>
 </div>
 
 Esempio di **valore fuori range** in scrittura sullo stesso parametro (angolo massimo 720°):
 
 <div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>11603[6799]%</code><br>
-RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
+INPUT:&nbsp;&nbsp;&nbsp;<code>11603[6799]%</code><br> RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
 </div>
 
 </div>
@@ -397,15 +391,13 @@ Nel materiale di training, la ControlWord `30005` (Hopper_2_Id) riportava per er
 Via ControlWord generica:
 
 <div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>30017[0]%</code><br>
-RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">30017[0]</span>
+INPUT:&nbsp;&nbsp;&nbsp;<code>30017[0]%</code><br> RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">30017[0]</span>
 </div>
 
 Oppure, per il solo avvio, con il messaggio dedicato:
 
 <div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>Hopper1Start%</code><br>
-RETURN:&nbsp;&nbsp;&nbsp;<span class="ok">Hopper1Start *</span>
+INPUT:&nbsp;&nbsp;&nbsp;<code>Hopper1Start%</code><br> RETURN:&nbsp;&nbsp;&nbsp;<span class="ok">Hopper1Start *</span>
 </div>
 
 </div>
@@ -423,15 +415,13 @@ RETURN:&nbsp;&nbsp;&nbsp;<span class="ok">Hopper1Start *</span>
 <div class="isw-example-col-title">TCP Server</div>
 
 <div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>30006[220]%</code><br>
-RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">30006[0]</span>
+INPUT:&nbsp;&nbsp;&nbsp;<code>30006[220]%</code><br> RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">30006[0]</span>
 </div>
 
 Esempio di **valore fuori range** (ampiezza 2200 non ammessa, range 50–220):
 
 <div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>30006[2200]%</code><br>
-RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">2[0]</span>
+INPUT:&nbsp;&nbsp;&nbsp;<code>30006[2200]%</code><br> RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">2[0]</span>
 </div>
 
 </div>
@@ -483,15 +473,13 @@ RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">2[0]</span>
 <div class="isw-example-col-title">TCP Server</div>
 
 <div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>30115[0]%</code><br>
-RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">30115[40]</span>
+INPUT:&nbsp;&nbsp;&nbsp;<code>30115[0]%</code><br> RETURN SE OK:&nbsp;&nbsp;&nbsp;<span class="ok">30115[40]</span>
 </div>
 
 Esempio di **comando non interpretabile** (ControlWord READ inesistente):
 
 <div class="isw-example-tcp">
-INPUT:&nbsp;&nbsp;&nbsp;<code>30199[0]%</code><br>
-RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
+INPUT:&nbsp;&nbsp;&nbsp;<code>30199[0]%</code><br> RETURN SE NON OK:&nbsp;&nbsp;&nbsp;<span class="ko">1[0]</span>
 </div>
 
 </div>

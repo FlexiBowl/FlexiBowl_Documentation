@@ -1,20 +1,18 @@
 (intpneum)=
-# [ELE] **Pneumatic Interface**
+# **Pneumatic Interface**
 
-The machine is equipped with pneumatic actuation.
-Before making the **pneumatic connection**, check that:
+The machine is equipped with pneumatic actuation. Before making the **pneumatic connection**, verify that:
 - the compressed air supply system present guarantees the machine the quantity of air at the right pressure;
 - the compressed air tank provided is correctly sized.
 
-The pneumatic connection must be made by connecting the main line to the machine circuit.
-The customer must also guarantee an air supply with the characteristics listed in the {ref}`"Pneumatic Technical Data" <datipneum>` paragraph of this manual.
+The pneumatic connection must be made by connecting the main line to the machine circuit. The customer must also ensure an air supply with the characteristics listed in the {ref}`"Pneumatic Technical Data" <datipneum>` paragraph of this manual.
 
 :::{warning}
 Never exceed 7 bar of pressure in the machine's pneumatic system.
 :::
 
 :::{warning}
-The FlexiBowl® is supplied without a manual shut-off and exhaust device for the pneumatic supply. The integrator must provide upstream a clearly identified, easily accessible device that can be locked in the closed position, which allows the supply to be interrupted, the residual pressure to be released and unintentional reactivation to be prevented. Pipes and fittings must be suitable for the operating pressure, correctly fixed and protected against pulling out. Any further pneumatic safety devices must be defined through the risk assessment of the final machine.
+The FlexiBowl® is supplied without a manual shut-off and exhaust device for the pneumatic supply. The integrator must provide upstream a clearly identified, easily accessible device that can be locked in the closed position, which allows the supply to be interrupted, the residual pressure to be released and unintentional re-activation to be prevented. Pipes and fittings must be suitable for the operating pressure, correctly secured and protected against pulling out. Any further pneumatic safety devices must be defined through the risk assessment of the final machine.
 :::
 
 :::::{important}
@@ -43,7 +41,7 @@ The FlexiBowl® is supplied without a manual shut-off and exhaust device for the
 ::::
 :::::
 
-To connect to the pneumatic network, connect an air tube {ref}`of the right size <datipneum>` to the "Air Supply" inlet on the {ref}`control panel <intele>`.
+To connect to the pneumatic network, connect an air tube {ref}`of the right size <datipneum>` to the "Air Supply" inlet located on the {ref}`control panel <intele>`.
 
 :::{raw} html
 <style>
@@ -152,7 +150,7 @@ To connect to the pneumatic network, connect an air tube {ref}`of the right size
 
 | Parameter | Value |
 |---|---|
-| Air quality | Clean, dry compressed air, according to **ISO 8573-1:2010, class 1.3.2** |
+| Air quality | Clean and dry compressed air, according to **ISO 8573-1:2010, class 1.3.2** |
 | Recommended supply pressure | **7 bar** (never to be exceeded) |
 | Tube diameter — FB200 / FB350 | **Ø 6 mm** |
 | Tube diameter — FB500E / FB500 / FB650 / FB800 / FB1200 | **Ø 8 mm** |
@@ -169,22 +167,22 @@ To connect to the pneumatic network, connect an air tube {ref}`of the right size
 | FB800 | 45 l/min | 60 l/min |
 | FB1200 | 135 l/min | 176 l/min |
 
-The values given refer to the Flip action only; for full details on consumption, refer to the {ref}`"Pneumatic Technical Data" <datipneum>` paragraph.
+The values shown refer to the Flip action only; for full details on consumption, refer to the {ref}`"Pneumatic Technical Data" <datipneum>` paragraph.
 
 </div></details>
 
 :::{note}
-On FlexiBowl® 3.0, pressure adjustment and pressure gauge reading are done through the **software interface**, and no longer with a physical regulator and gauge on the panel as in the previous 2.0 generation.
+On FlexiBowl® 3.0, pressure adjustment and gauge reading are done through the **software interface**, and no longer with a physical regulator and gauge on the panel as in the previous 2.0 generation.
 :::
 
 ---
 
 ## Guided Procedure — Pneumatic Connection
 
-For the pneumatic connection too, the procedure changes slightly depending on the machine size, in particular for the tube diameter and the position of the **AIR SUPPLY** connector.
+For the pneumatic connection too, the procedure changes slightly depending on the size of the machine, in particular for the tube diameter and the position of the **AIR SUPPLY** connector.
 
 :::{attention}
-Before starting any pneumatic connection, make sure that the compressed air supply is **switched off** and that the residual pressure in the circuit has been **released**.
+Before starting any pneumatic connection, make sure that the compressed air supply is **disconnected** and that the residual pressure in the circuit has been **released**.
 :::
 
 ### FlexiBowl® 500 – 1200 — Standard Electrical Panel
@@ -202,12 +200,12 @@ Before starting any pneumatic connection, make sure that the compressed air supp
     Check that the supply system guarantees the required pressure and flow rate, and that the compressed air tank is correctly sized for the installed model.
 
     <div class="ars-step-note">
-    Clean, dry air according to ISO 8573-1:2010, class 1.3.2. Recommended pressure: 7 bar.
+    Clean and dry air according to ISO 8573-1:2010, class 1.3.2. Recommended pressure: 7 bar.
     </div>
   -
 
 * - 2
-  - **Switch off the air supply** upstream of the system, before connecting the tube.
+  - **Disconnect the air supply** upstream of the system, before connecting the tube.
 
     <div class="ars-step-attn">
     Never connect or disconnect the air tube while the system is still pressurized.
@@ -230,7 +228,7 @@ Before starting any pneumatic connection, make sure that the compressed air supp
   - **Restore the air supply** and check that the downstream pressure is within the expected parameters.
 
     <div class="ars-step-note">
-    On FlexiBowl® 3.0 the pressure can be read and adjusted directly from the software interface.
+    On FlexiBowl® 3.0, the pressure can be read and adjusted directly from the software interface.
     </div>
   -
 ```
@@ -252,12 +250,12 @@ On these sizes, the **AIR SUPPLY** connector is located directly on the machine 
     Check that the supply system guarantees the required pressure and flow rate, and that the compressed air tank is correctly sized for the installed model.
 
     <div class="ars-step-note">
-    Clean, dry air according to ISO 8573-1:2010, class 1.3.2. Recommended pressure: 7 bar.
+    Clean and dry air according to ISO 8573-1:2010, class 1.3.2. Recommended pressure: 7 bar.
     </div>
   -
 
 * - 2
-  - **Switch off the air supply** upstream of the system, before connecting the tube.
+  - **Disconnect the air supply** upstream of the system, before connecting the tube.
 
     <div class="ars-step-attn">
     Never connect or disconnect the air tube while the system is still pressurized.
@@ -281,7 +279,7 @@ On these sizes, the **AIR SUPPLY** connector is located directly on the machine 
   - **Restore the air supply** and check that the downstream pressure is within the expected parameters.
 
     <div class="ars-step-note">
-    On FlexiBowl® 3.0 the pressure can be read and adjusted directly from the software interface.
+    On FlexiBowl® 3.0, the pressure can be read and adjusted directly from the software interface.
     </div>
   -
 ```
@@ -291,7 +289,7 @@ On these sizes, the **AIR SUPPLY** connector is located directly on the machine 
 ## General Notes and Warnings
 
 :::{attention}
-All pneumatic connection and disconnection operations must be carried out with the system **switched off** and the **residual pressure released**.
+All pneumatic connection and disconnection operations must be carried out with the system **disconnected** and **residual pressure released**.
 :::
 
 :::{attention}
@@ -303,7 +301,7 @@ The FlexiBowl® is not equipped with a manual shut-off and exhaust device: it is
 :::
 
 :::{attention}
-Use only pipes and fittings suitable for the operating pressure, correctly fixed and protected against pulling out.
+Use only tubes and fittings suitable for the operating pressure, correctly secured and protected against pulling out.
 :::
 
 :::{attention}

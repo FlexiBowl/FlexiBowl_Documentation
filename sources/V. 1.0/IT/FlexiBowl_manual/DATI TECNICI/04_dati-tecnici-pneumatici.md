@@ -1,5 +1,5 @@
 (datipneum)=
-# [ELE] **Dati Tecnici Pneumatici**
+# **Dati Tecnici Pneumatici**
 
 ## Caratteristiche pneumatiche del FlexiBowl®
 
@@ -171,8 +171,7 @@ Il FlexiBowl® richiede, per la sua alimentazione pneumatica, aria compressa pul
 L'utilizzo di aria non conforme può causare malfunzionamenti, riduzione delle prestazioni e usura precoce dei componenti pneumatici.
 :::
 
-Su richiesta è disponibile opzionalmente un **{ref}`kit di filtrazione aria esterno <airfilter>`**. 
-Il kit è consigliato nei casi in cui la qualità dell’aria compressa dell’impianto cliente non sia nota o non garantita e consente di raggiungere la classe di qualità richiesta.
+Su richiesta è disponibile opzionalmente un **{ref}`kit di filtrazione aria esterno <airfilter>`**. Il kit è consigliato nei casi in cui la qualità dell’aria compressa dell’impianto cliente non sia nota o non garantita e consente di raggiungere la classe di qualità richiesta.
 
 % (sc-pneum)=
 % ## Schemi pneumatici

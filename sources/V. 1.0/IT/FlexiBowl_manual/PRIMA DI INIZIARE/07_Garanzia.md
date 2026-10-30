@@ -1,8 +1,7 @@
 ﻿# **Garanzia**
 
 ```{important}
-   I termini completi della garanzia sono inclusi nel **contratto di vendita**. 
-   In caso di discrepanze, le condizioni stabilite nel contratto hanno la priorità assoluta su quanto riportato in questa sezione.
+   I termini completi della garanzia sono inclusi nel **contratto di vendita**. In caso di discrepanze, le condizioni stabilite nel contratto hanno la priorità assoluta su quanto riportato in questa sezione.
 ```
 ---
 

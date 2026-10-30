@@ -1,15 +1,15 @@
 # **Limpieza general del FlexiBowl®**
 
-Per garantire sempre il corretto funzionamento del FlexiBowl®, è importante che esso venga mantenuto in un buono stato di pulizia. Per eseguire la pulizia generale della macchina, procedere come descritto di seguito: 
+Para garantizar siempre el correcto funcionamiento del FlexiBowl®, es importante mantenerlo en buen estado de limpieza. Para realizar la limpieza general de la máquina, proceda como se describe a continuación:
 
-| Step | Operazione |
+| Paso | Operación |
 |:----:|-----------|
-| 1 | Disconnettere l’alimentazione elettrica e pneumatica dal FlexiBowl®. |
-| 2 | Rimuovere manualmente eventuali residui di prodotto |
-| 3 | Rimuovere lo sporco utilizzando solventi commerciali non infiammabili e non tossici |
-| 4 | Utilizzare, se necessario, un aspiratore per rimuovere i residui presenti sulla superficie o disco rigido |
-| 5 | Ristabilire, una volta terminata la pulizia, i collegamenti della macchina. |
+| 1 | Desconecte la alimentación eléctrica y neumática del FlexiBowl®. |
+| 2 | Retire manualmente los posibles residuos de producto |
+| 3 | Elimine la suciedad con disolventes comerciales no inflamables y no tóxicos |
+| 4 | Si es necesario, utilice una aspiradora para retirar los residuos presentes en la superficie o el disco rígido |
+| 5 | Una vez terminada la limpieza, restablezca las conexiones de la máquina. |
 
 :::{important}
-La pulizia generale del FlexiBowl® deve essere effettuata ogni qual volta che viene cambiato il tipo di componente da lavorare, in modo da rimuovere eventuali residui derivanti dalla lavorazione precedente.
+La limpieza general del FlexiBowl® debe realizarse cada vez que se cambie el tipo de componente que se va a procesar, con el fin de eliminar los posibles residuos del procesamiento anterior.
 :::

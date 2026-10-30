@@ -1,54 +1,53 @@
 ﻿# **Garantie**
 
 ```{important}
-   I termini completi della garanzia sono inclusi nel **contratto di vendita**. 
-   In caso di discrepanze, le condizioni stabilite nel contratto hanno la priorità assoluta su quanto riportato in questa sezione.
+   Les conditions complètes de la garantie sont incluses dans le **contrat de vente**. En cas de divergence, les conditions établies dans le contrat prévalent de manière absolue sur ce qui est indiqué dans cette section.
 ```
 ---
 
-## Condizioni Generali di Validità
+## Conditions générales de validité
 
-Perché la garanzia sia ritenuta valida, devono essere rispettati i seguenti requisiti operativi:
+Pour que la garantie soit considérée comme valide, les exigences opérationnelles suivantes doivent être respectées :
 
 ```{list-table}
    :widths: 30 70
    :header-rows: 1
 
-   * - Ambito
-     - Condizione Obbligatoria
-   * - **Ricezione**
-     - Apertura degli imballi con dispositivi idonei senza danneggiare l'impianto.
-   * - **Messa in servizio**
-     - Installazione e avviamento eseguiti da tecnici qualificati e formati.
-   * - **Utilizzo**
-     - Impiego della macchina entro i limiti contrattuali e tecnici specificati.
-   * - **Manutenzione**
-     - Esecuzione nei tempi previsti con ricambi originali **ARS S.r.l.** e personale autorizzato.
+   * - Domaine
+     - Condition obligatoire
+   * - **Réception**
+     - Ouverture des emballages avec des dispositifs adaptés sans endommager l'installation.
+   * - **Mise en service**
+     - Installation et mise en route réalisées par des techniciens qualifiés et formés.
+   * - **Utilisation**
+     - Utilisation de la machine dans les limites contractuelles et techniques spécifiées.
+   * - **Maintenance**
+     - Exécution dans les délais prévus avec des pièces de rechange d'origine **ARS S.r.l.** et par du personnel autorisé.
 ```
 ---
 
-## Esclusioni e Decadenza della Garanzia
+## Exclusions et déchéance de la garantie
 
-La garanzia viene considerata **nulla e priva di effetto** al verificarsi di una o più delle seguenti condizioni:
+La garantie est considérée comme **nulle et sans effet** si l'une ou plusieurs des conditions suivantes se produisent :
 
 ```{warning} 
-   **Manomissioni e Sicurezza**
+   **Manipulations et sécurité**
    
-   * Rimozione o manomissione di dispositivi di sicurezza (protezioni, sensori, microinterruttori).
-   * Modifiche non autorizzate al software di controllo macchina.
-   * Manomissione dei circuiti elettrici o pneumatici.
-   * Rimozione della targa di identificazione o dei pittogrammi di sicurezza.
+   * Retrait ou manipulation des dispositifs de sécurité (protecteurs, capteurs, microrupteurs).
+   * Modifications non autorisées du logiciel de commande de la machine.
+   * Manipulation des circuits électriques ou pneumatiques.
+   * Retrait de la plaque d'identification ou des pictogrammes de sécurité.
 ```
 ```{error}
-   **Uso Improprio e Negligenza**
+   **Usage inapproprié et négligence**
    
-   * Mancato rispetto delle norme di sicurezza e delle istruzioni del manuale.
-   * Utilizzo da parte di personale non formato o non autorizzato.
-   * Mancata attuazione del piano di manutenzione programmata.
-   * Installazione in locali non idonei o guasti all'alimentazione (elettrica/pneumatica).
-   * Modifiche o riparazioni senza autorizzazione scritta del Costruttore.
+   * Non-respect des règles de sécurité et des instructions du manuel.
+   * Utilisation par du personnel non formé ou non autorisé.
+   * Non-exécution du plan de maintenance programmée.
+   * Installation dans des locaux inadaptés ou défauts d'alimentation (électrique/pneumatique).
+   * Modifications ou réparations sans autorisation écrite du Constructeur.
 ```
 
 ```{note}
-   Sono esclusi dalla garanzia anche i danni derivanti da eventi eccezionali (alluvioni, incendi non causati dalla macchina) e lo smaltimento non conforme alle normative.
+   Sont également exclus de la garantie les dommages résultant d'événements exceptionnels (inondations, incendies non causés par la machine) et l'élimination non conforme à la réglementation.
 ```

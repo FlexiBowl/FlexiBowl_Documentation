@@ -1,4 +1,4 @@
-# [SOF] **Monitor**
+# **Monitor**
 
 ## Panoramica
 
@@ -9,10 +9,10 @@ La pagina **Monitor** fornisce una visione in tempo reale dello stato del motore
 
 ## Sezione STATE MOTOR
 
-Il pannello **STATE MOTOR** mostra lo stato operativo corrente del driver motore tramite una serie di indicatori luminosi (LED virtuali).     
-Ogni LED può essere:      
-🟢 **Verde** : stato attivo     
-⚫ **Grigio** : stato inattivo  
+Il pannello **STATE MOTOR** mostra lo stato operativo corrente del driver motore tramite una serie di indicatori luminosi (LED virtuali).
+Ogni LED può essere:
+🟢 **Verde** : stato attivo
+⚫ **Grigio** : stato inattivo
 
 ### Indicatori di stato
 

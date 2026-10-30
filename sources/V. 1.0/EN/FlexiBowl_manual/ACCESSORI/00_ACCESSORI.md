@@ -1,25 +1,24 @@
 (compatibility)=
-# [MEC] **Overview and compatibility**
+# **Overview and compatibility**
 
-To maximize the performance of the FlexiBowl® and make it suitable for handling any type of component, accessories are available to the customer that modify its functionality and its deflection systems. These accessories can be combined to ensure the widest applicability of the FlexiBowl®, regardless of the production line: to better understand the compatibility between the various accessories and the various FlexiBowl® sizes, refer to the following tables:
+To maximize the performance of the FlexiBowl® and make it suitable for handling any type of component, accessories are available to the customer that modify its functionality and its diverting systems. These accessories can be combined to ensure maximum applicability of the FlexiBowl®, regardless of the production line: to better understand the compatibility between the various accessories and the various FlexiBowl® sizes, refer to the following tables:
 
 ## Accessory compatibility matrix with FlexiBowl® models
 
 :::{list-table}
-:widths: 20 20 20 20 20 20 20 20 20
+:widths: 20 20 20 20 20 20 20 20 
 :header-rows: 1
 :stub-columns: 1
 :class: tabacc
 
 * - 
   - Standard Diverter
-  - Radial Blow
-  - Central Blow
+  - Radial blow
+  - Central blow
   - Brush Diverter
   - Wedge Diverter
   - Emptying
-  - Flexitracking
-  - Ringlight
+  - Circular Tracking
 
 * - FlexiBowl® 200
   - 
@@ -29,7 +28,6 @@ To maximize the performance of the FlexiBowl® and make it suitable for handling
   - 
   - 
   - 
-  - ✓
 
 * - FlexiBowl® 350
   - ✓
@@ -39,10 +37,8 @@ To maximize the performance of the FlexiBowl® and make it suitable for handling
   - 
   - 
   - 
-  - ✓
 
 * - FlexiBowl® 500
-  - ✓
   - ✓
   - ✓
   - ✓
@@ -59,11 +55,9 @@ To maximize the performance of the FlexiBowl® and make it suitable for handling
   - 
   - 
   - ✓
-  - ✓
 
 
 * - FlexiBowl® 650
-  - ✓
   - ✓
   - ✓
   - ✓
@@ -80,10 +74,8 @@ To maximize the performance of the FlexiBowl® and make it suitable for handling
   - ✓
   - ✓
   - ✓
-  - ✓
 
 * - FlexiBowl® 1200
-  - ✓
   - ✓
   - ✓
   - ✓
@@ -95,9 +87,9 @@ To maximize the performance of the FlexiBowl® and make it suitable for handling
 :::
 
 :::{note}
-*The blows of the FlexiBowl 200 and 350 are mounted by default and are integrated in the {ref}`flip screen <panoramica>`.
+*The blows of the FlexiBowl 200 and 350 are mounted by default and are integrated into the {ref}`flip screen <panoramica>`.
 
-**The radial blow is indirect; for more information refer to {ref}`the dedicated paragraph <sofind>`.
+**The radial blow is indirect; for more information, refer to {ref}`the dedicated section <sofind>`.
 :::
 
 ## Accessory compatibility matrix with other accessories
@@ -109,12 +101,12 @@ To maximize the performance of the FlexiBowl® and make it suitable for handling
 
 * - 
   - Standard Diverter
-  - Radial Blow
-  - Central Blow
+  - Radial blow
+  - Central blow
   - Brush Diverter
   - Wedge Diverter
   - Emptying
-  - Flexitracking
+  - Circular Tracking
   - Ringlight
 
 * - **Standard Diverter**
@@ -129,7 +121,7 @@ To maximize the performance of the FlexiBowl® and make it suitable for handling
   - ✓
   - ✓
 
-* - **Radial Blow**
+* - **Radial blow**
   - 
   - :::{raw} html
     <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 5em;"></div>
@@ -141,7 +133,7 @@ To maximize the performance of the FlexiBowl® and make it suitable for handling
   - ✓
   - ✓
 
-* - **Central Blow**
+* - **Central blow**
   - ✓
   - ✓
   - :::{raw} html

@@ -2,84 +2,75 @@
 # **Entsorgung und Lebensende**
 
 :::{warning}
-Le operazioni di messa fuori servizio e smantellamento devono essere affidate a personale specializzato in tali attività. In 
-particolare, solo la persona preposta alla fase di smantellamento e allo smaltimento a fine vita può effettuare: 
-- attività di scollegamento meccanico ed elettrico delle parti secondo le istruzioni di smontaggio e schemi di 
-progetto. 
-- attività di trasporto delle parti dalla posizione di impianto al centro di smaltimento per la separazione delle 
-parti.
+Außerbetriebnahme und Demontage müssen auf dafür spezialisiertes Personal übertragen werden. Insbesondere darf nur die für die Demontage und die Entsorgung am Lebensende zuständige Person Folgendes durchführen:
+- das mechanische und elektrische Trennen der Teile gemäß den Demontageanweisungen und Konstruktionsplänen.
+- den Transport der Teile vom Aufstellort zum Entsorgungszentrum zur Trennung der Teile.
 :::
 
-I materiali di cui è costituita la macchina sono essenzialmente:  
-- acciaio ferritico verniciato, plastificato o galvanizzato;  
-- acciaio inox serie 300/400;  
-- materiale plastico in polietilene; 
-- elastomeri, PTFE, grafite;  
-- olio per ingranaggi; 
-- grasso per la lubrificazione;  
-- motori elettrici;  
-- cavi elettrici con relative guaine;  
-- dispositivi elettronici di controllo e attuazione.  
-- ecc. 
+Die Materialien, aus denen die Maschine besteht, sind im Wesentlichen:
+- lackierter, kunststoffbeschichteter oder verzinkter ferritischer Stahl;
+- Edelstahl der Serien 300/400;
+- Kunststoff aus Polyethylen;
+- Elastomere, PTFE, Graphit;
+- Getriebeöl;
+- Schmierfett;
+- Elektromotoren;
+- Elektrokabel mit zugehörigen Mänteln;
+- elektronische Steuer- und Betätigungseinrichtungen.
+- usw.
 
 :::{important}
-La macchina non contiene componenti o sostanze pericolose che necessitano di procedure particolari di 
-rimozione.
+Die Maschine enthält keine gefährlichen Bauteile oder Stoffe, die besondere Entfernungsverfahren erfordern.
 :::
 
-## Messa fuori servizio
+## Außerbetriebnahme
 
-Se il FlexiBowl® non deve essere utilizzato per un lungo periodo si rende necessario porlo in sicurezza ed immagazzinarlo. 
-Procedere come descritto:
+Wird der FlexiBowl® längere Zeit nicht verwendet, muss er gesichert und eingelagert werden. Gehen Sie wie beschrieben vor:
 
 :::{list-table}
 :widths: 15 60
 :header-rows: 1
 
-* - Step
-  - Operazione
+* - Schritt
+  - Vorgang
 
 * - 1
-  - Scollegare l’alimentazione di energia elettrica.
+  - Trennen Sie die elektrische Energieversorgung.
 
 * - 2
-  - Scollegare l’alimentazione di energia pneumatica.
+  - Trennen Sie die pneumatische Energieversorgung.
 
 * - 3
-  - Proteggere le apparecchiature elettriche particolarmente soggette all’usura del tempo e della polvere.
+  - Schützen Sie die elektrischen Geräte, die besonders unter den Auswirkungen von Zeit und Staub leiden.
 
 :::
 
 :::{important}
-Per quanto riguarda la messa fuori servizio delle macchine provenienti da fornitori esterni, si rimanda ai manuali 
-sub-fornitori delle macchine stesse, allegati al presente manuale.
+Für die Außerbetriebnahme von Maschinen externer Lieferanten wird auf die diesem Handbuch beigefügten Unterlieferanten-Handbücher der jeweiligen Maschinen verwiesen.
 :::
 
-## **Smaltimento responsabile**
+## **Verantwortungsvolle Entsorgung**
 
 :::{warning}
-Disconnettere l’alimentazione elettrica e l’alimentazione pneumatica della macchina. 
+Trennen Sie die elektrische und die pneumatische Energieversorgung der Maschine.
 :::
 
 :::{warning}
-Per il disassemblaggio di parti da commercio o di materiale di sub-fornitura che fanno parte della macchina fornita da ARS S.r.l. si prega di fare riferimento al relativo manuale del fornitore. 
+Für die Demontage von Handelsteilen oder zugelieferten Materialien, die Bestandteil der von ARS S.r.l. gelieferten Maschine sind, beachten Sie bitte das jeweilige Lieferantenhandbuch.
 :::
 
-La demolizione della macchina deve essere affidata a personale qualificato, ciascuno per quanto di competenza.  Quando si intende smaltire la macchina si deve provvedere alla sua messa in sicurezza.
-Ai sensi della Direttiva “RAEE” 2012/19/UE se il componente/apparecchiatura acquistata e contrassegnata con il seguente simbolo 
-del contenitore di spazzatura su ruote barrato, significa che il prodotto alla fine della propria vita utile deve essere raccolto 
-separatamente dagli altri rifiuti. 
+Der Abbruch der Maschine muss qualifiziertem Personal übertragen werden, jeweils im Rahmen seiner Zuständigkeit. Soll die Maschine entsorgt werden, ist sie zu sichern. Gemäß der „WEEE“-Richtlinie 2012/19/EU bedeutet es, wenn das erworbene Bauteil/Gerät mit dem folgenden Symbol der durchgestrichenen Mülltonne auf Rädern gekennzeichnet ist, dass das Produkt am Ende seiner Lebensdauer getrennt von anderen Abfällen gesammelt werden muss.
 
 :::{warning}
-Quando il prodotto raggiunge la fine del suo ciclo di vita, deve essere smaltito in conformità con le normative vigenti relative ai rifiuti di apparecchiature elettriche ed elettroniche (RAEE/WEEE). Si rammenta l’osservanza delle leggi vigenti in materia di smaltimento nel paese di installazione della macchina. 
+Wenn das Produkt das Ende seines Lebenszyklus erreicht, muss es gemäß den geltenden Vorschriften über Elektro- und Elektronik-Altgeräte (WEEE) entsorgt werden. Beachten Sie die geltenden Entsorgungsgesetze des Landes, in dem die Maschine installiert ist.
 :::
 
-### **Componenti soggetti a smaltimento speciale**
+### **Besonders zu entsorgende Bauteile**
 
 :::{note}
-**Componenti soggetti a smaltimento speciale:**
-- Schede elettroniche (VisionController): RAEE categoria 6
-- Camera industriale: RAEE categoria 6
-- Illuminatori a LED: RAEE categoria 5
-- Cavi e connettori: smaltimento con materiali elettrici
+**Besonders zu entsorgende Bauteile:**
+- Elektronikplatinen (VisionController): WEEE-Kategorie 6
+- Industriekamera: WEEE-Kategorie 6
+- LED-Beleuchtungen: WEEE-Kategorie 5
+- Kabel und Steckverbinder: Entsorgung mit Elektromaterial
 :::

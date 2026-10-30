@@ -1,9 +1,180 @@
+<style>
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+@media (max-width: 680px) {
+  .compare-grid { grid-template-columns: 1fr; }
+}
+.compare-card {
+  border: 1px solid #5a9fd4;
+  border-radius: 7px;
+  overflow: hidden;
+  font-size: 0.92rem;
+}
+.compare-card-header {
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.v20 .compare-card-header { background: #1a4a7a; }
+.v30 .compare-card-header { background: #1e6fbf; }
+.compare-card-body {
+  padding: 0.85rem 1rem;
+  text-align: center;
+}
+.compare-card-body p, .compare-card-body li { margin: 0.25rem 0; }
+.compare-card-body ul, .compare-card-body ol { padding-left: 1.2rem; margin: 0.4rem 0; text-align: left; }
+.compare-card-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.5rem 0;
+  font-size: 0.88rem;
+}
+.compare-card-body table th {
+  padding: 0.35rem 0.6rem;
+  text-align: left;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border-bottom: 2px solid #5a9fd4;
+  opacity: 0.75;
+}
+.compare-card-body table td {
+  padding: 0.35rem 0.6rem;
+  border-bottom: 1px solid rgba(90, 159, 212, 0.3);
+}
+.compare-card-body table tr:last-child td { border-bottom: none; }
+</style>
+
 # **Mechanischer Vergleich**
 
-## Gamma modelli
+Diese Seite vergleicht die wichtigsten mechanischen Unterschiede zwischen **FlexiBowl® 2.0** und **FlexiBowl® 3.0** hinsichtlich Abmessungen und Gewicht.
+
+:::{important}
+Bevor Sie den Inhalt dieser Seite lesen, empfiehlt es sich, die Informationen auf der Seite [Mechanische Spezifikationen](dati_meccanici) zu kennen
+:::
+
+---
+
+## 1. Abmessungen und Gewicht
+
+<div class="compare-grid">
+<div class="compare-card v20">
+<div class="compare-card-header">FlexiBowl® 2.0</div>
+<div class="compare-card-body">
+
+<img src="../../../../_shared/media/images/fb_v20.png" width="220"/>
+
+</div>
+</div>
+<div class="compare-card v30">
+<div class="compare-card-header">FlexiBowl® 3.0</div>
+<div class="compare-card-body">
+
+<img src="../../../../_shared/media/images/fb_v30.png" width="220"/>
+
+</div>
+</div>
+</div>
+
+Der FlexiBowl® 3.0 hat ein **kompakteres und schlankeres** Design als die Vorgängergeneration: Bei gleichem Modell ist er in der Regel **leichter** und **niedriger**, mit einer Breitenreduzierung von etwa **5 %**.
 
 
-## Caratteristiche operative per modello
+```{list-table} Gewicht und Höhe je Modell
+:header-rows: 2
+:widths: 24 19 19 19 19
 
+* -
+  - Gewicht
+  -
+  - Höhe (h)
+  -
+* -
+  - FB 2.0
+  - FB 3.0
+  - FB 2.0
+  - FB 3.0
+* - **FlexiBowl® 200**
+  - 6 kg
+  - 7 kg
+  - 186 mm
+  - 186 mm
+* - **FlexiBowl® 350**
+  - 25 kg
+  - 14 kg
+  - 299,5 mm
+  - 203 mm
+* - **FlexiBowl® 500**
+  - 42 kg
+  - 35 kg
+  - 296 mm
+  - 217 mm
+* - **FlexiBowl® 500E**
+  - 42 kg
+  - 35 kg
+  - 296 mm
+  - 217 mm
+* - **FlexiBowl® 650**
+  - 54 kg
+  - 51 kg
+  - 296 mm
+  - 217 mm
+* - **FlexiBowl® 800**
+  - 71 kg
+  - 67 kg
+  - 296 mm
+  - 217 mm
+* - **FlexiBowl® 1200**
+  - 170 kg
+  - 144 kg
+  - 328 mm
+  - 248 mm
+```
 
-## Dimensioni costruttive 
+---
+(interasse-fori-2-3)=
+## 2. Befestigungsschnittstelle
+
+:::{warning}
+Der **Achsabstand der Befestigungsbohrungen** des FlexiBowl® 3.0 ist bei allen Baugrößen **anders** als beim FlexiBowl® 2.0. Beim Austausch eines FlexiBowl® 2.0 durch einen FlexiBowl® 3.0 **kann das vorhandene Bohrbild der Auflagefläche nicht wiederverwendet werden**: Es muss ein neues Bohrbild gemäß der Zeichnung der {ref}`mechanischen Schnittstelle <intmec>` angefertigt werden.
+:::
+
+<!--
+```{list-table} Interasse fori di fissaggio per modello
+:header-rows: 1
+:widths: 40 30 30
+
+* - Modello
+  - FB 2.0
+  - FB 3.0
+* - **FlexiBowl® 200**
+  - 
+  - 
+* - **FlexiBowl® 350**
+  - 
+  - 
+* - **FlexiBowl® 500 / 500E**
+  - 
+  - 
+* - **FlexiBowl® 650**
+  - 
+  - 
+* - **FlexiBowl® 800**
+  - 
+  - 
+* - **FlexiBowl® 1200**
+  - 
+  - 
+```
+--> 
+
+---
+## 3. Zusammenfassung
+
+Der FlexiBowl® 3.0 bietet eine kompaktere mechanische Bauweise als die Vorgängergeneration und ist bei gleichem Modell im Allgemeinen leichter, niedriger und etwa 5 % schmaler.
+
+Die genauen Maße der einzelnen Modelle finden Sie auf den jeweiligen Seiten [Mechanische Spezifikationen](dati_meccanici) des FlexiBowl® 2.0 und 3.0.

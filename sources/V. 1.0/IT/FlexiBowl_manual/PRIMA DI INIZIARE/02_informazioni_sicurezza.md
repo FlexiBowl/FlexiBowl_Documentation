@@ -12,7 +12,7 @@ Il rispetto di tutte le norme di sicurezza riportate in questa sezione è obblig
 
 ## Area di sicurezza dell'operatore
 
-Le zone intorno alla macchina vengono suddivise nel seguente modo: 
+Le zone intorno alla macchina vengono suddivise nel seguente modo:
 
 :::{list-table}
 :widths: 20 60
@@ -21,14 +21,14 @@ Le zone intorno alla macchina vengono suddivise nel seguente modo:
 * - Termine
   - Descrizione
 
-* - Zone di comando 
-  - Sono le zone in cui l’utilizzatore e gli altri operatori possono eseguire le operazioni di comando e controllo delle funzioni cicliche della macchina (“postazione di guida”), sia in automatico che in semiautomatico, agendo sugli appositi pannelli di comando o per l’esecuzione delle operazioni manuali. 
+* - Zone di comando
+  - Sono le zone in cui l’utilizzatore e gli altri operatori possono eseguire le operazioni di comando e controllo delle funzioni cicliche della macchina (“postazione di guida”), sia in automatico che in semiautomatico, agendo sugli appositi pannelli di comando o per l’esecuzione delle operazioni manuali.
 
-* - Zone di manutenzione/regolazione 
-  - Sono le zone in cui i manutentori meccanici possono eseguire le operazioni di manutenzione o regolazione. Queste zone sono considerate a rischio e non accessibili durante il normale funzionamento della macchina. Gli operatori devono essere perfettamente a conoscenza delle avvertenze riguardante la sicurezza e dei dispositivi individuali da indossare. 
+* - Zone di manutenzione/regolazione
+  - Sono le zone in cui i manutentori meccanici possono eseguire le operazioni di manutenzione o regolazione. Queste zone sono considerate a rischio e non accessibili durante il normale funzionamento della macchina. Gli operatori devono essere perfettamente a conoscenza delle avvertenze riguardante la sicurezza e dei dispositivi individuali da indossare.
 
 * - Zone pericolose
-  - Sono considerate tali tutte le zone all’interno (o circostanti) alla macchina con la presenza di rischi residui che possono provocare danni alle persone. In queste zone è vietato l’accesso a chiunque, durante il funzionamento della macchina. 
+  - Sono considerate tali tutte le zone all’interno (o circostanti) alla macchina con la presenza di rischi residui che possono provocare danni alle persone. In queste zone è vietato l’accesso a chiunque, durante il funzionamento della macchina.
 
 :::
 
@@ -37,11 +37,7 @@ I pericoli ed i rischi esistenti in queste zone sono protetti, per quanto possib
 (dpi)=
 ## Dispositivi di protezione individuale (D.P.I.)
 
-Quando si opera vicino al FlexiBowl®, sia per le operazioni di montaggio, che per quelle di manutenzione e/o regolazione, bisogna 
-strettamente attenersi alle norme generali antinfortunistiche, per questo sarà importante utilizzare i dispositivi di protezione 
-individuale (D.P.I.) richiesti per ogni singola operazione. 
-Riportiamo l’elenco completo dei dispositivi di protezione individuale (D.P.I.) che potranno essere richiesti per le diverse 
-procedure: 
+Quando si opera vicino al FlexiBowl®, sia per le operazioni di montaggio, che per quelle di manutenzione e/o regolazione, bisogna strettamente attenersi alle norme generali antinfortunistiche, per questo sarà importante utilizzare i dispositivi di protezione individuale (D.P.I.) richiesti per ogni singola operazione. Riportiamo l’elenco completo dei dispositivi di protezione individuale (D.P.I.) che potranno essere richiesti per le diverse procedure:
 
 :::: {list-table}
 :header-rows: 1
@@ -57,7 +53,7 @@ procedure:
 
   - **Obbligo ad utilizzare guanti protettivi o isolanti.**
 
-    Indica una prescrizione per il personale di utilizzare guanti protettivi o isolanti. 
+    Indica una prescrizione per il personale di utilizzare guanti protettivi o isolanti.
 
 * - ::: {figure} ../../../../_shared/media/images/occhiali.png
     :align: center
@@ -66,7 +62,7 @@ procedure:
 
   - **Obbligo ad utilizzare occhiali di protezione.**
 
-    Indica una prescrizione per il personale di utilizzare occhiali protettivi per gli occhi. 
+    Indica una prescrizione per il personale di utilizzare occhiali protettivi per gli occhi.
 
 * - ::: {figure} ../../../../_shared/media/images/scarpe.png
     :align: center
@@ -75,7 +71,7 @@ procedure:
 
   - **Obbligo ad utilizzare scarpe antinfortunistiche.**
 
-    Indica una prescrizione per il personale di utilizzare scarpe antinfortunistiche a protezione dei piedi. 
+    Indica una prescrizione per il personale di utilizzare scarpe antinfortunistiche a protezione dei piedi.
 
 * - ::: {figure} ../../../../_shared/media/images/rumore.png
     :align: center
@@ -84,7 +80,7 @@ procedure:
 
   - **Obbligo ad utilizzare dispositivi di protezione dal rumore.**
 
-    Indica una prescrizione per il personale di utilizzare cuffie o tappi isolanti a protezione dell'udito. 
+    Indica una prescrizione per il personale di utilizzare cuffie o tappi isolanti a protezione dell'udito.
 
 * - ::: {figure} ../../../../_shared/media/images/tuta.png
     :align: center
@@ -93,7 +89,7 @@ procedure:
 
   - **Obbligo ad utilizzare indumenti protettivi.**
 
-    Indica una prescrizione per il personale di utilizzare specifici indumenti protettivi. 
+    Indica una prescrizione per il personale di utilizzare specifici indumenti protettivi.
 
 * - ::: {figure} ../../../../_shared/media/images/casco.png
     :align: center
@@ -102,7 +98,7 @@ procedure:
 
   - **Obbligo ad utilizzare un elmetto protettivo.**
 
-    Indica una prescrizione per il personale di utilizzare un elmetto a protezione della testa. 
+    Indica una prescrizione per il personale di utilizzare un elmetto a protezione della testa.
 
 * - ::: {figure} ../../../../_shared/media/images/manuale.png
     :align: center
@@ -111,11 +107,11 @@ procedure:
 
   - **Obbligo consultare il manuale/libretto delle istruzioni.**
 
-    Indica una prescrizione per il personale di consultare (e comprendere) le istruzioni d’uso e di avvertenza della macchina prima di operare con essa. 
+    Indica una prescrizione per il personale di consultare (e comprendere) le istruzioni d’uso e di avvertenza della macchina prima di operare con essa.
 
 ::::
 
-L’abbigliamento di chi opera o effettua manutenzione sulla linea deve essere conforme ai requisiti essenziali di sicurezza definiti dal **Reg. UE 2016/425** e alle leggi vigenti nel paese in cui la stessa viene installata. 
+L’abbigliamento di chi opera o effettua manutenzione sulla linea deve essere conforme ai requisiti essenziali di sicurezza definiti dal **Reg. UE 2016/425** e alle leggi vigenti nel paese in cui la stessa viene installata.
 
 ## Dispositivi di sicurezza
 
@@ -149,14 +145,11 @@ Allo scopo di garantire una totale sicurezza dell’operatore e impedire l’acc
 :::
 
 :::{warning}
-A causa della presenza di sporgenze appuntite sulle superfici o dischi rigidi con Spike, l’operatore potrebbe essere esposto 
-al pericolo di abrasione e/o taglio in caso di contatto con esse. Indossare gli opportuni D.P.I. in caso di operazioni 
-nelle vicinanze di tali superfici o dischi rigidi.
+A causa della presenza di sporgenze appuntite sulle superfici o dischi rigidi con Spike, l’operatore potrebbe essere esposto al pericolo di abrasione e/o taglio in caso di contatto con esse. Indossare gli opportuni D.P.I. in caso di operazioni nelle vicinanze di tali superfici o dischi rigidi.
 :::
 
 :::{warning}
-In caso di emergenza, togliere l’alimentazione connessa al pannello comandi per disabilitare in sicurezza i 
-comandi del FlexiBowl®.
+In caso di emergenza, togliere l’alimentazione connessa al pannello comandi per disabilitare in sicurezza i comandi del FlexiBowl®.
 :::
 
 ## Pericoli e rischi
@@ -169,7 +162,7 @@ La relazione completa è contenuta nella documentazione perntinente la quasi mac
 Le misure sono state effettuate in 3 differenti condizioni operative:
 
 - FlexiBowl in funzione (MOVE, SHAKE, FLIP) senza la presenza di componenti (“funzionamento a vuoto”);
-- FlexiBowl in funzione (MOVE, SHAKE, FLIP) con la presenza di componenti sul disco rotante, componenti in plastica rigida; 
+- FlexiBowl in funzione (MOVE, SHAKE, FLIP) con la presenza di componenti sul disco rotante, componenti in plastica rigida;
 - FlexiBowl in funzione (MOVE, SHAKE, FLIP) con la presenza di componenti sul disco rotante, componenti in metallo;
 
 Durante i cicli di funzionamento a vuoto, il livello di pressione acustica continuo equivalente ponderato A nel posto di lavoro è pari a 73.3 dB(A). Per i cicli di funzionamento con componenti, dato che il livello di pressione acustica dell'emissione ponderato A nei posti di lavoro supera 80 dB(A), si riporta nella tabella seguente anche il livello di potenza acustica ponderato A emesso dalla macchina.
@@ -204,12 +197,11 @@ Durante i cicli di funzionamento a vuoto, il livello di pressione acustica conti
 
 :::
 
-Il livello di rumore effettivo della macchina installata durante il funzionamento presso il sito in un processo produttivo potrebbe 
-essere diverso da quello sopra riportato poiché il rumore è influenzato da vari fattori quali:
+Il livello di rumore effettivo della macchina installata durante il funzionamento presso il sito in un processo produttivo potrebbe essere diverso da quello sopra riportato poiché il rumore è influenzato da vari fattori quali:
 
-- componenti movimentati dal FlexiBowl e parametri operativi;  
-- tipo e caratteristiche del sito; 
-- caratteristiche della macchina su cu il FlexiBowl® è integrato; 
+- componenti movimentati dal FlexiBowl e parametri operativi;
+- tipo e caratteristiche del sito;
+- caratteristiche della macchina su cu il FlexiBowl® è integrato;
 - altre macchine adiacenti in funzione.
 
 ::::{warning}
@@ -297,10 +289,7 @@ Il pianale superiore del telaio può presentare una zona calda ampia circa quant
 
 :::{raw} html
 <p class="centered-params">
-  Move 90° <br>
-  Pause 1000 ms <br>
-  Shake +45° -45° <br>
-  Pause 1000 ms
+  Move 90° <br> Pause 1000 ms <br> Shake +45° -45° <br> Pause 1000 ms
 </p>
 :::
 
@@ -308,8 +297,7 @@ Il pianale superiore del telaio può presentare una zona calda ampia circa quant
 
 ### Vibrazioni
 
-Le vibrazioni prodotte dalla macchina, in funzione delle modalità di conduzione della stessa, non sono pericolose alla salute degli 
-operatori.
+Le vibrazioni prodotte dalla macchina, in funzione delle modalità di conduzione della stessa, non sono pericolose alla salute degli operatori.
 
 :::{warning}
 Un’ eccessiva vibrazione può solo essere causata da un guasto meccanico che deve essere immediatamente segnalato ed eliminato, per non pregiudicare la sicurezza della linea e degli operatori.
@@ -329,14 +317,13 @@ Eventuali attività manutentive sull’apparecchiatura elettrica realizzate in m
 
 La progettazione della macchina è stata eseguita in modo da garantire i requisiti essenziali di sicurezza per l’operatore. La sicurezza, per quanto possibile, è stata integrata nel progetto e nella costruzione della macchina; tuttavia permangono rischi dai quali gli operatori devono essere protetti soprattutto in fase di:
 
-- trasporto e installazione; 
-- funzionamento normale; 
-- regolazione e messa a punto, 
-- manutenzione e pulizia; 
+- trasporto e installazione;
+- funzionamento normale;
+- regolazione e messa a punto,
+- manutenzione e pulizia;
 - smontaggio e smantellamento.
 
-Di seguito per ogni rischio residuo viene fornita una descrizione, la zona o parte di macchina oggetto del rischio (a meno che non 
-ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo evitare:
+Di seguito per ogni rischio residuo viene fornita una descrizione, la zona o parte di macchina oggetto del rischio (a meno che non ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo evitare:
 
 :::{raw} html
 <style>
@@ -441,8 +428,7 @@ ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo 
         </div>
       </td>
       <td>
-        A causa della presenza di sporgenze appuntite sui <strong>"Rotary Disc"</strong> con Spike, l'operatore potrebbe essere esposto al pericolo di abrasione e/o taglio in caso di contatto con esse.<br>
-        Indossare gli opportuni D.P.I. in caso di operazioni nelle vicinanze di tali <strong>"Rotary Disc"</strong>.
+        A causa della presenza di sporgenze appuntite sui <strong>"Rotary Disc"</strong> con Spike, l'operatore potrebbe essere esposto al pericolo di abrasione e/o taglio in caso di contatto con esse.<br> Indossare gli opportuni D.P.I. in caso di operazioni nelle vicinanze di tali <strong>"Rotary Disc"</strong>.
       </td>
     </tr>
     <tr>
@@ -455,8 +441,7 @@ ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo 
         </div>
       </td>
       <td>
-        Le operazioni di accesso e manutenzione della macchina espongono gli operatori al rischio elettrico. Gli interventi sulle apparecchiature sotto tensione devono essere effettuati esclusivamente da personale esperto e qualificato.<br>
-        Si raccomandano le seguenti misure di sicurezza:
+        Le operazioni di accesso e manutenzione della macchina espongono gli operatori al rischio elettrico. Gli interventi sulle apparecchiature sotto tensione devono essere effettuati esclusivamente da personale esperto e qualificato.<br> Si raccomandano le seguenti misure di sicurezza:
         <ul>
             <li>prestare la massima attenzione ai pittogrammi di sicurezza relativi al rischio elettrico;</li>
             <li>non effettuare interventi di manutenzione senza aver preventivamente sezionato l'energia elettrica;</li>
@@ -488,8 +473,7 @@ ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo 
         </div>
       </td>
       <td>
-        Al termine del ciclo di lavoro potrebbero restare sul <strong>"Rotary Disc"</strong> della macchina una serie di residui delle parti alimentate o accumuli di polveri.<br>
-        Procedere ad un'accurata pulizia del <strong>"Rotary Disc"</strong> dopo ogni utilizzo, come descritto all'interno del cap.7 del presente manuale.
+        Al termine del ciclo di lavoro potrebbero restare sul <strong>"Rotary Disc"</strong> della macchina una serie di residui delle parti alimentate o accumuli di polveri.<br> Procedere ad un'accurata pulizia del <strong>"Rotary Disc"</strong> dopo ogni utilizzo, come descritto all'interno del cap.7 del presente manuale.
       </td>
     </tr>
   </tbody>
@@ -497,23 +481,17 @@ ne sia oggetto tutta la macchina) e le informazioni procedurali su come poterlo 
 :::
 
 :::{warning}
-Non effettuare attività di manutenzione e pulizia se prima non si è provveduto a de-energizzare le energie 
-presenti.
+Non effettuare attività di manutenzione e pulizia se prima non si è provveduto a de-energizzare le energie presenti.
 :::
 
 :::{warning}
-È assolutamente vietato rimuovere le protezioni di sicurezza installate sulla macchina o aprire i ripari fissi senza 
-prima aver sezionato l’alimentazione elettrica e pneumatica della macchina.
+È assolutamente vietato rimuovere le protezioni di sicurezza installate sulla macchina o aprire i ripari fissi senza prima aver sezionato l’alimentazione elettrica e pneumatica della macchina.
 :::
 
-Sarà cura dell’utilizzatore provvedere a: 
-- analizzare i rischi che potrebbero verificarsi durante una fase di movimentazione e di installazione all’interno della 
-propria sede (le analisi fatte sulla movimentazione della macchina sono state fatte solo in considerazioni delle 
-caratteristiche della stessa); 
-- sensibilizzare ed istruire il personale addetto alle operazioni sulle postazioni di lavoro e il personale addetto alla 
-conduzione della macchina; 
-- applicare le segnaletiche visive di sicurezza nell’ambiente di lavoro dopo aver valutato i rischi all’interno delle aree di 
-transito o di comando.
+Sarà cura dell’utilizzatore provvedere a:
+- analizzare i rischi che potrebbero verificarsi durante una fase di movimentazione e di installazione all’interno della propria sede (le analisi fatte sulla movimentazione della macchina sono state fatte solo in considerazioni delle caratteristiche della stessa);
+- sensibilizzare ed istruire il personale addetto alle operazioni sulle postazioni di lavoro e il personale addetto alla conduzione della macchina;
+- applicare le segnaletiche visive di sicurezza nell’ambiente di lavoro dopo aver valutato i rischi all’interno delle aree di transito o di comando.
 
 ## Pittogrammi di sicurezza apllicati alla macchina
 
@@ -532,7 +510,7 @@ Nella tabella di seguito sono elencati i pittogrammi presenti sulla macchina, so
     :::
   - **PERICOLO! SOLO IL PERSONALE AUTORIZZATO PUÒ ESEGUIRE LAVORI DI MANUTENZIONE O RIPARAZIONE.**
 
-    Indica un divieto ad eseguire lavori di manutenzione o riparazione a personale non autorizzato. 
+    Indica un divieto ad eseguire lavori di manutenzione o riparazione a personale non autorizzato.
 
 * - :::{figure} ../../../../_shared/media/images/disconnettere.png
     :width: 80%

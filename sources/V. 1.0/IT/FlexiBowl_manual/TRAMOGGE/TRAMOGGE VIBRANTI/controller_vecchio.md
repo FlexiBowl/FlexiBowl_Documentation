@@ -1,4 +1,4 @@
-# Vecchio Controller
+# **Vecchio Controller**
 ## Controller standard
 
 #### Connessioni elettriche e setup controller
@@ -38,9 +38,9 @@ Per eseguire l'avviamento, procedere come descritto:
 
 ![Controller con Puntatori](../../../../../_shared/media/images/controller_puntatori.png)
 
-Per rispetto della normativa EMC il circuito è dotato di filtro con correnti di perdita verso terra inferiore a 1 mA.  
- Il circuito fornisce al vibratore un segnale PWM (modulazione in larghezza di impulso) regolabile in ampiezza e in frequenza, compensato rispetto alle variazioni della tensione di linea.  
-  La sezione di controllo è isolata galvanicamente dalla sezione di potenza.  
+Per rispetto della normativa EMC il circuito è dotato di filtro con correnti di perdita verso terra inferiore a 1 mA.
+ Il circuito fornisce al vibratore un segnale PWM (modulazione in larghezza di impulso) regolabile in ampiezza e in frequenza, compensato rispetto alle variazioni della tensione di linea.
+  La sezione di controllo è isolata galvanicamente dalla sezione di potenza.
    All'accensione il circuito attende qualche secondo prima di abilitare il vibratore.
 
 Il circuito è controllato da microprocessore ed è dotato di limitazione della corrente in uscita tramite fusibile F4 (4 A).
@@ -78,7 +78,7 @@ I trimmer sulla scheda permettono di adattare il comportamento del vibratore all
 - **TR5** — ritardo aggiuntivo in avvio
 - **TR6** — ampiezza minima
 
-Il vibratore può essere bloccato e riavviato tramite comando esterno su **CONN3**, compatibile con contatto pulito, sensore NPN/PNP o uscita 0–24 V, con o senza i ritardi configurati.  
+Il vibratore può essere bloccato e riavviato tramite comando esterno su **CONN3**, compatibile con contatto pulito, sensore NPN/PNP o uscita 0–24 V, con o senza i ritardi configurati.
  Tramite **DP1** è possibile selezionare la logica diritta o negata del segnale ON/OFF.
 
 **Configurazione standard consigliata da ARS**
@@ -135,9 +135,9 @@ Per eseguire l'avviamento, procedere come descritto e fare riferimento all'immag
   </div>
 </div>
 
-Per rispetto della normativa EMC il circuito è dotato di filtro con correnti di perdita verso terra inferiore a 1 mA.  
- Il circuito fornisce al vibratore un segnale PWM regolabile in ampiezza tramite segnale analogico e in frequenza tramite il trimmer **TR1**.  
-  Il segnale è compensato rispetto alle variazioni della tensione di linea. La sezione di controllo è isolata galvanicamente dalla sezione di potenza.  
+Per rispetto della normativa EMC il circuito è dotato di filtro con correnti di perdita verso terra inferiore a 1 mA.
+ Il circuito fornisce al vibratore un segnale PWM regolabile in ampiezza tramite segnale analogico e in frequenza tramite il trimmer **TR1**.
+  Il segnale è compensato rispetto alle variazioni della tensione di linea. La sezione di controllo è isolata galvanicamente dalla sezione di potenza.
    All'accensione il circuito attende qualche secondo prima di abilitare il vibratore.
 
 Il circuito è controllato da microprocessore ed è dotato di limitazione della corrente in uscita tramite fusibile F4 (4 A).
@@ -176,8 +176,8 @@ I trimmer sulla scheda permettono di adattare il comportamento del vibratore all
 - **TR6** — rampa all'accensione del vibratore (0 ÷ 3 sec)
 - **TR7** — ampiezza massima sul vibratore
 
-Il vibratore può essere bloccato e riavviato tramite comando esterno su **CONN3**, compatibile con contatto pulito, sensore NPN/PNP o uscita 0–24 V, con o senza i ritardi configurati.  
- Tramite **DP1** è possibile selezionare la logica NC o NO del segnale ON/OFF.    
+Il vibratore può essere bloccato e riavviato tramite comando esterno su **CONN3**, compatibile con contatto pulito, sensore NPN/PNP o uscita 0–24 V, con o senza i ritardi configurati.
+ Tramite **DP1** è possibile selezionare la logica NC o NO del segnale ON/OFF.
  L'ampiezza di vibrazione si regola impostando la tensione analogica appropriata su **CONN7**.
 
 **Configurazione standard consigliata da ARS**

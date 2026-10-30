@@ -1,1 +1,1 @@
-# **Remplacement des blocs d'alimentation**
+# **Remplacement des alimentations**

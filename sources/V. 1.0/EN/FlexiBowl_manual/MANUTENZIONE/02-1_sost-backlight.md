@@ -1,5 +1,5 @@
 (sostbl)=
-# [MEC] **Backlight Replacement**
+# **Replacing the Backlight**
 
 :::::{important}
 
@@ -38,12 +38,12 @@ Some parts involved in the maintenance process described here may have reached {
 :::
 
 :::{important}
-The infrared Backlight emits invisible light and may therefore appear not to be working. Check with an infrared camera to verify its operation.
+The infrared Backlight emits invisible light and may therefore appear not to be working. Check with an infrared camera to verify that it works.
 
 **Note:** Most smartphones can display infrared.
 :::
 
-## What you need
+## What is needed?
 
 :::{list-table}
 :widths: 40 40
@@ -69,10 +69,10 @@ The infrared Backlight emits invisible light and may therefore appear not to be 
 |:----:|-----------|
 | 1 | {ref}`Remove the surface or rigid disc <sost-disco>` |
 | 2 | Remove the protective glass of the illuminator (use the dedicated side pockets) |
-| 3 | Remove the screws that fix the illuminator board to its seat |
-| 4 | Extract the illuminator board and disconnect its connector |
+| 3 | Remove the screws fixing the illuminator board to its seat |
+| 4 | Pull out the illuminator board and disconnect its connector |
 | 5 | Connect the new board and fit it in the correct position |
-| 6 | Once the replacement is finished, refit all the components |
+| 6 | When the replacement is finished, refit all the components |
 
 ::::{raw} html
 <figure style="text-align: center;">
@@ -88,6 +88,6 @@ The infrared Backlight emits invisible light and may therefore appear not to be 
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Backlight replacement procedure shown on FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Backlight replacement procedure illustrated on a FlexiBowl® 800</i></figcaption>
 </figure>
 ::::

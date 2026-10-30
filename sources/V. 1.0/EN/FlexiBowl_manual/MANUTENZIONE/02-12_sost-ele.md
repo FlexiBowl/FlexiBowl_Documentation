@@ -1,4 +1,4 @@
-# [ELE] **Replacement of Electronic Components**
+# **Replacing the Electronic Components**
 
 :::::{important}
 
@@ -33,15 +33,15 @@
       <img src="../../../../_shared/media/images/corrente.png" style="width: 50px; height: auto;">
     </td>
     <td style="width: 90%; border: none; vertical-align: middle; background: transparent !important; padding-left: 15px;">
-      Disconnect the electrical power supply before carrying out any operation inside the FlexiBowl®.
+      Disconnect the electrical power supply before performing any operation inside the FlexiBowl®.
     </td>
   </tr>
 </table>
 ::::
 
-## Replacement of the main electronic parts
+## Replacing the main electronic parts
 
-In the smaller sizes the electronics are all contained in the rack, so it is sufficient to remove the top panel to access all the components. In FlexiBowl® units of size 500 or larger, instead, all the parts are contained in the machine.
+In the smaller sizes all the electronics are contained in the rack, so it is sufficient to remove the top panel to access all the components. In FlexiBowl® units of size 500 or larger, on the other hand, all the parts are contained inside the machine.
 
 :::{raw} html
 <style>
@@ -125,17 +125,17 @@ In the smaller sizes the electronics are all contained in the rack, so it is suf
 <script>
 (function(){
 
-  /* ── component data ── */
+  /* ── dati componenti ── */
   var models = {
     rack: {
       imgPath: '../../../../_shared/media/images/inrack',
       imgDefault: '../../../../_shared/media/images/inrack0.PNG',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'PLC assembly and 24V power supply',     desc:'They are fixed on a DIN rail; the PLC modules can be removed individually'},
-        {n:2,  name:'48V power supply',                  desc:'Fixed on a DIN rail'},
-        {n:3,  name:'Board',                            desc:'Its support is fixed to the lower platform by means of two spacers; it also contains the fuses'},
-        {n:4,  name:'Braking resistor',           desc:'Fixed to the lower platform by means of two M4 screws'},
+        {n:1,  name:'PLC unit and 24V power supply',     desc:'They are mounted on a DIN rail; the PLC modules can be removed individually'},
+        {n:2,  name:'48V power supply',                  desc:'Mounted on a DIN rail'},
+        {n:3,  name:'Board',                            desc:'Its support is fixed to the lower plate by means of two spacers; it also contains the fuses'},
+        {n:4,  name:'Braking resistor',           desc:'Fixed to the lower plate with two M4 screws'},
       ]
     },
     fb: {
@@ -143,18 +143,18 @@ In the smaller sizes the electronics are all contained in the rack, so it is suf
       imgDefault: '../../../../_shared/media/images/fbele0.PNG',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'PLC assembly and 24V power supply',     desc:'They are fixed on a DIN rail; the PLC modules can be removed individually'},
-        {n:2,  name:'48V power supply',                  desc:'Fixed on a DIN rail'},
-        {n:3,  name:'Braking resistor',           desc:'Fixed to the lower platform by means of two M4 screws on the FlexiBowl® 500 and by means of four M4 screws on the other sizes'},
+        {n:1,  name:'PLC unit and 24V power supply',     desc:'They are mounted on a DIN rail; the PLC modules can be removed individually'},
+        {n:2,  name:'48V power supply',                  desc:'Mounted on a DIN rail'},
+        {n:3,  name:'Braking resistor',           desc:'Fixed to the lower plate with two M4 screws on the FlexiBowl® 500 and with four M4 screws on the other sizes'},
       ]
     },
   };
 
-  /* ── state per model ── */
+  /* ── stato per modello ── */
   var state = {};
   Object.keys(models).forEach(function(id){ state[id]={activeN:null,activeRow:null}; });
 
-  /* ── build the lists ── */
+  /* ── costruisce le liste ── */
   Object.keys(models).forEach(function(id){
     var m   = models[id];
     var el  = document.getElementById(id+'-list');
@@ -169,7 +169,7 @@ In the smaller sizes the electronics are all contained in the rack, so it is suf
     });
   });
 
-  /* ── toggle component ── */
+  /* ── toggle componente ── */
   function toggle(id, c, row){
     var s       = state[id];
     var m       = models[id];
@@ -220,7 +220,7 @@ In the smaller sizes the electronics are all contained in the rack, so it is suf
 
   /* ── switch tab ── */
   window.fbSwitchTab = function(id, btn){
-    /* reset the currently active panel before switching */
+    /* resetta il pannello attualmente attivo prima di cambiare */
     document.querySelectorAll('.fb-panel.on').forEach(function(p){
       var oldId = p.id.replace('fb-panel-','');
       reset(oldId);
@@ -243,14 +243,14 @@ In FlexiBowl® units of size 500 or larger, the board is anchored to a support f
 :::
 
 :::{note}
-In FlexiBowl® units of size 650 or larger, all the electronics can be accessed from above by removing the backlight illuminator and the central cover of the upper platform. On the FlexiBowl® 500 it may be more convenient to remove the covers in order to access the PLC/24V power supply assembly and the braking resistor from the side.
+In FlexiBowl® units of size 650 or larger, all the electronics are accessible from above by removing the backlight illuminator and the central cover of the upper platform. On the FlexiBowl® 500 it may be more convenient to remove the guards to access the PLC/24V power supply unit and the braking resistor from the side.
 :::
 
 
 (scheda-interfaccia)=
-## Interface board maintenance
+## Maintenance of the interface board
 
-This section describes the operation and replacement procedure of the **interface relays** and the **protection fuses** present on the interface board.
+This section describes the operation and the replacement procedure of the **interface relays** and the **protection fuses** located on the interface board.
 
 The following figure shows the board with the position of the relays and fuses indicated.
 
@@ -261,7 +261,7 @@ The following figure shows the board with the position of the relays and fuses i
 Front view of the interface board
 :::
 
-The rating of each fuse and the reference of each interface relay are printed on the back of the board.
+The rear of the board shows the amperage of each fuse and the reference of each interface relay.
 
 (scheda-interfaccia-retro)=
 ::: {figure} ../../../../_shared/media/images/schedaretro.png
@@ -274,24 +274,24 @@ Rear view: relay references and fuse ratings
 ### Safety warnings
 
 :::{danger}
-**Electrical hazard.** Before working on the interface board, remove power from the machine using the main switch and wait for the capacitors to discharge. Check that no voltage is present with a suitable measuring instrument before touching any component.
+**Electrical hazard.** Before working on the interface board, remove power from the machine using the main switch and wait for the capacitors to discharge. Verify the absence of voltage with a suitable measuring instrument before touching any component.
 :::
 
 During maintenance operations, strictly observe the following instructions:
 
-- the intervention must be carried out exclusively by qualified and trained technical personnel;
+- the work must be carried out exclusively by qualified and trained technical personnel;
 - use suitable personal protective equipment (PPE), including antistatic gloves;
-- avoid dropping tools or foreign objects onto the board during the intervention;
-- do not replace a fuse with one of a different rating from the original;
-- do not force the relays during extraction: if a component is stuck, check that it is correctly latched before proceeding;
-- at the end of the intervention, correctly close the access door/slot before restoring power.
+- avoid dropping tools or foreign objects onto the board during the work;
+- do not replace a fuse with one of a different amperage from the original;
+- do not force the relays during removal: if a component is stuck, check that it is correctly engaged before proceeding;
+- at the end of the work, close the access door/slot properly before restoring power.
 
 ### Board description
 
 (scheda-relè)=
 #### Interface relays
 
-The board is equipped with five interface relays, identified as K1–K5. Relay K1 is a double-changeover electromechanical relay; all the other relays (K2–K5) are solid-state relays.
+The board is equipped with five interface relays, identified by the designations K1–K5. Relay K1 is a double-pole electromechanical relay; all the other relays (K2–K5) are solid-state relays.
 
 :::{list-table}
 :widths: 10 55 35
@@ -301,8 +301,8 @@ The board is equipped with five interface relays, identified as K1–K5. Relay K
   - Function
   - Type
 * - K1
-  - Interface relay for back light
-  - Double-changeover electromechanical
+  - Interface relay for backlight
+  - Double-pole electromechanical
 * - K2
   - Interface relay for flip solenoid valve
   - Solid state
@@ -333,34 +333,34 @@ The board is equipped with nine protection fuses of the *automotive mini* type. 
   - Main power supply
   - 10 A
 * - F2
-  - 24 V power supply — flip solenoid valve, central/radial blow, emptying
+  - 24 V supply — flip, central/radial blow and emptying solenoid valves
   - 7.5 A
 * - F3
-  - STO connector power supply
+  - STO connector supply
   - 2 A
 * - F4
-  - Power supply to customer
+  - Supply to customer
   - 5 A
 * - F5
   - Emptying sensor
   - 2 A
 * - F6
-  - Back light power supply
+  - Backlight supply
   - 7.5 A
 * - F7
-  - Back light power supply
+  - Backlight supply
   - 7.5 A
 * - F8
-  - Motor and driver power supply
+  - Motor and driver supply
   - 5 A
 * - F9
-  - PLC power supply
+  - PLC supply
   - 7.5 A
 :::
 
 ### Required equipment
 
-- Fuse puller for *automotive mini* fuses (or flat-nose tweezers)
+- *Automotive mini* fuse puller (or flat-nose tweezers)
 - Spare fuse kit supplied with the FlexiBowl®
 - Spare relays matching the original reference (K1–K5)
 
@@ -368,37 +368,37 @@ The board is equipped with nine protection fuses of the *automotive mini* type. 
 
 The procedure applies to the replacement of one or more interface relays (K1–K5).
 
-1. Remove power from the machine and check that no voltage is present with the multimeter, as indicated in the safety warnings.
+1. Remove power from the machine and verify the absence of voltage with the multimeter, as indicated in the safety warnings.
 2. Access the interface board through the dedicated opening.
-3. Locate the position of the relay to be replaced by referring to the {ref}`rear view <scheda-interfaccia-retro>` and the {ref}`relay table <scheda-relè>`.
-4. If the relay to be replaced is **K1** (electromechanical), gently extract it from its socket by pulling it upwards without forcing the terminals.
-5. If the relay to be replaced is **K2, K3, K4 or K5** (solid state), extract it with the same care, avoiding bending the contact pins.
-6. Insert the spare relay into the socket, checking that the reference and the orientation exactly match those of the removed component.
+3. Locate the relay to be replaced by referring to the {ref}`rear view <scheda-interfaccia-retro>` and the {ref}`relay table <scheda-relè>`.
+4. If the relay to be replaced is **K1** (electromechanical), gently pull it out of its socket by pulling upwards without forcing the terminals.
+5. If the relay to be replaced is **K2, K3, K4 or K5** (solid state), remove it with the same care, avoiding bending the contact pins.
+6. Insert the spare relay into the socket, checking that the reference and orientation match exactly those of the removed component.
 7. Check that the relay is correctly inserted and stable in the socket.
-8. Close the board access opening.
-9. Restore power and check the correct operation of the function associated with the replaced relay.
+8. Close the board access opening again.
+9. Restore the power supply and check that the function associated with the replaced relay works correctly.
 
 ### Replacing the protection fuses
 
 The procedure applies to the replacement of one or more protection fuses (F1–F9).
 
-1. Remove power from the machine and check that no voltage is present with the multimeter, as indicated in the safety warnings.
+1. Remove power from the machine and verify the absence of voltage with the multimeter, as indicated in the safety warnings.
 2. Open the dedicated access slot to the protection fuses.
 3. Locate the fuse to be replaced by referring to the {ref}`rear view <scheda-interfaccia-retro>` and the {ref}`fuse table <scheda-fusibili>`.
-4. Extract the fuse using the dedicated puller (or tweezers), gripping it without touching the metal parts.
-5. If possible, check the cause of the fuse blowing before proceeding with the replacement.
+4. Remove the fuse using the dedicated puller (or tweezers), gripping it without touching the metal parts.
+5. If possible, determine the cause of the fuse blowing before proceeding with the replacement.
 6. Take from the spare kit an *automotive mini* fuse of the same rating (amperage) indicated in the table.
 7. Insert the new fuse into its seat, checking that it is correctly seated.
-8. Close the access slot.
-9. Restore power and check the correct operation of the circuit protected by the replaced fuse.
+8. Close the access slot again.
+9. Restore the power supply and check that the circuit protected by the replaced fuse works correctly.
 
 :::{caution}
-Never use a fuse with a rating different from the original.
+Never use a fuse of a different rating from the original.
 :::
 
 ### Periodic checks and preventive maintenance
 
-- Periodically check for the absence of signs of overheating or blackening on relays, fuses and sockets.
-- Check that the connectors on the board are correctly engaged.
+- Periodically check for signs of overheating or blackening on relays, fuses and sockets.
+- Check that the connectors on the board are correctly plugged in.
 - Always keep a stock of the spare fuse kit available.
 - Record every replacement carried out (date, component reference, cause) in a maintenance log.

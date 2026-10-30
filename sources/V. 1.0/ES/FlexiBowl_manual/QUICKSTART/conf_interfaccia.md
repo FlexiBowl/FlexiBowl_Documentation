@@ -2,69 +2,69 @@
 
 
 :::{note}
-Se il sistema in uso è **FlexiVision One**, la configurazione viene gestita interamente dalla sua interfaccia dedicata. Non è necessario utilizzare l'interfaccia software FlexiBowl® descritta in questa sezione. Fare riferimento al {ref}`Manuale FlexiVision One <flexivision_one>`.
+Si el sistema utilizado es **FlexiVision One**, la configuración se gestiona íntegramente desde su interfaz dedicada. No es necesario utilizar la interfaz de software FlexiBowl® descrita en esta sección. Consulte el {ref}`Manual de FlexiVision One <flexivision_one>`.
 :::
 
-## Primo avvio
+## Primer arranque
 
-Al primo avvio del sistema, seguire la procedura guidata di seguito per configurare la comunicazione e preparare il FlexiBowl® all'uso.
+En el primer arranque del sistema, siga el procedimiento guiado que se indica a continuación para configurar la comunicación y preparar el FlexiBowl® para su uso.
 
 ::::{list-table}
 :widths: 10 90
 :header-rows: 1
 
-* - Step
-  - Operazione
+* - Paso
+  - Operación
 
 * - 1
-  - Inserire l'**indirizzo IP** del FlexiBowl® nella barra di ricerca del browser per accedere all'interfaccia software.
+  - Introduzca la **dirección IP** del FlexiBowl® en la barra de direcciones del navegador para acceder a la interfaz de software. La dirección IP predeterminada del FlexiBowl® es `192.168.1.10`.
 
 * - 2
-  - Si apre la **Home page**. Selezionare la **lingua** desiderata dal menu a tendina in alto a destra.
+  - Se abre la **página de inicio**. Seleccione el **idioma** deseado en el menú desplegable de la parte superior derecha.
 
 * - 3
-  - Aprire la pagina **Setup** dal menu laterale.
+  - Abra la página **Setup** desde el menú lateral.
 
 * - 4
-  - Cliccare su **Get IP** per leggere i parametri di rete correnti del dispositivo.
+  - Haga clic en **Get IP** para leer los parámetros de red actuales del dispositivo.
 
 * - 5
-  - Inserire il **nuovo indirizzo IP** che si intende assegnare al FlexiBowl® nei campi dedicati, quindi cliccare su **Set IP**.
+  - Introduzca en los campos correspondientes la **nueva dirección IP** que desea asignar al FlexiBowl® y haga clic en **Set IP**.
 
 * - 6
-  - Selezionare il **tipo di comunicazione** desiderato dal menu a tendina. L'opzione predefinita è **TCP Server**.
+  - Seleccione el **tipo de comunicación** deseado en el menú desplegable. La opción predeterminada es **TCP Server**.
 
     :::{note}
-    La modalità **Digital I/O** non è inclusa nella configurazione standard, ma è disponibile come opzione acquistabile separatamente.
+    El modo **Digital I/O** no está incluido en la configuración estándar, pero está disponible como opción que se adquiere por separado.
     :::
 
 * - 7
-  - Cliccare su **Apply** per confermare le impostazioni di comunicazione.
+  - Haga clic en **Apply** para confirmar los ajustes de comunicación.
 
 * - 8
-  - Cliccare su **Reboot** per riavviare il software e rendere effettive le modifiche.
+  - Haga clic en **Reboot** para reiniciar el software y que los cambios surtan efecto.
 
 ::::
 
 :::{important}
-Dopo il reboot, riconnettersi al FlexiBowl® utilizzando il nuovo indirizzo IP impostato al punto 5.
+Tras el reinicio, vuelva a conectarse al FlexiBowl® utilizando la nueva dirección IP establecida en el paso 5.
 :::
 
-## Abilitazione del Backlight (se necessario)
+## Activación del Backlight (si es necesario)
 
-Se è richiesta la calibrazione del sistema di visione, abilitare la retroilluminazione prima di procedere:
+Si se requiere la calibración del sistema de visión, active la retroiluminación antes de continuar:
 
 ::::{list-table}
 :widths: 10 90
 :header-rows: 0
 
 * - 1
-  - Aprire la pagina **Main Command** dal menu laterale.
+  - Abra la página **Main Command** desde el menú lateral.
 
 * - 2
-  - Selezionare **OPTION** dal menu a tendina **"Chose Visualization Page"**.
+  - Seleccione **OPTION** en el menú desplegable **«Chose Visualization Page»**.
 
 * - 3
-  - Attivare il toggle **Backlight 1** e/o **Backlight 2** in base alle necessità.
+  - Active el interruptor **Backlight 1** y/o **Backlight 2** según sea necesario.
 
 ::::

@@ -1,14 +1,14 @@
-# [SOF] **Comparison Overview**
+# **Comparative Overview**
 
-## What is FlexiBowl®
+## What FlexiBowl® is
 
-The FlexiBowl® is a flexible system for feeding components in automated lines using industrial and/or collaborative robots. Thanks to the combination of rotary motion and "flip" pulses, the parts are separated and oriented for picking by the robot, regardless of their geometry, surface or material.
+FlexiBowl® is a flexible system for feeding components in automated lines that use industrial and/or collaborative robots. Thanks to the combination of rotary motion and "flip" impulses, parts are separated and oriented for picking by the robot, regardless of their geometry, surface or material.
 
 These fundamental functional characteristics remain unchanged between version 2.0 and version 3.0.
 
 ---
 
-## Comparison deep-dives
+## Comparative in-depth analysis
 
 ---
 
@@ -119,7 +119,7 @@ These fundamental functional characteristics remain unchanged between version 2.
     }
   </style>
 
-  <!-- Mechanical -->
+  <!-- Meccanica -->
   <div class="cw-step">
     <div class="cw-left">
       <div class="cw-icon"><i class="ph ph-wrench"></i></div>
@@ -130,12 +130,12 @@ These fundamental functional characteristics remain unchanged between version 2.
         Mechanical comparison
       </div>
       <p class="cw-card-desc">
-        Comparison of the construction dimensions (references A–K, backlight area), the available models and the operating capabilities for each size.
+        Comparison of construction dimensions (references A–K, backlight area), available models and operating capabilities for each size.
       </p>
     </a>
   </div>
 
-  <!-- Electrical -->
+  <!-- Elettrica -->
   <div class="cw-step">
     <div class="cw-left">
       <div class="cw-icon"><i class="ph ph-plugs"></i></div>
@@ -146,12 +146,12 @@ These fundamental functional characteristics remain unchanged between version 2.
         Electrical comparison
       </div>
       <p class="cw-card-desc">
-        Comparison of the electrical components: power supply, fuses, interface board, driver and motor in version 2.0; integrated PLC in version 3.0.
+        Comparison of electrical components: power supply, fuses, interface board, driver and motor in version 2.0; integrated PLC in version 3.0.
       </p>
     </a>
   </div>
 
-  <!-- Pneumatic -->
+  <!-- Pneumatica -->
   <div class="cw-step">
     <div class="cw-left">
       <div class="cw-icon"><i class="ph ph-wind"></i></div>
@@ -178,7 +178,7 @@ These fundamental functional characteristics remain unchanged between version 2.
         Software comparison
       </div>
       <p class="cw-card-desc">
-        Comparison of the configuration interface, the management of the motion parameters, the setup wizard and the communication modes.
+        Comparison of the configuration interface, motion parameter management, setup wizard and communication modes.
       </p>
     </a>
   </div>

@@ -50,7 +50,7 @@
 .compare-card-body table tr:last-child td { border-bottom: none; }
 </style>
 
-# [MEC] **Comparativa Meccanica**
+# **Comparativa Meccanica**
 
 Questa pagina confronta le principali differenze meccaniche tra **FlexiBowl® 2.0** e **FlexiBowl® 3.0**, in termini di dimensioni e peso.
 

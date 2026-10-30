@@ -1,1 +1,1 @@
-# **Fehlerbehebung bei Softwareproblemen**
+# **Behebung von Softwareproblemen**

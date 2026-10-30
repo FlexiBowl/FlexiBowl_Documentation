@@ -4,64 +4,68 @@
 :widths: 10 50
 :header-rows: 1
 
-* - Step
-  - Operazione
+* - Étape
+  - Opération
 
 * - 1
-  - Posizionare il FlexiBowl® su di un {ref}`piano stabile <pianale>`. Prestare attenzione al {ref}`trasporto e il sollevamento <transflex>`.
+  - Positionner le FlexiBowl® sur un {ref}`plan stable <pianale>`. Faire attention au {ref}`transport et au levage <transflex>`.
 
 * - 2
-  - Rimuovere le maniglie e fissare correttamente il FlexiBowl® al supporto. La quantità e tipologia di viti necessarie sono riportate nella {ref}`sezione dedicata <intmec>`.
+  - Retirer les poignées et fixer correctement le FlexiBowl® au support. La quantité et le type de vis nécessaires sont indiqués dans la {ref}`section dédiée <intmec>`.
 
 * - 3
-  - Se presenti, rimuovere i golfari:
-    * **FlexiBowl® 500-650-800:**
+  - Le cas échéant, retirez les anneaux de levage :
+    * **FlexiBowl® 500-650-800 :**
 
-      1. Bloccare il supporto girevole dei golfari con una vite M5x12.
+      1. Bloquer le support pivotant des anneaux de levage avec une vis M5x12.
 
-      2. Rimuovere il golfare.
+      2. Retirer l'anneau de levage.
 
-      3. Coprire il foro M8 del golfare con l'apposito tappo.
+      3. Recouvrir le trou M8 de l'anneau de levage avec le bouchon prévu à cet effet.
 
       :::{figure} ../../../../_shared/media/images/golf650.PNG
          :align: center
       :::
 
-    * **FlexiBowl® 1200:**
+    * **FlexiBowl® 1200 :**
 
-      1. Rimuovere il golfare.
+      1. Retirer l'anneau de levage.
 
-      2. Coprire il foro M12 del golfare con l'apposito tappo.
+      2. Recouvrir le trou M12 de l'anneau de levage avec le bouchon prévu à cet effet.
 
 * - 4
-  - {ref}`Montare la superficie o disco rigido <sost-disco>`.
+  - {ref}`Monter la surface ou le disque rigide <sost-disco>`.
 
 * - 5
-  - Procedere con gli {ref}`allacciamenti necessari <intele>`.
+  - Procéder aux {ref}`raccordements nécessaires <intele>`.
 
 ::::
 
-:::{important}
-Lasciare circa {ref}`100mm di spazio <dim800>` per i connettori di alimentazione del FlexiBowl®.
+:::{video} ../../../../_shared/media/videos/installazione_FB800.mp4
+:width: 100%
 :::
 
 :::{important}
-Nell'installazione dei FlexiBowl® 200 e 350, prestare particolare attenzione alle {ref}`specifiche di installazione del rack <rackinstall>`
+Laisser environ {ref}`100 mm d'espace <dim800>` pour les connecteurs d'alimentation du FlexiBowl®.
 :::
 
-## Caratteristiche del piano di appoggio
+:::{important}
+Lors de l'installation des FlexiBowl® 200 et 350, portez une attention particulière aux {ref}`spécifications d'installation du rack <rackinstall>`
+:::
+
+## Caractéristiques du plan d'appui
 
 ::::{important}
-Assicurarsi che la superficie di appoggio della macchina sia piana ed orizzontale, e sia idonea a sostenerne il peso.
+S'assurer que la surface d'appui de la machine est plane et horizontale, et qu'elle est apte à en supporter le poids.
 
-È **fortemente sconsigliato** montare il FlexiBowl® su una porzione a sbalzo del piano macchina. Laddove fosse inevitabile, assicurarsi di irrigidire a sufficienza il piano di appoggio.
+Il est **fortement déconseillé** de monter le FlexiBowl® sur une partie en porte-à-faux du plan de la machine. Lorsque cela est inévitable, s'assurer de rigidifier suffisamment le plan d'appui.
 
 :::{figure} ../../../../_shared/media/images/FB650-nosbalzo.PNG
 :align: center
 :::
 ::::
 
-Per garantire il corretto funzionamento del FlexiBowl® è necessario che il piano di appoggio presenti degli errori di planarità non superiori a 1mm, assemblato orizzontalmente e che sia abbastanza massiccio da non risentire delle vibrazioni dovute al normale funzionamento di FlexiBowl®, robot ed eventuali altre parti mobili presenti nel layout. Delle indicazioni su dimensioni e peso minimi richiesti per il montaggio del FlexiBowl® sono presenti nella tabella sottostante; da questi dati, tenendo conto del materiale utilizzato per il pianale, si può risalire allo spessore minimo richiesto.
+Pour garantir le bon fonctionnement du FlexiBowl®, le plan d'appui doit présenter des défauts de planéité n'excédant pas 1 mm, être monté horizontalement et être suffisamment massif pour ne pas subir les vibrations dues au fonctionnement normal du FlexiBowl®, du robot et des éventuelles autres parties mobiles présentes dans l'implantation. Des indications sur les dimensions et le poids minimaux requis pour le montage du FlexiBowl® figurent dans le tableau ci-dessous ; à partir de ces données, en tenant compte du matériau utilisé pour le plateau, il est possible de déterminer l'épaisseur minimale requise.
 
 :::{figure} ../../../../_shared/media/images/pianali.PNG
 :align: center
@@ -72,9 +76,9 @@ Per garantire il corretto funzionamento del FlexiBowl® è necessario che il pia
 :header-rows: 1
 :stub-columns: 1
 
-* - Modello
-  - Dimensioni pianale AxA [mm]
-  - Peso M [kg]
+* - Modèle
+  - Dimensions du plateau AxA [mm]
+  - Poids M [kg]
 
 * - FlexiBowl® 200
   - ≥ 276x276
@@ -102,9 +106,9 @@ Per garantire il corretto funzionamento del FlexiBowl® è necessario che il pia
 
 :::
 
-## Installazione della scatola rack (per FlexiBowl® 200 e 350)
+## Installation du boîtier rack (pour FlexiBowl® 200 et 350)
 
-Per evitare il surriscaldamento del rack è importante lasciare delle zone di *clearance* intorno ad esso:
+Pour éviter la surchauffe du rack, il est important de laisser des zones de *clearance* autour de celui-ci :
 
 :::{figure} ../../../../_shared/media/images/rackclear.PNG
 :align: center
@@ -114,28 +118,37 @@ Per evitare il surriscaldamento del rack è importante lasciare delle zone di *c
 :widths: 50 50
 :header-rows: 1
 
-* - Quota
-  - Valore
+* - Cote
+  - Valeur
 
-* - Distanza laterale A
+* - Distance latérale A
   - 10mm
 
-* - Distanza superiore B
+* - Distance supérieure B
   - 50mm
 
-* - Distanza frontale C
+* - Distance frontale C
   - 100mm
 
 :::
 
+:::{video} ../../../../_shared/media/videos/installazione_FB200.mp4
+:width: 100%
+:::
+
+
 :::{note}
-È possibile installare due rack uno sopra l'altro a patto che venga rispettata una delle seguenti condizioni:
+Le rack externe pour FlexiBowl® 200 et 350 est de type standard **3U**.
+:::
 
-1. la distanza tra i due sia non inferiore ai 100mm;
+:::{note}
+Il est possible d'installer deux racks l'un au-dessus de l'autre à condition de respecter l'une des conditions suivantes :
 
-2. venga installata una barriera fisica in lamiera o materiale plastico isolante ed autoestinguente, in tal caso la distanza tra il rack inferiore e la parete può essere ridotto a 50mm; per facilitare l'estrazione dell'aria calda si può valutare l'uso di una barriera inclinata verso il lato posteriore del rack.
+1. la distance entre les deux n'est pas inférieure à 100 mm ;
+
+2. une barrière physique en tôle ou en matériau plastique isolant et auto-extinguible est installée ; dans ce cas, la distance entre le rack inférieur et la paroi peut être réduite à 50 mm ; pour faciliter l'évacuation de l'air chaud, on peut envisager l'utilisation d'une barrière inclinée vers l'arrière du rack.
 :::
 
 :::{tip}
-È utile prevedere un sistema di ventilazione posto al di sopra del rack che forzi l'estrazione dell'aria calda che esce dalla superficie superiore, specialmente quando se ne montano più di uno impilati verticalmente.
+Il est utile de prévoir un système de ventilation placé au-dessus du rack, qui force l'évacuation de l'air chaud sortant de la surface supérieure, en particulier lorsque plusieurs racks sont montés empilés verticalement.
 :::

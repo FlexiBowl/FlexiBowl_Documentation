@@ -1,4 +1,4 @@
-# [MEC] **Descrizione Macchina** 
+# **Descrizione Macchina**
 
 <p style="line-height: 1.6; border-left: 4px solid #34495e; padding-left: 15px; margin-bottom: 25px;">
   Le Bulk Feeder sono particolarmente adatte per alimentare e pre-dosare particolari di piccole, medie e grandi dimensioni. Sono azionate da una base lineare vibrante, il cui modello varia a seconda della dimensione della Bulk Feeder stessa.
@@ -170,7 +170,7 @@ La macchina standard è composta dalle seguenti parti fondamentali:
 :::
 
 :::{attention}
-Nel caso di modelli personalizzati i componenti potrebbero differire, parzialmente o totalmente, da quelli indicati. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto. 
+Nel caso di modelli personalizzati i componenti potrebbero differire, parzialmente o totalmente, da quelli indicati. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto.
 :::
 
 ## Componenti e Funzionamento
@@ -183,7 +183,7 @@ Nel caso di modelli personalizzati i componenti potrebbero differire, parzialmen
 
 ## Uso Previsto 
 
-La Bulk Feeder è disponibile in sei modelli base. Modelli personalizzati, derivanti da quelli di base ma differenti dal punto di vista dimensionale e prestazionale, sono realizzabili previo confronto con le richieste dell’utilizzatore. 
+La Bulk Feeder è disponibile in sei modelli base. Modelli personalizzati, derivanti da quelli di base ma differenti dal punto di vista dimensionale e prestazionale, sono realizzabili previo confronto con le richieste dell’utilizzatore.
 
 :::{note} 
 **Nota di validità:** Le informazioni contenute nel presente manuale sono da ritenersi valide anche per modelli di natura personalizzata.
@@ -201,7 +201,7 @@ La Bulk Feeder è disponibile in sei modelli base. Modelli personalizzati, deriv
 | **Modello 6** | 40 litri | 15 kg |
 
 
-La macchina in oggetto è destinata ad uso industriale per: 
+La macchina in oggetto è destinata ad uso industriale per:
 
 ::::{list-table}
 :widths: 25 25 25 25
@@ -272,7 +272,7 @@ Per maggiori informazioni sulla tipologia di componentistica consentita, consult
 </div>
 
 :::{warning}
-Qualsiasi altro impiego della macchina rispetto a quello previsto deve essere preventivamente autorizzato per iscritto dal Costruttore. In mancanza di tale autorizzazione scritta, l’impiego è da considerare “uso improprio”; pertanto il Costruttore declina ogni responsabilità in relazione ai danni eventualmente provocati a cose o persone e ritiene decaduta ogni tipo di garanzia sulla macchina.  
+Qualsiasi altro impiego della macchina rispetto a quello previsto deve essere preventivamente autorizzato per iscritto dal Costruttore. In mancanza di tale autorizzazione scritta, l’impiego è da considerare “uso improprio”; pertanto il Costruttore declina ogni responsabilità in relazione ai danni eventualmente provocati a cose o persone e ritiene decaduta ogni tipo di garanzia sulla macchina.
 :::
 
 :::{important}
@@ -340,9 +340,9 @@ In particolare, il personale non deve:
 </div>
 
 :::{attention}
-ARS S.r.l. non risponde per danni causati a cose o persone nel caso:  
-•	si accerti che la macchina sia stata utilizzata in uno degli ambienti non ammessi;  
-•	non siano stati rispettati gli obblighi ed i divieti qui descritti.  
+ARS S.r.l. non risponde per danni causati a cose o persone nel caso:
+•	si accerti che la macchina sia stata utilizzata in uno degli ambienti non ammessi;
+•	non siano stati rispettati gli obblighi ed i divieti qui descritti.
 :::
 
 ## Dati Tecnici 
@@ -386,7 +386,7 @@ ARS S.r.l. non risponde per danni causati a cose o persone nel caso:
 | Peso netto corrispondente | 2 Kg | 11 Kg | 24 Kg | 26 Kg | 28 Kg | 38 Kg |
 
 :::{attention}
-Nel caso di modelli personalizzati i valori indicati potrebbero differire da quelli in tabella. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto. 
+Nel caso di modelli personalizzati i valori indicati potrebbero differire da quelli in tabella. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto.
 :::
 
 ## Layout 
@@ -402,7 +402,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
 | E | 350 mm | 515 mm | 515 mm | 690 mm | 780 mm | 780 mm |
 
 :::{attention}
-Nel caso di modelli personalizzati i valori indicati potrebbero differire da quelli in tabella. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto. 
+Nel caso di modelli personalizzati i valori indicati potrebbero differire da quelli in tabella. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto.
 :::
 
 

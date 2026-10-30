@@ -1,115 +1,116 @@
+
 # **Main Command**
 
-## Panoramica
+## Übersicht
 
-La pagina **Main Command** è la sezione operativa principale dell'interfaccia software FlexiBowl®. Consente all'operatore di configurare e testare i parametri di movimento e delle opzioni accessorie del sistema.
+Die Seite **Main Command** ist der wichtigste Betriebsbereich der FlexiBowl®-Software-Oberfläche. Sie ermöglicht es dem Bediener, die Bewegungsparameter und die Zubehöroptionen des Systems zu konfigurieren und zu testen.
 
-La pagina è suddivisa in **tre sottopagine**, selezionabili tramite il menu a tendina centrale posizionato sotto la barra di navigazione, etichettato **"Chose Visualization Page"**:
+Die Seite ist in **drei Unterseiten** gegliedert, die über das zentrale Dropdown-Menü unterhalb der Navigationsleiste mit der Bezeichnung **„Chose Visualization Page“** ausgewählt werden können:
 
-| Sottopagina | Descrizione sintetica |
+| Unterseite | Kurzbeschreibung |
 |---|---|
-| **OPTION** | Parametri per flip, blow e retroilluminazione |
-| **MOVE** | Parametri per il movimento rotatorio del FlexiBowl® |
-| **SHAKE** | Parametri per il movimento oscillatorio del FlexiBowl® |
+| **OPTION** | Parameter für Flip, Blow und Hintergrundbeleuchtung |
+| **MOVE** | Parameter für die Drehbewegung des FlexiBowl® |
+| **SHAKE** | Parameter für die Schwingbewegung des FlexiBowl® |
 
 ---
 
-## Sottopagina: OPTION
+## Unterseite: OPTION
 
-La sottopagina **OPTION** raccoglie i parametri relativi alle funzioni accessorie del FlexiBowl®: il sistema di ribaltamento dei componenti (flip), il sistema di soffiaggio (blow) e la retroilluminazione (backlight).
-![pagina option](../../../../_shared/media/images/main_command_option.png)
+Die Unterseite **OPTION** fasst die Parameter der Zusatzfunktionen des FlexiBowl® zusammen: das System zum Umkippen der Bauteile (Flip), das Blassystem (Blow) und die Hintergrundbeleuchtung (Backlight).
+![Seite Option](../../../../_shared/media/images/main_command_option.png)
 
-| Parametro | Unità | Descrizione |
+| Parameter | Einheit | Beschreibung |
 |---|---|---|
-| **Flip Pressure** | Bar  | Pressione dell'aria utilizzata per l'attuazione del flip. Regolabile tramite slider |
-| **Flip Count** | N°  | Numero di flip eseguiti in sequenza durante un ciclo |
-| **Flip Delay** | ms  | Intervallo di tempo tra un flip e il successivo |
-| **Blow Pressure** | Bar  | Pressione dell'aria utilizzata per il soffiaggio dei componenti sul FlexiBowl® |
-| **Blow Time** | ms  | Durata dell'impulso di soffiaggio |
+| **Flip Pressure** | Bar  | Luftdruck für die Betätigung des Flips. Über Schieberegler einstellbar |
+| **Flip Count** | Nr.  | Anzahl der nacheinander während eines Zyklus ausgeführten Flips |
+| **Flip Delay** | ms  | Zeitintervall zwischen einem Flip und dem nächsten |
+| **Blow Pressure** | Bar  | Luftdruck für das Anblasen der Bauteile auf dem FlexiBowl® |
+| **Blow Time** | ms  | Dauer des Blasimpulses |
 
-Ogni parametro è regolabile tramite uno **slider orizzontale**; il valore corrente è visualizzato nel riquadro numerico a destra dello slider.
+Jeder Parameter ist über einen **horizontalen Schieberegler** einstellbar; der aktuelle Wert wird im Zahlenfeld rechts neben dem Schieberegler angezeigt.
 
-### Controlli retroilluminazione
+### Backlight-Steuerung
 
-| Controllo | Descrizione |
+| Steuerung | Beschreibung |
 |---|---|
-| **Backlight_1** | Toggle on/off per la retroilluminazione 1  |
-| **Backlight_2** | Toggle on/off per la retroilluminazione 2  |
+| **Backlight_1** | Ein/Aus-Umschalter für Backlight 1  |
+| **Backlight_2** | Ein/Aus-Umschalter für Backlight 2  |
 
-I toggle mostrano rosso quando la retroilluminazione è **attiva**.
+Die Umschalter zeigen Rot, wenn das Backlight **eingeschaltet** ist.
 
-### Pulsanti di test
+### Testschaltflächen
 
-In fondo alla pagina sono presenti tre pulsanti per testare le funzioni in tempo reale:
+Am Ende der Seite befinden sich drei Schaltflächen, um die Funktionen in Echtzeit zu testen:
 
-| Pulsante | Funzione |
+| Schaltfläche | Funktion |
 |---|---|
-| **TEST FLIP** | Esegue un flip con i parametri correntemente impostati |
-| **TEST BLOWe** | Attiva il soffiaggio esterno (blow esterno) con i parametri impostati |
-| **TEST BLOWc** | Attiva il soffiaggio centrale (blow centrale) con i parametri impostati |
+| **TEST FLIP** | Führt einen Flip mit den aktuell eingestellten Parametern aus |
+| **TEST BLOWe** | Aktiviert die äußere Blasluft (externer Blow) mit den eingestellten Parametern |
+| **TEST BLOWc** | Aktiviert die zentrale Blasluft (zentraler Blow) mit den eingestellten Parametern |
 
 :::{attention}  
- Prima di eseguire i test, assicurarsi che il motore sia abilitato (pulsante **ENABLE MOTOR** attivo) e che lo stato del sistema sia **READY**.
+ Vor der Durchführung der Tests sicherstellen, dass der Motor aktiviert ist (Schaltfläche **ENABLE MOTOR** aktiv) und der Systemzustand **READY** lautet.
 :::
 
 ---
 
-## Sottopagina: MOVE
+## Unterseite: MOVE
 
-La sottopagina **MOVE** consente di configurare i parametri del movimento rotatorio del FlexiBowl® e di testarlo direttamente dall'interfaccia.
-![pagina move](../../../../_shared/media/images/main_command_move.png)
+Die Unterseite **MOVE** ermöglicht es, die Parameter der Drehbewegung des FlexiBowl® zu konfigurieren und direkt über die Oberfläche zu testen.
+![Seite Move](../../../../_shared/media/images/main_command_move.png)
 
-| Parametro | Unità | Valore predefinito | Descrizione |
+| Parameter | Einheit | Standardwert | Beschreibung |
 |---|---|---|---|
-| **Acceleration** | % | 50 | Rampa di accelerazione del motore all'avvio del movimento. Valori più alti producono una partenza più brusca |
-| **Deceleration** | % | 50 | Rampa di decelerazione del motore in fase di arresto. Valori più alti producono un arresto più brusco |
-| **Speed** | % | 50 | Velocità di rotazione del FlexiBowl® durante il movimento |
-| **Angle** | Degree | 45 | Angolo di rotazione percorso dal FlexiBowl® durante ogni singolo movimento |
+| **Acceleration** | % | 50 | Beschleunigungsrampe des Motors beim Start der Bewegung. Höhere Werte führen zu einem abrupteren Start |
+| **Deceleration** | % | 50 | Verzögerungsrampe des Motors beim Anhalten. Höhere Werte führen zu einem abrupteren Stopp |
+| **Speed** | % | 50 | Drehgeschwindigkeit des FlexiBowl® während der Bewegung |
+| **Angle** | Grad | 45 | Drehwinkel, den der FlexiBowl® bei jeder einzelnen Bewegung zurücklegt |
 
-Ogni parametro è regolabile tramite uno **slider orizzontale**; il valore corrente è visualizzato nel riquadro numerico a destra dello slider.
+Jeder Parameter ist über einen **horizontalen Schieberegler** einstellbar; der aktuelle Wert wird im Zahlenfeld rechts neben dem Schieberegler angezeigt.
 
-### Pulsante di test
+### Testschaltfläche
 
-| Pulsante | Campo affiancato | Funzione |
+| Schaltfläche | Angrenzendes Feld | Funktion |
 |---|---|---|
-| **TEST MOVE** | Tempo esecuzione (ms) | Esegue un movimento di rotazione con i parametri correntemente impostati. Il campo a destra mostra la durata effettiva dell'ultimo movimento eseguito in millisecondi |
+| **TEST MOVE** | Ausführungszeit (ms) | Führt eine Drehbewegung mit den aktuell eingestellten Parametern aus. Das Feld rechts zeigt die tatsächliche Dauer der zuletzt ausgeführten Bewegung in Millisekunden |
 
 :::{note}  
- Il campo **ms** visualizza il tempo reale impiegato dal bowl per completare il movimento impostato. Questo valore è utile per sincronizzare il FlexiBowl® con il sistema di visione artificiale.
+ Das Feld **ms** zeigt die tatsächliche Zeit an, die der Bowl für die eingestellte Bewegung benötigt. Dieser Wert ist nützlich, um den FlexiBowl® mit dem Bildverarbeitungssystem zu synchronisieren.
 :::
 
 :::{attention}   
-Prima di eseguire il test, assicurarsi che il motore sia abilitato (pulsante **ENABLE MOTOR** attivo) e che lo stato del sistema sia **READY**.
+Vor der Durchführung des Tests sicherstellen, dass der Motor aktiviert ist (Schaltfläche **ENABLE MOTOR** aktiv) und der Systemzustand **READY** lautet.
 :::
 
 ---
 
-## Sottopagina: SHAKE
+## Unterseite: SHAKE
 
-La sottopagina **SHAKE** consente di configurare i parametri del movimento oscillatorio del FlexiBowl® (shake), utilizzato per ridistribuire i componenti sul piatto, e di testarlo direttamente dall'interfaccia.
-![pagina shake](../../../../_shared/media/images/main_command_shake.png)
+Die Unterseite **SHAKE** ermöglicht es, die Parameter der Schwingbewegung des FlexiBowl® (Shake), die zum Umverteilen der Bauteile auf dem Teller dient, zu konfigurieren und direkt über die Oberfläche zu testen.
+![Seite Shake](../../../../_shared/media/images/main_command_shake.png)
 
-| Parametro | Unità | Valore predefinito | Descrizione |
+| Parameter | Einheit | Standardwert | Beschreibung |
 |---|---|---|---|
-| **Acceleration** | % | 50 | Rampa di accelerazione del motore durante la fase di shake |
-| **Deceleration** | % | 50 | Rampa di decelerazione del motore durante la fase di shake |
-| **Speed** | % | 50 | Velocità di rotazione durante il movimento di shake |
-| **Ccw Angle** | Degree | -45 | Angolo di rotazione in senso **antiorario** (Counter-ClockWise) durante ogni oscillazione |
-| **Cw Angle** | Degree | 45 | Angolo di rotazione in senso **orario** (ClockWise) durante ogni oscillazione |
-| **Count** | N° | 2 | Numero di oscillazioni complete eseguite durante un ciclo di shake |
+| **Acceleration** | % | 50 | Beschleunigungsrampe des Motors während der Shake-Phase |
+| **Deceleration** | % | 50 | Verzögerungsrampe des Motors während der Shake-Phase |
+| **Speed** | % | 50 | Drehgeschwindigkeit während der Shake-Bewegung |
+| **Ccw Angle** | Grad | -45 | Drehwinkel **gegen den Uhrzeigersinn** (Counter-ClockWise) bei jeder Schwingung |
+| **Cw Angle** | Grad | 45 | Drehwinkel **im Uhrzeigersinn** (ClockWise) bei jeder Schwingung |
+| **Count** | Nr. | 2 | Anzahl der vollständigen Schwingungen, die während eines Shake-Zyklus ausgeführt werden |
 
-Ogni parametro è regolabile tramite uno **slider orizzontale**; il valore corrente è visualizzato nel riquadro numerico a destra dello slider.
+Jeder Parameter ist über einen **horizontalen Schieberegler** einstellbar; der aktuelle Wert wird im Zahlenfeld rechts neben dem Schieberegler angezeigt.
 
 :::{note}  
- Il movimento di **shake** consiste in una serie di rotazioni alternate in senso orario e antiorario, definite rispettivamente da **Cw Angle** e **Ccw Angle**. Il numero di oscillazioni complete è controllato dal parametro **Count**.
+ Die **Shake**-Bewegung besteht aus einer Reihe von abwechselnden Drehungen im und gegen den Uhrzeigersinn, die jeweils durch **Cw Angle** und **Ccw Angle** definiert sind. Die Anzahl der vollständigen Schwingungen wird durch den Parameter **Count** gesteuert.
 :::
 
-### Pulsante di test
+### Testschaltfläche
 
-| Pulsante | Campo affiancato | Funzione |
+| Schaltfläche | Angrenzendes Feld | Funktion |
 |---|---|---|
-| **TEST SHAKE** | Tempo esecuzione (ms) | Esegue un ciclo di shake con i parametri correntemente impostati. Il campo a destra mostra la durata effettiva dell'ultimo shake eseguito in millisecondi |
+| **TEST SHAKE** | Ausführungszeit (ms) | Führt einen Shake-Zyklus mit den aktuell eingestellten Parametern aus. Das Feld rechts zeigt die tatsächliche Dauer des zuletzt ausgeführten Shake in Millisekunden |
 
 :::{attention}  
- Prima di eseguire il test, assicurarsi che il motore sia abilitato (pulsante **ENABLE MOTOR** attivo) e che lo stato del sistema sia **READY**.
+ Vor der Durchführung des Tests sicherstellen, dass der Motor aktiviert ist (Schaltfläche **ENABLE MOTOR** aktiv) und der Systemzustand **READY** lautet.
 :::

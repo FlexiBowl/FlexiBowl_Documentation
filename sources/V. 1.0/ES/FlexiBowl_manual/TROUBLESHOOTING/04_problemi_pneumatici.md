@@ -1,1 +1,1 @@
-# **Solución de problemas relacionados con los neumáticos**
+# **Resolución de problemas neumáticos**

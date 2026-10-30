@@ -1,4 +1,4 @@
-# [ELE] **Sostituzione componentistica elettronica**
+# **Sostituzione componentistica elettronica**
 
 :::::{important}
 
@@ -132,7 +132,7 @@ Nelle taglie più piccole l'elettronica è tutta compresa nel rack, per cui è s
       imgDefault: '../../../../_shared/media/images/inrack0.PNG',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'Gruppo PLC e alimentatore 24V',     desc:'Sono fissati su una barra DIN; i moduli del PLC sono rimuovobili singolarmente'},
+        {n:1,  name:'Gruppo PLC e alimentatore 24V',     desc:'Sono fissati su una barra DIN; i moduli del PLC sono rimovibili singolarmente'},
         {n:2,  name:'Alimentatore 48V',                  desc:'Fissato su barra DIN'},
         {n:3,  name:'Scheda',                            desc:'Il suo supporto è fissato sul pianale inferiore attraverso due distanziali; contiene anche i fusibili'},
         {n:4,  name:'Resistenza di frenatura',           desc:'Fissata sul pianale inferiore tramite due viti M4'},
@@ -143,7 +143,7 @@ Nelle taglie più piccole l'elettronica è tutta compresa nel rack, per cui è s
       imgDefault: '../../../../_shared/media/images/fbele0.PNG',
       imgExt: '.PNG',
       comps: [
-        {n:1,  name:'Gruppo PLC e alimentatore 24V',     desc:'Sono fissati su una barra DIN; i moduli del PLC sono rimuovobili singolarmente'},
+        {n:1,  name:'Gruppo PLC e alimentatore 24V',     desc:'Sono fissati su una barra DIN; i moduli del PLC sono rimovibili singolarmente'},
         {n:2,  name:'Alimentatore 48V',                  desc:'Fissato su barra DIN'},
         {n:3,  name:'Resistenza di frenatura',           desc:'Fissata sul pianale inferiore tramite due viti M4 sul FlexiBowl® 500 e tramite quattro viti M4 sulle altre taglie'},
       ]

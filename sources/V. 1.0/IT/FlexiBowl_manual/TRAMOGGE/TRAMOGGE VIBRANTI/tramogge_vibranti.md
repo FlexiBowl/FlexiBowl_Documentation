@@ -6,7 +6,7 @@ La Bulk Feeder vibrante è un dispositivo industriale di stoccaggio e alimentazi
 ## Navigare il Manuale
 Questo manuale è strutturato come un vero e proprio workflow sequenziale pensato per accompagnare i tecnici, gli installatori e gli operatori attraverso tutte le fasi di vita del macchinario.
 
-Ecco ciascuna delle pagine: 
+Ecco ciascuna delle pagine:
 
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 

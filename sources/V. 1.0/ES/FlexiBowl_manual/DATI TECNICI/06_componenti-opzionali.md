@@ -1,50 +1,54 @@
 # **Componentes opcionales**
 
-Per rendere il FlexiBowl® adatto ad ogni esigenza, l'operatore si può avvalere di una vasta gamma di accessori atti a movimentare ogni tipo di componente.
+Para hacer que el FlexiBowl® sea adecuado para cada necesidad, el operador puede recurrir a una amplia gama de accesorios destinados a manipular cualquier tipo de componente.
 
 :::{note}
-Gli accessori possono essere combinati, ma **non tutte le combinazioni sono possibili**; per maggiori informazioni, fare riferimento alla pagina di {ref}`panoramica e compatibilità <compatibility>` degli accessori.
+Los accesorios se pueden combinar, pero **no todas las combinaciones son posibles**; para más información, consulte la página de {ref}`descripción general y compatibilidad <compatibility>` de los accesorios.
 :::
 
 ## {ref}`Backlight <backlight>`
 
-Ci sono due tipi di “Backlight”: 
+Existen dos tipos de «Backlight»:
 
-- Standard 
-- Strobe 
+- Estándar
+- Strobe
 
-Il primo viene alimentato in modo continuo internamente ed è possibile comandare l’accensione e lo spegnimento tramite software o I/O digitali (capitolo ............). Il secondo viene controllato esternamente tramite l’ingresso “strobe” del connettore input situato (capitolo .........). Sarà cura del cliente portare la corretta alimentazione 24Vdc per accenderlo. È una luce localizzata sotto la finestra di vetro del piano di scorrimento, così che la sua luce possa colpire la superficie o disco rigido e che il profilo dei componenti al di sopra diventi visibile al sistema di visione. 
+El primero se alimenta de forma continua internamente y su encendido y apagado se puede controlar mediante software o E/S digitales (capítulo ............). El segundo se controla externamente a través de la entrada «strobe» del conector de entrada situado (capítulo .........). Corresponde al cliente suministrar la alimentación correcta de 24 Vdc para encenderlo. Es una luz situada bajo la ventana de vidrio del plano de deslizamiento, de modo que su luz pueda incidir sobre la superficie o el disco rígido y el perfil de los componentes situados encima se haga visible para el sistema de visión.
 
-Il “Backlight” è disponibile con luce: 
+El «Backlight» está disponible con luz:
 
-- Bianca 
-- Rossa 
-- Infrarossa 
+- Blanca
+- Roja
+- Infrarroja
 
 :::{note}
-Il “Backlight” infrarosso emette luce non visibile e perciò può apparire non funzionante. Controllare con una telecamera con installato un filtro ad infrarossi per verificare il suo funzionamento. La maggior parte degli smartphone visualizzano gli infrarossi. 
+El «Backlight» infrarrojo emite luz no visible y por ello puede parecer que no funciona. Compruebe su funcionamiento con una cámara con filtro de infrarrojos instalado. La mayoría de los smartphones muestran los infrarrojos.
 :::
 
 ## {ref}`Toplight <toplight>`
 
-## {ref}`Deviatore <diverter>`
+## {ref}`Desviador <diverter>`
 
-È necessario per allontanare le parti dal bordo del FlexiBowl®. Esso è posizionato prima dell’unità “Flip” (deviatore pre-flip) per far sì che la maggior parte dei pezzi vengano colpiti dall’impulso e prima della finestra di visione (deviatore post-flip) per rendere più semplice la presa degli stessi. 
+Es necesario para alejar las piezas del borde del FlexiBowl®. Se coloca antes de la unidad «Flip» (desviador pre-flip) para que la mayoría de las piezas reciban el impulso, y antes de la ventana de visión (desviador post-flip) para facilitar su recogida.
 
-## {ref}`Soffi <blow>`
+## {ref}`Soplados <blow>`
 
 ## {ref}`Brush Diverter <brush>`
 
-È composta da: 
+Se compone de:
 
-- Spazzola centrale: ha la funzione di allontanare i componenti dalla flangia centrale, in modo da evitare che si accumulino attorno ad essa. 
-- Spazzola deviatore: ha la stessa funzionalità del deviatore in acciaio. Viene utilizzato nel caso in cui i pezzi tendono ad incastrarsi fra il “Rotary Disc” ed il deviatore metallico, questa situazione si verifica principalmente quando si utilizzano “Rotary Disc” con Spike. 
-- Spazzola regolabile: ha la funzione di districare e “sdraiare” i componenti che tendono ad aggrovigliarsi tra di sé o ad assumere una posizione eretta durante il normale funzionamento del FlexiBowl. 
+- Cepillo central: tiene la función de alejar los componentes de la brida central, para evitar que se acumulen a su alrededor.
+- Cepillo desviador: tiene la misma función que el desviador de acero. Se utiliza cuando las piezas tienden a atascarse entre el «Rotary Disc» y el desviador metálico; esta situación se produce principalmente al utilizar «Rotary Disc» con Spike.
+- Cepillo regulable: tiene la función de desenredar y «tumbar» los componentes que tienden a enredarse entre sí o a adoptar una posición erguida durante el funcionamiento normal del FlexiBowl.
 
 ## {ref}`Wedge Diverter <wedge>`
 
-L’opzione Wedge diverter è compatibile con le taglie 1200/800/650/500 in versione standard (C-CC), non è compatibile con nessuna versione Edge (200E, 350E e 500E). Questa opzione ha lo scopo di allontanare i componenti dal bordo esterno del FlexiBowl ed è particolarmente indicata per pezzi che rotolano o scivolano facilmente. 
+La opción Wedge diverter es compatible con los tamaños 1200/800/650/500 en versión estándar (C-CC); no es compatible con ninguna versión Edge (200E, 350E y 500E). Esta opción tiene la finalidad de alejar los componentes del borde exterior del FlexiBowl y resulta especialmente indicada para piezas que ruedan o se deslizan con facilidad.
 
-## {ref}`Svuotamento <emptying>`
+## {ref}`Vaciado <emptying>`
 
-L’opzione “Quick Emptying” serve per evacuare dal FlexiBowl® i pezzi residui prima di un cambio produzione. L’opzione “Quick Emptying” può essere attivata tramite I/O digitali o tramite software. Quando viene mandato il comando di “Quick Emptying” una porzione dell’anello si abbassa per far fuoriuscire i pezzi residui. Sono presenti dei sensori per sapere se la “Emptying Door” è aperta o chiusa. Lo stato dei sensori è possibile leggerlo anche nel connettore ingressi (Capitolo .......). La sequenza di “Quick Emptying“ è composta da una sequenza preconfigurata di movimenti combinati orari ed antiorari. Nella sequenza di “Quick Emptying” è possibile variare solo la velocità di movimentazione. Non è possibile variare il numero di movimentazioni e la direzione di queste. 
+La opción «Quick Emptying» sirve para evacuar del FlexiBowl® las piezas residuales antes de un cambio de producción. La opción «Quick Emptying» se puede activar mediante E/S digitales o mediante software. Cuando se envía el comando «Quick Emptying», una porción del anillo desciende para dejar salir las piezas residuales. Hay sensores para saber si la «Emptying Door» está abierta o cerrada. El estado de los sensores también se puede leer en el conector de entradas (Capítulo .......). La secuencia «Quick Emptying» se compone de una secuencia preconfigurada de movimientos combinados en sentido horario y antihorario. En la secuencia «Quick Emptying» solo se puede variar la velocidad de movimiento. No es posible variar el número de movimientos ni su dirección.
+
+## {ref}`Cables de conexión <cavi>`
+
+Los cables de conexión del FlexiBowl® (opción de E/S, rack, alimentación y Ethernet) se pueden adquirir por separado en longitudes de 3, 5 o 10 metros.

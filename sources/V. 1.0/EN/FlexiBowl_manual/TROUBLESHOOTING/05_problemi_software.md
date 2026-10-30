@@ -1,1 +1,1 @@
-# **[SOF]** Software Troubleshooting
+# **Troubleshooting Software Problems**

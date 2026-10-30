@@ -1,120 +1,120 @@
 (contflip)=
-# **Sichtprüfung des Flip**
+# **Sichtprüfung des Flips**
 
 :::{warning}
-Disconnettere l'alimentazione elettrica e pneumatica prima di procedere con il controllo.
+Vor der Prüfung die elektrische und pneumatische Versorgung trennen.
 :::
 
 :::{warning}
-Alcune parti interessate dal processo di manutenzione qua descritto possono aver raggiunto {ref}`alte temperature <temp>` durante il funzionamento, assicurarsi di lasciare il FlexiBowl® spento sufficientemente a lungo affinchè tutte le sue parti possano essere maneggiate in sicurezza.
+Einige von den hier beschriebenen Wartungsarbeiten betroffene Teile können im Betrieb {ref}`hohe Temperaturen <temp>` erreicht haben; den FlexiBowl® ausreichend lange ausgeschaltet lassen, damit alle Teile gefahrlos gehandhabt werden können.
 :::
 
 ## FlexiBowl® 200
 
-### Cosa serve?
+### Was wird benötigt?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Gegenstand/Ausrüstung
+  - Menge
 
-* - Chiave esagonale H2.5
+* - Sechskantschlüssel H2.5
   - 1
 
-* - Chiave esagonale H3
+* - Sechskantschlüssel H3
   - 1
 
-* - Chiave esagonale H4
+* - Sechskantschlüssel H4
   - 1
 
-* - Gruppo flip sostitutivo
+* - Ersatz-Flip-Einheit
   - 1
 
 :::
 
-### Procedimento
+### Vorgehensweise
 
-| Step | Operazione |
+| Schritt | Vorgang |
 |:----:|-----------|
-| 1 | Rimuovere lo schermo flip |
-| 2 | {ref}`Rimuovere il disco rigido <sost-disco>` |
-| 3 | Rimuovere il cater frontale |
-| 4 | Per una visuale migliore, rimuovere anche il carter poseriore; svincolare il supporto dello schermo per facilitare il lavoro. |
-| 5 | Controllare visivamente lo stato di usura degli elementi percussore |
-| 6 | A controllo terminato, rimontare tutti i componenti |
+| 1 | Flip-Schutzschirm entfernen |
+| 2 | {ref}`Starre Scheibe entfernen <sost-disco>` |
+| 3 | Frontabdeckung entfernen |
+| 4 | Für eine bessere Sicht auch die hintere Abdeckung entfernen; die Halterung des Schirms lösen, um die Arbeit zu erleichtern. |
+| 5 | Den Verschleißzustand der Stößelelemente per Sichtprüfung kontrollieren |
+| 6 | Nach Abschluss der Prüfung alle Komponenten wieder montieren |
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="CFlip200" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000001_controllo-flip.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Ihr Browser unterstützt das Video nicht.
   </video>
   <br>
-  <label for="VelCFlip200">Velocità:</label>
+  <label for="VelCFlip200">Geschwindigkeit:</label>
   <select id="VelCFlip200" onchange="document.getElementById('CFlip200').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura controllo visivo del gruppo flip illustrato su un FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Verfahren zur Sichtprüfung der Flip-Einheit, dargestellt an einem FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
 ## FlexiBowl® 350-500-650-800-1200
 
-### Cosa serve?
+### Was wird benötigt?
 
 :::{list-table}
 :widths: 40 40
 :header-rows: 1
 
-* - Oggetto/attrezzatura
-  - Quantità
+* - Gegenstand/Ausrüstung
+  - Menge
 
-* - Chiave esagonale H5
+* - Sechskantschlüssel H5
   - 1
 
-* - Chiave esagonale H4
+* - Sechskantschlüssel H4
   - 1
 
-* - Gruppo flip sostitutivo
+* - Ersatz-Flip-Einheit
   - 1
 
 :::
 
-### Procedimento
+### Vorgehensweise
 
-Per il controllo del flip procedere come segue:
+Zur Prüfung des Flips wie folgt vorgehen:
 
-| Step | Operazione |
+| Schritt | Vorgang |
 |:----:|-----------|
-| 1 | Rimuovere il gruppo barriera flip |
-| 2 | {ref}`Rimuovere la superficie o disco rigido <sost-disco>` |
-| 3 | Rimuovere la piastra di copertura del flip |
-| 4 | Controllare visivamente lo stato di usura degli elementi percussore |
-| 5 | A controllo terminato, rimontare la piastra di copertura del flip, {ref}`la superficie o disco rigido <sost-disco>` e il gruppo barriera flip |
+| 1 | Flip-Barrieregruppe entfernen |
+| 2 | {ref}`Oberfläche oder starre Scheibe entfernen <sost-disco>` |
+| 3 | Flip-Abdeckplatte entfernen |
+| 4 | Den Verschleißzustand der Stößelelemente per Sichtprüfung kontrollieren |
+| 5 | Nach Abschluss der Prüfung die Flip-Abdeckplatte, {ref}`die Oberfläche oder starre Scheibe <sost-disco>` und die Flip-Barrieregruppe wieder montieren |
 
 :::{tip}
-Sul **FlexiBowl® 350** potrebbe risultare più comodo rimuovere il carter.
+Beim **FlexiBowl® 350** kann es günstiger sein, die Abdeckung zu entfernen.
 :::
 
 ::::{raw} html
 <figure style="text-align: center;">
   <video id="CFlip800" width="100%" height="auto" controls>
     <source src="../../../../_shared/media/videos/AS000006_controlloflip.mp4" type="video/mp4">
-    Il tuo browser non supporta il video.
+    Ihr Browser unterstützt das Video nicht.
   </video>
   <br>
-  <label for="VelCFlip800">Velocità:</label>
+  <label for="VelCFlip800">Geschwindigkeit:</label>
   <select id="VelCFlip800" onchange="document.getElementById('CFlip800').playbackRate = this.value">
     <option value="0.5">0.5x</option>
     <option value="1" selected>1x</option>
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Procedura controllo visivo del gruppo flip illustrato su un FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Verfahren zur Sichtprüfung der Flip-Einheit, dargestellt an einem FlexiBowl® 800</i></figcaption>
 </figure>
 ::::

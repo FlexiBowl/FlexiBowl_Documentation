@@ -1,1 +1,1 @@
-# [ELE] **Braking Resistor Replacement**
+# **Replacing the Braking Resistor**

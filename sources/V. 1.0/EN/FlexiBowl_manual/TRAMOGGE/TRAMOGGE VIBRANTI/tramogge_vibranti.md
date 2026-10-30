@@ -1,12 +1,12 @@
-# **Vibrating Hoppers**
+# **Bulk Feeder**
 
-## What is a vibrating hopper?
-The vibrating hopper is an industrial storage and feeding device designed to hold components and dose them continuously and uniformly towards the FlexiBowl.
+## What is a Bulk Feeder?
+The vibrating Bulk Feeder is an industrial storage and feeding device designed to hold components and dose them continuously and uniformly to the FlexiBowl.
 
 ## Navigating the Manual
-This manual is structured as a true sequential workflow designed to guide technicians, installers and operators through all the life phases of the machine.
+This manual is structured as a true sequential workflow designed to guide technicians, installers and operators through all the life phases of the machinery.
 
-Here is each of the pages: 
+Here is each of the pages:
 
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
@@ -145,7 +145,7 @@ Here is each of the pages:
         <a class="qs-title-link" href="info_preliminari.html">Preliminary Information</a>
       </div>
       <p class="qs-card-desc">
-        Contains important information such as the general safety warnings and the operator qualification criteria, together with the official identification data of the manufacturer and the CE marking. It clearly and bindingly defines the intended limits of use of the hopper (purpose and field of application) and the list of prohibited or potentially dangerous uses.
+        Contains important information such as the general safety warnings and the operator qualification criteria, together with the official identification data of the manufacturer and of the CE marking. It clearly and bindingly defines the intended limits of use of the Bulk Feeder (purpose and scope) and the list of uses that are not permitted or are potentially hazardous.
       </p>
     </div>
   </div>
@@ -161,7 +161,7 @@ Here is each of the pages:
         <a class="qs-title-link" href="descrizione_macchina.html">Machine Description </a>
       </div>
       <p class="qs-card-desc">
-       It describes the main assemblies that make up the structure, together with the nominal technical data sheets (dimensions, weights, voltages and load capacity) useful for understanding the performance limits of the system.
+       It describes the main groups that make up the structure, together with the nominal technical data sheets (dimensions, weights, voltages and load capacity) useful for understanding the performance limits of the system.
       </p>
     </div>
   </div>
@@ -177,7 +177,7 @@ Here is each of the pages:
         <a class="qs-title-link" href="trasporto_installazione.html">Transport and Installation </a>
       </div>
       <p class="qs-card-desc">
-        Specifies the guidelines for receiving and unpacking the machine, the procedures for lifting and safely handling loads in the work area, and the mechanical requirements for the correct fastening and levelling of the hopper on the support structure.
+        Specifies the guidelines for receiving and unpacking the machinery, the procedures for safe lifting and handling of loads in the work area, and the mechanical requirements for correct fastening and levelling of the Bulk Feeder on the support structure.
       </p>
     </div>
   </div>
@@ -193,7 +193,7 @@ Here is each of the pages:
         <a class="qs-title-link" href="controller_cablaggio.html">Controller and Wiring</a>
       </div>
       <p class="qs-card-desc">
-        Illustrates the electrical diagrams and the interconnection methods between the hopper electromagnet and the external control unit, defining the configuration of the logic signals, the calibration of the vibration frequencies and the interface with the line PLCs.
+        Illustrates the electrical diagrams and the interconnection methods between the Bulk Feeder electromagnet and the external control unit, defining the configuration of the logic signals, the calibration of the vibration frequencies and the interface with the line PLCs.
       </p>
     </div>
   </div>
@@ -209,7 +209,7 @@ Here is each of the pages:
         <a class="qs-title-link" href="manutenzione.html">Maintenance and Troubleshooting </a>
       </div>
       <p class="qs-card-desc">
-       Provides the periodic inspection plan (cleaning, structural tightening), the advanced mechanical calibration procedures — such as the millimetric adjustment of the stator air gap — and the diagnostic tables for fault isolation and quick troubleshooting.
+       Gives the plan of periodic checks (cleaning, structural tightening), the advanced mechanical calibration procedures — such as the millimetre-precise adjustment of the stator air gap — and the diagnostic tables for fault isolation and quick resolution.
       </p>
     </div>
   </div>
@@ -224,7 +224,7 @@ Here is each of the pages:
         <a class="qs-title-link" href="smaltimento_appendici.html">Decommissioning and Disposal </a>
       </div>
       <p class="qs-card-desc">
-       Describes the safety measures required for shutting down and storing the hopper during prolonged periods of inactivity, together with the disassembly procedures and the environmental requirements (WEEE Directive) for the controlled recycling of materials at end of life.
+       Describes the safety measures needed for shutting down and storing the Bulk Feeder during prolonged periods of inactivity, together with the disassembly procedures and the environmental requirements (WEEE Directive) for the controlled recycling of materials at end of life.
       </p>
     </div>
   </div>

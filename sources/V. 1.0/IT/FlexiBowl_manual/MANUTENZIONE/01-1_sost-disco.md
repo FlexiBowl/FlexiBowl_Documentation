@@ -1,8 +1,7 @@
 (sost-disco)=
-# [MEC] **Sostituzione della Superficie o del Disco Rigido**
+# **Sostituzione della Superficie o del Disco Rigido**
 
-Il cambio della superficie o del disco rigido è richiesto qualora si faccia un cambio di produzione o siano presenti danni alla superficie o disco rigido precedenti.
-In ogni caso si consiglia di cambiare la superficie o disco rigido:
+Il cambio della superficie o del disco rigido è richiesto qualora si faccia un cambio di produzione o siano presenti danni alla superficie o disco rigido precedenti. In ogni caso si consiglia di cambiare la superficie o disco rigido:
 - **Ogni 3 mesi** in caso di utilizzo con componentistica particolarmente tagliente;
 - **Annuale** in tutti gli altri casi.
 

@@ -1,69 +1,76 @@
-# **Elektrische technische Daten**
+(dati_elettrici)=
+# **Technische Daten Elektrik**
 
-## Dati di Alimentazione
+Nachfolgend sind die elektrischen Nennparameter aufgeführt, die für alle Varianten der Familie FlexiBowl® FB 3.0 gelten.
 
-Di seguito sono riportati i parametri elettrici nominali di alimentazione applicabili a tutte le varianti della famiglia FlexiBowl® FB 3.0.
-### Parametri Generali
+---
 
-- **Tensione nominale**: 230 / 120 Vac
+## Daten der Spannungsversorgung
 
-- **Frequenza nominale**: 50 Hz / 60 Hz
+### Allgemeine Parameter
 
-### Corrente Nominale Assorbita
+- **Nennspannung**: 230 / 120 Vac
+- **Nennfrequenz**: 50 Hz / 60 Hz
 
-La corrente assorbita varia in funzione del modello installato:
+### Nennstromaufnahme
+
+Die Stromaufnahme variiert je nach installiertem Modell. Der Wert ist für die Dimensionierung des vorgelagerten Schutzes und der Versorgungskabel nützlich.
+
 :::{list-table}
 :widths: 50 50
 :header-rows: 1
-* - Dispositivo
-  - Corrente nominale
+* - Gerät
+  - Nennstrom
 * - FlexiBowl® 200
-  - 1,50 A
+  - 0,48 A
 * - FlexiBowl® 350
-  - 1,50 A
+  - 0,56 A
 * - FlexiBowl® 500
-  - 2,00 A
+  - 1,12 A
 * - FlexiBowl® 650
-  - 2,00 A
+  - 1,12 A
 * - FlexiBowl® 800
-  - 2,50 A
+  - 1,83 A
 * - FlexiBowl® 1200
-  - 4,00 A
+  - 3,23 A
 :::
 
-### Potenza Nominale Installata
+### Installierte Nennleistung
 
-La potenza nominale varia in funzione del modello installato. Il dato per FB 1200 è in fase di aggiornamento.
+Die Nennleistung variiert je nach installiertem Modell und ist der Referenzwert für die Dimensionierung des Netzteils oder des Schaltschranks.
+
 :::{list-table}
 :widths: 50 50
 :header-rows: 1
-* - Dispositivo
-  - Potenza nominale
+* - Gerät
+  - Nennleistung
 * - FlexiBowl® 200
-  - 350 W
+  - 345 W
 * - FlexiBowl® 350
-  - 350 W
+  - 345 W
 * - FlexiBowl® 500
-  - 500 W
+  - 460 W
 * - FlexiBowl® 650
-  - 500 W
+  - 460 W
 * - FlexiBowl® 800
-  - 600 W
+  - 575 W
 * - FlexiBowl® 1200
-  - 950 W
+  - 920 W
 :::
 
-## Protezioni Elettriche
+---
 
-### Fusibili
+## Elektrische Schutzeinrichtungen
 
-Il circuito di protezione è realizzato con fusibili ad azione rapida. I valori nominali per modello sono i seguenti:
+### Sicherungen (intern)
+
+Der Stromversorgungsstecker ist mit einer Halterung für **2 flinke Sicherungen** ausgestattet, die das Gerät vor eventuellen elektrischen Störungen schützen. Die Nennwerte je Modell sind wie folgt:
 
 :::{list-table}
 :widths: 50 50
 :header-rows: 1
-* - Dispositivo
-  - Fusibile
+* - Gerät
+  - Sicherung
 * - FlexiBowl® 200
   - 3 A
 * - FlexiBowl® 350
@@ -78,33 +85,59 @@ Il circuito di protezione è realizzato con fusibili ad azione rapida. I valori 
   - 5 A
 :::
 
-### Classe di Protezione Elettrica
+### Fehlerstrom-Leitungsschutzschalter (vorgelagert)
 
-- **Classe di protezione**: Classe I
+Jedes FlexiBowl®-Modell erfordert vorgelagert einen Fehlerstrom-Leitungsschutzschalter mit **Auslösecharakteristik Typ D**, dimensioniert je Modell gemäß Tabelle. Dieser Schutz liegt in der Verantwortung des Integrators bzw. der Anlage des Kunden und ist von den oben beschriebenen internen Sicherungen getrennt.
 
-La protezione è realizzata mediante isolamento di base e collegamento di tutte le masse metalliche al conduttore di protezione (PE – terra di impianto).
-
-### Messa a Terra
-
-Il dispositivo deve essere obbligatoriamente collegato al circuito di terra dell'impianto prima di qualsiasi altra operazione.
-:::{attention}
-Prima di accendere il FlexiBowl, verificare che il dispositivo sia correttamente collegato a terra con l'impianto generale.
+:::{list-table}
+:widths: 50 50
+:header-rows: 1
+* - Gerät
+  - Fehlerstrom-Leitungsschutzschalter
+* - FlexiBowl® 200
+  - 2,00 A
+* - FlexiBowl® 350
+  - 2,00 A
+* - FlexiBowl® 500
+  - 4,00 A
+* - FlexiBowl® 650
+  - 4,00 A
+* - FlexiBowl® 800
+  - 4,00 A
+* - FlexiBowl® 1200
+  - 6,00 A
 :::
 
-## Note e Avvertenze Generali
+### Elektrische Schutzklasse
+
+- **Schutzklasse**: Klasse I
+
+Der Schutz wird durch Basisisolierung und den Anschluss aller metallischen Gehäuseteile an den Schutzleiter (PE – Anlagenerde) erreicht. Da es sich um Schutzklasse I (und nicht um Doppelisolierung) handelt, ist die Erdverbindung fester Bestandteil des Sicherheitssystems des Geräts.
+
+### Erdung
+
+Das Gerät muss **vor jedem anderen Arbeitsschritt** zwingend an den Erdungskreis der Anlage angeschlossen werden.
 
 :::{attention}
-Tutte le operazioni di connessione devono essere eseguite a dispositivo spento e scollegato dall'alimentazione.
+Vor dem Einschalten des FlexiBowl® prüfen, ob das Gerät ordnungsgemäß mit der Gesamtanlage geerdet ist.
+:::
+
+---
+
+## Allgemeine Hinweise und Warnungen
+
+:::{attention}
+Alle Anschlussarbeiten müssen bei ausgeschaltetem und von der Spannungsversorgung getrenntem Gerät durchgeführt werden.
 :::
 
 :::{attention}
-Il collegamento di terra è obbligatorio e deve essere verificato prima di ogni accensione.
+Die Erdverbindung ist zwingend erforderlich und muss vor jedem Einschalten überprüft werden.
 :::
 
 :::{attention}
-In caso di anomalia indicata dal LED rosso (Ready/Fault), fare riferimento alla tabella delle anomalie specifica del modello.
+Bei einer durch die rote LED (Ready/Fault) angezeigten Störung die modellspezifische Störungstabelle zu Rate ziehen.
 :::
 
 :::{attention}
-Per ulteriori informazioni tecniche o assistenza, contattare ARS s.r.l. – FlexiBowl® Division.
+Für weitere technische Informationen oder Unterstützung wenden Sie sich an ARS s.r.l. – FlexiBowl® Division.
 :::

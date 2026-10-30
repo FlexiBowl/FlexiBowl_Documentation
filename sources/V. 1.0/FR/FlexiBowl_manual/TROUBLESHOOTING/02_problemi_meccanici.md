@@ -1,1 +1,1 @@
-# **Résolution des problèmes mécaniques**
+# **Dépannage des problèmes mécaniques**

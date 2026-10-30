@@ -1,1 +1,1 @@
-# **[MEC]** Mechanical Troubleshooting 
+# **Troubleshooting Mechanical Problems**

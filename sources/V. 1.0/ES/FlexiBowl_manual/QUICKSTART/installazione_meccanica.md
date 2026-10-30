@@ -4,24 +4,24 @@
 :widths: 10 50
 :header-rows: 1
 
-* - Step
-  - Operazione
+* - Paso
+  - Operación
 
 * - 1
-  - Posizionare il FlexiBowl® su di un {ref}`piano stabile <pianale>`. Prestare attenzione al {ref}`trasporto e il sollevamento <transflex>`.
+  - Colocar el FlexiBowl® sobre una {ref}`superficie estable <pianale>`. Prestar atención al {ref}`transporte y la elevación <transflex>`.
 
 * - 2
-  - Rimuovere le maniglie e fissare correttamente il FlexiBowl® al supporto. La quantità e tipologia di viti necessarie sono riportate nella {ref}`sezione dedicata <intmec>`.
+  - Retirar las asas y fijar correctamente el FlexiBowl® al soporte. La cantidad y el tipo de tornillos necesarios se indican en la {ref}`sección correspondiente <intmec>`.
 
 * - 3
-  - Se presenti, rimuovere i golfari:
+  - Si los hay, retire los cáncamos:
     * **FlexiBowl® 500-650-800:**
 
-      1. Bloccare il supporto girevole dei golfari con una vite M5x12.
+      1. Bloquear el soporte giratorio de los cáncamos con un tornillo M5x12.
 
-      2. Rimuovere il golfare.
+      2. Retirar el cáncamo.
 
-      3. Coprire il foro M8 del golfare con l'apposito tappo.
+      3. Cubrir el orificio M8 del cáncamo con el tapón correspondiente.
 
       :::{figure} ../../../../_shared/media/images/golf650.PNG
          :align: center
@@ -29,39 +29,43 @@
 
     * **FlexiBowl® 1200:**
 
-      1. Rimuovere il golfare.
+      1. Retirar el cáncamo.
 
-      2. Coprire il foro M12 del golfare con l'apposito tappo.
+      2. Cubrir el orificio M12 del cáncamo con el tapón correspondiente.
 
 * - 4
-  - {ref}`Montare la superficie o disco rigido <sost-disco>`.
+  - {ref}`Montar la superficie o el disco rígido <sost-disco>`.
 
 * - 5
-  - Procedere con gli {ref}`allacciamenti necessari <intele>`.
+  - Proceder con las {ref}`conexiones necesarias <intele>`.
 
 ::::
 
-:::{important}
-Lasciare circa {ref}`100mm di spazio <dim800>` per i connettori di alimentazione del FlexiBowl®.
+:::{video} ../../../../_shared/media/videos/installazione_FB800.mp4
+:width: 100%
 :::
 
 :::{important}
-Nell'installazione dei FlexiBowl® 200 e 350, prestare particolare attenzione alle {ref}`specifiche di installazione del rack <rackinstall>`
+Dejar unos {ref}`100 mm de espacio <dim800>` para los conectores de alimentación del FlexiBowl®.
 :::
 
-## Caratteristiche del piano di appoggio
+:::{important}
+En la instalación de los FlexiBowl® 200 y 350, preste especial atención a las {ref}`especificaciones de instalación del rack <rackinstall>`
+:::
+
+## Características de la superficie de apoyo
 
 ::::{important}
-Assicurarsi che la superficie di appoggio della macchina sia piana ed orizzontale, e sia idonea a sostenerne il peso.
+Asegurarse de que la superficie de apoyo de la máquina sea plana y horizontal, y adecuada para soportar su peso.
 
-È **fortemente sconsigliato** montare il FlexiBowl® su una porzione a sbalzo del piano macchina. Laddove fosse inevitabile, assicurarsi di irrigidire a sufficienza il piano di appoggio.
+**Se desaconseja encarecidamente** montar el FlexiBowl® sobre una parte en voladizo del plano de la máquina. Cuando sea inevitable, asegurarse de rigidizar lo suficiente el plano de apoyo.
 
 :::{figure} ../../../../_shared/media/images/FB650-nosbalzo.PNG
 :align: center
 :::
 ::::
 
-Per garantire il corretto funzionamento del FlexiBowl® è necessario che il piano di appoggio presenti degli errori di planarità non superiori a 1mm, assemblato orizzontalmente e che sia abbastanza massiccio da non risentire delle vibrazioni dovute al normale funzionamento di FlexiBowl®, robot ed eventuali altre parti mobili presenti nel layout. Delle indicazioni su dimensioni e peso minimi richiesti per il montaggio del FlexiBowl® sono presenti nella tabella sottostante; da questi dati, tenendo conto del materiale utilizzato per il pianale, si può risalire allo spessore minimo richiesto.
+Para garantizar el correcto funcionamiento del FlexiBowl®, la superficie de apoyo debe presentar errores de planitud no superiores a 1 mm, estar montada horizontalmente y ser lo bastante maciza como para no verse afectada por las vibraciones debidas al funcionamiento normal del FlexiBowl®, del robot y de otras posibles partes móviles presentes en el layout. En la tabla siguiente se indican las dimensiones y el peso mínimos requeridos para el montaje del FlexiBowl®; a partir de estos datos, teniendo en cuenta el material utilizado para el tablero, se puede determinar el espesor mínimo requerido.
 
 :::{figure} ../../../../_shared/media/images/pianali.PNG
 :align: center
@@ -72,8 +76,8 @@ Per garantire il corretto funzionamento del FlexiBowl® è necessario che il pia
 :header-rows: 1
 :stub-columns: 1
 
-* - Modello
-  - Dimensioni pianale AxA [mm]
+* - Modelo
+  - Dimensiones del tablero AxA [mm]
   - Peso M [kg]
 
 * - FlexiBowl® 200
@@ -102,9 +106,9 @@ Per garantire il corretto funzionamento del FlexiBowl® è necessario che il pia
 
 :::
 
-## Installazione della scatola rack (per FlexiBowl® 200 e 350)
+## Instalación de la caja del rack (para FlexiBowl® 200 y 350)
 
-Per evitare il surriscaldamento del rack è importante lasciare delle zone di *clearance* intorno ad esso:
+Para evitar el sobrecalentamiento del rack es importante dejar zonas de *clearance* a su alrededor:
 
 :::{figure} ../../../../_shared/media/images/rackclear.PNG
 :align: center
@@ -114,28 +118,37 @@ Per evitare il surriscaldamento del rack è importante lasciare delle zone di *c
 :widths: 50 50
 :header-rows: 1
 
-* - Quota
-  - Valore
+* - Cota
+  - Valor
 
-* - Distanza laterale A
+* - Distancia lateral A
   - 10mm
 
-* - Distanza superiore B
+* - Distancia superior B
   - 50mm
 
-* - Distanza frontale C
+* - Distancia frontal C
   - 100mm
 
 :::
 
+:::{video} ../../../../_shared/media/videos/installazione_FB200.mp4
+:width: 100%
+:::
+
+
 :::{note}
-È possibile installare due rack uno sopra l'altro a patto che venga rispettata una delle seguenti condizioni:
+El rack externo para FlexiBowl® 200 y 350 es de tipo estándar **3U**.
+:::
 
-1. la distanza tra i due sia non inferiore ai 100mm;
+:::{note}
+Es posible instalar dos racks uno encima del otro siempre que se cumpla una de las siguientes condiciones:
 
-2. venga installata una barriera fisica in lamiera o materiale plastico isolante ed autoestinguente, in tal caso la distanza tra il rack inferiore e la parete può essere ridotto a 50mm; per facilitare l'estrazione dell'aria calda si può valutare l'uso di una barriera inclinata verso il lato posteriore del rack.
+1. la distancia entre ambos no es inferior a 100 mm;
+
+2. se instala una barrera física de chapa o de material plástico aislante y autoextinguible; en tal caso, la distancia entre el rack inferior y la pared puede reducirse a 50 mm; para facilitar la extracción del aire caliente, puede valorarse el uso de una barrera inclinada hacia la parte posterior del rack.
 :::
 
 :::{tip}
-È utile prevedere un sistema di ventilazione posto al di sopra del rack che forzi l'estrazione dell'aria calda che esce dalla superficie superiore, specialmente quando se ne montano più di uno impilati verticalmente.
+Resulta útil prever un sistema de ventilación situado por encima del rack que fuerce la extracción del aire caliente que sale por la superficie superior, especialmente cuando se montan varios apilados verticalmente.
 :::

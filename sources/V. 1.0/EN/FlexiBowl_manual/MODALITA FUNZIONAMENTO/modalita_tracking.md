@@ -1,10 +1,10 @@
 (tracking)=
-# [SOF] **Tracking Mode**
+# **Circular Tracking Mode**
 
 ## Operation in Tracking
 
-The **Flexitracking** option maximizes the productivity of the FlexiBowl® by making it rotate continuously and without interruption.  
- Instead of stopping at every cycle to take the photo and give the robot time to pick up the parts present in the vision area, an encoder keeps track of the rotation angle covered by the rigid disc surface from the moment the photo is taken to the moment the robot picks the part.  
+The **Circular Tracking** option maximizes the productivity of the FlexiBowl® by making it rotate continuously and without interruption.
+ Instead of stopping at every cycle to take the picture and give the robot time to pick the parts present in the vision area, an encoder keeps track of the rotation angle covered by the surface of the rigid disc from the moment the picture is taken to the moment the robot picks the part.
 
 :::{figure} ../../../../_shared/media/images/Tracking.png
 :width: 50%
@@ -17,8 +17,8 @@ The **Flexitracking** option maximizes the productivity of the FlexiBowl® by ma
 :::
 
 ::::{tip}
-Tracking operation moves the picking area which, if it normally coincides with the vision area, in this case will be moved downstream.  
- Refer to the {ref}`Layout Best Practice <layoutbp>` chapter for more information on the recommended placement of the robot and of the other accessories in the case of standard and Flexitracking operation.  
+Operation in circular tracking shifts the picking area which, if it normally coincides with the vision area, will in this case be shifted downstream.
+ Refer to the {ref}`Layout Best Practice <layoutbp>` chapter for more information on the recommended placement of the robot and the other accessories for standard operation and Circular Tracking.
 
 :::{figure} ../../../../_shared/media/images/TrackingLayout.PNG
 :width: 80%
@@ -38,7 +38,7 @@ Tracking operation moves the picking area which, if it normally coincides with t
 | **Vision area** | One sector ahead of the picking area |
 | **Parallelism** | Hopper discharge, FlexiBowl® movement/pulse, vision and picking running simultaneously |
 | **Stability** | Greater stability of the instantaneous cycle time |
-| **Precision** | Lower accuracy compared to standard mode |
+| **Accuracy** | Lower accuracy than in standard mode |
 
 </div>
 
@@ -46,8 +46,7 @@ Tracking operation moves the picking area which, if it normally coincides with t
 
 ## Operating cycle
 
-Tracking operation is based on a continuous cycle divided into four phases that
-take place in parallel:
+Operation in circular tracking is based on a continuous cycle divided into four phases that take place in parallel:
 
 ```{list-table}
 :header-rows: 1
@@ -58,10 +57,9 @@ take place in parallel:
 * - **Detect**
   - The camera acquires the image of a sector of the FlexiBowl®, anticipating the picking area.
 * - **Move**
-  - The bowl rotates continuously without stopping; the encoder records the angular displacement
-    in real time.
+  - The bowl rotates continuously without stopping; the encoder records the angular displacement in real time.
 * - **Flip / Drop**
-  - Parts that are not correctly oriented are flipped or discharged into the correct position.
+  - The parts that are not correctly oriented are flipped over or discharged into the correct position.
 * - **Pick**
   - The robot picks the parts, compensating for the movement of the FlexiBowl® thanks to the encoder data.
 ```
@@ -70,61 +68,60 @@ take place in parallel:
 
 ## Required hardware and software
 
-The following components are required to enable Flexitracking:
+The following components are required to enable Circular Tracking:
 
-- **Encoder option** on the FlexiBowl®
-- **Tracking option** on the robot
+- **Circular Tracking** option on the FlexiBowl®, available in the price list for:
 
-### Connection diagram
+  | Size | Price list code |
+  |---|---|
+  | FlexiBowl® 500 | Circular Tracking 500C · Circular Tracking 500CC |
+  | FlexiBowl® 650 | Circular Tracking 650CC |
+  | FlexiBowl® 800 | Circular Tracking 800C · Circular Tracking 800CC |
+  | FlexiBowl® 1200 | Circular Tracking 1200C · Circular Tracking 1200CC |
 
-Flexitracking is based on a motor assembly modified with a support for a belt drive
-that drives the external encoder.
+- **Conveyor tracking** option on the robot controller
 
-:::{figure} ../../../../_shared/media/images/GM001788.PNG
-:width: 80%
-:align: center
-:::
+(schema-di-collegamento)=
+### Encoder technical data
 
-The encoder signal is distributed through an **internal splitter**, which sends it both
-to the motor driver and to the robot:
+The Circular Tracking option includes an encoder connected to the rotation of the disc. The encoder signal is split inside the FlexiBowl® and sent both to the motor driver and to the robot controller.
 
-<div class="hw-schema">
-
-```{list-table}
-:header-rows: 1
+:::{list-table}
 :widths: 35 65
+:stub-columns: 1
 
-* - Component
-  - Function
-* - **Internal encoder splitter**
-  - Splits the encoder signal towards the driver and towards the robot.
-* - **External encoder**
-  - Mounted on a shaft connected to the driven pulley through a support bracket;
-    measures the actual rotation of the disc surface.
-```
-
-</div>
+* - Model
+  - 
+* - Max. number of pulses
+  - 49152 / 65536 pulses/rev, depending on the FlexiBowl® speed
+* - Communication interface
+  - Incremental, TTL / HTL (factory setting: TTL)
+* - Certifications
+  - EU Declaration of Conformity · UK Declaration of Conformity · ACMA Declaration of Conformity · Morocco Declaration of Conformity · China RoHS · cULus
+* - Connection on the FlexiBowl®
+  - {ref}`Encoder cable gland <io-flexitrack>`
+:::
 
 ---
 ## JOG page 
 
-The **Jog Motor** page allows the FlexiBowl® to be operated in tracking mode, without using programmed sequences. It is mainly used during the setup, commissioning and testing phases of the system, allowing the operator to directly control the rotation of the FlexiBowl® and the accessory functions.
-![jog monitor page](../../../../_shared/media/images/jog_motor.png)
+The **Jog Motor** page allows the FlexiBowl® to be driven in circular tracking mode, without using programmed sequences. It is mainly used during setup, commissioning and testing of the system, allowing the operator to directly control the rotation of the FlexiBowl® and the accessory functions.
+![jog motor page](../../../../_shared/media/images/jog_motor.png)
 
-For more information, see the [JOG Page](jog)
+For more information, see the [JOG page](jog)
 
-#### JOG EXE Commands
+#### Comandi EXE JOG
 
 | Command | ControlWord | Busy during execution | ReturnData_1 | Explanation | 
 |---|---|---|---|---|
-| Start Jog Seq | 40 | SI | 40 | Avvia Jog |
-| Stop Jog Seq | 41 | SI | 41 | Ferma Jog |
+| Start Jog Seq | 40 | YES | 40 | Start Jog |
+| Stop Jog Seq | 41 | YES | 41 | Stop Jog |
 
-#### JOG WRITE Commands
+#### Comandi WRITE JOG
 
 The Jog commands (continuous manual operation) can be configured separately via ControlWord in block 20000.
 
-| Command | ControlWord | Data_1 range | Notes |
+| Command | ControlWord | Range Data_1 | Notes |
 |---|---|---|---|
 | AccelerationJog | 20001 | 0–100 | Jog acceleration ramp (%) |
 | DecelerationJog | 20002 | 0–100 | Jog deceleration ramp (%) |
@@ -141,11 +138,11 @@ The Jog commands (continuous manual operation) can be configured separately via 
 | Backlight_1 | 20013 | 0–1 | 0 = off, 1 = on |
 | Backlight_2 | 20014 | 0–1 | 0 = off, 1 = on |
 
-#### JOG READ Commands
+#### Comandi READ JOG
 
 The same writable JOG commands (block 20000) can be read in block 20100:
 
-| Command | READ ControlWord | ReturnData_2 range |
+| Command | READ ControlWord | Range ReturnData_2 |
 |---|---|---|
 | AccelerationJog | 20101 | 0–100 |
 | DecelerationJog | 20102 | 0–100 |
@@ -163,7 +160,7 @@ The same writable JOG commands (block 20000) can be read in block 20100:
 | Backlight_2 | 20114 | 0–1 |
 
 ::::{tip}
-For the Error Codes, see the dedicated page. 
+For the Error Codes, consult the dedicated page.
 :::{card} GO TO THE DEDICATED PAGE
 :link: sec-err
 :link-type: ref
@@ -171,18 +168,25 @@ For the Error Codes, see the dedicated page.
 :class-body: isw-card-body
 :::
 ::::
----
 
+---
+## Advantages 
+
+
+:::{grid-item-card} Advantages
+- **Speed**: .
+- **Cycle time stability**: .
+- **Reduced environmental footprint**: .
+:::
+
+---
 ## Operating notes
 
 :::{warning}
-Tracking mode offers maximum performance but with a **slightly lower precision**
-compared to standard mode. Evaluate its suitability based on the tolerance requirements
-of the component to be handled.
+The Circular Tracking mode offers maximum performance but with a **slightly lower accuracy** than the standard mode. Evaluate its suitability based on the tolerance requirements of the component to be handled.
 :::
 
 :::{note}
-For the configuration of the offset parameter between the vision area and the picking area, refer
-to the software configuration section of the system.
+For the configuration of the offset parameter between the vision area and the picking area, refer to the software configuration section of the system.
 :::
 

@@ -1,1 +1,1 @@
-# **Sustitución de la placa eléctrica**
+# **Sustitución de la placa**

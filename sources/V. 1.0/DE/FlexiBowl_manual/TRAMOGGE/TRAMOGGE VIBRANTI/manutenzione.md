@@ -1,16 +1,16 @@
 # **Wartung und Fehlerbehebung**
 
 :::{warning}
-Eseguire le operazioni di manutenzione quando la macchina è spenta.
+Führen Sie Wartungsarbeiten bei ausgeschalteter Maschine durch.
 :::
 
 :::{warning}
-Le operazioni di manutenzione devono essere eseguite da personale qualificato ed autorizzato.
+Wartungsarbeiten müssen von qualifiziertem und befugtem Personal durchgeführt werden.
 ::: 
 
-La manutenzione della macchina comprende gli interventi (ispezione, verifica, controllo, regolazione e sostituzione) che si rendono necessari in seguito al normale uso.
+Die Wartung der Maschine umfasst die Arbeiten (Inspektion, Prüfung, Kontrolle, Einstellung und Austausch), die infolge der normalen Nutzung erforderlich werden.
 
-**Linee guida per una corretta manutenzione:**
+**Richtlinien für eine ordnungsgemäße Wartung:**
 
 <style>
   .isw-timeline-custom {
@@ -90,68 +90,67 @@ La manutenzione della macchina comprende gli interventi (ispezione, verifica, co
   <div class="isw-timeline-item-fixed">
     <div class="isw-timeline-arrow-fixed"></div>
     <div class="isw-card-fixed">
-      <span class="isw-symbol-label">Componenti</span>
-      <div class="isw-symbol-desc">Servirsi soltanto di ricambi originali, di attrezzi adatti allo scopo ed in buono stato.</div>
+      <span class="isw-symbol-label">Komponenten</span>
+      <div class="isw-symbol-desc">Verwenden Sie ausschließlich Original-Ersatzteile sowie geeignete Werkzeuge in gutem Zustand.</div>
     </div>
   </div>
 
   <div class="isw-timeline-item-fixed">
     <div class="isw-timeline-arrow-fixed"></div>
     <div class="isw-card-fixed">
-      <span class="isw-symbol-label">Frequenze d'intervento</span>
-      <div class="isw-symbol-desc">Rispettare le scadenze indicate nel manuale per la manutenzione programmata (preventiva e periodica). La distanza temporale o i cicli di lavoro tra un intervento e l'altro sono da intendersi come valore massimo accettabile e non devono essere superati.</div>
+      <span class="isw-symbol-label">Wartungsintervalle</span>
+      <div class="isw-symbol-desc">Halten Sie die im Handbuch angegebenen Fristen für die planmäßige (vorbeugende und regelmäßige) Wartung ein. Der zeitliche Abstand oder die Arbeitszyklen zwischen zwei Eingriffen sind als maximal zulässiger Wert zu verstehen und dürfen nicht überschritten werden.</div>
     </div>
   </div>
 
   <div class="isw-timeline-item-fixed">
     <div class="isw-timeline-arrow-fixed"></div>
     <div class="isw-card-fixed">
-      <span class="isw-symbol-label">Monitoraggio preventivo</span>
-      <div class="isw-symbol-desc">Verificare prontamente la causa di eventuali anomalie quali rumorosità eccessiva, surriscaldamenti, trafilamenti di fluidi, ecc.</div>
+      <span class="isw-symbol-label">Vorbeugende Überwachung</span>
+      <div class="isw-symbol-desc">Ermitteln Sie umgehend die Ursache eventueller Auffälligkeiten wie übermäßiger Geräusche, Überhitzung, Flüssigkeitsaustritt usw.</div>
     </div>
   </div>
 
   <div class="isw-timeline-item-fixed">
     <div class="isw-card-fixed">
-      <span class="isw-symbol-label">Tempestività</span>
+      <span class="isw-symbol-label">Zeitnahes Handeln</span>
       <div class="isw-symbol-desc">
-        Una rimozione immediata delle cause di anomalia o malfunzionamento evita ulteriori danni alle apparecchiature e garantisce la sicurezza degli operatori.
+        Die sofortige Beseitigung der Ursachen einer Auffälligkeit oder Fehlfunktion vermeidet weitere Schäden an den Geräten und gewährleistet die Sicherheit der Bediener.
       </div>
     </div>
   </div>
 
 </div>
 
-Il personale addetto deve essere ben addestrato e avere un'approfondita conoscenza delle norme antinfortunistiche. Il personale non autorizzato deve rimanere all'esterno dell'area di lavoro durante le operazioni. 
+Das zuständige Personal muss gut geschult sein und die Unfallverhütungsvorschriften genau kennen. Nicht autorisiertes Personal muss während der Arbeiten außerhalb des Arbeitsbereichs bleiben.
 
-Le attività di pulizia e regolazione vengono effettuate solo ed esclusivamente in fase di manutenzione, a macchina ferma, de-energizzata e con quadro elettrico sezionato.
+Reinigungs- und Einstellarbeiten werden ausschließlich während der Wartung durchgeführt, bei stillstehender, spannungsfreier Maschine und getrenntem Schaltschrank.
 
 :::{important}
-In caso di dubbi è vietato operare. Interpellare il Costruttore per i necessari chiarimenti.
+Im Zweifelsfall ist das Arbeiten verboten. Wenden Sie sich für die erforderlichen Klarstellungen an den Hersteller.
 :::
 
 :::{attention}
-Gli interventi di riparazione o di manutenzione non contenuti nel presente manuale possono essere eseguiti soltanto previa autorizzazione di ARS S.r.l.
-Nessuna responsabilità relativa a danni a persone o cose può essere attribuita a ARS S.r.l. per interventi diversi da quelli descritti od eseguiti con modalità diverse da quelle indicate.
+Reparatur- oder Wartungsarbeiten, die nicht in diesem Handbuch enthalten sind, dürfen nur mit vorheriger Genehmigung von ARS S.r.l. durchgeführt werden. ARS S.r.l. kann für Personen- oder Sachschäden infolge von Arbeiten, die von den beschriebenen abweichen oder auf andere als die angegebene Weise ausgeführt wurden, nicht haftbar gemacht werden.
 :::
 
-### Classificazione operativa delle manutenzioni
+### Betriebliche Klassifizierung der Wartung
 
-| Tipo manutenzione | Descrizione |
+| Wartungsart | Beschreibung |
 | :--- | :--- |
-| **Manutenzione ordinaria** | Operazioni preventive per garantire il buon funzionamento della macchina nel tempo (ispezione, controllo, regolazione, pulizia e lubrificazione). |
-| **Manutenzione straordinaria** | Interventi correttivi al bisogno (revisione, riparazione, ripristino delle condizioni nominali o sostituzione di un gruppo guasto, difettoso o usurato). |
+| **Planmäßige Wartung** | Vorbeugende Maßnahmen, um den ordnungsgemäßen Betrieb der Maschine über die Zeit zu gewährleisten (Inspektion, Kontrolle, Einstellung, Reinigung und Schmierung). |
+| **Außerplanmäßige Wartung** | Korrektive Eingriffe nach Bedarf (Überholung, Reparatur, Wiederherstellung der Nennbedingungen oder Austausch einer ausgefallenen, defekten oder verschlissenen Baugruppe). |
 
 ---
 
-## Avvertenze di Sicurezza 
+## Sicherheitshinweise 
 
 :::{attention} 
-Prima di iniziare qualsiasi intervento di manutenzione sulla macchina, sezionare e lucchettare tutte le fonti energetiche, e mettere in condizione di blocco in sicurezza i gruppi mobili che la compongono. Apporre il cartello “Macchina in manutenzione - non inserire l’alimentazione” presso l’interruttore generale.
+Bevor Sie Wartungsarbeiten an der Maschine beginnen, trennen und verriegeln (Lockout) Sie alle Energiequellen und sichern Sie die beweglichen Baugruppen in einem sicheren, blockierten Zustand. Bringen Sie am Hauptschalter das Schild „Maschine in Wartung – Energieversorgung nicht einschalten“ an.
 :::
 
 :::{attention}
-Quando la macchina è in manutenzione, per evitare che questa possa essere messa in funzione accidentalmente, apporre cartelli con la dicitura: “ATTENZIONE! Macchina In Manutenzione”.
+Um zu verhindern, dass die Maschine während der Wartung versehentlich in Betrieb genommen wird, bringen Sie Schilder mit der Aufschrift „ACHTUNG! Maschine in Wartung“ an.
 :::
 
 <div class="isw-page">
@@ -159,28 +158,28 @@ Quando la macchina è in manutenzione, per evitare che questa possa essere messa
     <div class="isw-timeline-item">
       <div class="isw-timeline-arrow"></div>
       <div class="isw-timeline-card">
-        <span class="isw-symbol-label">DPI</span>
-        <div class="isw-symbol-desc">I manutentori devono obbligatoriamente indossare tutti i dispositivi di protezione individuale necessari (guanti, occhiali, tute) all'attività da effettuare.</div>
+        <span class="isw-symbol-label">PSA</span>
+        <div class="isw-symbol-desc">Das Wartungspersonal muss zwingend die gesamte für die auszuführende Tätigkeit erforderliche persönliche Schutzausrüstung tragen (Handschuhe, Brille, Overall).</div>
       </div>
     </div>
     <div class="isw-timeline-item">
       <div class="isw-timeline-arrow"></div>
       <div class="isw-timeline-card">
-        <span class="isw-symbol-label">Segnalazione</span>
-        <div class="isw-symbol-desc">Se l'operazione prevede la rimozione di protezioni, transennare la zona di intervento e segnalare il divieto di accesso alle persone estranee.</div>
+        <span class="isw-symbol-label">Kennzeichnung</span>
+        <div class="isw-symbol-desc">Wenn für die Arbeit Schutzeinrichtungen entfernt werden müssen, sperren Sie den Arbeitsbereich ab und weisen Sie auf das Zutrittsverbot für Unbefugte hin.</div>
       </div>
     </div>
     <div class="isw-timeline-item">
       <div class="isw-timeline-arrow"></div>
       <div class="isw-timeline-card">
-        <span class="isw-symbol-label">Verifica disconnessione</span>
-        <div class="isw-symbol-desc">Prima di procedere a qualunque attività, verificare l'effettiva disconnessione delle fonti energetiche (corrente elettrica, aria compressa, energia idraulica, ecc.).</div>
+        <span class="isw-symbol-label">Prüfung der Trennung</span>
+        <div class="isw-symbol-desc">Prüfen Sie vor jeder Tätigkeit, dass die Energiequellen (elektrischer Strom, Druckluft, Hydraulikenergie usw.) tatsächlich getrennt sind.</div>
       </div>
     </div>
     <div class="isw-timeline-item">
       <div class="isw-timeline-card">
-        <span class="isw-symbol-label">Competenza</span>
-        <div class="isw-symbol-desc">Il manutentore deve eseguire solo le operazioni di propria competenza (Meccanica, Elettrica, Fluidica) per le quali è esplicitamente autorizzato, utilizzando la strumentazione idonea alla ricerca guasti.</div>
+        <span class="isw-symbol-label">Zuständigkeit</span>
+        <div class="isw-symbol-desc">Das Wartungspersonal darf nur die Arbeiten in seinem eigenen Zuständigkeitsbereich (Mechanik, Elektrik, Fluidtechnik) ausführen, für die es ausdrücklich befugt ist, und muss dabei für die Fehlersuche geeignete Messgeräte verwenden.</div>
       </div>
     </div>
   </div>
@@ -188,351 +187,357 @@ Quando la macchina è in manutenzione, per evitare che questa possa essere messa
 
 ---
 
-## Manutenzione Ordinaria 
+## Planmäßige Wartung 
 
-La manutenzione ordinaria tiene sotto controllo le condizioni meccaniche e la pulizia della macchina. Le periodicità indicate si riferiscono a condizioni di funzionamento normali. 
+Die planmäßige Wartung überwacht den mechanischen Zustand und die Sauberkeit der Maschine. Die angegebenen Intervalle beziehen sich auf normale Betriebsbedingungen.
 
 :::{important}
-Per quanto riguarda la manutenzione ordinaria delle macchine provenienti da fornitori esterni, si rimanda ai manuali dei sub-fornitori allegati.
+Für die planmäßige Wartung von Maschinen externer Lieferanten wird auf die beigefügten Unterlieferanten-Handbücher verwiesen.
 ::: 
 
 :::{important}
-Nel fissaggio delle viti utilizzare sempre LOCTITE 243 per garantire un perfetto serraggio anti-vibrante.
+Verwenden Sie beim Festziehen von Schrauben stets LOCTITE 243, um eine einwandfreie schwingungssichere Verschraubung zu gewährleisten.
 :::
 
-### Controlli e verifiche
+### Kontrollen und Prüfungen
 
-#### Tabella di manutenzione ordinaria – Controlli
+#### Tabelle der planmäßigen Wartung – Kontrollen
 
-| Operazione | Giornaliera | Settimanale | Mensile | Semestrale | Annuale |
+| Vorgang | Täglich | Wöchentlich | Monatlich | Halbjährlich | Jährlich |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| Controllo stato della vasca prima di ogni avviamento | ◈ | | | | |
-| Controllo stato di usura dei relè | | | |  | ◈ |
-| Controllo corretto funzionamento dei fusibili | | | |  | ◈ |
-| Controllo stato di usura delle balestre | | | | ◈ |  |
-| Controllo corretto funzionamento dell'elettromagnete | | | | ◈ |  |
-| Controllo usura rivestimento in poliuretano *(ove presente)* | | | ◈ | |  |
+| Zustand der Wanne vor jedem Start prüfen | ◈ | | | | |
+| Verschleißzustand der Relais prüfen | | | |  | ◈ |
+| Korrekte Funktion der Sicherungen prüfen | | | |  | ◈ |
+| Verschleißzustand der Blattfedern prüfen | | | | ◈ |  |
+| Korrekte Funktion des Elektromagneten prüfen | | | | ◈ |  |
+| Verschleiß der Polyurethan-Beschichtung prüfen *(sofern vorhanden)* | | | ◈ | |  |
 
-#### Verifica dispositivi di sicurezza
+#### Prüfung der Sicherheitseinrichtungen
 
-Per la verifica dell'integrità dei sistemi di protezione, eseguire i seguenti passi:
+Gehen Sie zur Prüfung der Unversehrtheit der Schutzsysteme wie folgt vor:
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Verificare che siano presenti e correttamente fissate tutte le cover e i carter della macchina.
+      Prüfen Sie, dass alle Abdeckungen und Verkleidungen der Maschine vorhanden und korrekt befestigt sind.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Verificare che il cavo di alimentazione elettrica non presenti danneggiamenti, tagli o segni di usura superficiale.
+      Prüfen Sie, dass das elektrische Netzkabel keine Beschädigungen, Schnitte oder Anzeichen oberflächlichen Verschleißes aufweist.
     </div>
   </div>
 </div>
 
-#### Pulizia
+#### Reinigung
 
 :::{attention} 
-Le operazioni di pulizia devono essere eseguite solo da personale qualificato e autorizzato.
+Reinigungsarbeiten dürfen nur von qualifiziertem und befugtem Personal durchgeführt werden.
 :::
 
 :::{attention} 
-Per pulire la macchina, non utilizzare frammenti di spugna, panni umidi e/o abrasivi, stracci filamentosi, benzina o solventi infiammabili come detergente.
+Verwenden Sie zur Reinigung der Maschine keine Schwammstücke, feuchten und/oder scheuernden Tücher, fusselnden Lappen, kein Benzin und keine brennbaren Lösungsmittel als Reinigungsmittel.
 :::
 
 :::{attention} 
-Non usare acidi o solventi chimici aggressivi per pulire la base della tramoggia.
+Verwenden Sie zur Reinigung des Sockels des Bulk Feeders keine Säuren oder aggressiven chemischen Lösungsmittel.
 :::
 
 :::{important}
-Usare prodotti delicati e non abrasivi, come sgrassatori neutri o comune sapone domestico. Per rimuovere frammenti e polveri, usare un pennello avendo cura di indossare gli occhiali protettivi.
+Verwenden Sie milde, nicht scheuernde Produkte wie neutrale Entfetter oder handelsübliche Haushaltsseife. Zum Entfernen von Splittern und Staub verwenden Sie einen Pinsel und tragen dabei unbedingt eine Schutzbrille.
 :::
 
-#### Tabella di manutenzione ordinaria – Pulizia
+#### Tabelle der planmäßigen Wartung – Reinigung
 
-| Operazione | Giornaliera | Settimanale | Mensile | Semestrale | Annuale |
+| Vorgang | Täglich | Wöchentlich | Monatlich | Halbjährlich | Jährlich |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| Rimozione residui e scarti di processo dalla superficie vasca | ◈ | | | | |
-| Rimozione grasso e olio con prodotti o solventi neutri | ◈ |  | | | |
-| Pulizia generale della macchina | | ◈ |  | | |
+| Entfernen von Prozessrückständen und -abfällen von der Wannenoberfläche | ◈ | | | | |
+| Entfernen von Fett und Öl mit neutralen Produkten oder Lösungsmitteln | ◈ |  | | | |
+| Allgemeine Reinigung der Maschine | | ◈ |  | | |
 
-#### Procedura di pulizia generale
+#### Verfahren zur allgemeinen Reinigung
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #7f8c8d; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Disconnettere completamente l'alimentazione elettrica dalla macchina.
+      Trennen Sie die elektrische Energieversorgung der Maschine vollständig.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #7f8c8d; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Rimuovere manualmente eventuali residui di prodotto accumulati.
+      Entfernen Sie eventuell angesammelte Produktrückstände von Hand.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #7f8c8d; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Rimuovere lo sporco localizzato utilizzando solventi commerciali non infiammabili e non tossici.
+      Entfernen Sie örtlich begrenzten Schmutz mit nicht brennbaren und ungiftigen handelsüblichen Lösungsmitteln.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #7f8c8d; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Utilizzare, se necessario, un aspiratore per rimuovere i residui minuti presenti sulla superficie rotante.
+      Verwenden Sie bei Bedarf einen Staubsauger, um kleinste Rückstände von der rotierenden Oberfläche zu entfernen.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #7f8c8d; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">5</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Ristabilire, una volta terminata la pulizia, i collegamenti della macchina.
+      Nach Abschluss der Reinigung die Anschlüsse der Maschine wiederherstellen.
     </div>
   </div>
 </div>
 
 :::{important}
-La pulizia generale della macchina deve essere effettuata ogni qual volta viene sostituito il tipo di componente da lavorare, in modo da eliminare residui contaminanti della lavorazione precedente.
+Die allgemeine Reinigung der Maschine muss jedes Mal durchgeführt werden, wenn die Art des zu verarbeitenden Bauteils gewechselt wird, um kontaminierende Rückstände der vorherigen Bearbeitung zu beseitigen.
 :::
 
 ---
 
-## Manutenzione Straordinaria
+## Außerplanmäßige Wartung
 
 :::{attention} 
-La manutenzione straordinaria e la riparazione della macchina sono riservate ai tecnici qualificati, istruiti ed autorizzati, dipendenti dal Costruttore o dal centro assistenza autorizzato.
+Außerplanmäßige Wartung und Reparatur der Maschine sind qualifizierten, unterwiesenen und befugten Technikern vorbehalten, die beim Hersteller oder beim autorisierten Servicecenter beschäftigt sind.
 :::
 
-Se accadono eventi eccezionali che richiedono interventi straordinari, i manutentori interni dell’utilizzatore devono:
-1. Verificare con precisione lo stato dei gruppi danneggiati o sfasati.
-2. Eseguire esclusivamente le operazioni descritte in questo paragrafo se autorizzati.
-3. Se le operazioni non sono contemplate in questo manuale, trasmettere al Costruttore una relazione dettagliata dei fatti, l'esito dell'ispezione e le osservazioni rilevate.
+Treten außergewöhnliche Ereignisse auf, die außerplanmäßige Eingriffe erfordern, muss das interne Wartungspersonal des Anwenders:
+1. den Zustand der beschädigten oder dejustierten Baugruppen genau prüfen.
+2. nur die in diesem Absatz beschriebenen Arbeiten ausführen, sofern sie dazu befugt sind.
+3. Sind die Arbeiten in diesem Handbuch nicht vorgesehen, dem Hersteller einen detaillierten Bericht über den Sachverhalt, das Ergebnis der Inspektion und die festgestellten Beobachtungen übermitteln.
 
 :::{attention} 
-Le parti di ricambio da sostituire devono essere ordinate direttamente a ARS S.r.l. Nel caso in cui non vengano utilizzati ricambi originali o autorizzati per iscritto, il Costruttore declina ogni responsabilità sul funzionamento della macchina e sulla sicurezza degli operatori.
+Die auszutauschenden Ersatzteile müssen direkt bei ARS S.r.l. bestellt werden. Werden keine Original-Ersatzteile oder schriftlich genehmigten Teile verwendet, lehnt der Hersteller jede Haftung für den Betrieb der Maschine und die Sicherheit der Bediener ab.
 :::
 
 :::{attention} 
-Disconnettere l’alimentazione elettrica e pneumatica prima di procedere con qualsiasi operazione di manutenzione straordinaria o prima di rimuovere le cover di protezione.
+Trennen Sie die elektrische und pneumatische Energieversorgung, bevor Sie außerplanmäßige Wartungsarbeiten durchführen oder die Schutzabdeckungen entfernen.
 :::
 
 :::{important}
-Nel serraggio delle viti utilizzare sempre frenafiletti LOCTITE 243 per garantire la tenuta meccanica.
+Verwenden Sie beim Festziehen der Schrauben stets die Schraubensicherung LOCTITE 243, um den mechanischen Halt zu gewährleisten.
 :::
 
-### Regolazione traferro
+### Einstellung des Luftspalts
 
-Il traferro è la distanza fisica che intercorre tra il nucleo ed il contro-nucleo; una regolazione millimetrica è fondamentale:
-* **Traferro troppo stretto:** Le superfici del nucleo e del contro-nucleo entrano in contatto meccanico durante il funzionamento, provocando il "battito".
-* **Traferro troppo largo:** La corrente elettrica del vibratore può salire a livelli critici, provocando la bruciatura dell’avvolgimento e il danneggiamento dei componenti interni del controller.
+Der Luftspalt ist der physische Abstand zwischen Kern und Gegenkern; eine millimetergenaue Einstellung ist unerlässlich:
+* **Luftspalt zu eng:** Die Oberflächen von Kern und Gegenkern kommen im Betrieb in mechanischen Kontakt, was zu „Schlagen“ führt.
+* **Luftspalt zu weit:** Der elektrische Strom des Vibrators kann auf kritische Werte ansteigen, was zum Durchbrennen der Wicklung und zur Beschädigung der internen Bauteile der Steuerung führt.
 
 :::{attention}
-Non far funzionare in nessun caso il vibratore qualora si verifichi una delle due condizioni sopra descritte.
+Betreiben Sie den Vibrator keinesfalls, wenn eine der beiden oben beschriebenen Bedingungen auftritt.
 :::
 
 :::{important}
-Il traferro viene opportunamente tarato in fabbrica; interventi di regolazione si rendono necessari solo in caso di manipolazioni improprie o applicazioni di sovratensioni.
+Der Luftspalt wird werkseitig sachgemäß eingestellt; Einstellarbeiten sind nur bei unsachgemäßer Handhabung oder bei Anlegen von Überspannungen erforderlich.
 :::
 
-| Dati operativi | Specifiche di intervento |
+| Betriebsdaten | Spezifikationen des Eingriffs |
 | :--- | :--- |
-| **Qualifica operatore** | Manutentore meccanico |
-| **Utensili da utilizzare** | Chiave a forchetta |
+| **Qualifikation des Bedieners** | Mechanischer Instandhalter |
+| **Zu verwendende Werkzeuge** | Gabelschlüssel |
 
-#### Procedura di regolazione del traferro
+#### Verfahren zur Einstellung des Luftspalts
 
-![Regolazione Traferro](../../../../../_shared/media/images/regolazione_traferro.png)
+![Einstellung des Luftspalts](../../../../../_shared/media/images/regolazione_traferro.png)
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Allentare il controdado di bloccaggio <strong>(Dado 2)</strong>.
+      Lösen Sie die Kontermutter <strong>(Mutter 2)</strong>.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Avvitare la <strong>Vite 1</strong> operando in senso orario fino a portarla a fine corsa, ossia in battuta meccanica contro il contro-nucleo.
+      Drehen Sie <strong>Schraube 1</strong> im Uhrzeigersinn ein, bis sie den Anschlag erreicht, d. h. am mechanischen Anschlag am Gegenkern anliegt.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Svitare la <strong>Vite 1</strong> operando in senso antiorario: fare riferimento alla tabella sottostante per identificare il valore corretto e far compiere alla vite il numero di giri e frazioni necessari per impostare la distanza corretta.
+      Drehen Sie <strong>Schraube 1</strong> gegen den Uhrzeigersinn heraus: Entnehmen Sie den richtigen Wert der nachstehenden Tabelle und drehen Sie die Schraube um die erforderliche Anzahl an Umdrehungen und Bruchteilen, um den korrekten Abstand einzustellen.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Serrare a fondo il <strong>Dado 2</strong> per assicurare la stabilità della vite di regolazione 1.
+      Ziehen Sie <strong>Mutter 2</strong> fest an, um die Stabilität der Einstellschraube 1 sicherzustellen.
     </div>
   </div>
 </div>
 
 :::{note} 
- La regolazione del traferro è un'operazione di precisione che può richiedere verifiche ripetute per ottenere il settaggio ideale.
+ Die Einstellung des Luftspalts ist ein Präzisionsvorgang, der wiederholte Kontrollen erfordern kann, um die ideale Einstellung zu erreichen.
 :::
-![Regolazione Traferro](../../../../../_shared/media/images/disegno_tecnico.png)
+![Einstellung des Luftspalts](../../../../../_shared/media/images/disegno_tecnico.png)
 
-#### Tabella tecnica di riferimento traferro
+#### Technische Referenztabelle für den Luftspalt
 
-| Modello | Dimensione magnete | Traferro richiesto | Rotazione vite di regolazione |
+| Modell | Magnetgröße | Erforderlicher Luftspalt | Drehung der Einstellschraube |
 | :---: | :---: | :---: | :---: |
-| **1,5lt** | Ø21 | 1,5 mm | 360° (1 giro completo) |
-| **3lt** | Ø24 | 2 mm | 480° (1 giro + 1/3) |
-| **5lt** | Ø28 | 3 mm | 720° (2 giri completi) |
-| **10lt** | Ø28 | 3 mm | 720° (2 giri completi) |
-| **20lt** | Ø28 | 3 mm | 720° (2 giri completi) |
-| **40lt** | 32x30 | 3 mm | 720° (2 giri completi) |
+| **1,5 l** | Ø21 | 1,5 mm | 360° (1 volle Umdrehung) |
+| **3 l** | Ø24 | 2 mm | 480° (1 Umdrehung + 1/3) |
+| **5 l** | Ø28 | 3 mm | 720° (2 volle Umdrehungen) |
+| **10 l** | Ø28 | 3 mm | 720° (2 volle Umdrehungen) |
+| **20 l** | Ø28 | 3 mm | 720° (2 volle Umdrehungen) |
+| **40 l** | 32x30 | 3 mm | 720° (2 volle Umdrehungen) |
 
-### Sostituzione balestre
+### Austausch der Blattfedern
 
-| Dati operativi | Specifiche di intervento |
+| Betriebsdaten | Spezifikationen des Eingriffs |
 | :--- | :--- |
-| **Qualifica operatore** | Manutentore meccanico |
-| **Utensili da utilizzare** | Chiave a forchetta |
+| **Qualifikation des Bedieners** | Mechanischer Instandhalter |
+| **Zu verwendende Werkzeuge** | Gabelschlüssel |
 
-La modifica del dimensionamento del pacco balestre (numero e spessore dei fogli) serve a variare ed adeguare la portata utile del vibratore.
+Die Änderung der Dimensionierung des Blattfederpakets (Anzahl und Dicke der Lagen) dient dazu, die Nutztragfähigkeit des Vibrators zu variieren und anzupassen.
 
-#### Procedura di sostituzione delle balestre
+#### Verfahren zum Austausch der Blattfedern
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Operare su un singolo pacco balestre alla volta, iniziando tassativamente da quello posizionato sul lato posteriore.
+      Arbeiten Sie jeweils nur an einem Blattfederpaket und beginnen Sie unbedingt mit dem an der Rückseite.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Annotare o fotografare l'esatta posizione e l'ordine di sequenza di ogni balestra, distanziale e morsetto di ritenuta.
+      Notieren oder fotografieren Sie die genaue Position und Reihenfolge jeder Blattfeder, jedes Abstandshalters und jeder Halteklemme.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Rimuovere i bulloni di ancoraggio meccanico alla base e, successivamente, i bulloni di fissaggio al ponte del canale vibrante.
+      Entfernen Sie die Bolzen zur mechanischen Verankerung an der Basis und anschließend die Befestigungsbolzen an der Brücke der Vibrationsrinne.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Sostituire gli elementi usurati o fessurati con ricambi originali.
+      Ersetzen Sie verschlissene oder gerissene Elemente durch Original-Ersatzteile.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">5</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Ricomporre il pacco balestre seguendo esattamente l'ordine inverso rispetto allo smontaggio.
+      Setzen Sie das Blattfederpaket exakt in umgekehrter Reihenfolge der Demontage wieder zusammen.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">6</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Serrare tutte le viti applicando la coppia di serraggio stabilita nella tabella seguente.
+      Ziehen Sie alle Schrauben mit dem in der folgenden Tabelle angegebenen Anzugsdrehmoment fest.
     </div>
   </div>
 </div>
 
-#### Tabella tecnica balestre e coppie di serraggio
+#### Technische Tabelle der Blattfedern und Anzugsdrehmomente
 
-| Modello | Dimensione balestre | Spessore fogli | Coppia di serraggio e filettatura |
+| Modell | Blattfedergröße | Lagendicke | Anzugsdrehmoment und Gewinde |
 | :---: | :---: | :---: | :--- |
-| **1,5lt** | 40x48 mm | 1 - 1,5 - 2 mm | 7,5 N·m – M5 |
-| **3lt** | 40x48 mm | 1 - 1,5 - 2 mm | 7,5 N·m – M5 |
-| **5lt** | 70x82 mm | 1,5 - 2 mm | 30 N·m – M8 |
-| **10lt** | 70x82 mm | 1,5 - 2 mm | 30 N·m – M8 |
-| **20lt** | 70x82 mm | 1,5 - 2 mm | 30 N·m – M8 |
-| **40lt** | 80x91 mm | 1,5 - 2 - 2,5 mm | 70 N·m – M10 |
+| **1,5 l** | 40x48 mm | 1 - 1,5 - 2 mm | 7,5 N·m – M5 |
+| **3 l** | 40x48 mm | 1 - 1,5 - 2 mm | 7,5 N·m – M5 |
+| **5 l** | 70x82 mm | 1,5 - 2 mm | 30 N·m – M8 |
+| **10 l** | 70x82 mm | 1,5 - 2 mm | 30 N·m – M8 |
+| **20 l** | 70x82 mm | 1,5 - 2 mm | 30 N·m – M8 |
+| **40 l** | 80x91 mm | 1,5 - 2 - 2,5 mm | 70 N·m – M10 |
 
-### Sostituzione vasca
+### Austausch der Wanne
 
-| Dati operativi | Specifiche di intervento |
+| Betriebsdaten | Spezifikationen des Eingriffs |
 | :--- | :--- |
-| **Qualifica operatore** | Manutentore meccanico |
-| **Utensili da utilizzare** | Chiave a forchetta |
+| **Qualifikation des Bedieners** | Mechanischer Instandhalter |
+| **Zu verwendende Werkzeuge** | Gabelschlüssel |
 
-#### Procedura di smontaggio e montaggio vasca
+#### Verfahren zum Aus- und Einbau der Wanne
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Sostenere saldamente la vasca per evitarne la caduta libera.
+      Halten Sie die Wanne sicher fest, damit sie beim Ausbau nicht versehentlich herunterfällt.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Svitare completamente tutte le viti di fissaggio dei due carter di protezione laterali e rimuoverli.
+      Lösen Sie die vier Gewindestifte an der Grundplatte der Wanne.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Allentare i bulloni di tenuta inferiori della struttura della vasca.
+      Heben Sie die ursprüngliche Wanne vorsichtig an und nehmen Sie sie aus ihrem Sitz.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Estrarre con cautela la vasca originale dalla propria sede.
+      Entfernen Sie die Dichtung von der Grundplatte.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">5</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Posizionare la nuova vasca di ricambio verificando gli allineamenti.
+      Legen Sie die Dichtung auf die neue Wanne und prüfen Sie, dass sie korrekt sitzt.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">6</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Serrare saldamente le viti di bloccaggio strutturale.
+      Setzen Sie die neue Wanne in ihren Sitz ein und prüfen Sie, dass sie korrekt auf den Spannbolzen sitzt und die Dichtung richtig positioniert ist.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">7</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Riassemblare i due carter protettivi, avendo l'avvertenza di rimontare per ultimo quello dotato di lembi piegati.
+      Ziehen Sie die vier Gewindestifte an der Grundplatte fest, um die neue Wanne zu befestigen.
+    </div>
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">8</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Prüfen Sie, dass die neue Wanne korrekt positioniert und fest befestigt ist.
     </div>
   </div>
 </div>
 
-![Regolazione Traferro](../../../../../_shared/media/images/vasca.jpg)
+![Aus- und Einbau der Wanne](../../../../../_shared/media/images/vasca.jpg)
 
 :::{attention}
-Nel caso di modelli personalizzati i componenti potrebbero differire, parzialmente o totalmente, da quelli indicati. Per modelli di questo genere è necessario fare riferimento al fascicolo tecnico di progetto.
+Bei kundenspezifischen Modellen können die Komponenten ganz oder teilweise von den angegebenen abweichen. Für solche Modelle ist die technische Projektakte heranzuziehen.
 :::
 
 ---
 
-## Troubleshooting
+## Fehlerbehebung
 
 :::{attention}
-Durante il normale funzionamento il vibratore deve operare silenziosamente. Se dovesse verificarsi un rumore cupo causato da un battito interno, spegnere immediatamente il sistema.
+Im Normalbetrieb muss der Vibrator leise arbeiten. Tritt ein dumpfes Geräusch durch inneres Schlagen auf, schalten Sie das System sofort aus.
 :::
 
-In caso di battito, controllare e ripristinare il traferro ottimale: se le superfici sono troppo vicine impatteranno meccanicamente; se troppo distanti, l'innalzamento anomalo di corrente brucerà gli avvolgimenti dello statore.
+Kommt es zum Schlagen, prüfen und stellen Sie den optimalen Luftspalt wieder her: Sind die Flächen zu nah beieinander, schlagen sie mechanisch aufeinander; sind sie zu weit voneinander entfernt, brennt der anormale Stromanstieg die Statorwicklungen durch.
 
-| Sintomo riscontrato | Possibile causa radice | Azione correttiva richiesta |
+| Festgestelltes Symptom | Mögliche Ursache | Erforderliche Abhilfemaßnahme |
 | :--- | :--- | :--- |
-| **Il vibratore funziona troppo lentamente** | La tensione di alimentazione è al di sotto della soglia nominale. | Incrementare la tensione elettrica fino al valore corretto di targa. |
-| | L'unità entra in contatto con oggetti rigidi esterni o strutture adiacenti. | Ripristinare i giochi fisici isolando l'unità vibrante (3-5 cm). |
-| | L'oscillazione dei pacchi balestre è ostacolata o frenata da accumuli. | Smontare, pulire a fondo ed eliminare i residui dai pacchi balestre. |
-| | Le balestre presentano cricche, difetti o snervamento strutturale. | Provvedere alla sostituzione immediata del set balestre. |
-| | Il canale vibrante è incrinato o usurato meccanicamente. | Sostituire il canale. |
-| **Il vibratore funziona troppo velocemente** | La tensione di alimentazione supera i limiti nominali *(Causa prima di battito)*. | Stabilizzare e ridurre la tensione di alimentazione al valore di targa. |
-| **L'unità emette rumore (ronzio) ma non vibra** | La scheda elettronica di regolazione all'interno della cassetta è difettosa. | Sostituire la scheda elettronica del controller. |
-| **L'unità non si attiva e non risponde** | Mancanza totale di alimentazione elettrica in ingresso al Controller. | Ispezionare la linea e rimuovere eventuali interruzioni elettriche. |
-| | L'interruttore magnetotermico o il fusibile di protezione sono interrotti. | Provvedere alla sostituzione dei fusibili o al riarmo. |
-| | La scheda elettronica interna alla cassetta di controllo è danneggiata. | Sostituire la scheda elettronica. |
-| | L'avvolgimento interno del vibratore è bruciato o scarica a massa. | Sostituire il gruppo elettromagnete. |
-| | L'avvolgimento è in corto circuito interno. | Sostituire l'avvolgimento. |
-| | L'avvolgimento del reostato di regolazione risulta aperto. | Sostituire il componente guasto. |
+| **Der Vibrator läuft zu langsam** | Die Versorgungsspannung liegt unter dem Nennwert. | Erhöhen Sie die elektrische Spannung auf den korrekten Typenschildwert. |
+| | Die Einheit berührt externe starre Objekte oder benachbarte Strukturen. | Stellen Sie die Freiräume wieder her, indem Sie die Vibrationseinheit freistellen (3-5 cm). |
+| | Die Schwingung der Blattfederpakete wird durch Ablagerungen behindert oder gebremst. | Demontieren Sie die Blattfederpakete, reinigen Sie sie gründlich und entfernen Sie die Rückstände. |
+| | Die Blattfedern weisen Risse, Defekte oder strukturelles Fließen auf. | Tauschen Sie den Blattfedersatz umgehend aus. |
+| | Die Vibrationsrinne ist gerissen oder mechanisch verschlissen. | Tauschen Sie die Rinne aus. |
+| **Der Vibrator läuft zu schnell** | Die Versorgungsspannung überschreitet die Nenngrenzen *(Hauptursache für Schlagen)*. | Stabilisieren Sie die Versorgungsspannung und reduzieren Sie sie auf den Typenschildwert. |
+| **Die Einheit erzeugt Geräusche (Brummen), vibriert aber nicht** | Die elektronische Regelplatine im Gehäuse ist defekt. | Tauschen Sie die elektronische Platine der Steuerung aus. |
+| **Die Einheit aktiviert sich nicht und reagiert nicht** | Vollständiges Fehlen der elektrischen Eingangsversorgung der Steuerung. | Prüfen Sie die Leitung und beseitigen Sie eventuelle elektrische Unterbrechungen. |
+| | Der Leitungsschutzschalter oder die Schutzsicherung hat ausgelöst bzw. ist durchgebrannt. | Tauschen Sie die Sicherungen aus oder setzen Sie den Schalter zurück. |
+| | Die elektronische Platine im Steuergehäuse ist beschädigt. | Tauschen Sie die elektronische Platine aus. |
+| | Die Innenwicklung des Vibrators ist durchgebrannt oder hat Erdschluss. | Tauschen Sie die Elektromagnetgruppe aus. |
+| | Die Wicklung hat einen inneren Kurzschluss. | Tauschen Sie die Wicklung aus. |
+| | Die Wicklung des Regelwiderstands ist offen. | Tauschen Sie das defekte Bauteil aus. |
 
 

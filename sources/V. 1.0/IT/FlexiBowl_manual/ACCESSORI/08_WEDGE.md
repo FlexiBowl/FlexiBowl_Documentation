@@ -1,5 +1,5 @@
 (wedge)=
-# [MEC] **Wedge Diverter**
+# **Wedge Diverter**
 
 Il Wedge Diverter consiste in un dosso posizionato a monte dell'area di flip, sotto alla superficie per creare un rialzo che riporta i componenti in una zona in cui il flip possa essere più efficace.
 
@@ -10,7 +10,7 @@ Il Wedge Diverter consiste in un dosso posizionato a monte dell'area di flip, so
 
 ## Applicazioni consigliate 
 
-Soluzione da adottare per la movimentazione di componenti delicati che possono rompersi o deformarsi sotto l’azione del flip. È particolarmente indicato per pezzi che rotolano o scivolano facilmente. 
+Soluzione da adottare per la movimentazione di componenti delicati che possono rompersi o deformarsi sotto l’azione del flip. È particolarmente indicato per pezzi che rotolano o scivolano facilmente.
 
 ## Procedura di montaggio
 
@@ -55,7 +55,7 @@ Assicurarsi che il FlexiBowl® sia **spento e fermo** prima di procedere con il 
 
 ## Procedura di regolazione 
 
-Il wedge diverter non necessita di regolazione 
+Il wedge diverter non necessita di regolazione
 
 ## Valutazione del corretto funzionamento 
 

@@ -1,5 +1,5 @@
 (jog)=
-# [SOF] **Jog Motor**
+# **Jog Motor**
 
 ## Panoramica
 

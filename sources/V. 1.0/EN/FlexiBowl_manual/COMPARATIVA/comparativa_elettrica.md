@@ -49,17 +49,17 @@
 .compare-card-body table tr:last-child td { border-bottom: none; }
 </style>
 
-# [ELE] **Electrical Comparison**
+# **Electrical Comparison**
 
 This page compares the main electrical differences between **FlexiBowl® 2.0** and **FlexiBowl® 3.0**, in terms of power supply, connectivity and safety.
 
 :::{important}
-Before reading the contents of the current page, it is good practice to be familiar with the information given in the [Electrical and Pneumatic Specifications](dati_elettrici) page
+Before reading the contents of this page, it is good practice to be familiar with the information given on the [Electrical and Pneumatic Specifications](dati_elettrici) page
 :::
 
 ---
 
-## 1. Power Supply
+## 1. Power supply
 
 ```{list-table}
 :header-rows: 1
@@ -74,21 +74,21 @@ Before reading the contents of the current page, it is good practice to be famil
 * - **Frequency**
   - 50/60 Hz
   - 50/60 Hz
-* - **Rated power**
+* - **Nominal power**
   - 150 W
-  - 345-920 W *(depending on the FlexiBowl® size)*
+  - 345-920 W *(depending on FlexiBowl® size)*
 * - **DC power supply**
   - Generated internally
   - Generated internally
 ```
 
 :::{note}
-FlexiBowl® 3.0 draws a higher rated power than the previous generation, because the drive electronics are integrated directly into the unit.
+FlexiBowl® 3.0 draws a higher nominal power than the previous generation, because the drive electronics are integrated directly into the unit.
 :::
 
 ---
 
-## 2. Ethernet Connectivity
+## 2. Ethernet connectivity
 
 <div class="compare-grid">
 <div class="compare-card v20">
@@ -128,18 +128,18 @@ To stop the unit safely, the **230 Vac power supply must be completely disconnec
 
 <img src="../../../../_shared/media/images/connettore_STO.png" width="110"/>
 
-Integrated **Safe Torque Off (STO)** function, which allows a safe stop without having to disconnect the power supply.
+Integrated **Safe Torque Off (STO)** function, which allows safe stopping without having to disconnect the power supply.
 
 </div>
 </div>
 </div>
 
 :::{note}
-For details on the STO channels and the related wiring, refer to the [Electrical Interface](dati_elettrici) page.
+For details on the STO channels and their wiring, refer to the [Electrical Interface](dati_elettrici) page.
 :::
 
 ---
 
 ## 4. Summary
 
-FlexiBowl® 3.0 draws more power than the previous generation because of the integrated drive electronics, but introduces a more robust Ethernet connector (M12 D-code) and an integrated STO safety function, which removes the need to disconnect the power supply to stop the unit safely.
+FlexiBowl® 3.0 draws more power than the previous generation because of the integrated drive electronics, but it introduces a more robust Ethernet connector (M12 D-code) and an integrated STO safety function, which removes the need to disconnect the power supply to stop the unit safely.

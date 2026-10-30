@@ -1,79 +1,79 @@
 # **Transport und Installation**
 
 :::{important}
-Le operazioni di sollevamento e movimentazione devono essere eseguite esclusivamente da personale specializzato ed istruito avente le idoneità a svolgere tali attività.
+Hebe- und Transportarbeiten dürfen ausschließlich von spezialisiertem und unterwiesenem Personal durchgeführt werden, das für diese Tätigkeiten geeignet ist.
 :::
 
 <p style="font-size: 1.05em; color: #2c3e50; line-height: 1.6; padding: 5px 0;">
-  La macchina è stata progettata in modo che nelle fasi di imballo, trasporto e montaggio sia necessario l’uso di un <strong>carrello elevatore di portata adeguata</strong>. Si segnala che la macchina non dispone di attacchi dedicati (ad esempio: golfari) per il sollevamento.
+  Die Maschine wurde so konstruiert, dass bei Verpackung, Transport und Montage ein <strong>Gabelstapler mit ausreichender Tragfähigkeit</strong> erforderlich ist. Beachten Sie, dass die Maschine über keine eigenen Anschlagpunkte (z. B. Ringschrauben) zum Heben verfügt.
 </p>
 
-## Imballo 
+## Verpackung 
 
-La macchina è spedita a cura di ARS s.r.l. dallo stabilimento di produzione a quello del Cliente utilizzatore.
+Die Maschine wird von ARS s.r.l. vom Produktionswerk zum Werk des Kunden als Anwender versandt.
 
-* **Modalità di spedizione standard:**
-* **Imballo protettivo normale:** Indicato per corte e medie distanze.
-* **Imballo protettivo speciale:** Indicato per lunghe distanze.
+* **Standard-Versandarten:**
+* **Normale Schutzverpackung:** Geeignet für kurze und mittlere Entfernungen.
+* **Spezielle Schutzverpackung:** Geeignet für lange Entfernungen.
 
 :::{note} 
-**Nota sul trasporto:** La spedizione deve essere effettuata con mezzi di trasporto coperti o telonati in dipendenza del tipo di carico.
+**Hinweis zum Transport:** Der Versand muss je nach Art der Ladung mit geschlossenen oder mit Planen abgedeckten Transportmitteln erfolgen.
 :::
 
-### Ricezione e disimballo della macchina
+### Empfang und Auspacken der Maschine
 
-Alla ricezione della macchina il cliente deve obbligatoriamente verificare che non ci siano danni causati dalle modalità di trasporto o dal personale incaricato. Seguire scrupolosamente le seguenti procedure:
+Bei Erhalt der Maschine muss der Kunde zwingend prüfen, dass keine durch die Transportart oder das beauftragte Personal verursachten Schäden vorliegen. Befolgen Sie die nachstehenden Verfahren gewissenhaft:
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 15px 0;">
   <div style="background-color: #f8f9fa; border-left: 4px solid #34495e; padding: 12px 15px; border-radius: 0 4px 4px 0;">
-    <strong> In caso di danni accertati:</strong><br>
-    Lasciare l’imballo in questione nello stato in cui è stato trovato e richiedere immediatamente l’accertamento del danno da parte dell’impresa di spedizioni competente. Successivamente, comunicare con un certificato di avaria il danno rilevato all’assicurazione di trasporto competente e al punto vendita.
+    <strong> Bei festgestellten Schäden:</strong><br>
+    Lassen Sie die betroffene Verpackung in dem Zustand, in dem sie vorgefunden wurde, und fordern Sie unverzüglich die Schadensfeststellung durch das zuständige Speditionsunternehmen an. Teilen Sie den festgestellten Schaden anschließend mit einer Schadensmeldung der zuständigen Transportversicherung und der Verkaufsstelle mit.
   </div>
   <div style="background-color: #f8f9fa; border-left: 4px solid #34495e; padding: 12px 15px; border-radius: 0 4px 4px 0;">
-    <strong> Procedura di disimballo standard:</strong><br>
-    Se la macchina viene consegnata in cassa su bancale o staffe di legno con eventuale protezione in cellophane termoretraibile, provvedere inizialmente alla rimozione della copertura. Per liberare completamente la macchina, rimuovere le viti e la reggettatura metallica. Successivamente sollevare la macchina tramite gru o carrello sollevatore (come descritto nei dati tecnici) e rimuovere il bancale utilizzato per il trasporto.
+    <strong> Standard-Auspackverfahren:</strong><br>
+    Wird die Maschine in einer Kiste auf einer Palette oder auf Holzstützen mit eventueller Schrumpffolie geliefert, entfernen Sie zunächst die Abdeckung. Um die Maschine vollständig freizulegen, entfernen Sie die Schrauben und das Metallband. Heben Sie die Maschine anschließend mit einem Kran oder Gabelstapler an (wie in den technischen Daten beschrieben) und entfernen Sie die für den Transport verwendete Palette.
   </div>
 </div>
 
-### Tabella divisione gruppi e pesi - con imballo 
+### Tabelle der Baugruppen und Gewichte – mit Verpackung 
 
-Seguire la seguente tabella per pesi e dimensioni comprensivi di imballo. 
+Verwenden Sie die folgende Tabelle für Gewichte und Abmessungen einschließlich Verpackung.
 
-| Specifica | Tramoggia 1,5lt | Tramoggia 3lt | Tramoggia 5lt | Tramoggia 10lt | Tramoggia 20lt | Tramoggia 40lt |
+| Angabe | Bulk Feeder 1,5 l | Bulk Feeder 3 l | Bulk Feeder 5 l | Bulk Feeder 10 l | Bulk Feeder 20 l | Bulk Feeder 40 l |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Peso lordo** <br>*(con imballo)* | 28 kg | 28 kg | 39 kg | 41 kg | 59 kg | *(Verificare valore)* |
-| **Dimensioni cassa di legno** <br>*(L x P x H in mm)* | 700 x 700 x 500 | 700 x 700 x 500 | 700 x 700 x 500 | 700 x 700 x 500 | 1000 x 1000 x 500 | 1000 x 1000 x 500 |
+| **Bruttogewicht** <br>*(mit Verpackung)* | 28 kg | 28 kg | 39 kg | 41 kg | 59 kg | *(Wert prüfen)* |
+| **Abmessungen der Holzkiste** <br>*(L x T x H in mm)* | 700 x 700 x 500 | 700 x 700 x 500 | 700 x 700 x 500 | 700 x 700 x 500 | 1000 x 1000 x 500 | 1000 x 1000 x 500 |
 
 :::{attention}
-Nel caso di modelli personalizzati i valori potrebbero differire da quelli indicati. Per modelli di questo genere fare riferimento alla documentazione di progetto.
+Bei kundenspezifischen Modellen können die Werte von den angegebenen abweichen. Für solche Modelle ist die Projektdokumentation heranzuziehen.
 :::
 
-### Movimentazione con imballo 
+### Handhabung mit Verpackung 
 
-```{list-table} MOVIMENTAZIONE DEL CORPO MACCHINA CON IMBALLO
+```{list-table} HANDHABUNG DES MASCHINENKÖRPERS MIT VERPACKUNG
 :widths: 30 70
 :header-rows: 0
 
-* - **Qualifica operatore**
-  - Conduttore di mezzi di sollevamento
+* - **Qualifikation des Bedieners**
+  - Bediener von Hebemitteln
 
-* - **DPI necessari**
+* - **Erforderliche PSA**
   - <img src="../../../../../_shared/media/images/obbligo_guanti.png" width="80px"> <img src="../../../../../_shared/media/images/obbligo_antiinf.png" width="80px"> <img src="../../../../../_shared/media/images/obbligo_indumenti.png" width="80px"> <img src="../../../../../_shared/media/images/obbligo_casco.png" width="80px">
 
 
-* - **Mezzo di sollevamento**
-  - Carrello elevatore di portata non inferiore a 50 kg
+* - **Hebemittel**
+  - Gabelstapler mit einer Tragfähigkeit von mindestens 50 kg
 ```
 
 :::{attention}
-Utilizzare solo idonei ed omologati mezzi di sollevamento; compatibili per le dimensioni e il peso della macchina. 
+Verwenden Sie nur geeignete und zugelassene Hebemittel, die für Abmessungen und Gewicht der Maschine ausgelegt sind.
 :::
 
 :::{attention}
-Accertarsi che nessuno sosti sotto e nel raggio d’azione del mezzo di sollevamento.  
+Stellen Sie sicher, dass sich niemand unter oder im Aktionsradius des Hebemittels aufhält.
 :::
 
-Per la movimentazione del corpo macchina con imballo, procedere come descritto:   
+Zur Handhabung des Maschinenkörpers mit Verpackung wie beschrieben vorgehen:
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
 
@@ -81,7 +81,7 @@ Per la movimentazione del corpo macchina con imballo, procedere come descritto:
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Posizionare le forche del carrello elevatore sotto alla cassa di legno in cui è riposta la macchina.
+      Die Gabeln des Gabelstaplers unter der Holzkiste positionieren, in der sich die Maschine befindet.
     </div>
   </div>
 
@@ -89,7 +89,7 @@ Per la movimentazione del corpo macchina con imballo, procedere come descritto:
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Assicurarsi che le forche fuoriescano dalla parte anteriore del carico (almeno 5 cm), per una lunghezza sufficiente ad eliminare eventuali rischi di ribaltamento della parte trasportata.
+      Stellen Sie sicher, dass die Gabeln vorne aus der Last herausragen (mindestens 5 cm), und zwar so weit, dass jede Kippgefahr des transportierten Teils ausgeschlossen ist.
     </div>
   </div>
 
@@ -97,7 +97,7 @@ Per la movimentazione del corpo macchina con imballo, procedere come descritto:
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Sollevare le forche fino al contatto col carico.<br><strong>Nota:</strong> se necessario fissare il carico alle forche con morsetti o dispositivi similari.
+      Heben Sie die Gabeln an, bis sie die Last berühren.<br><strong>Hinweis:</strong> Befestigen Sie die Last bei Bedarf mit Klemmen oder ähnlichen Vorrichtungen an den Gabeln.
     </div>
   </div>
 
@@ -105,7 +105,7 @@ Per la movimentazione del corpo macchina con imballo, procedere come descritto:
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Sollevare lentamente il carico di qualche decina di centimetri e verificarne la stabilità facendo attenzione che il baricentro del carico sia posizionato al centro delle forche di sollevamento.
+      Die Last langsam einige Dutzend Zentimeter anheben und ihre Stabilität prüfen, wobei darauf zu achten ist, dass der Schwerpunkt der Last in der Mitte der Hubgabeln liegt.
     </div>
   </div>
 
@@ -113,7 +113,7 @@ Per la movimentazione del corpo macchina con imballo, procedere come descritto:
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">5</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Inclinare il montante all’indietro (verso il posto guida) per avvantaggiare il momento ribaltante e garantire una maggiore stabilità del carico durante il trasporto.
+      Den Hubmast nach hinten (zum Fahrerplatz hin) neigen, um das Kippmoment zu nutzen und während des Transports eine größere Stabilität der Last zu gewährleisten.
     </div>
   </div>
 
@@ -121,7 +121,7 @@ Per la movimentazione del corpo macchina con imballo, procedere come descritto:
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">6</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Adeguare la velocità di trasporto in base alla pavimentazione ed al tipo di carico, evitando manovre brusche.
+      Die Transportgeschwindigkeit an den Bodenbelag und die Art der Last anpassen und abrupte Manöver vermeiden.
     </div>
   </div>
 
@@ -133,283 +133,306 @@ Per la movimentazione del corpo macchina con imballo, procedere come descritto:
 :::
 
 :::{attention}
-Posizionare le forche del carrello elevatore come indicato in figura.
+Positionieren Sie die Gabeln des Gabelstaplers wie in der Abbildung gezeigt.
 :::
 
-### Rimozione imballo   
+### Entfernen der Verpackung   
 
-Per la rimozione dell’imballo, procedere come descritto:   
+Gehen Sie zum Entfernen der Verpackung wie beschrieben vor:
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
 
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #7f8c8d; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Posizionare la macchina nel luogo ad essa destinato.
+      Positionieren Sie die Maschine an dem dafür vorgesehenen Ort.
     </div>
   </div>
 
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #7f8c8d; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Rimuovere la reggettatura dalla base della cassa in legno usata per la spedizione.
+      Entfernen Sie das Umreifungsband vom Boden der für den Versand verwendeten Holzkiste.
     </div>
   </div>
 
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #7f8c8d; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Afferrare la tramoggia dalla sua base, <strong>non dalla vasca</strong>, per sollevarla e rimuoverla dalla cassa.
+      Fassen Sie den Bulk Feeder an seinem Sockel an, <strong>nicht an der Wanne</strong>, um ihn anzuheben und aus der Kiste zu nehmen.
     </div>
   </div>
 
 </div>
 
 :::{attention}
-Per l’operazione di sollevamento manuale dalla cassa di legno della tramoggia è necessaria la presenza di n°2 operatori.
+Für das manuelle Herausheben des Bulk Feeders aus der Holzkiste sind 2 Bediener erforderlich.
 :::  
 
-Per la movimentazione della macchina e/o delle sue parti, fare riferimento al paragrafo “Trasporto e movimentazione”.  
+Für die Handhabung der Maschine und/oder ihrer Teile beachten Sie den Absatz „Transport und Handhabung“.
 
-### Smaltimento imballo 
+### Entsorgung der Verpackung 
 
-L’imballaggio è parte integrante della fornitura e non viene ritirato, per cui lo smaltimento del suddetto è a carico dell’acquirente.
-L’eventuale smaltimento o distruzione deve avvenire nel rispetto delle normative vigenti nel paese dell’utilizzatore, tenendo conto della natura dei materiali:  
+Die Verpackung ist fester Bestandteil der Lieferung und wird nicht zurückgenommen; ihre Entsorgung obliegt daher dem Käufer. Eine eventuelle Entsorgung oder Vernichtung muss unter Beachtung der im Land des Anwenders geltenden Vorschriften und unter Berücksichtigung der Art der Materialien erfolgen:
 
-* **Legname:** per le casse;  
-* **Film in materia plastica:** per la protezione della macchina e nastri adesivi per il fissaggio;  
-* **Sacchetti di sostanza assorbente:** per la protezione dall'umidità;  
-* **Altri elementi residui** (es. reggette, chiodi, ecc.).  
+* **Holz:** für die Kisten;
+* **Kunststofffolie:** zum Schutz der Maschine, sowie Klebebänder zur Befestigung;
+* **Beutel mit saugfähiger Substanz:** zum Schutz vor Feuchtigkeit;
+* **Sonstige Restbestandteile** (z. B. Umreifungsbänder, Nägel usw.).
 
-## Trasporto e Movimentazione 
+## Transport und Handhabung 
 
-ARS s.r.l. in funzione delle modalità di trasporto utilizza imballi e fissaggi adeguati a garantire l’integrità e la conservazione durante il trasporto.
+Je nach Transportart verwendet ARS s.r.l. Verpackungen und Befestigungen, die Unversehrtheit und Erhalt während des Transports gewährleisten.
 
-Al ricevimento della macchina, verificare che nessuna parte abbia subito danni durante il trasporto e/o la movimentazione. **Nel caso si riscontrassero anomalie o danni, è obbligatorio segnalarli immediatamente al Costruttore.**
+Prüfen Sie bei Erhalt der Maschine, dass kein Teil beim Transport und/oder bei der Handhabung beschädigt wurde. **Werden Auffälligkeiten oder Schäden festgestellt, müssen diese dem Hersteller unverzüglich gemeldet werden.**
 
 :::{note} 
-**Nota sulle qualifiche:** Le attività di movimentazione descritte in questo paragrafo devono essere effettuate esclusivamente da personale qualificato per tali operazioni: personale appositamente addestrato per eseguire in tutta sicurezza le operazioni di carico, scarico e movimentazione mediante mezzi di sollevamento, e che sia a conoscenza delle regole di prevenzione degli infortuni.
+**Hinweis zu den Qualifikationen:** Die in diesem Absatz beschriebenen Handhabungsarbeiten dürfen ausschließlich von dafür qualifiziertem Personal durchgeführt werden: Personal, das eigens geschult ist, Be-, Entlade- und Handhabungsvorgänge mit Hebemitteln sicher auszuführen, und das die Unfallverhütungsvorschriften kennt.
 :::
 
 :::{attention}
-Non sollevare mai l’unità tramite la vasca o la parte mobile in quanto oltre a stararsi potrebbe anche subire deformazioni o rotture.
+Heben Sie die Einheit niemals an der Wanne oder am beweglichen Teil an, da sie sich dabei nicht nur dejustieren, sondern auch verformen oder brechen könnte.
 :::
 
 :::{attention}
-ARS S.r.l. non risponde dei danni, a cose o a persone, causati da incidenti provocati dal mancato rispetto delle istruzioni riportate nel presente manuale.
+ARS S.r.l. haftet nicht für Sach- oder Personenschäden, die durch Unfälle infolge der Nichtbeachtung der in diesem Handbuch enthaltenen Anweisungen verursacht werden.
 :::
 
-## Assemblaggio 
+## Montage 
 
-Dopo il disimballo, la tramoggia si presenta già assemblata.
-Procedere con il fissaggio sulla seguente staffa con viti M8:
+Nach dem Auspacken ist der Bulk Feeder bereits montiert. Befestigen Sie ihn mit M8-Schrauben an der folgenden Konsole:
 
-:::{image} ../../../../../_shared/media/images/asseblaggio_tramoggia.jpg
+**Bulk Feeder 1,5 l**
+
+:::{image} ../../../../../_shared/media/images/asseblaggio_tramoggia_1-5lt.jpg
+:alt: Befestigung des Bulk Feeders 1,5 l
+:width: 400px
+:align: center
+:::
+
+**Bulk Feeder 3 l**
+
+:::{image} ../../../../../_shared/media/images/asseblaggio_tramoggia_3lt.jpg
+:alt: Befestigung des Bulk Feeders 3 l
+:width: 400px
+:align: center
+:::
+
+**Bulk Feeder 5 l / 10 l / 20 l / 40 l**
+
+:::{image} ../../../../../_shared/media/images/assemblaggio_tramoggia.jpg
+:alt: Befestigung des Bulk Feeders 5 l / 10 l / 20 l / 40 l
 :width: 400px
 :align: center
 :::
 
 :::{attention}
-Nel caso di modelli personalizzati i gruppi potrebbero differire, parzialmente o totalmente, da quelli base. Per modelli di questo genere fare riferimento al disegno costruttivo di progetto.
+Bei kundenspezifischen Modellen können die Baugruppen ganz oder teilweise von den Basismodellen abweichen. Für solche Modelle ist die Konstruktionszeichnung des Projekts heranzuziehen.
 :::
 
-## Installazione 
+## Installation 
 
-### Predisposizioni a carico del cliente 
+### Vom Kunden zu erbringende Vorbereitungen 
 
-Fatti salvi eventuali accordi contrattuali diversi è normalmente a carico del Cliente la predisposizione di:
+Unbeschadet abweichender vertraglicher Vereinbarungen obliegt dem Kunden normalerweise die Bereitstellung von:
 
 <div class="isw-warranty-grid">
   
   <div class="isw-meta-card">
-    <div class="isw-meta-title"><i class="ph ph-blueprint"></i> Locali e opere murarie</div>
-    <div class="isw-meta-content">Predisposizione degli spazi inclusi eventuali basamenti, fondazioni, canalizzazioni richieste e sistemi di illuminazione.</div>
+    <div class="isw-meta-title"><i class="ph ph-blueprint"></i> Räumlichkeiten und Bauarbeiten</div>
+    <div class="isw-meta-content">Vorbereitung der Räume einschließlich eventueller Sockel, Fundamente, erforderlicher Kanäle und Beleuchtungsanlagen.</div>
   </div>
 
   <div class="isw-meta-card">
-    <div class="isw-meta-title"><i class="ph ph-lightning"></i> Impianti elettrici di alimentazione</div>
-    <div class="isw-meta-content">Predisposizione delle linee fino ai punti di allacciamento della macchina, in totale conformità alle norme vigenti nel paese di installazione.</div>
+    <div class="isw-meta-title"><i class="ph ph-lightning"></i> Elektrische Versorgungsanlagen</div>
+    <div class="isw-meta-content">Vorbereitung der Leitungen bis zu den Anschlusspunkten der Maschine in vollständiger Übereinstimmung mit den im Installationsland geltenden Vorschriften.</div>
   </div>
 
   <div class="isw-meta-card">
-    <div class="isw-meta-title"><i class="ph ph-globe"></i> Messa a terra</div>
-    <div class="isw-meta-content">Conduttore di protezione di messa a terra, secondo le caratteristiche e tolleranze specificate nel presente manuale.</div>
+    <div class="isw-meta-title"><i class="ph ph-globe"></i> Erdung</div>
+    <div class="isw-meta-content">Schutzleiter für die Erdung gemäß den in diesem Handbuch angegebenen Eigenschaften und Toleranzen.</div>
   </div>
 
   <div class="isw-meta-card">
-    <div class="isw-meta-title"><i class="ph ph-wrench"></i> Servizi e consumabili</div>
-    <div class="isw-meta-content">Servizi ausiliari adeguati, utensili e materiali di consumo occorrenti per il montaggio, l'installazione e lubrificanti per la prima messa in moto.</div>
+    <div class="isw-meta-title"><i class="ph ph-wrench"></i> Dienste und Verbrauchsmaterialien</div>
+    <div class="isw-meta-content">Geeignete Hilfsdienste, Werkzeuge und Verbrauchsmaterialien für Montage und Installation sowie Schmierstoffe für die erste Inbetriebnahme.</div>
   </div>
 
   <div class="isw-meta-card">
-    <div class="isw-meta-title"><i class="ph ph-wind"></i> Alimentazione pneumatica</div>
-    <div class="isw-meta-content">Linea di aria compressa adeguata come da specifica presente al paragrafo “Dati tecnici”.</div>
+    <div class="isw-meta-title"><i class="ph ph-wind"></i> Pneumatische Versorgung</div>
+    <div class="isw-meta-content">Geeignete Druckluftleitung gemäß der Spezifikation im Absatz „Technische Daten“.</div>
   </div>
 
   <div class="isw-meta-card">
-    <div class="isw-meta-title"><i class="ph ph-forklift"></i> Logistica</div>
-    <div class="isw-meta-content">Mezzi di sollevamento e movimentazione idonei per lo scarico e il posizionamento.</div>
+    <div class="isw-meta-title"><i class="ph ph-forklift"></i> Logistik</div>
+    <div class="isw-meta-content">Geeignete Hebe- und Fördermittel zum Abladen und Positionieren.</div>
   </div>
 
 </div>
 
 :::{note}
-**Nota di responsabilità:** Tutte le specifiche tecniche richieste sono contenute nel contratto di vendita. Il Costruttore declina ogni responsabilità se il cliente non garantisce le caratteristiche tecniche dell’impianto elettrico concordate.
+**Haftungshinweis:** Alle erforderlichen technischen Spezifikationen sind im Kaufvertrag enthalten. Der Hersteller lehnt jede Haftung ab, wenn der Kunde die vereinbarten technischen Eigenschaften der elektrischen Anlage nicht sicherstellt.
 :::
 
-### Condizioni ambientali ammesse 
+### Zulässige Umgebungsbedingungen 
 
-L’ambiente in cui la macchina viene installata e utilizzata deve essere **interno e al riparo da agenti atmosferici** (pioggia, grandine, neve, nebbia), polveri in sospensione o combustibili, vapori corrosivi o sorgenti di calore eccessivo. La zona **non deve essere classificata ATEX**.
+Die Umgebung, in der die Maschine installiert und betrieben wird, muss **im Innenbereich und vor Witterungseinflüssen geschützt** sein (Regen, Hagel, Schnee, Nebel), vor schwebenden oder brennbaren Stäuben, korrosiven Dämpfen oder übermäßigen Wärmequellen. Der Bereich **darf nicht als ATEX-Bereich eingestuft sein**.
 
-In particolare, l’ambiente di installazione e utilizzo non deve presentare:  
-* Esposizione a fumi corrosivi o vapori oleosi;  
-* Esposizione ad umidità eccessiva (superiore all’85 %) e rapidi cambiamenti di umidità relativa (superiori a 0,005 p.u./h);   
-* Esposizione a polvere eccessiva o abrasiva;  
-* Esposizione a miscele esplosive di polveri o di gas oppure ad aria salmastra;  
-* Esposizione a vibrazioni, urti o scosse anomali;  
-* Esposizione a variazioni termiche elevate o rapide (superiori a 5K/h) o radiazioni nucleari.  
+Insbesondere darf die Installations- und Betriebsumgebung Folgendes nicht aufweisen:
+* Einwirkung korrosiver Dämpfe oder öliger Dämpfe;
+* Einwirkung übermäßiger Feuchtigkeit (über 85 %) und schneller Änderungen der relativen Feuchtigkeit (über 0,005 p.u./h);
+* Einwirkung von übermäßigem oder abrasivem Staub;
+* Einwirkung explosionsfähiger Staub- oder Gasgemische oder salzhaltiger Luft;
+* Einwirkung ungewöhnlicher Vibrationen, Stöße oder Erschütterungen;
+* Einwirkung hoher oder schneller Temperaturänderungen (über 5 K/h) oder nuklearer Strahlung.
 
-**Limiti operativi ambientali:**
+**Umgebungsbedingte Betriebsgrenzen:**
 
-| Condizioni ambientali ammesse | Valori di esercizio |
+| Zulässige Umgebungsbedingungen | Betriebswerte |
 | :--- | :--- |
-| **Temperatura ambiente** | 5 ÷ 40 °C |
-| **Range di umidità** | 5 - 90 % (senza condensa) |
-| **Illuminazione ambiente** | Luce a neon |
+| **Umgebungstemperatur** | 5 ÷ 40 °C |
+| **Feuchtigkeitsbereich** | 5 - 90 % (nicht kondensierend) |
+| **Umgebungsbeleuchtung** | Neonlicht |
 
 :::{attention}
-Condizioni ambientali diverse da quelle specificate possono causare gravi danni alla macchina. Il posizionamento della macchina in ambienti non corrispondenti a quanto indicato fa decadere la garanzia per gli organi da sostituire.
+Von den angegebenen abweichende Umgebungsbedingungen können die Maschine schwer beschädigen. Die Aufstellung der Maschine in Umgebungen, die den Angaben nicht entsprechen, lässt die Garantie für die auszutauschenden Teile erlöschen.
 :::
 
 :::{important}
-La superficie di lavoro deve essere sufficientemente illuminata. Nel caso in cui sul posto di lavoro si riscontrino zone d’ombra o dislivelli, sarà cura dell’utente predisporre dispositivi di illuminazione adeguati. Se non vengono rispettate queste prescrizioni il Costruttore declina ogni responsabilità.
+Die Arbeitsfläche muss ausreichend beleuchtet sein. Treten am Arbeitsplatz Schattenzonen oder Höhenunterschiede auf, ist der Anwender dafür verantwortlich, geeignete Beleuchtungseinrichtungen bereitzustellen. Werden diese Vorgaben nicht eingehalten, lehnt der Hersteller jede Haftung ab.
 :::
 
-### Area di Installazione 
+### Installationsbereich 
 
 :::{attention}
-Non sollevare mai l’unità tramite l’equipaggio mobile, in quanto il vibratore è stato tarato dalla fabbrica in base alle vostre specifiche esigenze e potrebbe subire starature.
+Heben Sie die Einheit niemals am beweglichen Teil an, da der Vibrator werkseitig nach Ihren spezifischen Anforderungen eingestellt wurde und dejustiert werden könnte.
 :::
 
-L’unità non deve essere installata laddove il canale possa venire in contatto con oggetti rigidi o superfici adiacenti; mantenere un **gioco di circa 3-5 cm** tra la parte vibrante e le parti statiche circostanti.
+Die Einheit darf nicht dort installiert werden, wo die Rinne mit starren Objekten oder angrenzenden Flächen in Berührung kommen kann; halten Sie zwischen dem Vibrationsteil und den umgebenden statischen Teilen einen **Freiraum von ca. 3-5 cm** ein.
 
-Le tramogge possono sopportare un carico massimo specifico. È fondamentale dimensionare il supporto strutturale affinché sostenga in sicurezza il peso complessivo del sistema sotto carico vibrante:
+Bulk Feeder können eine bestimmte maximale Last tragen. Es ist wichtig, die Tragstruktur so zu dimensionieren, dass sie das Gesamtgewicht des Systems unter Vibrationslast sicher trägt:
 
-| Modello | Carico massimo ammissibile | Produzione (T/h) |
+| Modell | Maximal zulässige Last | Förderleistung (t/h) |
 | :---: | :---: | :---: |
-| **1,5lt** | 1 kg | 0,6 |
-| **3lt**   | 1,5 kg | 0,6 |
-| **5lt**   | 3 kg | 2 |
-| **10lt**  | 3 kg | 2 |
-| **20lt**  | 3 kg | 2 |
-| **40lt**  | 7,5 kg | 5 |
+| **1,5 l** | 1 kg | 0,6 |
+| **3 l**   | 1,5 kg | 0,6 |
+| **5 l**   | 6 kg | 2 |
+| **10 l**  | 6 kg | 2 |
+| **20 l**  | 6 kg | 2 |
+| **40 l**  | 15 kg | 5 |
 
-Il gruppo di controllo dovrà essere installato il più vicino possibile alla tramoggia, in un luogo asciutto, pulito e privo di vibrazioni.
+Die Steuereinheit ist so nah wie möglich am Bulk Feeder zu installieren, an einem trockenen, sauberen und vibrationsfreien Ort.
 
-### Posizionamento tramoggia
+### Positionierung des Bulk Feeders
 
-Per il corretto posizionamento, seguire la seguente sequenza operativa:
+Befolgen Sie für die korrekte Positionierung die folgende Arbeitsreihenfolge:
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Posizionare la tramoggia su un piano stabile.<br><strong>Nota:</strong> se installata sulla piattaforma di una macchina sensibile alle vibrazioni, interporre del materiale isolante e antivibrante tra le superfici.
+      Stellen Sie den Bulk Feeder auf eine stabile Fläche.<br><strong>Hinweis:</strong> Bei Installation auf der Plattform einer vibrationsempfindlichen Maschine legen Sie isolierendes, schwingungsdämpfendes Material zwischen die Flächen.
     </div>
   </div>
+</div>
+
+![korrekte Positionierung](../../../../../_shared/media/images/posizione_giustatramoggia.png)
+![falsche Positionierung](../../../../../_shared/media/images/posizione_sbagliatatramoggia.png)
+
+<div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Fissare la tramoggia attraverso gli appositi fori.<br><strong>Nota:</strong> la tramoggia standard presenta 4 fori alla base per viti M8 per il serraggio alla superficie di appoggio.
+      Befestigen Sie den Bulk Feeder über die vorgesehenen Bohrungen.<br><strong>Hinweis:</strong> Der Standard-Bulk-Feeder hat 4 Bohrungen im Sockel für M8-Schrauben zur Befestigung an der Auflagefläche.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Procedere con gli allacciamenti necessari facendo riferimento al paragrafo dedicato.
+      Fahren Sie mit den erforderlichen Anschlüssen fort und beachten Sie dabei den zugehörigen Absatz.
     </div>
   </div>
 </div>
 
 :::{attention}
-Nel caso di modelli personalizzati il carico massimo ammissibile e la produzione potrebbero differire dai valori indicati. Per modelli di questo genere il Costruttore mette a disposizione i dati in esame.
+Bei kundenspezifischen Modellen können die maximal zulässige Last und die Förderleistung von den angegebenen Werten abweichen. Für solche Modelle stellt der Hersteller die betreffenden Daten zur Verfügung.
 :::
 
 :::{attention}
-Assicurarsi che la superficie di appoggio della macchina sia piana ed orizzontale e sia idonea a sostenerne il peso.
+Stellen Sie sicher, dass die Auflagefläche der Maschine eben und waagerecht ist und ihr Gewicht tragen kann.
 :::
 
-## Allacciamenti 
+## Anschlüsse 
 
-Per la messa in funzione della macchina devono essere assicurati i necessari allacciamenti e collegamenti alle reti locali:  
-* Allacciamento elettrico (comprensivo della connessione della messa a terra).
+Für die Inbetriebnahme der Maschine müssen die erforderlichen Anschlüsse an die lokalen Netze sichergestellt sein:
+* Elektrischer Anschluss (einschließlich Erdungsanschluss).
 
-È responsabilità esclusiva dell’utilizzatore garantire le caratteristiche di allacciamento richieste.  
+Es liegt in der alleinigen Verantwortung des Anwenders, die erforderlichen Anschlusseigenschaften sicherzustellen.
 
 :::{attention}
-Gli allacciamenti richiesti devono essere effettuati da personale qualificato ed autorizzato. 
+Die erforderlichen Anschlüsse müssen von qualifiziertem und befugtem Personal hergestellt werden.
 :::
 
-### Allacciamento Elettrico 
+### Elektrischer Anschluss 
 
 :::{attention}
-Prima di eseguire qualsiasi operazione di allacciamento elettrico, è importante controllare che la macchina sia spenta. 
+Prüfen Sie vor jeder Arbeit am elektrischen Anschluss, dass die Maschine ausgeschaltet ist.
 :::
 
 :::{attention}
-Assicurarsi che la linea di alimentazione elettrica cliente sia stata preventivamente sezionata.
+Stellen Sie sicher, dass die kundenseitige Stromversorgungsleitung zuvor getrennt wurde.
 :::
 
-La conformità del collegamento tra macchina ed impianto di messa a terra è a totale cura e carico dell’acquirente.  
+Die Konformität der Verbindung zwischen Maschine und Erdungsanlage liegt vollständig in der Verantwortung und zulasten des Käufers.
 
 :::{attention}
-L’operazione deve essere eseguita esclusivamente da personale specializzato ed autorizzato (manutentore elettrico).
+Die Arbeit darf ausschließlich von spezialisiertem und befugtem Personal (elektrischer Instandhalter) durchgeführt werden.
 :::
 
-Prima di procedere con l’allacciamento elettrico verificare che:  
-* Il manutentore sia a conoscenza delle normative vigenti nel paese d’installazione;  
-* I valori della frequenza e della tensione di alimentazione corrispondano a quelli della rete locale;  
-* La sezione dei cavi elettrici utilizzati sia adeguata all’assorbimento e ai massimi carichi della macchina;  
-* La messa a terra del circuito sia perfettamente conforme alle norme **EN 60204-1**;  
-* I materiali impiegati nell’impianto di messa a terra abbiano un'adeguata solidità o protezione meccanica.  
+Prüfen Sie vor dem elektrischen Anschluss, dass:
+* der Techniker die im Installationsland geltenden Vorschriften kennt;
+* die Werte für Frequenz und Versorgungsspannung mit denen des lokalen Netzes übereinstimmen;
+* der Querschnitt der verwendeten Elektrokabel für die Stromaufnahme und die Höchstlasten der Maschine ausreicht;
+* die Erdung des Stromkreises vollständig den Normen **EN 60204-1** entspricht;
+* die im Erdungssystem verwendeten Materialien eine angemessene Festigkeit oder mechanischen Schutz besitzen.
 
 :::{attention}
-Non operare con mani ed oggetti umidi. In caso di incendio non utilizzare acqua sui componenti elettrici.
+Arbeiten Sie nicht mit nassen Händen oder Gegenständen. Verwenden Sie im Brandfall kein Wasser auf elektrischen Bauteilen.
 :::
 
-```{list-table} **ALLACCIAMENTO ELETTRICO - AC**
+```{list-table} **ELEKTRISCHER ANSCHLUSS - AC**
 :widths: 30 70
 
-* - **Qualifica operatore**
-  - Manutentore elettrico 
+* - **Qualifikation des Bedieners**
+  - Elektrischer Instandhalter
 
-* - **DPI necessari**
+* - **Erforderliche PSA**
   - <img src="../../../../../_shared/media/images/obbligo_guanti.png" width="80px"> <img src="../../../../../_shared/media/images/obbligo_antiinf.png" width="80px"> <img src="../../../../../_shared/media/images/obbligo_indumenti.png" width="80px">
 
 ```
 
 
-Per l’allacciamento alla rete elettrica - AC, procedere come descritto di seguito:  
+Gehen Sie für den Anschluss an das AC-Stromnetz wie nachstehend beschrieben vor:
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #27ae60; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Connettere il sistema all’alimentazione di rete.
+      Schließen Sie das System an die Netzversorgung an.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #27ae60; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Controllare accuratamente che il conduttore di messa a terra sia correttamente installato e integro.
+      Prüfen Sie sorgfältig, dass der Schutzleiter korrekt installiert und unversehrt ist.
     </div>
   </div>
 </div>
 
 :::{important}
-L’alimentazione standard è di 115 VAC o 230 VAC +/-5% (la variante 115 VAC viene fornita solo su esplicita richiesta).
+Die Standardversorgung beträgt 115 V AC oder 230 V AC +/-5 % (die Variante mit 115 V AC wird nur auf ausdrückliche Anfrage geliefert).
 :::
 
 :::{attention}
-Un'alimentazione errata può causare gravi anomalie elettroniche al sistema ed impedire il corretto funzionamento dello stesso.
+Eine falsche Versorgung kann schwerwiegende elektronische Störungen im System verursachen und dessen korrekten Betrieb verhindern.
 :::

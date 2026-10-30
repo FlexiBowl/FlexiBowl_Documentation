@@ -1,7 +1,7 @@
 (fieldbus)=
-# Ethernet/IP, Profinet, Modbus
+# **EtherNet/IP, Profinet, Modbus**
 
-For **EtherNet/IP**, **Profinet** and **Modbus** the [Input](#sec-io) and [Output](#sec-io) variables are exchanged as a **cyclic I/O packet**: there are no text messages, and each variable occupies a fixed position in the data packet.
+For **EtherNet/IP**, **Profinet** and **Modbus**, the [Input](#sec-io) and [Output](#sec-io) variables are exchanged as a **cyclic I/O packet**: there are no text messages, each variable occupies a fixed position in the data packet.
 
 ### Data packet — Input (to the FlexiBowl®)
 
@@ -16,20 +16,20 @@ For **EtherNet/IP**, **Profinet** and **Modbus** the [Input](#sec-io) and [Outpu
 | *(bit)* | *(bit)* | *(bit)* | *(bit)* | *(ControlWord echo)* | *(data read)* | *(error code)* |
 
 :::{note}
-The write sequence is always the same: set **ControlWord** (and **Data_1** if required) with **ExecuteControlWord = 0**, then set **ExecuteControlWord** to `1` to generate the rising edge that starts execution.
+The write sequence is always the same: set **ControlWord** (and **Data_1** if required) with **ExecuteControlWord = 0**, then bring **ExecuteControlWord** to `1` to generate the rising edge that starts execution.
 :::
 
 
 ## Command Protocol
 
-The command protocol defines all the actions available through the ControlWord. The ControlWords are **the same for all protocols**; only the transport changes (see [Fieldbus Transport](#sec-fieldbus) and [TCP Syntax](#sec-tcp)). The commands are grouped into categories:
+The command protocol defines all the actions available through the ControlWord. The ControlWords are **the same for all protocols**; only the transport changes (see [Fieldbus Transport](#sec-fieldbus) and [TCP Syntax](#sec-tcp)). Commands are grouped into categories:
 
 <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; margin:1.5rem 0 2.5rem;">
 
   <a href="#sec-exe" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
     <i class="ph ph-play-circle" style="font-size:1.6rem; color:#2980b9;"></i>
     <span style="font-weight:700; font-size:0.95rem; color:#1a3a52; line-height:1.3;">EXE Commands</span>
-    <span style="font-size:0.82rem; color:#7a9ab0;">Execution commands (sequence start, jog, reset)</span>
+    <span style="font-size:0.82rem; color:#7a9ab0;">Execution commands (start sequences, jog, reset)</span>
   </a>
 
   <a href="#sec-write" style="display:flex; flex-direction:column; gap:0.6rem; padding:1.1rem 1.2rem; border:1.5px solid #d0e4f0; border-radius:10px; background:#fff; text-decoration:none; color:inherit;">
@@ -47,9 +47,9 @@ The command protocol defines all the actions available through the ControlWord. 
 </div>
 
 (sec-exe)=
-### <span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span>
+### Commands <span class="isw-section-badge isw-badge-exe"><i class="ph ph-play-circle"></i> EXE</span>
 
-The EXE commands start an immediate action on the FlexiBowl®. During execution **Busy** remains at `1`.
+EXE commands start an immediate action on the FlexiBowl®. During execution **Busy** remains at `1`.
 
 | Command | ControlWord | Busy during execution | ReturnData_1 | Explanation | 
 |---|---|---|---|---|
@@ -78,11 +78,11 @@ The EXE commands start an immediate action on the FlexiBowl®. During execution 
 | Reset Return Data | 50 | NO | 0 | Resets the value of ReturnData_1 and ReturnData_2, returning them to the initial state `0` |
 
 :::{note}
-The **Reset Return Data** command (ControlWord 50) resets the value of ReturnData_1 and ReturnData_2, returning them to the initial state `0`. It is useful to check that a new command is actually received and processed.
+The **Reset Return Data** command (ControlWord 50) resets the value of ReturnData_1 and ReturnData_2, returning them to the initial state `0`. It is useful to verify that a new command is actually received and processed.
 :::
 
 (fieldbus_exe)=
-#### Practical example — “Execute Sequence 3”
+#### Practical example — «Execute Sequence 3»
 
 <div class="isw-example">
 <div class="isw-example-title">Execute Sequence 3 → ControlWord 12</div>
@@ -105,9 +105,9 @@ Packet received:
 
 
 (sec-write)=
-### <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span>
+### Commands <span class="isw-section-badge isw-badge-write"><i class="ph ph-pencil-simple"></i> WRITE</span>
 
-The WRITE commands allow the operating parameters of the FlexiBowl® (speed, angles, times, etc.) to be modified directly from the external system, without having to access the graphical interface.
+WRITE commands allow the operating parameters of the FlexiBowl® (speed, angles, times, etc.) to be modified directly from the external system, without having to access the graphical interface.
 
 #### Sequence addressing logic
 
@@ -115,11 +115,11 @@ Each sequence (from 1 to 20) has its own block of parameters. The ControlWord is
 
 > **ControlWord = N × 100 + parameter_offset**
 
-where `N` is the sequence number (1–20) and `parameter_offset` identifies the specific parameter.
+where `N` is the sequence number (1–20) and `offset_parametro` identifies the specific parameter.
 
 #### Writable parameters for each sequence
 
-| Parameter | Offset | Data_1 range | Notes |
+| Parameter | Offset | Range Data_1 | Notes |
 |---|---|---|---|
 | AccelerationMove | 00 | 1–100 | Acceleration ramp of the rotary movement (%) |
 | DecelerationMove | 01 | 1–100 | Deceleration ramp of the rotary movement (%) |
@@ -130,14 +130,14 @@ where `N` is the sequence number (1–20) and `parameter_offset` identifies the 
 | CountShake | 06 | 2–20 | Number of oscillations per shake cycle |
 | CwAngleShake | 07 | 0–360 | Clockwise rotation angle during the shake. Values 1000–1360 = negative angle |
 | CcwAngleShake | 08 | 0–360 | Counterclockwise rotation angle during the shake. Values 1000–1360 = negative angle |
-| SpeedShake | 09 | 1–100 | Shake speed (%) |
+| SpeedShake | 09 | 1–100 | Speed of the shake (%) |
 | FlipCount | 10 | 0–20 | Number of flips per cycle |
 | FlipDelay | 11 | 0–500 | Pause between one flip and the next (ms) |
 | BlowDelay | 12 | 0–500 | Pause between one blow pulse and the next (ms) |
 | ProportionalValve_Flip | 13 | 0–600 | Flip proportional valve pressure (value /100 = Bar) |
 | ProportionalValve_Blow | 14 | 0–600 | Blow proportional valve pressure (value /100 = Bar) |
 | Delete all sequence | 30 | — | Deletes all commands from the sequence list |
-| Emptying Sequence | 40 | 0–1 | 0 = normal mode, 1 = emptying mode |
+| Emptying Sequence | 40 | 0–1 | 0 = normal mode, 1 = Quick Emptying mode |
 | Seq Add Cmd | 50 | FLB COMMAND | Adds a command to the sequence list |
 
 #### WRITE ControlWord examples
@@ -156,13 +156,13 @@ where `N` is the sequence number (1–20) and `parameter_offset` identifies the 
 | SEQ 20 (N=20) | SpeedMove | 02 | 20 x 100 + 02 | 2002 |
 
 :::{tip}
-The formula is simple:  
-- To write the speed (offset 02) of sequence 7, the ControlWord is `7 × 100 + 2 = 702`.  
+The formula is simple:
+- To write the speed (offset 02) of sequence 7, the ControlWord is `7 × 100 + 2 = 702`.
 - To write the FlipCount (offset 10) of sequence 15, the ControlWord is `15 × 100 + 10 = 1510`.
 :::
 
 (fieldbus_write)=
-#### Practical example — “Set the Move acceleration to 80 in Sequence 7”
+#### Practical example — «Set the Move acceleration to 80 in Sequence 7»
 
 <div class="isw-example">
 <div class="isw-example-title">SpeedMove Seq 7 → ControlWord 700, Data_1 = 80</div>
@@ -186,9 +186,9 @@ Packet received:
 
 #### WRITE JOG parameters
 
-The Jog parameters (continuous manual operation) can be configured separately via ControlWord in block 20000.
+The Jog parameters (continuous manual operation) are configurable separately via ControlWord in block 20000.
 
-| Parameter | ControlWord | Data_1 range | Notes |
+| Parameter | ControlWord | Range Data_1 | Notes |
 |---|---|---|---|
 | AccelerationJog | 20001 | 0–100 | Jog acceleration ramp (%) |
 | DecelerationJog | 20002 | 0–100 | Jog deceleration ramp (%) |
@@ -207,26 +207,26 @@ The Jog parameters (continuous manual operation) can be configured separately vi
 
 
 (sec-read)=
-### <span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span>
+### Commands <span class="isw-section-badge isw-badge-read"><i class="ph ph-eye"></i> READ</span>
 
-The READ commands allow the parameters currently configured in the FlexiBowl® to be read. The value read is returned in **ReturnData_2**.
+READ commands allow the parameters currently configured in the FlexiBowl® to be read. The value read is returned in **ReturnData_2**.
 
-#### READ sequence addressing logic
+#### READ addressing logic for sequences
 
 The ControlWord for reading is calculated with the formula:
 
 > **ControlWord = 10000 + N × 100 + parameter_offset**
 
-where `N` is the sequence number (1–20) and `parameter_offset` is the same one used in the WRITE commands.
+where `N` is the sequence number (1–20) and `offset_parametro` is the same one used in the WRITE commands.
 
-The readable parameters are the same as in the WRITE block, with the addition of the 10 slots of the command list:
+The readable parameters are the same as in the WRITE block, with the addition of the 10 command list slots:
 
 | Additional parameter | Offset | Description |
 |---|---|---|
-| Seq Slot 1 Cmd | 50 | Command in position 1 in the sequence list |
-| Seq Slot 2 Cmd | 51 | Command in position 2 |
+| Seq Slot 1 Cmd | 50 | Command at position 1 in the sequence list |
+| Seq Slot 2 Cmd | 51 | Command at position 2 |
 | … | … | … |
-| Seq Slot 10 Cmd | 59 | Command in position 10 |
+| Seq Slot 10 Cmd | 59 | Command at position 10 |
 
 #### READ ControlWord examples
 
@@ -243,12 +243,12 @@ The readable parameters are the same as in the WRITE block, with the addition of
 | SEQ 20 | Emptying Sequence | 12040 |
 
 :::{tip}
-Quick formula:  
+Quick formula:
  To read the speed (offset 02) of sequence 12, the ControlWord is `10000 + 12 × 100 + 2 = 11202`.
 :::
 
 (fieldbus_read)=
-#### Practical example — “Read the angle of Sequence 16”
+#### Practical example — «Read the angle of Sequence 16»
 
 <div class="isw-example">
 <div class="isw-example-title">AngleMove Seq 16 → ControlWord 11603</div>
@@ -270,11 +270,11 @@ Packet received (angle read = 45°):
 | 0 | 1 | 0 | 1 | 11603 | 45 | 0 |
 
 
-#### Parametri READ JOG
+#### READ JOG parameters
 
 The same writable JOG parameters (block 20000) can be read in block 20100:
 
-| Parameter | READ ControlWord | ReturnData_2 range |
+| Parameter | READ ControlWord | Range ReturnData_2 |
 |---|---|---|
 | AccelerationJog | 20101 | 0–100 |
 | DecelerationJog | 20102 | 0–100 |
@@ -294,9 +294,9 @@ The same writable JOG parameters (block 20000) can be read in block 20100:
 ---
 
 (sec-hopper)=
-## <span class="isw-section-badge isw-badge-hop"><i class="ph ph-funnel"></i> HOPPER</span>
+## Commands <span class="isw-section-badge isw-badge-hop"><i class="ph ph-funnel"></i> HOPPER</span>
 
-The Hopper commands control the vibratory hoppers connected to the system (up to 4). They follow the same ControlWord/WRITE/READ logic described above, valid for all protocols, plus a dedicated TCP syntax for quick start.
+Hopper commands control the vibratory Bulk Feeders connected to the system (up to 4). They follow the same ControlWord/WRITE/READ logic described above, valid for all protocols, plus a dedicated TCP syntax for quick start.
 
 ### Quick start via TCP
 
@@ -309,11 +309,11 @@ In addition to the general ControlWord syntax, the **TCP Server** protocol offer
 | Start Hopper 3 | `Hopper3Start%` | `Hopper3Start *` |
 | Start Hopper 4 | `Hopper4Start%` | `Hopper4Start *` |
 
-On the fieldbus protocols (EtherNet/IP, Profinet, Modbus) the same immediate start is obtained by directly setting the **Hopper_1**...**Hopper_4** bit of the [I/O packet](#sec-fieldbus) to `1`, without going through the ControlWord.
+On the fieldbus protocols (EtherNet/IP, Profinet, Modbus) the same immediate start is obtained by directly setting to `1` the **Hopper_1**...**Hopper_4** bit of the [I/O packet](#sec-fieldbus), without going through the ControlWord.
 
-### Hopper WRITE Commands
+### Hopper WRITE commands
 
-| Parameter | ControlWord | Data_1 range | Description |
+| Parameter | ControlWord | Range Data_1 | Description |
 |---|---|---|---|
 | Hopper_1_Id | 30001 | 1–100 | Unique ID of hopper 1 on the network |
 | Hopper_1_Amplitude | 30002 | 50–220 | Vibration amplitude of hopper 1 |
@@ -331,21 +331,21 @@ On the fieldbus protocols (EtherNet/IP, Profinet, Modbus) the same immediate sta
 | Hopper_4_Amplitude | 30014 | 50–220 | Vibration amplitude of hopper 4 |
 | Hopper_4_Frequency | 30015 | 40–70 | Vibration frequency of hopper 4 |
 | Hopper_4_Activation_Time | 30016 | 400–60000 | Activation time of hopper 4 (ms) |
-| Hopper_1_Enable | 30017 | — | Enables hopper 1 (immediate action) |
-| Hopper_1_Disable | 30018 | — | Disables hopper 1 (immediate action) |
-| Hopper_2_Enable | 30019 | — | Enables hopper 2 |
-| Hopper_2_Disable | 30020 | — | Disables hopper 2 |
-| Hopper_3_Enable | 30021 | — | Enables hopper 3 |
-| Hopper_3_Disable | 30022 | — | Disables hopper 3 |
-| Hopper_4_Enable | 30023 | — | Enables hopper 4 |
-| Hopper_4_Disable | 30024 | — | Disables hopper 4 |
+| Hopper_1_Enable | 30017 | — | Enable hopper 1 (immediate action) |
+| Hopper_1_Disable | 30018 | — | Disable hopper 1 (immediate action) |
+| Hopper_2_Enable | 30019 | — | Enable hopper 2 |
+| Hopper_2_Disable | 30020 | — | Disable hopper 2 |
+| Hopper_3_Enable | 30021 | — | Enable hopper 3 |
+| Hopper_3_Disable | 30022 | — | Disable hopper 3 |
+| Hopper_4_Enable | 30023 | — | Enable hopper 4 |
+| Hopper_4_Disable | 30024 | — | Disable hopper 4 |
 
 :::{note}
-In the training material, ControlWord `30005` (Hopper_2_Id) mistakenly showed the same range as Amplitude (50–220). In this table it has been corrected to **1–100**, consistent with Hopper_1_Id, Hopper_3_Id and Hopper_4_Id. Check this value against the firmware/datasheet before publishing the page.
+In the training material, ControlWord `30005` (Hopper_2_Id) mistakenly reported the same range as Amplitude (50–220). In this table it has been corrected to **1–100**, consistent with Hopper_1_Id, Hopper_3_Id and Hopper_4_Id. Verify this value against the firmware/datasheet before publishing the page.
 :::
 
 (fieldbus_WRITEHOPPER)=
-#### Practical example — “Enable Hopper 1”
+#### Practical example — «Enable Hopper 1»
 
 <div class="isw-example">
 <div class="isw-example-title">Hopper_1_Enable → ControlWord 30017</div>
@@ -368,7 +368,7 @@ Packet received:
 
 
 
-#### Practical example — “Set the amplitude of Hopper 2 to 220”
+#### Practical example — «Set the amplitude of Hopper 2 to 220»
 
 <div class="isw-example">
 <div class="isw-example-title">Hopper_2_Amplitude → ControlWord 30006, Data_1 = 220</div>
@@ -390,9 +390,9 @@ Packet received:
 | 0 | 1 | 0 | 1 | 30006 | 0 | 0 |
 
 
-### Hopper READ Commands
+### Hopper READ commands
 
-| Parameter | READ ControlWord | ReturnData_2 range | Notes |
+| Parameter | READ ControlWord | Range ReturnData_2 | Notes |
 |---|---|---|---|
 | Hopper_1_Id | 30101 | 1–100 | |
 | Hopper_1_Amplitude | 30102 | 50–220 | |
@@ -424,7 +424,7 @@ Packet received:
 | Hopper_4_Enabled | 30128 | 0–1 | 0 = disabled, 1 = enabled |
 
 (fieldbus_READHOPPER)=
-#### Practical example — “Read the frequency of Hopper 4”
+#### Practical example — «Read the frequency of Hopper 4»
 
 <div class="isw-example">
 <div class="isw-example-title">Hopper_4_Frequency → ControlWord 30115</div>
@@ -447,9 +447,10 @@ Packet received (frequency read = 40):
 
 
 :::{note}
-For the Emptying commands, refer to the [Emptying Commands](sec-empty) section
+For the Quick Emptying commands, refer to the [Quick Emptying Commands](sec-empty) section
 :::
 
 :::{important}
 For the Error Codes, refer to the [Error Codes](sec-err) section
 :::
+

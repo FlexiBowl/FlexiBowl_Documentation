@@ -1,45 +1,43 @@
 (trasporto)=
-# **Transport und Umschlag**
+# **Transport und Handhabung**
 
-## Imballo
+## Verpackung
 
-La macchina è spedita a cura di ARS s.r.l. dallo stabilimento di produzione a quello del Cliente utilizzatore. In funzione della distanza del trasporto, dalle richieste specifiche del Cliente, e dal tempo di permanenza del carico nell’imballo, la spedizione della macchina avviene nei seguenti modi:  
+Die Maschine wird von ARS S.r.l. vom Produktionswerk zum Werk des anwendenden Kunden versandt. Je nach Transportentfernung, den spezifischen Anforderungen des Kunden und der Verweildauer der Ladung in der Verpackung erfolgt der Versand der Maschine auf folgende Weise:
 
-- imballo protettivo normale per corte e medie distanze; 
-- imballo protettivo speciale per lunghe distanze. 
+- normale Schutzverpackung für kurze und mittlere Entfernungen;
+- spezielle Schutzverpackung für lange Entfernungen.
 
-La spedizione deve essere effettuata con mezzi di trasporto coperti o telonati in dipendenza del tipo di carico.  
+Der Versand muss je nach Art der Ladung mit gedeckten oder planenbespannten Transportmitteln erfolgen.
 
-### **Ispezione all'arrivo**
-
-```{note}
-Alla ricezione del prodotto, prima di firmare la bolla di consegna:
-
-1. **Ispezione esterna dell'imballaggio**: Verificare l'integrità della scatola e dell'imballo esterno. Controllare la presenza di eventuali segni di urti, schiacciamenti o bagnature.
-
-2. **Verifica contenuto**: Confrontare il contenuto con la nota di consegna. Verificare la presenza di tutti i componenti ordinati.
-```
-
-### **In caso di danni o discrepanze**
+### **Prüfung bei Ankunft**
 
 ```{note}
-Se si riscontrano problemi:
+Bei Erhalt des Produkts, vor der Unterzeichnung des Lieferscheins:
 
-- NON firmare la ricevuta come "conforme"
-- Annotare i danni sul documento di trasporto
-- Fotografare eventuali danni evidenti
-- Contattare immediatamente il servizio assistenza ARS: 
-    [service@arsautomation.com](mailto:service@arsautomation.com) 
-    [us.service@arsautomation.com](mailto:us.service@arsautomation.com) se si contatta dall'America
+1. **Äußere Prüfung der Verpackung**: Die Unversehrtheit des Kartons und der Außenverpackung prüfen. Auf eventuelle Anzeichen von Stößen, Quetschungen oder Nässe achten.
+
+2. **Inhaltsprüfung**: Den Inhalt mit dem Lieferschein abgleichen. Prüfen, dass alle bestellten Komponenten vorhanden sind.
 ```
 
-## Dimensioni e pesi dell'imballo
+### **Bei Schäden oder Abweichungen**
+
+```{note}
+Werden Probleme festgestellt:
+
+- Den Empfang NICHT als „in Ordnung“ quittieren
+- Die Schäden auf dem Transportdokument vermerken
+- Offensichtliche Schäden fotografieren
+- Unverzüglich den ARS-Service kontaktieren: [service@arsautomation.com](mailto:service@arsautomation.com) [us.service@arsautomation.com](mailto:us.service@arsautomation.com) bei Anruf aus Amerika
+```
+
+## Abmessungen und Gewichte der Verpackung
 
 :::{list-table}
 :widths: 20 20 20 20 20 20 20
 :header-rows: 1
 
-* - Specifica
+* - Angabe
   - FlexiBowl® 200
   - FlexiBowl® 350
   - FlexiBowl® 500/500E
@@ -47,7 +45,7 @@ Se si riscontrano problemi:
   - FlexiBowl® 800
   - FlexiBowl® 1200
 
-* - Peso lordo (con imballo)
+* - Bruttogewicht (mit Verpackung)
   - xxx kg
   - xxx kg
   - xxx kg
@@ -55,7 +53,7 @@ Se si riscontrano problemi:
   - xxx kg
   - xxx kg
 
-* - Dimensioni cassa (mm)
+* - Abmessungen der Kiste (mm)
   - xxxx
   - xxxx
   - xxxx
@@ -65,14 +63,14 @@ Se si riscontrano problemi:
 
 :::
 
-## Trasporto e movimentazione dell'imballo
+## Transport und Handhabung der Verpackung
 
 :::{tip}
-**Durante il trasporto:**
-- Movimentare sempre l'imballaggio in posizione verticale (rispettare le frecce "ALTO" sull'imballo)
-- Non far cadere o urtare la confezione
-- Utilizzare carrelli o transpallet adeguati al peso
-- Evitare sbalzi termici improvvisi
+**Während des Transports:**
+- Die Verpackung stets in senkrechter Position handhaben (die Pfeile „OBEN“ auf der Verpackung beachten)
+- Die Verpackung nicht fallen lassen und keinen Stößen aussetzen
+- Für das Gewicht geeignete Hubwagen oder Handhubwagen verwenden
+- Plötzliche Temperaturschwankungen vermeiden
 :::
 
 :::{raw} html
@@ -85,61 +83,61 @@ Se si riscontrano problemi:
 ::::{list-table}
 :widths: 30 60 60
 :header-rows: 1
-* - {ref}`Qualifica operatore <operatori>`
-  - {ref}`D.P.I. Necessari <dpi>`
-  - Mezzo di sollevamento
+* - {ref}`Qualifikation des Bedieners <operatori>`
+  - {ref}`Erforderliche PSA <dpi>`
+  - Hebezeuge
 
-* - **Conduttore di mezzi di sollevamento**
+* - **Bediener von Hebezeugen**
   - :::{raw} html
        <div class="ars-img-row">
-         <img src="../../../../_shared/media/images/guanti.png" alt="guanti">
-         <img src="../../../../_shared/media/images/scarpe.png" alt="scarpe">
-         <img src="../../../../_shared/media/images/tuta.png" alt="tuta">
-         <img src="../../../../_shared/media/images/casco.png" alt="casco">
+         <img src="../../../../_shared/media/images/guanti.png" alt="Handschuhe">
+         <img src="../../../../_shared/media/images/scarpe.png" alt="Schuhe">
+         <img src="../../../../_shared/media/images/tuta.png" alt="Overall">
+         <img src="../../../../_shared/media/images/casco.png" alt="Helm">
        </div>
     :::
-  - Carrello elevatore di portata non inferiore a 50 kg
+  - Gabelstapler mit einer Tragfähigkeit von mindestens 50 kg
 ::::
 
 :::{warning}
-- Utilizzare solo mezzi di sollevamento idonei ed omologati, compatibili per le dimensioni e il peso del FlexiBowl®.
-- Accertarsi che nessuno sosti e nel raggio d'azione del mezzo di sollevamento.
+- Nur geeignete, zugelassene Hebezeuge verwenden, die für Abmessungen und Gewicht des FlexiBowl® ausgelegt sind.
+- Sicherstellen, dass sich niemand im Wirkbereich des Hebezeugs aufhält.
 :::
 
-Per la movimentazione del corpo macchina con imballo, procedere come descritto: 
+Zur Handhabung des Maschinenkörpers mit Verpackung wie beschrieben vorgehen:
 
 ::::{list-table}
 :widths: 15 60
 :header-rows: 1
 
-* - Step
-  - Operazione
+* - Schritt
+  - Vorgang
 
 * - 1
-  - Posizionare le forche del carrello elevatore sotto alla cassa di legno in cui è riposta la macchina. 
+  - Die Gabeln des Gabelstaplers unter der Holzkiste positionieren, in der sich die Maschine befindet.
 
 * - 2
-  - Assicurarsi che le forche fuoriescano dalla parte anteriore del carico (almeno 5 cm), per una lunghezza sufficiente ad eliminare eventuali rischi di ribaltamento della     parte trasportata. 
+  - Sicherstellen, dass die Gabeln an der Vorderseite der Last (mindestens 5 cm) herausragen, und zwar auf einer Länge, die ausreicht, um jedes Kipprisiko des transportierten Teils auszuschließen.
 
 * - 3
-  - Sollevare le forche fino al contatto col carico. 
+  - Die Gabeln anheben, bis sie die Last berühren.
     :::{note}
-    Se necessario fissare il carico alle forche con morsetti o dispositivi similari. 
+    Falls erforderlich, die Last mit Klemmen oder ähnlichen Vorrichtungen an den Gabeln sichern.
     :::
 
 * - 4
-  - Sollevare lentamente il carico di qualche decina di centimetri e verificarne la stabilità facendo attenzione che il baricentro del carico sia posizionato al centro delle forche di sollevamento. 
+  - Die Last langsam einige Dutzend Zentimeter anheben und ihre Stabilität prüfen, wobei darauf zu achten ist, dass der Schwerpunkt der Last in der Mitte der Hubgabeln liegt.
 
 * - 5
-  - Inclinare il montante all’indietro (verso il posto guida) per avvantaggiare il momento ribaltante e garantire una maggiore stabilità del carico durante il trasporto. 
+  - Den Hubmast nach hinten (zum Fahrerplatz hin) neigen, um das Kippmoment zu nutzen und während des Transports eine größere Stabilität der Last zu gewährleisten.
 
 * - 6
-  - Adeguare la velocità di trasporto in base alla pavimentazione ed al tipo di carico, evitando manovre brusche. 
+  - Die Transportgeschwindigkeit an den Bodenbelag und die Art der Last anpassen und abrupte Manöver vermeiden.
 
 ::::
 
 ::::{important}
-Posizionare le forche del carello elevatore come indicato in figura
+Die Gabeln des Gabelstaplers wie in der Abbildung gezeigt positionieren
 
 ::: {figure} ../../../../_shared/media/images/muletto.png
   :align: center
@@ -148,125 +146,124 @@ Posizionare le forche del carello elevatore come indicato in figura
 
 ::::
 
-### Stoccaggio
+### Lagerung
 
 :::{tip}
-**Durante lo stoccaggio:**
-- Conservare in luogo asciutto e coperto
-- Non sovrapporre altri carichi sull'imballaggio
-- Non salire o appoggiarsi sull'imballaggio
-- Rispettare le condizioni ambientali indicate nella tabella precedente
+**Während der Lagerung:**
+- An einem trockenen, überdachten Ort lagern
+- Keine anderen Lasten auf der Verpackung stapeln
+- Nicht auf die Verpackung steigen oder sich darauf stützen
+- Die in der vorhergehenden Tabelle angegebenen Umgebungsbedingungen einhalten
 :::
 
-### Disimballaggio
+### Auspacken
 
 :::{tip}
-**Durante il disimballaggio:**
-- Aprire con cura per non danneggiare i componenti interni
-- Conservare l'imballo originale per eventuali resi o trasporti futuri
-- Verificare la presenza di tutti gli accessori e della documentazione
+**Beim Auspacken:**
+- Vorsichtig öffnen, um die inneren Komponenten nicht zu beschädigen
+- Die Originalverpackung für eventuelle Rücksendungen oder künftige Transporte aufbewahren
+- Prüfen, dass alle Zubehörteile und die Dokumentation vorhanden sind
 :::
 
-Per la **rimozione dell'imballo**, procedere come descritto:
+Zum **Entfernen der Verpackung** wie beschrieben vorgehen:
 
 :::{list-table}
 :widths: 15 60
 :header-rows: 1
 
-* - Step
-  - Operazione
+* - Schritt
+  - Vorgang
 
 * - 1
-  - Posizionare il FlexiBowl® nel luogo ad esso destinato.
+  - Den FlexiBowl® an dem dafür vorgesehenen Ort aufstellen.
 
 * - 2
-  - Svitare il FlexiBowl® dalla base della cassa in legno usata per la spedizione.
+  - Den FlexiBowl® vom Boden der für den Versand verwendeten Holzkiste abschrauben.
 
 * - 3
-  - Rimuovere il dispositivo USB ed il fascicolo di collaudo dalla cassa. Conservarlo per un uso successivo.
+  - Den USB-Stick und die Prüfunterlagen aus der Kiste nehmen. Für die spätere Verwendung aufbewahren.
 
 * - 4
-  - Usare le maniglie laterali presenti nel FlexiBowl® per sollevarlo e rimuoverlo dalla cassa.
+  - {ref}`Den FlexiBowl® anheben <transflex>` und aus der Kiste nehmen.
 
 :::
 
 :::{warning}
-Per l’operazione di sollevamento manuale dalla cassa di legno del FlexiBowl® è necessaria la presenza di n°2 operatori.
+Für das manuelle Herausheben des FlexiBowl® aus der Holzkiste sind 2 Bediener erforderlich.
 :::
 
-Per la movimentazione della macchina e/o delle sue parti, fare riferimento al paragrafo {ref}`“Trasporto del FlexiBowl®” <transflex>`. 
+Zur Handhabung der Maschine und/oder ihrer Teile siehe den Abschnitt {ref}`„Transport des FlexiBowl®“ <transflex>`.
 
-### Smaltimento dell'imballo
+### Entsorgung der Verpackung
 
-L’imballaggio è parte integrante della fornitura e non viene ritirato, per cui lo smaltimento del suddetto è a carico dell’acquirente. 
-L’eventuale smaltimento o distruzione deve avvenire nel rispetto delle normative vigenti nel paese dell’utilizzatore, tenendo conto 
-della natura dei materiali: 
-- legname per le casse; 
-- film di materia plastica per la protezione della macchina e nastri adesivi per il fissaggio degli stessi;  
-- sacchetti di sostanza assorbente per l’umidita; 
-- ecc. 
+Die Verpackung ist fester Bestandteil der Lieferung und wird nicht zurückgenommen; ihre Entsorgung obliegt daher dem Käufer. Eine eventuelle Entsorgung oder Vernichtung muss unter Beachtung der im Land des Anwenders geltenden Vorschriften und unter Berücksichtigung der Art der Materialien erfolgen:
+- Holz für die Kisten;
+- Kunststofffolie zum Schutz der Maschine und Klebebänder zu deren Befestigung;
+- Beutel mit feuchtigkeitsabsorbierendem Material;
+- usw.
 
 (transflex)=
-## Trasporto del FlexiBowl®
+## Transport des FlexiBowl®
 
-**ARS s.r.l.** in funzione delle modalità di trasporto utilizza imballi e fissaggi adeguati a garantire l’integrità e la conservazione durante 
-il trasporto.
+**ARS S.r.l.** verwendet je nach Transportart Verpackungen und Befestigungen, die geeignet sind, die Unversehrtheit und Erhaltung während des Transports zu gewährleisten.
 
-Al ricevimento della macchina, verificare che nessuna parte abbia subito danni durante il trasporto e/o la movimentazione. 
-**Nel caso si riscontrassero danni è obbligatorio segnalarli immediatamente al Costruttore.**
+Beim Erhalt der Maschine prüfen, dass kein Teil beim Transport und/oder bei der Handhabung beschädigt wurde. **Werden Schäden festgestellt, sind diese dem Hersteller unverzüglich zu melden.**
 
-Le attività di movimentazione descritte in questo paragrafo devono essere effettuate da personale qualificato per tali operazioni: 
-personale appositamente addestrato per eseguire in tutta sicurezza le operazioni di carico, scarico e movimentazione mediante 
-mezzi di sollevamento, e che sia a conoscenza delle regole di prevenzione degli infortuni.
+Die in diesem Abschnitt beschriebenen Handhabungstätigkeiten müssen von für diese Arbeiten qualifiziertem Personal durchgeführt werden: Personal, das speziell geschult ist, Be-, Entlade- und Handhabungsvorgänge mit Hebezeugen sicher auszuführen, und das die Unfallverhütungsvorschriften kennt.
 
 :::{warning}
-ARS S.r.l. non risponde dei danni, a cose o a persone, causati da incidenti provocati dal mancato rispetto delle istruzioni riportate nel presente manuale.
+ARS S.r.l. haftet nicht für Sach- oder Personenschäden, die durch Unfälle infolge der Nichtbeachtung der in diesem Handbuch enthaltenen Anweisungen verursacht werden.
 :::
 
-Dopo il disimballo, il FlexiBowl® si presenta già interamente montato. Seguire la seguente tabella per i pesi e gli ingombri dei vari modelli:
+Nach dem Auspacken ist der FlexiBowl® bereits vollständig montiert. Die folgende Tabelle enthält Gewichte und Abmessungen der verschiedenen Modelle:
 
+(dims&weight)=
 :::{list-table}
 :widths: 40 40 40
 :header-rows: 1
 
-* - Modello
-  - Peso
-  - Ingombri
+* - Modell
+  - Gewicht
+  - Abmessungen
 
 * - FlexiBowl® 200
-  - xxx kg
-  - xxxx
+  - 7 kg*
+  - Ø240 x 196 mm
 
 * - FlexiBowl® 350
-  - xxx kg
-  - xxxx
+  - 14 kg*
+  - Ø384 x 234 mm
 
 * - FlexiBowl® 500
-  - xxx kg
-  - xxxx
+  - 35 kg
+  - 668 x 535 x 275 mm
 
 * - FlexiBowl® 650
-  - xxx kg
-  - xxxx
+  - 51 kg
+  - 821 x 694 x 314.50 mm
 
 * - FlexiBowl® 800
-  - xxx kg
-  - xxxx
+  - 67 kg
+  - 973 x 884 x 342 mm
 
 * - FlexiBowl® 1200
-  - xxx kg
-  - xxxx
+  - 144 kg
+  - 1386 x 1240 x 388 mm
 
+:::
+
+:::{note}
+Die Angabe bezieht sich nur auf den FlexiBowl®; das Rack für die ausgelagerte Elektronik, das den genannten Baugrößen beiliegt, wiegt 10 kg.
 :::
 
 :::{warning}
-La normativa **EN ISO 11228-1-2022** proibisce di sollevare manualmente carichi superiori ai 25kg (il limite può essere anche inferiore in base al sesso e all'età dell'operatore) quindi, per ragioni di sicurezza, è obbligatorio l'uso di macchine di sollevamento per i FlexiBowl® che superano questo limite. È anche necessario considerare che la tabella dei pesi, riportata di sopra e anche in altri capitoli del presente manuale, si riferisce ai FlexiBowl® **senza** accessori montati, il peso può aumentare in base alla configurazione acquistata: in tal caso il peso sarà adeguatamente riportato. I FlexiBowl® che superano il limite dei 25kg sono quelli di taglia 500 e oltre.
+Die Norm **EN ISO 11228-1-2022** verbietet das manuelle Heben von Lasten über 25 kg (die Grenze kann je nach Geschlecht und Alter des Bedieners auch niedriger sein); daher ist aus Sicherheitsgründen die Verwendung von Hebezeugen für FlexiBowl® verpflichtend, die diese Grenze überschreiten. Die FlexiBowl®, die die Grenze von 25 kg überschreiten, sind die der Baugröße 500 und darüber.
 :::
 
-I FlexiBowl® di taglia 500 e oltre sono provvisti di golfari per il sollevamento, da utilizzare per il trasporto della macchina dalla scatola di imballo alla sua posizione finale.
+FlexiBowl® der Baugröße 500 und darüber sind mit Ringschrauben zum Anheben ausgestattet, die für den Transport der Maschine vom Verpackungskarton zu ihrer Endposition zu verwenden sind.
 
 ::::{important}
-I golfari sono fissati su basi orientabili: durante l'imbracatura del FlexiBowl® è importante assicurarsi che il carico sia giacente sul piano dell'occhiello del golfare e che non superi i 45° rispetto all'asse verticale, situazione che potrebbe provocare carichi di taglio che solleciterebbero i golfari in modo anomalo.
+Die Ringschrauben sind auf schwenkbaren Sockeln befestigt: Beim Anschlagen des FlexiBowl® ist sicherzustellen, dass die Last in der Ebene der Ringschraubenöse liegt und 45° zur Senkrechten nicht überschreitet, da dies Querkräfte hervorrufen könnte, die die Ringschrauben unzulässig beanspruchen würden.
 
 :::{figure} ../../../../_shared/media/images/din580.png
   :align: center
@@ -275,12 +272,12 @@ I golfari sono fissati su basi orientabili: durante l'imbracatura del FlexiBowl�
 ::::
 
 :::{warning}
-Le maniglie presenti sui FlexiBowl® di taglia 500 e oltre **NON** sono da utilizzare per il sollevamento, ma servono solamente a guidare il piazzamento sul piano macchina.
+Die Griffe an den FlexiBowl® der Baugröße 500 und darüber dürfen **NICHT** zum Anheben verwendet werden; sie dienen nur dazu, die Platzierung auf der Maschinenebene zu führen.
 :::
 
-### Dimensionamento delle funi per il sollevamento
+### Dimensionierung der Hebeseile
 
-Il diametro delle funi deve essere sufficiente per supportare il peso del FlexiBowl®, mentre la lunghezza deve essere tale da garantire il corretto orientamento del carico sul golfare in base ai principi descritti sopra, basati sulla normativa DIN 580:
+Der Durchmesser der Seile muss ausreichen, um das {ref}`Gewicht <dims&weight>` des FlexiBowl® zu tragen, während die Länge so bemessen sein muss, dass die korrekte Ausrichtung der Last an der Ringschraube gemäß den oben beschriebenen Grundsätzen auf Basis der Norm DIN 580 gewährleistet ist:
 
 :::{figure} ../../../../_shared/media/images/FB650sol.png
   :align: center
@@ -291,8 +288,8 @@ Il diametro delle funi deve essere sufficiente per supportare il peso del FlexiB
 :widths: 50 50
 :header-rows: 1
 
-* - Modello FlexiBowl®
-  - Lunghezza minima dei cavi A
+* - FlexiBowl®-Modell
+  - Mindestlänge der Seile A
 
 * - 500
   - 300 mm

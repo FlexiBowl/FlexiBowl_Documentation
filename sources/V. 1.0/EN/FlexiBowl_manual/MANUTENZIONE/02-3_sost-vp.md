@@ -1,4 +1,4 @@
-# [MEC] **Proportional Valve Replacement**
+# **Replacing the Proportional Valve**
 
 :::::{important}
 
@@ -34,7 +34,7 @@ Disconnect the electrical and pneumatic power supply before proceeding with the 
 Some parts involved in the maintenance process described here may have reached {ref}`high temperatures <temp>` during operation; make sure to leave the FlexiBowl® switched off long enough for all its parts to be handled safely.
 :::
 
-## What you need
+## What is needed?
 
 :::{list-table}
 :widths: 40 40
@@ -62,11 +62,11 @@ Some parts involved in the maintenance process described here may have reached {
 | Step | Operation |
 |:----:|-----------|
 | 1 | {ref}`Remove the surface or rigid disc <sost-disco>` |
-| 2 | Remove the flip screen assembly |
-| 3 | Remove the cover plate of the flip assembly (use two of the fixing screws for removal through the dedicated threaded holes) |
-| 4 | Disconnect, remove the pneumatic connections and remove the proportional valve bracket |
+| 2 | Remove the flip shield assembly |
+| 3 | Remove the cover plate of the flip unit (use two of the fixing screws to remove it through the dedicated threaded holes) |
+| 4 | Disconnect, remove the pneumatic connections and dismantle the proportional valve bracket |
 | 5 | Replace the damaged proportional valve with the new one |
-| 6 | Once the replacement is finished, refit all the components |
+| 6 | When the replacement is finished, refit all the components |
 
 ::::{raw} html
 <figure style="text-align: center;">
@@ -82,10 +82,10 @@ Some parts involved in the maintenance process described here may have reached {
     <option value="1.5">1.5x</option>
     <option value="2">2x</option>
   </select>
-  <figcaption><i>Proportional valve replacement procedure shown on FlexiBowl® 800</i></figcaption>
+  <figcaption><i>Proportional valve replacement procedure illustrated on a FlexiBowl® 800</i></figcaption>
 </figure>
 ::::
 
 :::{note}
-Depending on whether blows are present, one or two proportional valves may be fitted: the second is located under the plate opposite the one that covers the flip assembly.
+Depending on whether the blows are present, one or two proportional valves may be present: the second one is located under the plate opposite the one that covers the flip unit.
 :::

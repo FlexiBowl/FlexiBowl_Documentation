@@ -1,1 +1,1 @@
-# **[MEC]** Risoluzione Problemi Pneumatici
+# **Risoluzione Problemi Pneumatici**

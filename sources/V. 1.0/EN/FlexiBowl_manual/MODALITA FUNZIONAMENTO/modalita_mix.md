@@ -1,10 +1,11 @@
-# [SOF] **Mix Mode**
+# **Mix Mode**
 
+(funzionamento-in-mix-mode)=
 ## Operation in MIX Mode
 
-**MIX Mode** allows parts of different types to be fed simultaneously on the same FlexiBowl® surface.    
+The **Mix mode** allows parts of different types to be fed simultaneously onto the same FlexiBowl® surface.
 
-This mode is particularly suitable for **sorting** applications in which several references are required on the same work surface without having to multiply the robotic stations.
+This mode is particularly suited to **sorting** applications in which several part numbers must be present on the same work surface without having to multiply the robotic stations.
 
 ```{figure}  ../../../../_shared/media/images/flexibowl_standard_cycle.jpg
 :align: center
@@ -30,8 +31,7 @@ This mode is particularly suitable for **sorting** applications in which several
 
 ## Operating cycle
 
-The MIX Mode cycle is simplified compared to the standard mode, with only three stages
-that repeat in sequence:
+The MIX Mode cycle is simplified compared to the standard mode, with only three stages repeating in sequence:
 
 ```{list-table}
 :header-rows: 1
@@ -42,21 +42,35 @@ that repeat in sequence:
 * - **Detect**
   - The camera acquires the image of the common surface, identifying the position and orientation of all the parts present, regardless of their type.
 * - **Move-Flip**
-  - The FlexiBowl® rotates and the parts that are not correctly oriented are flipped or repositioned.
+  - The FlexiBowl® rotates and the parts that are not correctly oriented are flipped over or repositioned.
 * - **Pick-Drop**
-  - The robot picks the correct part based on the sorting logic and places it in the destination position.
+  - The robot picks the correct part according to the sorting logic and places it in the destination position.
 ```
 
 
 ---
+## Advantages 
 
+
+:::{grid-item-card} Advantages
+- **Maximum Flexibility**: .
+- **Reduced Costs**: .
+- **Reduced environmental footprint**: .
+:::
+
+
+:::{note}
+The Mix mode is available for FlexiBowl® 500, 650 and 800.
+:::
+
+---
 ## Operating notes
 
 :::{tip}
-MIX Mode does not require additional hardware compared to a standard configuration.  
- It is sufficient to configure the vision software to recognize several references and to set the sorting logic in the robot program.
+The Mix mode requires no additional hardware compared to a standard configuration.
+ It is sufficient to configure the vision software to recognize several part numbers and to set the sorting logic in the robot program.
 :::
 
 :::{note}
-For the optimal placement of the FlexiBowl® and of the robot, refer to the {ref}`Layout Best Practice <layoutbp>` chapter.
+For the optimal placement of the FlexiBowl® and the robot, refer to the {ref}`Layout Best Practice <layoutbp>` chapter.
 :::

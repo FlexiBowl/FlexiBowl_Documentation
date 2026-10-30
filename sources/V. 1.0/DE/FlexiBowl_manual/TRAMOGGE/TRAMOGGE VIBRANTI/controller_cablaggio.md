@@ -1,315 +1,482 @@
-# **Steuergeräte und Verkabelung**
+# **Steuerung und Verdrahtung**
 
-La macchina, durante il funzionamento, non necessita della presenza continua di un operatore.
-
-:::{attention}
-Utilizzare la macchina per scopo diverso da quello previsto dal Costruttore potrebbe causare gravi danni alle persone e/o cose e/o animali.
-La società ARS S.r.l. non risponde per danni causati da un uso improprio della macchina.
-:::
-
-## Descrizione Controller 
-
-Il **Controller digitale** è dotato di un microprocessore con visualizzazione della frequenza. È possibile impostare un ritardo all’avvio o all’arresto del vibratore, tramite **sensore PNP/NPN** o tramite un **contatto meccanico** fino a un massimo di 6 secondi regolabili.
-
-### Dati Tecnici Controller 
-
-| Caratteristica tecnica | Specifica / Valore |
-| :--- | :--- |
-| **Alimentazione elettrica** | 85 / 250 V |
-| **Frequenza / Fase** | 50/60 Hz / monofase |
-| **Consumo** | 1,5 W max |
-| **Corrente Max** | 5 A (RMS) |
-| **Fusibili** | Doppio 5A F 250V 5x20 H 1500A |
-| **Carico Minimo** | 50 mA (RMS) |
-| **On/Off** | Contatto pulito - Segnale in tensione 0-24 Vcc |
-| **Reg. Di Frequenza Vibratore** | 50 ÷ 100 Hz +/- 12 Hz |
-| **Ingresso Sensore** | NPN/PNP - contatto meccanico |
-| **Ritardo ON/OFF** | 0 / 6 secondi |
-| **Temperatura di Funzionamento** | -15 °C / +45 °C |
-| **Norme Europee** | EMC CE |
-| **Grado di Protezione** | IP65 in cassetta |
+Die Maschine benötigt im Betrieb nicht die ständige Anwesenheit eines Bedieners.
 
 :::{attention}
-È possibile integrare controller diversi da quello fornito dal Costruttore purché quest’ultimo ne abbia preliminarmente validato le caratteristiche tecniche. La società ARS s.r.l. non risponde per danni causati dall’utilizzo di un controller non validato o non compatibile con la macchina.
+Die Verwendung der Maschine für einen anderen als den vom Hersteller vorgesehenen Zweck kann zu schweren Schäden an Personen und/oder Sachen und/oder Tieren führen. Die Firma ARS S.r.l. haftet nicht für Schäden, die durch unsachgemäße Verwendung der Maschine entstehen.
 :::
 
-## Procedure di utilizzo
+## Beschreibung der Steuerung
 
-### Verifiche preliminari
+Die **digitale Steuerung** (Mod. SDVC34-XLRH) ist eine frequenzvariable Steuerung mit Mikroprozessor, **LED**-Display und Bedientastatur (Tasten **Vol+/Vol-** für die Ausgangsspannung, Tasten **▲/▼** für die Parameter, Taste **FUNC** zur Auswahl, Taste **ON/OFF** zum Ein-/Ausschalten und zur Tastensperre).
 
-Prima di procedere con la messa in funzione della macchina, occorre eseguire le seguenti verifiche:
+**Standardmäßig erzeugt die Steuerung beim Einschalten keinen Ausgang** und bleibt im Stoppzustand: Um den Hauptausgang freizugeben, muss ein **PNP-Signal** an den **Enable Output Port** (4-poliger Steckverbinder) angelegt werden.
+
+Die Steuerung verfügt über automatische Schutzfunktionen:
+
+- **Kurzschluss** → sofortige Abschaltung des Ausgangs, Fehler `Err01`
+- **Überstrom** → sofortige Abschaltung des Ausgangs, Fehler `Err02`
+- **Übertemperatur** → Abschaltung des Ausgangs über 65 °C, automatische Rückstellung unter 60 °C, Fehler `Err03`
+
+Die Kommunikation erfolgt über den Port **RS485** (Protokoll **Modbus**) mit einer von 1 bis 31 einstellbaren Netzwerkadresse und konfigurierbarer Baudrate.
+
+
+### Technische Daten der Steuerung
+
+| Technisches Merkmal | Min | Typisch | Max | Einheit | Hinweise |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Eingangsspannung** | 85 | 220 | 250 | V | AC RMS |
+| **Einstellbarer Ausgangsspannungsbereich** | 0 | — | 260 | V | Weniger als 150 % der Eingangsspannung |
+| **Genauigkeit der Spannungsregelung** | — | 1 | — | V | — |
+| **Genauigkeit der Spannungsregelung (ΔVout/ΔVin)** | 0 | — | 10 | % | ΔVout/ΔVin |
+| **Einstellbarer Ausgangsstrombereich** | 0 | — | 6 | A | — |
+| **Ausgangsleistung** | 0 | — | 1320 | VA | — |
+| **Ausgangsfrequenz** | 30,0 | — | 130,0 | Hz | — |
+| **Genauigkeit der Frequenzregelung** | — | 0,1 | — | Hz | — |
+| **Ausgangskurvenform** | — | Sinusförmig | — | — | — |
+| **Auslösetemperatur des Übertemperaturschutzes** | 60 | 65 | 65 | °C | — |
+| **Digitale Kommunikation** | — | ModBus 485 | — | — | — |
+| **Einstellmethode** | — | 6 | — | Tasten | — |
+| **Standby-Verbrauch** | — | 7 | — | W | — |
+| **Anzeigeart** | — | 5 | — | Ziffernanzeige | LED |
+| **Umgebungstemperatur** | 0 | 25 | 40 | °C | Nicht kondensierend |
+| **Umgebungsfeuchtigkeit** | 10 | 60 | 85 | % | Nicht kondensierend |
+| **Umgebungstemperatur bei Lagerung** | -20 | 25 | 65 | °C | Nicht kondensierend |
+
+:::{attention}
+Es können andere als die vom Hersteller gelieferten Steuerungen integriert werden, sofern der Hersteller deren technische Eigenschaften zuvor validiert hat. Die Firma ARS s.r.l. haftet nicht für Schäden, die durch die Verwendung einer nicht validierten oder mit der Maschine nicht kompatiblen Steuerung entstehen.
+:::
+
+#### Bedienelemente der Frontplatte
+
+```{image} ../../../../../_shared/media/images/controller_digitale_pannello.jpeg
+:alt: Frontplatte der digitalen Steuerung CUH SDVC34-XLRH
+:width: 90%
+:align: center
+```
+
+| Element | Funktion |
+|---|---|
+| **LED-Display** | Zeigt den aktuellen Parameter und seinen Wert an |
+| **Anzeige Saturated** | Signalisiert die Sättigung des Ausgangssignals |
+| **Anzeige Remote** | Signalisiert, dass die Fernsteuerung aktiv ist |
+| **Anzeigen Speed A / Speed B** | Signalisieren die aktive Geschwindigkeit/den aktiven Ausgang |
+| **Anzeige Stop** | Signalisiert den Stoppzustand |
+| **Tasten Vol+ / Vol-** | Stellen jederzeit die **allgemeinen Parameter** ein (siehe unten) |
+| **Taste FUNC** | Aufrufen/Verlassen und Navigation durch die **Basisparameter** |
+| **Tasten ▲ / ▼** | Erhöhen/verringern den Wert des ausgewählten Parameters |
+| **Anzeigen Auto / Sync / Sensor / Sync Signal / Communicate** | Betriebs- und RS485-Kommunikationsstatus |
+| **Taste ON/OFF** | Schaltet die Steuerung ein/aus |
+
+#### Anschlüsse auf der Rückseite
+
+```{image} ../../../../../_shared/media/images/controller_digitale_connettori.png
+:alt: Rückseitiges Anschlussfeld der digitalen Steuerung
+:width: 85%
+:align: center
+```
+
+```{list-table}
+:widths: 30 45 25
+:header-rows: 1
+
+* - Stecker
+  - Funktion
+  - Pinout
+* - **Mains Power** (Stromversorgung)
+  - Netzversorgung
+  - <details class="ars-dropdown"><summary>Pinbelegung des Steckverbinders</summary><div class="ars-dropdown-body">
+
+    | Pin | Beschreibung |
+    |---|---|
+    | PE-PE | ⏚ Erde |
+    | 1 | L |
+    | 2 | N |
+    | 3 | NC |
+
+    </div></details>
+* - **Enable Output Port** (4-polig)
+  - Freigabeausgang für die externe Ansteuerung des Bulk Feeders, der verwendet wird, wenn dieser separat erworben wurde und von einem externen Gerät angesteuert werden muss. Kabel als Option erhältlich: {ref}`cavo-input`.
+  - <details class="ars-dropdown"><summary>Pinbelegung des 4-poligen Steckverbinders</summary><div class="ars-dropdown-body">
+
+    | Pin | Beschreibung |
+    |---|---|
+    | 1 | +24V |
+    | 2 | NC |
+    | 3 | GND |
+    | 4 | Eingang |
+
+    </div></details>
+* - **RS485 Port** (2× 5-polig)
+  - Zwei identische RS485-Steckverbinder: Einer verbindet die Steuerung mit dem FlexiBowl®, der andere ermöglicht die **Daisy-Chain**-Verbindung mehrerer Bulk Feeder. Kabel als Option erhältlich: {ref}`cavo-modbus`.
+    
+    :::{important}
+    Bei einer Konfiguration mit einem einzelnen Bulk Feeder muss der nicht verwendete Steckverbinder mit dem mitgelieferten **Abschlussstecker** verschlossen werden, der einen **120-Ω**-Widerstand zwischen A+ und B- besitzt
+    :::
+  
+  - <details class="ars-dropdown"><summary>Pinbelegung des 5-poligen Steckverbinders</summary><div class="ars-dropdown-body">
+
+    | Pin | Beschreibung |
+    |---|---|
+    | 1 | A+ |
+    | 2 | NC |
+    | 3 | B- |
+    | 4 | GND |
+    | 5 | NC |
+
+    </div></details>
+* - **Power Output to Feeder** (Ausgang zum Bulk Feeder)
+  - Versorgung des Bulk Feeders
+  - <details class="ars-dropdown"><summary>Pinbelegung des Steckverbinders</summary><div class="ars-dropdown-body">
+
+    | Pin | Beschreibung |
+    |---|---|
+    | PE-PE | ⏚ Erde |
+    | 1 | Ausgang |
+    | 2 | Ausgang |
+    | 3 | NC |
+
+    </div></details>
+* - **Power Switch**
+  - Ein-/Ausschalter
+  - —
+```
+
+## Bedienverfahren
+
+### Vorabprüfungen
+
+Vor der Inbetriebnahme der Maschine sind die folgenden Prüfungen durchzuführen:
 
 <div class="isw-symbol-grid">
   <div class="isw-symbol-item">
     <div>
-      <div class="isw-symbol-label">Stabilità</div>
-      <div class="isw-symbol-desc">Controllare che la macchina sia posizionata su un piano in grado di sostenere il peso.</div>
+      <div class="isw-symbol-label">Standsicherheit</div>
+      <div class="isw-symbol-desc">Prüfen Sie, dass die Maschine auf einer Fläche steht, die ihr Gewicht tragen kann.</div>
     </div>
   </div>
   <div class="isw-symbol-item">
     <div>
-       <div class="isw-symbol-label">Sicurezza</div>
-      <div class="isw-symbol-desc">Controllare il funzionamento dei dispositivi di sicurezza e assicurarsi che tutti i ripari apribili siano ben chiusi.</div>
+       <div class="isw-symbol-label">Sicherheit</div>
+      <div class="isw-symbol-desc">Prüfen Sie die Funktion der Sicherheitseinrichtungen und stellen Sie sicher, dass alle zu öffnenden Schutzeinrichtungen fest geschlossen sind.</div>
     </div>
   </div>
   <div class="isw-symbol-item">
     <div>
-      <div class="isw-symbol-label">Spazio Operativo</div>
-      <div class="isw-symbol-desc"> Controllare che lo spazio attorno alla macchina sia libero da ingombri e/o trabocchetti.</div>
+      <div class="isw-symbol-label">Arbeitsbereich</div>
+      <div class="isw-symbol-desc"> Prüfen Sie, dass der Bereich um die Maschine frei von Hindernissen und/oder Stolperfallen ist.</div>
     </div>
   </div>
   <div class="isw-symbol-item">
     <div>
-     <div class="isw-symbol-label">Alimentazione</div>
-      <div class="isw-symbol-desc">Controllare che la macchina sia stata collegata alla rete elettrica e che le fasi di alimentazione siano corrette.</div>
+     <div class="isw-symbol-label">Spannungsversorgung</div>
+      <div class="isw-symbol-desc">Prüfen Sie, dass die Maschine an das Stromnetz angeschlossen wurde und die Versorgungsphasen korrekt sind.</div>
     </div>
   </div>
   <div class="isw-symbol-item">
     <div>
-       <div class="isw-symbol-label">Meccanica</div>
-      <div class="isw-symbol-desc">Controllare che la vasca sia completamente libera di vibrare.</div>
+       <div class="isw-symbol-label">Mechanik</div>
+      <div class="isw-symbol-desc">Prüfen Sie, dass die Wanne vollständig frei schwingen kann.</div>
     </div>
   </div>
   <div class="isw-symbol-item">
     <div>
-      <div class="isw-symbol-label">Stato Macchina</div>
-      <div class="isw-symbol-desc">Controllare che la macchina non si trovi in stato di “Manutenzione”.</div>
+      <div class="isw-symbol-label">Maschinenstatus</div>
+      <div class="isw-symbol-desc">Prüfen Sie, dass sich die Maschine nicht im Zustand „Wartung“ befindet.</div>
     </div>
   </div>
 </div>
 
-### Controller standard
+### Reihenfolge der elektrischen Anschlüsse
 
-#### Connessioni elettriche e setup controller
+Unabhängig vom verwendeten Steuerungstyp (Standard, analog oder digital) folgt der elektrische Anschluss zwischen Bulk Feeder, Steuerung und FlexiBowl® einer genauen Reihenfolge. Die Reihenfolge unterscheidet sich je nach Modell leicht: Die **FlexiBowl® 500/650/800/1200** verfügen über ein Standard-Schaltfeld mit integriertem HOPPER-Steckverbinder, während die **FlexiBowl® 200/350** ein externes Rack mit eigenem HOPPER-Steckverbinder verwenden.
+
+#### FlexiBowl® 500 / 650 / 800 / 1200 — Standard-Schaltfeld
+
+<div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Verbinden Sie die <strong>Steuerung</strong> mit dem <strong>Bulk Feeder</strong> (Vibrationssockel).
+    </div>
+    <img src="../../../../../_shared/media/images/connect_Hopper.png" alt="Anschluss des Hopper Controllers an den Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Verbinden Sie die <strong>Steuerung</strong> mit dem Steckverbinder <strong>HOPPER</strong> am Standard-Schaltfeld des FlexiBowl®.
+    </div>
+    <img src="../../../../../_shared/media/images/connect_FB.png" alt="Anschluss des Hopper Controllers an den Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Wenn der Hopper-Steckverbinder des FlexiBowl® nicht verwendet wird, setzen Sie die vorgesehene <strong>Abschlusskappe</strong>* auf.
+    </div>
+    <img src="../../../../../_shared/media/images/cover_cap.png" alt="Anschluss des Hopper Controllers an den Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Schließen Sie das <strong>Netz</strong>kabel an die Steuerung an und stellen Sie sicher, dass der Netzschalter in Stellung <strong>OFF</strong> steht.
+    </div>
+    <img src="../../../../../_shared/media/images/connect_Supply.png" alt="Anschluss des Hopper Controllers an den Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">5</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Stecken Sie den Stecker des Netzkabels erst in die <strong>Steckdose</strong>, nachdem Sie bestätigt haben, dass der Schalter der Steuerung auf OFF steht.
+    </div>
+  </div>
+</div>
 
 :::{attention}
-Prima di accendere il controller collegare la spina Schuko nella presa di corrente verificando che l’impianto abbia un adeguato sistema di messa a terra.
+*Die Kappe muss zwischen den Kanälen A+ und B- einen Widerstand von **120 Ω** gewährleisten.
 :::
 
-Per eseguire l’avviamento, procedere come descritto:
+:::{important}
+Schließen Sie immer **zuerst das Ende des Netzkabels auf der Steuerungsseite** an und stecken Sie den Stecker erst danach in die Steckdose.
+:::
+
+```{image} ../../../../../_shared/media/images/controller_side.png
+:alt: Schließen Sie immer zuerst das Ende auf der Steuerungsseite an
+:width: 70%
+:align: center
+```
+
+```{image} ../../../../../_shared/media/images/power_outlet.png
+:alt: Einstecken in die Steckdose
+:width: 70%
+:align: center
+```
+
+#### **Kaskadenverbindung mehrerer Bulk Feeder**
+
+Bei Modellen mit Standard-Schaltfeld können mehrere Hopper-Controller-Einheiten in Kaskade verbunden werden; jede Steuerung wird einzeln versorgt, und die Steckverbinder werden von einer Einheit zur nächsten verbunden.
+
+```{image} ../../../../../_shared/media/images/daisy_chain.png
+:alt: Kaskadenverbindung mehrerer Hopper Controller
+:width: 100%
+:align: center
+```
+
+#### FlexiBowl® 200 / 350 — Rack-Schaltfeld
+
+<div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Verbinden Sie die <strong>Steuerung</strong> mit dem <strong>Bulk Feeder</strong> (Vibrationssockel).
+    </div>
+    <img src="../../../../../_shared/media/images/connect_Hopper.png" alt="Anschluss des Hopper Controllers an den Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Verbinden Sie die <strong>Steuerung</strong> mit dem Steckverbinder <strong>HOPPER</strong> am Schaltfeld des <strong>Racks</strong>.
+    </div>
+    <img src="../../../../../_shared/media/images/controller_Rack.png" alt="Anschluss des Hopper Controllers an den Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Wenn der Hopper-Steckverbinder des Racks nicht verwendet wird, setzen Sie die vorgesehene <strong>Abschlusskappe</strong>* auf.
+    </div>
+    <img src="../../../../../_shared/media/images/cover_cap.png" alt="Anschluss des Hopper Controllers an den Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Schließen Sie das <strong>Netz</strong>kabel an die Steuerung an und stellen Sie sicher, dass der Netzschalter in Stellung <strong>OFF</strong> steht.
+    </div>
+    <img src="../../../../../_shared/media/images/connect_Supply.png" alt="Anschluss des Hopper Controllers an den Bulk Feeder" style="display:block; width:100%; max-width:500px; margin-top:10px; border-radius:4px;" />
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #0f766e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">5</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Stecken Sie den Stecker des Netzkabels erst in die <strong>Steckdose</strong>, nachdem Sie bestätigt haben, dass der Schalter der Steuerung auf OFF steht.
+    </div>
+  </div>
+</div>
+
+:::{attention}
+*Die Kappe muss zwischen den Kanälen A+ und B- einen Widerstand von **120 Ω** gewährleisten.
+:::
+
+:::{important}
+Schließen Sie immer **zuerst das Ende des Netzkabels auf der Steuerungsseite** an und stecken Sie den Stecker erst danach in die Steckdose.
+:::
+
+```{image} ../../../../../_shared/media/images/controller_side.png
+:alt: Schließen Sie immer zuerst das Ende auf der Steuerungsseite an
+:width: 70%
+:align: center
+```
+
+```{image} ../../../../../_shared/media/images/power_outlet.png
+:alt: Einstecken in die Steckdose
+:width: 70%
+:align: center
+```
+
+:::{note}
+Standardversorgung der Steuerung: **115 V AC** oder **230 V AC ±5 %**. Prüfen Sie stets, dass der Schutzleiter korrekt installiert und unversehrt ist, bevor Sie das System einschalten.
+:::
+
+---
+
+#### Einstellen der Kommunikationsadresse
+
+Nach Abschluss der elektrischen Verdrahtung besteht der nächste Schritt darin, an jeder Steuerung über den Parameter **Communication Address** (`r`) eine **eindeutige Kommunikationsadresse** einzustellen.
+
+:::{note}
+Der Parameter `r` stellt die **Steuerungs-ID** im **RS485**-Kommunikationsnetzwerk dar. Wenn mehrere Steuerungen am selben Netzwerk angeschlossen sind (z. B. mehrere Bulk Feeder), ist es **zwingend erforderlich**, jeder eine andere Adresse im Bereich **1–31** zuzuweisen, damit sie unterschieden und einzeln gesteuert werden können.
+:::
+
+<div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #7c3aed; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Halten Sie <strong>FUNC</strong> 2 Sekunden lang gedrückt, um in den Einstellmodus der Basisparameter zu gelangen.
+    </div>
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #7c3aed; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Drücken Sie wiederholt <strong>FUNC</strong>, um bis zum Parameter <code>r</code> zu blättern.
+    </div>
+  </div>
+  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
+    <div style="background-color: #7c3aed; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
+    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
+      Drücken Sie <strong>▲</strong> oder <strong>▼</strong>, um den Wert zu ändern (1–31).
+    </div>
+  </div>
+</div>
+
+---
+
+#### Hopper-Software-Oberfläche
+
+Sobald jeder Steuerung die eindeutige Adresse zugewiesen wurde, sind die Bulk Feeder **in die FlexiBowl®-Software integriert** und können direkt über deren Oberfläche gesteuert werden, ohne dass die einzelnen Steuerungen manuell bedient werden müssen.
+
+```{image} ../../../../../_shared/media/images/hopper.png
+:alt: FlexiBowl-Software-Oberfläche — Verwaltung der Bulk Feeder (Hopper 1–4)
+:width: 100%
+:align: center
+```
+
+Über die Software-Oberfläche ist es für jeden angeschlossenen Bulk Feeder möglich:
+
+| Feld | Funktion |
+|---|---|
+| **ID** | Kommunikationsadresse der Steuerung (muss mit der manuell eingestellten übereinstimmen) |
+| **ENABLE** | Gibt den Bulk Feeder für den Betrieb frei |
+| **Set New ID** | Weist per Software eine neue Kommunikationsadresse zu |
+| **STATUS** | Aktueller Status des Bulk Feeders (z. B. Disabled) |
+| **Amplitude** | Vibrationsamplitude |
+| **Frequency** | Vibrationsfrequenz |
+| **Activation Time** | Aktivierungszeit des Bulk Feeders (ms) |
+| **Start Hopper** | Startet den Bulk Feeder manuell |
+
+:::{note}
+Alle über die Software-Oberfläche verfügbaren Einstellungen können auch **direkt an der Steuerung** über die nachstehend beschriebenen allgemeinen Parameter und Basisparameter vorgenommen werden.
+:::
+
+---
+#### Allgemeine Parameter
+
+Die **allgemeinen Parameter** können jederzeit mit den Tasten **Vol+ / Vol-** eingestellt werden, auch wenn auf dem Display ein anderer Parameter angezeigt wird: Nach Abschluss der Einstellung kehrt die Steuerung automatisch zur Anzeige des vorherigen Parameters zurück.
+
+```{image} ../../../../../_shared/media/images/controller_changing_common_parameters.png
+:alt: Digitale Steuerung — Einstellung der allgemeinen Parameter mit Vol+/Vol-
+:width: 50%
+:align: center
+```
+
+| Definition | Symbol | Bereich | Standard |
+|---|---|---|---|
+| Output Voltage (Ausgangsspannung) | `U` | 0–260 (V) | 50 |
+
+#### Basisparameter
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Collegare il cavo della base lineare al connettore di uscita del controller (collegare quindi il vibratore al connettore di uscita <strong>(1)</strong>).
+      Halten Sie <strong>FUNC</strong> 2 Sekunden lang gedrückt, um in den Einstellmodus der Basisparameter zu gelangen.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Ruotare la manopola di regolazione frequenza <strong>(2)</strong> e di regolazione di ampiezza <strong>(3)</strong> del controller sulla posizione “•”.
+      Drücken Sie wiederholt <strong>FUNC</strong>, um zyklisch durch die verschiedenen Parameter zu blättern.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Accendere il controller con il pulsante ON/OFF (pulsante su posizione 1 <strong>(4)</strong>).
+      Drücken Sie <strong>▲</strong> oder <strong>▼</strong>, um den Wert des Parameters zu ändern.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
     <div style="background-color: #34495e; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Ruotare lentamente le manopole di regolazione <strong>(2 e 3)</strong>. Prima di portare la vibrazione al massimo (Potenziometro Amplitude <strong>(3)</strong>) si consiglia di cercare con il potenziometro Frequency <strong>(2)</strong>, la frequenza di risonanza corretta (50 Hertz).
+      Halten Sie <strong>FUNC</strong> erneut 2 Sekunden lang gedrückt, um den Einstellmodus der Basisparameter zu verlassen.
+      <img src="../../../../../_shared/media/images/controller_changing_basic_parameters.png" alt="Digitale Steuerung — Vorgehensweise zur Einstellung der Basisparameter" style="display:block; width:60%; max-width:500px; margin-top:10px; border-radius:4px;" />
     </div>
   </div>
 </div>
 
-![Controller con Puntatori](../../../../../_shared/media/images/controller_puntatori.png)
+| Definition | Symbol | Bereich | Standard |
+|---|---|---|---|
+| Output Frequency (Ausgangsfrequenz) | `E` | 40,0–200,0 (Hz) | 100,0 |
+| Max Adjustable Output Voltage (maximal einstellbare Ausgangsspannung) | `h` | 0–260 (V) | 260 |
+| Communication Address (RS485-Adresse) | `r` | 1–31 | 1 |
+| Communication Baud Rate (Kommunikationsgeschwindigkeit) | `c` | 0,3–115,2 kbit/s | 115,2 |
+| Controller Reset | `88888` | — | — |
 
-Per rispetto della normativa EMC il circuito è dotato di filtro con correnti di perdita verso terra inferiore a 1 mA.  
- Il circuito fornisce al vibratore un segnale PWM (modulazione in larghezza di impulso) regolabile in ampiezza e in frequenza, compensato rispetto alle variazioni della tensione di linea.  
-  La sezione di controllo è isolata galvanicamente dalla sezione di potenza.  
-   All'accensione il circuito attende qualche secondo prima di abilitare il vibratore.
-
-Il circuito è controllato da microprocessore ed è dotato di limitazione della corrente in uscita tramite fusibile F4 (4 A).
-
-**Protezioni tramite fusibili**
-
-| Fusibile | Valore | Posizione |
-| :--- | :--- | :--- |
-| **F1** | 6,3 A | Ingresso di linea |
-| **F3** | 250 mA | Ingresso ON/OFF — limita la corrente disponibile per il sensore NPN/PNP e l'eventuale elettrovalvola |
-| **F4** | 4 A | Uscita vibratore |
-
-**Indicatori LED interni alla scheda**
-
-| LED | Colore | Stato: acceso |
-| :--- | :--- | :--- |
-| **LD1** | Rosso | Alta tensione presente sui condensatori di filtraggio (fino a oltre 300 V con 230 V di linea) |
-| **LD2** | Verde | Tensione presente nel circuito di controllo. Spento se F1, F2 o F3 sono interrotti |
-| **LD3** | Verde | Relè ON/OFF commutato — vibratore in marcia o in arresto |
-| **LD4** | Giallo | Relè commutato per superamento del tempo di mancanza pezzi |
-
-:::{attention}
-Evitare assolutamente di toccare il circuito con il LED rosso (LD1) acceso.
-:::
-
-I relè associati a LD3 e LD4 espongono un contatto in scambio sui connettori **CONN4** e **CONN5**: **CONN4** consente il pilotaggio in cascata di un modulo aggiuntivo, **CONN5** l'attivazione di un allarme di flusso pezzi.
-
-**Regolazioni disponibili**
-
-I trimmer sulla scheda permettono di adattare il comportamento del vibratore all'applicazione:
-
-- **TR2** — ritardo al fermo del vibratore (0 ÷ 10 sec)
-- **TR3** — ritardo alla partenza del vibratore (0 ÷ 10 sec)
-- **TR4** — ampiezza massima
-- **TR5** — ritardo aggiuntivo in avvio
-- **TR6** — ampiezza minima
-
-Il vibratore può essere bloccato e riavviato tramite comando esterno su **CONN3**, compatibile con contatto pulito, sensore NPN/PNP o uscita 0–24 V, con o senza i ritardi configurati.  
- Tramite **DP1** è possibile selezionare la logica diritta o negata del segnale ON/OFF.
-
-**Configurazione standard consigliata da ARS**
-
-| Componente | Impostazione |
-| :--- | :--- |
-| **DP1** | Entrambi gli switch in posizione ON |
-| **DP2** | Switch 2 ON — Switch 1 OFF |
-| **TR2 e TR3** | Vite di regolazione in senso antiorario fino a fine corsa |
-| **CONN3** | Start a tramoggia con contatto pulito |
-
-![Disegno Controller](../../../../../_shared/media/images/disegno_controller.jpg)
-
----
-
-### Controller analogico
-
-![Controller Analogico](../../../../../_shared/media/images/controller_analogico.png)
-
-#### Connessioni elettriche e setup controller
-
-Per eseguire l’avviamento, procedere come descritto e fare riferimento all’immagine a fine paragrafo:
+#### Vorgehensweise beim Controller Reset
 
 <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
-    <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
+    <div style="background-color: #7c3aed; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">1</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Collegare l’alimentazione 80/250 Vac al connettore <strong>CONN 1</strong>.
+      Halten Sie <strong>FUNC</strong> 2 Sekunden lang gedrückt, um in den Einstellmodus der Basisparameter zu gelangen.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
-    <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
+    <div style="background-color: #7c3aed; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">2</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Collegare il cavo proveniente dalla base vibrante al connettore <strong>CONN 2</strong>.
+      Drücken Sie <strong>FUNC</strong>, bis der Parameter <code>88888</code> auf dem Display blinkt.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
-    <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
+    <div style="background-color: #7c3aed; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">3</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Collegare il comando di azionamento sul connettore <strong>CONN 3</strong>.
+      Halten Sie <strong>▲</strong> gedrückt, bis das Display <code>-----</code> („Ready to restore“) anzeigt.
     </div>
   </div>
   <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
-    <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
+    <div style="background-color: #7c3aed; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">4</div>
     <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Collegare l’ingresso analogico al connettore <strong>CONN 7</strong>.
-    </div>
-  </div>
-  <div style="display: flex; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef; overflow: hidden;">
-    <div style="background-color: #2980b9; color: #ffffff; display: flex; align-items: center; justify-content: center; width: 45px; font-weight: bold; flex-shrink: 0;">5</div>
-    <div style="padding: 12px 15px; color: #2c3e50; font-size: 0.95em;">
-      Regolare il trimmer <strong>TR1</strong> affinché la frequenza sia pari a 50 Hertz.
+      Lassen Sie <strong>▲</strong> los, um das Zurücksetzen abzuschließen („Restore successfully“): Das Display zeigt <code>U 50</code> als Bestätigung der erfolgten Wiederherstellung.
+      <img src="../../../../../_shared/media/images/controller_reset_procedure.png" alt="Digitale Steuerung — Reset-Ablauf, von Ready to restore bis Restore successfully" style="display:block; width:100%; max-width:700px; margin-top:10px; border-radius:4px;" />
     </div>
   </div>
 </div>
 
-Per rispetto della normativa EMC il circuito è dotato di filtro con correnti di perdita verso terra inferiore a 1 mA.  
- Il circuito fornisce al vibratore un segnale PWM regolabile in ampiezza tramite segnale analogico e in frequenza tramite il trimmer **TR1**.  
-  Il segnale è compensato rispetto alle variazioni della tensione di linea. La sezione di controllo è isolata galvanicamente dalla sezione di potenza.  
-   All'accensione il circuito attende qualche secondo prima di abilitare il vibratore.
-
-Il circuito è controllato da microprocessore ed è dotato di limitazione della corrente in uscita tramite fusibile F4 (4 A).
-
-**Protezioni tramite fusibili**
-
-| Fusibile | Valore | Posizione |
-| :--- | :--- | :--- |
-| **F1–F2** | 6,3 A | Ingresso di linea |
-| **F3** | 250 mA | Ingresso ON/OFF — limita la corrente disponibile per il sensore NPN/PNP e l'eventuale elettrovalvola |
-| **F4** | 4 A | Uscita vibratore |
-
-**Indicatori LED interni alla scheda**
-
-| LED | Colore | Stato: acceso |
-| :--- | :--- | :--- |
-| **LD1** | Rosso | Alta tensione presente sui condensatori di filtraggio (fino a oltre 300 V con 230 V di linea) |
-| **LD2** | Verde | Tensione presente nel circuito di controllo. Spento se F1, F2 o F3 sono interrotti |
-| **LD3** | Verde | Relè ON/OFF commutato — vibratore in marcia o in arresto |
-| **LD4** | Giallo | Relè commutato per superamento del tempo di mancanza pezzi |
-
-:::{attention}
-Evitare assolutamente di toccare il circuito con il LED rosso (LD1) acceso.
+:::{warning}
+Der **Controller Reset** setzt alle allgemeinen Parameter und Basisparameter auf ihre Standardwerte zurück (Output Voltage 50, Output Frequency 100,0 Hz, Max Output Voltage 260, Communication Address 1, Baud Rate 115,2 kbit/s). Verwenden Sie ihn mit Vorsicht, wenn individuelle Konfigurationen vorhanden sind – insbesondere die Kommunikationsadresse, die neu eingestellt werden muss.
 :::
 
-I relè associati a LD3 e LD4 espongono un contatto in scambio sui connettori **CONN4** e **CONN5**: **CONN4** consente il pilotaggio in cascata di un modulo aggiuntivo, **CONN5** l'attivazione di un allarme di flusso pezzi.
 
-**Regolazioni disponibili**
+---
 
-I trimmer sulla scheda permettono di adattare il comportamento del vibratore all'applicazione:
-
-- **TR2** — ritardo al fermo del vibratore (0 ÷ 10 sec)
-- **TR3** — ritardo alla partenza del vibratore (0 ÷ 10 sec)
-- **TR4** — ritardo oltre il quale scatta l'allarme mancanza pezzi (0 ÷ 10 sec)
-- **TR5** — tempo aggiuntivo di attivazione dell'elettrovalvola di soffio aria dopo l'arresto del vibratore (0 ÷ 3 sec)
-- **TR6** — rampa all'accensione del vibratore (0 ÷ 3 sec)
-- **TR7** — ampiezza massima sul vibratore
-
-Il vibratore può essere bloccato e riavviato tramite comando esterno su **CONN3**, compatibile con contatto pulito, sensore NPN/PNP o uscita 0–24 V, con o senza i ritardi configurati.  
- Tramite **DP1** è possibile selezionare la logica NC o NO del segnale ON/OFF.    
- L'ampiezza di vibrazione si regola impostando la tensione analogica appropriata su **CONN7**.
-
-**Configurazione standard consigliata da ARS**
-
-| Componente | Impostazione |
-| :--- | :--- |
-| **DP1** | Entrambi gli switch in posizione ON |
-| **DP2** | Switch 1 ON — Switch 2 OFF |
-| **TR2 e TR3** | Vite di regolazione in senso antiorario fino a fine corsa |
-| **CONN3** | Start a tramoggia con contatto pulito |
-
-
-![Schema Controller](../../../../../_shared/media/images/controller_schema.png)
-
-## **Messa in servizio della tramoggia**
+## **Inbetriebnahme des Bulk Feeders**
 
 :::{important}
-- Se il sistema include **FlexiVision One**, la configurazione dei parametri della tramoggia è guidata nella sezione [Configurazione Tramoggia]().
-- Altrimenti, fare riferimento alla sezione [Hopper](hopper) di questo manuale.
+- Wenn das System **FlexiVision One** enthält, wird die Konfiguration der Bulk-Feeder-Parameter im Abschnitt [Konfiguration des Bulk Feeders]() angeleitet.
+- Andernfalls beachten Sie den Abschnitt [Hopper](hopper) dieses Handbuchs.
 :::
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 

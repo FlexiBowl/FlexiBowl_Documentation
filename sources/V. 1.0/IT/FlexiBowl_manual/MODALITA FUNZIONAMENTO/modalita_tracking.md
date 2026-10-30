@@ -1,10 +1,10 @@
 (tracking)=
-# [SOF] **Modalità Circular Tracking**
+# **Modalità Circular Tracking**
 
 ## Funzionamento in Tracking
 
-L'opzione **Circular Tracking** consente di massimizzare la produttività del FlexiBowl® facendolo girare in maniera continua e senza interruzioni.  
- Invece di fermarsi a ogni ciclo per scattare la foto e dare al robot il tempo di raccogliere i pezzi presenti sull'area di visione, un encoder tiene traccia dell'angolo di rotazione effettuato dalla superficie del disco rigido dal momento dello scatto della foto a quello della presa del pezzo da parte del robot.  
+L'opzione **Circular Tracking** consente di massimizzare la produttività del FlexiBowl® facendolo girare in maniera continua e senza interruzioni.
+ Invece di fermarsi a ogni ciclo per scattare la foto e dare al robot il tempo di raccogliere i pezzi presenti sull'area di visione, un encoder tiene traccia dell'angolo di rotazione effettuato dalla superficie del disco rigido dal momento dello scatto della foto a quello della presa del pezzo da parte del robot.
 
 :::{figure} ../../../../_shared/media/images/Tracking.png
 :width: 50%
@@ -17,8 +17,8 @@ L'opzione **Circular Tracking** consente di massimizzare la produttività del Fl
 :::
 
 ::::{tip}
-Il funzionamento in circular tracking sposta l'area di presa che, se normalmente coincide con quella di visione, in questo caso sarà spostata a valle.  
- Fare riferimento al capitolo di {ref}`Layout Best Practice <layoutbp>` per maggiori informazioni sul piazzamento consigliato del robot e degli altri accessori in caso di funzionamento standard e Circular Tracking.  
+Il funzionamento in circular tracking sposta l'area di presa che, se normalmente coincide con quella di visione, in questo caso sarà spostata a valle.
+ Fare riferimento al capitolo di {ref}`Layout Best Practice <layoutbp>` per maggiori informazioni sul piazzamento consigliato del robot e degli altri accessori in caso di funzionamento standard e Circular Tracking.
 
 :::{figure} ../../../../_shared/media/images/TrackingLayout.PNG
 :width: 80%
@@ -46,8 +46,7 @@ Il funzionamento in circular tracking sposta l'area di presa che, se normalmente
 
 ## Ciclo operativo
 
-Il funzionamento in circular tracking si basa su un ciclo continuo suddiviso in quattro fasi che si
-svolgono in parallelo:
+Il funzionamento in circular tracking si basa su un ciclo continuo suddiviso in quattro fasi che si svolgono in parallelo:
 
 ```{list-table}
 :header-rows: 1
@@ -58,8 +57,7 @@ svolgono in parallelo:
 * - **Detect**
   - La telecamera acquisisce l'immagine di un settore del FlexiBowl®, anticipando l'area di presa.
 * - **Move**
-  - La bowl ruota in modo continuo, senza fermarsi; l'encoder registra lo spostamento angolare
-    in tempo reale.
+  - La bowl ruota in modo continuo, senza fermarsi; l'encoder registra lo spostamento angolare in tempo reale.
 * - **Flip / Drop**
   - I pezzi non correttamente orientati vengono ribaltati o scaricati nella posizione corretta.
 * - **Pick**
@@ -162,7 +160,7 @@ Gli stessi comandi scrivibili del JOG (blocco 20000) sono leggibili nel blocco 2
 | Backlight_2 | 20114 | 0–1 |
 
 ::::{tip}
-Per i Codici di Errore, consultare la pagina dedicata. 
+Per i Codici di Errore, consultare la pagina dedicata.
 :::{card} VAI ALLA PAGINA DEDICATA
 :link: sec-err
 :link-type: ref
@@ -185,13 +183,10 @@ Per i Codici di Errore, consultare la pagina dedicata.
 ## Note operative
 
 :::{warning}
-La modalità Circular Tracking offre prestazioni massime ma con una **precisione leggermente inferiore**
-rispetto alla modalità standard. Valutare l'adeguatezza in base ai requisiti di tolleranza
-del componente da manipolare.
+La modalità Circular Tracking offre prestazioni massime ma con una **precisione leggermente inferiore** rispetto alla modalità standard. Valutare l'adeguatezza in base ai requisiti di tolleranza del componente da manipolare.
 :::
 
 :::{note}
-Per la configurazione del parametro di offset tra area di visione e area di presa, fare
-riferimento alla sezione di configurazione software del sistema.
+Per la configurazione del parametro di offset tra area di visione e area di presa, fare riferimento alla sezione di configurazione software del sistema.
 :::
 

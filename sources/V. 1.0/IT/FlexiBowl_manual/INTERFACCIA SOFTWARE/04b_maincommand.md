@@ -1,5 +1,5 @@
 
-# [SOF] **Main Command**
+# **Main Command**
 
 ## Panoramica
 

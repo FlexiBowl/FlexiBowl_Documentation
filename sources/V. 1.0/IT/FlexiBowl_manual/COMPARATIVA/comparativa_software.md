@@ -57,7 +57,7 @@
 }
 </style>
  
-# [SOF] **Comparativa Software**
+# **Comparativa Software**
  
 Questa pagina confronta le principali differenze software tra **FlexiBowl® 2.0** e **FlexiBowl® 3.0**, con l'obiettivo di guidare l'utente nella comprensione delle nuove funzionalità e dei cambiamenti operativi introdotti dalla nuova generazione.
  
@@ -134,7 +134,7 @@ Se il sistema in uso è **FlexiVision One**, la configurazione viene gestita dal
 2. Collegare il FlexiBowl® tramite cavo Ethernet.
 3. Accendere il dispositivo.
 4. Avviare il programma.
-5. Nella casella **IP Address**, inserire l'indirizzo: `192.168.1.10`  
+5. Nella casella **IP Address**, inserire l'indirizzo: `192.168.1.10`
    *(Il PC collegato deve essere nella stessa subnet mask Classe B — 255.255.0.0)*
 6. Premere **Ping** → pop-up **"FlexiBowl® found"**.
 7. Premere **Ok** per abilitare **CONNECT** e avviare la connessione.

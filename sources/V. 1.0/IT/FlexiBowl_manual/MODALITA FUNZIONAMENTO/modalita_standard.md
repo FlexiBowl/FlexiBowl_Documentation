@@ -1,4 +1,4 @@
-# [SOF] **Modalità Standard**
+# **Modalità Standard**
 
 La **Modalità Standard** è la configurazione operativa predefinita del FlexiBowl® e si adatta a qualsiasi tipo di applicazione di alimentazione robotizzata. In questa modalità, il robot e il sistema di visione condividono la stessa area di lavoro, operando in modo coordinato e sequenziale per garantire elevate prestazioni di ciclo.
 
@@ -49,9 +49,9 @@ Al termine del prelievo, il FlexiBowl® esegue un movimento combinato di rotazio
 
 Il ciclo si svolge secondo il seguente schema ad anello chiuso:
 
-1. **Detect** — Il sistema di visione scansiona il FlexiBowl® e localizza i componenti.  
-2. **Pick-Drop** — Il robot preleva i pezzi identificati e li deposita nella destinazione.  
-3. **Move-Flip** — Il FlexiBowl® rimescola i componenti per il ciclo successivo.  
+1. **Detect** — Il sistema di visione scansiona il FlexiBowl® e localizza i componenti.
+2. **Pick-Drop** — Il robot preleva i pezzi identificati e li deposita nella destinazione.
+3. **Move-Flip** — Il FlexiBowl® rimescola i componenti per il ciclo successivo.
 4. Il ciclo ricomincia dal punto 1.
 
 :::{note} 

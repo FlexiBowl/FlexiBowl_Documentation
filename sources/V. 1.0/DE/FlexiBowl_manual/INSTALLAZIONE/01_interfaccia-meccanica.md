@@ -2,11 +2,11 @@
 # **Mechanische Schnittstelle**
 
 :::{important}
-Per l’installazione occorre predisporre un’area adeguata alle dimensioni della macchina e dei mezzi di sollevamento utilizzati, facendo attenzione ad eventuali ostacoli (altre macchine, pareti o simili) presenti lungo il percorso che devono compiere i mezzi di movimentazione.
+Für die Installation muss ein Bereich vorbereitet werden, der für die Abmessungen der Maschine und der verwendeten Hebezeuge geeignet ist; dabei ist auf eventuelle Hindernisse (andere Maschinen, Wände o. Ä.) auf dem Weg der Fördermittel zu achten.
 :::
 
 :::{note}
-Le spine di centraggio sono opzionali e non incluse con il FlexiBowl®.
+Die Zentrierstifte sind optional und nicht im Lieferumfang des FlexiBowl® enthalten.
 :::
 
 ## FlexiBowl® 200
@@ -45,9 +45,9 @@ Le spine di centraggio sono opzionali e non incluse con il FlexiBowl®.
 :align: center
 :::
 
-## Interfaccia dello {ref}`svuotamento <emptying>`
+## Schnittstelle der {ref}`Entleerung <emptying>`
 
-Seguono le interfacce di foratura e le posizioni e ampiezze dello sportello di fuoriuscita per le varie taglie di FlexiBowl®
+Es folgen die Bohrbilder sowie die Positionen und Breiten der Austrittsklappe für die verschiedenen FlexiBowl®-Baugrößen
 
 ### FlexiBowl® 500
 
@@ -74,36 +74,40 @@ Seguono le interfacce di foratura e le posizioni e ampiezze dello sportello di f
 :::
 
 (rackinstall)=
-## Scatola rack (per FlexiBowl® 200 e 350)
+## Rack-Gehäuse (für FlexiBowl® 200 und 350)
+
+Die Steuerung ist in einem Standard-19″-Rackgehäuse mit 3 HE aufgebaut und für den Einbau in kompatible Rack-Schränke vorbereitet.
+
+Für die Installation muss ein Mindestplatz von 3 Höheneinheiten (3 HE) reserviert werden. Die Abmessungen und die Position der Befestigungspunkte sind in der Maßzeichnung angegeben.
 
 :::{figure} ../../../../_shared/media/images/rackfix.PNG
 :align: center
 :::
 
-## Installazione del FlexiBowl®
+## Installation des FlexiBowl®
 
 ::::{list-table}
 :widths: 10 50
 :header-rows: 1
 
-* - Step
-  - Operazione
+* - Schritt
+  - Vorgang
 
 * - 1
-  - Posizionare il FlexiBowl® su di un {ref}`piano stabile <pianale>`. Prestare attenzione al {ref}`trasporto e il sollevamento <transflex>`.
+  - Den FlexiBowl® auf einer {ref}`stabilen Fläche <pianale>` aufstellen. Auf {ref}`Transport und Anheben <transflex>` achten.
 
 * - 2
-  - Rimuovere le maniglie e fissare correttamente il FlexiBowl® al supporto. La quantità e tipologia di viti necessarie sono riportate nella {ref}`sezione dedicata <intmec>`.
+  - Die Griffe entfernen und den FlexiBowl® ordnungsgemäß an der Auflage befestigen. Anzahl und Art der erforderlichen Schrauben sind im {ref}`entsprechenden Abschnitt <intmec>` angegeben.
 
 * - 3
-  - Rimuovere i golfari:
+  - Die Ringschrauben entfernen:
     * **FlexiBowl® 500-650-800:**
 
-      1. Bloccare il supporto girevole dei golfari con una vite M5x12.
+      1. Die Drehaufnahme der Ringschrauben mit einer Schraube M5x12 blockieren.
 
-      2. Rimuovere il golfare.
+      2. Die Ringschraube entfernen.
 
-      3. Coprire il foro M8 del golfare con l'apposito tappo.
+      3. Das M8-Loch der Ringschraube mit dem vorgesehenen Stopfen abdecken.
 
       :::{figure} ../../../../_shared/media/images/golf650.PNG
          :align: center
@@ -111,36 +115,36 @@ Seguono le interfacce di foratura e le posizioni e ampiezze dello sportello di f
 
     * **FlexiBowl® 1200:**
 
-      1. Rimuovere il golfare.
+      1. Die Ringschraube entfernen.
 
-      2. Coprire il foro M12 del golfare con l'apposito tappo.
+      2. Das M12-Loch der Ringschraube mit dem vorgesehenen Stopfen abdecken.
 
 * - 4
-  - {ref}`Montare la superficie o disco rigido <sost-disco>`.
+  - {ref}`Die Fläche oder starre Scheibe montieren <sost-disco>`.
 
 * - 5
-  - Procedere con gli {ref}`allacciamenti necessari <intele>`.
+  - Mit den {ref}`erforderlichen Anschlüssen <intele>` fortfahren.
 
 ::::
 
 :::{important}
-Lasciare circa {ref}`100mm di spazio <dim800>` per i connettori di alimentazione del FlexiBowl®.
+Etwa {ref}`100 mm Platz <dim800>` für die Stromversorgungsstecker des FlexiBowl® lassen.
 :::
 
 (pianale)=
-## Caratteristiche del piano di appoggio
+## Eigenschaften der Auflagefläche
 
 ::::{important}
-Assicurarsi che la superficie di appoggio della macchina sia piana ed orizzontale, e sia idonea a sostenerne il peso.
+Sicherstellen, dass die Auflagefläche der Maschine eben und waagerecht und zum Tragen ihres Gewichts geeignet ist.
 
-È **fortemente sconsigliato** montare il FlexiBowl® su una porzione a sbalzo del piano macchina. Laddove fosse inevitabile, assicurarsi di irrigidire a sufficienza il piano di appoggio.
+Es wird **dringend davon abgeraten**, den FlexiBowl® auf einem überstehenden Teil des Maschinentischs zu montieren. Wo dies unvermeidbar ist, ist die Auflagefläche ausreichend zu versteifen.
 
 :::{figure} ../../../../_shared/media/images/FB650-nosbalzo.PNG
 :align: center
 :::
 ::::
 
-Per garanire il corretto funzionamento del FlexiBowl® è necessario che il piano di appoggio presenti degli errori di planarità non superiori a 1mm, assemblato orizzontalmente e che sia abbastanza massiccio da non risentire delle vibrazioni dovute al normale funzionamento di FlexiBowl®, robot ed eventuali altre parti mobili presenti nel layout. Delle indicazioni su dimensioni e peso minimi richiesti per il montaggio del FlexiBowl® sono presenti nella tabella sottostante; da questi dati, tenendo conto del materiale utilizzato per il pianale, si può risalire allo spessore minimo richiesto.
+Um den korrekten Betrieb des FlexiBowl® zu gewährleisten, muss die Auflagefläche Ebenheitsabweichungen von höchstens 1 mm aufweisen, waagerecht montiert und massiv genug sein, um von den Vibrationen durch den normalen Betrieb des FlexiBowl®, des Roboters und eventueller weiterer beweglicher Teile im Layout nicht beeinflusst zu werden. Angaben zu den für die Montage des FlexiBowl® erforderlichen Mindestabmessungen und dem Mindestgewicht finden Sie in der nachstehenden Tabelle; aus diesen Daten lässt sich unter Berücksichtigung des für die Platte verwendeten Materials die erforderliche Mindestdicke ableiten.
 
 :::{figure} ../../../../_shared/media/images/pianali.PNG
 :align: center
@@ -151,9 +155,9 @@ Per garanire il corretto funzionamento del FlexiBowl® è necessario che il pian
 :header-rows: 1
 :stub-columns: 1
 
-* - Modello
-  - Dimensioni pianale AxA [mm]
-  - Peso M [kg]
+* - Modell
+  - Abmessungen der Platte AxA [mm]
+  - Gewicht M [kg]
 
 * - FlexiBowl® 200
   - ≥ 276x276
@@ -181,9 +185,9 @@ Per garanire il corretto funzionamento del FlexiBowl® è necessario che il pian
 
 :::
 
-## Installazione della scatola rack (per FlexiBowl® 200 e 350)
+## Installation des Rack-Gehäuses (für FlexiBowl® 200 und 350)
 
-Per evitare il surriscaldamento del rack è importante lasciare delle zone di *clearance* intorno ad esso:
+Um eine Überhitzung des Racks zu vermeiden, ist es wichtig, um das Rack herum *Freiräume (Clearance)* zu lassen:
 
 :::{figure} ../../../../_shared/media/images/rackclear.PNG
 :align: center
@@ -193,28 +197,32 @@ Per evitare il surriscaldamento del rack è importante lasciare delle zone di *c
 :widths: 50 50
 :header-rows: 1
 
-* - Quota
-  - Valore
+* - Maß
+  - Wert
 
-* - Distanza laterale A
+* - Seitlicher Abstand A
   - 10mm
 
-* - Distanza superiore B
+* - Oberer Abstand B
   - 50mm
 
-* - Distanza frontale C
+* - Frontabstand C
   - 100mm
 
 :::
 
 :::{note}
-È possibile installare due rack uno sopra l'altro a patto che venga rispettata una delle seguenti condizioni:
+Das externe Rack für FlexiBowl® 200 und 350 ist vom Standardtyp **3U**.
+:::
 
-1. la distanza tra i due sia non inferiore ai 100mm;
+:::{note}
+Zwei Racks können übereinander installiert werden, sofern eine der folgenden Bedingungen erfüllt ist:
 
-2. venga installata una barriera fisica in lamiera o materiale plastico isolante ed autoestinguente, in tal caso la distanza tra il rack inferiore e la parete può essere ridotto a 50mm; per facilitare l'estrazione dell'aria calda si può valutare l'uso di una barriera inclinata verso il lato posteriore del rack.
+1. der Abstand zwischen beiden beträgt mindestens 100 mm;
+
+2. eine physische Barriere aus Blech oder isolierendem, selbstverlöschendem Kunststoff wird installiert; in diesem Fall kann der Abstand zwischen dem unteren Rack und der Wand auf 50 mm reduziert werden; um die Abfuhr der Warmluft zu erleichtern, kann die Verwendung einer zur Rückseite des Racks geneigten Barriere in Betracht gezogen werden.
 :::
 
 :::{tip}
-È utile prevedere un sistema di ventilazione posto al di sopra del rack che forzi l'estrazione dell'aria calda che esce dalla superficie superiore, specialmente quando se ne montano più di uno impilati verticalmente.
+Es ist sinnvoll, oberhalb des Racks ein Lüftungssystem vorzusehen, das die Abfuhr der an der Oberseite austretenden Warmluft erzwingt, besonders wenn mehrere Racks vertikal gestapelt montiert werden.
 :::

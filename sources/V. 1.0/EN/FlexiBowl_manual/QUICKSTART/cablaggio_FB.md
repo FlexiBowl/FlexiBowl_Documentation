@@ -1,4 +1,4 @@
-# **[ELE]** FlexiBowl® Wiring
+# **FlexiBowl® Wiring**
 
 <style>
 .ars-dropdown {
@@ -94,10 +94,10 @@
 :::::
 
 :::{warning}
-Before making any electrical connection, make sure that the power supply is switched off and that the system is in a safe state. 
+Before making any electrical connection, make sure that the power supply is disconnected and that the system is in a safe state.
 :::
 
-The wiring of the FlexiBowl® changes depending on the machine size:
+The wiring of the FlexiBowl® varies according to the machine size:
 
 - **FlexiBowl® 500 – 1200**: all connections (STO, Ethernet, Hopper, power supply, air) are located on a single **standard electrical panel**, mounted directly on the machine.
 - **FlexiBowl® 200 / 350**: the main connections are located on an external **rack**; the rack is then connected to the machine via 4 dedicated cables (Ethernet, Motor+STO, signal A, signal B). Only the compressed air remains to be connected on the machine.
@@ -120,7 +120,7 @@ The wiring of the FlexiBowl® changes depending on the machine size:
     10-pin connector. The <strong>+STO1</strong> and <strong>+STO2</strong> inputs must receive <strong>+24 Vdc</strong> from the safety circuit; <strong>−STO1</strong> and <strong>−STO2</strong> must be connected to the −24 Vdc reference.
     </div>
 
-    <details class="ars-dropdown"><summary>Pinout connettore 10 pin</summary><div class="ars-dropdown-body">
+    <details class="ars-dropdown"><summary>10-pin connector pinout</summary><div class="ars-dropdown-body">
 
     | Pin | Description |
     |---|---|
@@ -140,35 +140,35 @@ The wiring of the FlexiBowl® changes depending on the machine size:
     ```
 
 * - 2
-  - **Collegare l'Ethernet (C-ETH).**
+  - **Connect the Ethernet (C-ETH).**
 
     <div class="ars-step-attn">
     When the FlexiBowl® is powered, the Ethernet connection is <strong>mandatory</strong>: if absent, the machine enters the <strong>ERROR</strong> state (red Ready/Fault LED).
     </div>
 
-    <details class="ars-dropdown"><summary>Pinout M12 → RJ45</summary><div class="ars-dropdown-body">
+    <details class="ars-dropdown"><summary>M12 → RJ45 pinout</summary><div class="ars-dropdown-body">
 
-    M12 8-pole → RJ45 adapter:
+    8-pole M12 → RJ45 adapter:
 
-    | Pin | Color |
-    |---|---|
-    | 1 | Yellow |
-    | 2 | Orange |
-    | 3 | White |
-    | 4 | Unassigned |
-    | 5 | Unassigned |
-    | 6 | Blue |
-    | 7 | Unassigned |
-    | 8 | Unassigned |
+    | RJ45 pin | Signal | Function | Color |
+    |---|---|---|---|
+    | 1 | TD+ | Data transmission (+) | Yellow |
+    | 2 | TD− | Data transmission (−) | Orange |
+    | 3 | RD+ | Data reception (+) | White |
+    | 4 | NC | Not assigned | — |
+    | 5 | NC | Not assigned | — |
+    | 6 | RD− | Data reception (−) | Blue |
+    | 7 | NC | Not assigned | — |
+    | 8 | NC | Not assigned | — |
 
-    M12 D-code 4-pole connector:
+    4-pole M12 D-code connector:
 
-    | Pin | Color |
-    |---|---|
-    | 1 | Yellow |
-    | 2 | White |
-    | 3 | Orange |
-    | 4 | Blue |
+    | M12 pin | Signal | Function | Color |
+    |---|---|---|---|
+    | 1 | TD+ | Data transmission (+) | Yellow |
+    | 2 | RD+ | Data reception (+) | White |
+    | 3 | TD− | Data transmission (−) | Orange |
+    | 4 | RD− | Data reception (−) | Blue |
 
     </div></details>
   - 
@@ -181,18 +181,18 @@ The wiring of the FlexiBowl® changes depending on the machine size:
   - **Connect the Hopper.**
 
     <div class="ars-step-note">
-    M12 A-code connector, used to communicate with the ARS hopper controllers via the <strong>Modbus RTU</strong> protocol.
+    M12 A-code connector, used to communicate with ARS hopper controllers via the <strong>Modbus RTU</strong> protocol.
     </div>
 
-    <details class="ars-dropdown"><summary>Pinout M12 A-code</summary><div class="ars-dropdown-body">
+    <details class="ars-dropdown"><summary>M12 A-code pinout</summary><div class="ars-dropdown-body">
 
-    | Pin | Color |
-    |---|---|
-    | 1 | Brown |
-    | 2 | White |
-    | 3 | Blue |
-    | 4 | Black |
-    | 5 | Gray |
+    | M12 pin | Signal | Function | Color |
+    |---|---|---|---|
+    | 1 | A+ | RS485 data line (+) | Brown |
+    | 2 | NC | Not assigned | White |
+    | 3 | B− | RS485 data line (−) | Blue |
+    | 4 | GND | Common reference | Black |
+    | 5 | NC | Not assigned | Gray |
 
     </div></details>
   - 
@@ -213,16 +213,16 @@ The wiring of the FlexiBowl® changes depending on the machine size:
     </div>
 
     <div class="ars-step-note">
-    At first start-up, check the condition of the fuses. After switching on, wait for the status LED (Ready/Fault) to light up: if Hopper and C-ETH are connected correctly, the LED will be <strong>green</strong>.
+    On first start-up, check the status of the fuses. After power-on, wait for the status LED (Ready/Fault) to light up: if the Hopper and C-ETH are connected correctly, the LED will be <strong>green</strong>.
     </div>
 
     <details class="ars-dropdown"><summary>Power cable pinout diagram</summary><div class="ars-dropdown-body">
 
     | Color | Type | Label |
     |---|---|---|
-    | Brown | Fase | L1 |
-    | Blue | Neutro | N1 |
-    | Yellow/Green | Terra | PE1 |
+    | Brown | Phase | L1 |
+    | Blue | Neutral | N1 |
+    | Yellow/Green | Earth | PE1 |
 
     </div></details>
   - 
@@ -232,14 +232,14 @@ The wiring of the FlexiBowl® changes depending on the machine size:
     ```
 
 * - 5
-  - **Connect the compressed air** with a **Ø 8 mm** tube.
+  - **Connect the compressed air** with an **Ø 8 mm** tube.
 
     :::{note}
     For the required air characteristics (pressure, ISO cleanliness class) refer to the [Pneumatic Technical Data](datipneum).
     :::
   - 
     ```{image} ../../../../_shared/media/images/connectAir.png
-    :alt: Collegare l'aria compressa Ø8mm
+    :alt: Connect the Ø8mm compressed air
     :class: ars-zoom-img
     ```
 ```
@@ -251,11 +251,11 @@ The wiring of the FlexiBowl® changes depending on the machine size:
 
 ## FlexiBowl® 200 / 350 — External Rack
 
-For these sizes, the connections to the customer's systems are located on the external **rack** (not on the machine). The rack is then connected to the machine via 4 dedicated cables.
+For these sizes, the connections to the customer's facilities are located on the external **rack** (not on the machine). The rack must then be connected to the machine via 4 dedicated cables.
 
 ### Connections on the rack
 
-The rack connectors are the same as those of the standard panel (same pinout), simply placed on an external box instead of on the machine.
+The rack connectors are the same as those of the standard panel (same pinout), simply positioned on an external box instead of on the machine.
 
 ```{list-table}
 :header-rows: 1
@@ -264,10 +264,10 @@ The rack connectors are the same as those of the standard panel (same pinout), s
   - Action
 
 * - 1
-  - **Connect the STO** on the rack — same 10-pin connector as the standard panel (see pinout table above).
+  - **Connect the STO** on the rack — same 10-pin connector as the standard panel (see the pinout table above).
 
 * - 2
-  - **Connect the C-ETH IN** on the rack — same M12 D-code connector as the standard panel. The same rule applies: connection is mandatory, otherwise the machine goes into ERROR.
+  - **Connect the C-ETH IN** on the rack — same M12 D-code connector as the standard panel. The same rule applies: the connection is mandatory, otherwise the machine goes into ERROR.
 
 * - 3
   - **Connect the Hopper** on the rack — same M12 A-code connector (Modbus RTU) as the standard panel.
@@ -282,10 +282,10 @@ The rack connectors are the same as those of the standard panel (same pinout), s
 
 ### Connection between Rack and FlexiBowl®
 
-The rack communicates with the FlexiBowl® via 4 dedicated cables, each to be connected **only** to the port with the corresponding label on the panel.
+The rack communicates with the FlexiBowl® via 4 dedicated cables, each of which must be connected **exclusively** to the port with the corresponding label on the panel.
 
 :::{attention}
-Connect each cable to the port with the **corresponding label** (e.g. MOTOR ↔ MOTOR, C-A SIGNAL ↔ C-A SIGNAL). A crossed connection can damage the system.
+Connect each cable to the port with the **matching label** (e.g. MOTOR ↔ MOTOR, C-A SIGNAL ↔ C-A SIGNAL). A crossed connection can damage the system.
 :::
 
 ```{list-table}
@@ -296,7 +296,7 @@ Connect each cable to the port with the **corresponding label** (e.g. MOTOR ↔ 
   - Action
   - Image
 * - 5
-  - **Connect the Ethernet cable (C-ETH FB)** between Rack and FlexiBowl® — M12 D-code connector.
+  - **Connect the Ethernet cable (C-ETH FB)** between the Rack and the FlexiBowl® — M12 D-code connector.
   - 
     ```{image} ../../../../_shared/media/images/connectEthernet200.png
     :width: 110%
@@ -307,7 +307,7 @@ Connect each cable to the port with the **corresponding label** (e.g. MOTOR ↔ 
   - **Connect the MOTOR cable.**
 
     <div class="ars-step-note">
-    9-pole connector: carries both the motor power supply and the <strong>STO</strong> signals to the FlexiBowl® (on the rack, STO and Motor are separate connectors; on the cable to the machine they are combined in a single 9-pole connector).
+    9-pin connector: carries both the motor power and the <strong>STO</strong> signals to the FlexiBowl® (on the rack, STO and Motor are separate connectors; on the cable to the machine they are combined into a single 9-pin connector).
     </div>
   - 
     ```{image} ../../../../_shared/media/images/connectMotor.png
@@ -316,7 +316,7 @@ Connect each cable to the port with the **corresponding label** (e.g. MOTOR ↔ 
     :class: ars-zoom-img
     ```
 * - 7
-  - **Connect the C-A SIGNAL cable** — 19-pole connector for analog signals.
+  - **Connect the C-A SIGNAL cable** — 19-pin connector for the analogue signals.
   - 
     ```{image} ../../../../_shared/media/images/connectASignal.png
     :width:110%
@@ -324,7 +324,7 @@ Connect each cable to the port with the **corresponding label** (e.g. MOTOR ↔ 
     :class: ars-zoom-img
     ```
 * - 8
-  - **Connect the C-B SIGNAL cable** — 19-pole connector for digital signals.
+  - **Connect the C-B SIGNAL cable** — 19-pin connector for the digital signals.
   - 
     ```{image} ../../../../_shared/media/images/connectBSignal.png
     :width:110%
@@ -332,7 +332,7 @@ Connect each cable to the port with the **corresponding label** (e.g. MOTOR ↔ 
     :class: ars-zoom-img
     ```
 * - 9
-  - **Connect the compressed air** with a **Ø 6 mm** tube, directly on the machine panel.
+  - **Connect the compressed air** with an **Ø 6 mm** tube, directly on the machine panel.
 
     :::{note}
     For the required air characteristics (pressure, ISO cleanliness class) refer to the [Pneumatic Technical Data](datipneum).
@@ -340,7 +340,7 @@ Connect each cable to the port with the **corresponding label** (e.g. MOTOR ↔ 
   - 
     ```{image} ../../../../_shared/media/images/connectAir200.png
     :width:110%
-    :alt: Collegare l'aria compressa Ø6mm
+    :alt: Connect the Ø6mm compressed air
     :class: ars-zoom-img
     ```
 ```

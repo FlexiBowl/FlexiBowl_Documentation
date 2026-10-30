@@ -50,12 +50,12 @@
 .compare-card-body table tr:last-child td { border-bottom: none; }
 </style>
 
-# [MEC] **Mechanical Comparison**
+# **Mechanical Comparison**
 
 This page compares the main mechanical differences between **FlexiBowl® 2.0** and **FlexiBowl® 3.0**, in terms of dimensions and weight.
 
 :::{important}
-Before reading the contents of the current page, it is good practice to be familiar with the information given in the [Mechanical Specifications](dati_meccanici) page
+Before reading the contents of this page, it is good practice to be familiar with the information given on the [Mechanical Specifications](dati_meccanici) page
 :::
 
 ---
@@ -83,7 +83,8 @@ Before reading the contents of the current page, it is good practice to be famil
 
 FlexiBowl® 3.0 adopts a **more compact and slimmer** design than the previous generation: for the same model it is generally **lighter** and **lower**, with a width reduction of about **5%**.
 
-```{list-table} Weight and height per model
+
+```{list-table} Weight and height by model
 :header-rows: 2
 :widths: 24 19 19 19 19
 
@@ -135,9 +136,45 @@ FlexiBowl® 3.0 adopts a **more compact and slimmer** design than the previous g
 ```
 
 ---
+(interasse-fori-2-3)=
+## 2. Mounting interface
 
-## 2. Summary
+:::{warning}
+The **mounting hole spacing** of the FlexiBowl® 3.0 is **different** from that of the FlexiBowl® 2.0, for all sizes. When replacing a FlexiBowl® 2.0 with a FlexiBowl® 3.0, **the existing drilling of the support surface cannot be reused**: a new set of holes must be made according to the {ref}`mechanical interface <intmec>` drawing.
+:::
+
+<!--
+```{list-table} Interasse fori di fissaggio per modello
+:header-rows: 1
+:widths: 40 30 30
+
+* - Modello
+  - FB 2.0
+  - FB 3.0
+* - **FlexiBowl® 200**
+  - 
+  - 
+* - **FlexiBowl® 350**
+  - 
+  - 
+* - **FlexiBowl® 500 / 500E**
+  - 
+  - 
+* - **FlexiBowl® 650**
+  - 
+  - 
+* - **FlexiBowl® 800**
+  - 
+  - 
+* - **FlexiBowl® 1200**
+  - 
+  - 
+```
+--> 
+
+---
+## 3. Summary
 
 FlexiBowl® 3.0 offers a more compact mechanical design than the previous generation, generally being lighter, lower and about 5% narrower for the same model.
 
-For the specific dimensional values of each model, refer to the respective [Mechanical Specifications](dati_meccanici) pages of FlexiBowl® 2.0 and 3.0.
+For the exact dimensional values of each model, refer to the respective [Mechanical Specifications](dati_meccanici) pages of FlexiBowl® 2.0 and 3.0.

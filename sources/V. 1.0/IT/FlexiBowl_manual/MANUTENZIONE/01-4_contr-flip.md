@@ -1,5 +1,5 @@
 (contflip)=
-# [MEC] **Controllo Visivo del Flip**
+# **Controllo Visivo del Flip**
 
 :::{warning}
 Disconnettere l'alimentazione elettrica e pneumatica prima di procedere con il controllo.
