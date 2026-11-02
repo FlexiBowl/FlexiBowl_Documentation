@@ -1,5 +1,7 @@
 # **Plug-In**
+
 I Plug-in di Comunicazione sono strumenti software essenziali, sviluppati per standardizzare e semplificare l'interfaccia tra il sistema FlexiBowl® e l'ambiente di automazione (Robot industriali).
+
 :::{card} ABB
 :class-card: shadow plugin-card-it
 :::
@@ -12,19 +14,28 @@ I Plug-in di Comunicazione sono strumenti software essenziali, sviluppati per st
 :class-card: shadow plugin-card-it
 :::
 
+<!--
 :::{card} Estun
 :class-card: shadow plugin-card-it
 :::
+-->
 
 :::{card} FANUC
 :class-card: shadow plugin-card-it
 :::
 
+<!--
 :::{card} HYUNDAI
 :class-card: shadow plugin-card-it
 :::
+-->
 
+<!--
 :::{card} JAKA
+:class-card: shadow plugin-card-it
+:::
+-->
+:::{card} Mitsubishi
 :class-card: shadow plugin-card-it
 :::
 
@@ -32,21 +43,27 @@ I Plug-in di Comunicazione sono strumenti software essenziali, sviluppati per st
 :class-card: shadow plugin-card-it
 :::
 
+<!--
 :::{card} Kassow Robots
 :class-card: shadow plugin-card-it
 :::
+-->
 
 :::{card} KUKA
 :class-card: shadow plugin-card-it
 :::
 
+<!--
 :::{card} Omron
 :class-card: shadow plugin-card-it
 :::
+-->
 
+<!--
 :::{card} Schneider
 :class-card: shadow plugin-card-it
 :::
+-->
 
 :::{card} Staubli
 :class-card: shadow plugin-card-it
