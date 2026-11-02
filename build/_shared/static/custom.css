@@ -297,8 +297,11 @@ html[data-theme="dark"] .only-light { display: none !important; }
 [class*="plugin-card-"] {
   cursor: help;
   position: relative;
+  /* sphinx-design imposta overflow:hidden sulle card: senza questo il tooltip,
+     che sta fuori dal bordo superiore della card, viene tagliato */
+  overflow: visible !important;
 }
-
+ 
 [class*="plugin-card-"]:hover::after {
   position: absolute;
   bottom: 100%;
@@ -309,31 +312,35 @@ html[data-theme="dark"] .only-light { display: none !important; }
   padding: 6px 10px;
   border-radius: 4px;
   font-size: 0.8rem;
-  white-space: nowrap;
+  width: max-content;
+  max-width: min(420px, 90vw);
+  white-space: normal;
+  text-align: center;
+  pointer-events: none;
   z-index: 10;
   margin-bottom: 6px;
 }
-
+ 
 /* Italiano */
 .plugin-card-it:hover::after {
   content: "Richiedi il Plug-in direttamente inviandoci un'email a service@arsautomation.com";
 }
-
+ 
 /* English */
 .plugin-card-en:hover::after {
   content: "Request the Plug-in directly by sending us an email at service@arsautomation.com";
 }
-
+ 
 /* Deutsch */
 .plugin-card-de:hover::after {
   content: "Fordern Sie das Plug-in direkt an, indem Sie uns eine E-Mail an service@arsautomation.com senden";
 }
-
+ 
 /* Español */
 .plugin-card-es:hover::after {
   content: "Solicite el Plug-in directamente enviándonos un correo a service@arsautomation.com";
 }
-
+ 
 /* Français */
 .plugin-card-fr:hover::after {
   content: "Demandez le Plug-in directement en nous envoyant un e-mail à service@arsautomation.com";
