@@ -2,6 +2,10 @@
 
 Les Plug-ins de communication sont des outils logiciels essentiels, développés pour standardiser et simplifier l'interface entre le système FlexiBowl® et l'environnement d'automatisation (robots industriels).
 
+:::{important} 
+Tous les plug-ins doivent être demandés par e-mail à service@arsautomation.com, en précisant le modèle de robot et la version du contrôleur. 
+:::
+
 :::{card} ABB
 :class-card: shadow plugin-card-fr
 :::
