@@ -16,6 +16,6 @@ Stets die zur installierten Softwareversion passende Version des Handbuchs verwe
 
 ### Version 1.0
 
-Veröffentlichungsdatum: TT.MM.JJJJ
+Veröffentlichungsdatum: 02/11/2026
 
 - Erstausgabe des Handbuchs.

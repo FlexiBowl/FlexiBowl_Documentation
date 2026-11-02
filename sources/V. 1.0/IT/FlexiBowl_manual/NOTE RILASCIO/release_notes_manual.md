@@ -16,6 +16,6 @@ Consultare sempre la versione del manuale compatibile con la versione del softwa
 
 ### Versione 1.0
 
-Data di pubblicazione: gg/mm/aaaa
+Data di pubblicazione: 02/11/2026
 
 - Prima edizione del manuale.

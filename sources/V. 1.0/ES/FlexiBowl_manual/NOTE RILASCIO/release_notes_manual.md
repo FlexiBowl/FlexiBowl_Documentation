@@ -16,6 +16,6 @@ Consulte siempre la versión del manual compatible con la versión del software 
 
 ### Versión 1.0
 
-Fecha de publicación: dd/mm/aaaa
+Fecha de publicación: 02/11/2026
 
 - Primera edición del manual.

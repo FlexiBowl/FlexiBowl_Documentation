@@ -397,7 +397,7 @@ Nel caso di modelli personalizzati i valori indicati potrebbero differire da que
 |------------|--------|------|------|-------|-------|-------|
 | A | 350 mm | 450 mm | 480 mm | 670 mm | 780 mm | 780 mm |
 | B | 65 mm | 100 mm | 130 mm | 155 mm | 183 mm | 208 mm |
-| C | 90 mm | 120 mm | 150 mm | 160 mm | 215 mm | 315 mm |
+| C | 90 mm | 120 mm | 150 mm | 160 mm | 215 mm | 400 mm |
 | D | 211 mm | 215 mm | 247 mm | 247 mm | 247 mm | 290 mm |
 | E | 350 mm | 515 mm | 515 mm | 690 mm | 780 mm | 780 mm |
 

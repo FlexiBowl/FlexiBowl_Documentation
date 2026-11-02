@@ -17,9 +17,9 @@ Per il confronto completo tra le due generazioni, consultare la pagina [Comparat
 
 La versione del firmware installato sul dispositivo è indicata in alto a destra nella pagina **Setup** dell'interfaccia software.
 
-| Versione firmware | Data di pubblicazione |
+| Versione firmware | Data |
 |---|---|
-| **1.0.2** (ultima versione) | gg/mm/aaaa |
+| **1.0.2** (ultima versione) | 01/10/2026 |
 
 ```{tip}
 Mantenere sempre il firmware del FlexiBowl® aggiornato all'ultima versione disponibile, per poter beneficiare degli ultimi aggiornamenti e novità.

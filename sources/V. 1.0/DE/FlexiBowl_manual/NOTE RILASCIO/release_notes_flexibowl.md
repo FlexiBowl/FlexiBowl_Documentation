@@ -19,7 +19,7 @@ Die auf dem Gerät installierte Firmware-Version wird oben rechts auf der Seite 
 
 | Firmware-Version | Veröffentlichungsdatum |
 |---|---|
-| **1.0.2** (neueste Version) | TT.MM.JJJJ |
+| **1.0.2** (neueste Version) | 01/10/2026 |
 
 ```{tip}
 Die Firmware des FlexiBowl® stets auf die neueste verfügbare Version aktualisieren, um von den neuesten Updates und Neuerungen zu profitieren.

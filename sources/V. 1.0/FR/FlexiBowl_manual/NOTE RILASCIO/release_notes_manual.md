@@ -16,6 +16,6 @@ Consulter toujours la version du manuel compatible avec la version du logiciel i
 
 ### Version 1.0
 
-Date de publication : jj/mm/aaaa
+Date de publication : 02/11/2026
 
 - Première édition du manuel.
