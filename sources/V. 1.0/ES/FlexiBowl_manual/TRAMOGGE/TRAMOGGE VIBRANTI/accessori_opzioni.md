@@ -1,182 +1,57 @@
 (tramoggia-accessori)=
-# **Accesorios y opciones**
+# **Accesorios y Opciones**
 
-Esta página recoge las variantes, accesorios y opciones disponibles en la lista de precios para los Bulk Feeder vibratorios. Cada elemento de la lista de precios tiene su propia sección, accesible mediante un enlace directo.
+Esta página reúne las variantes, los accesorios y las opciones disponibles en la lista de precios para las Bulk Feeder vibrantes, agrupados por función. Las Bulk Feeder están disponibles en seis modelos base (1,5 l, 3 l, 5 l, 10 l, 20 l y 40 l); la cubeta de 1,5 l es de material plástico, las demás son de acero INOX.
 
 :::{attention}
-Salvo indicación en contrario, los accesorios y opciones **no están disponibles para el Bulk Feeder de 1,5 l**. En el caso de modelos personalizados, es necesario consultar el expediente técnico del proyecto.
+Salvo indicación en contrario, los accesorios y las opciones **no están disponibles para la Bulk Feeder de 1,5 l**. En el caso de modelos personalizados, es necesario consultar el expediente técnico del proyecto.
 :::
+
+## Resumen
+
+| Opción | Función | Tamaños |
+|---|---|---|
+| {ref}`Versión 110 V <tramoggia-110v>` | Alimentación de baja tensión (115 Vac) | 3 l · 5 l · 10 l · 20 l · 40 l |
+| {ref}`Revestimiento PU <tramoggia-pu>` | Revestimiento de la cubeta en poliuretano | 3 l · 5 l · 10 l · 20 l · 40 l |
+| {ref}`Barrera dosificadora <barriera>` | Regulación del flujo de componentes a la salida | 3 l · 5 l · 10 l · 20 l · 40 l |
+| {ref}`Protección de manos <hand-guard>` | Protección de seguridad para las manos | 3 l · 5 l · 10 l · 20 l · 40 l |
+| {ref}`Fotocélula frontal <fotocellula-frontale>` | Presencia de componentes en la zona frontal de la cubeta | 3 l · 5 l · 10 l · 20 l · 40 l |
+| {ref}`Fotocélula posterior <fotocellula-posteriore>` | Control del nivel de piezas en la cubeta | 3 l · 5 l · 10 l · 20 l · 40 l |
+| {ref}`Antivibración <tramoggia-antivibrazione>` | Aislamiento de las vibraciones hacia el FlexiBowl® | 3 l · 5 l · 10 l · 20 l · 40 l |
+| {ref}`Cables del controlador <tramoggia-cavi>` | Comunicación Modbus RTU y mando externo | Todos (controlador) |
 
 ---
 
 (tramoggia-varianti)=
-## Variantes del Bulk Feeder
+## Variantes de la Bulk Feeder
 
 (tramoggia-110v)=
-### Versión de 110 V
+### Versión 110 V
 
-Versión del Bulk Feeder para redes de alimentación de baja tensión. La alimentación estándar del Bulk Feeder es de **230 Vac ±5 %**; la variante de baja tensión se suministra **solo bajo petición expresa**.
+La alimentación estándar de la Bulk Feeder es de **230 Vac ±5%**. Para las redes de alimentación de baja tensión existe una variante, suministrada **solo bajo petición expresa**. Para comprobar el consumo de cada tamaño, consulte los datos técnicos.
 
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Alimentación
-  - 115 Vac ±5%
-* - Frecuencia / Fase
-  - 50-60 Hz / monofásico
-* - Referencias
-  - {doc}`Datos técnicos <descrizione_macchina>` · {doc}`Conexión eléctrica <trasporto_installazione>`
-:::
-
-(bf-inox-3l-110v)=
-#### Bulk Feeder INOX 3 l – 110 V
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder INOX 3l - 110V
-* - Código de artículo
-  - 
-* - Capacidad de la cubeta
-  - 3 l
-* - Alimentación
-  - 110 V
-:::
-
-(bf-inox-5-10-20l-110v)=
-#### Bulk Feeder INOX 5 l / 10 l / 20 l – 110 V
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder INOX 5l/10l/20l - 110V
-* - Código de artículo
-  - 
-* - Capacidad de la cubeta
-  - 5 l · 10 l · 20 l
-* - Alimentación
-  - 110 V
-:::
-
-(bf-inox-40l-110v)=
-#### Bulk Feeder INOX 40 l – 110 V
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder INOX 40l - 110V
-* - Código de artículo
-  - 
-* - Capacidad de la cubeta
-  - 40 l
-* - Alimentación
-  - 110 V
-:::
+| | |
+|---|---|
+| **Alimentación** | 115 Vac ±5% |
+| **Frecuencia / Fase** | 50-60 Hz / monofásica |
+| **Tamaños** | INOX 3 l · 5 l · 10 l · 20 l · 40 l |
+| **Referencias** | {doc}`Datos técnicos <descrizione_macchina>` · {doc}`Conexión eléctrica <trasporto_installazione>` |
 
 (tramoggia-pu)=
-### Versión con recubrimiento de poliuretano (PU)
+### Versión con revestimiento de poliuretano (PU)
 
-Versión del Bulk Feeder con **recubrimiento de poliuretano de la cubeta**.
+Esta versión incluye el **revestimiento de poliuretano de la cubeta** de acero INOX y está disponible bajo petición para todos los tamaños, excepto la Bulk Feeder de 1,5 l. El revestimiento es un elemento sujeto a desgaste: su estado debe **controlarse cada mes**, como se indica en el plan de mantenimiento.
 
 :::{image} ../../../../../_shared/media/images/rivestimento.png
-:alt: Recubrimiento de poliuretano
+:alt: Revestimiento de poliuretano
 :width: 240px
 :align: center
 :::
 
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Compatibilidad
-  - Todos los tamaños, excepto el Bulk Feeder de 1,5 l
-* - Mantenimiento
-  - Compruebe periódicamente el desgaste del recubrimiento: véase {doc}`manutenzione`
-:::
-
-<!-- DA COMPLETARE -->
-
-(bf-inox-3l-pu)=
-#### Bulk Feeder INOX 3 l – PU
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder INOX 3l - PU
-* - Código de artículo
-  - 
-* - Capacidad de la cubeta
-  - 3 l
-:::
-
-(bf-inox-pu-5l)=
-#### Bulk Feeder INOX PU 5 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder INOX PU 5l - PU
-* - Código de artículo
-  - 
-* - Capacidad de la cubeta
-  - 5 l
-:::
-
-(bf-inox-pu-10l)=
-#### Bulk Feeder INOX PU 10 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder INOX PU 10l - PU
-* - Código de artículo
-  - 
-* - Capacidad de la cubeta
-  - 10 l
-:::
-
-(bf-inox-pu-20l)=
-#### Bulk Feeder INOX PU 20 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder INOX PU 20l - PU
-* - Código de artículo
-  - 
-* - Capacidad de la cubeta
-  - 20 l
-:::
-
-(bf-inox-pu-40l)=
-#### Bulk Feeder INOX PU 40 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder INOX PU 40l - PU
-* - Código de artículo
-  - 
-* - Capacidad de la cubeta
-  - 40 l
-:::
+| | |
+|---|---|
+| **Tamaños** | INOX 3 l · 5 l · 10 l · 20 l · 40 l |
+| **Mantenimiento** | Control mensual del desgaste: véase {doc}`manutenzione` |
 
 ---
 
@@ -186,7 +61,7 @@ Versión del Bulk Feeder con **recubrimiento de poliuretano de la cubeta**.
 (barriera)=
 ### Barrera dosificadora
 
-Dosificador de barrera **regulable**, para regular el flujo de componentes a la salida del Bulk Feeder.
+La barrera dosificadora es un dosificador **regulable** montado a la salida de la cubeta: regulando su posición se controla el flujo de componentes que salen de la Bulk Feeder.
 
 :::{image} ../../../../../_shared/media/images/barriera_dosatrice.jpg
 :alt: Barrera dosificadora
@@ -194,178 +69,39 @@ Dosificador de barrera **regulable**, para regular el flujo de componentes a la 
 :align: center
 :::
 
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Compatibilidad
-  - Todos los tamaños, excepto el Bulk Feeder de 1,5 l
-:::
-
-<!-- DA COMPLETARE -->
-
-(barriera-3l)=
-#### Barrera dosificadora — 3 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder Barrier 3l
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 3 l
-:::
-
-(barriera-5-10l)=
-#### Barrera dosificadora — 5–10 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder Barrier 5-10l
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 5 l · 10 l
-:::
-
-(barriera-20l)=
-#### Barrera dosificadora — 20 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder Barrier 20l
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 20 l
-:::
-
-(barriera-40l)=
-#### Barrera dosificadora — 40 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder Barrier 40l
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 40 l
-:::
+| | |
+|---|---|
+| **Función** | Regulación del flujo de componentes a la salida |
+| **Regulación** | Regulable |
+| **Tamaños** | 3 l · 5 l · 10 l · 20 l · 40 l |
 
 (hand-guard)=
 ### Protección de manos (Hand Guard)
 
-Protección de seguridad para las manos.
+Protección de seguridad para las manos, disponible como accesorio opcional. Al ser un dispositivo de seguridad, no debe retirarse ni anularse.
 
 :::{image} ../../../../../_shared/media/images/protezione_sicurezza.jpg
-:alt: Protección de seguridad para manos
+:alt: Protección de seguridad para las manos
 :width: 240px
 :align: center
 :::
 
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Compatibilidad
-  - Todos los tamaños, excepto el Bulk Feeder de 1,5 l
-:::
-
-<!-- DA COMPLETARE -->
-
-(hand-guard-3l)=
-#### Protección de manos — 3 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Hand Guard 3l
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 3 l
-:::
-
-(hand-guard-5-10l)=
-#### Protección de manos — 5–10 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Hand Guard 5-10l
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 5 l · 10 l
-:::
-
-(hand-guard-20l)=
-#### Protección de manos — 20 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Hand Guard 20l
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 20 l
-:::
-
-(hand-guard-40l)=
-#### Protección de manos — 40 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Hand Guard 40l
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 40 l
-:::
+| | |
+|---|---|
+| **Función** | Protección de seguridad para las manos |
+| **Tamaños** | 3 l · 5 l · 10 l · 20 l · 40 l |
 
 ---
 
 (tramoggia-fotocellule)=
 ## Fotocélulas
 
+Las fotocélulas permiten supervisar el estado de la cubeta durante el proceso de alimentación. Están disponibles en dos kits, ambos para todos los tamaños excepto la Bulk Feeder de 1,5 l.
+
 (fotocellula-frontale)=
 ### Kit de fotocélula frontal
 
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Front Photocell Kit
-* - Código de artículo
-  - 
-* - Función
-  - Verifica la presencia de componentes en la zona frontal de la cubeta vibratoria durante el proceso de alimentación.
-* - Compatibilidad
-  - Todos los tamaños, excepto el Bulk Feeder de 1,5 l
-:::
+Comprueba la **presencia de componentes en la zona frontal** de la cubeta vibrante durante el proceso de alimentación.
 
 :::{image} ../../../../../_shared/media/images/fotocellula_frontale.png
 :alt: Fotocélula frontal
@@ -373,87 +109,15 @@ Protección de seguridad para las manos.
 :align: center
 :::
 
-<!-- DA COMPLETARE -->
-
 (fotocellula-posteriore)=
-### Kit de fotocélula trasera
+### Kit de fotocélula posterior
 
 Supervisa el **nivel de piezas** presentes en el interior de la cubeta.
 
 :::{image} ../../../../../_shared/media/images/fotocellula_posteriore.png
-:alt: Fotocélula trasera
+:alt: Fotocélula posterior
 :width: 240px
 :align: center
-:::
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Compatibilidad
-  - Todos los tamaños, excepto el Bulk Feeder de 1,5 l
-:::
-
-<!-- DA COMPLETARE -->
-
-(fotocellula-post-3l)=
-#### Kit de fotocélula trasera — 3 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Rear Photocell Kit 3l
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 3 l
-:::
-
-(fotocellula-post-5-10l)=
-#### Kit de fotocélula trasera — 5–10 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Rear Photocell Kit 5-10l
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 5 l · 10 l
-:::
-
-(fotocellula-post-20l)=
-#### Kit de fotocélula trasera — 20 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Rear Photocell Kit 20l
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 20 l
-:::
-
-(fotocellula-post-40l)=
-#### Kit de fotocélula trasera — 40 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Rear Photocell Kit 40l
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 40 l
 :::
 
 ---
@@ -461,74 +125,13 @@ Supervisa el **nivel de piezas** presentes en el interior de la cubeta.
 (tramoggia-antivibrazione)=
 ## Antivibración
 
-Si el Bulk Feeder se instala sobre la superficie de una máquina sensible a las vibraciones, es necesario interponer un material aislante y antivibratorio entre ambas superficies para evitar que las vibraciones del Bulk Feeder se transmitan al FlexiBowl®. Véase {doc}`trasporto_installazione`.
+La Bulk Feeder genera vibraciones para hacer avanzar las piezas en la cubeta. Si se instala sobre el plano de una máquina sensible a las vibraciones, es necesario interponer material aislante y antivibratorio entre las dos superficies, para evitar que las vibraciones se transmitan al FlexiBowl®. Están disponibles los **elementos antivibratorios** y el **kit antivibratorio**, para los tamaños de 3 l a 40 l.
 
-(elementi-antivibranti)=
-### Elementos antivibratorios
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Anti-Vibration Elements
-* - Código de artículo
-  - 
-* - Compatibilidad
-  - 
-:::
-
-<!-- DA COMPLETARE -->
-
-(kit-antivibrante)=
-### Kit antivibratorio
-
-<!-- DA COMPLETARE -->
-
-(kit-antivibrante-3l)=
-#### Kit antivibratorio — 3 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Anti-Vibration Kit 3lt
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 3 l
-:::
-
-(kit-antivibrante-5-10-20l)=
-#### Kit antivibratorio — 5–10–20 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Anti-Vibration Kit 5l-10l-20l
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 5 l · 10 l · 20 l
-:::
-
-(kit-antivibrante-40l)=
-#### Kit antivibratorio — 40 l
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Anti-Vibration Kit 40lt
-* - Código de artículo
-  - 
-* - Tamaño del Bulk Feeder
-  - 40 l
-:::
+| | |
+|---|---|
+| **Función** | Aislamiento de las vibraciones de la Bulk Feeder |
+| **Tamaños** | 3 l · 5 l · 10 l · 20 l · 40 l |
+| **Referencias** | Instalación: {doc}`trasporto_installazione` |
 
 ---
 
@@ -539,22 +142,12 @@ Si el Bulk Feeder se instala sobre la superficie de una máquina sensible a las 
 Los cables de conexión del FlexiBowl® (alimentación, Ethernet, I/O, rack) se describen en la página {ref}`Cables de conexión <cavi>`.
 :::
 
+El controlador del Bulk Feeder utiliza dos cables, ambos disponibles en longitudes de **3 m, 5 m y 10 m**.
+
 (cavo-modbus)=
 ### Cable Modbus RTU
 
 Cable de comunicación **RS485 (Modbus RTU)** entre el controlador del Bulk Feeder y el FlexiBowl®. Se conecta al conector **HOPPER** del FlexiBowl® (panel estándar para los tamaños 500 – 1200, rack para los tamaños 200 / 350) y a uno de los dos puertos **RS485** del controlador; el otro puerto RS485 permite la conexión en **daisy chain** entre varios Bulk Feeder.
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Conector del lado FlexiBowl®
-  - M12, codificación A
-* - Conector del lado del controlador
-  - 5 pines (puerto RS485)
-* - Referencias
-  - Pinout y secuencia de conexión: {doc}`controller_cablaggio`
-:::
 
 | Pines del controlador (RS485) | Descripción |
 |---|---|
@@ -564,120 +157,27 @@ Cable de comunicación **RS485 (Modbus RTU)** entre el controlador del Bulk Feed
 | 4 | GND |
 | 5 | NC |
 
+Conector del lado FlexiBowl®: M12, codificación A. Pinout y secuencia de conexión: {doc}`controller_cablaggio`.
+
 :::{important}
 En una configuración con un solo Bulk Feeder, el conector RS485 no utilizado debe cerrarse con el **tapón de terminación** correspondiente, dotado de una resistencia de **120 Ω** entre A+ y B-.
-:::
-
-(cavo-modbus-3m)=
-#### Cable Modbus RTU — 3 m
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder Controller Modbus RTU Cable 3M
-* - Código de artículo
-  - 
-* - Longitud
-  - 3 m
-:::
-
-(cavo-modbus-5m)=
-#### Cable Modbus RTU — 5 m
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder Controller Modbus RTU Cable 5M
-* - Código de artículo
-  - 
-* - Longitud
-  - 5 m
-:::
-
-(cavo-modbus-10m)=
-#### Cable Modbus RTU — 10 m
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder Controller Modbus RTU Cable 10M
-* - Código de artículo
-  - 
-* - Longitud
-  - 10 m
 :::
 
 (cavo-input)=
 ### Cable de entrada
 
-Cable para la conexión del puerto **Enable Output Port** (4 pines) del controlador, utilizado para el mando del Bulk Feeder desde un dispositivo externo cuando este se adquiere por separado. Para habilitar la salida del controlador es necesario aplicar una **señal PNP** en este puerto.
+Cable para la conexión del puerto **Enable Output Port** (4 pines) del controlador, utilizado para el mando del Bulk Feeder desde un dispositivo externo cuando este se adquiere por separado. Para habilitar la salida del controlador es necesario aplicar una **señal PNP** en este puerto. Pinout y secuencia de conexión: {doc}`controller_cablaggio`.
 
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Conector del lado del controlador
-  - 4 pines (Enable Output Port)
-* - Conector del lado del sistema
-  - 
-* - Referencias
-  - {doc}`controller_cablaggio`
-:::
-
-| Pines del controlador | Descripción |
+| Pin del controlador | Descripción |
 |---|---|
 | 1 | +24V |
 | 2 | NC |
 | 3 | GND |
-| 4 | Entrada |
+| 4 | Input |
 
-(cavo-input-3m)=
-#### Cable de entrada — 3 m
+### Longitudes disponibles
 
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder Controller Input Cable 3M
-* - Código de artículo
-  - 
-* - Longitud
-  - 3 m
-:::
-
-(cavo-input-5m)=
-#### Cable de entrada — 5 m
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder Controller Input Cable 5M
-* - Código de artículo
-  - 
-* - Longitud
-  - 5 m
-:::
-
-(cavo-input-10m)=
-#### Cable de entrada — 10 m
-
-:::{list-table}
-:widths: 30 70
-:stub-columns: 1
-
-* - Elemento de la lista de precios
-  - Bulk Feeder Controller Input Cable 10M
-* - Código de artículo
-  - 
-* - Longitud
-  - 10 m
-:::
+| Cable | 3 m | 5 m | 10 m |
+|---|:---:|:---:|:---:|
+| **Modbus RTU** | ✓ | ✓ | ✓ |
+| **Entrada** | ✓ | ✓ | ✓ |

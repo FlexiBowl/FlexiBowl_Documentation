@@ -75,7 +75,7 @@ Zur Aktivierung des Circular Tracking sind die folgenden Komponenten erforderlic
   | Baugröße | Preislistencode |
   |---|---|
   | FlexiBowl® 500 | Circular Tracking 500C · Circular Tracking 500CC |
-  | FlexiBowl® 650 | Circular Tracking 650CC |
+  | FlexiBowl® 650 | Circular Tracking 650C · Circular Tracking 650CC |
   | FlexiBowl® 800 | Circular Tracking 800C · Circular Tracking 800CC |
   | FlexiBowl® 1200 | Circular Tracking 1200C · Circular Tracking 1200CC |
 
@@ -90,10 +90,8 @@ Die Option Circular Tracking umfasst einen mit der Rotation der Scheibe verbunde
 :widths: 35 65
 :stub-columns: 1
 
-* - Modell
-  - 
 * - Max. Impulszahl
-  - 49152 / 65536 Impulse/Umdrehung, je nach Geschwindigkeit des FlexiBowl®
+  - 65536 Impulse/Umdrehung, je nach Geschwindigkeit des FlexiBowl®
 * - Kommunikationsschnittstelle
   - Inkremental, TTL / HTL (Werkseinstellung: TTL)
 * - Zertifizierungen

@@ -75,7 +75,7 @@ Para habilitar el Circular Tracking se necesitan los siguientes componentes:
   | Tamaño | Código de la lista de precios |
   |---|---|
   | FlexiBowl® 500 | Circular Tracking 500C · Circular Tracking 500CC |
-  | FlexiBowl® 650 | Circular Tracking 650CC |
+  | FlexiBowl® 650 | Circular Tracking 650C · Circular Tracking 650CC |
   | FlexiBowl® 800 | Circular Tracking 800C · Circular Tracking 800CC |
   | FlexiBowl® 1200 | Circular Tracking 1200C · Circular Tracking 1200CC |
 
@@ -90,10 +90,8 @@ La opción Circular Tracking incluye un encoder conectado a la rotación del dis
 :widths: 35 65
 :stub-columns: 1
 
-* - Modelo
-  - 
 * - Número máx. de impulsos
-  - 49152 / 65536 impulsos/vuelta, según la velocidad del FlexiBowl®
+  - 65536 impulsos/vuelta, según la velocidad del FlexiBowl®
 * - Interfaz de comunicación
   - Incremental, TTL / HTL (ajuste de fábrica: TTL)
 * - Certificaciones
