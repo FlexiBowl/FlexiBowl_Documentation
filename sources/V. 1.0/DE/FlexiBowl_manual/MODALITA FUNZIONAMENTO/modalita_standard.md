@@ -77,7 +77,7 @@ Der Arbeitsbereich des Roboters muss den Sichtbereich vollständig abdecken, dam
 
 
 :::{grid-item-card} Vorteile
-- **Genauigkeit**: .
-- **Vereinzelung**: .
-- **Geschwindigkeit**: .
+- **Genauigkeit**: Bildverarbeitung und Entnahme laufen nacheinander ab, sodass die erkannte Position im Moment der Entnahme der tatsächlichen entspricht und keine Bewegungskompensation nötig ist.
+- **Vereinzelung**: Der Flip mischt die Bauteile und verteilt sie über die Oberfläche, während der Bulk Feeder sie in den Abgabesektor entleert. So liegen die Teile gut vereinzelt im Sichtbereich, und nicht entnommene Teile zirkulieren weiter.
+- **Geschwindigkeit**: Die Abgabe der Bauteile erfolgt parallel zur Bewegung des FlexiBowl®. Das verkürzt die Totzeiten im Zyklus und hält die Produktivität hoch.
 :::

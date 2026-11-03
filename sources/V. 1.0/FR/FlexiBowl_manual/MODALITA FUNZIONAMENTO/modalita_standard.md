@@ -77,7 +77,7 @@ La zone de travail du robot doit couvrir entièrement la zone de vision, de sort
 
 
 :::{grid-item-card} Avantages
-- **Précision** : .
-- **Séparation** : .
-- **Vitesse** : .
+- **Précision** : la vision et le prélèvement sont exécutés en séquence, de sorte que la position détectée correspond à la position réelle au moment de la prise, sans compensation du mouvement.
+- **Séparation** : Le flip mélange les composants et les répartit sur la surface, tandis que la Bulk Feeder les décharge dans le secteur de dépose. Les pièces se présentent ainsi bien séparées dans la zone de vision et celles qui ne sont pas prélevées recirculent.
+- **Vitesse** : La dépose des composants s'effectue en parallèle du mouvement du FlexiBowl®, ce qui réduit les temps morts du cycle et maintient une productivité élevée.
 :::

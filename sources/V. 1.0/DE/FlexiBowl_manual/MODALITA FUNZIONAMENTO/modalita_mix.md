@@ -53,9 +53,9 @@ Der Zyklus des MIX-Modus ist gegenüber dem Standardmodus vereinfacht, mit nur d
 
 
 :::{grid-item-card} Vorteile
-- **Maximale Flexibilität**: .
-- **Geringere Kosten**: .
-- **Geringer Platzbedarf**: .
+- **Maximale Flexibilität**: mehrere Bauteile können gemeinsam auf derselben Oberfläche zugeführt werden, und die Sortierlogik entscheidet, welches Teil entnommen wird, ohne die Produktion zu unterbrechen.
+- **Geringere Kosten**: eine einzige Roboterstation verarbeitet mehrere Teiletypen, ohne FlexiBowl®, Roboter und Bildverarbeitungssysteme zu vervielfachen und ohne zusätzliche Hardware gegenüber einer Standardkonfiguration.
+- **Geringer Platzbedarf**: weniger Stationen bedeuten weniger Platzbedarf, weniger Materialeinsatz und einen insgesamt geringeren Energieverbrauch der Anlage.
 :::
 
 

@@ -53,9 +53,9 @@ El ciclo del MIX Mode está simplificado respecto al modo estándar, con solo tr
 
 
 :::{grid-item-card} Ventajas
-- **Máxima flexibilidad**: .
-- **Costes reducidos**: .
-- **Menor huella de espacio**: .
+- **Máxima flexibilidad**: varios componentes pueden alimentarse juntos sobre la misma superficie, y la lógica de clasificación decide qué pieza recoger, sin detener la producción.
+- **Costes reducidos**: una sola estación robotizada gestiona varios tipos de piezas, sin multiplicar FlexiBowl®, robots y sistemas de visión, y sin hardware adicional respecto a una configuración estándar.
+- **Menor huella de espacio**: menos estaciones significan menos espacio ocupado, menos materiales empleados y un menor consumo energético global de la instalación.
 :::
 
 

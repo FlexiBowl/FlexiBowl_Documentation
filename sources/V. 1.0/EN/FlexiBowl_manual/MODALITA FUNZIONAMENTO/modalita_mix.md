@@ -53,9 +53,9 @@ The MIX Mode cycle is simplified compared to the standard mode, with only three 
 
 
 :::{grid-item-card} Advantages
-- **Maximum Flexibility**: .
-- **Reduced Costs**: .
-- **Reduced environmental footprint**: .
+- **Maximum Flexibility**: multiple components can be fed together onto the same surface, and the sorting logic decides which part to pick, without stopping production.
+- **Reduced Costs**: a single robotic station handles several types of parts, without multiplying FlexiBowl®, robots and vision systems, and without additional hardware compared with a standard configuration.
+- **Reduced environmental footprint**: fewer stations mean less space, fewer materials used and lower overall energy consumption of the plant.
 :::
 
 

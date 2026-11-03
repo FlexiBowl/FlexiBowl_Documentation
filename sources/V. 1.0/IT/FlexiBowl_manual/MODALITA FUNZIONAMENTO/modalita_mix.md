@@ -53,9 +53,9 @@ Il ciclo della MIX Mode è semplificato rispetto alla modalità standard, con so
 
 
 :::{grid-item-card} Vantaggi
-- **Massima Flessibilità**: .
-- **Costi Ridotti**: .
-- **Ridotta impronta ambientale**: .
+- **Massima Flessibilità**: più componenti possono essere alimentati insieme sulla stessa superficie, e la logica di sorting decide quale pezzo prelevare, senza fermare la produzione.
+- **Costi Ridotti**: una sola stazione robotizzata gestisce più tipologie di pezzi, senza moltiplicare FlexiBowl®, robot e sistemi di visione, e senza hardware aggiuntivo rispetto a una configurazione standard.
+- **Ridotta impronta ambientale**: meno stazioni significano meno ingombro, meno materiali impiegati e minori consumi energetici complessivi dell'impianto.
 :::
 
 

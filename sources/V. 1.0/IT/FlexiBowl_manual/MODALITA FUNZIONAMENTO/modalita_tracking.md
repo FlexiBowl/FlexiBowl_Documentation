@@ -174,9 +174,9 @@ Per i Codici di Errore, consultare la pagina dedicata.
 
 
 :::{grid-item-card} Vantaggi
-- **Velocità**: .
-- **Stabilità del tempo ciclo**: .
-- **Ridotta impronta ambientale**: .
+- **Velocità**: il FlexiBowl® ruota in modo continuo, senza fermarsi a ogni ciclo. Così scarico hopper, movimento, visione e prelievo avvengono in parallelo. Questo consente di sfruttare al massimo le prestazioni.
+- **Stabilità del tempo ciclo**: l'esecuzione simultanea delle fasi, con l'encoder che traccia la rotazione del disco tra foto e presa, rende il tempo di ciclo istantaneo più costante e prevedibile.
+- **Ridotta impronta ambientale**: a parità di produzione bastano meno stazioni robotizzate, con minori ingombri, materiali impiegati e consumi energetici complessivi dell'impianto.
 :::
 
 ---

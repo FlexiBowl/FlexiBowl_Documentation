@@ -174,9 +174,9 @@ For the Error Codes, consult the dedicated page.
 
 
 :::{grid-item-card} Advantages
-- **Speed**: .
-- **Cycle time stability**: .
-- **Reduced environmental footprint**: .
+- **Speed**: the FlexiBowl® rotates continuously, without stopping at every cycle. Hopper discharge, movement, vision and picking therefore take place in parallel, allowing performance to be fully exploited.
+- **Cycle time stability**: the simultaneous execution of the phases, with the encoder tracking the rotation of the disc between image capture and pick, makes the instantaneous cycle time more consistent and predictable.
+- **Reduced environmental footprint**: for the same output, fewer robotic stations are needed, with less space, fewer materials used and lower overall energy consumption of the plant.
 :::
 
 ---

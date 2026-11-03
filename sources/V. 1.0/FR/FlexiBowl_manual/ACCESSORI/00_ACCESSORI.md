@@ -95,7 +95,7 @@ Pour optimiser les performances du FlexiBowl® et le rendre adapté à la manute
 ## Matrice de compatibilité des accessoires entre eux
 
 ::::{list-table}
-:widths: 20 20 20 20 20 20 20 20 20
+:widths: 20 11 11 11 11 11 11 14
 :header-rows: 1
 :class: tabacc
 
@@ -107,7 +107,6 @@ Pour optimiser les performances du FlexiBowl® et le rendre adapté à la manute
   - Wedge Diverter
   - Vidage
   - Circular Tracking
-  - Ringlight
 
 * - **Déviateur standard**
   - :::{raw} html
@@ -117,7 +116,6 @@ Pour optimiser les performances du FlexiBowl® et le rendre adapté à la manute
   - ✓
   - ✓
   - 
-  - ✓
   - ✓
   - ✓
 
@@ -131,7 +129,6 @@ Pour optimiser les performances du FlexiBowl® et le rendre adapté à la manute
   - 
   - ✓
   - ✓
-  - ✓
 
 * - **Soufflage central**
   - ✓
@@ -140,7 +137,6 @@ Pour optimiser les performances du FlexiBowl® et le rendre adapté à la manute
     <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 5em;"></div>
     :::
   - 
-  - ✓
   - ✓
   - ✓
   - ✓
@@ -155,8 +151,6 @@ Pour optimiser les performances du FlexiBowl® et le rendre adapté à la manute
   - 
   - ✓
   - ✓
-  - ✓
-
 
 * - **Wedge Diverter**
   - 
@@ -166,7 +160,6 @@ Pour optimiser les performances du FlexiBowl® et le rendre adapté à la manute
   - :::{raw} html
     <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 5em;"></div>
     :::
-  - ✓
   - ✓
   - ✓
 
@@ -180,22 +173,8 @@ Pour optimiser les performances du FlexiBowl® et le rendre adapté à la manute
     <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 5em;"></div>
     :::
   - ✓
-  - ✓
 
-* - **Flexitracking**
-  - ✓
-  - ✓
-  - ✓
-  - ✓
-  - ✓
-  - ✓
-  - :::{raw} html
-    <div style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, white 4px, white 10px); margin: -0.5em; min-height: 5em;"></div>
-    :::
-  - ✓
-
-* - **Ringlight**
-  - ✓
+* - **Circular Tracking**
   - ✓
   - ✓
   - ✓

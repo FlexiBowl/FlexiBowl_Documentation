@@ -174,9 +174,9 @@ Die Fehlercodes sind auf der entsprechenden Seite zu finden.
 
 
 :::{grid-item-card} Vorteile
-- **Geschwindigkeit**: .
-- **Stabilität der Zykluszeit**: .
-- **Geringer Platzbedarf**: .
+- **Geschwindigkeit**: der FlexiBowl® dreht sich kontinuierlich und hält nicht bei jedem Zyklus an. So laufen Hopper-Entleerung, Bewegung, Bildverarbeitung und Entnahme parallel ab. Dadurch lässt sich die Leistung voll ausschöpfen.
+- **Stabilität der Zykluszeit**: die gleichzeitige Ausführung der Phasen, bei der der Encoder die Drehung der Scheibe zwischen Aufnahme und Entnahme verfolgt, macht die momentane Zykluszeit konstanter und vorhersehbarer.
+- **Geringer Platzbedarf**: bei gleicher Produktionsleistung genügen weniger Roboterstationen, mit geringerem Platzbedarf, weniger Materialeinsatz und insgesamt niedrigerem Energieverbrauch der Anlage.
 :::
 
 ---

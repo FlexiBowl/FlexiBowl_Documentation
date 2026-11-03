@@ -174,9 +174,9 @@ Para los Códigos de error, consulte la página específica.
 
 
 :::{grid-item-card} Ventajas
-- **Velocidad**: .
-- **Estabilidad del tiempo de ciclo**: .
-- **Menor huella de espacio**: .
+- **Velocidad**: el FlexiBowl® gira de forma continua, sin detenerse en cada ciclo. Así, la descarga de la tolva, el movimiento, la visión y la recogida se realizan en paralelo, lo que permite aprovechar al máximo el rendimiento.
+- **Estabilidad del tiempo de ciclo**: la ejecución simultánea de las fases, con el encoder siguiendo la rotación del disco entre la captura de imagen y la toma, hace que el tiempo de ciclo instantáneo sea más constante y predecible.
+- **Menor huella de espacio**: a igual producción bastan menos estaciones robotizadas, con menor espacio ocupado, menos materiales empleados y un menor consumo energético global de la instalación.
 :::
 
 ---

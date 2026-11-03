@@ -174,9 +174,9 @@ Pour les Codes d'erreur, consulter la page dédiée.
 
 
 :::{grid-item-card} Avantages
-- **Vitesse** : .
-- **Stabilité du temps de cycle** : .
-- **Empreinte au sol réduite** : .
+- **Vitesse** : le FlexiBowl® tourne en continu, sans s'arrêter à chaque cycle. La décharge de la trémie, le mouvement, la vision et le prélèvement s'effectuent ainsi en parallèle, ce qui permet d'exploiter pleinement les performances.
+- **Stabilité du temps de cycle** : l'exécution simultanée des phases, avec l'encodeur qui suit la rotation du disque entre la prise de vue et le prélèvement, rend le temps de cycle instantané plus constant et plus prévisible.
+- **Empreinte au sol réduite** : à production égale, moins de stations robotisées suffisent, avec un encombrement moindre, moins de matériaux utilisés et une consommation énergétique globale réduite pour l'installation.
 :::
 
 ---

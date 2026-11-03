@@ -77,7 +77,7 @@ L'area di lavoro del robot deve coprire interamente l'area di visione, così che
 
 
 :::{grid-item-card} Vantaggi
-- **Precisione**: .
-- **Separazione**: .
-- **Velocità**: .
+- **Precisione**: visione e prelievo sono eseguiti in sequenza, quindi la posizione rilevata coincide con quella reale al momento della presa e non servono compensazioni del movimento.
+- **Separazione**: Il flip rimescola i componenti e li distribuisce sulla superficie, mentre la Bulk Feeder li scarica nel settore di rilascio. Così i pezzi si presentano ben separati nell'area di visione e quelli non prelevati ricircolano.
+- **Velocità**: Il rilascio dei componenti avviene in parallelo al movimento del FlexiBowl®, riducendo i tempi morti del ciclo e mantenendo alta la produttività.
 :::

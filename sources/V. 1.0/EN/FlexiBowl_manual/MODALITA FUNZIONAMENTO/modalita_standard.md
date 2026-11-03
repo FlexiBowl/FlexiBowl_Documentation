@@ -77,7 +77,7 @@ The robot work area must fully cover the vision area, so that the robot can reac
 
 
 :::{grid-item-card} Advantages
-- **Accuracy**: .
-- **Separation**: .
-- **Speed**: .
+- **Accuracy**: vision and picking are performed in sequence, so the detected position matches the actual one at the moment of the pick and no motion compensation is needed.
+- **Separation**: The flip shuffles the components and spreads them over the surface, while the Bulk Feeder discharges them into the release sector. Parts are therefore well separated in the vision area, and those not picked recirculate.
+- **Speed**: The release of the components takes place in parallel with the FlexiBowl® movement, reducing dead time in the cycle and keeping productivity high.
 :::

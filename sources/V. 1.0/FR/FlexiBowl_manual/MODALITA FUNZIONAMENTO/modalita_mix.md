@@ -53,9 +53,9 @@ Le cycle du MIX Mode est simplifié par rapport au mode standard, avec seulement
 
 
 :::{grid-item-card} Avantages
-- **Flexibilité maximale** : .
-- **Coûts réduits** : .
-- **Empreinte au sol réduite** : .
+- **Flexibilité maximale** : plusieurs composants peuvent être alimentés ensemble sur la même surface, et la logique de tri décide quelle pièce prélever, sans arrêter la production.
+- **Coûts réduits** : une seule station robotisée gère plusieurs types de pièces, sans multiplier les FlexiBowl®, les robots et les systèmes de vision, et sans matériel supplémentaire par rapport à une configuration standard.
+- **Empreinte au sol réduite** : moins de stations signifie moins d'encombrement, moins de matériaux utilisés et une consommation énergétique globale moindre pour l'installation.
 :::
 
 
