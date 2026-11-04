@@ -146,29 +146,61 @@ L'**interasse dei fori di fissaggio** del FlexiBowl® 3.0 è **diverso** da quel
 <!--
 ```{list-table} Interasse fori di fissaggio per modello
 :header-rows: 1
-:widths: 40 30 30
 
 * - Modello
   - FB 2.0
   - FB 3.0
 * - **FlexiBowl® 200**
   - 
+    :::{figure} ../../../../_shared/media/images/
+    :align: center
+    :::
   - 
+    :::{figure} ../../../../_shared/media/images/AS000001_Interfaccia.PNG
+    :align: center
+    :::
 * - **FlexiBowl® 350**
   - 
+    :::{figure} ../../../../_shared/media/images/
+    :align: center
+    :::
   - 
+    :::{figure} ../../../../_shared/media/images/AS000010_Interfaccia.PNG
+    :align: center
+    :::
 * - **FlexiBowl® 500 / 500E**
   - 
+    :::{figure} ../../../../_shared/media/images/
+    :align: center
+    :::
   - 
+    :::{figure} ../../../../_shared/media/images/AS000004_Interfaccia.PNG
+    :align: center
+    :::
 * - **FlexiBowl® 650**
   - 
+    :::{figure} ../../../../_shared/media/images/
+    :align: center
+    :::
   - 
+    :::{figure} ../../../../_shared/media/images/AS000008_Interfaccia.PNG
+    :align: center
+    :::
 * - **FlexiBowl® 800**
   - 
   - 
+    :::{figure} ../../../../_shared/media/images/AS000006_Interfaccia.PNG
+    :align: center
+    :::
 * - **FlexiBowl® 1200**
   - 
+    :::{figure} ../../../../_shared/media/images/
+    :align: center
+    :::
   - 
+    :::{figure} ../../../../_shared/media/images/AS000012_Interfaccia.PNG
+    :align: center
+    :::
 ```
 -->
 
