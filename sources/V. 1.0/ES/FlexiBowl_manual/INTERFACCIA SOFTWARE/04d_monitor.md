@@ -9,10 +9,10 @@ La página **Monitor** ofrece una vista en tiempo real del estado del motor y de
 
 ## Sección STATE MOTOR
 
-El panel **STATE MOTOR** muestra el estado operativo actual del driver del motor mediante una serie de indicadores luminosos (LED virtuales).
-Cada LED puede estar:
-🟢 **Verde** : estado activo
-⚫ **Gris** : estado inactivo
+El panel **STATE MOTOR** muestra el estado operativo actual del driver del motor mediante una serie de indicadores luminosos (LED virtuales).  
+Cada LED puede estar:  
+* 🟢 **Verde** : estado activo  
+* ⚫ **Gris** : estado inactivo  
 
 ### Indicadores de estado
 

@@ -54,7 +54,7 @@ Qualsiasi altro impiego della macchina rispetto a quello previsto deve essere pr
 Un uso improprio del FlexiBowl® esclude qualsiasi responsabilità del Costruttore.
 :::
 
-## Predisposiziopni a carico del cliente
+## Predisposizioni a carico del cliente
 
 Fatti salvi eventuali accordi contrattuali diversi è normalmente a carico del Cliente la predisposizione di:
 - locali (comprese opere murarie, come fondazioni o canalizzazioni eventualmente richieste, illuminazione);

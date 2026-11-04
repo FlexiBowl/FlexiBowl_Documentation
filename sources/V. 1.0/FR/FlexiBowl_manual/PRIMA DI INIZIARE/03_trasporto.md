@@ -46,26 +46,26 @@ Si des problèmes sont constatés :
   - FlexiBowl® 1200
 
 * - Poids brut (avec emballage)
-  - xxx kg
-  - xxx kg
-  - xxx kg
-  - xxx kg
-  - xxx kg
-  - xxx kg
+  - 15 kg
+  - 15 kg
+  - 15 kg
+  - 20 kg
+  - 30 kg
+  - 40 kg
 
 * - Dimensions de la caisse (mm)
-  - xxxx
-  - xxxx
-  - xxxx
-  - xxxx
-  - xxxx
-  - xxxx
+  - 800x600x552h
+  - 800x600x552h
+  - 800x600x552h
+  - 930x905x505h
+  - 1130x1030x515h
+  - 1515x1515x605h
 
 :::
 
 ## Transport et manutention de l'emballage
 
-:::{tip}
+:::{important}
 **Pendant le transport :**
 - Manipuler toujours l'emballage en position verticale (respecter les flèches « HAUT » sur l'emballage)
 - Ne pas faire tomber ni heurter le colis

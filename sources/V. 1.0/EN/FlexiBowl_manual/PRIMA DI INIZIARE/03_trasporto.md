@@ -46,26 +46,26 @@ If problems are found:
   - FlexiBowl® 1200
 
 * - Gross weight (with packaging)
-  - xxx kg
-  - xxx kg
-  - xxx kg
-  - xxx kg
-  - xxx kg
-  - xxx kg
+  - 15 kg
+  - 15 kg
+  - 15 kg
+  - 20 kg
+  - 30 kg
+  - 40 kg
 
 * - Crate dimensions (mm)
-  - xxxx
-  - xxxx
-  - xxxx
-  - xxxx
-  - xxxx
-  - xxxx
+  - 800x600x552h
+  - 800x600x552h
+  - 800x600x552h
+  - 930x905x505h
+  - 1130x1030x515h
+  - 1515x1515x605h
 
 :::
 
 ## Transport and handling of the packaging
 
-:::{tip}
+:::{important}
 **During transport:**
 - Always handle the packaging in a vertical position (observe the "UP" arrows on the packaging)
 - Do not drop or knock the package

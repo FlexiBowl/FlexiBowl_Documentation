@@ -9,10 +9,10 @@ Die Seite **Monitor** bietet eine Echtzeitansicht des Zustands des Motors und de
 
 ## Abschnitt STATE MOTOR
 
-Der Bereich **STATE MOTOR** zeigt den aktuellen Betriebszustand des Motortreibers mithilfe mehrerer Anzeigeleuchten (virtuelle LEDs).
-Jede LED kann sein:
-🟢 **Grün** : aktiver Zustand
-⚫ **Grau** : inaktiver Zustand
+Der Bereich **STATE MOTOR** zeigt den aktuellen Betriebszustand des Motortreibers mithilfe mehrerer Anzeigeleuchten (virtuelle LEDs).  
+Jede LED kann sein:  
+* 🟢 **Grün** : aktiver Zustand  
+* ⚫ **Grau** : inaktiver Zustand  
 
 ### Statusanzeigen
 

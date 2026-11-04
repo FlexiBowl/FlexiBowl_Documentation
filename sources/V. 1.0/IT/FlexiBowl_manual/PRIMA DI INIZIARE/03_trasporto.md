@@ -46,26 +46,26 @@ Se si riscontrano problemi:
   - FlexiBowl® 1200
 
 * - Peso lordo (con imballo)
-  - xxx kg
-  - xxx kg
-  - xxx kg
-  - xxx kg
-  - xxx kg
-  - xxx kg
+  - 15 kg
+  - 15 kg
+  - 15 kg
+  - 20 kg
+  - 30 kg
+  - 40 kg
 
 * - Dimensioni cassa (mm)
-  - xxxx
-  - xxxx
-  - xxxx
-  - xxxx
-  - xxxx
-  - xxxx
+  - 800x600x552h
+  - 800x600x552h
+  - 800x600x552h
+  - 930x905x505h
+  - 1130x1030x515h
+  - 1515x1515x605h
 
 :::
 
 ## Trasporto e movimentazione dell'imballo
 
-:::{tip}
+:::{important}
 **Durante il trasporto:**
 - Movimentare sempre l'imballaggio in posizione verticale (rispettare le frecce "ALTO" sull'imballo)
 - Non far cadere o urtare la confezione

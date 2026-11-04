@@ -44,7 +44,7 @@ In fondo alla pagina sono presenti tre indicatori luminosi (LED virtuali) che se
 
 | Indicatore | Colore attivo | Descrizione |
 |---|---|---|
-| **Active** | 🟡 Giallo ?? | Il trasferimento è in corso |
+| **Active** | 🟡 Giallo | Il trasferimento è in corso |
 | **Successful** | 🟢 Verde | Il trasferimento si è completato correttamente |
 | **Error** | 🔴 Rosso | Si è verificato un errore durante il trasferimento |
 

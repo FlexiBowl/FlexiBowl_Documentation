@@ -46,26 +46,26 @@ Werden Probleme festgestellt:
   - FlexiBowl® 1200
 
 * - Bruttogewicht (mit Verpackung)
-  - xxx kg
-  - xxx kg
-  - xxx kg
-  - xxx kg
-  - xxx kg
-  - xxx kg
+  - 15 kg
+  - 15 kg
+  - 15 kg
+  - 20 kg
+  - 30 kg
+  - 40 kg
 
 * - Abmessungen der Kiste (mm)
-  - xxxx
-  - xxxx
-  - xxxx
-  - xxxx
-  - xxxx
-  - xxxx
+  - 800x600x552h
+  - 800x600x552h
+  - 800x600x552h
+  - 930x905x505h
+  - 1130x1030x515h
+  - 1515x1515x605h
 
 :::
 
 ## Transport und Handhabung der Verpackung
 
-:::{tip}
+:::{important}
 **Während des Transports:**
 - Die Verpackung stets in senkrechter Position handhaben (die Pfeile „OBEN“ auf der Verpackung beachten)
 - Die Verpackung nicht fallen lassen und keinen Stößen aussetzen

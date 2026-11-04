@@ -30,9 +30,9 @@ Para preguntas específicas sobre este manual o para notificar errores y sugeren
 
 **ARS Automation** Via Aretina Nord, 157 52041 Civitella in Val di Chiana (AR) — Italia
 
-☎  **Teléfono:** +39.0575.398611
-✉  **Correo electrónico:** [info@arsautomation.com](mailto:info@arsautomation.com)
-⊕  **Web:** [www.arsautomation.com](https://www.arsautomation.com)
+☎  **Teléfono:** +39.0575.398611  
+✉  **Correo electrónico:** [info@arsautomation.com](mailto:info@arsautomation.com)  
+⊕  **Web:** [www.arsautomation.com](https://www.arsautomation.com)  
 
 🕐 **Horario de apertura:** 8:30 – 13:00 / 14:00 – 17:30 (CET/CEST)
 
