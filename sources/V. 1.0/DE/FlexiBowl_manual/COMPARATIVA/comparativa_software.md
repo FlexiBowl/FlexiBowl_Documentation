@@ -346,21 +346,21 @@ Die vollständige Liste der Fehlercodes finden Sie im Abschnitt [Fehlercodes](se
  
 ---
  
-## 7. Tracking-Modus (FlexiTrack)
+## 7. Circular Tracking-Modus 
  
 <div class="compare-grid">
 <div class="compare-card v20">
 <div class="compare-card-header">FlexiBowl® 2.0</div>
 <div class="compare-card-body">
  
-Der Modus **FlexiTrack** ist eine separat erhältliche Option, mit der der FlexiBowl® in **kontinuierlicher Rotation** (Jog) gehalten werden kann, indem das Encodersignal mit dem Pick-Roboter synchronisiert wird.
+Der Modus **Circular Tracking** ist eine separat erhältliche Option, mit der der FlexiBowl® in **kontinuierlicher Rotation** (Jog) gehalten werden kann, indem das Encodersignal mit dem Pick-Roboter synchronisiert wird.
  
 **Erforderliche Hardware:**
  
 - Anschluss an den **internen Encoder** über den Stecker des Bedienfelds (TTL-Quadratursignal, 4000 Impulse/Umdrehung am Motor; bei FlexiBowl® 500/650/800 mit Untersetzung 1:3 → 12000 Impulse/Umdrehung an der Scheibe).
 - Alternativ **externer Encoder** (inkremental, TTL RS422, ≥ 12000 ppr) auf der mit der angetriebenen Riemenscheibe verbundenen Welle.
  
-**Wichtigste FlexiTrack-Befehle (über TCP/UDP):**
+**Wichtigste Circular Tracking-Befehle (über TCP/UDP):**
  
 | Befehl | Beschreibung |
 |---|---|
@@ -426,5 +426,5 @@ Vor dem Start des Jog sicherstellen, dass der Motor freigegeben ist (**ENABLE MO
 :::
  
 :::{important}
-Mit FlexiTrack **(FlexiBowl® 2.0)** ist die Bewegungssteuerung **nur über das Ethernet-Protokoll** (TCP/UDP) möglich. Das Digital-I/O-Protokoll wird nicht unterstützt.
+Mit Circular Tracking **(FlexiBowl® 2.0)** ist die Bewegungssteuerung **nur über das Ethernet-Protokoll** (TCP/UDP) möglich. Das Digital-I/O-Protokoll wird nicht unterstützt.
 :::
