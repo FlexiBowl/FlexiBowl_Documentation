@@ -1533,7 +1533,7 @@ Las superficies son alfombrillas circulares de material flexible y entelado y co
 * - **Tamaño**
   - **Código de catálogo**
 * - FlexiBowl® 500
-  - Flexi Disc Anti-Roll Spike Beige FDA 500
+  - Flexi Disc Anti-Roll Beige FDA 500
 * - FlexiBowl® 650
   - Flexi Disc Anti-Roll Beige FDA 650
 * - FlexiBowl® 800

@@ -19,7 +19,10 @@ Sauf indication contraire, les accessoires et options **ne sont pas disponibles 
 | {ref}`Cellule photoélectrique arrière <fotocellula-posteriore>` | Contrôle du niveau des pièces dans la cuve | 3 l · 5 l · 10 l · 20 l · 40 l |
 | {ref}`Antivibratoire <tramoggia-antivibrazione>` | Isolation des vibrations vers le FlexiBowl® | 3 l · 5 l · 10 l · 20 l · 40 l |
 | {ref}`Câbles du contrôleur <tramoggia-cavi>` | Communication Modbus RTU et commande externe | Toutes (contrôleur) |
-
+| {ref}`Lowered Bulk Feeder Wide <tramoggia-lowered-wide>` | Trémie linéaire vibrante à profil réduit, pour systèmes d'alimentation à accumulation | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`Option 110 V – Lowered Wide <lowered-wide-110v>` | Alimentation basse tension | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`Revêtement PU – Lowered Wide <lowered-wide-pu>` | Revêtement de la cuve en polyuréthane | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`Kit antivibratoire – Lowered Wide <lowered-wide-antivibrazione>` | Isolation des vibrations vers le FlexiBowl® | FlexiBowl® 650 · 800 · 1200 |
 ---
 
 (tramoggia-varianti)=
@@ -52,6 +55,30 @@ Cette version prévoit un **revêtement en polyuréthane de la cuve** en acier I
 |---|---|
 | **Tailles** | INOX 3 l · 5 l · 10 l · 20 l · 40 l |
 | **Maintenance** | Contrôle mensuel de l'usure : voir {doc}`manutenzione` |
+
+(tramoggia-lowered-wide)=
+### Lowered Bulk Feeder Wide Version
+
+Trémie linéaire vibrante à profil vertical réduit, conçue pour être intégrée à des systèmes d'alimentation à accumulation, afin de garantir un dosage contrôlé des composants sur FlexiBowl® 650/800/1200.
+
+:::{note}
+Le contenu de cette section sera disponible prochainement.
+:::
+
+(lowered-wide-110v)=
+#### Option alimentation 110 V – Lowered Wide
+
+Le contenu de cette section sera disponible prochainement.
+
+(lowered-wide-pu)=
+#### Revêtement en polyuréthane – Lowered Wide
+
+Le contenu de cette section sera disponible prochainement.
+
+(lowered-wide-antivibrazione)=
+#### Kit antivibratoire – Lowered Wide
+
+Le contenu de cette section sera disponible prochainement.
 
 ---
 

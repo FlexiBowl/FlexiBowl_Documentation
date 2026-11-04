@@ -251,8 +251,8 @@ FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 :hidden:
 :caption: TOLVAS
 FlexiBowl_manual/TRAMOGGE/TRAMOGGE VIBRANTI/tramogge_vibranti.md
-<!--FlexiBowl_manual/TRAMOGGE/MOTORIZZATE/00_MOTORIZZATE.md
-FlexiBowl_manual/TRAMOGGE/CONVEYOR/00_CONVEYOR.md--->
+FlexiBowl_manual/TRAMOGGE/MOTORIZZATE/00_MOTORIZZATE.md
+FlexiBowl_manual/TRAMOGGE/CONVEYOR/00_CONVEYOR.md
 :::
 
 :::{toctree}

@@ -19,7 +19,10 @@ Salvo diversa indicazione, accessori e opzioni **non sono disponibili per la Bul
 | {ref}`Fotocellula posteriore <fotocellula-posteriore>` | Controllo del livello dei pezzi nella vasca | 3 l · 5 l · 10 l · 20 l · 40 l |
 | {ref}`Antivibrazione <tramoggia-antivibrazione>` | Isolamento delle vibrazioni verso il FlexiBowl® | 3 l · 5 l · 10 l · 20 l · 40 l |
 | {ref}`Cavi del controller <tramoggia-cavi>` | Comunicazione Modbus RTU e comando esterno | Tutte (controller) |
-
+| {ref}`Bulk Feeder Lowered Wide <tramoggia-lowered-wide>` | Tramoggia lineare vibrante a profilo ridotto, per sistemi di alimentazione ad accumulo | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`Opzione 110 V – Lowered Wide <lowered-wide-110v>` | Alimentazione a bassa tensione | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`Rivestimento in PU – Lowered Wide <lowered-wide-pu>` | Rivestimento della vasca in poliuretano | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`Kit antivibrante – Lowered Wide <lowered-wide-antivibrazione>` | Isolamento delle vibrazioni verso il FlexiBowl® | FlexiBowl® 650 · 800 · 1200 |
 ---
 
 (tramoggia-varianti)=
@@ -52,6 +55,30 @@ Questa versione prevede il **rivestimento in poliuretano della vasca** in acciai
 |---|---|
 | **Taglie** | INOX 3 l · 5 l · 10 l · 20 l · 40 l |
 | **Manutenzione** | Controllo usura mensile: vedi {doc}`manutenzione` |
+
+(tramoggia-lowered-wide)=
+### Bulk Feeder Lowered Wide Version
+
+Tramoggia lineare vibrante con profilo verticale ridotto, progettata per essere integrata con sistemi di alimentazione ad accumulo, per garantire un dosaggio controllato dei componenti su FlexiBowl® 650/800/1200.
+
+:::{note}
+I contenuti di questa sezione saranno disponibili a breve.
+:::
+
+(lowered-wide-110v)=
+#### Opzione alimentazione 110 V – Lowered Wide
+
+I contenuti di questa sezione saranno disponibili a breve.
+
+(lowered-wide-pu)=
+#### Rivestimento in poliuretano – Lowered Wide
+
+I contenuti di questa sezione saranno disponibili a breve.
+
+(lowered-wide-antivibrazione)=
+#### Kit antivibrante – Lowered Wide
+
+I contenuti di questa sezione saranno disponibili a breve.
 
 ---
 

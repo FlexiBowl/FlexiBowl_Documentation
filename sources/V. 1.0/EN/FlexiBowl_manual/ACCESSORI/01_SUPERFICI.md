@@ -1533,7 +1533,7 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
 * - **Size**
   - **Catalog code**
 * - FlexiBowl® 500
-  - Flexi Disc Anti-Roll Spike Beige FDA 500
+  - Flexi Disc Anti-Roll Beige FDA 500
 * - FlexiBowl® 650
   - Flexi Disc Anti-Roll Beige FDA 650
 * - FlexiBowl® 800

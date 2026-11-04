@@ -19,7 +19,10 @@ Unless otherwise indicated, accessories and options **are not available for the 
 | {ref}`Rear photocell <fotocellula-posteriore>` | Level control of the parts in the bowl | 3 l · 5 l · 10 l · 20 l · 40 l |
 | {ref}`Anti-vibration <tramoggia-antivibrazione>` | Isolation of vibrations towards the FlexiBowl® | 3 l · 5 l · 10 l · 20 l · 40 l |
 | {ref}`Controller cables <tramoggia-cavi>` | Modbus RTU communication and external command | All (controller) |
-
+| {ref}`Lowered Bulk Feeder Wide <tramoggia-lowered-wide>` | Vibrating linear hopper with reduced profile, for accumulating feeding systems | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`110 V option – Lowered Wide <lowered-wide-110v>` | Low-voltage power supply | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`PU coating – Lowered Wide <lowered-wide-pu>` | Polyurethane coating of the bowl | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`Anti-vibration kit – Lowered Wide <lowered-wide-antivibrazione>` | Isolation of vibrations towards the FlexiBowl® | FlexiBowl® 650 · 800 · 1200 |
 ---
 
 (tramoggia-varianti)=
@@ -52,6 +55,30 @@ This version provides a **polyurethane coating of the INOX stainless steel bowl*
 |---|---|
 | **Sizes** | INOX 3 l · 5 l · 10 l · 20 l · 40 l |
 | **Maintenance** | Monthly wear check: see {doc}`manutenzione` |
+
+(tramoggia-lowered-wide)=
+### Lowered Bulk Feeder Wide Version
+
+Vibrating linear hopper with reduced vertical profile, designed to be integrated with accumulating feeding systems, to ensure a controlled dosing of components on FlexiBowl® 650/800/1200.
+
+:::{note}
+The content of this section will be available soon.
+:::
+
+(lowered-wide-110v)=
+#### 110 V Electric Power Option – Lowered Wide
+
+The content of this section will be available soon.
+
+(lowered-wide-pu)=
+#### Polyurethane Coating – Lowered Wide
+
+The content of this section will be available soon.
+
+(lowered-wide-antivibrazione)=
+#### Anti-Vibration Kit – Lowered Wide
+
+The content of this section will be available soon.
 
 ---
 

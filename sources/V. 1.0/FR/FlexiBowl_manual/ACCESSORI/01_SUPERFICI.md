@@ -1533,7 +1533,7 @@ Les surfaces sont des tapis circulaires en matériau toilé et flexible et const
 * - **Taille**
   - **Code catalogue**
 * - FlexiBowl® 500
-  - Flexi Disc Anti-Roll Spike Beige FDA 500
+  - Flexi Disc Anti-Roll Beige FDA 500
 * - FlexiBowl® 650
   - Flexi Disc Anti-Roll Beige FDA 650
 * - FlexiBowl® 800

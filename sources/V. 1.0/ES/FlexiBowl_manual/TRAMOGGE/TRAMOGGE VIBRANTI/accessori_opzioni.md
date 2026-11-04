@@ -19,7 +19,10 @@ Salvo indicación en contrario, los accesorios y las opciones **no están dispon
 | {ref}`Fotocélula posterior <fotocellula-posteriore>` | Control del nivel de piezas en la cubeta | 3 l · 5 l · 10 l · 20 l · 40 l |
 | {ref}`Antivibración <tramoggia-antivibrazione>` | Aislamiento de las vibraciones hacia el FlexiBowl® | 3 l · 5 l · 10 l · 20 l · 40 l |
 | {ref}`Cables del controlador <tramoggia-cavi>` | Comunicación Modbus RTU y mando externo | Todos (controlador) |
-
+| {ref}`Lowered Bulk Feeder Wide <tramoggia-lowered-wide>` | Tolva lineal vibrante de perfil reducido, para sistemas de alimentación por acumulación | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`Opción 110 V – Lowered Wide <lowered-wide-110v>` | Alimentación de baja tensión | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`Revestimiento PU – Lowered Wide <lowered-wide-pu>` | Revestimiento de la cubeta en poliuretano | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`Kit antivibratorio – Lowered Wide <lowered-wide-antivibrazione>` | Aislamiento de las vibraciones hacia el FlexiBowl® | FlexiBowl® 650 · 800 · 1200 |
 ---
 
 (tramoggia-varianti)=
@@ -52,6 +55,30 @@ Esta versión incluye el **revestimiento de poliuretano de la cubeta** de acero 
 |---|---|
 | **Tamaños** | INOX 3 l · 5 l · 10 l · 20 l · 40 l |
 | **Mantenimiento** | Control mensual del desgaste: véase {doc}`manutenzione` |
+
+(tramoggia-lowered-wide)=
+### Lowered Bulk Feeder Wide Version
+
+Tolva lineal vibrante con perfil vertical reducido, diseñada para integrarse con sistemas de alimentación por acumulación, a fin de garantizar una dosificación controlada de los componentes en FlexiBowl® 650/800/1200.
+
+:::{note}
+El contenido de esta sección estará disponible próximamente.
+:::
+
+(lowered-wide-110v)=
+#### Opción de alimentación 110 V – Lowered Wide
+
+El contenido de esta sección estará disponible próximamente.
+
+(lowered-wide-pu)=
+#### Revestimiento de poliuretano – Lowered Wide
+
+El contenido de esta sección estará disponible próximamente.
+
+(lowered-wide-antivibrazione)=
+#### Kit antivibratorio – Lowered Wide
+
+El contenido de esta sección estará disponible próximamente.
 
 ---
 

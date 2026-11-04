@@ -1533,7 +1533,7 @@ Die Oberflächen sind kreisförmige Matten aus flexiblem Gewebematerial und die 
 * - **Baugröße**
   - **Katalogcode**
 * - FlexiBowl® 500
-  - Flexi Disc Anti-Roll Spike Beige FDA 500
+  - Flexi Disc Anti-Roll Beige FDA 500
 * - FlexiBowl® 650
   - Flexi Disc Anti-Roll Beige FDA 650
 * - FlexiBowl® 800

@@ -19,7 +19,10 @@ Sofern nicht anders angegeben, sind Zubehör und Optionen **nicht für den Bulk 
 | {ref}`Hintere Lichtschranke <fotocellula-posteriore>` | Füllstandskontrolle der Teile im Behälter | 3 l · 5 l · 10 l · 20 l · 40 l |
 | {ref}`Schwingungsdämpfung <tramoggia-antivibrazione>` | Isolierung der Schwingungen zum FlexiBowl® hin | 3 l · 5 l · 10 l · 20 l · 40 l |
 | {ref}`Kabel der Steuerung <tramoggia-cavi>` | Modbus-RTU-Kommunikation und externe Ansteuerung | Alle (Steuerung) |
-
+| {ref}`Lowered Bulk Feeder Wide <tramoggia-lowered-wide>` | Vibrierender Linear-Hopper mit reduzierter Bauhöhe für Zuführsysteme mit Pufferfunktion | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`Option 110 V – Lowered Wide <lowered-wide-110v>` | Niederspannungsversorgung | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`PU-Beschichtung – Lowered Wide <lowered-wide-pu>` | Polyurethan-Beschichtung des Behälters | FlexiBowl® 650 · 800 · 1200 |
+| {ref}`Schwingungsdämpfer-Kit – Lowered Wide <lowered-wide-antivibrazione>` | Isolierung der Schwingungen zum FlexiBowl® hin | FlexiBowl® 650 · 800 · 1200 |
 ---
 
 (tramoggia-varianti)=
@@ -52,6 +55,30 @@ Diese Version sieht eine **Polyurethan-Beschichtung des INOX-Edelstahlbehälters
 |---|---|
 | **Größen** | INOX 3 l · 5 l · 10 l · 20 l · 40 l |
 | **Wartung** | Monatliche Verschleißkontrolle: siehe {doc}`manutenzione` |
+
+(tramoggia-lowered-wide)=
+### Lowered Bulk Feeder Wide Version
+
+Vibrierender Linear-Hopper mit reduzierter Bauhöhe, ausgelegt für die Integration in Zuführsysteme mit Pufferfunktion, um eine kontrollierte Dosierung der Bauteile auf dem FlexiBowl® 650/800/1200 zu gewährleisten.
+
+:::{note}
+Die Inhalte dieses Abschnitts werden in Kürze verfügbar sein.
+:::
+
+(lowered-wide-110v)=
+#### Option 110-V-Spannungsversorgung – Lowered Wide
+
+Die Inhalte dieses Abschnitts werden in Kürze verfügbar sein.
+
+(lowered-wide-pu)=
+#### Polyurethan-Beschichtung – Lowered Wide
+
+Die Inhalte dieses Abschnitts werden in Kürze verfügbar sein.
+
+(lowered-wide-antivibrazione)=
+#### Schwingungsdämpfer-Kit – Lowered Wide
+
+Die Inhalte dieses Abschnitts werden in Kürze verfügbar sein.
 
 ---
 

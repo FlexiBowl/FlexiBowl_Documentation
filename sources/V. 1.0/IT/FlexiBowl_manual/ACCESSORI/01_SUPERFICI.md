@@ -1533,7 +1533,7 @@ Le superfici sono tappeti circolari in materiale telato e flessibile e sono la s
 * - **Taglia**
   - **Codice a listino**
 * - FlexiBowl® 500
-  - Flexi Disc Anti-Roll Spike Beige FDA 500
+  - Flexi Disc Anti-Roll Beige FDA 500
 * - FlexiBowl® 650
   - Flexi Disc Anti-Roll Beige FDA 650
 * - FlexiBowl® 800
