@@ -166,7 +166,7 @@ Das Infrarot-Toplight sendet unsichtbares Licht aus und kann daher so wirken, al
 
 ## Eigenschaften der Toplights
 
-```{dropdown} TopLight 500x300 - White
+```{dropdown} White Toplight 200/350/500 
 Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
 ![Toplight](../../../../_shared/media/images/toplight_CM002316.png)
  
@@ -259,7 +259,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 200, Flex
 :::
  
 ```
-```{dropdown} TopLight 500x300 - Red  
+```{dropdown} Red Toplight 200/350/500 
 Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
 ![Toplight](../../../../_shared/media/images/toplight_CM002316.png)
  
@@ -354,7 +354,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 200, Flex
  
 ```
  
-```{dropdown} TopLight 500x300 - Infrared
+```{dropdown} IR Toplight 200/350/500
 Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 200, FlexiBowl® 350, FlexiBowl® 500
 ![Toplight](../../../../_shared/media/images/toplight_CM002316.png)
  
@@ -448,7 +448,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 200, Flex
  
 ```
  
-```{dropdown} TopLight 700x300 - White
+```{dropdown} White Toplight 650/800
 Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002317.png)
  
@@ -541,7 +541,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, Flex
 :::
 ```
  
-```{dropdown} TopLight 700x300 - Red
+```{dropdown} Red Toplight 650/800
 Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002317.png)
  
@@ -634,7 +634,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, Flex
 :::
 ```
  
-```{dropdown} TopLight 700x300 - Infrared
+```{dropdown} IR Toplight 650/800
 Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002317.png)
  
@@ -727,7 +727,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, Flex
 :::
 ```
  
-```{dropdown} TopLight 700x500 - White
+```{dropdown} White Toplight 650/800 XXL
 Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002318.png)
  
@@ -820,7 +820,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, Flex
 :::
 ```
  
-```{dropdown} TopLight 700x500 - Red
+```{dropdown} Red Toplight 650/800 XXL
 Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002318.png)
  
@@ -913,7 +913,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, Flex
 :::
 ```
  
-```{dropdown} TopLight 700x500 - Infrared
+```{dropdown} IR Toplight 650/800 XXL
 Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, FlexiBowl® 800
 ![Toplight](../../../../_shared/media/images/toplight_CM002318.png)
  
@@ -1006,7 +1006,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, Flex
 :::
 ```
  
-```{dropdown} TopLight 900x600 - White
+```{dropdown} White Toplight 1200
 Diese Toplight-Größe ist für die Modelle FlexiBowl® 1200 geeignet
 ![Toplight](../../../../_shared/media/images/toplight_dim.png)
  
@@ -1098,7 +1098,7 @@ Diese Toplight-Größe ist für die Modelle FlexiBowl® 1200 geeignet
   - RoHS-CE-DEEE, UL
 :::
 ```
-```{dropdown} TopLight 900x600 - Red
+```{dropdown} Red Toplight 1200
 Diese Toplight-Größe ist für die Modelle FlexiBowl® 1200 geeignet
 ![Toplight](../../../../_shared/media/images/toplight_dim.png)
  
@@ -1191,7 +1191,7 @@ Diese Toplight-Größe ist für die Modelle FlexiBowl® 1200 geeignet
 :::
 ```
  
-```{dropdown} TopLight 900x600 - Infrared
+```{dropdown} IR Toplight 1200
 Diese Toplight-Größe ist für die Modelle FlexiBowl® 1200 geeignet
 ![Toplight](../../../../_shared/media/images/toplight_dim.png)
  
