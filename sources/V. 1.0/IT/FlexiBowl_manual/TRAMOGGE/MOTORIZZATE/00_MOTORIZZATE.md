@@ -3,8 +3,11 @@
 ## Cos'è una Motorized Hopper?
 La Motorized Hopper è un elevatore a nastro a palette, disponibile nelle taglie da 50, 100 e 150 litri, progettato per sollevare il materiale dal basso verso l'alto e consegnarlo all'uscita. È una **quasi-macchina**: deve essere incorporata in una linea che ne gestisca la logica di funzionamento e le funzioni di sicurezza.
 
-Modelli: TRM/MOT 50/100/150 D/S (versione destra / sinistra).
 
+
+*Maggiori informazioni sulle Motorized Hoppers saranno disponibili a breve.*
+
+<!--
 ## Navigare il Manuale
 Questo manuale è strutturato come un workflow sequenziale pensato per accompagnare tecnici, installatori e operatori attraverso tutte le fasi di vita del macchinario.
 
@@ -234,3 +237,4 @@ uso.md
 manutenzione.md
 smaltimento_appendici.md
 :::
+-->

@@ -1,8 +1,11 @@
 # **Conveyor Hopper**
 
 ## Qu'est-ce que la Conveyor Hopper ?
-La Conveyor Hopper CH60 est une trémie de 60 litres équipée d'un tapis convoyeur motorisé, conçue pour recevoir des composants en vrac depuis un système en amont et les transférer vers un système en aval. C'est une **machine incomplète** : elle doit être incorporée dans une ligne qui en gère la logique de fonctionnement et les fonctions de sécurité.
+La Conveyor Hopper est une trémie équipée d'un tapis convoyeur motorisé, conçue pour recevoir des composants en vrac depuis un système en amont et les transférer vers un système en aval. C'est une **machine incomplète** : elle doit être incorporée dans une ligne qui en gère la logique de fonctionnement et les fonctions de sécurité.
 
+*Plus d'informations sur les Conveyor Hoppers seront bientôt disponibles.*
+
+<!--
 ## Naviguer dans le manuel
 Ce manuel est structuré comme un workflow séquentiel destiné à accompagner les techniciens, les installateurs et les opérateurs à travers toutes les phases de vie de la machine.
 
@@ -232,3 +235,4 @@ uso.md
 manutenzione.md
 smaltimento_appendici.md
 :::
+-->

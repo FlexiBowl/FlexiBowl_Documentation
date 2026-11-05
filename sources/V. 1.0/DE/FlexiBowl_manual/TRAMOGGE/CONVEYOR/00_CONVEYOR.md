@@ -1,8 +1,11 @@
 # **Conveyor Hopper**
 
 ## Was ist die Conveyor Hopper?
-Die Conveyor Hopper CH60 ist ein 60-Liter-Trichter mit motorisiertem Förderband, der dafür ausgelegt ist, Schüttgutteile von einem vorgelagerten System aufzunehmen und an ein nachgelagertes System weiterzugeben. Sie ist eine **unvollständige Maschine**: Sie muss in eine Anlage eingebunden werden, die ihre Betriebslogik und ihre Sicherheitsfunktionen steuert.
+Die Conveyor Hopper ist ein Trichter mit motorisiertem Förderband, der dafür ausgelegt ist, Schüttgutteile von einem vorgelagerten System aufzunehmen und an ein nachgelagertes System weiterzugeben. Sie ist eine **unvollständige Maschine**: Sie muss in eine Anlage eingebunden werden, die ihre Betriebslogik und ihre Sicherheitsfunktionen steuert.
 
+*Weitere Informationen zu den Conveyor Hoppers werden in Kürze verfügbar sein.*
+
+<!--
 ## Navigation durch das Handbuch
 Dieses Handbuch ist als sequenzieller Workflow aufgebaut und begleitet Techniker, Installateure und Bediener durch alle Lebensphasen der Maschine.
 
@@ -232,3 +235,4 @@ uso.md
 manutenzione.md
 smaltimento_appendici.md
 :::
+-->

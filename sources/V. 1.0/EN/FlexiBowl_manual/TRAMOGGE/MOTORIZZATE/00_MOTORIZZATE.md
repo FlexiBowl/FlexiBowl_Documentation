@@ -3,6 +3,9 @@
 ## What is a Motorized Hopper?
 The Motorized Hopper is a paddle belt elevator, available in 50, 100 and 150-litre sizes, designed to lift material from the bottom to the top and deliver it at the outlet. It is a **partly completed machine**: it must be incorporated into a line that manages its operating logic and safety functions.
 
+*More information on the Motorized Hoppers will be available soon.*
+
+<!--
 Models: TRM/MOT 50/100/150 D/S (right / left version).
 
 ## Navigating the Manual
@@ -234,3 +237,4 @@ uso.md
 manutenzione.md
 smaltimento_appendici.md
 :::
+-->

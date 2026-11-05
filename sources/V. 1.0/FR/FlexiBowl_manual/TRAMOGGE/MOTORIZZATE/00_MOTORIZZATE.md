@@ -3,6 +3,9 @@
 ## Qu'est-ce qu'une Motorized Hopper ?
 La Motorized Hopper est un élévateur à tapis à palettes, disponible en tailles de 50, 100 et 150 litres, conçu pour élever le matériau de bas en haut et le livrer à la sortie. C'est une **machine incomplète** : elle doit être incorporée dans une ligne qui en gère la logique de fonctionnement et les fonctions de sécurité.
 
+*Plus d'informations sur les Motorized Hoppers seront bientôt disponibles.*
+
+<!--
 Modèles : TRM/MOT 50/100/150 D/S (version droite / gauche).
 
 ## Naviguer dans le manuel
@@ -234,3 +237,4 @@ uso.md
 manutenzione.md
 smaltimento_appendici.md
 :::
+-->

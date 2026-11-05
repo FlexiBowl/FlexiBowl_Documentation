@@ -1,8 +1,13 @@
 # **Conveyor Hopper**
 
 ## Cos'è la Conveyor Hopper?
-La Conveyor Hopper CH60 è una tramoggia da 60 litri con nastro trasportatore motorizzato, progettata per ricevere componenti sfusi da un sistema a monte e trasferirli a un sistema a valle. È una **quasi-macchina**: deve essere incorporata in una linea che ne gestisca la logica di funzionamento e le funzioni di sicurezza.
+La Conveyor Hopper è una tramoggia con nastro trasportatore motorizzato, progettata per ricevere componenti sfusi da un sistema a monte e trasferirli a un sistema a valle. È una **quasi-macchina**: deve essere incorporata in una linea che ne gestisca la logica di funzionamento e le funzioni di sicurezza.
 
+*Maggiori informazioni sulle Conveyor Hoppers saranno disponibili a breve.*
+
+
+
+<!--
 ## Navigare il Manuale
 Questo manuale è strutturato come un workflow sequenziale pensato per accompagnare tecnici, installatori e operatori attraverso tutte le fasi di vita del macchinario.
 
@@ -232,3 +237,4 @@ uso.md
 manutenzione.md
 smaltimento_appendici.md
 :::
+-->

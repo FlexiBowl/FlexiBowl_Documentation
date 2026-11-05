@@ -1,8 +1,11 @@
 # **Conveyor Hopper**
 
 ## What is the Conveyor Hopper?
-The Conveyor Hopper CH60 is a 60-litre hopper with a motorized conveyor belt, designed to receive bulk components from an upstream system and transfer them to a downstream system. It is a **partly completed machine**: it must be incorporated into a line that manages its operating logic and safety functions.
+The Conveyor Hopper is a hopper with a motorized conveyor belt, designed to receive bulk components from an upstream system and transfer them to a downstream system. It is a **partly completed machine**: it must be incorporated into a line that manages its operating logic and safety functions.
 
+*More information on the Conveyor Hoppers will be available soon.*
+
+<!--
 ## Navigating the Manual
 This manual is structured as a sequential workflow designed to guide technicians, installers and operators through all the life phases of the machinery.
 
@@ -232,3 +235,4 @@ uso.md
 manutenzione.md
 smaltimento_appendici.md
 :::
+-->

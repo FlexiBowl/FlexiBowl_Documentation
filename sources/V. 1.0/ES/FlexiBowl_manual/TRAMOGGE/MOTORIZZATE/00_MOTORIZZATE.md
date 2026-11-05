@@ -3,6 +3,9 @@
 ## ¿Qué es una Motorized Hopper?
 La Motorized Hopper es un elevador de cinta de paletas, disponible en tamaños de 50, 100 y 150 litros, diseñado para elevar el material de abajo arriba y entregarlo en la salida. Es una **cuasi máquina**: debe incorporarse a una línea que gestione su lógica de funcionamiento y sus funciones de seguridad.
 
+*Próximamente habrá más información sobre las Motorized Hoppers.*
+
+<!--
 Modelos: TRM/MOT 50/100/150 D/S (versión derecha / izquierda).
 
 ## Navegar por el manual
@@ -234,3 +237,4 @@ uso.md
 manutenzione.md
 smaltimento_appendici.md
 :::
+-->

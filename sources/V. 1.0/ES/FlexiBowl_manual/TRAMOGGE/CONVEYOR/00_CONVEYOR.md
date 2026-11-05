@@ -1,8 +1,11 @@
 # **Conveyor Hopper**
 
 ## ¿Qué es la Conveyor Hopper?
-La Conveyor Hopper CH60 es una tolva de 60 litros con cinta transportadora motorizada, diseñada para recibir componentes a granel de un sistema aguas arriba y transferirlos a un sistema aguas abajo. Es una **cuasi máquina**: debe incorporarse a una línea que gestione su lógica de funcionamiento y sus funciones de seguridad.
+La Conveyor Hopper es una tolva con cinta transportadora motorizada, diseñada para recibir componentes a granel de un sistema aguas arriba y transferirlos a un sistema aguas abajo. Es una **cuasi máquina**: debe incorporarse a una línea que gestione su lógica de funcionamiento y sus funciones de seguridad.
 
+*Próximamente habrá más información sobre las Conveyor Hoppers.*
+
+<!--
 ## Navegar por el manual
 Este manual está estructurado como un flujo de trabajo secuencial pensado para acompañar a técnicos, instaladores y operadores a lo largo de todas las fases de vida de la maquinaria.
 
@@ -232,3 +235,4 @@ uso.md
 manutenzione.md
 smaltimento_appendici.md
 :::
+-->

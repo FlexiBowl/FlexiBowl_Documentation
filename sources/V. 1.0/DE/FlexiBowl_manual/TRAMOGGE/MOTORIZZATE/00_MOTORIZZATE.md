@@ -3,6 +3,9 @@
 ## Was ist eine Motorized Hopper?
 Die Motorized Hopper ist ein Schaufelbandförderer, erhältlich in den Baugrößen 50, 100 und 150 Liter, der dafür ausgelegt ist, Material von unten nach oben zu fördern und am Auslauf abzugeben. Sie ist eine **unvollständige Maschine**: Sie muss in eine Anlage eingebunden werden, die ihre Betriebslogik und ihre Sicherheitsfunktionen steuert.
 
+*Weitere Informationen zu den Motorized Hoppers werden in Kürze verfügbar sein.*
+
+<!--
 Modelle: TRM/MOT 50/100/150 D/S (rechte / linke Ausführung).
 
 ## Navigation durch das Handbuch
@@ -234,3 +237,4 @@ uso.md
 manutenzione.md
 smaltimento_appendici.md
 :::
+-->
