@@ -94,7 +94,7 @@ L'option Circular Tracking comprend un encodeur relié à la rotation du disque.
 * - Nombre max. d'impulsions
   - 65536 impulsions/tour, selon la vitesse du FlexiBowl®
 * - Interface de communication
-  - Incrémental, TTL / HTL (réglage d'usine : TTL)
+  - Incrémental, TTL 
 * - Certifications
   - Déclaration de conformité UE · Déclaration de conformité UK · Déclaration de conformité ACMA · Déclaration de conformité Maroc · China RoHS · cULus
 * - Connexion sur le FlexiBowl®
