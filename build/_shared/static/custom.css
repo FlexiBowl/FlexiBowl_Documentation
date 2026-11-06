@@ -553,3 +553,205 @@ html[data-theme="dark"] .only-light { display: none !important; }
   z-index: 2 !important;
   background: var(--c-bg) !important;
 }
+/* ==========================================================================
+   FlexiBowl manual – Dark mode fix (pydata-sphinx-theme: html[data-theme="dark"])
+   Pagine: Wizard, Interfaccia Software, Interfaccia Elettrica,
+           Cablaggio FlexiBowl, Controller e Cablaggio Bulk Feeder
+   Un solo file, valido per tutte le lingue. Nessun testo da modificare.
+   ========================================================================== */
+ 
+html[data-theme="dark"] {
+  --dm-bg:      #1e2530;   /* pannelli / card           */
+  --dm-bg-alt:  #252d3a;   /* righe alternate           */
+  --dm-bg-head: #1a3a52;   /* intestazioni tabella      */
+  --dm-bg-hov:  #2c3a4d;   /* hover                     */
+  --dm-bd:      #3b4a5e;   /* bordi                     */
+  --dm-tx:      #e3eaf2;   /* testo principale          */
+  --dm-tx-dim:  #a9b9ca;   /* testo secondario          */
+  --dm-acc:     #5aaee8;   /* azzurro accento (leggibile su scuro) */
+ 
+  /* variabili usate dalla pagina "Interfaccia Elettrica" */
+  --acc:#5aaee8; --acc-dk:#9fd0f5; --acc-bg:#1d3a57;
+  --bd:#3b4a5e; --bg-p:#1e2530; --bg-s:#252d3a; --bg-h:#2c3a4d;
+  --tx1:#e3eaf2; --tx2:#b9c6d4; --tx3:#8fa0b3;
+}
+ 
+/* ---------- 1. Elementi con colori scritti inline (style="...") ----------- */
+/* Sfondi chiari -> scuri */
+html[data-theme="dark"] [style*="background:#fff"],
+html[data-theme="dark"] [style*="background: #fff"],
+html[data-theme="dark"] [style*="background-color:#fff"],
+html[data-theme="dark"] [style*="background-color: #fff"],
+html[data-theme="dark"] [style*="background:#f7fbfe"],
+html[data-theme="dark"] [style*="background: #f7fbfe"],
+html[data-theme="dark"] [style*="background-color: #f8f9fa"],
+html[data-theme="dark"] [style*="background-color:#f8f9fa"] {
+  background-color: var(--dm-bg) !important;
+  border-color: var(--dm-bd) !important;
+}
+/* Testi scuri -> chiari (solo dove il colore è inline) */
+html[data-theme="dark"] [style*="color:#1a3a52"],
+html[data-theme="dark"] [style*="color: #1a3a52"],
+html[data-theme="dark"] [style*="color:#334e5e"],
+html[data-theme="dark"] [style*="color: #334e5e"],
+html[data-theme="dark"] [style*="color: #2c3e50"],
+html[data-theme="dark"] [style*="color:#2c3e50"],
+html[data-theme="dark"] [style*="color: #34495e"],
+html[data-theme="dark"] [style*="color:#34495e"] {
+  color: var(--dm-tx) !important;
+}
+html[data-theme="dark"] [style*="color:#7a9ab0"],
+html[data-theme="dark"] [style*="color: #7a9ab0"] {
+  color: var(--dm-tx-dim) !important;
+}
+html[data-theme="dark"] [style*="color:#2980b9"],
+html[data-theme="dark"] [style*="color: #2980b9"] {
+  color: var(--dm-acc) !important;
+}
+html[data-theme="dark"] [style*="border"][style*="#d0e4f0"],
+html[data-theme="dark"] [style*="border"][style*="#e9f2f9"],
+html[data-theme="dark"] [style*="border"][style*="#e9ecef"] {
+  border-color: var(--dm-bd) !important;
+}
+ 
+/* ---------- 2. Card di navigazione / flow / formule (Interfaccia Software) - */
+html[data-theme="dark"] .isw-nav-card,
+html[data-theme="dark"] .isw-formula,
+html[data-theme="dark"] .isw-example,
+html[data-theme="dark"] .isw-example-body,
+html[data-theme="dark"] .isw-table-wrap,
+html[data-theme="dark"] .isw-err-wrap,
+html[data-theme="dark"] .isw-search {
+  background: var(--dm-bg) !important;
+  border-color: var(--dm-bd) !important;
+  color: var(--dm-tx) !important;
+}
+html[data-theme="dark"] .isw-nav-card:hover { background: var(--dm-bg-hov) !important; border-color: var(--dm-acc) !important; }
+html[data-theme="dark"] .isw-nav-card-title,
+html[data-theme="dark"] .isw-flow-label,
+html[data-theme="dark"] .isw-formula-main,
+html[data-theme="dark"] .isw-example-title,
+html[data-theme="dark"] .isw-example-col-title { color: var(--dm-tx) !important; }
+html[data-theme="dark"] .isw-nav-card-sub,
+html[data-theme="dark"] .isw-flow-sub,
+html[data-theme="dark"] .isw-formula-example,
+html[data-theme="dark"] .isw-search-count { color: var(--dm-tx-dim) !important; }
+html[data-theme="dark"] .isw-flow-arrow { color: var(--dm-acc) !important; }
+ 
+/* tabelle */
+html[data-theme="dark"] .isw-table thead tr, html[data-theme="dark"] .isw-table thead th,
+html[data-theme="dark"] .isw-err-table thead tr, html[data-theme="dark"] .isw-err-table thead th,
+html[data-theme="dark"] .isw-return-table thead tr, html[data-theme="dark"] .isw-return-table thead th,
+html[data-theme="dark"] .isw-ret table thead tr, html[data-theme="dark"] .isw-ret table thead th,
+html[data-theme="dark"] .isw-example-body table th {
+  background: var(--dm-bg-head) !important;
+  color: var(--dm-tx) !important;
+  border-color: var(--dm-bd) !important;
+}
+html[data-theme="dark"] .isw-table tbody tr,
+html[data-theme="dark"] .isw-err-table tbody tr,
+html[data-theme="dark"] .isw-return-table tbody tr { background: var(--dm-bg) !important; }
+html[data-theme="dark"] .isw-table tbody tr:nth-child(even),
+html[data-theme="dark"] .isw-err-table tbody tr:nth-child(even),
+html[data-theme="dark"] .isw-return-table tbody tr:nth-child(even) { background: var(--dm-bg-alt) !important; }
+html[data-theme="dark"] .isw-table tbody tr:hover,
+html[data-theme="dark"] .isw-err-table tbody tr:hover,
+html[data-theme="dark"] .isw-return-table tbody tr:hover { background: var(--dm-bg-hov) !important; }
+html[data-theme="dark"] .isw-table tbody td,
+html[data-theme="dark"] .isw-err-table tbody td,
+html[data-theme="dark"] .isw-return-table tbody td,
+html[data-theme="dark"] .isw-example-body table td {
+  color: var(--dm-tx) !important;
+  border-color: var(--dm-bd) !important;
+}
+html[data-theme="dark"] .isw-table tbody td:first-child,
+html[data-theme="dark"] .isw-err-table tbody td:first-child,
+html[data-theme="dark"] .isw-return-table tbody td:first-child { color: var(--dm-acc) !important; }
+html[data-theme="dark"] .isw-table code,
+html[data-theme="dark"] .isw-err-table code,
+html[data-theme="dark"] .isw-return-table code {
+  background: #0f1620 !important; color: #e8c07d !important; border-color: var(--dm-bd) !important;
+}
+/* badge di sezione (EXE / WRITE / READ ...) */
+html[data-theme="dark"] .isw-badge-exe   { background:#1e3a8a; color:#dbeafe; }
+html[data-theme="dark"] .isw-badge-write { background:#78350f; color:#fef3c7; }
+html[data-theme="dark"] .isw-badge-read  { background:#065f46; color:#d1fae5; }
+html[data-theme="dark"] .isw-badge-io    { background:#4c1d95; color:#ede9fe; }
+html[data-theme="dark"] .isw-badge-tcp   { background:#831843; color:#fce7f3; }
+html[data-theme="dark"] .isw-badge-err   { background:#7f1d1d; color:#fee2e2; }
+html[data-theme="dark"] .isw-badge-field { background:#14532d; color:#dcfce7; }
+html[data-theme="dark"] .isw-badge-hop   { background:#881337; color:#ffe4e6; }
+html[data-theme="dark"] .isw-example-tcp .ok { color:#4ade80 !important; }
+html[data-theme="dark"] .isw-example-tcp .ko { color:#f87171 !important; }
+ 
+/* ---------- 3. Menu a tendina "ars-dropdown" + box passo (Cablaggio, Interf. Elettrica) */
+html[data-theme="dark"] .ars-dropdown { border-color: var(--dm-bd) !important; box-shadow: none; }
+html[data-theme="dark"] .ars-dropdown summary {
+  background: var(--dm-bg-head) !important; color: var(--dm-tx) !important; border-color: var(--dm-bd) !important;
+}
+html[data-theme="dark"] .ars-dropdown .ars-dropdown-body { background: var(--dm-bg) !important; color: var(--dm-tx) !important; border-color: var(--dm-bd) !important; }
+html[data-theme="dark"] .ars-dropdown[open] summary { border-bottom-color: var(--dm-bd) !important; }
+html[data-theme="dark"] .ars-step-warn { background:#4a3a10 !important; color:#ffe9a8 !important; border-left-color:#f0ad4e !important; }
+html[data-theme="dark"] .ars-step-attn { background:#4a1d1d !important; color:#ffc9c9 !important; border-left-color:#ef4444 !important; }
+html[data-theme="dark"] .ars-step-note { background:#17324a !important; color:#d4e8f7 !important; border-left-color:var(--dm-acc) !important; }
+html[data-theme="dark"] .ars-pin-table th { background: var(--dm-bg-head) !important; color: var(--dm-tx) !important; border-color: var(--dm-bd) !important; }
+html[data-theme="dark"] .ars-pin-table td { background: var(--dm-bg) !important; color: var(--dm-tx) !important; border-color: var(--dm-bd) !important; }
+html[data-theme="dark"] .ars-pin-table tr:nth-child(even) td { background: var(--dm-bg-alt) !important; }
+ 
+/* ---------- 4. Interfaccia Elettrica (tab + pannello con immagine) ---------- */
+html[data-theme="dark"] .ie-tab,
+html[data-theme="dark"] .ie-bubble { background: var(--dm-bg) !important; }
+html[data-theme="dark"] .ie-tab.on { background: var(--acc-bg) !important; }
+html[data-theme="dark"] .ie-row.on .ie-bubble { background: var(--acc) !important; color:#0b1118 !important; }
+html[data-theme="dark"] .ie-img-outer { background: #fff; }   /* le foto del pannello restano su fondo chiaro */
+ 
+/* ---------- 5. Wizard / list-table / card (sphinx-design) ------------------ */
+/* celle numerate dei passi ("1", "2", ...) e prima riga azzurra delle list-table */
+html[data-theme="dark"] table.table th,
+html[data-theme="dark"] .bd-article-container table thead th {
+  background: var(--dm-bg-head) !important; color: var(--dm-tx) !important; border-color: var(--dm-bd) !important;
+}
+html[data-theme="dark"] .bd-article-container table td,
+html[data-theme="dark"] .bd-article-container table tbody th {
+  color: var(--dm-tx) !important; border-color: var(--dm-bd) !important;
+}
+html[data-theme="dark"] .bd-article-container table tbody tr { background-color: var(--dm-bg) !important; }
+html[data-theme="dark"] .bd-article-container table tbody tr:nth-child(even) { background-color: var(--dm-bg-alt) !important; }
+html[data-theme="dark"] .sd-card, html[data-theme="dark"] .sd-card-body {
+  background-color: var(--dm-bg) !important; color: var(--dm-tx) !important; border-color: var(--dm-bd) !important;
+}
+html[data-theme="dark"] .sd-card .sd-card-text, html[data-theme="dark"] .sd-card p { color: var(--dm-tx) !important; }
+ 
+/* ---------- 6. Titoli e codice inline sui sfondi chiari -------------------- */
+html[data-theme="dark"] .bd-article-container h1,
+html[data-theme="dark"] .bd-article-container h2,
+html[data-theme="dark"] .bd-article-container h3,
+html[data-theme="dark"] .bd-article-container h4 { color: var(--dm-tx) !important; }
+html[data-theme="dark"] .bd-article-container code.literal {
+  background-color: #0f1620 !important; color: #e8c07d !important; border-color: var(--dm-bd) !important;
+}
+ 
+/* ---------- 7. Altri sfondi azzurri inline (cerchi numerati, righe, ecc.) -- */
+html[data-theme="dark"] [style*="background:#e3f1fb"], html[data-theme="dark"] [style*="background: #e3f1fb"],
+html[data-theme="dark"] [style*="background:#e8f4fc"], html[data-theme="dark"] [style*="background: #e8f4fc"],
+html[data-theme="dark"] [style*="background:#f0f7ff"], html[data-theme="dark"] [style*="background: #f0f7ff"],
+html[data-theme="dark"] [style*="background:#f0f4f8"], html[data-theme="dark"] [style*="background: #f0f4f8"],
+html[data-theme="dark"] [style*="background:#eaf3fb"], html[data-theme="dark"] [style*="background:#eef6fc"] {
+  background-color: var(--dm-bg-head) !important;
+}
+html[data-theme="dark"] .isw-flow-bubble, html[data-theme="dark"] .isw-nav-card i { background-color: var(--dm-bg-head) !important; }
+
+/* ── Dark mode: variabili della classe .isw-page ── */
+html[data-theme="dark"] .isw-page {
+  --c-primary:   #e3eaf2;
+  --c-accent:    #5aaee8;
+  --c-accent-lt: #3b4a5e;
+  --c-bg:        #1e2530;
+  --c-bg-alt:    #252d3a;
+  --c-bg-hover:  #2c3a4d;
+  --c-border:    #3b4a5e;
+  --c-text:      #e3eaf2;
+  --c-muted:     #a9b9ca;
+  --shadow-sm:   none;
+  --shadow-md:   none;
+}

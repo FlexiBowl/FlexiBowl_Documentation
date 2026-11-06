@@ -634,10 +634,10 @@ When **TCP Server** communication is used, commands are not sent as binary varia
 Each message has the form:
 
 ```
-NomeVariabile[Valore]%
+VariableName[Value]%
 ```
 
-The `%` character is the **message terminator** and must always be present at the end. The `[Valore]` field contains the associated numeric data (ControlWord, status, etc.).
+The `%` character is the **message terminator** and must always be present at the end. The `[Value]` field contains the associated numeric data (ControlWord, status, etc.).
 
 :::{card} GO TO THE DEDICATED PAGE
 :link: tcp

@@ -13,7 +13,7 @@ Option fitted by default; it is suitable for handling components without protrus
 
 ## Mounting procedure
 
-:::{warning} Attenzione
+:::{warning} 
 Make sure the FlexiBowl® is **switched off and stationary** before proceeding with the mounting.
 :::
 

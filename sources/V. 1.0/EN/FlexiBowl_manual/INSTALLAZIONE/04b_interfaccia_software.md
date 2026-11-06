@@ -18,7 +18,7 @@ The `%` character is the **message terminator** and must always be present at th
 |---|---|---|---|
 | All EXE commands | `10[0]%` | `10[0]%` | `1[0]%` |
 | All WRITE commands | `100[56]%` | `100[0]%` | `2[0]%` |
-| All READ commands | `10100[0]%` | `10100[valore]%` | `2[0]%` |
+| All READ commands | `10100[0]%` | `10100[value]%` | `2[0]%` |
 | Error reset | `Reset%` | `Reset%` | — |
 | Read Busy status | `Busy%` | `Busy[1]%` | `Busy[0]%` |
 | Read Ready status | `Ready%` | `Ready[1]%` | `Ready[0]%` |
@@ -27,7 +27,7 @@ The `%` character is the **message terminator** and must always be present at th
 | Read ErrorCode | `ErrorCode%` | `ErrorCode[56]%` | `ErrorCode[0]%` |
 
 :::{note}
-In READ-type responses, the text `[valore]` is replaced with the actual numeric value read by the system. For example, to read the speed of SEQ 1 (ControlWord 10102), `10102[0]%` is sent and `10102[35]%` is received if the speed is set to 35%.
+In READ-type responses, the text `[value]` is replaced with the actual numeric value read by the system. For example, to read the speed of SEQ 1 (ControlWord 10102), `10102[0]%` is sent and `10102[35]%` is received if the speed is set to 35%.
 :::
 
 :::{warning}

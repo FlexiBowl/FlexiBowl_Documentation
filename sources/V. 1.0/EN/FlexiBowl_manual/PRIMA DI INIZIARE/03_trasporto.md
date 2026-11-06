@@ -28,7 +28,7 @@ If problems are found:
 - Do NOT sign the receipt as "compliant"
 - Note the damage on the transport document
 - Photograph any obvious damage
-- Contact ARS service immediately: [service@arsautomation.com](mailto:service@arsautomation.com) [us.service@arsautomation.com](mailto:us.service@arsautomation.com) if calling from America
+- Contact ARS service immediately: [service@arsautomation.com](mailto:service@arsautomation.com)   ([us.service@arsautomation.com](mailto:us.service@arsautomation.com) if calling from America)
 ```
 
 ## Packaging dimensions and weights
@@ -96,7 +96,7 @@ If problems are found:
          <img src="../../../../_shared/media/images/casco.png" alt="helmet">
        </div>
     :::
-  - Forklift with a capacity of not less than 50 kg
+  - Forklift with a capacity of no less than 50 kg
 ::::
 
 :::{warning}

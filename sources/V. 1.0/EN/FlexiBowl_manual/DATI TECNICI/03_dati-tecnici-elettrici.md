@@ -112,11 +112,11 @@ Each FlexiBowl® model requires an upstream residual-current circuit breaker wit
 
 - **Protection class**: Class I
 
-Protection is achieved through basic insulation and the connection of all metal exposed parts to the protective conductor (PE – system earth). Since this is Class I protection (and not double insulation), the earth connection is an integral part of the device's safety system.
+Protection is achieved through basic insulation and the connection of all metal exposed parts to the protective conductor (PE – system ground). Since this is Class I protection (and not double insulation), the ground connection is an integral part of the device's safety system.
 
 ### Earthing
 
-The device must be connected to the system earth circuit **before any other operation**.
+The device must be connected to the system ground circuit **before any other operation**.
 
 :::{attention}
 Before switching on the FlexiBowl®, verify that the device is correctly earthed to the general system.
@@ -131,7 +131,7 @@ All connection operations must be performed with the device switched off and dis
 :::
 
 :::{attention}
-The earth connection is mandatory and must be verified before every power-up.
+The ground connection is mandatory and must be verified before every power-up.
 :::
 
 :::{attention}

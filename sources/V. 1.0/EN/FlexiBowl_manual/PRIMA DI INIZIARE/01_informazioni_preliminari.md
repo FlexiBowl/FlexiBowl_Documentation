@@ -45,7 +45,7 @@ During use, the operator must:
 - Comply with the safety standards applicable to industrial robots and machinery
 ```
 ```{warning}
-**ARS S.r.l. declines all liability for injury to persons or damage to property resulting from the movement of machines and systems connected to the FlexiVision One software.**
+**ARS S.r.l. declines all liability for injury to persons or damage to property resulting from the movement of the FlexiBowl®.**
 
 The integration of the system into the work environment and the risk assessment are the responsibility of the system integrator and the end user.
 ```
@@ -117,7 +117,7 @@ To establish with certainty the skills and qualifications of the operators assig
 
 ```{note}
 
-- **Reference language**: the Italian version of this document is the official one and prevails in case of discrepancies with other translations
+- **Reference language**: the Italian version of this document is the definitive version one and prevails in case of discrepancies with other translations
 - **Updates**: the information contained is subject to change without notice for product improvements
 - **Units of measurement**: unless otherwise indicated, all dimensions are expressed in millimeters (mm)
 - **Document version**: always check that you have the latest version by consulting the website [www.flexibowl.it](https://www.flexibowl.it)

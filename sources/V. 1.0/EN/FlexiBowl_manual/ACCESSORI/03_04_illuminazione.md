@@ -198,7 +198,7 @@ This Toplight size is suitable for the following models: FlexiBowl® 200, FlexiB
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12 Connector](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1570,15 +1570,15 @@ When using an ARS calibration grid, calibration must be performed with the backl
    :widths: 20 50 30
    :header-rows: 1
 
-   * - Illuminatore
-     - Quando usarlo
-     - Esempio
+   * - Illuminator
+     - When to use it
+     - Example
    * - **Toplight**
-     - Utilizzato quando il riconoscimento del componente non può essere effettuato dalla sola forma, ma dai dettagli presenti sull'oggetto. È indicato principalmente per superfici lisce e non riflettenti, o superfici che presentano qualche tipo di marcatura distinguibile.
+     - Used when component recognition cannot be done by the shape alone, but by the details present on the object. It is indicated primarily for smooth, non-reflective surfaces, or surfaces that have some type of distinguishable marking.
      - .. image:: ../../../../_shared/media/images/TOPLIGHT.png
           :width: 150px
    * - **Backlight**
-     - Il caso d'uso principale del backlight è quando l'oggetto può essere riconosciuto dalla sua silhouette/forma oppure con parti trasparenti.
+     - The main use case of backlight is when the object can be recognized by its silhouette/shape or with transparent parts.
      - .. image:: ../../../../_shared/media/images/BACKLIGHT.png
           :width: 150px
 ```

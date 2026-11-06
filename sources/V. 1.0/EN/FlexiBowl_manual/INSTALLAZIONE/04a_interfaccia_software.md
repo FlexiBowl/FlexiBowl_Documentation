@@ -115,7 +115,7 @@ Each sequence (from 1 to 20) has its own block of parameters. The ControlWord is
 
 > **ControlWord = N × 100 + parameter_offset**
 
-where `N` is the sequence number (1–20) and `offset_parametro` identifies the specific parameter.
+where `N` is the sequence number (1–20) and `offset_parameter` identifies the specific parameter.
 
 #### Writable parameters for each sequence
 
@@ -217,7 +217,7 @@ The ControlWord for reading is calculated with the formula:
 
 > **ControlWord = 10000 + N × 100 + parameter_offset**
 
-where `N` is the sequence number (1–20) and `offset_parametro` is the same one used in the WRITE commands.
+where `N` is the sequence number (1–20) and `offset_parameter` is the same one used in the WRITE commands.
 
 The readable parameters are the same as in the WRITE block, with the addition of the 10 command list slots:
 

@@ -212,9 +212,9 @@ html[data-theme="dark"] .fc{
   var KW = { small:{lo:10, hi:100}, large:{lo:30, hi:250} };
   var KW_VAL = {light:0.8, std:1.0, heavy:1.3};
   var MAT = [
-    {id:'rigid', k:1.0, n:'Rigido',      ex:'Steel, aluminium, brass, POM, rigid PA, ABS, glass'},
-    {id:'semi',  k:1.2, n:'Semi-rigido', ex:'PE, PP, unfilled nylon, dense cardboard, composites'},
-    {id:'soft',  k:1.8, n:'Non rigido',  ex:'Rubber, NBR, silicone, polyurethane, soft TPU'}
+    {id:'rigid', k:1.0, n:'Rigid',      ex:'Steel, aluminium, brass, POM, rigid PA, ABS, glass'},
+    {id:'semi',  k:1.2, n:'Semi-rigid', ex:'PE, PP, unfilled nylon, dense cardboard, composites'},
+    {id:'soft',  k:1.8, n:'Non-rigid',  ex:'Rubber, NBR, silicone, polyurethane, soft TPU'}
   ];
   var SURF = [{id:'surf', k:1.0, n:'Surface'}, {id:'disc', k:0.9, n:'Rigid disc'}];
   var PMAX = 6.0;
