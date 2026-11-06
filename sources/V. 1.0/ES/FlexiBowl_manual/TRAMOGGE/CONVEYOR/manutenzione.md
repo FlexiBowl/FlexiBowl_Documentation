@@ -14,7 +14,7 @@ El mantenimiento comprende las intervenciones (inspecciones, controles, ajustes 
 - utilizar solo repuestos originales y herramientas adecuadas para el fin y en buen estado;
 - respetar las frecuencias de intervención indicadas para el mantenimiento programado (preventivo y periódico): el intervalo (indicado en tiempo o en ciclos de trabajo) entre una intervención y la siguiente debe entenderse como el máximo admisible; no debe superarse, pero puede reducirse.
 
-Un buen mantenimiento preventivo requiere atención constante y una supervisión continua de la máquina. Comprobar de inmediato la causa de cualquier anomalía (ruido excesivo, sobrecalentamiento, fugas de fluidos, etc.) y subsanarla: la eliminación a tiempo de las causas de anomalía evita daños mayores y garantiza la seguridad del operario.
+Un buen mantenimiento preventivo requiere atención constante y una supervisión continua de la máquina. Comprobar de inmediato la causa de cualquier anomalía (ruido excesivo, sobrecalentamiento, fugas de fluidos, etc.) y subsanarla: la eliminación a tiempo de las causas de anomalía evita daños mayores y garantiza la seguridad del operador.
 
 El personal encargado del mantenimiento debe estar bien formado y conocer a fondo las normas de prevención de accidentes; el personal no autorizado debe permanecer fuera del área de trabajo durante las operaciones. También la limpieza y los ajustes deben realizarse solo durante el mantenimiento, con la máquina parada y desconectada del cuadro eléctrico.
 
@@ -108,7 +108,7 @@ El Fabricante o el centro de asistencia autorizado valorará cada caso y acordar
 - o el Fabricante autoriza a los técnicos de mantenimiento ordinario del usuario a realizar los trabajos y envía las posibles instrucciones adicionales.
 
 :::{warning}
-Los repuestos deben pedirse al Fabricante. Si el cliente no utiliza repuestos originales o autorizados por escrito por el Fabricante, este queda exento de toda responsabilidad sobre el funcionamiento de la máquina y la seguridad de los operarios. Las autorizaciones y/o instrucciones deben proporcionarse siempre por escrito: en ausencia de autorización escrita está prohibido intervenir.
+Los repuestos deben pedirse al Fabricante. Si el cliente no utiliza repuestos originales o autorizados por escrito por el Fabricante, este queda exento de toda responsabilidad sobre el funcionamiento de la máquina y la seguridad de los operadores. Las autorizaciones y/o instrucciones deben proporcionarse siempre por escrito: en ausencia de autorización escrita está prohibido intervenir.
 :::
 
 :::{important}
@@ -119,15 +119,15 @@ Si es necesario realizar procedimientos no recogidos en el manual, o en caso de 
 
 | | |
 |:--- |:--- |
-| **Cualificación del operador** | Mantenedor eléctrico |
+| **Cualificación del operador** | Técnico de mantenimiento eléctrico |
 | **Herramientas que deben utilizarse** | Herramientas de atornillado |
 
 | Fase | Acción |
 |:--- |:--- |
 | 1 | Desenroscar los tornillos de fijación (A) del cuerpo de la tolva a la placa de soporte de los pies de apoyo, en ambos lados de la estructura. |
-| 2 | Separar el cuerpo de la tolva (B) de los pies de apoyo (C): manualmente, con dos operarios; o con la ayuda de una carretilla elevadora (véase la información sobre la manipulación en *Transporte e incorporación*). |
+| 2 | Separar el cuerpo de la tolva (B) de los pies de apoyo (C): manualmente, con dos operadores; o con la ayuda de una carretilla elevadora (véase la información sobre la manipulación en *Transporte e incorporación*). |
 | 3 | Llevar el cuerpo de la tolva al banco de trabajo. |
 | 4 | Retirar los tornillos de fijación (D) de la cinta a la tolva, en ambos lados de la estructura. |
-| 5 | Separar la cinta (E) de la tolva (F). *Nota: puede realizarlo manualmente un operario.* |
+| 5 | Separar la cinta (E) de la tolva (F). *Nota: puede realizarlo manualmente un operador.* |
 | 6 | Para la sustitución del tejido, seguir las instrucciones del manual del proveedor de la cinta. *Nota: el manual del proveedor de la cinta está adjunto a la documentación.* |
 | 7 | Volver a montar la máquina procediendo en sentido inverso. |

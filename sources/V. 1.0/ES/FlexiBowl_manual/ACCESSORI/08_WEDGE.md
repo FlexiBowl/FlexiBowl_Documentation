@@ -14,7 +14,7 @@ Solución que se debe adoptar para la manipulación de componentes delicados que
 
 ## Procedimiento de montaje
 
-:::{warning} Attenzione
+:::{warning} Atención
 Asegurarse de que el FlexiBowl® esté **apagado y detenido** antes de proceder con el montaje.
 :::
 

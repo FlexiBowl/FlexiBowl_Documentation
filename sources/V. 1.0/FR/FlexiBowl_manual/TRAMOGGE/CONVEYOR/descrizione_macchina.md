@@ -65,7 +65,7 @@ L'utilisateur (entrepreneur ou employeur) doit :
 
 Ne permettre de travailler sur la machine qu'au personnel ayant lu le manuel et formé de manière adéquate.
 
-### Obligations du personnel affecté (opérateurs/mainteneurs/techniciens)
+### Obligations du personnel affecté (opérateurs/techniciens de maintenance/techniciens)
 
 Le personnel doit :
 - effectuer les interventions de maintenance uniquement machine à l'arrêt ;

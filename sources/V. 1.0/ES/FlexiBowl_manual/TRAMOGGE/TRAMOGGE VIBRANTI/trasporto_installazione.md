@@ -386,7 +386,7 @@ Asegúrese de que la línea de alimentación eléctrica del cliente haya sido se
 La conformidad de la conexión entre la máquina y el sistema de puesta a tierra es responsabilidad y coste exclusivos del comprador.
 
 :::{attention}
-La operación debe ser realizada exclusivamente por personal especializado y autorizado (mantenedor eléctrico).
+La operación debe ser realizada exclusivamente por personal especializado y autorizado (técnico de mantenimiento eléctrico).
 :::
 
 Antes de proceder a la conexión eléctrica, compruebe que:
@@ -404,7 +404,7 @@ No trabaje con las manos u objetos húmedos. En caso de incendio, no utilice agu
 :widths: 30 70
 
 * - **Cualificación del operador**
-  - Mantenedor eléctrico
+  - Técnico de mantenimiento eléctrico
 
 * - **EPI necesarios**
   - <img src="../../../../../_shared/media/images/obbligo_guanti.png" width="80px"> <img src="../../../../../_shared/media/images/obbligo_antiinf.png" width="80px"> <img src="../../../../../_shared/media/images/obbligo_indumenti.png" width="80px">

@@ -303,7 +303,7 @@ L'utilisateur (entrepreneur ou employeur) doit :
 Ne faire travailler sur la machine que du personnel ayant pris connaissance du présent manuel et ayant reçu une formation appropriée.
 :::
 
-### Obligations du personnel affecté (opérateurs/mainteneurs/techniciens)
+### Obligations du personnel affecté (opérateurs/techniciens de maintenance/techniciens)
 
 Le personnel doit :
 

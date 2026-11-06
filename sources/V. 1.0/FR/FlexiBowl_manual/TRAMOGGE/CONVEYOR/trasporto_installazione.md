@@ -177,11 +177,11 @@ Les raccordements requis doivent être effectués par du personnel qualifié et 
 
 :::{warning}
 - Avant d'effectuer tout raccordement électrique, s'assurer que la machine est à l'arrêt et que l'alimentation électrique a déjà été coupée.
-- L'opération doit être effectuée uniquement par du personnel spécialisé et autorisé (mainteneur électricien).
+- L'opération doit être effectuée uniquement par du personnel spécialisé et autorisé (technicien de maintenance électricien).
 :::
 
 Avant de procéder au raccordement électrique, s'assurer que :
-- le mainteneur connaît parfaitement les normes en vigueur dans le pays d'installation ;
+- le technicien de maintenance connaît parfaitement les normes en vigueur dans le pays d'installation ;
 - les valeurs de fréquence et de tension d'alimentation de la machine correspondent à celles du réseau ;
 - la section des câbles électriques est adaptée à l'absorption ;
 - la ligne d'alimentation supporte les absorptions maximales de la machine ;

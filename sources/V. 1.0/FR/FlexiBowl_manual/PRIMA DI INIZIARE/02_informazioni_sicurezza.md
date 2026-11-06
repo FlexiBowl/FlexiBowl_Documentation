@@ -25,7 +25,7 @@ Les zones autour de la machine sont réparties comme suit :
   - Ce sont les zones dans lesquelles l'utilisateur et les autres opérateurs peuvent effectuer les opérations de commande et de contrôle des fonctions cycliques de la machine (« poste de conduite »), aussi bien en automatique qu'en semi-automatique, en agissant sur les panneaux de commande prévus ou pour l'exécution d'opérations manuelles.
 
 * - Zones de maintenance/réglage
-  - Ce sont les zones dans lesquelles les mainteneurs mécaniques peuvent effectuer des opérations de maintenance ou de réglage. Ces zones sont considérées comme à risque et ne sont pas accessibles pendant le fonctionnement normal de la machine. Les opérateurs doivent connaître parfaitement les avertissements de sécurité et les équipements de protection individuelle à porter.
+  - Ce sont les zones dans lesquelles les techniciens de maintenance mécaniques peuvent effectuer des opérations de maintenance ou de réglage. Ces zones sont considérées comme à risque et ne sont pas accessibles pendant le fonctionnement normal de la machine. Les opérateurs doivent connaître parfaitement les avertissements de sécurité et les équipements de protection individuelle à porter.
 
 * - Zones dangereuses
   - Sont considérées comme telles toutes les zones à l'intérieur (ou autour) de la machine où sont présents des risques résiduels pouvant provoquer des dommages aux personnes. L'accès à ces zones est interdit à toute personne pendant le fonctionnement de la machine.

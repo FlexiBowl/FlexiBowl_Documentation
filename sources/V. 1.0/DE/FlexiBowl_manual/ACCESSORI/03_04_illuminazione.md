@@ -198,7 +198,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 200, Flex
   - 10 µs
  
 * - Steuerung
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12-Stecker](cablaggio_illuminatore)
  
 * - Pinbelegung des Steckers
   - 1: 24VDC / 3: GND / 4: PNP
@@ -291,7 +291,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 200, Flex
   - 10 µs
  
 * - Steuerung
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12-Stecker](cablaggio_illuminatore)
  
 * - Pinbelegung des Steckers
   - 1: 24VDC / 3: GND / 4: PNP
@@ -386,7 +386,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 200, Flex
   - 10 µs
  
 * - Steuerung
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12-Stecker](cablaggio_illuminatore)
  
 * - Pinbelegung des Steckers
   - 1: 24VDC / 3: GND / 4: PNP
@@ -480,7 +480,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, Flex
   - 10 µs
  
 * - Steuerung
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12-Stecker](cablaggio_illuminatore)
  
 * - Pinbelegung des Steckers
   - 1: 24VDC / 3: GND / 4: PNP
@@ -573,7 +573,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, Flex
   - 10 µs
  
 * - Steuerung
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12-Stecker](cablaggio_illuminatore)
  
 * - Pinbelegung des Steckers
   - 1: 24VDC / 3: GND / 4: PNP
@@ -666,7 +666,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, Flex
   - 10 µs
  
 * - Steuerung
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12-Stecker](cablaggio_illuminatore)
  
 * - Pinbelegung des Steckers
   - 1: 24VDC / 3: GND / 4: PNP
@@ -759,7 +759,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, Flex
   - 10 µs
  
 * - Steuerung
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12-Stecker](cablaggio_illuminatore)
  
 * - Pinbelegung des Steckers
   - 1: 24VDC / 3: GND / 4: PNP
@@ -852,7 +852,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, Flex
   - 10 µs
  
 * - Steuerung
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12-Stecker](cablaggio_illuminatore)
  
 * - Pinbelegung des Steckers
   - 1: 24VDC / 3: GND / 4: PNP
@@ -945,7 +945,7 @@ Diese Toplight-Größe ist für folgende Modelle geeignet: FlexiBowl® 650, Flex
   - 10 µs
  
 * - Steuerung
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12-Stecker](cablaggio_illuminatore)
  
 * - Pinbelegung des Steckers
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1038,7 +1038,7 @@ Diese Toplight-Größe ist für die Modelle FlexiBowl® 1200 geeignet
   - 10 µs
  
 * - Steuerung
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12-Stecker](cablaggio_illuminatore)
  
 * - Pinbelegung des Steckers
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1130,7 +1130,7 @@ Diese Toplight-Größe ist für die Modelle FlexiBowl® 1200 geeignet
   - 10 µs
  
 * - Steuerung
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12-Stecker](cablaggio_illuminatore)
  
 * - Pinbelegung des Steckers
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1223,7 +1223,7 @@ Diese Toplight-Größe ist für die Modelle FlexiBowl® 1200 geeignet
   - 10 µs
  
 * - Steuerung
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12-Stecker](cablaggio_illuminatore)
  
 * - Pinbelegung des Steckers
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1570,15 +1570,15 @@ Bei Verwendung eines ARS-Kalibrierrasters muss die Kalibrierung mit dem Backligh
    :widths: 20 50 30
    :header-rows: 1
 
-   * - Illuminatore
-     - Quando usarlo
-     - Esempio
+   * - Beleuchtung
+     - Wann einzusetzen
+     - Beispiel
    * - **Toplight**
-     - Utilizzato quando il riconoscimento del componente non può essere effettuato dalla sola forma, ma dai dettagli presenti sull'oggetto. È indicato principalmente per superfici lisce e non riflettenti, o superfici che presentano qualche tipo di marcatura distinguibile.
+     - Wird verwendet, wenn die Bauteilerkennung nicht allein anhand der Form, sondern anhand der auf dem Objekt vorhandenen Details erfolgen muss. Geeignet vor allem für glatte, nicht reflektierende Oberflächen oder Oberflächen mit einer erkennbaren Markierung.
      - .. image:: ../../../../_shared/media/images/TOPLIGHT.png
           :width: 150px
    * - **Backlight**
-     - Il caso d'uso principale del backlight è quando l'oggetto può essere riconosciuto dalla sua silhouette/forma oppure con parti trasparenti.
+     - Der Hauptanwendungsfall des Backlights ist gegeben, wenn das Objekt anhand seiner Silhouette/Form erkannt werden kann oder transparente Teile aufweist.
      - .. image:: ../../../../_shared/media/images/BACKLIGHT.png
           :width: 150px
 ```

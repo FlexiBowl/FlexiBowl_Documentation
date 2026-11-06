@@ -16,7 +16,7 @@ El Fabricante o el centro de servicio autorizado evaluará la situación caso po
 :::{warning}
 Los repuestos que se deben sustituir deben pedirse a ARS S.r.l.
 
-Si el cliente no utiliza repuestos originales o autorizados por escrito por el Fabricante, este queda exento de toda responsabilidad sobre el funcionamiento de la máquina y la seguridad de los operarios. La autorización y/o las instrucciones deben comunicarse siempre por escrito. A falta de autorización escrita, está prohibido operar y el Fabricante declina toda responsabilidad.
+Si el cliente no utiliza repuestos originales o autorizados por escrito por el Fabricante, este queda exento de toda responsabilidad sobre el funcionamiento de la máquina y la seguridad de los operadores. La autorización y/o las instrucciones deben comunicarse siempre por escrito. A falta de autorización escrita, está prohibido operar y el Fabricante declina toda responsabilidad.
 :::
 
 :::{warning}

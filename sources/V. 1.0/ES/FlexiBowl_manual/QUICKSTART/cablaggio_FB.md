@@ -79,7 +79,7 @@
 ::::{list-table}
 :widths: 30 60
 :header-rows: 1
-* - {ref}`Cualificación del operario <operatori>`
+* - {ref}`Cualificación del operador <operatori>`
   - {ref}`EPI necesarios <dpi>`
 
 * - **Técnico de mantenimiento eléctrico**

@@ -73,7 +73,7 @@ Um die Kompetenzen und Qualifikationen der mit den verschiedenen Aufgaben (Inbet
 
     **Hinweis:** Nicht befugt, Wartungstätigkeiten jeglicher Art durchzuführen.
     
-* - **Mechanischer Instandhalter**
+* - **Mechanischer Wartungstechniker**
   - Qualifizierter Techniker, der in der Lage ist:
 
     * vorbeugende/korrektive Wartungsarbeiten an allen mechanischen Teilen der Maschine durchzuführen, die gewartet oder repariert werden müssen;

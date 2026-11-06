@@ -303,7 +303,7 @@ El usuario (empresario o empleador) debe:
 Permitir operar la máquina únicamente a personal que haya leído este manual y haya recibido la formación adecuada.
 :::
 
-### Obligaciones del personal asignado (operarios/mantenedores/técnicos)
+### Obligaciones del personal asignado (operadores/técnicos de mantenimiento/técnicos)
 
 El personal debe:
 

@@ -65,7 +65,7 @@ El usuario (contratista o empleador) debe:
 
 Permitir trabajar en la máquina únicamente a personal que haya leído el manual y esté adecuadamente formado.
 
-### Obligaciones del personal asignado (operarios/mantenedores/técnicos)
+### Obligaciones del personal asignado (operadores/técnicos de mantenimiento/técnicos)
 
 El personal debe:
 - realizar las intervenciones de mantenimiento solo con la máquina apagada;

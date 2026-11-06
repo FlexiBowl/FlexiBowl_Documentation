@@ -510,7 +510,7 @@ Die herstellende Firma lehnt jede Haftung für eine unsachgemäße Verwendung de
   <div class="isw-profile">
     <div class="isw-profile-header">
       <i class="ph ph-wrench" style="color:#2980b9;font-size:1.1rem;"></i>
-      <span class="isw-profile-role">Mechanischer Instandhalter</span>
+      <span class="isw-profile-role">Mechanischer Wartungstechniker</span>
     </div>
     <div class="isw-profile-body">
       Qualifizierter Techniker für vorbeugende/korrektive Arbeiten an mechanischen Teilen. Hat Zugang zu allen Teilen der Maschine für Sichtprüfung, Einstellung und Kalibrierung. Liest pneumatische/hydraulische Schaltpläne, technische Zeichnungen und Ersatzteillisten. In Ausnahmefällen kann er mit reduzierten Sicherheitseinrichtungen arbeiten.
@@ -521,7 +521,7 @@ Die herstellende Firma lehnt jede Haftung für eine unsachgemäße Verwendung de
   <div class="isw-profile">
     <div class="isw-profile-header">
       <i class="ph ph-lightning" style="color:#2980b9;font-size:1.1rem;"></i>
-      <span class="isw-profile-role">Elektrischer Instandhalter</span>
+      <span class="isw-profile-role">Elektrischer Wartungstechniker</span>
     </div>
     <div class="isw-profile-body">
       Qualifizierter Techniker für vorbeugende/korrektive Wartung der elektrischen Anlage. Liest die Schaltpläne und prüft die Funktionszyklen. Darf in den Schaltschränken unter Spannung arbeiten, <strong>nur wenn er über die PEI-Eignung (Norm EN 50110-1) verfügt</strong>.
@@ -710,7 +710,7 @@ Die Kleidung des Personals muss den grundlegenden Anforderungen der **EU-Verordn
   </div>
   <div class="isw-zone">
     <div class="isw-zone-label">Wartungs-/Einstellbereiche</div>
-    <div class="isw-zone-desc">Nur für qualifizierte mechanische und elektrische Instandhalter für Einrichtarbeiten zugänglich. Während des normalen Produktionszyklus bleiben sie gesperrt.</div>
+    <div class="isw-zone-desc">Nur für qualifizierte mechanische und elektrische Wartungstechniker für Einrichtarbeiten zugänglich. Während des normalen Produktionszyklus bleiben sie gesperrt.</div>
   </div>
   <div class="isw-zone">
     <div class="isw-zone-label">Gefahrenbereiche</div>

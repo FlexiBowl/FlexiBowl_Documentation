@@ -33,7 +33,7 @@ La maintenance, la recherche de pannes et les réparations sont réservées au s
 - Pendant le démontage, repérer chaque pièce au moyen d'une étiquette afin de garantir son remontage correct.
 - Après toute maintenance impliquant la déconnexion de câblages et/ou de parties fixes et mobiles, vérifier la correspondance de la numérotation des parties fixes et mobiles.
 - Avant de remettre l'équipement en service après une panne, l'inspecter et le contrôler attentivement afin de repérer d'éventuels dommages.
-- Outre les activités de maintenance traditionnelles, le mainteneur doit exécuter, lorsque prévu, des opérations de maintenance prédictive consistant en analyses instrumentales et contrôles spécialisés, visant à prévoir à temps la survenue de pannes de certains composants.
+- Outre les activités de maintenance traditionnelles, le technicien de maintenance doit exécuter, lorsque prévu, des opérations de maintenance prédictive consistant en analyses instrumentales et contrôles spécialisés, visant à prévoir à temps la survenue de pannes de certains composants.
 
 ## Qualification du personnel de maintenance
 

@@ -30,7 +30,7 @@ Der FlexiBowl® wird ohne manuelle Absperr- und Entlüftungseinrichtung für die
 * - {ref}`Qualifikation des Bedieners <operatori>`
   - {ref}`Erforderliche PSA <dpi>`
 
-* - **Mechanischer Instandhalter**
+* - **Mechanischer Wartungstechniker**
   - :::{raw} html
        <div class="ars-img-row">
          <img src="../../../../_shared/media/images/guanti.png" alt="Handschuhe">

@@ -85,7 +85,7 @@ Afin d'établir avec certitude les compétences et les qualifications des opéra
 
     **Remarque :** Non habilité à intervenir sur des installations électriques sous tension (le cas échéant).
 
-* - **Mainteneur électricien**
+* - **Technicien de maintenance électricien**
   - Technicien qualifié capable de :
     * effectuer des activités de maintenance préventive/corrective sur toutes les parties mécaniques de la machine soumises à maintenance ou réparation ;
     * avoir accès à toutes les parties de la machine pour l'analyse visuelle, le contrôle de l'état des équipements, les réglages et les étalonnages ;

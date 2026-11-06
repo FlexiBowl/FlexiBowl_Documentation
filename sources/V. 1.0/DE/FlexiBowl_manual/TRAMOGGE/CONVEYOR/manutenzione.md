@@ -24,8 +24,8 @@ Reparaturen oder Wartungsarbeiten, die nicht im Handbuch aufgeführt sind, dürf
 
 | Typ | Beschreibung |
 |:--- |:--- |
-| **Planmäßige Wartung** | Alle Tätigkeiten, die der Instandhalter vorbeugend durchführen muss, um den einwandfreien Betrieb der Maschine auf Dauer zu gewährleisten: Inspektionen, Kontrollen, Einstellungen, Reinigung und Schmierung. |
-| **Außerplanmäßige Wartung** | Alle Tätigkeiten, die der Instandhalter durchführen muss, wenn die Maschine es erfordert: Inspektionen, Reparaturen, Wiederherstellung der Nennbetriebsbedingungen oder Austausch einer defekten, ausgefallenen oder verschlissenen Einheit. |
+| **Planmäßige Wartung** | Alle Tätigkeiten, die der Wartungstechniker vorbeugend durchführen muss, um den einwandfreien Betrieb der Maschine auf Dauer zu gewährleisten: Inspektionen, Kontrollen, Einstellungen, Reinigung und Schmierung. |
+| **Außerplanmäßige Wartung** | Alle Tätigkeiten, die der Wartungstechniker durchführen muss, wenn die Maschine es erfordert: Inspektionen, Reparaturen, Wiederherstellung der Nennbetriebsbedingungen oder Austausch einer defekten, ausgefallenen oder verschlissenen Einheit. |
 
 ## Planmäßige Wartung
 
@@ -119,7 +119,7 @@ Müssen Verfahren durchgeführt werden, die nicht im Handbuch beschrieben sind, 
 
 | | |
 |:--- |:--- |
-| **Qualifikation des Bedieners** | Elektrischer Instandhalter |
+| **Qualifikation des Bedieners** | Elektrischer Wartungstechniker |
 | **Zu verwendende Werkzeuge** | Schraubwerkzeuge |
 
 | Phase | Aktion |

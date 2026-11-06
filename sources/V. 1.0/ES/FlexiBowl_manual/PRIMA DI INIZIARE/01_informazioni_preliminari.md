@@ -38,7 +38,7 @@ El incumplimiento de estas indicaciones puede provocar fallos de funcionamiento,
 El FlexiBowl® es un sistema de alimentación flexible de disco giratorio vibrante para el posicionamiento y la orientación aleatorios de los componentes con vistas a la recogida robotizada.
 
 ```{warning}
-Durante el uso, el operario debe:
+Durante el uso, el operador debe:
 - Tener en cuenta las dimensiones físicas del sistema
 - Supervisar los movimientos del robot y del alimentador
 - Prever y gestionar situaciones operativas imprevistas
@@ -51,9 +51,9 @@ La integración del sistema en el entorno de trabajo y la evaluación de riesgos
 ```
 
 (operatori)=
-## Operarios
+## Operadores
 
-Para establecer con certeza las competencias y cualificaciones de los operarios encargados de las distintas tareas (puesta en marcha, limpieza, mantenimiento ordinario), consulte la siguiente tabla:
+Para establecer con certeza las competencias y cualificaciones de los operadores encargados de las distintas tareas (puesta en marcha, limpieza, mantenimiento ordinario), consulte la siguiente tabla:
 
 :::{list-table}
 :header-rows: 1
@@ -68,7 +68,7 @@ Para establecer con certeza las competencias y cualificaciones de los operarios 
 * - **Técnico instalador**
   - Personal encargado del montaje mecánico, de la conexión eléctrica y neumática y de la configuración de la red.
 
-* - **Operario**
+* - **Operador**
   - Personal del usuario formado y habilitado para el uso y la conducción de la máquina con fines productivos, para las actividades para las que ha sido construida y suministrada. Debe ser capaz de realizar todas las operaciones necesarias para el buen funcionamiento de la máquina y para la seguridad propia y la de posibles colaboradores. Debe tener una experiencia comprobada en el uso correcto de este tipo de máquinas y estar formado, informado e instruido al respecto. En caso de duda, debe comunicar cualquier anomalía a su superior.
 
     **Nota:** No está habilitado para realizar ninguna actividad de mantenimiento.
@@ -81,7 +81,7 @@ Para establecer con certeza las competencias y cualificaciones de los operarios 
     * intervenir en los órganos mecánicos para ajustes, mantenimientos y reparaciones;
     * leer esquemas neumáticos e hidráulicos, planos técnicos y listados de repuestos.
 
-    En casos excepcionales, está autorizado a hacer funcionar la máquina con seguridades reducidas. Cuando sea necesario, puede dar al operario instrucciones para el buen uso de la máquina con fines productivos.
+    En casos excepcionales, está autorizado a hacer funcionar la máquina con seguridades reducidas. Cuando sea necesario, puede dar al operador instrucciones para el buen uso de la máquina con fines productivos.
 
     **Nota:** No está habilitado para intervenir en instalaciones eléctricas bajo tensión (si las hay).
 
@@ -89,9 +89,9 @@ Para establecer con certeza las competencias y cualificaciones de los operarios 
   - Técnico cualificado capaz de:
     * realizar actividades de mantenimiento preventivo/correctivo en todas las partes mecánicas de la máquina sujetas a mantenimiento o reparación;
     * tener acceso a todas las partes de la máquina para el análisis visual, el control del estado de los equipos, los ajustes y las calibraciones;
-    * manejar la máquina como el operario;
+    * manejar la máquina como el operador;
     * intervenir en los ajustes y en las instalaciones eléctricas para mantenimiento, reparación y sustitución de piezas desgastadas;
-    * leer esquemas eléctricos y verificar el correcto ciclo funcional. Cuando sea necesario, puede dar al operario instrucciones para el buen uso de la máquina con fines productivos. Puede trabajar con tensión presente en el interior de los cuadros eléctricos, cajas de derivación, aparatos de control, etc. solo si se trata de una persona idónea (PEI). (Véase la norma **EN50110-1**). No realiza la programación de software de sistemas como PLC (lógica o seguridad) ni puede modificar las contraseñas del sistema.
+    * leer esquemas eléctricos y verificar el correcto ciclo funcional. Cuando sea necesario, puede dar al operador instrucciones para el buen uso de la máquina con fines productivos. Puede trabajar con tensión presente en el interior de los cuadros eléctricos, cajas de derivación, aparatos de control, etc. solo si se trata de una persona idónea (PEI). (Véase la norma **EN50110-1**). No realiza la programación de software de sistemas como PLC (lógica o seguridad) ni puede modificar las contraseñas del sistema.
 
 * - **Técnico experto en software**
   - Técnico cualificado capaz de:

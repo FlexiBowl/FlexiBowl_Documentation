@@ -181,7 +181,7 @@ Prefer the **brush diverter** assembly:
 
 ## Mounting procedure
 
-:::{warning} Attenzione
+:::{warning} Warning
 Make sure the FlexiBowl® is **switched off and stationary** before proceeding with the mounting.
 :::
 
@@ -195,7 +195,7 @@ Make sure the FlexiBowl® is **switched off and stationary** before proceeding w
 
 ## Adjustment procedure
 
-:::{warning} Attenzione
+:::{warning} Warning
 Make sure the FlexiBowl® is **switched off and stationary** before proceeding with the adjustment.
 :::
 

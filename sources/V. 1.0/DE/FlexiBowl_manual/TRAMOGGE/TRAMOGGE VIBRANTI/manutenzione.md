@@ -337,7 +337,7 @@ Der Luftspalt wird werkseitig sachgemäß eingestellt; Einstellarbeiten sind nur
 
 | Betriebsdaten | Spezifikationen des Eingriffs |
 | :--- | :--- |
-| **Qualifikation des Bedieners** | Mechanischer Instandhalter |
+| **Qualifikation des Bedieners** | Mechanischer Wartungstechniker |
 | **Zu verwendende Werkzeuge** | Gabelschlüssel |
 
 #### Verfahren zur Einstellung des Luftspalts
@@ -391,7 +391,7 @@ Der Luftspalt wird werkseitig sachgemäß eingestellt; Einstellarbeiten sind nur
 
 | Betriebsdaten | Spezifikationen des Eingriffs |
 | :--- | :--- |
-| **Qualifikation des Bedieners** | Mechanischer Instandhalter |
+| **Qualifikation des Bedieners** | Mechanischer Wartungstechniker |
 | **Zu verwendende Werkzeuge** | Gabelschlüssel |
 
 Die Änderung der Dimensionierung des Blattfederpakets (Anzahl und Dicke der Lagen) dient dazu, die Nutztragfähigkeit des Vibrators zu variieren und anzupassen.
@@ -452,7 +452,7 @@ Die Änderung der Dimensionierung des Blattfederpakets (Anzahl und Dicke der Lag
 
 | Betriebsdaten | Spezifikationen des Eingriffs |
 | :--- | :--- |
-| **Qualifikation des Bedieners** | Mechanischer Instandhalter |
+| **Qualifikation des Bedieners** | Mechanischer Wartungstechniker |
 | **Zu verwendende Werkzeuge** | Gabelschlüssel |
 
 #### Verfahren zum Aus- und Einbau der Wanne

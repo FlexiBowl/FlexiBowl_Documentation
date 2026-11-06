@@ -62,7 +62,7 @@ Some parts involved in the maintenance process described here may have reached {
 | Step | Operation |
 |:----:|-----------|
 | 1 | {ref}`Remove the surface or rigid disc <sost-disco>` |
-| 2 | Remove the flip shield assembly |
+| 2 | Remove the flip screen assembly |
 | 3 | Remove the cover plate of the flip unit (use two of the fixing screws to remove it through the dedicated threaded holes) |
 | 4 | Disconnect, remove the pneumatic connections and dismantle the proportional valve bracket |
 | 5 | Replace the damaged proportional valve with the new one |

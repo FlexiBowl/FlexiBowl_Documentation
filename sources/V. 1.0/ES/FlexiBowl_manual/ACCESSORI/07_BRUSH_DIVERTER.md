@@ -181,7 +181,7 @@ Preferir el conjunto **brush diverter**:
 
 ## Procedimiento de montaje
 
-:::{warning} Attenzione
+:::{warning} Atención
 Asegurarse de que el FlexiBowl® esté **apagado y detenido** antes de proceder con el montaje.
 :::
 
@@ -195,7 +195,7 @@ Asegurarse de que el FlexiBowl® esté **apagado y detenido** antes de proceder 
 
 ## Procedimiento de regulación
 
-:::{warning} Attenzione
+:::{warning} Atención
 Asegurarse de que el FlexiBowl® esté **apagado y detenido** antes de proceder con la regulación.
 :::
 

@@ -33,7 +33,7 @@ Wartung, Fehlersuche und Reparaturen sind ausschließlich autorisiertem Personal
 - Beim Zerlegen die einzelnen Teile mit einem Schildchen kennzeichnen, damit sie wieder korrekt eingebaut werden.
 - Nach jeder Wartung, bei der Verkabelungen und/oder feste und bewegliche Teile getrennt werden, die Übereinstimmung der Nummerierung der festen und beweglichen Teile prüfen.
 - Vor der Wiederinbetriebnahme der Einrichtung nach einem Ausfall diese sorgfältig inspizieren und prüfen, um etwaige Schäden festzustellen.
-- Zusätzlich zu den herkömmlichen Wartungstätigkeiten muss der Instandhalter, wenn vorgesehen, auch vorausschauende Wartungsarbeiten durchführen, bestehend aus instrumentellen Analysen und Spezialkontrollen, um das Auftreten von Ausfällen bestimmter Komponenten rechtzeitig vorherzusagen.
+- Zusätzlich zu den herkömmlichen Wartungstätigkeiten muss der Wartungstechniker, wenn vorgesehen, auch vorausschauende Wartungsarbeiten durchführen, bestehend aus instrumentellen Analysen und Spezialkontrollen, um das Auftreten von Ausfällen bestimmter Komponenten rechtzeitig vorherzusagen.
 
 ## Qualifikation des Wartungspersonals
 

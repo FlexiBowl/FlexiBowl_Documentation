@@ -83,7 +83,7 @@ Si se detectan problemas:
 ::::{list-table}
 :widths: 30 60 60
 :header-rows: 1
-* - {ref}`Cualificación del operario <operatori>`
+* - {ref}`Cualificación del operador <operatori>`
   - {ref}`EPI necesarios <dpi>`
   - Medios de elevación
 
@@ -189,7 +189,7 @@ Para **retirar el embalaje**, proceda como se describe:
 :::
 
 :::{warning}
-Para la operación de elevación manual del FlexiBowl® desde la caja de madera es necesaria la presencia de 2 operarios.
+Para la operación de elevación manual del FlexiBowl® desde la caja de madera es necesaria la presencia de 2 operadores.
 :::
 
 Para la manipulación de la máquina y/o de sus partes, consulte el apartado {ref}`«Transporte del FlexiBowl®» <transflex>`.
@@ -257,7 +257,7 @@ Medida referida únicamente al FlexiBowl®; el rack para la electrónica remota,
 :::
 
 :::{warning}
-La norma **EN ISO 11228-1-2022** prohíbe levantar manualmente cargas superiores a 25 kg (el límite puede ser incluso inferior según el sexo y la edad del operario), por lo que, por razones de seguridad, es obligatorio el uso de máquinas de elevación para los FlexiBowl® que superen este límite. Los FlexiBowl® que superan el límite de 25 kg son los de tamaño 500 y superiores.
+La norma **EN ISO 11228-1-2022** prohíbe levantar manualmente cargas superiores a 25 kg (el límite puede ser incluso inferior según el sexo y la edad del operador), por lo que, por razones de seguridad, es obligatorio el uso de máquinas de elevación para los FlexiBowl® que superen este límite. Los FlexiBowl® que superan el límite de 25 kg son los de tamaño 500 y superiores.
 :::
 
 Los FlexiBowl® de tamaño 500 y superiores están provistos de cáncamos de elevación, que deben utilizarse para el transporte de la máquina desde la caja de embalaje hasta su posición final.

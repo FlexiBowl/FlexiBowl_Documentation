@@ -55,7 +55,7 @@ La position de la plaque d'identification, avec les données principales de la m
 | **Mesure de sécurité** | Moyen qui élimine ou réduit un danger. |
 | **Opérateur** | Personne chargée de conduire la machine incomplète. |
 | **Danger** | Source potentielle de dommage. |
-| **Technicien qualifié / mainteneur spécialisé** | Personne ayant suivi des cours de spécialisation, une formation professionnelle, etc., et experte en installation, mise en service, maintenance, réparations, transport et manutention de la machine incomplète. |
+| **Technicien qualifié / technicien de maintenance spécialisé** | Personne ayant suivi des cours de spécialisation, une formation professionnelle, etc., et experte en installation, mise en service, maintenance, réparations, transport et manutention de la machine incomplète. |
 | **Machine incomplète** | Ensemble qui constitue presque une machine, mais qui ne peut pas à lui seul assurer une application déterminée. Elle est destinée exclusivement à être incorporée ou assemblée à d'autres machines, machines incomplètes ou équipements pour constituer une machine régie par la directive. |
 | **Protecteur** | Barrière physique, conçue comme partie de la machine incomplète, pour assurer la protection. |
 | **Risque** | Combinaison de la probabilité d'un dommage et de sa gravité. |

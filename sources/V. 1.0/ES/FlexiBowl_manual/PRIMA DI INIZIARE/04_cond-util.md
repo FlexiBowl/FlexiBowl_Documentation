@@ -142,13 +142,13 @@ Para preservar la integridad de los componentes:
 ### Obligaciones de los usuarios
 
 El usuario (empresario o empleador) **debe**:
-- tener en cuenta las capacidades y las condiciones de los operarios en relación con su salud y su seguridad;
+- tener en cuenta las capacidades y las condiciones de los operadores en relación con su salud y su seguridad;
 - proporcionar los equipos de protección individual adecuados a cada procedimiento;
 - proporcionar medios y procedimientos de elevación conformes con la normativa;
 - exigir a cada trabajador el cumplimiento de las normas y disposiciones de la empresa en materia de seguridad y de uso de los medios de protección colectiva e individual puestos a su disposición;
 - instruir al personal sobre los procedimientos en caso de accidente;
 - instruir al personal sobre los riesgos residuales presentes;
-- instruir al personal sobre los dispositivos previstos para la seguridad de los operarios;
+- instruir al personal sobre los dispositivos previstos para la seguridad de los operadores;
 - instruir al personal sobre los riesgos de emisión de ruido en el entorno de trabajo;
 - instruir al personal sobre las normas generales de prevención de accidentes previstas por las directivas europeas y por la legislación del país de destino de la máquina.
 
@@ -156,25 +156,25 @@ El usuario (empresario o empleador) **debe**:
 Permitir que trabaje en la máquina únicamente personal que haya leído este manual y esté adecuadamente adiestrado.
 ::: 
 
-### Obligaciones del personal asignado (operarios/mantenedores/técnicos)
+### Obligaciones del personal asignado (operadores/técnicos de mantenimiento/técnicos)
 
 El personal **debe**:
 - Realizar siempre las intervenciones de mantenimiento con las máquinas apagadas. No lubricar los órganos en movimiento.
 - Cuando la máquina esté en funcionamiento, no trabajar cerca con cadenas, pulseras, corbatas u otras prendas que puedan engancharse en los mecanismos.
-- Los operarios con el pelo largo están obligados a recogérselo para evitar que se enganche.
+- Los operadores con el pelo largo están obligados a recogérselo para evitar que se enganche.
 - Realizar las intervenciones en el cuadro eléctrico, en las cajas de derivación, en los cables y en todos los componentes de la instalación eléctrica siempre con el interruptor general apagado.
 - Al poner en marcha la máquina, asegurarse de que no haya ninguna persona dentro de las zonas peligrosas.
 - Durante el funcionamiento, prestar la máxima atención a que no haya personas que puedan acceder directamente a las partes en movimiento.
 - Utilizar de forma adecuada los dispositivos de protección puestos a su disposición por el empleador.
 - Comunicar inmediatamente al empleador, al directivo o al encargado las deficiencias de los dispositivos de seguridad.
 
-### Prohibiciones para el personal asignado (operarios/mantenedores/técnicos)
+### Prohibiciones para el personal asignado (operadores/técnicos de mantenimiento/técnicos)
 
 En particular, el personal **no debe**:
 - utilizar la máquina de forma indebida, es decir, para usos distintos de los indicados en el apartado «Uso previsto»;
 - retirar o modificar sin autorización los dispositivos de seguridad o de señalización;
 - realizar por iniciativa propia operaciones o maniobras que no sean de su competencia o que puedan comprometer su propia seguridad o la de otros trabajadores;
-- llevar pulseras, anillos o cadenas que puedan colgar y ser arrastrados por órganos en movimiento, creando un peligro para el operario;
+- llevar pulseras, anillos o cadenas que puedan colgar y ser arrastrados por órganos en movimiento, creando un peligro para el operador;
 - sustituir o modificar las velocidades de los componentes de la máquina sin que se lo permita un responsable;
 - modificar el ciclo de la máquina;
 - modificar las conexiones eléctricas para anular las seguridades internas;

@@ -66,7 +66,7 @@ On the FlexiBowl® 200 the motor is direct drive, and the spare part supplied co
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Remove the flip shield assembly |
+| 1 | Remove the flip screen assembly |
 | 2 | {ref}`Remove the surface or rigid disc <sost-disco>` |
 | 3 | {ref}`Remove the Backlight <sostbl>` |
 | 4 | Remove the front support screw of the Backlight box |
@@ -128,7 +128,7 @@ For the FlexiBowl® 350 there is a motor unit that also includes the mounting fl
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Remove the flip shield assembly |
+| 1 | Remove the flip screen assembly |
 | 2 | {ref}`Remove the surface or rigid disc <sost-disco>` |
 | 3 | {ref}`Remove the Backlight <sostbl>` |
 | 4 | Remove the front support screw of the Backlight box |
@@ -185,7 +185,7 @@ The larger-size FlexiBowl® units are fitted with a motor unit which, like that 
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Remove the flip shield assembly |
+| 1 | Remove the flip screen assembly |
 | 2 | {ref}`Remove the surface or rigid disc <sost-disco>` |
 | 3 | Remove the cover plate of the flip unit (use two of the fixing screws to remove it through the dedicated threaded holes) |
 | 4 | Remove the pneumatic connections and dismantle the flip unit |

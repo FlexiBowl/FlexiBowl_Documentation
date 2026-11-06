@@ -194,7 +194,7 @@ No trabajar con las manos o con objetos mojados. En caso de incendio, no utiliza
 
 | | |
 |:--- |:--- |
-| **Cualificación del operador** | Mantenedor eléctrico |
+| **Cualificación del operador** | Técnico de mantenimiento eléctrico |
 | **Herramientas que deben utilizarse** | Herramientas de atornillado |
 
 :::{important}

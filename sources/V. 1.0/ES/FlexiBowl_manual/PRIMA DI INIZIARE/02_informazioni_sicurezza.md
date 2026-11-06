@@ -10,7 +10,7 @@ El cumplimiento de todas las normas de seguridad indicadas en esta sección es o
 
 ---
 
-## Área de seguridad del operario
+## Área de seguridad del operador
 
 Las zonas alrededor de la máquina se dividen de la siguiente manera:
 
@@ -22,10 +22,10 @@ Las zonas alrededor de la máquina se dividen de la siguiente manera:
   - Descripción
 
 * - Zonas de mando
-  - Son las zonas en las que el usuario y los demás operarios pueden realizar las operaciones de mando y control de las funciones cíclicas de la máquina («puesto de conducción»), tanto en automático como en semiautomático, actuando sobre los paneles de mando previstos o para la ejecución de operaciones manuales.
+  - Son las zonas en las que el usuario y los demás operadores pueden realizar las operaciones de mando y control de las funciones cíclicas de la máquina («puesto de conducción»), tanto en automático como en semiautomático, actuando sobre los paneles de mando previstos o para la ejecución de operaciones manuales.
 
 * - Zonas de mantenimiento/ajuste
-  - Son las zonas en las que los mantenedores mecánicos pueden realizar operaciones de mantenimiento o ajuste. Estas zonas se consideran de riesgo y no son accesibles durante el funcionamiento normal de la máquina. Los operarios deben conocer perfectamente las advertencias de seguridad y los equipos de protección individual que deben llevar.
+  - Son las zonas en las que los técnicos de mantenimiento mecánicos pueden realizar operaciones de mantenimiento o ajuste. Estas zonas se consideran de riesgo y no son accesibles durante el funcionamiento normal de la máquina. Los operadores deben conocer perfectamente las advertencias de seguridad y los equipos de protección individual que deben llevar.
 
 * - Zonas peligrosas
   - Se consideran como tales todas las zonas en el interior (o alrededor) de la máquina en las que existen riesgos residuales que pueden causar daños a las personas. El acceso a estas zonas está prohibido a cualquier persona durante el funcionamiento de la máquina.
@@ -115,7 +115,7 @@ La ropa de quienes operan o realizan el mantenimiento en la línea debe cumplir 
 
 ## Dispositivos de seguridad
 
-Con el fin de garantizar la total seguridad del operario e impedir el acceso al interior de la máquina cuando esta se encuentra en movimiento, la máquina se ha dotado de una serie de dispositivos de seguridad que, en caso de activarse, provocan su parada total. La máquina ha sido diseñada y equipada con sistemas de seguridad para reducir al mínimo los riesgos del operario.  La máquina está provista de los dispositivos de seguridad descritos en la siguiente tabla. Para la posición de dichos dispositivos, consulte el esquema siguiente.
+Con el fin de garantizar la total seguridad del operador e impedir el acceso al interior de la máquina cuando esta se encuentra en movimiento, la máquina se ha dotado de una serie de dispositivos de seguridad que, en caso de activarse, provocan su parada total. La máquina ha sido diseñada y equipada con sistemas de seguridad para reducir al mínimo los riesgos del operador.  La máquina está provista de los dispositivos de seguridad descritos en la siguiente tabla. Para la posición de dichos dispositivos, consulte el esquema siguiente.
 
 :::{list-table}
 :widths: 10 20 60
@@ -129,7 +129,7 @@ Con el fin de garantizar la total seguridad del operario e impedir el acceso al 
   - Interruptor eléctrico
   - Está situado en el panel de mandos y permite cortar la alimentación eléctrica en caso de:
 
-    * peligro para la integridad del operario;
+    * peligro para la integridad del operador;
     * peligro eléctrico en la máquina;
     * intervenciones de naturaleza mecánica o eléctrica en la máquina.
 
@@ -145,7 +145,7 @@ Con el fin de garantizar la total seguridad del operario e impedir el acceso al 
 :::
 
 :::{warning}
-Debido a la presencia de salientes puntiagudos en las superficies o discos rígidos con Spike, el operario podría estar expuesto al peligro de abrasión y/o corte en caso de contacto con ellos. Utilice los EPI adecuados cuando trabaje cerca de dichas superficies o discos rígidos.
+Debido a la presencia de salientes puntiagudos en las superficies o discos rígidos con Spike, el operador podría estar expuesto al peligro de abrasión y/o corte en caso de contacto con ellos. Utilice los EPI adecuados cuando trabaje cerca de dichas superficies o discos rígidos.
 :::
 
 :::{warning}
@@ -297,10 +297,10 @@ La plataforma superior del bastidor puede presentar una zona caliente de un tama
 
 ### Vibraciones
 
-Las vibraciones producidas por la máquina, según el modo de conducción de la misma, no son peligrosas para la salud de los operarios.
+Las vibraciones producidas por la máquina, según el modo de conducción de la misma, no son peligrosas para la salud de los operadores.
 
 :::{warning}
-Una vibración excesiva solo puede ser causada por una avería mecánica, que debe comunicarse y eliminarse de inmediato, para no comprometer la seguridad de la línea y de los operarios.
+Una vibración excesiva solo puede ser causada por una avería mecánica, que debe comunicarse y eliminarse de inmediato, para no comprometer la seguridad de la línea y de los operadores.
 :::
 
 ### Compatibilidad electromagnética
@@ -315,7 +315,7 @@ Cualquier actividad de mantenimiento en el equipo eléctrico realizada de forma 
 
 ### Riesgos residuales
 
-El diseño de la máquina se ha realizado de modo que se garanticen los requisitos esenciales de seguridad para el operario. La seguridad se ha integrado, en la medida de lo posible, en el diseño y la construcción de la máquina; no obstante, subsisten riesgos frente a los cuales los operarios deben estar protegidos, sobre todo durante las fases de:
+El diseño de la máquina se ha realizado de modo que se garanticen los requisitos esenciales de seguridad para el operador. La seguridad se ha integrado, en la medida de lo posible, en el diseño y la construcción de la máquina; no obstante, subsisten riesgos frente a los cuales los operadores deben estar protegidos, sobre todo durante las fases de:
 
 - transporte e instalación;
 - funcionamiento normal;
@@ -415,7 +415,7 @@ A continuación, para cada riesgo residual se proporciona una descripción, la z
             <li>apertura de los embalajes,</li>
             <li>manipulación de la máquina</li>
         </ul>
-        exponen a los operarios al riesgo de cargas suspendidas y aplastamiento. Estas operaciones deben ser realizadas exclusivamente por personal especializado en el manejo de medios de elevación y adecuadamente adiestrado para ello.
+        exponen a los operadores al riesgo de cargas suspendidas y aplastamiento. Estas operaciones deben ser realizadas exclusivamente por personal especializado en el manejo de medios de elevación y adecuadamente adiestrado para ello.
       </td>
     </tr>
     <tr>
@@ -428,7 +428,7 @@ A continuación, para cada riesgo residual se proporciona una descripción, la z
         </div>
       </td>
       <td>
-        Debido a la presencia de salientes puntiagudos en los <strong>«Rotary Disc»</strong> con Spike, el operario podría estar expuesto al peligro de abrasión y/o corte en caso de contacto con ellos.<br> Utilice los EPI adecuados cuando trabaje cerca de dichos <strong>«Rotary Disc»</strong>.
+        Debido a la presencia de salientes puntiagudos en los <strong>«Rotary Disc»</strong> con Spike, el operador podría estar expuesto al peligro de abrasión y/o corte en caso de contacto con ellos.<br> Utilice los EPI adecuados cuando trabaje cerca de dichos <strong>«Rotary Disc»</strong>.
       </td>
     </tr>
     <tr>
@@ -441,7 +441,7 @@ A continuación, para cada riesgo residual se proporciona una descripción, la z
         </div>
       </td>
       <td>
-        Las operaciones de acceso y mantenimiento de la máquina exponen a los operarios al riesgo eléctrico. Las intervenciones en equipos bajo tensión deben ser realizadas exclusivamente por personal experto y cualificado.<br> Se recomiendan las siguientes medidas de seguridad:
+        Las operaciones de acceso y mantenimiento de la máquina exponen a los operadores al riesgo eléctrico. Las intervenciones en equipos bajo tensión deben ser realizadas exclusivamente por personal experto y cualificado.<br> Se recomiendan las siguientes medidas de seguridad:
         <ul>
             <li>preste la máxima atención a los pictogramas de seguridad relativos al riesgo eléctrico;</li>
             <li>no realice intervenciones de mantenimiento sin haber seccionado previamente la energía eléctrica;</li>
@@ -459,9 +459,9 @@ A continuación, para cada riesgo residual se proporciona una descripción, la z
         </div>
       </td>
       <td>
-        El <strong>«Backlight»</strong> está situado en el interior del cuerpo de la máquina, fuera de la vista del operario, y está casi totalmente apantallado por los resguardos del cuerpo de la máquina.<br>
+        El <strong>«Backlight»</strong> está situado en el interior del cuerpo de la máquina, fuera de la vista del operador, y está casi totalmente apantallado por los resguardos del cuerpo de la máquina.<br>
         <strong>Riesgo residual:</strong><br>
-        El operario puede sufrir daños en la vista si observa durante un periodo prolongado la intensa luz del <strong>«Backlight»</strong>.
+        El operador puede sufrir daños en la vista si observa durante un periodo prolongado la intensa luz del <strong>«Backlight»</strong>.
       </td>
     </tr>
     <tr>

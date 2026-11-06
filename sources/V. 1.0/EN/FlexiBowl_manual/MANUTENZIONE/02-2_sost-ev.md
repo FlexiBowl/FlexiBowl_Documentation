@@ -62,7 +62,7 @@ Some parts involved in the maintenance process described here may have reached {
 | Step | Operation |
 |:----:|-----------|
 | 1 | {ref}`Remove the surface or rigid disc <sost-disco>` |
-| 2 | Remove the flip shield assembly |
+| 2 | Remove the flip screen assembly |
 | 3 | Remove the cover plate of the flip unit (use two of the fixing screws to remove it through the dedicated threaded holes) |
 | 4 | Disconnect and dismantle the solenoid valve assembly |
 | 5 | Separate the solenoid valves from the support bracket and replace the damaged one |

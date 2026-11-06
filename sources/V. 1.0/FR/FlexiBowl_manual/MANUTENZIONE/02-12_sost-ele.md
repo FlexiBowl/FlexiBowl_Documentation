@@ -15,7 +15,7 @@
 * - {ref}`Qualification de l'opérateur <operatori>`
   - {ref}`EPI nécessaires <dpi>`
 
-* - **Mainteneur électricien**
+* - **Technicien de maintenance électricien**
   - :::{raw} html
        <div class="ars-img-row">
          <img src="../../../../_shared/media/images/guanti.png" alt="gants">

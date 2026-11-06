@@ -38,7 +38,7 @@ Some parts involved in the maintenance process described here may have reached {
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Remove the flip shield |
+| 1 | Remove the flip screen |
 | 2 | {ref}`Remove the rigid disc <sost-disco>` |
 | 3 | Remove the front guard |
 | 4 | For a better view, also remove the rear guard; release the shield support to make the work easier. |

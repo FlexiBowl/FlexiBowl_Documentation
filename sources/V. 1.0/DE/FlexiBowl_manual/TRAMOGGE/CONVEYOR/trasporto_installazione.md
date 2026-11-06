@@ -181,7 +181,7 @@ Die erforderlichen Anschlüsse müssen von qualifiziertem und autorisiertem Pers
 :::
 
 Vor dem elektrischen Anschluss sicherstellen, dass:
-- der Instandhalter die im Installationsland geltenden Vorschriften genau kennt;
+- der Wartungstechniker die im Installationsland geltenden Vorschriften genau kennt;
 - Frequenz und Spannung der Maschinenversorgung mit denen des Netzes übereinstimmen;
 - der Querschnitt der elektrischen Kabel für die Stromaufnahme ausreicht;
 - die Versorgungsleitung die maximale Stromaufnahme der Maschine verträgt;
@@ -194,7 +194,7 @@ Nicht mit nassen Händen oder Gegenständen arbeiten. Bei einem Brand kein Wasse
 
 | | |
 |:--- |:--- |
-| **Qualifikation des Bedieners** | Elektrischer Instandhalter |
+| **Qualifikation des Bedieners** | Elektrischer Wartungstechniker |
 | **Zu verwendende Werkzeuge** | Schraubwerkzeuge |
 
 :::{important}

@@ -27,7 +27,7 @@
 * - **Custom Disc**
   - Disco rígido diseñado a medida para una aplicación específica, disponible para los tamaños 200, 350 y 500, que permite simplificar la instalación y reducir la necesidad de reorientar las piezas externamente.
 * - **D.P.I.**
-  - Por Equipo de Protección Individual (acrónimo EPI) se entienden los productos cuya función es proteger al trabajador (operario, mantenedor, técnico, etc.) que los lleva puestos o los porta consigo, frente a riesgos para la salud y la seguridad.
+  - Por Equipo de Protección Individual (acrónimo EPI) se entienden los productos cuya función es proteger al trabajador (operador, técnico de mantenimiento, técnico, etc.) que los lleva puestos o los porta consigo, frente a riesgos para la salud y la seguridad.
 * - **Daisy chain**
   - Conexión en cascada de varios dispositivos en la misma línea de comunicación. En las Bulk Feeder vibrantes, el segundo puerto RS485 del controlador permite conectar varias Bulk Feeder en daisy chain.
 * - **Daño**

@@ -24,8 +24,8 @@ Les éventuelles réparations ou interventions de maintenance non indiquées dan
 
 | Type | Description |
 |:--- |:--- |
-| **Maintenance ordinaire** | Toutes les opérations que le mainteneur doit effectuer à titre préventif pour garantir dans le temps le bon fonctionnement de la machine : inspections, contrôles, réglages, nettoyage et lubrification. |
-| **Maintenance extraordinaire** | Toutes les opérations que le mainteneur doit effectuer lorsque la machine l'exige : inspections, réparations, rétablissement des conditions nominales de fonctionnement ou remplacement d'une unité cassée, défaillante ou usée. |
+| **Maintenance ordinaire** | Toutes les opérations que le technicien de maintenance doit effectuer à titre préventif pour garantir dans le temps le bon fonctionnement de la machine : inspections, contrôles, réglages, nettoyage et lubrification. |
+| **Maintenance extraordinaire** | Toutes les opérations que le technicien de maintenance doit effectuer lorsque la machine l'exige : inspections, réparations, rétablissement des conditions nominales de fonctionnement ou remplacement d'une unité cassée, défaillante ou usée. |
 
 ## Maintenance ordinaire
 
@@ -98,14 +98,14 @@ Aucun des entraînements de la machine ne nécessite de lubrification. Pour les 
 Les interventions de maintenance extraordinaire et les réparations ne doivent être effectuées que par des techniciens qualifiés, formés et autorisés, employés par le Constructeur ou par le centre d'assistance agréé. Ces interventions exigent une connaissance approfondie et spécialisée de la machine, des opérations nécessaires, des risques associés et des procédures correctes pour travailler en sécurité.
 :::
 
-En cas d'événements exceptionnels nécessitant une maintenance extraordinaire, les mainteneurs ordinaires de l'utilisateur doivent :
+En cas d'événements exceptionnels nécessitant une maintenance extraordinaire, les techniciens de maintenance ordinaires de l'utilisateur doivent :
 - vérifier l'état des unités endommagées ou déphasées ;
 - effectuer les opérations décrites dans cette section ;
 - si les opérations à effectuer ne sont pas indiquées dans le manuel, envoyer au Constructeur le compte rendu de l'incident, le résultat de l'inspection et d'éventuelles observations.
 
 Le Constructeur ou le centre d'assistance agréé évaluera chaque cas et conviendra avec le personnel de maintenance de la solution la plus adaptée :
 - le Constructeur envoie un technicien autorisé, formé et qualifié pour effectuer les travaux nécessaires ;
-- ou le Constructeur autorise les mainteneurs ordinaires de l'utilisateur à effectuer les travaux et envoie d'éventuelles instructions supplémentaires.
+- ou le Constructeur autorise les techniciens de maintenance ordinaires de l'utilisateur à effectuer les travaux et envoie d'éventuelles instructions supplémentaires.
 
 :::{warning}
 Les pièces de rechange doivent être commandées auprès du Constructeur. Si le client n'utilise pas de pièces de rechange d'origine ou autorisées par écrit par le Constructeur, ce dernier est dégagé de toute responsabilité quant au fonctionnement de la machine et à la sécurité des opérateurs. Les autorisations et/ou instructions doivent toujours être fournies par écrit : en l'absence d'autorisation écrite, toute intervention est interdite.

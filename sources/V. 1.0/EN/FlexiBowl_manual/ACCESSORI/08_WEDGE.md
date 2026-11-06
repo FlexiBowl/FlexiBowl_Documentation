@@ -14,7 +14,7 @@ Solution to adopt for handling delicate components that may break or deform unde
 
 ## Mounting procedure
 
-:::{warning} Attenzione
+:::{warning} Warning
 Make sure the FlexiBowl® is **switched off and stationary** before proceeding with the mounting.
 :::
 

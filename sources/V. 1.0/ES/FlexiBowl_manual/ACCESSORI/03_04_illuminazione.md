@@ -198,7 +198,7 @@ Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 200, Flexi
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Conector M12](cablaggio_illuminatore)
  
 * - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
@@ -291,7 +291,7 @@ Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 200, Flexi
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Conector M12](cablaggio_illuminatore)
  
 * - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
@@ -386,7 +386,7 @@ Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 200, Flexi
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Conector M12](cablaggio_illuminatore)
  
 * - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
@@ -480,7 +480,7 @@ Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 650, Flexi
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Conector M12](cablaggio_illuminatore)
  
 * - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
@@ -573,7 +573,7 @@ Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 650, Flexi
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Conector M12](cablaggio_illuminatore)
  
 * - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
@@ -666,7 +666,7 @@ Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 650, Flexi
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Conector M12](cablaggio_illuminatore)
  
 * - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
@@ -759,7 +759,7 @@ Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 650, Flexi
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Conector M12](cablaggio_illuminatore)
  
 * - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
@@ -852,7 +852,7 @@ Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 650, Flexi
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Conector M12](cablaggio_illuminatore)
  
 * - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
@@ -945,7 +945,7 @@ Este tamaño de Toplight está indicado para los modelos: FlexiBowl® 650, Flexi
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Conector M12](cablaggio_illuminatore)
  
 * - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1038,7 +1038,7 @@ Este tamaño de Toplight está indicado para los modelos FlexiBowl® 1200
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Conector M12](cablaggio_illuminatore)
  
 * - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1130,7 +1130,7 @@ Este tamaño de Toplight está indicado para los modelos FlexiBowl® 1200
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Conector M12](cablaggio_illuminatore)
  
 * - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1223,7 +1223,7 @@ Este tamaño de Toplight está indicado para los modelos FlexiBowl® 1200
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Conector M12](cablaggio_illuminatore)
  
 * - Configuración de los pines del conector
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1570,15 +1570,15 @@ Cuando se utiliza una rejilla de calibración ARS, la calibración debe realizar
    :widths: 20 50 30
    :header-rows: 1
 
-   * - Illuminatore
-     - Quando usarlo
-     - Esempio
+   * - Iluminador
+     - Cuándo usarlo
+     - Ejemplo
    * - **Toplight**
-     - Utilizzato quando il riconoscimento del componente non può essere effettuato dalla sola forma, ma dai dettagli presenti sull'oggetto. È indicato principalmente per superfici lisce e non riflettenti, o superfici che presentano qualche tipo di marcatura distinguibile.
+     - Se utiliza cuando el reconocimiento del componente no puede realizarse únicamente a partir de la forma, sino a partir de los detalles presentes en el objeto. Está indicado principalmente para superficies lisas y no reflectantes, o superficies que presentan algún tipo de marcado distinguible.
      - .. image:: ../../../../_shared/media/images/TOPLIGHT.png
           :width: 150px
    * - **Backlight**
-     - Il caso d'uso principale del backlight è quando l'oggetto può essere riconosciuto dalla sua silhouette/forma oppure con parti trasparenti.
+     - El caso de uso principal del backlight es cuando el objeto puede reconocerse por su silueta/forma o presenta partes transparentes.
      - .. image:: ../../../../_shared/media/images/BACKLIGHT.png
           :width: 150px
 ```

@@ -13,7 +13,7 @@ Opción montada de serie, adecuada para la manipulación de componentes sin sali
 
 ## Procedimiento de montaje
 
-:::{warning} Attenzione
+:::{warning} Atención
 Asegurarse de que el FlexiBowl® esté **apagado y detenido** antes de proceder con el montaje.
 :::
 
@@ -43,7 +43,7 @@ Asegurarse de que el FlexiBowl® esté **apagado y detenido** antes de proceder 
 
 ## Procedimiento de regulación
 
-:::{warning} Attenzione
+:::{warning} Atención
 Asegurarse de que el FlexiBowl® esté **apagado y detenido** antes de proceder con la regulación.
 :::
 

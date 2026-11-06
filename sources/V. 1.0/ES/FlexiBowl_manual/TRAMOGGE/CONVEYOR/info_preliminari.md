@@ -101,9 +101,9 @@ El Fabricante declina toda responsabilidad por el uso indebido de la máquina y 
 
 | Cualificación | Definición |
 |:--- |:--- |
-| **Operario** | Personal formado por el Fabricante, cualificado para utilizar la máquina en producción. Debe saber realizar todas las operaciones necesarias para el correcto funcionamiento y proteger a sí mismo y a sus compañeros. En caso de duda, comunica las anomalías a su responsable. **No está autorizado a realizar intervenciones de mantenimiento.** |
-| **Técnico de mantenimiento mecánico** | Técnico cualificado para el mantenimiento preventivo y correctivo de todas las partes mecánicas. Puede manejar la máquina como un operario, intervenir en ajustes, mantenimientos y reparaciones mecánicas, y leer esquemas, planos técnicos y listas de repuestos. No está cualificado para intervenir en instalaciones eléctricas bajo tensión. |
-| **Técnico de mantenimiento eléctrico** | Técnico cualificado para el mantenimiento preventivo y correctivo de todas las partes eléctricas. Puede manejar la máquina como un operario, intervenir en ajustes e instalaciones eléctricas y leer los esquemas eléctricos. En presencia de tensión, solo puede trabajar en los cuadros y cajas de derivación si es una persona designada (PEI – EN 50110-1). |
+| **Operador** | Personal formado por el Fabricante, cualificado para utilizar la máquina en producción. Debe saber realizar todas las operaciones necesarias para el correcto funcionamiento y proteger a sí mismo y a sus compañeros. En caso de duda, comunica las anomalías a su responsable. **No está autorizado a realizar intervenciones de mantenimiento.** |
+| **Técnico de mantenimiento mecánico** | Técnico cualificado para el mantenimiento preventivo y correctivo de todas las partes mecánicas. Puede manejar la máquina como un operador, intervenir en ajustes, mantenimientos y reparaciones mecánicas, y leer esquemas, planos técnicos y listas de repuestos. No está cualificado para intervenir en instalaciones eléctricas bajo tensión. |
+| **Técnico de mantenimiento eléctrico** | Técnico cualificado para el mantenimiento preventivo y correctivo de todas las partes eléctricas. Puede manejar la máquina como un operador, intervenir en ajustes e instalaciones eléctricas y leer los esquemas eléctricos. En presencia de tensión, solo puede trabajar en los cuadros y cajas de derivación si es una persona designada (PEI – EN 50110-1). |
 | **Operador de equipos de elevación** | Persona en buen estado de salud, formada e instruida en la manipulación de cargas y en el uso de equipos de elevación. |
 
 Todas las cualificaciones deben entrar en la categoría de **persona formada**: individuo informado, instruido y formado sobre el trabajo y sobre los peligros derivados de un uso indebido, que conoce la importancia de los dispositivos de seguridad, de las normas de prevención de accidentes y de las condiciones de trabajo seguras.
@@ -204,10 +204,10 @@ El nivel de ruido real de la máquina instalada en un proceso productivo difiere
 
 ### Vibraciones
 
-El nivel de vibraciones producido por la máquina es insignificante y no peligroso para la salud de los operarios.
+El nivel de vibraciones producido por la máquina es insignificante y no peligroso para la salud de los operadores.
 
 :::{warning}
-Las vibraciones excesivas solo pueden deberse a una avería mecánica, que debe comunicarse y resolverse de inmediato para no comprometer la seguridad de la máquina y de los operarios.
+Las vibraciones excesivas solo pueden deberse a una avería mecánica, que debe comunicarse y resolverse de inmediato para no comprometer la seguridad de la máquina y de los operadores.
 :::
 
 ### Compatibilidad electromagnética
@@ -220,7 +220,7 @@ Cualquier mantenimiento no conforme en la instalación eléctrica o la sustituci
 
 ### Riesgos residuales
 
-La seguridad se ha integrado en la medida de lo posible en el diseño y la construcción de la máquina; no obstante, subsisten algunos riesgos frente a los cuales deben protegerse los operarios.
+La seguridad se ha integrado en la medida de lo posible en el diseño y la construcción de la máquina; no obstante, subsisten algunos riesgos frente a los cuales deben protegerse los operadores.
 
 | Riesgo | Descripción e indicaciones |
 |:--- |:--- |

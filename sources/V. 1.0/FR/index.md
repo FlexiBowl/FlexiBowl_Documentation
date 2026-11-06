@@ -224,7 +224,7 @@ FlexiBowl_manual/Garanzia.md
 <!--  
 :::{toctree}  
 :hidden:
-:caption: TROUBLESHOOTING
+:caption: DÉPANNAGE
 FlexiBowl_manual/TROUBLESHOOTING/01_risoluzione-problemi.md
 FlexiBowl_manual/TROUBLESHOOTING/02_problemi_meccanici.md
 FlexiBowl_manual/TROUBLESHOOTING/03_problemi_elettrici.md
@@ -242,7 +242,7 @@ FlexiBowl_manual/SMALTIMENTO/smaltimento.md
 <!-- 
 :::{toctree}  
 :hidden:
-:caption: CERTIFICAZIONI 
+:caption: CERTIFICATIONS 
 FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 :::
 -->

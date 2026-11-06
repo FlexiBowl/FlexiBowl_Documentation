@@ -66,7 +66,7 @@ Some parts involved in the maintenance process described here may have reached {
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Remove the flip shield |
+| 1 | Remove the flip screen |
 | 2 | {ref}`Remove the surface or rigid disc <sost-disco>` |
 | 3 | Remove the backlight and unscrew the screw fixing the front of the backlight box to the FlexiBowl® column |
 | 4 | Remove the upper table |
@@ -103,7 +103,7 @@ It is also possible to replace the upper portion of the flip:
 
 | Step | Operation |
 |:----:|-----------|
-| 1 | Remove the flip shield |
+| 1 | Remove the flip screen |
 | 2 | {ref}`Remove the surface or rigid disc <sost-disco>` |
 | 3 | Remove the screws of the guard located on the flip side |
 | 4 | Remove the screws fixing the shield support to the upper platform |

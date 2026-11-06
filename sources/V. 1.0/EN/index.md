@@ -242,7 +242,7 @@ FlexiBowl_manual/SMALTIMENTO/smaltimento.md
 <!-- 
 :::{toctree}  
 :hidden:
-:caption: CERTIFICAZIONI 
+:caption: CERTIFICATIONS 
 FlexiBowl_manual/CERTIFICAZIONI/01_certificazioni.md
 :::
 -->

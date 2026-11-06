@@ -14,7 +14,7 @@ Solution à adopter pour la manutention de composants délicats pouvant se casse
 
 ## Procédure de montage
 
-:::{warning} Attenzione
+:::{warning} Attention
 S'assurer que le FlexiBowl® est **éteint et à l'arrêt** avant de procéder au montage.
 :::
 

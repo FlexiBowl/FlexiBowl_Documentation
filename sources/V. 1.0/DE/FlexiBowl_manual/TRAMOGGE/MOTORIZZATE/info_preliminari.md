@@ -55,7 +55,7 @@ Die Position des Typenschilds mit den wichtigsten Daten der unvollständigen Mas
 | **Sicherheitsmaßnahme** | Mittel, das eine Gefährdung beseitigt oder verringert. |
 | **Bediener** | Person, die mit der Bedienung der unvollständigen Maschine beauftragt ist. |
 | **Gefährdung** | Potenzielle Schadensquelle. |
-| **Qualifizierter Techniker / spezialisierter Instandhalter** | Person, die Fachkurse, Berufsausbildungen usw. absolviert hat und Expertin bzw. Experte für Installation, Inbetriebnahme, Wartung, Reparaturen, Transport und Handhabung der unvollständigen Maschine ist. |
+| **Qualifizierter Techniker / spezialisierter Wartungstechniker** | Person, die Fachkurse, Berufsausbildungen usw. absolviert hat und Expertin bzw. Experte für Installation, Inbetriebnahme, Wartung, Reparaturen, Transport und Handhabung der unvollständigen Maschine ist. |
 | **Unvollständige Maschine** | Gesamtheit, die fast eine Maschine ist, für sich allein aber keine bestimmte Anwendung erfüllen kann. Sie ist ausschließlich dazu bestimmt, in andere Maschinen, unvollständige Maschinen oder Ausrüstungen eingebaut oder mit ihnen zusammengefügt zu werden, um eine unter die Richtlinie fallende Maschine zu bilden. |
 | **Schutzeinrichtung** | Physische Barriere, die als Teil der unvollständigen Maschine konstruiert ist und Schutz bietet. |
 | **Risiko** | Kombination aus der Wahrscheinlichkeit eines Schadens und dessen Schwere. |

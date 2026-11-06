@@ -386,7 +386,7 @@ Stellen Sie sicher, dass die kundenseitige Stromversorgungsleitung zuvor getrenn
 Die Konformität der Verbindung zwischen Maschine und Erdungsanlage liegt vollständig in der Verantwortung und zulasten des Käufers.
 
 :::{attention}
-Die Arbeit darf ausschließlich von spezialisiertem und befugtem Personal (elektrischer Instandhalter) durchgeführt werden.
+Die Arbeit darf ausschließlich von spezialisiertem und befugtem Personal (elektrischer Wartungstechniker) durchgeführt werden.
 :::
 
 Prüfen Sie vor dem elektrischen Anschluss, dass:
@@ -404,7 +404,7 @@ Arbeiten Sie nicht mit nassen Händen oder Gegenständen. Verwenden Sie im Brand
 :widths: 30 70
 
 * - **Qualifikation des Bedieners**
-  - Elektrischer Instandhalter
+  - Elektrischer Wartungstechniker
 
 * - **Erforderliche PSA**
   - <img src="../../../../../_shared/media/images/obbligo_guanti.png" width="80px"> <img src="../../../../../_shared/media/images/obbligo_antiinf.png" width="80px"> <img src="../../../../../_shared/media/images/obbligo_indumenti.png" width="80px">

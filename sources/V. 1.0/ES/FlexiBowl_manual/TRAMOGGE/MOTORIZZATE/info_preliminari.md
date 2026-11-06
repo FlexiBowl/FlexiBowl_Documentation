@@ -53,7 +53,7 @@ La posición de la placa de identificación, con los datos principales de la cua
 | **Marcado** | Símbolo e inscripción para la identificación de la cuasi máquina, aplicados por el fabricante. |
 | **Material** | Producto que se debe manipular. |
 | **Medida de seguridad** | Medio que elimina o reduce un peligro. |
-| **Operario** | Persona encargada de manejar la cuasi máquina. |
+| **Operador** | Persona encargada de manejar la cuasi máquina. |
 | **Peligro** | Fuente potencial de daño. |
 | **Técnico cualificado / técnico de mantenimiento especializado** | Persona que ha realizado cursos de especialización, formación profesional, etc., y es experta en instalación, puesta en servicio, mantenimiento, reparaciones, transporte y manipulación de la cuasi máquina. |
 | **Cuasi máquina** | Conjunto que constituye casi una máquina, pero que no puede por sí solo garantizar una aplicación determinada. Está destinada exclusivamente a ser incorporada o ensamblada con otras máquinas, cuasi máquinas o equipos para constituir una máquina regulada por la directiva. |
@@ -114,7 +114,7 @@ El Fabricante garantiza que sus máquinas están exentas de defectos de material
 - Quedan excluidos de la garantía los daños causados por un uso distinto del indicado en el manual, incluido el mantenimiento no conforme con las instrucciones.
 - La garantía no se reconoce para las cuasi máquinas en las que se hayan realizado modificaciones no autorizadas. Están estrictamente prohibidas las modificaciones o manipulaciones de los dispositivos de seguridad.
 - En caso de daños durante el periodo de garantía, esta solo es válida con el uso de repuestos originales.
-- Las reparaciones solo pueden ser realizadas por operarios cualificados que conozcan la cuasi máquina.
+- Las reparaciones solo pueden ser realizadas por operadores cualificados que conozcan la cuasi máquina.
 
 ## Seguridad
 

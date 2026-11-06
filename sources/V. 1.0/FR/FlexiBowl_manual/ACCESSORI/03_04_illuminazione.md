@@ -198,7 +198,7 @@ Cette taille de Toplight est indiquée pour les modèles : FlexiBowl® 200, Flex
   - 10 µs
  
 * - Commande
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Connecteur M12](cablaggio_illuminatore)
  
 * - Configuration des broches du connecteur
   - 1: 24VDC / 3: GND / 4: PNP
@@ -291,7 +291,7 @@ Cette taille de Toplight est indiquée pour les modèles : FlexiBowl® 200, Flex
   - 10 µs
  
 * - Commande
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Connecteur M12](cablaggio_illuminatore)
  
 * - Configuration des broches du connecteur
   - 1: 24VDC / 3: GND / 4: PNP
@@ -386,7 +386,7 @@ Cette taille de Toplight est indiquée pour les modèles : FlexiBowl® 200, Flex
   - 10 µs
  
 * - Commande
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Connecteur M12](cablaggio_illuminatore)
  
 * - Configuration des broches du connecteur
   - 1: 24VDC / 3: GND / 4: PNP
@@ -480,7 +480,7 @@ Cette taille de Toplight est indiquée pour les modèles : FlexiBowl® 650, Flex
   - 10 µs
  
 * - Commande
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Connecteur M12](cablaggio_illuminatore)
  
 * - Configuration des broches du connecteur
   - 1: 24VDC / 3: GND / 4: PNP
@@ -573,7 +573,7 @@ Cette taille de Toplight est indiquée pour les modèles : FlexiBowl® 650, Flex
   - 10 µs
  
 * - Commande
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Connecteur M12](cablaggio_illuminatore)
  
 * - Configuration des broches du connecteur
   - 1: 24VDC / 3: GND / 4: PNP
@@ -666,7 +666,7 @@ Cette taille de Toplight est indiquée pour les modèles : FlexiBowl® 650, Flex
   - 10 µs
  
 * - Commande
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Connecteur M12](cablaggio_illuminatore)
  
 * - Configuration des broches du connecteur
   - 1: 24VDC / 3: GND / 4: PNP
@@ -759,7 +759,7 @@ Cette taille de Toplight est indiquée pour les modèles : FlexiBowl® 650, Flex
   - 10 µs
  
 * - Commande
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Connecteur M12](cablaggio_illuminatore)
  
 * - Configuration des broches du connecteur
   - 1: 24VDC / 3: GND / 4: PNP
@@ -852,7 +852,7 @@ Cette taille de Toplight est indiquée pour les modèles : FlexiBowl® 650, Flex
   - 10 µs
  
 * - Commande
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Connecteur M12](cablaggio_illuminatore)
  
 * - Configuration des broches du connecteur
   - 1: 24VDC / 3: GND / 4: PNP
@@ -945,7 +945,7 @@ Cette taille de Toplight est indiquée pour les modèles : FlexiBowl® 650, Flex
   - 10 µs
  
 * - Commande
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Connecteur M12](cablaggio_illuminatore)
  
 * - Configuration des broches du connecteur
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1038,7 +1038,7 @@ Cette taille de Toplight est indiquée pour les modèles FlexiBowl® 1200
   - 10 µs
  
 * - Commande
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Connecteur M12](cablaggio_illuminatore)
  
 * - Configuration des broches du connecteur
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1130,7 +1130,7 @@ Cette taille de Toplight est indiquée pour les modèles FlexiBowl® 1200
   - 10 µs
  
 * - Commande
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Connecteur M12](cablaggio_illuminatore)
  
 * - Configuration des broches du connecteur
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1223,7 +1223,7 @@ Cette taille de Toplight est indiquée pour les modèles FlexiBowl® 1200
   - 10 µs
  
 * - Commande
-  - [Connettore M12](cablaggio_illuminatore)
+  - [Connecteur M12](cablaggio_illuminatore)
  
 * - Configuration des broches du connecteur
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1570,15 +1570,15 @@ Lorsqu'une grille d'étalonnage ARS est utilisée, l'étalonnage doit être effe
    :widths: 20 50 30
    :header-rows: 1
 
-   * - Illuminatore
-     - Quando usarlo
-     - Esempio
+   * - Éclairage
+     - Quand l'utiliser
+     - Exemple
    * - **Toplight**
-     - Utilizzato quando il riconoscimento del componente non può essere effettuato dalla sola forma, ma dai dettagli presenti sull'oggetto. È indicato principalmente per superfici lisce e non riflettenti, o superfici che presentano qualche tipo di marcatura distinguibile.
+     - Utilisé lorsque la reconnaissance du composant ne peut pas se faire à partir de la seule forme, mais à partir des détails présents sur l'objet. Il est indiqué principalement pour les surfaces lisses et non réfléchissantes, ou les surfaces présentant un marquage distinguable.
      - .. image:: ../../../../_shared/media/images/TOPLIGHT.png
           :width: 150px
    * - **Backlight**
-     - Il caso d'uso principale del backlight è quando l'oggetto può essere riconosciuto dalla sua silhouette/forma oppure con parti trasparenti.
+     - Le principal cas d'usage du backlight est celui où l'objet peut être reconnu par sa silhouette/forme ou comporte des parties transparentes.
      - .. image:: ../../../../_shared/media/images/BACKLIGHT.png
           :width: 150px
 ```

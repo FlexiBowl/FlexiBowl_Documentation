@@ -14,7 +14,7 @@ Lösung für die Handhabung empfindlicher Bauteile, die unter der Einwirkung des
 
 ## Montageverfahren
 
-:::{warning} Attenzione
+:::{warning} Achtung
 Vor der Montage sicherstellen, dass der FlexiBowl® **ausgeschaltet ist und stillsteht**.
 :::
 

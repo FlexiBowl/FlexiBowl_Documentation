@@ -510,7 +510,7 @@ La empresa fabricante declina toda responsabilidad por el uso indebido de la má
   <div class="isw-profile">
     <div class="isw-profile-header">
       <i class="ph ph-wrench" style="color:#2980b9;font-size:1.1rem;"></i>
-      <span class="isw-profile-role">Mantenedor mecánico</span>
+      <span class="isw-profile-role">Técnico de mantenimiento mecánico</span>
     </div>
     <div class="isw-profile-body">
       Técnico cualificado para actividades preventivas/correctivas en partes mecánicas. Accede a todas las partes de la máquina para el análisis visual, el ajuste y la calibración. Lee esquemas neumáticos/oleohidráulicos, planos técnicos y listas de repuestos. En casos extraordinarios puede operar con seguridades reducidas.
@@ -521,7 +521,7 @@ La empresa fabricante declina toda responsabilidad por el uso indebido de la má
   <div class="isw-profile">
     <div class="isw-profile-header">
       <i class="ph ph-lightning" style="color:#2980b9;font-size:1.1rem;"></i>
-      <span class="isw-profile-role">Mantenedor eléctrico</span>
+      <span class="isw-profile-role">Técnico de mantenimiento eléctrico</span>
     </div>
     <div class="isw-profile-body">
       Técnico cualificado para el mantenimiento preventivo/correctivo de la instalación eléctrica. Lee los esquemas eléctricos y verifica los ciclos funcionales. Puede trabajar bajo tensión en los cuadros eléctricos <strong>solo si posee la idoneidad PEI (norma EN 50110-1)</strong>.
@@ -710,7 +710,7 @@ La ropa del personal debe cumplir los requisitos esenciales previstos por el **R
   </div>
   <div class="isw-zone">
     <div class="isw-zone-label">Zonas de mantenimiento / ajuste</div>
-    <div class="isw-zone-desc">Accesibles solo para mantenedores mecánicos y eléctricos cualificados para operaciones de configuración. Permanecen vedadas durante el ciclo de producción estándar.</div>
+    <div class="isw-zone-desc">Accesibles solo para técnicos de mantenimiento mecánicos y eléctricos cualificados para operaciones de configuración. Permanecen vedadas durante el ciclo de producción estándar.</div>
   </div>
   <div class="isw-zone">
     <div class="isw-zone-label">Zonas peligrosas</div>

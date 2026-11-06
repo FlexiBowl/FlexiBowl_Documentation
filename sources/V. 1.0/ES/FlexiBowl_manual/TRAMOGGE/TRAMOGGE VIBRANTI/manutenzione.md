@@ -159,7 +159,7 @@ Cuando la máquina esté en mantenimiento, para evitar que pueda ponerse en func
       <div class="isw-timeline-arrow"></div>
       <div class="isw-timeline-card">
         <span class="isw-symbol-label">EPI</span>
-        <div class="isw-symbol-desc">Los mantenedores deben llevar obligatoriamente todos los equipos de protección individual necesarios (guantes, gafas, monos) para la actividad que se vaya a realizar.</div>
+        <div class="isw-symbol-desc">Los técnicos de mantenimiento deben llevar obligatoriamente todos los equipos de protección individual necesarios (guantes, gafas, monos) para la actividad que se vaya a realizar.</div>
       </div>
     </div>
     <div class="isw-timeline-item">
@@ -179,7 +179,7 @@ Cuando la máquina esté en mantenimiento, para evitar que pueda ponerse en func
     <div class="isw-timeline-item">
       <div class="isw-timeline-card">
         <span class="isw-symbol-label">Competencia</span>
-        <div class="isw-symbol-desc">El mantenedor debe realizar solo las operaciones de su competencia (Mecánica, Eléctrica, Fluídica) para las que esté expresamente autorizado, utilizando la instrumentación adecuada para la búsqueda de averías.</div>
+        <div class="isw-symbol-desc">El técnico de mantenimiento debe realizar solo las operaciones de su competencia (Mecánica, Eléctrica, Fluídica) para las que esté expresamente autorizado, utilizando la instrumentación adecuada para la búsqueda de averías.</div>
       </div>
     </div>
   </div>
@@ -304,7 +304,7 @@ La limpieza general de la máquina debe realizarse cada vez que se cambie el tip
 El mantenimiento extraordinario y la reparación de la máquina están reservados a técnicos cualificados, instruidos y autorizados, empleados del Fabricante o del centro de asistencia autorizado.
 :::
 
-Si se producen eventos excepcionales que requieran intervenciones extraordinarias, los mantenedores internos del usuario deben:
+Si se producen eventos excepcionales que requieran intervenciones extraordinarias, los técnicos de mantenimiento internos del usuario deben:
 1. Verificar con precisión el estado de los grupos dañados o desfasados.
 2. Realizar exclusivamente las operaciones descritas en este apartado, si están autorizados.
 3. Si las operaciones no están contempladas en este manual, remitir al Fabricante un informe detallado de los hechos, el resultado de la inspección y las observaciones detectadas.
@@ -337,7 +337,7 @@ El entrehierro viene calibrado adecuadamente de fábrica; los ajustes solo son n
 
 | Datos operativos | Especificaciones de la intervención |
 | :--- | :--- |
-| **Cualificación del operador** | Mantenedor mecánico |
+| **Cualificación del operador** | Técnico de mantenimiento mecánico |
 | **Herramientas que se deben utilizar** | Llave de boca |
 
 #### Procedimiento de ajuste del entrehierro
@@ -391,7 +391,7 @@ El entrehierro viene calibrado adecuadamente de fábrica; los ajustes solo son n
 
 | Datos operativos | Especificaciones de la intervención |
 | :--- | :--- |
-| **Cualificación del operador** | Mantenedor mecánico |
+| **Cualificación del operador** | Técnico de mantenimiento mecánico |
 | **Herramientas que se deben utilizar** | Llave de boca |
 
 La modificación del dimensionamiento del paquete de ballestas (número y espesor de las hojas) sirve para variar y adecuar la capacidad útil del vibrador.
@@ -452,7 +452,7 @@ La modificación del dimensionamiento del paquete de ballestas (número y espeso
 
 | Datos operativos | Especificaciones de la intervención |
 | :--- | :--- |
-| **Cualificación del operador** | Mantenedor mecánico |
+| **Cualificación del operador** | Técnico de mantenimiento mecánico |
 | **Herramientas que se deben utilizar** | Llave de boca |
 
 #### Procedimiento de desmontaje y montaje de la cubeta

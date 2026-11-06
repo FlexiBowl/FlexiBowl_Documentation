@@ -4,14 +4,14 @@
 La maintenance extraordinaire et la réparation de la machine sont réservées à des techniciens qualifiés, formés et autorisés, employés par le Constructeur ou par le centre de service agréé. Ces interventions exigent une connaissance approfondie et spécialisée des machines, des opérations nécessaires, des risques associés et des procédures correctes pour travailler en sécurité.
 :::
 
-Si des événements exceptionnels surviennent et nécessitent des interventions de maintenance extraordinaire, les mainteneurs ordinaires de l'utilisateur doivent suivre ces procédures :
+Si des événements exceptionnels surviennent et nécessitent des interventions de maintenance extraordinaire, les techniciens de maintenance ordinaires de l'utilisateur doivent suivre ces procédures :
 - vérifier l'état des groupes endommagés ou déphasés ;
 - effectuer les opérations décrites dans ce paragraphe ;
 - si les opérations à effectuer ne sont pas prévues dans ce manuel, envoyer au Constructeur le compte rendu des faits survenus, le résultat de l'inspection et les éventuelles observations.
 
-Le Constructeur ou le centre de service agréé évaluera la situation au cas par cas. Il conviendra ensuite avec les mainteneurs ordinaires du type d'intervention à effectuer, en choisissant la solution la plus appropriée parmi celles énumérées ci-dessous :
+Le Constructeur ou le centre de service agréé évaluera la situation au cas par cas. Il conviendra ensuite avec les techniciens de maintenance ordinaires du type d'intervention à effectuer, en choisissant la solution la plus appropriée parmi celles énumérées ci-dessous :
 - le Constructeur envoie un technicien agréé, formé et qualifié pour effectuer les interventions nécessaires ;
-- ou bien le Constructeur autorise les mainteneurs ordinaires de l'utilisateur à effectuer les interventions, en leur envoyant d'éventuelles instructions supplémentaires.
+- ou bien le Constructeur autorise les techniciens de maintenance ordinaires de l'utilisateur à effectuer les interventions, en leur envoyant d'éventuelles instructions supplémentaires.
 
 :::{warning}
 Les pièces de rechange à remplacer doivent être commandées auprès d'ARS S.r.l.

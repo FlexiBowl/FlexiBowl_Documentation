@@ -156,7 +156,7 @@ L'utilisateur (entrepreneur ou employeur) **doit** :
 Ne faire opérer sur la machine que du personnel ayant pris connaissance du présent manuel et formé de manière appropriée.
 ::: 
 
-### Obligations du personnel affecté (opérateurs/mainteneurs/techniciens)
+### Obligations du personnel affecté (opérateurs/techniciens de maintenance/techniciens)
 
 Le personnel **doit** :
 - Effectuer toujours les interventions de maintenance machines éteintes. Ne pas lubrifier les organes en mouvement.
@@ -168,7 +168,7 @@ Le personnel **doit** :
 - Utiliser de manière appropriée les dispositifs de protection mis à disposition par l'employeur.
 - Signaler immédiatement à l'employeur, au dirigeant ou au préposé les déficiences des dispositifs de sécurité.
 
-### Interdictions pour le personnel affecté (opérateurs/mainteneurs/techniciens)
+### Interdictions pour le personnel affecté (opérateurs/techniciens de maintenance/techniciens)
 
 En particulier, le personnel **ne doit pas** :
 - utiliser la machine de manière inappropriée, c'est-à-dire pour des usages différents de ceux indiqués au paragraphe « Utilisation prévue » ;

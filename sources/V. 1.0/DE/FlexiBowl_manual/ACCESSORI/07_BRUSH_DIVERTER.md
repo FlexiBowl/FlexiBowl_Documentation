@@ -181,7 +181,7 @@ Die Baugruppe **Brush Diverter** ist zu bevorzugen:
 
 ## Montageverfahren
 
-:::{warning} Attenzione
+:::{warning} Achtung
 Vor der Montage sicherstellen, dass der FlexiBowl® **ausgeschaltet ist und stillsteht**.
 :::
 
@@ -195,7 +195,7 @@ Vor der Montage sicherstellen, dass der FlexiBowl® **ausgeschaltet ist und stil
 
 ## Einstellverfahren
 
-:::{warning} Attenzione
+:::{warning} Achtung
 Vor der Einstellung sicherstellen, dass der FlexiBowl® **ausgeschaltet ist und stillsteht**.
 :::
 

@@ -291,7 +291,7 @@ This Toplight size is suitable for the following models: FlexiBowl® 200, FlexiB
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12 connector](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -386,7 +386,7 @@ This Toplight size is suitable for the following models: FlexiBowl® 200, FlexiB
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12 connector](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -480,7 +480,7 @@ This Toplight size is suitable for the following models: FlexiBowl® 650, FlexiB
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12 connector](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -573,7 +573,7 @@ This Toplight size is suitable for the following models: FlexiBowl® 650, FlexiB
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12 connector](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -666,7 +666,7 @@ This Toplight size is suitable for the following models: FlexiBowl® 650, FlexiB
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12 connector](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -759,7 +759,7 @@ This Toplight size is suitable for the following models: FlexiBowl® 650, FlexiB
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12 connector](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -852,7 +852,7 @@ This Toplight size is suitable for the following models: FlexiBowl® 650, FlexiB
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12 connector](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -945,7 +945,7 @@ This Toplight size is suitable for the following models: FlexiBowl® 650, FlexiB
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12 connector](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1038,7 +1038,7 @@ This Toplight size is suitable for the FlexiBowl® 1200 models
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12 connector](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1130,7 +1130,7 @@ This Toplight size is suitable for the FlexiBowl® 1200 models
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12 connector](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP
@@ -1223,7 +1223,7 @@ This Toplight size is suitable for the FlexiBowl® 1200 models
   - 10 µs
  
 * - Control
-  - [Connettore M12](cablaggio_illuminatore)
+  - [M12 connector](cablaggio_illuminatore)
  
 * - Connector pin configuration
   - 1: 24VDC / 3: GND / 4: PNP

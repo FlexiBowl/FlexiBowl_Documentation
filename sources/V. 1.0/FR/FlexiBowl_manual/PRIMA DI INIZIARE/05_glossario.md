@@ -23,7 +23,7 @@
 * - **Custom Disc**
   - Disque rigide conçu sur mesure pour une application spécifique, disponible pour les tailles 200, 350 et 500, qui permet de simplifier l'installation et de réduire le besoin de réorienter les pièces à l'extérieur.
 * - **D.P.I.**
-  - Par Équipement de Protection Individuelle (sigle EPI), on entend les produits qui ont pour fonction de protéger le travailleur (opérateur, mainteneur, technicien, etc.) qui les porte ou les a sur lui, contre les risques pour la santé et la sécurité.
+  - Par Équipement de Protection Individuelle (sigle EPI), on entend les produits qui ont pour fonction de protéger le travailleur (opérateur, technicien de maintenance, technicien, etc.) qui les porte ou les a sur lui, contre les risques pour la santé et la sécurité.
 * - **Daisy chain**
   - Raccordement en cascade de plusieurs dispositifs sur la même ligne de communication. Sur les Bulk Feeder vibrants, le second port RS485 du contrôleur permet le raccordement de plusieurs Bulk Feeder en daisy chain.
 * - **Danger**
