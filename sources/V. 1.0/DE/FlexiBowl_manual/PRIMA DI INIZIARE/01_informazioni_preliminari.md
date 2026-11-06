@@ -45,7 +45,7 @@ Während der Nutzung muss der Bediener:
 - die für Industrieroboter und Maschinen geltenden Sicherheitsnormen einhalten
 ```
 ```{warning}
-**ARS S.r.l. lehnt jede Haftung für Personen- oder Sachschäden ab, die aus der Bewegung von Maschinen und Systemen entstehen, die an die FlexiVision-One-Software angeschlossen sind.**
+**ARS S.r.l. lehnt jede Haftung für Schäden an Personen oder Sachen ab, die sich aus der Bewegung des FlexiBowl® ergeben.**
 
 Die Integration des Systems in die Arbeitsumgebung und die Risikobewertung liegen in der Verantwortung des Systemintegrators und des Endanwenders.
 ```

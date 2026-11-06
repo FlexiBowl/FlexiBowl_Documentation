@@ -45,7 +45,7 @@ Durante el uso, el operario debe:
 - Cumplir las normas de seguridad aplicables a robots y maquinaria industrial
 ```
 ```{warning}
-**ARS S.r.l. declina toda responsabilidad por daños a personas o bienes derivados del movimiento de máquinas y sistemas conectados al software FlexiVision One.**
+**ARS S.r.l. declina toda responsabilidad por daños a personas o bienes derivados del movimiento de FlexiBowl®.**
 
 La integración del sistema en el entorno de trabajo y la evaluación de riesgos son responsabilidad del integrador de sistemas y del usuario final.
 ```
