@@ -181,6 +181,32 @@ En el caso de modelos personalizados, los componentes pueden diferir, parcial o 
 
 ---
 
+(compatibilita-tramogge)=
+# **Compatibilidad entre tolvas y FlexiBowl®**
+
+Esta página indica qué tolvas de alimentación pueden combinarse con cada tamaño de FlexiBowl®. La tolva debe elegirse según el tamaño del FlexiBowl®: una tolva mayor que la indicada no está prevista para los tamaños inferiores.
+
+## Bulk Feeders vibratorios
+
+| Tolva | FlexiBowl® 200 | FlexiBowl® 350 | FlexiBowl® 500 | FlexiBowl® 650 | FlexiBowl® 800 | FlexiBowl® 1200 |
+|---|---|---|---|---|---|---|
+| Bulk Feeder PLÁSTICO 1,5 l | ✓ |  |  |  |  |  |
+| Bulk Feeder INOX 3 l |  | ✓ | ✓ |  |  |  |
+| Bulk Feeder INOX 5 l |  | ✓ | ✓ |  |  |  |
+| Bulk Feeder INOX 10 l |  | ✓ | ✓ | ✓ |  |  |
+| Bulk Feeder INOX 20 l |  |  | ✓ | ✓ | ✓ |  |
+| Bulk Feeder INOX 40 l |  |  |  | ✓ | ✓ | ✓ |
+| Bulk Feeder Lowered Wide |  |  |  | ✓ | ✓ | ✓ |
+
+## Notas
+
+- Los accesorios de los Bulk Feeders (versión 110 V, recubrimiento PU, compuerta dosificadora, protección de manos, fotocélulas, kit antivibración) siguen la compatibilidad del tamaño de cuba al que se refieren. Véase {ref}`Accesorios y opciones <tramoggia-accessori>`.
+- El Bulk Feeder de 1,5 l es de plástico y no admite los accesorios indicados.
+- Para la compatibilidad de los accesorios del FlexiBowl® (iluminación, desviadores, soplado, discos) véase {ref}`compatibility`.
+- En caso de duda o de configuraciones no indicadas, contacte con el soporte de ARS.
+
+---
+
 ## Uso previsto 
 
 El Bulk Feeder está disponible en seis modelos base. Pueden realizarse modelos personalizados, derivados de los básicos pero distintos en dimensiones y prestaciones, previa consulta con las necesidades del usuario.

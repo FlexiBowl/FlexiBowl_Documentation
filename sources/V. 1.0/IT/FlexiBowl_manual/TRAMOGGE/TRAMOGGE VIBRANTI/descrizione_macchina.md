@@ -181,6 +181,32 @@ Nel caso di modelli personalizzati i componenti potrebbero differire, parzialmen
 
 ---
 
+(compatibilita-tramogge)=
+# **Compatibilità tra tramogge e FlexiBowl®**
+
+Questa pagina indica quali tramogge di alimentazione possono essere abbinate a ciascuna taglia di FlexiBowl®. La scelta della tramoggia dipende dalla taglia del FlexiBowl®: una tramoggia più grande di quella indicata non è prevista per le taglie inferiori.
+
+## Bulk Feeder vibranti
+
+| Tramoggia | FlexiBowl® 200 | FlexiBowl® 350 | FlexiBowl® 500 | FlexiBowl® 650 | FlexiBowl® 800 | FlexiBowl® 1200 |
+|---|---|---|---|---|---|---|
+| Bulk Feeder PLASTICA 1,5 l | ✓ |  |  |  |  |  |
+| Bulk Feeder INOX 3 l |  | ✓ | ✓ |  |  |  |
+| Bulk Feeder INOX 5 l |  | ✓ | ✓ |  |  |  |
+| Bulk Feeder INOX 10 l |  | ✓ | ✓ | ✓ |  |  |
+| Bulk Feeder INOX 20 l |  |  | ✓ | ✓ | ✓ |  |
+| Bulk Feeder INOX 40 l |  |  |  | ✓ | ✓ | ✓ |
+| Bulk Feeder Lowered Wide |  |  |  | ✓ | ✓ | ✓ |
+
+## Note
+
+- Gli accessori delle Bulk Feeder (versione 110 V, rivestimento PU, barriera dosatrice, protezione mani, fotocellule, kit antivibrazione) seguono la compatibilità della taglia di vasca a cui si riferiscono. Vedi {ref}`Accessori e Opzioni <tramoggia-accessori>`.
+- Le Bulk Feeder da 1,5 l sono in plastica e non prevedono gli accessori elencati.
+- Per la compatibilità degli accessori del FlexiBowl® (illuminazione, deviatori, soffi, dischi) vedi {ref}`compatibility`.
+- In caso di dubbio o di configurazioni non riportate, contattare l'assistenza ARS.
+
+---
+
 ## Uso Previsto 
 
 La Bulk Feeder è disponibile in sei modelli base. Modelli personalizzati, derivanti da quelli di base ma differenti dal punto di vista dimensionale e prestazionale, sono realizzabili previo confronto con le richieste dell’utilizzatore.

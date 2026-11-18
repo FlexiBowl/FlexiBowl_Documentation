@@ -180,6 +180,30 @@ Dans le cas de modèles personnalisés, les composants peuvent différer, en par
 * **Commande électrique :** Pour ce faire, les vibrateurs ont besoin d'un contrôleur qui convertit le courant alternatif en courant d'impulsion, et qui règle également la vitesse du système lui-même.
 
 ---
+(compatibilita-tramogge)=
+# **Compatibilité entre trémies et FlexiBowl®**
+
+Cette page indique quelles trémies d'alimentation peuvent être associées à chaque taille de FlexiBowl®. La trémie doit être choisie en fonction de la taille du FlexiBowl® : une trémie plus grande que celle indiquée n'est pas prévue pour les tailles inférieures.
+
+## Bulk Feeders vibrants
+
+| Trémie | FlexiBowl® 200 | FlexiBowl® 350 | FlexiBowl® 500 | FlexiBowl® 650 | FlexiBowl® 800 | FlexiBowl® 1200 |
+|---|---|---|---|---|---|---|
+| Bulk Feeder PLASTIQUE 1,5 l | ✓ |  |  |  |  |  |
+| Bulk Feeder INOX 3 l |  | ✓ | ✓ |  |  |  |
+| Bulk Feeder INOX 5 l |  | ✓ | ✓ |  |  |  |
+| Bulk Feeder INOX 10 l |  | ✓ | ✓ | ✓ |  |  |
+| Bulk Feeder INOX 20 l |  |  | ✓ | ✓ | ✓ |  |
+| Bulk Feeder INOX 40 l |  |  |  | ✓ | ✓ | ✓ |
+| Bulk Feeder Lowered Wide |  |  |  | ✓ | ✓ | ✓ |
+
+## Notes
+
+- Les accessoires des Bulk Feeders (version 110 V, revêtement PU, barrière doseuse, protection des mains, cellules photoélectriques, kit antivibration) suivent la compatibilité de la taille de cuve concernée. Voir {ref}`Accessoires et options <tramoggia-accessori>`.
+- Le Bulk Feeder de 1,5 l est en plastique et ne prévoit pas les accessoires listés.
+- Pour la compatibilité des accessoires du FlexiBowl® (éclairage, déviateurs, soufflage, disques), voir {ref}`compatibility`.
+- En cas de doute ou de configurations non listées, contacter l'assistance ARS.
+---
 
 ## Utilisation prévue 
 

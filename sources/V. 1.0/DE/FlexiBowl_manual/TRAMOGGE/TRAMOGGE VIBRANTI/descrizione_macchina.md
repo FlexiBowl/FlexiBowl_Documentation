@@ -181,6 +181,32 @@ Bei kundenspezifischen Modellen können die Komponenten ganz oder teilweise von 
 
 ---
 
+(compatibilita-tramogge)=
+# **Kompatibilität von Zuführbehältern und FlexiBowl®**
+
+Diese Seite zeigt, welche Zuführbehälter mit welcher FlexiBowl®-Größe kombiniert werden können. Der Behälter ist nach der FlexiBowl®-Größe zu wählen: Ein größerer als der angegebene Behälter ist für kleinere Größen nicht vorgesehen.
+
+## Vibrations-Bulk-Feeder
+
+| Behälter | FlexiBowl® 200 | FlexiBowl® 350 | FlexiBowl® 500 | FlexiBowl® 650 | FlexiBowl® 800 | FlexiBowl® 1200 |
+|---|---|---|---|---|---|---|
+| Bulk Feeder KUNSTSTOFF 1,5 l | ✓ |  |  |  |  |  |
+| Bulk Feeder INOX 3 l |  | ✓ | ✓ |  |  |  |
+| Bulk Feeder INOX 5 l |  | ✓ | ✓ |  |  |  |
+| Bulk Feeder INOX 10 l |  | ✓ | ✓ | ✓ |  |  |
+| Bulk Feeder INOX 20 l |  |  | ✓ | ✓ | ✓ |  |
+| Bulk Feeder INOX 40 l |  |  |  | ✓ | ✓ | ✓ |
+| Bulk Feeder Lowered Wide |  |  |  | ✓ | ✓ | ✓ |
+
+## Hinweise
+
+- Das Zubehör der Bulk Feeder (110-V-Version, PU-Beschichtung, Dosierklappe, Handschutz, Lichtschranken, Schwingungsdämpfungs-Kit) folgt der Kompatibilität der jeweiligen Behältergröße. Siehe {ref}`Zubehör und Optionen <tramoggia-accessori>`.
+- Der Bulk Feeder 1,5 l besteht aus Kunststoff und unterstützt das aufgeführte Zubehör nicht.
+- Zur Kompatibilität des FlexiBowl®-Zubehörs (Beleuchtung, Weichen, Luftdüsen, Scheiben) siehe {ref}`compatibility`.
+- Bei Zweifeln oder nicht aufgeführten Konfigurationen den ARS-Support kontaktieren.
+
+---
+
 ## Bestimmungsgemäße Verwendung 
 
 Der Bulk Feeder ist in sechs Basismodellen erhältlich. Kundenspezifische Modelle, die von den Basismodellen abgeleitet sind, sich aber in Abmessungen und Leistung unterscheiden, sind nach Abstimmung mit den Anforderungen des Anwenders realisierbar.

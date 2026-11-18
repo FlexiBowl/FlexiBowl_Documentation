@@ -178,6 +178,31 @@ In the case of custom models, the components may differ, partially or totally, f
 * **Base structure:** The linear vibrating base consists of two bodies joined together by leaf springs.
 * **Vibration mechanism:** Operation relies on an electromagnet fixed to the stationary body, which attracts and releases the moving body. This action generates the vibration that makes the parts contained inside the tank advance (the tank is positioned on the moving body and locked by means of clamps).
 * **Electrical control:** To achieve this, the vibrators need a controller that converts alternating current into pulse current, as well as regulating the speed of the system itself.
+---
+
+(compatibilita-tramogge)=
+# **Hopper and FlexiBowl® compatibility**
+
+This page shows which feedings can be combined with each FlexiBowl® size. The must be chosen according to the FlexiBowl® size: a larger than the one indicated is not intended for smaller sizes.
+
+## Vibrating Bulk Feeders
+
+| Hopper | FlexiBowl® 200 | FlexiBowl® 350 | FlexiBowl® 500 | FlexiBowl® 650 | FlexiBowl® 800 | FlexiBowl® 1200 |
+|---|---|---|---|---|---|---|
+| Bulk Feeder PLASTIC 1.5 l | ✓ |  |  |  |  |  |
+| Bulk Feeder INOX 3 l |  | ✓ | ✓ |  |  |  |
+| Bulk Feeder INOX 5 l |  | ✓ | ✓ |  |  |  |
+| Bulk Feeder INOX 10 l |  | ✓ | ✓ | ✓ |  |  |
+| Bulk Feeder INOX 20 l |  |  | ✓ | ✓ | ✓ |  |
+| Bulk Feeder INOX 40 l |  |  |  | ✓ | ✓ | ✓ |
+| Bulk Feeder Lowered Wide |  |  |  | ✓ | ✓ | ✓ |
+
+## Notes
+
+- Bulk Feeder accessories (110 V version, PU coating, dosing gate, hand protection, photocells, anti-vibration kit) follow the compatibility of the tank size they refer to. See {ref}`Accessories and Options <tramoggia-accessori>`.
+- The 1.5 l Bulk Feeder is made of plastic and does not support the accessories listed.
+- For FlexiBowl® accessory compatibility (lighting, diverters, air blows, discs) see {ref}`compatibility`.
+- If in doubt, or for configurations not listed, contact ARS support.
 
 ---
 
