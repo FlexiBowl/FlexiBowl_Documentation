@@ -85,7 +85,7 @@ Cada ✓ remite a la ficha del producto del catálogo.
   - [✓](smooth-transparent)
   - [✓](smooth-transparent)
   - [✓](smooth-transparent)
-  - 
+  - [✓](smooth-transparent)
 
 * - Flexi Disc Smooth Black
   - 
@@ -621,6 +621,8 @@ Las superficies son alfombrillas circulares de material flexible y entelado y co
   - Flexi Disc Smooth Transparent FDA 650
 * - FlexiBowl® 800
   - Flexi Disc Smooth Transparent FDA 800
+* - FlexiBowl® 800
+  - Flexi Disc Smooth Transparent FDA 1200
 :::
 
 ![Flexi Disc Smooth Transparent FDA](../../../../_shared/media/images/FLATBEIGE.jpeg)

@@ -85,7 +85,7 @@ Chaque ✓ renvoie à la fiche produit du catalogue.
   - [✓](smooth-transparent)
   - [✓](smooth-transparent)
   - [✓](smooth-transparent)
-  - 
+  - [✓](smooth-transparent)
 
 * - Flexi Disc Smooth Black
   - 
@@ -621,6 +621,8 @@ Les surfaces sont des tapis circulaires en matériau toilé et flexible et const
   - Flexi Disc Smooth Transparent FDA 650
 * - FlexiBowl® 800
   - Flexi Disc Smooth Transparent FDA 800
+* - FlexiBowl® 800
+  - Flexi Disc Smooth Transparent FDA 1200
 :::
 
 ![Flexi Disc Smooth Transparent FDA](../../../../_shared/media/images/FLATBEIGE.jpeg)

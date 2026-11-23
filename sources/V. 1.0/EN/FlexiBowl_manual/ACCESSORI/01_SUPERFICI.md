@@ -85,7 +85,7 @@ Each ✓ links to the product sheet in the catalog.
   - [✓](smooth-transparent)
   - [✓](smooth-transparent)
   - [✓](smooth-transparent)
-  - 
+  - [✓](smooth-transparent)
 
 * - Flexi Disc Smooth Black
   - 
@@ -621,6 +621,8 @@ The surfaces are circular mats made of flexible, fabric-reinforced material and 
   - Flexi Disc Smooth Transparent FDA 650
 * - FlexiBowl® 800
   - Flexi Disc Smooth Transparent FDA 800
+* - FlexiBowl® 800
+  - Flexi Disc Smooth Transparent FDA 1200
 :::
 
 ![Flexi Disc Smooth Transparent FDA](../../../../_shared/media/images/FLATBEIGE.jpeg)
